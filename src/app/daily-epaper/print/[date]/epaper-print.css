@@ -1,0 +1,516 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   EPAPER PRINT STYLES — Business Daily / Economic Times / FT Color Scheme
+   Salmon / Peach Background — Optimised for A4 PDF
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Salmon / Cod colour palette (inspired by Economic Times / FT) */
+:root {
+    --ep-bg: #FFF1E5;
+    /* FT salmon */
+    --ep-bg-dark: #FFEACC;
+    /* slightly deeper peach for cards */
+    --ep-bg-accent: #FFE0B2;
+    /* warm accent strip */
+    --ep-text: #33200A;
+    /* dark warm brown */
+    --ep-text-secondary: #5C3D1A;
+    /* medium brown */
+    --ep-text-muted: #8B6B42;
+    /* muted warm */
+    --ep-rule: #C9A87C;
+    /* warm rule / border */
+    --ep-rule-dark: #8B6B42;
+    /* darker rule */
+    --ep-accent: #8B4513;
+    /* saddle brown accent */
+    --ep-highlight: #D4791C;
+    /* warm orange for highlights */
+    --ep-prelims: #006B3F;
+    /* green for prelims */
+    --ep-mains: #1A3C6E;
+    /* navy for mains */
+    --ep-label-bg: rgba(139, 69, 19, 0.08);
+}
+
+/* ── Loading state ───────────────────────────────────────────────────── */
+.epaper-print-loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: var(--ep-bg);
+    color: var(--ep-text);
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    gap: 12px;
+}
+
+/* ── Toolbar (not printed) ───────────────────────────────────────────── */
+.epaper-print-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #33200A;
+    color: #FFF1E5;
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 13px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.epaper-print-toolbar-right {
+    display: flex;
+    gap: 8px;
+}
+
+.epaper-print-btn-back {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #FFF1E5;
+    text-decoration: none;
+    opacity: 0.85;
+    transition: opacity 0.2s;
+}
+
+.epaper-print-btn-back:hover {
+    opacity: 1;
+}
+
+.epaper-print-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 6px;
+    background: var(--ep-highlight);
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.epaper-print-btn:hover {
+    background: #B85A10;
+}
+
+/* ── Print wrapper ───────────────────────────────────────────────────── */
+.epaper-print-wrapper {
+    background: var(--ep-bg);
+    font-family: 'Source Serif 4', 'Georgia', serif;
+    color: var(--ep-text);
+}
+
+/* ── A4 Page ─────────────────────────────────────────────────────────── */
+.epaper-print-page {
+    width: 210mm;
+    min-height: 297mm;
+    margin: 0 auto 30px auto;
+    padding: 18mm 15mm 15mm 15mm;
+    background: var(--ep-bg);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    position: relative;
+    box-sizing: border-box;
+    page-break-after: always;
+}
+
+/* ── Masthead ────────────────────────────────────────────────────────── */
+.epaper-print-masthead {
+    margin-bottom: 10px;
+}
+
+.epaper-print-masthead-rule {
+    height: 3px;
+    background: linear-gradient(to bottom,
+            var(--ep-rule-dark) 0px,
+            var(--ep-rule-dark) 1px,
+            transparent 1px,
+            transparent 2px,
+            var(--ep-rule-dark) 2px,
+            var(--ep-rule-dark) 3px);
+}
+
+.epaper-print-masthead-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.epaper-print-masthead-left,
+.epaper-print-masthead-right {
+    display: flex;
+    flex-direction: column;
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ep-text-muted);
+    gap: 2px;
+}
+
+.epaper-print-masthead-right {
+    text-align: right;
+}
+
+.epaper-print-masthead-center {
+    text-align: center;
+}
+
+.epaper-print-title {
+    font-family: 'Playfair Display', 'Georgia', serif;
+    font-size: 36px;
+    font-weight: 900;
+    color: var(--ep-text);
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin: 0;
+}
+
+.epaper-print-tagline {
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--ep-text-muted);
+    margin: 4px 0 0 0;
+}
+
+.epaper-print-vol,
+.epaper-print-est,
+.epaper-print-date,
+.epaper-print-pages {
+    white-space: nowrap;
+}
+
+/* ── Headlines bar ───────────────────────────────────────────────────── */
+.epaper-print-headlines-bar {
+    background: var(--ep-bg-accent);
+    border: 1px solid var(--ep-rule);
+    padding: 6px 10px;
+    margin-bottom: 14px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-size: 9px;
+    line-height: 1.4;
+}
+
+.epaper-print-headlines-label {
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-weight: 700;
+    color: var(--ep-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+    font-size: 8px;
+}
+
+.epaper-print-headlines-text {
+    color: var(--ep-text-secondary);
+    font-family: 'Source Serif 4', 'Georgia', serif;
+    font-size: 9px;
+}
+
+/* ── Lead article ────────────────────────────────────────────────────── */
+.epaper-print-lead {
+    border-bottom: 2px solid var(--ep-rule);
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+}
+
+.epaper-print-lead-category {
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ep-highlight);
+    margin-bottom: 4px;
+}
+
+.epaper-print-lead-headline {
+    font-family: 'Playfair Display', 'Georgia', serif;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.2;
+    color: var(--ep-text);
+    margin: 0 0 6px 0;
+}
+
+.epaper-print-lead-meta {
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 8px;
+    color: var(--ep-text-muted);
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.epaper-print-lead-body {
+    columns: 2;
+    column-gap: 16px;
+    column-rule: 1px solid var(--ep-rule);
+    font-size: 10px;
+    line-height: 1.6;
+    text-align: justify;
+    hyphens: auto;
+}
+
+.epaper-print-lead-body p {
+    margin: 0 0 6px 0;
+}
+
+/* ── Key terms ───────────────────────────────────────────────────────── */
+.epaper-print-key-terms {
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 8px;
+    color: var(--ep-text-secondary);
+    padding: 5px 8px;
+    background: var(--ep-label-bg);
+    border-radius: 4px;
+    margin-top: 6px;
+    line-height: 1.4;
+}
+
+.epaper-print-key-terms strong {
+    color: var(--ep-accent);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 7px;
+}
+
+/* ── Prelims / Mains pointer boxes ───────────────────────────────────── */
+.epaper-print-pointers-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.epaper-print-pointer-box {
+    border: 1px solid var(--ep-rule);
+    border-radius: 4px;
+    padding: 6px 8px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.epaper-print-pointer-title {
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ep-prelims);
+    margin-bottom: 4px;
+}
+
+.epaper-print-pointer-box:last-child .epaper-print-pointer-title {
+    color: var(--ep-mains);
+}
+
+.epaper-print-pointer-box ul {
+    margin: 0;
+    padding-left: 12px;
+    font-size: 8px;
+    line-height: 1.45;
+    color: var(--ep-text-secondary);
+}
+
+.epaper-print-pointer-box li {
+    margin-bottom: 2px;
+}
+
+/* ── Article grid (2-column newspaper) ───────────────────────────────── */
+.epaper-print-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    column-gap: 14px;
+}
+
+/* ── Individual article card ─────────────────────────────────────────── */
+.epaper-print-article {
+    border: 1px solid var(--ep-rule);
+    border-radius: 4px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.15);
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+.epaper-print-article.compact {
+    padding: 8px;
+}
+
+.epaper-print-article-cat {
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 7px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ep-highlight);
+    margin-bottom: 3px;
+}
+
+.epaper-print-article-headline {
+    font-family: 'Playfair Display', 'Georgia', serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: var(--ep-text);
+    margin: 0 0 3px 0;
+}
+
+.epaper-print-article.compact .epaper-print-article-headline {
+    font-size: 12px;
+}
+
+.epaper-print-article-source {
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 7px;
+    color: var(--ep-text-muted);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.epaper-print-article-body {
+    font-size: 9px;
+    line-height: 1.55;
+    text-align: justify;
+    hyphens: auto;
+    color: var(--ep-text-secondary);
+}
+
+.epaper-print-article-body p {
+    margin: 0 0 4px 0;
+}
+
+.epaper-print-article-summary {
+    font-size: 9px;
+    line-height: 1.5;
+    color: var(--ep-text-secondary);
+    margin: 0;
+}
+
+/* ── Section headers (GS-wise) ───────────────────────────────────────── */
+.epaper-print-section-header {
+    margin-bottom: 14px;
+}
+
+.epaper-print-section-rule {
+    height: 2px;
+    background: var(--ep-rule-dark);
+}
+
+.epaper-print-section-title {
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--ep-accent);
+    text-align: center;
+    padding: 6px 0;
+    margin: 0;
+}
+
+/* ── Page footer ─────────────────────────────────────────────────────── */
+.epaper-print-footer {
+    position: absolute;
+    bottom: 10mm;
+    left: 15mm;
+    right: 15mm;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 7px;
+    color: var(--ep-text-muted);
+    border-top: 1px solid var(--ep-rule);
+    padding-top: 4px;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   PRINT MEDIA QUERIES — A4 Optimisation
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@media print {
+    .no-print {
+        display: none !important;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: var(--ep-bg) !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+
+    @page {
+        size: A4 portrait;
+        margin: 0;
+    }
+
+    .epaper-print-wrapper {
+        background: var(--ep-bg) !important;
+    }
+
+    .epaper-print-page {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 12mm 12mm 12mm 12mm;
+        box-shadow: none;
+        page-break-after: always;
+        overflow: hidden;
+    }
+
+    .epaper-print-article {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    .epaper-print-lead-body {
+        columns: 2;
+    }
+}
+
+/* ── Responsive (small screens view) ─────────────────────────────────── */
+@media screen and (max-width: 800px) {
+    .epaper-print-page {
+        width: 100%;
+        min-height: auto;
+        padding: 16px;
+        margin: 0 0 16px 0;
+    }
+
+    .epaper-print-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .epaper-print-lead-body {
+        columns: 1;
+    }
+
+    .epaper-print-masthead-inner {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .epaper-print-masthead-left,
+    .epaper-print-masthead-right {
+        text-align: center;
+    }
+
+    .epaper-print-pointers-row {
+        grid-template-columns: 1fr;
+    }
+}

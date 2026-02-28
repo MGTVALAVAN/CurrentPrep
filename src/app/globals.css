@@ -174,3 +174,190 @@ h6 {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.line-clamp-6 {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   UPSC DAILY ePAPER — Newspaper-style Layout
+   Inspired by WSJ / The Guardian — clean, minimal, premium
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600&family=DM+Sans:wght@400;500;600;700&display=swap');
+
+/* Masthead */
+.epaper-masthead {
+  background: var(--bg-primary);
+  position: relative;
+}
+
+/* Double-rule border (newspaper style) */
+.epaper-rule-double {
+  height: 4px;
+  background: linear-gradient(
+    to bottom,
+    var(--text-primary) 0%,
+    var(--text-primary) 1px,
+    transparent 1px,
+    transparent 2px,
+    var(--text-primary) 2px,
+    var(--text-primary) 3px,
+    transparent 3px
+  );
+  opacity: 0.2;
+}
+
+/* Title typography */
+.epaper-title {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.epaper-title-divider {
+  display: inline-block;
+  margin: 0 0.4em;
+  opacity: 0.2;
+  font-weight: 300;
+}
+
+.epaper-subtitle {
+  font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .epaper-title {
+    font-size: 1.75rem;
+  }
+  .epaper-subtitle {
+    font-size: 0.75rem;
+  }
+}
+
+/* Headlines Ticker */
+.epaper-ticker {
+  background: var(--bg-secondary);
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Article Grid — 2-3 column newspaper layout */
+.epaper-articles-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .epaper-articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .epaper-articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* GS Section Separator */
+.epaper-gs-section {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--border-color);
+  margin-bottom: 0;
+}
+
+.epaper-gs-section:last-child {
+  border-bottom: none;
+}
+
+/* Article Card */
+.epaper-article-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.epaper-article-card:hover {
+  box-shadow: 0 8px 30px var(--shadow-color);
+  transform: translateY(-2px);
+  border-color: rgba(99, 102, 241, 0.2);
+}
+
+/* First article in a GS section gets full-width treatment */
+.epaper-articles-grid .epaper-article-card:first-child {
+  grid-column: 1 / -1;
+}
+
+@media (min-width: 768px) {
+  .epaper-articles-grid .epaper-article-card:first-child {
+    grid-column: 1 / -1;
+  }
+  .epaper-articles-grid .epaper-article-card:first-child .epaper-headline {
+    font-size: 1.4rem;
+  }
+}
+
+/* Headline typography */
+.epaper-headline {
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+/* Image Placeholder */
+.epaper-image-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+  border: 1px dashed var(--border-color);
+  border-radius: 0.75rem;
+  padding: 1.5rem 1rem;
+  margin-bottom: 1rem;
+  min-height: 80px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+/* Explainer text — serif for readability */
+.epaper-explainer {
+  font-family: 'Source Serif 4', 'Georgia', serif;
+  font-size: 0.9rem;
+  line-height: 1.75;
+  color: var(--text-secondary);
+}
+
+.epaper-explainer p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+@media (max-width: 640px) {
+  .epaper-explainer {
+    font-size: 0.85rem;
+    line-height: 1.65;
+  }
+  .epaper-explainer p {
+    text-align: left;
+  }
+}

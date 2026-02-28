@@ -1,0 +1,46 @@
+# GitHub Actions Workflow: Daily Current Affairs Update
+#
+# Triggers the CurrentPrep news scraping + AI categorization pipeline
+# every day at 7:00 AM IST (01:30 UTC).
+#
+# Prerequisites:
+#   Set these GitHub repo secrets:
+#   - GEMINI_API_KEY: Your Google Gemini API key
+#   - CRON_SECRET: Secret key matching your .env.local CRON_SECRET
+#   - APP_URL: Your deployed app URL (e.g. https://currentprep.vercel.app)
+
+name: Daily Current Affairs Update
+
+on:
+  schedule:
+    # 01:30 UTC = 07:00 AM IST
+    - cron: '30 1 * * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+jobs:
+  update-current-affairs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: 📰 Trigger Current Affairs Update
+        run: |
+          echo "🕐 Triggering daily update at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+
+          RESPONSE=$(curl -s -w "\n%{http_code}" \
+            -X POST "${{ secrets.APP_URL }}/api/current-affairs/update?force=true" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            -H "Content-Type: application/json")
+
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+
+          echo "HTTP Status: $HTTP_CODE"
+          echo "Response: $BODY"
+
+          if [ "$HTTP_CODE" -ne 200 ]; then
+            echo "❌ Update failed with status $HTTP_CODE"
+            exit 1
+          fi
+
+          echo "✅ Daily update completed successfully!"

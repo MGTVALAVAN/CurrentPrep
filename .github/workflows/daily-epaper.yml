@@ -1,0 +1,47 @@
+# GitHub Actions Workflow: Daily ePaper Generation
+#
+# Triggers the CurrentPrep ePaper pipeline (scrape + AI explainer generation)
+# every day at 8:00 AM IST (02:30 UTC).
+#
+# Prerequisites:
+#   Set these GitHub repo secrets:
+#   - GEMINI_API_KEY: Your Google Gemini API key
+#   - CRON_SECRET: Secret matching your .env.local CRON_SECRET
+#   - APP_URL: Your deployed app URL (e.g. https://currentprep.vercel.app)
+
+name: Daily ePaper Generation
+
+on:
+  schedule:
+    # 02:30 UTC = 08:00 AM IST
+    - cron: '30 2 * * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+jobs:
+  generate-epaper:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📰 Generate Daily ePaper
+        run: |
+          echo "🕐 Generating daily ePaper at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+
+          RESPONSE=$(curl -s -w "\n%{http_code}" \
+            -X POST "${{ secrets.APP_URL }}/api/epaper/generate?force=true" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            -H "Content-Type: application/json" \
+            --max-time 120)
+
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+
+          echo "HTTP Status: $HTTP_CODE"
+          echo "Response: $BODY"
+
+          if [ "$HTTP_CODE" -ne 200 ]; then
+            echo "❌ ePaper generation failed with status $HTTP_CODE"
+            exit 1
+          fi
+
+          echo "✅ Daily ePaper generated successfully!"
