@@ -95,8 +95,20 @@ export function getBankImageUrl(
         tags?: string[];
         keyTerms?: string[];
         imageDescription?: string;
+        date?: string;
     }
 ): string {
+    // Priority 1: Check for AI-generated image (most relevant)
+    if (articleData?.date) {
+        const genFilename = articleId
+            .toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+        const genUrl = `/images/generated/${articleData.date}/${genFilename}.jpg`;
+        // We can't do fs.existsSync on the client, so we return the generated URL
+        // and let the <img> onError handler fall back to bank image
+        // The ArticleImage component handles this gracefully
+    }
+
+    // Priority 2: Smart keyword match from bank
     const category = getBankCategory(articleCategory);
     const categoryImages = IMAGE_METADATA[category];
 

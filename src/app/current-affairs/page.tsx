@@ -86,16 +86,33 @@ function renderText(text: string): React.ReactNode[] {
 // ── Image component with local bank + gradient fallback ──────────────
 
 function ArticleImage({ article, className, height }: { article: EpaperArticle; className?: string; height?: number }) {
+    const [imgSrc, setImgSrc] = React.useState<string>('');
     const [failed, setFailed] = React.useState(false);
     const h = height || 200;
     const gradient = getCategoryGradient(article.category);
-    // Smart matching: pass article text data so the matcher picks the BEST image
-    const imgUrl = getBankImageUrl(article.id, article.category, {
-        headline: article.headline,
-        tags: article.tags,
-        keyTerms: article.keyTerms,
-        imageDescription: article.imageDescription,
-    });
+
+    // Build the image URL with priority: generated > bank
+    React.useEffect(() => {
+        // Priority 1: AI-generated image for this specific article
+        const genFilename = article.id
+            .toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+        const genUrl = `/images/generated/${article.date}/${genFilename}.jpg`;
+
+        // Priority 2: Smart-matched bank image
+        const bankUrl = getBankImageUrl(article.id, article.category, {
+            headline: article.headline,
+            tags: article.tags,
+            keyTerms: article.keyTerms,
+            imageDescription: article.imageDescription,
+            date: article.date,
+        });
+
+        // Try generated first, fall back to bank
+        const img = new Image();
+        img.onload = () => setImgSrc(genUrl);
+        img.onerror = () => setImgSrc(bankUrl); // fall back to bank
+        img.src = genUrl;
+    }, [article]);
 
     if (failed) {
         return (
@@ -120,11 +137,23 @@ function ArticleImage({ article, className, height }: { article: EpaperArticle; 
         );
     }
 
+    if (!imgSrc) {
+        // Loading state
+        return (
+            <div className={className} style={{
+                background: '#e0e0e0', height: h, borderRadius: 3,
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+            }}>
+                <Loader2 size={20} className="animate-spin" style={{ color: '#999' }} />
+            </div>
+        );
+    }
+
     return (
         // eslint-disable-next-line @next/next/no-img-element
         <img
             className={className}
-            src={imgUrl}
+            src={imgSrc}
             alt={article.imageDescription || article.headline}
             loading="lazy"
             onError={() => setFailed(true)}
@@ -202,6 +231,23 @@ export default function CurrentAffairsPage() {
             await fetchData();
         } catch (e: any) { setStatus('err'); setStatusMsg(e.message); }
         finally { setGenLoading(false); setTimeout(() => setStatus('idle'), 8000); }
+    };
+
+    const [imgGenLoading, setImgGenLoading] = useState(false);
+    const generateImages = async () => {
+        setImgGenLoading(true); setStatus('idle');
+        try {
+            const r = await fetch('/api/generate-images', { method: 'POST' });
+            const d = await r.json();
+            if (!r.ok) throw new Error(d.error || 'Image generation failed');
+            setStatus('ok');
+            setStatusMsg(`🖼️ Generated ${d.generated}/${d.total} AI images. Refresh to see them.`);
+            // Force re-render of images
+            if (d.generated > 0) {
+                setTimeout(() => window.location.reload(), 2000);
+            }
+        } catch (e: any) { setStatus('err'); setStatusMsg(e.message); }
+        finally { setImgGenLoading(false); setTimeout(() => setStatus('idle'), 10000); }
     };
 
     const filtered = useMemo(() => {
@@ -310,6 +356,11 @@ export default function CurrentAffairsPage() {
                         className="np-btn np-btn-outline">
                         {genLoading ? <><Loader2 size={13} className="animate-spin" /> Generating…</>
                             : <><RefreshCw size={13} /> Generate</>}
+                    </button>
+                    <button onClick={generateImages} disabled={imgGenLoading}
+                        className="np-btn np-btn-outline" style={{ borderColor: '#7B1FA2' }}>
+                        {imgGenLoading ? <><Loader2 size={13} className="animate-spin" /> Creating Images…</>
+                            : <><Newspaper size={13} /> 🖼️ AI Images</>}
                     </button>
                 </div>
                 <AnimatePresence>
