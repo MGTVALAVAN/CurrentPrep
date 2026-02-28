@@ -1,18 +1,23 @@
 import { NextResponse } from 'next/server';
-import { generateArticleImages } from '@/lib/image-generator';
+import { fetchArticleImages } from '@/lib/image-generator';
 import { loadLatestEpaper } from '@/lib/epaper-store';
 
 /**
  * POST /api/generate-images
- * Generates AI images for all articles in the latest ePaper using Gemini API.
- * Images are saved to public/images/generated/{date}/
+ * Fetches relevant images for all articles in the latest ePaper.
+ * Uses Pexels API (primary) + Gemini AI (fallback).
+ * 
+ * Set PEXELS_API_KEY in .env.local for Pexels (free at pexels.com/api/)
+ * Set GEMINI_API_KEY for AI generation fallback
  */
 export async function POST() {
     try {
-        const apiKey = process.env.GEMINI_API_KEY;
-        if (!apiKey) {
+        const pexelsKey = process.env.PEXELS_API_KEY;
+        const geminiKey = process.env.GEMINI_API_KEY;
+
+        if (!pexelsKey && !geminiKey) {
             return NextResponse.json(
-                { error: 'GEMINI_API_KEY not configured' },
+                { error: 'No image API configured. Set PEXELS_API_KEY (free at pexels.com/api/) or GEMINI_API_KEY in .env.local' },
                 { status: 500 }
             );
         }
@@ -26,22 +31,30 @@ export async function POST() {
             );
         }
 
-        // Generate images for all articles
+        // Prepare articles for image fetching
         const articlesToProcess = epaper.articles.map((a: any) => ({
-            id: a.id,
+            articleId: a.id,
             headline: a.headline,
             category: a.category,
             imageDescription: a.imageDescription || '',
             date: epaper.date,
+            tags: a.tags || [],
         }));
 
-        const results = await generateArticleImages(apiKey, articlesToProcess, 1, 5000);
+        // Fetch images (Pexels → Gemini fallback)
+        const results = await fetchArticleImages(
+            articlesToProcess,
+            pexelsKey,
+            geminiKey,
+            1500 // 1.5s delay between requests
+        );
 
         return NextResponse.json({
             success: true,
             date: epaper.date,
             total: articlesToProcess.length,
             generated: Object.keys(results).length,
+            source: pexelsKey ? 'pexels' : 'gemini',
             images: results,
         });
     } catch (error: any) {

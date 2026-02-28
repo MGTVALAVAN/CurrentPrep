@@ -1,7 +1,12 @@
 /**
- * CurrentPrep AI Image Generator
- * Uses Gemini API to generate relevant images for news articles.
- * Images are saved to public/images/generated/{date}/ and served statically.
+ * CurrentPrep Article Image Fetcher
+ * Uses Pexels API (free, 200 req/hr) to find relevant photos for articles.
+ * 
+ * Strategy:
+ * 1. Extract keywords from article headline + imageDescription
+ * 2. Search Pexels for relevant photos
+ * 3. Download the best match and save locally
+ * 4. Fall back to Gemini AI generation if Pexels fails
  */
 
 import fs from 'fs';
@@ -9,239 +14,177 @@ import path from 'path';
 
 const GENERATED_DIR = path.join(process.cwd(), 'public', 'images', 'generated');
 
-interface GenerateImageOptions {
+interface ArticleImageOptions {
     articleId: string;
     headline: string;
     category: string;
     imageDescription: string;
     date: string;
+    tags?: string[];
 }
 
 /**
- * Generate an image for an article using Gemini API
- * Returns the public URL path if successful, null if failed
+ * Extract search keywords from article data
  */
-export async function generateArticleImage(
-    apiKey: string,
-    options: GenerateImageOptions
-): Promise<string | null> {
-    const { articleId, headline, category, imageDescription, date } = options;
+function extractSearchQuery(options: ArticleImageOptions): string {
+    const { headline, category, imageDescription, tags } = options;
 
-    // Create date directory
-    const dateDir = path.join(GENERATED_DIR, date);
-    if (!fs.existsSync(dateDir)) {
-        fs.mkdirSync(dateDir, { recursive: true });
+    // Use imageDescription first (it's AI-crafted to be visual)
+    if (imageDescription) {
+        // Extract key nouns/phrases (remove generic words)
+        const stopWords = new Set(['a', 'an', 'the', 'of', 'in', 'for', 'and', 'or', 'to', 'with',
+            'is', 'are', 'was', 'were', 'be', 'been', 'being', 'has', 'have', 'had',
+            'its', 'it', 'that', 'this', 'their', 'from', 'on', 'at', 'by', 'as']);
+        const words = imageDescription
+            .replace(/[^a-zA-Z\s]/g, ' ')
+            .split(/\s+/)
+            .filter(w => w.length > 2 && !stopWords.has(w.toLowerCase()));
+        // Take first 4-5 meaningful words
+        return words.slice(0, 5).join(' ');
     }
 
-    // Check if image already exists
-    const filename = `${sanitizeFilename(articleId)}.jpg`;
-    const filepath = path.join(dateDir, filename);
-    const publicUrl = `/images/generated/${date}/${filename}`;
+    // Fallback: extract from headline
+    const headlineWords = headline
+        .replace(/[^a-zA-Z\s]/g, ' ')
+        .split(/\s+/)
+        .filter(w => w.length > 3)
+        .slice(0, 4);
 
-    if (fs.existsSync(filepath)) {
-        return publicUrl; // Already generated
-    }
+    // Add category context
+    const categoryMap: Record<string, string> = {
+        polity: 'India parliament government',
+        governance: 'India government administration',
+        economy: 'India economy finance',
+        ir: 'diplomacy international relations',
+        environment: 'environment nature India',
+        science: 'science technology India',
+        social: 'India society education',
+        security: 'India military defense',
+        agriculture: 'India agriculture farming',
+        history: 'India heritage culture',
+        geography: 'India landscape geography',
+        ethics: 'justice governance ethics',
+        disaster: 'disaster relief rescue',
+    };
 
-    // Build a descriptive prompt for image generation
-    const prompt = buildImagePrompt(headline, category, imageDescription);
+    const context = categoryMap[category.toLowerCase()] || 'India';
+    return [...headlineWords, ...context.split(' ').slice(0, 2)].join(' ');
+}
 
+/**
+ * Search Pexels for a relevant photo and download it
+ */
+async function fetchFromPexels(
+    pexelsKey: string,
+    query: string,
+    filepath: string
+): Promise<boolean> {
     try {
-        const imageData = await callGeminiImageAPI(apiKey, prompt);
-        if (imageData) {
-            // Save the image
-            const buffer = Buffer.from(imageData, 'base64');
-            fs.writeFileSync(filepath, buffer);
-            console.log(`[ImageGen] ✓ Generated: ${filename} (${buffer.length} bytes)`);
-            return publicUrl;
+        const encodedQuery = encodeURIComponent(query);
+        const response = await fetch(
+            `https://api.pexels.com/v1/search?query=${encodedQuery}&per_page=5&orientation=landscape`,
+            {
+                headers: { Authorization: pexelsKey },
+            }
+        );
+
+        if (!response.ok) {
+            console.log(`[ImageFetch] Pexels returned ${response.status}`);
+            return false;
         }
-    } catch (error: any) {
-        console.error(`[ImageGen] ✗ Failed for "${headline}": ${error.message}`);
+
+        const data = await response.json();
+        const photos = data.photos || [];
+
+        if (photos.length === 0) {
+            console.log(`[ImageFetch] No Pexels results for: ${query}`);
+            return false;
+        }
+
+        // Take the first (most relevant) photo
+        const photo = photos[0];
+        const imageUrl = photo.src?.large || photo.src?.medium || photo.src?.original;
+
+        if (!imageUrl) return false;
+
+        // Download the image
+        const imgResponse = await fetch(imageUrl);
+        if (!imgResponse.ok) return false;
+
+        const buffer = Buffer.from(await imgResponse.arrayBuffer());
+        fs.writeFileSync(filepath, buffer);
+        console.log(`[ImageFetch] ✓ Pexels: "${query}" → ${buffer.length} bytes (by ${photo.photographer})`);
+        return true;
+    } catch (err: any) {
+        console.log(`[ImageFetch] Pexels error: ${err.message}`);
+        return false;
     }
-
-    return null;
 }
 
 /**
- * Build a clear, descriptive prompt for news image generation
+ * Generate image using Gemini API as fallback
  */
-function buildImagePrompt(headline: string, category: string, imageDescription: string): string {
-    const desc = imageDescription || headline;
-
-    return `Generate a professional, photojournalistic-style image for a newspaper article.
-
-Topic: ${headline}
-Category: ${category}
-Visual description: ${desc}
-
-Requirements:
-- Photorealistic style, like a newspaper/news agency photo
-- Indian context (India-specific landmarks, people, settings where relevant)
-- No text, watermarks, or logos in the image
-- Professional composition, well-lit
-- 16:9 landscape aspect ratio
-- High quality, editorial/journalistic tone
-- Appropriate and dignified representation`;
-}
-
-/**
- * Call Gemini API for image generation
- * Uses gemini-2.0-flash-exp or imagen-3.0-generate-002
- */
-async function callGeminiImageAPI(apiKey: string, prompt: string): Promise<string | null> {
-    // Models that support image generation (in priority order)
+async function fetchFromGemini(
+    geminiKey: string,
+    prompt: string,
+    filepath: string
+): Promise<boolean> {
     const models = [
         'gemini-2.0-flash-exp-image-generation',
         'gemini-2.5-flash-image',
         'gemini-3.1-flash-image-preview',
     ];
 
+    const fullPrompt = `Generate a professional, photojournalistic-style newspaper photo.
+${prompt}
+Requirements: Photorealistic, Indian context where relevant, no text/watermarks, 16:9 landscape, editorial quality.`;
+
     for (const model of models) {
-        // Retry up to 3 times for rate limit (429) errors
-        for (let attempt = 0; attempt < 3; attempt++) {
+        for (let attempt = 0; attempt < 2; attempt++) {
             try {
                 const response = await fetch(
-                    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+                    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${geminiKey}`,
                     {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({
-                            contents: [{
-                                parts: [{ text: prompt }],
-                            }],
-                            generationConfig: {
-                                // Note: must include both 'Text' and 'Image' for the exp-image-generation model
-                                responseModalities: ['Text', 'Image'],
-                            },
+                            contents: [{ parts: [{ text: fullPrompt }] }],
+                            generationConfig: { responseModalities: ['Text', 'Image'] },
                         }),
                     }
                 );
 
                 if (response.status === 429) {
-                    // Rate limited — wait with exponential backoff
                     const waitMs = (attempt + 1) * 5000;
-                    console.log(`[ImageGen] Model ${model}: rate limited (429), waiting ${waitMs / 1000}s (attempt ${attempt + 1}/3)...`);
+                    console.log(`[ImageFetch] Gemini ${model}: rate limited, waiting ${waitMs / 1000}s...`);
                     await new Promise(r => setTimeout(r, waitMs));
                     continue;
                 }
 
                 if (!response.ok) {
-                    const errorText = await response.text();
-                    console.log(`[ImageGen] Model ${model} returned ${response.status}: ${errorText.slice(0, 200)}`);
-                    break; // Try next model
+                    console.log(`[ImageFetch] Gemini ${model}: ${response.status}`);
+                    break;
                 }
 
                 const data = await response.json();
-
-                // Extract image data from response
-                const candidates = data.candidates || [];
-                for (const candidate of candidates) {
-                    const parts = candidate.content?.parts || [];
-                    for (const part of parts) {
+                for (const candidate of (data.candidates || [])) {
+                    for (const part of (candidate.content?.parts || [])) {
                         if (part.inlineData?.data) {
-                            return part.inlineData.data; // base64 image data
+                            const buffer = Buffer.from(part.inlineData.data, 'base64');
+                            fs.writeFileSync(filepath, buffer);
+                            console.log(`[ImageFetch] ✓ Gemini ${model}: ${buffer.length} bytes`);
+                            return true;
                         }
                     }
                 }
-
-                console.log(`[ImageGen] Model ${model}: no image in response`);
-                break; // Try next model
+                break;
             } catch (err: any) {
-                console.log(`[ImageGen] Model ${model} error: ${err.message}`);
+                console.log(`[ImageFetch] Gemini ${model} error: ${err.message}`);
                 break;
             }
         }
     }
-
-    // Fallback: try Imagen 4.0
-    try {
-        const response = await fetch(
-            `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${apiKey}`,
-            {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    instances: [{ prompt }],
-                    parameters: {
-                        sampleCount: 1,
-                        aspectRatio: '16:9',
-                    },
-                }),
-            }
-        );
-
-        if (response.ok) {
-            const data = await response.json();
-            const predictions = data.predictions || [];
-            if (predictions.length > 0 && predictions[0].bytesBase64Encoded) {
-                return predictions[0].bytesBase64Encoded;
-            }
-        }
-    } catch (err: any) {
-        console.log(`[ImageGen] Imagen fallback error: ${err.message}`);
-    }
-
-    return null;
-}
-
-/**
- * Generate images for multiple articles (batch)
- * Returns a map of articleId → image URL
- */
-export async function generateArticleImages(
-    apiKey: string,
-    articles: Array<{
-        id: string;
-        headline: string;
-        category: string;
-        imageDescription: string;
-        date: string;
-    }>,
-    maxConcurrent: number = 2,
-    delayMs: number = 1500
-): Promise<Record<string, string>> {
-    const results: Record<string, string> = {};
-
-    console.log(`[ImageGen] Generating images for ${articles.length} articles...`);
-
-    // Process in batches to respect rate limits
-    for (let i = 0; i < articles.length; i += maxConcurrent) {
-        const batch = articles.slice(i, i + maxConcurrent);
-        const promises = batch.map(async (article) => {
-            const url = await generateArticleImage(apiKey, {
-                articleId: article.id,
-                headline: article.headline,
-                category: article.category,
-                imageDescription: article.imageDescription,
-                date: article.date,
-            });
-            if (url) {
-                results[article.id] = url;
-            }
-        });
-
-        await Promise.all(promises);
-
-        // Rate limit delay
-        if (i + maxConcurrent < articles.length) {
-            await new Promise(resolve => setTimeout(resolve, delayMs));
-        }
-    }
-
-    console.log(`[ImageGen] ✅ Generated ${Object.keys(results).length}/${articles.length} images`);
-    return results;
-}
-
-/**
- * Get the generated image URL for an article (if it exists)
- */
-export function getGeneratedImageUrl(articleId: string, date: string): string | null {
-    const filename = `${sanitizeFilename(articleId)}.jpg`;
-    const filepath = path.join(GENERATED_DIR, date, filename);
-
-    if (fs.existsSync(filepath)) {
-        return `/images/generated/${date}/${filename}`;
-    }
-    return null;
+    return false;
 }
 
 /**
@@ -254,4 +197,92 @@ function sanitizeFilename(str: string): string {
         .replace(/-+/g, '-')
         .replace(/^-|-$/g, '')
         .slice(0, 60);
+}
+
+/**
+ * Fetch and save an image for a single article
+ */
+export async function fetchArticleImage(
+    options: ArticleImageOptions,
+    pexelsKey?: string,
+    geminiKey?: string
+): Promise<string | null> {
+    const dateDir = path.join(GENERATED_DIR, options.date);
+    if (!fs.existsSync(dateDir)) {
+        fs.mkdirSync(dateDir, { recursive: true });
+    }
+
+    const filename = `${sanitizeFilename(options.articleId)}.jpg`;
+    const filepath = path.join(dateDir, filename);
+    const publicUrl = `/images/generated/${options.date}/${filename}`;
+
+    // Already exists?
+    if (fs.existsSync(filepath)) {
+        return publicUrl;
+    }
+
+    const query = extractSearchQuery(options);
+
+    // Priority 1: Pexels (free, reliable, relevant)
+    if (pexelsKey) {
+        const ok = await fetchFromPexels(pexelsKey, query, filepath);
+        if (ok) return publicUrl;
+
+        // Try a simpler query (just category + India)
+        const simpleQuery = `${options.category} India`;
+        const ok2 = await fetchFromPexels(pexelsKey, simpleQuery, filepath);
+        if (ok2) return publicUrl;
+    }
+
+    // Priority 2: Gemini AI generation
+    if (geminiKey) {
+        const prompt = options.imageDescription || options.headline;
+        const ok = await fetchFromGemini(geminiKey, prompt, filepath);
+        if (ok) return publicUrl;
+    }
+
+    return null;
+}
+
+/**
+ * Fetch images for all articles (batch)
+ */
+export async function fetchArticleImages(
+    articles: ArticleImageOptions[],
+    pexelsKey?: string,
+    geminiKey?: string,
+    delayMs: number = 1000
+): Promise<Record<string, string>> {
+    const results: Record<string, string> = {};
+
+    console.log(`[ImageFetch] Processing ${articles.length} articles...`);
+
+    for (let i = 0; i < articles.length; i++) {
+        const article = articles[i];
+        const url = await fetchArticleImage(article, pexelsKey, geminiKey);
+        if (url) {
+            results[article.articleId] = url;
+        }
+
+        // Rate limit delay
+        if (i < articles.length - 1) {
+            await new Promise(r => setTimeout(r, delayMs));
+        }
+    }
+
+    console.log(`[ImageFetch] ✅ Got ${Object.keys(results).length}/${articles.length} images`);
+    return results;
+}
+
+/**
+ * Check if a generated image exists for an article
+ */
+export function getGeneratedImageUrl(articleId: string, date: string): string | null {
+    const filename = `${sanitizeFilename(articleId)}.jpg`;
+    const filepath = path.join(GENERATED_DIR, date, filename);
+
+    if (fs.existsSync(filepath)) {
+        return `/images/generated/${date}/${filename}`;
+    }
+    return null;
 }
