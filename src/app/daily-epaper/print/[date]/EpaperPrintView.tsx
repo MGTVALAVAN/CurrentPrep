@@ -311,7 +311,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                             Source: {lead.source} · {lead.importance === 'high' ? '★ HIGH PRIORITY' : lead.importance === 'medium' ? '● MEDIUM' : '○ LOW'}
                                         </div>
                                     </div>
-                                    <PrintArticleImage articleId={lead.id} category={lead.category} description={lead.imageDescription} size="lead" />
+                                    <PrintArticleImage articleId={lead.id} category={lead.category} description={lead.imageDescription} size="lead" date={epaper.date} />
                                 </div>
                                 <div className="epaper-print-lead-body">
                                     {lead.explainer.split('\n').map((p, i) => (
@@ -395,26 +395,47 @@ export default function EpaperPrintView({ date }: { date: string }) {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────
-   Print Image Component (with fallback to gradient)
+   Print Image Component (with fallback chain: generated → bank → gradient)
    ───────────────────────────────────────────────────────────────────────── */
+
+function getGeneratedPath(articleId: string, date?: string): string {
+    const d = date || new Date().toISOString().split('T')[0];
+    const filename = (articleId || 'unnamed')
+        .toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+    return `/images/generated/${d}/${filename}.jpg`;
+}
 
 function PrintArticleImage({
     articleId,
     category,
     description,
     size = 'card',
+    date,
 }: {
     articleId: string;
     category: string;
     description: string;
     size?: 'lead' | 'card';
+    date?: string;
 }) {
-    const [error, setError] = useState(false);
-    const imageUrl = getBankImageUrl(articleId, category);
+    const generatedUrl = getGeneratedPath(articleId, date);
+    const bankUrl = getBankImageUrl(articleId, category);
     const gradient = CAT_GRADIENTS[category.toLowerCase()] || CAT_GRADIENTS.polity;
     const isLead = size === 'lead';
 
-    if (error) {
+    const [currentSrc, setCurrentSrc] = useState(generatedUrl);
+    const [stage, setStage] = useState(0); // 0=generated, 1=bank, 2=gradient
+
+    const handleError = () => {
+        if (stage === 0) {
+            setCurrentSrc(bankUrl);
+            setStage(1);
+        } else {
+            setStage(2);
+        }
+    };
+
+    if (stage >= 2) {
         return (
             <div
                 className={`epaper-print-image ${isLead ? 'epaper-print-image-lead' : 'epaper-print-image-card'}`}
@@ -429,9 +450,9 @@ function PrintArticleImage({
         <div className={`epaper-print-image ${isLead ? 'epaper-print-image-lead' : 'epaper-print-image-card'}`}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-                src={imageUrl}
+                src={currentSrc}
                 alt={description}
-                onError={() => setError(true)}
+                onError={handleError}
                 style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 crossOrigin="anonymous"
             />
@@ -455,7 +476,7 @@ function ArticleCard({
     return (
         <div className={`epaper-print-article ${compact ? 'compact' : ''}`}>
             {/* Article Image */}
-            <PrintArticleImage articleId={a.id} category={a.category} description={a.imageDescription} size="card" />
+            <PrintArticleImage articleId={a.id} category={a.category} description={a.imageDescription} size="card" date={a.date} />
 
             <div className="epaper-print-article-cat">
                 {CAT_LABELS[a.category] || a.category.toUpperCase()} · {a.gsPaper}

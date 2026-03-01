@@ -195,25 +195,65 @@ const fallbackEpaper: DailyEpaper = {
 };
 
 // ---------------------------------------------------------------------------
+// Helpers: Build smart image URL from article data
+// ---------------------------------------------------------------------------
+
+function simpleHashCode(str: string): number {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) - hash) + str.charCodeAt(i);
+        hash |= 0;
+    }
+    return Math.abs(hash);
+}
+
+function getPicsumUrl(article: EpaperArticle): string {
+    // Deterministic image selection based on article ID — same article = same photo
+    const seed = simpleHashCode(article.id + article.category);
+    const imageId = (seed % 900) + 100; // picsum IDs range ~1-1000
+    return `https://picsum.photos/id/${imageId}/800/450`;
+}
+
+function getGeneratedImagePath(article: EpaperArticle): string {
+    const filename = (article.id || 'unnamed')
+        .toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
+    return `/images/generated/${article.date}/${filename}.jpg`;
+}
+
+// ---------------------------------------------------------------------------
 // Component: Article Image (with fallback chain)
+// Priority: Generated → Bank → Picsum → Gradient
 // ---------------------------------------------------------------------------
 
 function ArticleImage({ article }: { article: EpaperArticle }) {
-    const [imgSrc, setImgSrc] = useState(() => {
-        // Try generated image first, then bank image
-        const bankUrl = getBankImageUrl(article.id, article.category, {
-            headline: article.headline,
-            tags: article.tags,
-            keyTerms: article.keyTerms,
-            imageDescription: article.imageDescription,
-            date: article.date,
-        });
-        return bankUrl;
+    // Build the fallback chain
+    const generatedUrl = getGeneratedImagePath(article);
+    const bankUrl = getBankImageUrl(article.id, article.category, {
+        headline: article.headline,
+        tags: article.tags,
+        keyTerms: article.keyTerms,
+        imageDescription: article.imageDescription,
+        date: article.date,
     });
-    const [imgError, setImgError] = useState(false);
+    const picsumUrl = getPicsumUrl(article);
+
+    const [currentSrc, setCurrentSrc] = useState(generatedUrl);
+    const [fallbackStage, setFallbackStage] = useState(0); // 0=generated, 1=bank, 2=picsum, 3=gradient
     const gradient = getCategoryGradient(article.category);
 
-    if (imgError) {
+    const handleError = () => {
+        if (fallbackStage === 0) {
+            setCurrentSrc(bankUrl);
+            setFallbackStage(1);
+        } else if (fallbackStage === 1) {
+            setCurrentSrc(picsumUrl);
+            setFallbackStage(2);
+        } else {
+            setFallbackStage(3);
+        }
+    };
+
+    if (fallbackStage >= 3) {
         return (
             <div
                 className="epaper-article-image"
@@ -241,9 +281,9 @@ function ArticleImage({ article }: { article: EpaperArticle }) {
         <div className="epaper-article-image" style={{ position: 'relative', borderRadius: '12px', overflow: 'hidden', height: '180px' }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-                src={imgSrc}
+                src={currentSrc}
                 alt={article.imageDescription || article.headline}
-                onError={() => setImgError(true)}
+                onError={handleError}
                 style={{
                     width: '100%',
                     height: '100%',
@@ -251,6 +291,7 @@ function ArticleImage({ article }: { article: EpaperArticle }) {
                     display: 'block',
                 }}
                 loading="lazy"
+                referrerPolicy="no-referrer"
             />
             {/* Gradient overlay for readability */}
             <div style={{
@@ -495,6 +536,19 @@ export default function DailyEpaperPage() {
     const [updateMessage, setUpdateMessage] = useState('');
     const [dataSource, setDataSource] = useState<'live' | 'sample'>('sample');
     const [selectedDate, setSelectedDate] = useState('');
+    const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
+    const [showInstall, setShowInstall] = useState(false);
+
+    // PWA Install Prompt
+    useEffect(() => {
+        const handler = (e: Event) => {
+            e.preventDefault();
+            setDeferredPrompt(e);
+            setShowInstall(true);
+        };
+        window.addEventListener('beforeinstallprompt', handler);
+        return () => window.removeEventListener('beforeinstallprompt', handler);
+    }, []);
 
     // Fetch ePaper data — always fresh (cache-bust with timestamp)
     const fetchEpaper = useCallback(async (date?: string) => {
@@ -763,6 +817,25 @@ export default function DailyEpaperPage() {
                                 <><RefreshCw className="w-4 h-4" />Generate Today&apos;s ePaper</>
                             )}
                         </button>
+
+                        {/* PWA Install Button */}
+                        {showInstall && (
+                            <button
+                                onClick={async () => {
+                                    if (deferredPrompt) {
+                                        deferredPrompt.prompt();
+                                        const result = await deferredPrompt.userChoice;
+                                        if (result.outcome === 'accepted') setShowInstall(false);
+                                        setDeferredPrompt(null);
+                                    }
+                                }}
+                                className="flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all duration-200 whitespace-nowrap"
+                                style={{ background: 'linear-gradient(135deg, #6366F1, #8B5CF6)', color: '#fff' }}
+                            >
+                                <Smartphone className="w-4 h-4" />
+                                Install App
+                            </button>
+                        )}
                     </div>
 
                     {/* Update Status */}

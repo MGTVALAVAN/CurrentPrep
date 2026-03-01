@@ -5,8 +5,9 @@
  *  1. Scrape all ePaper sources (RSS)
  *  2. AI processing (Gemini) — 200-300 word explainers per article
  *  3. Save structured JSON to data store
+ *  4. Auto-fetch relevant images (Pexels / Gemini)
  *
- * Protected by CRON_SECRET.
+ * Auth: Cron calls require CRON_SECRET; UI calls with ?force=true are allowed.
  * Designed to be called by:
  *  - GitHub Actions at 8:00 AM IST (02:30 UTC)
  *  - Vercel Cron
@@ -17,17 +18,20 @@ import { NextRequest, NextResponse } from 'next/server';
 import { scrapeEpaperSources } from '@/lib/epaper-scraper';
 import { generateDailyEpaper } from '@/lib/epaper-generator';
 import { saveEpaper, loadEpaper } from '@/lib/epaper-store';
+import { fetchArticleImages } from '@/lib/image-generator';
 
 export const dynamic = 'force-dynamic';
 export const maxDuration = 120; // ePaper generation can take longer
 
 export async function POST(request: NextRequest) {
     try {
-        // --- Auth check ---
+        const forceUpdate = request.nextUrl.searchParams.get('force') === 'true';
+
+        // --- Auth check (skip for UI-triggered force generation) ---
         const authHeader = request.headers.get('authorization');
         const cronSecret = process.env.CRON_SECRET;
 
-        if (cronSecret && authHeader !== `Bearer ${cronSecret}`) {
+        if (cronSecret && !forceUpdate && authHeader !== `Bearer ${cronSecret}`) {
             return NextResponse.json(
                 { error: 'Unauthorized' },
                 { status: 401 }
@@ -46,7 +50,6 @@ export async function POST(request: NextRequest) {
         // --- Check if already generated today ---
         const today = new Date().toISOString().split('T')[0];
         const existing = loadEpaper(today);
-        const forceUpdate = request.nextUrl.searchParams.get('force') === 'true';
 
         if (existing && !forceUpdate) {
             return NextResponse.json({
@@ -79,6 +82,28 @@ export async function POST(request: NextRequest) {
         console.log(
             `[epaper-api] ✅ ePaper generated: ${epaperData.articles.length} articles`
         );
+
+        // --- Step 4: Auto-fetch relevant images (non-blocking) ---
+        const pexelsKey = process.env.PEXELS_API_KEY;
+        if (pexelsKey || geminiApiKey) {
+            const articlesToProcess = epaperData.articles.map((a: any) => ({
+                articleId: a.id,
+                headline: a.headline,
+                category: a.category,
+                imageDescription: a.imageDescription || '',
+                date: epaperData.date,
+                tags: a.tags || [],
+            }));
+
+            // Fire and forget — don't block the response
+            fetchArticleImages(articlesToProcess, pexelsKey, geminiApiKey, 1500)
+                .then(results => {
+                    console.log(`[epaper-api] 🖼️ Fetched ${Object.keys(results).length} images`);
+                })
+                .catch(err => {
+                    console.error('[epaper-api] Image fetch error:', err.message);
+                });
+        }
 
         return NextResponse.json({
             message: `Successfully generated ePaper for ${today}`,
