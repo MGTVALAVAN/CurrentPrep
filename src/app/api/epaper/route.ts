@@ -18,6 +18,14 @@ import {
 } from '@/lib/epaper-store';
 
 export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
+const NO_CACHE_HEADERS = {
+    'Cache-Control': 'no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0',
+    'Pragma': 'no-cache',
+    'Expires': '0',
+    'Surrogate-Control': 'no-store',
+};
 
 export async function GET(request: NextRequest) {
     try {
@@ -35,7 +43,7 @@ export async function GET(request: NextRequest) {
                 dates,
                 totalArticles: index?.totalArticles || 0,
                 latestDate: index?.latestDate || null,
-            });
+            }, { headers: NO_CACHE_HEADERS });
         }
 
         // Load specific date or latest
@@ -48,7 +56,7 @@ export async function GET(request: NextRequest) {
                         ? `No ePaper found for date: ${date}`
                         : 'No ePaper data available yet. Trigger generation first.',
                 },
-                { status: 404 }
+                { status: 404, headers: NO_CACHE_HEADERS }
             );
         }
 
@@ -74,12 +82,12 @@ export async function GET(request: NextRequest) {
         return NextResponse.json({
             ...epaper,
             availableDates: getEpaperDates(30),
-        });
+        }, { headers: NO_CACHE_HEADERS });
     } catch (err: any) {
         console.error('[api/epaper] Error:', err.message);
         return NextResponse.json(
             { error: 'Failed to load ePaper data' },
-            { status: 500 }
+            { status: 500, headers: NO_CACHE_HEADERS }
         );
     }
 }

@@ -8,8 +8,9 @@ import {
     Globe, Scale, Leaf, Cpu, Landmark, BookOpen, TrendingUp,
     Clock, ExternalLink, RefreshCw, Loader2, Zap, CheckCircle2,
     AlertCircle, Tag, Archive, FileText, Shield, Wheat, Compass,
-    MapPin, History, CloudRain, ChevronLeft, Download
+    MapPin, History, CloudRain, ChevronLeft, Download, Smartphone
 } from 'lucide-react';
+import { getBankImageUrl, getCategoryGradient } from '@/lib/image-bank';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -194,6 +195,90 @@ const fallbackEpaper: DailyEpaper = {
 };
 
 // ---------------------------------------------------------------------------
+// Component: Article Image (with fallback chain)
+// ---------------------------------------------------------------------------
+
+function ArticleImage({ article }: { article: EpaperArticle }) {
+    const [imgSrc, setImgSrc] = useState(() => {
+        // Try generated image first, then bank image
+        const bankUrl = getBankImageUrl(article.id, article.category, {
+            headline: article.headline,
+            tags: article.tags,
+            keyTerms: article.keyTerms,
+            imageDescription: article.imageDescription,
+            date: article.date,
+        });
+        return bankUrl;
+    });
+    const [imgError, setImgError] = useState(false);
+    const gradient = getCategoryGradient(article.category);
+
+    if (imgError) {
+        return (
+            <div
+                className="epaper-article-image"
+                style={{
+                    background: gradient,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexDirection: 'column',
+                    borderRadius: '12px',
+                    height: '180px',
+                    position: 'relative',
+                    overflow: 'hidden',
+                }}
+            >
+                <Newspaper className="w-8 h-8 text-white/40" />
+                <span className="text-xs text-white/60 mt-2 px-4 text-center leading-snug">
+                    {article.imageDescription}
+                </span>
+            </div>
+        );
+    }
+
+    return (
+        <div className="epaper-article-image" style={{ position: 'relative', borderRadius: '12px', overflow: 'hidden', height: '180px' }}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+                src={imgSrc}
+                alt={article.imageDescription || article.headline}
+                onError={() => setImgError(true)}
+                style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    display: 'block',
+                }}
+                loading="lazy"
+            />
+            {/* Gradient overlay for readability */}
+            <div style={{
+                position: 'absolute',
+                bottom: 0,
+                left: 0,
+                right: 0,
+                height: '50%',
+                background: 'linear-gradient(to top, rgba(0,0,0,0.5), transparent)',
+                pointerEvents: 'none',
+            }} />
+            <span style={{
+                position: 'absolute',
+                bottom: '8px',
+                left: '10px',
+                right: '10px',
+                fontSize: '10px',
+                color: 'rgba(255,255,255,0.85)',
+                lineHeight: '1.3',
+                textShadow: '0 1px 3px rgba(0,0,0,0.5)',
+            }}>
+                {article.imageDescription}
+            </span>
+        </div>
+    );
+}
+
+// ---------------------------------------------------------------------------
 // Component: Article Card
 // ---------------------------------------------------------------------------
 
@@ -235,11 +320,8 @@ function ArticleCard({ article, index }: { article: EpaperArticle; index: number
                 {article.headline}
             </h3>
 
-            {/* Image Placeholder */}
-            <div className="epaper-image-placeholder">
-                <Newspaper className="w-6 h-6 opacity-40" />
-                <span className="text-xs opacity-60 mt-1">{article.imageDescription}</span>
-            </div>
+            {/* Article Image */}
+            <ArticleImage article={article} />
 
             {/* Explainer (truncated or full) */}
             <div className={`epaper-explainer ${!expanded ? 'line-clamp-6' : ''}`}>
@@ -414,14 +496,18 @@ export default function DailyEpaperPage() {
     const [dataSource, setDataSource] = useState<'live' | 'sample'>('sample');
     const [selectedDate, setSelectedDate] = useState('');
 
-    // Fetch ePaper data
+    // Fetch ePaper data — always fresh (cache-bust with timestamp)
     const fetchEpaper = useCallback(async (date?: string) => {
         setIsLoading(true);
         try {
             const params = new URLSearchParams();
             if (date) params.set('date', date);
+            params.set('_t', Date.now().toString()); // cache-bust
 
-            const res = await fetch(`/api/epaper?${params}`);
+            const res = await fetch(`/api/epaper?${params}`, {
+                cache: 'no-store',
+                headers: { 'Cache-Control': 'no-cache', 'Pragma': 'no-cache' },
+            });
             if (!res.ok) throw new Error('No ePaper data');
 
             const data = await res.json();

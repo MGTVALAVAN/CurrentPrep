@@ -25,6 +25,7 @@ interface EpaperArticle {
     mains: boolean;
     mainsPoints: string[];
     imageDescription: string;
+    date?: string;
 }
 
 interface DailyEpaper {
@@ -47,6 +48,13 @@ const GS_LABELS: Record<string, string> = {
     GS4: 'General Studies IV — Ethics, Integrity, Aptitude',
 };
 
+const GS_COLORS: Record<string, string> = {
+    GS1: '#8B5CF6',
+    GS2: '#3B82F6',
+    GS3: '#10B981',
+    GS4: '#F59E0B',
+};
+
 const CAT_LABELS: Record<string, string> = {
     polity: 'POLITY & CONSTITUTION', governance: 'GOVERNANCE & SCHEMES',
     economy: 'ECONOMY & FINANCE', ir: 'INTERNATIONAL RELATIONS',
@@ -56,6 +64,49 @@ const CAT_LABELS: Record<string, string> = {
     agriculture: 'AGRICULTURE', disaster: 'DISASTER MANAGEMENT',
     ethics: 'ETHICS & INTEGRITY',
 };
+
+const CAT_GRADIENTS: Record<string, string> = {
+    polity: 'linear-gradient(135deg, #0D47A1, #1976D2)',
+    governance: 'linear-gradient(135deg, #1565C0, #42A5F5)',
+    economy: 'linear-gradient(135deg, #1B5E20, #43A047)',
+    ir: 'linear-gradient(135deg, #4A148C, #7B1FA2)',
+    environment: 'linear-gradient(135deg, #00695C, #26A69A)',
+    science: 'linear-gradient(135deg, #E65100, #FF9800)',
+    social: 'linear-gradient(135deg, #880E4F, #E91E63)',
+    security: 'linear-gradient(135deg, #B71C1C, #E53935)',
+    agriculture: 'linear-gradient(135deg, #33691E, #7CB342)',
+    history: 'linear-gradient(135deg, #4E342E, #795548)',
+    geography: 'linear-gradient(135deg, #1A237E, #3F51B5)',
+    ethics: 'linear-gradient(135deg, #37474F, #607D8B)',
+    disaster: 'linear-gradient(135deg, #BF360C, #FF5722)',
+};
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Image Bank Matching (simplified for PDF — no dynamic imports)
+   ───────────────────────────────────────────────────────────────────────── */
+
+function simpleHash(str: string): number {
+    let hash = 0;
+    for (let i = 0; i < str.length; i++) {
+        hash = ((hash << 5) - hash) + str.charCodeAt(i);
+        hash |= 0;
+    }
+    return Math.abs(hash);
+}
+
+const BANK_COUNTS: Record<string, number> = {
+    polity: 20, governance: 20, economy: 23, ir: 20, environment: 20,
+    science: 20, social: 20, security: 20, agriculture: 20,
+    history: 20, geography: 20, ethics: 15, disaster: 15,
+};
+
+function getBankImageUrl(articleId: string, category: string): string {
+    const cat = category.toLowerCase();
+    const count = BANK_COUNTS[cat] || 20;
+    const idx = (simpleHash(articleId + cat) % count) + 1;
+    const paddedIdx = idx.toString().padStart(2, '0');
+    return `/images/bank/${cat}/${cat}-${paddedIdx}.jpg`;
+}
 
 /* ─────────────────────────────────────────────────────────────────────────
    Component
@@ -71,8 +122,11 @@ export default function EpaperPrintView({ date }: { date: string }) {
     useEffect(() => {
         async function load() {
             try {
-                let res = await fetch(`/api/epaper?date=${date}`);
-                if (!res.ok) res = await fetch('/api/epaper');
+                const t = Date.now();
+                let res = await fetch(`/api/epaper?date=${date}&_t=${t}`, {
+                    cache: 'no-store',
+                });
+                if (!res.ok) res = await fetch(`/api/epaper?_t=${t}`, { cache: 'no-store' });
                 if (!res.ok) throw new Error('Failed');
                 const data = await res.json();
                 if (data.articles && data.articles.length > 0) {
@@ -161,8 +215,8 @@ export default function EpaperPrintView({ date }: { date: string }) {
         return (
             <div className="epaper-print-loading">
                 <p>No ePaper available for {date}</p>
-                <a href="/current-affairs" style={{ color: '#b45309', marginTop: 12 }}>
-                    ← Back to Current Affairs
+                <a href="/daily-epaper" style={{ color: '#b45309', marginTop: 12 }}>
+                    ← Back to Daily ePaper
                 </a>
             </div>
         );
@@ -172,9 +226,9 @@ export default function EpaperPrintView({ date }: { date: string }) {
         <>
             {/* ── Toolbar (hidden when printing) ────────────────────── */}
             <div className="epaper-print-toolbar no-print">
-                <a href="/current-affairs" className="epaper-print-btn-back">
+                <a href="/daily-epaper" className="epaper-print-btn-back">
                     <ArrowLeft size={16} />
-                    Back to Current Affairs
+                    Back to Daily ePaper
                 </a>
                 <div className="epaper-print-toolbar-right">
                     {/* Primary: Download PDF file */}
@@ -242,17 +296,22 @@ export default function EpaperPrintView({ date }: { date: string }) {
                         </span>
                     </div>
 
-                    {/* Lead article */}
+                    {/* Lead article with image */}
                     {epaper.articles.length > 0 && (() => {
                         const lead = epaper.articles[0];
                         return (
                             <div className="epaper-print-lead">
-                                <div className="epaper-print-lead-category">
-                                    {CAT_LABELS[lead.category] || lead.category.toUpperCase()} · {lead.gsPaper}
-                                </div>
-                                <h2 className="epaper-print-lead-headline">{lead.headline}</h2>
-                                <div className="epaper-print-lead-meta">
-                                    Source: {lead.source} · {lead.importance === 'high' ? '★ HIGH PRIORITY' : lead.importance === 'medium' ? '● MEDIUM' : '○ LOW'}
+                                <div className="epaper-print-lead-top">
+                                    <div className="epaper-print-lead-text">
+                                        <div className="epaper-print-lead-category">
+                                            {CAT_LABELS[lead.category] || lead.category.toUpperCase()} · {lead.gsPaper}
+                                        </div>
+                                        <h2 className="epaper-print-lead-headline">{lead.headline}</h2>
+                                        <div className="epaper-print-lead-meta">
+                                            Source: {lead.source} · {lead.importance === 'high' ? '★ HIGH PRIORITY' : lead.importance === 'medium' ? '● MEDIUM' : '○ LOW'}
+                                        </div>
+                                    </div>
+                                    <PrintArticleImage articleId={lead.id} category={lead.category} description={lead.imageDescription} size="lead" />
                                 </div>
                                 <div className="epaper-print-lead-body">
                                     {lead.explainer.split('\n').map((p, i) => (
@@ -310,11 +369,11 @@ export default function EpaperPrintView({ date }: { date: string }) {
                         return (
                             <div className="epaper-print-page" key={gs}>
                                 <div className="epaper-print-section-header">
-                                    <div className="epaper-print-section-rule" />
-                                    <h2 className="epaper-print-section-title">
+                                    <div className="epaper-print-section-rule" style={{ background: GS_COLORS[gs] }} />
+                                    <h2 className="epaper-print-section-title" style={{ color: GS_COLORS[gs] }}>
                                         {GS_LABELS[gs]}
                                     </h2>
-                                    <div className="epaper-print-section-rule" />
+                                    <div className="epaper-print-section-rule" style={{ background: GS_COLORS[gs] }} />
                                 </div>
 
                                 <div className="epaper-print-grid">
@@ -336,7 +395,54 @@ export default function EpaperPrintView({ date }: { date: string }) {
 }
 
 /* ─────────────────────────────────────────────────────────────────────────
-   Article Card Sub-Component
+   Print Image Component (with fallback to gradient)
+   ───────────────────────────────────────────────────────────────────────── */
+
+function PrintArticleImage({
+    articleId,
+    category,
+    description,
+    size = 'card',
+}: {
+    articleId: string;
+    category: string;
+    description: string;
+    size?: 'lead' | 'card';
+}) {
+    const [error, setError] = useState(false);
+    const imageUrl = getBankImageUrl(articleId, category);
+    const gradient = CAT_GRADIENTS[category.toLowerCase()] || CAT_GRADIENTS.polity;
+    const isLead = size === 'lead';
+
+    if (error) {
+        return (
+            <div
+                className={`epaper-print-image ${isLead ? 'epaper-print-image-lead' : 'epaper-print-image-card'}`}
+                style={{ background: gradient }}
+            >
+                <span className="epaper-print-image-desc">{description}</span>
+            </div>
+        );
+    }
+
+    return (
+        <div className={`epaper-print-image ${isLead ? 'epaper-print-image-lead' : 'epaper-print-image-card'}`}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+                src={imageUrl}
+                alt={description}
+                onError={() => setError(true)}
+                style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                crossOrigin="anonymous"
+            />
+            <div className="epaper-print-image-overlay" />
+            <span className="epaper-print-image-desc">{description}</span>
+        </div>
+    );
+}
+
+/* ─────────────────────────────────────────────────────────────────────────
+   Article Card Sub-Component (with Image)
    ───────────────────────────────────────────────────────────────────────── */
 
 function ArticleCard({
@@ -348,6 +454,9 @@ function ArticleCard({
 }) {
     return (
         <div className={`epaper-print-article ${compact ? 'compact' : ''}`}>
+            {/* Article Image */}
+            <PrintArticleImage articleId={a.id} category={a.category} description={a.imageDescription} size="card" />
+
             <div className="epaper-print-article-cat">
                 {CAT_LABELS[a.category] || a.category.toUpperCase()} · {a.gsPaper}
             </div>

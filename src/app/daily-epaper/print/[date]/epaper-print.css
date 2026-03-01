@@ -1,34 +1,22 @@
 /* ═══════════════════════════════════════════════════════════════════════════
-   EPAPER PRINT STYLES — Business Daily / Economic Times / FT Color Scheme
+   EPAPER PRINT STYLES — FT/Economic Times-Inspired with Images
    Salmon / Peach Background — Optimised for A4 PDF
    ═══════════════════════════════════════════════════════════════════════════ */
 
 /* Salmon / Cod colour palette (inspired by Economic Times / FT) */
 :root {
     --ep-bg: #FFF1E5;
-    /* FT salmon */
     --ep-bg-dark: #FFEACC;
-    /* slightly deeper peach for cards */
     --ep-bg-accent: #FFE0B2;
-    /* warm accent strip */
     --ep-text: #33200A;
-    /* dark warm brown */
     --ep-text-secondary: #5C3D1A;
-    /* medium brown */
     --ep-text-muted: #8B6B42;
-    /* muted warm */
     --ep-rule: #C9A87C;
-    /* warm rule / border */
     --ep-rule-dark: #8B6B42;
-    /* darker rule */
     --ep-accent: #8B4513;
-    /* saddle brown accent */
     --ep-highlight: #D4791C;
-    /* warm orange for highlights */
     --ep-prelims: #006B3F;
-    /* green for prelims */
     --ep-mains: #1A3C6E;
-    /* navy for mains */
     --ep-label-bg: rgba(139, 69, 19, 0.08);
 }
 
@@ -217,11 +205,22 @@
     font-size: 9px;
 }
 
-/* ── Lead article ────────────────────────────────────────────────────── */
+/* ── Lead article — Side by side with image ──────────────────────────── */
 .epaper-print-lead {
     border-bottom: 2px solid var(--ep-rule);
     padding-bottom: 14px;
     margin-bottom: 14px;
+}
+
+.epaper-print-lead-top {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 10px;
+}
+
+.epaper-print-lead-text {
+    flex: 1;
+    min-width: 0;
 }
 
 .epaper-print-lead-category {
@@ -264,6 +263,56 @@
 
 .epaper-print-lead-body p {
     margin: 0 0 6px 0;
+}
+
+/* ── Article Images ──────────────────────────────────────────────────── */
+.epaper-print-image {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.epaper-print-image-lead {
+    width: 200px;
+    height: 140px;
+}
+
+.epaper-print-image-card {
+    width: 100%;
+    height: 90px;
+    margin-bottom: 6px;
+}
+
+.epaper-print-image img {
+    border-radius: 4px;
+}
+
+.epaper-print-image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.45), transparent);
+    pointer-events: none;
+    border-radius: 0 0 4px 4px;
+}
+
+.epaper-print-image-desc {
+    position: absolute;
+    bottom: 4px;
+    left: 6px;
+    right: 6px;
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 7px;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.3;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 /* ── Key terms ───────────────────────────────────────────────────────── */
@@ -399,7 +448,7 @@
     margin: 0;
 }
 
-/* ── Section headers (GS-wise) ───────────────────────────────────────── */
+/* ── Section headers (GS-wise) — colored ─────────────────────────────── */
 .epaper-print-section-header {
     margin-bottom: 14px;
 }
@@ -481,6 +530,16 @@
     .epaper-print-lead-body {
         columns: 2;
     }
+
+    .epaper-print-image img {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    .epaper-print-image-overlay {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
 }
 
 /* ── Responsive (small screens view) ─────────────────────────────────── */
@@ -500,6 +559,15 @@
         columns: 1;
     }
 
+    .epaper-print-lead-top {
+        flex-direction: column;
+    }
+
+    .epaper-print-image-lead {
+        width: 100%;
+        height: 160px;
+    }
+
     .epaper-print-masthead-inner {
         flex-direction: column;
         gap: 4px;
@@ -512,5 +580,21 @@
 
     .epaper-print-pointers-row {
         grid-template-columns: 1fr;
+    }
+
+    .epaper-print-toolbar {
+        flex-direction: column;
+        gap: 8px;
+        padding: 12px 16px;
+    }
+
+    .epaper-print-toolbar-right {
+        width: 100%;
+        justify-content: stretch;
+    }
+
+    .epaper-print-toolbar-right .epaper-print-btn {
+        flex: 1;
+        justify-content: center;
     }
 }

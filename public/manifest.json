@@ -1,12 +1,12 @@
 {
-    "name": "CurrentPrep – CSE SelfStudy Hub",
+    "name": "CurrentPrep — UPSC Daily ePaper",
     "short_name": "CurrentPrep",
-    "description": "Where Aspirants Become Achievers – Free UPSC Civil Services Exam self-study resources and coaching",
-    "start_url": "/",
+    "description": "AI-powered daily ePaper for UPSC Civil Services aspirants. Syllabus-aligned current affairs with Prelims & Mains pointers.",
+    "start_url": "/daily-epaper",
     "display": "standalone",
-    "background_color": "#0F172A",
-    "theme_color": "#1E3A8A",
-    "orientation": "portrait-primary",
+    "background_color": "#0A0F1C",
+    "theme_color": "#1a365d",
+    "orientation": "any",
     "icons": [
         {
             "src": "/icons/icon-192.png",
@@ -23,8 +23,25 @@
     ],
     "categories": [
         "education",
-        "productivity"
+        "news"
     ],
-    "lang": "en",
-    "dir": "ltr"
+    "lang": "en-IN",
+    "dir": "ltr",
+    "shortcuts": [
+        {
+            "name": "Today's ePaper",
+            "url": "/daily-epaper",
+            "description": "View today's UPSC current affairs ePaper"
+        },
+        {
+            "name": "Archive",
+            "url": "/daily-epaper/archive",
+            "description": "Browse past ePapers"
+        },
+        {
+            "name": "UPSC Syllabus",
+            "url": "/syllabus",
+            "description": "UPSC Civil Services Exam syllabus"
+        }
+    ]
 }
