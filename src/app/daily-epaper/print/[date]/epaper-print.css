@@ -252,6 +252,7 @@
 }
 
 .epaper-print-lead-body {
+    font-family: 'Source Serif 4', 'Georgia', serif;
     columns: 2;
     column-gap: 16px;
     column-rule: 1px solid var(--ep-rule);
@@ -263,56 +264,6 @@
 
 .epaper-print-lead-body p {
     margin: 0 0 6px 0;
-}
-
-/* ── Article Images ──────────────────────────────────────────────────── */
-.epaper-print-image {
-    position: relative;
-    overflow: hidden;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-}
-
-.epaper-print-image-lead {
-    width: 200px;
-    height: 140px;
-}
-
-.epaper-print-image-card {
-    width: 100%;
-    height: 90px;
-    margin-bottom: 6px;
-}
-
-.epaper-print-image img {
-    border-radius: 4px;
-}
-
-.epaper-print-image-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.45), transparent);
-    pointer-events: none;
-    border-radius: 0 0 4px 4px;
-}
-
-.epaper-print-image-desc {
-    position: absolute;
-    bottom: 4px;
-    left: 6px;
-    right: 6px;
-    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
-    font-size: 7px;
-    color: rgba(255, 255, 255, 0.85);
-    line-height: 1.3;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-    z-index: 1;
 }
 
 /* ── Key terms ───────────────────────────────────────────────────────── */
@@ -379,22 +330,25 @@
 .epaper-print-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    column-gap: 14px;
+    gap: 16px;
 }
 
 /* ── Individual article card ─────────────────────────────────────────── */
 .epaper-print-article {
     border: 1px solid var(--ep-rule);
+    border-bottom: 2px solid var(--ep-rule);
     border-radius: 4px;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.15);
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
     break-inside: avoid;
     page-break-inside: avoid;
+    display: flex;
+    flex-direction: column;
 }
 
 .epaper-print-article.compact {
-    padding: 8px;
+    padding: 10px;
 }
 
 .epaper-print-article-cat {
@@ -430,6 +384,7 @@
 }
 
 .epaper-print-article-body {
+    font-family: 'Source Serif 4', 'Georgia', serif;
     font-size: 9px;
     line-height: 1.55;
     text-align: justify;
@@ -442,6 +397,7 @@
 }
 
 .epaper-print-article-summary {
+    font-family: 'Source Serif 4', 'Georgia', serif;
     font-size: 9px;
     line-height: 1.5;
     color: var(--ep-text-secondary);
@@ -530,16 +486,6 @@
     .epaper-print-lead-body {
         columns: 2;
     }
-
-    .epaper-print-image img {
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-    }
-
-    .epaper-print-image-overlay {
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-    }
 }
 
 /* ── Responsive (small screens view) ─────────────────────────────────── */
@@ -561,11 +507,6 @@
 
     .epaper-print-lead-top {
         flex-direction: column;
-    }
-
-    .epaper-print-image-lead {
-        width: 100%;
-        height: 160px;
     }
 
     .epaper-print-masthead-inner {

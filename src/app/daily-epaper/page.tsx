@@ -10,7 +10,6 @@ import {
     AlertCircle, Tag, Archive, FileText, Shield, Wheat, Compass,
     MapPin, History, CloudRain, ChevronLeft, Download, Smartphone
 } from 'lucide-react';
-import { getBankImageUrl, getCategoryGradient } from '@/lib/image-bank';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -195,130 +194,6 @@ const fallbackEpaper: DailyEpaper = {
 };
 
 // ---------------------------------------------------------------------------
-// Helpers: Build smart image URL from article data
-// ---------------------------------------------------------------------------
-
-function simpleHashCode(str: string): number {
-    let hash = 0;
-    for (let i = 0; i < str.length; i++) {
-        hash = ((hash << 5) - hash) + str.charCodeAt(i);
-        hash |= 0;
-    }
-    return Math.abs(hash);
-}
-
-function getPicsumUrl(article: EpaperArticle): string {
-    // Deterministic image selection based on article ID — same article = same photo
-    const seed = simpleHashCode(article.id + article.category);
-    const imageId = (seed % 900) + 100; // picsum IDs range ~1-1000
-    return `https://picsum.photos/id/${imageId}/800/450`;
-}
-
-function getGeneratedImagePath(article: EpaperArticle): string {
-    const filename = (article.id || 'unnamed')
-        .toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
-    return `/images/generated/${article.date}/${filename}.jpg`;
-}
-
-// ---------------------------------------------------------------------------
-// Component: Article Image (with fallback chain)
-// Priority: Generated → Bank → Picsum → Gradient
-// ---------------------------------------------------------------------------
-
-function ArticleImage({ article }: { article: EpaperArticle }) {
-    // Build the fallback chain
-    const generatedUrl = getGeneratedImagePath(article);
-    const bankUrl = getBankImageUrl(article.id, article.category, {
-        headline: article.headline,
-        tags: article.tags,
-        keyTerms: article.keyTerms,
-        imageDescription: article.imageDescription,
-        date: article.date,
-    });
-    const picsumUrl = getPicsumUrl(article);
-
-    const [currentSrc, setCurrentSrc] = useState(generatedUrl);
-    const [fallbackStage, setFallbackStage] = useState(0); // 0=generated, 1=bank, 2=picsum, 3=gradient
-    const gradient = getCategoryGradient(article.category);
-
-    const handleError = () => {
-        if (fallbackStage === 0) {
-            setCurrentSrc(bankUrl);
-            setFallbackStage(1);
-        } else if (fallbackStage === 1) {
-            setCurrentSrc(picsumUrl);
-            setFallbackStage(2);
-        } else {
-            setFallbackStage(3);
-        }
-    };
-
-    if (fallbackStage >= 3) {
-        return (
-            <div
-                className="epaper-article-image"
-                style={{
-                    background: gradient,
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    flexDirection: 'column',
-                    borderRadius: '12px',
-                    height: '180px',
-                    position: 'relative',
-                    overflow: 'hidden',
-                }}
-            >
-                <Newspaper className="w-8 h-8 text-white/40" />
-                <span className="text-xs text-white/60 mt-2 px-4 text-center leading-snug">
-                    {article.imageDescription}
-                </span>
-            </div>
-        );
-    }
-
-    return (
-        <div className="epaper-article-image" style={{ position: 'relative', borderRadius: '12px', overflow: 'hidden', height: '180px' }}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-                src={currentSrc}
-                alt={article.imageDescription || article.headline}
-                onError={handleError}
-                style={{
-                    width: '100%',
-                    height: '100%',
-                    objectFit: 'cover',
-                    display: 'block',
-                }}
-                loading="lazy"
-                referrerPolicy="no-referrer"
-            />
-            {/* Gradient overlay for readability */}
-            <div style={{
-                position: 'absolute',
-                bottom: 0,
-                left: 0,
-                right: 0,
-                height: '50%',
-                background: 'linear-gradient(to top, rgba(0,0,0,0.5), transparent)',
-                pointerEvents: 'none',
-            }} />
-            <span style={{
-                position: 'absolute',
-                bottom: '8px',
-                left: '10px',
-                right: '10px',
-                fontSize: '10px',
-                color: 'rgba(255,255,255,0.85)',
-                lineHeight: '1.3',
-                textShadow: '0 1px 3px rgba(0,0,0,0.5)',
-            }}>
-                {article.imageDescription}
-            </span>
-        </div>
-    );
-}
-
 // ---------------------------------------------------------------------------
 // Component: Article Card
 // ---------------------------------------------------------------------------
@@ -336,6 +211,7 @@ function ArticleCard({ article, index }: { article: EpaperArticle; index: number
             viewport={{ once: true }}
             className="epaper-article-card group"
             id={`article-${article.id}`}
+            style={{ borderTop: `4px solid ${GS_COLORS[article.gsPaper] || '#8B4513'}` }}
         >
             {/* GS Paper Badge + Importance */}
             <div className="flex items-center justify-between gap-2 mb-3">
@@ -361,17 +237,14 @@ function ArticleCard({ article, index }: { article: EpaperArticle; index: number
                 {article.headline}
             </h3>
 
-            {/* Article Image */}
-            <ArticleImage article={article} />
-
             {/* Explainer (truncated or full) */}
             <div className={`epaper-explainer ${!expanded ? 'line-clamp-6' : ''}`}>
-                {article.explainer.split('\n\n').map((para, i) => (
+                {(Array.isArray(article.explainer) ? article.explainer : String(article.explainer || '').split('\n\n')).map((para, i) => (
                     <p key={i} className="mb-3 last:mb-0">{para}</p>
                 ))}
             </div>
 
-            {article.explainer.length > 400 && (
+            {article.explainer && article.explainer.length > 400 && (
                 <button
                     onClick={() => setExpanded(!expanded)}
                     className="text-xs font-medium text-accent-500 hover:text-accent-400 mt-1 flex items-center gap-1"
@@ -664,7 +537,7 @@ export default function DailyEpaperPage() {
                         <span className="uppercase tracking-widest font-medium">
                             {dataSource === 'live' ? 'Live Edition' : 'Sample Edition'}
                         </span>
-                        <span className="font-medium">
+                        <span className="font-medium" suppressHydrationWarning>
                             {epaper.dateFormatted || new Date().toLocaleDateString('en-IN', {
                                 weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
                             })}
@@ -674,12 +547,18 @@ export default function DailyEpaperPage() {
                     {/* Title */}
                     <div className="text-center py-4">
                         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>
-                            <h1 className="epaper-title">
-                                <span className="text-primary-800 dark:text-primary-300">Current</span>
-                                <span className="text-accent-500">Prep</span>
-                                <span className="epaper-title-divider">|</span>
-                                <span style={{ color: 'var(--text-primary)' }}>Daily ePaper</span>
-                            </h1>
+                            <div className="flex flex-col sm:flex-row justify-center items-center gap-5">
+                                <div className="bg-[#E3120B] p-2 md:p-3 rounded-2xl shadow-md flex items-center justify-center gap-3 md:gap-4 transition-transform hover:scale-[1.02] flex-shrink-0">
+                                    <img src="/images/logo_globe.png?v=2" alt="Globe Icon" className="h-10 md:h-14 w-auto object-contain drop-shadow-sm flex-shrink-0" />
+                                    <div className="bg-white px-3 py-1.5 md:py-2 rounded-xl shadow-sm flex items-center justify-center flex-shrink-0">
+                                        <img src="/images/logo_text.png?v=2" alt="Current IAS Prep" className="h-8 md:h-10 w-auto object-contain" />
+                                    </div>
+                                </div>
+                                <h1 className="epaper-title flex items-center gap-3">
+                                    <span className="hidden sm:inline epaper-title-divider">|</span>
+                                    <span style={{ color: 'var(--text-primary)' }}>Daily ePaper</span>
+                                </h1>
+                            </div>
                             <p className="epaper-subtitle">
                                 Syllabus-aligned current affairs for Prelims & Mains
                             </p>
@@ -985,7 +864,9 @@ export default function DailyEpaperPage() {
                             <div className="mt-3 pt-2 border-t text-[10px] flex items-center gap-1.5"
                                 style={{ borderColor: 'var(--border-color)', color: 'var(--text-muted)' }}>
                                 <Clock className="w-3 h-3" />
-                                Last: {new Date(epaper.lastUpdated).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
+                                <span className="opacity-75 relative bottom-[1px]" suppressHydrationWarning>
+                                    Last: {new Date(epaper.lastUpdated).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
+                                </span>
                             </div>
                         )}
                     </div>

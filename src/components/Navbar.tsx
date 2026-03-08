@@ -32,17 +32,20 @@ export default function Navbar() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center gap-2 group">
-                        <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-primary-800 to-accent-500 flex items-center justify-center shadow-lg group-hover:shadow-accent-500/30 transition-shadow">
-                            <BookOpen className="w-5 h-5 text-white" />
-                        </div>
-                        <div className="hidden sm:block">
-                            <span className="font-heading font-bold text-lg gradient-text leading-tight block">
-                                {t('site_name')}
-                            </span>
-                            <span className="text-[10px] font-medium leading-none block" style={{ color: 'var(--text-muted)' }}>
-                                CSE SelfStudy Hub
-                            </span>
+                    <Link href="/" className="flex items-center group shrink min-w-0">
+                        <div className="bg-[#E3120B] p-1.5 md:p-2 rounded-xl flex shrink min-w-0 items-center justify-center gap-2 transition-transform group-hover:scale-[1.02] shadow-sm">
+                            <img
+                                src="/images/logo_globe.png?v=2"
+                                alt="Globe Icon"
+                                className="h-6 md:h-8 w-auto object-contain drop-shadow-sm shrink-0"
+                            />
+                            <div className="bg-white px-2 py-1 md:py-1.5 rounded-lg shadow-sm flex items-center justify-center shrink min-w-0">
+                                <img
+                                    src="/images/logo_text.png?v=2"
+                                    alt="Current IAS Prep"
+                                    className="h-4 md:h-6 w-auto object-contain shrink min-w-0"
+                                />
+                            </div>
                         </div>
                     </Link>
 

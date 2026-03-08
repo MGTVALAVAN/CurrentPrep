@@ -11,7 +11,7 @@ import './epaper-print.css';
 interface EpaperArticle {
     id: string;
     headline: string;
-    explainer: string;
+    explainer: string | Record<string, string>;
     category: string;
     gsPaper: string;
     gsSubTopics: string[];
@@ -65,47 +65,25 @@ const CAT_LABELS: Record<string, string> = {
     ethics: 'ETHICS & INTEGRITY',
 };
 
-const CAT_GRADIENTS: Record<string, string> = {
-    polity: 'linear-gradient(135deg, #0D47A1, #1976D2)',
-    governance: 'linear-gradient(135deg, #1565C0, #42A5F5)',
-    economy: 'linear-gradient(135deg, #1B5E20, #43A047)',
-    ir: 'linear-gradient(135deg, #4A148C, #7B1FA2)',
-    environment: 'linear-gradient(135deg, #00695C, #26A69A)',
-    science: 'linear-gradient(135deg, #E65100, #FF9800)',
-    social: 'linear-gradient(135deg, #880E4F, #E91E63)',
-    security: 'linear-gradient(135deg, #B71C1C, #E53935)',
-    agriculture: 'linear-gradient(135deg, #33691E, #7CB342)',
-    history: 'linear-gradient(135deg, #4E342E, #795548)',
-    geography: 'linear-gradient(135deg, #1A237E, #3F51B5)',
-    ethics: 'linear-gradient(135deg, #37474F, #607D8B)',
-    disaster: 'linear-gradient(135deg, #BF360C, #FF5722)',
-};
-
 /* ─────────────────────────────────────────────────────────────────────────
-   Image Bank Matching (simplified for PDF — no dynamic imports)
+   Markdown-lite renderer (strips **bold** → <strong>)
    ───────────────────────────────────────────────────────────────────────── */
 
-function simpleHash(str: string): number {
-    let hash = 0;
-    for (let i = 0; i < str.length; i++) {
-        hash = ((hash << 5) - hash) + str.charCodeAt(i);
-        hash |= 0;
-    }
-    return Math.abs(hash);
-}
+function renderText(textStr: string | Record<string, string>): React.ReactNode[] {
+    const text = typeof textStr === 'string'
+        ? textStr
+        : Object.entries(textStr || {}).map(([k, v]) => `**${k}:** ${v}`).join('\n');
 
-const BANK_COUNTS: Record<string, number> = {
-    polity: 20, governance: 20, economy: 23, ir: 20, environment: 20,
-    science: 20, social: 20, security: 20, agriculture: 20,
-    history: 20, geography: 20, ethics: 15, disaster: 15,
-};
-
-function getBankImageUrl(articleId: string, category: string): string {
-    const cat = category.toLowerCase();
-    const count = BANK_COUNTS[cat] || 20;
-    const idx = (simpleHash(articleId + cat) % count) + 1;
-    const paddedIdx = idx.toString().padStart(2, '0');
-    return `/images/bank/${cat}/${cat}-${paddedIdx}.jpg`;
+    return text.split('\n').map((para, i) => {
+        const parts = para.split(/\*\*(.*?)\*\*/g);
+        return (
+            <p key={i}>
+                {parts.map((part, j) =>
+                    j % 2 === 1 ? <strong key={j}>{part}</strong> : part
+                )}
+            </p>
+        );
+    });
 }
 
 /* ─────────────────────────────────────────────────────────────────────────
@@ -180,7 +158,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
             }
 
             // Save the PDF file → goes directly to Downloads folder
-            pdf.save(`CurrentPrep-ePaper-${epaper.date}.pdf`);
+            pdf.save(`CurrentIAS-Prep-ePaper-${epaper.date}.pdf`);
             setDownloaded(true);
             setTimeout(() => setDownloaded(false), 4000);
         } catch (err) {
@@ -277,7 +255,14 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                 <span className="epaper-print-est">Est. 2026</span>
                             </div>
                             <div className="epaper-print-masthead-center">
-                                <h1 className="epaper-print-title">CurrentPrep</h1>
+                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '14px 0' }}>
+                                    <div style={{ backgroundColor: '#E3120B', display: 'flex', alignItems: 'center', gap: '16px', padding: '10px 14px', borderRadius: '12px' }}>
+                                        <img src="/images/logo_globe.png?v=2" alt="Globe Icon" style={{ height: '40px', objectFit: 'contain' }} crossOrigin="anonymous" />
+                                        <div style={{ backgroundColor: 'white', padding: '6px 12px', borderRadius: '8px', display: 'flex', alignItems: 'center' }}>
+                                            <img src="/images/logo_text.png?v=2" alt="Current IAS Prep" style={{ height: '24px', objectFit: 'contain' }} crossOrigin="anonymous" />
+                                        </div>
+                                    </div>
+                                </div>
                                 <p className="epaper-print-tagline">UPSC CIVIL SERVICES ePAPER</p>
                             </div>
                             <div className="epaper-print-masthead-right">
@@ -300,7 +285,10 @@ export default function EpaperPrintView({ date }: { date: string }) {
                     {epaper.articles.length > 0 && (() => {
                         const lead = epaper.articles[0];
                         return (
-                            <div className="epaper-print-lead">
+                            <div
+                                className="epaper-print-lead"
+                                style={{ borderTop: `4px solid ${GS_COLORS[lead.gsPaper] || '#8B4513'}`, paddingTop: '14px' }}
+                            >
                                 <div className="epaper-print-lead-top">
                                     <div className="epaper-print-lead-text">
                                         <div className="epaper-print-lead-category">
@@ -311,12 +299,9 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                             Source: {lead.source} · {lead.importance === 'high' ? '★ HIGH PRIORITY' : lead.importance === 'medium' ? '● MEDIUM' : '○ LOW'}
                                         </div>
                                     </div>
-                                    <PrintArticleImage articleId={lead.id} category={lead.category} description={lead.imageDescription} size="lead" date={epaper.date} />
                                 </div>
                                 <div className="epaper-print-lead-body">
-                                    {lead.explainer.split('\n').map((p, i) => (
-                                        <p key={i}>{p}</p>
-                                    ))}
+                                    {renderText(lead.explainer)}
                                 </div>
                                 <div className="epaper-print-key-terms">
                                     <strong>Key Terms:</strong> {lead.keyTerms.join(' · ')}
@@ -351,119 +336,53 @@ export default function EpaperPrintView({ date }: { date: string }) {
                     </div>
 
                     <div className="epaper-print-footer">
-                        <span>CurrentPrep · currentprep.in</span>
+                        <span>CurrentIAS Prep · currentiasprep.in</span>
                         <span>Page 1</span>
                     </div>
-                </div>
+                </div >
 
                 {/* === REMAINING PAGES: GS-wise === */}
-                {(['GS2', 'GS3', 'GS1', 'GS4'] as const)
-                    .filter((gs) => grouped[gs] && grouped[gs].length > 0)
-                    .map((gs, pageIdx) => {
-                        const articles = grouped[gs];
-                        const remaining = articles.filter(
-                            (a) => !epaper.articles.slice(0, 5).some((fa) => fa.id === a.id)
-                        );
-                        if (remaining.length === 0) return null;
+                {
+                    (['GS2', 'GS3', 'GS1', 'GS4'] as const)
+                        .filter((gs) => grouped[gs] && grouped[gs].length > 0)
+                        .map((gs, pageIdx) => {
+                            const articles = grouped[gs];
+                            const remaining = articles.filter(
+                                (a) => !epaper.articles.slice(0, 5).some((fa) => fa.id === a.id)
+                            );
+                            if (remaining.length === 0) return null;
 
-                        return (
-                            <div className="epaper-print-page" key={gs}>
-                                <div className="epaper-print-section-header">
-                                    <div className="epaper-print-section-rule" style={{ background: GS_COLORS[gs] }} />
-                                    <h2 className="epaper-print-section-title" style={{ color: GS_COLORS[gs] }}>
-                                        {GS_LABELS[gs]}
-                                    </h2>
-                                    <div className="epaper-print-section-rule" style={{ background: GS_COLORS[gs] }} />
-                                </div>
+                            return (
+                                <div className="epaper-print-page" key={gs}>
+                                    <div className="epaper-print-section-header">
+                                        <div className="epaper-print-section-rule" style={{ background: GS_COLORS[gs] }} />
+                                        <h2 className="epaper-print-section-title" style={{ color: GS_COLORS[gs] }}>
+                                            {GS_LABELS[gs]}
+                                        </h2>
+                                        <div className="epaper-print-section-rule" style={{ background: GS_COLORS[gs] }} />
+                                    </div>
 
-                                <div className="epaper-print-grid">
-                                    {remaining.map((a) => (
-                                        <ArticleCard key={a.id} article={a} />
-                                    ))}
-                                </div>
+                                    <div className="epaper-print-grid">
+                                        {remaining.map((a) => (
+                                            <ArticleCard key={a.id} article={a} />
+                                        ))}
+                                    </div>
 
-                                <div className="epaper-print-footer">
-                                    <span>CurrentPrep Daily ePaper · {epaper.dateFormatted}</span>
-                                    <span>Page {pageIdx + 2}</span>
+                                    <div className="epaper-print-footer">
+                                        <span>CurrentIAS Prep Daily ePaper · {epaper.dateFormatted}</span>
+                                        <span>Page {pageIdx + 2}</span>
+                                    </div>
                                 </div>
-                            </div>
-                        );
-                    })}
-            </div>
+                            );
+                        })
+                }
+            </div >
         </>
     );
 }
 
 /* ─────────────────────────────────────────────────────────────────────────
-   Print Image Component (with fallback chain: generated → bank → gradient)
-   ───────────────────────────────────────────────────────────────────────── */
-
-function getGeneratedPath(articleId: string, date?: string): string {
-    const d = date || new Date().toISOString().split('T')[0];
-    const filename = (articleId || 'unnamed')
-        .toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
-    return `/images/generated/${d}/${filename}.jpg`;
-}
-
-function PrintArticleImage({
-    articleId,
-    category,
-    description,
-    size = 'card',
-    date,
-}: {
-    articleId: string;
-    category: string;
-    description: string;
-    size?: 'lead' | 'card';
-    date?: string;
-}) {
-    const generatedUrl = getGeneratedPath(articleId, date);
-    const bankUrl = getBankImageUrl(articleId, category);
-    const gradient = CAT_GRADIENTS[category.toLowerCase()] || CAT_GRADIENTS.polity;
-    const isLead = size === 'lead';
-
-    const [currentSrc, setCurrentSrc] = useState(generatedUrl);
-    const [stage, setStage] = useState(0); // 0=generated, 1=bank, 2=gradient
-
-    const handleError = () => {
-        if (stage === 0) {
-            setCurrentSrc(bankUrl);
-            setStage(1);
-        } else {
-            setStage(2);
-        }
-    };
-
-    if (stage >= 2) {
-        return (
-            <div
-                className={`epaper-print-image ${isLead ? 'epaper-print-image-lead' : 'epaper-print-image-card'}`}
-                style={{ background: gradient }}
-            >
-                <span className="epaper-print-image-desc">{description}</span>
-            </div>
-        );
-    }
-
-    return (
-        <div className={`epaper-print-image ${isLead ? 'epaper-print-image-lead' : 'epaper-print-image-card'}`}>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-                src={currentSrc}
-                alt={description}
-                onError={handleError}
-                style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-                crossOrigin="anonymous"
-            />
-            <div className="epaper-print-image-overlay" />
-            <span className="epaper-print-image-desc">{description}</span>
-        </div>
-    );
-}
-
-/* ─────────────────────────────────────────────────────────────────────────
-   Article Card Sub-Component (with Image)
+   Article Card Sub-Component
    ───────────────────────────────────────────────────────────────────────── */
 
 function ArticleCard({
@@ -474,9 +393,10 @@ function ArticleCard({
     compact?: boolean;
 }) {
     return (
-        <div className={`epaper-print-article ${compact ? 'compact' : ''}`}>
-            {/* Article Image */}
-            <PrintArticleImage articleId={a.id} category={a.category} description={a.imageDescription} size="card" date={a.date} />
+        <div
+            className={`epaper-print-article ${compact ? 'compact' : ''}`}
+            style={{ borderTop: `4px solid ${GS_COLORS[a.gsPaper] || '#8B4513'}` }}
+        >
 
             <div className="epaper-print-article-cat">
                 {CAT_LABELS[a.category] || a.category.toUpperCase()} · {a.gsPaper}
@@ -489,9 +409,7 @@ function ArticleCard({
             {!compact && (
                 <>
                     <div className="epaper-print-article-body">
-                        {a.explainer.split('\n').map((p, i) => (
-                            <p key={i}>{p}</p>
-                        ))}
+                        {renderText(a.explainer)}
                     </div>
 
                     <div className="epaper-print-key-terms">
@@ -521,7 +439,10 @@ function ArticleCard({
 
             {compact && (
                 <p className="epaper-print-article-summary">
-                    {a.explainer.split('\n')[0]?.slice(0, 200)}…
+                    {(() => {
+                        const firstPara = typeof a.explainer === 'string' ? a.explainer.split('\n')[0] : Object.values(a.explainer || {})[0];
+                        return (firstPara || '').replace(/\*\*/g, '').slice(0, 200) + '…';
+                    })()}
                 </p>
             )}
         </div>

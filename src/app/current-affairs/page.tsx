@@ -14,7 +14,7 @@ import './newspaper.css';
 interface EpaperArticle {
     id: string;
     headline: string;
-    explainer: string;
+    explainer: string | Record<string, string>;
     category: string;
     gsPaper: string;
     gsSubTopics: string[];
@@ -66,11 +66,12 @@ const GS_TABS = [
     { id: 'GS3', label: 'GS-III' }, { id: 'GS4', label: 'GS-IV' },
 ];
 
-import { getBankImageUrl, getCategoryGradient } from '@/lib/image-bank';
+
 
 // ── Markdown-lite renderer (strips **bold** → <strong>) ──────────────
 
-function renderText(text: string): React.ReactNode[] {
+function renderText(textStr: string | Record<string, string>): React.ReactNode[] {
+    const text = typeof textStr === 'string' ? textStr : Object.entries(textStr || {}).map(([k, v]) => `**${k}:** ${v}`).join('\n');
     return text.split('\n').map((para, i) => {
         const parts = para.split(/\*\*(.*?)\*\*/g);
         return (
@@ -83,84 +84,7 @@ function renderText(text: string): React.ReactNode[] {
     });
 }
 
-// ── Image component with local bank + gradient fallback ──────────────
 
-function ArticleImage({ article, className, height }: { article: EpaperArticle; className?: string; height?: number }) {
-    const [imgSrc, setImgSrc] = React.useState<string>('');
-    const [failed, setFailed] = React.useState(false);
-    const h = height || 200;
-    const gradient = getCategoryGradient(article.category);
-
-    // Build the image URL with priority: generated > bank
-    React.useEffect(() => {
-        // Priority 1: AI-generated image for this specific article
-        const genFilename = article.id
-            .toLowerCase().replace(/[^a-z0-9]/g, '-').replace(/-+/g, '-').replace(/^-|-$/g, '').slice(0, 60);
-        const genUrl = `/images/generated/${article.date}/${genFilename}.jpg`;
-
-        // Priority 2: Smart-matched bank image
-        const bankUrl = getBankImageUrl(article.id, article.category, {
-            headline: article.headline,
-            tags: article.tags,
-            keyTerms: article.keyTerms,
-            imageDescription: article.imageDescription,
-            date: article.date,
-        });
-
-        // Try generated first, fall back to bank
-        const img = new Image();
-        img.onload = () => setImgSrc(genUrl);
-        img.onerror = () => setImgSrc(bankUrl); // fall back to bank
-        img.src = genUrl;
-    }, [article]);
-
-    if (failed) {
-        return (
-            <div className={className} style={{
-                background: gradient, height: h, display: 'flex',
-                alignItems: 'center', justifyContent: 'center',
-                borderRadius: 3, position: 'relative', overflow: 'hidden',
-            }}>
-                <div style={{
-                    position: 'absolute', inset: 0, opacity: 0.1,
-                    background: 'repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255,255,255,.1) 10px, rgba(255,255,255,.1) 20px)',
-                }} />
-                <span style={{
-                    font: '600 12px/1 var(--np-sans)', color: '#fff',
-                    textTransform: 'uppercase' as const, letterSpacing: '0.12em',
-                    padding: '8px 16px', background: 'rgba(0,0,0,.35)',
-                    borderRadius: 3, zIndex: 1,
-                }}>
-                    📷 {SEC_LABEL[article.category] || article.category.toUpperCase()}
-                </span>
-            </div>
-        );
-    }
-
-    if (!imgSrc) {
-        // Loading state
-        return (
-            <div className={className} style={{
-                background: '#e0e0e0', height: h, borderRadius: 3,
-                display: 'flex', alignItems: 'center', justifyContent: 'center',
-            }}>
-                <Loader2 size={20} className="animate-spin" style={{ color: '#999' }} />
-            </div>
-        );
-    }
-
-    return (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-            className={className}
-            src={imgSrc}
-            alt={article.imageDescription || article.headline}
-            loading="lazy"
-            onError={() => setFailed(true)}
-            style={{ height: h, width: '100%', objectFit: 'cover', borderRadius: 3, display: 'block', background: '#ddd' }}
-        />
-    );
-}
 
 // ── Fallback articles ────────────────────────────────────────────────────
 
@@ -233,31 +157,17 @@ export default function CurrentAffairsPage() {
         finally { setGenLoading(false); setTimeout(() => setStatus('idle'), 8000); }
     };
 
-    const [imgGenLoading, setImgGenLoading] = useState(false);
-    const generateImages = async () => {
-        setImgGenLoading(true); setStatus('idle');
-        try {
-            const r = await fetch('/api/generate-images', { method: 'POST' });
-            const d = await r.json();
-            if (!r.ok) throw new Error(d.error || 'Image generation failed');
-            setStatus('ok');
-            setStatusMsg(`🖼️ Generated ${d.generated}/${d.total} AI images. Refresh to see them.`);
-            // Force re-render of images
-            if (d.generated > 0) {
-                setTimeout(() => window.location.reload(), 2000);
-            }
-        } catch (e: any) { setStatus('err'); setStatusMsg(e.message); }
-        finally { setImgGenLoading(false); setTimeout(() => setStatus('idle'), 10000); }
-    };
+
 
     const filtered = useMemo(() => {
         let r = articles;
         if (gs !== 'all') r = r.filter(a => a.gsPaper === gs);
         if (q) {
-            const lq = q.toLowerCase(); r = r.filter(a =>
-                a.headline.toLowerCase().includes(lq) || a.explainer.toLowerCase().includes(lq) ||
-                a.tags.some(t => t.toLowerCase().includes(lq)) || a.keyTerms.some(k => k.toLowerCase().includes(lq))
-            );
+            const lq = q.toLowerCase(); r = r.filter(a => {
+                const ext = typeof a.explainer === 'string' ? a.explainer : JSON.stringify(a.explainer);
+                return a.headline.toLowerCase().includes(lq) || ext.toLowerCase().includes(lq) ||
+                    a.tags.some(t => t.toLowerCase().includes(lq)) || a.keyTerms.some(k => k.toLowerCase().includes(lq));
+            });
         }
         return r;
     }, [articles, gs, q]);
@@ -296,7 +206,7 @@ export default function CurrentAffairsPage() {
                                 ? <><span className="np-live-dot" /> <span>Live Edition</span></>
                                 : <span style={{ color: '#E65100' }}>Sample Data</span>
                             }
-                            <span>{epaper?.dateFormatted || new Date().toLocaleDateString('en-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                            <span suppressHydrationWarning>{epaper?.dateFormatted || new Date().toLocaleDateString('en-IN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</span>
                         </div>
                         <div className="np-topbar-right">
                             {epaper?.lastUpdated && (
@@ -357,11 +267,7 @@ export default function CurrentAffairsPage() {
                         {genLoading ? <><Loader2 size={13} className="animate-spin" /> Generating…</>
                             : <><RefreshCw size={13} /> Generate</>}
                     </button>
-                    <button onClick={generateImages} disabled={imgGenLoading}
-                        className="np-btn np-btn-outline" style={{ borderColor: '#7B1FA2' }}>
-                        {imgGenLoading ? <><Loader2 size={13} className="animate-spin" /> Creating Images…</>
-                            : <><Newspaper size={13} /> 🖼️ AI Images</>}
-                    </button>
+
                 </div>
                 <AnimatePresence>
                     {status !== 'idle' && (
@@ -450,13 +356,7 @@ export default function CurrentAffairsPage() {
                                     </div>
                                 </div>
 
-                                {/* Lead image */}
-                                <div className="np-lead-img-wrap">
-                                    <ArticleImage article={lead} height={320} />
-                                    <div className="np-lead-img-caption">
-                                        {lead.imageDescription || lead.headline} | {lead.source}
-                                    </div>
-                                </div>
+
                             </article>
                         )}
 
@@ -546,10 +446,6 @@ function Card({ a, open, toggle }: { a: EpaperArticle; open: boolean; toggle: ()
 
     return (
         <div className="np-card" id={`a-${a.id}`}>
-            {/* Image */}
-            {/* Image */}
-            <ArticleImage article={a} height={140} />
-
             <div className="np-cat-bar" style={{ background: col }} />
             <div className="np-cat-text" style={{ color: col }}>
                 {SEC_LABEL[a.category] || a.category.toUpperCase()}
@@ -558,7 +454,11 @@ function Card({ a, open, toggle }: { a: EpaperArticle; open: boolean; toggle: ()
 
             <h3 onClick={toggle}>{a.headline}</h3>
 
-            <p className="np-card-summary">{a.explainer.split('\n')[0]?.replace(/\*\*/g, '')}</p>
+            <p className="np-card-summary">
+                {typeof a.explainer === 'string'
+                    ? a.explainer.split('\n')[0]?.replace(/\*\*/g, '')
+                    : Object.values(a.explainer || {})[0]?.replace(/\*\*/g, '') || ''}
+            </p>
 
             <div className="np-card-foot">
                 <span>{a.source} · {a.date}</span>

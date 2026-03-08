@@ -18,7 +18,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { scrapeEpaperSources } from '@/lib/epaper-scraper';
 import { generateDailyEpaper } from '@/lib/epaper-generator';
 import { saveEpaper, loadEpaper } from '@/lib/epaper-store';
-import { fetchArticleImages } from '@/lib/image-generator';
+
 
 export const dynamic = 'force-dynamic';
 export const maxDuration = 120; // ePaper generation can take longer
@@ -83,27 +83,6 @@ export async function POST(request: NextRequest) {
             `[epaper-api] ✅ ePaper generated: ${epaperData.articles.length} articles`
         );
 
-        // --- Step 4: Auto-fetch relevant images (non-blocking) ---
-        const pexelsKey = process.env.PEXELS_API_KEY;
-        if (pexelsKey || geminiApiKey) {
-            const articlesToProcess = epaperData.articles.map((a: any) => ({
-                articleId: a.id,
-                headline: a.headline,
-                category: a.category,
-                imageDescription: a.imageDescription || '',
-                date: epaperData.date,
-                tags: a.tags || [],
-            }));
-
-            // Fire and forget — don't block the response
-            fetchArticleImages(articlesToProcess, pexelsKey, geminiApiKey, 1500)
-                .then(results => {
-                    console.log(`[epaper-api] 🖼️ Fetched ${Object.keys(results).length} images`);
-                })
-                .catch(err => {
-                    console.error('[epaper-api] Image fetch error:', err.message);
-                });
-        }
 
         return NextResponse.json({
             message: `Successfully generated ePaper for ${today}`,

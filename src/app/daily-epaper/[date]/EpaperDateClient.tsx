@@ -18,7 +18,7 @@ import {
 interface EpaperArticle {
     id: string;
     headline: string;
-    explainer: string;
+    explainer: string | Record<string, string>;
     category: string;
     gsPaper: string;
     gsSubTopics: string[];
@@ -119,18 +119,14 @@ function ArticleCard({ article, index }: { article: EpaperArticle; index: number
                 {article.headline}
             </h3>
 
-            <div className="epaper-image-placeholder">
-                <Newspaper className="w-6 h-6 opacity-40" />
-                <span className="text-xs opacity-60 mt-1">{article.imageDescription}</span>
-            </div>
 
             <div className={`epaper-explainer ${!expanded ? 'line-clamp-6' : ''}`}>
-                {article.explainer.split('\n\n').map((para, i) => (
-                    <p key={i} className="mb-3 last:mb-0">{para}</p>
+                {(typeof article.explainer === 'string' ? article.explainer.split('\n\n') : Object.entries(article.explainer || {}).map(([k, v]) => `${k}: ${v}`)).map((para, i) => (
+                    <p key={i} className="mb-3 last:mb-0">{para.replace(/\*\*/g, '')}</p>
                 ))}
             </div>
 
-            {article.explainer.length > 400 && (
+            {((typeof article.explainer === 'string' ? article.explainer : JSON.stringify(article.explainer)) || '').length > 400 && (
                 <button onClick={() => setExpanded(!expanded)}
                     className="text-xs font-medium text-accent-500 hover:text-accent-400 mt-1 flex items-center gap-1">
                     {expanded ? 'Show Less' : 'Read Full Explainer'}
@@ -244,11 +240,12 @@ export default function EpaperDateClient({ date }: { date: string }) {
         if (activeGS !== 'all') articles = articles.filter((a) => a.gsPaper === activeGS);
         if (searchQuery) {
             const q = searchQuery.toLowerCase();
-            articles = articles.filter((a) =>
-                a.headline.toLowerCase().includes(q) ||
-                a.explainer.toLowerCase().includes(q) ||
-                a.tags.some((t) => t.toLowerCase().includes(q))
-            );
+            articles = articles.filter((a) => {
+                const ext = typeof a.explainer === 'string' ? a.explainer : JSON.stringify(a.explainer);
+                return a.headline.toLowerCase().includes(q) ||
+                    ext.toLowerCase().includes(q) ||
+                    a.tags.some((t) => t.toLowerCase().includes(q));
+            });
         }
         return articles;
     }, [epaper, activeGS, searchQuery]);
