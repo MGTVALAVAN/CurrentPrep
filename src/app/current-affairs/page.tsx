@@ -8,6 +8,7 @@ import {
     CheckCircle2, AlertCircle, BookOpen, Download, Newspaper,
 } from 'lucide-react';
 import './newspaper.css';
+import ArticleImage from '@/components/ArticleImage';
 
 // ── Types ────────────────────────────────────────────────────────────────
 
@@ -172,8 +173,8 @@ export default function CurrentAffairsPage() {
         return r;
     }, [articles, gs, q]);
 
-    const lead = filtered.find(a => a.importance === 'high') || filtered[0];
-    const rest = filtered.filter(a => a.id !== lead?.id);
+    const lead = filtered[0];
+    const rest = filtered.slice(1);
     const stats = useMemo(() => ({
         tot: articles.length,
         hi: articles.filter(a => a.importance === 'high').length,
@@ -325,38 +326,45 @@ export default function CurrentAffairsPage() {
                                         <span>{lead.date}</span>
                                     </div>
 
+                                    <div style={{ margin: '16px 0', width: '100%', height: '300px', position: 'relative' }}>
+                                        <ArticleImage
+                                            category={lead.category}
+                                            id={lead.id}
+                                            alt={lead.headline}
+                                            className="w-full h-full rounded-sm border border-[#e5e5e5]"
+                                        />
+                                    </div>
+
                                     <div className="np-lead-text">
                                         {renderText(lead.explainer)}
                                     </div>
+                                </div>{/* End of np-lead-main */}
 
-                                    {/* Lead aside: terms + pointers */}
-                                    <div className="np-lead-aside">
-                                        {lead.keyTerms?.length > 0 && (
-                                            <div className="np-terms-box">
-                                                <div className="np-terms-label">Key Terms</div>
-                                                <div className="np-terms-list">
-                                                    {lead.keyTerms.map(k => <span key={k} className="np-term">{k}</span>)}
-                                                </div>
+                                {/* Lead aside: terms + pointers (Right Column) */}
+                                <div className="np-lead-aside" style={{ marginTop: 0 }}>
+                                    {lead.keyTerms?.length > 0 && (
+                                        <div className="np-terms-box">
+                                            <div className="np-terms-label">Key Terms</div>
+                                            <div className="np-terms-list">
+                                                {lead.keyTerms.map(k => <span key={k} className="np-term">{k}</span>)}
+                                            </div>
+                                        </div>
+                                    )}
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
+                                        {lead.prelims && lead.prelimsPoints?.length > 0 && (
+                                            <div className="np-ptr pre">
+                                                <div className="np-ptr-title">📝 Prelims Pointers</div>
+                                                <ul>{lead.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
                                             </div>
                                         )}
-                                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 10 }}>
-                                            {lead.prelims && lead.prelimsPoints?.length > 0 && (
-                                                <div className="np-ptr pre">
-                                                    <div className="np-ptr-title">📝 Prelims Pointers</div>
-                                                    <ul>{lead.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
-                                                </div>
-                                            )}
-                                            {lead.mains && lead.mainsPoints?.length > 0 && (
-                                                <div className="np-ptr mai">
-                                                    <div className="np-ptr-title">✍️ Mains Dimensions</div>
-                                                    <ul>{lead.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
-                                                </div>
-                                            )}
-                                        </div>
+                                        {lead.mains && lead.mainsPoints?.length > 0 && (
+                                            <div className="np-ptr mai">
+                                                <div className="np-ptr-title">✍️ Mains Dimensions</div>
+                                                <ul>{lead.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
+                                            </div>
+                                        )}
                                     </div>
                                 </div>
-
-
                             </article>
                         )}
 
@@ -452,15 +460,9 @@ function Card({ a, open, toggle }: { a: EpaperArticle; open: boolean; toggle: ()
                 <span className="np-badge gs" style={{ marginLeft: 'auto' }}>{a.gsPaper}</span>
             </div>
 
-            <h3 onClick={toggle}>{a.headline}</h3>
+            <h3 onClick={toggle} style={{ marginTop: '16px' }}>{a.headline}</h3>
 
-            <p className="np-card-summary">
-                {typeof a.explainer === 'string'
-                    ? a.explainer.split('\n')[0]?.replace(/\*\*/g, '')
-                    : Object.values(a.explainer || {})[0]?.replace(/\*\*/g, '') || ''}
-            </p>
-
-            <div className="np-card-foot">
+            <div className="np-card-foot" style={{ marginTop: '16px', marginBottom: '12px' }}>
                 <span>{a.source} · {a.date}</span>
                 {a.sourceUrl && a.sourceUrl !== '#' && (
                     <a href={a.sourceUrl} target="_blank" rel="noopener noreferrer"
@@ -470,65 +472,51 @@ function Card({ a, open, toggle }: { a: EpaperArticle; open: boolean; toggle: ()
                 )}
             </div>
 
-            <div className="np-badges">
+            <div className="np-badges" style={{ marginBottom: '16px' }}>
                 {a.importance === 'high' && <span className="np-badge hi">★ HIGH</span>}
                 {a.prelims && <span className="np-badge pr">PRELIMS</span>}
                 {a.mains && <span className="np-badge ma">MAINS</span>}
             </div>
 
-            <button className="np-read-btn" onClick={toggle}>
-                {open ? 'Collapse' : 'Full Analysis'}
-                <ChevronDown size={12} style={{ transform: open ? 'rotate(180deg)' : 'none', transition: 'transform .2s' }} />
-            </button>
+            <div className="np-detail" style={{ margin: 0, padding: 0, border: 'none', background: 'transparent' }}>
+                <div className="np-detail-body" style={{ columnCount: 1, fontSize: '13px' }}>
+                    {renderText(a.explainer)}
+                </div>
 
-            <AnimatePresence>
-                {open && (
-                    <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }}
-                        exit={{ opacity: 0, height: 0 }} transition={{ duration: .25 }}>
-                        <div className="np-detail">
-                            <div className="np-detail-body">
-                                {renderText(a.explainer)}
-                            </div>
-
-                            {a.keyTerms?.length > 0 && (
-                                <div className="np-terms-box" style={{ marginBottom: 12 }}>
-                                    <div className="np-terms-label">Key Terms</div>
-                                    <div className="np-terms-list">
-                                        {a.keyTerms.map(k => <span key={k} className="np-term">{k}</span>)}
-                                    </div>
-                                </div>
-                            )}
-
-                            <div className="np-detail-2col">
-                                {a.prelims && a.prelimsPoints?.length > 0 && (
-                                    <div className="np-ptr pre">
-                                        <div className="np-ptr-title">📝 Prelims</div>
-                                        <ul>{a.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
-                                    </div>
-                                )}
-                                {a.mains && a.mainsPoints?.length > 0 && (
-                                    <div className="np-ptr mai">
-                                        <div className="np-ptr-title">✍️ Mains</div>
-                                        <ul>{a.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
-                                    </div>
-                                )}
-                            </div>
-
-                            {a.tags?.length > 0 && (
-                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 3, marginTop: 10 }}>
-                                    {a.tags.map(t => (
-                                        <span key={t} style={{
-                                            font: '400 10px var(--np-sans)', padding: '2px 6px',
-                                            border: '1px solid var(--np-rule)', borderRadius: 3,
-                                            color: 'var(--np-ink-3)',
-                                        }}>#{t}</span>
-                                    ))}
-                                </div>
-                            )}
+                {a.keyTerms?.length > 0 && (
+                    <div className="np-terms-box" style={{ marginTop: 16, marginBottom: 12 }}>
+                        <div className="np-terms-label">Key Terms</div>
+                        <div className="np-terms-list">
+                            {a.keyTerms.map(k => <span key={k} className="np-term" style={{ fontSize: '9px' }}>{k}</span>)}
                         </div>
-                    </motion.div>
+                    </div>
                 )}
-            </AnimatePresence>
+
+                <div className="np-detail-2col" style={{ display: 'flex', flexDirection: 'column', gap: 10, marginTop: 12 }}>
+                    {a.prelims && a.prelimsPoints?.length > 0 && (
+                        <div className="np-ptr pre">
+                            <div className="np-ptr-title">📝 Prelims</div>
+                            <ul>{a.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
+                        </div>
+                    )}
+                    {a.mains && a.mainsPoints?.length > 0 && (
+                        <div className="np-ptr mai">
+                            <div className="np-ptr-title">✍️ Mains</div>
+                            <ul>{a.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
+                        </div>
+                    )}
+                </div>
+
+                {a.tags?.length > 0 && (
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: 3, marginTop: 10 }}>
+                        {a.tags.map(t => (
+                            <span key={t} style={{
+                                fontSize: 9, padding: '2px 5px', background: 'var(--np-rule)', borderRadius: 2, color: 'var(--np-ink-2)'
+                            }}>#{t}</span>
+                        ))}
+                    </div>
+                )}
+            </div>
         </div>
     );
 }

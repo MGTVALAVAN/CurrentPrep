@@ -87,11 +87,11 @@ For each INCLUDED article, return a JSON object with these fields:
 
 1. "headline": A clear, UPSC-relevant headline (max 100 chars, no clickbait, institutional/policy tone)
 
-2. "explainer": A 200-300 word explainer structured as:
-   - **Context**: What happened, where, when, which institution/body was involved (2-3 sentences)
-   - **Significance**: Why it matters for India / policy / governance (2-3 sentences)  
-   - **UPSC Connect**: How it links to static syllabus topics. Weave in syllabus keywords naturally (e.g., federal structure, constitutionalism, fiscal deficit, inclusive growth, biodiversity hotspots, MSP, climate resilience, cooperative federalism, SDGs, Article 21, Directive Principles, etc.)
-   - **Way Forward / Analysis**: Key dimensions, challenges, implications (2-3 sentences)
+2. "explainer": A cohesive 200-300 word article written in the style of a premium newspaper editorial or analysis piece.
+   - DO NOT use any structural headers like "**Context:**", "**Significance:**", "**UPSC Connect:**", or "**Way Forward:**".
+   - The prose must flow naturally, seamlessly blending the factual occurrence (what, where, which institution) with deeper policy, institutional, or governance significance, alongside an analytical perspective on challenges and implications.
+   - You MUST naturally weave in Civil Services syllabus keywords (e.g., federal structure, constitutionalism, fiscal deficit, inclusive growth, biodiversity hotspots, MSP, cooperative federalism, SDGs, Article 21) to provide analytical depth.
+   - NEVER explicitly mention the "UPSC exam", "syllabus", or "aspirants" in the explainer. Read exactly like a high-quality newspaper piece that happens to be perfectly aligned with UPSC requirements.
 
 3. "category": One of: polity, governance, economy, ir, environment, science, social, history, geography, security, agriculture, disaster, ethics
 
@@ -117,8 +117,8 @@ For each INCLUDED article, return a JSON object with these fields:
 
 RULES:
 - NEVER include party-political news, even if it involves a policy topic — skip it
-- Keep explainers factual and exam-oriented — NO opinions, NO editorializing
-- Every explainer MUST have embedded syllabus keywords and concepts
+- Keep explainers factual and analytical — NO opinions, NO editorializing
+- Every explainer MUST naturally embed syllabus keywords without explicitly pointing them out
 - RETURN VALID JSON ONLY — an array of objects`;
 
 interface GeminiEpaperResult {
@@ -401,7 +401,8 @@ export async function generateEpaperArticles(
         (a, b) => importanceOrder[a.importance] - importanceOrder[b.importance]
     );
 
-    return allResults;
+    // Limit to exactly 25 articles for optimal printing layout and reading experience
+    return allResults.slice(0, 25);
 }
 
 /**

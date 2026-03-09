@@ -267,9 +267,10 @@ export async function scrapeEpaperSources(): Promise<RawEpaperArticle[]> {
         console.log(`[epaper-scraper]   📡 ${entry[0]}: ${entry[1]} articles`);
     }
 
-    // Take up to 5 diverse source articles + fill rest with newspaper articles
-    const TOTAL_LIMIT = 25;
-    const DIVERSE_QUOTA = Math.min(5, diverseArticles.length);
+    // Take up to 10 diverse source articles + fill rest with newspaper articles
+    // Take up to 15 diverse source articles + fill rest with newspaper articles
+    const TOTAL_LIMIT = 80; // massive raw pull to guarantee 25+ high-quality survives filter
+    const DIVERSE_QUOTA = Math.min(15, diverseArticles.length);
     const selected: RawEpaperArticle[] = [
         ...diverseArticles.slice(0, DIVERSE_QUOTA),
         ...newspaperArticles.slice(0, TOTAL_LIMIT - DIVERSE_QUOTA),

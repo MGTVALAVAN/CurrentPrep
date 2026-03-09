@@ -10,6 +10,7 @@ import {
     AlertCircle, Tag, Archive, FileText, Shield, Wheat, Compass,
     MapPin, History, CloudRain, ChevronLeft, Download, Smartphone
 } from 'lucide-react';
+import ArticleImage from '@/components/ArticleImage';
 
 // ---------------------------------------------------------------------------
 // Types
@@ -198,7 +199,7 @@ const fallbackEpaper: DailyEpaper = {
 // Component: Article Card
 // ---------------------------------------------------------------------------
 
-function ArticleCard({ article, index }: { article: EpaperArticle; index: number }) {
+function ArticleCard({ article, index, isTopStory }: { article: EpaperArticle; index: number; isTopStory?: boolean }) {
     const [expanded, setExpanded] = useState(false);
     const CatIcon = CATEGORY_ICONS[article.category] || Newspaper;
 
@@ -213,7 +214,6 @@ function ArticleCard({ article, index }: { article: EpaperArticle; index: number
             id={`article-${article.id}`}
             style={{ borderTop: `4px solid ${GS_COLORS[article.gsPaper] || '#8B4513'}` }}
         >
-            {/* GS Paper Badge + Importance */}
             <div className="flex items-center justify-between gap-2 mb-3">
                 <div className="flex items-center gap-2">
                     <span
@@ -232,13 +232,23 @@ function ArticleCard({ article, index }: { article: EpaperArticle; index: number
                 </span>
             </div>
 
+            {/* Thumbnail Image */}
+            {isTopStory && (
+                <ArticleImage
+                    category={article.category}
+                    id={article.id}
+                    alt={article.headline}
+                    className="w-full h-48 md:h-52 rounded-xl mb-4 border border-[var(--border-color)]"
+                />
+            )}
+
             {/* Headline */}
             <h3 className="epaper-headline group-hover:text-accent-500 transition-colors">
                 {article.headline}
             </h3>
 
-            {/* Explainer (truncated or full) */}
-            <div className={`epaper-explainer ${!expanded ? 'line-clamp-6' : ''}`}>
+            {/* Explainer (full or collapsed) */}
+            <div className={`epaper-explainer ${expanded ? 'line-clamp-6' : ''}`}>
                 {(Array.isArray(article.explainer) ? article.explainer : String(article.explainer || '').split('\n\n')).map((para, i) => (
                     <p key={i} className="mb-3 last:mb-0">{para}</p>
                 ))}
@@ -249,8 +259,8 @@ function ArticleCard({ article, index }: { article: EpaperArticle; index: number
                     onClick={() => setExpanded(!expanded)}
                     className="text-xs font-medium text-accent-500 hover:text-accent-400 mt-1 flex items-center gap-1"
                 >
-                    {expanded ? 'Show Less' : 'Read Full Explainer'}
-                    <ChevronDown className={`w-3 h-3 transition-transform ${expanded ? 'rotate-180' : ''}`} />
+                    {expanded ? 'Read Full Explainer' : 'Show Less'}
+                    <ChevronDown className={`w-3 h-3 transition-transform ${expanded ? '' : 'rotate-180'}`} />
                 </button>
             )}
 
@@ -361,10 +371,11 @@ function ArticleCard({ article, index }: { article: EpaperArticle; index: number
 // Component: GS Section
 // ---------------------------------------------------------------------------
 
-function GSSection({ gsPaper, articles, gsInfo }: {
+function GSSection({ gsPaper, articles, gsInfo, topStoryId }: {
     gsPaper: string;
     articles: EpaperArticle[];
     gsInfo: typeof GS_PAPERS[0];
+    topStoryId?: string;
 }) {
     if (articles.length === 0) return null;
 
@@ -387,7 +398,7 @@ function GSSection({ gsPaper, articles, gsInfo }: {
 
             <div className="epaper-articles-grid">
                 {articles.map((article, i) => (
-                    <ArticleCard key={article.id} article={article} index={i} />
+                    <ArticleCard key={article.id} article={article} index={i} isTopStory={article.id === topStoryId} />
                 ))}
             </div>
         </section>
@@ -807,6 +818,7 @@ export default function DailyEpaperPage() {
                                 gsPaper={gs.id}
                                 articles={articlesByGS[gs.id] || []}
                                 gsInfo={gs}
+                                topStoryId={filteredArticles[0]?.id}
                             />
                         ))}
                     </div>
@@ -814,7 +826,7 @@ export default function DailyEpaperPage() {
                     /* Show filtered articles */
                     <div className="epaper-articles-grid">
                         {filteredArticles.map((article, i) => (
-                            <ArticleCard key={article.id} article={article} index={i} />
+                            <ArticleCard key={article.id} article={article} index={i} isTopStory={article.id === filteredArticles[0]?.id} />
                         ))}
                     </div>
                 )}

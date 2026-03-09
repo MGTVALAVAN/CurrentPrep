@@ -137,24 +137,35 @@ export default function EpaperPrintView({ date }: { date: string }) {
             const A4_WIDTH = 210;
             const A4_HEIGHT = 297;
 
-            for (let i = 0; i < pages.length; i++) {
-                const page = pages[i] as HTMLElement;
+            const page = pages[0] as HTMLElement;
 
-                // Capture the page as a high-res canvas
-                const canvas = await html2canvas(page, {
-                    scale: 2,               // 2x resolution for sharp text
-                    useCORS: true,
-                    backgroundColor: '#FFF1E5',  // Salmon background
-                    logging: false,
-                    width: page.scrollWidth,
-                    height: page.scrollHeight,
-                });
+            // Capture the entire continuous page as a high-res canvas
+            const canvas = await html2canvas(page, {
+                scale: 2,               // 2x resolution for sharp text
+                useCORS: true,
+                backgroundColor: '#FFF1E5',  // Salmon background
+                logging: false,
+                width: page.scrollWidth,
+                height: page.scrollHeight,
+            });
 
-                const imgData = canvas.toDataURL('image/jpeg', 0.92);
+            const imgData = canvas.toDataURL('image/jpeg', 0.92);
 
-                if (i > 0) pdf.addPage();
+            const imgWidth = 210; // A4 width in mm
+            const pageHeight = 297; // A4 height in mm
+            const imgProps = pdf.getImageProperties(imgData);
+            const imgHeight = (imgProps.height * imgWidth) / imgProps.width;
+            let heightLeft = imgHeight;
+            let position = 0;
 
-                pdf.addImage(imgData, 'JPEG', 0, 0, A4_WIDTH, A4_HEIGHT);
+            pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
+            heightLeft -= pageHeight;
+
+            while (heightLeft > 0) {
+                position = position - pageHeight;
+                pdf.addPage();
+                pdf.addImage(imgData, 'JPEG', 0, position, imgWidth, imgHeight);
+                heightLeft -= pageHeight;
             }
 
             // Save the PDF file → goes directly to Downloads folder
@@ -249,25 +260,23 @@ export default function EpaperPrintView({ date }: { date: string }) {
                     {/* Masthead */}
                     <header className="epaper-print-masthead">
                         <div className="epaper-print-masthead-rule" />
-                        <div className="epaper-print-masthead-inner">
-                            <div className="epaper-print-masthead-left">
+                        <div style={{ backgroundColor: '#E3120B', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '30px', padding: '36px 0', margin: '16px 0', borderRadius: '16px' }}>
+                            <img src="/images/logo_globe.png?v=2" alt="Globe Icon" style={{ height: '140px', objectFit: 'contain' }} crossOrigin="anonymous" />
+                            <div style={{ backgroundColor: 'white', padding: '16px 36px', borderRadius: '16px', display: 'flex', alignItems: 'center' }}>
+                                <img src="/images/logo_text.png?v=2" alt="Current IAS Prep" style={{ height: '80px', objectFit: 'contain' }} crossOrigin="anonymous" />
+                            </div>
+                        </div>
+
+                        <div className="epaper-print-masthead-inner" style={{ padding: '0 4px 12px 4px', alignItems: 'flex-end' }}>
+                            <div className="epaper-print-masthead-left" style={{ flex: 1 }}>
                                 <span className="epaper-print-vol">Vol. I</span>
                                 <span className="epaper-print-est">Est. 2026</span>
                             </div>
-                            <div className="epaper-print-masthead-center">
-                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '14px 0' }}>
-                                    <div style={{ backgroundColor: '#E3120B', display: 'flex', alignItems: 'center', gap: '16px', padding: '10px 14px', borderRadius: '12px' }}>
-                                        <img src="/images/logo_globe.png?v=2" alt="Globe Icon" style={{ height: '40px', objectFit: 'contain' }} crossOrigin="anonymous" />
-                                        <div style={{ backgroundColor: 'white', padding: '6px 12px', borderRadius: '8px', display: 'flex', alignItems: 'center' }}>
-                                            <img src="/images/logo_text.png?v=2" alt="Current IAS Prep" style={{ height: '24px', objectFit: 'contain' }} crossOrigin="anonymous" />
-                                        </div>
-                                    </div>
-                                </div>
-                                <p className="epaper-print-tagline">UPSC CIVIL SERVICES ePAPER</p>
+                            <div className="epaper-print-masthead-center" style={{ flex: 3, display: 'flex', justifyContent: 'center' }}>
+                                <p className="epaper-print-tagline" style={{ margin: 0, fontSize: '13px' }}>Daily Current Affairs Digest for UPSC CSE Aspirants</p>
                             </div>
-                            <div className="epaper-print-masthead-right">
+                            <div className="epaper-print-masthead-right" style={{ flex: 1, alignItems: 'flex-end', textAlign: 'right' }}>
                                 <span className="epaper-print-date">{epaper.dateFormatted}</span>
-                                <span className="epaper-print-pages">{epaper.articles.length} Articles · {epaper.sources.length} Sources</span>
                             </div>
                         </div>
                         <div className="epaper-print-masthead-rule" />
@@ -289,8 +298,9 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                 className="epaper-print-lead"
                                 style={{ borderTop: `4px solid ${GS_COLORS[lead.gsPaper] || '#8B4513'}`, paddingTop: '14px' }}
                             >
-                                <div className="epaper-print-lead-top">
-                                    <div className="epaper-print-lead-text">
+                                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '24px' }}>
+                                    {/* Left Column: Title, Meta, Pointers */}
+                                    <div>
                                         <div className="epaper-print-lead-category">
                                             {CAT_LABELS[lead.category] || lead.category.toUpperCase()} · {lead.gsPaper}
                                         </div>
@@ -298,84 +308,83 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                         <div className="epaper-print-lead-meta">
                                             Source: {lead.source} · {lead.importance === 'high' ? '★ HIGH PRIORITY' : lead.importance === 'medium' ? '● MEDIUM' : '○ LOW'}
                                         </div>
+
+                                        <div className="epaper-print-key-terms" style={{ marginTop: '16px' }}>
+                                            <strong>Key Terms:</strong> {lead.keyTerms.join(' · ')}
+                                        </div>
+                                        <div className="epaper-print-pointers-row" style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '12px' }}>
+                                            {lead.prelims && lead.prelimsPoints.length > 0 && (
+                                                <div className="epaper-print-pointer-box">
+                                                    <div className="epaper-print-pointer-title">📝 PRELIMS POINTERS</div>
+                                                    <ul>
+                                                        {lead.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}
+                                                    </ul>
+                                                </div>
+                                            )}
+                                            {lead.mains && lead.mainsPoints.length > 0 && (
+                                                <div className="epaper-print-pointer-box">
+                                                    <div className="epaper-print-pointer-title">✍️ MAINS DIMENSIONS</div>
+                                                    <ul>
+                                                        {lead.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}
+                                                    </ul>
+                                                </div>
+                                            )}
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="epaper-print-lead-body">
-                                    {renderText(lead.explainer)}
-                                </div>
-                                <div className="epaper-print-key-terms">
-                                    <strong>Key Terms:</strong> {lead.keyTerms.join(' · ')}
-                                </div>
-                                <div className="epaper-print-pointers-row">
-                                    {lead.prelims && lead.prelimsPoints.length > 0 && (
-                                        <div className="epaper-print-pointer-box">
-                                            <div className="epaper-print-pointer-title">📝 PRELIMS POINTERS</div>
-                                            <ul>
-                                                {lead.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}
-                                            </ul>
+
+                                    {/* Right Column: Explainer */}
+                                    <div>
+                                        <div className="epaper-print-lead-body" style={{ columns: 1, fontSize: '11px', lineHeight: 1.6 }}>
+                                            {renderText(lead.explainer)}
                                         </div>
-                                    )}
-                                    {lead.mains && lead.mainsPoints.length > 0 && (
-                                        <div className="epaper-print-pointer-box">
-                                            <div className="epaper-print-pointer-title">✍️ MAINS DIMENSIONS</div>
-                                            <ul>
-                                                {lead.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}
-                                            </ul>
-                                        </div>
-                                    )}
+                                    </div>
                                 </div>
                             </div>
                         );
                     })()}
 
-                    {/* Remaining front-page articles */}
-                    <div className="epaper-print-grid">
-                        {epaper.articles.slice(1, 5).map((a) => (
-                            <ArticleCard key={a.id} article={a} compact />
-                        ))}
-                    </div>
+
+                    {/* === REMAINING ARTICLES CONTINUED === */}
+                    {
+                        (['GS2', 'GS3', 'GS1', 'GS4'] as const)
+                            .filter((gs) => grouped[gs] && grouped[gs].length > 0)
+                            .map((gs) => {
+                                const articles = grouped[gs];
+                                const remaining = articles.filter(
+                                    (a) => a.id !== epaper.articles[0].id
+                                );
+                                if (remaining.length === 0) return null;
+
+                                return (
+                                    <div key={gs} style={{ marginTop: '24px' }}>
+                                        <div className="epaper-print-section-header">
+                                            <div className="epaper-print-section-rule" style={{ background: GS_COLORS[gs] }} />
+                                            <h2 className="epaper-print-section-title" style={{
+                                                background: GS_COLORS[gs],
+                                                color: 'white',
+                                                padding: '8px 16px',
+                                                borderRadius: '6px'
+                                            }}>
+                                                {GS_LABELS[gs]}
+                                            </h2>
+                                            <div className="epaper-print-section-rule" style={{ background: GS_COLORS[gs] }} />
+                                        </div>
+
+                                        <div className="epaper-print-grid">
+                                            {remaining.map((a) => (
+                                                <ArticleCard key={a.id} article={a} />
+                                            ))}
+                                        </div>
+                                    </div>
+                                );
+                            })
+                    }
 
                     <div className="epaper-print-footer">
-                        <span>CurrentIAS Prep · currentiasprep.in</span>
-                        <span>Page 1</span>
+                        <span>CurrentIAS Prep Daily ePaper · currentiasprep.in</span>
+                        <span>{epaper.dateFormatted}</span>
                     </div>
-                </div >
-
-                {/* === REMAINING PAGES: GS-wise === */}
-                {
-                    (['GS2', 'GS3', 'GS1', 'GS4'] as const)
-                        .filter((gs) => grouped[gs] && grouped[gs].length > 0)
-                        .map((gs, pageIdx) => {
-                            const articles = grouped[gs];
-                            const remaining = articles.filter(
-                                (a) => !epaper.articles.slice(0, 5).some((fa) => fa.id === a.id)
-                            );
-                            if (remaining.length === 0) return null;
-
-                            return (
-                                <div className="epaper-print-page" key={gs}>
-                                    <div className="epaper-print-section-header">
-                                        <div className="epaper-print-section-rule" style={{ background: GS_COLORS[gs] }} />
-                                        <h2 className="epaper-print-section-title" style={{ color: GS_COLORS[gs] }}>
-                                            {GS_LABELS[gs]}
-                                        </h2>
-                                        <div className="epaper-print-section-rule" style={{ background: GS_COLORS[gs] }} />
-                                    </div>
-
-                                    <div className="epaper-print-grid">
-                                        {remaining.map((a) => (
-                                            <ArticleCard key={a.id} article={a} />
-                                        ))}
-                                    </div>
-
-                                    <div className="epaper-print-footer">
-                                        <span>CurrentIAS Prep Daily ePaper · {epaper.dateFormatted}</span>
-                                        <span>Page {pageIdx + 2}</span>
-                                    </div>
-                                </div>
-                            );
-                        })
-                }
+                </div>
             </div >
         </>
     );
@@ -406,45 +415,32 @@ function ArticleCard({
                 {a.source} · {a.importance === 'high' ? '★' : a.importance === 'medium' ? '●' : '○'}
             </div>
 
-            {!compact && (
-                <>
-                    <div className="epaper-print-article-body">
-                        {renderText(a.explainer)}
-                    </div>
+            <div className="epaper-print-article-body">
+                {renderText(a.explainer)}
+            </div>
 
-                    <div className="epaper-print-key-terms">
-                        <strong>Key Terms:</strong> {a.keyTerms.join(' · ')}
-                    </div>
+            <div className="epaper-print-key-terms">
+                <strong>Key Terms:</strong> {a.keyTerms.join(' · ')}
+            </div>
 
-                    <div className="epaper-print-pointers-row">
-                        {a.prelims && a.prelimsPoints.length > 0 && (
-                            <div className="epaper-print-pointer-box">
-                                <div className="epaper-print-pointer-title">📝 PRELIMS</div>
-                                <ul>
-                                    {a.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}
-                                </ul>
-                            </div>
-                        )}
-                        {a.mains && a.mainsPoints.length > 0 && (
-                            <div className="epaper-print-pointer-box">
-                                <div className="epaper-print-pointer-title">✍️ MAINS</div>
-                                <ul>
-                                    {a.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}
-                                </ul>
-                            </div>
-                        )}
+            <div className="epaper-print-pointers-row">
+                {a.prelims && a.prelimsPoints.length > 0 && (
+                    <div className="epaper-print-pointer-box">
+                        <div className="epaper-print-pointer-title">📝 PRELIMS</div>
+                        <ul>
+                            {a.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}
+                        </ul>
                     </div>
-                </>
-            )}
-
-            {compact && (
-                <p className="epaper-print-article-summary">
-                    {(() => {
-                        const firstPara = typeof a.explainer === 'string' ? a.explainer.split('\n')[0] : Object.values(a.explainer || {})[0];
-                        return (firstPara || '').replace(/\*\*/g, '').slice(0, 200) + '…';
-                    })()}
-                </p>
-            )}
+                )}
+                {a.mains && a.mainsPoints.length > 0 && (
+                    <div className="epaper-print-pointer-box">
+                        <div className="epaper-print-pointer-title">✍️ MAINS</div>
+                        <ul>
+                            {a.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}
+                        </ul>
+                    </div>
+                )}
+            </div>
         </div>
     );
 }
