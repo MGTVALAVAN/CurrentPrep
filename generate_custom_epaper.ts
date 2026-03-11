@@ -1,43 +1,82 @@
-import { readFileSync, writeFileSync } from 'fs';
+import { writeFileSync } from 'fs';
 import { generateDailyEpaper } from './src/lib/epaper-generator';
+import { scrapeEpaperSources, type RawEpaperArticle } from './src/lib/epaper-scraper';
 import { saveEpaper } from './src/lib/epaper-store';
-import type { RawEpaperArticle } from './src/lib/epaper-scraper';
+import dotenv from 'dotenv';
+dotenv.config({ path: '.env.local' });
+dotenv.config({ path: '.env' });
 
 async function main() {
-    const envContent = readFileSync('.env.local', 'utf8');
-    const match = envContent.match(/GEMINI_API_KEY=(.*)/);
-    const apiKey = match ? match[1].trim() : null;
+    const apiKey = process.env.GEMINI_API_KEY;
 
     if (!apiKey) {
-        console.error("No API key found.");
+        console.error("No API key found in environment variables.");
         process.exit(1);
     }
 
-    // Read the categorized markdown list
-    const data = readFileSync('/Users/mgtvalavan/.gemini/antigravity/brain/eda4ef91-2e20-4cf3-addc-d7e374b5e439/headlines_categorized_all.md', 'utf8');
-    const sections = data.split('### ');
+    // 1. Actually Scrape the News Dynamically
+    console.log("Fetching fresh headlines from RSS sources...");
+    let rawScrapedArticles = await scrapeEpaperSources();
+    console.log(`Successfully scraped ${rawScrapedArticles.length} raw articles.`);
 
-    let iranIsraelLines: string[] = [];
-    let otherLines: string[] = [];
+    if (rawScrapedArticles.length === 0) {
+        console.error("No articles scraped. Exiting.");
+        process.exit(1);
+    }
 
-    for (let i = 1; i < sections.length; i++) {
-        const lines = sections[i].split('\n').filter(l => l.match(/^\d+\.\s+\[/));
-        if (sections[i].includes('Iran-Israel War')) {
-            iranIsraelLines.push(...lines);
-        } else {
-            otherLines.push(...lines);
+    // 2. Dynamic Clustering to find the Master Lead "Critical Mass"
+    const majorThemes = [
+        { name: 'Iran-Israel / Middle East Conflict', keywords: ['iran', 'israel', 'lebanon', 'hezbollah', 'gaza', 'middle east', 'arab', 'west asia', 'hamas', 'war', 'missile', 'strike'] },
+        { name: 'Supreme Court & Judiciary', keywords: ['supreme court', 'sc', 'cji', 'chief justice', 'verdict', 'judiciary', 'bench', 'high court'] },
+        { name: 'Reserve Bank & Economy', keywords: ['rbi', 'repo', 'inflation', 'gdp', 'economy', 'shaktikanta', 'monetary', 'banks', 'rupee'] },
+        { name: 'Space & ISRO', keywords: ['isro', 'space', 'satellite', 'gaganyaan', 'chandrayaan', 'orbit', 'nasa'] },
+        { name: 'Elections & Polity', keywords: ['election', 'poll', 'parliament', 'lok sabha', 'assembly', 'eci', 'voter'] },
+        { name: 'Environment & Climate', keywords: ['climate', 'environment', 'pollution', 'emissions', 'cop', 'warming', 'wildlife', 'conservation', 'forest'] },
+        { name: 'International Diplomacy (India)', keywords: ['jaishankar', 'modi', 'diplomacy', 'bilateral', 'multilateral', 'border', 'china', 'us', 'usa', 'russia'] }
+    ];
+
+    let themeCounts = majorThemes.map(t => ({ ...t, count: 0, articles: [] as RawEpaperArticle[] }));
+
+    for (let article of rawScrapedArticles) {
+        let textLowerCase = (article.title + " " + article.description).toLowerCase();
+        for (let theme of themeCounts) {
+            // Count if any keyword from the theme is mentioned
+            if (theme.keywords.some(kw => textLowerCase.includes(kw))) {
+                theme.count++;
+                theme.articles.push(article);
+                // A headline usually belongs predominantly to one major theme for lead purposes
+                break;
+            }
         }
     }
 
-    console.log(`Found ${iranIsraelLines.length} Iran-Israel lines and ${otherLines.length} other lines.`);
+    // Sort themes by frequency to find the "critical mass" story
+    themeCounts.sort((a, b) => b.count - a.count);
+    const dominantTheme = themeCounts[0];
 
-    console.log("Generating Master Lead Story via fetch API...");
+    let leadArticles: RawEpaperArticle[] = [];
+    let otherArticles: RawEpaperArticle[] = [];
+
+    if (dominantTheme.count > 2) { // Need at least a few articles to be a "trend"
+        console.log(`Determined Master Lead Theme: ${dominantTheme.name} with ${dominantTheme.count} articles.`);
+        leadArticles = dominantTheme.articles.slice(0, 15); // limit the context size for the prompt
+
+        // Everything else goes to 'other'
+        let leadUrls = new Set(leadArticles.map(a => a.link));
+        otherArticles = rawScrapedArticles.filter(a => !leadUrls.has(a.link));
+    } else {
+        console.log("No single dominant theme reached critical mass. Resorting to Top Priority News as Lead.");
+        leadArticles = rawScrapedArticles.slice(0, 5);
+        otherArticles = rawScrapedArticles.slice(5);
+    }
+
+    console.log(`Generating Master Lead Story via Gemini for ${leadArticles.length} combined headlines...`);
     const leadPrompt = `
-You are an expert news editor. Below are over 100 headlines related to the Iran-Israel War and the resulting West Asia crisis (including the LPG shortage in India, international reactions, military actions, and economic implications).
-Synthesize this into a cohesive, highly informative 300-word Master Lead Story summary for a UPSC current affairs ePaper. Provide JUST the text of the story. No markdown formatting or headers, just prose.
+You are an expert news editor. Below are several headlines and brief descriptions related to a highly dominant current event: ${dominantTheme.count > 2 ? dominantTheme.name : 'Top Global News'}.
+Synthesize this into a cohesive, highly informative 300-word Master Lead Story summary for a UPSC current affairs ePaper. Provide JUST the text of the story. No markdown formatting or headers, just prose. Focus on facts, macroeconomic implications, and geopolitical or national relevance.
 
 Headlines:
-${iranIsraelLines.join('\n')}
+${leadArticles.map(a => `- ${a.title}: ${a.description.substring(0, 150)}...`).join('\n')}
     `;
 
     let leadDescription = "";
@@ -60,54 +99,49 @@ ${iranIsraelLines.join('\n')}
         leadDescription = json.candidates[0].content.parts[0].text;
     } catch (e) {
         console.error("Failed to generate master lead:", e);
-        leadDescription = "Tensions escalate in the Middle East as the Iran-Israel conflict widens, impacting global oil prices and resulting in a commercial LPG shortage across India. The US and regional players respond with military deployments while diplomatic efforts remain strained.";
+        leadDescription = "Critical developments are occurring rapidly. Please refer to individual reports for detailed analysis as the situation evolves.";
     }
 
-    // Heuristically select the top 25 from other lines
+    // 3. Heuristically select the top 25 from the remaining scraped articles
     const upscKeywords = [
         'environment', 'climate', 'coral', 'species', 'biodiversity', 'conservation', 'wildlife', 'pollution', 'solar', 'energy', 'emission', 'carbon', 'forest', 'green', 'water', 'river', 'lake', 'national park', 'sanctuary', 'tiger', 'elephant', 'glacier', 'warming', 'hurricane', 'cyclone', 'earthquake', 'disaster',
         'gdp', 'fdi', 'rbi', 'inflation', 'export', 'import', 'infrastructure', 'investment', 'tax', 'gst', 'wto', 'imf', 'world bank', 'bank', 'rupee', 'forex', 'deficit', 'budget', 'finance', 'subsidy', 'agriculture', 'manufacturing', 'industry', 'msme', 'trade', 'startup', 'debt', 'growth',
         'isro', 'nasa', 'space', 'satellite', 'ai', 'artificial intelligence', 'disease', 'vaccine', 'quantum', 'gene', 'cyber', 'technology', 'drdo', 'rocket', 'mission', 'research', 'scientific', 'internet', 'data', 'health', 'medicine', 'robotics', 'semiconductor', 'defence', 'missile',
         'supreme court', 'high court', 'sc ', 'constitution', 'bill', 'act', 'parliament', 'scheme', 'yojana', 'governance', 'fundamental', 'rights', 'election commission', 'judiciary', 'legislation', 'ordinance', 'amendment', 'policy', 'ministry', 'cabinet', 'pm ', 'president', 'democracy', 'federal', 'state', 'centre',
-        'un ', 'united nations', 'g20', 'asean', 'quad', 'brics', 'treaty', 'jaishankar', 'foreign', 'diplomacy', 'ambassador', 'summit', 'border', 'bilateral', 'multilateral', 'war', 'conflict', 'peace', 'agreement', 'mou', 'international', 'global'
+        'un ', 'united nations', 'g20', 'asean', 'quad', 'brics', 'treaty', 'jaishankar', 'foreign', 'diplomacy', 'ambassador', 'summit', 'border', 'bilateral', 'multilateral', 'war', 'conflict', 'peace', 'agreement', 'mou', 'international', 'global', 'scheme', 'yojana'
     ];
 
     let items = [];
-    for (let line of otherLines) {
-        let textLowerCase = line.toLowerCase();
+    for (let article of otherArticles) {
+        let textLowerCase = (article.title + " " + article.description).toLowerCase();
         let score = 0;
 
-        if (textLowerCase.includes('[science')) score += 5;
-        if (textLowerCase.includes('[environment]')) score += 7;
-        if (textLowerCase.includes('[world]')) score += 3;
-        if (textLowerCase.includes('[international]')) score += 3;
-        if (textLowerCase.includes('[business]')) score += 4;
-        if (textLowerCase.includes('ed attaches') || textLowerCase.includes('arrested') || textLowerCase.includes('murder') || textLowerCase.includes('bribe')) score -= 20;
+        // Base score from source priority
+        if (article.section === 'Editorial' || article.section === 'Explained' || article.section === 'Lead Opinion') score += 5;
+        if (article.sourceShort === 'PIB' || article.sourceShort === 'PRS') score += 10;
+
+        // Deduct points for irrelevant local news
+        if (textLowerCase.includes('ed attaches') || textLowerCase.includes('arrested') || textLowerCase.includes('murder') || textLowerCase.includes('bribe') || textLowerCase.includes('rape') || textLowerCase.includes('killed') || textLowerCase.includes('suicide')) score -= 50;
 
         for (let kw of upscKeywords) {
             if (textLowerCase.includes(kw)) {
-                score += 10;
+                score += 8;
             }
         }
 
-        let match = line.match(/^(\d+)\.\s+/);
-        let num = match ? parseInt(match[1]) : 0;
-
-        items.push({ line, score, num });
+        items.push({ article, score });
     }
 
     items.sort((a, b) => b.score - a.score);
-    const top25 = items.slice(0, 25);
-    // Sort them back closely to their original occurrence so it feels somewhat structured
-    top25.sort((a, b) => a.num - b.num);
+    const top25 = items.slice(0, 25).map(i => i.article);
 
-    const rawArticles: RawEpaperArticle[] = [];
+    const organizedArticles: RawEpaperArticle[] = [];
 
     // 1. Add Master Lead as priority 0 to ensure it gets the top spot
-    rawArticles.push({
-        title: "Master Lead: West Asia Crisis Escalates — Impact on Global Security and Indian Economy",
+    organizedArticles.push({
+        title: `Master Lead: ${dominantTheme.count > 2 ? dominantTheme.name : 'Top Developments of the Day'}`,
         description: leadDescription,
-        link: "https://currentprep.in",
+        link: leadArticles[0]?.link || "https://currentprep.in",
         pubDate: new Date().toISOString(),
         source: "CurrentPrep Special Coverage",
         sourceShort: "CurrentPrep",
@@ -116,35 +150,22 @@ ${iranIsraelLines.join('\n')}
     });
 
     // 2. Add Top 25
-    for (let item of top25) {
-        const match = item.line.match(/^\d+\.\s+\[(.*?)\]\s+(.*)/);
-        if (match) {
-            rawArticles.push({
-                title: match[2],
-                description: match[2],
-                link: "https://currentprep.in/news",
-                pubDate: new Date().toISOString(),
-                source: "Various",
-                sourceShort: "Various Sources",
-                section: match[1],
-                priority: 2
-            });
-        }
-    }
+    organizedArticles.push(...top25);
 
-    console.log(`Starting epaper generation pipeline with ${rawArticles.length} raw articles...`);
+    console.log(`Starting epaper generation pipeline with ${organizedArticles.length} raw articles...`);
 
-    const epaper = await generateDailyEpaper(rawArticles, apiKey);
+    const epaper = await generateDailyEpaper(organizedArticles, apiKey);
 
     // Save to Data Store
-    saveEpaper(epaper);
+    await saveEpaper(epaper);
     console.log(`✅ ePaper successfully created and saved for today (${epaper.date})! Included ${epaper.articles.length} fully structured explainers.`);
 
     // Also save a small manifest
     writeFileSync('generation_manifest.json', JSON.stringify({
-        masterLead: rawArticles[0],
+        masterLeadTheme: dominantTheme.name,
+        masterLeadArticleCount: leadArticles.length,
         selectedHeadlineCount: top25.length,
-        selectedHeadlines: top25.map(i => i.line)
+        selectedHeadlines: top25.map(i => i.title)
     }, null, 2));
 }
 
