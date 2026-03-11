@@ -494,12 +494,12 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                         </div>
                                                     </div>
 
-                                                    <div style={{ display: 'flex', flexDirection: 'column', paddingLeft: '12px', borderLeft: '1px solid var(--ep-rule)' }}>
+                                                    <div style={{ display: 'flex', flexDirection: 'column', height: '100%', paddingLeft: '16px', borderLeft: '1px solid var(--ep-rule)' }}>
                                                         <div className="epaper-print-key-terms" style={{ marginTop: 0 }}>
                                                             <strong>Key Terms:</strong> {fallback.keyTerms.join(' · ')}
                                                         </div>
 
-                                                        <div className="epaper-print-pointers-row" style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '12px' }}>
+                                                        <div className="epaper-print-pointers-row">
                                                             {fallback.prelimsPoints && fallback.prelimsPoints.length > 0 && (
                                                                 <div className="epaper-print-pointer-box">
                                                                     <div className="epaper-print-pointer-title">📝 PRELIMS REVISION</div>
@@ -650,12 +650,12 @@ function ArticleCard({
                     </div>
                 </div>
 
-                <div style={{ display: 'flex', flexDirection: 'column', paddingLeft: '12px', borderLeft: '1px solid var(--ep-rule)' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', height: '100%', paddingLeft: '16px', borderLeft: '1px solid var(--ep-rule)' }}>
                     <div className="epaper-print-key-terms" style={{ marginTop: 0 }}>
                         <strong>Key Terms:</strong> {a.keyTerms.join(' · ')}
                     </div>
 
-                    <div className="epaper-print-pointers-row" style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '12px' }}>
+                    <div className="epaper-print-pointers-row">
                         {a.prelims && a.prelimsPoints.length > 0 && (
                             <div className="epaper-print-pointer-box">
                                 <div className="epaper-print-pointer-title">📝 PRELIMS</div>
