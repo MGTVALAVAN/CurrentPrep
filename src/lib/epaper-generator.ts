@@ -39,6 +39,7 @@ export interface EpaperArticle {
     mainsPoints: string[];
     imageDescription: string;
     section: string;
+    trivia: string;
     processedAt: string;
 }
 
@@ -126,9 +127,11 @@ For each INCLUDED article, return a JSON object with these fields:
 11. "mains": boolean — relevant for Mains?
 12. "mainsPoints": Array of 2-3 key dimensions for Mains answer writing (issues, arguments, way forward)
 
-13. "imageDescription": A one-line description for an illustrative image in Indian context (e.g., "Front view of Supreme Court of India building", "Indian farmer in paddy field with tractor", "RBI headquarters Mumbai skyline")
+13. "trivia": A single crisp, fascinating 1-2 sentence trivia fact highly relevant to the UPSC syllabus regarding the article's topic (e.g. historical firsts, constitutional quirks, geographical anomalies). Ensure it is highly testable and fascinating.
 
-14. "skip": boolean — set true if the article should be excluded per the rules above
+14. "imageDescription": A one-line description for an illustrative image in Indian context (e.g., "Front view of Supreme Court of India building", "Indian farmer in paddy field with tractor", "RBI headquarters Mumbai skyline")
+
+15. "skip": boolean — set true if the article should be excluded per the rules above
 
 RULES:
 - NEVER include party-political news, even if it involves a policy topic — skip it
@@ -149,6 +152,7 @@ interface GeminiEpaperResult {
     prelimsPoints: string[];
     mains: boolean;
     mainsPoints: string[];
+    trivia: string;
     imageDescription: string;
     skip?: boolean;
 }
@@ -389,6 +393,7 @@ export async function generateEpaperArticles(
                     mainsPoints: result.mainsPoints || [],
                     imageDescription: result.imageDescription || '',
                     section: raw.section,
+                    trivia: result.trivia || '',
                     processedAt: new Date().toISOString(),
                 });
             }

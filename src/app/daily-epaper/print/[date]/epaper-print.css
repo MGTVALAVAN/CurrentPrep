@@ -315,7 +315,6 @@
     flex-direction: column;
     gap: 8px;
     margin-top: 8px;
-    flex-grow: 1;
 }
 
 .epaper-print-pointer-box {
@@ -323,7 +322,32 @@
     border-radius: 4px;
     padding: 10px 12px;
     background: rgba(255, 255, 255, 0.4);
-    flex-grow: 1;
+}
+
+/* ── Trivia Box ──────────────────────────────────────────────────────── */
+.epaper-print-trivia-box {
+    margin-top: auto;
+    padding: 10px 12px;
+    background: rgba(212, 121, 28, 0.08);
+    border-left: 3px solid var(--ep-accent);
+    border-radius: 4px;
+    font-family: 'Source Serif 4', 'Georgia', serif;
+    font-size: 9px;
+    line-height: 1.5;
+    color: var(--ep-text-secondary);
+}
+
+.epaper-print-trivia-title {
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 7.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--ep-accent);
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .epaper-print-pointer-title {

@@ -25,6 +25,7 @@ interface EpaperArticle {
     mains: boolean;
     mainsPoints: string[];
     imageDescription: string;
+    trivia?: string;
     date?: string;
 }
 
@@ -670,6 +671,13 @@ function ArticleCard({
                                 <ul>
                                     {a.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}
                                 </ul>
+                            </div>
+                        )}
+                        {/* TypeScript explicitly complains if trivia doesn't exist, use optional chaining and truthiness */}
+                        {a.trivia && (
+                            <div className="epaper-print-trivia-box" style={{ marginTop: 'auto' }}>
+                                <div className="epaper-print-trivia-title">💡 DID YOU KNOW?</div>
+                                {renderText(a.trivia)}
                             </div>
                         )}
                     </div>
