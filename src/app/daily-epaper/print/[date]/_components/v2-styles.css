@@ -1,0 +1,251 @@
+/* ═══════════════════════════════════════════════════════════════════════════
+   EPAPER PRINT STYLES V2 — Block Repeatable Layout
+   Optimised for A4 PDF Output
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+:root {
+    --e2-page-bg: #FFFFFF;
+    --e2-text-main: #1C1C1E;
+    --e2-text-muted: #6C6C70;
+    --e2-rule: #E5E5EA;
+    --e2-accent: #2C3E50;
+    --e2-accent-light: #E8F0F8;
+
+    /* Subject Colors */
+    --e2-polity: #004D40;
+    --e2-economy: #1A237E;
+    --e2-environment: #1B5E20;
+    --e2-ir: #880E4F;
+    --e2-history: #3E2723;
+    --e2-science: #311B92;
+    --e2-ethics: #4A148C;
+
+    /* A4 Dimensions */
+    --e2-page-w: 210mm;
+    --e2-page-h: 297mm;
+    --e2-margin-t: 20mm;
+    --e2-margin-b: 20mm;
+    --e2-margin-l: 20mm;
+    --e2-margin-r: 20mm;
+}
+
+body {
+    background-color: #F2F2F7;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+}
+
+/* ── Container ──────────────────────────────────────────────────────── */
+.e2-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 30px;
+}
+
+/* ── A4 Page ────────────────────────────────────────────────────────── */
+.e2-page {
+    width: var(--e2-page-w);
+    min-height: var(--e2-page-h);
+    background: var(--e2-page-bg);
+    padding: var(--e2-margin-t) var(--e2-margin-r) var(--e2-margin-b) var(--e2-margin-l);
+    box-sizing: border-box;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    /* Print handling */
+    page-break-after: always;
+    break-after: page;
+}
+
+/* ── Typography defaults ────────────────────────────────────────────── */
+.e2-page h1,
+.e2-page h2,
+.e2-page h3,
+.e2-page p,
+.e2-page ul,
+.e2-page li {
+    margin: 0;
+    padding: 0;
+}
+
+.e2-page p,
+.e2-page li {
+    font-family: 'Source Serif 4', 'Georgia', serif;
+    font-size: 11px;
+    line-height: 1.5;
+    color: var(--e2-text-main);
+    text-align: justify;
+}
+
+/* ── Components ─────────────────────────────────────────────────────── */
+
+/* 1. Header */
+.e2-header {
+    border: 1px solid var(--e2-rule);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.e2-header-title {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--e2-accent);
+    margin-bottom: 4px;
+}
+
+.e2-header-subtitle {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--e2-text-muted);
+}
+
+.e2-header-meta {
+    margin-top: 8px;
+    font-size: 9px;
+    color: var(--e2-text-muted);
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+/* 2. Highlights */
+.e2-highlights {
+    border: 1px solid var(--e2-rule);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.e2-highlights-title {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    letter-spacing: 0.05em;
+}
+
+.e2-highlights ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.e2-highlights li {
+    margin-bottom: 6px;
+}
+
+/* 3. Common Box Pattern (2 Columns) */
+.e2-split-box {
+    display: flex;
+    border: 1px solid var(--e2-rule);
+    margin-bottom: 20px;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+.e2-split-main {
+    flex: 2;
+    padding: 15px;
+    border-right: 1px solid var(--e2-rule);
+}
+
+.e2-split-side {
+    flex: 1;
+    padding: 15px;
+}
+
+/* 4. Section Header (Topic-wise) */
+.e2-section-hw {
+    border: 1px solid var(--e2-rule);
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: var(--e2-accent-light);
+}
+
+.e2-section-title {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--e2-accent);
+}
+
+/* 5. Article Headline */
+.e2-article-headline-box {
+    border: 1px solid var(--e2-rule);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.e2-article-headline {
+    font-family: 'Playfair Display', 'Georgia', serif;
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 8px;
+}
+
+.e2-article-meta {
+    font-size: 9px;
+    color: var(--e2-text-muted);
+    text-transform: uppercase;
+}
+
+/* 6. List Box Utilities */
+.e2-list-title {
+    font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--e2-accent);
+    margin-bottom: 8px;
+    letter-spacing: 0.05em;
+}
+
+.e2-list-box ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.e2-list-box li {
+    position: relative;
+    padding-left: 12px;
+    margin-bottom: 6px;
+}
+
+.e2-list-box li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--e2-text-muted);
+}
+
+/* PRINT RULES */
+@media print {
+    body {
+        background-color: transparent;
+    }
+
+    .e2-container {
+        padding: 0;
+        gap: 0;
+    }
+
+    .e2-page {
+        box-shadow: none;
+        margin: 0;
+        /* Note: Browser adds its own margins via print dialog, so we might need to adjust padding to 0 if we let the browser handle margins, or set @page margins to 0. */
+    }
+
+    @page {
+        size: A4 portrait;
+        margin: 0;
+    }
+}
