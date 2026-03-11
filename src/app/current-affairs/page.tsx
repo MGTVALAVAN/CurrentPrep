@@ -8,7 +8,6 @@ import {
     CheckCircle2, AlertCircle, BookOpen, Download, Newspaper,
 } from 'lucide-react';
 import './newspaper.css';
-import ArticleImage from '@/components/ArticleImage';
 
 // ── Types ────────────────────────────────────────────────────────────────
 
@@ -134,7 +133,7 @@ export default function CurrentAffairsPage() {
     const fetchData = useCallback(async () => {
         setLoading(true);
         try {
-            const r = await fetch('/api/epaper');
+            const r = await fetch(`/api/epaper?_t=${Date.now()}`, { cache: 'no-store' });
             if (!r.ok) throw 0;
             const d: DailyEpaper = await r.json();
             if (d.articles?.length) { setEpaper(d); setArticles(d.articles); setSrc('live'); }
@@ -326,14 +325,7 @@ export default function CurrentAffairsPage() {
                                         <span>{lead.date}</span>
                                     </div>
 
-                                    <div style={{ margin: '16px 0', width: '100%', height: '300px', position: 'relative' }}>
-                                        <ArticleImage
-                                            category={lead.category}
-                                            id={lead.id}
-                                            alt={lead.headline}
-                                            className="w-full h-full rounded-sm border border-[#e5e5e5]"
-                                        />
-                                    </div>
+                                    {/* Thumbnail Image Removed as requested */}
 
                                     <div className="np-lead-text">
                                         {renderText(lead.explainer)}

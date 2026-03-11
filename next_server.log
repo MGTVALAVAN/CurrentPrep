@@ -1,0 +1,162 @@
+
+> currentprep@1.0.0 dev
+> next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3001
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1832ms
+ ✓ Compiled /api/epaper in 332ms (59 modules)
+ GET /api/epaper?date=2026-03-09 200 in 413ms
+ ○ Compiling /daily-epaper/print/[date] ...
+ ✓ Compiled /daily-epaper/print/[date] in 6.2s (1792 modules)
+ ✓ Compiled in 272ms (847 modules)
+ GET /daily-epaper/print/2026-03-09 200 in 7143ms
+ GET /api/epaper?date=2026-03-09&_t=1773069117784 200 in 62ms
+ GET /api/epaper?date=2026-03-09&_t=1773069117792 200 in 57ms
+ GET /api/epaper?date=2026-03-09&_t=1773069117805 200 in 58ms
+ GET /api/epaper?date=2026-03-09&_t=1773069117806 200 in 81ms
+ ○ Compiling /daily-epaper ...
+ ✓ Compiled /daily-epaper in 6.2s (1890 modules)
+ GET / 200 in 6484ms
+ GET /daily-epaper 200 in 6483ms
+ GET /daily-epaper/archive 200 in 6484ms
+ GET /daily-epaper/print/2026-03-09 200 in 246ms
+ GET /api/epaper?date=2026-03-09&_t=1773069193510 200 in 77ms
+ GET /api/epaper?date=2026-03-09&_t=1773069193522 200 in 96ms
+ GET /api/epaper?date=2026-03-09&_t=1773069193530 200 in 44ms
+ GET /api/epaper?date=2026-03-09&_t=1773069193532 200 in 44ms
+ GET / 200 in 193ms
+ GET /daily-epaper/archive 200 in 196ms
+ GET /daily-epaper 200 in 197ms
+ ✓ Compiled in 2.4s (1807 modules)
+ GET /daily-epaper/print/2026-03-09 200 in 276ms
+ ✓ Compiled / in 332ms (932 modules)
+ ✓ Compiled /daily-epaper in 0ms (949 modules)
+ ✓ Compiled in 0ms (992 modules)
+ ✓ Compiled in 0ms (992 modules)
+ GET /api/epaper?date=2026-03-09&_t=1773071463683 200 in 764ms
+ GET /api/epaper?date=2026-03-09&_t=1773071463685 200 in 765ms
+ GET /api/epaper?date=2026-03-09&_t=1773071463673 200 in 791ms
+ GET /api/epaper?date=2026-03-09&_t=1773071463679 200 in 766ms
+ ✓ Compiled /daily-epaper/archive in 1ms (992 modules)
+ GET / 200 in 1024ms
+ ✓ Compiled (998 modules)
+ GET /daily-epaper 200 in 2276ms
+ GET /daily-epaper/archive 200 in 1665ms
+ GET /daily-epaper/print/2026-03-09 200 in 125ms
+ GET /api/epaper?date=2026-03-09&_t=1773071751129 200 in 34ms
+ GET /api/epaper?date=2026-03-09&_t=1773071751135 200 in 38ms
+ GET /api/epaper?date=2026-03-09&_t=1773071751140 200 in 41ms
+ GET /api/epaper?date=2026-03-09&_t=1773071751140 200 in 41ms
+ GET / 200 in 154ms
+ GET /daily-epaper 200 in 159ms
+ GET /daily-epaper/archive 200 in 160ms
+ ✓ Compiled in 2.3s (1820 modules)
+ GET /daily-epaper/print/2026-03-09 200 in 275ms
+ ✓ Compiled /api/epaper in 141ms (932 modules)
+ GET /api/epaper?date=2026-03-09&_t=1773072007393 200 in 202ms
+ GET /api/epaper?date=2026-03-09&_t=1773072007397 200 in 201ms
+ GET /api/epaper?date=2026-03-09&_t=1773072007398 200 in 200ms
+ GET /api/epaper?date=2026-03-09&_t=1773072007386 200 in 221ms
+ ✓ Compiled /daily-epaper/archive in 164ms (949 modules)
+ ✓ Compiled (998 modules)
+ GET /daily-epaper/archive 200 in 536ms
+ GET / 200 in 538ms
+ GET /daily-epaper 200 in 537ms
+ GET /daily-epaper/print/2026-03-09 200 in 104ms
+ GET /api/epaper?date=2026-03-09&_t=1773072239687 200 in 328ms
+ GET /api/epaper?date=2026-03-09&_t=1773072239694 200 in 286ms
+ GET /api/epaper?date=2026-03-09&_t=1773072239707 200 in 282ms
+ GET /api/epaper?date=2026-03-09&_t=1773072239708 200 in 281ms
+ GET / 200 in 328ms
+ GET /daily-epaper 200 in 359ms
+ GET /daily-epaper/archive 200 in 168ms
+ ✓ Compiled in 2.1s (1807 modules)
+ ✓ Compiled /api/epaper in 135ms (932 modules)
+ GET /api/epaper?date=2026-03-09&_t=1773072373885 200 in 239ms
+ GET /api/epaper?date=2026-03-09&_t=1773072373885 200 in 241ms
+ GET /daily-epaper/print/2026-03-09 200 in 269ms
+ GET /api/epaper?date=2026-03-09&_t=1773072398998 200 in 21ms
+ GET /api/epaper?date=2026-03-09&_t=1773072399004 200 in 24ms
+ GET /api/epaper?date=2026-03-09&_t=1773072399009 200 in 26ms
+ GET /api/epaper?date=2026-03-09&_t=1773072399009 200 in 26ms
+ ✓ Compiled /daily-epaper in 193ms (949 modules)
+ ✓ Compiled (998 modules)
+ GET /daily-epaper/archive 200 in 1233ms
+ GET / 200 in 1234ms
+ GET /daily-epaper 200 in 1234ms
+ GET /daily-epaper/print/2026-03-09 200 in 87ms
+ GET /api/epaper?date=2026-03-09&_t=1773072485974 200 in 36ms
+ GET /api/epaper?date=2026-03-09&_t=1773072485979 200 in 32ms
+ GET /api/epaper?date=2026-03-09&_t=1773072485984 200 in 35ms
+ GET /api/epaper?date=2026-03-09&_t=1773072485985 200 in 35ms
+ GET / 200 in 99ms
+ GET /daily-epaper/archive 200 in 101ms
+ GET /daily-epaper 200 in 106ms
+ ✓ Compiled in 1137ms (1807 modules)
+ ✓ Compiled /api/epaper in 143ms (932 modules)
+ GET /api/epaper?date=2026-03-09&_t=1773072640454 200 in 461ms
+ GET /api/epaper?date=2026-03-09&_t=1773072640453 200 in 477ms
+ ✓ Compiled in 564ms (1838 modules)
+ GET /daily-epaper/print/2026-03-09 200 in 164ms
+ GET /api/epaper?date=2026-03-09&_t=1773072696402 200 in 23ms
+ GET /api/epaper?date=2026-03-09&_t=1773072696409 200 in 28ms
+ GET /api/epaper?date=2026-03-09&_t=1773072696413 200 in 15ms
+ GET /api/epaper?date=2026-03-09&_t=1773072696414 200 in 15ms
+ ✓ Compiled /daily-epaper/archive in 209ms (949 modules)
+ ✓ Compiled (998 modules)
+ GET /daily-epaper 200 in 1095ms
+ GET /daily-epaper/archive 200 in 1096ms
+ GET / 200 in 1098ms
+ GET /daily-epaper/print/2026-03-09 200 in 300ms
+ GET /api/epaper?date=2026-03-09&_t=1773072978647 200 in 78ms
+ GET /api/epaper?date=2026-03-09&_t=1773072978650 200 in 66ms
+ GET /api/epaper?date=2026-03-09&_t=1773072978658 200 in 66ms
+ GET /api/epaper?date=2026-03-09&_t=1773072978658 200 in 67ms
+ ✓ Compiled in 2.4s (1807 modules)
+ ✓ Compiled /api/epaper in 318ms (932 modules)
+ GET /api/epaper?date=2026-03-09&_t=1773073193596 200 in 527ms
+ GET /api/epaper?date=2026-03-09&_t=1773073193595 200 in 554ms
+ GET /daily-epaper/print/2026-03-09 200 in 212ms
+ GET /api/epaper?date=2026-03-09&_t=1773073333027 200 in 45ms
+ GET /api/epaper?date=2026-03-09&_t=1773073333030 200 in 33ms
+ GET /api/epaper?date=2026-03-09&_t=1773073333038 200 in 45ms
+ GET /api/epaper?date=2026-03-09&_t=1773073333038 200 in 43ms
+ ✓ Compiled in 1199ms (1820 modules)
+ ✓ Compiled in 6.8s (1338 modules)
+ ✓ Compiled in 1733ms (1336 modules)
+ ✓ Compiled /api/epaper in 280ms (664 modules)
+ GET /api/epaper?date=2026-03-09&_t=1773073628343 200 in 730ms
+ GET /api/epaper?date=2026-03-09&_t=1773073628361 200 in 641ms
+ GET /api/epaper?date=2026-03-09&_t=1773073628361 200 in 640ms
+ GET /api/epaper?date=2026-03-09&_t=1773073628342 200 in 732ms
+ ✓ Compiled in 7.3s (1369 modules)
+ GET /daily-epaper/print/2026-03-09 200 in 312ms
+ GET /api/epaper?date=2026-03-09&_t=1773073683241 200 in 673ms
+ GET /api/epaper?date=2026-03-09&_t=1773073683248 200 in 665ms
+ GET /api/epaper?date=2026-03-09&_t=1773073683257 200 in 666ms
+ GET /api/epaper?date=2026-03-09&_t=1773073683258 200 in 666ms
+ ✓ Compiled in 2s (1336 modules)
+ GET /daily-epaper/print/2026-03-09 200 in 517ms
+ ✓ Compiled /api/epaper in 397ms (664 modules)
+ GET /api/epaper?date=2026-03-09&_t=1773073923736 200 in 663ms
+ GET /api/epaper?date=2026-03-09&_t=1773073923749 200 in 663ms
+ GET /api/epaper?date=2026-03-09&_t=1773073923750 200 in 662ms
+ GET /api/epaper?date=2026-03-09&_t=1773073923732 200 in 720ms
+ ✓ Compiled in 1616ms (1349 modules)
+ ✓ Compiled in 2.7s (1336 modules)
+ GET /daily-epaper/print/2026-03-09 200 in 276ms
+ ✓ Compiled /api/epaper in 154ms (664 modules)
+ GET /api/epaper?date=2026-03-09&_t=1773074248467 200 in 286ms
+ GET /api/epaper?date=2026-03-09&_t=1773074248474 200 in 280ms
+ GET /api/epaper?date=2026-03-09&_t=1773074248474 200 in 279ms
+ GET /api/epaper?date=2026-03-09&_t=1773074248464 200 in 299ms
+ GET /daily-epaper/print/2026-03-09 200 in 170ms
+ GET /api/epaper?date=2026-03-09&_t=1773074366732 200 in 33ms
+ GET /api/epaper?date=2026-03-09&_t=1773074366734 200 in 30ms
+ GET /api/epaper?date=2026-03-09&_t=1773074366739 200 in 27ms
+ GET /api/epaper?date=2026-03-09&_t=1773074366740 200 in 27ms

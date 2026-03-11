@@ -18,7 +18,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { scrapeEpaperSources } from '@/lib/epaper-scraper';
 import { generateDailyEpaper } from '@/lib/epaper-generator';
 import { saveEpaper, loadEpaper } from '@/lib/epaper-store';
-
+import { sendDailyEpaperEmail } from '@/lib/mailer';
 
 export const dynamic = 'force-dynamic';
 export const maxDuration = 120; // ePaper generation can take longer
@@ -83,6 +83,9 @@ export async function POST(request: NextRequest) {
             `[epaper-api] ✅ ePaper generated: ${epaperData.articles.length} articles`
         );
 
+        // --- Step 4: Email ---
+        // Fire asynchronously to avoid blocking API response
+        sendDailyEpaperEmail(today).catch(e => console.error("Email trigger failed:", e));
 
         return NextResponse.json({
             message: `Successfully generated ePaper for ${today}`,

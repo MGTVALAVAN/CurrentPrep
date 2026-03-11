@@ -100,11 +100,34 @@
     min-height: 297mm;
     margin: 0 auto 30px auto;
     padding: 18mm 15mm 15mm 15mm;
-    background: var(--ep-bg);
+    /* Transparent or damask directly here */
+    background: transparent;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     position: relative;
     box-sizing: border-box;
     page-break-after: always;
+}
+
+/* Slated strips (dark and light) for empty spaces fallback */
+.epaper-print-wrapper {
+    background-color: var(--ep-bg) !important;
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40' fill='%23FFE0B2' fill-opacity='0.4'/%3E%3C/svg%3E") !important;
+}
+
+.epaper-print-masthead,
+.epaper-print-headlines-bar,
+.epaper-print-lead,
+.epaper-print-article,
+.epaper-print-section-header {
+    background-color: var(--ep-bg) !important;
+    padding: 10px;
+    border-radius: 4px;
+    /* Optional for a smoother look when they have background */
+}
+
+/* Fix margin padding logic now that articles have backgrounds */
+.epaper-print-article {
+    margin-bottom: 24px;
 }
 
 /* ── Masthead ────────────────────────────────────────────────────────── */
@@ -328,10 +351,11 @@
 
 /* ── Article grid (2-column newspaper) ───────────────────────────────── */
 .epaper-print-grid {
-    column-count: 2;
-    column-gap: 24px;
-    column-rule: 1px solid var(--ep-rule);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
     margin-top: 16px;
+    align-items: flex-start;
 }
 
 /* ── Individual article card ─────────────────────────────────────────── */
@@ -339,12 +363,16 @@
     border: none;
     border-top: 1px solid var(--ep-rule);
     padding: 16px 0;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     background: transparent;
     box-shadow: none;
-    display: block;
-    break-inside: auto;
-    page-break-inside: auto;
+    /* Using flex item setup */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* Force avoid breaking inside the article */
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
 }
 
 .epaper-print-article.compact {
@@ -359,6 +387,8 @@
     letter-spacing: 0.1em;
     color: var(--ep-highlight);
     margin-bottom: 3px;
+    break-after: avoid;
+    page-break-after: avoid;
 }
 
 .epaper-print-article-headline {
@@ -370,7 +400,6 @@
     margin: 0 0 3px 0;
     break-after: avoid;
     page-break-after: avoid;
-    column-break-after: avoid;
 }
 
 .epaper-print-article.compact .epaper-print-article-headline {
@@ -386,7 +415,6 @@
     letter-spacing: 0.05em;
     break-after: avoid;
     page-break-after: avoid;
-    column-break-after: avoid;
 }
 
 .epaper-print-article-body {
@@ -413,6 +441,9 @@
 /* ── Section headers (GS-wise) — colored ─────────────────────────────── */
 .epaper-print-section-header {
     margin-bottom: 14px;
+    break-after: avoid;
+    page-break-after: avoid;
+    break-inside: avoid;
 }
 
 .epaper-print-section-rule {
@@ -462,7 +493,6 @@
         background: var(--ep-bg) !important;
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
-        color-adjust: exact !important;
     }
 
     @page {
@@ -471,22 +501,30 @@
     }
 
     .epaper-print-wrapper {
-        background: var(--ep-bg) !important;
+        background-color: var(--ep-bg) !important;
+        background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 40L40 0H20L0 20M40 40V20L20 40' fill='%23FFE0B2' fill-opacity='0.4'/%3E%3C/svg%3E") !important;
     }
 
     .epaper-print-page {
-        width: 210mm;
-        height: 297mm;
+        width: 100%;
+        height: auto;
         margin: 0;
-        padding: 12mm 12mm 12mm 12mm;
+        padding: 5mm;
         box-shadow: none;
-        page-break-after: always;
-        overflow: hidden;
+        page-break-after: avoid;
+        background: transparent !important;
     }
 
     .epaper-print-article {
-        break-inside: avoid;
-        page-break-inside: avoid;
+        /* Prevent articles from breaking across pages to ensure they stay intact */
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    .epaper-print-grid {
+        /* When articles are not broken across pages, 2 columns often creates mismatched heights that look bad. */
+        column-count: 1;
+        /* Best to switch to a single column if we prevent breaks to utilize space efficiently. Wait, the user wants 2 columns probably... Wait, they didn't specify. But avoiding breaks in CSS columns ruins the columns sometimes. We'll leave the grid as flex or block */
     }
 
     .epaper-print-lead-body {
@@ -504,7 +542,12 @@
     }
 
     .epaper-print-grid {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .epaper-print-article {
+        width: 100%;
     }
 
     .epaper-print-lead-body {

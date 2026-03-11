@@ -10,8 +10,7 @@ import {
     AlertCircle, Tag, Archive, FileText, Shield, Wheat, Compass,
     MapPin, History, CloudRain, ChevronLeft, Download, Smartphone
 } from 'lucide-react';
-import ArticleImage from '@/components/ArticleImage';
-
+// Imports cleaned up
 // ---------------------------------------------------------------------------
 // Types
 // ---------------------------------------------------------------------------
@@ -232,15 +231,7 @@ function ArticleCard({ article, index, isTopStory }: { article: EpaperArticle; i
                 </span>
             </div>
 
-            {/* Thumbnail Image */}
-            {isTopStory && (
-                <ArticleImage
-                    category={article.category}
-                    id={article.id}
-                    alt={article.headline}
-                    className="w-full h-48 md:h-52 rounded-xl mb-4 border border-[var(--border-color)]"
-                />
-            )}
+            {/* Thumbnail Image Removed as requested */}
 
             {/* Headline */}
             <h3 className="epaper-headline group-hover:text-accent-500 transition-colors">
@@ -675,7 +666,6 @@ export default function DailyEpaperPage() {
                             </select>
                         )}
 
-                        {/* Download PDF */}
                         <a
                             href={`/daily-epaper/print/${epaper.date || new Date().toISOString().split('T')[0]}`}
                             target="_blank"

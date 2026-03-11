@@ -42,6 +42,19 @@ export interface EpaperArticle {
     processedAt: string;
 }
 
+export interface MockQuestion {
+    question: string;
+    options?: string[]; // For prelims
+    answer: string;
+    explanation: string;
+}
+
+export interface MainsMockQuestion {
+    question: string;
+    syllabusMatch: string;
+    approach: string;
+}
+
 export interface DailyEpaper {
     date: string;
     dateFormatted: string;
@@ -53,6 +66,8 @@ export interface DailyEpaper {
     totalScraped: number;
     totalProcessed: number;
     highlights: string[];
+    prelimsMocks?: MockQuestion[];
+    mainsMocks?: MainsMockQuestion[];
 }
 
 // ---------------------------------------------------------------------------
@@ -436,6 +451,114 @@ function groupByGS(articles: EpaperArticle[]): Record<string, EpaperArticle[]> {
 }
 
 /**
+ * Generates UPSC Mocks based on today's finalized articles.
+ */
+async function generateMocks(
+    articles: EpaperArticle[],
+    apiKey: string
+): Promise<{ prelimsMocks: MockQuestion[]; mainsMocks: MainsMockQuestion[] }> {
+    console.log(`[epaper-gen] Generating Mocks from ${articles.length} articles...`);
+
+    const contextTexts = articles
+        .slice(0, 10) // taking top 10 to keep within token limits
+        .map((a) => `- ${a.headline} (GS: ${a.gsPaper})`)
+        .join('\n');
+
+    const prompt = `You are a UPSC mock paper setter. Based strictly on the themes in today's top 10 news headlines below, generate 5 Prelims Mock Questions and 5 Mains Mock Questions.
+
+HEADLINES TODAY:
+${contextTexts}
+
+REQUIREMENTS:
+1. Prelims Mock: Return EXACTLY 5 actual UPSC Previous Year Prelims Questions from the last 15 years whose themes loosely intersect with the headlines if possible. If no match, provide random robust standard PYQs. No hallucinations in PYQs! Include 4 options per question, mark the exact answer, and provide a 2-3 sentence explanation.
+2. Mains Mock: Generate EXACTLY 5 Mains questions (10 or 15 markers) purely based on the specific current affairs provided in the headlines and linking them strictly with the UPSC syllabus. Provide the specific syllabus relevance, and a brief 2-3 sentence approach hint.
+
+Return ONLY valid JSON matching this structure:
+{
+  "prelimsMocks": [
+    { "question": "The question text", "options": ["A. ...", "B. ...", "C. ...", "D. ..."], "answer": "The correct option text exactly", "explanation": "Detailed explanation..." }
+  ],
+  "mainsMocks": [
+    { "question": "The mains question...", "syllabusMatch": "GS2: Specific topic...", "approach": "Briefly introduce..." }
+  ]
+}`;
+
+    const requestBody = {
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        generationConfig: {
+            temperature: 0.3,
+            topP: 0.85,
+            responseMimeType: 'application/json',
+        },
+    };
+
+    let lastError: Error | null = null;
+
+    for (const model of GEMINI_MODELS) {
+        const MAX_RETRIES = 3;
+
+        for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+            try {
+                console.log(`[epaper-gen] Generating Mocks with ${model} (attempt ${attempt}/${MAX_RETRIES})...`);
+
+                const response = await fetch(
+                    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+                    {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(requestBody),
+                    }
+                );
+
+                if (response.status === 429) {
+                    const errBody = await response.text();
+                    const retryMatch = errBody.match(/retry.*?(\d+\.?\d*)\s*s/i);
+                    const retryDelaySec = retryMatch ? parseFloat(retryMatch[1]) : 10 * attempt;
+
+                    if (errBody.includes('limit: 0')) {
+                        console.warn(`[epaper-gen] ${model} daily quota exhausted, trying next model...`);
+                        lastError = new Error(`${model} daily quota exhausted`);
+                        break;
+                    }
+
+                    console.warn(`[epaper-gen] Rate limited on ${model}. Retrying in ${retryDelaySec}s...`);
+                    await sleep(retryDelaySec * 1000);
+                    continue;
+                }
+
+                if (!response.ok) {
+                    const errText = await response.text();
+                    throw new Error(`Gemini API error ${response.status}: ${errText.slice(0, 300)}`);
+                }
+
+                const data = await response.json();
+                const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+                if (!text) throw new Error("No text returned for mocks");
+
+                const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+                const parsed = JSON.parse(cleaned);
+
+                return {
+                    prelimsMocks: parsed.prelimsMocks || [],
+                    mainsMocks: parsed.mainsMocks || []
+                };
+            } catch (err: any) {
+                lastError = err;
+                if (attempt < MAX_RETRIES && !err.message.includes('quota exhausted')) {
+                    const backoff = Math.pow(2, attempt) * 5000;
+                    console.warn(`[epaper-gen] Mock gen error on ${model}, retrying in ${backoff / 1000}s: ${err.message}`);
+                    await sleep(backoff);
+                }
+            }
+        }
+        console.warn(`[epaper-gen] All mock retries failed for ${model}, trying next model...`);
+    }
+
+    console.error('[epaper-gen] Mocks generation ultimately failed:', lastError?.message);
+    return { prelimsMocks: [], mainsMocks: [] };
+}
+
+/**
  * Full ePaper pipeline: scrape → AI process → structure as ePaper.
  */
 export async function generateDailyEpaper(
@@ -444,6 +567,9 @@ export async function generateDailyEpaper(
 ): Promise<DailyEpaper> {
     const articles = await generateEpaperArticles(rawArticles, apiKey);
     const today = new Date().toISOString().split('T')[0];
+
+    // Generate mocks based on today's selected articles
+    const mocks = await generateMocks(articles, apiKey);
 
     const uniqueSources = Array.from(new Set(rawArticles.map((a) => a.sourceShort || a.source)));
 
@@ -458,5 +584,7 @@ export async function generateDailyEpaper(
         totalScraped: rawArticles.length,
         totalProcessed: articles.length,
         highlights: generateHighlights(articles),
+        prelimsMocks: mocks.prelimsMocks,
+        mainsMocks: mocks.mainsMocks,
     };
 }
