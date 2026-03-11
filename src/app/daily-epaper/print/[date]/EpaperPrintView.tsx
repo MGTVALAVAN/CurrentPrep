@@ -326,7 +326,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
             <div id="epaper-pdf-content" className="epaper-print-wrapper">
 
                 {/* === PAGE 1: FRONT PAGE === */}
-                <div className="epaper-print-page" style={{ display: 'flex', flexDirection: 'column', pageBreakAfter: 'always' }}>
+                <div className="epaper-print-page" style={{ display: 'block', position: 'relative' }}>
                     {/* Masthead */}
                     <header className="epaper-print-masthead" style={{ marginBottom: '24px', flexShrink: 0 }}>
                         <div style={{
@@ -390,23 +390,26 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                 className="epaper-print-lead"
                                 style={{ borderTop: `4px solid ${GS_COLORS[lead.gsPaper] || '#8B4513'}`, paddingTop: '14px', flexGrow: 1, display: 'flex', flexDirection: 'column' }}
                             >
-                                <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1.8fr', gap: '24px', flexGrow: 1 }}>
-                                    {/* Left Column: Title, Meta, Pointers */}
-                                    <div style={{ display: 'flex', flexDirection: 'column' }}>
-                                        <div className="epaper-print-lead-category">
-                                            {CAT_LABELS[lead.category] || lead.category.toUpperCase()} · {lead.gsPaper}
-                                        </div>
-                                        <h2 className="epaper-print-lead-headline" style={{ fontSize: '28px', lineHeight: 1.2, marginTop: '8px' }}>{lead.headline}</h2>
-                                        <div className="epaper-print-lead-meta" style={{ marginTop: '12px' }}>
-                                            Source: {lead.source} · {lead.importance === 'high' ? '★ HIGH PRIORITY' : lead.importance === 'medium' ? '● MEDIUM' : '○ LOW'}
+                                <div style={{ display: 'block' }}>
+                                    {/* Floated Left Column: Title, Meta, Pointers */}
+                                    <div style={{ float: 'left', width: '42%', paddingRight: '24px', marginRight: '24px', borderRight: '1px solid var(--ep-rule)', boxSizing: 'border-box' }}>
+                                        <div style={{ pageBreakInside: 'avoid', breakInside: 'avoid' }}>
+                                            <div className="epaper-print-lead-category">
+                                                {CAT_LABELS[lead.category] || lead.category.toUpperCase()} · {lead.gsPaper}
+                                            </div>
+                                            <h2 className="epaper-print-lead-headline" style={{ fontSize: '28px', lineHeight: 1.2, marginTop: '8px' }}>{lead.headline}</h2>
+                                            <div className="epaper-print-lead-meta" style={{ marginTop: '12px' }}>
+                                                Source: {lead.source} · {lead.importance === 'high' ? '★ HIGH PRIORITY' : lead.importance === 'medium' ? '● MEDIUM' : '○ LOW'}
+                                            </div>
+
+                                            <div className="epaper-print-key-terms" style={{ marginTop: '16px' }}>
+                                                <strong>Key Terms:</strong> {lead.keyTerms.join(' · ')}
+                                            </div>
                                         </div>
 
-                                        <div className="epaper-print-key-terms" style={{ marginTop: 'auto', paddingTop: '16px' }}>
-                                            <strong>Key Terms:</strong> {lead.keyTerms.join(' · ')}
-                                        </div>
                                         <div className="epaper-print-pointers-row" style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: '16px' }}>
                                             {lead.prelims && lead.prelimsPoints.length > 0 && (
-                                                <div className="epaper-print-pointer-box">
+                                                <div className="epaper-print-pointer-box" style={{ breakInside: 'avoid', pageBreakInside: 'avoid' }}>
                                                     <div className="epaper-print-pointer-title">📝 PRELIMS POINTERS</div>
                                                     <ul>
                                                         {lead.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}
@@ -414,7 +417,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                 </div>
                                             )}
                                             {lead.mains && lead.mainsPoints.length > 0 && (
-                                                <div className="epaper-print-pointer-box">
+                                                <div className="epaper-print-pointer-box" style={{ breakInside: 'avoid', pageBreakInside: 'avoid' }}>
                                                     <div className="epaper-print-pointer-title">✍️ MAINS DIMENSIONS</div>
                                                     <ul>
                                                         {lead.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}
@@ -425,11 +428,17 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                     </div>
 
                                     {/* Right Column: Explainer */}
-                                    <div style={{ display: 'flex', flexDirection: 'column', paddingLeft: '12px', borderLeft: '1px solid var(--ep-rule)' }}>
-                                        <div className="epaper-print-lead-body" style={{ columns: 1, fontSize: '12.5px', lineHeight: 1.8, textAlign: 'justify' }}>
-                                            {renderText(lead.explainer)}
-                                        </div>
+                                    <div className="epaper-print-lead-body" style={{ fontSize: '13px', lineHeight: 1.8, textAlign: 'justify' }}>
+                                        {renderText(lead.explainer)}
+                                        {lead.trivia && (
+                                            <div className="epaper-print-trivia-box" style={{ marginTop: '16px', breakInside: 'avoid', pageBreakInside: 'avoid' }}>
+                                                <div className="epaper-print-trivia-title">💡 DID YOU KNOW?</div>
+                                                {renderText(lead.trivia)}
+                                            </div>
+                                        )}
                                     </div>
+                                    {/* Clear float spacer */}
+                                    <div style={{ clear: 'both' }}></div>
                                 </div>
                             </div>
                         );
