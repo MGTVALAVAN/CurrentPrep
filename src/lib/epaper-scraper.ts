@@ -165,14 +165,12 @@ async function fetchFeed(
 // ---------------------------------------------------------------------------
 
 function isWithin24Hours(dateStr: string): boolean {
-    if (!dateStr) return true;
-    try {
-        const d = new Date(dateStr);
-        const now = new Date();
-        return now.getTime() - d.getTime() < 24 * 60 * 60 * 1000;
-    } catch {
-        return true;
-    }
+    if (!dateStr) return false;
+    const d = new Date(dateStr);
+    if (isNaN(d.getTime())) return false; // Invalid date
+    const ageMs = Date.now() - d.getTime();
+    // Allow up to 24 hours old, and allow items from slightly in the future (timezone issues)
+    return ageMs < 24 * 60 * 60 * 1000 && ageMs > -2 * 60 * 60 * 1000;
 }
 
 function deduplicateArticles(articles: RawEpaperArticle[]): RawEpaperArticle[] {
@@ -269,7 +267,7 @@ export async function scrapeEpaperSources(): Promise<RawEpaperArticle[]> {
 
     // Take up to 10 diverse source articles + fill rest with newspaper articles
     // Take up to 15 diverse source articles + fill rest with newspaper articles
-    const TOTAL_LIMIT = 80; // massive raw pull to guarantee 25+ high-quality survives filter
+    const TOTAL_LIMIT = 100; // massive raw pull to guarantee 25+ high-quality survives filter
     const DIVERSE_QUOTA = Math.min(15, diverseArticles.length);
     const selected: RawEpaperArticle[] = [
         ...diverseArticles.slice(0, DIVERSE_QUOTA),

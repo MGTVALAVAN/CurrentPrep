@@ -390,9 +390,9 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                 className="epaper-print-lead"
                                 style={{ borderTop: `4px solid ${GS_COLORS[lead.gsPaper] || '#8B4513'}`, paddingTop: '14px', flexGrow: 1, display: 'flex', flexDirection: 'column' }}
                             >
-                                <div style={{ display: 'block' }}>
-                                    {/* Floated Left Column: Title, Meta, Pointers */}
-                                    <div style={{ float: 'left', width: '42%', paddingRight: '24px', marginRight: '24px', borderRight: '1px solid var(--ep-rule)', boxSizing: 'border-box' }}>
+                                <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', gap: '24px', backgroundImage: 'linear-gradient(to right, transparent calc(42% - 12px), var(--ep-rule) calc(42% - 12px), var(--ep-rule) calc(42% - 11px), transparent calc(42% - 11px))' }}>
+                                    {/* Left Main Content: Title, Meta, Pointers */}
+                                    <div style={{ flex: '0 0 calc(42% - 24px)', boxSizing: 'border-box' }}>
                                         <div style={{ pageBreakInside: 'avoid', breakInside: 'avoid' }}>
                                             <div className="epaper-print-lead-category">
                                                 {CAT_LABELS[lead.category] || lead.category.toUpperCase()} · {lead.gsPaper}
@@ -427,18 +427,18 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                         </div>
                                     </div>
 
-                                    {/* Right Column: Explainer */}
-                                    <div className="epaper-print-lead-body" style={{ fontSize: '13px', lineHeight: 1.8, textAlign: 'justify' }}>
-                                        {renderText(lead.explainer)}
-                                        {lead.trivia && (
-                                            <div className="epaper-print-trivia-box" style={{ marginTop: '16px', breakInside: 'avoid', pageBreakInside: 'avoid' }}>
-                                                <div className="epaper-print-trivia-title">💡 DID YOU KNOW?</div>
-                                                {renderText(lead.trivia)}
-                                            </div>
-                                        )}
+                                    {/* Right Sidebar: Explainer & Trivia */}
+                                    <div style={{ flex: '1', boxSizing: 'border-box' }}>
+                                        <div className="epaper-print-lead-body" style={{ fontSize: '13px', lineHeight: 1.8, textAlign: 'justify' }}>
+                                            {renderText(lead.explainer)}
+                                            {lead.trivia && (
+                                                <div className="epaper-print-trivia-box" style={{ marginTop: '16px', breakInside: 'avoid', pageBreakInside: 'avoid' }}>
+                                                    <div className="epaper-print-trivia-title">💡 DID YOU KNOW?</div>
+                                                    {renderText(lead.trivia)}
+                                                </div>
+                                            )}
+                                        </div>
                                     </div>
-                                    {/* Clear float spacer */}
-                                    <div style={{ clear: 'both' }}></div>
                                 </div>
                             </div>
                         );
@@ -487,9 +487,10 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                 className="epaper-print-article"
                                                 style={{ borderTop: `4px solid ${GS_COLORS[gs] || '#8B4513'}`, marginTop: '16px' }}
                                             >
-                                                <div style={{ display: 'grid', gridTemplateColumns: '1.4fr 1fr', gap: '20px' }}>
-                                                    <div style={{ display: 'flex', flexDirection: 'column' }}>
-                                                        <div style={{ pageBreakInside: 'avoid', breakInside: 'avoid', pageBreakAfter: 'avoid', breakAfter: 'avoid' }}>
+                                                <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', gap: '24px', backgroundImage: 'linear-gradient(to right, transparent calc(58.33% - 12px), var(--ep-rule) calc(58.33% - 12px), var(--ep-rule) calc(58.33% - 11px), transparent calc(58.33% - 11px))' }}>
+                                                    {/* Left Main Content */}
+                                                    <div style={{ flex: '1.4', boxSizing: 'border-box' }}>
+                                                        <div style={{ pageBreakInside: 'avoid', breakInside: 'avoid' }}>
                                                             <div className="epaper-print-article-cat">
                                                                 PREVIOUS YEAR QUESTION SPOTLIGHT · {gs}
                                                             </div>
@@ -504,14 +505,15 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                         </div>
                                                     </div>
 
-                                                    <div style={{ display: 'flex', flexDirection: 'column', height: '100%', paddingLeft: '16px', borderLeft: '1px solid var(--ep-rule)' }}>
+                                                    {/* Right Sidebar */}
+                                                    <div style={{ flex: '1', display: 'flex', flexDirection: 'column', height: '100%', boxSizing: 'border-box' }}>
                                                         <div className="epaper-print-key-terms" style={{ marginTop: 0 }}>
                                                             <strong>Key Terms:</strong> {fallback.keyTerms.join(' · ')}
                                                         </div>
 
                                                         <div className="epaper-print-pointers-row">
                                                             {fallback.prelimsPoints && fallback.prelimsPoints.length > 0 && (
-                                                                <div className="epaper-print-pointer-box">
+                                                                <div className="epaper-print-pointer-box" style={{ breakInside: 'avoid', pageBreakInside: 'avoid' }}>
                                                                     <div className="epaper-print-pointer-title">📝 PRELIMS REVISION</div>
                                                                     <ul>
                                                                         {fallback.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}
@@ -519,7 +521,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                                 </div>
                                                             )}
                                                             {fallback.mainsPoints && fallback.mainsPoints.length > 0 && (
-                                                                <div className="epaper-print-pointer-box">
+                                                                <div className="epaper-print-pointer-box" style={{ breakInside: 'avoid', pageBreakInside: 'avoid' }}>
                                                                     <div className="epaper-print-pointer-title">✍️ MAINS PRACTICE</div>
                                                                     <ul>
                                                                         {fallback.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}
@@ -567,13 +569,13 @@ export default function EpaperPrintView({ date }: { date: string }) {
                 {/* --- UPSC PRELIMS & MAINS MOCKS --- */}
                 {(epaper.prelimsMocks?.length || epaper.mainsMocks?.length) ? (
                     <div className="epaper-print-page" style={{ paddingTop: '50px' }}>
-                        <header className="flex items-center justify-center p-3 mb-8" style={{ background: '#33200A', borderRadius: '8px', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
+                        <header className="flex items-center justify-center p-3 mb-8" style={{ background: '#33200A', borderRadius: '8px', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', pageBreakAfter: 'avoid', breakAfter: 'avoid', breakInside: 'avoid' }}>
                             <h1 className="text-2xl font-bold uppercase tracking-widest text-[#FFF1E5]">UPSC Daily Mocks</h1>
                         </header>
 
                         {epaper.prelimsMocks && epaper.prelimsMocks.length > 0 && (
                             <div className="mb-10">
-                                <h2 className="text-lg font-bold uppercase mb-4 px-4 py-2" style={{ backgroundColor: '#C0392B', color: '#FFF1E5', borderRadius: '4px' }}>
+                                <h2 className="text-lg font-bold uppercase mb-4 px-4 py-2" style={{ backgroundColor: '#C0392B', color: '#FFF1E5', borderRadius: '4px', pageBreakAfter: 'avoid', breakAfter: 'avoid', breakInside: 'avoid' }}>
                                     Prelims Mock
                                 </h2>
                                 <div className="flex flex-col gap-6">
@@ -599,7 +601,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
 
                         {epaper.mainsMocks && epaper.mainsMocks.length > 0 && (
                             <div className="mb-10">
-                                <h2 className="text-lg font-bold uppercase mb-4 px-4 py-2" style={{ backgroundColor: '#1A3C6E', color: '#FFF1E5', borderRadius: '4px' }}>
+                                <h2 className="text-lg font-bold uppercase mb-4 px-4 py-2" style={{ backgroundColor: '#1A3C6E', color: '#FFF1E5', borderRadius: '4px', pageBreakAfter: 'avoid', breakAfter: 'avoid', breakInside: 'avoid' }}>
                                     Mains Mock
                                 </h2>
                                 <div className="flex flex-col gap-6">
@@ -643,9 +645,9 @@ function ArticleCard({
             className={`epaper-print-article ${compact ? 'compact' : ''}`}
             style={{ borderTop: `4px solid ${GS_COLORS[a.gsPaper] || '#8B4513'}` }}
         >
-            <div style={{ display: 'grid', gridTemplateColumns: '1.4fr 1fr', gap: '20px' }}>
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
-                    <div style={{ pageBreakInside: 'avoid', breakInside: 'avoid', pageBreakAfter: 'avoid', breakAfter: 'avoid' }}>
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', gap: '24px', backgroundImage: 'linear-gradient(to right, transparent calc(58.33% - 12px), var(--ep-rule) calc(58.33% - 12px), var(--ep-rule) calc(58.33% - 11px), transparent calc(58.33% - 11px))' }}>
+                <div style={{ flex: '1.4', boxSizing: 'border-box' }}>
+                    <div style={{ pageBreakInside: 'avoid', breakInside: 'avoid' }}>
                         <div className="epaper-print-article-cat">
                             {CAT_LABELS[a.category] || a.category.toUpperCase()} · {a.gsPaper}
                         </div>
@@ -660,14 +662,14 @@ function ArticleCard({
                     </div>
                 </div>
 
-                <div style={{ display: 'flex', flexDirection: 'column', height: '100%', paddingLeft: '16px', borderLeft: '1px solid var(--ep-rule)' }}>
+                <div style={{ flex: '1', display: 'flex', flexDirection: 'column', height: '100%', boxSizing: 'border-box' }}>
                     <div className="epaper-print-key-terms" style={{ marginTop: 0 }}>
                         <strong>Key Terms:</strong> {a.keyTerms.join(' · ')}
                     </div>
 
                     <div className="epaper-print-pointers-row">
                         {a.prelims && a.prelimsPoints.length > 0 && (
-                            <div className="epaper-print-pointer-box">
+                            <div className="epaper-print-pointer-box" style={{ breakInside: 'avoid', pageBreakInside: 'avoid' }}>
                                 <div className="epaper-print-pointer-title">📝 PRELIMS</div>
                                 <ul>
                                     {a.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}
@@ -675,7 +677,7 @@ function ArticleCard({
                             </div>
                         )}
                         {a.mains && a.mainsPoints.length > 0 && (
-                            <div className="epaper-print-pointer-box">
+                            <div className="epaper-print-pointer-box" style={{ breakInside: 'avoid', pageBreakInside: 'avoid' }}>
                                 <div className="epaper-print-pointer-title">✍️ MAINS</div>
                                 <ul>
                                     {a.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}
@@ -684,7 +686,7 @@ function ArticleCard({
                         )}
                         {/* TypeScript explicitly complains if trivia doesn't exist, use optional chaining and truthiness */}
                         {a.trivia && (
-                            <div className="epaper-print-trivia-box" style={{ marginTop: 'auto' }}>
+                            <div className="epaper-print-trivia-box" style={{ marginTop: 'auto', breakInside: 'avoid', pageBreakInside: 'avoid' }}>
                                 <div className="epaper-print-trivia-title">💡 DID YOU KNOW?</div>
                                 {renderText(a.trivia)}
                             </div>
