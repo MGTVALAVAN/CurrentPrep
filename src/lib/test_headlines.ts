@@ -96,7 +96,7 @@ async function fetchFeed(url: string, sourceName: string, section: string) {
             signal: controller.signal,
             redirect: 'follow',
             headers: {
-                'User-Agent': 'Mozilla/5.0 (compatible; CurrentPrep-ePaper/1.0; +https://currentprep.in)',
+                'User-Agent': 'Mozilla/5.0 (compatible; Current IAS Prep-ePaper/1.0; +https://currentprep.in)',
                 Accept: 'application/rss+xml, application/xml, text/xml, application/atom+xml, */*',
                 'Accept-Encoding': 'gzip, deflate',
             },

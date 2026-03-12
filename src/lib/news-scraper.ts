@@ -109,7 +109,7 @@ async function fetchFeed(
         const res = await fetch(url, {
             signal: controller.signal,
             headers: {
-                'User-Agent': 'CurrentPrep-NewsAgent/1.0 (UPSC Current Affairs Aggregator)',
+                'User-Agent': 'Current IAS Prep-NewsAgent/1.0 (UPSC Current Affairs Aggregator)',
                 Accept: 'application/rss+xml, application/xml, text/xml, */*',
             },
             next: { revalidate: 0 },

@@ -12,11 +12,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     return {
         title: epaper
-            ? `UPSC Daily ePaper — ${epaper.dateFormatted} | CurrentPrep`
-            : `ePaper — ${date} | CurrentPrep`,
+            ? `UPSC Daily ePaper — ${epaper.dateFormatted} | Current IAS Prep`
+            : `ePaper — ${date} | Current IAS Prep`,
         description: epaper
             ? `${epaper.articles.length} UPSC-relevant articles for ${epaper.dateFormatted}. GS-mapped current affairs with 200-300 word explainers.`
-            : `CurrentPrep Daily ePaper for ${date}.`,
+            : `Current IAS Prep Daily ePaper for ${date}.`,
     };
 }
 

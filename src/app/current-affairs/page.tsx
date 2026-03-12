@@ -218,7 +218,7 @@ export default function CurrentAffairsPage() {
                     </div>
 
                     <div className="np-title-row">
-                        <h1 className="np-title">Current<em>Prep</em></h1>
+                        <h1 className="np-title">Current IAS <em>Prep</em></h1>
                         <p className="np-tagline">Daily Current Affairs · UPSC Civil Services</p>
                     </div>
 

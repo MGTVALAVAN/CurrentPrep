@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'CurrentPrep Daily ePaper — Download PDF',
-    description: 'A4 printable PDF version of CurrentPrep UPSC Daily ePaper',
+    title: 'Current IAS Prep Daily ePaper — Download PDF',
+    description: 'A4 printable PDF version of Current IAS Prep UPSC Daily ePaper',
 };
 
 export default function PrintLayout({

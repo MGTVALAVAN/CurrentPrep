@@ -305,8 +305,8 @@ export default function EpaperDateClient({ date }: { date: string }) {
 
                     <div className="text-center py-4">
                         <h1 className="epaper-title">
-                            <span className="text-primary-800 dark:text-primary-300">Current</span>
-                            <span className="text-accent-500">Prep</span>
+                            <span className="text-primary-800 dark:text-primary-300">Current IAS</span>
+                            <span className="text-accent-500 ml-1">Prep</span>
                             <span className="epaper-title-divider">|</span>
                             <span style={{ color: 'var(--text-primary)' }}>Daily ePaper</span>
                         </h1>

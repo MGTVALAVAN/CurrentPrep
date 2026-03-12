@@ -1,5 +1,5 @@
 /**
- * CurrentPrep Article Image Fetcher
+ * Current IAS Prep Article Image Fetcher
  * Uses Pexels API (free, 200 req/hr) to find relevant photos for articles.
  * 
  * Strategy:

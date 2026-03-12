@@ -75,7 +75,7 @@ export interface DailyEpaper {
 // Gemini AI Integration
 // ---------------------------------------------------------------------------
 
-const EPAPER_SYSTEM_PROMPT = `You are the chief editor of "CurrentPrep Daily ePaper" — a premium UPSC Civil Services Exam current affairs ePaper. You produce rigorously structured, syllabus-mapped content for serious Prelims and Mains aspirants.
+const EPAPER_SYSTEM_PROMPT = `You are the chief editor of "Current IAS Prep Daily ePaper" — a premium UPSC Civil Services Exam current affairs ePaper. You produce rigorously structured, syllabus-mapped content for serious Prelims and Mains aspirants.
 
 IMPORTANT — WHAT TO SKIP (set "skip": true):
 You MUST skip articles that are:

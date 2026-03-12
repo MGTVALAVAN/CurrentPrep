@@ -17,7 +17,7 @@ const fadeUp = {
 
 const faqs = [
     {
-        q: 'Is CurrentPrep really free?',
+        q: 'Is Current IAS Prep really free?',
         a: 'Yes! Our core features — NCERT summaries, syllabus hub, current affairs, community forum, and basic AI quizzes — are completely free forever. We have an optional Premium tier with advanced AI tools and mentorship for ₹299/month.',
     },
     {
@@ -30,7 +30,7 @@ const faqs = [
     },
     {
         q: 'Can I access the platform on mobile?',
-        a: 'Absolutely! CurrentPrep is a Progressive Web App (PWA). You can install it on your phone directly from the browser for an app-like experience, even with limited offline access.',
+        a: 'Absolutely! Current IAS Prep is a Progressive Web App (PWA). You can install it on your phone directly from the browser for an app-like experience, even with limited offline access.',
     },
     {
         q: 'How is the AI quiz generator different from other platforms?',

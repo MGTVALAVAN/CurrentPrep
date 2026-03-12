@@ -13,7 +13,7 @@ const fadeUp = {
 };
 
 const team = [
-    { name: 'Arjun Sharma', role: 'Founder & CEO', desc: 'Former UPSC aspirant, IIT Delhi alumnus. Built CurrentPrep to solve problems he faced during his own preparation.', emoji: '👨‍💻' },
+    { name: 'Arjun Sharma', role: 'Founder & CEO', desc: 'Former UPSC aspirant, IIT Delhi alumnus. Built Current IAS Prep to solve problems he faced during his own preparation.', emoji: '👨‍💻' },
     { name: 'Kavitha R.', role: 'Content Head', desc: 'M.A. History, JNU. 5 years of UPSC content creation. Ensures all summaries are accurate and exam-relevant.', emoji: '👩‍🏫' },
     { name: 'Vikram P.', role: 'Tech Lead', desc: 'Full-stack developer with passion for EdTech. Builds the AI tools and ensures the platform runs smoothly.', emoji: '👨‍🔧' },
     { name: 'Deepa M.', role: 'Community Manager', desc: 'IAS 2019 batch (AIR 342). Manages the forum, mentorship program, and aspirant support.', emoji: '👩‍⚖️' },
@@ -61,7 +61,7 @@ export default function AboutPage() {
                             We believe a student in Chennai, Coimbatore, or Madurai deserves the same access as someone in Rajinder Nagar.
                         </p>
                         <p className="text-base leading-relaxed max-w-3xl mx-auto mt-4" style={{ color: 'var(--text-secondary)' }}>
-                            CurrentPrep was born from this belief. We curate free, public-domain content—NCERT summaries,
+                            Current IAS Prep was born from this belief. We curate free, public-domain content—NCERT summaries,
                             official syllabus breakdowns, previous year papers—and enhance it with AI-powered tools.
                             No subscriptions needed. No video classes. Just pure, focused self-study resources designed for aspirants
                             who are disciplined enough to chart their own path.

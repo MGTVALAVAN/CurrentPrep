@@ -1,5 +1,5 @@
 /**
- * CurrentPrep Image Bank Registry — Smart Matching
+ * Current IAS Prep Image Bank Registry — Smart Matching
  * Maps article categories → local images from /public/images/bank/
  * Uses keyword matching to find the MOST RELEVANT image for each article.
  */

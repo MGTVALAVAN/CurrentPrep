@@ -9,8 +9,8 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { date } = params;
     return {
-        title: `CurrentPrep Daily ePaper — ${date} (Print)`,
-        description: `Printable A4 PDF version of CurrentPrep Daily ePaper for ${date}`,
+        title: `Current IAS Prep Daily ePaper — ${date} (Print)`,
+        description: `Printable A4 PDF version of Current IAS Prep Daily ePaper for ${date}`,
     };
 }
 
