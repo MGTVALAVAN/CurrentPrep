@@ -242,7 +242,7 @@
 
 .epaper-print-lead-category {
     font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
-    font-size: 8px;
+    font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -261,7 +261,7 @@
 
 .epaper-print-lead-meta {
     font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
-    font-size: 8px;
+    font-size: 10.5px;
     color: var(--ep-text-muted);
     margin-bottom: 8px;
     text-transform: uppercase;
@@ -286,28 +286,28 @@
 /* ── Key terms ───────────────────────────────────────────────────────── */
 .epaper-print-key-terms {
     font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
-    font-size: 8.5px;
+    font-size: 11.5px;
     color: var(--ep-text);
     padding: 6px 8px;
     background: var(--ep-label-bg);
     border: 1px solid var(--ep-rule);
     border-radius: 4px;
     margin-top: 6px;
-    line-height: 1.4;
+    line-height: 1.5;
 }
 
 .epaper-print-key-terms strong {
     color: var(--ep-accent);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    font-size: 8px;
+    font-size: 10.5px;
 }
 
 /* ── Prelims / Mains pointer boxes ───────────────────────────────────── */
 .epaper-print-pointers-row {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
     margin-top: 8px;
     flex-grow: 1;
     /* Pushes the trivia box to the bottom and stretches children */
@@ -354,7 +354,7 @@
 
 .epaper-print-pointer-title {
     font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
-    font-size: 8.5px;
+    font-size: 11px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1em;
@@ -369,8 +369,8 @@
 .epaper-print-pointer-box ul {
     margin: 0;
     padding-left: 14px;
-    font-size: 9.5px;
-    line-height: 1.5;
+    font-size: 12px;
+    line-height: 1.6;
     color: var(--ep-text-secondary);
 }
 
@@ -397,6 +397,9 @@
     box-shadow: none;
     display: block;
     width: 100%;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    overflow: hidden;
 }
 
 .epaper-print-article.compact {
@@ -443,8 +446,8 @@
 
 .epaper-print-article-body {
     font-family: 'Source Serif 4', 'Georgia', serif;
-    font-size: 10.5px;
-    line-height: 1.6;
+    font-size: 12.5px;
+    line-height: 1.7;
     text-align: justify;
     hyphens: auto;
     color: var(--ep-text-secondary);
@@ -458,8 +461,8 @@
 
 .epaper-print-article-summary {
     font-family: 'Source Serif 4', 'Georgia', serif;
-    font-size: 10.5px;
-    line-height: 1.55;
+    font-size: 12px;
+    line-height: 1.6;
     color: var(--ep-text-secondary);
     margin: 0;
 }
@@ -540,12 +543,50 @@
     }
 
     .epaper-print-grid {
-        /* Single column logic if needed */
         column-count: 1;
     }
 
     .epaper-print-lead-body {
         columns: 1;
+    }
+
+    /* Prevent articles from breaking across pages */
+    .epaper-print-article {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    .epaper-print-pointer-box {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    .epaper-print-trivia-box {
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    .epaper-print-section-header {
+        break-after: avoid !important;
+        page-break-after: avoid !important;
+        break-inside: avoid !important;
+    }
+
+    /* Compact masthead in print so lead fits on page 1 */
+    .epaper-print-masthead {
+        margin-bottom: 10px !important;
+    }
+
+    .epaper-print-masthead>div:first-child {
+        padding: 12px 0 !important;
+    }
+
+    .epaper-print-masthead>div:first-child img:first-child {
+        height: 80px !important;
+    }
+
+    .epaper-print-masthead-inner {
+        padding: 4px 4px 0 4px !important;
     }
 }
 

@@ -3,22 +3,15 @@
   - Environments: .env.local
 
  ✓ Starting...
- ✓ Ready in 2.6s
+ ✓ Ready in 1934ms
  ○ Compiling / ...
- ✓ Compiled / in 2.1s (1284 modules)
- GET / 200 in 2222ms
- ✓ Compiled in 179ms (649 modules)
+ ✓ Compiled / in 2.3s (1284 modules)
+ GET / 200 in 2555ms
+ ✓ Compiled in 520ms (649 modules)
  ○ Compiling /daily-epaper/print/[date] ...
- ✓ Compiled /daily-epaper/print/[date] in 1186ms (1290 modules)
- GET /daily-epaper/print/2026-03-13 200 in 1767ms
- ✓ Compiled /daily-epaper in 135ms (664 modules)
- ✓ Compiled in 185ms (669 modules)
- GET /api/epaper?date=2026-03-13&_t=1773362597833 200 in 380ms
- GET /api/epaper?date=2026-03-13&_t=1773362597868 200 in 342ms
- GET /api/epaper?date=2026-03-13&_t=1773362597869 200 in 341ms
- GET /api/epaper?date=2026-03-13&_t=1773362597824 200 in 389ms
- GET / 200 in 429ms
- GET /daily-epaper 200 in 430ms
- ✓ Compiled /daily-epaper/archive in 159ms (1386 modules)
- GET /daily-epaper/archive 200 in 268ms
+ ✓ Compiled /daily-epaper/print/[date] in 1256ms (1276 modules)
+ GET /daily-epaper/print/2026-03-14 200 in 1963ms
+ ✓ Compiled /daily-epaper in 495ms (664 modules)
+ ○ Compiling /daily-epaper/archive ...
+ ✓ Compiled /daily-epaper/archive in 1132ms (1386 modules)
 [?25h

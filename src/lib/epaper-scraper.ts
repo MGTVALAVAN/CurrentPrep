@@ -17,6 +17,7 @@ export interface RawEpaperArticle {
     sourceShort: string;
     section: string;
     priority: number;
+    fullText?: string;
 }
 
 // ---------------------------------------------------------------------------
@@ -184,6 +185,115 @@ function deduplicateArticles(articles: RawEpaperArticle[]): RawEpaperArticle[] {
         seen.add(key);
         return true;
     });
+}
+
+// ---------------------------------------------------------------------------
+// Full article text extraction
+// ---------------------------------------------------------------------------
+
+/**
+ * Fetch the full article text from a URL for richer AI processing.
+ * Uses simple HTML extraction — works with most newspaper sites.
+ */
+export async function fetchArticleFullText(url: string, timeoutMs = 12000): Promise<string> {
+    if (!url || url.includes('news.google.com')) return ''; // Google News URLs are redirects
+
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+
+    try {
+        const res = await fetch(url, {
+            signal: controller.signal,
+            redirect: 'follow',
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,*/*',
+            },
+        });
+
+        if (!res.ok) return '';
+
+        let html = await res.text();
+
+        // Remove non-content elements
+        html = html
+            .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, '')
+            .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, '')
+            .replace(/<nav[^>]*>[\s\S]*?<\/nav>/gi, '')
+            .replace(/<header[^>]*>[\s\S]*?<\/header>/gi, '')
+            .replace(/<footer[^>]*>[\s\S]*?<\/footer>/gi, '')
+            .replace(/<aside[^>]*>[\s\S]*?<\/aside>/gi, '')
+            .replace(/<noscript[^>]*>[\s\S]*?<\/noscript>/gi, '')
+            .replace(/<iframe[^>]*>[\s\S]*?<\/iframe>/gi, '')
+            .replace(/<!--[\s\S]*?-->/g, '');
+
+        // Try to extract article body content
+        let contentHtml = '';
+
+        // Try <article> tag first
+        const articleMatch = html.match(/<article[^>]*>([\s\S]*?)<\/article>/i);
+        if (articleMatch) {
+            contentHtml = articleMatch[1];
+        } else {
+            // Try common content class patterns
+            const contentPatterns = [
+                /class="[^"]*article[_-]?body[^"]*"[^>]*>([\s\S]*?)<\/div>/i,
+                /class="[^"]*story[_-]?content[^"]*"[^>]*>([\s\S]*?)<\/div>/i,
+                /class="[^"]*entry[_-]?content[^"]*"[^>]*>([\s\S]*?)<\/div>/i,
+                /class="[^"]*post[_-]?content[^"]*"[^>]*>([\s\S]*?)<\/div>/i,
+            ];
+            for (const pattern of contentPatterns) {
+                const match = html.match(pattern);
+                if (match) {
+                    contentHtml = match[1];
+                    break;
+                }
+            }
+        }
+
+        if (!contentHtml) {
+            // Fallback: extract all paragraph text
+            const paragraphs: string[] = [];
+            const pRegex = /<p[^>]*>([\s\S]*?)<\/p>/gi;
+            let pMatch;
+            while ((pMatch = pRegex.exec(html)) !== null) {
+                const text = pMatch[1].replace(/<[^>]*>/g, '').trim();
+                if (text.length > 30) paragraphs.push(text);
+            }
+            contentHtml = paragraphs.join(' ');
+        }
+
+        // Strip remaining HTML tags and clean up
+        let text = contentHtml
+            .replace(/<[^>]*>/g, ' ')
+            .replace(/&nbsp;/g, ' ')
+            .replace(/&amp;/g, '&')
+            .replace(/&lt;/g, '<')
+            .replace(/&gt;/g, '>')
+            .replace(/&quot;/g, '"')
+            .replace(/&#0?39;/g, "'")
+            .replace(/&rsquo;/g, "'")
+            .replace(/&lsquo;/g, "'")
+            .replace(/&rdquo;/g, '"')
+            .replace(/&ldquo;/g, '"')
+            .replace(/&mdash;/g, '—')
+            .replace(/&ndash;/g, '–')
+            .replace(/\s+/g, ' ')
+            .trim();
+
+        // Truncate to ~500 words
+        const words = text.split(/\s+/);
+        if (words.length > 500) {
+            text = words.slice(0, 500).join(' ') + '…';
+        }
+
+        // Only return if we got substantial text
+        return words.length > 40 ? text : '';
+    } catch {
+        return '';
+    } finally {
+        clearTimeout(timer);
+    }
 }
 
 // ---------------------------------------------------------------------------

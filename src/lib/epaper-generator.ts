@@ -40,6 +40,8 @@ export interface EpaperArticle {
     imageDescription: string;
     section: string;
     trivia: string;
+    prelimsSyllabus: { subject: string; area: string; subArea: string };
+    prelimsPotential: number;
     processedAt: string;
 }
 
@@ -84,42 +86,60 @@ You MUST skip articles that are:
 - **Sports, Entertainment, Celebrity news**: Cricket, Bollywood, film reviews, awards shows
 - **Routine crime**: Local murders, thefts, accidents (unless they raise a policy/governance dimension like road safety policy or criminal justice reform)
 - **Obituaries and personal profiles**: Unless the person is significant for governance/institutional reasons
+- **Local / State / City-specific news**: State government announcements relevant ONLY to that state, municipal corporation decisions, district-level administrative orders, city infrastructure projects, state assembly proceedings, local civic body elections, state-specific welfare distribution, Collector/DM-level reviews, state police actions. UPSC CSE philosophy: a person in the remotest corner of India should have access to the information. If the news is meaningful ONLY to residents of one state or city, SKIP it.
+  Examples to SKIP: "Chennai Corporation launches projects", "Collector reviews LPG stocks at Kondapalli", "AP CM inaugurates flyover", "6 ministers skip Naidu's cabinet meeting", "MP CM announces farm loan waiver for state"
+  Exception: Include state-level news ONLY if it sets a national precedent, involves a High Court/Supreme Court ruling, or represents a first-of-its-kind policy applicable nationwide.
 
 WHAT TO INCLUDE:
-Focus ONLY on news with institutional, governance, or policy significance:
-- Supreme Court / High Court judgments (constitutional interpretation, fundamental rights, PIL)
+Focus ONLY on news with national or international significance — accessible and relevant to any citizen regardless of location:
+- Supreme Court / High Court judgments with national implications (constitutional interpretation, fundamental rights, PIL)
 - Parliament proceedings, Bills, Acts (legislative process, not party squabbles)
-- Government schemes, policy changes, Budget provisions, Finance Commission
+- Central government schemes, policy changes, Budget provisions, Finance Commission
 - RBI/SEBI/regulatory decisions (monetary policy, banking reforms)
-- PIB press releases about government programs, initiatives
+- PIB press releases about national government programs, initiatives
 - International relations (treaties, summits, bilateral relations)
-- Environmental policy, climate action, biodiversity conservation
+- Environmental policy, climate action, biodiversity conservation with national scope
 - Science & Technology breakthroughs (ISRO, DRDO, biotech, AI policy)
 - UN/WHO/IMF/World Bank reports and recommendations affecting India
-- Agricultural policy (MSP, crop insurance, farmer welfare schemes)
-- Social justice (education policy, health policy, tribal welfare, women empowerment)
+- Agricultural policy (MSP, crop insurance, farmer welfare schemes applicable nationally)
+- Social justice (national education policy, health policy, tribal welfare, women empowerment)
+
+PRELIMS GS PAPER I SYLLABUS (use for "prelimsSyllabus" mapping):
+1. Current Events of National & International Importance
+2. History of India & Indian National Movement — Ancient, Medieval, Modern India, Freedom Struggle, Post-independence Consolidation
+3. Indian & World Geography — Physical, Social, Economic Geography of India & World
+4. Indian Polity & Governance — Constitution, Political System, Panchayati Raj, Public Policy, Rights Issues, Constitutional & Statutory Bodies
+5. Economic & Social Development — Sustainable Development, Poverty, Inclusion, Demographics, Social Sector Initiatives
+6. Environment, Ecology, Biodiversity & Climate Change — Protected Areas, Species, Climate Policy, International Environmental Agreements
+7. General Science — Physics, Chemistry, Biology, Technology & everyday applications
+
+PRELIMS POTENTIAL STAR RATING (for "prelimsPotential"):
+1: Background awareness — unlikely to be directly tested
+2: Could appear as a distractor option in MCQs
+3: Moderate — may appear in statement-based questions
+4: High — involves specific facts, bodies, acts, or provisions
+5: Near-certain — constitutional articles, landmark judgments, new schemes/acts, specific data, or first-of-its-kind events
 
 For each INCLUDED article, return a JSON object with these fields:
 
 1. "headline": A clear, UPSC-relevant headline (max 100 chars, no clickbait, institutional/policy tone)
 
-2. "explainer": A cohesive 200-300 word article written in the style of a premium newspaper editorial or analysis piece.
-   - DO NOT use any structural headers like "**Context:**", "**Significance:**", "**UPSC Connect:**", or "**Way Forward:**".
-   - The prose must flow naturally, seamlessly blending the factual occurrence (what, where, which institution) with deeper policy, institutional, or governance significance, alongside an analytical perspective on challenges and implications.
-   - You MUST naturally weave in Civil Services syllabus keywords (e.g., federal structure, constitutionalism, fiscal deficit, inclusive growth, biodiversity hotspots, MSP, cooperative federalism, SDGs, Article 21) to provide analytical depth.
-   - NEVER explicitly mention the "UPSC exam", "syllabus", or "aspirants" in the explainer. Read exactly like a high-quality newspaper piece that happens to be perfectly aligned with UPSC requirements.
+2. "explainer": A TWO-PART article body structured as follows:
+   PART 1 — KEY FACTS: 5-6 bullet points, each starting with the bullet character. Each bullet must state a concrete, verifiable fact covering: what happened, who/which institution was involved, where/when, specific provisions/data/Acts cited, and consequences or reactions. No vague or generic statements.
+   After the bullets, leave one blank line, then write:
+   PART 2 — ANALYSIS: A 150-word analytical paragraph covering the policy/governance significance, institutional implications, and connections to constitutional principles, development challenges, or international dimensions. Do NOT use structural headers like "Context:", "Significance:", or "Way Forward:". The analysis must read as premium newspaper prose, naturally weaving in Civil Services syllabus keywords (e.g., federal structure, constitutionalism, fiscal deficit, inclusive growth, biodiversity hotspots, cooperative federalism, SDGs, Article 21). NEVER explicitly mention "UPSC", "syllabus", or "aspirants".
 
 3. "category": One of: polity, governance, economy, ir, environment, science, social, history, geography, security, agriculture, disaster, ethics
 
-4. "gsPaper": The primary GS paper — one of: GS1, GS2, GS3, GS4
+4. "gsPaper": The primary MAINS GS paper — one of: GS1, GS2, GS3, GS4
 
-5. "gsSubTopics": Array of specific syllabus sub-topics (e.g., ["Polity: Federal Structure", "Governance: Centre-State Relations"])
+5. "gsSubTopics": Array of specific MAINS syllabus sub-topics (e.g., ["Polity: Federal Structure", "Governance: Centre-State Relations"])
 
 6. "importance": "high" (landmark judgments, budget, major policy changes, international summits), "medium" (government schemes, reports, bilateral relations), "low" (minor updates)
 
 7. "tags": Array of 4-6 keyword tags
 
-8. "keyTerms": Array of 3-5 key terms/concepts an aspirant must know from this news (e.g., ["Article 370", "Abrogation", "Special Status", "J&K Reorganisation Act"])
+8. "keyTerms": Array of 3-5 key terms/concepts an aspirant must know (e.g., ["Article 370", "Abrogation", "Special Status", "J&K Reorganisation Act"])
 
 9. "prelims": boolean — relevant for Prelims?
 10. "prelimsPoints": Array of 2-3 crisp bullet points for Prelims revision (facts, institutions, dates, schemes)
@@ -127,16 +147,25 @@ For each INCLUDED article, return a JSON object with these fields:
 11. "mains": boolean — relevant for Mains?
 12. "mainsPoints": Array of 2-3 key dimensions for Mains answer writing (issues, arguments, way forward)
 
-13. "trivia": A single crisp, fascinating 1-2 sentence trivia fact highly relevant to the UPSC syllabus regarding the article's topic (e.g. historical firsts, constitutional quirks, geographical anomalies). Ensure it is highly testable and fascinating.
 
-14. "imageDescription": A one-line description for an illustrative image in Indian context (e.g., "Front view of Supreme Court of India building", "Indian farmer in paddy field with tractor", "RBI headquarters Mumbai skyline")
+13. "trivia": A single crisp, fascinating 1-2 sentence trivia fact relevant to the UPSC syllabus regarding the article's topic. Must be factual and testable.
 
-15. "skip": boolean — set true if the article should be excluded per the rules above
+14. "imageDescription": A one-line description for an illustrative image in Indian context (e.g., "Supreme Court of India building", "Indian farmer in paddy field")
+
+15. "prelimsSyllabus": An object mapping to the PRELIMS GS Paper I syllabus with:
+    - "subject": One of the 7 Prelims subjects listed above (e.g., "Indian Polity & Governance")
+    - "area": The specific area within that subject (e.g., "Constitutional Bodies")
+    - "subArea": The precise sub-area tested in Prelims (e.g., "Election Commission — Powers, Functions & Independence")
+
+16. "prelimsPotential": Number 1-5 using the star rating rubric above
+
+17. "skip": boolean — set true if the article should be excluded per the rules above
 
 RULES:
 - NEVER include party-political news, even if it involves a policy topic — skip it
-- Keep explainers factual and analytical — NO opinions, NO editorializing
-- Every explainer MUST naturally embed syllabus keywords without explicitly pointing them out
+- The KEY FACTS bullets must contain concrete, verifiable facts — never vague statements like "This is significant" or "Experts say"
+- The ANALYSIS paragraph must be factual and analytical — NO opinions, NO editorializing
+- Every analysis paragraph MUST naturally embed syllabus keywords without explicitly pointing them out
 - RETURN VALID JSON ONLY — an array of objects`;
 
 interface GeminiEpaperResult {
@@ -154,6 +183,8 @@ interface GeminiEpaperResult {
     mainsPoints: string[];
     trivia: string;
     imageDescription: string;
+    prelimsSyllabus?: { subject: string; area: string; subArea: string };
+    prelimsPotential?: number;
     skip?: boolean;
 }
 
@@ -179,16 +210,16 @@ async function callGeminiForEpaper(
                 `[Article ${i + 1}]
 Title: ${a.title}
 Source: ${a.source} — ${a.section}
-Description: ${a.description}
+Description: ${a.description}${a.fullText ? `\nFull Article Text: ${a.fullText}` : ''}
 Published: ${a.pubDate}`
         )
         .join('\n\n---\n\n');
 
-    const userPrompt = `Analyze the following ${articles.length} news articles for the UPSC Daily ePaper. For each article that is NOT UPSC-relevant, set "skip": true. For relevant articles, provide the full structured analysis.
+    const userPrompt = `Analyze the following ${articles.length} news articles for the UPSC Daily ePaper. For each article that is NOT UPSC-relevant, set "skip": true. For relevant articles, provide the full structured analysis. Use the "Full Article Text" if provided for accurate fact extraction in the KEY FACTS bullets.
 
 ${articleTexts}
 
-Return ONLY a valid JSON array. Each element must have: headline, explainer, category, gsPaper, gsSubTopics, importance, tags, keyTerms, prelims, prelimsPoints, mains, mainsPoints, imageDescription, skip.`;
+Return ONLY a valid JSON array. Each element must have: headline, explainer, category, gsPaper, gsSubTopics, importance, tags, keyTerms, prelims, prelimsPoints, mains, mainsPoints, imageDescription, trivia, prelimsSyllabus, prelimsPotential, skip.`;
 
     const requestBody = {
         contents: [
@@ -200,7 +231,7 @@ Return ONLY a valid JSON array. Each element must have: headline, explainer, cat
         generationConfig: {
             temperature: 0.3,
             topP: 0.85,
-            maxOutputTokens: 16384,
+            maxOutputTokens: 32768,
             responseMimeType: 'application/json',
         },
     };
@@ -208,7 +239,7 @@ Return ONLY a valid JSON array. Each element must have: headline, explainer, cat
     let lastError: Error | null = null;
 
     for (const model of GEMINI_MODELS) {
-        const MAX_RETRIES = 3;
+        const MAX_RETRIES = 5;
 
         for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
             try {
@@ -394,6 +425,8 @@ export async function generateEpaperArticles(
                     imageDescription: result.imageDescription || '',
                     section: raw.section,
                     trivia: result.trivia || '',
+                    prelimsSyllabus: result.prelimsSyllabus || { subject: '', area: '', subArea: '' },
+                    prelimsPotential: result.prelimsPotential || 3,
                     processedAt: new Date().toISOString(),
                 });
             }
@@ -469,14 +502,14 @@ async function generateMocks(
         .map((a) => `- ${a.headline} (GS: ${a.gsPaper})`)
         .join('\n');
 
-    const prompt = `You are a UPSC mock paper setter. Based strictly on the themes in today's top 10 news headlines below, generate 5 Prelims Mock Questions and 5 Mains Mock Questions.
+    const prompt = `You are a UPSC mock paper setter. Based strictly on the themes in today's top 10 news headlines below, generate 4 Prelims Mock Questions and 4 Mains Mock Questions.
 
 HEADLINES TODAY:
 ${contextTexts}
 
 REQUIREMENTS:
-1. Prelims Mock: Return EXACTLY 5 actual UPSC Previous Year Prelims Questions from the last 15 years whose themes loosely intersect with the headlines if possible. If no match, provide random robust standard PYQs. No hallucinations in PYQs! Include 4 options per question, mark the exact answer, and provide a 2-3 sentence explanation.
-2. Mains Mock: Generate EXACTLY 5 Mains questions (10 or 15 markers) purely based on the specific current affairs provided in the headlines and linking them strictly with the UPSC syllabus. Provide the specific syllabus relevance, and a brief 2-3 sentence approach hint.
+1. Prelims Mock: Return EXACTLY 4 actual UPSC Previous Year Prelims Questions from the last 15 years whose themes loosely intersect with the headlines if possible. If no match, provide random robust standard PYQs. No hallucinations in PYQs! Include 4 options per question, mark the exact answer, and provide a 2-3 sentence explanation.
+2. Mains Mock: Generate EXACTLY 4 Mains questions (10 or 15 markers) purely based on the specific current affairs provided in the headlines and linking them strictly with the UPSC syllabus. Provide the specific syllabus relevance, and a brief 2-3 sentence approach hint.
 
 Return ONLY valid JSON matching this structure:
 {

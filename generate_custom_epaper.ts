@@ -1,6 +1,6 @@
 import { writeFileSync } from 'fs';
 import { generateDailyEpaper } from './src/lib/epaper-generator';
-import { scrapeEpaperSources, type RawEpaperArticle } from './src/lib/epaper-scraper';
+import { scrapeEpaperSources, type RawEpaperArticle, fetchArticleFullText } from './src/lib/epaper-scraper';
 import { saveEpaper } from './src/lib/epaper-store';
 import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
@@ -133,7 +133,22 @@ ${leadArticles.map(a => `- ${a.title}: ${a.description.substring(0, 150)}...`).j
     }
 
     items.sort((a, b) => b.score - a.score);
-    const top25 = items.slice(0, 25).map(i => i.article);
+    const top25 = items.slice(0, 50).map(i => i.article);
+
+    // Fetch full article text for the top 25 articles to improve AI quality
+    console.log(`Fetching full article text for ${top25.length} selected articles...`);
+    const fullTextResults = await Promise.allSettled(
+        top25.map(article => fetchArticleFullText(article.link))
+    );
+    let enrichedCount = 0;
+    for (let i = 0; i < top25.length; i++) {
+        const result = fullTextResults[i];
+        if (result.status === 'fulfilled' && result.value) {
+            top25[i].fullText = result.value;
+            enrichedCount++;
+        }
+    }
+    console.log(`Enriched ${enrichedCount}/${top25.length} articles with full text.`);
 
     const organizedArticles: RawEpaperArticle[] = [];
 
