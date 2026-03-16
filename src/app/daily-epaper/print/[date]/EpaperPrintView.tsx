@@ -42,6 +42,23 @@ interface MainsMockQuestion {
     approach: string;
 }
 
+interface CsatComprehension {
+    passage: string;
+    questions: {
+        question: string;
+        options: string[];
+        answer: string;
+        explanation: string;
+    }[];
+}
+
+interface CsatReasoning {
+    question: string;
+    options: string[];
+    answer: string;
+    explanation: string;
+}
+
 interface DailyEpaper {
     date: string;
     dateFormatted: string;
@@ -51,6 +68,10 @@ interface DailyEpaper {
     totalProcessed: number;
     prelimsMocks?: MockQuestion[];
     mainsMocks?: MainsMockQuestion[];
+    csatMocks?: {
+        comprehension: CsatComprehension[];
+        reasoning: CsatReasoning[];
+    };
 }
 
 /* ─────────────────────────────────────────────────────────────────────────
@@ -656,12 +677,64 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                 </div>
                             ))}
                         </div>
-                        {/* Bottom masthead */}
-                        <div style={{ marginTop: 'auto', flexShrink: 0, background: '#CCCCCC', borderRadius: '8px', padding: '14px 20px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '20px', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
-                            <img src="/images/logo_globe.png?v=2" alt="Globe" style={{ height: '40px', objectFit: 'contain' }} crossOrigin="anonymous" />
-                            <div style={{ textAlign: 'center' }}>
-                                <div style={{ fontSize: '16px', fontWeight: 800, color: '#33200A', letterSpacing: '0.1em', fontFamily: "'DM Sans', system-ui, sans-serif" }}>Current IAS Prep</div>
-                                <div style={{ fontSize: '10px', color: '#5C3D1A', fontFamily: "'DM Sans', system-ui, sans-serif", marginTop: '2px' }}>Daily Current Affairs Digest for UPSC CSE Aspirants · currentiasprep.in</div>
+                    </div>
+                )}
+
+                {/* === CSAT MOCK PAGE === */}
+                {epaper.csatMocks && (epaper.csatMocks.comprehension?.length > 0 || epaper.csatMocks.reasoning?.length > 0) && (
+                    <div className="epaper-print-page" style={{ pageBreakBefore: 'always', breakBefore: 'page', padding: '10mm 12mm', height: '277mm', maxHeight: '277mm', overflow: 'hidden', display: 'flex', flexDirection: 'column', boxSizing: 'border-box' }}>
+                        <header style={{ background: '#00796B', borderRadius: '6px', padding: '8px 14px', marginBottom: '10px', textAlign: 'center', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', flexShrink: 0 }}>
+                            <h2 style={{ margin: 0, color: '#FFF', fontSize: '14px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.12em', fontFamily: "'DM Sans', system-ui, sans-serif" }}>
+                                🧩 CSAT Paper II — Daily Practice
+                            </h2>
+                        </header>
+
+                        {/* Two-column layout: Comprehension left, Reasoning right */}
+                        <div style={{ display: 'flex', gap: '12px', flex: 1, overflow: 'hidden' }}>
+                            {/* LEFT COLUMN: Comprehension */}
+                            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '4px', overflow: 'hidden' }}>
+                                {epaper.csatMocks.comprehension?.slice(0, 1).map((comp, ci) => (
+                                    <div key={`comp-${ci}`} style={{ display: 'flex', flexDirection: 'column', gap: '4px', overflow: 'hidden' }}>
+                                        <div style={{ fontWeight: 700, fontSize: '10px', color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.08em' }}>COMPREHENSION</div>
+                                        <div style={{ background: 'rgba(0,121,107,0.06)', padding: '6px 8px', borderRadius: '4px', border: '1px solid rgba(0,121,107,0.15)', fontSize: '9.5px', lineHeight: 1.45, color: '#33200A', textAlign: 'justify' }}>
+                                            {comp.passage.length > 300 ? comp.passage.substring(0, 300) + '...' : comp.passage}
+                                        </div>
+                                        {comp.questions?.slice(0, 2).map((q, qi) => (
+                                            <div key={qi} style={{ background: 'rgba(255,255,255,0.5)', padding: '4px 8px', borderRadius: '4px', border: '1px solid rgba(0,121,107,0.1)', overflow: 'hidden' }}>
+                                                <div style={{ fontWeight: 700, fontSize: '9.5px', color: '#33200A', marginBottom: '2px', lineHeight: 1.35 }}>Q{qi + 1}. {q.question}</div>
+                                                <div style={{ marginLeft: '8px', fontSize: '9.5px', color: '#5C3D1A', lineHeight: 1.3, marginBottom: '2px' }}>
+                                                    {q.options?.map((opt, oi) => <div key={oi}>{opt}</div>)}
+                                                </div>
+                                                <div style={{ background: 'rgba(0,121,107,0.04)', padding: '2px 6px', borderRadius: '3px', fontSize: '9px', lineHeight: 1.3 }}>
+                                                    <span style={{ fontWeight: 700, color: '#00796B' }}>Ans: </span>
+                                                    <span style={{ color: '#33200A' }}>{q.answer}</span>
+                                                    <div style={{ color: '#5C3D1A', marginTop: '1px' }}>{q.explanation.length > 80 ? q.explanation.substring(0, 80) + '…' : q.explanation}</div>
+                                                </div>
+                                            </div>
+                                        ))}
+                                    </div>
+                                ))}
+                            </div>
+
+                            {/* Divider line */}
+                            <div style={{ width: '1px', background: 'rgba(0,121,107,0.2)', flexShrink: 0 }} />
+
+                            {/* RIGHT COLUMN: Reasoning */}
+                            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '4px', overflow: 'hidden' }}>
+                                <div style={{ fontWeight: 700, fontSize: '10px', color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.08em' }}>LOGICAL REASONING</div>
+                                {epaper.csatMocks.reasoning?.slice(0, 3).map((q, ri) => (
+                                    <div key={ri} style={{ background: 'rgba(255,255,255,0.5)', padding: '4px 8px', borderRadius: '4px', border: '1px solid rgba(0,121,107,0.1)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', overflow: 'hidden' }}>
+                                        <div style={{ fontWeight: 700, fontSize: '9.5px', color: '#33200A', marginBottom: '2px', lineHeight: 1.35 }}>Q{ri + 1}. {q.question}</div>
+                                        <div style={{ marginLeft: '8px', fontSize: '9.5px', color: '#5C3D1A', lineHeight: 1.3, marginBottom: '2px' }}>
+                                            {q.options?.map((opt, oi) => <div key={oi}>{opt}</div>)}
+                                        </div>
+                                        <div style={{ background: 'rgba(0,121,107,0.04)', padding: '2px 6px', borderRadius: '3px', fontSize: '9px', lineHeight: 1.3 }}>
+                                            <span style={{ fontWeight: 700, color: '#00796B' }}>Ans: </span>
+                                            <span style={{ color: '#33200A' }}>{q.answer}</span>
+                                            <div style={{ color: '#5C3D1A', marginTop: '1px' }}>{q.explanation.length > 80 ? q.explanation.substring(0, 80) + '…' : q.explanation}</div>
+                                        </div>
+                                    </div>
+                                ))}
                             </div>
                         </div>
                     </div>
