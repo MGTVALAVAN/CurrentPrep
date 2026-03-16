@@ -140,8 +140,8 @@ async function main(): Promise<void> {
     section('3. ARTICLES');
 
     const articles = epaper.articles;
-    check(`At least 20 articles (got ${articles.length})`, articles.length >= 20);
-    check(`No more than 30 articles (got ${articles.length})`, articles.length <= 30, false);
+    check(`At least 15 articles (got ${articles.length})`, articles.length >= 15);
+    check(`No more than 20 articles (got ${articles.length})`, articles.length <= 20, false);
 
     // Check for duplicates
     const headlines = articles.map(a => a.headline);
@@ -227,6 +227,31 @@ async function main(): Promise<void> {
     check(`Lead article importance is "high" (got "${lead?.importance}")`, lead?.importance === 'high', false);
     check(`Lead article has trivia/Did You Know`, !!lead?.trivia, false);
 
+    // ── 6b. Explainer Format (Bullet Parsing) ───────────────────────────────
+    section('6b. EXPLAINER FORMAT (BULLET PARSING)');
+
+    let bulletFormatIssues = 0;
+    articles.forEach((a, i) => {
+        if (typeof a.explainer !== 'string') return;
+        const raw = a.explainer;
+        // Check if explainer has recognizable bullets (•, *, or PART 1/PART 2 structure)
+        const hasBullets = raw.includes('•');
+        const hasMarkdownBullets = /^\*\s{1,}/m.test(raw);
+        const hasPartStructure = /PART\s*1/i.test(raw) && /PART\s*2/i.test(raw);
+        const hasBulletFormat = hasBullets || hasMarkdownBullets || hasPartStructure;
+
+        if (!hasBulletFormat) {
+            // Raw paragraph-only explainer — still acceptable but flag it
+            console.log(`  ${WARN} Article ${i + 1}: "${a.headline?.substring(0, 50)}..." — no bullet/fact format detected`);
+            bulletFormatIssues++;
+        }
+    });
+    if (bulletFormatIssues === 0) {
+        console.log(`  ${PASS} All ${articles.length} articles have parseable bullet format`);
+    } else {
+        check(`Explainer format issues: ${bulletFormatIssues} articles lack bullet format`, bulletFormatIssues <= 3, false);
+    }
+
     // ── 7. Highlights ───────────────────────────────────────────────────────
     section('7. HIGHLIGHTS');
 
@@ -279,6 +304,14 @@ async function main(): Promise<void> {
         console.log(`  ${PASS} All mains questions have complete structure`);
     }
 
+    // Check approach text is substantive enough to be visible in print
+    const shortApproaches = mains.filter(q => q.approach && q.approach.length < 30);
+    if (shortApproaches.length > 0) {
+        check(`Mains approach text substantive (${shortApproaches.length} too short)`, false, false);
+    } else {
+        check(`All mains approach texts are substantive (>30 chars)`, true);
+    }
+
     // ── 10. Trivia Check ────────────────────────────────────────────────────
     section('10. TRIVIA / DID YOU KNOW');
 
@@ -299,7 +332,7 @@ async function main(): Promise<void> {
     const articlePages = Math.ceil((articles.length - 1) / 2); // 2 per page, minus lead
     const totalPages = 1 + articlePages + (prelims.length > 0 ? 1 : 0) + (mains.length > 0 ? 1 : 0);
     console.log(`  📊 Estimated pages: 1 (front) + ${articlePages} (articles) + 1 (prelims) + 1 (mains) = ${totalPages}`);
-    check(`Reasonable page count (10-18 pages, got ${totalPages})`, totalPages >= 10 && totalPages <= 18, false);
+    check(`Reasonable page count (8-18 pages, got ${totalPages})`, totalPages >= 8 && totalPages <= 18, false);
 
     // ── 13. Layout & Formatting (Puppeteer) ─────────────────────────────────
     section('13. LAYOUT & FORMATTING (Puppeteer)');
@@ -319,7 +352,7 @@ async function main(): Promise<void> {
 
         // Count total print pages
         const pageCount = await page.$$eval('.epaper-print-page', els => els.length);
-        check(`Print pages rendered (got ${pageCount}, expected ~${totalPages})`, pageCount >= 10 && pageCount <= 20);
+        check(`Print pages rendered (got ${pageCount}, expected ~${totalPages})`, pageCount >= 8 && pageCount <= 20);
 
         // ── Front Page checks ──
         console.log('  ── Front Page ──');
@@ -359,7 +392,7 @@ async function main(): Promise<void> {
         const allPages = await page.$$('.epaper-print-page');
         // Check article pages (skip first page = front, last 2 = mocks)
         const articlePageCount = allPages.length - 3; // front + prelims + mains
-        check(`  Article pages count: ${articlePageCount}`, articlePageCount >= 8);
+        check(`  Article pages count: ${articlePageCount}`, articlePageCount >= 6);
 
         // Check articles per page (2 per page)
         const articlesPerPage = await page.evaluate(() => {
@@ -415,6 +448,27 @@ async function main(): Promise<void> {
         });
         check(`  Masthead footer on last page`, lastPageHasFooter, false);
 
+        // Check mains mock page: last question's approach must be visible (not clipped)
+        const mainsApproachVisible = await page.evaluate(() => {
+            const pages = document.querySelectorAll('.epaper-print-page');
+            const lastPage = pages[pages.length - 1] as HTMLElement;
+            if (!lastPage) return true;
+            // Find all 'Approach:' labels on the last page
+            const allText = lastPage.querySelectorAll('div');
+            let lastApproachEl: HTMLElement | null = null;
+            allText.forEach((el) => {
+                if (el.textContent?.startsWith('Approach:')) {
+                    lastApproachEl = el as HTMLElement;
+                }
+            });
+            if (!lastApproachEl) return true; // No approach found, skip
+            // Check if the approach element's bottom is within the page's visible area
+            const pageRect = lastPage.getBoundingClientRect();
+            const approachRect = (lastApproachEl as HTMLElement).getBoundingClientRect();
+            return approachRect.bottom <= pageRect.bottom + 2;
+        });
+        check(`  Mains last question approach visible (not clipped)`, mainsApproachVisible, false);
+
         // ── Overflow check ──
         console.log('  ── Overflow Check ──');
         const overflowIssues = await page.evaluate(() => {
@@ -464,7 +518,7 @@ async function main(): Promise<void> {
             // Verify PDF is not corrupted by checking it has multiple pages
             const pdfContent = savedFile.toString('ascii');
             const pdfPageMarkers = (pdfContent.match(/\/Type\s*\/Page[^s]/g) || []).length;
-            check(`  PDF contains page objects (found ${pdfPageMarkers})`, pdfPageMarkers >= 10);
+            check(`  PDF contains page objects (found ${pdfPageMarkers})`, pdfPageMarkers >= 8);
 
             // Clean up
             try { unlinkSync(pdfPath); } catch { }

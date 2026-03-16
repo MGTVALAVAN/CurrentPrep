@@ -1963,5 +1963,105 @@
     "Bombay HC Ruling Reinforces Right to Education: Scope and Implementation Challenges",
     "Cyber Warfare: Data Centres Emerge as Strategic Targets in Modern Conflicts",
     "India's Humanitarian Evacuation Missions: A Pillar of Foreign Policy and Crisis Management"
-  ]
+  ],
+  "csatMocks": {
+    "comprehension": [
+      {
+        "passage": "India's recent history is replete with instances of large-scale humanitarian evacuation missions, underscoring a distinctive facet of its foreign policy: a robust commitment to its diaspora and a proactive stance in crisis management. These operations, often executed in volatile geopolitical landscapes, transcend mere logistical exercises; they are profound statements of national capability and compassionate diplomacy. From 'Operation Rahat' in Yemen to 'Operation Ganga' in Ukraine, India has consistently demonstrated an unparalleled ability to mobilize resources, coordinate with international partners, and navigate complex legal and security challenges to bring its citizens home. This proactive approach not only safeguards lives but also strengthens India's soft power, projecting an image of a responsible global actor deeply invested in the welfare of its people, irrespective of their location.\n\nHowever, the increasing frequency and complexity of global conflicts necessitate a continuous re-evaluation of these strategies. While past successes provide a valuable blueprint, future missions will demand even greater agility, technological integration, and pre-emptive diplomatic engagement. The sheer scale of India's overseas population, coupled with emerging threats like cyber warfare and climate-induced displacements, means that these evacuations are no longer exceptional events but an integral, recurring component of foreign policy. Investing in advanced crisis response mechanisms, fostering deeper bilateral security cooperation, and establishing rapid deployment protocols are crucial steps to ensure that India remains prepared to uphold its unique commitment to its citizens, reinforcing its stature on the world stage.",
+        "source": "Theme-based editorial",
+        "questions": [
+          {
+            "question": "What is the central theme of the passage?",
+            "options": [
+              "A. The logistical challenges of international evacuation missions.",
+              "B. India's unique foreign policy approach centered on humanitarian evacuations.",
+              "C. The increasing frequency of global conflicts necessitating evacuations.",
+              "D. The role of technology in modern crisis management."
+            ],
+            "answer": "B. India's unique foreign policy approach centered on humanitarian evacuations.",
+            "explanation": "The passage primarily discusses how India's humanitarian evacuation missions are a distinctive part of its foreign policy and crisis management, highlighting their significance and future implications. Options A, C, and D are supporting details or aspects, not the overarching theme."
+          },
+          {
+            "question": "Based on the passage, what can be inferred about India's motivation for conducting these missions?",
+            "options": [
+              "A. Primarily to demonstrate military prowess to other nations.",
+              "B. To fulfill international obligations and secure economic treaties.",
+              "C. To project an image of a responsible global actor and protect its citizens.",
+              "D. To gain political leverage in regions experiencing conflict."
+            ],
+            "answer": "C. To project an image of a responsible global actor and protect its citizens.",
+            "explanation": "The passage states that these operations 'safeguard lives' and 'strengthens India's soft power, projecting an image of a responsible global actor deeply invested in the welfare of its people'. This directly supports option C."
+          },
+          {
+            "question": "Which of the following best describes the author's attitude towards India's humanitarian evacuation missions?",
+            "options": [
+              "A. Critical, highlighting the inherent risks and costs involved.",
+              "B. Appreciative, while also advocating for continuous improvement.",
+              "C. Indifferent, merely presenting factual information.",
+              "D. Skeptical, questioning the long-term effectiveness of such operations."
+            ],
+            "answer": "B. Appreciative, while also advocating for continuous improvement.",
+            "explanation": "The author praises India's past successes ('unparalleled ability', 'profound statements') but also emphasizes the need for 'continuous re-evaluation', 'greater agility', and 'crucial steps' for future missions, indicating an appreciative yet forward-looking and advocating stance."
+          },
+          {
+            "question": "In the context of the passage, the phrase 'profound statements of national capability and compassionate diplomacy' implies that these missions:",
+            "options": [
+              "A. Are primarily about showcasing India's military strength.",
+              "B. Serve as a demonstration of India's power and its humanitarian values.",
+              "C. Are diplomatic gestures aimed at resolving international conflicts.",
+              "D. Are expensive operations that drain national resources."
+            ],
+            "answer": "B. Serve as a demonstration of India's power and its humanitarian values.",
+            "explanation": "'National capability' refers to the nation's strength and ability to act, while 'compassionate diplomacy' highlights its humanitarian and caring approach. Together, they signify a blend of power and values, making option B the best fit."
+          }
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "question": "Statement: The government announced a new series of National Accounts data, which indicates a higher contribution from the agricultural sector and a significant role of the informal economy in manufacturing.\nConclusion: This new data series will necessitate a revision of fiscal targets and economic policies.\n\nWhat assumption is made in drawing the above conclusion?",
+        "options": [
+          "A. The previous National Accounts data series was inaccurate.",
+          "B. Fiscal targets and economic policies are directly influenced by the composition of economic sectors.",
+          "C. The informal economy's contribution to manufacturing was previously underestimated.",
+          "D. The government intends to increase support for the agricultural sector."
+        ],
+        "answer": "B. Fiscal targets and economic policies are directly influenced by the composition of economic sectors.",
+        "explanation": "The conclusion directly links the new data (which describes the composition of economic sectors) to the necessity of revising fiscal targets and economic policies. This link implies an underlying assumption that these policies are indeed responsive to or based on the sectoral composition of the economy. Options A, C, and D might be true or plausible but are not the direct, necessary assumption for the conclusion to follow from the statement."
+      },
+      {
+        "question": "India signed a $2.6 billion uranium deal with Canada. If 30% of this amount is allocated for immediate supply and the remaining for long-term strategic reserves over 5 years, what is the average annual allocation for long-term strategic reserves?",
+        "options": [
+          "A. $0.52 billion",
+          "B. $0.364 billion",
+          "C. $0.78 billion",
+          "D. $1.82 billion"
+        ],
+        "answer": "B. $0.364 billion",
+        "explanation": "Total deal amount = $2.6 billion.\nAmount for immediate supply = 30% of $2.6 billion = 0.30 * 2.6 = $0.78 billion.\nRemaining amount for long-term strategic reserves = $2.6 billion - $0.78 billion = $1.82 billion.\nThis remaining amount is spread over 5 years.\nAverage annual allocation for long-term reserves = $1.82 billion / 5 = $0.364 billion."
+      },
+      {
+        "question": "Statement: The construction of new linear infrastructure, such as highways and power lines, in Goa has led to a significant increase in reported King Cobra roadkills and habitat fragmentation.\nConclusion: These infrastructure projects are detrimental to the conservation of King Cobra populations in Goa.\n\nWhich of the following, if true, would most strengthen the conclusion?",
+        "options": [
+          "A. King Cobras are highly adaptable and can thrive in human-modified landscapes.",
+          "B. The King Cobra population in adjacent, undisturbed forest areas of Goa has remained stable or increased.",
+          "C. Other snake species in Goa have shown no significant change in roadkill incidents despite new infrastructure.",
+          "D. A recent study found that King Cobras rarely cross open areas, making linear infrastructure an impassable barrier for them."
+        ],
+        "answer": "D. A recent study found that King Cobras rarely cross open areas, making linear infrastructure an impassable barrier for them.",
+        "explanation": "If King Cobras rarely cross open areas, then linear infrastructure like highways would act as significant barriers, directly causing habitat fragmentation and increasing their vulnerability to roadkills when they attempt to cross. This directly supports and strengthens the conclusion that such infrastructure is detrimental to their conservation. Option A weakens the conclusion. Option B is irrelevant to the impact of infrastructure on the specific population affected. Option C suggests the impact might be species-specific, but doesn't strengthen the detriment for King Cobras."
+      },
+      {
+        "question": "Scenario: A critical national data center, responsible for managing essential public services, is under a sustained cyber-attack. The attack aims to disrupt services and exfiltrate sensitive citizen data. The security team has identified the source as a sophisticated state-sponsored actor.\n\nWhich of the following would be the most appropriate immediate course of action for the data center management?",
+        "options": [
+          "A. Immediately shut down all servers to prevent further data exfiltration, regardless of service disruption.",
+          "B. Publicly disclose the attack and name the state-sponsored actor to garner international support.",
+          "C. Isolate the compromised systems, activate backup systems for critical services, and engage cybersecurity experts for incident response and forensic analysis.",
+          "D. Attempt to retaliate with a counter-attack against the identified state-sponsored actor."
+        ],
+        "answer": "C. Isolate the compromised systems, activate backup systems for critical services, and engage cybersecurity experts for incident response and forensic analysis.",
+        "explanation": "This option represents a standard, responsible, and effective incident response protocol. Isolating compromised systems prevents further spread, activating backups ensures continuity of critical services, and engaging experts is crucial for containment, eradication, recovery, and post-incident analysis. Option A is too drastic and would cause unnecessary service disruption. Option B is premature and could escalate the situation without proper diplomatic channels. Option D is highly irresponsible, potentially illegal, and outside the scope of a data center's immediate response."
+      }
+    ]
+  }
 }

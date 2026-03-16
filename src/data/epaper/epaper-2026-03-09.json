@@ -1505,5 +1505,105 @@
     "Geopolitical Conflicts Threaten Global Fertiliser Supply, Impacting India's Food Security",
     "Geopolitical Implications of Iran Conflict: Regional Stability and Global Energy Security",
     "AI Chatbot Liability: Examining Design Ethics and Regulatory Frameworks in Digital Age"
-  ]
+  ],
+  "csatMocks": {
+    "comprehension": [
+      {
+        "passage": "Geopolitical tremors, particularly from volatile regions, invariably send ripples through global energy markets, with crude oil prices often the first casualty. For a nation like India, heavily reliant on imports to fuel its burgeoning economy, these fluctuations pose a significant macroeconomic threat, impacting everything from inflation to trade balances. The current climate, marked by escalating tensions, underscores the inherent vulnerability of an energy-dependent economy to external shocks. While diplomatic efforts to de-escalate conflicts are crucial, India's long-term strategy must transcend mere reactive measures. A robust energy security framework demands aggressive diversification of import sources, strategic petroleum reserves, and an accelerated transition towards renewable energy. Furthermore, enhancing domestic exploration and production, however challenging, remains a vital component. The imperative is clear: insulate the economy from the caprices of global geopolitics by building resilience and self-reliance, even if partial, in its energy matrix. This isn't merely an economic necessity but a strategic imperative for national stability and sustained growth.",
+        "source": "Theme-based editorial",
+        "questions": [
+          {
+            "question": "Which of the following best encapsulates the main idea of the passage?",
+            "options": [
+              "A. Geopolitical conflicts are the primary cause of global inflation and trade imbalances.",
+              "B. India's reliance on oil imports makes its economy highly susceptible to global geopolitical instability, necessitating a multi-faceted energy security strategy.",
+              "C. Diplomatic solutions are insufficient to address the long-term energy security challenges faced by import-dependent nations.",
+              "D. Renewable energy transition is the sole viable solution for India to achieve complete energy independence."
+            ],
+            "answer": "B. India's reliance on oil imports makes its economy highly susceptible to global geopolitical instability, necessitating a multi-faceted energy security strategy.",
+            "explanation": "The passage discusses India's vulnerability due to oil imports, the impact of geopolitical tensions, and then proposes a comprehensive strategy involving diversification, reserves, renewables, and domestic production. Option B accurately summarizes this core message."
+          },
+          {
+            "question": "What can be inferred about the author's perspective on India's current energy strategy?",
+            "options": [
+              "A. The author believes India has already achieved significant energy independence through its current policies.",
+              "B. The author suggests that India's current approach is overly reactive and lacks sufficient long-term proactive measures.",
+              "C. The author implies that India should completely cease oil imports to avoid geopolitical risks.",
+              "D. The author is primarily concerned with the environmental impact of fossil fuels, not economic stability."
+            ],
+            "answer": "B. The author suggests that India's current approach is overly reactive and lacks sufficient long-term proactive measures.",
+            "explanation": "The passage states, 'India's long-term strategy must transcend mere reactive measures' and then lists several proactive steps needed, implying that the current strategy is not sufficiently proactive or long-term oriented."
+          },
+          {
+            "question": "The phrase 'caprices of global geopolitics' in the passage most nearly refers to:",
+            "options": [
+              "A. The predictable and stable nature of international relations.",
+              "B. The deliberate and planned actions of major global powers.",
+              "C. The unpredictable and arbitrary changes or developments in international political affairs.",
+              "D. The fixed and unchangeable economic policies of nations."
+            ],
+            "answer": "C. The unpredictable and arbitrary changes or developments in international political affairs.",
+            "explanation": "'Caprices' means sudden and unaccountable changes of mood or behavior. In the context of geopolitics, it refers to the unpredictable and often arbitrary shifts or events in international relations that can impact global markets, particularly energy."
+          },
+          {
+            "question": "Which of the following is NOT suggested as a component of a robust energy security framework for India, according to the passage?",
+            "options": [
+              "A. Diversification of import sources.",
+              "B. Strategic petroleum reserves.",
+              "C. Exclusive reliance on diplomatic solutions to global conflicts.",
+              "D. Accelerated transition towards renewable energy."
+            ],
+            "answer": "C. Exclusive reliance on diplomatic solutions to global conflicts.",
+            "explanation": "The passage states, 'While diplomatic efforts to de-escalate conflicts are crucial, India's long-term strategy must transcend mere reactive measures.' This implies diplomacy is important but not an exclusive or sufficient component of a robust *energy security framework*, which requires internal strategies as well."
+          }
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "question": "Statement: 'All successful entrepreneurs are innovative. Some innovative individuals are also risk-takers. Therefore, some successful entrepreneurs are risk-takers.'\n\nWhich of the following is an underlying assumption in the given statement?",
+        "options": [
+          "A. All risk-takers are innovative.",
+          "B. There is an overlap between the set of innovative individuals and the set of successful entrepreneurs.",
+          "C. Innovation is a prerequisite for taking risks.",
+          "D. All successful entrepreneurs are risk-takers."
+        ],
+        "answer": "B. There is an overlap between the set of innovative individuals and the set of successful entrepreneurs.",
+        "explanation": "The conclusion 'some successful entrepreneurs are risk-takers' is drawn by linking 'successful entrepreneurs' (who are all innovative) with 'risk-takers' (some of whom are innovative). For this link to be valid, it must be assumed that the 'some innovative individuals' who are risk-takers could potentially be among the 'all successful entrepreneurs' who are innovative. This implies an overlap between the group of innovative individuals and successful entrepreneurs, allowing for the possibility that some in this overlapping group are also risk-takers. Without this overlap, the conclusion cannot be drawn."
+      },
+      {
+        "question": "A city's population increased by 15% in the first year and then decreased by 10% in the second year. If the population at the end of the second year was 1,03,500, what was the population at the beginning of the first year?",
+        "options": [
+          "A. 90,000",
+          "B. 95,000",
+          "C. 1,00,000",
+          "D. 1,05,000"
+        ],
+        "answer": "C. 1,00,000",
+        "explanation": "Let the initial population be P.\nAfter the first year, population = P * (1 + 0.15) = 1.15P\nAfter the second year, population = 1.15P * (1 - 0.10) = 1.15P * 0.90\nWe are given that the population at the end of the second year is 1,03,500.\nSo, 1.15P * 0.90 = 1,03,500\n1.035P = 1,03,500\nP = 1,03,500 / 1.035\nP = 1,00,000\nThus, the population at the beginning of the first year was 1,00,000."
+      },
+      {
+        "question": "Argument: 'Studies show that students who regularly participate in extracurricular activities tend to have higher academic scores than those who do not.'\n\nWhich of the following statements, if true, would most strengthen the argument?",
+        "options": [
+          "A. Extracurricular activities often require significant time commitment, potentially reducing study hours.",
+          "B. Many students who excel academically also possess a natural inclination towards diverse interests.",
+          "C. A program was introduced in a school where all students were mandated to join an extracurricular activity, and their average academic scores subsequently improved.",
+          "D. Some extracurricular activities are directly related to academic subjects, like a science club or a debate society."
+        ],
+        "answer": "C. A program was introduced in a school where all students were mandated to join an extracurricular activity, and their average academic scores subsequently improved.",
+        "explanation": "The argument suggests a correlation between extracurricular activities and higher academic scores. Option C provides evidence of a causal link by showing that when extracurricular participation became universal, academic scores improved. This eliminates the possibility that only already high-achieving students choose extracurriculars (a common confounding factor) and directly supports the idea that participation itself contributes to improved scores. Options A and B weaken or offer alternative explanations, while D is too specific and doesn't strengthen the general argument as effectively as C."
+      },
+      {
+        "question": "You are a project manager for a critical infrastructure upgrade project in a major city. The project is already behind schedule due to unforeseen geological challenges. A key supplier for a specialized component has just informed you that they can only deliver the component in two months, instead of the promised one month, due to a sudden labor strike. Delaying the project further will incur significant penalties and public inconvenience. You have limited additional budget.\n\nWhich of the following would be the most appropriate immediate course of action?",
+        "options": [
+          "A. Immediately terminate the contract with the current supplier and search for a new one, regardless of cost.",
+          "B. Inform the city authorities about the new delay and prepare to pay the penalties.",
+          "C. Explore alternative suppliers for the specialized component, simultaneously negotiating with the current supplier for an expedited delivery or compensation, and assess the feasibility of adjusting other project timelines.",
+          "D. Halt all other project activities until the specialized component arrives, to avoid further costs."
+        ],
+        "answer": "C. Explore alternative suppliers for the specialized component, simultaneously negotiating with the current supplier for an expedited delivery or compensation, and assess the feasibility of adjusting other project timelines.",
+        "explanation": "This is a multi-pronged, pragmatic approach. Terminating the contract (A) without exploring alternatives is premature and risky. Accepting penalties (B) without trying to mitigate the delay is not optimal. Halting all activities (D) would exacerbate delays and costs. Option C addresses the immediate problem (supplier delay) by seeking alternatives and negotiating, while also looking at internal adjustments (other project timelines) to minimize the overall impact, demonstrating proactive problem-solving within budget constraints."
+      }
+    ]
+  }
 }

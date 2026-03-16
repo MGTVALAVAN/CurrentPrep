@@ -1320,5 +1320,105 @@
     "Analysis of Anti-Conversion Laws: Constitutional Implications and State Legislation",
     "Women in Tamil Nadu's PRIs Demonstrate True Empowerment Post 73rd Amendment",
     "India Repatriates Over 52,000 Citizens from West Asia Amidst Conflict and Airspace Opening"
-  ]
+  ],
+  "csatMocks": {
+    "comprehension": [
+      {
+        "passage": "The increasing feminization of agriculture in India presents both a profound challenge and an unparalleled opportunity for national development. As male migration to urban centers continues unabated, women are increasingly shouldering the primary responsibilities of farming, yet their immense contributions often remain systematically undervalued and unsupported. This significant demographic shift, however, is not merely a consequence of prevailing economic forces; it holds the transformative key to building a more climate-resilient, biodiversity-rich, and sustainable agricultural future for the nation. Empowering women farmers with equitable access to crucial resources such as secure land rights, affordable credit, appropriate technology, and tailored extension services is not merely a matter of social justice or gender equality; it is a strategic imperative for effective climate adaptation and mitigation. Evidence suggests that women often possess invaluable traditional ecological knowledge and are inherently more inclined towards adopting biodiversity-rich and sustainable farming practices, which are absolutely crucial for mitigating the adverse impacts of climate change and ensuring long-term nutritional security for all. Their active and meaningful participation in decision-making processes, ranging from local panchayats to national policy forums, can fundamentally transform agricultural landscapes, fostering grassroots innovation and community-led solutions that are both effective and equitable. Neglecting this vital segment of the farming community would be a grave oversight, not only jeopardizing India's ambitious food security goals but also undermining its broader environmental sustainability commitments. True agricultural transformation, therefore, hinges critically on recognizing, supporting, and amplifying the pivotal role of women in cultivating not just crops, but also a more equitable, sustainable, and prosperous future for India.",
+        "source": "Theme-based editorial",
+        "questions": [
+          {
+            "question": "Which of the following best encapsulates the central argument of the passage?",
+            "options": [
+              "A. Male migration to urban centers is the primary cause of agricultural decline in India.",
+              "B. The feminization of agriculture is a social justice issue that requires immediate attention.",
+              "C. Empowering women farmers is crucial for achieving climate-resilient and sustainable agriculture in India.",
+              "D. Women farmers are more knowledgeable about traditional ecological practices than their male counterparts."
+            ],
+            "answer": "C. Empowering women farmers is crucial for achieving climate-resilient and sustainable agriculture in India.",
+            "explanation": "The passage argues that while feminization of agriculture is a challenge, it's also an opportunity, and empowering women farmers is a 'strategic imperative' for a 'climate-resilient, biodiversity-rich, and sustainable agricultural future.' Options A and D are too narrow or misrepresent the passage's emphasis. Option B is part of the argument but not the central, overarching point."
+          },
+          {
+            "question": "Based on the passage, what can be inferred about the current state of support for women farmers in India?",
+            "options": [
+              "A. Women farmers currently receive adequate support but lack decision-making power.",
+              "B. Their contributions are generally recognized and valued, but resource access is limited.",
+              "C. They are largely unsupported and their contributions are undervalued despite their increasing role.",
+              "D. Government policies have successfully addressed most of the challenges faced by women farmers."
+            ],
+            "answer": "C. They are largely unsupported and their contributions are undervalued despite their increasing role.",
+            "explanation": "The passage explicitly states, 'their immense contributions often remain systematically undervalued and unsupported' and advocates for 'equitable access to crucial resources.' This implies a current lack of support and recognition."
+          },
+          {
+            "question": "What is the author's attitude towards the role of women in India's agricultural future?",
+            "options": [
+              "A. Skeptical, questioning their capacity to lead agricultural transformation.",
+              "B. Indifferent, merely observing a demographic shift without judgment.",
+              "C. Optimistic and advocating, seeing their empowerment as vital for progress.",
+              "D. Critical, highlighting only the challenges faced by women in agriculture."
+            ],
+            "answer": "C. Optimistic and advocating, seeing their empowerment as vital for progress.",
+            "explanation": "The author uses phrases like 'unparalleled opportunity,' 'transformative key,' 'strategic imperative,' and states that 'true agricultural transformation hinges critically on recognizing, supporting, and amplifying the pivotal role of women.' This indicates a positive, forward-looking, and persuasive stance."
+          },
+          {
+            "question": "In the context of the passage, the phrase 'strategic imperative' most nearly means:",
+            "options": [
+              "A. A desirable but non-essential goal for social improvement.",
+              "B. A tactical advantage to be exploited for short-term gains.",
+              "C. A critical and necessary action for achieving a vital long-term objective.",
+              "D. A political slogan used to garner support for specific policies."
+            ],
+            "answer": "C. A critical and necessary action for achieving a vital long-term objective.",
+            "explanation": "The passage states that empowering women farmers 'is not merely a matter of social justice... it is a strategic imperative for effective climate adaptation and mitigation.' This implies it's a crucial, non-negotiable step towards significant, long-term goals like climate resilience and sustainable agriculture."
+          }
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "question": "Several state governments in India have enacted or proposed anti-conversion laws, often with similar provisions, aiming to regulate religious conversions, particularly those involving marriage. These laws typically include clauses requiring prior notification to authorities and sometimes even a waiting period before conversion can be legally recognized.\nWhich of the following is the most logical assumption underlying the enactment of such laws?",
+        "options": [
+          "A. All religious conversions are inherently coercive or fraudulent.",
+          "B. The state has a legitimate interest in regulating personal religious choices.",
+          "C. Individuals are incapable of making informed decisions about religious conversion without state oversight.",
+          "D. Religious conversions, especially those involving marriage, frequently lead to public disorder."
+        ],
+        "answer": "B. The state has a legitimate interest in regulating personal religious choices.",
+        "explanation": "The very act of enacting laws to regulate conversions implies an underlying belief by the state that it has the authority and reason to intervene in such matters. Options A, C, and D are too strong or specific to be the *most logical* underlying assumption for the *enactment* of laws, which can be broad in scope even if specific provisions target certain issues."
+      },
+      {
+        "question": "India repatriated over 52,000 citizens from the West Asia region between March 1-7. If this repatriation effort involved 130 flights, and 50% of these flights carried an average of 300 passengers each, what was the average number of passengers per flight for the remaining flights?",
+        "options": [
+          "A. 450 passengers",
+          "B. 475 passengers",
+          "C. 500 passengers",
+          "D. 525 passengers"
+        ],
+        "answer": "C. 500 passengers",
+        "explanation": "Total passengers = 52,000.\nTotal flights = 130.\nFlights carrying 300 passengers = 50% of 130 = 65 flights.\nPassengers on these 65 flights = 65 * 300 = 19,500 passengers.\nRemaining passengers = 52,000 - 19,500 = 32,500 passengers.\nRemaining flights = 130 - 65 = 65 flights.\nAverage passengers per remaining flight = 32,500 / 65 = 500 passengers."
+      },
+      {
+        "question": "Statement: Across various Indian states, there is a rising demand from parents, educators, and policymakers to regulate or ban social media access for children, citing concerns over mental health, cyberbullying, and exposure to inappropriate content.\nWhich of the following, if true, would most strengthen the argument for regulating or banning social media access for minors?",
+        "options": [
+          "A. A recent study shows that a significant percentage of minors use social media primarily for educational purposes.",
+          "B. Countries with stricter social media regulations for minors report lower rates of adolescent anxiety and depression.",
+          "C. Many social media platforms have already implemented robust age verification systems and parental controls.",
+          "D. The majority of parents believe that open communication with children about online safety is more effective than bans."
+        ],
+        "answer": "B. Countries with stricter social media regulations for minors report lower rates of adolescent anxiety and depression.",
+        "explanation": "This option directly links the proposed solution (stricter regulations/bans) to the desired outcome (improved mental health), providing empirical evidence that strengthens the argument. Options A and C weaken the argument or suggest existing solutions, while D presents an alternative approach without directly strengthening the argument for bans/regulations."
+      },
+      {
+        "question": "You are the Chief Secretary of a state. The President of India is scheduled to visit your state for a crucial event. The Chief Minister (CM) is unexpectedly unwell and cannot personally receive the President as per protocol. The CM insists that only a cabinet minister of their choice should represent them, while the protocol officer advises that the senior-most minister available, or the Deputy CM if applicable, should step in. There is also a suggestion from the opposition party that the Speaker of the Legislative Assembly should receive the President.\nWhat is the most appropriate course of action for you to recommend, prioritizing adherence to established protocol and avoiding political controversy?",
+        "options": [
+          "A. Advise the CM to delegate the responsibility to the cabinet minister of their choice, citing CM's prerogative.",
+          "B. Recommend that the senior-most minister available, or the Deputy CM, receive the President, explaining the established protocol.",
+          "C. Suggest that the Speaker of the Legislative Assembly receive the President, as it represents the entire state.",
+          "D. Request the President's office to waive the reception protocol due to the CM's health, avoiding any local delegation."
+        ],
+        "answer": "B. Recommend that the senior-most minister available, or the Deputy CM, receive the President, explaining the established protocol.",
+        "explanation": "As Chief Secretary, your primary role is to uphold established administrative protocols. The protocol officer's advice aligns with this. While the CM's preference is noted, adhering to established procedure (senior-most minister/Deputy CM) is the most appropriate and least controversial path, demonstrating respect for the President's office and avoiding setting a precedent based on personal choice over protocol. Options A and C deviate from established protocol and could lead to controversy. Option D is an extreme measure and might not be feasible or appropriate, as a local representative is usually expected."
+      }
+    ]
+  }
 }

@@ -3,15 +3,451 @@
   - Environments: .env.local
 
  ✓ Starting...
- ✓ Ready in 1934ms
+ ✓ Ready in 1638ms
  ○ Compiling / ...
- ✓ Compiled / in 2.3s (1284 modules)
- GET / 200 in 2555ms
- ✓ Compiled in 520ms (649 modules)
- ○ Compiling /daily-epaper/print/[date] ...
- ✓ Compiled /daily-epaper/print/[date] in 1256ms (1276 modules)
- GET /daily-epaper/print/2026-03-14 200 in 1963ms
- ✓ Compiled /daily-epaper in 495ms (664 modules)
+ ✓ Compiled / in 1886ms (1284 modules)
+ GET / 200 in 2130ms
+ ✓ Compiled in 369ms (649 modules)
+ ✓ Compiled /daily-epaper/print/[date] in 469ms (1293 modules)
+ GET /daily-epaper/print/2026-03-16 200 in 897ms
+ ✓ Compiled /api/epaper in 169ms (681 modules)
+ ✓ Compiled /daily-epaper in 0ms (681 modules)
+ ✓ Compiled in 569ms (1376 modules)
+ GET /api/epaper?date=2026-03-16&_t=1773630910352 200 in 972ms
+ GET /api/epaper?date=2026-03-16&_t=1773630910357 200 in 968ms
+ GET /api/epaper?date=2026-03-16&_t=1773630910362 200 in 957ms
+ GET /api/epaper?date=2026-03-16&_t=1773630910363 200 in 957ms
+ GET / 200 in 1017ms
+ GET /daily-epaper 200 in 1025ms
+ ✓ Compiled /daily-epaper/archive in 203ms (1386 modules)
+ GET /daily-epaper/archive 200 in 368ms
+ ✓ Compiled in 1277ms (1318 modules)
+ ✓ Compiled in 519ms (1318 modules)
+ GET /daily-epaper/print/2026-03-16 200 in 206ms
+ ✓ Compiled /api/epaper in 184ms (664 modules)
+ GET /api/epaper?date=2026-03-16&_t=1773641145558 200 in 259ms
+ GET /api/epaper?date=2026-03-16&_t=1773641145565 200 in 257ms
+ GET /api/epaper?date=2026-03-16&_t=1773641145565 200 in 257ms
+ GET /api/epaper?date=2026-03-16&_t=1773641145552 200 in 269ms
+ ✓ Compiled /daily-epaper in 100ms (681 modules)
+ ✓ Compiled (713 modules)
+ GET / 200 in 801ms
+ GET /daily-epaper 200 in 801ms
+ GET /daily-epaper/archive 200 in 803ms
+ GET /daily-epaper/print/2026-03-16 200 in 88ms
+ GET /api/epaper?date=2026-03-16&_t=1773641188984 200 in 379ms
+ GET /api/epaper?date=2026-03-16&_t=1773641188998 200 in 267ms
+ GET /api/epaper?date=2026-03-16&_t=1773641188975 200 in 268ms
+ GET /api/epaper?date=2026-03-16&_t=1773641188999 200 in 289ms
+ GET / 200 in 753ms
+ GET /daily-epaper 200 in 760ms
+ GET /daily-epaper/archive 200 in 457ms
+ ✓ Compiled in 1372ms (1318 modules)
+ ✓ Compiled /api/epaper in 161ms (664 modules)
+ GET /api/epaper?date=2026-03-16&_t=1773642235405 200 in 289ms
+ GET /api/epaper?date=2026-03-16&_t=1773642235399 200 in 292ms
+ GET /daily-epaper/print/2026-03-16 200 in 221ms
+ GET /api/epaper?date=2026-03-16&_t=1773642265663 200 in 28ms
+ GET /api/epaper?date=2026-03-16&_t=1773642265669 200 in 36ms
+ GET /api/epaper?date=2026-03-16&_t=1773642265675 200 in 25ms
+ GET /api/epaper?date=2026-03-16&_t=1773642265675 200 in 32ms
+ GET /daily-epaper/print/2026-03-16 200 in 3098ms
+ GET /api/epaper?date=2026-03-16&_t=1773642319759 200 in 1954ms
+ GET /api/epaper?date=2026-03-16&_t=1773642319768 200 in 1995ms
+ GET /api/epaper?date=2026-03-16&_t=1773642319796 200 in 1990ms
+ GET /api/epaper?date=2026-03-16&_t=1773642319796 200 in 1991ms
+ ○ Compiling / ...
+ ✓ Compiled /daily-epaper/archive in 6.5s (693 modules)
+ ✓ Compiled (713 modules)
+ GET / 200 in 7949ms
+ GET /daily-epaper/archive 200 in 6449ms
+ GET /daily-epaper 200 in 7947ms
+ ✓ Compiled in 1213ms (1318 modules)
+ GET /daily-epaper/print/2026-03-16 200 in 174ms
+ ✓ Compiled /api/epaper in 397ms (664 modules)
+ GET /api/epaper?date=2026-03-16&_t=1773642907362 200 in 847ms
+ GET /api/epaper?date=2026-03-16&_t=1773642907380 200 in 852ms
+ GET /api/epaper?date=2026-03-16&_t=1773642907382 200 in 848ms
+ GET /api/epaper?date=2026-03-16&_t=1773642907344 200 in 870ms
+ GET /daily-epaper/print/2026-03-16 200 in 153ms
+ GET /api/epaper?date=2026-03-16&_t=1773643134566 200 in 18ms
+ GET /api/epaper?date=2026-03-16&_t=1773643134572 200 in 21ms
+ GET /api/epaper?date=2026-03-16&_t=1773643134577 200 in 26ms
+ GET /api/epaper?date=2026-03-16&_t=1773643134577 200 in 27ms
+ ✓ Compiled /daily-epaper in 221ms (681 modules)
+ ✓ Compiled (713 modules)
+ GET / 200 in 551ms
+ GET /daily-epaper/archive 200 in 551ms
+ GET /daily-epaper 200 in 551ms
+ GET /daily-epaper/print/2026-03-16 200 in 63ms
+ GET /api/epaper?date=2026-03-16&_t=1773643173985 200 in 28ms
+ GET /api/epaper?date=2026-03-16&_t=1773643173990 200 in 33ms
+ GET /api/epaper?date=2026-03-16&_t=1773643173995 200 in 19ms
+ GET /api/epaper?date=2026-03-16&_t=1773643173996 200 in 19ms
+ GET / 200 in 76ms
+ GET /daily-epaper/archive 200 in 76ms
+ GET /daily-epaper 200 in 78ms
+ ○ Compiling /current-affairs ...
+ ✓ Compiled /current-affairs in 839ms (1325 modules)
+ GET /current-affairs 200 in 1074ms
+ ✓ Compiled /api/epaper in 127ms (680 modules)
+ GET /api/epaper?_t=1773643421745 200 in 232ms
+ GET /api/epaper?_t=1773643421768 200 in 216ms
+ GET /api/epaper?_t=1773643421769 200 in 215ms
+ GET /api/epaper?_t=1773643421741 200 in 246ms
+ ✓ Compiled in 1650ms (1339 modules)
+ ✓ Compiled in 556ms (692 modules)
+ ✓ Compiled in 1052ms (1339 modules)
+ ✓ Compiled in 1126ms (1339 modules)
+ ✓ Compiled in 728ms (1339 modules)
+ ○ Compiling /daily-mock ...
+ ✓ Compiled /daily-mock in 810ms (1361 modules)
+ GET /daily-mock 200 in 1023ms
+ ✓ Compiled /api/daily-mock in 207ms (693 modules)
+ GET /api/daily-mock?_t=1773644391226 200 in 405ms
+ GET /api/daily-mock?_t=1773644391245 200 in 392ms
+ GET /api/daily-mock?_t=1773644391246 200 in 388ms
+ GET /api/daily-mock?_t=1773644391221 200 in 417ms
+ ✓ Compiled /api/epaper in 351ms (693 modules)
+ GET /api/epaper?_t=1773644787352 200 in 457ms
+ GET /api/epaper?_t=1773644787352 200 in 458ms
+ GET /daily-epaper/print/2026-03-16 200 in 195ms
+ GET /api/epaper?date=2026-03-16&_t=1773644829879 200 in 37ms
+ GET /api/epaper?date=2026-03-16&_t=1773644829883 200 in 21ms
+ GET /api/epaper?date=2026-03-16&_t=1773644829888 200 in 31ms
+ GET /api/epaper?date=2026-03-16&_t=1773644829889 200 in 32ms
+ ✓ Compiled /daily-epaper in 251ms (711 modules)
+ GET /daily-epaper 200 in 420ms
+ GET /api/epaper?_t=1773644844509 200 in 55ms
+ GET /api/epaper?_t=1773644844512 200 in 56ms
+ GET /api/epaper?_t=1773644844540 200 in 68ms
+ GET /api/epaper?_t=1773644844541 200 in 67ms
+ GET /api/epaper?_t=1773644853149 200 in 16ms
+ GET /api/epaper?_t=1773644853149 200 in 15ms
+ ✓ Compiled in 1192ms (1379 modules)
+ ○ Compiling /api/epaper ...
+ ✓ Compiled /api/epaper in 596ms (711 modules)
+ GET /api/epaper?_t=1773645201542 200 in 991ms
+ GET /api/epaper?_t=1773645201527 200 in 953ms
+ GET /api/epaper?_t=1773645201457 200 in 1013ms
+ ✓ Compiled in 1056ms (1412 modules)
+ ✓ Compiled in 0ms (711 modules)
+ ✓ Compiled in 0ms (711 modules)
+ ✓ Compiled in 0ms (711 modules)
+ GET /api/epaper?_t=1773645248530 200 in 617ms
+ GET /api/epaper?_t=1773645248373 200 in 764ms
+ GET /api/epaper?_t=1773645248500 200 in 669ms
+ ✓ Compiled /api/epaper in 1584ms (1381 modules)
+ ✓ Compiled in 0ms (712 modules)
+ GET /api/epaper?_t=1773645315429 200 in 796ms
+ GET /api/epaper?_t=1773645315663 200 in 648ms
+ GET /api/epaper?_t=1773645315718 200 in 638ms
+ ✓ Compiled in 880ms (1381 modules)
+ ✓ Compiled in 758ms (1381 modules)
+ ✓ Compiled in 802ms (1381 modules)
+ ✓ Compiled in 843ms (1381 modules)
+ GET /current-affairs 200 in 324ms
+ ○ Compiling /api/epaper ...
+ ✓ Compiled /api/epaper in 2.7s (712 modules)
+ GET /api/epaper?_t=1773645712943 200 in 3287ms
+ GET /api/epaper?_t=1773645712978 200 in 3158ms
+ GET /api/epaper?_t=1773645712979 200 in 3157ms
+ GET /api/epaper?_t=1773645712934 200 in 3295ms
+ GET /current-affairs 200 in 567ms
+ GET /api/epaper?_t=1773648854101 200 in 90ms
+ GET /api/epaper?_t=1773648854105 200 in 73ms
+ GET /api/epaper?_t=1773648854122 200 in 62ms
+ GET /api/epaper?_t=1773648854122 200 in 54ms
  ○ Compiling /daily-epaper/archive ...
- ✓ Compiled /daily-epaper/archive in 1132ms (1386 modules)
-[?25h
+ ✓ Compiled /daily-epaper/archive in 598ms (719 modules)
+ GET /api/epaper?archive=true 200 in 24ms
+ GET /api/epaper?archive=true 200 in 11ms
+ ○ Compiling /daily-epaper/[date] ...
+ ✓ Compiled /daily-epaper/[date] in 1057ms (1416 modules)
+ GET /api/epaper?date=2026-02-28 200 in 55ms
+ GET /api/epaper?date=2026-02-28 200 in 33ms
+ GET /api/epaper?archive=true 200 in 21ms
+ GET /api/epaper?archive=true 200 in 11ms
+ GET /api/epaper?date=2026-03-16 200 in 16ms
+ GET /api/epaper?date=2026-03-16 200 in 21ms
+ GET /api/epaper?archive=true 200 in 19ms
+ GET /api/epaper?archive=true 200 in 25ms
+ GET /api/epaper?date=2026-03-16 200 in 19ms
+ GET /api/epaper?date=2026-03-16 200 in 11ms
+ ✓ Compiled in 1059ms (1388 modules)
+ ✓ Compiled in 1152ms (1388 modules)
+ GET /daily-epaper/2026-03-16 200 in 196ms
+ ✓ Compiled /api/epaper in 316ms (713 modules)
+ GET /api/epaper?date=2026-03-16 200 in 399ms
+ GET /api/epaper?date=2026-03-16 200 in 13ms
+ GET /api/epaper?date=2026-03-16 200 in 11ms
+ GET /api/epaper?date=2026-03-16 200 in 10ms
+ GET /daily-epaper/print/2026-03-16 200 in 170ms
+ GET /api/epaper?date=2026-03-16&_t=1773650292918 200 in 35ms
+ GET /api/epaper?date=2026-03-16&_t=1773650292920 200 in 21ms
+ GET /api/epaper?date=2026-03-16&_t=1773650292924 200 in 32ms
+ GET /api/epaper?date=2026-03-16&_t=1773650292925 200 in 32ms
+ GET /daily-epaper/print/2026-03-16 200 in 98ms
+ GET /api/epaper?date=2026-03-16&_t=1773650339527 200 in 52ms
+ GET /api/epaper?date=2026-03-16&_t=1773650339531 200 in 28ms
+ GET /api/epaper?date=2026-03-16&_t=1773650339537 200 in 39ms
+ GET /api/epaper?date=2026-03-16&_t=1773650339537 200 in 39ms
+ GET /daily-epaper/print/2026-03-16 200 in 40ms
+ GET /api/epaper?date=2026-03-16&_t=1773650344008 200 in 43ms
+ GET /api/epaper?date=2026-03-16&_t=1773650344010 200 in 30ms
+ GET /api/epaper?date=2026-03-16&_t=1773650344015 200 in 29ms
+ GET /api/epaper?date=2026-03-16&_t=1773650344015 200 in 29ms
+ ✓ Compiled /api/epaper/generate in 349ms (769 modules)
+[epaper-api] Starting ePaper generation for 2026-03-16…
+[epaper-scraper] Starting ePaper scrape of all sources…
+[epaper-scraper] ✅ The Hindu — International: 100 items
+[epaper-scraper] ✅ The Hindu — National: 100 items
+[epaper-scraper] ✅ The Hindu — Science & Tech: 100 items
+[epaper-scraper] ✅ The Hindu — Business: 100 items
+[epaper-scraper] ✅ The Hindu — Editorial: 100 items
+[epaper-scraper] ✅ Mint — News: 35 items
+[epaper-scraper] Feed returned 403: PIB (Press Releases)
+[epaper-scraper] ✅ The Hindu — Lead Opinion: 100 items
+[epaper-scraper] ✅ Indian Express — Technology: 200 items
+[epaper-scraper] ✅ Indian Express — Editorial: 200 items
+[epaper-scraper] ✅ Indian Express — India: 200 items
+[epaper-scraper] ✅ Indian Express — Business: 200 items
+[epaper-scraper] ✅ Indian Express — World: 200 items
+[epaper-scraper] ✅ WHO — Global Health: 25 items
+[epaper-scraper] ✅ SC Observer — SC Judgments: 1 items
+[epaper-scraper] ✅ Mongabay — Environment: 20 items
+[epaper-scraper] ✅ Google News — Science: 58 items
+[epaper-scraper] ✅ Google News — India: 58 items
+[epaper-scraper] ✅ Google News — Business: 70 items
+[epaper-scraper] ✅ Sansad TV — Parliament: 5 items
+[epaper-scraper] ✅ Indian Express — Explained: 200 items
+[epaper-scraper] Feed returned 404: UN News (Asia-Pacific)
+[epaper-scraper] ✅ Wire Science — Science: 25 items
+[epaper-scraper] ✅ Frontline — Analysis: 100 items
+[epaper-scraper] Feeds: 22 succeeded, 0 failed
+[epaper-scraper] Fetched 2197 total articles
+[epaper-scraper] 388 articles from last 24 hours
+[epaper-scraper] 378 unique articles after dedup
+[epaper-scraper] Source diversity: 247 newspaper, 131 diverse
+[epaper-scraper]   📡 Google News: 131 articles
+[epaper-scraper] Selected 100 articles for AI (15 diverse + 85 newspaper)
+[epaper-gen] Processing 100 articles for ePaper…
+[epaper-gen] Processing batch 1/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+ ✓ Compiled /daily-mock in 322ms (781 modules)
+ ✓ Compiled /api/daily-mock in 233ms (783 modules)
+ GET /api/daily-mock?_t=1773650371966 200 in 384ms
+ GET /api/daily-mock?_t=1773650371963 200 in 387ms
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Israeli PM Netanyahu's Coffee Video Under Scrutiny, Grok Cal
+[epaper-gen] Skipping (not UPSC-relevant): Drug consumption: TDP seeks explanation from Eluru MP Putta 
+[epaper-gen] Skipping (not UPSC-relevant): PM writes to Birla: Oppn can't accept rise of a new person -
+[epaper-gen] Skipping (not UPSC-relevant): Arvind Kejriwal Moves Supreme Court To Transfer CBI Liquor P
+[epaper-gen] Skipping (not UPSC-relevant): Tipra Motha leader Animesh Debbarma leaves for Delhi amid sp
+[epaper-gen] Skipping (not UPSC-relevant): GHADC CEM resigns on moral ground - Meghalaya Monitor
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 2/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+ GET /api/epaper?_t=1773650393482 200 in 33ms
+ GET /api/epaper?_t=1773650393483 200 in 26ms
+ ○ Compiling /features ...
+ ✓ Compiled /features in 786ms (1492 modules)
+ GET /daily-epaper/print/2026-03-16 200 in 485ms
+ GET /api/epaper?date=2026-03-16&_t=1773650413477 200 in 51ms
+ GET /api/epaper?date=2026-03-16&_t=1773650413480 200 in 43ms
+ GET /api/epaper?date=2026-03-16&_t=1773650413484 200 in 38ms
+ GET /api/epaper?date=2026-03-16&_t=1773650413485 200 in 38ms
+[epaper-gen] Failed to parse Gemini response: [
+  {
+    "headline": "India Engages Iran on Strait of Hormuz Reopening Amid Energy Supply Concerns",
+    "explainer": "• External Affairs Minister S. Jaishankar confirmed India's discussions with Iran regarding the Strait of Hormuz.\n• The talks aim to ensure the reopening and safe passage through this critical maritime chokepoint.\n• These diplomatic efforts are prompted by ongoing global energy supply concerns and regional tensions.\n• The Strait of Hormuz is vital for global oil trade, conne
+[epaper-gen] Error on gemini-2.5-flash, retrying in 10s: Failed to parse Gemini AI response as JSON
+ GET /api/epaper?_t=1773650435485 200 in 39ms
+ GET /api/epaper?_t=1773650435486 200 in 37ms
+[epaper-gen] Calling gemini-2.5-flash (attempt 2/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Ambati Made Jagan A Troll Material On Social Media - Gulte
+[epaper-gen] Skipping (not UPSC-relevant): Punjab on new growth path: CM Bhagwant Mann as investors com
+[epaper-gen] Skipping (not UPSC-relevant): Rahul Gandhi sips tea, eats pakoras on Parliament steps: Ami
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 3/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Delhi’s new Water Plan confronts old failures
+[epaper-gen] Skipping (not UPSC-relevant): Expert Explains &#124; ‘This is not the time to be overweigh
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 4/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Avimukteshwaranand vs UP govt: How tussle escalated from San
+[epaper-gen] Skipping (not UPSC-relevant): Why Bihar has made transit passes mandatory for minor minera
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 5/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+ ✓ Compiled /api/epaper in 2.5s (1411 modules)
+ ✓ Compiled in 1ms (727 modules)
+ GET /api/epaper?_t=1773650614246 200 in 997ms
+ GET /api/epaper?_t=1773650614511 200 in 596ms
+ GET /api/epaper?_t=1773650614898 200 in 432ms
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Two arrested for murder of AR constable in Chilkanagar
+[epaper-gen] Skipping (not UPSC-relevant): Arunachal government transfers 27 senior police officers in 
+[epaper-gen] Skipping (not UPSC-relevant): Kerala Assembly polls: Poster war erupts in UDF in Kasaragod
+[epaper-gen] Skipping (not UPSC-relevant): Kerala Assembly polls: Congress throws weight behind former 
+[epaper-gen] Waiting 6s before next batch…
+ ✓ Compiled /daily-epaper/archive in 181ms (733 modules)
+ GET /daily-epaper/archive 200 in 437ms
+ POST /api/epaper/generate?force=true 200 in 298642ms
+ GET /api/epaper?archive=true 200 in 82ms
+ GET /api/epaper?archive=true 200 in 11ms
+ GET /api/epaper?archive=true 200 in 15ms
+ GET /api/epaper?archive=true 200 in 19ms
+[epaper-gen] Processing batch 6/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): No Eid celebrations for Shias in MP in the wake of Khamenei'
+[epaper-gen] Skipping (not UPSC-relevant): History-sheeter shot dead by police near Chennai’s Madhavara
+[epaper-gen] Skipping (not UPSC-relevant): West Asia conflict: Emirates flight from Kerala’s Thiruvanan
+[epaper-gen] Skipping (not UPSC-relevant): West Asia conflict: Dubai airport closure forces Emirates fl
+[epaper-gen] Skipping (not UPSC-relevant): Odisha MLAs arrive in Bhubaneswar for crucial biennial Rajya
+[epaper-gen] Waiting 6s before next batch…
+ ✓ Compiled / in 198ms (724 modules)
+[epaper-gen] Processing batch 7/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Why is Rajasthan’s property Bill drawing scrutiny? | Explain
+[epaper-gen] Skipping (not UPSC-relevant): 10 patients killed, several others injured in major fire at 
+[epaper-gen] Skipping (not UPSC-relevant): Walkathon held in Vellore to mark World Glaucoma Awareness W
+[epaper-gen] Skipping (not UPSC-relevant): Kerala Assembly polls 2026: With five wins on the trot, Cong
+[epaper-gen] Skipping (not UPSC-relevant): U.K. military bases given to U.S. to reduce impact of war on
+[epaper-gen] Skipping (not UPSC-relevant): Air India, AI Express to operate 48 flights connecting West 
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 8/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Over 30 vehicles stranded amid snowfall in J&K's Kishtwar; r
+[epaper-gen] Skipping (not UPSC-relevant): No talks with Vijay’s party so far by AIADMK or its allies: 
+[epaper-gen] Skipping (not UPSC-relevant): U.S. attitude to the Kurdish question reflects colonial mind
+[epaper-gen] Skipping (not UPSC-relevant): SIR: Tamil Nadu’s urban areas record higher reduction in num
+[epaper-gen] Skipping (not UPSC-relevant): DMK steps up seat-sharing discussions with allies
+[epaper-gen] Skipping (not UPSC-relevant): Credit wars escalate in Kerala as polls approach
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 9/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Tamilaga Valvurimai Katchi to reconsider alliance with DMK
+[epaper-gen] Skipping (not UPSC-relevant): DMK will stand by Muslims and their rights, says Stalin
+[epaper-gen] Skipping (not UPSC-relevant): T.N. Assembly election 2026: campaign window set at 38 days,
+[epaper-gen] Skipping (not UPSC-relevant): Man held for assaulting police constable in Ranipet
+[epaper-gen] Skipping (not UPSC-relevant): NUALS secures first place in moot court contest
+[epaper-gen] Skipping (not UPSC-relevant): Deputy CM Bhatti invites Governor for Budget session
+[epaper-gen] Skipping (not UPSC-relevant): New FOB across railway track in Tiruvannamalai to be ready i
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 10/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Alumnus honoured for clearing UPSC examinations
+[epaper-gen] Skipping (not UPSC-relevant): 24.7 lakh write foundational literacy and numeracy assessmen
+[epaper-gen] Skipping (not UPSC-relevant): Seven pilgrims from Tamil Nadu killed, seven others injured 
+[epaper-gen] Skipping (not UPSC-relevant): Parties welcome two-phase West Bengal polls; people will bri
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 11/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Nadi Harathi held on Godavari banks at Bhadrachalam
+[epaper-gen] Skipping (not UPSC-relevant): Kerala Assembly polls 2026: CPI(M) announces candidates in 8
+[epaper-gen] Skipping (not UPSC-relevant): Hours before Rajya Sabha polling, AIMIM announces to vote fo
+[epaper-gen] Skipping (not UPSC-relevant): Government response to West Asia conflict driven by supreme 
+[epaper-gen] Skipping (not UPSC-relevant): Parties, outfits invoke ‘Brahmin’ angle to ‘pandit’ referenc
+[epaper-gen] Skipping (not UPSC-relevant): Naidu to unveil 58-foot statue of Potti Sriramulu in Amarava
+[epaper-gen] Skipping (not UPSC-relevant): Diversify agriculture and encourage farmers to grow pulses, 
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 12/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Over 900 chicken pox cases reported in Ernakulam in 2026
+[epaper-gen] Skipping (not UPSC-relevant): Statewide free FMD vaccination drive for cattle and buffaloe
+[epaper-gen] Skipping (not UPSC-relevant): Higher Education dept. sanctions 59 new courses in four univ
+[epaper-gen] Skipping (not UPSC-relevant): Half the Ministers may be dropped in next expansion, says ML
+[epaper-gen] Skipping (not UPSC-relevant): Woman murdered in Pudukottai, BJP man from Chengalpattu amon
+[epaper-gen] Skipping (not UPSC-relevant): Hospitals canteens in Kochi struggling amid LPG crisis
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 13/13…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 4 results
+[epaper-gen] Skipping (not UPSC-relevant): Komatireddy urges KCR to attend Assembly
+[epaper-gen] Skipping (not UPSC-relevant): TDP issues show-cause notice to Eluru MP over drugs allegati
+[epaper-gen] Skipping (not UPSC-relevant): Young man killed by stray bullet in Uttara Kannada
+[epaper-gen] Successfully processed 39 ePaper articles
+[epaper-gen] Generating Mocks from 25 articles...
+[epaper-gen] Generating Mocks with gemini-2.5-flash (attempt 1/3)...
+[epaper-store] Saved 25 articles to /Users/mgtvalavan/UPSC coaching antigravity/src/data/epaper/epaper-2026-03-16.json
+[epaper-api] ✅ ePaper generated: 25 articles
+[mailer] Generating PDF attachment via Puppeteer from http://localhost:3000/daily-epaper/print/2026-03-16 ...
+ GET /daily-epaper/print/2026-03-16 200 in 160ms
+ GET /api/epaper?date=2026-03-16&_t=1773650918718 200 in 31ms
+ GET /api/epaper?date=2026-03-16&_t=1773650918723 200 in 42ms
+ GET /api/epaper?date=2026-03-16&_t=1773650918730 200 in 35ms
+ GET /api/epaper?date=2026-03-16&_t=1773650918730 200 in 41ms
+ ○ Compiling /daily-epaper ...
+ ✓ Compiled /daily-epaper in 528ms (731 modules)
+ GET / 200 in 925ms
+ GET /daily-epaper/archive 200 in 929ms
+ GET /daily-epaper 200 in 939ms
+[mailer] ✅ PDF generated successfully.
+[mailer] ✅ Successfully sent ePaper email with PDF attachment to mgt.valavan@gmail.com for 2026-03-16
+ ✓ Compiled in 1085ms (1395 modules)
+ ✓ Compiled in 712ms (1395 modules)
+ GET /features 200 in 231ms
+ ✓ Compiled /daily-mock in 363ms (691 modules)
+ ✓ Compiled /api/daily-mock in 223ms (724 modules)
+ GET /api/daily-mock?_t=1773651632033 200 in 350ms
+ GET /api/daily-mock?_t=1773651632031 200 in 353ms
+ ○ Compiling /syllabus ...
+ ✓ Compiled /syllabus in 828ms (1397 modules)
+ ✓ Compiled /api/daily-mock in 271ms (717 modules)
+ GET /api/daily-mock?_t=1773651928003 200 in 489ms
+ GET /api/daily-mock?_t=1773651928002 200 in 494ms
+ ✓ Compiled in 1479ms (1403 modules)
+ ✓ Compiled in 821ms (1403 modules)
+ ✓ Compiled in 815ms (1403 modules)
+ ✓ Compiled in 509ms (719 modules)
+ ✓ Compiled /api/daily-mock in 1340ms (1403 modules)
+ ✓ Compiled in 0ms (717 modules)
+ GET /api/daily-mock?_t=1773652860290 200 in 601ms
+ ✓ Compiled in 837ms (1449 modules)
+ ✓ Compiled in 577ms (1449 modules)
+ ✓ Compiled in 452ms (1403 modules)
+ ○ Compiling /api/daily-mock ...
+ ✓ Compiled /api/daily-mock in 700ms (717 modules)
+ GET /api/daily-mock?_t=1773654819413 200 in 923ms
+ GET /api/daily-mock?_t=1773654819412 200 in 930ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1115ms (1425 modules)
+ GET /daily-epaper/print/2026-03-16 404 in 142ms
+ ✓ Compiled in 2.2s (1403 modules)
+ ✓ Compiled /_not-found in 269ms (1392 modules)
+ GET /daily-epaper/print/2026-03-16 404 in 429ms
+ ✓ Compiled in 4.6s (719 modules)
+ ○ Compiling /api/daily-mock ...
+ ✓ Compiled /api/epaper in 3.5s (717 modules)
+ ✓ Compiled (719 modules)
+ GET /api/epaper?date=2026-03-16&_t=1773656524955 200 in 1369ms
+ GET /api/epaper?date=2026-03-16&_t=1773656524954 200 in 1591ms
+ GET /api/daily-mock?_t=1773656522758 200 in 4701ms
+ ✓ Compiled in 2.1s (1389 modules)
+ ○ Compiling /api/daily-mock ...
+ ✓ Compiled /api/daily-mock in 843ms (717 modules)
+ ✓ Compiled (719 modules)
+ GET /api/daily-mock?_t=1773656609648 200 in 1762ms
+ GET /api/daily-mock?_t=1773656609656 200 in 1759ms
+ GET /api/daily-mock?_t=1773656610034 200 in 1526ms
+ GET /api/daily-mock?_t=1773656610041 200 in 1516ms
+ GET /api/epaper?date=2026-03-16&_t=1773656609154 200 in 3211ms
+ GET /api/epaper?date=2026-03-16&_t=1773656609153 200 in 3619ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename '/Users/mgtvalavan/UPSC coaching antigravity/.next/cache/webpack/client-development/7.pack.gz_' -> '/Users/mgtvalavan/UPSC coaching antigravity/.next/cache/webpack/client-development/7.pack.gz'
+ ✓ Compiled in 970ms (719 modules)
+ ✓ Compiled in 2.6s (1398 modules)
+ ✓ Compiled in 2.4s (1398 modules)
+ ✓ Compiled in 2.5s (1398 modules)
+ ✓ Compiled in 965ms (1398 modules)

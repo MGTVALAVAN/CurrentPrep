@@ -1953,5 +1953,110 @@
       "syllabusMatch": "GS3: Conservation, environmental pollution and degradation, environmental impact assessment. Major crops - cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers. Issues related to direct and indirect farm subsidies and minimum support prices; Public Distribution System—objectives, functioning, limitations, revamping; issues of buffer stocks and food security; Technology missions; economics of animal-rearing.",
       "approach": "Begin by establishing the link between environmental change, food systems, and urban water scarcity. Discuss how climate change impacts agriculture and water resources, and how urban expansion exacerbates these issues due to governance failures. Propose integrated solutions focusing on climate-resilient agriculture, water conservation, efficient urban planning, and participatory governance."
     }
-  ]
+  ],
+  "csatMocks": {
+    "comprehension": [
+      {
+        "passage": "The proposition of 'One Nation, One Election' (ONOE), advocating for synchronized polls for the Lok Sabha and State Assemblies, resurfaces periodically, driven by the allure of administrative efficiency and significant cost savings. Proponents argue that a unified electoral cycle would curtail the perpetual campaign mode, allowing governments to focus on governance rather than electioneering, and streamline resource allocation. However, this seemingly pragmatic solution carries profound implications for India's intricate federal structure and the very essence of its democratic ethos. The synchronization risks diluting regional issues, as national narratives might invariably overshadow local concerns during a consolidated election. This could disproportionately disadvantage regional parties, whose electoral fortunes are often tied to specific state-level dynamics and local grievances. Furthermore, the concept potentially undermines accountability. If state governments are dissolved prematurely due to no-confidence motions, the mechanism for re-election or continuation becomes complex, possibly necessitating a fixed term that could be antithetical to parliamentary democracy's responsiveness. While the pursuit of efficiency is commendable, it must not come at the cost of democratic vibrancy, federal balance, and the diverse representation that defines India's political landscape. A thorough public discourse, weighing the perceived benefits against the potential erosion of foundational democratic principles, is imperative before any such monumental shift.",
+        "source": "Theme-based editorial",
+        "questions": [
+          {
+            "question": "Which of the following best captures the main idea of the passage?",
+            "options": [
+              "A. The 'One Nation, One Election' proposal is a necessary reform for India's economic development.",
+              "B. The passage primarily highlights the administrative benefits and cost savings of synchronized elections.",
+              "C. The 'One Nation, One Election' proposal, despite its apparent benefits, poses significant challenges to India's federalism and democratic principles.",
+              "D. Regional parties are the sole beneficiaries of the current staggered election system in India.",
+              "E. The passage advocates for immediate implementation of ONOE after minor adjustments."
+            ],
+            "answer": "C. The 'One Nation, One Election' proposal, despite its apparent benefits, poses significant challenges to India's federalism and democratic principles.",
+            "explanation": "The passage discusses both the 'allure' and 'profound implications' of ONOE, spending considerable effort detailing the challenges to federalism, regional parties, and accountability. Option C accurately summarizes this balanced yet critical perspective."
+          },
+          {
+            "question": "What can be inferred about the author's attitude towards the 'One Nation, One Election' proposal?",
+            "options": [
+              "A. Strongly supportive, viewing it as a long-overdue reform.",
+              "B. Indifferent, presenting only factual information without bias.",
+              "C. Cautiously skeptical, emphasizing potential drawbacks despite acknowledging perceived benefits.",
+              "D. Decidedly against, without considering any positive aspects.",
+              "E. Optimistic about its implementation, given sufficient public debate."
+            ],
+            "answer": "C. Cautiously skeptical, emphasizing potential drawbacks despite acknowledging perceived benefits.",
+            "explanation": "The author acknowledges the 'allure' and 'pragmatic solution' aspects but then extensively details the 'profound implications,' 'risks,' and 'undermines accountability,' concluding with a call for thorough discourse. This indicates a cautious and skeptical stance."
+          },
+          {
+            "question": "According to the passage, what is a potential consequence of national narratives overshadowing local concerns during a consolidated election?",
+            "options": [
+              "A. Increased voter turnout in state elections.",
+              "B. Enhanced focus on regional development projects.",
+              "C. Disproportionate disadvantage to regional political parties.",
+              "D. Simplification of the electoral process for all voters.",
+              "E. Greater accountability of state governments to national parties."
+            ],
+            "answer": "C. Disproportionate disadvantage to regional political parties.",
+            "explanation": "The passage explicitly states: 'The synchronization risks diluting regional issues, as national narratives might invariably overshadow local concerns during a consolidated election. This could disproportionately disadvantage regional parties...'"
+          },
+          {
+            "question": "The phrase 'democratic ethos' in the passage refers to:",
+            "options": [
+              "A. The financial cost associated with conducting elections.",
+              "B. The fundamental character and guiding beliefs of India's democracy.",
+              "C. The administrative efficiency of the electoral system.",
+              "D. The process of forming coalition governments.",
+              "E. The number of political parties participating in elections."
+            ],
+            "answer": "B. The fundamental character and guiding beliefs of India's democracy.",
+            "explanation": "'Ethos' refers to the characteristic spirit of a culture, era, or community. In the context of 'democratic ethos,' it signifies the core values, principles, and spirit that define India's democratic system, such as representation, accountability, and federalism, which the passage suggests ONOE might impact."
+          }
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "question": "Statement: All books are papers. Some papers are pens. All pens are ink.\n\nConclusion I: Some papers are ink.\nConclusion II: Some books are ink.",
+        "options": [
+          "A. Only Conclusion I follows.",
+          "B. Only Conclusion II follows.",
+          "C. Both Conclusion I and II follow.",
+          "D. Neither Conclusion I nor II follows."
+        ],
+        "answer": "A. Only Conclusion I follows.",
+        "explanation": "From 'Some papers are pens' and 'All pens are ink', we can conclude 'Some papers are ink' (Conclusion I). This is a valid syllogistic inference (I + A type). For Conclusion II, 'Some books are ink', we have 'All books are papers' and 'Some papers are ink'. This is an A + I type combination, which does not yield a definite conclusion about 'books' and 'ink'. The common term 'papers' is not distributed in 'Some papers are ink', so a definite conclusion cannot be drawn. Therefore, only Conclusion I follows."
+      },
+      {
+        "question": "A company's annual profit increased by 15% in 2022 compared to 2021. If the profit in 2022 was ₹345 million, what was the profit (in million ₹) in 2021?",
+        "options": [
+          "A. 300",
+          "B. 315",
+          "C. 330",
+          "D. 360"
+        ],
+        "answer": "A. 300",
+        "explanation": "Let the profit in 2021 be P. \nAccording to the problem, the profit in 2022 was P + 15% of P = P(1 + 0.15) = 1.15P.\nWe are given that the profit in 2022 was ₹345 million.\nSo, 1.15P = 345.\nP = 345 / 1.15.\nP = 34500 / 115.\nP = 300.\nTherefore, the profit in 2021 was ₹300 million."
+      },
+      {
+        "question": "Statement: 'The government's new policy to provide free vocational training to unemployed youth will significantly reduce unemployment rates.'\n\nWhich of the following, if true, would most strengthen the government's statement?",
+        "options": [
+          "A. Many trained youth prefer to seek employment abroad rather than domestically.",
+          "B. A recent survey indicates a high demand for skilled labor in various industries.",
+          "C. The cost of implementing the vocational training program is very high.",
+          "D. Previous similar programs had limited success due to lack of public awareness."
+        ],
+        "answer": "B. A recent survey indicates a high demand for skilled labor in various industries.",
+        "explanation": "The government's statement claims that free vocational training will reduce unemployment. For this to be true, two conditions are crucial: 1) youth get trained, and 2) there are jobs available for them after training. Option B directly addresses the second condition by confirming a high demand for skilled labor, thus making it more likely that the trained youth will find employment and reduce unemployment. Options A, C, and D either weaken the statement or are irrelevant to its core claim about unemployment reduction."
+      },
+      {
+        "question": "You are the head of a district administration. A major festival is approaching, and intelligence reports suggest a potential for communal tension in a specific locality known for its mixed population and historical conflicts. Local community leaders are divided on the best approach to ensure peace.\n\nWhich of the following would be the most effective and appropriate course of action?",
+        "options": [
+          "A. Ban all public gatherings and impose a strict curfew in the locality until the festival concludes.",
+          "B. Deploy a large contingent of armed police and paramilitary forces to the locality as a show of force.",
+          "C. Organize a joint meeting with all community leaders, religious figures, and law enforcement to develop a collaborative peace plan, while simultaneously increasing intelligence gathering and visible but non-intrusive police presence.",
+          "D. Publicly announce that any individual found inciting tension will be immediately arrested and prosecuted, without engaging with community leaders.",
+          "E. Delegate the responsibility entirely to the local police station in-charge, as they are most familiar with the ground situation."
+        ],
+        "answer": "C. Organize a joint meeting with all community leaders, religious figures, and law enforcement to develop a collaborative peace plan, while simultaneously increasing intelligence gathering and visible but non-intrusive police presence.",
+        "explanation": "Option C represents a balanced and proactive approach. Engaging community leaders fosters trust and ownership of the peace process, which is crucial for long-term stability. Collaborative planning addresses the root causes of tension. Simultaneously, increased intelligence and a visible but non-intrusive police presence provide necessary security without escalating fear or resentment. Options A and B are overly restrictive and could exacerbate tensions or be perceived as heavy-handed. Option D is reactive and lacks community engagement. Option E abdicates critical leadership responsibility during a sensitive period."
+      }
+    ]
+  }
 }

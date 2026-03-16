@@ -2414,5 +2414,105 @@
       "syllabusMatch": "GS2: Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure; Government policies and interventions for development in various sectors and issues arising out of their design and implementation; Welfare schemes for vulnerable sections of the population by the Centre and States.",
       "approach": "Discuss the rationale behind internet shutdowns for maintaining public order, while critically analyzing their impact on fundamental rights, economic activity, and public trust. Transition to the ethical and legal imperative of a no-fault compensation policy for adverse events from state-mandated public health interventions, linking it to state responsibility and citizen welfare. Conclude by advocating for proportionality, transparency, and accountability in both state actions."
     }
-  ]
+  ],
+  "csatMocks": {
+    "comprehension": [
+      {
+        "passage": "The recent allocation of ₹561 billion by the Sixteenth Finance Commission for urban drainage and wastewater upgrades across 22 cities marks a pivotal, yet potentially incomplete, stride towards addressing India's pressing urban water challenges. While the sheer scale of the investment is commendable, signalling a much-needed recognition of the dilapidated state of urban water infrastructure, its effectiveness hinges critically on a paradigm shift from piecemeal solutions to integrated water management. Historically, urban planning has often treated drainage, sewage, and freshwater supply as distinct silos, leading to fragmented infrastructure, inefficient resource utilization, and exacerbated environmental degradation, particularly during extreme weather events. This substantial grant offers a unique opportunity to rectify these systemic flaws. However, merely upgrading pipes and treatment plants without simultaneously fostering a holistic approach that considers rainwater harvesting, groundwater recharge, and the ecological restoration of urban wetlands risks perpetuating the very problems it seeks to solve. The true measure of this initiative's success will not be the volume of funds disbursed, but the extent to which it catalyses a comprehensive, sustainable, and resilient urban water ecosystem. It demands a move beyond mere infrastructure development to embrace a broader vision of urban ecological health, integrating grey and green infrastructure solutions. Without this integrated perspective, the investment, however significant, might only offer temporary relief, failing to build the long-term resilience necessary for India's rapidly urbanizing landscape.",
+        "source": "Theme-based editorial",
+        "questions": [
+          {
+            "question": "Which of the following best encapsulates the main argument of the passage?",
+            "options": [
+              "A. The Sixteenth Finance Commission's grant is insufficient to solve India's urban water problems.",
+              "B. Integrated water management is crucial for the effective utilization of the Finance Commission's grant for urban drainage.",
+              "C. Urban planning in India has historically failed to address drainage and wastewater issues effectively.",
+              "D. The focus of urban development should shift from infrastructure to ecological restoration."
+            ],
+            "answer": "B. Integrated water management is crucial for the effective utilization of the Finance Commission's grant for urban drainage.",
+            "explanation": "The passage acknowledges the significance of the grant but strongly emphasizes that its 'effectiveness hinges critically on a paradigm shift from piecemeal solutions to integrated water management,' making this the central argument."
+          },
+          {
+            "question": "Based on the passage, what is a likely consequence if the grant is utilized without adopting an integrated water management approach?",
+            "options": [
+              "A. The allocated funds will be entirely wasted without any improvement in urban drainage.",
+              "B. Urban areas will experience a temporary improvement in drainage, but long-term issues will persist or worsen.",
+              "C. The government will be forced to allocate even larger grants in the near future.",
+              "D. Ecological restoration of urban wetlands will become impossible."
+            ],
+            "answer": "B. Urban areas will experience a temporary improvement in drainage, but long-term issues will persist or worsen.",
+            "explanation": "The passage states that merely upgrading infrastructure 'risks perpetuating the very problems it seeks to solve' and 'might only offer temporary relief, failing to build the long-term resilience,' which directly supports this conclusion."
+          },
+          {
+            "question": "The author's attitude towards the Finance Commission's grant can best be described as:",
+            "options": [
+              "A. Unreservedly optimistic about its potential impact.",
+              "B. Skeptical of the government's intentions behind the allocation.",
+              "C. Cautiously optimistic, emphasizing the need for a holistic implementation strategy.",
+              "D. Indifferent, merely presenting facts about the allocation."
+            ],
+            "answer": "C. Cautiously optimistic, emphasizing the need for a holistic implementation strategy.",
+            "explanation": "The author describes the grant as 'pivotal' and 'commendable' (optimistic) but immediately qualifies it with 'yet potentially incomplete' and stresses that its 'effectiveness hinges critically on a paradigm shift' (cautious, emphasizing strategy)."
+          },
+          {
+            "question": "In the context of the passage, what does the phrase 'treating drainage, sewage, and freshwater supply as distinct silos' imply?",
+            "options": [
+              "A. These urban services are managed by different government departments.",
+              "B. There is a lack of coordination and holistic planning among these interconnected services.",
+              "C. Each service operates efficiently within its own defined boundaries.",
+              "D. The financial allocation for each service is kept separate."
+            ],
+            "answer": "B. There is a lack of coordination and holistic planning among these interconnected services.",
+            "explanation": "The term 'silos' in this context refers to separate, isolated systems or departments that do not communicate or coordinate effectively. The passage links this to 'fragmented infrastructure' and a lack of 'holistic approach'."
+          }
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "question": "Statement: The constitutional provisions governing the appointment and removal of the Chief Election Commissioner (CEC) are crucial for upholding the independence of the Election Commission.\nConclusion I: Any alteration to the removal procedure of the CEC could potentially undermine the Election Commission's autonomy.\nConclusion II: The current appointment process for the CEC guarantees absolute independence of the Election Commission.\n\nWhich of the following is correct with respect to the given statement and conclusions?",
+        "options": [
+          "A. Only Conclusion I follows.",
+          "B. Only Conclusion II follows.",
+          "C. Both Conclusion I and II follow.",
+          "D. Neither Conclusion I nor II follows."
+        ],
+        "answer": "A. Only Conclusion I follows.",
+        "explanation": "The statement asserts that the removal provisions are 'crucial for upholding independence.' Therefore, altering these provisions could indeed undermine that independence, making Conclusion I follow. However, the statement only highlights the importance of removal provisions, not that the *current appointment process* guarantees *absolute* independence. The word 'absolute' is a strong claim not supported by the statement, thus Conclusion II does not follow."
+      },
+      {
+        "question": "A city's total energy consumption increased by 20% from Year 1 to Year 2. In Year 1, natural gas constituted 30% of the total energy consumed. In Year 2, due to prioritization, natural gas consumption increased by 50% compared to Year 1. What percentage of the total energy consumption in Year 2 was accounted for by natural gas?",
+        "options": [
+          "A. 37.5%",
+          "B. 32.5%",
+          "C. 40%",
+          "D. 45%"
+        ],
+        "answer": "A. 37.5%",
+        "explanation": "Let total energy consumption in Year 1 be 100 units. Natural gas consumption in Year 1 = 30% of 100 = 30 units. Total energy consumption in Year 2 = 100 + (20% of 100) = 120 units. Natural gas consumption in Year 2 = 30 + (50% of 30) = 30 + 15 = 45 units. Percentage of natural gas in Year 2 = (45 / 120) * 100 = (3 / 8) * 100 = 37.5%."
+      },
+      {
+        "question": "Statement: US Congressional Democrats have urged India to reverse its purchases of Russian oil, arguing that these purchases indirectly support Russia's war efforts and undermine sanctions.\nWhich of the following, if true, would most weaken the Democrats' argument?",
+        "options": [
+          "A. India's total oil imports from Russia constitute a minor fraction of Russia's overall oil exports.",
+          "B. India has significantly increased its domestic oil production in the last five years.",
+          "C. The alternative sources of oil for India are considerably more expensive, leading to higher inflation.",
+          "D. A substantial portion of the Russian oil purchased by India is refined and then exported to European countries."
+        ],
+        "answer": "A. India's total oil imports from Russia constitute a minor fraction of Russia's overall oil exports.",
+        "explanation": "The Democrats' argument implies that India's purchases have a significant impact on supporting Russia's war efforts and undermining sanctions. If India's imports are a 'minor fraction' of Russia's overall exports, it suggests that the scale of India's contribution to Russia's revenue is small, thereby weakening the perceived significance and impact of the Democrats' concern. Option D, while complex, could be seen as India facilitating the flow of Russian oil to Europe, which might even be interpreted as further undermining the spirit of sanctions, rather than weakening the core argument of supporting Russia."
+      },
+      {
+        "question": "A country, X, is facing a complex geopolitical situation. It has strong historical and economic ties with both Country A and Country B, which are currently engaged in an escalating conflict. Country X's primary strategic imperatives are regional stability, energy security, and protecting its diaspora in both warring nations.\nWhich of the following would be the most appropriate immediate course of action for Country X to take?",
+        "options": [
+          "A. Publicly condemn the aggressor nation in the conflict to demonstrate moral leadership.",
+          "B. Impose economic sanctions on both Country A and Country B to pressure them into a ceasefire.",
+          "C. Initiate bilateral diplomatic efforts with both Country A and Country B, while also engaging multilateral platforms to de-escalate tensions and ensure humanitarian access.",
+          "D. Temporarily suspend all economic ties with both countries until the conflict subsides to avoid taking sides."
+        ],
+        "answer": "C. Initiate bilateral diplomatic efforts with both Country A and Country B, while also engaging multilateral platforms to de-escalate tensions and ensure humanitarian access.",
+        "explanation": "This option directly addresses all of Country X's strategic imperatives: bilateral diplomacy maintains ties and allows for de-escalation; multilateral engagement promotes regional stability; and ensuring humanitarian access protects the diaspora. Options A, B, and D would likely alienate one or both warring parties, harm Country X's economic interests, or fail to achieve the desired outcomes of stability and diaspora protection."
+      }
+    ]
+  }
 }

@@ -16,9 +16,9 @@ export default function Footer() {
     ];
 
     const resources = [
-        { href: '/blog', label: t('nav_blog'), external: false },
         { href: '/current-affairs', label: 'Current Affairs', external: false },
-        { href: '/community', label: 'Community', external: false },
+        { href: '/daily-mock', label: 'Daily Mock', external: false },
+        { href: '/daily-epaper/archive', label: 'ePaper Archive', external: false },
         { href: '/about', label: t('nav_about'), external: false },
         { href: '/contact', label: 'Contact', external: false },
         { href: 'https://ncert.nic.in', label: 'NCERT Portal', external: true },

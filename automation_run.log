@@ -1432,3 +1432,758 @@ Attempting to send an email for today's ePaper (2026-03-14) to mgt.valavan@gmail
 Done! Check your inbox.
 Stopping Next.js server...
 Daily automation complete at Sat Mar 14 13:20:36 IST 2026!
+==========================================================
+Starting Daily CurrentIAS Generation at Sun Mar 15 08:00:04 IST 2026
+Starting Next.js server in the background...
+Waiting for Next.js server to be ready on port 3000...
+Next.js server is up.
+[1/4] Scraping news and generating Master Lead & Articles...
+[dotenv@17.3.1] injecting env (6) from .env.local -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+Fetching fresh headlines from RSS sources...
+[epaper-scraper] Starting ePaper scrape of all sources…
+[epaper-scraper] ✅ The Hindu — International: 100 items
+[epaper-scraper] ✅ Mint — News: 35 items
+[epaper-scraper] ✅ Indian Express — World: 200 items
+[epaper-scraper] ✅ Indian Express — India: 200 items
+[epaper-scraper] ✅ Indian Express — Business: 200 items
+[epaper-scraper] ✅ Indian Express — Editorial: 200 items
+[epaper-scraper] ✅ Indian Express — Explained: 200 items
+[epaper-scraper] ✅ Indian Express — Technology: 200 items
+[epaper-scraper] ✅ The Hindu — Editorial: 100 items
+[epaper-scraper] ✅ The Hindu — National: 100 items
+[epaper-scraper] ✅ The Hindu — Lead Opinion: 100 items
+[epaper-scraper] ✅ The Hindu — Business: 100 items
+[epaper-scraper] ✅ The Hindu — Science & Tech: 100 items
+[epaper-scraper] ✅ Frontline — Analysis: 100 items
+[epaper-scraper] ✅ SC Observer — SC Judgments: 1 items
+[epaper-scraper] ✅ WHO — Global Health: 25 items
+[epaper-scraper] ✅ Mongabay — Environment: 20 items
+[epaper-scraper] ✅ Google News — Business: 70 items
+[epaper-scraper] ✅ Google News — Science: 69 items
+[epaper-scraper] ✅ Wire Science — Science: 25 items
+[epaper-scraper] ✅ Google News — India: 70 items
+[epaper-scraper] ✅ Sansad TV — Parliament: 5 items
+[epaper-scraper] Feeds: 22 succeeded, 0 failed
+[epaper-scraper] Fetched 2220 total articles
+[epaper-scraper] 373 articles from last 24 hours
+[epaper-scraper] 366 unique articles after dedup
+[epaper-scraper] Source diversity: 265 newspaper, 101 diverse
+[epaper-scraper]   📡 Google News: 101 articles
+[epaper-scraper] Selected 100 articles for AI (15 diverse + 85 newspaper)
+Successfully scraped 100 raw articles.
+Determined Master Lead Theme: International Diplomacy (India) with 23 articles.
+Generating Master Lead Story via Gemini for 15 combined headlines...
+Fetching full article text for 50 selected articles...
+Enriched 39/50 articles with full text.
+Starting epaper generation pipeline with 51 raw articles...
+[epaper-gen] Processing 51 articles for ePaper…
+[epaper-gen] Processing batch 1/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Immensely pleased to celebrate JSP Formation Day in remote t
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 2/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): India at a crossroads, next step to define country’s future:
+[epaper-gen] Skipping (not UPSC-relevant): Explained: Karnataka’s new AIB alcohol tax system which will
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 3/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): 'The PM is...': Netanyahu's office breaks silence over repor
+[epaper-gen] Skipping (not UPSC-relevant): ‘Pandit’ option for question on opportunists trips up BJP in
+[epaper-gen] Skipping (not UPSC-relevant): Govt. to take over Krishna Iyer’s residence to set up legal 
+[epaper-gen] Skipping (not UPSC-relevant): Water supply to be disrupted in city wards
+[epaper-gen] Skipping (not UPSC-relevant): CMC organises competitions for school students to mark World
+[epaper-gen] Skipping (not UPSC-relevant): Deputy CM Udhayanidhi Stalin distributes welfare aid worth ₹
+[epaper-gen] Skipping (not UPSC-relevant): Uttar Pradesh government makes ‘hyperbolic claims’ on employ
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 4/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Coffee-table book on wildlife of Tamil Nadu launched
+[epaper-gen] Skipping (not UPSC-relevant): KTR accuses Congress of using Musi Riverfront project as cov
+[epaper-gen] Skipping (not UPSC-relevant): Bandi Sanjay demands action against Congress MLA Samuel for 
+[epaper-gen] Skipping (not UPSC-relevant): Civil Defence volunteer training programme launched at medic
+[epaper-gen] Skipping (not UPSC-relevant): State govt. approves renewal of land lease to KFDC
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 5/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Dirty water flows into Mahamagam Tank in Kumbakonam; officia
+[epaper-gen] Skipping (not UPSC-relevant): Borrowed money for food: Iran Supreme Leader's aide on Mojta
+[epaper-gen] Skipping (not UPSC-relevant): FCC chair slams broadcasters after Trump disputes reports on
+[epaper-gen] Skipping (not UPSC-relevant): BJP indulging in horse-trading to win Rajya Sabha election; 
+[epaper-gen] Skipping (not UPSC-relevant): Close fight on the cards in Kerala’s bellwether constituency
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 6/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Congress releases second list of 23 candidates for Assam pol
+[epaper-gen] Skipping (not UPSC-relevant): Mojtaba Khamenei | The cleric with a gun
+[epaper-gen] Skipping (not UPSC-relevant): Amma canteens in Chennai see an increase in sales as LPG cri
+[epaper-gen] Skipping (not UPSC-relevant): TIDCO backs two home-grown startups, invests ₹25 crore in ea
+[epaper-gen] Skipping (not UPSC-relevant): Man held for possession of 300 kg gutka near Katpadi
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 7/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 3 results
+[epaper-gen] Skipping (not UPSC-relevant): Revenue officials seize 41 domestic gas cylinders during rai
+[epaper-gen] Skipping (not UPSC-relevant): Kalaburagi Rangayana to organise month-long summer theatre w
+[epaper-gen] Successfully processed 24 ePaper articles
+[epaper-gen] Generating Mocks from 24 articles...
+[epaper-gen] Generating Mocks with gemini-2.5-flash (attempt 1/3)...
+[epaper-store] Saved 24 articles to /Users/mgtvalavan/UPSC coaching antigravity/src/data/epaper/epaper-2026-03-15.json
+✅ ePaper successfully created and saved for today (2026-03-15)! Included 24 fully structured explainers.
+[2/4] Mocks already generated by AI pipeline...
+[3/4] Running pre-send validation checklist...
+
+📰 ePaper Pre-Send Validation — 2026-03-15
+   Run at: 15/3/2026, 8:05:10 am
+
+────────────────────────────────────────────────────────────
+  1. DATA FILE
+────────────────────────────────────────────────────────────
+  ✅ ePaper JSON file exists: epaper-2026-03-15.json
+  ✅ JSON is valid and parseable
+
+────────────────────────────────────────────────────────────
+  2. DATE & METADATA
+────────────────────────────────────────────────────────────
+  ✅ Date matches: 2026-03-15 === 2026-03-15
+  ✅ dateFormatted is set: "Sunday 15 March, 2026"
+  ✅ lastUpdated is set
+  ✅ edition number is set: 1
+
+────────────────────────────────────────────────────────────
+  3. ARTICLES
+────────────────────────────────────────────────────────────
+  ✅ At least 20 articles (got 24)
+  ✅ No more than 30 articles (got 24)
+  ✅ No duplicate headlines (24/24)
+  ✅ No duplicate IDs
+
+────────────────────────────────────────────────────────────
+  4. GS PAPER COVERAGE
+────────────────────────────────────────────────────────────
+  ✅ GS1 covered
+  ✅ GS2 covered
+  ✅ GS3 covered
+  ⚠️ GS4 covered
+  📊 Distribution: GS2=11, GS3=12, GS1=1
+  ✅ No single GS paper dominates (max 12/24, <60%)
+
+────────────────────────────────────────────────────────────
+  5. CATEGORY COVERAGE
+────────────────────────────────────────────────────────────
+  ✅ At least 4 categories covered (got 7)
+  📊 Categories: ir, environment, polity, economy, agriculture, social, science
+
+────────────────────────────────────────────────────────────
+  6. PER-ARTICLE QUALITY
+────────────────────────────────────────────────────────────
+  ✅ All 24 articles pass structure checks
+  ✅ Lead article importance is "high" (got "high")
+  ✅ Lead article has trivia/Did You Know
+
+────────────────────────────────────────────────────────────
+  7. HIGHLIGHTS
+────────────────────────────────────────────────────────────
+  ✅ Highlights array exists
+  ✅ At least 3 highlights (got 5)
+
+────────────────────────────────────────────────────────────
+  8. PRELIMS MOCK QUESTIONS
+────────────────────────────────────────────────────────────
+  ✅ Prelims mocks exist
+  ✅ At least 4 prelims questions (got 4)
+  ⚠️ Exactly 5 prelims questions (got 4)
+  ✅ All prelims questions have complete structure
+
+────────────────────────────────────────────────────────────
+  9. MAINS MOCK QUESTIONS
+────────────────────────────────────────────────────────────
+  ✅ Mains mocks exist
+  ✅ At least 4 mains questions (got 4)
+  ✅ All mains questions have complete structure
+
+────────────────────────────────────────────────────────────
+  10. TRIVIA / DID YOU KNOW
+────────────────────────────────────────────────────────────
+  ✅ At least 50% of articles have trivia (24/24)
+  📊 24 articles with trivia out of 24
+
+────────────────────────────────────────────────────────────
+  11. SOURCES
+────────────────────────────────────────────────────────────
+  ✅ Multiple sources used (got 4)
+  📊 Sources: CurrentPrep, The Hindu, Indian Express, Google News
+
+────────────────────────────────────────────────────────────
+  12. PAGE ESTIMATION
+────────────────────────────────────────────────────────────
+  📊 Estimated pages: 1 (front) + 12 (articles) + 1 (prelims) + 1 (mains) = 15
+  ✅ Reasonable page count (10-18 pages, got 15)
+
+────────────────────────────────────────────────────────────
+  13. LAYOUT & FORMATTING (Puppeteer)
+────────────────────────────────────────────────────────────
+  ✅ Print page loads (HTTP 200)
+  ✅ Print pages rendered (got 15, expected ~15)
+  ── Front Page ──
+  ✅   Masthead renders
+  ✅   Highlights bar renders
+  ✅   Lead headline renders
+  ✅   Lead explainer body renders
+  ✅   Globe logo image loads
+  ✅   Text logo image loads
+  ✅   Grey bullet box on front page (found 1)
+  ✅   Prelims/Mains pointer boxes render (found 2)
+  ── Article Pages (2-13) ──
+  ✅   Article pages count: 12
+  ✅   Each article page has 1-2 articles
+  ✅   No empty article pages (0 empty)
+  ✅   Article headline font ~17px (got 17px)
+  ── Mock Pages ──
+  ✅   Prelims mock page renders
+  ✅   Mains mock page renders
+  ⚠️   Masthead footer on last page
+  ── Overflow Check ──
+  ✅   No pages with content overflow (0 overflowing)
+  ── PDF Generation ──
+  ✅   PDF generates successfully (1.21 MB)
+  ✅   PDF size reasonable (<3 MB)
+  ── Downloadability ──
+  ✅   PDF saved to disk
+  ✅   Saved file size matches (1266243 bytes)
+  ✅   Valid PDF header (%PDF): "%PDF-"
+  ✅   Valid PDF trailer (%%EOF)
+  ✅   PDF contains page objects (found 15)
+  ✅ Puppeteer layout & downloadability checks complete
+
+════════════════════════════════════════════════════════════
+  VALIDATION SUMMARY
+════════════════════════════════════════════════════════════
+  ✅ Passed:   50
+  ⚠️ Warnings: 3
+  ❌ Critical: 0
+════════════════════════════════════════════════════════════
+
+⚠️ VALIDATION PASSED with 3 warning(s). Proceeding with email.
+
+[4/4] Validation passed! Generating PDF and sending email...
+[dotenv@17.3.1] injecting env (6) from .env.local -- tip: ⚡️ secrets for agents: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+Checking credentials...
+Attempting to send an email for today's ePaper (2026-03-15) to mgt.valavan@gmail.com...
+[mailer] Generating PDF attachment via Puppeteer from http://localhost:3000/daily-epaper/print/2026-03-15 ...
+[mailer] ✅ PDF generated successfully.
+[mailer] ✅ Successfully sent ePaper email with PDF attachment to mgt.valavan@gmail.com for 2026-03-15
+Done! Check your inbox.
+Stopping Next.js server...
+Daily automation complete at Sun Mar 15 08:05:37 IST 2026!
+==========================================================
+Starting Daily CurrentIAS Generation at Mon Mar 16 08:00:04 IST 2026
+Starting Next.js server in the background...
+Waiting for Next.js server to be ready on port 3000...
+Next.js server is up.
+[1/4] Scraping news and generating Master Lead & Articles...
+[dotenv@17.3.1] injecting env (6) from .env.local -- tip: 🤖 agentic secret storage: https://dotenvx.com/as2
+[dotenv@17.3.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+Fetching fresh headlines from RSS sources...
+[epaper-scraper] Starting ePaper scrape of all sources…
+[epaper-scraper] ✅ The Hindu — Editorial: 100 items
+[epaper-scraper] ✅ The Hindu — National: 100 items
+[epaper-scraper] ✅ The Hindu — Lead Opinion: 100 items
+[epaper-scraper] ✅ The Hindu — Business: 100 items
+[epaper-scraper] ✅ The Hindu — International: 100 items
+[epaper-scraper] ✅ The Hindu — Science & Tech: 100 items
+[epaper-scraper] ✅ Mint — News: 35 items
+[epaper-scraper] ✅ Indian Express — World: 200 items
+[epaper-scraper] ✅ Indian Express — Technology: 200 items
+[epaper-scraper] ✅ Frontline — Analysis: 100 items
+[epaper-scraper] ✅ Indian Express — Explained: 200 items
+[epaper-scraper] ✅ Indian Express — Editorial: 200 items
+[epaper-scraper] ✅ Indian Express — India: 200 items
+[epaper-scraper] ✅ Indian Express — Business: 200 items
+[epaper-scraper] ✅ Wire Science — Science: 25 items
+[epaper-scraper] ✅ SC Observer — SC Judgments: 1 items
+[epaper-scraper] ✅ Google News — Science: 56 items
+[epaper-scraper] ✅ Google News — Business: 70 items
+[epaper-scraper] ✅ WHO — Global Health: 25 items
+[epaper-scraper] ✅ Google News — India: 51 items
+[epaper-scraper] ✅ Sansad TV — Parliament: 5 items
+[epaper-scraper] ✅ Mongabay — Environment: 20 items
+[epaper-scraper] Feeds: 22 succeeded, 0 failed
+[epaper-scraper] Fetched 2188 total articles
+[epaper-scraper] 352 articles from last 24 hours
+[epaper-scraper] 350 unique articles after dedup
+[epaper-scraper] Source diversity: 250 newspaper, 100 diverse
+[epaper-scraper]   📡 Google News: 100 articles
+[epaper-scraper] Selected 100 articles for AI (15 diverse + 85 newspaper)
+Successfully scraped 100 raw articles.
+Determined Master Lead Theme: Iran-Israel / Middle East Conflict with 17 articles.
+Generating Master Lead Story via Gemini for 15 combined headlines...
+Fetching full article text for 50 selected articles...
+Enriched 41/50 articles with full text.
+Starting epaper generation pipeline with 51 raw articles...
+[epaper-gen] Processing 51 articles for ePaper…
+[epaper-gen] Processing batch 1/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Bessent Leads Trade Talks With China In Paris Ahead Of Trump
+[epaper-gen] Skipping (not UPSC-relevant): Rural employment scheme workers falling prey to snakebites i
+[epaper-gen] Skipping (not UPSC-relevant): PM Modi lauds Om Birla's leadership after no-trust motion fa
+[epaper-gen] Skipping (not UPSC-relevant): Over 900 chicken pox cases reported in Ernakulam in 2026
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 2/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Delhi’s new Water Plan confronts old failures
+[epaper-gen] Skipping (not UPSC-relevant): Strict Cabinet Reshuffle Must For Sending A Strong Message! 
+[epaper-gen] Skipping (not UPSC-relevant): New FOB across railway track in Tiruvannamalai to be ready i
+[epaper-gen] Skipping (not UPSC-relevant): Ahead of Id, NC seeks release of Kashmiris booked under UAPA
+[epaper-gen] Skipping (not UPSC-relevant): CBI arrests ‘recruiter’ linked to overseas cyber scam centre
+[epaper-gen] Skipping (not UPSC-relevant): On Viveka’s seventh death anniversary, his daughter seeks ju
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 3/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Young scientists oppose proposal to raise retirement age to 
+[epaper-gen] Skipping (not UPSC-relevant): Expert Explains &#124; ‘This is not the time to be overweigh
+[epaper-gen] Skipping (not UPSC-relevant): Why Bihar has made transit passes mandatory for minor minera
+[epaper-gen] Skipping (not UPSC-relevant): Is Netanyahu's coffee shop video AI-made? Grok's claim reign
+[epaper-gen] Skipping (not UPSC-relevant): Rahul Gandhi sips tea, eats pakoras on Parliament steps: Ami
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 4/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Will Himanta Sarma's Son Join Politics? What Assam Chief Min
+[epaper-gen] Skipping (not UPSC-relevant): Kerala Assembly polls 2026: With five wins on the trot, Cong
+[epaper-gen] Skipping (not UPSC-relevant): No talks with Vijay’s party so far by AIADMK or its allies: 
+[epaper-gen] Skipping (not UPSC-relevant): Tamilaga Valvurimai Katchi to reconsider alliance with DMK
+[epaper-gen] Skipping (not UPSC-relevant): DMK will stand by Muslims and their rights, says Stalin
+[epaper-gen] Skipping (not UPSC-relevant): T.N. Assembly election 2026: campaign window set at 38 days,
+[epaper-gen] Skipping (not UPSC-relevant): Man held for assaulting police constable in Ranipet
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 5/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Deputy CM Bhatti invites Governor for Budget session
+[epaper-gen] Skipping (not UPSC-relevant): Alumnus honoured for clearing UPSC examinations
+[epaper-gen] Skipping (not UPSC-relevant): Nadi Harathi held on Godavari banks at Bhadrachalam
+[epaper-gen] Skipping (not UPSC-relevant): Hours before Rajya Sabha polling, AIMIM announces to vote fo
+[epaper-gen] Skipping (not UPSC-relevant): Naidu to unveil 58-foot statue of Potti Sriramulu in Amarava
+[epaper-gen] Skipping (not UPSC-relevant): Hospitals canteens in Kochi struggling amid LPG crisis
+[epaper-gen] Skipping (not UPSC-relevant): TDP issues show-cause notice to Eluru MP over drugs allegati
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 6/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Bypolls in Davangere South and Bagalkot could witness intens
+[epaper-gen] Skipping (not UPSC-relevant): Kerala Assembly polls 2026 | protest builds against Ramya Ha
+[epaper-gen] Skipping (not UPSC-relevant): As Rahul Gandhi eyes Dalit consolidation through Kanshi Ram 
+[epaper-gen] Skipping (not UPSC-relevant): People’s forum stage protest march and hunger strike against
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 7/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 3 results
+[epaper-gen] Successfully processed 18 ePaper articles
+[epaper-gen] Generating Mocks from 18 articles...
+[epaper-gen] Generating Mocks with gemini-2.5-flash (attempt 1/3)...
+[epaper-store] Saved 18 articles to /Users/mgtvalavan/UPSC coaching antigravity/src/data/epaper/epaper-2026-03-16.json
+✅ ePaper successfully created and saved for today (2026-03-16)! Included 18 fully structured explainers.
+[2/4] Mocks already generated by AI pipeline...
+[3/4] Running pre-send validation checklist...
+
+📰 ePaper Pre-Send Validation — 2026-03-16
+   Run at: 16/3/2026, 8:04:49 am
+
+────────────────────────────────────────────────────────────
+  1. DATA FILE
+────────────────────────────────────────────────────────────
+  ✅ ePaper JSON file exists: epaper-2026-03-16.json
+  ✅ JSON is valid and parseable
+
+────────────────────────────────────────────────────────────
+  2. DATE & METADATA
+────────────────────────────────────────────────────────────
+  ✅ Date matches: 2026-03-16 === 2026-03-16
+  ✅ dateFormatted is set: "Monday 16 March, 2026"
+  ✅ lastUpdated is set
+  ✅ edition number is set: 1
+
+────────────────────────────────────────────────────────────
+  3. ARTICLES
+────────────────────────────────────────────────────────────
+  ❌ At least 20 articles (got 18)
+  ✅ No more than 30 articles (got 18)
+  ✅ No duplicate headlines (18/18)
+  ✅ No duplicate IDs
+
+────────────────────────────────────────────────────────────
+  4. GS PAPER COVERAGE
+────────────────────────────────────────────────────────────
+  ⚠️ GS1 covered
+  ✅ GS2 covered
+  ✅ GS3 covered
+  ⚠️ GS4 covered
+  📊 Distribution: GS2=8, GS3=8, GS1, GS2=1, GS2, GS3=1
+  ✅ No single GS paper dominates (max 8/18, <60%)
+
+────────────────────────────────────────────────────────────
+  5. CATEGORY COVERAGE
+────────────────────────────────────────────────────────────
+  ✅ At least 4 categories covered (got 8)
+  📊 Categories: ir, polity, agriculture, economy, security, social, environment, governance
+
+────────────────────────────────────────────────────────────
+  6. PER-ARTICLE QUALITY
+────────────────────────────────────────────────────────────
+  ✅ All 18 articles pass structure checks
+  ✅ Lead article importance is "high" (got "high")
+  ✅ Lead article has trivia/Did You Know
+
+────────────────────────────────────────────────────────────
+  7. HIGHLIGHTS
+────────────────────────────────────────────────────────────
+  ✅ Highlights array exists
+  ✅ At least 3 highlights (got 5)
+
+────────────────────────────────────────────────────────────
+  8. PRELIMS MOCK QUESTIONS
+────────────────────────────────────────────────────────────
+  ✅ Prelims mocks exist
+  ✅ At least 4 prelims questions (got 4)
+  ⚠️ Exactly 5 prelims questions (got 4)
+  ✅ All prelims questions have complete structure
+
+────────────────────────────────────────────────────────────
+  9. MAINS MOCK QUESTIONS
+────────────────────────────────────────────────────────────
+  ✅ Mains mocks exist
+  ✅ At least 4 mains questions (got 4)
+  ✅ All mains questions have complete structure
+
+────────────────────────────────────────────────────────────
+  10. TRIVIA / DID YOU KNOW
+────────────────────────────────────────────────────────────
+  ✅ At least 50% of articles have trivia (18/18)
+  📊 18 articles with trivia out of 18
+
+────────────────────────────────────────────────────────────
+  11. SOURCES
+────────────────────────────────────────────────────────────
+  ✅ Multiple sources used (got 3)
+  📊 Sources: CurrentPrep, The Hindu, Indian Express
+
+────────────────────────────────────────────────────────────
+  12. PAGE ESTIMATION
+────────────────────────────────────────────────────────────
+  📊 Estimated pages: 1 (front) + 9 (articles) + 1 (prelims) + 1 (mains) = 12
+  ✅ Reasonable page count (10-18 pages, got 12)
+
+────────────────────────────────────────────────────────────
+  13. LAYOUT & FORMATTING (Puppeteer)
+────────────────────────────────────────────────────────────
+  ✅ Print page loads (HTTP 200)
+  ✅ Print pages rendered (got 12, expected ~12)
+  ── Front Page ──
+  ✅   Masthead renders
+  ✅   Highlights bar renders
+  ✅   Lead headline renders
+  ✅   Lead explainer body renders
+  ✅   Globe logo image loads
+  ✅   Text logo image loads
+  ✅   Grey bullet box on front page (found 1)
+  ✅   Prelims/Mains pointer boxes render (found 2)
+  ── Article Pages (2-13) ──
+  ✅   Article pages count: 9
+  ✅   Each article page has 1-2 articles
+  ✅   No empty article pages (0 empty)
+  ✅   Article headline font ~17px (got 17px)
+  ── Mock Pages ──
+  ✅   Prelims mock page renders
+  ✅   Mains mock page renders
+  ⚠️   Masthead footer on last page
+  ── Overflow Check ──
+  ✅   No pages with content overflow (0 overflowing)
+  ── PDF Generation ──
+  ✅   PDF generates successfully (1.13 MB)
+  ✅   PDF size reasonable (<3 MB)
+  ── Downloadability ──
+  ✅   PDF saved to disk
+  ✅   Saved file size matches (1185718 bytes)
+  ✅   Valid PDF header (%PDF): "%PDF-"
+  ✅   Valid PDF trailer (%%EOF)
+  ✅   PDF contains page objects (found 12)
+  ✅ Puppeteer layout & downloadability checks complete
+
+════════════════════════════════════════════════════════════
+  VALIDATION SUMMARY
+════════════════════════════════════════════════════════════
+  ✅ Passed:   48
+  ⚠️ Warnings: 4
+  ❌ Critical: 1
+════════════════════════════════════════════════════════════
+
+❌ VALIDATION FAILED — 1 critical issue(s). Email will NOT be sent.
+
+❌ VALIDATION FAILED — Skipping email send. Check automation_error.log for details.
+Stopping Next.js server...
+Daily automation complete at Mon Mar 16 08:05:02 IST 2026!
+==========================================================
+Starting Daily CurrentIAS Generation at Mon Mar 16 08:38:49 IST 2026
+Starting Next.js server in the background...
+Waiting for Next.js server to be ready on port 3000...
+Next.js server is up.
+[1/4] Scraping news and generating Master Lead & Articles...
+[dotenv@17.3.1] injecting env (6) from .env.local -- tip: 🔐 prevent building .env in docker: https://dotenvx.com/prebuild
+[dotenv@17.3.1] injecting env (0) from .env -- tip: 🛡️ auth for agents: https://vestauth.com
+Fetching fresh headlines from RSS sources...
+[epaper-scraper] Starting ePaper scrape of all sources…
+[epaper-scraper] ✅ The Hindu — National: 100 items
+[epaper-scraper] ✅ The Hindu — Business: 100 items
+[epaper-scraper] ✅ The Hindu — International: 100 items
+[epaper-scraper] ✅ The Hindu — Editorial: 100 items
+[epaper-scraper] ✅ The Hindu — Lead Opinion: 100 items
+[epaper-scraper] ✅ The Hindu — Science & Tech: 100 items
+[epaper-scraper] ✅ Frontline — Analysis: 100 items
+[epaper-scraper] ✅ Mint — News: 35 items
+[epaper-scraper] ✅ Indian Express — Editorial: 200 items
+[epaper-scraper] ✅ Indian Express — Explained: 200 items
+[epaper-scraper] Feed returned 403: PIB (Press Releases)
+[epaper-scraper] ✅ Indian Express — Technology: 200 items
+[epaper-scraper] ✅ Indian Express — Business: 200 items
+[epaper-scraper] ✅ WHO — Global Health: 25 items
+[epaper-scraper] ✅ SC Observer — SC Judgments: 1 items
+[epaper-scraper] ✅ Wire Science — Science: 25 items
+[epaper-scraper] ✅ Mongabay — Environment: 20 items
+[epaper-scraper] ✅ Google News — Business: 70 items
+[epaper-scraper] ✅ Google News — Science: 53 items
+[epaper-scraper] ✅ Google News — India: 57 items
+[epaper-scraper] ✅ Sansad TV — Parliament: 5 items
+[epaper-scraper] ✅ Indian Express — World: 200 items
+[epaper-scraper] ✅ Indian Express — India: 200 items
+[epaper-scraper] Feed returned 404: UN News (Asia-Pacific)
+[epaper-scraper] Feeds: 22 succeeded, 0 failed
+[epaper-scraper] Fetched 2191 total articles
+[epaper-scraper] 369 articles from last 24 hours
+[epaper-scraper] 367 unique articles after dedup
+[epaper-scraper] Source diversity: 252 newspaper, 115 diverse
+[epaper-scraper]   📡 Google News: 115 articles
+[epaper-scraper] Selected 100 articles for AI (15 diverse + 85 newspaper)
+Successfully scraped 100 raw articles.
+Determined Master Lead Theme: Supreme Court & Judiciary with 19 articles.
+Generating Master Lead Story via Gemini for 15 combined headlines...
+Fetching full article text for 50 selected articles...
+Enriched 36/50 articles with full text.
+Starting epaper generation pipeline with 51 raw articles...
+[epaper-gen] Processing 51 articles for ePaper…
+[epaper-gen] Processing batch 1/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Bessent Leads Trade Talks With China In Paris Ahead Of Trump
+[epaper-gen] Skipping (not UPSC-relevant): Rural employment scheme workers falling prey to snakebites i
+[epaper-gen] Skipping (not UPSC-relevant): BREAKING| Arvind Kejriwal Moves Supreme Court To Transfer CB
+[epaper-gen] Skipping (not UPSC-relevant): Government response to West Asia conflict driven by supreme 
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 2/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Over 900 chicken pox cases reported in Ernakulam in 2026
+[epaper-gen] Skipping (not UPSC-relevant): PM lauds Speaker for conducting Lok Sabha proceedings with ‘
+[epaper-gen] Skipping (not UPSC-relevant): Congress takes a dig at the Election Commission of India
+[epaper-gen] Skipping (not UPSC-relevant): Delhi’s new Water Plan confronts old failures
+[epaper-gen] Skipping (not UPSC-relevant): Avimukteshwaranand vs UP govt: How tussle escalated from San
+[epaper-gen] Skipping (not UPSC-relevant): Strict Cabinet Reshuffle Must For Sending A Strong Message! 
+[epaper-gen] Skipping (not UPSC-relevant): Walkathon held in Vellore to mark World Glaucoma Awareness W
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 3/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Assam inks settlement with Hmar, Kuki extremist groups
+[epaper-gen] Skipping (not UPSC-relevant): Young scientists oppose proposal to raise retirement age to 
+[epaper-gen] Skipping (not UPSC-relevant): House decorum: on the functioning of Parliament
+[epaper-gen] Skipping (not UPSC-relevant): NavIC satellite loses its atomic clock: What this means for 
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 4/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Expert Explains &#124; ‘This is not the time to be overweigh
+[epaper-gen] Skipping (not UPSC-relevant): Why Bihar has made transit passes mandatory for minor minera
+[epaper-gen] Skipping (not UPSC-relevant): Rahul Gandhi sips tea, eats pakoras on Parliament steps: Ami
+[epaper-gen] Skipping (not UPSC-relevant): Will Himanta Sarma's Son Join Politics? What Assam Chief Min
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 5/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Air India, AI Express to operate 48 flights connecting West 
+[epaper-gen] Skipping (not UPSC-relevant): Over 30 vehicles stranded amid snowfall in J&K's Kishtwar; r
+[epaper-gen] Skipping (not UPSC-relevant): No talks with Vijay’s party so far by AIADMK or its allies: 
+[epaper-gen] Skipping (not UPSC-relevant): Tamilaga Valvurimai Katchi to reconsider alliance with DMK
+[epaper-gen] Skipping (not UPSC-relevant): DMK will stand by Muslims and their rights, says Stalin
+[epaper-gen] Skipping (not UPSC-relevant): T.N. Assembly election 2026: campaign window set at 38 days,
+[epaper-gen] Skipping (not UPSC-relevant): Man held for assaulting police constable in Ranipet
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 6/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 8 results
+[epaper-gen] Skipping (not UPSC-relevant): Hours before Rajya Sabha polling, AIMIM announces to vote fo
+[epaper-gen] Skipping (not UPSC-relevant): Naidu to unveil 58-foot statue of Potti Sriramulu in Amarava
+[epaper-gen] Skipping (not UPSC-relevant): Statewide free FMD vaccination drive for cattle and buffaloe
+[epaper-gen] Skipping (not UPSC-relevant): TDP issues show-cause notice to Eluru MP over drugs allegati
+[epaper-gen] Skipping (not UPSC-relevant): Bypolls in Davangere South and Bagalkot could witness intens
+[epaper-gen] Skipping (not UPSC-relevant): Centre to upgrade 5,008 ‘Anganwadi’ centres in Telangana at 
+[epaper-gen] Waiting 6s before next batch…
+[epaper-gen] Processing batch 7/7…
+[epaper-gen] Calling gemini-2.5-flash (attempt 1/5)…
+[epaper-gen] ✅ gemini-2.5-flash returned 3 results
+[epaper-gen] Skipping (not UPSC-relevant): Kerala Assembly polls 2026 | protest builds against Ramya Ha
+[epaper-gen] Skipping (not UPSC-relevant): As Rahul Gandhi eyes Dalit consolidation through Kanshi Ram 
+[epaper-gen] Successfully processed 17 ePaper articles
+[epaper-gen] Generating Mocks from 17 articles...
+[epaper-gen] Generating Mocks with gemini-2.5-flash (attempt 1/3)...
+[epaper-store] Saved 17 articles to /Users/mgtvalavan/UPSC coaching antigravity/src/data/epaper/epaper-2026-03-16.json
+✅ ePaper successfully created and saved for today (2026-03-16)! Included 17 fully structured explainers.
+[2/4] Mocks already generated by AI pipeline...
+[3/4] Running pre-send validation checklist...
+
+📰 ePaper Pre-Send Validation — 2026-03-16
+   Run at: 16/3/2026, 8:43:17 am
+
+────────────────────────────────────────────────────────────
+  1. DATA FILE
+────────────────────────────────────────────────────────────
+  ✅ ePaper JSON file exists: epaper-2026-03-16.json
+  ✅ JSON is valid and parseable
+
+────────────────────────────────────────────────────────────
+  2. DATE & METADATA
+────────────────────────────────────────────────────────────
+  ✅ Date matches: 2026-03-16 === 2026-03-16
+  ✅ dateFormatted is set: "Monday 16 March, 2026"
+  ✅ lastUpdated is set
+  ✅ edition number is set: 1
+
+────────────────────────────────────────────────────────────
+  3. ARTICLES
+────────────────────────────────────────────────────────────
+  ❌ At least 20 articles (got 17)
+  ✅ No more than 30 articles (got 17)
+  ✅ No duplicate headlines (17/17)
+  ✅ No duplicate IDs
+
+────────────────────────────────────────────────────────────
+  4. GS PAPER COVERAGE
+────────────────────────────────────────────────────────────
+  ✅ GS1 covered
+  ✅ GS2 covered
+  ✅ GS3 covered
+  ⚠️ GS4 covered
+  📊 Distribution: GS2=10, GS3=6, GS1=1
+  ✅ No single GS paper dominates (max 10/17, <60%)
+
+────────────────────────────────────────────────────────────
+  5. CATEGORY COVERAGE
+────────────────────────────────────────────────────────────
+  ✅ At least 4 categories covered (got 8)
+  📊 Categories: polity, ir, economy, security, history, science, agriculture, social
+
+────────────────────────────────────────────────────────────
+  6. PER-ARTICLE QUALITY
+────────────────────────────────────────────────────────────
+  ✅ All 17 articles pass structure checks
+  ✅ Lead article importance is "high" (got "high")
+  ✅ Lead article has trivia/Did You Know
+
+────────────────────────────────────────────────────────────
+  7. HIGHLIGHTS
+────────────────────────────────────────────────────────────
+  ✅ Highlights array exists
+  ✅ At least 3 highlights (got 5)
+
+────────────────────────────────────────────────────────────
+  8. PRELIMS MOCK QUESTIONS
+────────────────────────────────────────────────────────────
+  ✅ Prelims mocks exist
+  ✅ At least 4 prelims questions (got 4)
+  ⚠️ Exactly 5 prelims questions (got 4)
+  ✅ All prelims questions have complete structure
+
+────────────────────────────────────────────────────────────
+  9. MAINS MOCK QUESTIONS
+────────────────────────────────────────────────────────────
+  ✅ Mains mocks exist
+  ✅ At least 4 mains questions (got 4)
+  ✅ All mains questions have complete structure
+
+────────────────────────────────────────────────────────────
+  10. TRIVIA / DID YOU KNOW
+────────────────────────────────────────────────────────────
+  ✅ At least 50% of articles have trivia (17/17)
+  📊 17 articles with trivia out of 17
+
+────────────────────────────────────────────────────────────
+  11. SOURCES
+────────────────────────────────────────────────────────────
+  ✅ Multiple sources used (got 4)
+  📊 Sources: CurrentPrep, The Hindu, Indian Express, Google News
+
+────────────────────────────────────────────────────────────
+  12. PAGE ESTIMATION
+────────────────────────────────────────────────────────────
+  📊 Estimated pages: 1 (front) + 8 (articles) + 1 (prelims) + 1 (mains) = 11
+  ✅ Reasonable page count (10-18 pages, got 11)
+
+────────────────────────────────────────────────────────────
+  13. LAYOUT & FORMATTING (Puppeteer)
+────────────────────────────────────────────────────────────
+  ✅ Print page loads (HTTP 200)
+  ✅ Print pages rendered (got 11, expected ~11)
+  ── Front Page ──
+  ✅   Masthead renders
+  ✅   Highlights bar renders
+  ✅   Lead headline renders
+  ✅   Lead explainer body renders
+  ✅   Globe logo image loads
+  ✅   Text logo image loads
+  ✅   Grey bullet box on front page (found 1)
+  ✅   Prelims/Mains pointer boxes render (found 2)
+  ── Article Pages (2-13) ──
+  ✅   Article pages count: 8
+  ✅   Each article page has 1-2 articles
+  ✅   No empty article pages (0 empty)
+  ✅   Article headline font ~17px (got 17px)
+  ── Mock Pages ──
+  ✅   Prelims mock page renders
+  ✅   Mains mock page renders
+  ⚠️   Masthead footer on last page
+  ── Overflow Check ──
+  ⚠️   No pages with content overflow (1 overflowing)
+  ── PDF Generation ──
+  ✅   PDF generates successfully (1.13 MB)
+  ✅   PDF size reasonable (<3 MB)
+  ── Downloadability ──
+  ✅   PDF saved to disk
+  ✅   Saved file size matches (1180166 bytes)
+  ✅   Valid PDF header (%PDF): "%PDF-"
+  ✅   Valid PDF trailer (%%EOF)
+  ✅   PDF contains page objects (found 11)
+  ✅ Puppeteer layout & downloadability checks complete
+
+════════════════════════════════════════════════════════════
+  VALIDATION SUMMARY
+════════════════════════════════════════════════════════════
+  ✅ Passed:   48
+  ⚠️ Warnings: 4
+  ❌ Critical: 1
+════════════════════════════════════════════════════════════
+
+❌ VALIDATION FAILED — 1 critical issue(s). Email will NOT be sent.
+
+❌ VALIDATION FAILED — Skipping email send. Check automation_error.log for details.
+Stopping Next.js server...
+Daily automation complete at Mon Mar 16 08:43:29 IST 2026!

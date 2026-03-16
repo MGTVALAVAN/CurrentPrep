@@ -2794,5 +2794,105 @@
       "syllabusMatch": "GS2: Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora. GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment. Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
       "approach": "Introduce the current escalation in the West Asia conflict and its key actors. Analyze its geopolitical ramifications, including regional power shifts and the roles of external powers like the US and Russia. Discuss the economic impacts on global oil prices, trade routes, and supply chains. Finally, elaborate on the specific challenges and strategic considerations for India's energy security, diaspora, and foreign policy."
     }
-  ]
+  ],
+  "csatMocks": {
+    "comprehension": [
+      {
+        "passage": "The Hindukush-Himalaya (HKH) region, often dubbed the 'Third Pole', is experiencing an unprecedented rate of cryospheric destabilisation, with profound implications for billions. Glaciers are retreating at an alarming pace, snow cover is diminishing, and permafrost is thawing, fundamentally altering the region's hydrological cycle. This rapid transformation, primarily driven by anthropogenic climate change, threatens the water security of downstream populations, increasing the frequency and intensity of both floods and droughts. Beyond water resources, the ecological balance is severely disrupted, impacting unique biodiversity and the livelihoods of mountain communities reliant on these fragile ecosystems.\n\nThe scientific consensus is clear: the warming trends observed in the HKH are significantly higher than the global average, necessitating urgent and concerted action. While local adaptation strategies are crucial, they alone cannot mitigate the scale of the crisis. A global commitment to aggressive emission reductions, coupled with robust regional cooperation on transboundary water management and disaster preparedness, is imperative. The international community, particularly developed nations, bears a significant responsibility to support vulnerable nations in the HKH through technology transfer and financial aid. Failure to address this looming environmental catastrophe will not only exacerbate regional instability but also have cascading effects on global climate patterns and human migration, underscoring the interconnectedness of our planet's systems.",
+        "source": "Theme-based editorial",
+        "questions": [
+          {
+            "question": "Which of the following best encapsulates the main idea of the passage?",
+            "options": [
+              "A. The HKH region is facing severe environmental challenges due to climate change, demanding urgent global and local interventions.",
+              "B. Glacial retreat in the Himalayas is primarily causing floods and droughts, impacting water security for downstream populations.",
+              "C. International cooperation and financial aid are the only solutions to the cryospheric changes in the Hindukush-Himalaya region.",
+              "D. The 'Third Pole' is experiencing warming trends higher than the global average, which will inevitably lead to regional instability."
+            ],
+            "answer": "A. The HKH region is facing severe environmental challenges due to climate change, demanding urgent global and local interventions.",
+            "explanation": "The passage discusses the severe environmental challenges in the HKH region, attributes them to climate change, details their impacts, and concludes by emphasizing the urgent need for both global and local actions, including international cooperation and emission reductions. Option A covers all these aspects comprehensively."
+          },
+          {
+            "question": "What can be inferred about the author's perspective on the responsibility for addressing the HKH crisis?",
+            "options": [
+              "A. The author believes that the primary responsibility lies with the local mountain communities to adapt to the changes.",
+              "B. The author suggests that developed nations have a greater moral and practical obligation to assist the HKH region.",
+              "C. The author implies that scientific consensus alone is sufficient to drive the necessary policy changes.",
+              "D. The author views regional cooperation as a secondary concern compared to individual national efforts."
+            ],
+            "answer": "B. The author suggests that developed nations have a greater moral and practical obligation to assist the HKH region.",
+            "explanation": "The passage states, 'The international community, particularly developed nations, bears a significant responsibility to support vulnerable nations in the HKH through technology transfer and financial aid.' This directly infers the author's view on the heightened responsibility of developed nations. Options A, C, and D are not supported or are contradicted by the passage."
+          },
+          {
+            "question": "The author's tone regarding the cryospheric changes in the HKH region can best be described as:",
+            "options": [
+              "A. Detached and purely descriptive.",
+              "B. Optimistic about future mitigation efforts.",
+              "C. Urgent and concerned.",
+              "D. Skeptical about the scientific findings."
+            ],
+            "answer": "C. Urgent and concerned.",
+            "explanation": "Words and phrases like 'unprecedented rate,' 'alarming pace,' 'severely disrupted,' 'necessitating urgent and concerted action,' 'imperative,' and 'looming environmental catastrophe' all convey a tone of urgency and deep concern from the author."
+          },
+          {
+            "question": "In the context of the passage, the phrase 'cascading effects' most nearly means:",
+            "options": [
+              "A. A series of small, isolated incidents.",
+              "B. Unpredictable and random environmental events.",
+              "C. Widespread and successive consequences.",
+              "D. Direct and immediate impacts only."
+            ],
+            "answer": "C. Widespread and successive consequences.",
+            "explanation": "The phrase 'cascading effects' implies a chain reaction where one event triggers a series of subsequent, often far-reaching, consequences. In the context of the passage, it refers to the broad and successive impacts on global climate patterns and human migration, stemming from the HKH crisis. Options A, B, and D do not capture the sense of widespread, sequential impact."
+          }
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "question": "Statement: The Supreme Court's decision to re-examine the definition of 'industry' under labour law is crucial for ensuring clarity and reducing litigation in the industrial sector.\nWhich of the following is an underlying assumption in the given statement?",
+        "options": [
+          "A. The current definition of 'industry' is inherently ambiguous and leads to frequent disputes.",
+          "B. All industrial disputes are solely a result of the definition of 'industry.'",
+          "C. The Supreme Court's re-examination will definitively resolve all future labour law issues.",
+          "D. Reducing litigation is the only objective of the Supreme Court's re-examination."
+        ],
+        "answer": "A. The current definition of 'industry' is inherently ambiguous and leads to frequent disputes.",
+        "explanation": "The statement claims that re-examining the definition will lead to clarity and reduced litigation. This implies that the current definition lacks clarity and contributes to disputes. If the current definition were perfectly clear, there would be no need for re-examination to achieve these stated goals. Options B, C, and D are extreme or too narrow to be considered underlying assumptions."
+      },
+      {
+        "question": "Foreign Institutional Investors (FIIs) sold Indian equities worth $500 million in January. In February, they sold 20% more than in January. If the total FII outflow for these two months represented 0.5% of India's total equity market capitalization, what was the approximate total equity market capitalization (in billions of dollars)?",
+        "options": [
+          "A. $200 billion",
+          "B. $220 billion",
+          "C. $240 billion",
+          "D. $270 billion"
+        ],
+        "answer": "B. $220 billion",
+        "explanation": "1. January outflow = $500 million.\n2. February outflow = $500 million + (20% of $500 million) = $500 million + $100 million = $600 million.\n3. Total outflow for two months = $500 million + $600 million = $1100 million = $1.1 billion.\n4. If $1.1 billion represents 0.5% (or 0.005) of the total market capitalization (M), then:\n   0.005 * M = $1.1 billion\n   M = $1.1 billion / 0.005\n   M = $1.1 billion * (1000/5)\n   M = $1.1 billion * 200 = $220 billion."
+      },
+      {
+        "question": "Statement: India, as part of the 'Group for Equity' coalition, is advocating for a system of fair, concrete, and legally enforceable benefits for developing countries in return for their contributions to the WHO Pandemic Agreement.\nWhich of the following, if true, would *most strengthen* India's argument for legally enforceable benefits?",
+        "options": [
+          "A. Past pandemic agreements have often resulted in disproportionate access to resources for developed nations, despite global contributions.",
+          "B. Developing countries primarily contribute raw materials for vaccine production, which are not always legally protected.",
+          "C. A legally enforceable framework might deter some developed nations from participating in the agreement.",
+          "D. The 'Group for Equity' coalition has a history of successfully negotiating international treaties."
+        ],
+        "answer": "A. Past pandemic agreements have often resulted in disproportionate access to resources for developed nations, despite global contributions.",
+        "explanation": "This option directly addresses a historical problem that a 'legally enforceable benefits' system aims to correct. If past agreements failed to ensure fair benefits without such enforceability, it strongly supports the need for making them legally binding now to prevent a recurrence of inequity. Option B is about raw materials, not the overall benefit-sharing mechanism. Option C weakens the argument by suggesting a deterrent. Option D is about the coalition's track record, not the inherent merit or necessity of the argument itself."
+      },
+      {
+        "question": "You are a senior advisor to a major global shipping company. A recent escalation in the West Asia conflict has led to a significant attack on Kharg Island, a critical oil terminal in the Persian Gulf, causing immediate spikes in global oil prices and increased security risks in the Strait of Hormuz. Your company has several oil tankers scheduled to pass through this region in the coming weeks.\nWhich of the following would be the *most prudent immediate course of action* for your company?",
+        "options": [
+          "A. Immediately reroute all tankers around the Cape of Good Hope, regardless of cost, to avoid the region entirely.",
+          "B. Advise all tankers to proceed as planned but increase insurance coverage and security personnel on board.",
+          "C. Temporarily halt all new shipments through the Strait of Hormuz and assess the evolving security situation and alternative routes.",
+          "D. Lobby international bodies to intervene and de-escalate the conflict to ensure safe passage for commercial shipping."
+        ],
+        "answer": "C. Temporarily halt all new shipments through the Strait of Hormuz and assess the evolving security situation and alternative routes.",
+        "explanation": "In a rapidly escalating and uncertain conflict zone, the most prudent immediate action for a commercial entity is to prioritize safety and conduct a thorough risk assessment. Option C allows the company to gather more information, evaluate the true extent of the risk, and explore viable alternatives before committing to potentially dangerous or economically unfeasible routes. Option A is premature and potentially overly costly without full assessment. Option B might be insufficient given a major military escalation. Option D is a long-term diplomatic strategy, not an immediate operational decision for the company."
+      }
+    ]
+  }
 }

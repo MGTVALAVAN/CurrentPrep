@@ -20,8 +20,8 @@ export type TranslationKey =
     | 'features_subtitle'
     | 'feature_ai_title'
     | 'feature_ai_desc'
-    | 'feature_community_title'
-    | 'feature_community_desc'
+    | 'feature_csat_title'
+    | 'feature_csat_desc'
     | 'feature_tracker_title'
     | 'feature_tracker_desc'
     | 'feature_offline_title'
@@ -84,8 +84,8 @@ export const translations: Record<'en' | 'ta', Record<TranslationKey, string>> =
         features_subtitle: 'Powerful tools designed for self-study warriors who refuse to let budget be a barrier.',
         feature_ai_title: 'AI Answer Checker',
         feature_ai_desc: 'Upload your answer sheets or type essays—get instant AI-powered feedback aligned with UPSC marking standards.',
-        feature_community_title: 'Community Forum',
-        feature_community_desc: 'Join thousands of aspirants in Prelims & Mains discussion threads. Find mentors who cleared CSE.',
+        feature_csat_title: 'CSAT Daily Practice',
+        feature_csat_desc: 'Comprehension passages from editorials and logical reasoning MCQs — freshly generated every day for Paper II mastery.',
         feature_tracker_title: 'Progress Tracker',
         feature_tracker_desc: 'Gamified dashboard with badges, study streaks, and walking-break timers. Track every topic you master.',
         feature_offline_title: 'Offline Access',
@@ -147,8 +147,8 @@ export const translations: Record<'en' | 'ta', Record<TranslationKey, string>> =
         features_subtitle: 'பட்ஜெட் தடையாக இருக்க மறுக்கும் சுயபயிற்சி வீரர்களுக்காக வடிவமைக்கப்பட்ட சக்திவாய்ந்த கருவிகள்.',
         feature_ai_title: 'AI பதில் சரிபார்ப்பு',
         feature_ai_desc: 'உங்கள் விடைத்தாள்களை பதிவேற்றவும் – UPSC மதிப்பீட்டு தரநிலைகளுடன் உடனடி AI பின்னூட்டம் பெறவும்.',
-        feature_community_title: 'சமூக மன்றம்',
-        feature_community_desc: 'ஆயிரக்கணக்கான விண்ணப்பதாரர்களுடன் விவாதங்களில் சேரவும். CSE தேர்ச்சி பெற்ற வழிகாட்டிகளை கண்டறியவும்.',
+        feature_csat_title: 'CSAT தினசரி பயிற்சி',
+        feature_csat_desc: 'தலையங்கங்களிலிருந்து புரிதல் பகுதிகள் மற்றும் தர்க்க ரீதியான பகுப்பாய்வு MCQs — பேப்பர் II தேர்ச்சிக்கு தினமும் உருவாக்கப்படுகிறது.',
         feature_tracker_title: 'முன்னேற்ற கண்காணிப்பு',
         feature_tracker_desc: 'பேட்ஜ்கள், படிப்பு தொடர்கள் மற்றும் நடை-இடைவேளை நேரங்களுடன் விளையாட்டு மயமான டாஷ்போர்டு.',
         feature_offline_title: 'ஆஃப்லைன் அணுகல்',

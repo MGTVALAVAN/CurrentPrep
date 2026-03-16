@@ -1415,5 +1415,105 @@
     "US-Israel Strikes on Iran: Assessing Regional Security and Iran's Preparedness",
     "Iran's Nuclear Programme: Geopolitical Flashpoint and Non-Proliferation Concerns",
     "Iran Nuclear Diplomacy: Setbacks and Geopolitical Parallels with Iraq War"
-  ]
+  ],
+  "csatMocks": {
+    "comprehension": [
+      {
+        "passage": "The recent military actions in West Asia, particularly those involving major global powers and regional actors, have once again cast a long shadow over the stability of global energy markets. The region, a critical artery for international oil flow, is now a crucible of heightened geopolitical tensions. While immediate supply disruptions might be contained, the persistent risk premium embedded in crude prices reflects deep-seated anxieties about future stability. For a rapidly developing economy like India, heavily reliant on oil imports, this volatility presents a formidable challenge to its energy security. The ripple effects extend beyond mere price fluctuations, potentially impacting inflation, trade balances, and the broader economic growth trajectory. India's strategic imperative must therefore pivot towards a multi-pronged approach: strengthening diplomatic engagement to de-escalate regional conflicts, accelerating the transition to renewable energy sources, diversifying its crude oil suppliers, and bolstering its strategic petroleum reserves. The current crisis underscores the urgent need for a robust and resilient energy policy that can withstand external shocks, transforming vulnerability into strategic autonomy. The global community, too, bears a collective responsibility to foster dialogue and prevent further militarization of this vital economic corridor, recognizing that energy security is intrinsically linked to global peace and prosperity.",
+        "source": "Theme-based editorial",
+        "questions": [
+          {
+            "question": "What is the central argument of the passage?",
+            "options": [
+              "A. India's economic woes are primarily due to its over-reliance on oil imports.",
+              "B. West Asian conflicts are solely responsible for global inflation and trade imbalances.",
+              "C. Geopolitical tensions in West Asia pose a significant threat to global energy stability and India's energy security, necessitating a comprehensive strategic response.",
+              "D. Renewable energy is the only viable long-term solution for India's energy needs, rendering diplomatic efforts redundant."
+            ],
+            "answer": "C. Geopolitical tensions in West Asia pose a significant threat to global energy stability and India's energy security, necessitating a comprehensive strategic response.",
+            "explanation": "The passage discusses the impact of West Asian tensions on global energy and India's security, then proposes a multi-pronged strategic approach involving diplomacy, renewables, diversification, and reserves. Option C best encapsulates this main idea."
+          },
+          {
+            "question": "What can be inferred about the author's view on India's current energy policy, based on the passage?",
+            "options": [
+              "A. India's current energy policy is perfectly robust and well-equipped to handle external shocks.",
+              "B. India's energy policy needs significant strengthening, diversification, and a shift towards strategic autonomy.",
+              "C. India's energy policy focuses too heavily on renewable energy, neglecting traditional sources.",
+              "D. India's energy security is not significantly affected by geopolitical tensions in West Asia."
+            ],
+            "answer": "B. India's energy policy needs significant strengthening, diversification, and a shift towards strategic autonomy.",
+            "explanation": "The passage states that India's 'strategic imperative must therefore pivot towards a multi-pronged approach' and emphasizes 'the urgent need for a robust and resilient energy policy,' implying that the current policy is not sufficiently robust or resilient."
+          },
+          {
+            "question": "Which of the following best describes the author's tone regarding the situation discussed in the passage?",
+            "options": [
+              "A. Indifferent and detached",
+              "B. Optimistic and reassuring",
+              "C. Concerned and prescriptive",
+              "D. Cynical and fatalistic"
+            ],
+            "answer": "C. Concerned and prescriptive",
+            "explanation": "The author expresses 'deep-seated anxieties' and describes the situation as a 'formidable challenge,' indicating concern. The passage then offers solutions like 'India's strategic imperative must therefore pivot towards...' and 'underscores the urgent need for...', which are prescriptive in nature."
+          },
+          {
+            "question": "In the passage, the phrase 'crucible of heightened geopolitical tensions' most nearly means:",
+            "options": [
+              "A. A melting pot for cultural exchange and cooperation.",
+              "B. A severe test or challenging situation marked by intense conflict and instability.",
+              "C. A vessel used for heating substances to high temperatures in a laboratory.",
+              "D. A place where international disputes are easily resolved through dialogue."
+            ],
+            "answer": "B. A severe test or challenging situation marked by intense conflict and instability.",
+            "explanation": "A 'crucible' metaphorically refers to a severe test or a situation in which concentrated forces interact to cause or influence change. In the context of 'heightened geopolitical tensions,' it signifies a region undergoing intense and challenging conflicts, not a place of resolution or cultural exchange."
+          }
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "question": "Statement: All diplomatic solutions are complex. Some complex issues require multilateral engagement. Conclusion I: Some diplomatic solutions require multilateral engagement. Conclusion II: All multilateral engagements are complex.",
+        "options": [
+          "A. Only Conclusion I follows.",
+          "B. Only Conclusion II follows.",
+          "C. Both Conclusion I and II follow.",
+          "D. Neither Conclusion I nor II follows."
+        ],
+        "answer": "A. Only Conclusion I follows.",
+        "explanation": "Let D = Diplomatic solutions, C = Complex issues, M = Multilateral engagement. The statements are: All D are C. Some C are M. From these, we can infer 'Some D are M' (Conclusion I) because D is a subset of C, and some part of C overlaps with M. However, we cannot conclude 'All M are C' (Conclusion II) as 'Some C are M' does not imply that all M are C; there could be other M that are not C."
+      },
+      {
+        "question": "India's annual crude oil import bill increased by 15% last year. If the average price of crude oil per barrel increased by 10% during the same period, what was the approximate percentage change in the volume of crude oil imported by India?",
+        "options": [
+          "A. 4.5%",
+          "B. 5%",
+          "C. 5.5%",
+          "D. 6%"
+        ],
+        "answer": "A. 4.5%",
+        "explanation": "Let the original import bill be B, original price per barrel be P, and original volume be V. So, B = P * V.\nNew import bill = 1.15 * B\nNew price per barrel = 1.10 * P\nLet the new volume be V'.\nSo, 1.15 * B = (1.10 * P) * V'\nSubstitute B = P * V:\n1.15 * (P * V) = 1.10 * P * V'\nDivide both sides by P:\n1.15 * V = 1.10 * V'\nV' = (1.15 / 1.10) * V\nV' ≈ 1.04545 * V\nPercentage change in volume = ((V' - V) / V) * 100 = ((1.04545 * V - V) / V) * 100 = (0.04545) * 100 ≈ 4.545%.\nRounding to one decimal place, the approximate percentage change is 4.5%."
+      },
+      {
+        "question": "Statement: The operational inflexibility of India's existing coal-fired power plants is a major hindrance to achieving its ambitious clean energy targets. Which of the following, if true, would most strengthen the argument above?",
+        "options": [
+          "A. India's coal plants are among the most efficient globally in terms of carbon capture technology.",
+          "B. Studies show that retrofitting existing coal plants for flexible operation is prohibitively expensive and technically challenging, making them unsuitable for balancing intermittent renewable energy.",
+          "C. The demand for electricity in India is growing rapidly, necessitating continuous baseload power from coal plants.",
+          "D. New renewable energy projects in India are facing delays due to land acquisition issues."
+        ],
+        "answer": "B. Studies show that retrofitting existing coal plants for flexible operation is prohibitively expensive and technically challenging, making them unsuitable for balancing intermittent renewable energy.",
+        "explanation": "The argument states that inflexibility is a hindrance. If retrofitting for flexibility is too costly and difficult, it directly supports the idea that these plants cannot adapt to complement intermittent renewables, thus hindering clean energy integration. Option A weakens the argument by suggesting efficiency. Option C explains why coal is needed but doesn't directly address inflexibility as a hindrance to clean energy targets. Option D is an external factor affecting renewables, not directly related to coal plant inflexibility."
+      },
+      {
+        "question": "You are a senior diplomat representing India in a multilateral negotiation regarding regional security in West Asia. One key issue is the proposed establishment of a joint security task force, which a powerful regional ally (Country X) strongly supports but a historically neutral and economically vital partner (Country Y) views as a provocative move that could destabilize the region further. Your primary objective is to secure a consensus on regional stability while safeguarding India's long-term strategic interests with both Country X and Country Y. What is the most appropriate course of action?",
+        "options": [
+          "A. Fully endorse Country X's proposal to demonstrate strong alliance, risking alienation of Country Y.",
+          "B. Publicly side with Country Y, arguing against the task force, thereby potentially straining relations with Country X.",
+          "C. Propose an alternative framework for regional security that incorporates elements of Country X's desire for enhanced security cooperation but in a less militarized and more inclusive manner, addressing Country Y's concerns.",
+          "D. Abstain from voting on the proposal, stating that India needs more time to assess the implications, effectively postponing a decision."
+        ],
+        "answer": "C. Propose an alternative framework for regional security that incorporates elements of Country X's desire for enhanced security cooperation but in a less militarized and more inclusive manner, addressing Country Y's concerns.",
+        "explanation": "Option C represents the most balanced and diplomatic approach. It seeks to find common ground, addresses the core concerns of both parties (security for X, de-escalation for Y), and aims for consensus while protecting India's strategic interests. Options A and B involve taking sides, which would damage relations with one partner. Option D avoids the issue, which might be seen as indecisiveness and could undermine India's influence in the long run."
+      }
+    ]
+  }
 }

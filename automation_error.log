@@ -38,3 +38,9 @@
 [epaper-gen] gemini-2.0-flash-lite daily quota exhausted, trying next model...
 [epaper-gen] All mock retries failed for gemini-2.0-flash-lite, trying next model...
 [epaper-gen] Mocks generation ultimately failed: gemini-2.0-flash-lite daily quota exhausted
+[epaper-scraper] Feed returned 403: PIB (Press Releases)
+[epaper-scraper] Feed returned 404: UN News (Asia-Pacific)
+[epaper-scraper] Feed returned 403: PIB (Press Releases)
+[epaper-scraper] Feed returned 404: UN News (Asia-Pacific)
+Validation failed at Mon Mar 16 08:05:02 IST 2026
+Validation failed at Mon Mar 16 08:43:29 IST 2026

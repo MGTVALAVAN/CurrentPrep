@@ -1953,5 +1953,105 @@
       "syllabusMatch": "GS3: Conservation, environmental pollution and degradation, environmental impact assessment. Major crops - cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers. Issues related to direct and indirect farm subsidies and minimum support prices; Public Distribution System—objectives, functioning, limitations, revamping; issues of buffer stocks and food security; Technology missions; economics of animal-rearing.",
       "approach": "Begin by establishing the link between environmental change, food systems, and urban water scarcity. Discuss how climate change impacts agriculture and water resources, and how urban expansion exacerbates these issues due to governance failures. Propose integrated solutions focusing on climate-resilient agriculture, water conservation, efficient urban planning, and participatory governance."
     }
-  ]
+  ],
+  "csatMocks": {
+    "comprehension": [
+      {
+        "passage": "The 'One Nation, One Election' proposal, advocating for synchronized polls for the Lok Sabha and State Assemblies, is a concept fraught with complex implications for India’s unique federal structure and democratic ethos. Proponents argue it would save public exchequer funds, reduce administrative burden, and allow governments to focus on governance rather than perpetual campaigning. However, a deeper scrutiny reveals potential pitfalls that could fundamentally alter the delicate balance of power. Synchronized elections risk diluting the distinct electoral issues pertinent to state-level politics, potentially leading to a homogenization of political discourse where national narratives overshadow regional concerns. This could inadvertently marginalize regional parties, which are vital for representing diverse local interests and acting as checks on centralizing tendencies.\n\nFurthermore, the proposal raises questions about voter behavior. Would voters, faced with simultaneous choices, prioritize national issues over local ones, or vice versa? There's a concern that a single electoral wave, driven by national sentiment, could sweep across states, irrespective of the performance or relevance of state governments. This might undermine accountability at the state level. While the efficiency argument holds some appeal, the potential erosion of federal principles, the weakening of regional political voices, and the complex logistical and constitutional amendments required warrant extreme caution. A vibrant democracy thrives on diverse representation and robust federalism, not merely administrative convenience. The long-term health of India's democratic fabric demands a thorough and inclusive debate, weighing efficiency against the foundational pillars of its constitutional design.",
+        "source": "Theme-based editorial",
+        "questions": [
+          {
+            "question": "Which of the following best encapsulates the main idea of the passage?",
+            "options": [
+              "A. The 'One Nation, One Election' proposal is primarily an administrative reform aimed at saving costs.",
+              "B. The passage argues that synchronized elections will inevitably lead to the downfall of regional parties.",
+              "C. The 'One Nation, One Election' proposal, despite its perceived efficiencies, poses significant risks to India's federalism and democratic diversity.",
+              "D. Voter behavior is the most critical factor to consider when implementing simultaneous elections."
+            ],
+            "answer": "C. The 'One Nation, One Election' proposal, despite its perceived efficiencies, poses significant risks to India's federalism and democratic diversity.",
+            "explanation": "The passage discusses both the arguments for efficiency ('Proponents argue it would save... funds') and the 'potential pitfalls' and 'risks' to federalism and democratic diversity, making this the central theme."
+          },
+          {
+            "question": "What can be inferred about the author's view on regional parties in India?",
+            "options": [
+              "A. The author believes regional parties are largely inefficient and contribute to political fragmentation.",
+              "B. The author sees regional parties as crucial for representing local interests and maintaining federal balance.",
+              "C. The author suggests that regional parties would benefit from synchronized elections by gaining national visibility.",
+              "D. The author is indifferent to the fate of regional parties, focusing solely on administrative reforms."
+            ],
+            "answer": "B. The author sees regional parties as crucial for representing local interests and maintaining federal balance.",
+            "explanation": "The passage states, 'This could inadvertently marginalize regional parties, which are vital for representing diverse local interests and acting as checks on centralizing tendencies,' clearly indicating the author's positive view of their role."
+          },
+          {
+            "question": "What is the author's general attitude towards the 'One Nation, One Election' proposal?",
+            "options": [
+              "A. Enthusiastic and supportive, highlighting its benefits.",
+              "B. Neutral and objective, presenting both sides without bias.",
+              "C. Skeptical and cautious, emphasizing potential negative consequences.",
+              "D. Indifferent, viewing it as a minor administrative adjustment."
+            ],
+            "answer": "C. Skeptical and cautious, emphasizing potential negative consequences.",
+            "explanation": "Phrases like 'fraught with complex implications,' 'potential pitfalls,' 'risk diluting,' 'undermine accountability,' and 'warrant extreme caution' strongly suggest a skeptical and cautious attitude."
+          },
+          {
+            "question": "In the context of the passage, what does 'homogenization of political discourse' primarily imply?",
+            "options": [
+              "A. A process where all political parties adopt similar manifestos.",
+              "B. The simplification of election campaigns to focus on fewer, broader issues.",
+              "C. The dominance of national issues and narratives over diverse regional concerns in electoral debates.",
+              "D. A reduction in the number of political parties participating in elections."
+            ],
+            "answer": "C. The dominance of national issues and narratives over diverse regional concerns in electoral debates.",
+            "explanation": "The passage states that homogenization could occur 'where national narratives overshadow regional concerns,' directly explaining the implication of homogenization in this context."
+          }
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "question": "Statement: Many developing countries are facing a severe shortage of skilled labor, despite having a large young population. This indicates a significant gap between the education system's output and industry's demands.\n\nConclusions:\nI. The education system in developing countries is failing to equip students with relevant skills.\nII. Industry in developing countries prefers foreign skilled labor over local talent.",
+        "options": [
+          "A. Only conclusion I follows.",
+          "B. Only conclusion II follows.",
+          "C. Both I and II follow.",
+          "D. Neither I nor II follows."
+        ],
+        "answer": "A. Only conclusion I follows.",
+        "explanation": "The statement explicitly mentions 'a significant gap between the education system's output and industry's demands,' which directly supports conclusion I. Conclusion II is an unsupported assumption; the statement does not provide information about industry's preference for foreign labor."
+      },
+      {
+        "question": "In a city, the population increased by 15% in the first year and then decreased by 10% in the second year. If the population at the end of the second year was 41,400, what was the population at the beginning of the first year?",
+        "options": [
+          "A. 40,000",
+          "B. 42,000",
+          "C. 43,000",
+          "D. 44,000"
+        ],
+        "answer": "A. 40,000",
+        "explanation": "Let the initial population be P.\nPopulation after 1st year = P * (1 + 0.15) = 1.15P\nPopulation after 2nd year = 1.15P * (1 - 0.10) = 1.15P * 0.90 = 1.035P\nGiven, 1.035P = 41,400\nP = 41,400 / 1.035\nP = 40,000."
+      },
+      {
+        "question": "Statement: Karnataka's strategic focus on Ethical AI for industrial transformation and governance is commendable, as it ensures that technological advancements are aligned with societal well-being and human values.\n\nWhich of the following, if true, would most strengthen the argument for prioritizing Ethical AI?",
+        "options": [
+          "A. Implementing AI without ethical guidelines has led to significant job displacement in other developed nations.",
+          "B. Ethical AI frameworks often slow down the pace of technological innovation due to compliance requirements.",
+          "C. The global market for AI products and services is projected to grow exponentially in the next decade.",
+          "D. Most industries in Karnataka are already equipped with the necessary infrastructure to adopt advanced AI technologies."
+        ],
+        "answer": "A. Implementing AI without ethical guidelines has led to significant job displacement in other developed nations.",
+        "explanation": "The statement argues that Ethical AI ensures societal well-being. If unethical AI leads to job displacement (a negative societal impact), then prioritizing Ethical AI (which presumably prevents this) strengthens the argument for its importance for societal well-being. Option B weakens the argument, C is about market growth not ethics, and D is about infrastructure, not the 'why' of ethical AI."
+      },
+      {
+        "question": "A local municipal corporation is facing a dilemma regarding waste management. The existing landfill is nearing capacity, and residents are strongly opposing the establishment of a new landfill site in their vicinity due to environmental and health concerns. The corporation also lacks sufficient funds for advanced waste-to-energy plants.\n\nWhich of the following would be the most appropriate immediate step for the municipal corporation to take?",
+        "options": [
+          "A. Immediately acquire land for a new landfill, using eminent domain if necessary, to prevent a waste crisis.",
+          "B. Initiate a public awareness campaign to encourage waste segregation at source and promote composting and recycling.",
+          "C. Lobby the central government for special grants to fund a large-scale waste-to-energy plant.",
+          "D. Temporarily halt waste collection in areas with high opposition to new landfills to pressure residents."
+        ],
+        "answer": "B. Initiate a public awareness campaign to encourage waste segregation at source and promote composting and recycling.",
+        "explanation": "Option A is a confrontational approach that ignores public opposition and doesn't address the root cause. Option C is a long-term solution and not an 'immediate step' to address the nearing capacity. Option D is unethical and would exacerbate the problem. Option B is a proactive, community-involved, and sustainable approach that reduces the overall waste volume, directly addressing the landfill capacity issue in the short to medium term, and is feasible immediately."
+      }
+    ]
+  }
 }

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { useLanguage } from '@/contexts/LanguageProvider';
 import {
     Brain, Users, BarChart3, Wifi, Languages, Newspaper,
-    ChevronRight, Sparkles, BookOpen, Target, Trophy, Zap
+    ChevronRight, Sparkles, BookOpen, Target, Trophy, Zap, PenTool
 } from 'lucide-react';
 
 const fadeUp = {
@@ -32,18 +32,14 @@ function StatCounter({ value, label }: { value: string; label: string }) {
 
 const features = [
     { icon: Brain, titleKey: 'feature_ai_title' as const, descKey: 'feature_ai_desc' as const, color: 'from-purple-500 to-indigo-600' },
-    { icon: Users, titleKey: 'feature_community_title' as const, descKey: 'feature_community_desc' as const, color: 'from-emerald-500 to-teal-600' },
+    { icon: PenTool, titleKey: 'feature_csat_title' as const, descKey: 'feature_csat_desc' as const, color: 'from-emerald-500 to-teal-600' },
     { icon: BarChart3, titleKey: 'feature_tracker_title' as const, descKey: 'feature_tracker_desc' as const, color: 'from-amber-500 to-orange-600' },
     { icon: Wifi, titleKey: 'feature_offline_title' as const, descKey: 'feature_offline_desc' as const, color: 'from-cyan-500 to-blue-600' },
     { icon: Languages, titleKey: 'feature_bilingual_title' as const, descKey: 'feature_bilingual_desc' as const, color: 'from-pink-500 to-rose-600' },
     { icon: Newspaper, titleKey: 'feature_digest_title' as const, descKey: 'feature_digest_desc' as const, color: 'from-violet-500 to-purple-600' },
 ];
 
-const testimonials = [
-    { name: 'Priya S.', city: 'Chennai', text: 'The NCERT summaries saved me months of note-making. Cleared Prelims in my first attempt!', avatar: '👩‍🎓' },
-    { name: 'Rajesh K.', city: 'Coimbatore', text: 'AI Answer Checker helped me understand UPSC marking patterns. The Tamil support is a game-changer.', avatar: '👨‍💼' },
-    { name: 'Anitha M.', city: 'Madurai', text: 'Best free resource I have found. The community forum keeps me motivated during my preparation.', avatar: '👩‍💻' },
-];
+
 
 export default function HomePage() {
     const { t } = useLanguage();
@@ -218,40 +214,6 @@ export default function HomePage() {
                 </div>
             </section>
 
-            {/* Testimonials */}
-            <section className="section-padding" style={{ background: 'var(--bg-primary)' }}>
-                <div className="max-w-7xl mx-auto">
-                    <motion.div
-                        initial={{ opacity: 0, y: 20 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                        className="text-center mb-12"
-                    >
-                        <h2 className="text-3xl sm:text-4xl font-heading font-bold mb-4 gradient-text">
-                            Loved by Aspirants
-                        </h2>
-                    </motion.div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        {testimonials.map((t, i) => (
-                            <motion.div key={t.name} custom={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-                                className="p-6 rounded-2xl border" style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)' }}>
-                                <div className="flex items-center gap-3 mb-4">
-                                    <span className="text-3xl">{t.avatar}</span>
-                                    <div>
-                                        <div className="font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>{t.name}</div>
-                                        <div className="text-xs" style={{ color: 'var(--text-muted)' }}>{t.city}</div>
-                                    </div>
-                                </div>
-                                <p className="text-sm leading-relaxed italic" style={{ color: 'var(--text-secondary)' }}>
-                                    &ldquo;{t.text}&rdquo;
-                                </p>
-                                <div className="mt-3 flex gap-1">{[...Array(5)].map((_, j) => <span key={j} className="text-accent-500 text-sm">★</span>)}</div>
-                            </motion.div>
-                        ))}
-                    </div>
-                </div>
-            </section>
 
             {/* CTA Section */}
             <section className="hero-bg relative overflow-hidden">

@@ -58,6 +58,25 @@ export interface MainsMockQuestion {
     approach: string;
 }
 
+export interface CsatComprehension {
+    passage: string;
+    source?: string;
+    questions: {
+        question: string;
+        options: string[];
+        answer: string;
+        explanation: string;
+    }[];
+}
+
+export interface CsatReasoning {
+    question: string;
+    options: string[];
+    answer: string;
+    explanation: string;
+    category: string; // 'logical' | 'quantitative' | 'verbal' | 'decision-making'
+}
+
 export interface DailyEpaper {
     date: string;
     dateFormatted: string;
@@ -71,6 +90,10 @@ export interface DailyEpaper {
     highlights: string[];
     prelimsMocks?: MockQuestion[];
     mainsMocks?: MainsMockQuestion[];
+    csatMocks?: {
+        comprehension: CsatComprehension[];
+        reasoning: CsatReasoning[];
+    };
 }
 
 // ---------------------------------------------------------------------------
@@ -597,6 +620,134 @@ Return ONLY valid JSON matching this structure:
 }
 
 /**
+ * Generates CSAT (Paper II) mock questions:
+ * - Comprehension: editorial-style passages with MCQs
+ * - Logical Reasoning: analytical/quantitative/verbal MCQs
+ */
+async function generateCsatMocks(
+    articles: EpaperArticle[],
+    apiKey: string
+): Promise<{ comprehension: CsatComprehension[]; reasoning: CsatReasoning[] }> {
+    console.log(`[epaper-gen] Generating CSAT mocks from ${articles.length} articles...`);
+
+    const editorialThemes = articles
+        .slice(0, 8)
+        .map((a) => `- Theme: ${a.headline}\n  Context: ${typeof a.explainer === 'string' ? a.explainer.slice(0, 200) : ''}`)
+        .join('\n');
+
+    const prompt = `You are a UPSC CSAT (Civil Services Aptitude Test — Paper II) question setter. Generate questions in TWO categories based on the editorial themes below.
+
+EDITORIAL THEMES FROM TODAY'S NEWS:
+${editorialThemes}
+
+CATEGORY 1 — COMPREHENSION (2 passages):
+For each passage:
+- Write an editorial-style passage of 200-250 words on a theme from today's news. The passage should be analytical, opinion-based prose (like editorials from The Hindu, The Guardian, or The Economist). Do NOT copy exact quotes — create original analytical text.
+- Each passage must have 3-4 MCQ questions testing: main idea, inference, author's attitude, logical conclusion, meaning in context.
+- Questions should test reading comprehension skills, NOT factual recall.
+
+CATEGORY 2 — LOGICAL REASONING (5 questions):
+Generate 5 MCQs covering these CSAT Paper II patterns:
+- 1-2 Logical reasoning (syllogisms, assumptions, conclusions, cause-effect)
+- 1-2 Quantitative/Data interpretation (percentages, ratios, simple math word problems)
+- 1 Decision making / problem solving
+Each question should have 4 options, one correct answer, and a brief explanation.
+
+Return ONLY valid JSON matching this exact structure:
+{
+  "comprehension": [
+    {
+      "passage": "The editorial passage text here...",
+      "source": "Theme-based editorial",
+      "questions": [
+        { "question": "...", "options": ["A. ...", "B. ...", "C. ...", "D. ..."], "answer": "The correct option text exactly", "explanation": "Why this is correct..." }
+      ]
+    }
+  ],
+  "reasoning": [
+    { "question": "...", "options": ["A. ...", "B. ...", "C. ...", "D. ..."], "answer": "The correct option text exactly", "explanation": "Step-by-step solution...", "category": "logical" }
+  ]
+}`;
+
+    const requestBody = {
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        generationConfig: {
+            temperature: 0.4,
+            topP: 0.85,
+            maxOutputTokens: 16384,
+            responseMimeType: 'application/json',
+        },
+    };
+
+    let lastError: Error | null = null;
+
+    for (const model of GEMINI_MODELS) {
+        const MAX_RETRIES = 3;
+
+        for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+            try {
+                console.log(`[epaper-gen] Generating CSAT with ${model} (attempt ${attempt}/${MAX_RETRIES})...`);
+
+                const response = await fetch(
+                    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+                    {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(requestBody),
+                    }
+                );
+
+                if (response.status === 429) {
+                    const errBody = await response.text();
+                    const retryMatch = errBody.match(/retry.*?(\d+\.?\d*)\s*s/i);
+                    const retryDelaySec = retryMatch ? parseFloat(retryMatch[1]) : 10 * attempt;
+
+                    if (errBody.includes('limit: 0')) {
+                        console.warn(`[epaper-gen] ${model} daily quota exhausted for CSAT, trying next model...`);
+                        lastError = new Error(`${model} daily quota exhausted`);
+                        break;
+                    }
+
+                    console.warn(`[epaper-gen] Rate limited on ${model} for CSAT. Retrying in ${retryDelaySec}s...`);
+                    await sleep(retryDelaySec * 1000);
+                    continue;
+                }
+
+                if (!response.ok) {
+                    const errText = await response.text();
+                    throw new Error(`Gemini API error ${response.status}: ${errText.slice(0, 300)}`);
+                }
+
+                const data = await response.json();
+                const text = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+                if (!text) throw new Error('No text returned for CSAT mocks');
+
+                const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+                const parsed = JSON.parse(cleaned);
+
+                console.log(`[epaper-gen] ✅ CSAT generated: ${parsed.comprehension?.length || 0} passages, ${parsed.reasoning?.length || 0} reasoning Qs`);
+
+                return {
+                    comprehension: parsed.comprehension || [],
+                    reasoning: parsed.reasoning || [],
+                };
+            } catch (err: any) {
+                lastError = err;
+                if (attempt < MAX_RETRIES && !err.message.includes('quota exhausted')) {
+                    const backoff = Math.pow(2, attempt) * 5000;
+                    console.warn(`[epaper-gen] CSAT gen error on ${model}, retrying in ${backoff / 1000}s: ${err.message}`);
+                    await sleep(backoff);
+                }
+            }
+        }
+        console.warn(`[epaper-gen] All CSAT retries failed for ${model}, trying next model...`);
+    }
+
+    console.error('[epaper-gen] CSAT generation ultimately failed:', lastError?.message);
+    return { comprehension: [], reasoning: [] };
+}
+
+/**
  * Full ePaper pipeline: scrape → AI process → structure as ePaper.
  */
 export async function generateDailyEpaper(
@@ -608,6 +759,9 @@ export async function generateDailyEpaper(
 
     // Generate mocks based on today's selected articles
     const mocks = await generateMocks(articles, apiKey);
+
+    // Generate CSAT mocks (comprehension + reasoning)
+    const csatMocks = await generateCsatMocks(articles, apiKey);
 
     const uniqueSources = Array.from(new Set(rawArticles.map((a) => a.sourceShort || a.source)));
 
@@ -624,5 +778,6 @@ export async function generateDailyEpaper(
         highlights: generateHighlights(articles),
         prelimsMocks: mocks.prelimsMocks,
         mainsMocks: mocks.mainsMocks,
+        csatMocks,
     };
 }

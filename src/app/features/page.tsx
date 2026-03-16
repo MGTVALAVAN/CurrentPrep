@@ -3,8 +3,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/contexts/LanguageProvider';
 import {
-    Brain, Upload, Route, MessageSquare, Users, UserCheck,
-    Newspaper, Rss, Clock, BarChart3, Trophy, Footprints,
+    Brain, Upload, Route,
+    Newspaper, Rss, BarChart3, Trophy, Footprints,
     Sparkles, CheckCircle2
 } from 'lucide-react';
 
@@ -40,20 +40,7 @@ const aiTools = [
     },
 ];
 
-const communityFeatures = [
-    { icon: MessageSquare, title: 'Discussion Threads', desc: 'Prelims strategy, Mains answer writing, Optional selection — active threads for every topic.' },
-    { icon: Users, title: 'Study Groups', desc: 'Form groups with fellow aspirants in your city. Accountability partners, mock test discussions.' },
-    { icon: UserCheck, title: 'Mentor Matching', desc: 'Connect with aspirants who cleared CSE. Get guidance on strategy, optionals, and interview prep.' },
-];
 
-const currentAffairsItems = [
-    { date: '2025-01-20', title: 'Union Budget 2025-26: Key Highlights for UPSC', category: 'Economy', source: 'PIB' },
-    { date: '2025-01-19', title: 'India-ASEAN Summit: Strategic Implications', category: 'International Relations', source: 'The Hindu' },
-    { date: '2025-01-18', title: 'New Education Policy: Implementation Status', category: 'Governance', source: 'Yojana' },
-    { date: '2025-01-17', title: 'Climate Change & India: COP29 Commitments', category: 'Environment', source: 'PIB' },
-    { date: '2025-01-16', title: 'Supreme Court on Judicial Appointments', category: 'Polity', source: 'The Hindu' },
-    { date: '2025-01-15', title: 'ISRO Gaganyaan Mission Update', category: 'Science & Tech', source: 'ISRO' },
-];
 
 const badges = [
     { icon: '🏆', name: 'First Quiz', desc: 'Complete your first quiz' },
@@ -124,52 +111,6 @@ export default function FeaturesPage() {
                 </div>
             </section>
 
-            {/* Community */}
-            <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
-                <div className="max-w-7xl mx-auto">
-                    <h2 className="text-2xl sm:text-3xl font-heading font-bold mb-8 gradient-text">
-                        Community & Mentorship
-                    </h2>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        {communityFeatures.map((feat, i) => {
-                            const Icon = feat.icon;
-                            return (
-                                <motion.div key={feat.title} custom={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-                                    className="p-6 rounded-2xl border" style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)' }}>
-                                    <Icon className="w-10 h-10 text-primary-700 dark:text-primary-400 mb-4" />
-                                    <h3 className="font-heading font-semibold text-lg mb-2" style={{ color: 'var(--text-primary)' }}>{feat.title}</h3>
-                                    <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>{feat.desc}</p>
-                                </motion.div>
-                            );
-                        })}
-                    </div>
-
-                    {/* Forum Preview */}
-                    <div className="mt-8 rounded-2xl border overflow-hidden" style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)' }}>
-                        <div className="px-5 py-3 border-b flex items-center gap-2" style={{ borderColor: 'var(--border-color)' }}>
-                            <MessageSquare className="w-4 h-4 text-accent-500" />
-                            <span className="font-semibold text-sm" style={{ color: 'var(--text-primary)' }}>Latest Forum Threads</span>
-                        </div>
-                        {[
-                            { title: 'How to complete NCERT reading in 3 months?', replies: 34, category: 'Strategy' },
-                            { title: 'GS4 Ethics case study practice – share your answers', replies: 56, category: 'Mains' },
-                            { title: 'Best optional for working professionals?', replies: 89, category: 'Optional' },
-                            { title: 'Daily current affairs quiz – January Week 3', replies: 22, category: 'Prelims' },
-                        ].map((thread) => (
-                            <div key={thread.title} className="px-5 py-3 border-b last:border-b-0 flex items-center justify-between hover:bg-primary-800/5 dark:hover:bg-primary-400/5 transition-colors cursor-pointer"
-                                style={{ borderColor: 'var(--border-color)' }}>
-                                <div>
-                                    <div className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>{thread.title}</div>
-                                    <div className="text-xs mt-0.5" style={{ color: 'var(--text-muted)' }}>{thread.category} • {thread.replies} replies</div>
-                                </div>
-                                <span className="text-xs px-2 py-0.5 rounded-full bg-primary-800/10 dark:bg-primary-400/10 text-primary-800 dark:text-primary-300">
-                                    Active
-                                </span>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
 
             {/* Daily Digest */}
             <section className="section-padding">
@@ -178,26 +119,93 @@ export default function FeaturesPage() {
                         <Rss className="w-5 h-5 text-accent-500" />
                         <span className="text-sm font-semibold text-accent-500 uppercase tracking-wider">Daily Digest</span>
                     </div>
-                    <h2 className="text-2xl sm:text-3xl font-heading font-bold mb-8 gradient-text">
-                        Current Affairs Feed
+                    <h2 className="text-2xl sm:text-3xl font-heading font-bold mb-3 gradient-text">
+                        Your Daily UPSC Current Affairs Hub
                     </h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                        {currentAffairsItems.map((item, i) => (
-                            <motion.div key={item.title} custom={i} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-                                className="p-5 rounded-2xl border card-hover cursor-pointer"
-                                style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)' }}>
-                                <div className="flex items-center justify-between mb-3">
-                                    <span className="text-xs px-2 py-0.5 rounded-full bg-accent-500/10 text-accent-600 dark:text-accent-400 font-medium">
-                                        {item.category}
-                                    </span>
-                                    <span className="text-xs" style={{ color: 'var(--text-muted)' }}>{item.source}</span>
-                                </div>
-                                <h3 className="font-medium text-sm leading-snug mb-2" style={{ color: 'var(--text-primary)' }}>{item.title}</h3>
-                                <div className="flex items-center gap-1 text-xs" style={{ color: 'var(--text-muted)' }}>
-                                    <Clock className="w-3 h-3" /> {item.date}
-                                </div>
-                            </motion.div>
-                        ))}
+                    <p className="text-base leading-relaxed mb-8 max-w-3xl" style={{ color: 'var(--text-secondary)' }}>
+                        Every morning, we curate the most UPSC-relevant news from The Hindu, Indian Express, PIB, and other authoritative sources.
+                        Each article is analysed for GS relevance, tagged with Prelims &amp; Mains pointers, and enriched with key terms and explainers —
+                        so you spend less time hunting for news and more time mastering it.
+                    </p>
+
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        {/* Current Affairs */}
+                        <motion.div custom={0} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                            className="p-6 rounded-2xl border card-hover"
+                            style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)' }}>
+                            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center mb-5 shadow-lg">
+                                <Newspaper className="w-7 h-7 text-white" />
+                            </div>
+                            <h3 className="font-heading font-semibold text-xl mb-2" style={{ color: 'var(--text-primary)' }}>
+                                Current Affairs
+                            </h3>
+                            <p className="text-sm leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>
+                                A newspaper-style page updated daily with 15–20 curated articles. Each article comes with GS paper tagging,
+                                importance levels, detailed explainers, key terms, and Prelims/Mains pointers. Searchable and filterable.
+                            </p>
+                            <ul className="space-y-1.5 mb-5">
+                                {['Auto-curated from top sources', 'GS paper & category tagging', 'Prelims + Mains pointers', 'Expandable detailed analysis'].map(f => (
+                                    <li key={f} className="flex items-center gap-2 text-xs" style={{ color: 'var(--text-secondary)' }}>
+                                        <CheckCircle2 className="w-3.5 h-3.5 text-green-500 flex-shrink-0" /> {f}
+                                    </li>
+                                ))}
+                            </ul>
+                            <a href="/current-affairs" className="btn-primary text-sm w-full block text-center">
+                                View Current Affairs →
+                            </a>
+                        </motion.div>
+
+                        {/* Daily ePaper */}
+                        <motion.div custom={1} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                            className="p-6 rounded-2xl border card-hover"
+                            style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)' }}>
+                            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center mb-5 shadow-lg">
+                                <Rss className="w-7 h-7 text-white" />
+                            </div>
+                            <h3 className="font-heading font-semibold text-xl mb-2" style={{ color: 'var(--text-primary)' }}>
+                                Daily ePaper (A4 PDF)
+                            </h3>
+                            <p className="text-sm leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>
+                                A beautifully designed 6–8 page A4 ePaper delivered to your inbox every morning. Print-ready layout with
+                                editorial-style formatting, masthead, headlines, news briefs, and mock questions — like your own UPSC newspaper.
+                            </p>
+                            <ul className="space-y-1.5 mb-5">
+                                {['Print-ready A4 layout', 'Emailed daily to your inbox', 'Includes Prelims MCQs & Mains Qs', 'Archive of all past editions'].map(f => (
+                                    <li key={f} className="flex items-center gap-2 text-xs" style={{ color: 'var(--text-secondary)' }}>
+                                        <CheckCircle2 className="w-3.5 h-3.5 text-green-500 flex-shrink-0" /> {f}
+                                    </li>
+                                ))}
+                            </ul>
+                            <a href="/daily-epaper/archive" className="btn-primary text-sm w-full block text-center">
+                                Browse ePaper Archive →
+                            </a>
+                        </motion.div>
+
+                        {/* Daily Mock */}
+                        <motion.div custom={2} initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
+                            className="p-6 rounded-2xl border card-hover"
+                            style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)' }}>
+                            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center mb-5 shadow-lg">
+                                <Brain className="w-7 h-7 text-white" />
+                            </div>
+                            <h3 className="font-heading font-semibold text-xl mb-2" style={{ color: 'var(--text-primary)' }}>
+                                Daily Mock Practice
+                            </h3>
+                            <p className="text-sm leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>
+                                Practice with 4–5 Prelims MCQs and 4 Mains descriptive questions generated daily from the day&apos;s current affairs.
+                                Interactive answer checking, explanations, and suggested approach for every question.
+                            </p>
+                            <ul className="space-y-1.5 mb-5">
+                                {['Current affairs-based questions', 'Interactive MCQ with explanations', 'Mains approach guidance', 'Builds up date-wise'].map(f => (
+                                    <li key={f} className="flex items-center gap-2 text-xs" style={{ color: 'var(--text-secondary)' }}>
+                                        <CheckCircle2 className="w-3.5 h-3.5 text-green-500 flex-shrink-0" /> {f}
+                                    </li>
+                                ))}
+                            </ul>
+                            <a href="/daily-mock" className="btn-primary text-sm w-full block text-center">
+                                Start Practicing →
+                            </a>
+                        </motion.div>
                     </div>
                 </div>
             </section>

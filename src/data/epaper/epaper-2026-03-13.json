@@ -2192,5 +2192,105 @@
       "syllabusMatch": "GS3 (Environment: Climate Change & Disaster Management)",
       "approach": "Define 'Greenlandification' and explain mechanisms like surface meltwater pooling, altered albedo, and hydrofracturing. Detail the existential threat posed by rising global mean sea levels to India's extensive 7,500-km coastline and major urban hubs like Mumbai and Chennai. Conclude with the necessity for robust coastal adaptation policies and global emission reduction compliance."
     }
-  ]
+  ],
+  "csatMocks": {
+    "comprehension": [
+      {
+        "passage": "India's economic narrative, often lauded for its resilience and growth potential, finds itself at a critical juncture, particularly vulnerable to the capricious swings of global energy markets. The much-vaunted 'Goldilocks era' of moderate inflation and robust growth faces significant headwinds as international crude oil prices continue their upward trajectory. This external shock directly impacts India's import bill, exacerbating the current account deficit and exerting downward pressure on the rupee. The ripple effects are profound: higher fuel costs translate into increased input prices for industries, fueling inflationary pressures across the economy and eroding household purchasing power.\n\nThe government's fiscal space also comes under immense strain. Subsidies to cushion consumers from price hikes, while politically expedient, can bloat the budget deficit, potentially crowding out essential public investments. Conversely, passing on the full burden to consumers risks dampening demand and stifling economic activity. This delicate balancing act underscores the imperative for a comprehensive energy security strategy. Beyond short-term fiscal interventions, India must accelerate its transition to renewable energy sources, enhance domestic exploration and production, and strategically build up its petroleum reserves. Diversifying import sources and fostering energy diplomacy are equally crucial. Without a robust, multi-pronged approach, the specter of global energy volatility will continue to cast a long shadow over India's macroeconomic stability and its ambitious growth trajectory.",
+        "source": "Theme-based editorial",
+        "questions": [
+          {
+            "question": "What is the central theme of the passage?",
+            "options": [
+              "A. The Indian government's failure to control fuel prices.",
+              "B. The impact of global energy price volatility on India's economy and the need for a comprehensive strategy.",
+              "C. The importance of renewable energy for India's future.",
+              "D. The challenges of maintaining a 'Goldilocks era' amidst global economic shifts."
+            ],
+            "answer": "B. The impact of global energy price volatility on India's economy and the need for a comprehensive strategy.",
+            "explanation": "The passage discusses the challenges posed by global energy prices to India's economy (inflation, fiscal strain, current account deficit) and then advocates for a multi-pronged energy security strategy, making option B the most comprehensive summary of the central theme."
+          },
+          {
+            "question": "Based on the passage, what can be inferred about the 'Goldilocks era' mentioned?",
+            "options": [
+              "A. It refers to a period of economic stability that India has now permanently achieved.",
+              "B. It describes a desirable economic state characterized by balanced growth and inflation, which is currently under threat.",
+              "C. It implies a time when India was completely insulated from global energy shocks.",
+              "D. It suggests a period of rapid economic expansion without any inflationary concerns."
+            ],
+            "answer": "B. It describes a desirable economic state characterized by balanced growth and inflation, which is currently under threat.",
+            "explanation": "The passage states that the 'Goldilocks era' of 'moderate inflation and robust growth faces significant headwinds,' implying it is a desirable state that is now endangered. Options A, C, and D are incorrect as they either suggest permanence, complete insulation, or an unrealistic absence of concerns."
+          },
+          {
+            "question": "Which of the following best describes the author's attitude towards India's current energy security situation?",
+            "options": [
+              "A. Optimistic, believing India will easily overcome the challenges.",
+              "B. Indifferent, presenting facts without expressing concern.",
+              "C. Concerned, highlighting vulnerabilities and advocating for strategic action.",
+              "D. Critical, blaming the government for inadequate policies."
+            ],
+            "answer": "C. Concerned, highlighting vulnerabilities and advocating for strategic action.",
+            "explanation": "The author uses phrases like 'critical juncture,' 'vulnerable,' 'significant headwinds,' and 'imperative for a comprehensive energy security strategy,' indicating concern and a call for action rather than optimism, indifference, or direct blame."
+          },
+          {
+            "question": "In the context of the passage, what does 'crowding out essential public investments' most likely imply?",
+            "options": [
+              "A. That private investments are increasing due to government spending.",
+              "B. That government spending on subsidies leaves less money for other crucial development projects.",
+              "C. That public investments are becoming too numerous and inefficient.",
+              "D. That foreign investments are being deterred by domestic policies."
+            ],
+            "answer": "B. That government spending on subsidies leaves less money for other crucial development projects.",
+            "explanation": "The passage states that subsidies 'can bloat the budget deficit' and then mentions 'potentially crowding out essential public investments.' This implies that the increased spending on subsidies consumes funds that would otherwise be allocated to other important public sector projects, thus reducing their availability."
+          }
+        ]
+      }
+    ],
+    "reasoning": [
+      {
+        "question": "Statement: 'Many developing countries are facing a severe shortage of skilled healthcare professionals, leading to a decline in public health indicators.'\nAssumptions:\nI. The availability of skilled healthcare professionals is directly linked to public health indicators.\nII. Developing countries prioritize public health over other sectors.\nIII. A decline in public health indicators is undesirable.",
+        "options": [
+          "A. Only I and II",
+          "B. Only II and III",
+          "C. Only I and III",
+          "D. All I, II, and III"
+        ],
+        "answer": "C. Only I and III",
+        "explanation": "I. The statement explicitly connects 'shortage of skilled healthcare professionals' to 'a decline in public health indicators,' directly assuming a link. So, I is assumed.\nII. The statement describes a problem but does not provide information about the priorities of developing countries. We cannot assume they prioritize public health over other sectors. So, II is not necessarily assumed.\nIII. A 'decline' in public health indicators is inherently a negative outcome, implying that such a decline is undesirable. So, III is assumed."
+      },
+      {
+        "question": "India's LPG demand is met by a 60-40 import-production ratio. If the total LPG demand in a year is 25 million metric tonnes (MMT), and domestic production increases by 10% the following year while imports remain constant, what will be the new import-production ratio (approximately)?",
+        "options": [
+          "A. 55:45",
+          "B. 58:42",
+          "C. 62:38",
+          "D. 50:50"
+        ],
+        "answer": "B. 58:42",
+        "explanation": "1. Initial Production: 40% of 25 MMT = 0.40 * 25 = 10 MMT.\n2. Initial Imports: 60% of 25 MMT = 0.60 * 25 = 15 MMT.\n3. New Production: Initial production + 10% increase = 10 MMT + (0.10 * 10 MMT) = 10 + 1 = 11 MMT.\n4. New Imports: Remain constant at 15 MMT.\n5. New Total Demand: New Production + New Imports = 11 MMT + 15 MMT = 26 MMT.\n6. New Import Ratio: (New Imports / New Total Demand) * 100 = (15 / 26) * 100 ≈ 57.69%.\n7. New Production Ratio: (New Production / New Total Demand) * 100 = (11 / 26) * 100 ≈ 42.31%.\n8. New Ratio (approx): 58:42."
+      },
+      {
+        "question": "Statement: 'India's Defence Forces Vision 2047 emphasizes the integration of space, cyber, and drone capabilities to create a future-ready military. This strategic shift is crucial for national security in an evolving geopolitical landscape.'\nWhich of the following, if true, would most strengthen the argument for this strategic shift?",
+        "options": [
+          "A. Traditional warfare methods are still highly effective in regional conflicts.",
+          "B. Several major global powers have already significantly invested in similar advanced military technologies.",
+          "C. The cost of developing and acquiring these new technologies is prohibitively high for India.",
+          "D. India's neighbouring countries have no immediate plans to develop advanced cyber or space warfare capabilities."
+        ],
+        "answer": "B. Several major global powers have already significantly invested in similar advanced military technologies.",
+        "explanation": "The argument is that the strategic shift is 'crucial for national security in an evolving geopolitical landscape.' If major global powers are already investing in these advanced technologies (Option B), it suggests that these capabilities are becoming essential for modern defense and national security, thereby strengthening the argument that India must also adopt them to remain competitive and secure. Option A weakens the argument. Option C presents a challenge but doesn't negate the necessity. Option D weakens the argument by suggesting less immediate threat."
+      },
+      {
+        "question": "A public health official is tasked with formulating a policy regarding blood donation. There is scientific evidence suggesting a very low but non-zero risk of disease transmission from a specific high-risk group. However, excluding this group raises ethical concerns about discrimination and reduces the overall blood supply. The official's primary objective is to ensure the safety of blood recipients while also considering ethical implications and maintaining an adequate blood supply.\nWhich of the following actions would be the most balanced and responsible approach for the official to recommend?",
+        "options": [
+          "A. Completely exclude the high-risk group from donating, prioritizing recipient safety above all else.",
+          "B. Allow all individuals, including the high-risk group, to donate without any restrictions, relying on advanced screening technologies.",
+          "C. Implement enhanced, targeted screening protocols for the high-risk group, coupled with public awareness campaigns to encourage donation from all eligible groups.",
+          "D. Conduct a public referendum to decide whether the high-risk group should be allowed to donate."
+        ],
+        "answer": "C. Implement enhanced, targeted screening protocols for the high-risk group, coupled with public awareness campaigns to encourage donation from all eligible groups.",
+        "explanation": "Option C offers the most balanced approach. Implementing enhanced screening protocols directly addresses the primary objective of recipient safety by mitigating the 'very low but non-zero risk.' Simultaneously, public awareness campaigns to encourage donation from all eligible groups help maintain an adequate blood supply and indirectly address ethical concerns by focusing on inclusivity where possible, rather than outright exclusion or unrestricted access that could compromise safety. Options A and B prioritize one aspect over others, while option D is not a suitable method for evidence-based public health policy."
+      }
+    ]
+  }
 }

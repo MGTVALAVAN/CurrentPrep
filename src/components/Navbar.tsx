@@ -11,16 +11,12 @@ export default function Navbar() {
     const { theme, toggleTheme } = useTheme();
     const { language, toggleLanguage, t } = useLanguage();
 
-    const todayDate = new Date().toISOString().split('T')[0];
-
-    const links: { href: string; label: string; printLink?: boolean }[] = [
+    const links: { href: string; label: string }[] = [
         { href: '/', label: t('nav_home') },
         { href: '/syllabus', label: t('nav_syllabus') },
         { href: '/features', label: t('nav_features') },
         { href: '/current-affairs', label: 'Current Affairs' },
-        { href: `/daily-epaper/print/${todayDate}`, label: 'Daily ePaper', printLink: true },
-        { href: '/community', label: 'Community' },
-        { href: '/blog', label: t('nav_blog') },
+        { href: '/daily-mock', label: 'Daily Mock' },
         { href: '/pricing', label: t('nav_pricing') },
         { href: '/about', label: t('nav_about') },
         { href: '/contact', label: 'Contact' },
@@ -51,24 +47,14 @@ export default function Navbar() {
 
                     {/* Desktop Links */}
                     <div className="hidden md:flex items-center gap-1">
-                        {links.map((link) =>
-                            link.printLink ? (
-                                <a key={link.href} href={link.href}
-                                    target="_blank" rel="noopener noreferrer"
-                                    className="px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200
-                                        hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
-                                    style={{ color: '#D4791C', fontWeight: 600 }}>
-                                    📰 {link.label}
-                                </a>
-                            ) : (
-                                <Link key={link.href} href={link.href}
-                                    className="px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200
-                                        hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
-                                    style={{ color: 'var(--text-secondary)' }}>
-                                    {link.label}
-                                </Link>
-                            )
-                        )}
+                        {links.map((link) => (
+                            <Link key={link.href} href={link.href}
+                                className="px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200
+                                    hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
+                                style={{ color: 'var(--text-secondary)' }}>
+                                {link.label}
+                            </Link>
+                        ))}
                     </div>
 
                     {/* Actions */}
@@ -115,26 +101,15 @@ export default function Navbar() {
                         className="md:hidden border-t overflow-hidden"
                         style={{ background: 'var(--bg-primary)', borderColor: 'var(--border-color)' }}>
                         <div className="px-4 py-4 space-y-1">
-                            {links.map((link) =>
-                                link.printLink ? (
-                                    <a key={link.href} href={link.href}
-                                        target="_blank" rel="noopener noreferrer"
-                                        onClick={() => setIsOpen(false)}
-                                        className="block px-4 py-3 rounded-lg text-base font-medium transition-all
-                                            hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
-                                        style={{ color: '#D4791C', fontWeight: 600 }}>
-                                        📰 {link.label}
-                                    </a>
-                                ) : (
-                                    <Link key={link.href} href={link.href}
-                                        onClick={() => setIsOpen(false)}
-                                        className="block px-4 py-3 rounded-lg text-base font-medium transition-all
-                                            hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
-                                        style={{ color: 'var(--text-primary)' }}>
-                                        {link.label}
-                                    </Link>
-                                )
-                            )}
+                            {links.map((link) => (
+                                <Link key={link.href} href={link.href}
+                                    onClick={() => setIsOpen(false)}
+                                    className="block px-4 py-3 rounded-lg text-base font-medium transition-all
+                                        hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
+                                    style={{ color: 'var(--text-primary)' }}>
+                                    {link.label}
+                                </Link>
+                            ))}
                             <Link href="/pricing" onClick={() => setIsOpen(false)}
                                 className="block text-center btn-accent mt-3 text-sm">
                                 {t('nav_signup')}

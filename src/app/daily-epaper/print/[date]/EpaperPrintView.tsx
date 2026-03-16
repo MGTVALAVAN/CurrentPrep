@@ -188,6 +188,37 @@ function truncateWords(text: string, maxWords: number): string {
     return truncated + '...';
 }
 
+/**
+ * Normalizes explainer text that may use different bullet formats into
+ * a standard "• bullet\n• bullet\nPassage text" format.
+ * Handles:
+ *   - Standard • bullets
+ *   - Markdown *   bullets
+ *   - PART 1 — KEY FACTS / PART 2 — ANALYSIS structure
+ */
+function normalizeExplainer(raw: string): string {
+    // Handle PART 1 / PART 2 structure
+    const part1Match = raw.match(/PART\s*1[^:]*:([\s\S]*?)(?=PART\s*2|$)/i);
+    const part2Match = raw.match(/PART\s*2[^:]*:([\s\S]*)/i);
+    if (part1Match && part2Match) {
+        const factsRaw = part1Match[1].trim();
+        const analysis = part2Match[1].trim();
+        // Convert * bullets to • bullets
+        const facts = factsRaw
+            .split(/\n/)
+            .map(l => l.trim())
+            .filter(l => l.length > 0)
+            .map(l => l.replace(/^\*\s+/, '• '))
+            .join('\n');
+        return facts + '\n' + analysis;
+    }
+    // Handle markdown * bullets (lines starting with *   or * )
+    if (/^\*\s{1,}/m.test(raw)) {
+        return raw.replace(/^\*\s{1,}/gm, '• ');
+    }
+    return raw;
+}
+
 /* ─────────────────────────────────────────────────────────────────────────
    Component
    ───────────────────────────────────────────────────────────────────────── */
@@ -448,7 +479,8 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                     <div style={{ flex: '1', boxSizing: 'border-box', overflow: 'hidden' }}>
                                         <div className="epaper-print-lead-body" style={{ fontSize: '13px', lineHeight: 1.6, textAlign: 'justify', columns: 1 }}>
                                             {(() => {
-                                                const raw = typeof lead.explainer === 'string' ? lead.explainer : Object.entries(lead.explainer || {}).map(([k, v]) => `**${k}:** ${v}`).join('\n');
+                                                const rawOriginal = typeof lead.explainer === 'string' ? lead.explainer : Object.entries(lead.explainer || {}).map(([k, v]) => `**${k}:** ${v}`).join('\n');
+                                                const raw = normalizeExplainer(rawOriginal);
                                                 const parts = raw.split(/\s*•\s*/);
                                                 const bullets: string[] = [];
                                                 let passage = '';
@@ -527,7 +559,8 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                         {/* Left: explainer */}
                                         <div style={{ flex: '1.3', fontSize: '11px', lineHeight: 1.6, color: '#3D2B1A', fontFamily: "'Source Serif 4', Georgia, serif", textAlign: 'justify', overflow: 'hidden' }}>
                                             {(() => {
-                                                const raw = truncateWords(typeof a.explainer === 'string' ? a.explainer : Object.entries(a.explainer || {}).map(([k, v]) => `**${k}:** ${v}`).join('\n'), 180);
+                                                const rawText = typeof a.explainer === 'string' ? a.explainer : Object.entries(a.explainer || {}).map(([k, v]) => `**${k}:** ${v}`).join('\n');
+                                                const raw = truncateWords(normalizeExplainer(rawText), 180);
                                                 // Split by • marker (handles inline "• fact1. • fact2." format)
                                                 const parts = raw.split(/\s*•\s*/);
                                                 const bullets: string[] = [];
@@ -636,30 +669,36 @@ export default function EpaperPrintView({ date }: { date: string }) {
 
                 {/* === MAINS MOCK PAGE === */}
                 {epaper.mainsMocks && epaper.mainsMocks.length > 0 && (
-                    <div className="epaper-print-page" style={{ pageBreakBefore: 'always', breakBefore: 'page', padding: '10mm 12mm 0', height: '297mm', maxHeight: '297mm', overflow: 'hidden', display: 'flex', flexDirection: 'column', boxSizing: 'border-box', position: 'relative' }}>
+                    <div className="epaper-print-page" style={{ pageBreakBefore: 'always', breakBefore: 'page', padding: '10mm 12mm', height: '277mm', maxHeight: '277mm', overflow: 'hidden', display: 'flex', flexDirection: 'column', boxSizing: 'border-box' }}>
                         <header style={{ background: '#1A3C6E', borderRadius: '6px', padding: '8px 14px', marginBottom: '10px', textAlign: 'center', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', flexShrink: 0 }}>
                             <h2 style={{ margin: 0, color: '#FFF1E5', fontSize: '14px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.12em', fontFamily: "'DM Sans', system-ui, sans-serif" }}>
                                 ✍️ Mains Mock — Daily Practice
                             </h2>
                         </header>
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', overflow: 'hidden', flexShrink: 0 }}>
-                            {epaper.mainsMocks.slice(0, 4).map((q, i) => (
-                                <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '10px 12px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', display: 'flex', flexDirection: 'column', justifyContent: 'center', overflow: 'hidden' }}>
-                                    <div style={{ fontWeight: 700, fontSize: '10.5px', color: '#33200A', textAlign: 'justify', marginBottom: '5px', lineHeight: 1.5 }}>Q{i + 1}. {q.question}</div>
-                                    <div style={{ background: 'var(--ep-bg)', padding: '6px 8px', borderRadius: '3px', border: '1px solid rgba(139,69,19,0.06)', fontSize: '10.5px', lineHeight: 1.45 }}>
-                                        <div style={{ fontWeight: 700, color: '#1A3C6E', marginBottom: '2px', fontSize: '10.5px', textTransform: 'uppercase', letterSpacing: '0.04em' }}>Syllabus: {q.syllabusMatch}</div>
-                                        <div style={{ fontWeight: 700, color: '#8B4513', marginBottom: '1px' }}>Approach:</div>
-                                        <div style={{ color: '#5C3D1A', fontStyle: 'italic' }}>{q.approach}</div>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', flex: 1, overflow: 'hidden' }}>
+                            {epaper.mainsMocks.slice(0, 4).map((q, i) => {
+                                // Truncate syllabus to ~120 chars for 2-line display
+                                const syllabusShort = q.syllabusMatch.length > 120
+                                    ? q.syllabusMatch.substring(0, q.syllabusMatch.lastIndexOf(' ', 120)) + '…'
+                                    : q.syllabusMatch;
+                                return (
+                                    <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '6px 10px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', overflow: 'hidden' }}>
+                                        <div style={{ fontWeight: 700, fontSize: '10.5px', color: '#33200A', textAlign: 'justify', marginBottom: '3px', lineHeight: 1.4 }}>Q{i + 1}. {q.question}</div>
+                                        <div style={{ background: 'var(--ep-bg)', padding: '4px 8px', borderRadius: '3px', border: '1px solid rgba(139,69,19,0.06)', fontSize: '10px', lineHeight: 1.35 }}>
+                                            <div style={{ fontWeight: 700, color: '#1A3C6E', marginBottom: '1px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.04em' }}>Syllabus: {syllabusShort}</div>
+                                            <div style={{ fontWeight: 700, color: '#8B4513', marginBottom: '1px', fontSize: '10px' }}>Approach:</div>
+                                            <div style={{ color: '#5C3D1A', fontStyle: 'italic', fontSize: '10px' }}>{q.approach}</div>
+                                        </div>
                                     </div>
-                                </div>
-                            ))}
+                                );
+                            })}
                         </div>
-                        {/* Bottom masthead - pinned to bottom */}
-                        <div style={{ position: 'absolute', bottom: '5mm', left: '12mm', right: '12mm', background: '#CCCCCC', borderRadius: '8px', padding: '14px 20px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '20px', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
-                            <img src="/images/logo_globe.png?v=2" alt="Globe" style={{ height: '40px', objectFit: 'contain' }} crossOrigin="anonymous" />
+                        {/* Bottom masthead - in normal flow */}
+                        <div style={{ marginTop: 'auto', flexShrink: 0, background: '#CCCCCC', borderRadius: '6px', padding: '10px 20px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '16px', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
+                            <img src="/images/logo_globe.png?v=2" alt="Globe" style={{ height: '32px', objectFit: 'contain' }} crossOrigin="anonymous" />
                             <div style={{ textAlign: 'center' }}>
-                                <div style={{ fontSize: '16px', fontWeight: 800, color: '#1A3C6E', letterSpacing: '0.1em', fontFamily: "'DM Sans', system-ui, sans-serif" }}>Current IAS Prep</div>
-                                <div style={{ fontSize: '10px', color: '#3D2B1A', fontFamily: "'DM Sans', system-ui, sans-serif", marginTop: '2px' }}>Daily Current Affairs Digest for UPSC CSE Aspirants · currentiasprep.in</div>
+                                <div style={{ fontSize: '14px', fontWeight: 800, color: '#1A3C6E', letterSpacing: '0.1em', fontFamily: "'DM Sans', system-ui, sans-serif" }}>Current IAS Prep</div>
+                                <div style={{ fontSize: '9px', color: '#3D2B1A', fontFamily: "'DM Sans', system-ui, sans-serif", marginTop: '1px' }}>Daily Current Affairs Digest for UPSC CSE Aspirants · currentiasprep.in</div>
                             </div>
                         </div>
                     </div>

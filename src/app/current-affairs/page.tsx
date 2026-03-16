@@ -3,7 +3,7 @@ import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '@/contexts/LanguageProvider';
 import {
-    Search, ChevronDown, Globe, Landmark, TrendingUp,
+    Search, ChevronDown, ChevronUp, Globe, Landmark, TrendingUp,
     Clock, ExternalLink, RefreshCw, Loader2, Zap,
     CheckCircle2, AlertCircle, BookOpen, Download, Newspaper,
 } from 'lucide-react';
@@ -82,6 +82,26 @@ function renderText(textStr: string | Record<string, string>): React.ReactNode[]
             </p>
         );
     });
+}
+
+// ── Brief bullet preview (first 3 bullet points for collapsed view) ──
+
+function renderBriefBullets(textStr: string | Record<string, string>): React.ReactNode {
+    const text = typeof textStr === 'string' ? textStr : Object.entries(textStr || {}).map(([k, v]) => `${k}: ${v}`).join('\n');
+    // Extract bullet-like lines
+    const lines = text.split('\n')
+        .map(l => l.replace(/^\*\*.*?\*\*\s*/, '').replace(/^[•\-*]\s*/, '').trim())
+        .filter(l => l.length > 10);
+    const preview = lines.slice(0, 3);
+    return (
+        <div className="np-card-summary">
+            {preview.map((line, i) => (
+                <p key={i} style={{ margin: '0 0 4px', fontSize: '12.5px', lineHeight: 1.55 }}>
+                    • {line.length > 120 ? line.substring(0, 120) + '…' : line}
+                </p>
+            ))}
+        </div>
+    );
 }
 
 
@@ -262,11 +282,10 @@ export default function CurrentAffairsPage() {
                         className="np-btn np-btn-red">
                         <Download size={13} /> Download PDF
                     </a>
-                    <button onClick={generate} disabled={genLoading}
+                    <a href="/daily-epaper/archive"
                         className="np-btn np-btn-outline">
-                        {genLoading ? <><Loader2 size={13} className="animate-spin" /> Generating…</>
-                            : <><RefreshCw size={13} /> Generate</>}
-                    </button>
+                        <Newspaper size={13} /> ePaper Archive
+                    </a>
 
                 </div>
                 <AnimatePresence>
@@ -438,7 +457,7 @@ export default function CurrentAffairsPage() {
 }
 
 // ═════════════════════════════════════════════════════════════════════════
-// CARD
+// CARD (Collapsible)
 // ═════════════════════════════════════════════════════════════════════════
 
 function Card({ a, open, toggle }: { a: EpaperArticle; open: boolean; toggle: () => void }) {
@@ -452,7 +471,7 @@ function Card({ a, open, toggle }: { a: EpaperArticle; open: boolean; toggle: ()
                 <span className="np-badge gs" style={{ marginLeft: 'auto' }}>{a.gsPaper}</span>
             </div>
 
-            <h3 onClick={toggle} style={{ marginTop: '16px' }}>{a.headline}</h3>
+            <h3 onClick={toggle} style={{ marginTop: '16px', cursor: 'pointer' }}>{a.headline}</h3>
 
             <div className="np-card-foot" style={{ marginTop: '16px', marginBottom: '12px' }}>
                 <span>{a.source} · {a.date}</span>
@@ -464,51 +483,78 @@ function Card({ a, open, toggle }: { a: EpaperArticle; open: boolean; toggle: ()
                 )}
             </div>
 
-            <div className="np-badges" style={{ marginBottom: '16px' }}>
+            <div className="np-badges" style={{ marginBottom: '12px' }}>
                 {a.importance === 'high' && <span className="np-badge hi">★ HIGH</span>}
                 {a.prelims && <span className="np-badge pr">PRELIMS</span>}
                 {a.mains && <span className="np-badge ma">MAINS</span>}
             </div>
 
-            <div className="np-detail" style={{ margin: 0, padding: 0, border: 'none', background: 'transparent' }}>
-                <div className="np-detail-body" style={{ columnCount: 1, fontSize: '13px' }}>
-                    {renderText(a.explainer)}
-                </div>
+            {/* ── Collapsed: Brief bullet summary ── */}
+            {!open && (
+                <>
+                    {renderBriefBullets(a.explainer)}
+                    <button className="np-read-btn" onClick={toggle}>
+                        Read more <ChevronDown size={11} />
+                    </button>
+                </>
+            )}
 
-                {a.keyTerms?.length > 0 && (
-                    <div className="np-terms-box" style={{ marginTop: 16, marginBottom: 12 }}>
-                        <div className="np-terms-label">Key Terms</div>
-                        <div className="np-terms-list">
-                            {a.keyTerms.map(k => <span key={k} className="np-term" style={{ fontSize: '9px' }}>{k}</span>)}
+            {/* ── Expanded: Full detail panel ── */}
+            <AnimatePresence>
+                {open && (
+                    <motion.div
+                        initial={{ opacity: 0, height: 0 }}
+                        animate={{ opacity: 1, height: 'auto' }}
+                        exit={{ opacity: 0, height: 0 }}
+                        transition={{ duration: 0.25 }}
+                        style={{ overflow: 'hidden' }}>
+                        <div className="np-detail" style={{ margin: 0, padding: 0, border: 'none', background: 'transparent' }}>
+                            <div className="np-detail-body" style={{ columnCount: 1, fontSize: '13px' }}>
+                                {renderText(a.explainer)}
+                            </div>
+
+                            {a.keyTerms?.length > 0 && (
+                                <div className="np-terms-box" style={{ marginTop: 16, marginBottom: 12 }}>
+                                    <div className="np-terms-label">Key Terms</div>
+                                    <div className="np-terms-list">
+                                        {a.keyTerms.map(k => <span key={k} className="np-term" style={{ fontSize: '9px' }}>{k}</span>)}
+                                    </div>
+                                </div>
+                            )}
+
+                            <div className="np-detail-2col" style={{ display: 'flex', flexDirection: 'column', gap: 10, marginTop: 12 }}>
+                                {a.prelims && a.prelimsPoints?.length > 0 && (
+                                    <div className="np-ptr pre">
+                                        <div className="np-ptr-title">📝 Prelims</div>
+                                        <ul>{a.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
+                                    </div>
+                                )}
+                                {a.mains && a.mainsPoints?.length > 0 && (
+                                    <div className="np-ptr mai">
+                                        <div className="np-ptr-title">✍️ Mains</div>
+                                        <ul>{a.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
+                                    </div>
+                                )}
+                            </div>
+
+                            {a.tags?.length > 0 && (
+                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: 3, marginTop: 10 }}>
+                                    {a.tags.map(t => (
+                                        <span key={t} style={{
+                                            fontSize: 9, padding: '2px 5px', background: 'var(--np-rule)', borderRadius: 2, color: 'var(--np-ink-2)'
+                                        }}>#{t}</span>
+                                    ))}
+                                </div>
+                            )}
+
+                            <button className="np-read-btn" onClick={toggle} style={{ marginTop: 10 }}>
+                                Read less <ChevronUp size={11} />
+                            </button>
                         </div>
-                    </div>
+                    </motion.div>
                 )}
-
-                <div className="np-detail-2col" style={{ display: 'flex', flexDirection: 'column', gap: 10, marginTop: 12 }}>
-                    {a.prelims && a.prelimsPoints?.length > 0 && (
-                        <div className="np-ptr pre">
-                            <div className="np-ptr-title">📝 Prelims</div>
-                            <ul>{a.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
-                        </div>
-                    )}
-                    {a.mains && a.mainsPoints?.length > 0 && (
-                        <div className="np-ptr mai">
-                            <div className="np-ptr-title">✍️ Mains</div>
-                            <ul>{a.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}</ul>
-                        </div>
-                    )}
-                </div>
-
-                {a.tags?.length > 0 && (
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: 3, marginTop: 10 }}>
-                        {a.tags.map(t => (
-                            <span key={t} style={{
-                                fontSize: 9, padding: '2px 5px', background: 'var(--np-rule)', borderRadius: 2, color: 'var(--np-ink-2)'
-                            }}>#{t}</span>
-                        ))}
-                    </div>
-                )}
-            </div>
+            </AnimatePresence>
         </div>
     );
 }
+
