@@ -49,7 +49,7 @@ export async function sendDailyEpaperEmail(date: string) {
 
     const mailOptions: any = {
         from: `"CurrentIAS Prep" <${process.env.SMTP_USER || 'no-reply@currentiasprep.in'}>`,
-        to: 'mgt.valavan@gmail.com',
+        to: 'mgt.valavan@gmail.com, sunnyarya1988@gmail.com, remeshvet@gmail.com',
         subject: `Your Daily UPSC ePaper is Ready! (${date})`,
         html: `
             <div style="font-family: Arial, sans-serif; padding: 30px; color: #33200A; background-color: #FFF1E5; border-radius: 12px; max-width: 600px; margin: 0 auto; border: 1px solid #C9A87C;">
@@ -99,7 +99,7 @@ export async function sendDailyEpaperEmail(date: string) {
             return;
         }
         await transporter.sendMail(mailOptions);
-        console.log(`[mailer] ✅ Successfully sent ePaper email with PDF attachment to mgt.valavan@gmail.com for ${date}`);
+        console.log(`[mailer] ✅ Successfully sent ePaper email with PDF attachment to 3 recipients for ${date}`);
     } catch (err: any) {
         console.error(`[mailer] Failed to send email: ${err.message}`);
     }
