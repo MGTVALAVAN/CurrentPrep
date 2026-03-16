@@ -52,6 +52,23 @@ interface MainsMockQuestion {
     approach: string;
 }
 
+interface CsatComprehension {
+    passage: string;
+    questions: {
+        question: string;
+        options: string[];
+        answer: string;
+        explanation: string;
+    }[];
+}
+
+interface CsatReasoning {
+    question: string;
+    options: string[];
+    answer: string;
+    explanation: string;
+}
+
 interface DailyEpaper {
     date: string;
     dateFormatted: string;
@@ -65,6 +82,10 @@ interface DailyEpaper {
     highlights: string[];
     prelimsMocks?: MockQuestion[];
     mainsMocks?: MainsMockQuestion[];
+    csatMocks?: {
+        comprehension: CsatComprehension[];
+        reasoning: CsatReasoning[];
+    };
 }
 
 // ── Helpers ─────────────────────────────────────────────────────────────────
@@ -310,6 +331,66 @@ async function main(): Promise<void> {
         check(`Mains approach text substantive (${shortApproaches.length} too short)`, false, false);
     } else {
         check(`All mains approach texts are substantive (>30 chars)`, true);
+    }
+
+    // ── 9b. CSAT Mock Questions ─────────────────────────────────────────────
+    section('9b. CSAT MOCK QUESTIONS');
+
+    const csatMocks = epaper.csatMocks;
+    check(`CSAT mocks object exists`, !!csatMocks);
+
+    if (csatMocks) {
+        // Comprehension
+        const comprehension = csatMocks.comprehension || [];
+        check(`CSAT comprehension passages exist (got ${comprehension.length})`, comprehension.length > 0);
+        check(`At least 1 comprehension passage`, comprehension.length >= 1);
+
+        comprehension.forEach((passage, i) => {
+            const issues: string[] = [];
+            if (!passage.passage || passage.passage.length < 50) issues.push('passage text too short or missing');
+            if (!passage.questions || passage.questions.length === 0) issues.push('no questions');
+            passage.questions?.forEach((q, qi) => {
+                if (!q.question || q.question.length < 10) issues.push(`Q${qi + 1}: question too short`);
+                if (!q.options || q.options.length !== 4) issues.push(`Q${qi + 1}: expected 4 options, got ${q.options?.length || 0}`);
+                if (!q.answer) issues.push(`Q${qi + 1}: missing answer`);
+                if (!q.explanation) issues.push(`Q${qi + 1}: missing explanation`);
+            });
+
+            if (issues.length > 0) {
+                console.log(`  ${WARN} Passage ${i + 1}: ${issues.join(', ')}`);
+            }
+        });
+
+        if (comprehension.length > 0 && comprehension.every(p => p.passage && p.questions?.length > 0)) {
+            console.log(`  ${PASS} All comprehension passages have complete structure`);
+        }
+
+        // Reasoning
+        const reasoning = csatMocks.reasoning || [];
+        check(`CSAT reasoning questions exist (got ${reasoning.length})`, reasoning.length > 0);
+        check(`At least 4 reasoning questions (got ${reasoning.length})`, reasoning.length >= 4);
+
+        reasoning.forEach((q, i) => {
+            const issues: string[] = [];
+            if (!q.question || q.question.length < 10) issues.push('question too short');
+            if (!q.options || q.options.length !== 4) issues.push(`expected 4 options, got ${q.options?.length || 0}`);
+            if (!q.answer) issues.push('missing answer');
+            if (!q.explanation) issues.push('missing explanation');
+
+            if (issues.length > 0) {
+                console.log(`  ${WARN} Reasoning Q${i + 1}: ${issues.join(', ')}`);
+            }
+        });
+
+        if (reasoning.every(q => q.question && q.options?.length === 4 && q.answer && q.explanation)) {
+            console.log(`  ${PASS} All reasoning questions have complete structure`);
+        }
+
+        // Total CSAT questions count
+        const totalCsatQs = comprehension.reduce((sum, p) => sum + (p.questions?.length || 0), 0) + reasoning.length;
+        console.log(`  📊 Total CSAT questions: ${totalCsatQs} (${comprehension.reduce((s, p) => s + (p.questions?.length || 0), 0)} comprehension + ${reasoning.length} reasoning)`);
+    } else {
+        check(`CSAT mocks data present`, false);
     }
 
     // ── 10. Trivia Check ────────────────────────────────────────────────────
