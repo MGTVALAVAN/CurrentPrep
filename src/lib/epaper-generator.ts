@@ -69,12 +69,26 @@ export interface CsatComprehension {
     }[];
 }
 
+export type CsatReasoningCategory =
+    | 'syllogism'
+    | 'statement_assumption'
+    | 'statement_conclusion'
+    | 'coding_decoding'
+    | 'blood_relation'
+    | 'direction_sense'
+    | 'series_sequence'
+    | 'seating_arrangement'
+    | 'puzzle'
+    | 'data_sufficiency'
+    | 'decision_making'
+    | 'cause_effect';
+
 export interface CsatReasoning {
     question: string;
     options: string[];
     answer: string;
     explanation: string;
-    category: string; // 'logical' | 'quantitative' | 'verbal' | 'decision-making'
+    category: CsatReasoningCategory;
 }
 
 export interface DailyEpaper {
@@ -621,8 +635,8 @@ Return ONLY valid JSON matching this structure:
 
 /**
  * Generates CSAT (Paper II) mock questions:
- * - Comprehension: editorial-style passages with MCQs
- * - Logical Reasoning: analytical/quantitative/verbal MCQs
+ * - Comprehension: editorial-style passages with MCQs (news-themed)
+ * - Logical Reasoning: content-neutral, pure aptitude MCQs (authentic UPSC pattern)
  */
 async function generateCsatMocks(
     articles: EpaperArticle[],
@@ -635,23 +649,77 @@ async function generateCsatMocks(
         .map((a) => `- Theme: ${a.headline}\n  Context: ${typeof a.explainer === 'string' ? a.explainer.slice(0, 200) : ''}`)
         .join('\n');
 
-    const prompt = `You are a UPSC CSAT (Civil Services Aptitude Test — Paper II) question setter. Generate questions in TWO categories based on the editorial themes below.
+    // Day-based rotation for Q3 and Q4 to provide variety
+    const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000);
+    const q3Types = [
+        { type: 'coding_decoding', label: 'Coding-Decoding', instruction: 'Create a coding-decoding question where letters/words are encoded using a specific rule (e.g., letter shifts, position-based values, or symbol substitution). The examinee must decode a new word/number using the same rule. Example: "If APPLE is coded as ELPPA, how is MANGO coded?"' },
+        { type: 'blood_relation', label: 'Blood Relations', instruction: 'Create a blood relation puzzle involving 4-6 family members. Use indirect descriptions (e.g., "A is the son of B\'s mother\'s husband"). Ask how two people are related. The answer must be logically derivable, not ambiguous.' },
+        { type: 'direction_sense', label: 'Direction & Distance', instruction: 'Create a direction sense problem. A person walks in different compass directions (N/S/E/W) with specific turns and distances. Ask for the final distance from the starting point or the direction faced. Example: "Ram walks 10km north, turns right, walks 6km, turns right again and walks 10km. How far is he from the starting point?"' },
+    ];
+    const q4Types = [
+        { type: 'series_sequence', label: 'Series & Sequence', instruction: 'Create a number series or letter series completion question. The series should follow a clear logical pattern (e.g., differences doubling, alternating operations, prime number patterns). Example: "What comes next in the series: 2, 6, 14, 30, 62, ?"' },
+        { type: 'seating_arrangement', label: 'Seating Arrangement', instruction: 'Create a linear or circular seating arrangement puzzle. Give 5-6 people with constraints about who sits next to whom, who is at which end, etc. Ask a specific question about the arrangement. Keep it solvable with the given clues. Example: "Six friends A, B, C, D, E, and F sit in a row facing north. B sits to the immediate left of D. A sits at one end..."' },
+        { type: 'puzzle', label: 'Logic Puzzle', instruction: 'Create a logic grid puzzle matching 4-5 people to attributes (e.g., profession, city, age). Give 3-4 clues and ask which combination is correct. Example: "Four friends have different professions — doctor, teacher, engineer, artist. Using the clues: (i) A is not a doctor (ii) B lives in the same city as the teacher (iii)... Determine who is the engineer."' },
+    ];
+    const q3Pick = q3Types[dayOfYear % q3Types.length];
+    const q4Pick = q4Types[dayOfYear % q4Types.length];
 
-EDITORIAL THEMES FROM TODAY'S NEWS:
+    console.log(`[epaper-gen] Today's CSAT rotation: Q3=${q3Pick.label}, Q4=${q4Pick.label}`);
+
+    const prompt = `You are a UPSC CSAT (Civil Services Aptitude Test — Paper II) question setter.
+
+You must generate questions in TWO categories. CATEGORY 1 uses news themes. CATEGORY 2 must be CONTENT-NEUTRAL (pure logic/aptitude — no current affairs knowledge required).
+
+EDITORIAL THEMES (used ONLY for Category 1 Comprehension):
 ${editorialThemes}
 
-CATEGORY 1 — COMPREHENSION (2 passages):
+═══════════════════════════════════════════
+CATEGORY 1 — COMPREHENSION (2 passages)
+═══════════════════════════════════════════
 For each passage:
-- Write an editorial-style passage of 200-250 words on a theme from today's news. The passage should be analytical, opinion-based prose (like editorials from The Hindu, The Guardian, or The Economist). Do NOT copy exact quotes — create original analytical text.
+- Write an editorial-style passage of 200-250 words on a theme from today's news.
+- The passage should be analytical, opinion-based prose (like editorials from The Hindu or The Economist).
+- Create original analytical text — do NOT copy exact quotes.
 - Each passage must have 3-4 MCQ questions testing: main idea, inference, author's attitude, logical conclusion, meaning in context.
-- Questions should test reading comprehension skills, NOT factual recall.
+- Questions must test reading comprehension skills, NOT factual recall.
 
-CATEGORY 2 — LOGICAL REASONING (5 questions):
-Generate 5 MCQs covering these CSAT Paper II patterns:
-- 1-2 Logical reasoning (syllogisms, assumptions, conclusions, cause-effect)
-- 1-2 Quantitative/Data interpretation (percentages, ratios, simple math word problems)
-- 1 Decision making / problem solving
-Each question should have 4 options, one correct answer, and a brief explanation.
+═══════════════════════════════════════════
+CATEGORY 2 — LOGICAL REASONING (5 questions)
+═══════════════════════════════════════════
+
+⚠️ CRITICAL: These 5 questions must be COMPLETELY INDEPENDENT of any news content. They test pure logical/analytical aptitude using abstract or everyday scenarios. Do NOT reference any current events, policies, government schemes, or news headlines.
+
+Generate exactly 5 questions as follows:
+
+**Q1 — SYLLOGISM (category: "syllogism")**
+Give 2-3 statements using "All", "Some", "No" format and ask which conclusion(s) logically follow.
+Example style:
+"Statements: 1. All managers are leaders. 2. Some leaders are teachers. 3. No teacher is a doctor.
+Conclusions: I. Some managers are teachers. II. No manager is a doctor.
+Which of the above conclusions logically follows?"
+Options should be: "Only I", "Only II", "Both I and II", "Neither I nor II"
+
+**Q2 — STATEMENT & ASSUMPTION or STATEMENT & CONCLUSION (category: "statement_assumption" or "statement_conclusion")**
+Give a general statement (about education, traffic, workplace, health, etc. — NOT about today's news) and ask which assumption is implicit or which conclusion follows.
+Example style:
+"Statement: 'The municipal corporation has decided to increase water supply timings by 2 hours in residential areas during summer.'
+Assumptions: I. Residents need more water during summer. II. The municipal corporation has enough water reserves.
+Which assumption is implicit?"
+Options: "Only I", "Only II", "Both I and II", "Neither I nor II"
+
+**Q3 — ${q3Pick.label.toUpperCase()} (category: "${q3Pick.type}")**
+${q3Pick.instruction}
+
+**Q4 — ${q4Pick.label.toUpperCase()} (category: "${q4Pick.type}")**
+${q4Pick.instruction}
+
+**Q5 — DECISION MAKING (category: "decision_making")**
+Present a scenario where a person (a manager, teacher, officer, etc.) faces a dilemma in everyday professional life. Give 4 possible courses of action. Ask which is the MOST appropriate course of action.
+Example style:
+"You are the principal of a school. During the annual examination, a teacher reports that a student was found with a cheat sheet. What is the most appropriate course of action?"
+Do NOT use politically charged or news-related scenarios.
+
+═══════════════════════════════════════════
 
 Return ONLY valid JSON matching this exact structure:
 {
@@ -665,14 +733,19 @@ Return ONLY valid JSON matching this exact structure:
     }
   ],
   "reasoning": [
-    { "question": "...", "options": ["A. ...", "B. ...", "C. ...", "D. ..."], "answer": "The correct option text exactly", "explanation": "Step-by-step solution...", "category": "logical" }
+    { "question": "Full question text with all statements/data...", "options": ["A. ...", "B. ...", "C. ...", "D. ..."], "answer": "The correct option text exactly", "explanation": "Step-by-step solution...", "category": "syllogism" }
   ]
-}`;
+}
+
+IMPORTANT:
+- Each reasoning question MUST include the "category" field with one of: "syllogism", "statement_assumption", "statement_conclusion", "coding_decoding", "blood_relation", "direction_sense", "series_sequence", "seating_arrangement", "puzzle", "decision_making"
+- Reasoning questions must be SELF-CONTAINED — all information needed to solve the question must be in the question text itself.
+- Ensure all questions have exactly 4 options, one correct answer, and a clear step-by-step explanation.`;
 
     const requestBody = {
         contents: [{ role: 'user', parts: [{ text: prompt }] }],
         generationConfig: {
-            temperature: 0.4,
+            temperature: 0.6,
             topP: 0.85,
             maxOutputTokens: 16384,
             responseMimeType: 'application/json',

@@ -67,6 +67,7 @@ interface CsatReasoning {
     options: string[];
     answer: string;
     explanation: string;
+    category?: string;
 }
 
 interface DailyEpaper {
@@ -384,6 +385,19 @@ async function main(): Promise<void> {
 
         if (reasoning.every(q => q.question && q.options?.length === 4 && q.answer && q.explanation)) {
             console.log(`  ${PASS} All reasoning questions have complete structure`);
+        }
+
+        // Check category diversity
+        const validCategories = ['syllogism', 'statement_assumption', 'statement_conclusion', 'coding_decoding', 'blood_relation', 'direction_sense', 'series_sequence', 'seating_arrangement', 'puzzle', 'data_sufficiency', 'decision_making', 'cause_effect'];
+        const categories = reasoning.map(q => q.category).filter(Boolean);
+        const uniqueCategories = Array.from(new Set(categories));
+        if (categories.length > 0) {
+            console.log(`  📊 Reasoning categories: ${uniqueCategories.join(', ')}`);
+            const invalidCats = categories.filter(c => !validCategories.includes(c!));
+            if (invalidCats.length > 0) {
+                console.log(`  ${WARN} Unknown categories: ${invalidCats.join(', ')}`);
+            }
+            check(`At least 3 distinct reasoning categories`, uniqueCategories.length >= 3);
         }
 
         // Total CSAT questions count

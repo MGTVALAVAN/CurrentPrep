@@ -57,6 +57,7 @@ interface CsatReasoning {
     options: string[];
     answer: string;
     explanation: string;
+    category?: string;
 }
 
 interface DailyEpaper {
@@ -724,8 +725,16 @@ export default function EpaperPrintView({ date }: { date: string }) {
                             {/* RIGHT COLUMN: Reasoning */}
                             <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '3px', overflow: 'hidden' }}>
                                 <div style={{ fontWeight: 700, fontSize: '9px', color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '1px' }}>LOGICAL REASONING</div>
-                                {epaper.csatMocks.reasoning?.slice(0, 3).map((q, ri) => (
+                                {epaper.csatMocks.reasoning?.slice(0, 3).map((q, ri) => {
+                                    const catLabels: Record<string, string> = {
+                                        syllogism: 'Syllogism', statement_assumption: 'Assumption', statement_conclusion: 'Conclusion',
+                                        coding_decoding: 'Coding-Decoding', blood_relation: 'Blood Relation', direction_sense: 'Direction',
+                                        series_sequence: 'Series', seating_arrangement: 'Arrangement', puzzle: 'Puzzle',
+                                        data_sufficiency: 'Data Sufficiency', decision_making: 'Decision Making', cause_effect: 'Cause & Effect',
+                                    };
+                                    return (
                                     <div key={ri} style={{ background: 'rgba(255,255,255,0.5)', padding: '3px 6px', borderRadius: '3px', border: '1px solid rgba(0,121,107,0.1)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', overflow: 'hidden' }}>
+                                        {q.category && <div style={{ fontSize: '7px', fontWeight: 700, color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '1px', opacity: 0.8 }}>{catLabels[q.category] || q.category}</div>}
                                         <div style={{ fontWeight: 700, fontSize: '9px', color: '#33200A', marginBottom: '1px', lineHeight: 1.3 }}>Q{ri + 1}. {q.question}</div>
                                         <div style={{ marginLeft: '6px', fontSize: '9px', color: '#5C3D1A', lineHeight: 1.25, marginBottom: '1px' }}>
                                             {q.options?.map((opt, oi) => <div key={oi}>{opt}</div>)}
@@ -735,7 +744,8 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                             <span style={{ color: '#33200A' }}>{q.answer}</span>
                                         </div>
                                     </div>
-                                ))}
+                                    );
+                                })}
                             </div>
                         </div>
                     </div>
