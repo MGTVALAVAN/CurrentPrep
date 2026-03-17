@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UPSC Prelims Mock Test — Current IAS Prep</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-primary: #0a0e1a;
+      --bg-secondary: #111827;
+      --bg-card: #1a2236;
+      --bg-hover: #243049;
+      --text-primary: #f1f5f9;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --accent: #6366f1;
+      --accent-hover: #818cf8;
+      --accent-glow: rgba(99, 102, 241, 0.3);
+      --green: #22c55e;
+      --green-bg: rgba(34, 197, 94, 0.15);
+      --red: #ef4444;
+      --red-bg: rgba(239, 68, 68, 0.15);
+      --orange: #f59e0b;
+      --orange-bg: rgba(245, 158, 11, 0.15);
+      --blue: #3b82f6;
+      --blue-bg: rgba(59, 130, 246, 0.15);
+      --purple: #a855f7;
+      --border: #1e293b;
+      --radius: 12px;
+      --shadow: 0 8px 32px rgba(0,0,0,0.3);
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', -apple-system, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* ===== LANDING PAGE ===== */
+    #landing {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 2rem;
+      background: radial-gradient(ellipse at 50% 0%, rgba(99,102,241,0.12) 0%, transparent 60%);
+    }
+
+    .landing-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 3rem;
+      max-width: 620px;
+      width: 100%;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+
+    .landing-card .badge {
+      display: inline-block;
+      padding: 6px 16px;
+      background: var(--accent-glow);
+      color: var(--accent-hover);
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      margin-bottom: 1.5rem;
+    }
+
+    .landing-card h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #fff, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.75rem;
+    }
+
+    .landing-card .subtitle {
+      color: var(--text-secondary);
+      font-size: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 2rem;
+    }
+
+    .info-item {
+      background: var(--bg-secondary);
+      border-radius: var(--radius);
+      padding: 1rem;
+      text-align: left;
+    }
+
+    .info-item .label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 4px;
+    }
+
+    .info-item .value {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .rules-box {
+      background: var(--bg-secondary);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      text-align: left;
+      margin-bottom: 2rem;
+    }
+
+    .rules-box h3 {
+      font-size: 0.85rem;
+      color: var(--orange);
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .rules-box ul {
+      list-style: none;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
+    }
+
+    .rules-box ul li::before {
+      content: "•";
+      color: var(--accent);
+      font-weight: bold;
+      margin-right: 8px;
+    }
+
+    .btn-start {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 16px 48px;
+      background: linear-gradient(135deg, var(--accent), #7c3aed);
+      color: white;
+      font-size: 1.1rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 14px;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 24px var(--accent-glow);
+    }
+
+    .btn-start:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px var(--accent-glow);
+    }
+
+    /* ===== EXAM INTERFACE ===== */
+    #exam { display: none; }
+
+    .exam-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 64px;
+      background: var(--bg-secondary);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      z-index: 100;
+      backdrop-filter: blur(12px);
+    }
+
+    .exam-header .title {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .exam-header .title span {
+      color: var(--accent-hover);
+    }
+
+    .timer {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 20px;
+      background: var(--bg-card);
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 1.15rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .timer.warning { color: var(--orange); background: var(--orange-bg); }
+    .timer.danger { color: var(--red); background: var(--red-bg); animation: pulse 1s infinite; }
+
+    @keyframes pulse {
+      0%,100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+
+    .exam-body {
+      display: flex;
+      margin-top: 64px;
+      height: calc(100vh - 64px);
+    }
+
+    /* Question Panel */
+    .question-panel {
+      flex: 1;
+      padding: 2rem 3rem;
+      overflow-y: auto;
+    }
+
+    .q-counter {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .q-difficulty {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .q-difficulty.easy { background: var(--green-bg); color: var(--green); }
+    .q-difficulty.medium { background: var(--orange-bg); color: var(--orange); }
+    .q-difficulty.hard { background: var(--red-bg); color: var(--red); }
+
+    .q-text {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+      white-space: pre-wrap;
+    }
+
+    .options-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 2rem;
+    }
+
+    .option-btn {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      padding: 16px 20px;
+      background: var(--bg-card);
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: left;
+      font-size: 1rem;
+      color: var(--text-primary);
+      line-height: 1.6;
+    }
+
+    .option-btn:hover {
+      background: var(--bg-hover);
+      border-color: var(--accent);
+    }
+
+    .option-btn.selected {
+      background: var(--accent-glow);
+      border-color: var(--accent);
+    }
+
+    .option-btn .opt-label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 32px;
+      height: 32px;
+      background: var(--bg-secondary);
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      flex-shrink: 0;
+    }
+
+    .option-btn.selected .opt-label {
+      background: var(--accent);
+      color: white;
+    }
+
+    /* Review in results */
+    .option-btn.correct { border-color: var(--green); background: var(--green-bg); }
+    .option-btn.wrong { border-color: var(--red); background: var(--red-bg); }
+    .option-btn.correct .opt-label { background: var(--green); color: white; }
+    .option-btn.wrong .opt-label { background: var(--red); color: white; }
+
+    .q-actions {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 10px 24px;
+      border-radius: 10px;
+      border: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+    .btn-primary:hover { background: var(--accent-hover); }
+
+    .btn-secondary {
+      background: var(--bg-card);
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+    }
+    .btn-secondary:hover { background: var(--bg-hover); color: var(--text-primary); }
+
+    .btn-mark {
+      background: var(--orange-bg);
+      color: var(--orange);
+      border: 1px solid rgba(245,158,11,0.3);
+    }
+    .btn-mark.marked {
+      background: var(--orange);
+      color: white;
+    }
+
+    .btn-submit {
+      background: linear-gradient(135deg, var(--green), #16a34a);
+      color: white;
+      padding: 12px 32px;
+      font-size: 1rem;
+    }
+    .btn-submit:hover { transform: translateY(-1px); box-shadow: 0 4px 16px rgba(34,197,94,0.3); }
+
+    .btn-clear {
+      background: transparent;
+      color: var(--text-muted);
+      text-decoration: underline;
+      border: none;
+      cursor: pointer;
+      font-size: 0.85rem;
+    }
+
+    /* Navigation Sidebar */
+    .nav-sidebar {
+      width: 300px;
+      background: var(--bg-secondary);
+      border-left: 1px solid var(--border);
+      padding: 1.5rem;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .nav-stats {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 8px;
+      margin-bottom: 1.5rem;
+    }
+
+    .nav-stat {
+      padding: 8px 10px;
+      border-radius: 8px;
+      font-size: 0.75rem;
+      text-align: center;
+    }
+
+    .nav-stat .num {
+      font-size: 1.2rem;
+      font-weight: 800;
+      display: block;
+    }
+
+    .nav-stat.answered { background: var(--green-bg); color: var(--green); }
+    .nav-stat.not-answered { background: var(--red-bg); color: var(--red); }
+    .nav-stat.marked { background: var(--orange-bg); color: var(--orange); }
+    .nav-stat.not-visited { background: rgba(100,116,139,0.15); color: var(--text-muted); }
+
+    .nav-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 6px;
+      flex: 1;
+      align-content: start;
+    }
+
+    .nav-btn {
+      width: 100%;
+      aspect-ratio: 1;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg-card);
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.15s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .nav-btn:hover { border-color: var(--accent); }
+    .nav-btn.active { border-color: var(--accent); background: var(--accent); color: white; }
+    .nav-btn.answered { background: var(--green-bg); border-color: var(--green); color: var(--green); }
+    .nav-btn.marked { background: var(--orange-bg); border-color: var(--orange); color: var(--orange); }
+    .nav-btn.marked.answered { background: linear-gradient(135deg, var(--green-bg), var(--orange-bg)); border-color: var(--orange); color: var(--orange); }
+
+    .nav-submit-area {
+      margin-top: auto;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .nav-submit-area .btn-submit {
+      width: 100%;
+    }
+
+    /* ===== RESULTS ===== */
+    #results { display: none; padding: 2rem; }
+
+    .results-container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .results-header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .results-header h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      margin-bottom: 0.5rem;
+    }
+
+    .score-circle {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      margin: 1.5rem 0;
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+
+    .score-circle.good { background: var(--green-bg); color: var(--green); border: 3px solid var(--green); }
+    .score-circle.average { background: var(--orange-bg); color: var(--orange); border: 3px solid var(--orange); }
+    .score-circle.poor { background: var(--red-bg); color: var(--red); border: 3px solid var(--red); }
+
+    .results-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      margin-bottom: 2rem;
+    }
+
+    .result-card {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      padding: 1.25rem;
+      text-align: center;
+      border: 1px solid var(--border);
+    }
+
+    .result-card .label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .result-card .value {
+      font-size: 1.6rem;
+      font-weight: 800;
+      margin-top: 4px;
+    }
+
+    .subject-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+    }
+
+    .subject-table th {
+      padding: 12px 16px;
+      background: var(--bg-card);
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .subject-table td {
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.95rem;
+    }
+
+    .accuracy-bar {
+      width: 100%;
+      height: 8px;
+      background: var(--bg-secondary);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .accuracy-bar .fill {
+      height: 100%;
+      border-radius: 4px;
+      transition: width 0.8s ease;
+    }
+
+    .explanation-box {
+      background: var(--bg-secondary);
+      border-left: 3px solid var(--accent);
+      padding: 12px 16px;
+      border-radius: 0 8px 8px 0;
+      margin-top: 12px;
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+
+    .review-section {
+      margin-top: 2rem;
+    }
+
+    .review-q {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 16px;
+    }
+
+    .review-q .q-status {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .review-q .q-status.correct { background: var(--green-bg); color: var(--green); }
+    .review-q .q-status.wrong { background: var(--red-bg); color: var(--red); }
+    .review-q .q-status.skipped { background: rgba(100,116,139,0.15); color: var(--text-muted); }
+
+    .hidden { display: none !important; }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+
+    .modal {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2.5rem;
+      max-width: 440px;
+      width: 90%;
+      text-align: center;
+    }
+
+    .modal h2 { margin-bottom: 1rem; font-size: 1.3rem; }
+    .modal p { color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.6; }
+    .modal .btn-row { display: flex; gap: 12px; justify-content: center; }
+
+    @media (max-width: 768px) {
+      .nav-sidebar { display: none; }
+      .question-panel { padding: 1.5rem; }
+      .info-grid { grid-template-columns: 1fr; }
+      .results-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== LANDING PAGE ===== -->
+  <div id="landing">
+    <div class="landing-card">
+      <div class="badge">🏛️ CURRENT IAS PREP</div>
+      <h1>History Mock Test 1</h1>
+      <p class="subtitle">UPSC Prelims 2026 — Subject-Wise Test Series</p>
+
+      <div class="info-grid">
+        <div class="info-item">
+          <div class="label">Questions</div>
+          <div class="value" id="info-total">100</div>
+        </div>
+        <div class="info-item">
+          <div class="label">Duration</div>
+          <div class="value">2 Hours</div>
+        </div>
+        <div class="info-item">
+          <div class="label">Correct Answer</div>
+          <div class="value" style="color:var(--green)">+2.00</div>
+        </div>
+        <div class="info-item">
+          <div class="label">Wrong Answer</div>
+          <div class="value" style="color:var(--red)">−0.66</div>
+        </div>
+      </div>
+
+      <div class="rules-box">
+        <h3>⚠️ Exam Instructions</h3>
+        <ul>
+          <li>All questions are compulsory. Choose the best answer.</li>
+          <li>There is 1/3rd negative marking for wrong answers.</li>
+          <li>No marks are deducted for unanswered questions.</li>
+          <li>You can mark questions for review and revisit them.</li>
+          <li>The test will auto-submit when time expires.</li>
+        </ul>
+      </div>
+
+      <button class="btn-start" onclick="startExam()">
+        🚀 Start Exam
+      </button>
+    </div>
+  </div>
+
+  <!-- ===== EXAM INTERFACE ===== -->
+  <div id="exam">
+    <div class="exam-header">
+      <div class="title">🏛️ <span>History</span> Mock Test 1</div>
+      <div class="timer" id="timer">⏱ 02:00:00</div>
+    </div>
+
+    <div class="exam-body">
+      <div class="question-panel" id="questionPanel">
+        <!-- Rendered dynamically -->
+      </div>
+
+      <div class="nav-sidebar">
+        <div class="nav-stats">
+          <div class="nav-stat answered"><span class="num" id="stat-answered">0</span>Answered</div>
+          <div class="nav-stat not-answered"><span class="num" id="stat-unanswered">100</span>Unanswered</div>
+          <div class="nav-stat marked"><span class="num" id="stat-marked">0</span>Marked</div>
+          <div class="nav-stat not-visited"><span class="num" id="stat-not-visited">99</span>Not Visited</div>
+        </div>
+
+        <div class="nav-grid" id="navGrid">
+          <!-- Rendered dynamically -->
+        </div>
+
+        <div class="nav-submit-area">
+          <button class="btn btn-submit" onclick="confirmSubmit()">Submit Test</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== RESULTS PAGE ===== -->
+  <div id="results">
+    <!-- Rendered dynamically -->
+  </div>
+
+  <!-- ===== CONFIRM MODAL ===== -->
+  <div class="modal-overlay hidden" id="confirmModal">
+    <div class="modal">
+      <h2>⚠️ Submit Test?</h2>
+      <p id="modalText">You have answered 0 out of 100 questions.<br>Unanswered questions will not be marked.</p>
+      <div class="btn-row">
+        <button class="btn btn-secondary" onclick="closeModal()">Go Back</button>
+        <button class="btn btn-submit" onclick="submitExam()">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ===== STATE =====
+    let mockData = null;
+    let currentQ = 0;
+    let answers = {};       // { qIndex: 'A'|'B'|'C'|'D' }
+    let marked = new Set();
+    let visited = new Set([0]);
+    let timerInterval = null;
+    let remainingSeconds = 120 * 60; // 2 hours
+    let examStarted = false;
+
+    // ===== LOAD MOCK DATA =====
+    async function loadMock() {
+      try {
+        const res = await fetch('/data/mocks/history-mock-1.json');
+        mockData = await res.json();
+        document.getElementById('info-total').textContent = mockData.total_questions;
+        document.querySelector('.landing-card h1').textContent = mockData.title;
+        document.querySelector('.exam-header .title').innerHTML =
+          `🏛️ <span>${mockData.title}</span>`;
+      } catch (e) {
+        console.error('Failed to load mock data:', e);
+        // Try alternative path
+        try {
+          const res = await fetch('../data/mocks/history-mock-1.json');
+          mockData = await res.json();
+        } catch (e2) {
+          alert('Could not load mock test data. Ensure the server is running from mock-engine root.');
+        }
+      }
+    }
+
+    loadMock();
+
+    // ===== START =====
+    function startExam() {
+      if (!mockData) { alert('Still loading...'); return; }
+      document.getElementById('landing').style.display = 'none';
+      document.getElementById('exam').style.display = 'block';
+      examStarted = true;
+      renderNavGrid();
+      renderQuestion(0);
+      startTimer();
+    }
+
+    // ===== TIMER =====
+    function startTimer() {
+      timerInterval = setInterval(() => {
+        remainingSeconds--;
+        if (remainingSeconds <= 0) {
+          clearInterval(timerInterval);
+          submitExam();
+          return;
+        }
+        updateTimerDisplay();
+      }, 1000);
+    }
+
+    function updateTimerDisplay() {
+      const h = Math.floor(remainingSeconds / 3600);
+      const m = Math.floor((remainingSeconds % 3600) / 60);
+      const s = remainingSeconds % 60;
+      const display = `⏱ ${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+      const el = document.getElementById('timer');
+      el.textContent = display;
+      el.className = 'timer';
+      if (remainingSeconds < 300) el.classList.add('danger');
+      else if (remainingSeconds < 900) el.classList.add('warning');
+    }
+
+    // ===== NAV GRID =====
+    function renderNavGrid() {
+      const grid = document.getElementById('navGrid');
+      grid.innerHTML = '';
+      for (let i = 0; i < mockData.questions.length; i++) {
+        const btn = document.createElement('button');
+        btn.className = 'nav-btn';
+        btn.textContent = i + 1;
+        btn.onclick = () => goToQuestion(i);
+        grid.appendChild(btn);
+      }
+      updateNavGrid();
+    }
+
+    function updateNavGrid() {
+      const btns = document.querySelectorAll('.nav-btn');
+      btns.forEach((btn, i) => {
+        btn.className = 'nav-btn';
+        if (i === currentQ) btn.classList.add('active');
+        if (answers[i] !== undefined) btn.classList.add('answered');
+        if (marked.has(i)) btn.classList.add('marked');
+      });
+
+      const answered = Object.keys(answers).length;
+      const markedCount = marked.size;
+      document.getElementById('stat-answered').textContent = answered;
+      document.getElementById('stat-unanswered').textContent = mockData.questions.length - answered;
+      document.getElementById('stat-marked').textContent = markedCount;
+      document.getElementById('stat-not-visited').textContent = mockData.questions.length - visited.size;
+    }
+
+    // ===== RENDER QUESTION =====
+    function renderQuestion(index) {
+      currentQ = index;
+      visited.add(index);
+      const q = mockData.questions[index];
+      const panel = document.getElementById('questionPanel');
+
+      const diffClass = q.difficulty?.toLowerCase() || 'medium';
+      const selected = answers[index];
+
+      panel.innerHTML = `
+        <div class="q-counter">Question ${index + 1} of ${mockData.questions.length}</div>
+        <span class="q-difficulty ${diffClass}">${diffClass}</span>
+        <div class="q-text">${formatQuestion(q.question)}</div>
+        <div class="options-list">
+          ${renderOption('A', q.option_a, selected)}
+          ${renderOption('B', q.option_b, selected)}
+          ${renderOption('C', q.option_c, selected)}
+          ${renderOption('D', q.option_d, selected)}
+        </div>
+        <div class="q-actions">
+          <button class="btn btn-secondary" onclick="prevQuestion()" ${index === 0 ? 'disabled' : ''}>← Previous</button>
+          <button class="btn btn-mark ${marked.has(index) ? 'marked' : ''}" onclick="toggleMark()">
+            ${marked.has(index) ? '★ Marked' : '☆ Mark for Review'}
+          </button>
+          <button class="btn-clear" onclick="clearAnswer()">Clear Response</button>
+          <button class="btn btn-primary" onclick="nextQuestion()">
+            ${index === mockData.questions.length - 1 ? 'Finish →' : 'Next →'}
+          </button>
+        </div>
+      `;
+      updateNavGrid();
+    }
+
+    function renderOption(label, text, selected) {
+      const isSelected = selected === label;
+      return `
+        <button class="option-btn ${isSelected ? 'selected' : ''}" onclick="selectOption('${label}')">
+          <div class="opt-label">${label}</div>
+          <div>${text}</div>
+        </button>
+      `;
+    }
+
+    function formatQuestion(text) {
+      return text
+        .replace(/\\n/g, '\n')
+        .replace(/\n/g, '<br>')
+        .replace(/(\d+\.\s)/g, '<br>$1');
+    }
+
+    // ===== INTERACTIONS =====
+    function selectOption(label) {
+      answers[currentQ] = label;
+      renderQuestion(currentQ);
+    }
+
+    function clearAnswer() {
+      delete answers[currentQ];
+      renderQuestion(currentQ);
+    }
+
+    function toggleMark() {
+      if (marked.has(currentQ)) marked.delete(currentQ);
+      else marked.add(currentQ);
+      renderQuestion(currentQ);
+    }
+
+    function goToQuestion(i) { renderQuestion(i); }
+
+    function prevQuestion() {
+      if (currentQ > 0) renderQuestion(currentQ - 1);
+    }
+
+    function nextQuestion() {
+      if (currentQ < mockData.questions.length - 1) renderQuestion(currentQ + 1);
+    }
+
+    // ===== SUBMIT =====
+    function confirmSubmit() {
+      const answered = Object.keys(answers).length;
+      document.getElementById('modalText').innerHTML =
+        `You have answered <strong>${answered}</strong> out of <strong>${mockData.questions.length}</strong> questions.<br>
+        <strong>${mockData.questions.length - answered}</strong> unanswered questions will receive 0 marks.`;
+      document.getElementById('confirmModal').classList.remove('hidden');
+    }
+
+    function closeModal() {
+      document.getElementById('confirmModal').classList.add('hidden');
+    }
+
+    function submitExam() {
+      clearInterval(timerInterval);
+      document.getElementById('exam').style.display = 'none';
+      document.getElementById('confirmModal').classList.add('hidden');
+      showResults();
+    }
+
+    // ===== RESULTS =====
+    function showResults() {
+      document.getElementById('results').style.display = 'block';
+
+      let correct = 0, wrong = 0, skipped = 0;
+      const subTopicScores = {};
+
+      mockData.questions.forEach((q, i) => {
+        const userAns = answers[i];
+        const correctAns = q.correct_answer?.toUpperCase();
+        const st = q.sub_topic;
+
+        if (!subTopicScores[st]) {
+          subTopicScores[st] = { total: 0, correct: 0, wrong: 0, skipped: 0 };
+        }
+        subTopicScores[st].total++;
+
+        if (!userAns) {
+          skipped++;
+          subTopicScores[st].skipped++;
+        } else if (userAns === correctAns) {
+          correct++;
+          subTopicScores[st].correct++;
+        } else {
+          wrong++;
+          subTopicScores[st].wrong++;
+        }
+      });
+
+      const rawScore = (correct * 2) - (wrong * 0.66);
+      const maxScore = mockData.questions.length * 2;
+      const percentage = ((rawScore / maxScore) * 100).toFixed(1);
+      const accuracy = Object.keys(answers).length > 0
+        ? ((correct / Object.keys(answers).length) * 100).toFixed(1)
+        : '0.0';
+      const negativeMarks = (wrong * 0.66).toFixed(2);
+
+      const scoreClass = percentage >= 60 ? 'good' : percentage >= 40 ? 'average' : 'poor';
+
+      const subTopicLabels = {
+        'hist-ancient': 'Ancient India',
+        'hist-medieval': 'Medieval India',
+        'hist-modern': 'Modern India',
+        'hist-freedom': 'Freedom Struggle',
+        'hist-post-ind': 'Post-Independence',
+      };
+
+      let subTopicRows = '';
+      for (const [st, scores] of Object.entries(subTopicScores)) {
+        const acc = scores.correct + scores.wrong > 0
+          ? ((scores.correct / (scores.correct + scores.wrong)) * 100).toFixed(0)
+          : '—';
+        const barColor = acc >= 70 ? 'var(--green)' : acc >= 50 ? 'var(--orange)' : 'var(--red)';
+        subTopicRows += `
+          <tr>
+            <td style="font-weight:600">${subTopicLabels[st] || st}</td>
+            <td>${scores.total}</td>
+            <td style="color:var(--green)">${scores.correct}</td>
+            <td style="color:var(--red)">${scores.wrong}</td>
+            <td>${scores.skipped}</td>
+            <td>
+              <div style="display:flex;align-items:center;gap:10px">
+                <span style="min-width:40px;font-weight:700">${acc}%</span>
+                <div class="accuracy-bar"><div class="fill" style="width:${acc}%;background:${barColor}"></div></div>
+              </div>
+            </td>
+          </tr>
+        `;
+      }
+
+      // Review questions
+      let reviewHTML = '';
+      mockData.questions.forEach((q, i) => {
+        const userAns = answers[i];
+        const correctAns = q.correct_answer?.toUpperCase();
+        let status, statusClass;
+
+        if (!userAns) { status = 'Skipped'; statusClass = 'skipped'; }
+        else if (userAns === correctAns) { status = '✅ Correct'; statusClass = 'correct'; }
+        else { status = '❌ Wrong'; statusClass = 'wrong'; }
+
+        reviewHTML += `
+          <div class="review-q">
+            <span class="q-status ${statusClass}">${status}</span>
+            <span class="q-difficulty ${q.difficulty}">${q.difficulty}</span>
+            <div class="q-text" style="font-size:0.95rem;margin:10px 0">${formatQuestion(q.question)}</div>
+            <div class="options-list" style="gap:8px">
+              ${reviewOption('A', q.option_a, userAns, correctAns)}
+              ${reviewOption('B', q.option_b, userAns, correctAns)}
+              ${reviewOption('C', q.option_c, userAns, correctAns)}
+              ${reviewOption('D', q.option_d, userAns, correctAns)}
+            </div>
+            <div class="explanation-box">📖 ${q.explanation}</div>
+          </div>
+        `;
+      });
+
+      document.getElementById('results').innerHTML = `
+        <div class="results-container">
+          <div class="results-header">
+            <div class="badge">📊 TEST RESULTS</div>
+            <h1>${mockData.title}</h1>
+            <div class="score-circle ${scoreClass}">${percentage}%</div>
+            <p style="color:var(--text-secondary);margin-top:8px">
+              Score: ${rawScore.toFixed(2)} / ${maxScore} marks
+            </p>
+          </div>
+
+          <div class="results-grid">
+            <div class="result-card">
+              <div class="label">Correct</div>
+              <div class="value" style="color:var(--green)">${correct}</div>
+            </div>
+            <div class="result-card">
+              <div class="label">Wrong</div>
+              <div class="value" style="color:var(--red)">${wrong}</div>
+            </div>
+            <div class="result-card">
+              <div class="label">Skipped</div>
+              <div class="value" style="color:var(--text-muted)">${skipped}</div>
+            </div>
+            <div class="result-card">
+              <div class="label">Accuracy</div>
+              <div class="value" style="color:var(--blue)">${accuracy}%</div>
+            </div>
+          </div>
+
+          <div class="result-card" style="margin-bottom:2rem;padding:1.5rem">
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:1rem">
+              <div>
+                <div class="label">Marks Gained</div>
+                <div style="font-size:1.3rem;font-weight:800;color:var(--green)">+${(correct * 2).toFixed(2)}</div>
+              </div>
+              <div>
+                <div class="label">Negative Marks</div>
+                <div style="font-size:1.3rem;font-weight:800;color:var(--red)">−${negativeMarks}</div>
+              </div>
+              <div>
+                <div class="label">Net Score</div>
+                <div style="font-size:1.3rem;font-weight:800;color:var(--accent-hover)">${rawScore.toFixed(2)}</div>
+              </div>
+              <div>
+                <div class="label">Max Possible</div>
+                <div style="font-size:1.3rem;font-weight:800;color:var(--text-muted)">${maxScore}</div>
+              </div>
+            </div>
+          </div>
+
+          <h2 style="margin-bottom:1rem;font-size:1.2rem">📊 Sub-Topic Analysis</h2>
+          <table class="subject-table">
+            <thead>
+              <tr>
+                <th>Sub-Topic</th>
+                <th>Total</th>
+                <th>Correct</th>
+                <th>Wrong</th>
+                <th>Skip</th>
+                <th>Accuracy</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${subTopicRows}
+            </tbody>
+          </table>
+
+          <h2 style="margin-bottom:1rem;font-size:1.2rem">📋 Question-wise Review</h2>
+          <div class="review-section">
+            ${reviewHTML}
+          </div>
+        </div>
+      `;
+
+      window.scrollTo(0, 0);
+    }
+
+    function reviewOption(label, text, userAns, correctAns) {
+      let cls = '';
+      if (label === correctAns) cls = 'correct';
+      else if (label === userAns && userAns !== correctAns) cls = 'wrong';
+      return `
+        <div class="option-btn ${cls}" style="cursor:default;padding:10px 16px;font-size:0.9rem">
+          <div class="opt-label" style="min-width:28px;height:28px;font-size:0.8rem">${label}</div>
+          <div>${text}</div>
+        </div>
+      `;
+    }
+  </script>
+</body>
+</html>

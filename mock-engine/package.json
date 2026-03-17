@@ -1,0 +1,25 @@
+{
+  "name": "currentprep-mock-engine",
+  "version": "1.0.0",
+  "description": "UPSC Prelims 2026 Mock Test Engine — Question generation, test assembly, scoring & analytics",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "npx tsx src/generator/generate.ts",
+    "generate:pilot": "npx tsx src/generator/generate.ts --pilot",
+    "validate": "npx tsx src/generator/validate.ts",
+    "review": "npx tsx src/generator/review.ts",
+    "assemble": "npx tsx src/engine/assembler.ts",
+    "test": "npx tsx tests/run-tests.ts",
+    "stats": "npx tsx src/analyzer/stats.ts"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}

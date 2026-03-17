@@ -1,0 +1,107 @@
+[
+  {
+    "mock_id": "art_culture-mock-1",
+    "title": "Art & Culture Mock Test 1",
+    "subject": "art_culture",
+    "sequence_number": 1,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 32,
+      "medium": 36,
+      "hard": 32
+    },
+    "sub_topic_summary": {
+      "ac-architecture": 25,
+      "ac-paintings": 15,
+      "ac-performing": 20,
+      "ac-literature": 10,
+      "ac-handicrafts": 15,
+      "ac-festivals": 15
+    },
+    "created_at": "2026-03-17T06:08:31.607Z"
+  },
+  {
+    "mock_id": "art_culture-mock-2",
+    "title": "Art & Culture Mock Test 2",
+    "subject": "art_culture",
+    "sequence_number": 2,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 32,
+      "medium": 36,
+      "hard": 32
+    },
+    "sub_topic_summary": {
+      "ac-architecture": 25,
+      "ac-paintings": 15,
+      "ac-performing": 20,
+      "ac-literature": 10,
+      "ac-handicrafts": 15,
+      "ac-festivals": 15
+    },
+    "created_at": "2026-03-17T06:08:31.608Z"
+  },
+  {
+    "mock_id": "art_culture-mock-3",
+    "title": "Art & Culture Mock Test 3",
+    "subject": "art_culture",
+    "sequence_number": 3,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 32,
+      "medium": 36,
+      "hard": 32
+    },
+    "sub_topic_summary": {
+      "ac-architecture": 25,
+      "ac-paintings": 15,
+      "ac-performing": 20,
+      "ac-literature": 10,
+      "ac-handicrafts": 15,
+      "ac-festivals": 15
+    },
+    "created_at": "2026-03-17T06:08:31.608Z"
+  },
+  {
+    "mock_id": "art_culture-mock-4",
+    "title": "Art & Culture Mock Test 4",
+    "subject": "art_culture",
+    "sequence_number": 4,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 32,
+      "medium": 36,
+      "hard": 32
+    },
+    "sub_topic_summary": {
+      "ac-architecture": 25,
+      "ac-paintings": 15,
+      "ac-performing": 20,
+      "ac-literature": 10,
+      "ac-handicrafts": 15,
+      "ac-festivals": 15
+    },
+    "created_at": "2026-03-17T06:08:31.609Z"
+  },
+  {
+    "mock_id": "art_culture-mock-5",
+    "title": "Art & Culture Mock Test 5",
+    "subject": "art_culture",
+    "sequence_number": 5,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 41,
+      "medium": 32,
+      "hard": 27
+    },
+    "sub_topic_summary": {
+      "ac-architecture": 25,
+      "ac-paintings": 15,
+      "ac-performing": 20,
+      "ac-literature": 10,
+      "ac-handicrafts": 15,
+      "ac-festivals": 15
+    },
+    "created_at": "2026-03-17T06:08:31.609Z"
+  }
+]
