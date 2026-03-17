@@ -615,6 +615,51 @@
     .modal p { color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.6; }
     .modal .btn-row { display: flex; gap: 12px; justify-content: center; }
 
+    /* Mock Selector */
+    .mock-selector {
+      width: 100%;
+      margin-bottom: 1.5rem;
+    }
+
+    .mock-selector label {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 8px;
+    }
+
+    .mock-selector select {
+      width: 100%;
+      padding: 12px 16px;
+      background: var(--bg-secondary);
+      border: 2px solid var(--border);
+      border-radius: var(--radius);
+      color:  var(--text-primary);
+      font-size: 1rem;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      appearance: none;
+      -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2394a3b8' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 16px center;
+      transition: border-color 0.2s;
+    }
+
+    .mock-selector select:hover,
+    .mock-selector select:focus {
+      border-color: var(--accent);
+      outline: none;
+    }
+
+    .mock-selector select option {
+      background: var(--bg-secondary);
+      color: var(--text-primary);
+    }
+
     @media (max-width: 768px) {
       .nav-sidebar { display: none; }
       .question-panel { padding: 1.5rem; }
@@ -629,8 +674,28 @@
   <div id="landing">
     <div class="landing-card">
       <div class="badge">🏛️ CURRENT IAS PREP</div>
-      <h1>History Mock Test 1</h1>
+      <h1 id="mockTitle">Select a Mock Test</h1>
       <p class="subtitle">UPSC Prelims 2026 — Subject-Wise Test Series</p>
+
+      <div class="mock-selector">
+        <label>Choose Mock Test</label>
+        <select id="mockSelect" onchange="onMockSelect()">
+          <optgroup label="📚 History (5 Mocks)">
+            <option value="history-mock-1">History Mock Test 1</option>
+            <option value="history-mock-2">History Mock Test 2</option>
+            <option value="history-mock-3">History Mock Test 3</option>
+            <option value="history-mock-4">History Mock Test 4</option>
+            <option value="history-mock-5">History Mock Test 5</option>
+          </optgroup>
+          <optgroup label="🎨 Art & Culture (5 Mocks)">
+            <option value="art_culture-mock-1">Art & Culture Mock Test 1</option>
+            <option value="art_culture-mock-2">Art & Culture Mock Test 2</option>
+            <option value="art_culture-mock-3">Art & Culture Mock Test 3</option>
+            <option value="art_culture-mock-4">Art & Culture Mock Test 4</option>
+            <option value="art_culture-mock-5">Art & Culture Mock Test 5</option>
+          </optgroup>
+        </select>
+      </div>
 
       <div class="info-grid">
         <div class="info-item">
@@ -726,29 +791,46 @@
     let timerInterval = null;
     let remainingSeconds = 120 * 60; // 2 hours
     let examStarted = false;
+    let selectedMockId = 'history-mock-1';
+
+    // Sub-topic display labels
+    const SUB_TOPIC_LABELS = {
+      'hist-ancient': 'Ancient India',
+      'hist-medieval': 'Medieval India',
+      'hist-modern': 'Modern India',
+      'hist-freedom': 'Freedom Struggle',
+      'hist-post-ind': 'Post-Independence',
+      'ac-architecture': 'Architecture & Sculpture',
+      'ac-paintings': 'Paintings',
+      'ac-performing': 'Performing Arts',
+      'ac-literature': 'Literature & Languages',
+      'ac-handicrafts': 'Handicrafts & GI Tags',
+      'ac-festivals': 'Festivals & Tribal Culture',
+    };
+
+    // ===== MOCK SELECTOR =====
+    function onMockSelect() {
+      selectedMockId = document.getElementById('mockSelect').value;
+      loadMock(selectedMockId);
+    }
 
     // ===== LOAD MOCK DATA =====
-    async function loadMock() {
+    async function loadMock(mockId) {
+      mockId = mockId || selectedMockId;
       try {
-        const res = await fetch('/data/mocks/history-mock-1.json');
+        const res = await fetch(`/data/mocks/${mockId}.json`);
         mockData = await res.json();
         document.getElementById('info-total').textContent = mockData.total_questions;
-        document.querySelector('.landing-card h1').textContent = mockData.title;
+        document.getElementById('mockTitle').textContent = mockData.title;
         document.querySelector('.exam-header .title').innerHTML =
           `🏛️ <span>${mockData.title}</span>`;
       } catch (e) {
         console.error('Failed to load mock data:', e);
-        // Try alternative path
-        try {
-          const res = await fetch('../data/mocks/history-mock-1.json');
-          mockData = await res.json();
-        } catch (e2) {
-          alert('Could not load mock test data. Ensure the server is running from mock-engine root.');
-        }
+        alert('Could not load mock test data. Ensure the server is running.');
       }
     }
 
-    loadMock();
+    loadMock('history-mock-1');
 
     // ===== START =====
     function startExam() {
@@ -954,13 +1036,8 @@
 
       const scoreClass = percentage >= 60 ? 'good' : percentage >= 40 ? 'average' : 'poor';
 
-      const subTopicLabels = {
-        'hist-ancient': 'Ancient India',
-        'hist-medieval': 'Medieval India',
-        'hist-modern': 'Modern India',
-        'hist-freedom': 'Freedom Struggle',
-        'hist-post-ind': 'Post-Independence',
-      };
+      // Use the global SUB_TOPIC_LABELS map
+      const subTopicLabels = SUB_TOPIC_LABELS;
 
       let subTopicRows = '';
       for (const [st, scores] of Object.entries(subTopicScores)) {
