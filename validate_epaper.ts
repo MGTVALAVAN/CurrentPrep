@@ -411,9 +411,11 @@ async function main(): Promise<void> {
     section('12. PAGE ESTIMATION');
 
     const articlePages = Math.ceil((articles.length - 1) / 2); // 2 per page, minus lead
-    const totalPages = 1 + articlePages + (prelims.length > 0 ? 1 : 0) + (mains.length > 0 ? 1 : 0);
-    console.log(`  📊 Estimated pages: 1 (front) + ${articlePages} (articles) + 1 (prelims) + 1 (mains) = ${totalPages}`);
-    check(`Reasonable page count (8-18 pages, got ${totalPages})`, totalPages >= 8 && totalPages <= 18, false);
+    const hasCsat = epaper.csatMocks && (epaper.csatMocks.comprehension?.length > 0 || epaper.csatMocks.reasoning?.length > 0);
+    const mockPages = (prelims.length > 0 ? 1 : 0) + (hasCsat ? 1 : 0) + (mains.length > 0 ? 1 : 0);
+    const totalPages = 1 + articlePages + mockPages;
+    console.log(`  📊 Estimated pages: 1 (front) + ${articlePages} (articles) + ${mockPages} (mocks: prelims/csat/mains) = ${totalPages}`);
+    check(`Reasonable page count (8-20 pages, got ${totalPages})`, totalPages >= 8 && totalPages <= 20, false);
 
     // ── 13. Layout & Formatting (Puppeteer) ─────────────────────────────────
     section('13. LAYOUT & FORMATTING (Puppeteer)');
@@ -471,21 +473,22 @@ async function main(): Promise<void> {
         // ── Article Pages checks ──
         console.log('  ── Article Pages (2-13) ──');
         const allPages = await page.$$('.epaper-print-page');
-        // Check article pages (skip first page = front, last 2 = mocks)
-        const articlePageCount = allPages.length - 3; // front + prelims + mains
+        // Check article pages (skip first page = front, last N = mocks)
+        const mockPageCount = (prelims.length > 0 ? 1 : 0) + (hasCsat ? 1 : 0) + (mains.length > 0 ? 1 : 0);
+        const articlePageCount = allPages.length - 1 - mockPageCount; // front + mock pages
         check(`  Article pages count: ${articlePageCount}`, articlePageCount >= 6);
 
         // Check articles per page (2 per page)
-        const articlesPerPage = await page.evaluate(() => {
+        const articlesPerPage = await page.evaluate((mc: number) => {
             const pages = document.querySelectorAll('.epaper-print-page');
             const results: number[] = [];
-            // Skip first (front) and last 2 (mocks)
-            for (let i = 1; i < pages.length - 2; i++) {
+            // Skip first (front) and last N (mocks)
+            for (let i = 1; i < pages.length - mc; i++) {
                 const articles = pages[i].querySelectorAll('h3');
                 results.push(articles.length);
             }
             return results;
-        });
+        }, mockPageCount);
         const allHave2 = articlesPerPage.every(c => c === 2 || c === 1);
         check(`  Each article page has 1-2 articles`, allHave2);
         const pagesWithIssues = articlesPerPage.filter(c => c === 0).length;
@@ -507,17 +510,19 @@ async function main(): Promise<void> {
         // ── Mock Pages checks ──
         console.log('  ── Mock Pages ──');
         // Check for mock section headers
-        const mockHeaders = await page.evaluate(() => {
+        const mockHeaders = await page.evaluate((mc: number) => {
             const pages = document.querySelectorAll('.epaper-print-page');
             const results: string[] = [];
-            for (let i = Math.max(0, pages.length - 2); i < pages.length; i++) {
-                const text = pages[i]?.textContent?.substring(0, 200) || '';
+            for (let i = Math.max(0, pages.length - mc); i < pages.length; i++) {
+                const text = pages[i]?.textContent?.substring(0, 300) || '';
                 results.push(text);
             }
             return results;
-        });
+        }, mockPageCount);
         const hasPrelimsMock = mockHeaders.some(t => t.includes('Prelims') || t.includes('prelims'));
         check(`  Prelims mock page renders`, hasPrelimsMock);
+        const hasCsatMock = mockHeaders.some(t => t.includes('CSAT') || t.includes('csat'));
+        check(`  CSAT mock page renders`, hasCsatMock);
         const hasMainsMock = mockHeaders.some(t => t.includes('Mains') || t.includes('mains'));
         check(`  Mains mock page renders`, hasMainsMock);
 
