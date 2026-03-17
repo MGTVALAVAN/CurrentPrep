@@ -88,6 +88,36 @@ DO NOT explicitly mention "in the news" or "recently" in the question text.
 Simply ask factual questions about these topics.
 `;
 
+const GEOGRAPHY_CURRENT_AFFAIRS_CONTEXT = `
+IMPORTANT CURRENT AFFAIRS LINKAGE FOR UPSC PRELIMS 2026:
+The UPSC Prelims exam (June 2026) covers current affairs from approximately April 2025 to March 2026.
+Geography topics that were in the news during this period get asked as factual questions.
+Weave in 10-15% of questions on topics linked to these recent news events:
+
+KEY GEOGRAPHY NEWS (Apr 2025 – Mar 2026):
+- Wayanad landslides (2024-25): Questions on Western Ghats geology, laterite soils, landslide-prone zones
+- Joshimath subsidence aftermath: Himalayan geology, glacial Lake Outburst Floods (GLOFs), Uttarakhand terrain
+- El Niño / La Niña cycle: Questions on ENSO, Indian Ocean Dipole (IOD), monsoon dynamics
+- Flood events in Assam/Bihar: Brahmaputra river system, flood-plain management
+- India's critical mineral policy: Lithium reserves in J&K, rare earth minerals
+- Ken-Betwa river linking project: Inter-basin transfer, river systems
+- Glacial retreat in Himalayas: Climate impact on glaciers, downstream effects
+- Earthquake events: Seismic zones in India, plate tectonics
+- Cyclones (Bay of Bengal/Arabian Sea): Tropical cyclone naming, formation, IMD warnings
+- New National Parks / Tiger Reserves announced
+
+IMPORTANT TOPICS WITH HIGH UPSC PROBABILITY:
+- Indian monsoon mechanism — perennial UPSC favorite
+- River systems (Himalayan vs Peninsular) — 3-5 Qs every year
+- Soil types and distribution — frequently tested
+- National Parks, Wildlife Sanctuaries — always asked (often with location mapping)
+- Ocean currents and their climate effects
+- Earthquake zones and vulnerability mapping
+
+DO NOT explicitly mention "in the news" or "recently" in the question text.
+Simply ask factual questions about these topics.
+`;
+
 // ============================================================
 // Prompt Builder
 // ============================================================
@@ -97,6 +127,7 @@ function buildPrompt(batch: GenerationBatch): string {
   const contextMap: Record<string, string> = {
     'history': HISTORY_CURRENT_AFFAIRS_CONTEXT,
     'art_culture': ART_CULTURE_CURRENT_AFFAIRS_CONTEXT,
+    'geography': GEOGRAPHY_CURRENT_AFFAIRS_CONTEXT,
   };
   const currentAffairsContext = contextMap[batch.subject] || '';
 

@@ -11,7 +11,8 @@ export type Subject =
   | 'environment'
   | 'science'
   | 'current_affairs'
-  | 'art_culture';
+  | 'art_culture'
+  | 'society';
 
 /** Difficulty levels for questions */
 export type Difficulty = 'easy' | 'medium' | 'hard';
