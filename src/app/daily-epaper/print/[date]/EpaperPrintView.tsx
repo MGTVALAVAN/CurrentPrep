@@ -60,6 +60,13 @@ interface CsatReasoning {
     category?: string;
 }
 
+interface QuickByte {
+    text: string;
+    category: string;
+    gsPaper: string;
+    tags: string[];
+}
+
 interface DailyEpaper {
     date: string;
     dateFormatted: string;
@@ -67,6 +74,7 @@ interface DailyEpaper {
     highlights: string[];
     sources: string[];
     totalProcessed: number;
+    quickBytes?: QuickByte[];
     prelimsMocks?: MockQuestion[];
     mainsMocks?: MainsMockQuestion[];
     csatMocks?: {
@@ -653,6 +661,62 @@ export default function EpaperPrintView({ date }: { date: string }) {
                     ));
                 })()}
 
+                {/* === QUICK BYTES PAGE === */}
+                {epaper.quickBytes && epaper.quickBytes.length > 0 && (
+                    <div className="epaper-print-page" style={{ pageBreakBefore: 'always', breakBefore: 'page', padding: '10mm 12mm', height: '277mm', maxHeight: '277mm', overflow: 'hidden', display: 'flex', flexDirection: 'column', boxSizing: 'border-box' }}>
+                        <header style={{ background: 'linear-gradient(135deg, #6B21A8, #4C1D95)', borderRadius: '6px', padding: '10px 14px', marginBottom: '12px', textAlign: 'center', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', flexShrink: 0 }}>
+                            <h2 style={{ margin: 0, color: '#FFF', fontSize: '15px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.12em', fontFamily: "'DM Sans', system-ui, sans-serif" }}>
+                                💡 Quick Bytes — Static GK & This Day in History
+                            </h2>
+                            <div style={{ color: 'rgba(255,255,255,0.7)', fontSize: '10px', marginTop: '3px', fontFamily: "'DM Sans', system-ui, sans-serif" }}>
+                                Rapid-fire one-liners for Prelims revision • Art & Culture • History • Geography • Science
+                            </div>
+                        </header>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', flex: 1 }}>
+                            {epaper.quickBytes.slice(0, 10).map((qb, i) => {
+                                const catIcons: Record<string, string> = {
+                                    art_culture: '🎨', history: '📜', anniversary: '📅', geography: '🌍',
+                                    science: '🔬', environment: '🌿', polity: '⚖️', economy: '💰',
+                                    international: '🌐', general: '✅'
+                                };
+                                const catLabels: Record<string, string> = {
+                                    art_culture: 'ART & CULTURE', history: 'HISTORY', anniversary: 'THIS DAY', geography: 'GEOGRAPHY',
+                                    science: 'SCIENCE & TECH', environment: 'ENVIRONMENT', polity: 'POLITY', economy: 'ECONOMY',
+                                    international: 'INTERNATIONAL', general: 'GENERAL'
+                                };
+                                const icon = catIcons[qb.category] || '✅';
+                                const label = catLabels[qb.category] || 'GENERAL';
+                                const gsColor = GS_COLORS[qb.gsPaper] || '#8B4513';
+                                return (
+                                    <div key={i} style={{
+                                        display: 'flex', alignItems: 'flex-start', gap: '10px',
+                                        padding: '8px 12px', borderRadius: '6px',
+                                        background: i % 2 === 0 ? 'rgba(107,33,168,0.04)' : 'rgba(255,255,255,0.5)',
+                                        border: '1px solid rgba(107,33,168,0.08)',
+                                        WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact',
+                                    }}>
+                                        <div style={{ fontSize: '18px', lineHeight: 1, flexShrink: 0, marginTop: '2px' }}>{icon}</div>
+                                        <div style={{ flex: 1 }}>
+                                            <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '2px' }}>
+                                                <span style={{ fontSize: '8px', fontWeight: 700, color: '#6B21A8', letterSpacing: '0.08em', fontFamily: "'DM Sans', system-ui, sans-serif" }}>{label}</span>
+                                                <span style={{ fontSize: '7px', fontWeight: 700, color: gsColor, background: `${gsColor}15`, padding: '1px 4px', borderRadius: '2px' }}>{qb.gsPaper}</span>
+                                            </div>
+                                            <div style={{ fontSize: '11px', lineHeight: 1.45, color: '#33200A', fontFamily: "'Source Serif 4', Georgia, serif" }}>
+                                                {qb.text}
+                                            </div>
+                                            {qb.tags && qb.tags.length > 0 && (
+                                                <div style={{ marginTop: '2px', fontSize: '8px', color: '#8B6B42' }}>
+                                                    {qb.tags.join(' • ')}
+                                                </div>
+                                            )}
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+                )}
+
                 {/* === PRELIMS MOCK PAGE === */}
                 {epaper.prelimsMocks && epaper.prelimsMocks.length > 0 && (
                     <div className="epaper-print-page" style={{ pageBreakBefore: 'always', breakBefore: 'page', padding: '10mm 12mm', height: '277mm', maxHeight: '277mm', overflow: 'hidden', display: 'flex', flexDirection: 'column', boxSizing: 'border-box' }}>
@@ -661,19 +725,19 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                 📝 Prelims Mock — Daily Practice
                             </h2>
                         </header>
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', overflow: 'hidden' }}>
-                            {epaper.prelimsMocks.slice(0, 4).map((q, i) => (
-                                <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '8px 10px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', overflow: 'hidden' }}>
-                                    <div style={{ fontWeight: 700, fontSize: '10.5px', color: '#33200A', textAlign: 'justify', marginBottom: '4px', lineHeight: 1.45 }}>Q{i + 1}. {q.question}</div>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', overflow: 'hidden', flex: 1 }}>
+                            {epaper.prelimsMocks.slice(0, 5).map((q, i) => (
+                                <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '6px 10px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', overflow: 'hidden' }}>
+                                    <div style={{ fontWeight: 700, fontSize: '11.5px', color: '#33200A', textAlign: 'justify', marginBottom: '3px', lineHeight: 1.4 }}>Q{i + 1}. {q.question}</div>
                                     {q.options && q.options.length > 0 && (
-                                        <div style={{ marginLeft: '12px', fontSize: '10.5px', color: '#5C3D1A', marginBottom: '4px', lineHeight: 1.4 }}>
+                                        <div style={{ marginLeft: '14px', fontSize: '11px', color: '#5C3D1A', marginBottom: '3px', lineHeight: 1.35 }}>
                                             {q.options.map((opt, j) => <div key={j}>{opt}</div>)}
                                         </div>
                                     )}
-                                    <div style={{ background: 'var(--ep-bg)', padding: '4px 8px', borderRadius: '3px', border: '1px solid rgba(139,69,19,0.06)', fontSize: '10.5px', lineHeight: 1.4 }}>
+                                    <div style={{ background: 'var(--ep-bg)', padding: '4px 8px', borderRadius: '3px', border: '1px solid rgba(139,69,19,0.06)', fontSize: '10.5px', lineHeight: 1.35, marginTop: 'auto' }}>
                                         <span style={{ fontWeight: 700, color: '#8B4513' }}>Answer: </span>
                                         <span style={{ color: '#33200A' }}>{q.answer}</span>
-                                        <div style={{ color: '#5C3D1A', marginTop: '2px' }}>{q.explanation}</div>
+                                        <span style={{ color: '#5C3D1A', marginLeft: '4px' }}>{q.explanation.split('.').slice(0, 2).join('.') + '.'}</span>
                                     </div>
                                 </div>
                             ))}
@@ -693,25 +757,25 @@ export default function EpaperPrintView({ date }: { date: string }) {
                         {/* Full-width passage at top */}
                         {epaper.csatMocks.comprehension?.slice(0, 1).map((comp, ci) => (
                             <div key={`passage-${ci}`} style={{ flexShrink: 0, marginBottom: '6px' }}>
-                                <div style={{ fontWeight: 700, fontSize: '10px', color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '3px' }}>COMPREHENSION PASSAGE</div>
-                                <div style={{ background: 'rgba(0,121,107,0.06)', padding: '6px 10px', borderRadius: '4px', border: '1px solid rgba(0,121,107,0.15)', fontSize: '9px', lineHeight: 1.45, color: '#33200A', textAlign: 'justify', columnCount: 2, columnGap: '14px' }}>
+                                <div style={{ fontWeight: 700, fontSize: '11px', color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '3px' }}>COMPREHENSION PASSAGE</div>
+                                <div style={{ background: 'rgba(0,121,107,0.06)', padding: '6px 10px', borderRadius: '4px', border: '1px solid rgba(0,121,107,0.15)', fontSize: '10px', lineHeight: 1.45, color: '#33200A', textAlign: 'justify', columnCount: 2, columnGap: '14px' }}>
                                     {comp.passage}
                                 </div>
                             </div>
                         ))}
 
                         {/* Two-column layout: Comprehension MCQs left, Reasoning right */}
-                        <div style={{ display: 'flex', gap: '10px', flex: 1, overflow: 'hidden' }}>
+                        <div style={{ display: 'flex', gap: '10px', flex: 1 }}>
                             {/* LEFT COLUMN: Comprehension MCQs */}
-                            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '3px', overflow: 'hidden' }}>
-                                <div style={{ fontWeight: 700, fontSize: '9px', color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '1px' }}>COMPREHENSION QUESTIONS</div>
+                            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <div style={{ fontWeight: 700, fontSize: '10px', color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '2px' }}>COMPREHENSION QUESTIONS</div>
                                 {epaper.csatMocks.comprehension?.slice(0, 1).flatMap(comp => comp.questions || []).slice(0, 3).map((q, qi) => (
-                                    <div key={qi} style={{ background: 'rgba(255,255,255,0.5)', padding: '3px 6px', borderRadius: '3px', border: '1px solid rgba(0,121,107,0.1)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', overflow: 'hidden' }}>
-                                        <div style={{ fontWeight: 700, fontSize: '9px', color: '#33200A', marginBottom: '1px', lineHeight: 1.3 }}>Q{qi + 1}. {q.question}</div>
-                                        <div style={{ marginLeft: '6px', fontSize: '9px', color: '#5C3D1A', lineHeight: 1.25, marginBottom: '1px' }}>
+                                    <div key={qi} style={{ background: 'rgba(255,255,255,0.5)', padding: '4px 8px', borderRadius: '3px', border: '1px solid rgba(0,121,107,0.1)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', overflow: 'hidden' }}>
+                                        <div style={{ fontWeight: 700, fontSize: '10.5px', color: '#33200A', marginBottom: '2px', lineHeight: 1.35 }}>Q{qi + 1}. {q.question}</div>
+                                        <div style={{ marginLeft: '8px', fontSize: '10px', color: '#5C3D1A', lineHeight: 1.3, marginBottom: '2px' }}>
                                             {q.options?.map((opt, oi) => <div key={oi}>{opt}</div>)}
                                         </div>
-                                        <div style={{ background: 'rgba(0,121,107,0.04)', padding: '2px 5px', borderRadius: '2px', fontSize: '8.5px', lineHeight: 1.25 }}>
+                                        <div style={{ background: 'rgba(0,121,107,0.04)', padding: '2px 6px', borderRadius: '2px', fontSize: '9.5px', lineHeight: 1.3, marginTop: 'auto' }}>
                                             <span style={{ fontWeight: 700, color: '#00796B' }}>Ans: </span>
                                             <span style={{ color: '#33200A' }}>{q.answer}</span>
                                         </div>
@@ -723,8 +787,8 @@ export default function EpaperPrintView({ date }: { date: string }) {
                             <div style={{ width: '1px', background: 'rgba(0,121,107,0.2)', flexShrink: 0 }} />
 
                             {/* RIGHT COLUMN: Reasoning */}
-                            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '3px', overflow: 'hidden' }}>
-                                <div style={{ fontWeight: 700, fontSize: '9px', color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '1px' }}>LOGICAL REASONING</div>
+                            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                <div style={{ fontWeight: 700, fontSize: '10px', color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '2px' }}>LOGICAL REASONING</div>
                                 {epaper.csatMocks.reasoning?.slice(0, 3).map((q, ri) => {
                                     const catLabels: Record<string, string> = {
                                         syllogism: 'Syllogism', statement_assumption: 'Assumption', statement_conclusion: 'Conclusion',
@@ -733,13 +797,13 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                         data_sufficiency: 'Data Sufficiency', decision_making: 'Decision Making', cause_effect: 'Cause & Effect',
                                     };
                                     return (
-                                    <div key={ri} style={{ background: 'rgba(255,255,255,0.5)', padding: '3px 6px', borderRadius: '3px', border: '1px solid rgba(0,121,107,0.1)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', overflow: 'hidden' }}>
-                                        {q.category && <div style={{ fontSize: '7px', fontWeight: 700, color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '1px', opacity: 0.8 }}>{catLabels[q.category] || q.category}</div>}
-                                        <div style={{ fontWeight: 700, fontSize: '9px', color: '#33200A', marginBottom: '1px', lineHeight: 1.3 }}>Q{ri + 1}. {q.question}</div>
-                                        <div style={{ marginLeft: '6px', fontSize: '9px', color: '#5C3D1A', lineHeight: 1.25, marginBottom: '1px' }}>
+                                    <div key={ri} style={{ background: 'rgba(255,255,255,0.5)', padding: '4px 8px', borderRadius: '3px', border: '1px solid rgba(0,121,107,0.1)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', overflow: 'hidden' }}>
+                                        {q.category && <div style={{ fontSize: '8px', fontWeight: 700, color: '#00796B', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '1px', opacity: 0.8 }}>{catLabels[q.category] || q.category}</div>}
+                                        <div style={{ fontWeight: 700, fontSize: '10.5px', color: '#33200A', marginBottom: '2px', lineHeight: 1.35 }}>Q{ri + 1}. {q.question}</div>
+                                        <div style={{ marginLeft: '8px', fontSize: '10px', color: '#5C3D1A', lineHeight: 1.3, marginBottom: '2px' }}>
                                             {q.options?.map((opt, oi) => <div key={oi}>{opt}</div>)}
                                         </div>
-                                        <div style={{ background: 'rgba(0,121,107,0.04)', padding: '2px 5px', borderRadius: '2px', fontSize: '8.5px', lineHeight: 1.25 }}>
+                                        <div style={{ background: 'rgba(0,121,107,0.04)', padding: '2px 6px', borderRadius: '2px', fontSize: '9.5px', lineHeight: 1.3, marginTop: 'auto' }}>
                                             <span style={{ fontWeight: 700, color: '#00796B' }}>Ans: </span>
                                             <span style={{ color: '#33200A' }}>{q.answer}</span>
                                         </div>
@@ -760,13 +824,13 @@ export default function EpaperPrintView({ date }: { date: string }) {
                             </h2>
                         </header>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', flex: 1, overflow: 'hidden' }}>
-                            {epaper.mainsMocks.slice(0, 4).map((q, i) => {
+                            {epaper.mainsMocks.slice(0, 5).map((q, i) => {
                                 // Truncate syllabus to ~120 chars for 2-line display
                                 const syllabusShort = q.syllabusMatch.length > 120
                                     ? q.syllabusMatch.substring(0, q.syllabusMatch.lastIndexOf(' ', 120)) + '…'
                                     : q.syllabusMatch;
                                 return (
-                                    <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '6px 10px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', overflow: 'hidden' }}>
+                                    <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '6px 10px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', overflow: 'hidden' }}>
                                         <div style={{ fontWeight: 700, fontSize: '10.5px', color: '#33200A', textAlign: 'justify', marginBottom: '3px', lineHeight: 1.4 }}>Q{i + 1}. {q.question}</div>
                                         <div style={{ background: 'var(--ep-bg)', padding: '4px 8px', borderRadius: '3px', border: '1px solid rgba(139,69,19,0.06)', fontSize: '10px', lineHeight: 1.35 }}>
                                             <div style={{ fontWeight: 700, color: '#1A3C6E', marginBottom: '1px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.04em' }}>Syllabus: {syllabusShort}</div>

@@ -9,7 +9,7 @@
  *  - Keyword tags
  *
  * Includes automatic retry with exponential backoff for rate limits,
- * and fallback to gemini-1.5-flash if gemini-2.0-flash quota is exhausted.
+ * and fallback to gemini-2.5-flash-lite if gemini-2.5-flash quota is exhausted.
  */
 
 import type { RawArticle } from './news-scraper';
@@ -82,9 +82,8 @@ interface GeminiArticleResult {
 
 // Models to try, in order of preference
 const GEMINI_MODELS = [
-    'gemini-2.0-flash',
     'gemini-2.5-flash',
-    'gemini-2.0-flash-lite',
+    'gemini-2.5-flash-lite',
 ];
 
 /**

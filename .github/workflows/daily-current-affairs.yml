@@ -1,7 +1,7 @@
 # GitHub Actions Workflow: Daily Current Affairs Update
 #
 # Triggers the CurrentPrep news scraping + AI categorization pipeline
-# every day at 7:00 AM IST (01:30 UTC).
+# every day at 5:30 AM IST (00:00 UTC).
 #
 # Prerequisites:
 #   Set these GitHub repo secrets:
@@ -13,8 +13,8 @@ name: Daily Current Affairs Update
 
 on:
   schedule:
-    # 01:30 UTC = 07:00 AM IST
-    - cron: '30 1 * * *'
+    # 00:00 UTC = 05:30 AM IST
+    - cron: '0 0 * * *'
   workflow_dispatch:  # Allow manual trigger from GitHub UI
 
 jobs:

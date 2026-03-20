@@ -43,3 +43,6 @@ coverage/
 *.swp
 *.swo
 *~
+
+# PYQ raw PDFs (too large for git)
+src/data/pyq/pdfs/

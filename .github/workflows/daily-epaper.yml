@@ -1,7 +1,7 @@
 # GitHub Actions Workflow: Daily ePaper Generation
 #
 # Triggers the CurrentPrep ePaper pipeline (scrape + AI explainer generation)
-# every day at 8:00 AM IST (02:30 UTC).
+# every day at 6:00 AM IST (00:30 UTC).
 #
 # Prerequisites:
 #   Set these GitHub repo secrets:
@@ -13,8 +13,8 @@ name: Daily ePaper Generation
 
 on:
   schedule:
-    # 02:30 UTC = 08:00 AM IST
-    - cron: '30 2 * * *'
+    # 00:30 UTC = 06:00 AM IST
+    - cron: '30 0 * * *'
   workflow_dispatch:  # Allow manual trigger from GitHub UI
 
 jobs:

@@ -91,6 +91,13 @@ export interface CsatReasoning {
     category: CsatReasoningCategory;
 }
 
+export interface QuickByte {
+    text: string;
+    category: string;
+    gsPaper: string;
+    tags: string[];
+}
+
 export interface DailyEpaper {
     date: string;
     dateFormatted: string;
@@ -108,6 +115,7 @@ export interface DailyEpaper {
         comprehension: CsatComprehension[];
         reasoning: CsatReasoning[];
     };
+    quickBytes?: QuickByte[];
 }
 
 // ---------------------------------------------------------------------------
@@ -228,8 +236,7 @@ interface GeminiEpaperResult {
 // Models to try, in order of preference
 const GEMINI_MODELS = [
     'gemini-2.5-flash',
-    'gemini-2.0-flash',
-    'gemini-2.0-flash-lite',
+    'gemini-2.5-flash-lite',
 ];
 
 function sleep(ms: number): Promise<void> {
@@ -532,29 +539,66 @@ async function generateMocks(
     articles: EpaperArticle[],
     apiKey: string
 ): Promise<{ prelimsMocks: MockQuestion[]; mainsMocks: MainsMockQuestion[] }> {
-    console.log(`[epaper-gen] Generating Mocks from ${articles.length} articles...`);
+    console.log(`[epaper-gen] Generating PYQ-calibrated Mocks from ${articles.length} articles...`);
 
     const contextTexts = articles
-        .slice(0, 10) // taking top 10 to keep within token limits
-        .map((a) => `- ${a.headline} (GS: ${a.gsPaper})`)
+        .slice(0, 12)
+        .map((a) => `- ${a.headline} [${a.gsPaper}, ${a.category}] Tags: ${a.tags.slice(0, 3).join(', ')}`)
         .join('\n');
 
-    const prompt = `You are a UPSC mock paper setter. Based strictly on the themes in today's top 10 news headlines below, generate 4 Prelims Mock Questions and 4 Mains Mock Questions.
+    // Load PYQ samples for reference style
+    let pyqSamples = '';
+    try {
+        const fs = require('fs');
+        const pyqPath = require('path').join(process.cwd(), 'src/data/pyq/pyq-database.json');
+        if (fs.existsSync(pyqPath)) {
+            const pyqDb = JSON.parse(fs.readFileSync(pyqPath, 'utf-8'));
+            const prelims = pyqDb.questions
+                .filter((q: any) => q.paper?.includes('Prelims') && q.year >= 2020)
+                .sort(() => Math.random() - 0.5)
+                .slice(0, 3);
+            if (prelims.length > 0) {
+                pyqSamples = `\nREFERENCE STYLE — Here are 3 actual UPSC PYQs. MATCH this difficulty level and question format:\n${prelims.map((q: any, i: number) => `Sample ${i+1} (${q.year}, ${q.topic}):\nQ: ${q.question.substring(0, 300)}\nOptions: ${(q.options || []).slice(0, 4).join(' | ')}\nAnswer: ${q.answer}`).join('\n\n')}`;
+                console.log(`[epaper-gen] Injected ${prelims.length} PYQ samples for calibration`);
+            }
+        }
+    } catch { /* PYQ loading is optional */ }
+
+    const prompt = `You are an expert UPSC Civil Services Prelims & Mains paper setter. Generate 5 Prelims Mock Questions and 5 Mains Mock Questions calibrated to actual UPSC examination standards.
 
 HEADLINES TODAY:
 ${contextTexts}
+${pyqSamples}
 
-REQUIREMENTS:
-1. Prelims Mock: Return EXACTLY 4 actual UPSC Previous Year Prelims Questions from the last 15 years whose themes loosely intersect with the headlines if possible. If no match, provide random robust standard PYQs. No hallucinations in PYQs! Include 4 options per question, mark the exact answer, and provide a 2-3 sentence explanation.
-2. Mains Mock: Generate EXACTLY 4 Mains questions (10 or 15 markers) purely based on the specific current affairs provided in the headlines and linking them strictly with the UPSC syllabus. Provide the specific syllabus relevance, and a brief 2-3 sentence approach hint.
+═══ PRELIMS MOCK (5 questions) ═══
+MANDATORY QUESTION FORMATS (use this mix):
+- 2 questions: STATEMENT-BASED — "Consider the following statements: 1. ... 2. ... 3. ... Which of the statements given above is/are correct?" with options like "(a) 1 only (b) 1 and 2 only (c) 2 and 3 only (d) 1, 2 and 3"
+- 1 question: MATCH-THE-PAIR — "Match List I with List II" or "Which of the following pairs is/are correctly matched?"
+- 1 question: DIRECT FACTUAL — "With reference to X, which of the following is correct?"
+- 1 question: ASSERTION-REASON or NEGATIVE — "Which of the following is/are NOT correct?"
+
+DIFFICULTY CALIBRATION:
+- Questions should be 150-300 characters long (avg 228 chars, matching real UPSC)
+- Include specific facts, names, numbers — NOT vague generalities
+- 2 questions should be linked to today's headlines
+- 3 questions should be static GK related to headline themes (background facts)
+- At least 3 different GS topics covered
+- Correct answers should be distributed (not all same option)
+
+═══ MAINS MOCK (5 questions) ═══
+- 2 questions: 10-marker (150 words) — specific, focused
+- 3 questions: 15-marker (250 words) — analytical, multi-dimensional
+- MUST link to today's headlines with specific current affairs reference
+- Include the exact UPSC syllabus topic (e.g., "GS2: Parliament and State legislatures—structure, functioning")
+- Approach hint: 3-4 sentences outlining intro, body structure, and conclusion direction
 
 Return ONLY valid JSON matching this structure:
 {
   "prelimsMocks": [
-    { "question": "The question text", "options": ["A. ...", "B. ...", "C. ...", "D. ..."], "answer": "The correct option text exactly", "explanation": "Detailed explanation..." }
+    { "question": "The question text", "options": ["(a) ...", "(b) ...", "(c) ...", "(d) ..."], "answer": "The correct option text exactly", "explanation": "Detailed 2-3 sentence explanation with factual basis." }
   ],
   "mainsMocks": [
-    { "question": "The mains question...", "syllabusMatch": "GS2: Specific topic...", "approach": "Briefly introduce..." }
+    { "question": "The mains question (10m/15m)...", "syllabusMatch": "GS2: Specific syllabus topic...", "approach": "3-4 sentence approach hint covering intro, body, conclusion..." }
   ]
 }`;
 
@@ -821,6 +865,93 @@ IMPORTANT:
 }
 
 /**
+ * Generate Quick Bytes — UPSC one-liners for static GK + "This Day in History"
+ */
+async function generateQuickBytes(
+    selectedArticles: EpaperArticle[],
+    allRawArticles: RawEpaperArticle[],
+    apiKey: string
+): Promise<QuickByte[]> {
+    const headlines = [
+        ...selectedArticles.map(a => `${a.headline}: ${a.tags.join(', ')}`),
+        ...allRawArticles.slice(0, 15).map(a => a.title),
+    ].slice(0, 30);
+
+    const today = new Date();
+    const dateStr = today.toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' });
+
+    const headlineBlock = headlines.join('\n');
+    const prompt = [
+        `You are a UPSC Static GK expert. Given today's date (${dateStr}) and the news headlines below, generate EXACTLY 10 crisp one-liner facts for the "Quick Bytes" section of a UPSC ePaper.`,
+        '',
+        'MANDATORY DISTRIBUTION (follow strictly):',
+        '- 2 items: ART & CULTURE (GI tags, UNESCO sites, dances, textile, literature, temples, festivals)',
+        `- 2 items: HISTORY / THIS DAY IN HISTORY (at least 1 must be an event on ${dateStr})`,
+        '- 1 item: GEOGRAPHY (national parks, rivers, mountains, biosphere reserves)',
+        '- 1 item: SCIENCE & TECHNOLOGY (ISRO, discoveries, Indian milestones)',
+        '- 1 item: ENVIRONMENT (Ramsar sites, wildlife, endangered species)',
+        '- 1 item: POLITY (constitutional facts, landmark judgments, statutory bodies)',
+        '- 1 item: ECONOMY (schemes, indices, institutions)',
+        '- 1 item: INTERNATIONAL (organizations, treaties, conventions)',
+        '',
+        'STRICT RULES:',
+        '- Each Quick Byte must be 1-2 lines MAX (under 150 characters)',
+        '- Must be a testable, factual statement — NOT opinion or analysis',
+        '- Include specific names, dates, locations, numbers',
+        '- NO TWO facts may cover the same topic or entity. Each must be distinct.',
+        '- Prefer surprising/less-known facts over obvious ones',
+        '- News-linked facts are preferred when relevant, but static GK is fine',
+        '',
+        'HEADLINES FOR CONTEXT:',
+        headlineBlock,
+        '',
+        'Return ONLY a JSON array where each element has:',
+        '- "text": The one-liner fact (concise, factual, testable)',
+        '- "category": One of: art_culture, history, anniversary, geography, science, environment, polity, economy, international, general',
+        '- "gsPaper": Primary GS paper (GS1, GS2, GS3, GS4)',
+        '- "tags": Array of 2-3 keyword tags',
+    ].join('\n');
+
+    const requestBody = {
+        contents: [{ role: 'user', parts: [{ text: prompt }] }],
+        generationConfig: { temperature: 0.5, topP: 0.9, maxOutputTokens: 4096, responseMimeType: 'application/json' },
+    };
+
+    for (const model of GEMINI_MODELS) {
+        for (let attempt = 1; attempt <= 2; attempt++) {
+            try {
+                console.log(`[epaper-gen] Generating Quick Bytes with ${model} (attempt ${attempt})...`);
+                const response = await fetch(
+                    `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
+                    { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(requestBody) }
+                );
+                if (!response.ok) {
+                    if (response.status === 429) { await sleep(5000); continue; }
+                    throw new Error(`HTTP ${response.status}`);
+                }
+                const data = await response.json();
+                const candidate = data?.candidates?.[0];
+                const finishReason = candidate?.finishReason;
+                if (finishReason === 'MAX_TOKENS' || finishReason === 'SAFETY') {
+                    console.warn(`[epaper-gen] Quick Bytes truncated (${finishReason}), retrying...`);
+                    continue;
+                }
+                const text = candidate?.content?.parts?.[0]?.text || '[]';
+                const cleaned = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+                const parsed: QuickByte[] = JSON.parse(cleaned);
+                console.log(`[epaper-gen] ✅ Generated ${parsed.length} Quick Bytes`);
+                return parsed.slice(0, 12);
+            } catch (err: any) {
+                console.warn(`[epaper-gen] Quick Bytes failed on ${model} (attempt ${attempt}): ${err.message}`);
+                if (attempt < 2) await sleep(3000);
+            }
+        }
+    }
+    console.warn('[epaper-gen] Quick Bytes generation failed');
+    return [];
+}
+
+/**
  * Full ePaper pipeline: scrape → AI process → structure as ePaper.
  */
 export async function generateDailyEpaper(
@@ -835,6 +966,9 @@ export async function generateDailyEpaper(
 
     // Generate CSAT mocks (comprehension + reasoning)
     const csatMocks = await generateCsatMocks(articles, apiKey);
+
+    // Generate Quick Bytes (static GK + this day in history)
+    const quickBytes = await generateQuickBytes(articles, rawArticles, apiKey);
 
     const uniqueSources = Array.from(new Set(rawArticles.map((a) => a.sourceShort || a.source)));
 
@@ -852,5 +986,6 @@ export async function generateDailyEpaper(
         prelimsMocks: mocks.prelimsMocks,
         mainsMocks: mocks.mainsMocks,
         csatMocks,
+        quickBytes,
     };
 }

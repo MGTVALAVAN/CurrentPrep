@@ -47,38 +47,44 @@ export async function sendDailyEpaperEmail(date: string) {
         console.error("[mailer] ❌ Failed to generate PDF attachment:", err.message);
     }
 
+    const pdfFilename = `CurrentIAS_ePaper_${date}.pdf`;
+
     const mailOptions: any = {
-        from: `"CurrentIAS Prep" <${process.env.SMTP_USER || 'no-reply@currentiasprep.in'}>`,
-        to: 'mgt.valavan@gmail.com', // TODO: Add back after testing: sunnyarya1988@gmail.com, remeshvet@gmail.com
-        subject: `Your Daily UPSC ePaper is Ready! (${date})`,
+        from: `"Current IAS Prep" <${process.env.SMTP_USER || 'no-reply@currentiasprep.in'}>`,
+        to: 'mgt.valavan@gmail.com, sunnyarya1988@gmail.com, remeshvet@gmail.com',
+        subject: `📰 Current IAS Prep — Daily ePaper (${date})`,
         html: `
-            <div style="font-family: Arial, sans-serif; padding: 30px; color: #33200A; background-color: #FFF1E5; border-radius: 12px; max-width: 600px; margin: 0 auto; border: 1px solid #C9A87C;">
-                <div style="text-align: center; margin-bottom: 24px;">
-                    <h1 style="color: #8B4513; margin: 0;">CurrentIAS Prep</h1>
-                    <p style="color: #D4791C; font-weight: bold; margin-top: 4px;">DAILY EPAPER</p>
+            <div style="font-family: 'Georgia', 'Times New Roman', serif; padding: 0; color: #33200A; background-color: #FDFAF5; max-width: 600px; margin: 0 auto; border: 1px solid #C9A87C; border-radius: 8px; overflow: hidden;">
+                
+                <div style="background: linear-gradient(135deg, #8B4513, #5C2E0A); padding: 28px 30px; text-align: center;">
+                    <h1 style="color: #FFF1E5; margin: 0; font-size: 28px; letter-spacing: 1px;">Current IAS <em style="color: #E8A04C;">Prep</em></h1>
+                    <p style="color: #E8A04C; font-weight: bold; margin: 6px 0 0; font-size: 12px; letter-spacing: 3px;">DAILY EPAPER &middot; ${date}</p>
                 </div>
                 
-                <p style="font-size: 16px; line-height: 1.6;">Hello,</p>
-                <p style="font-size: 16px; line-height: 1.6;">Your latest UPSC Current Affairs digest and Mocks for <strong>${date}</strong> have been intelligently curated and beautifully formatted for you.</p>
-                
-                <div style="text-align: center; margin: 35px 0;">
-                    <a href="${epaperUrl}" style="background: linear-gradient(135deg, #C0392B, #8B1A1A); color: #FFF; padding: 14px 28px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 16px; box-shadow: 0 4px 12px rgba(139, 26, 26, 0.3);">
-                        Read & Download Today's ePaper
-                    </a>
+                <div style="padding: 30px;">
+                    <p style="font-size: 16px; line-height: 1.7; margin-top: 0;">Good morning,</p>
+                    <p style="font-size: 16px; line-height: 1.7;">Your UPSC Current Affairs digest for <strong>${date}</strong> is ready &mdash; beautifully formatted as a print-ready PDF.</p>
+                    
+                    <div style="background: linear-gradient(135deg, #FFF1E5, #FDEBD2); border: 2px solid #C9A87C; border-radius: 10px; padding: 22px 24px; margin: 28px 0; text-align: center;">
+                        <p style="font-size: 13px; color: #8B6B42; margin: 0 0 8px; text-transform: uppercase; letter-spacing: 1px; font-weight: bold;">&#128206; PDF Attached Below</p>
+                        <p style="font-size: 20px; margin: 4px 0; font-weight: bold; color: #5C2E0A;">&#128240; ${pdfFilename}</p>
+                        <p style="font-size: 14px; color: #8B6B42; margin: 10px 0 0;">Open the attachment directly from this email to read or print.</p>
+                    </div>
+                    
+                    <p style="font-size: 14px; line-height: 1.6; font-weight: bold; color: #5C2E0A; border-bottom: 1px solid #C9A87C; padding-bottom: 6px;">Inside today's edition:</p>
+                    <table style="font-size: 14px; line-height: 1.8; color: #5C3D1A; width: 100%; border-collapse: collapse;">
+                        <tr><td style="padding: 6px 0; vertical-align: top; width: 28px;">&#128221;</td><td style="padding: 6px 0;">High-importance Prelims &amp; Mains current affairs &mdash; political noise filtered out</td></tr>
+                        <tr><td style="padding: 6px 0; vertical-align: top;">&#128214;</td><td style="padding: 6px 0;">Two-part explainers: Key Facts + UPSC-level Analysis with syllabus keywords</td></tr>
+                        <tr><td style="padding: 6px 0; vertical-align: top;">&#127919;</td><td style="padding: 6px 0;">Daily Mock Test &mdash; Prelims MCQs, CSAT Reasoning &amp; Comprehension, Mains questions</td></tr>
+                        <tr><td style="padding: 6px 0; vertical-align: top;">&#128161;</td><td style="padding: 6px 0;">Trivia, Key Terms &amp; GS Paper mapping for every article</td></tr>
+                    </table>
+                    
+                    <hr style="border: none; border-top: 1px solid #E0D0BE; margin: 28px 0 20px;" />
+                    <p style="font-size: 12px; color: #8B6B42; text-align: center; line-height: 1.6;">
+                        Consistency is the key to cracking CSE. Read every day.<br/>
+                        <em>&mdash; Current IAS Prep &middot; AI-Curated Daily ePaper</em>
+                    </p>
                 </div>
-                
-                <p style="font-size: 14px; line-height: 1.6;"><strong>Inside today's edition:</strong></p>
-                <ul style="font-size: 14px; line-height: 1.6; color: #5C3D1A;">
-                    <li>High-importance Prelims/Mains news, specifically filtered to eliminate political clickbait.</li>
-                    <li>Detailed analytical dimensions and key terms.</li>
-                    <li>Syllabus-aligned Prelims and Mains Daily Mock Questions.</li>
-                </ul>
-                
-                <hr style="border: none; border-top: 1px solid #C9A87C; margin: 30px 0;" />
-                <p style="font-size: 12px; color: #8B6B42; text-align: center;">
-                    Stay consistent and keep studying context-driven news!<br/>
-                    <em>— CurrentIAS Prep AI Engine</em>
-                </p>
             </div>
         `,
     };
@@ -86,7 +92,7 @@ export async function sendDailyEpaperEmail(date: string) {
     if (pdfBuffer) {
         mailOptions.attachments = [
             {
-                filename: `CurrentIAS_ePaper_${date}.pdf`,
+                filename: pdfFilename,
                 content: pdfBuffer,
                 contentType: 'application/pdf'
             }

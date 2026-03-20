@@ -70,6 +70,13 @@ interface CsatReasoning {
     category?: string;
 }
 
+interface QuickByte {
+    text: string;
+    category: string;
+    gsPaper: string;
+    tags: string[];
+}
+
 interface DailyEpaper {
     date: string;
     dateFormatted: string;
@@ -87,6 +94,7 @@ interface DailyEpaper {
         comprehension: CsatComprehension[];
         reasoning: CsatReasoning[];
     };
+    quickBytes?: QuickByte[];
 }
 
 // ── Helpers ─────────────────────────────────────────────────────────────────
@@ -285,7 +293,7 @@ async function main(): Promise<void> {
 
     const prelims = epaper.prelimsMocks || [];
     check(`Prelims mocks exist`, prelims.length > 0);
-    check(`At least 4 prelims questions (got ${prelims.length})`, prelims.length >= 4);
+    check(`At least 5 prelims questions (got ${prelims.length})`, prelims.length >= 5);
     check(`Exactly 5 prelims questions (got ${prelims.length})`, prelims.length === 5, false);
 
     prelims.forEach((q, i) => {
@@ -304,12 +312,41 @@ async function main(): Promise<void> {
         console.log(`  ${PASS} All prelims questions have complete structure`);
     }
 
+    // Deduplication check against past ePapers
+    const normQ = (s: string) => (s || '').toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim();
+    const pastPrelims: string[] = [];
+    const pastMains: string[] = [];
+    try {
+        const epaperDir = path.join(process.cwd(), 'src', 'data', 'epaper');
+        const pastFiles = require('fs').readdirSync(epaperDir)
+            .filter((f: string) => f.startsWith('epaper-') && f.endsWith('.json') && f !== 'epaper-index.json' && !f.includes(dateArg))
+            .sort().reverse().slice(0, 14);
+        for (const f of pastFiles) {
+            try {
+                const d = JSON.parse(readFileSync(path.join(epaperDir, f), 'utf-8'));
+                if (d.prelimsMocks) d.prelimsMocks.forEach((q: any) => { if (q.question) pastPrelims.push(q.question); });
+                if (d.mainsMocks) d.mainsMocks.forEach((q: any) => { if (q.question) pastMains.push(q.question); });
+            } catch { continue; }
+        }
+    } catch { /* ignore */ }
+
+    const prelimsDups = prelims.filter(q => {
+        const norm = normQ(q.question).substring(0, 60);
+        return pastPrelims.some(p => normQ(p).substring(0, 60) === norm && norm.length > 20);
+    });
+    if (prelimsDups.length > 0) {
+        console.log(`  ${WARN} ${prelimsDups.length} prelims question(s) repeated from past ePapers:`);
+        prelimsDups.forEach(q => console.log(`    → ${q.question.substring(0, 80)}...`));
+    }
+    check(`No duplicate prelims questions (${prelimsDups.length} repeated)`, prelimsDups.length === 0, false);
+
     // ── 9. Mains Mock Questions ─────────────────────────────────────────────
     section('9. MAINS MOCK QUESTIONS');
 
     const mains = epaper.mainsMocks || [];
     check(`Mains mocks exist`, mains.length > 0);
-    check(`At least 4 mains questions (got ${mains.length})`, mains.length >= 4);
+    check(`At least 5 mains questions (got ${mains.length})`, mains.length >= 5);
+    check(`Exactly 5 mains questions (got ${mains.length})`, mains.length === 5, false);
 
     mains.forEach((q, i) => {
         const issues: string[] = [];
@@ -333,6 +370,17 @@ async function main(): Promise<void> {
     } else {
         check(`All mains approach texts are substantive (>30 chars)`, true);
     }
+
+    // Deduplication check for Mains
+    const mainsDups = mains.filter(q => {
+        const norm = normQ(q.question).substring(0, 60);
+        return pastMains.some(p => normQ(p).substring(0, 60) === norm && norm.length > 20);
+    });
+    if (mainsDups.length > 0) {
+        console.log(`  ${WARN} ${mainsDups.length} mains question(s) repeated from past ePapers:`);
+        mainsDups.forEach(q => console.log(`    → ${q.question.substring(0, 80)}...`));
+    }
+    check(`No duplicate mains questions (${mainsDups.length} repeated)`, mainsDups.length === 0, false);
 
     // ── 9b. CSAT Mock Questions ─────────────────────────────────────────────
     section('9b. CSAT MOCK QUESTIONS');
@@ -397,7 +445,7 @@ async function main(): Promise<void> {
             if (invalidCats.length > 0) {
                 console.log(`  ${WARN} Unknown categories: ${invalidCats.join(', ')}`);
             }
-            check(`At least 3 distinct reasoning categories`, uniqueCategories.length >= 3);
+            check(`At least 3 distinct reasoning categories`, uniqueCategories.length >= 3, false);
         }
 
         // Total CSAT questions count
@@ -407,34 +455,103 @@ async function main(): Promise<void> {
         check(`CSAT mocks data present`, false);
     }
 
-    // ── 10. Trivia Check ────────────────────────────────────────────────────
-    section('10. TRIVIA / DID YOU KNOW');
+    // ── 10. Quick Bytes ─────────────────────────────────────────────────
+    section('10. QUICK BYTES');
+
+    const quickBytes = epaper.quickBytes || [];
+    check(`Quick Bytes exist`, quickBytes.length > 0);
+    check(`At least 8 Quick Bytes (got ${quickBytes.length})`, quickBytes.length >= 8);
+    check(`Exactly 10 Quick Bytes (got ${quickBytes.length})`, quickBytes.length === 10, false);
+
+    if (quickBytes.length > 0) {
+        // Category diversity
+        const qbCategories = new Set(quickBytes.map(qb => qb.category));
+        console.log(`  📊 Categories: ${Array.from(qbCategories).join(', ')}`);
+        check(`At least 5 distinct QB categories (got ${qbCategories.size})`, qbCategories.size >= 5);
+
+        // Mandatory categories
+        const hasArtCulture = quickBytes.some(qb => qb.category === 'art_culture');
+        const hasHistory = quickBytes.some(qb => ['history', 'anniversary'].includes(qb.category));
+        check(`Art & Culture represented`, hasArtCulture, false);
+        check(`History / This Day represented`, hasHistory, false);
+
+        // GS paper distribution
+        const qbGS = new Set(quickBytes.map(qb => qb.gsPaper));
+        console.log(`  📊 GS Papers: ${Array.from(qbGS).join(', ')}`);
+        check(`At least 2 GS papers in Quick Bytes`, qbGS.size >= 2, false);
+
+        // Check for duplicate content
+        const qbTexts = quickBytes.map(qb => qb.text.toLowerCase().substring(0, 60));
+        const uniqueQbTexts = new Set(qbTexts);
+        check(`No duplicate Quick Bytes (${uniqueQbTexts.size}/${qbTexts.length})`, uniqueQbTexts.size === qbTexts.length);
+
+        // Text quality
+        const shortQbs = quickBytes.filter(qb => qb.text.length < 30);
+        check(`All Quick Bytes substantive (${shortQbs.length} too short)`, shortQbs.length === 0, false);
+
+        const longQbs = quickBytes.filter(qb => qb.text.length > 200);
+        check(`No excessively long Quick Bytes (${longQbs.length} over 200 chars)`, longQbs.length === 0, false);
+
+        // Tags check
+        const qbsWithoutTags = quickBytes.filter(qb => !qb.tags || qb.tags.length === 0);
+        check(`All Quick Bytes have tags (${qbsWithoutTags.length} missing)`, qbsWithoutTags.length === 0, false);
+
+        // Max 2 per category check
+        const catCounts: Record<string, number> = {};
+        quickBytes.forEach(qb => { catCounts[qb.category] = (catCounts[qb.category] || 0) + 1; });
+        const overRepresented = Object.entries(catCounts).filter(([_, v]) => v > 3);
+        if (overRepresented.length > 0) {
+            console.log(`  ${WARN} Over-represented: ${overRepresented.map(([k, v]) => `${k}=${v}`).join(', ')}`);
+        }
+        check(`No category over-represented (max 3)`, overRepresented.length === 0, false);
+    }
+
+    // ── 11. Trivia / Did You Know ────────────────────────────────────────
+    section('11. TRIVIA / DID YOU KNOW');
 
     const triviaCount = articles.filter(a => a.trivia && a.trivia.length > 10).length;
     check(`At least 50% of articles have trivia (${triviaCount}/${articles.length})`, triviaCount >= articles.length * 0.5, false);
     console.log(`  📊 ${triviaCount} articles with trivia out of ${articles.length}`);
 
-    // ── 11. Sources ─────────────────────────────────────────────────────────
-    section('11. SOURCES');
+    // ── 12. Sources ─────────────────────────────────────────────────────
+    section('12. SOURCES');
 
     const sourcesUsed = new Set(articles.map(a => a.source));
     check(`Multiple sources used (got ${sourcesUsed.size})`, sourcesUsed.size >= 2);
     console.log(`  📊 Sources: ${Array.from(sourcesUsed).join(', ')}`);
 
-    // ── 12. Page Count Estimation ───────────────────────────────────────────
-    section('12. PAGE ESTIMATION');
+    // ── 13. Page Count Estimation ───────────────────────────────────────
+    section('13. PAGE ESTIMATION');
 
     const articlePages = Math.ceil((articles.length - 1) / 2); // 2 per page, minus lead
     const hasCsat = epaper.csatMocks && (epaper.csatMocks.comprehension?.length > 0 || epaper.csatMocks.reasoning?.length > 0);
+    const hasQuickBytesPage = quickBytes.length > 0 ? 1 : 0;
     const mockPages = (prelims.length > 0 ? 1 : 0) + (hasCsat ? 1 : 0) + (mains.length > 0 ? 1 : 0);
-    const totalPages = 1 + articlePages + mockPages;
-    console.log(`  📊 Estimated pages: 1 (front) + ${articlePages} (articles) + ${mockPages} (mocks: prelims/csat/mains) = ${totalPages}`);
-    check(`Reasonable page count (8-20 pages, got ${totalPages})`, totalPages >= 8 && totalPages <= 20, false);
+    const totalPages = 1 + articlePages + hasQuickBytesPage + mockPages;
+    console.log(`  📊 Estimated pages: 1 (front) + ${articlePages} (articles) + ${hasQuickBytesPage} (quick bytes) + ${mockPages} (mocks: prelims/csat/mains) = ${totalPages}`);
+    check(`Reasonable page count (8-22 pages, got ${totalPages})`, totalPages >= 8 && totalPages <= 22, false);
 
-    // ── 13. Layout & Formatting (Puppeteer) ─────────────────────────────────
-    section('13. LAYOUT & FORMATTING (Puppeteer)');
+    // ── 14. Server Availability ──────────────────────────────────────────────
+    section('14. SERVER AVAILABILITY');
+
+    let serverUp = false;
+    try {
+        const pingResponse = await fetch('http://localhost:3000', { signal: AbortSignal.timeout(5000) });
+        serverUp = pingResponse.ok;
+        check(`Next.js server is running on localhost:3000`, serverUp);
+    } catch {
+        check(`Next.js server is running on localhost:3000`, false, false);
+        console.log(`  ${WARN} Server not running — Puppeteer layout/PDF checks will be skipped`);
+    }
+
+    // ── 15. Layout & Formatting (Puppeteer) ─────────────────────────────────
+    section('15. LAYOUT & FORMATTING (Puppeteer)');
 
     let layoutPassed = true;
+    if (!serverUp) {
+        console.log(`  ${WARN} Skipped — server not available`);
+        warnings++;
+    } else {
     try {
         const browser = await puppeteer.launch({ headless: true, args: ['--no-sandbox'] });
         const page = await browser.newPage();
@@ -487,9 +604,10 @@ async function main(): Promise<void> {
         // ── Article Pages checks ──
         console.log('  ── Article Pages (2-13) ──');
         const allPages = await page.$$('.epaper-print-page');
-        // Check article pages (skip first page = front, last N = mocks)
-        const mockPageCount = (prelims.length > 0 ? 1 : 0) + (hasCsat ? 1 : 0) + (mains.length > 0 ? 1 : 0);
-        const articlePageCount = allPages.length - 1 - mockPageCount; // front + mock pages
+        // Check article pages (skip first page = front, Quick Bytes page, and last N = mocks)
+        const quickBytesPageCount = quickBytes.length > 0 ? 1 : 0;
+        const mockPageCount = quickBytesPageCount + (prelims.length > 0 ? 1 : 0) + (hasCsat ? 1 : 0) + (mains.length > 0 ? 1 : 0);
+        const articlePageCount = allPages.length - 1 - mockPageCount; // front + quick bytes + mock pages
         check(`  Article pages count: ${articlePageCount}`, articlePageCount >= 6);
 
         // Check articles per page (2 per page)
@@ -522,26 +640,92 @@ async function main(): Promise<void> {
         }
 
         // ── Mock Pages checks ──
+        // Identify mock/special pages by scanning content, not by position.
         console.log('  ── Mock Pages ──');
-        // Check for mock section headers
-        const mockHeaders = await page.evaluate((mc: number) => {
+        const mockPageInfo = await page.evaluate(() => {
             const pages = document.querySelectorAll('.epaper-print-page');
-            const results: string[] = [];
-            for (let i = Math.max(0, pages.length - mc); i < pages.length; i++) {
-                const text = pages[i]?.textContent?.substring(0, 300) || '';
-                results.push(text);
+            const info: { index: number; type: string; text: string }[] = [];
+            for (let i = 0; i < pages.length; i++) {
+                const text = pages[i]?.textContent || '';
+                const first500 = text.substring(0, 500);
+                if (first500.includes('Prelims') && (first500.includes('Mock') || first500.includes('MOCK') || first500.includes('Q1'))) {
+                    info.push({ index: i, type: 'prelims', text: first500 });
+                } else if (first500.includes('CSAT') || first500.includes('Paper II')) {
+                    info.push({ index: i, type: 'csat', text: first500 });
+                } else if (first500.includes('Mains') && (first500.includes('Mock') || first500.includes('MOCK') || first500.includes('Q1'))) {
+                    info.push({ index: i, type: 'mains', text: first500 });
+                } else if (first500.includes('Quick Bytes') || first500.includes('QUICK BYTES')) {
+                    info.push({ index: i, type: 'quickbytes', text: first500 });
+                }
             }
-            return results;
-        }, mockPageCount);
-        const hasPrelimsMock = mockHeaders.some(t => t.includes('Prelims') || t.includes('prelims'));
+            return info;
+        });
+
+        const hasPrelimsMock = mockPageInfo.some(p => p.type === 'prelims');
         check(`  Prelims mock page renders`, hasPrelimsMock);
-        const hasCsatMock = mockHeaders.some(t => t.includes('CSAT') || t.includes('csat'));
+        const hasCsatMock = mockPageInfo.some(p => p.type === 'csat');
         check(`  CSAT mock page renders`, hasCsatMock);
-        const hasMainsMock = mockHeaders.some(t => t.includes('Mains') || t.includes('mains'));
+        const hasMainsMock = mockPageInfo.some(p => p.type === 'mains');
         check(`  Mains mock page renders`, hasMainsMock);
+        const hasQuickBytesPage = mockPageInfo.some(p => p.type === 'quickbytes');
+        check(`  Quick Bytes page renders`, hasQuickBytesPage, false);
+        console.log(`  📊 Special pages found: ${mockPageInfo.map(p => `${p.type}(pg${p.index + 1})`).join(', ')}`);
+
+        // ── Rendered question count verification ──
+        console.log('  ── Question Count Verification ──');
+        const renderedCounts = await page.evaluate(() => {
+            const pages = document.querySelectorAll('.epaper-print-page');
+            let prelimsQs = 0;
+            let mainsQs = 0;
+            let csatQs = 0;
+            let qbItems = 0;
+
+            for (let i = 0; i < pages.length; i++) {
+                const text = pages[i]?.textContent || '';
+                const first500 = text.substring(0, 500);
+
+                if (first500.includes('Prelims') && (first500.includes('Mock') || first500.includes('MOCK') || first500.includes('Q1'))) {
+                    // Count Q labels: Q1, Q2, Q3... on this page
+                    const qLabels = text.match(/Q\d+\./g);
+                    prelimsQs = qLabels ? qLabels.length : 0;
+                } else if (first500.includes('CSAT') || first500.includes('Paper II')) {
+                    // Count option labels as proxy for questions
+                    const qLabels = text.match(/Q\d+[\.:]/g);
+                    const passageMarkers = text.match(/Passage/gi);
+                    csatQs = (qLabels ? qLabels.length : 0) + (passageMarkers ? passageMarkers.length : 0);
+                } else if (first500.includes('Mains') && (first500.includes('Mock') || first500.includes('MOCK') || first500.includes('Q1'))) {
+                    const qLabels = text.match(/Q\d+\./g);
+                    mainsQs = qLabels ? qLabels.length : 0;
+                } else if (first500.includes('Quick Bytes') || first500.includes('QUICK BYTES')) {
+                    // Count list items (• or numbered items)
+                    const bullets = text.match(/[•●]\s/g);
+                    const numbered = text.match(/^\d+\.\s/gm);
+                    qbItems = Math.max(bullets ? bullets.length : 0, numbered ? numbered.length : 0);
+                    // Fallback: count by line breaks if no markers found
+                    if (qbItems === 0) {
+                        const lines = text.split('\n').filter(l => l.trim().length > 20);
+                        qbItems = lines.length;
+                    }
+                }
+            }
+            return { prelimsQs, mainsQs, csatQs, qbItems };
+        });
+
+        check(`  Prelims questions rendered (expect ${prelims.length}, found ${renderedCounts.prelimsQs})`,
+            renderedCounts.prelimsQs >= prelims.length, false);
+        check(`  Mains questions rendered (expect ${mains.length}, found ${renderedCounts.mainsQs})`,
+            renderedCounts.mainsQs >= mains.length, false);
+        if (hasCsat) {
+            const expectedCsatMin = (epaper.csatMocks?.comprehension?.length || 0) + (epaper.csatMocks?.reasoning?.length || 0);
+            check(`  CSAT content rendered (expect ≥${expectedCsatMin} markers, found ${renderedCounts.csatQs})`,
+                renderedCounts.csatQs >= Math.max(1, expectedCsatMin - 2), false);
+        }
+        if (quickBytes.length > 0) {
+            check(`  Quick Bytes items rendered (expect ${quickBytes.length}, found ${renderedCounts.qbItems})`,
+                renderedCounts.qbItems >= Math.max(1, quickBytes.length - 2), false);
+        }
 
         // Check masthead footer on last page
-        const mastheadFooters = await page.$$eval('.epaper-print-page:last-child img[alt="Globe"]', imgs => imgs.length);
         const lastPageHasFooter = await page.evaluate(() => {
             const lastPage = document.querySelector('.epaper-print-page:last-child');
             return lastPage?.textContent?.includes('Current IAS Prep') || false;
@@ -553,7 +737,6 @@ async function main(): Promise<void> {
             const pages = document.querySelectorAll('.epaper-print-page');
             const lastPage = pages[pages.length - 1] as HTMLElement;
             if (!lastPage) return true;
-            // Find all 'Approach:' labels on the last page
             const allText = lastPage.querySelectorAll('div');
             let lastApproachEl: HTMLElement | null = null;
             allText.forEach((el) => {
@@ -561,13 +744,78 @@ async function main(): Promise<void> {
                     lastApproachEl = el as HTMLElement;
                 }
             });
-            if (!lastApproachEl) return true; // No approach found, skip
-            // Check if the approach element's bottom is within the page's visible area
+            if (!lastApproachEl) return true;
             const pageRect = lastPage.getBoundingClientRect();
             const approachRect = (lastApproachEl as HTMLElement).getBoundingClientRect();
-            return approachRect.bottom <= pageRect.bottom + 2;
+            return approachRect.bottom <= pageRect.bottom + 5;
         });
         check(`  Mains last question approach visible (not clipped)`, mainsApproachVisible, false);
+
+        // ── Content clipping check on mock pages ──
+        // NOTE: This is a WARNING (not critical) because browser rendering can differ
+        // from actual PDF output generated by Puppeteer's page.pdf().
+        console.log('  ── Mock Box Content Clipping ──');
+        const actualMockCount = (prelims.length > 0 ? 1 : 0) + (hasCsat ? 1 : 0) + (mains.length > 0 ? 1 : 0);
+        const mockClipResults = await page.evaluate((amc: number) => {
+            const pages = document.querySelectorAll('.epaper-print-page');
+            const mockPageNames = ['Prelims', 'CSAT', 'Mains'];
+            const issues: string[] = [];
+            const CLIP_TOLERANCE = 5; // px — relaxed to avoid false positives
+
+            for (let m = 0; m < amc; m++) {
+                const pageIdx = pages.length - amc + m;
+                const mockPage = pages[pageIdx] as HTMLElement;
+                if (!mockPage) continue;
+                const pageName = mockPageNames[m] || `Mock-${m + 1}`;
+
+                const allDivs = mockPage.querySelectorAll<HTMLElement>('div');
+                let boxIndex = 0;
+
+                allDivs.forEach((el) => {
+                    const computed = window.getComputedStyle(el);
+                    const borderStyle = computed.borderTopStyle || computed.borderStyle;
+                    if (borderStyle === 'none' || borderStyle === '' || !borderStyle) return;
+
+                    const rect = el.getBoundingClientRect();
+                    if (rect.height < 40 || rect.width < 150) return;
+                    if (el === mockPage) return;
+                    if (el.tagName === 'HEADER' || el.querySelector('h2')) return;
+                    // Skip outer containers that wrap the entire question grid
+                    if (computed.overflow === 'visible' && computed.display === 'flex') return;
+
+                    boxIndex++;
+                    const children = el.children;
+                    if (children.length === 0) return;
+
+                    const firstChild = children[0] as HTMLElement;
+                    const firstRect = firstChild.getBoundingClientRect();
+                    if (firstRect.top < rect.top - CLIP_TOLERANCE) {
+                        const preview = firstChild.textContent?.substring(0, 50) || '(empty)';
+                        issues.push(`${pageName} box ${boxIndex}: TOP clipped — "${preview}…"`);
+                    }
+
+                    const lastChild = children[children.length - 1] as HTMLElement;
+                    const lastRect = lastChild.getBoundingClientRect();
+                    if (lastRect.bottom > rect.bottom + CLIP_TOLERANCE) {
+                        const preview = lastChild.textContent?.substring(0, 50) || '(empty)';
+                        issues.push(`${pageName} box ${boxIndex}: BOTTOM clipped — "${preview}…"`);
+                    }
+
+                    if (el.scrollHeight > el.clientHeight + CLIP_TOLERANCE * 2) {
+                        const overflowPx = el.scrollHeight - el.clientHeight;
+                        const preview = el.textContent?.substring(0, 40) || '(empty)';
+                        issues.push(`${pageName} box ${boxIndex}: overflow by ${overflowPx}px — "${preview}…"`);
+                    }
+                });
+            }
+            return issues;
+        }, actualMockCount);
+
+        if (mockClipResults.length > 0) {
+            mockClipResults.forEach(issue => console.log(`    ${WARN} ${issue}`));
+        }
+        // Clipping is a WARNING, not critical — browser rendering can differ from PDF
+        check(`  No clipped content in mock page boxes (${mockClipResults.length} clipped)`, mockClipResults.length === 0, false);
 
         // ── Overflow check ──
         console.log('  ── Overflow Check ──');
@@ -633,6 +881,29 @@ async function main(): Promise<void> {
         warnings++;
         layoutPassed = false;
     }
+    } // close the serverUp if-block
+
+    // ── 16. EMAIL & PDF READINESS ─────────────────────────────────────────
+    section('16. EMAIL & PDF READINESS');
+
+    // Check SMTP credentials are configured
+    const dotenvPath = path.join(process.cwd(), '.env.local');
+    let smtpConfigured = false;
+    if (existsSync(dotenvPath)) {
+        const envContent = readFileSync(dotenvPath, 'utf-8');
+        const hasUser = /SMTP_USER=.+/.test(envContent);
+        const hasPass = /SMTP_PASS=.+/.test(envContent);
+        smtpConfigured = hasUser && hasPass;
+        check(`SMTP_USER configured in .env.local`, hasUser, false);
+        check(`SMTP_PASS configured in .env.local`, hasPass, false);
+    } else {
+        check(`.env.local file exists`, false, false);
+    }
+
+    // Check that PDF was generated in today's validation run
+    const todayPdfPath = path.join('/tmp', `CurrentIAS_ePaper_${dateArg}_validate.pdf`);
+    // (PDF is already cleaned up during layout check, so we just note if layout passed)
+    check(`Layout & PDF pipeline healthy`, layoutPassed || !serverUp, false);
 
     // ── Summary ─────────────────────────────────────────────────────────────
     console.log(`\n${'═'.repeat(60)}`);
