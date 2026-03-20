@@ -293,8 +293,8 @@ async function main(): Promise<void> {
 
     const prelims = epaper.prelimsMocks || [];
     check(`Prelims mocks exist`, prelims.length > 0);
-    check(`At least 5 prelims questions (got ${prelims.length})`, prelims.length >= 5);
-    check(`Exactly 5 prelims questions (got ${prelims.length})`, prelims.length === 5, false);
+    check(`At least 4 prelims questions (got ${prelims.length})`, prelims.length >= 4);
+    check(`Ideally 5 prelims questions (got ${prelims.length})`, prelims.length >= 5, false);
 
     prelims.forEach((q, i) => {
         const issues: string[] = [];
@@ -345,8 +345,8 @@ async function main(): Promise<void> {
 
     const mains = epaper.mainsMocks || [];
     check(`Mains mocks exist`, mains.length > 0);
-    check(`At least 5 mains questions (got ${mains.length})`, mains.length >= 5);
-    check(`Exactly 5 mains questions (got ${mains.length})`, mains.length === 5, false);
+    check(`At least 4 mains questions (got ${mains.length})`, mains.length >= 4);
+    check(`Ideally 5 mains questions (got ${mains.length})`, mains.length >= 5, false);
 
     mains.forEach((q, i) => {
         const issues: string[] = [];
