@@ -103,5 +103,21 @@
       "ac-festivals": 15
     },
     "created_at": "2026-03-17T06:08:31.609Z"
+  },
+  {
+    "mock_id": "art_culture-mock-6",
+    "title": "Art Culture \u2014 Daily ePaper Collection 1",
+    "subject": "art_culture",
+    "sequence_number": 6,
+    "total_questions": 19,
+    "difficulty_summary": {
+      "easy": 0,
+      "medium": 19,
+      "hard": 0
+    },
+    "sub_topic_summary": {
+      "art_culture": 19
+    },
+    "created_at": "2026-03-22T13:22:21.472304Z"
   }
 ]

@@ -51,13 +51,26 @@ export default function ContactPage() {
     const [submitted, setSubmitted] = useState(false);
     const [openFaq, setOpenFaq] = useState<number | null>(null);
 
+    const [errorMsg, setErrorMsg] = useState('');
+
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setIsSubmitting(true);
-        await new Promise(resolve => setTimeout(resolve, 1500));
-        setIsSubmitting(false);
-        setSubmitted(true);
-        setFormData({ name: '', email: '', subject: '', message: '' });
+        setErrorMsg('');
+        try {
+            const res = await fetch('/api/contact', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData),
+            });
+            if (!res.ok) throw new Error('Failed to send');
+            setSubmitted(true);
+            setFormData({ name: '', email: '', subject: '', message: '' });
+        } catch {
+            setErrorMsg('Something went wrong. Please try again or email us directly at hello@currentprep.in');
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     return (

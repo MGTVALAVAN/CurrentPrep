@@ -136,5 +136,37 @@
       "env-sdgs": 10
     },
     "created_at": "2026-03-20T11:46:19.415Z"
+  },
+  {
+    "mock_id": "environment-mock-7",
+    "title": "Environment \u2014 Daily ePaper Collection 1",
+    "subject": "environment",
+    "sequence_number": 7,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 0,
+      "medium": 100,
+      "hard": 0
+    },
+    "sub_topic_summary": {
+      "environment": 100
+    },
+    "created_at": "2026-03-22T13:22:21.500158Z"
+  },
+  {
+    "mock_id": "environment-mock-8",
+    "title": "Environment \u2014 Daily ePaper Collection 2",
+    "subject": "environment",
+    "sequence_number": 8,
+    "total_questions": 84,
+    "difficulty_summary": {
+      "easy": 0,
+      "medium": 84,
+      "hard": 0
+    },
+    "sub_topic_summary": {
+      "environment": 84
+    },
+    "created_at": "2026-03-22T13:22:21.501701Z"
   }
 ]

@@ -98,7 +98,7 @@ export default function HomePage() {
                                 <BookOpen className="w-5 h-5" />
                                 {t('hero_cta_syllabus')}
                             </Link>
-                            <Link href="/features"
+                            <Link href="/quiz"
                                 className="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-accent-500 to-accent-600 text-white font-bold rounded-xl
                   hover:from-accent-400 hover:to-accent-500 transition-all duration-300 shadow-xl hover:shadow-2xl
                   hover:-translate-y-0.5 flex items-center justify-center gap-2 text-lg animate-pulse-glow">

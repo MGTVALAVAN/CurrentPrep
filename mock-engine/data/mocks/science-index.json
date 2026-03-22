@@ -112,5 +112,53 @@
       "sci-defense": 20
     },
     "created_at": "2026-03-20T12:57:52.403Z"
+  },
+  {
+    "mock_id": "science-mock-7",
+    "title": "Science \u2014 Daily ePaper Collection 1",
+    "subject": "science",
+    "sequence_number": 7,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 0,
+      "medium": 100,
+      "hard": 0
+    },
+    "sub_topic_summary": {
+      "science": 100
+    },
+    "created_at": "2026-03-22T13:22:21.517486Z"
+  },
+  {
+    "mock_id": "science-mock-8",
+    "title": "Science \u2014 Daily ePaper Collection 2",
+    "subject": "science",
+    "sequence_number": 8,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 0,
+      "medium": 100,
+      "hard": 0
+    },
+    "sub_topic_summary": {
+      "science": 100
+    },
+    "created_at": "2026-03-22T13:22:21.519178Z"
+  },
+  {
+    "mock_id": "science-mock-9",
+    "title": "Science \u2014 Daily ePaper Collection 3",
+    "subject": "science",
+    "sequence_number": 9,
+    "total_questions": 33,
+    "difficulty_summary": {
+      "easy": 0,
+      "medium": 33,
+      "hard": 0
+    },
+    "sub_topic_summary": {
+      "science": 33
+    },
+    "created_at": "2026-03-22T13:22:21.521260Z"
   }
 ]
