@@ -1,0 +1,116 @@
+[
+  {
+    "mock_id": "science-mock-1",
+    "title": "Science & Technology Mock Test 1",
+    "subject": "science",
+    "sequence_number": 1,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 31,
+      "medium": 38,
+      "hard": 31
+    },
+    "sub_topic_summary": {
+      "sci-physics": 25,
+      "sci-biology": 30,
+      "sci-it": 25,
+      "sci-defense": 20
+    },
+    "created_at": "2026-03-20T12:57:52.401Z"
+  },
+  {
+    "mock_id": "science-mock-2",
+    "title": "Science & Technology Mock Test 2",
+    "subject": "science",
+    "sequence_number": 2,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 31,
+      "medium": 38,
+      "hard": 31
+    },
+    "sub_topic_summary": {
+      "sci-physics": 25,
+      "sci-biology": 30,
+      "sci-it": 25,
+      "sci-defense": 20
+    },
+    "created_at": "2026-03-20T12:57:52.402Z"
+  },
+  {
+    "mock_id": "science-mock-3",
+    "title": "Science & Technology Mock Test 3",
+    "subject": "science",
+    "sequence_number": 3,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 31,
+      "medium": 38,
+      "hard": 31
+    },
+    "sub_topic_summary": {
+      "sci-physics": 25,
+      "sci-biology": 30,
+      "sci-it": 25,
+      "sci-defense": 20
+    },
+    "created_at": "2026-03-20T12:57:52.402Z"
+  },
+  {
+    "mock_id": "science-mock-4",
+    "title": "Science & Technology Mock Test 4",
+    "subject": "science",
+    "sequence_number": 4,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 31,
+      "medium": 38,
+      "hard": 31
+    },
+    "sub_topic_summary": {
+      "sci-physics": 25,
+      "sci-biology": 30,
+      "sci-it": 25,
+      "sci-defense": 20
+    },
+    "created_at": "2026-03-20T12:57:52.402Z"
+  },
+  {
+    "mock_id": "science-mock-5",
+    "title": "Science & Technology Mock Test 5",
+    "subject": "science",
+    "sequence_number": 5,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 31,
+      "medium": 38,
+      "hard": 31
+    },
+    "sub_topic_summary": {
+      "sci-physics": 25,
+      "sci-biology": 30,
+      "sci-it": 25,
+      "sci-defense": 20
+    },
+    "created_at": "2026-03-20T12:57:52.403Z"
+  },
+  {
+    "mock_id": "science-mock-6",
+    "title": "Science & Technology Mock Test 6",
+    "subject": "science",
+    "sequence_number": 6,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 31,
+      "medium": 38,
+      "hard": 31
+    },
+    "sub_topic_summary": {
+      "sci-physics": 25,
+      "sci-biology": 30,
+      "sci-it": 25,
+      "sci-defense": 20
+    },
+    "created_at": "2026-03-20T12:57:52.403Z"
+  }
+]

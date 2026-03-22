@@ -1,0 +1,2511 @@
+{
+  "date": "2025-10-05",
+  "dateFormatted": "Sunday 5 October, 2025",
+  "lastUpdated": "2026-03-21T04:34:16.300Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "national-digital-infrastructure-mission-launched",
+      "headline": "Government Launches Ambitious 'National Digital Infrastructure Mission' for Universal Connectivity by 2030",
+      "explainer": "• The Union Government has officially rolled out the 'National Digital Infrastructure Mission' (NDIM) with an aim to provide universal, high-speed internet access across India by 2030.\n• NDIM integrates existing initiatives like BharatNet, PM-WANI, and optical fiber networks, while also focusing on developing next-gen data centers and secure digital public infrastructure.\n• The mission emphasizes public-private partnerships, skill development for digital literacy, and fostering innovation in edge computing and IoT.\n• A dedicated task force has been constituted to oversee implementation, funding mechanisms, and address regulatory challenges.\n• This initiative is expected to significantly boost India's digital economy, improve service delivery, and bridge the urban-rural digital divide.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "e-governance- applications, models, successes, limitations, and potential; citizens charters, transparency & accountability and institutional and other measures."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Electronics & IT",
+      "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=...",
+      "importance": "high",
+      "tags": [
+        "Digital India",
+        "Broadband Connectivity",
+        "Digital Public Infrastructure",
+        "e-governance",
+        "Infrastructure Development",
+        "Rural Development"
+      ],
+      "keyTerms": [
+        "National Digital Infrastructure Mission (NDIM)",
+        "BharatNet",
+        "PM-WANI",
+        "Optical Fiber Network",
+        "Digital Divide",
+        "Edge Computing",
+        "IoT"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NDIM aims for universal high-speed internet by 2030.",
+        "It integrates BharatNet and PM-WANI.",
+        "Focuses on data centers and digital public infrastructure.",
+        "Emphasizes public-private partnerships.",
+        "Overseen by a dedicated task force."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of NDIM in achieving 'Digital India' objectives and its potential to transform rural India.",
+        "Analyze the challenges in implementing such a large-scale infrastructure project, including funding, land acquisition, and technological obsolescence.",
+        "Evaluate the role of public-private partnerships and local governance in ensuring equitable access and last-mile connectivity under NDIM.",
+        "Examine the potential impact of NDIM on e-governance, digital economy, and social inclusion.",
+        "Compare NDIM with similar initiatives globally and suggest best practices for its successful execution."
+      ],
+      "imageDescription": "Illustration of a fiber optic network connecting rural and urban areas, symbolizing universal digital connectivity.",
+      "section": "Lead Opinion",
+      "trivia": "India is the world's second-largest internet market by users, but significant disparities in access and speed persist, especially in rural areas.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Government Policies",
+        "topic": "Digital India, Infrastructure"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "rbi-monetary-policy-review-oct-2025",
+      "headline": "RBI Maintains Status Quo on Repo Rate Amidst Easing Inflationary Pressures; Focus on Growth Revival",
+      "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) concluded its bi-monthly review, deciding to keep the repo rate unchanged at 6.5% for the sixth consecutive time.\n• The decision comes against a backdrop of moderating retail inflation, which has shown a downward trend in recent months, nearing the MPC's target band.\n• RBI Governor highlighted the need to balance inflation control with supporting economic growth, citing global uncertainties and domestic demand conditions.\n• The MPC reiterated its commitment to 'withdrawal of accommodation' to ensure inflation remains within target while remaining agile to evolving economic data.\n• Future policy actions will be guided by the trajectory of food inflation, global commodity prices, and the monsoon's impact on agricultural output.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+        "Government Budgeting.",
+        "Monetary Policy."
+      ],
+      "date": "2025-10-05",
+      "source": "Reserve Bank of India",
+      "sourceUrl": "https://www.rbi.org.in/Scripts/PressReleaseDisplay.aspx?prid=...",
+      "importance": "high",
+      "tags": [
+        "Monetary Policy",
+        "Repo Rate",
+        "Inflation",
+        "Economic Growth",
+        "RBI",
+        "MPC"
+      ],
+      "keyTerms": [
+        "Repo Rate",
+        "Reverse Repo Rate",
+        "Cash Reserve Ratio (CRR)",
+        "Statutory Liquidity Ratio (SLR)",
+        "Inflation Targeting",
+        "Monetary Policy Committee (MPC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Repo rate maintained at 6.5%.",
+        "Sixth consecutive time repo rate is unchanged.",
+        "Retail inflation moderating.",
+        "RBI's stance: 'withdrawal of accommodation'.",
+        "MPC monitors food inflation, global prices, monsoon."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the rationale behind the RBI's decision to maintain the status quo on the repo rate, considering current economic indicators and global trends.",
+        "Discuss the challenges faced by the MPC in balancing inflation control and growth revival in the current economic scenario.",
+        "Evaluate the effectiveness of monetary policy tools in addressing supply-side inflationary pressures and their limitations.",
+        "Examine the potential impact of the RBI's monetary policy stance on various sectors of the Indian economy, including banking, industry, and consumers.",
+        "Suggest alternative or complementary fiscal measures that the government could adopt to support economic stability and growth."
+      ],
+      "imageDescription": "RBI logo with graphs showing stable interest rates and declining inflation, representing the monetary policy stance.",
+      "section": "Economy",
+      "trivia": "The Monetary Policy Committee (MPC) consists of six members: three officials from the RBI and three external members nominated by the Government of India.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI functions and tools"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-japan-strategic-dialogue",
+      "headline": "India-Japan 2+2 Ministerial Dialogue Focuses on Indo-Pacific Security and Economic Cooperation",
+      "explainer": "• The 2+2 Ministerial Dialogue between India and Japan concluded in New Delhi, bringing together their Foreign and Defence Ministers.\n• Discussions primarily centered on enhancing cooperation for a free, open, and inclusive Indo-Pacific region amidst evolving geopolitical dynamics.\n• Key agreements were reached on expanding defense collaboration, including joint exercises, technology transfer, and logistics support.\n• Both nations reiterated their commitment to strengthening economic ties, particularly in critical and emerging technologies, supply chain resilience, and infrastructure development.\n• The dialogue also covered regional issues, multilateral cooperation (QUAD, G20), and counter-terrorism efforts, underscoring the comprehensive strategic partnership.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "https://www.mea.gov.in/press-releases.htm?dtl/...",
+      "importance": "high",
+      "tags": [
+        "India-Japan Relations",
+        "Indo-Pacific",
+        "2+2 Dialogue",
+        "Defense Cooperation",
+        "Economic Cooperation",
+        "QUAD",
+        "Geopolitics"
+      ],
+      "keyTerms": [
+        "2+2 Ministerial Dialogue",
+        "Indo-Pacific Strategy",
+        "QUAD",
+        "Supply Chain Resilience Initiative (SCRI)",
+        "Comprehensive Strategic Partnership"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India-Japan 2+2 Dialogue held in New Delhi.",
+        "Involved Foreign and Defence Ministers.",
+        "Focused on Indo-Pacific security and economic cooperation.",
+        "Agreements on defense collaboration and technology transfer.",
+        "Reiterated commitment to multilateral forums like QUAD and G20."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of the India-Japan 2+2 Dialogue in strengthening bilateral relations and promoting regional stability in the Indo-Pacific.",
+        "Discuss the shared strategic interests of India and Japan in the Indo-Pacific and how their cooperation contributes to a rules-based international order.",
+        "Evaluate the progress and potential of defense cooperation between India and Japan, including joint exercises and technology transfers.",
+        "Examine the role of India-Japan partnership in critical and emerging technologies and building resilient supply chains.",
+        "To what extent does the India-Japan relationship align with India's 'Act East' policy and its broader geopolitical objectives?"
+      ],
+      "imageDescription": "Flags of India and Japan standing side-by-side during a diplomatic meeting, symbolizing bilateral cooperation.",
+      "section": "International",
+      "trivia": "India and Japan are both members of the Quadrilateral Security Dialogue (QUAD), along with the United States and Australia, aimed at ensuring a free and open Indo-Pacific.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India-Japan"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "supreme-court-data-privacy-ruling",
+      "headline": "Supreme Court Upholds 'Right to be Forgotten' in Landmark Data Privacy Ruling",
+      "explainer": "• In a significant judgment, the Supreme Court of India has affirmed the 'right to be forgotten' as an integral facet of the fundamental 'Right to Privacy' under Article 21 of the Constitution.\n• The ruling allows individuals to seek removal of their personal information from public platforms, particularly online, if it is no longer relevant, necessary, or causes undue harm.\n• The Court laid down guidelines for balancing the right to be forgotten with other fundamental rights, such as freedom of speech and expression and the public's right to know.\n• This judgment comes amidst ongoing parliamentary discussions on a new Data Protection Bill, providing crucial judicial guidance for its framework.\n• Experts suggest the ruling will have far-reaching implications for digital platforms, data aggregators, and individual control over online presence.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2025-10-05",
+      "source": "Supreme Court of India",
+      "sourceUrl": "https://www.sci.gov.in/judgments/...",
+      "importance": "high",
+      "tags": [
+        "Right to Privacy",
+        "Right to be Forgotten",
+        "Fundamental Rights",
+        "Supreme Court",
+        "Data Protection",
+        "Article 21"
+      ],
+      "keyTerms": [
+        "Right to Privacy (Article 21)",
+        "Right to be Forgotten",
+        "Data Protection Bill",
+        "Freedom of Speech and Expression",
+        "Personal Data"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Supreme Court affirms 'Right to be Forgotten'.",
+        "It is part of 'Right to Privacy' (Article 21).",
+        "Allows removal of irrelevant personal information online.",
+        "Balances with freedom of speech and public's right to know.",
+        "Impacts Data Protection Bill discussions."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the constitutional basis and implications of the Supreme Court's judgment on the 'right to be forgotten' as an extension of the right to privacy.",
+        "Discuss the challenges in implementing the 'right to be forgotten' in the digital age, particularly concerning its balance with freedom of speech and the public interest.",
+        "Examine how this ruling will influence the ongoing parliamentary process for the Data Protection Bill and the responsibilities of digital platforms.",
+        "Evaluate the potential impact of this judgment on individuals' control over their digital footprint and the broader data economy in India.",
+        "Compare India's stance on the 'right to be forgotten' with international precedents like the EU's GDPR and discuss its suitability for the Indian context."
+      ],
+      "imageDescription": "Gavel on a judicial bench with a blurred digital background, symbolizing a legal decision on digital rights.",
+      "section": "National",
+      "trivia": "The 'Right to Privacy' was declared a fundamental right in India by the Supreme Court in the landmark Puttaswamy judgment of 2017.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "new-electric-vehicle-charging-policy",
+      "headline": "Government Unveils New Policy to Boost Electric Vehicle Charging Infrastructure Across India",
+      "explainer": "• The Ministry of Power has released a comprehensive new policy framework aimed at accelerating the development of Electric Vehicle (EV) charging infrastructure nationwide.\n• The policy introduces simplified licensing procedures, encourages private sector investment through subsidies and incentives, and mandates charging points in new commercial and residential buildings.\n• It sets ambitious targets for public charging stations, particularly along national highways and in major urban centers, to alleviate range anxiety among EV users.\n• Emphasis is placed on using renewable energy sources for charging stations and promoting standardized charging protocols for interoperability.\n• The move is part of India's broader commitment to reducing carbon emissions and achieving its net-zero targets by promoting sustainable mobility.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Science and Technology- developments and their applications and effects in everyday life."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Power",
+      "sourceUrl": "https://powermin.gov.in/news-updates/...",
+      "importance": "medium",
+      "tags": [
+        "Electric Vehicles",
+        "EV Charging Infrastructure",
+        "Renewable Energy",
+        "Sustainable Mobility",
+        "Climate Change",
+        "Government Policy"
+      ],
+      "keyTerms": [
+        "Electric Vehicle (EV)",
+        "Charging Infrastructure",
+        "Range Anxiety",
+        "Renewable Energy Sources",
+        "Standardized Charging Protocols",
+        "Net-Zero Targets"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "New policy by Ministry of Power for EV charging.",
+        "Simplifies licensing, offers private sector incentives.",
+        "Mandates charging points in new buildings.",
+        "Targets public charging stations on highways and cities.",
+        "Promotes renewable energy for charging and standardized protocols."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the key provisions of the new EV charging infrastructure policy and their potential impact on the adoption of electric vehicles in India.",
+        "Discuss the challenges in developing a robust and accessible EV charging network across diverse geographical regions of India.",
+        "Evaluate the role of government incentives and private sector participation in achieving the policy's ambitious targets for EV charging infrastructure.",
+        "Examine how the promotion of renewable energy for EV charging aligns with India's climate change commitments and energy security goals.",
+        "Suggest further measures that could be taken to accelerate the transition to electric mobility and overcome existing bottlenecks."
+      ],
+      "imageDescription": "An electric car being charged at a public charging station, with a solar panel array in the background.",
+      "section": "Environment",
+      "trivia": "India aims for 30% penetration of electric vehicles in private cars, 70% in commercial vehicles, and 80% in two and three-wheelers by 2030.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Climate Change",
+        "topic": "Sustainable Development, Renewable Energy"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "isro-chandrayaan-4-update",
+      "headline": "ISRO Provides Update on Chandrayaan-4 Mission Preparations; Focus on Lunar Sample Return",
+      "explainer": "• The Indian Space Research Organisation (ISRO) has released an update on the progress of its ambitious Chandrayaan-4 mission, slated for launch in late 2026.\n• Chandrayaan-4 aims to be India's first lunar sample return mission, designed to collect pristine regolith samples from the Moon's South Pole and bring them back to Earth for scientific analysis.\n• The mission involves a complex architecture comprising an orbiter, a lander, an ascent module, and a re-entry module, requiring advanced robotic capabilities.\n• Scientists anticipate the samples from the lunar South Pole could provide crucial insights into the Moon's geological history, the presence of water ice, and the origin of the solar system.\n• This mission builds upon the successes of Chandrayaan-1, Chandrayaan-2, and Chandrayaan-3, further solidifying India's position in lunar exploration.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Awareness in the fields of Space."
+      ],
+      "date": "2025-10-05",
+      "source": "ISRO",
+      "sourceUrl": "https://www.isro.gov.in/press-release/...",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Chandrayaan-4",
+        "Lunar Mission",
+        "Space Exploration",
+        "Sample Return Mission",
+        "Lunar South Pole"
+      ],
+      "keyTerms": [
+        "Chandrayaan-4",
+        "Lunar Sample Return",
+        "Regolith",
+        "Lunar South Pole",
+        "Orbiter",
+        "Lander",
+        "Ascent Module",
+        "Re-entry Module"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Chandrayaan-4 is India's first lunar sample return mission.",
+        "Aims to collect samples from Moon's South Pole.",
+        "Scheduled for launch in late 2026.",
+        "Involves orbiter, lander, ascent, and re-entry modules.",
+        "Builds on Chandrayaan-1, 2, 3 successes."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the scientific significance of a lunar sample return mission from the Moon's South Pole, particularly in the context of water ice discovery and lunar geology.",
+        "Analyze the technological challenges involved in designing and executing a complex multi-module lunar sample return mission like Chandrayaan-4.",
+        "Evaluate the strategic importance of India's lunar exploration program, including its contributions to global space science and technological self-reliance.",
+        "Examine how missions like Chandrayaan-4 foster international collaboration and contribute to India's soft power diplomacy.",
+        "What are the future prospects for India's space program beyond lunar exploration, particularly in human spaceflight and interplanetary missions?"
+      ],
+      "imageDescription": "Artistic rendering of the Chandrayaan-4 lander collecting samples on the lunar surface, with Earth visible in the background.",
+      "section": "Science",
+      "trivia": "Chandrayaan-3 made India the fourth country to successfully land on the Moon and the first to land near the lunar South Pole.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space Technology",
+        "topic": "ISRO missions"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "parliamentary-panel-ucc-report",
+      "headline": "Parliamentary Panel Submits Report on Uniform Civil Code Consultations",
+      "explainer": "• A high-level Parliamentary Standing Committee has submitted its comprehensive report on the Uniform Civil Code (UCC) to the Lok Sabha Speaker, following extensive consultations with stakeholders.\n• The report is expected to detail the committee's findings on the feasibility, implications, and public opinion regarding the implementation of a UCC in India.\n• Consultations involved legal experts, religious leaders, women's rights groups, and various community representatives to gather diverse perspectives.\n• While the contents of the report are yet to be made public, it is anticipated to provide recommendations on harmonizing personal laws across different religious communities.\n• The UCC remains a sensitive and complex issue, enshrined in Article 44 of the Directive Principles of State Policy, aiming for gender justice and national integration.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+        "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+      ],
+      "date": "2025-10-05",
+      "source": "Parliament of India",
+      "sourceUrl": "https://loksabha.nic.in/...",
+      "importance": "high",
+      "tags": [
+        "Uniform Civil Code",
+        "UCC",
+        "Directive Principles of State Policy",
+        "Article 44",
+        "Personal Laws",
+        "Gender Justice",
+        "National Integration"
+      ],
+      "keyTerms": [
+        "Uniform Civil Code (UCC)",
+        "Article 44",
+        "Directive Principles of State Policy",
+        "Personal Laws",
+        "Gender Justice",
+        "Secularism",
+        "Parliamentary Standing Committee"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Parliamentary Panel submits report on UCC.",
+        "Report to Lok Sabha Speaker.",
+        "Consultations included legal experts, religious leaders, women's groups.",
+        "UCC enshrined in Article 44 DPSP.",
+        "Aims for gender justice and national integration."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the constitutional mandate and historical context of the Uniform Civil Code in India, as enshrined in Article 44 of the DPSP.",
+        "Analyze the arguments for and against the implementation of a UCC, focusing on issues of gender justice, religious freedom, and national integration.",
+        "Examine the complexities involved in harmonizing diverse personal laws across different religious communities in India.",
+        "Evaluate the role of parliamentary committees and public consultations in addressing sensitive issues like the UCC.",
+        "Suggest a balanced approach to implementing a UCC that respects religious diversity while upholding principles of equality and justice."
+      ],
+      "imageDescription": "Scales of justice overlaid with symbols of different religions, representing the complex balance in implementing a Uniform Civil Code.",
+      "section": "National",
+      "trivia": "Goa is the only Indian state that has a Uniform Civil Code, inherited from the Portuguese Civil Code of 1867.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Directive Principles of State Policy",
+        "topic": "Uniform Civil Code"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "new-cyber-security-framework-india",
+      "headline": "India Prepares to Unveil Comprehensive National Cyber Security Strategy 2.0",
+      "explainer": "• The Indian government is reportedly in the final stages of unveiling its National Cyber Security Strategy 2.0, aimed at bolstering the nation's digital defenses.\n• The new strategy addresses emerging threats from state-sponsored attacks, ransomware, and critical infrastructure vulnerabilities, building on the 2013 policy.\n• Key pillars include strengthening cyber resilience across government and private sectors, promoting indigenous cyber security products, and enhancing international cooperation.\n• It also focuses on developing a skilled cyber workforce, fostering public awareness, and establishing robust incident response mechanisms.\n• The strategy is crucial for protecting India's growing digital economy and ensuring national security in an increasingly interconnected world.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+        "Various Security forces and agencies and their mandate.",
+        "Basics of cyber security; money-laundering and its prevention."
+      ],
+      "date": "2025-10-05",
+      "source": "National Cyber Security Coordinator",
+      "sourceUrl": "https://www.ncsc.gov.in/...",
+      "importance": "medium",
+      "tags": [
+        "Cyber Security",
+        "National Security",
+        "Digital India",
+        "Cyber Warfare",
+        "Ransomware",
+        "Critical Infrastructure Protection"
+      ],
+      "keyTerms": [
+        "National Cyber Security Strategy",
+        "Cyber Resilience",
+        "Critical Information Infrastructure (CII)",
+        "CERT-In",
+        "Cyber Warfare",
+        "Zero-Trust Architecture"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India to unveil National Cyber Security Strategy 2.0.",
+        "Addresses state-sponsored attacks, ransomware, critical infrastructure.",
+        "Focus on cyber resilience, indigenous products, international cooperation.",
+        "Aims to develop skilled cyber workforce and public awareness.",
+        "Crucial for digital economy and national security."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the key features and objectives of India's proposed National Cyber Security Strategy 2.0 in addressing the evolving landscape of cyber threats.",
+        "Discuss the challenges in implementing a comprehensive cyber security framework in a diverse and rapidly digitizing nation like India.",
+        "Evaluate the importance of public-private partnerships and international collaboration in enhancing India's cyber security posture.",
+        "Examine the role of indigenous technology development and skill building in achieving cyber self-reliance under the new strategy.",
+        "How does cyber security intersect with national security and critical infrastructure protection in the context of modern warfare and economic stability?"
+      ],
+      "imageDescription": "Abstract digital network lines forming a shield over India's map, symbolizing cyber protection.",
+      "section": "Security",
+      "trivia": "India ranks among the top countries globally in terms of internet users, making it a significant target for cyberattacks.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Cyber Security",
+        "topic": "National Cyber Security Policy"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "pli-scheme-battery-storage-success",
+      "headline": "Production Linked Incentive (PLI) Scheme for Advanced Chemistry Cell (ACC) Battery Storage Shows Promising Results",
+      "explainer": "• The Ministry of Heavy Industries has released an interim report highlighting the significant progress under the Production Linked Incentive (PLI) Scheme for Advanced Chemistry Cell (ACC) Battery Storage.\n• The scheme, aimed at boosting domestic manufacturing of high-capacity batteries, has attracted substantial investments and led to the establishment of several gigafactories.\n• India is on track to achieve self-reliance in battery manufacturing, crucial for its electric vehicle ambitions and renewable energy storage needs.\n• The report notes a considerable increase in local value addition and job creation within the battery manufacturing ecosystem.\n• This success reinforces the government's 'Atmanirbhar Bharat' vision and positions India as a key player in the global battery supply chain.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth.",
+        "Investment models."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Heavy Industries",
+      "sourceUrl": "https://heavyindustries.gov.in/press-release/...",
+      "importance": "medium",
+      "tags": [
+        "PLI Scheme",
+        "Advanced Chemistry Cell",
+        "Battery Manufacturing",
+        "Electric Vehicles",
+        "Renewable Energy Storage",
+        "Atmanirbhar Bharat"
+      ],
+      "keyTerms": [
+        "Production Linked Incentive (PLI) Scheme",
+        "Advanced Chemistry Cell (ACC)",
+        "Gigafactories",
+        "Local Value Addition",
+        "Electric Vehicle (EV)",
+        "Energy Storage Systems (ESS)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "PLI Scheme for ACC Battery Storage shows progress.",
+        "Attracted investments and established gigafactories.",
+        "Aims for self-reliance in battery manufacturing.",
+        "Increased local value addition and job creation.",
+        "Supports 'Atmanirbhar Bharat' vision."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the objectives and key features of the PLI scheme for ACC Battery Storage and its contribution to India's manufacturing sector.",
+        "Discuss the strategic importance of domestic battery manufacturing for India's energy security, electric vehicle transition, and renewable energy integration.",
+        "Evaluate the effectiveness of PLI schemes as an industrial policy tool in promoting 'Atmanirbhar Bharat' and boosting local value addition.",
+        "Examine the challenges that still need to be addressed to ensure sustained growth and competitiveness of India's battery manufacturing industry.",
+        "Compare the PLI scheme for ACC with other PLI schemes and discuss its broader impact on India's economic growth and job creation."
+      ],
+      "imageDescription": "A graphic showing the PLI scheme logo with battery cells and an EV, representing incentive-driven manufacturing.",
+      "section": "Economy",
+      "trivia": "The PLI scheme for ACC battery storage has an outlay of over Rs 18,100 crore and is expected to attract investments worth Rs 45,000 crore.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Industrial Policy",
+        "topic": "PLI Schemes"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-g20-climate-finance",
+      "headline": "India Advocates for Enhanced Climate Finance Mechanisms at G20 Finance Ministers Meeting",
+      "explainer": "• India's Finance Minister, Nirmala Sitharaman, addressed the G20 Finance Ministers and Central Bank Governors (FMCBG) meeting, strongly advocating for greater climate finance for developing nations.\n• She emphasized the need for developed countries to fulfill their USD 100 billion annual commitment and proposed new innovative financing mechanisms to bridge the climate finance gap.\n• India highlighted the disproportionate impact of climate change on vulnerable economies and called for a just and equitable transition to a green economy.\n• Discussions also focused on multilateral development bank reforms to better address climate challenges and ensure sustainable development goals are met.\n• The meeting underscored the urgency of climate action and the need for collective global efforts to mobilize resources for mitigation and adaptation.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora - their structure, mandate.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora.",
+        "Conservation, environmental pollution and degradation, environmental impact assessment."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Finance",
+      "sourceUrl": "https://www.finmin.nic.in/press-release/...",
+      "importance": "medium",
+      "tags": [
+        "G20",
+        "Climate Finance",
+        "International Cooperation",
+        "Sustainable Development Goals",
+        "Multilateral Development Banks",
+        "Climate Change Mitigation"
+      ],
+      "keyTerms": [
+        "G20 Finance Ministers and Central Bank Governors (FMCBG)",
+        "Climate Finance Gap",
+        "USD 100 Billion Commitment",
+        "Just Transition",
+        "Multilateral Development Banks (MDBs)",
+        "Common but Differentiated Responsibilities (CBDR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India advocates for enhanced climate finance at G20 FMCBG meeting.",
+        "Called on developed countries to fulfill USD 100 billion commitment.",
+        "Proposed innovative financing mechanisms.",
+        "Highlighted climate change impact on vulnerable economies.",
+        "Discussions on MDB reforms for climate challenges."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze India's persistent call for enhanced climate finance at international forums like the G20, linking it to the principle of Common but Differentiated Responsibilities (CBDR).",
+        "Discuss the current landscape of climate finance, identifying the challenges in mobilizing adequate resources for developing countries' mitigation and adaptation efforts.",
+        "Evaluate the proposals for innovative financing mechanisms and reforms in Multilateral Development Banks (MDBs) to better address global climate challenges.",
+        "Examine the implications of insufficient climate finance for India's sustainable development goals and its transition to a green economy.",
+        "Suggest policy recommendations for strengthening global cooperation on climate finance and ensuring accountability of developed nations."
+      ],
+      "imageDescription": "A globe with currency symbols and green leaves, representing climate finance and sustainable development at a G20 meeting.",
+      "section": "International",
+      "trivia": "The USD 100 billion climate finance commitment by developed nations was initially pledged at the COP15 summit in Copenhagen in 2009.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Institutions",
+        "topic": "G20, Climate Change"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "tiger-census-2025-initial-findings",
+      "headline": "Initial Findings of All India Tiger Estimation 2025 Indicate Stable to Growing Tiger Population",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change has released initial findings from the All India Tiger Estimation 2025, suggesting a stable to moderately growing tiger population.\n• The comprehensive census, conducted every four years, utilized advanced methodologies including camera trapping, M-STRIPES app, and DNA analysis.\n• While specific numbers are pending final validation, early indicators point to successful conservation efforts in several tiger reserves and protected areas.\n• The report also highlights challenges such as habitat fragmentation, human-wildlife conflict, and poaching, which continue to pose threats.\n• This estimation is crucial for informing future conservation strategies and ensuring the long-term survival of India's national animal.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Biodiversity and Environment."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "https://moef.gov.in/press-release/...",
+      "importance": "medium",
+      "tags": [
+        "Tiger Conservation",
+        "Tiger Census",
+        "Project Tiger",
+        "Biodiversity",
+        "Wildlife Protection",
+        "National Animal"
+      ],
+      "keyTerms": [
+        "All India Tiger Estimation",
+        "Tiger Reserves",
+        "Camera Trapping",
+        "M-STRIPES",
+        "DNA Analysis",
+        "Habitat Fragmentation",
+        "Human-Wildlife Conflict",
+        "Poaching"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Initial findings of All India Tiger Estimation 2025 released.",
+        "Indicates stable to growing tiger population.",
+        "Uses camera trapping, M-STRIPES, DNA analysis.",
+        "Highlights challenges: habitat fragmentation, human-wildlife conflict, poaching.",
+        "Informs future conservation strategies."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of the All India Tiger Estimation in assessing the health of tiger populations and the effectiveness of conservation efforts.",
+        "Discuss the advanced methodologies employed in the 2025 tiger census and their role in improving accuracy and data collection.",
+        "Examine the key challenges faced by tiger conservation in India, including habitat loss, human-wildlife conflict, and poaching, and suggest mitigation strategies.",
+        "Evaluate the success of 'Project Tiger' and other governmental initiatives in increasing tiger numbers and protecting their habitats.",
+        "Propose policy recommendations for strengthening tiger conservation efforts, integrating local communities, and ensuring ecological balance."
+      ],
+      "imageDescription": "A majestic Bengal tiger captured by a camera trap in a dense forest, symbolizing wildlife conservation.",
+      "section": "Environment",
+      "trivia": "India is home to over 70% of the world's wild tiger population, with more than 50 tiger reserves across the country.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Biodiversity Conservation",
+        "topic": "Wildlife Protection, Project Tiger"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "indias-quantum-computing-mission",
+      "headline": "National Quantum Mission Progressing Towards Indigenous Quantum Computing Capabilities",
+      "explainer": "• The Department of Science & Technology (DST) has provided an update on the progress of India's National Quantum Mission (NQM), launched to foster quantum technology development.\n• NQM aims to develop quantum computing hardware, quantum communication systems, quantum sensors, and quantum materials domestically.\n• Several research collaborations between academic institutions, industry players, and government labs are underway, focusing on different quantum modalities.\n• The mission emphasizes skill development and creating a robust ecosystem for quantum research and innovation, positioning India as a global leader in the field.\n• Quantum technologies are expected to revolutionize various sectors, including defense, healthcare, finance, and secure communications.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights."
+      ],
+      "date": "2025-10-05",
+      "source": "Department of Science & Technology",
+      "sourceUrl": "https://dst.gov.in/press-release/...",
+      "importance": "medium",
+      "tags": [
+        "Quantum Technology",
+        "National Quantum Mission",
+        "Quantum Computing",
+        "Quantum Communication",
+        "Indigenous Technology",
+        "Science & Technology"
+      ],
+      "keyTerms": [
+        "National Quantum Mission (NQM)",
+        "Quantum Computing",
+        "Quantum Communication",
+        "Quantum Sensors",
+        "Quantum Materials",
+        "Quantum Entanglement",
+        "Superposition"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Quantum Mission (NQM) aims for indigenous quantum tech.",
+        "Develops quantum computing, communication, sensors, materials.",
+        "Involves academic, industry, government collaborations.",
+        "Focus on skill development and ecosystem building.",
+        "Expected to revolutionize defense, healthcare, finance."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of quantum technology for India's national security, economic growth, and technological sovereignty.",
+        "Analyze the key objectives and components of India's National Quantum Mission (NQM) and its potential to foster indigenous innovation.",
+        "Examine the scientific principles behind quantum computing and quantum communication, explaining their potential applications and limitations.",
+        "Evaluate the challenges India faces in developing a robust quantum ecosystem, including talent acquisition, infrastructure, and funding.",
+        "Compare India's NQM with global quantum initiatives and suggest measures to accelerate its progress and ensure global competitiveness."
+      ],
+      "imageDescription": "An abstract representation of quantum computing with entangled particles and glowing data nodes, symbolizing advanced technology.",
+      "section": "Science",
+      "trivia": "Quantum computers leverage principles of quantum mechanics, such as superposition and entanglement, to solve complex problems intractable for classical computers.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Advanced Technologies",
+        "topic": "Quantum Computing"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "national-education-policy-vocational-training",
+      "headline": "NEP 2020: Focus on Vocational Education Integration in Schools and Higher Education Gains Momentum",
+      "explainer": "• The Ministry of Education has highlighted the accelerated implementation of vocational education integration as envisioned in the National Education Policy (NEP) 2020.\n• Efforts are underway to introduce vocational courses from Class 6 onwards, aligning with skill development initiatives and industry demands.\n• Higher education institutions are being encouraged to offer multidisciplinary vocational programs and embed practical training into curricula.\n• The aim is to make education more holistic, flexible, and employment-oriented, reducing the skills gap in various sectors.\n• Partnerships with industry, creation of digital content for vocational training, and teacher capacity building are key focus areas for successful implementation.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Education",
+      "sourceUrl": "https://www.education.gov.in/press-release/...",
+      "importance": "medium",
+      "tags": [
+        "National Education Policy",
+        "NEP 2020",
+        "Vocational Education",
+        "Skill Development",
+        "Higher Education",
+        "Employment Generation"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP) 2020",
+        "Vocational Education",
+        "Skill Development",
+        "Multidisciplinary Education",
+        "Holistic Education",
+        "Industry-Academia Linkage"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NEP 2020 emphasizes vocational education integration.",
+        "Vocational courses from Class 6 onwards.",
+        "Higher education to offer multidisciplinary vocational programs.",
+        "Aims for holistic, flexible, employment-oriented education.",
+        "Focus on industry partnerships, digital content, teacher training."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the rationale behind the NEP 2020's emphasis on vocational education and its potential to transform India's human resource landscape.",
+        "Discuss the challenges in integrating vocational training effectively into the mainstream education system, from school to higher education.",
+        "Evaluate the role of industry partnerships and digital learning platforms in enhancing the quality and accessibility of vocational education.",
+        "Examine how a robust vocational education framework can address youth unemployment and the skills gap in India's rapidly evolving economy.",
+        "Suggest measures to improve teacher training and public perception of vocational education to ensure its successful implementation."
+      ],
+      "imageDescription": "Students engaged in practical vocational training, such as carpentry or electronics, in a modern classroom setting.",
+      "section": "National",
+      "trivia": "The National Education Policy 2020 is the first education policy of the 21st century in India, replacing the 1986 policy.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Education",
+        "topic": "NEP 2020, Skill Development"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-bangladesh-river-sharing",
+      "headline": "India-Bangladesh Joint Rivers Commission Meets to Discuss Teesta and Other Transboundary River Issues",
+      "explainer": "• The India-Bangladesh Joint Rivers Commission (JRC) convened for its biennial meeting, focusing on crucial transboundary river management and water sharing issues.\n• Discussions prominently featured the Teesta River water sharing agreement, a long-standing point of contention, with both sides expressing commitment to finding an amicable solution.\n• Other shared rivers, including the Feni, Kushiyara, and Ganga, were also on the agenda, with progress reported on joint basin management and flood forecasting.\n• The meeting underscored the importance of water diplomacy in strengthening bilateral ties and addressing the impacts of climate change on shared water resources.\n• Experts from both countries presented new data and potential frameworks for equitable water distribution and sustainable river basin development.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+        "Conservation, environmental pollution and degradation, environmental impact assessment."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Jal Shakti",
+      "sourceUrl": "https://jalshakti-ddws.gov.in/press-release/...",
+      "importance": "medium",
+      "tags": [
+        "India-Bangladesh Relations",
+        "Joint Rivers Commission",
+        "Transboundary Rivers",
+        "Teesta River",
+        "Water Sharing",
+        "Water Diplomacy",
+        "Climate Change"
+      ],
+      "keyTerms": [
+        "Joint Rivers Commission (JRC)",
+        "Teesta River",
+        "Feni River",
+        "Kushiyara River",
+        "Ganga Water Treaty",
+        "Transboundary River Management",
+        "Water Diplomacy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India-Bangladesh JRC meeting on transboundary rivers.",
+        "Teesta River water sharing was a key agenda point.",
+        "Also discussed Feni, Kushiyara, and Ganga rivers.",
+        "Focus on joint basin management and flood forecasting.",
+        "Emphasizes water diplomacy and climate change impacts."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the complexities of India-Bangladesh transboundary river disputes, particularly concerning the Teesta River, and their impact on bilateral relations.",
+        "Discuss the role and effectiveness of the Joint Rivers Commission (JRC) in resolving water-sharing issues between India and Bangladesh.",
+        "Evaluate the challenges posed by climate change on shared water resources and the need for cooperative basin management strategies.",
+        "Examine the broader implications of water diplomacy for regional stability and economic cooperation in South Asia.",
+        "Suggest innovative solutions and frameworks for equitable water distribution that can satisfy both upstream and downstream riparian states."
+      ],
+      "imageDescription": "A map showing the Teesta River flowing through India and Bangladesh, with flags of both countries, representing water sharing discussions.",
+      "section": "International",
+      "trivia": "India shares 54 transboundary rivers with Bangladesh, making river water management a critical aspect of their bilateral relationship.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India-Bangladesh, Water Disputes"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indian-railways-freight-corridor-expansion",
+      "headline": "Dedicated Freight Corridor Project Achieves Key Milestones; Boosts Logistics Efficiency",
+      "explainer": "• Indian Railways' ambitious Dedicated Freight Corridor (DFC) project has announced the completion of significant sections, marking major milestones in its expansion.\n• The Eastern Dedicated Freight Corridor (EDFC) and Western Dedicated Freight Corridor (WDFC) are now largely operational, substantially improving freight movement efficiency.\n• The DFCs are designed to decongest existing railway lines, reduce transit times for goods, and lower logistics costs for industries.\n• This infrastructure upgrade is crucial for enhancing India's competitiveness in manufacturing and trade, aligning with the 'Gati Shakti' master plan.\n• Future phases involve extending the corridors and integrating them with multimodal logistics hubs, further streamlining the supply chain.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Railways",
+      "sourceUrl": "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,1,304,366,537",
+      "importance": "medium",
+      "tags": [
+        "Dedicated Freight Corridor",
+        "Indian Railways",
+        "Logistics Infrastructure",
+        "Gati Shakti",
+        "Economic Development",
+        "Supply Chain"
+      ],
+      "keyTerms": [
+        "Dedicated Freight Corridor (DFC)",
+        "Eastern Dedicated Freight Corridor (EDFC)",
+        "Western Dedicated Freight Corridor (WDFC)",
+        "Logistics Cost",
+        "Multimodal Logistics Hubs",
+        "Gati Shakti Master Plan"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "DFC project achieves significant completion milestones.",
+        "EDFC and WDFC largely operational.",
+        "Aims to decongest lines, reduce transit times, lower logistics costs.",
+        "Crucial for manufacturing, trade, and 'Gati Shakti'.",
+        "Future plans include extensions and multimodal integration."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic importance of the Dedicated Freight Corridor (DFC) project for India's economic growth, industrial development, and trade competitiveness.",
+        "Discuss how the DFCs contribute to the objectives of the 'Gati Shakti' National Master Plan and enhance multimodal connectivity.",
+        "Evaluate the impact of improved freight logistics on various sectors of the Indian economy, including manufacturing, agriculture, and e-commerce.",
+        "Examine the challenges encountered during the implementation of large-scale infrastructure projects like the DFCs and the strategies adopted to overcome them.",
+        "Suggest further policy measures and investments required to fully leverage the potential of the DFC network and integrate it with last-mile connectivity solutions."
+      ],
+      "imageDescription": "A long freight train moving rapidly on a dedicated track, symbolizing efficient logistics and infrastructure development.",
+      "section": "Economy",
+      "trivia": "The Dedicated Freight Corridor Corporation of India Limited (DFCCIL) is a special purpose vehicle (SPV) established to construct and operate the DFCs.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Infrastructure",
+        "topic": "Railways, Logistics"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "startup-india-seed-fund-impact",
+      "headline": "Startup India Seed Fund Scheme Bolsters Early-Stage Innovation Across Diverse Sectors",
+      "explainer": "• The Department for Promotion of Industry and Internal Trade (DPIIT) has released an impact assessment report on the Startup India Seed Fund Scheme (SISFS).\n• The report highlights that SISFS has successfully supported over 1,000 early-stage startups across various sectors, including FinTech, AgriTech, HealthTech, and DeepTech.\n• The scheme provides financial assistance to startups for proof of concept, prototype development, product trials, and market-entry.\n• It has been instrumental in fostering innovation in Tier 2 and Tier 3 cities, promoting inclusive entrepreneurship and job creation.\n• The success of SISFS underscores the government's commitment to nurturing a vibrant startup ecosystem and driving economic growth through innovation.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Investment models."
+      ],
+      "date": "2025-10-05",
+      "source": "DPIIT, Ministry of Commerce & Industry",
+      "sourceUrl": "https://dpiit.gov.in/press-release/...",
+      "importance": "low",
+      "tags": [
+        "Startup India",
+        "Seed Fund Scheme",
+        "Entrepreneurship",
+        "Innovation",
+        "Job Creation",
+        "DPIIT"
+      ],
+      "keyTerms": [
+        "Startup India Seed Fund Scheme (SISFS)",
+        "DPIIT",
+        "Early-Stage Startups",
+        "Proof of Concept",
+        "Prototype Development",
+        "FinTech",
+        "AgriTech",
+        "DeepTech"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Startup India Seed Fund Scheme (SISFS) impact report released.",
+        "Supported over 1,000 early-stage startups.",
+        "Covers FinTech, AgriTech, HealthTech, DeepTech.",
+        "Provides financial assistance for proof of concept, prototype, market-entry.",
+        "Fosters innovation in Tier 2 and Tier 3 cities."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the objectives and operational mechanisms of the Startup India Seed Fund Scheme (SISFS) in promoting entrepreneurship and innovation in India.",
+        "Discuss the impact of SISFS on the growth of early-stage startups, particularly in emerging sectors and Tier 2/3 cities.",
+        "Evaluate the challenges faced by early-stage startups in India and how government schemes like SISFS help overcome these barriers.",
+        "Examine the role of a vibrant startup ecosystem in driving economic growth, job creation, and technological advancement in India.",
+        "Suggest measures to further strengthen the startup ecosystem and ensure equitable access to funding and mentorship across all regions."
+      ],
+      "imageDescription": "A stylized graphic showing a plant growing from a coin, symbolizing seed funding for startups and innovation.",
+      "section": "Economy",
+      "trivia": "India is home to the world's third-largest startup ecosystem, with a rapidly growing number of unicorns (startups valued over $1 billion).",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Government Schemes",
+        "topic": "Startup Ecosystem"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "new-policy-for-traditional-arts",
+      "headline": "Ministry of Culture Unveils 'Parampara Poshak' Scheme to Revitalize Traditional Indian Arts and Crafts",
+      "explainer": "• The Ministry of Culture has launched the 'Parampara Poshak' Scheme, a new initiative aimed at preserving, promoting, and revitalizing India's rich heritage of traditional arts and crafts.\n• The scheme provides financial assistance, market linkages, and skill development programs for artisans, weavers, and craftspeople, especially those from marginalized communities.\n• It focuses on creating digital platforms for showcasing traditional art forms, facilitating direct sales, and connecting artisans with national and international markets.\n• Efforts include documentation of endangered art forms, intergenerational transfer of knowledge, and fostering innovation while respecting traditional techniques.\n• 'Parampara Poshak' is designed to ensure the economic viability of traditional arts and prevent the erosion of India's cultural identity.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Social empowerment."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Culture",
+      "sourceUrl": "https://indiaculture.nic.in/press-release/...",
+      "importance": "low",
+      "tags": [
+        "Indian Culture",
+        "Traditional Arts",
+        "Handicrafts",
+        "Artisans",
+        "Cultural Heritage",
+        "Skill Development",
+        "Economic Empowerment"
+      ],
+      "keyTerms": [
+        "Parampara Poshak Scheme",
+        "Traditional Arts and Crafts",
+        "Cultural Heritage",
+        "Artisans",
+        "Market Linkages",
+        "Intergenerational Knowledge Transfer"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ministry of Culture launches 'Parampara Poshak' Scheme.",
+        "Aims to preserve and promote traditional arts and crafts.",
+        "Provides financial aid, market linkages, skill development.",
+        "Focus on digital platforms and documentation of endangered forms.",
+        "Ensures economic viability of traditional arts."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of preserving and promoting traditional Indian arts and crafts for cultural identity, economic empowerment, and tourism.",
+        "Analyze the key features and objectives of the 'Parampara Poshak' Scheme and its potential impact on the artisan community.",
+        "Examine the challenges faced by traditional artisans in the modern economy, including market access, competition, and technological obsolescence.",
+        "Evaluate the role of government schemes and digital platforms in creating sustainable livelihoods for artisans and ensuring the intergenerational transfer of traditional knowledge.",
+        "Suggest innovative approaches to integrate traditional arts into contemporary markets while maintaining their authenticity and cultural value."
+      ],
+      "imageDescription": "An Indian artisan meticulously crafting a traditional pottery piece, showcasing cultural heritage.",
+      "section": "National",
+      "trivia": "Many Indian traditional art forms, like 'Warli Painting' or 'Pattachitra', have received Geographical Indication (GI) tags, protecting their origin and quality.",
+      "prelimsSyllabus": {
+        "subject": "Indian Art and Culture",
+        "area": "Visual Arts",
+        "topic": "Handicrafts"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "new-coastal-zone-management-plan",
+      "headline": "Draft Coastal Zone Management Plan Released for Public Consultation",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change has released the draft Coastal Zone Management Plan (CZMP) for several coastal states and Union Territories for public consultation.\n• The CZMP aims to regulate development activities in coastal areas, protect sensitive ecosystems like mangroves and coral reefs, and ensure sustainable livelihoods for coastal communities.\n• The new plans incorporate lessons from past environmental disasters and integrate climate change adaptation strategies, including sea-level rise projections.\n• Stakeholders, including fishing communities, environmental groups, and industries, are invited to provide feedback before finalization.\n• Effective coastal zone management is critical for balancing economic development with ecological preservation and disaster risk reduction.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Disaster and disaster management."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "https://moef.gov.in/press-release/...",
+      "importance": "low",
+      "tags": [
+        "Coastal Zone Management",
+        "CRZ",
+        "Mangroves",
+        "Coral Reefs",
+        "Climate Change Adaptation",
+        "Sustainable Development",
+        "Environmental Protection"
+      ],
+      "keyTerms": [
+        "Coastal Zone Management Plan (CZMP)",
+        "Coastal Regulation Zone (CRZ)",
+        "Mangroves",
+        "Coral Reefs",
+        "Sea-Level Rise",
+        "Climate Change Adaptation",
+        "Sustainable Livelihoods"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Draft CZMP released for public consultation.",
+        "Aims to regulate coastal development, protect ecosystems.",
+        "Integrates climate change adaptation strategies.",
+        "Invites feedback from fishing communities, environmental groups, industries.",
+        "Critical for balancing development, preservation, disaster risk reduction."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the objectives and key provisions of the draft Coastal Zone Management Plan (CZMP) and its significance for India's coastal ecosystems and communities.",
+        "Discuss the challenges in balancing coastal economic development with environmental protection and the livelihoods of traditional fishing communities.",
+        "Evaluate how the CZMP addresses the impacts of climate change, particularly sea-level rise and extreme weather events, on India's coastline.",
+        "Examine the importance of public consultation and stakeholder participation in the finalization and effective implementation of environmental policies like the CZMP.",
+        "Suggest measures to strengthen the enforcement of coastal regulations and promote sustainable practices in coastal zones."
+      ],
+      "imageDescription": "A serene coastline with mangroves in the foreground and a fishing boat, depicting coastal ecosystem and livelihood.",
+      "section": "Environment",
+      "trivia": "India has a coastline of over 7,500 km, supporting a diverse range of ecosystems and a large population dependent on marine resources.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Environmental Governance",
+        "topic": "Coastal Regulation Zone"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "indus-water-treaty-talks",
+      "headline": "India-Pakistan Hold Talks on Indus Water Treaty; Focus on Technical Issues",
+      "explainer": "• Officials from India and Pakistan held routine bilateral talks under the framework of the Indus Water Treaty (IWT), focusing primarily on technical aspects of water sharing.\n• The Permanent Indus Commission, comprising water commissioners from both nations, reviewed the exchange of hydrological data and discussed concerns regarding certain hydroelectric projects.\n• Both sides reiterated their commitment to upholding the provisions of the IWT, which has survived several conflicts and remains a cornerstone of water resource management in the region.\n• While no major breakthroughs were reported on contentious issues, the continuation of dialogue is seen as a positive step for regional stability.\n• The IWT, brokered by the World Bank, governs the sharing of the Indus River system between the two countries.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Water Resources, River Development & Ganga Rejuvenation",
+      "sourceUrl": "https://mowr.gov.in/press-release/...",
+      "importance": "medium",
+      "tags": [
+        "Indus Water Treaty",
+        "India-Pakistan Relations",
+        "Water Sharing",
+        "Permanent Indus Commission",
+        "Transboundary Rivers",
+        "Water Diplomacy"
+      ],
+      "keyTerms": [
+        "Indus Water Treaty (IWT)",
+        "Permanent Indus Commission (PIC)",
+        "Eastern Rivers (Ravi, Beas, Sutlej)",
+        "Western Rivers (Indus, Jhelum, Chenab)",
+        "Hydroelectric Projects",
+        "Hydrological Data"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India-Pakistan hold talks under Indus Water Treaty (IWT).",
+        "Permanent Indus Commission reviewed hydrological data.",
+        "Discussed hydroelectric projects.",
+        "Both sides committed to IWT provisions.",
+        "IWT brokered by World Bank."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the historical context and key provisions of the Indus Water Treaty (IWT) and its significance for India-Pakistan relations.",
+        "Discuss the role of the Permanent Indus Commission (PIC) in managing transboundary water issues and ensuring the treaty's implementation.",
+        "Examine the technical and political challenges associated with water sharing under the IWT, particularly concerning hydroelectric projects on Western Rivers.",
+        "Evaluate the IWT as a model for water diplomacy in conflict-prone regions and its ability to withstand bilateral tensions.",
+        "Suggest measures to enhance cooperation and address emerging challenges like climate change impacts on the Indus basin within the IWT framework."
+      ],
+      "imageDescription": "A map showing the Indus River system flowing through India and Pakistan, with flags of both countries, representing water treaty talks.",
+      "section": "International",
+      "trivia": "The Indus Water Treaty, signed in 1960, is one of the most successful water-sharing treaties in the world, having survived multiple wars between India and Pakistan.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India-Pakistan, Water Disputes"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-agricultural-biotech-policy",
+      "headline": "Government Considers New Policy Framework for Agricultural Biotechnology to Boost Crop Yields",
+      "explainer": "• The Ministry of Agriculture and Farmers Welfare is reportedly drafting a new policy framework to streamline regulations for agricultural biotechnology and genetically modified (GM) crops.\n• The move aims to leverage advanced biotechnological tools to enhance crop yields, improve nutritional content, and develop climate-resilient varieties.\n• The policy seeks to address long-standing concerns regarding regulatory approvals, biosafety assessments, and public acceptance of GM crops in India.\n• Emphasis will be placed on robust scientific evaluation, transparent communication, and ensuring farmer benefits and food security.\n• This initiative could potentially revolutionize Indian agriculture, but also raises debates around ethical implications and environmental impact.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+        "Major crops-cropping patterns in various parts of the country, - different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers."
+      ],
+      "date": "2025-10-05",
+      "source": "Ministry of Agriculture & Farmers Welfare",
+      "sourceUrl": "https://agri.nic.in/press-release/...",
+      "importance": "medium",
+      "tags": [
+        "Agricultural Biotechnology",
+        "GM Crops",
+        "Crop Yields",
+        "Food Security",
+        "Climate Resilience",
+        "Genetic Engineering",
+        "Biosafety"
+      ],
+      "keyTerms": [
+        "Agricultural Biotechnology",
+        "Genetically Modified (GM) Crops",
+        "Biosafety Assessments",
+        "Climate-Resilient Crops",
+        "Food Security",
+        "Genetic Engineering Appraisal Committee (GEAC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "New policy framework for agricultural biotechnology under consideration.",
+        "Aims to streamline GM crop regulations.",
+        "Leverages biotech for crop yields, nutrition, climate resilience.",
+        "Addresses regulatory approvals, biosafety, public acceptance.",
+        "Focus on scientific evaluation, transparency, farmer benefits."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the potential benefits of agricultural biotechnology and genetically modified (GM) crops in addressing food security, malnutrition, and climate change challenges in India.",
+        "Analyze the regulatory and ethical concerns associated with the adoption of GM crops in India, including biosafety, environmental impact, and farmer livelihoods.",
+        "Evaluate the need for a clear and transparent policy framework to govern agricultural biotechnology research and commercialization in India.",
+        "Examine the role of robust scientific assessment and public engagement in building trust and acceptance for GM technologies.",
+        "Suggest a balanced approach that promotes innovation in agricultural biotechnology while ensuring environmental safety and farmer welfare."
+      ],
+      "imageDescription": "A stylized DNA helix intertwining with a green plant, symbolizing agricultural biotechnology and genetic modification.",
+      "section": "Science",
+      "trivia": "Bt Cotton is currently the only GM crop approved for commercial cultivation in India.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Biotechnology",
+        "topic": "GM Crops"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "Government launches 'National Digital Infrastructure Mission' for universal high-speed internet by 2030, integrating BharatNet and digital public infrastructure.",
+    "RBI's Monetary Policy Committee maintains repo rate at 6.5% for sixth consecutive time, balancing inflation control with growth revival.",
+    "India-Japan 2+2 Ministerial Dialogue concludes, strengthening cooperation on Indo-Pacific security, defense, and critical technologies.",
+    "Supreme Court upholds 'Right to be Forgotten' as part of fundamental 'Right to Privacy', impacting data protection and online presence.",
+    "ISRO provides update on Chandrayaan-4 mission, India's first lunar sample return mission targeting the Moon's South Pole for late 2026 launch."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the 'National Digital Infrastructure Mission' (NDIM), consider the following statements:\n1. Its primary goal is to provide universal high-speed internet access across India by 2030.\n2. It integrates existing initiatives like BharatNet and PM-WANI.\n3. The mission focuses exclusively on public sector investment for infrastructure development.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 2 only",
+      "explanation": "Statement 1 is correct: NDIM aims for universal high-speed internet access by 2030. Statement 2 is correct: It integrates existing initiatives like BharatNet and PM-WANI. Statement 3 is incorrect: The mission emphasizes public-private partnerships, not exclusive public sector investment."
+    },
+    {
+      "question": "Which of the following bodies is responsible for deciding the policy interest rates like the Repo Rate in India?",
+      "options": [
+        "(a) Ministry of Finance",
+        "(b) Reserve Bank of India (RBI) Board of Directors",
+        "(c) Monetary Policy Committee (MPC)",
+        "(d) Indian Banks' Association (IBA)"
+      ],
+      "answer": "(c) Monetary Policy Committee (MPC)",
+      "explanation": "The Monetary Policy Committee (MPC) is a six-member committee, headed by the RBI Governor, responsible for fixing the benchmark interest rate (repo rate) in India."
+    },
+    {
+      "question": "The 'Right to be Forgotten' has recently been affirmed by the Supreme Court as an integral part of which fundamental right under the Indian Constitution?",
+      "options": [
+        "(a) Right to Freedom of Speech and Expression (Article 19)",
+        "(b) Right to Life and Personal Liberty (Article 21)",
+        "(c) Right to Constitutional Remedies (Article 32)",
+        "(d) Right to Equality (Article 14)"
+      ],
+      "answer": "(b) Right to Life and Personal Liberty (Article 21)",
+      "explanation": "The Supreme Court has affirmed the 'right to be forgotten' as an integral facet of the fundamental 'Right to Privacy', which itself is derived from Article 21, the Right to Life and Personal Liberty."
+    },
+    {
+      "question": "Consider the following statements regarding the All India Tiger Estimation (Tiger Census):\n1. It is conducted every four years by the Ministry of Environment, Forest and Climate Change.\n2. The M-STRIPES app is used for data collection in this estimation.\n3. India is home to approximately 50% of the world's wild tiger population.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 2 only",
+      "explanation": "Statement 1 is correct: The All India Tiger Estimation is indeed conducted every four years. Statement 2 is correct: M-STRIPES (Monitoring System for Tigers – Intensive Protection and Ecological Status) is an integral part of the data collection methodology. Statement 3 is incorrect: India is home to over 70% of the world's wild tiger population, not 50%."
+    },
+    {
+      "question": "Which of the following is NOT a primary objective of India's National Quantum Mission (NQM)?",
+      "options": [
+        "(a) Development of quantum computing hardware",
+        "(b) Creation of quantum communication systems",
+        "(c) Establishing a global monopoly on quantum technology patents",
+        "(d) Fostering indigenous quantum materials research"
+      ],
+      "answer": "(c) Establishing a global monopoly on quantum technology patents",
+      "explanation": "The National Quantum Mission (NQM) aims to develop indigenous quantum computing hardware, quantum communication systems, quantum sensors, and quantum materials. While intellectual property is important, establishing a global monopoly on patents is not stated as a primary objective; rather, it's about developing capabilities and leadership. The focus is on fostering an ecosystem and indigenous development."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "Analyze the multifaceted impact of the 'National Digital Infrastructure Mission' on India's socio-economic landscape and its potential to bridge the urban-rural digital divide. Discuss the challenges in its effective implementation.",
+      "syllabusMatch": "GS2: Government policies and interventions for development in various sectors; GS3: Infrastructure",
+      "approach": "Introduce NDIM's goals (universal connectivity). Discuss socio-economic benefits: e-governance, digital economy, education, health, financial inclusion. Explain how it bridges the digital divide. Identify challenges: funding, land acquisition, last-mile connectivity, digital literacy, cybersecurity, regulatory hurdles. Conclude with measures for successful implementation."
+    },
+    {
+      "question": "Critically evaluate India's strategic rationale behind strengthening its '2+2 Ministerial Dialogue' with Japan, especially in the context of evolving geopolitical dynamics in the Indo-Pacific region. How does this partnership align with India's broader foreign policy objectives?",
+      "syllabusMatch": "GS2: Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+      "approach": "Define 2+2 Dialogue and its significance. Explain shared strategic interests in Indo-Pacific (rules-based order, freedom of navigation, counterbalancing influences). Discuss cooperation areas: defense, economy, critical tech, supply chain resilience. Link to India's 'Act East' policy, QUAD, and multilateral diplomacy. Conclude on mutual benefits and regional stability."
+    },
+    {
+      "question": "The Supreme Court's affirmation of the 'Right to be Forgotten' as part of the 'Right to Privacy' presents both opportunities and challenges for individuals and digital platforms. Discuss these implications and suggest how the upcoming Data Protection Bill can effectively incorporate this right.",
+      "syllabusMatch": "GS2: Indian Constitution—fundamental rights; Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+      "approach": "Introduce the 'Right to be Forgotten' and its constitutional basis (Article 21). Discuss opportunities: enhanced individual control over data, protection from past harms, digital dignity. Discuss challenges: balancing with freedom of speech, public's right to know, implementation difficulties for platforms, potential for misuse. Suggest how Data Protection Bill can incorporate it: clear definitions, criteria for exercise, grievance redressal, penalties, independent regulatory authority."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The 'BharatNet' project aims to provide broadband connectivity to all Gram Panchayats in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "BharatNet",
+        "Digital India"
+      ]
+    },
+    {
+      "text": "The 'Repo Rate' is the rate at which the Reserve Bank of India lends money to commercial banks.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "Monetary Policy"
+      ]
+    },
+    {
+      "text": "The 'Quadrilateral Security Dialogue' (QUAD) includes India, USA, Japan, and Australia.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "QUAD",
+        "Indo-Pacific"
+      ]
+    },
+    {
+      "text": "Article 44 of the Indian Constitution deals with the Uniform Civil Code (UCC).",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "UCC",
+        "DPSP"
+      ]
+    },
+    {
+      "text": "The 'M-STRIPES' system is an integral part of India's tiger conservation efforts.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Tiger Conservation",
+        "Project Tiger"
+      ]
+    },
+    {
+      "text": "Chandrayaan-3 successfully landed near the lunar South Pole in August 2023.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "Lunar Mission"
+      ]
+    },
+    {
+      "text": "The 'Gati Shakti' National Master Plan aims for integrated infrastructure development in India.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Infrastructure",
+        "Logistics"
+      ]
+    },
+    {
+      "text": "The Indus Water Treaty (IWT) was brokered by the World Bank in 1960.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "India-Pakistan",
+        "Water Treaty"
+      ]
+    },
+    {
+      "text": "Bt Cotton is the only genetically modified (GM) crop currently approved for commercial cultivation in India.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "GM Crops",
+        "Biotechnology"
+      ]
+    },
+    {
+      "text": "The National Education Policy (NEP) 2020 promotes multidisciplinary and holistic education.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "NEP",
+        "Education Reform"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "new-policy-for-traditional-arts",
+        "headline": "Ministry of Culture Unveils 'Parampara Poshak' Scheme to Revitalize Traditional Indian Arts and Crafts",
+        "explainer": "• The Ministry of Culture has launched the 'Parampara Poshak' Scheme, a new initiative aimed at preserving, promoting, and revitalizing India's rich heritage of traditional arts and crafts.\n• The scheme provides financial assistance, market linkages, and skill development programs for artisans, weavers, and craftspeople, especially those from marginalized communities.\n• It focuses on creating digital platforms for showcasing traditional art forms, facilitating direct sales, and connecting artisans with national and international markets.\n• Efforts include documentation of endangered art forms, intergenerational transfer of knowledge, and fostering innovation while respecting traditional techniques.\n• 'Parampara Poshak' is designed to ensure the economic viability of traditional arts and prevent the erosion of India's cultural identity.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Social empowerment."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Culture",
+        "sourceUrl": "https://indiaculture.nic.in/press-release/...",
+        "importance": "low",
+        "tags": [
+          "Indian Culture",
+          "Traditional Arts",
+          "Handicrafts",
+          "Artisans",
+          "Cultural Heritage",
+          "Skill Development",
+          "Economic Empowerment"
+        ],
+        "keyTerms": [
+          "Parampara Poshak Scheme",
+          "Traditional Arts and Crafts",
+          "Cultural Heritage",
+          "Artisans",
+          "Market Linkages",
+          "Intergenerational Knowledge Transfer"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ministry of Culture launches 'Parampara Poshak' Scheme.",
+          "Aims to preserve and promote traditional arts and crafts.",
+          "Provides financial aid, market linkages, skill development.",
+          "Focus on digital platforms and documentation of endangered forms.",
+          "Ensures economic viability of traditional arts."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of preserving and promoting traditional Indian arts and crafts for cultural identity, economic empowerment, and tourism.",
+          "Analyze the key features and objectives of the 'Parampara Poshak' Scheme and its potential impact on the artisan community.",
+          "Examine the challenges faced by traditional artisans in the modern economy, including market access, competition, and technological obsolescence.",
+          "Evaluate the role of government schemes and digital platforms in creating sustainable livelihoods for artisans and ensuring the intergenerational transfer of traditional knowledge.",
+          "Suggest innovative approaches to integrate traditional arts into contemporary markets while maintaining their authenticity and cultural value."
+        ],
+        "imageDescription": "An Indian artisan meticulously crafting a traditional pottery piece, showcasing cultural heritage.",
+        "section": "National",
+        "trivia": "Many Indian traditional art forms, like 'Warli Painting' or 'Pattachitra', have received Geographical Indication (GI) tags, protecting their origin and quality.",
+        "prelimsSyllabus": {
+          "subject": "Indian Art and Culture",
+          "area": "Visual Arts",
+          "topic": "Handicrafts"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS2": [
+      {
+        "id": "national-digital-infrastructure-mission-launched",
+        "headline": "Government Launches Ambitious 'National Digital Infrastructure Mission' for Universal Connectivity by 2030",
+        "explainer": "• The Union Government has officially rolled out the 'National Digital Infrastructure Mission' (NDIM) with an aim to provide universal, high-speed internet access across India by 2030.\n• NDIM integrates existing initiatives like BharatNet, PM-WANI, and optical fiber networks, while also focusing on developing next-gen data centers and secure digital public infrastructure.\n• The mission emphasizes public-private partnerships, skill development for digital literacy, and fostering innovation in edge computing and IoT.\n• A dedicated task force has been constituted to oversee implementation, funding mechanisms, and address regulatory challenges.\n• This initiative is expected to significantly boost India's digital economy, improve service delivery, and bridge the urban-rural digital divide.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "e-governance- applications, models, successes, limitations, and potential; citizens charters, transparency & accountability and institutional and other measures."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Electronics & IT",
+        "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=...",
+        "importance": "high",
+        "tags": [
+          "Digital India",
+          "Broadband Connectivity",
+          "Digital Public Infrastructure",
+          "e-governance",
+          "Infrastructure Development",
+          "Rural Development"
+        ],
+        "keyTerms": [
+          "National Digital Infrastructure Mission (NDIM)",
+          "BharatNet",
+          "PM-WANI",
+          "Optical Fiber Network",
+          "Digital Divide",
+          "Edge Computing",
+          "IoT"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NDIM aims for universal high-speed internet by 2030.",
+          "It integrates BharatNet and PM-WANI.",
+          "Focuses on data centers and digital public infrastructure.",
+          "Emphasizes public-private partnerships.",
+          "Overseen by a dedicated task force."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of NDIM in achieving 'Digital India' objectives and its potential to transform rural India.",
+          "Analyze the challenges in implementing such a large-scale infrastructure project, including funding, land acquisition, and technological obsolescence.",
+          "Evaluate the role of public-private partnerships and local governance in ensuring equitable access and last-mile connectivity under NDIM.",
+          "Examine the potential impact of NDIM on e-governance, digital economy, and social inclusion.",
+          "Compare NDIM with similar initiatives globally and suggest best practices for its successful execution."
+        ],
+        "imageDescription": "Illustration of a fiber optic network connecting rural and urban areas, symbolizing universal digital connectivity.",
+        "section": "Lead Opinion",
+        "trivia": "India is the world's second-largest internet market by users, but significant disparities in access and speed persist, especially in rural areas.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Government Policies",
+          "topic": "Digital India, Infrastructure"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "india-japan-strategic-dialogue",
+        "headline": "India-Japan 2+2 Ministerial Dialogue Focuses on Indo-Pacific Security and Economic Cooperation",
+        "explainer": "• The 2+2 Ministerial Dialogue between India and Japan concluded in New Delhi, bringing together their Foreign and Defence Ministers.\n• Discussions primarily centered on enhancing cooperation for a free, open, and inclusive Indo-Pacific region amidst evolving geopolitical dynamics.\n• Key agreements were reached on expanding defense collaboration, including joint exercises, technology transfer, and logistics support.\n• Both nations reiterated their commitment to strengthening economic ties, particularly in critical and emerging technologies, supply chain resilience, and infrastructure development.\n• The dialogue also covered regional issues, multilateral cooperation (QUAD, G20), and counter-terrorism efforts, underscoring the comprehensive strategic partnership.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "https://www.mea.gov.in/press-releases.htm?dtl/...",
+        "importance": "high",
+        "tags": [
+          "India-Japan Relations",
+          "Indo-Pacific",
+          "2+2 Dialogue",
+          "Defense Cooperation",
+          "Economic Cooperation",
+          "QUAD",
+          "Geopolitics"
+        ],
+        "keyTerms": [
+          "2+2 Ministerial Dialogue",
+          "Indo-Pacific Strategy",
+          "QUAD",
+          "Supply Chain Resilience Initiative (SCRI)",
+          "Comprehensive Strategic Partnership"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India-Japan 2+2 Dialogue held in New Delhi.",
+          "Involved Foreign and Defence Ministers.",
+          "Focused on Indo-Pacific security and economic cooperation.",
+          "Agreements on defense collaboration and technology transfer.",
+          "Reiterated commitment to multilateral forums like QUAD and G20."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of the India-Japan 2+2 Dialogue in strengthening bilateral relations and promoting regional stability in the Indo-Pacific.",
+          "Discuss the shared strategic interests of India and Japan in the Indo-Pacific and how their cooperation contributes to a rules-based international order.",
+          "Evaluate the progress and potential of defense cooperation between India and Japan, including joint exercises and technology transfers.",
+          "Examine the role of India-Japan partnership in critical and emerging technologies and building resilient supply chains.",
+          "To what extent does the India-Japan relationship align with India's 'Act East' policy and its broader geopolitical objectives?"
+        ],
+        "imageDescription": "Flags of India and Japan standing side-by-side during a diplomatic meeting, symbolizing bilateral cooperation.",
+        "section": "International",
+        "trivia": "India and Japan are both members of the Quadrilateral Security Dialogue (QUAD), along with the United States and Australia, aimed at ensuring a free and open Indo-Pacific.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India-Japan"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "supreme-court-data-privacy-ruling",
+        "headline": "Supreme Court Upholds 'Right to be Forgotten' in Landmark Data Privacy Ruling",
+        "explainer": "• In a significant judgment, the Supreme Court of India has affirmed the 'right to be forgotten' as an integral facet of the fundamental 'Right to Privacy' under Article 21 of the Constitution.\n• The ruling allows individuals to seek removal of their personal information from public platforms, particularly online, if it is no longer relevant, necessary, or causes undue harm.\n• The Court laid down guidelines for balancing the right to be forgotten with other fundamental rights, such as freedom of speech and expression and the public's right to know.\n• This judgment comes amidst ongoing parliamentary discussions on a new Data Protection Bill, providing crucial judicial guidance for its framework.\n• Experts suggest the ruling will have far-reaching implications for digital platforms, data aggregators, and individual control over online presence.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2025-10-05",
+        "source": "Supreme Court of India",
+        "sourceUrl": "https://www.sci.gov.in/judgments/...",
+        "importance": "high",
+        "tags": [
+          "Right to Privacy",
+          "Right to be Forgotten",
+          "Fundamental Rights",
+          "Supreme Court",
+          "Data Protection",
+          "Article 21"
+        ],
+        "keyTerms": [
+          "Right to Privacy (Article 21)",
+          "Right to be Forgotten",
+          "Data Protection Bill",
+          "Freedom of Speech and Expression",
+          "Personal Data"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Supreme Court affirms 'Right to be Forgotten'.",
+          "It is part of 'Right to Privacy' (Article 21).",
+          "Allows removal of irrelevant personal information online.",
+          "Balances with freedom of speech and public's right to know.",
+          "Impacts Data Protection Bill discussions."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the constitutional basis and implications of the Supreme Court's judgment on the 'right to be forgotten' as an extension of the right to privacy.",
+          "Discuss the challenges in implementing the 'right to be forgotten' in the digital age, particularly concerning its balance with freedom of speech and the public interest.",
+          "Examine how this ruling will influence the ongoing parliamentary process for the Data Protection Bill and the responsibilities of digital platforms.",
+          "Evaluate the potential impact of this judgment on individuals' control over their digital footprint and the broader data economy in India.",
+          "Compare India's stance on the 'right to be forgotten' with international precedents like the EU's GDPR and discuss its suitability for the Indian context."
+        ],
+        "imageDescription": "Gavel on a judicial bench with a blurred digital background, symbolizing a legal decision on digital rights.",
+        "section": "National",
+        "trivia": "The 'Right to Privacy' was declared a fundamental right in India by the Supreme Court in the landmark Puttaswamy judgment of 2017.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "parliamentary-panel-ucc-report",
+        "headline": "Parliamentary Panel Submits Report on Uniform Civil Code Consultations",
+        "explainer": "• A high-level Parliamentary Standing Committee has submitted its comprehensive report on the Uniform Civil Code (UCC) to the Lok Sabha Speaker, following extensive consultations with stakeholders.\n• The report is expected to detail the committee's findings on the feasibility, implications, and public opinion regarding the implementation of a UCC in India.\n• Consultations involved legal experts, religious leaders, women's rights groups, and various community representatives to gather diverse perspectives.\n• While the contents of the report are yet to be made public, it is anticipated to provide recommendations on harmonizing personal laws across different religious communities.\n• The UCC remains a sensitive and complex issue, enshrined in Article 44 of the Directive Principles of State Policy, aiming for gender justice and national integration.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+          "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+        ],
+        "date": "2025-10-05",
+        "source": "Parliament of India",
+        "sourceUrl": "https://loksabha.nic.in/...",
+        "importance": "high",
+        "tags": [
+          "Uniform Civil Code",
+          "UCC",
+          "Directive Principles of State Policy",
+          "Article 44",
+          "Personal Laws",
+          "Gender Justice",
+          "National Integration"
+        ],
+        "keyTerms": [
+          "Uniform Civil Code (UCC)",
+          "Article 44",
+          "Directive Principles of State Policy",
+          "Personal Laws",
+          "Gender Justice",
+          "Secularism",
+          "Parliamentary Standing Committee"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Parliamentary Panel submits report on UCC.",
+          "Report to Lok Sabha Speaker.",
+          "Consultations included legal experts, religious leaders, women's groups.",
+          "UCC enshrined in Article 44 DPSP.",
+          "Aims for gender justice and national integration."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the constitutional mandate and historical context of the Uniform Civil Code in India, as enshrined in Article 44 of the DPSP.",
+          "Analyze the arguments for and against the implementation of a UCC, focusing on issues of gender justice, religious freedom, and national integration.",
+          "Examine the complexities involved in harmonizing diverse personal laws across different religious communities in India.",
+          "Evaluate the role of parliamentary committees and public consultations in addressing sensitive issues like the UCC.",
+          "Suggest a balanced approach to implementing a UCC that respects religious diversity while upholding principles of equality and justice."
+        ],
+        "imageDescription": "Scales of justice overlaid with symbols of different religions, representing the complex balance in implementing a Uniform Civil Code.",
+        "section": "National",
+        "trivia": "Goa is the only Indian state that has a Uniform Civil Code, inherited from the Portuguese Civil Code of 1867.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Directive Principles of State Policy",
+          "topic": "Uniform Civil Code"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-g20-climate-finance",
+        "headline": "India Advocates for Enhanced Climate Finance Mechanisms at G20 Finance Ministers Meeting",
+        "explainer": "• India's Finance Minister, Nirmala Sitharaman, addressed the G20 Finance Ministers and Central Bank Governors (FMCBG) meeting, strongly advocating for greater climate finance for developing nations.\n• She emphasized the need for developed countries to fulfill their USD 100 billion annual commitment and proposed new innovative financing mechanisms to bridge the climate finance gap.\n• India highlighted the disproportionate impact of climate change on vulnerable economies and called for a just and equitable transition to a green economy.\n• Discussions also focused on multilateral development bank reforms to better address climate challenges and ensure sustainable development goals are met.\n• The meeting underscored the urgency of climate action and the need for collective global efforts to mobilize resources for mitigation and adaptation.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora - their structure, mandate.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora.",
+          "Conservation, environmental pollution and degradation, environmental impact assessment."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Finance",
+        "sourceUrl": "https://www.finmin.nic.in/press-release/...",
+        "importance": "medium",
+        "tags": [
+          "G20",
+          "Climate Finance",
+          "International Cooperation",
+          "Sustainable Development Goals",
+          "Multilateral Development Banks",
+          "Climate Change Mitigation"
+        ],
+        "keyTerms": [
+          "G20 Finance Ministers and Central Bank Governors (FMCBG)",
+          "Climate Finance Gap",
+          "USD 100 Billion Commitment",
+          "Just Transition",
+          "Multilateral Development Banks (MDBs)",
+          "Common but Differentiated Responsibilities (CBDR)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India advocates for enhanced climate finance at G20 FMCBG meeting.",
+          "Called on developed countries to fulfill USD 100 billion commitment.",
+          "Proposed innovative financing mechanisms.",
+          "Highlighted climate change impact on vulnerable economies.",
+          "Discussions on MDB reforms for climate challenges."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze India's persistent call for enhanced climate finance at international forums like the G20, linking it to the principle of Common but Differentiated Responsibilities (CBDR).",
+          "Discuss the current landscape of climate finance, identifying the challenges in mobilizing adequate resources for developing countries' mitigation and adaptation efforts.",
+          "Evaluate the proposals for innovative financing mechanisms and reforms in Multilateral Development Banks (MDBs) to better address global climate challenges.",
+          "Examine the implications of insufficient climate finance for India's sustainable development goals and its transition to a green economy.",
+          "Suggest policy recommendations for strengthening global cooperation on climate finance and ensuring accountability of developed nations."
+        ],
+        "imageDescription": "A globe with currency symbols and green leaves, representing climate finance and sustainable development at a G20 meeting.",
+        "section": "International",
+        "trivia": "The USD 100 billion climate finance commitment by developed nations was initially pledged at the COP15 summit in Copenhagen in 2009.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Institutions",
+          "topic": "G20, Climate Change"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "national-education-policy-vocational-training",
+        "headline": "NEP 2020: Focus on Vocational Education Integration in Schools and Higher Education Gains Momentum",
+        "explainer": "• The Ministry of Education has highlighted the accelerated implementation of vocational education integration as envisioned in the National Education Policy (NEP) 2020.\n• Efforts are underway to introduce vocational courses from Class 6 onwards, aligning with skill development initiatives and industry demands.\n• Higher education institutions are being encouraged to offer multidisciplinary vocational programs and embed practical training into curricula.\n• The aim is to make education more holistic, flexible, and employment-oriented, reducing the skills gap in various sectors.\n• Partnerships with industry, creation of digital content for vocational training, and teacher capacity building are key focus areas for successful implementation.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Education",
+        "sourceUrl": "https://www.education.gov.in/press-release/...",
+        "importance": "medium",
+        "tags": [
+          "National Education Policy",
+          "NEP 2020",
+          "Vocational Education",
+          "Skill Development",
+          "Higher Education",
+          "Employment Generation"
+        ],
+        "keyTerms": [
+          "National Education Policy (NEP) 2020",
+          "Vocational Education",
+          "Skill Development",
+          "Multidisciplinary Education",
+          "Holistic Education",
+          "Industry-Academia Linkage"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NEP 2020 emphasizes vocational education integration.",
+          "Vocational courses from Class 6 onwards.",
+          "Higher education to offer multidisciplinary vocational programs.",
+          "Aims for holistic, flexible, employment-oriented education.",
+          "Focus on industry partnerships, digital content, teacher training."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the rationale behind the NEP 2020's emphasis on vocational education and its potential to transform India's human resource landscape.",
+          "Discuss the challenges in integrating vocational training effectively into the mainstream education system, from school to higher education.",
+          "Evaluate the role of industry partnerships and digital learning platforms in enhancing the quality and accessibility of vocational education.",
+          "Examine how a robust vocational education framework can address youth unemployment and the skills gap in India's rapidly evolving economy.",
+          "Suggest measures to improve teacher training and public perception of vocational education to ensure its successful implementation."
+        ],
+        "imageDescription": "Students engaged in practical vocational training, such as carpentry or electronics, in a modern classroom setting.",
+        "section": "National",
+        "trivia": "The National Education Policy 2020 is the first education policy of the 21st century in India, replacing the 1986 policy.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Education",
+          "topic": "NEP 2020, Skill Development"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-bangladesh-river-sharing",
+        "headline": "India-Bangladesh Joint Rivers Commission Meets to Discuss Teesta and Other Transboundary River Issues",
+        "explainer": "• The India-Bangladesh Joint Rivers Commission (JRC) convened for its biennial meeting, focusing on crucial transboundary river management and water sharing issues.\n• Discussions prominently featured the Teesta River water sharing agreement, a long-standing point of contention, with both sides expressing commitment to finding an amicable solution.\n• Other shared rivers, including the Feni, Kushiyara, and Ganga, were also on the agenda, with progress reported on joint basin management and flood forecasting.\n• The meeting underscored the importance of water diplomacy in strengthening bilateral ties and addressing the impacts of climate change on shared water resources.\n• Experts from both countries presented new data and potential frameworks for equitable water distribution and sustainable river basin development.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+          "Conservation, environmental pollution and degradation, environmental impact assessment."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Jal Shakti",
+        "sourceUrl": "https://jalshakti-ddws.gov.in/press-release/...",
+        "importance": "medium",
+        "tags": [
+          "India-Bangladesh Relations",
+          "Joint Rivers Commission",
+          "Transboundary Rivers",
+          "Teesta River",
+          "Water Sharing",
+          "Water Diplomacy",
+          "Climate Change"
+        ],
+        "keyTerms": [
+          "Joint Rivers Commission (JRC)",
+          "Teesta River",
+          "Feni River",
+          "Kushiyara River",
+          "Ganga Water Treaty",
+          "Transboundary River Management",
+          "Water Diplomacy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India-Bangladesh JRC meeting on transboundary rivers.",
+          "Teesta River water sharing was a key agenda point.",
+          "Also discussed Feni, Kushiyara, and Ganga rivers.",
+          "Focus on joint basin management and flood forecasting.",
+          "Emphasizes water diplomacy and climate change impacts."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the complexities of India-Bangladesh transboundary river disputes, particularly concerning the Teesta River, and their impact on bilateral relations.",
+          "Discuss the role and effectiveness of the Joint Rivers Commission (JRC) in resolving water-sharing issues between India and Bangladesh.",
+          "Evaluate the challenges posed by climate change on shared water resources and the need for cooperative basin management strategies.",
+          "Examine the broader implications of water diplomacy for regional stability and economic cooperation in South Asia.",
+          "Suggest innovative solutions and frameworks for equitable water distribution that can satisfy both upstream and downstream riparian states."
+        ],
+        "imageDescription": "A map showing the Teesta River flowing through India and Bangladesh, with flags of both countries, representing water sharing discussions.",
+        "section": "International",
+        "trivia": "India shares 54 transboundary rivers with Bangladesh, making river water management a critical aspect of their bilateral relationship.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India-Bangladesh, Water Disputes"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indus-water-treaty-talks",
+        "headline": "India-Pakistan Hold Talks on Indus Water Treaty; Focus on Technical Issues",
+        "explainer": "• Officials from India and Pakistan held routine bilateral talks under the framework of the Indus Water Treaty (IWT), focusing primarily on technical aspects of water sharing.\n• The Permanent Indus Commission, comprising water commissioners from both nations, reviewed the exchange of hydrological data and discussed concerns regarding certain hydroelectric projects.\n• Both sides reiterated their commitment to upholding the provisions of the IWT, which has survived several conflicts and remains a cornerstone of water resource management in the region.\n• While no major breakthroughs were reported on contentious issues, the continuation of dialogue is seen as a positive step for regional stability.\n• The IWT, brokered by the World Bank, governs the sharing of the Indus River system between the two countries.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Water Resources, River Development & Ganga Rejuvenation",
+        "sourceUrl": "https://mowr.gov.in/press-release/...",
+        "importance": "medium",
+        "tags": [
+          "Indus Water Treaty",
+          "India-Pakistan Relations",
+          "Water Sharing",
+          "Permanent Indus Commission",
+          "Transboundary Rivers",
+          "Water Diplomacy"
+        ],
+        "keyTerms": [
+          "Indus Water Treaty (IWT)",
+          "Permanent Indus Commission (PIC)",
+          "Eastern Rivers (Ravi, Beas, Sutlej)",
+          "Western Rivers (Indus, Jhelum, Chenab)",
+          "Hydroelectric Projects",
+          "Hydrological Data"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India-Pakistan hold talks under Indus Water Treaty (IWT).",
+          "Permanent Indus Commission reviewed hydrological data.",
+          "Discussed hydroelectric projects.",
+          "Both sides committed to IWT provisions.",
+          "IWT brokered by World Bank."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the historical context and key provisions of the Indus Water Treaty (IWT) and its significance for India-Pakistan relations.",
+          "Discuss the role of the Permanent Indus Commission (PIC) in managing transboundary water issues and ensuring the treaty's implementation.",
+          "Examine the technical and political challenges associated with water sharing under the IWT, particularly concerning hydroelectric projects on Western Rivers.",
+          "Evaluate the IWT as a model for water diplomacy in conflict-prone regions and its ability to withstand bilateral tensions.",
+          "Suggest measures to enhance cooperation and address emerging challenges like climate change impacts on the Indus basin within the IWT framework."
+        ],
+        "imageDescription": "A map showing the Indus River system flowing through India and Pakistan, with flags of both countries, representing water treaty talks.",
+        "section": "International",
+        "trivia": "The Indus Water Treaty, signed in 1960, is one of the most successful water-sharing treaties in the world, having survived multiple wars between India and Pakistan.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India-Pakistan, Water Disputes"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "rbi-monetary-policy-review-oct-2025",
+        "headline": "RBI Maintains Status Quo on Repo Rate Amidst Easing Inflationary Pressures; Focus on Growth Revival",
+        "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) concluded its bi-monthly review, deciding to keep the repo rate unchanged at 6.5% for the sixth consecutive time.\n• The decision comes against a backdrop of moderating retail inflation, which has shown a downward trend in recent months, nearing the MPC's target band.\n• RBI Governor highlighted the need to balance inflation control with supporting economic growth, citing global uncertainties and domestic demand conditions.\n• The MPC reiterated its commitment to 'withdrawal of accommodation' to ensure inflation remains within target while remaining agile to evolving economic data.\n• Future policy actions will be guided by the trajectory of food inflation, global commodity prices, and the monsoon's impact on agricultural output.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+          "Government Budgeting.",
+          "Monetary Policy."
+        ],
+        "date": "2025-10-05",
+        "source": "Reserve Bank of India",
+        "sourceUrl": "https://www.rbi.org.in/Scripts/PressReleaseDisplay.aspx?prid=...",
+        "importance": "high",
+        "tags": [
+          "Monetary Policy",
+          "Repo Rate",
+          "Inflation",
+          "Economic Growth",
+          "RBI",
+          "MPC"
+        ],
+        "keyTerms": [
+          "Repo Rate",
+          "Reverse Repo Rate",
+          "Cash Reserve Ratio (CRR)",
+          "Statutory Liquidity Ratio (SLR)",
+          "Inflation Targeting",
+          "Monetary Policy Committee (MPC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Repo rate maintained at 6.5%.",
+          "Sixth consecutive time repo rate is unchanged.",
+          "Retail inflation moderating.",
+          "RBI's stance: 'withdrawal of accommodation'.",
+          "MPC monitors food inflation, global prices, monsoon."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the rationale behind the RBI's decision to maintain the status quo on the repo rate, considering current economic indicators and global trends.",
+          "Discuss the challenges faced by the MPC in balancing inflation control and growth revival in the current economic scenario.",
+          "Evaluate the effectiveness of monetary policy tools in addressing supply-side inflationary pressures and their limitations.",
+          "Examine the potential impact of the RBI's monetary policy stance on various sectors of the Indian economy, including banking, industry, and consumers.",
+          "Suggest alternative or complementary fiscal measures that the government could adopt to support economic stability and growth."
+        ],
+        "imageDescription": "RBI logo with graphs showing stable interest rates and declining inflation, representing the monetary policy stance.",
+        "section": "Economy",
+        "trivia": "The Monetary Policy Committee (MPC) consists of six members: three officials from the RBI and three external members nominated by the Government of India.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI functions and tools"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "new-electric-vehicle-charging-policy",
+        "headline": "Government Unveils New Policy to Boost Electric Vehicle Charging Infrastructure Across India",
+        "explainer": "• The Ministry of Power has released a comprehensive new policy framework aimed at accelerating the development of Electric Vehicle (EV) charging infrastructure nationwide.\n• The policy introduces simplified licensing procedures, encourages private sector investment through subsidies and incentives, and mandates charging points in new commercial and residential buildings.\n• It sets ambitious targets for public charging stations, particularly along national highways and in major urban centers, to alleviate range anxiety among EV users.\n• Emphasis is placed on using renewable energy sources for charging stations and promoting standardized charging protocols for interoperability.\n• The move is part of India's broader commitment to reducing carbon emissions and achieving its net-zero targets by promoting sustainable mobility.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Science and Technology- developments and their applications and effects in everyday life."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Power",
+        "sourceUrl": "https://powermin.gov.in/news-updates/...",
+        "importance": "medium",
+        "tags": [
+          "Electric Vehicles",
+          "EV Charging Infrastructure",
+          "Renewable Energy",
+          "Sustainable Mobility",
+          "Climate Change",
+          "Government Policy"
+        ],
+        "keyTerms": [
+          "Electric Vehicle (EV)",
+          "Charging Infrastructure",
+          "Range Anxiety",
+          "Renewable Energy Sources",
+          "Standardized Charging Protocols",
+          "Net-Zero Targets"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "New policy by Ministry of Power for EV charging.",
+          "Simplifies licensing, offers private sector incentives.",
+          "Mandates charging points in new buildings.",
+          "Targets public charging stations on highways and cities.",
+          "Promotes renewable energy for charging and standardized protocols."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the key provisions of the new EV charging infrastructure policy and their potential impact on the adoption of electric vehicles in India.",
+          "Discuss the challenges in developing a robust and accessible EV charging network across diverse geographical regions of India.",
+          "Evaluate the role of government incentives and private sector participation in achieving the policy's ambitious targets for EV charging infrastructure.",
+          "Examine how the promotion of renewable energy for EV charging aligns with India's climate change commitments and energy security goals.",
+          "Suggest further measures that could be taken to accelerate the transition to electric mobility and overcome existing bottlenecks."
+        ],
+        "imageDescription": "An electric car being charged at a public charging station, with a solar panel array in the background.",
+        "section": "Environment",
+        "trivia": "India aims for 30% penetration of electric vehicles in private cars, 70% in commercial vehicles, and 80% in two and three-wheelers by 2030.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Climate Change",
+          "topic": "Sustainable Development, Renewable Energy"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "isro-chandrayaan-4-update",
+        "headline": "ISRO Provides Update on Chandrayaan-4 Mission Preparations; Focus on Lunar Sample Return",
+        "explainer": "• The Indian Space Research Organisation (ISRO) has released an update on the progress of its ambitious Chandrayaan-4 mission, slated for launch in late 2026.\n• Chandrayaan-4 aims to be India's first lunar sample return mission, designed to collect pristine regolith samples from the Moon's South Pole and bring them back to Earth for scientific analysis.\n• The mission involves a complex architecture comprising an orbiter, a lander, an ascent module, and a re-entry module, requiring advanced robotic capabilities.\n• Scientists anticipate the samples from the lunar South Pole could provide crucial insights into the Moon's geological history, the presence of water ice, and the origin of the solar system.\n• This mission builds upon the successes of Chandrayaan-1, Chandrayaan-2, and Chandrayaan-3, further solidifying India's position in lunar exploration.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Awareness in the fields of Space."
+        ],
+        "date": "2025-10-05",
+        "source": "ISRO",
+        "sourceUrl": "https://www.isro.gov.in/press-release/...",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Chandrayaan-4",
+          "Lunar Mission",
+          "Space Exploration",
+          "Sample Return Mission",
+          "Lunar South Pole"
+        ],
+        "keyTerms": [
+          "Chandrayaan-4",
+          "Lunar Sample Return",
+          "Regolith",
+          "Lunar South Pole",
+          "Orbiter",
+          "Lander",
+          "Ascent Module",
+          "Re-entry Module"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Chandrayaan-4 is India's first lunar sample return mission.",
+          "Aims to collect samples from Moon's South Pole.",
+          "Scheduled for launch in late 2026.",
+          "Involves orbiter, lander, ascent, and re-entry modules.",
+          "Builds on Chandrayaan-1, 2, 3 successes."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the scientific significance of a lunar sample return mission from the Moon's South Pole, particularly in the context of water ice discovery and lunar geology.",
+          "Analyze the technological challenges involved in designing and executing a complex multi-module lunar sample return mission like Chandrayaan-4.",
+          "Evaluate the strategic importance of India's lunar exploration program, including its contributions to global space science and technological self-reliance.",
+          "Examine how missions like Chandrayaan-4 foster international collaboration and contribute to India's soft power diplomacy.",
+          "What are the future prospects for India's space program beyond lunar exploration, particularly in human spaceflight and interplanetary missions?"
+        ],
+        "imageDescription": "Artistic rendering of the Chandrayaan-4 lander collecting samples on the lunar surface, with Earth visible in the background.",
+        "section": "Science",
+        "trivia": "Chandrayaan-3 made India the fourth country to successfully land on the Moon and the first to land near the lunar South Pole.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space Technology",
+          "topic": "ISRO missions"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "new-cyber-security-framework-india",
+        "headline": "India Prepares to Unveil Comprehensive National Cyber Security Strategy 2.0",
+        "explainer": "• The Indian government is reportedly in the final stages of unveiling its National Cyber Security Strategy 2.0, aimed at bolstering the nation's digital defenses.\n• The new strategy addresses emerging threats from state-sponsored attacks, ransomware, and critical infrastructure vulnerabilities, building on the 2013 policy.\n• Key pillars include strengthening cyber resilience across government and private sectors, promoting indigenous cyber security products, and enhancing international cooperation.\n• It also focuses on developing a skilled cyber workforce, fostering public awareness, and establishing robust incident response mechanisms.\n• The strategy is crucial for protecting India's growing digital economy and ensuring national security in an increasingly interconnected world.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+          "Various Security forces and agencies and their mandate.",
+          "Basics of cyber security; money-laundering and its prevention."
+        ],
+        "date": "2025-10-05",
+        "source": "National Cyber Security Coordinator",
+        "sourceUrl": "https://www.ncsc.gov.in/...",
+        "importance": "medium",
+        "tags": [
+          "Cyber Security",
+          "National Security",
+          "Digital India",
+          "Cyber Warfare",
+          "Ransomware",
+          "Critical Infrastructure Protection"
+        ],
+        "keyTerms": [
+          "National Cyber Security Strategy",
+          "Cyber Resilience",
+          "Critical Information Infrastructure (CII)",
+          "CERT-In",
+          "Cyber Warfare",
+          "Zero-Trust Architecture"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India to unveil National Cyber Security Strategy 2.0.",
+          "Addresses state-sponsored attacks, ransomware, critical infrastructure.",
+          "Focus on cyber resilience, indigenous products, international cooperation.",
+          "Aims to develop skilled cyber workforce and public awareness.",
+          "Crucial for digital economy and national security."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the key features and objectives of India's proposed National Cyber Security Strategy 2.0 in addressing the evolving landscape of cyber threats.",
+          "Discuss the challenges in implementing a comprehensive cyber security framework in a diverse and rapidly digitizing nation like India.",
+          "Evaluate the importance of public-private partnerships and international collaboration in enhancing India's cyber security posture.",
+          "Examine the role of indigenous technology development and skill building in achieving cyber self-reliance under the new strategy.",
+          "How does cyber security intersect with national security and critical infrastructure protection in the context of modern warfare and economic stability?"
+        ],
+        "imageDescription": "Abstract digital network lines forming a shield over India's map, symbolizing cyber protection.",
+        "section": "Security",
+        "trivia": "India ranks among the top countries globally in terms of internet users, making it a significant target for cyberattacks.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Cyber Security",
+          "topic": "National Cyber Security Policy"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "pli-scheme-battery-storage-success",
+        "headline": "Production Linked Incentive (PLI) Scheme for Advanced Chemistry Cell (ACC) Battery Storage Shows Promising Results",
+        "explainer": "• The Ministry of Heavy Industries has released an interim report highlighting the significant progress under the Production Linked Incentive (PLI) Scheme for Advanced Chemistry Cell (ACC) Battery Storage.\n• The scheme, aimed at boosting domestic manufacturing of high-capacity batteries, has attracted substantial investments and led to the establishment of several gigafactories.\n• India is on track to achieve self-reliance in battery manufacturing, crucial for its electric vehicle ambitions and renewable energy storage needs.\n• The report notes a considerable increase in local value addition and job creation within the battery manufacturing ecosystem.\n• This success reinforces the government's 'Atmanirbhar Bharat' vision and positions India as a key player in the global battery supply chain.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth.",
+          "Investment models."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Heavy Industries",
+        "sourceUrl": "https://heavyindustries.gov.in/press-release/...",
+        "importance": "medium",
+        "tags": [
+          "PLI Scheme",
+          "Advanced Chemistry Cell",
+          "Battery Manufacturing",
+          "Electric Vehicles",
+          "Renewable Energy Storage",
+          "Atmanirbhar Bharat"
+        ],
+        "keyTerms": [
+          "Production Linked Incentive (PLI) Scheme",
+          "Advanced Chemistry Cell (ACC)",
+          "Gigafactories",
+          "Local Value Addition",
+          "Electric Vehicle (EV)",
+          "Energy Storage Systems (ESS)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "PLI Scheme for ACC Battery Storage shows progress.",
+          "Attracted investments and established gigafactories.",
+          "Aims for self-reliance in battery manufacturing.",
+          "Increased local value addition and job creation.",
+          "Supports 'Atmanirbhar Bharat' vision."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the objectives and key features of the PLI scheme for ACC Battery Storage and its contribution to India's manufacturing sector.",
+          "Discuss the strategic importance of domestic battery manufacturing for India's energy security, electric vehicle transition, and renewable energy integration.",
+          "Evaluate the effectiveness of PLI schemes as an industrial policy tool in promoting 'Atmanirbhar Bharat' and boosting local value addition.",
+          "Examine the challenges that still need to be addressed to ensure sustained growth and competitiveness of India's battery manufacturing industry.",
+          "Compare the PLI scheme for ACC with other PLI schemes and discuss its broader impact on India's economic growth and job creation."
+        ],
+        "imageDescription": "A graphic showing the PLI scheme logo with battery cells and an EV, representing incentive-driven manufacturing.",
+        "section": "Economy",
+        "trivia": "The PLI scheme for ACC battery storage has an outlay of over Rs 18,100 crore and is expected to attract investments worth Rs 45,000 crore.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Industrial Policy",
+          "topic": "PLI Schemes"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "tiger-census-2025-initial-findings",
+        "headline": "Initial Findings of All India Tiger Estimation 2025 Indicate Stable to Growing Tiger Population",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change has released initial findings from the All India Tiger Estimation 2025, suggesting a stable to moderately growing tiger population.\n• The comprehensive census, conducted every four years, utilized advanced methodologies including camera trapping, M-STRIPES app, and DNA analysis.\n• While specific numbers are pending final validation, early indicators point to successful conservation efforts in several tiger reserves and protected areas.\n• The report also highlights challenges such as habitat fragmentation, human-wildlife conflict, and poaching, which continue to pose threats.\n• This estimation is crucial for informing future conservation strategies and ensuring the long-term survival of India's national animal.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Biodiversity and Environment."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "https://moef.gov.in/press-release/...",
+        "importance": "medium",
+        "tags": [
+          "Tiger Conservation",
+          "Tiger Census",
+          "Project Tiger",
+          "Biodiversity",
+          "Wildlife Protection",
+          "National Animal"
+        ],
+        "keyTerms": [
+          "All India Tiger Estimation",
+          "Tiger Reserves",
+          "Camera Trapping",
+          "M-STRIPES",
+          "DNA Analysis",
+          "Habitat Fragmentation",
+          "Human-Wildlife Conflict",
+          "Poaching"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Initial findings of All India Tiger Estimation 2025 released.",
+          "Indicates stable to growing tiger population.",
+          "Uses camera trapping, M-STRIPES, DNA analysis.",
+          "Highlights challenges: habitat fragmentation, human-wildlife conflict, poaching.",
+          "Informs future conservation strategies."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of the All India Tiger Estimation in assessing the health of tiger populations and the effectiveness of conservation efforts.",
+          "Discuss the advanced methodologies employed in the 2025 tiger census and their role in improving accuracy and data collection.",
+          "Examine the key challenges faced by tiger conservation in India, including habitat loss, human-wildlife conflict, and poaching, and suggest mitigation strategies.",
+          "Evaluate the success of 'Project Tiger' and other governmental initiatives in increasing tiger numbers and protecting their habitats.",
+          "Propose policy recommendations for strengthening tiger conservation efforts, integrating local communities, and ensuring ecological balance."
+        ],
+        "imageDescription": "A majestic Bengal tiger captured by a camera trap in a dense forest, symbolizing wildlife conservation.",
+        "section": "Environment",
+        "trivia": "India is home to over 70% of the world's wild tiger population, with more than 50 tiger reserves across the country.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Biodiversity Conservation",
+          "topic": "Wildlife Protection, Project Tiger"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "indias-quantum-computing-mission",
+        "headline": "National Quantum Mission Progressing Towards Indigenous Quantum Computing Capabilities",
+        "explainer": "• The Department of Science & Technology (DST) has provided an update on the progress of India's National Quantum Mission (NQM), launched to foster quantum technology development.\n• NQM aims to develop quantum computing hardware, quantum communication systems, quantum sensors, and quantum materials domestically.\n• Several research collaborations between academic institutions, industry players, and government labs are underway, focusing on different quantum modalities.\n• The mission emphasizes skill development and creating a robust ecosystem for quantum research and innovation, positioning India as a global leader in the field.\n• Quantum technologies are expected to revolutionize various sectors, including defense, healthcare, finance, and secure communications.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights."
+        ],
+        "date": "2025-10-05",
+        "source": "Department of Science & Technology",
+        "sourceUrl": "https://dst.gov.in/press-release/...",
+        "importance": "medium",
+        "tags": [
+          "Quantum Technology",
+          "National Quantum Mission",
+          "Quantum Computing",
+          "Quantum Communication",
+          "Indigenous Technology",
+          "Science & Technology"
+        ],
+        "keyTerms": [
+          "National Quantum Mission (NQM)",
+          "Quantum Computing",
+          "Quantum Communication",
+          "Quantum Sensors",
+          "Quantum Materials",
+          "Quantum Entanglement",
+          "Superposition"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Quantum Mission (NQM) aims for indigenous quantum tech.",
+          "Develops quantum computing, communication, sensors, materials.",
+          "Involves academic, industry, government collaborations.",
+          "Focus on skill development and ecosystem building.",
+          "Expected to revolutionize defense, healthcare, finance."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of quantum technology for India's national security, economic growth, and technological sovereignty.",
+          "Analyze the key objectives and components of India's National Quantum Mission (NQM) and its potential to foster indigenous innovation.",
+          "Examine the scientific principles behind quantum computing and quantum communication, explaining their potential applications and limitations.",
+          "Evaluate the challenges India faces in developing a robust quantum ecosystem, including talent acquisition, infrastructure, and funding.",
+          "Compare India's NQM with global quantum initiatives and suggest measures to accelerate its progress and ensure global competitiveness."
+        ],
+        "imageDescription": "An abstract representation of quantum computing with entangled particles and glowing data nodes, symbolizing advanced technology.",
+        "section": "Science",
+        "trivia": "Quantum computers leverage principles of quantum mechanics, such as superposition and entanglement, to solve complex problems intractable for classical computers.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Advanced Technologies",
+          "topic": "Quantum Computing"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indian-railways-freight-corridor-expansion",
+        "headline": "Dedicated Freight Corridor Project Achieves Key Milestones; Boosts Logistics Efficiency",
+        "explainer": "• Indian Railways' ambitious Dedicated Freight Corridor (DFC) project has announced the completion of significant sections, marking major milestones in its expansion.\n• The Eastern Dedicated Freight Corridor (EDFC) and Western Dedicated Freight Corridor (WDFC) are now largely operational, substantially improving freight movement efficiency.\n• The DFCs are designed to decongest existing railway lines, reduce transit times for goods, and lower logistics costs for industries.\n• This infrastructure upgrade is crucial for enhancing India's competitiveness in manufacturing and trade, aligning with the 'Gati Shakti' master plan.\n• Future phases involve extending the corridors and integrating them with multimodal logistics hubs, further streamlining the supply chain.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Railways",
+        "sourceUrl": "https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,1,304,366,537",
+        "importance": "medium",
+        "tags": [
+          "Dedicated Freight Corridor",
+          "Indian Railways",
+          "Logistics Infrastructure",
+          "Gati Shakti",
+          "Economic Development",
+          "Supply Chain"
+        ],
+        "keyTerms": [
+          "Dedicated Freight Corridor (DFC)",
+          "Eastern Dedicated Freight Corridor (EDFC)",
+          "Western Dedicated Freight Corridor (WDFC)",
+          "Logistics Cost",
+          "Multimodal Logistics Hubs",
+          "Gati Shakti Master Plan"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "DFC project achieves significant completion milestones.",
+          "EDFC and WDFC largely operational.",
+          "Aims to decongest lines, reduce transit times, lower logistics costs.",
+          "Crucial for manufacturing, trade, and 'Gati Shakti'.",
+          "Future plans include extensions and multimodal integration."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic importance of the Dedicated Freight Corridor (DFC) project for India's economic growth, industrial development, and trade competitiveness.",
+          "Discuss how the DFCs contribute to the objectives of the 'Gati Shakti' National Master Plan and enhance multimodal connectivity.",
+          "Evaluate the impact of improved freight logistics on various sectors of the Indian economy, including manufacturing, agriculture, and e-commerce.",
+          "Examine the challenges encountered during the implementation of large-scale infrastructure projects like the DFCs and the strategies adopted to overcome them.",
+          "Suggest further policy measures and investments required to fully leverage the potential of the DFC network and integrate it with last-mile connectivity solutions."
+        ],
+        "imageDescription": "A long freight train moving rapidly on a dedicated track, symbolizing efficient logistics and infrastructure development.",
+        "section": "Economy",
+        "trivia": "The Dedicated Freight Corridor Corporation of India Limited (DFCCIL) is a special purpose vehicle (SPV) established to construct and operate the DFCs.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Infrastructure",
+          "topic": "Railways, Logistics"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "startup-india-seed-fund-impact",
+        "headline": "Startup India Seed Fund Scheme Bolsters Early-Stage Innovation Across Diverse Sectors",
+        "explainer": "• The Department for Promotion of Industry and Internal Trade (DPIIT) has released an impact assessment report on the Startup India Seed Fund Scheme (SISFS).\n• The report highlights that SISFS has successfully supported over 1,000 early-stage startups across various sectors, including FinTech, AgriTech, HealthTech, and DeepTech.\n• The scheme provides financial assistance to startups for proof of concept, prototype development, product trials, and market-entry.\n• It has been instrumental in fostering innovation in Tier 2 and Tier 3 cities, promoting inclusive entrepreneurship and job creation.\n• The success of SISFS underscores the government's commitment to nurturing a vibrant startup ecosystem and driving economic growth through innovation.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Investment models."
+        ],
+        "date": "2025-10-05",
+        "source": "DPIIT, Ministry of Commerce & Industry",
+        "sourceUrl": "https://dpiit.gov.in/press-release/...",
+        "importance": "low",
+        "tags": [
+          "Startup India",
+          "Seed Fund Scheme",
+          "Entrepreneurship",
+          "Innovation",
+          "Job Creation",
+          "DPIIT"
+        ],
+        "keyTerms": [
+          "Startup India Seed Fund Scheme (SISFS)",
+          "DPIIT",
+          "Early-Stage Startups",
+          "Proof of Concept",
+          "Prototype Development",
+          "FinTech",
+          "AgriTech",
+          "DeepTech"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Startup India Seed Fund Scheme (SISFS) impact report released.",
+          "Supported over 1,000 early-stage startups.",
+          "Covers FinTech, AgriTech, HealthTech, DeepTech.",
+          "Provides financial assistance for proof of concept, prototype, market-entry.",
+          "Fosters innovation in Tier 2 and Tier 3 cities."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the objectives and operational mechanisms of the Startup India Seed Fund Scheme (SISFS) in promoting entrepreneurship and innovation in India.",
+          "Discuss the impact of SISFS on the growth of early-stage startups, particularly in emerging sectors and Tier 2/3 cities.",
+          "Evaluate the challenges faced by early-stage startups in India and how government schemes like SISFS help overcome these barriers.",
+          "Examine the role of a vibrant startup ecosystem in driving economic growth, job creation, and technological advancement in India.",
+          "Suggest measures to further strengthen the startup ecosystem and ensure equitable access to funding and mentorship across all regions."
+        ],
+        "imageDescription": "A stylized graphic showing a plant growing from a coin, symbolizing seed funding for startups and innovation.",
+        "section": "Economy",
+        "trivia": "India is home to the world's third-largest startup ecosystem, with a rapidly growing number of unicorns (startups valued over $1 billion).",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Government Schemes",
+          "topic": "Startup Ecosystem"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "new-coastal-zone-management-plan",
+        "headline": "Draft Coastal Zone Management Plan Released for Public Consultation",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change has released the draft Coastal Zone Management Plan (CZMP) for several coastal states and Union Territories for public consultation.\n• The CZMP aims to regulate development activities in coastal areas, protect sensitive ecosystems like mangroves and coral reefs, and ensure sustainable livelihoods for coastal communities.\n• The new plans incorporate lessons from past environmental disasters and integrate climate change adaptation strategies, including sea-level rise projections.\n• Stakeholders, including fishing communities, environmental groups, and industries, are invited to provide feedback before finalization.\n• Effective coastal zone management is critical for balancing economic development with ecological preservation and disaster risk reduction.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Disaster and disaster management."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "https://moef.gov.in/press-release/...",
+        "importance": "low",
+        "tags": [
+          "Coastal Zone Management",
+          "CRZ",
+          "Mangroves",
+          "Coral Reefs",
+          "Climate Change Adaptation",
+          "Sustainable Development",
+          "Environmental Protection"
+        ],
+        "keyTerms": [
+          "Coastal Zone Management Plan (CZMP)",
+          "Coastal Regulation Zone (CRZ)",
+          "Mangroves",
+          "Coral Reefs",
+          "Sea-Level Rise",
+          "Climate Change Adaptation",
+          "Sustainable Livelihoods"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Draft CZMP released for public consultation.",
+          "Aims to regulate coastal development, protect ecosystems.",
+          "Integrates climate change adaptation strategies.",
+          "Invites feedback from fishing communities, environmental groups, industries.",
+          "Critical for balancing development, preservation, disaster risk reduction."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the objectives and key provisions of the draft Coastal Zone Management Plan (CZMP) and its significance for India's coastal ecosystems and communities.",
+          "Discuss the challenges in balancing coastal economic development with environmental protection and the livelihoods of traditional fishing communities.",
+          "Evaluate how the CZMP addresses the impacts of climate change, particularly sea-level rise and extreme weather events, on India's coastline.",
+          "Examine the importance of public consultation and stakeholder participation in the finalization and effective implementation of environmental policies like the CZMP.",
+          "Suggest measures to strengthen the enforcement of coastal regulations and promote sustainable practices in coastal zones."
+        ],
+        "imageDescription": "A serene coastline with mangroves in the foreground and a fishing boat, depicting coastal ecosystem and livelihood.",
+        "section": "Environment",
+        "trivia": "India has a coastline of over 7,500 km, supporting a diverse range of ecosystems and a large population dependent on marine resources.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Environmental Governance",
+          "topic": "Coastal Regulation Zone"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "new-agricultural-biotech-policy",
+        "headline": "Government Considers New Policy Framework for Agricultural Biotechnology to Boost Crop Yields",
+        "explainer": "• The Ministry of Agriculture and Farmers Welfare is reportedly drafting a new policy framework to streamline regulations for agricultural biotechnology and genetically modified (GM) crops.\n• The move aims to leverage advanced biotechnological tools to enhance crop yields, improve nutritional content, and develop climate-resilient varieties.\n• The policy seeks to address long-standing concerns regarding regulatory approvals, biosafety assessments, and public acceptance of GM crops in India.\n• Emphasis will be placed on robust scientific evaluation, transparent communication, and ensuring farmer benefits and food security.\n• This initiative could potentially revolutionize Indian agriculture, but also raises debates around ethical implications and environmental impact.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+          "Major crops-cropping patterns in various parts of the country, - different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers."
+        ],
+        "date": "2025-10-05",
+        "source": "Ministry of Agriculture & Farmers Welfare",
+        "sourceUrl": "https://agri.nic.in/press-release/...",
+        "importance": "medium",
+        "tags": [
+          "Agricultural Biotechnology",
+          "GM Crops",
+          "Crop Yields",
+          "Food Security",
+          "Climate Resilience",
+          "Genetic Engineering",
+          "Biosafety"
+        ],
+        "keyTerms": [
+          "Agricultural Biotechnology",
+          "Genetically Modified (GM) Crops",
+          "Biosafety Assessments",
+          "Climate-Resilient Crops",
+          "Food Security",
+          "Genetic Engineering Appraisal Committee (GEAC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "New policy framework for agricultural biotechnology under consideration.",
+          "Aims to streamline GM crop regulations.",
+          "Leverages biotech for crop yields, nutrition, climate resilience.",
+          "Addresses regulatory approvals, biosafety, public acceptance.",
+          "Focus on scientific evaluation, transparency, farmer benefits."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the potential benefits of agricultural biotechnology and genetically modified (GM) crops in addressing food security, malnutrition, and climate change challenges in India.",
+          "Analyze the regulatory and ethical concerns associated with the adoption of GM crops in India, including biosafety, environmental impact, and farmer livelihoods.",
+          "Evaluate the need for a clear and transparent policy framework to govern agricultural biotechnology research and commercialization in India.",
+          "Examine the role of robust scientific assessment and public engagement in building trust and acceptance for GM technologies.",
+          "Suggest a balanced approach that promotes innovation in agricultural biotechnology while ensuring environmental safety and farmer welfare."
+        ],
+        "imageDescription": "A stylized DNA helix intertwining with a green plant, symbolizing agricultural biotechnology and genetic modification.",
+        "section": "Science",
+        "trivia": "Bt Cotton is currently the only GM crop approved for commercial cultivation in India.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Biotechnology",
+          "topic": "GM Crops"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Ministry of Electronics & IT",
+    "Reserve Bank of India",
+    "Ministry of External Affairs",
+    "Supreme Court of India",
+    "Ministry of Power",
+    "ISRO",
+    "Parliament of India",
+    "National Cyber Security Coordinator",
+    "Ministry of Heavy Industries",
+    "Ministry of Finance",
+    "Ministry of Environment, Forest and Climate Change",
+    "Department of Science & Technology",
+    "Ministry of Education",
+    "Ministry of Jal Shakti",
+    "Ministry of Railways",
+    "DPIIT, Ministry of Commerce & Industry",
+    "Ministry of Culture",
+    "Ministry of Water Resources, River Development & Ganga Rejuvenation",
+    "Ministry of Agriculture & Farmers Welfare"
+  ],
+  "totalScraped": 20,
+  "totalProcessed": 20
+}

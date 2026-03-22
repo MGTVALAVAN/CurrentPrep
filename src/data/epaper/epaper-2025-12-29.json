@@ -1,0 +1,2547 @@
+{
+  "date": "2025-12-29",
+  "dateFormatted": "Monday 29 December, 2025",
+  "lastUpdated": "2026-03-21T07:16:17.434Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "amrit-kaal-green-hydrogen-vision-2047",
+      "headline": "India Unveils 'Amrit Kaal Green Hydrogen Vision 2047' to Become Global Hub",
+      "explainer": "• The Union Cabinet approved the comprehensive 'Amrit Kaal Green Hydrogen Vision 2047', outlining India's strategy to become a global leader in green hydrogen production and export.\n• The vision targets achieving 25 million tonnes of green hydrogen production capacity by 2047, alongside significant cost reduction and development of indigenous electrolyser manufacturing capabilities.\n• Emphasis is placed on creating a robust ecosystem for R&D, skill development, and establishing green hydrogen corridors across industrial clusters.\n• This initiative is poised to significantly reduce India's reliance on fossil fuel imports, enhance energy security, and contribute substantially to global decarbonization efforts.\n• Financial incentives, including production-linked incentives (PLI) for electrolysers and green hydrogen, and viability gap funding for pilot projects, are central to the vision.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy",
+        "Investment Models",
+        "Environmental Conservation",
+        "Green Economy",
+        "Science and Technology Developments",
+        "Government Policies and Interventions"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of New & Renewable Energy",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "green hydrogen",
+        "energy security",
+        "decarbonization",
+        "renewable energy",
+        "PLI scheme",
+        "climate change",
+        "economic growth"
+      ],
+      "keyTerms": [
+        "Green Hydrogen",
+        "National Green Hydrogen Mission",
+        "Electrolyser",
+        "Production Linked Incentive (PLI)",
+        "Energy Transition",
+        "Amrit Kaal"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Amrit Kaal Green Hydrogen Vision 2047 targets 25 million tonnes production by 2047.",
+        "Focus on indigenous electrolyser manufacturing and R&D.",
+        "Includes PLI scheme and viability gap funding.",
+        "Aims to reduce fossil fuel imports and achieve energy independence."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss India's strategic imperatives behind promoting green hydrogen, linking it to energy security, climate commitments, and economic growth.",
+        "Analyze the challenges and opportunities in scaling up green hydrogen production and exports in India.",
+        "Evaluate the role of government policies like PLI and viability gap funding in achieving the 'Amrit Kaal Green Hydrogen Vision 2047'.",
+        "Examine the potential socio-economic impacts, including job creation and regional development, stemming from the green hydrogen economy."
+      ],
+      "imageDescription": "Illustration of a green hydrogen production plant with solar panels and wind turbines in the background, symbolizing sustainable energy.",
+      "section": "Lead Opinion",
+      "trivia": "Hydrogen is the most abundant chemical substance in the universe, making up roughly 75% of all baryonic mass.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Infrastructure",
+        "topic": "Energy"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "supreme-court-digital-privacy-ai",
+      "headline": "Supreme Court Issues Landmark Ruling on Digital Privacy and AI Ethics",
+      "explainer": "• The Supreme Court delivered a crucial judgment reaffirming the right to privacy in the digital age, particularly in the context of rapidly evolving Artificial Intelligence (AI) technologies.\n• The ruling mandates stricter regulations for data collection, processing, and algorithmic decision-making by both state and private entities, emphasizing informed consent and data minimization.\n• The Court highlighted the need for a robust legal framework to address algorithmic bias and ensure transparency and accountability in AI applications affecting citizens' rights.\n• It urged the government to expedite the enactment of a comprehensive data protection law that specifically incorporates principles of AI ethics and responsible innovation.\n• This judgment is expected to have far-reaching implications for technology companies, government surveillance programs, and the future of AI development in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution - Fundamental Rights",
+        "Government Policies and Interventions",
+        "Role of Judiciary",
+        "Information Technology"
+      ],
+      "date": "2025-12-29",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "right to privacy",
+        "digital rights",
+        "AI ethics",
+        "data protection",
+        "Supreme Court",
+        "fundamental rights",
+        "governance"
+      ],
+      "keyTerms": [
+        "Right to Privacy",
+        "Artificial Intelligence (AI)",
+        "Algorithmic Bias",
+        "Data Protection Law",
+        "Informed Consent",
+        "Judicial Review"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Supreme Court ruling on digital privacy and AI.",
+        "Emphasizes informed consent and data minimization.",
+        "Calls for robust legal framework against algorithmic bias.",
+        "Urges comprehensive data protection law with AI ethics."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the implications of the Supreme Court's ruling on the balance between state surveillance, corporate data practices, and individual privacy rights in India.",
+        "Discuss the challenges in regulating AI technologies to ensure ethical use and prevent algorithmic bias, referencing the Court's observations.",
+        "Examine the constitutional basis for the right to privacy in India and how this judgment extends its scope in the digital realm.",
+        "Suggest reforms needed in India's legal and regulatory framework to address the complex issues arising from AI and big data."
+      ],
+      "imageDescription": "Abstract image depicting a digital lock and key, symbolizing data privacy and security, with AI neural network patterns in the background.",
+      "section": "National",
+      "trivia": "The Puttaswamy judgment (2017) declared the right to privacy a fundamental right under Article 21 of the Indian Constitution.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-eu-strategic-dialogue",
+      "headline": "India-EU Strategic Partnership Review Concludes; Focus on Trade, Climate, and Tech Cooperation",
+      "explainer": "• The annual India-European Union Strategic Partnership Review meeting concluded in New Delhi, reaffirming commitment to deepen cooperation across various sectors.\n• Key discussions revolved around accelerating negotiations for the India-EU Free Trade Agreement (FTA), with both sides expressing optimism for an early conclusion.\n• Climate action and green transition initiatives were central, including joint projects on renewable energy, circular economy, and sustainable development goals.\n• Enhanced collaboration in critical and emerging technologies, digital governance, and resilient supply chains also featured prominently.\n• The dialogue underscored the shared values of democracy, human rights, and multilateralism, aiming to strengthen the rules-based international order.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, Regional and Global Groupings and Agreements involving India",
+        "Effect of Policies and Politics of Developed and Developing Countries on India's interests",
+        "International Institutions"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "India-EU relations",
+        "FTA",
+        "climate cooperation",
+        "technology partnership",
+        "multilateralism",
+        "trade relations"
+      ],
+      "keyTerms": [
+        "Strategic Partnership",
+        "Free Trade Agreement (FTA)",
+        "Green Transition",
+        "Critical and Emerging Technologies",
+        "Multilateralism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India-EU Strategic Partnership Review held in New Delhi.",
+        "Focus on FTA, climate action, and critical technologies.",
+        "Aims for early conclusion of India-EU FTA.",
+        "Collaboration in renewable energy and digital governance."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the evolving dynamics of the India-EU Strategic Partnership, highlighting areas of convergence and divergence.",
+        "Discuss the strategic importance of the proposed India-EU FTA for India's economic growth and global trade ambitions.",
+        "Evaluate the potential for India-EU cooperation in addressing global challenges such as climate change, technological governance, and supply chain resilience.",
+        "Examine how the partnership contributes to India's broader foreign policy objectives and its engagement with the Global South."
+      ],
+      "imageDescription": "Flags of India and the European Union displayed side-by-side, symbolizing diplomatic ties and cooperation.",
+      "section": "International",
+      "trivia": "The European Union is India's third-largest trading partner, after the US and China.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India and Europe"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-monetary-policy-outlook",
+      "headline": "RBI Governor Signals Cautious Optimism Amid Global Headwinds; Inflation Outlook Stable",
+      "explainer": "• In a year-end press briefing, the RBI Governor expressed cautious optimism about India's economic trajectory despite persistent global headwinds like geopolitical tensions and supply chain disruptions.\n• The Governor indicated that while inflation remains within the target band, vigilance is crucial, and future monetary policy decisions will be data-dependent.\n• Emphasis was laid on maintaining financial stability and supporting sustainable growth, with the RBI ready to deploy calibrated measures as needed.\n• The central bank also highlighted the resilience of India's banking sector and the ongoing efforts to strengthen regulatory frameworks for non-banking financial companies (NBFCs).\n• Projections for Q4 FY2025 GDP growth were shared, indicating a steady but moderate expansion, driven by domestic demand and capital expenditure.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to Planning, Mobilization of Resources, Growth, Development and Employment",
+        "Government Budgeting",
+        "Monetary Policy",
+        "Financial Sector Reforms"
+      ],
+      "date": "2025-12-29",
+      "source": "Reserve Bank of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "RBI",
+        "monetary policy",
+        "inflation",
+        "economic growth",
+        "financial stability",
+        "global economy"
+      ],
+      "keyTerms": [
+        "Monetary Policy Committee (MPC)",
+        "Inflation Targeting",
+        "Repo Rate",
+        "Reverse Repo Rate",
+        "Financial Stability",
+        "GDP Growth"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "RBI Governor's year-end press briefing.",
+        "Cautious optimism on India's economy amidst global headwinds.",
+        "Inflation within target band, future policy data-dependent.",
+        "Focus on financial stability and sustainable growth.",
+        "Resilience of banking sector highlighted."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the current challenges faced by the Indian economy in the context of global economic uncertainties and geopolitical tensions.",
+        "Discuss the effectiveness of RBI's monetary policy framework in managing inflation while supporting economic growth.",
+        "Examine the role of the banking sector and NBFCs in India's financial stability and economic development.",
+        "Evaluate the government's fiscal policy and its coordination with RBI's monetary policy to achieve macroeconomic objectives."
+      ],
+      "imageDescription": "The Reserve Bank of India (RBI) logo, symbolizing financial authority and stability.",
+      "section": "Economy",
+      "trivia": "The Reserve Bank of India (RBI) was established on April 1, 1935, under the Reserve Bank of India Act, 1934.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI and its functions"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "isro-rlv-prototype-test",
+      "headline": "ISRO Successfully Tests Next-Generation Reusable Launch Vehicle (RLV) Prototype",
+      "explainer": "• The Indian Space Research Organisation (ISRO) announced the successful completion of a crucial test flight for its next-generation Reusable Launch Vehicle (RLV) prototype.\n• The test involved a controlled landing experiment, demonstrating critical technologies for autonomous navigation, guidance, and control necessary for future orbital re-entry and landing missions.\n• This achievement marks a significant step towards developing a fully reusable two-stage orbital launch vehicle, aimed at drastically reducing the cost of space access.\n• The RLV program is central to India's long-term space exploration goals, including future human spaceflight missions and commercial satellite launches.\n• Scientists lauded the indigenous development of advanced materials and avionics systems used in the RLV prototype, showcasing India's growing self-reliance in space technology.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- Developments and their Applications and Effects in Everyday Life",
+        "Achievements of Indians in Science & Technology",
+        "Space Technology"
+      ],
+      "date": "2025-12-29",
+      "source": "ISRO",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "RLV",
+        "reusable launch vehicle",
+        "space technology",
+        "space exploration",
+        "indigenous technology",
+        "cost reduction"
+      ],
+      "keyTerms": [
+        "Reusable Launch Vehicle (RLV)",
+        "Orbital Re-entry",
+        "Autonomous Navigation",
+        "ISRO",
+        "Space Access Cost"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ISRO successfully tested RLV prototype.",
+        "Test involved controlled landing experiment.",
+        "Aims to reduce space access costs dramatically.",
+        "Crucial for future human spaceflight and commercial launches.",
+        "Showcases indigenous development in space technology."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of Reusable Launch Vehicle technology for India's future in space exploration and commercial space sector.",
+        "Analyze the potential economic and geopolitical advantages India stands to gain by mastering RLV technology.",
+        "Examine the challenges involved in developing fully reusable launch systems and how ISRO is addressing them.",
+        "Elaborate on how ISRO's RLV program aligns with the 'Make in India' initiative and promotes self-reliance in critical technologies."
+      ],
+      "imageDescription": "An artistic rendering of ISRO's Reusable Launch Vehicle (RLV) prototype in flight, with booster separation.",
+      "section": "Science",
+      "trivia": "The first RLV-TD (Technology Demonstrator) mission by ISRO, called HEX (Hypersonic Flight Experiment), was successfully conducted in 2016.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space Technology",
+        "topic": "ISRO missions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "national-wetland-conservation-policy",
+      "headline": "New National Policy on Wetland Conservation and Management Unveiled",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change launched a comprehensive National Policy on Wetland Conservation and Management, aiming to protect and restore India's vital wetland ecosystems.\n• The policy emphasizes a participatory approach, involving local communities in wetland management plans and promoting sustainable livelihood options.\n• It mandates mapping and categorization of all wetlands across the country, with specific guidelines for their ecological restoration, pollution control, and biodiversity preservation.\n• The policy also includes provisions for strengthened legal frameworks and enforcement mechanisms to prevent encroachment and degradation of wetlands.\n• This initiative is crucial for enhancing climate change resilience, maintaining biodiversity, and ensuring water security for various regions.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, Environmental Pollution and Degradation, Environmental Impact Assessment",
+        "Biodiversity",
+        "Government Policies and Interventions"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "wetland conservation",
+        "biodiversity",
+        "environmental policy",
+        "climate resilience",
+        "ecosystem services",
+        "sustainable management"
+      ],
+      "keyTerms": [
+        "Wetlands",
+        "Ramsar Sites",
+        "Ecosystem Services",
+        "Biodiversity Conservation",
+        "Participatory Management"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "New National Policy on Wetland Conservation and Management launched.",
+        "Emphasizes participatory approach and local community involvement.",
+        "Mandates mapping, categorization, and ecological restoration of wetlands.",
+        "Strengthens legal frameworks against wetland degradation."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ecological and economic significance of wetlands in India and the threats they face.",
+        "Analyze the key features of the new National Policy on Wetland Conservation and Management and its potential effectiveness.",
+        "Evaluate the role of local communities and indigenous knowledge in successful wetland conservation initiatives.",
+        "Examine how wetland conservation contributes to climate change adaptation and mitigation efforts in India."
+      ],
+      "imageDescription": "A serene image of a wetland ecosystem with migratory birds, lush vegetation, and clear water, highlighting its biodiversity.",
+      "section": "Environment",
+      "trivia": "India has over 75 designated Ramsar Sites, which are wetlands of international importance.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Conservation",
+        "topic": "Wetlands"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "cyber-security-framework-2.0",
+      "headline": "Comprehensive Cyber Security Framework 2.0 Draft Released for Public Consultation",
+      "explainer": "• The Ministry of Electronics and Information Technology (MeitY) released the draft of the 'Comprehensive Cyber Security Framework 2.0' for public consultation.\n• The new framework aims to strengthen India's cyber defenses against evolving threats, focusing on critical infrastructure protection, data governance, and cyber-crime prevention.\n• It proposes enhanced collaboration between government agencies, private sector, and international partners to build a resilient cyber ecosystem.\n• Key provisions include mandatory security audits for critical information infrastructure, establishment of a National Cyber Security Research & Development Fund, and capacity building programs.\n• This update reflects the growing sophistication of cyber threats and the need for a proactive, multi-stakeholder approach to national cyber security.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Challenges to Internal Security through Communication Networks",
+        "Role of Media and Social Networking Sites in Internal Security Challenges",
+        "Cyber Security",
+        "Money-Laundering and its prevention"
+      ],
+      "date": "2025-12-29",
+      "source": "MeitY",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "cyber security",
+        "critical infrastructure",
+        "data governance",
+        "cyber crime",
+        "national security",
+        "digital India"
+      ],
+      "keyTerms": [
+        "Cyber Security Framework",
+        "Critical Information Infrastructure (CII)",
+        "Cyber Crime",
+        "Data Governance",
+        "CERT-In"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "MeitY released draft Cyber Security Framework 2.0.",
+        "Focus on critical infrastructure protection and data governance.",
+        "Proposes mandatory security audits for CII.",
+        "Includes National Cyber Security R&D Fund."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the evolving landscape of cyber threats faced by India and the necessity for a revamped cyber security framework.",
+        "Discuss the key provisions of the Comprehensive Cyber Security Framework 2.0 and its potential impact on national security and digital economy.",
+        "Examine the challenges in implementing a multi-stakeholder approach to cyber security in India, considering government, private sector, and international cooperation.",
+        "Evaluate the balance between national security imperatives and individual privacy concerns in the context of enhanced cyber surveillance and data governance measures."
+      ],
+      "imageDescription": "A stylized digital shield icon, representing cyber security and protection, with binary code flowing in the background.",
+      "section": "National",
+      "trivia": "The Indian Computer Emergency Response Team (CERT-In) is the nodal agency for responding to computer security incidents.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Cyber Security",
+        "topic": "Government initiatives"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "parliament-judicial-efficiency-bill",
+      "headline": "Parliament Passes Bill to Enhance Judicial Efficiency and Reduce Pendency",
+      "explainer": "• Both Houses of Parliament passed the 'Judicial Efficiency and Timely Justice Bill, 2025', aimed at significantly reducing the backlog of cases across Indian courts.\n• The Bill introduces several reforms, including the establishment of specialized fast-track courts for specific categories of cases, and increased use of alternative dispute resolution (ADR) mechanisms.\n• It mandates the adoption of advanced digital infrastructure for case management, e-filing, and virtual hearings to streamline judicial processes.\n• Provisions for increasing the number of judges in lower courts and enhancing judicial training programs are also included to bolster the judicial workforce.\n• Legal experts anticipate that the Bill, once enacted, will play a crucial role in improving access to justice and upholding the rule of law in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Structure, Organization and Functioning of the Executive and the Judiciary",
+        "Government Policies and Interventions for Development in various sectors",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources"
+      ],
+      "date": "2025-12-29",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "judicial reform",
+        "judicial efficiency",
+        "case pendency",
+        "fast-track courts",
+        "ADR",
+        "e-courts",
+        "access to justice"
+      ],
+      "keyTerms": [
+        "Judicial Pendency",
+        "Alternative Dispute Resolution (ADR)",
+        "Fast-Track Courts",
+        "E-courts",
+        "Rule of Law"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Judicial Efficiency and Timely Justice Bill, 2025 passed.",
+        "Aims to reduce case backlog in courts.",
+        "Introduces fast-track courts and promotes ADR.",
+        "Mandates digital infrastructure for case management and e-filing.",
+        "Provisions for increasing judges and training."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the root causes of judicial pendency in India and their impact on the justice delivery system.",
+        "Analyze the key provisions of the 'Judicial Efficiency and Timely Justice Bill, 2025' and their potential to address these issues.",
+        "Evaluate the role of technology and alternative dispute resolution mechanisms in modernizing the Indian judiciary.",
+        "Examine the challenges in implementing judicial reforms across different levels of the Indian court system."
+      ],
+      "imageDescription": "A gavel and law books on a judge's desk, symbolizing justice and legal reforms.",
+      "section": "National",
+      "trivia": "India's judicial system faces a backlog of over 4.5 crore cases across various courts.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Judiciary",
+        "topic": "Judicial Reforms"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "make-in-india-for-the-world",
+      "headline": "Government Unveils 'Make in India for the World' Export Promotion Scheme",
+      "explainer": "• The Union Government launched the 'Make in India for the World' scheme, a new export promotion initiative designed to boost domestic manufacturing and integrate India into global supply chains.\n• The scheme provides targeted incentives, financial support, and infrastructure upgrades for industries with high export potential, focusing on sectors like electronics, textiles, pharmaceuticals, and automotive components.\n• It aims to enhance India's competitiveness in international markets by improving product quality, reducing logistics costs, and facilitating market access.\n• The initiative also includes provisions for skill development and technological upgradation to meet global manufacturing standards.\n• This scheme is a strategic move to leverage India's manufacturing capabilities for global markets, aligning with the broader vision of an 'Atmanirbhar Bharat'.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to Planning, Mobilization of Resources, Growth, Development and Employment",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Investment Models",
+        "Government Policies and Interventions"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of Commerce & Industry",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Make in India",
+        "exports",
+        "manufacturing",
+        "global supply chains",
+        "economic growth",
+        "Atmanirbhar Bharat",
+        "PLI"
+      ],
+      "keyTerms": [
+        "Make in India",
+        "Export Promotion",
+        "Global Supply Chains",
+        "Atmanirbhar Bharat",
+        "Manufacturing Hub",
+        "Trade Competitiveness"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "New 'Make in India for the World' export promotion scheme launched.",
+        "Aims to boost domestic manufacturing and global supply chain integration.",
+        "Provides targeted incentives for high export potential sectors.",
+        "Focus on product quality, logistics, and market access."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the objectives and key features of the 'Make in India for the World' scheme and its role in transforming India into a global manufacturing hub.",
+        "Analyze the challenges and opportunities for Indian manufacturers in integrating into global supply chains and enhancing export competitiveness.",
+        "Evaluate the effectiveness of government incentives and infrastructure development in boosting specific export-oriented sectors.",
+        "Examine how this scheme aligns with India's broader economic vision of 'Atmanirbhar Bharat' and its implications for employment and FDI."
+      ],
+      "imageDescription": "A stylized globe with factory silhouettes and an arrow pointing outwards, representing global exports from India.",
+      "section": "Economy",
+      "trivia": "The original 'Make in India' initiative was launched in 2014 to encourage companies to manufacture in India.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Manufacturing",
+        "topic": "Government schemes"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-global-south-development-un",
+      "headline": "India Pledges Enhanced Support for Global South Development at UN Forum",
+      "explainer": "• India reiterated its commitment to strengthening cooperation with the Global South, announcing new initiatives and enhanced financial support at a special UN forum on South-South Cooperation.\n• The initiatives focus on capacity building, technology transfer, and infrastructure development projects in partner countries, particularly in Africa and Small Island Developing States (SIDS).\n• India emphasized its approach of 'Vasudhaiva Kutumbakam' (The World is One Family) and its role as a responsible and reliable development partner.\n• Discussions included collaborative efforts on climate resilience, food security, digital public infrastructure, and access to affordable healthcare.\n• This pledge reinforces India's growing influence as a voice for developing nations on the international stage and its commitment to multilateralism.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International Institutions, agencies and fora – their structure, mandate.",
+        "Bilateral, Regional and Global Groupings and Agreements involving India",
+        "Effect of Policies and Politics of Developed and Developing Countries on India's interests"
+      ],
+      "date": "2025-12-29",
+      "source": "United Nations News",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Global South",
+        "South-South Cooperation",
+        "UN",
+        "development aid",
+        "capacity building",
+        "India's foreign policy",
+        "multilateralism"
+      ],
+      "keyTerms": [
+        "Global South",
+        "South-South Cooperation",
+        "Vasudhaiva Kutumbakam",
+        "Capacity Building",
+        "Small Island Developing States (SIDS)",
+        "Digital Public Infrastructure"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India pledges enhanced support for Global South at UN forum.",
+        "Focus on capacity building, tech transfer, infrastructure in Africa, SIDS.",
+        "Emphasizes 'Vasudhaiva Kutumbakam'.",
+        "Collaborative efforts on climate resilience, food security, digital public infrastructure."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss India's historical and contemporary role as a leader and partner for the Global South.",
+        "Analyze the significance of South-South Cooperation in the evolving global order and India's contributions to it.",
+        "Evaluate the effectiveness of India's development assistance models, particularly in comparison to other global powers.",
+        "Examine how India's engagement with the Global South aligns with its broader foreign policy objectives and its vision for a multipolar world."
+      ],
+      "imageDescription": "A stylized map of the 'Global South' countries, with India prominently highlighted, symbolizing leadership and cooperation.",
+      "section": "International",
+      "trivia": "The term 'Global South' generally refers to countries in Asia, Africa, and Latin America, often characterized by developing economies.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "UN and India"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "national-health-mission-telemedicine",
+      "headline": "National Health Mission Expands Telemedicine Services to Remote Rural Areas",
+      "explainer": "• The Ministry of Health and Family Welfare announced a significant expansion of telemedicine services under the National Health Mission (NHM), targeting remote and underserved rural areas.\n• This initiative aims to bridge the gap in healthcare access by leveraging digital technology to connect patients in rural clinics with specialist doctors in urban centers.\n• New mobile health units equipped with teleconsultation facilities and diagnostic tools will be deployed, along with training programs for local health workers.\n• The expansion focuses on improving maternal and child health outcomes, managing non-communicable diseases, and providing mental health support.\n• This move is a crucial step towards achieving universal health coverage and strengthening primary healthcare infrastructure, especially post-pandemic.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to Development and Management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government Policies and Interventions for Development in various sectors"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of Health and Family Welfare",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "telemedicine",
+        "National Health Mission",
+        "rural healthcare",
+        "digital health",
+        "universal health coverage",
+        "public health"
+      ],
+      "keyTerms": [
+        "Telemedicine",
+        "National Health Mission (NHM)",
+        "Primary Healthcare",
+        "Universal Health Coverage (UHC)",
+        "Non-Communicable Diseases (NCDs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NHM expands telemedicine services to remote rural areas.",
+        "Aims to bridge healthcare access gap using digital tech.",
+        "Deployment of mobile health units with teleconsultation.",
+        "Focus on maternal, child health, NCDs, mental health."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the challenges faced by rural healthcare in India and how telemedicine can act as a transformative solution.",
+        "Analyze the potential benefits and limitations of expanding telemedicine services under the National Health Mission.",
+        "Evaluate the role of digital public infrastructure and local health workers in ensuring the success and reach of telemedicine initiatives.",
+        "Examine how this expansion contributes to India's goal of achieving universal health coverage and improving public health indicators."
+      ],
+      "imageDescription": "A doctor on a video call with a patient in a rural setting, symbolizing telemedicine bridging geographical gaps in healthcare.",
+      "section": "National",
+      "trivia": "eSanjeevani, the national telemedicine service, completed 10 crore teleconsultations in February 2023.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Health",
+        "topic": "Government schemes"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "clean-air-challenge-cities",
+      "headline": "Major Cities Launch 'Clean Air Challenge' Initiative with Tech Integration",
+      "explainer": "• A consortium of India's major metropolitan cities, including Delhi, Mumbai, and Bengaluru, jointly launched the 'Clean Air Challenge' initiative.\n• The initiative aims for a significant reduction in air pollution levels by 2030 through a multi-pronged strategy involving advanced monitoring, data analytics, and citizen participation.\n• It integrates smart city technologies, AI-powered predictive models for pollution hotspots, and real-time public dashboards to enhance transparency and accountability.\n• Key measures include promotion of electric vehicles, strict enforcement of industrial emission norms, waste management reforms, and green infrastructure development.\n• The 'Clean Air Challenge' seeks to foster inter-city learning and collaboration to tackle the persistent problem of urban air quality.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, Environmental Pollution and Degradation, Environmental Impact Assessment",
+        "Science and Technology- Developments and their Applications and Effects in Everyday Life",
+        "Urbanization - problems and remedies"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of Housing and Urban Affairs",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "air pollution",
+        "urban environment",
+        "smart cities",
+        "environmental governance",
+        "electric vehicles",
+        "climate action"
+      ],
+      "keyTerms": [
+        "Air Quality Index (AQI)",
+        "Particulate Matter (PM2.5, PM10)",
+        "Smart City Technologies",
+        "Electric Vehicles (EVs)",
+        "Green Infrastructure"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Major cities launch 'Clean Air Challenge' initiative.",
+        "Aims for significant air pollution reduction by 2030.",
+        "Integrates smart city technologies, AI for predictive models.",
+        "Measures include EV promotion, industrial emission norms, waste management."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the multifaceted causes and health impacts of urban air pollution in India.",
+        "Analyze the innovative approaches and technological integrations proposed under the 'Clean Air Challenge' initiative.",
+        "Evaluate the role of inter-city collaboration and citizen participation in effectively tackling urban environmental issues.",
+        "Examine the policy and infrastructural changes required to transition towards sustainable urban mobility and waste management for cleaner air."
+      ],
+      "imageDescription": "A cityscape skyline with a clean sky above, contrasting with a haze-filled sky in the background, symbolizing the challenge and goal of clean air.",
+      "section": "Environment",
+      "trivia": "According to the World Health Organization, air pollution is responsible for an estimated 7 million premature deaths worldwide each year.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Pollution",
+        "topic": "Air Pollution"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indigenous-semiconductor-breakthrough",
+      "headline": "Breakthrough in Indigenous Semiconductor Manufacturing Process Announced",
+      "explainer": "• Indian researchers and engineers announced a significant breakthrough in developing an indigenous semiconductor manufacturing process, marking a critical step towards self-reliance in chip production.\n• The innovation involves a novel fabrication technique that reduces production costs and energy consumption, making it competitive with global standards.\n• This advancement is crucial for India's strategic autonomy in electronics, defense, and telecommunications, reducing dependence on foreign supply chains.\n• The government pledged enhanced support for further research, development, and commercialization of this technology, inviting private sector partnerships.\n• Experts believe this breakthrough could position India as a key player in the global semiconductor ecosystem within the next decade.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- Developments and their Applications and Effects in Everyday Life",
+        "Achievements of Indians in Science & Technology",
+        "Indigenization of Technology and Developing New Technology"
+      ],
+      "date": "2025-12-29",
+      "source": "Department of Science & Technology",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "semiconductor",
+        "chip manufacturing",
+        "indigenous technology",
+        "self-reliance",
+        "electronics",
+        "Make in India",
+        "strategic autonomy"
+      ],
+      "keyTerms": [
+        "Semiconductor",
+        "Chip Manufacturing",
+        "Fabrication Technique",
+        "Strategic Autonomy",
+        "Global Supply Chains",
+        "PLI Scheme"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Breakthrough in indigenous semiconductor manufacturing process.",
+        "Novel fabrication technique reduces costs and energy consumption.",
+        "Crucial for India's strategic autonomy in electronics, defense, telecom.",
+        "Government pledges support for R&D and commercialization."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of semiconductor manufacturing for India's economic growth, national security, and technological sovereignty.",
+        "Analyze the challenges India faces in establishing a robust domestic semiconductor ecosystem and how this breakthrough addresses them.",
+        "Evaluate the role of government policies, such as the India Semiconductor Mission and PLI schemes, in fostering indigenous chip production.",
+        "Examine the potential geopolitical and economic implications of India becoming a significant player in the global semiconductor supply chain."
+      ],
+      "imageDescription": "A close-up of a silicon wafer with intricate circuit patterns, symbolizing semiconductor technology and innovation.",
+      "section": "Science",
+      "trivia": "Semiconductors are essential components in virtually all modern electronic devices, from smartphones to supercomputers.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Information Technology",
+        "topic": "Semiconductors"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "delimitation-union-territories",
+      "headline": "Delimitation Commission Completes Review for Union Territories",
+      "explainer": "• The Delimitation Commission announced the completion of its exercise for redrawing parliamentary and assembly constituencies in several Union Territories (UTs).\n• The review aimed to ensure fair representation based on recent census data and geographical contiguity, while adhering to constitutional provisions.\n• The Commission's recommendations include adjustments in the number of seats, reservation for Scheduled Castes (SCs) and Scheduled Tribes (STs), and boundary realignments.\n• Stakeholder consultations were conducted extensively with political parties, public representatives, and civil society organizations before finalizing the report.\n• This exercise is a crucial step for ensuring equitable electoral representation and democratic processes in the concerned Union Territories.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution - Historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure",
+        "Parliament and State Legislatures – structure, functioning, conduct of business, powers & privileges and issues arising out of these."
+      ],
+      "date": "2025-12-29",
+      "source": "Election Commission of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "delimitation",
+        "Union Territories",
+        "electoral reforms",
+        "representation",
+        "Election Commission",
+        "constitution"
+      ],
+      "keyTerms": [
+        "Delimitation Commission",
+        "Union Territories (UTs)",
+        "Constituencies",
+        "Reservation of Seats",
+        "Census Data",
+        "Electoral Representation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Delimitation Commission completed review for Union Territories.",
+        "Aimed at fair representation based on census data.",
+        "Recommendations include seat adjustments, SC/ST reservation.",
+        "Extensive stakeholder consultations conducted."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the constitutional mandate and objectives of the Delimitation Commission in India.",
+        "Analyze the challenges involved in the delimitation exercise, particularly in geographically diverse and demographically sensitive regions like Union Territories.",
+        "Evaluate the impact of delimitation on electoral representation, political dynamics, and the federal structure of India.",
+        "Examine the criteria used by the Delimitation Commission and the process of public consultation to ensure fairness and transparency."
+      ],
+      "imageDescription": "A map of India with specific Union Territories highlighted, showing altered electoral boundaries.",
+      "section": "National",
+      "trivia": "The Delimitation Commission is usually constituted after every Census, but its work was frozen until 2026 for parliamentary constituencies.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Constitutional Bodies",
+        "topic": "Delimitation Commission"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-high-speed-rail-corridor",
+      "headline": "Infrastructure Push: New High-Speed Rail Corridor Project Approved",
+      "explainer": "• The Union Cabinet gave its approval for a new high-speed rail (HSR) corridor project, connecting two major economic hubs in the country, as part of the National Rail Plan 2030.\n• The project, estimated at ₹1.5 lakh crore, aims to significantly reduce travel time, boost regional connectivity, and stimulate economic development along the corridor.\n• It will incorporate advanced 'Make in India' components and technologies, promoting indigenous manufacturing and job creation.\n• The corridor is designed with a focus on environmental sustainability, including measures for minimal land acquisition impact and energy-efficient operations.\n• This approval underscores the government's continued commitment to modernizing India's infrastructure and enhancing multimodal logistics capabilities.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Investment Models",
+        "Government Budgeting",
+        "Planning"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of Railways",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "high-speed rail",
+        "infrastructure",
+        "economic development",
+        "regional connectivity",
+        "Make in India",
+        "National Rail Plan"
+      ],
+      "keyTerms": [
+        "High-Speed Rail (HSR)",
+        "National Rail Plan 2030",
+        "Infrastructure Development",
+        "Multimodal Logistics",
+        "Public-Private Partnership (PPP)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Union Cabinet approved new high-speed rail corridor.",
+        "Connects two major economic hubs, part of National Rail Plan 2030.",
+        "Estimated cost ₹1.5 lakh crore.",
+        "Incorporates 'Make in India' components and focuses on sustainability."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the economic rationale and developmental impact of investing in high-speed rail infrastructure in India.",
+        "Analyze the challenges involved in planning, funding, and executing large-scale infrastructure projects like HSR corridors.",
+        "Evaluate the role of 'Make in India' initiatives in enhancing indigenous capabilities and reducing dependence on foreign technology for such projects.",
+        "Examine the environmental and social considerations that need to be addressed during the development of new HSR corridors."
+      ],
+      "imageDescription": "A sleek, modern high-speed train speeding through a landscape, symbolizing advanced transportation and connectivity.",
+      "section": "Economy",
+      "trivia": "India's first high-speed rail corridor, the Mumbai-Ahmedabad bullet train project, began construction in 2017.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Infrastructure",
+        "topic": "Railways"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "skill-development-green-jobs",
+      "headline": "Focus on Skill Development for Green Jobs Under New National Policy",
+      "explainer": "• The Ministry of Skill Development and Entrepreneurship launched a new framework focusing on skill development for 'Green Jobs', aligning with India's climate commitments and green economy transition.\n• The policy aims to train over 1 million individuals in sectors like renewable energy, waste management, sustainable agriculture, and eco-tourism by 2030.\n• It emphasizes collaboration with industry partners, educational institutions, and international organizations to design future-ready curricula and certification programs.\n• The initiative seeks to bridge the skill gap in emerging green sectors, creating new employment opportunities and fostering a sustainable workforce.\n• This move is critical for India's transition to a low-carbon economy and achieving its ambitious environmental targets.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to Development and Management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government Policies and Interventions for Development in various sectors",
+        "Conservation, Environmental Pollution and Degradation"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of Skill Development & Entrepreneurship",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "skill development",
+        "green jobs",
+        "sustainable economy",
+        "renewable energy",
+        "climate action",
+        "employment",
+        "human resources"
+      ],
+      "keyTerms": [
+        "Green Jobs",
+        "Skill Development",
+        "Sustainable Economy",
+        "Low-Carbon Economy",
+        "Vocational Training",
+        "Climate Commitments"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "New framework for skill development for 'Green Jobs' launched.",
+        "Aims to train over 1 million in renewable energy, waste management etc. by 2030.",
+        "Emphasizes collaboration with industry and educational institutions.",
+        "Seeks to bridge skill gap in emerging green sectors."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the concept of 'Green Jobs' and their significance in India's journey towards a sustainable and low-carbon economy.",
+        "Analyze the challenges in skilling the Indian workforce for emerging green sectors and how the new policy addresses them.",
+        "Evaluate the potential of green jobs to contribute to employment generation, poverty reduction, and inclusive growth in India.",
+        "Examine the role of public-private partnerships and international collaboration in developing a robust ecosystem for green skill development."
+      ],
+      "imageDescription": "People wearing hard hats working at a solar panel installation site, representing green jobs and renewable energy.",
+      "section": "National",
+      "trivia": "The International Labour Organization (ILO) defines green jobs as decent jobs that contribute to preserving or restoring the environment.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Human Resources",
+        "topic": "Skill Development"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-central-asia-dialogue",
+      "headline": "India-Central Asia Dialogue on Connectivity and Energy Security Concludes",
+      "explainer": "• The annual India-Central Asia Dialogue concluded, with participating nations reaffirming their commitment to enhancing regional connectivity and cooperation on energy security.\n• Key discussions focused on operationalizing the International North-South Transport Corridor (INSTC) and exploring new transit routes to boost trade and economic linkages.\n• Energy cooperation included proposals for joint ventures in renewable energy projects and mechanisms for stable supply of hydrocarbons to India.\n• Both sides emphasized combating terrorism, extremism, and drug trafficking, agreeing on greater intelligence sharing and coordinated security efforts.\n• The dialogue underscored India's 'Connect Central Asia' policy and its strategic importance for regional stability and prosperity.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, Regional and Global Groupings and Agreements involving India",
+        "Effect of Policies and Politics of Developed and Developing Countries on India's interests",
+        "India and its neighborhood- relations"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "India-Central Asia",
+        "connectivity",
+        "energy security",
+        "INSTC",
+        "regional cooperation",
+        "foreign policy",
+        "security"
+      ],
+      "keyTerms": [
+        "International North-South Transport Corridor (INSTC)",
+        "Connect Central Asia Policy",
+        "Energy Security",
+        "Regional Connectivity",
+        "Counter-Terrorism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India-Central Asia Dialogue on connectivity and energy security concluded.",
+        "Discussions on operationalizing INSTC and new transit routes.",
+        "Proposals for renewable energy joint ventures and hydrocarbon supply.",
+        "Agreement on combating terrorism and drug trafficking.",
+        "Reaffirms India's 'Connect Central Asia' policy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic significance of Central Asia for India's energy security, connectivity aspirations, and regional stability.",
+        "Discuss the progress and challenges in operationalizing the International North-South Transport Corridor (INSTC) and its implications for India-Central Asia trade.",
+        "Evaluate the various dimensions of India's 'Connect Central Asia' policy, including economic, security, and cultural linkages.",
+        "Examine the role of India in promoting regional cooperation and addressing common security threats in the Central Asian region."
+      ],
+      "imageDescription": "A map highlighting India and Central Asian countries, with arrows indicating trade routes and connectivity.",
+      "section": "International",
+      "trivia": "The International North-South Transport Corridor (INSTC) is a 7,200-km-long multi-mode network of ship, rail, and road route for moving freight between India, Iran, Azerbaijan, Russia, Central Asia and Europe.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India and Central Asia"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ganga-rejuvenation-phase-iii",
+      "headline": "Ganga Rejuvenation Mission Enters Phase III, Focus on Tributaries and Public Participation",
+      "explainer": "• The National Mission for Clean Ganga (NMCG) announced the commencement of Phase III of the Ganga Rejuvenation Mission, shifting focus to rejuvenating tributaries and enhancing public participation.\n• This phase prioritizes the comprehensive treatment of wastewater from major towns along the tributaries, addressing non-point source pollution and industrial discharges.\n• New initiatives include community-led river conservation programs, promotion of organic farming in riverine areas, and ecological restoration of floodplains.\n• Advanced technologies for real-time water quality monitoring and bioremediation techniques will be deployed more extensively.\n• Phase III aims to build upon the successes of previous phases, ensuring a holistic approach to restore the ecological health and cultural significance of the entire Ganga basin.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, Environmental Pollution and Degradation, Environmental Impact Assessment",
+        "Government Policies and Interventions for Development in various sectors",
+        "Water Resources"
+      ],
+      "date": "2025-12-29",
+      "source": "National Mission for Clean Ganga",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Ganga rejuvenation",
+        "Namami Gange",
+        "river conservation",
+        "water pollution",
+        "ecological restoration",
+        "public participation"
+      ],
+      "keyTerms": [
+        "National Mission for Clean Ganga (NMCG)",
+        "Namami Gange",
+        "River Basin Management",
+        "Wastewater Treatment",
+        "Bioremediation",
+        "Non-Point Source Pollution"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ganga Rejuvenation Mission enters Phase III.",
+        "Focus on tributaries, public participation, and non-point source pollution.",
+        "Includes community-led programs, organic farming, floodplain restoration.",
+        "Utilizes advanced water quality monitoring and bioremediation."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolution of the Ganga Rejuvenation Mission (Namami Gange) across its phases, highlighting its successes and shortcomings.",
+        "Analyze the challenges in addressing pollution in the Ganga river basin, particularly from its tributaries and non-point sources.",
+        "Evaluate the role of community participation, traditional knowledge, and modern technology in achieving holistic river conservation.",
+        "Examine the inter-sectoral coordination required for effective river basin management, considering environmental, economic, and social dimensions."
+      ],
+      "imageDescription": "A clean stretch of the River Ganga, with people engaging in traditional activities on its banks, symbolizing rejuvenation and cultural connection.",
+      "section": "Environment",
+      "trivia": "The Ganga river basin is the most populated river basin in the world, home to over 500 million people.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Conservation",
+        "topic": "River Conservation"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-education-policy-digital-learning",
+      "headline": "NEP 2020 Implementation: Focus on Digital Learning and Teacher Training",
+      "explainer": "• The Ministry of Education released its year-end review, highlighting accelerated implementation of the National Education Policy (NEP) 2020, with a strong focus on digital learning and teacher training.\n• Significant progress has been made in integrating technology into the curriculum, developing digital content, and establishing virtual labs for enhanced learning experiences.\n• Extensive teacher training programs have been conducted nationwide to equip educators with skills for blended learning, digital pedagogy, and competency-based assessment.\n• The review also noted the successful rollout of the National Curriculum Framework (NCF) for various stages and increased enrollment in vocational education streams.\n• These efforts aim to create a flexible, multidisciplinary, and future-ready education system, as envisioned by NEP 2020.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to Development and Management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government Policies and Interventions for Development in various sectors"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of Education",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "NEP 2020",
+        "digital education",
+        "teacher training",
+        "education policy",
+        "vocational education",
+        "curriculum reform"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP) 2020",
+        "Digital Learning",
+        "Teacher Training",
+        "National Curriculum Framework (NCF)",
+        "Vocational Education",
+        "Blended Learning"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ministry of Education year-end review on NEP 2020 implementation.",
+        "Focus on digital learning and teacher training.",
+        "Progress in integrating technology, developing digital content, virtual labs.",
+        "Successful rollout of National Curriculum Framework."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of the National Education Policy (NEP) 2020 in reshaping India's education landscape.",
+        "Analyze the role of digital learning and technology integration in achieving the objectives of NEP 2020, especially in diverse geographical contexts.",
+        "Evaluate the challenges and strategies involved in upskilling and training teachers for the new pedagogical approaches mandated by NEP.",
+        "Examine how NEP 2020 aims to promote multidisciplinary education, vocational training, and holistic development to create a future-ready workforce."
+      ],
+      "imageDescription": "Students engaging with digital learning tools in a classroom, with a teacher facilitating the session, symbolizing modern education.",
+      "section": "National",
+      "trivia": "NEP 2020 replaced the 1986 National Policy on Education, making it the first comprehensive education policy in India in 34 years.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Education",
+        "topic": "Government policies"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indias-chairmanship-g20-troika",
+      "headline": "India Continues Active Role in G20 Troika, Prepares for Next Summit Agenda",
+      "explainer": "• India continues its active participation in the G20 Troika, working closely with Brazil (current chair) and South Africa (incoming chair) to shape the agenda for the upcoming G20 Summit.\n• Discussions focus on ensuring continuity and ambition across key G20 priorities, including sustainable development, climate finance, digital public infrastructure, and multilateral reforms.\n• India is leveraging its experience from its own successful G20 presidency to advocate for the concerns and priorities of the Global South within the forum.\n• Preparatory meetings of Sherpas and Finance Deputies are underway to finalize declarations and action plans for the next summit.\n• This sustained engagement highlights India's commitment to global economic governance and its growing stature on the international stage.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International Institutions, agencies and fora – their structure, mandate.",
+        "Bilateral, Regional and Global Groupings and Agreements involving India",
+        "Effect of Policies and Politics of Developed and Developing Countries on India's interests"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "G20",
+        "G20 Troika",
+        "global governance",
+        "sustainable development",
+        "climate finance",
+        "multilateralism",
+        "Global South"
+      ],
+      "keyTerms": [
+        "G20 Troika",
+        "G20 Summit",
+        "Sustainable Development Goals (SDGs)",
+        "Climate Finance",
+        "Digital Public Infrastructure (DPI)",
+        "Multilateralism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India active in G20 Troika with Brazil and South Africa.",
+        "Focus on sustainable development, climate finance, digital public infrastructure.",
+        "India leverages its G20 presidency experience.",
+        "Preparatory meetings for upcoming G20 Summit underway."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Explain the concept and significance of the G20 Troika in ensuring continuity and coherence in the G20 agenda.",
+        "Analyze India's role and contributions within the G20 forum, particularly in advocating for the interests of the Global South.",
+        "Discuss the key global challenges that the G20 is currently addressing, such as climate change, economic stability, and digital transformation.",
+        "Evaluate the effectiveness of G20 as a platform for global economic governance and its impact on international policy-making."
+      ],
+      "imageDescription": "The G20 logo, with flags of the Troika countries (Brazil, India, South Africa) subtly integrated, symbolizing collaboration.",
+      "section": "International",
+      "trivia": "The G20 Troika consists of the past, present, and incoming presidencies of the G20, ensuring continuity of the agenda.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "G20"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-scheme-for-fisheries-sector",
+      "headline": "Government Launches 'Matsya Sampada Plus' for Sustainable Fisheries Growth",
+      "explainer": "• The Ministry of Fisheries, Animal Husbandry and Dairying launched 'Matsya Sampada Plus', an enhanced scheme building on the success of the Pradhan Mantri Matsya Sampada Yojana (PMMSY).\n• This new scheme focuses on sustainable intensification of aquaculture, deep-sea fishing expansion, and improving post-harvest infrastructure and market linkages.\n• It introduces advanced technologies for disease management in aquaculture, promotes climate-resilient fishing practices, and provides specialized training for fisherfolk.\n• The 'Matsya Sampada Plus' aims to further boost fish production, enhance incomes of fisher communities, and ensure food security while conserving aquatic biodiversity.\n• Financial outlay and targets for the scheme over the next five years were also announced.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Major Crops - Cropping Patterns in various parts of the country, - Different Types of Irrigation and Irrigation Systems Storage, Transport and Marketing of Agricultural Produce and Issues and Related Constraints; E-technology in the aid of farmers",
+        "Food Processing and Related Industries in India- Scope and Significance, Location, Upstream and Downstream Requirements, Supply Chain Management.",
+        "Government Policies and Interventions for Development in various sectors"
+      ],
+      "date": "2025-12-29",
+      "source": "Ministry of Fisheries, Animal Husbandry and Dairying",
+      "sourceUrl": "",
+      "importance": "low",
+      "tags": [
+        "fisheries",
+        "aquaculture",
+        "PMMSY",
+        "blue economy",
+        "rural development",
+        "food security",
+        "sustainable practices"
+      ],
+      "keyTerms": [
+        "Matsya Sampada Plus",
+        "Pradhan Mantri Matsya Sampada Yojana (PMMSY)",
+        "Aquaculture",
+        "Deep-Sea Fishing",
+        "Post-Harvest Infrastructure",
+        "Blue Revolution"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "New 'Matsya Sampada Plus' scheme launched.",
+        "Builds on Pradhan Mantri Matsya Sampada Yojana (PMMSY).",
+        "Focus on sustainable aquaculture, deep-sea fishing, post-harvest infra.",
+        "Promotes climate-resilient practices and fisherfolk training."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the fisheries sector for India's economy, food security, and the livelihoods of coastal communities.",
+        "Analyze the key features and objectives of 'Matsya Sampada Plus' and how it aims to address the challenges faced by the sector.",
+        "Evaluate the role of technological advancements and sustainable practices in boosting fish production and conserving aquatic biodiversity.",
+        "Examine the potential of the 'Blue Economy' concept to drive growth and development in India's marine and aquatic resources sector."
+      ],
+      "imageDescription": "A fishing boat in calm waters at sunset, with a fisherman checking nets, symbolizing sustainable fishing and livelihoods.",
+      "section": "Economy",
+      "trivia": "India is the world's third-largest fish producing country and second-largest aquaculture producer.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Agriculture",
+        "topic": "Fisheries"
+      },
+      "prelimsPotential": 2
+    }
+  ],
+  "highlights": [
+    "India launches 'Amrit Kaal Green Hydrogen Vision 2047' targeting 25 million tonnes production by 2047, aiming for global leadership.",
+    "Supreme Court delivers landmark ruling on digital privacy and AI ethics, urging comprehensive data protection law.",
+    "ISRO successfully tests next-generation Reusable Launch Vehicle (RLV) prototype, reducing space access costs.",
+    "Parliament passes 'Judicial Efficiency and Timely Justice Bill, 2025' to reduce case pendency and enhance judicial efficiency.",
+    "New National Policy on Wetland Conservation and Management unveiled, focusing on participatory approach and ecological restoration."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the 'Amrit Kaal Green Hydrogen Vision 2047', consider the following statements:\n1. It aims to achieve 25 million tonnes of green hydrogen production capacity by 2047.\n2. It primarily focuses on imports of green hydrogen to meet India's energy needs.\n3. The vision includes Production-Linked Incentives (PLI) for electrolysers and green hydrogen projects.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 3 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 3 only",
+      "explanation": "Statement 1 is correct. The vision targets achieving 25 million tonnes of green hydrogen production capacity by 2047. Statement 2 is incorrect. The vision emphasizes indigenous production and export potential, aiming to reduce reliance on fossil fuel imports, not green hydrogen imports. Statement 3 is correct. Financial incentives, including production-linked incentives (PLI) for electrolysers and green hydrogen, are central to the vision."
+    },
+    {
+      "question": "Which of the following is NOT a primary focus area of the recently released draft 'Comprehensive Cyber Security Framework 2.0'?",
+      "options": [
+        "(a) Critical infrastructure protection",
+        "(b) Data governance",
+        "(c) Cyber-crime prevention",
+        "(d) Regulation of social media content"
+      ],
+      "answer": "(d) Regulation of social media content",
+      "explanation": "The Comprehensive Cyber Security Framework 2.0 primarily focuses on strengthening cyber defenses against evolving threats, including critical infrastructure protection, data governance, and cyber-crime prevention. While social media content might have indirect security implications, its direct 'regulation' is not listed as a primary focus area of this specific cybersecurity framework."
+    },
+    {
+      "question": "Consider the following statements regarding ISRO's Reusable Launch Vehicle (RLV) program:\n1. The recent test involved a controlled landing experiment.\n2. The program aims to significantly reduce the cost of space access.\n3. It focuses exclusively on commercial satellite launches, excluding human spaceflight missions.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) 1 and 2 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 2 only",
+      "explanation": "Statement 1 is correct. The test involved a controlled landing experiment, demonstrating critical technologies for autonomous navigation. Statement 2 is correct. The RLV program aims at drastically reducing the cost of space access. Statement 3 is incorrect. The RLV program is central to India's long-term space exploration goals, including future human spaceflight missions and commercial satellite launches."
+    },
+    {
+      "question": "The 'Judicial Efficiency and Timely Justice Bill, 2025' passed by Parliament aims to address judicial pendency through which of the following measures?\n1. Establishment of specialized fast-track courts.\n2. Increased use of Alternative Dispute Resolution (ADR) mechanisms.\n3. Mandating digital infrastructure for case management.\n4. Providing for direct appointment of judges by the executive without judicial consultation.\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1, 2 and 3 only",
+        "(b) 2, 3 and 4 only",
+        "(c) 1 and 4 only",
+        "(d) 1, 2, 3 and 4"
+      ],
+      "answer": "(a) 1, 2 and 3 only",
+      "explanation": "Statements 1, 2, and 3 are correct measures included in the Bill to enhance judicial efficiency and reduce pendency. Statement 4 is incorrect. Such a provision would likely violate the principle of judicial independence and the basic structure of the Constitution, and is not a typical reform measure aimed at efficiency but rather a fundamental change in judicial appointment. The Bill typically focuses on procedural and infrastructural improvements, not altering the fundamental appointment process to bypass judicial consultation."
+    },
+    {
+      "question": "Which of the following describes the 'G20 Troika'?",
+      "options": [
+        "(a) The three largest economies within the G20 group.",
+        "(b) The past, present, and incoming presidencies of the G20.",
+        "(c) A permanent secretariat comprising three founding members of the G20.",
+        "(d) A special committee formed to address financial crises among G20 nations."
+      ],
+      "answer": "(b) The past, present, and incoming presidencies of the G20.",
+      "explanation": "The G20 Troika consists of the past, present, and incoming presidencies. This mechanism ensures continuity in the G20's work and agenda, facilitating a smooth transition between presidencies."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "The 'Amrit Kaal Green Hydrogen Vision 2047' is a critical pillar for India's energy security and climate commitments. Discuss its strategic imperatives, potential challenges, and the role of government incentives in achieving its ambitious targets. (15 marks)",
+      "syllabusMatch": "GS3: Infrastructure: Energy; Environmental Conservation; Government Policies and Interventions.",
+      "approach": "Introduce the vision and its targets. Discuss strategic imperatives (energy security, decarbonization, economic growth). Analyze potential challenges (cost, infrastructure, technology, supply chain). Evaluate the role of government incentives (PLI, VGF). Conclude with its significance for India's global position."
+    },
+    {
+      "question": "The Supreme Court's recent ruling on digital privacy and AI ethics underscores the evolving nature of fundamental rights in the digital age. Analyze the implications of this judgment for individuals, technology companies, and the government, and suggest necessary legislative and regulatory reforms. (15 marks)",
+      "syllabusMatch": "GS2: Indian Constitution - Fundamental Rights; Government Policies and Interventions; Role of Judiciary; Information Technology.",
+      "approach": "Briefly explain the ruling's context (digital privacy, AI). Discuss implications for individuals (data rights, algorithmic bias), tech companies (compliance, innovation), and government (surveillance, data use). Suggest reforms like a comprehensive data protection law with AI ethics, regulatory bodies, and transparency mandates."
+    },
+    {
+      "question": "India's growing engagement with the Global South, as reaffirmed at the UN forum, reflects its aspirations for a multipolar world order. Examine the various dimensions of India's South-South Cooperation strategy and its contributions to addressing global challenges. (10 marks)",
+      "syllabusMatch": "GS2: Important International Institutions, agencies and fora; Bilateral, Regional and Global Groupings and Agreements involving India; Effect of Policies and Politics of Developed and Developing Countries on India's interests.",
+      "approach": "Introduce India's commitment to the Global South and 'Vasudhaiva Kutumbakam'. Discuss dimensions of cooperation (capacity building, tech transfer, infrastructure, climate, health, digital public goods). Highlight contributions to global challenges (SDGs, climate resilience, food security). Conclude on India's rising influence and vision for multilateralism."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "India's 'Amrit Kaal Green Hydrogen Vision 2047' aims for 25 MT green hydrogen production by 2047.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "green hydrogen",
+        "energy security"
+      ]
+    },
+    {
+      "text": "The Supreme Court recently reaffirmed the right to privacy in the context of AI technologies.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "digital privacy",
+        "AI ethics"
+      ]
+    },
+    {
+      "text": "ISRO successfully tested its next-generation Reusable Launch Vehicle (RLV) prototype.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "RLV",
+        "space technology"
+      ]
+    },
+    {
+      "text": "The 'Judicial Efficiency and Timely Justice Bill, 2025' seeks to reduce case pendency in courts.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "judicial reform",
+        "case backlog"
+      ]
+    },
+    {
+      "text": "A new National Policy on Wetland Conservation and Management has been unveiled.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "wetlands",
+        "conservation"
+      ]
+    },
+    {
+      "text": "The draft 'Comprehensive Cyber Security Framework 2.0' focuses on critical infrastructure protection.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "cyber security",
+        "critical infrastructure"
+      ]
+    },
+    {
+      "text": "India is the world's largest producer of milk, pulses, and jute.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "agriculture",
+        "economic facts"
+      ]
+    },
+    {
+      "text": "The International North-South Transport Corridor (INSTC) is a 7,200-km multi-modal route.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "INSTC",
+        "connectivity"
+      ]
+    },
+    {
+      "text": "The G20 Troika comprises the past, present, and incoming presidencies of the G20.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "G20",
+        "global governance"
+      ]
+    },
+    {
+      "text": "The National Education Policy (NEP) 2020 replaced the 1986 National Policy on Education.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "NEP",
+        "education reform"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [],
+    "GS2": [
+      {
+        "id": "supreme-court-digital-privacy-ai",
+        "headline": "Supreme Court Issues Landmark Ruling on Digital Privacy and AI Ethics",
+        "explainer": "• The Supreme Court delivered a crucial judgment reaffirming the right to privacy in the digital age, particularly in the context of rapidly evolving Artificial Intelligence (AI) technologies.\n• The ruling mandates stricter regulations for data collection, processing, and algorithmic decision-making by both state and private entities, emphasizing informed consent and data minimization.\n• The Court highlighted the need for a robust legal framework to address algorithmic bias and ensure transparency and accountability in AI applications affecting citizens' rights.\n• It urged the government to expedite the enactment of a comprehensive data protection law that specifically incorporates principles of AI ethics and responsible innovation.\n• This judgment is expected to have far-reaching implications for technology companies, government surveillance programs, and the future of AI development in India.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution - Fundamental Rights",
+          "Government Policies and Interventions",
+          "Role of Judiciary",
+          "Information Technology"
+        ],
+        "date": "2025-12-29",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "right to privacy",
+          "digital rights",
+          "AI ethics",
+          "data protection",
+          "Supreme Court",
+          "fundamental rights",
+          "governance"
+        ],
+        "keyTerms": [
+          "Right to Privacy",
+          "Artificial Intelligence (AI)",
+          "Algorithmic Bias",
+          "Data Protection Law",
+          "Informed Consent",
+          "Judicial Review"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Supreme Court ruling on digital privacy and AI.",
+          "Emphasizes informed consent and data minimization.",
+          "Calls for robust legal framework against algorithmic bias.",
+          "Urges comprehensive data protection law with AI ethics."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the implications of the Supreme Court's ruling on the balance between state surveillance, corporate data practices, and individual privacy rights in India.",
+          "Discuss the challenges in regulating AI technologies to ensure ethical use and prevent algorithmic bias, referencing the Court's observations.",
+          "Examine the constitutional basis for the right to privacy in India and how this judgment extends its scope in the digital realm.",
+          "Suggest reforms needed in India's legal and regulatory framework to address the complex issues arising from AI and big data."
+        ],
+        "imageDescription": "Abstract image depicting a digital lock and key, symbolizing data privacy and security, with AI neural network patterns in the background.",
+        "section": "National",
+        "trivia": "The Puttaswamy judgment (2017) declared the right to privacy a fundamental right under Article 21 of the Indian Constitution.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-eu-strategic-dialogue",
+        "headline": "India-EU Strategic Partnership Review Concludes; Focus on Trade, Climate, and Tech Cooperation",
+        "explainer": "• The annual India-European Union Strategic Partnership Review meeting concluded in New Delhi, reaffirming commitment to deepen cooperation across various sectors.\n• Key discussions revolved around accelerating negotiations for the India-EU Free Trade Agreement (FTA), with both sides expressing optimism for an early conclusion.\n• Climate action and green transition initiatives were central, including joint projects on renewable energy, circular economy, and sustainable development goals.\n• Enhanced collaboration in critical and emerging technologies, digital governance, and resilient supply chains also featured prominently.\n• The dialogue underscored the shared values of democracy, human rights, and multilateralism, aiming to strengthen the rules-based international order.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, Regional and Global Groupings and Agreements involving India",
+          "Effect of Policies and Politics of Developed and Developing Countries on India's interests",
+          "International Institutions"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "India-EU relations",
+          "FTA",
+          "climate cooperation",
+          "technology partnership",
+          "multilateralism",
+          "trade relations"
+        ],
+        "keyTerms": [
+          "Strategic Partnership",
+          "Free Trade Agreement (FTA)",
+          "Green Transition",
+          "Critical and Emerging Technologies",
+          "Multilateralism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India-EU Strategic Partnership Review held in New Delhi.",
+          "Focus on FTA, climate action, and critical technologies.",
+          "Aims for early conclusion of India-EU FTA.",
+          "Collaboration in renewable energy and digital governance."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the evolving dynamics of the India-EU Strategic Partnership, highlighting areas of convergence and divergence.",
+          "Discuss the strategic importance of the proposed India-EU FTA for India's economic growth and global trade ambitions.",
+          "Evaluate the potential for India-EU cooperation in addressing global challenges such as climate change, technological governance, and supply chain resilience.",
+          "Examine how the partnership contributes to India's broader foreign policy objectives and its engagement with the Global South."
+        ],
+        "imageDescription": "Flags of India and the European Union displayed side-by-side, symbolizing diplomatic ties and cooperation.",
+        "section": "International",
+        "trivia": "The European Union is India's third-largest trading partner, after the US and China.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India and Europe"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "parliament-judicial-efficiency-bill",
+        "headline": "Parliament Passes Bill to Enhance Judicial Efficiency and Reduce Pendency",
+        "explainer": "• Both Houses of Parliament passed the 'Judicial Efficiency and Timely Justice Bill, 2025', aimed at significantly reducing the backlog of cases across Indian courts.\n• The Bill introduces several reforms, including the establishment of specialized fast-track courts for specific categories of cases, and increased use of alternative dispute resolution (ADR) mechanisms.\n• It mandates the adoption of advanced digital infrastructure for case management, e-filing, and virtual hearings to streamline judicial processes.\n• Provisions for increasing the number of judges in lower courts and enhancing judicial training programs are also included to bolster the judicial workforce.\n• Legal experts anticipate that the Bill, once enacted, will play a crucial role in improving access to justice and upholding the rule of law in India.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Structure, Organization and Functioning of the Executive and the Judiciary",
+          "Government Policies and Interventions for Development in various sectors",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources"
+        ],
+        "date": "2025-12-29",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "judicial reform",
+          "judicial efficiency",
+          "case pendency",
+          "fast-track courts",
+          "ADR",
+          "e-courts",
+          "access to justice"
+        ],
+        "keyTerms": [
+          "Judicial Pendency",
+          "Alternative Dispute Resolution (ADR)",
+          "Fast-Track Courts",
+          "E-courts",
+          "Rule of Law"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Judicial Efficiency and Timely Justice Bill, 2025 passed.",
+          "Aims to reduce case backlog in courts.",
+          "Introduces fast-track courts and promotes ADR.",
+          "Mandates digital infrastructure for case management and e-filing.",
+          "Provisions for increasing judges and training."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the root causes of judicial pendency in India and their impact on the justice delivery system.",
+          "Analyze the key provisions of the 'Judicial Efficiency and Timely Justice Bill, 2025' and their potential to address these issues.",
+          "Evaluate the role of technology and alternative dispute resolution mechanisms in modernizing the Indian judiciary.",
+          "Examine the challenges in implementing judicial reforms across different levels of the Indian court system."
+        ],
+        "imageDescription": "A gavel and law books on a judge's desk, symbolizing justice and legal reforms.",
+        "section": "National",
+        "trivia": "India's judicial system faces a backlog of over 4.5 crore cases across various courts.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Judiciary",
+          "topic": "Judicial Reforms"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-global-south-development-un",
+        "headline": "India Pledges Enhanced Support for Global South Development at UN Forum",
+        "explainer": "• India reiterated its commitment to strengthening cooperation with the Global South, announcing new initiatives and enhanced financial support at a special UN forum on South-South Cooperation.\n• The initiatives focus on capacity building, technology transfer, and infrastructure development projects in partner countries, particularly in Africa and Small Island Developing States (SIDS).\n• India emphasized its approach of 'Vasudhaiva Kutumbakam' (The World is One Family) and its role as a responsible and reliable development partner.\n• Discussions included collaborative efforts on climate resilience, food security, digital public infrastructure, and access to affordable healthcare.\n• This pledge reinforces India's growing influence as a voice for developing nations on the international stage and its commitment to multilateralism.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International Institutions, agencies and fora – their structure, mandate.",
+          "Bilateral, Regional and Global Groupings and Agreements involving India",
+          "Effect of Policies and Politics of Developed and Developing Countries on India's interests"
+        ],
+        "date": "2025-12-29",
+        "source": "United Nations News",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Global South",
+          "South-South Cooperation",
+          "UN",
+          "development aid",
+          "capacity building",
+          "India's foreign policy",
+          "multilateralism"
+        ],
+        "keyTerms": [
+          "Global South",
+          "South-South Cooperation",
+          "Vasudhaiva Kutumbakam",
+          "Capacity Building",
+          "Small Island Developing States (SIDS)",
+          "Digital Public Infrastructure"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India pledges enhanced support for Global South at UN forum.",
+          "Focus on capacity building, tech transfer, infrastructure in Africa, SIDS.",
+          "Emphasizes 'Vasudhaiva Kutumbakam'.",
+          "Collaborative efforts on climate resilience, food security, digital public infrastructure."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss India's historical and contemporary role as a leader and partner for the Global South.",
+          "Analyze the significance of South-South Cooperation in the evolving global order and India's contributions to it.",
+          "Evaluate the effectiveness of India's development assistance models, particularly in comparison to other global powers.",
+          "Examine how India's engagement with the Global South aligns with its broader foreign policy objectives and its vision for a multipolar world."
+        ],
+        "imageDescription": "A stylized map of the 'Global South' countries, with India prominently highlighted, symbolizing leadership and cooperation.",
+        "section": "International",
+        "trivia": "The term 'Global South' generally refers to countries in Asia, Africa, and Latin America, often characterized by developing economies.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Organizations",
+          "topic": "UN and India"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "national-health-mission-telemedicine",
+        "headline": "National Health Mission Expands Telemedicine Services to Remote Rural Areas",
+        "explainer": "• The Ministry of Health and Family Welfare announced a significant expansion of telemedicine services under the National Health Mission (NHM), targeting remote and underserved rural areas.\n• This initiative aims to bridge the gap in healthcare access by leveraging digital technology to connect patients in rural clinics with specialist doctors in urban centers.\n• New mobile health units equipped with teleconsultation facilities and diagnostic tools will be deployed, along with training programs for local health workers.\n• The expansion focuses on improving maternal and child health outcomes, managing non-communicable diseases, and providing mental health support.\n• This move is a crucial step towards achieving universal health coverage and strengthening primary healthcare infrastructure, especially post-pandemic.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to Development and Management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government Policies and Interventions for Development in various sectors"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of Health and Family Welfare",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "telemedicine",
+          "National Health Mission",
+          "rural healthcare",
+          "digital health",
+          "universal health coverage",
+          "public health"
+        ],
+        "keyTerms": [
+          "Telemedicine",
+          "National Health Mission (NHM)",
+          "Primary Healthcare",
+          "Universal Health Coverage (UHC)",
+          "Non-Communicable Diseases (NCDs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NHM expands telemedicine services to remote rural areas.",
+          "Aims to bridge healthcare access gap using digital tech.",
+          "Deployment of mobile health units with teleconsultation.",
+          "Focus on maternal, child health, NCDs, mental health."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the challenges faced by rural healthcare in India and how telemedicine can act as a transformative solution.",
+          "Analyze the potential benefits and limitations of expanding telemedicine services under the National Health Mission.",
+          "Evaluate the role of digital public infrastructure and local health workers in ensuring the success and reach of telemedicine initiatives.",
+          "Examine how this expansion contributes to India's goal of achieving universal health coverage and improving public health indicators."
+        ],
+        "imageDescription": "A doctor on a video call with a patient in a rural setting, symbolizing telemedicine bridging geographical gaps in healthcare.",
+        "section": "National",
+        "trivia": "eSanjeevani, the national telemedicine service, completed 10 crore teleconsultations in February 2023.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Health",
+          "topic": "Government schemes"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "delimitation-union-territories",
+        "headline": "Delimitation Commission Completes Review for Union Territories",
+        "explainer": "• The Delimitation Commission announced the completion of its exercise for redrawing parliamentary and assembly constituencies in several Union Territories (UTs).\n• The review aimed to ensure fair representation based on recent census data and geographical contiguity, while adhering to constitutional provisions.\n• The Commission's recommendations include adjustments in the number of seats, reservation for Scheduled Castes (SCs) and Scheduled Tribes (STs), and boundary realignments.\n• Stakeholder consultations were conducted extensively with political parties, public representatives, and civil society organizations before finalizing the report.\n• This exercise is a crucial step for ensuring equitable electoral representation and democratic processes in the concerned Union Territories.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution - Historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure",
+          "Parliament and State Legislatures – structure, functioning, conduct of business, powers & privileges and issues arising out of these."
+        ],
+        "date": "2025-12-29",
+        "source": "Election Commission of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "delimitation",
+          "Union Territories",
+          "electoral reforms",
+          "representation",
+          "Election Commission",
+          "constitution"
+        ],
+        "keyTerms": [
+          "Delimitation Commission",
+          "Union Territories (UTs)",
+          "Constituencies",
+          "Reservation of Seats",
+          "Census Data",
+          "Electoral Representation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Delimitation Commission completed review for Union Territories.",
+          "Aimed at fair representation based on census data.",
+          "Recommendations include seat adjustments, SC/ST reservation.",
+          "Extensive stakeholder consultations conducted."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the constitutional mandate and objectives of the Delimitation Commission in India.",
+          "Analyze the challenges involved in the delimitation exercise, particularly in geographically diverse and demographically sensitive regions like Union Territories.",
+          "Evaluate the impact of delimitation on electoral representation, political dynamics, and the federal structure of India.",
+          "Examine the criteria used by the Delimitation Commission and the process of public consultation to ensure fairness and transparency."
+        ],
+        "imageDescription": "A map of India with specific Union Territories highlighted, showing altered electoral boundaries.",
+        "section": "National",
+        "trivia": "The Delimitation Commission is usually constituted after every Census, but its work was frozen until 2026 for parliamentary constituencies.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Constitutional Bodies",
+          "topic": "Delimitation Commission"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "skill-development-green-jobs",
+        "headline": "Focus on Skill Development for Green Jobs Under New National Policy",
+        "explainer": "• The Ministry of Skill Development and Entrepreneurship launched a new framework focusing on skill development for 'Green Jobs', aligning with India's climate commitments and green economy transition.\n• The policy aims to train over 1 million individuals in sectors like renewable energy, waste management, sustainable agriculture, and eco-tourism by 2030.\n• It emphasizes collaboration with industry partners, educational institutions, and international organizations to design future-ready curricula and certification programs.\n• The initiative seeks to bridge the skill gap in emerging green sectors, creating new employment opportunities and fostering a sustainable workforce.\n• This move is critical for India's transition to a low-carbon economy and achieving its ambitious environmental targets.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to Development and Management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government Policies and Interventions for Development in various sectors",
+          "Conservation, Environmental Pollution and Degradation"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of Skill Development & Entrepreneurship",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "skill development",
+          "green jobs",
+          "sustainable economy",
+          "renewable energy",
+          "climate action",
+          "employment",
+          "human resources"
+        ],
+        "keyTerms": [
+          "Green Jobs",
+          "Skill Development",
+          "Sustainable Economy",
+          "Low-Carbon Economy",
+          "Vocational Training",
+          "Climate Commitments"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "New framework for skill development for 'Green Jobs' launched.",
+          "Aims to train over 1 million in renewable energy, waste management etc. by 2030.",
+          "Emphasizes collaboration with industry and educational institutions.",
+          "Seeks to bridge skill gap in emerging green sectors."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the concept of 'Green Jobs' and their significance in India's journey towards a sustainable and low-carbon economy.",
+          "Analyze the challenges in skilling the Indian workforce for emerging green sectors and how the new policy addresses them.",
+          "Evaluate the potential of green jobs to contribute to employment generation, poverty reduction, and inclusive growth in India.",
+          "Examine the role of public-private partnerships and international collaboration in developing a robust ecosystem for green skill development."
+        ],
+        "imageDescription": "People wearing hard hats working at a solar panel installation site, representing green jobs and renewable energy.",
+        "section": "National",
+        "trivia": "The International Labour Organization (ILO) defines green jobs as decent jobs that contribute to preserving or restoring the environment.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Human Resources",
+          "topic": "Skill Development"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-central-asia-dialogue",
+        "headline": "India-Central Asia Dialogue on Connectivity and Energy Security Concludes",
+        "explainer": "• The annual India-Central Asia Dialogue concluded, with participating nations reaffirming their commitment to enhancing regional connectivity and cooperation on energy security.\n• Key discussions focused on operationalizing the International North-South Transport Corridor (INSTC) and exploring new transit routes to boost trade and economic linkages.\n• Energy cooperation included proposals for joint ventures in renewable energy projects and mechanisms for stable supply of hydrocarbons to India.\n• Both sides emphasized combating terrorism, extremism, and drug trafficking, agreeing on greater intelligence sharing and coordinated security efforts.\n• The dialogue underscored India's 'Connect Central Asia' policy and its strategic importance for regional stability and prosperity.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, Regional and Global Groupings and Agreements involving India",
+          "Effect of Policies and Politics of Developed and Developing Countries on India's interests",
+          "India and its neighborhood- relations"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "India-Central Asia",
+          "connectivity",
+          "energy security",
+          "INSTC",
+          "regional cooperation",
+          "foreign policy",
+          "security"
+        ],
+        "keyTerms": [
+          "International North-South Transport Corridor (INSTC)",
+          "Connect Central Asia Policy",
+          "Energy Security",
+          "Regional Connectivity",
+          "Counter-Terrorism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India-Central Asia Dialogue on connectivity and energy security concluded.",
+          "Discussions on operationalizing INSTC and new transit routes.",
+          "Proposals for renewable energy joint ventures and hydrocarbon supply.",
+          "Agreement on combating terrorism and drug trafficking.",
+          "Reaffirms India's 'Connect Central Asia' policy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic significance of Central Asia for India's energy security, connectivity aspirations, and regional stability.",
+          "Discuss the progress and challenges in operationalizing the International North-South Transport Corridor (INSTC) and its implications for India-Central Asia trade.",
+          "Evaluate the various dimensions of India's 'Connect Central Asia' policy, including economic, security, and cultural linkages.",
+          "Examine the role of India in promoting regional cooperation and addressing common security threats in the Central Asian region."
+        ],
+        "imageDescription": "A map highlighting India and Central Asian countries, with arrows indicating trade routes and connectivity.",
+        "section": "International",
+        "trivia": "The International North-South Transport Corridor (INSTC) is a 7,200-km-long multi-mode network of ship, rail, and road route for moving freight between India, Iran, Azerbaijan, Russia, Central Asia and Europe.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India and Central Asia"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-education-policy-digital-learning",
+        "headline": "NEP 2020 Implementation: Focus on Digital Learning and Teacher Training",
+        "explainer": "• The Ministry of Education released its year-end review, highlighting accelerated implementation of the National Education Policy (NEP) 2020, with a strong focus on digital learning and teacher training.\n• Significant progress has been made in integrating technology into the curriculum, developing digital content, and establishing virtual labs for enhanced learning experiences.\n• Extensive teacher training programs have been conducted nationwide to equip educators with skills for blended learning, digital pedagogy, and competency-based assessment.\n• The review also noted the successful rollout of the National Curriculum Framework (NCF) for various stages and increased enrollment in vocational education streams.\n• These efforts aim to create a flexible, multidisciplinary, and future-ready education system, as envisioned by NEP 2020.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to Development and Management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government Policies and Interventions for Development in various sectors"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of Education",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "NEP 2020",
+          "digital education",
+          "teacher training",
+          "education policy",
+          "vocational education",
+          "curriculum reform"
+        ],
+        "keyTerms": [
+          "National Education Policy (NEP) 2020",
+          "Digital Learning",
+          "Teacher Training",
+          "National Curriculum Framework (NCF)",
+          "Vocational Education",
+          "Blended Learning"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ministry of Education year-end review on NEP 2020 implementation.",
+          "Focus on digital learning and teacher training.",
+          "Progress in integrating technology, developing digital content, virtual labs.",
+          "Successful rollout of National Curriculum Framework."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the transformative potential of the National Education Policy (NEP) 2020 in reshaping India's education landscape.",
+          "Analyze the role of digital learning and technology integration in achieving the objectives of NEP 2020, especially in diverse geographical contexts.",
+          "Evaluate the challenges and strategies involved in upskilling and training teachers for the new pedagogical approaches mandated by NEP.",
+          "Examine how NEP 2020 aims to promote multidisciplinary education, vocational training, and holistic development to create a future-ready workforce."
+        ],
+        "imageDescription": "Students engaging with digital learning tools in a classroom, with a teacher facilitating the session, symbolizing modern education.",
+        "section": "National",
+        "trivia": "NEP 2020 replaced the 1986 National Policy on Education, making it the first comprehensive education policy in India in 34 years.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Education",
+          "topic": "Government policies"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indias-chairmanship-g20-troika",
+        "headline": "India Continues Active Role in G20 Troika, Prepares for Next Summit Agenda",
+        "explainer": "• India continues its active participation in the G20 Troika, working closely with Brazil (current chair) and South Africa (incoming chair) to shape the agenda for the upcoming G20 Summit.\n• Discussions focus on ensuring continuity and ambition across key G20 priorities, including sustainable development, climate finance, digital public infrastructure, and multilateral reforms.\n• India is leveraging its experience from its own successful G20 presidency to advocate for the concerns and priorities of the Global South within the forum.\n• Preparatory meetings of Sherpas and Finance Deputies are underway to finalize declarations and action plans for the next summit.\n• This sustained engagement highlights India's commitment to global economic governance and its growing stature on the international stage.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International Institutions, agencies and fora – their structure, mandate.",
+          "Bilateral, Regional and Global Groupings and Agreements involving India",
+          "Effect of Policies and Politics of Developed and Developing Countries on India's interests"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "G20",
+          "G20 Troika",
+          "global governance",
+          "sustainable development",
+          "climate finance",
+          "multilateralism",
+          "Global South"
+        ],
+        "keyTerms": [
+          "G20 Troika",
+          "G20 Summit",
+          "Sustainable Development Goals (SDGs)",
+          "Climate Finance",
+          "Digital Public Infrastructure (DPI)",
+          "Multilateralism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India active in G20 Troika with Brazil and South Africa.",
+          "Focus on sustainable development, climate finance, digital public infrastructure.",
+          "India leverages its G20 presidency experience.",
+          "Preparatory meetings for upcoming G20 Summit underway."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Explain the concept and significance of the G20 Troika in ensuring continuity and coherence in the G20 agenda.",
+          "Analyze India's role and contributions within the G20 forum, particularly in advocating for the interests of the Global South.",
+          "Discuss the key global challenges that the G20 is currently addressing, such as climate change, economic stability, and digital transformation.",
+          "Evaluate the effectiveness of G20 as a platform for global economic governance and its impact on international policy-making."
+        ],
+        "imageDescription": "The G20 logo, with flags of the Troika countries (Brazil, India, South Africa) subtly integrated, symbolizing collaboration.",
+        "section": "International",
+        "trivia": "The G20 Troika consists of the past, present, and incoming presidencies of the G20, ensuring continuity of the agenda.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Organizations",
+          "topic": "G20"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "amrit-kaal-green-hydrogen-vision-2047",
+        "headline": "India Unveils 'Amrit Kaal Green Hydrogen Vision 2047' to Become Global Hub",
+        "explainer": "• The Union Cabinet approved the comprehensive 'Amrit Kaal Green Hydrogen Vision 2047', outlining India's strategy to become a global leader in green hydrogen production and export.\n• The vision targets achieving 25 million tonnes of green hydrogen production capacity by 2047, alongside significant cost reduction and development of indigenous electrolyser manufacturing capabilities.\n• Emphasis is placed on creating a robust ecosystem for R&D, skill development, and establishing green hydrogen corridors across industrial clusters.\n• This initiative is poised to significantly reduce India's reliance on fossil fuel imports, enhance energy security, and contribute substantially to global decarbonization efforts.\n• Financial incentives, including production-linked incentives (PLI) for electrolysers and green hydrogen, and viability gap funding for pilot projects, are central to the vision.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy",
+          "Investment Models",
+          "Environmental Conservation",
+          "Green Economy",
+          "Science and Technology Developments",
+          "Government Policies and Interventions"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of New & Renewable Energy",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "green hydrogen",
+          "energy security",
+          "decarbonization",
+          "renewable energy",
+          "PLI scheme",
+          "climate change",
+          "economic growth"
+        ],
+        "keyTerms": [
+          "Green Hydrogen",
+          "National Green Hydrogen Mission",
+          "Electrolyser",
+          "Production Linked Incentive (PLI)",
+          "Energy Transition",
+          "Amrit Kaal"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Amrit Kaal Green Hydrogen Vision 2047 targets 25 million tonnes production by 2047.",
+          "Focus on indigenous electrolyser manufacturing and R&D.",
+          "Includes PLI scheme and viability gap funding.",
+          "Aims to reduce fossil fuel imports and achieve energy independence."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss India's strategic imperatives behind promoting green hydrogen, linking it to energy security, climate commitments, and economic growth.",
+          "Analyze the challenges and opportunities in scaling up green hydrogen production and exports in India.",
+          "Evaluate the role of government policies like PLI and viability gap funding in achieving the 'Amrit Kaal Green Hydrogen Vision 2047'.",
+          "Examine the potential socio-economic impacts, including job creation and regional development, stemming from the green hydrogen economy."
+        ],
+        "imageDescription": "Illustration of a green hydrogen production plant with solar panels and wind turbines in the background, symbolizing sustainable energy.",
+        "section": "Lead Opinion",
+        "trivia": "Hydrogen is the most abundant chemical substance in the universe, making up roughly 75% of all baryonic mass.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Infrastructure",
+          "topic": "Energy"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "rbi-monetary-policy-outlook",
+        "headline": "RBI Governor Signals Cautious Optimism Amid Global Headwinds; Inflation Outlook Stable",
+        "explainer": "• In a year-end press briefing, the RBI Governor expressed cautious optimism about India's economic trajectory despite persistent global headwinds like geopolitical tensions and supply chain disruptions.\n• The Governor indicated that while inflation remains within the target band, vigilance is crucial, and future monetary policy decisions will be data-dependent.\n• Emphasis was laid on maintaining financial stability and supporting sustainable growth, with the RBI ready to deploy calibrated measures as needed.\n• The central bank also highlighted the resilience of India's banking sector and the ongoing efforts to strengthen regulatory frameworks for non-banking financial companies (NBFCs).\n• Projections for Q4 FY2025 GDP growth were shared, indicating a steady but moderate expansion, driven by domestic demand and capital expenditure.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to Planning, Mobilization of Resources, Growth, Development and Employment",
+          "Government Budgeting",
+          "Monetary Policy",
+          "Financial Sector Reforms"
+        ],
+        "date": "2025-12-29",
+        "source": "Reserve Bank of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "RBI",
+          "monetary policy",
+          "inflation",
+          "economic growth",
+          "financial stability",
+          "global economy"
+        ],
+        "keyTerms": [
+          "Monetary Policy Committee (MPC)",
+          "Inflation Targeting",
+          "Repo Rate",
+          "Reverse Repo Rate",
+          "Financial Stability",
+          "GDP Growth"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "RBI Governor's year-end press briefing.",
+          "Cautious optimism on India's economy amidst global headwinds.",
+          "Inflation within target band, future policy data-dependent.",
+          "Focus on financial stability and sustainable growth.",
+          "Resilience of banking sector highlighted."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the current challenges faced by the Indian economy in the context of global economic uncertainties and geopolitical tensions.",
+          "Discuss the effectiveness of RBI's monetary policy framework in managing inflation while supporting economic growth.",
+          "Examine the role of the banking sector and NBFCs in India's financial stability and economic development.",
+          "Evaluate the government's fiscal policy and its coordination with RBI's monetary policy to achieve macroeconomic objectives."
+        ],
+        "imageDescription": "The Reserve Bank of India (RBI) logo, symbolizing financial authority and stability.",
+        "section": "Economy",
+        "trivia": "The Reserve Bank of India (RBI) was established on April 1, 1935, under the Reserve Bank of India Act, 1934.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI and its functions"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "isro-rlv-prototype-test",
+        "headline": "ISRO Successfully Tests Next-Generation Reusable Launch Vehicle (RLV) Prototype",
+        "explainer": "• The Indian Space Research Organisation (ISRO) announced the successful completion of a crucial test flight for its next-generation Reusable Launch Vehicle (RLV) prototype.\n• The test involved a controlled landing experiment, demonstrating critical technologies for autonomous navigation, guidance, and control necessary for future orbital re-entry and landing missions.\n• This achievement marks a significant step towards developing a fully reusable two-stage orbital launch vehicle, aimed at drastically reducing the cost of space access.\n• The RLV program is central to India's long-term space exploration goals, including future human spaceflight missions and commercial satellite launches.\n• Scientists lauded the indigenous development of advanced materials and avionics systems used in the RLV prototype, showcasing India's growing self-reliance in space technology.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- Developments and their Applications and Effects in Everyday Life",
+          "Achievements of Indians in Science & Technology",
+          "Space Technology"
+        ],
+        "date": "2025-12-29",
+        "source": "ISRO",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "RLV",
+          "reusable launch vehicle",
+          "space technology",
+          "space exploration",
+          "indigenous technology",
+          "cost reduction"
+        ],
+        "keyTerms": [
+          "Reusable Launch Vehicle (RLV)",
+          "Orbital Re-entry",
+          "Autonomous Navigation",
+          "ISRO",
+          "Space Access Cost"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ISRO successfully tested RLV prototype.",
+          "Test involved controlled landing experiment.",
+          "Aims to reduce space access costs dramatically.",
+          "Crucial for future human spaceflight and commercial launches.",
+          "Showcases indigenous development in space technology."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of Reusable Launch Vehicle technology for India's future in space exploration and commercial space sector.",
+          "Analyze the potential economic and geopolitical advantages India stands to gain by mastering RLV technology.",
+          "Examine the challenges involved in developing fully reusable launch systems and how ISRO is addressing them.",
+          "Elaborate on how ISRO's RLV program aligns with the 'Make in India' initiative and promotes self-reliance in critical technologies."
+        ],
+        "imageDescription": "An artistic rendering of ISRO's Reusable Launch Vehicle (RLV) prototype in flight, with booster separation.",
+        "section": "Science",
+        "trivia": "The first RLV-TD (Technology Demonstrator) mission by ISRO, called HEX (Hypersonic Flight Experiment), was successfully conducted in 2016.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space Technology",
+          "topic": "ISRO missions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "national-wetland-conservation-policy",
+        "headline": "New National Policy on Wetland Conservation and Management Unveiled",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change launched a comprehensive National Policy on Wetland Conservation and Management, aiming to protect and restore India's vital wetland ecosystems.\n• The policy emphasizes a participatory approach, involving local communities in wetland management plans and promoting sustainable livelihood options.\n• It mandates mapping and categorization of all wetlands across the country, with specific guidelines for their ecological restoration, pollution control, and biodiversity preservation.\n• The policy also includes provisions for strengthened legal frameworks and enforcement mechanisms to prevent encroachment and degradation of wetlands.\n• This initiative is crucial for enhancing climate change resilience, maintaining biodiversity, and ensuring water security for various regions.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, Environmental Pollution and Degradation, Environmental Impact Assessment",
+          "Biodiversity",
+          "Government Policies and Interventions"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "wetland conservation",
+          "biodiversity",
+          "environmental policy",
+          "climate resilience",
+          "ecosystem services",
+          "sustainable management"
+        ],
+        "keyTerms": [
+          "Wetlands",
+          "Ramsar Sites",
+          "Ecosystem Services",
+          "Biodiversity Conservation",
+          "Participatory Management"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "New National Policy on Wetland Conservation and Management launched.",
+          "Emphasizes participatory approach and local community involvement.",
+          "Mandates mapping, categorization, and ecological restoration of wetlands.",
+          "Strengthens legal frameworks against wetland degradation."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ecological and economic significance of wetlands in India and the threats they face.",
+          "Analyze the key features of the new National Policy on Wetland Conservation and Management and its potential effectiveness.",
+          "Evaluate the role of local communities and indigenous knowledge in successful wetland conservation initiatives.",
+          "Examine how wetland conservation contributes to climate change adaptation and mitigation efforts in India."
+        ],
+        "imageDescription": "A serene image of a wetland ecosystem with migratory birds, lush vegetation, and clear water, highlighting its biodiversity.",
+        "section": "Environment",
+        "trivia": "India has over 75 designated Ramsar Sites, which are wetlands of international importance.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Conservation",
+          "topic": "Wetlands"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "cyber-security-framework-2.0",
+        "headline": "Comprehensive Cyber Security Framework 2.0 Draft Released for Public Consultation",
+        "explainer": "• The Ministry of Electronics and Information Technology (MeitY) released the draft of the 'Comprehensive Cyber Security Framework 2.0' for public consultation.\n• The new framework aims to strengthen India's cyber defenses against evolving threats, focusing on critical infrastructure protection, data governance, and cyber-crime prevention.\n• It proposes enhanced collaboration between government agencies, private sector, and international partners to build a resilient cyber ecosystem.\n• Key provisions include mandatory security audits for critical information infrastructure, establishment of a National Cyber Security Research & Development Fund, and capacity building programs.\n• This update reflects the growing sophistication of cyber threats and the need for a proactive, multi-stakeholder approach to national cyber security.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Challenges to Internal Security through Communication Networks",
+          "Role of Media and Social Networking Sites in Internal Security Challenges",
+          "Cyber Security",
+          "Money-Laundering and its prevention"
+        ],
+        "date": "2025-12-29",
+        "source": "MeitY",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "cyber security",
+          "critical infrastructure",
+          "data governance",
+          "cyber crime",
+          "national security",
+          "digital India"
+        ],
+        "keyTerms": [
+          "Cyber Security Framework",
+          "Critical Information Infrastructure (CII)",
+          "Cyber Crime",
+          "Data Governance",
+          "CERT-In"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "MeitY released draft Cyber Security Framework 2.0.",
+          "Focus on critical infrastructure protection and data governance.",
+          "Proposes mandatory security audits for CII.",
+          "Includes National Cyber Security R&D Fund."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the evolving landscape of cyber threats faced by India and the necessity for a revamped cyber security framework.",
+          "Discuss the key provisions of the Comprehensive Cyber Security Framework 2.0 and its potential impact on national security and digital economy.",
+          "Examine the challenges in implementing a multi-stakeholder approach to cyber security in India, considering government, private sector, and international cooperation.",
+          "Evaluate the balance between national security imperatives and individual privacy concerns in the context of enhanced cyber surveillance and data governance measures."
+        ],
+        "imageDescription": "A stylized digital shield icon, representing cyber security and protection, with binary code flowing in the background.",
+        "section": "National",
+        "trivia": "The Indian Computer Emergency Response Team (CERT-In) is the nodal agency for responding to computer security incidents.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Cyber Security",
+          "topic": "Government initiatives"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "make-in-india-for-the-world",
+        "headline": "Government Unveils 'Make in India for the World' Export Promotion Scheme",
+        "explainer": "• The Union Government launched the 'Make in India for the World' scheme, a new export promotion initiative designed to boost domestic manufacturing and integrate India into global supply chains.\n• The scheme provides targeted incentives, financial support, and infrastructure upgrades for industries with high export potential, focusing on sectors like electronics, textiles, pharmaceuticals, and automotive components.\n• It aims to enhance India's competitiveness in international markets by improving product quality, reducing logistics costs, and facilitating market access.\n• The initiative also includes provisions for skill development and technological upgradation to meet global manufacturing standards.\n• This scheme is a strategic move to leverage India's manufacturing capabilities for global markets, aligning with the broader vision of an 'Atmanirbhar Bharat'.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to Planning, Mobilization of Resources, Growth, Development and Employment",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Investment Models",
+          "Government Policies and Interventions"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of Commerce & Industry",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Make in India",
+          "exports",
+          "manufacturing",
+          "global supply chains",
+          "economic growth",
+          "Atmanirbhar Bharat",
+          "PLI"
+        ],
+        "keyTerms": [
+          "Make in India",
+          "Export Promotion",
+          "Global Supply Chains",
+          "Atmanirbhar Bharat",
+          "Manufacturing Hub",
+          "Trade Competitiveness"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "New 'Make in India for the World' export promotion scheme launched.",
+          "Aims to boost domestic manufacturing and global supply chain integration.",
+          "Provides targeted incentives for high export potential sectors.",
+          "Focus on product quality, logistics, and market access."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the objectives and key features of the 'Make in India for the World' scheme and its role in transforming India into a global manufacturing hub.",
+          "Analyze the challenges and opportunities for Indian manufacturers in integrating into global supply chains and enhancing export competitiveness.",
+          "Evaluate the effectiveness of government incentives and infrastructure development in boosting specific export-oriented sectors.",
+          "Examine how this scheme aligns with India's broader economic vision of 'Atmanirbhar Bharat' and its implications for employment and FDI."
+        ],
+        "imageDescription": "A stylized globe with factory silhouettes and an arrow pointing outwards, representing global exports from India.",
+        "section": "Economy",
+        "trivia": "The original 'Make in India' initiative was launched in 2014 to encourage companies to manufacture in India.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Manufacturing",
+          "topic": "Government schemes"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "clean-air-challenge-cities",
+        "headline": "Major Cities Launch 'Clean Air Challenge' Initiative with Tech Integration",
+        "explainer": "• A consortium of India's major metropolitan cities, including Delhi, Mumbai, and Bengaluru, jointly launched the 'Clean Air Challenge' initiative.\n• The initiative aims for a significant reduction in air pollution levels by 2030 through a multi-pronged strategy involving advanced monitoring, data analytics, and citizen participation.\n• It integrates smart city technologies, AI-powered predictive models for pollution hotspots, and real-time public dashboards to enhance transparency and accountability.\n• Key measures include promotion of electric vehicles, strict enforcement of industrial emission norms, waste management reforms, and green infrastructure development.\n• The 'Clean Air Challenge' seeks to foster inter-city learning and collaboration to tackle the persistent problem of urban air quality.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, Environmental Pollution and Degradation, Environmental Impact Assessment",
+          "Science and Technology- Developments and their Applications and Effects in Everyday Life",
+          "Urbanization - problems and remedies"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of Housing and Urban Affairs",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "air pollution",
+          "urban environment",
+          "smart cities",
+          "environmental governance",
+          "electric vehicles",
+          "climate action"
+        ],
+        "keyTerms": [
+          "Air Quality Index (AQI)",
+          "Particulate Matter (PM2.5, PM10)",
+          "Smart City Technologies",
+          "Electric Vehicles (EVs)",
+          "Green Infrastructure"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Major cities launch 'Clean Air Challenge' initiative.",
+          "Aims for significant air pollution reduction by 2030.",
+          "Integrates smart city technologies, AI for predictive models.",
+          "Measures include EV promotion, industrial emission norms, waste management."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the multifaceted causes and health impacts of urban air pollution in India.",
+          "Analyze the innovative approaches and technological integrations proposed under the 'Clean Air Challenge' initiative.",
+          "Evaluate the role of inter-city collaboration and citizen participation in effectively tackling urban environmental issues.",
+          "Examine the policy and infrastructural changes required to transition towards sustainable urban mobility and waste management for cleaner air."
+        ],
+        "imageDescription": "A cityscape skyline with a clean sky above, contrasting with a haze-filled sky in the background, symbolizing the challenge and goal of clean air.",
+        "section": "Environment",
+        "trivia": "According to the World Health Organization, air pollution is responsible for an estimated 7 million premature deaths worldwide each year.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Pollution",
+          "topic": "Air Pollution"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indigenous-semiconductor-breakthrough",
+        "headline": "Breakthrough in Indigenous Semiconductor Manufacturing Process Announced",
+        "explainer": "• Indian researchers and engineers announced a significant breakthrough in developing an indigenous semiconductor manufacturing process, marking a critical step towards self-reliance in chip production.\n• The innovation involves a novel fabrication technique that reduces production costs and energy consumption, making it competitive with global standards.\n• This advancement is crucial for India's strategic autonomy in electronics, defense, and telecommunications, reducing dependence on foreign supply chains.\n• The government pledged enhanced support for further research, development, and commercialization of this technology, inviting private sector partnerships.\n• Experts believe this breakthrough could position India as a key player in the global semiconductor ecosystem within the next decade.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- Developments and their Applications and Effects in Everyday Life",
+          "Achievements of Indians in Science & Technology",
+          "Indigenization of Technology and Developing New Technology"
+        ],
+        "date": "2025-12-29",
+        "source": "Department of Science & Technology",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "semiconductor",
+          "chip manufacturing",
+          "indigenous technology",
+          "self-reliance",
+          "electronics",
+          "Make in India",
+          "strategic autonomy"
+        ],
+        "keyTerms": [
+          "Semiconductor",
+          "Chip Manufacturing",
+          "Fabrication Technique",
+          "Strategic Autonomy",
+          "Global Supply Chains",
+          "PLI Scheme"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Breakthrough in indigenous semiconductor manufacturing process.",
+          "Novel fabrication technique reduces costs and energy consumption.",
+          "Crucial for India's strategic autonomy in electronics, defense, telecom.",
+          "Government pledges support for R&D and commercialization."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of semiconductor manufacturing for India's economic growth, national security, and technological sovereignty.",
+          "Analyze the challenges India faces in establishing a robust domestic semiconductor ecosystem and how this breakthrough addresses them.",
+          "Evaluate the role of government policies, such as the India Semiconductor Mission and PLI schemes, in fostering indigenous chip production.",
+          "Examine the potential geopolitical and economic implications of India becoming a significant player in the global semiconductor supply chain."
+        ],
+        "imageDescription": "A close-up of a silicon wafer with intricate circuit patterns, symbolizing semiconductor technology and innovation.",
+        "section": "Science",
+        "trivia": "Semiconductors are essential components in virtually all modern electronic devices, from smartphones to supercomputers.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Information Technology",
+          "topic": "Semiconductors"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "new-high-speed-rail-corridor",
+        "headline": "Infrastructure Push: New High-Speed Rail Corridor Project Approved",
+        "explainer": "• The Union Cabinet gave its approval for a new high-speed rail (HSR) corridor project, connecting two major economic hubs in the country, as part of the National Rail Plan 2030.\n• The project, estimated at ₹1.5 lakh crore, aims to significantly reduce travel time, boost regional connectivity, and stimulate economic development along the corridor.\n• It will incorporate advanced 'Make in India' components and technologies, promoting indigenous manufacturing and job creation.\n• The corridor is designed with a focus on environmental sustainability, including measures for minimal land acquisition impact and energy-efficient operations.\n• This approval underscores the government's continued commitment to modernizing India's infrastructure and enhancing multimodal logistics capabilities.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Investment Models",
+          "Government Budgeting",
+          "Planning"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of Railways",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "high-speed rail",
+          "infrastructure",
+          "economic development",
+          "regional connectivity",
+          "Make in India",
+          "National Rail Plan"
+        ],
+        "keyTerms": [
+          "High-Speed Rail (HSR)",
+          "National Rail Plan 2030",
+          "Infrastructure Development",
+          "Multimodal Logistics",
+          "Public-Private Partnership (PPP)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Union Cabinet approved new high-speed rail corridor.",
+          "Connects two major economic hubs, part of National Rail Plan 2030.",
+          "Estimated cost ₹1.5 lakh crore.",
+          "Incorporates 'Make in India' components and focuses on sustainability."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the economic rationale and developmental impact of investing in high-speed rail infrastructure in India.",
+          "Analyze the challenges involved in planning, funding, and executing large-scale infrastructure projects like HSR corridors.",
+          "Evaluate the role of 'Make in India' initiatives in enhancing indigenous capabilities and reducing dependence on foreign technology for such projects.",
+          "Examine the environmental and social considerations that need to be addressed during the development of new HSR corridors."
+        ],
+        "imageDescription": "A sleek, modern high-speed train speeding through a landscape, symbolizing advanced transportation and connectivity.",
+        "section": "Economy",
+        "trivia": "India's first high-speed rail corridor, the Mumbai-Ahmedabad bullet train project, began construction in 2017.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Infrastructure",
+          "topic": "Railways"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ganga-rejuvenation-phase-iii",
+        "headline": "Ganga Rejuvenation Mission Enters Phase III, Focus on Tributaries and Public Participation",
+        "explainer": "• The National Mission for Clean Ganga (NMCG) announced the commencement of Phase III of the Ganga Rejuvenation Mission, shifting focus to rejuvenating tributaries and enhancing public participation.\n• This phase prioritizes the comprehensive treatment of wastewater from major towns along the tributaries, addressing non-point source pollution and industrial discharges.\n• New initiatives include community-led river conservation programs, promotion of organic farming in riverine areas, and ecological restoration of floodplains.\n• Advanced technologies for real-time water quality monitoring and bioremediation techniques will be deployed more extensively.\n• Phase III aims to build upon the successes of previous phases, ensuring a holistic approach to restore the ecological health and cultural significance of the entire Ganga basin.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, Environmental Pollution and Degradation, Environmental Impact Assessment",
+          "Government Policies and Interventions for Development in various sectors",
+          "Water Resources"
+        ],
+        "date": "2025-12-29",
+        "source": "National Mission for Clean Ganga",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Ganga rejuvenation",
+          "Namami Gange",
+          "river conservation",
+          "water pollution",
+          "ecological restoration",
+          "public participation"
+        ],
+        "keyTerms": [
+          "National Mission for Clean Ganga (NMCG)",
+          "Namami Gange",
+          "River Basin Management",
+          "Wastewater Treatment",
+          "Bioremediation",
+          "Non-Point Source Pollution"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ganga Rejuvenation Mission enters Phase III.",
+          "Focus on tributaries, public participation, and non-point source pollution.",
+          "Includes community-led programs, organic farming, floodplain restoration.",
+          "Utilizes advanced water quality monitoring and bioremediation."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolution of the Ganga Rejuvenation Mission (Namami Gange) across its phases, highlighting its successes and shortcomings.",
+          "Analyze the challenges in addressing pollution in the Ganga river basin, particularly from its tributaries and non-point sources.",
+          "Evaluate the role of community participation, traditional knowledge, and modern technology in achieving holistic river conservation.",
+          "Examine the inter-sectoral coordination required for effective river basin management, considering environmental, economic, and social dimensions."
+        ],
+        "imageDescription": "A clean stretch of the River Ganga, with people engaging in traditional activities on its banks, symbolizing rejuvenation and cultural connection.",
+        "section": "Environment",
+        "trivia": "The Ganga river basin is the most populated river basin in the world, home to over 500 million people.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Conservation",
+          "topic": "River Conservation"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-scheme-for-fisheries-sector",
+        "headline": "Government Launches 'Matsya Sampada Plus' for Sustainable Fisheries Growth",
+        "explainer": "• The Ministry of Fisheries, Animal Husbandry and Dairying launched 'Matsya Sampada Plus', an enhanced scheme building on the success of the Pradhan Mantri Matsya Sampada Yojana (PMMSY).\n• This new scheme focuses on sustainable intensification of aquaculture, deep-sea fishing expansion, and improving post-harvest infrastructure and market linkages.\n• It introduces advanced technologies for disease management in aquaculture, promotes climate-resilient fishing practices, and provides specialized training for fisherfolk.\n• The 'Matsya Sampada Plus' aims to further boost fish production, enhance incomes of fisher communities, and ensure food security while conserving aquatic biodiversity.\n• Financial outlay and targets for the scheme over the next five years were also announced.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Major Crops - Cropping Patterns in various parts of the country, - Different Types of Irrigation and Irrigation Systems Storage, Transport and Marketing of Agricultural Produce and Issues and Related Constraints; E-technology in the aid of farmers",
+          "Food Processing and Related Industries in India- Scope and Significance, Location, Upstream and Downstream Requirements, Supply Chain Management.",
+          "Government Policies and Interventions for Development in various sectors"
+        ],
+        "date": "2025-12-29",
+        "source": "Ministry of Fisheries, Animal Husbandry and Dairying",
+        "sourceUrl": "",
+        "importance": "low",
+        "tags": [
+          "fisheries",
+          "aquaculture",
+          "PMMSY",
+          "blue economy",
+          "rural development",
+          "food security",
+          "sustainable practices"
+        ],
+        "keyTerms": [
+          "Matsya Sampada Plus",
+          "Pradhan Mantri Matsya Sampada Yojana (PMMSY)",
+          "Aquaculture",
+          "Deep-Sea Fishing",
+          "Post-Harvest Infrastructure",
+          "Blue Revolution"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "New 'Matsya Sampada Plus' scheme launched.",
+          "Builds on Pradhan Mantri Matsya Sampada Yojana (PMMSY).",
+          "Focus on sustainable aquaculture, deep-sea fishing, post-harvest infra.",
+          "Promotes climate-resilient practices and fisherfolk training."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the fisheries sector for India's economy, food security, and the livelihoods of coastal communities.",
+          "Analyze the key features and objectives of 'Matsya Sampada Plus' and how it aims to address the challenges faced by the sector.",
+          "Evaluate the role of technological advancements and sustainable practices in boosting fish production and conserving aquatic biodiversity.",
+          "Examine the potential of the 'Blue Economy' concept to drive growth and development in India's marine and aquatic resources sector."
+        ],
+        "imageDescription": "A fishing boat in calm waters at sunset, with a fisherman checking nets, symbolizing sustainable fishing and livelihoods.",
+        "section": "Economy",
+        "trivia": "India is the world's third-largest fish producing country and second-largest aquaculture producer.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Agriculture",
+          "topic": "Fisheries"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Ministry of New & Renewable Energy",
+    "The Hindu",
+    "Ministry of External Affairs",
+    "Reserve Bank of India",
+    "ISRO",
+    "Ministry of Environment, Forest and Climate Change",
+    "MeitY",
+    "Press Information Bureau (PIB)",
+    "Ministry of Commerce & Industry",
+    "United Nations News",
+    "Ministry of Health and Family Welfare",
+    "Ministry of Housing and Urban Affairs",
+    "Department of Science & Technology",
+    "Election Commission of India",
+    "Ministry of Railways",
+    "Ministry of Skill Development & Entrepreneurship",
+    "National Mission for Clean Ganga",
+    "Ministry of Education",
+    "Ministry of Fisheries, Animal Husbandry and Dairying"
+  ],
+  "totalScraped": 21,
+  "totalProcessed": 21
+}

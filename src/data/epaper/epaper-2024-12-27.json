@@ -1,0 +1,2238 @@
+{
+  "date": "2024-12-27",
+  "dateFormatted": "Friday 27 December, 2024",
+  "lastUpdated": "2026-03-21T19:20:22.482Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "sc-digital-privacy-ai-governance",
+      "headline": "Supreme Court Upholds Digital Privacy, Issues Guidelines for AI Data Usage",
+      "explainer": "• In a landmark ruling, the Supreme Court affirmed the 'Right to Digital Privacy' as an intrinsic part of Article 21, extending it to the era of Artificial Intelligence.\n• The judgment mandates strict consent mechanisms for personal data collection and processing by AI systems, especially in sensitive sectors.\n• It calls for a robust regulatory framework to govern AI development and deployment, focusing on algorithmic transparency and accountability.\n• The court emphasized the need for a balance between technological innovation and fundamental rights, urging the government to expedite data protection legislation.\n• This ruling is expected to have significant implications for tech companies, government surveillance, and future AI policy in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Fundamental Rights (Article 21)",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "E-governance- applications, models, successes, limitations, and potential"
+      ],
+      "date": "2024-12-27",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Digital Privacy",
+        "Artificial Intelligence",
+        "Supreme Court",
+        "Fundamental Rights",
+        "Data Protection",
+        "AI Governance"
+      ],
+      "keyTerms": [
+        "Right to Digital Privacy",
+        "Article 21",
+        "Algorithmic Transparency",
+        "Data Localisation",
+        "Personal Data Protection Bill"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Right to Privacy affirmed as part of Article 21 (Puttaswamy judgment reference).",
+        "Supreme Court's role in interpreting fundamental rights.",
+        "Key provisions of the proposed Digital Personal Data Protection Bill.",
+        "Concept of 'Algorithmic Bias' and 'Algorithmic Accountability'."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the implications of the SC ruling on data privacy for individuals and corporations in the AI era.",
+        "Analyze the challenges in balancing technological advancement with fundamental rights, particularly privacy.",
+        "Evaluate the need for a comprehensive legal framework for AI governance in India, drawing parallels with international practices.",
+        "Examine the role of the judiciary in shaping digital rights and promoting ethical AI development."
+      ],
+      "imageDescription": "Gavel placed on a digital tablet with AI code, symbolizing judicial oversight on technology.",
+      "section": "Lead Opinion",
+      "trivia": "India's Supreme Court judgment on the Right to Privacy in 2017 (Puttaswamy case) laid the groundwork for expanding privacy rights in the digital age.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Constitution",
+        "topic": "Fundamental Rights"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "india-africa-summit-2024",
+      "headline": "India-Africa Summit Concludes, Pledges Enhanced Cooperation in Trade, Tech, and Climate",
+      "explainer": "• The second India-Africa Forum Summit (IAFS) concluded in New Delhi, reinforcing India's commitment to strengthening ties with African nations.\n• Key agreements were signed focusing on increasing bilateral trade, facilitating technology transfer, and collaborative efforts in climate change adaptation and mitigation.\n• India announced new credit lines and capacity-building programs, particularly in areas of digital transformation, healthcare, and renewable energy.\n• Discussions highlighted mutual interests in reforming multilateral institutions and fostering a more equitable global order.\n• The summit underscored the importance of South-South cooperation for sustainable development and addressing global challenges.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests",
+        "Effects of liberalization on the economy (trade aspects)"
+      ],
+      "date": "2024-12-27",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "India-Africa Relations",
+        "Foreign Policy",
+        "Trade",
+        "Technology Transfer",
+        "Climate Change",
+        "South-South Cooperation"
+      ],
+      "keyTerms": [
+        "India-Africa Forum Summit (IAFS)",
+        "Credit Lines",
+        "Capacity Building",
+        "Multilateralism",
+        "Sustainable Development Goals (SDGs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Frequency and significance of India-Africa Forum Summit.",
+        "Key pillars of India's foreign policy towards Africa.",
+        "Major Indian initiatives or schemes for African development.",
+        "Examples of South-South cooperation."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic significance of India's engagement with Africa in the current geopolitical landscape.",
+        "Discuss the challenges and opportunities for enhancing trade and investment between India and African countries.",
+        "Evaluate India's role as a development partner for Africa, particularly in technology and climate action.",
+        "Examine how India-Africa cooperation can contribute to reforming global governance structures."
+      ],
+      "imageDescription": "Indian and African leaders shaking hands at a summit, with flags in the background.",
+      "section": "International",
+      "trivia": "India was one of the first countries to establish diplomatic relations with African nations, even before their independence from colonial rule.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India and its Neighbourhood",
+        "topic": "Bilateral Relations"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "pm-kisan-samriddhi-scheme",
+      "headline": "Government Launches 'PM-Kisan Samriddhi' to Boost Agricultural Productivity and Farmer Income",
+      "explainer": "• The Union Government launched the 'PM-Kisan Samriddhi Yojana', a comprehensive scheme aimed at enhancing agricultural productivity and ensuring higher incomes for farmers.\n• The scheme integrates various existing agricultural support programs, focusing on precision farming, soil health management, and access to advanced farm machinery.\n• It includes provisions for direct benefit transfers for input subsidies and promotes farmer producer organizations (FPOs) for better market linkages.\n• Special emphasis is placed on climate-resilient agriculture and diversification into high-value crops.\n• The initiative seeks to achieve sustainable agricultural growth and improve the overall socio-economic status of the farming community.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Major crops-cropping patterns in various parts of the country, - different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers",
+        "Issues related to direct and indirect farm subsidies and minimum support prices; Public Distribution System- objectives, functioning, limitations, revamping; issues of buffer stocks and food security; Technology missions; economics of animal-rearing.",
+        "Food processing and related industries in India- scope’ and significance, location, upstream and downstream requirements, supply chain management."
+      ],
+      "date": "2024-12-27",
+      "source": "Ministry of Agriculture & Farmers Welfare",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Agriculture",
+        "Farmer Income",
+        "Government Schemes",
+        "Agricultural Productivity",
+        "FPOs",
+        "Sustainable Agriculture"
+      ],
+      "keyTerms": [
+        "PM-Kisan Samriddhi Yojana",
+        "Precision Farming",
+        "Soil Health Card Scheme",
+        "Direct Benefit Transfer (DBT)",
+        "Farmer Producer Organizations (FPOs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Objectives and components of PM-Kisan Samriddhi Yojana.",
+        "Existing schemes integrated into the new program (e.g., PM-KISAN, Soil Health Card).",
+        "Role of FPOs in agricultural value chains.",
+        "Concepts of climate-resilient agriculture and crop diversification."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically evaluate the potential impact of PM-Kisan Samriddhi Yojana on doubling farmer incomes and agricultural sustainability.",
+        "Discuss the challenges in implementing such a comprehensive agricultural scheme across diverse agro-climatic zones.",
+        "Analyze how technology and FPOs can transform Indian agriculture, as envisioned by the scheme.",
+        "Examine the role of government subsidies and market reforms in ensuring food security and farmer welfare."
+      ],
+      "imageDescription": "Farmers working in a field with modern agricultural machinery under a clear sky.",
+      "section": "National",
+      "trivia": "India is the world's second-largest producer of rice, wheat, sugarcane, cotton, and groundnuts.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy and Social Development",
+        "area": "Agriculture",
+        "topic": "Government Policies in Agriculture"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-rlv-test",
+      "headline": "ISRO Successfully Tests Next-Gen Reusable Launch Vehicle (RLV) for Future Space Missions",
+      "explainer": "• The Indian Space Research Organisation (ISRO) achieved a significant milestone with the successful test flight of its next-generation Reusable Launch Vehicle (RLV).\n• This test demonstrated critical technologies for autonomous landing and atmospheric re-entry, crucial for reducing space mission costs and enhancing launch frequency.\n• The RLV program aims to develop a two-stage-to-orbit (TSTO) fully reusable launch system, a major step towards affordable and sustainable space access.\n• This indigenous technology is vital for India's ambitious future space exploration plans, including manned missions and satellite deployment.\n• The success firmly places India among a select group of nations pursuing advanced reusable space technology.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+        "Space"
+      ],
+      "date": "2024-12-27",
+      "source": "ISRO",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Reusable Launch Vehicle",
+        "Space Technology",
+        "Space Exploration",
+        "Indigenous Technology",
+        "Aerospace"
+      ],
+      "keyTerms": [
+        "Reusable Launch Vehicle (RLV)",
+        "Two-Stage-to-Orbit (TSTO)",
+        "Atmospheric Re-entry",
+        "Autonomous Landing",
+        "Gaganyaan"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Purpose and significance of RLV technology.",
+        "Key features of ISRO's RLV program.",
+        "Difference between expendable and reusable launch vehicles.",
+        "Other countries developing similar technologies (e.g., SpaceX, NASA)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic and economic implications of developing reusable launch vehicle technology for India's space program.",
+        "Analyze how indigenous RLV technology contributes to India's self-reliance in space and its global positioning.",
+        "Examine the challenges involved in developing and deploying fully reusable space systems.",
+        "Evaluate the potential of RLV technology to make space access more affordable and sustainable for future missions."
+      ],
+      "imageDescription": "Conceptual image of ISRO's Reusable Launch Vehicle descending through the atmosphere.",
+      "section": "Science",
+      "trivia": "The first experimental flight of ISRO's RLV-TD (Technology Demonstrator) was successfully conducted in May 2016, marking a significant step towards this goal.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space Technology",
+        "topic": "ISRO Missions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "forest-conservation-rules-2024",
+      "headline": "New Forest Conservation Rules Notified, Emphasizing Community Role in Afforestation",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change has notified revised Forest (Conservation) Rules, 2024, aiming to streamline forest clearances and enhance conservation efforts.\n• A key feature is the greater emphasis on involving local communities and Gram Sabhas in the compensatory afforestation process and forest management.\n• The rules introduce clearer guidelines for diversion of forest land for non-forest purposes, while strengthening provisions for forest regeneration.\n• They also focus on integrating climate change mitigation and adaptation strategies into forest conservation plans.\n• Environmentalists and tribal rights groups are scrutinizing the rules for their potential impact on forest-dependent communities and biodiversity.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2024-12-27",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Forest Conservation",
+        "Environmental Policy",
+        "Compensatory Afforestation",
+        "Tribal Rights",
+        "Climate Change",
+        "Gram Sabha"
+      ],
+      "keyTerms": [
+        "Forest (Conservation) Act, 1980",
+        "Compensatory Afforestation Fund Act (CAMPA)",
+        "Forest Rights Act (FRA), 2006",
+        "Environmental Impact Assessment (EIA)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key provisions of the Forest Conservation Act, 1980.",
+        "Role of Gram Sabha under the Forest Rights Act, 2006.",
+        "Concept of compensatory afforestation.",
+        "Difference between reserved forest, protected forest, and village forest."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the objectives and potential impact of the new Forest Conservation Rules on forest governance and biodiversity conservation in India.",
+        "Discuss the challenges and opportunities in ensuring effective community participation in forest management and compensatory afforestation.",
+        "Evaluate the balance struck by the new rules between developmental needs and environmental protection.",
+        "Examine the criticisms and concerns raised by various stakeholders regarding the implementation of the rules."
+      ],
+      "imageDescription": "Lush green forest with sunlight filtering through trees, symbolizing conservation.",
+      "section": "Environment",
+      "trivia": "India's National Forest Policy aims to have at least 33% of the country's total land area under forest or tree cover.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Conservation",
+        "topic": "Forest Policies and Laws"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "rbi-financial-stability-report",
+      "headline": "RBI's Financial Stability Report Highlights Resilience of Indian Financial System",
+      "explainer": "• The Reserve Bank of India (RBI) released its half-yearly Financial Stability Report (FSR), indicating the continued resilience of the Indian financial system.\n• The report noted robust capital adequacy ratios of banks and a decline in non-performing assets (NPAs), reflecting improved asset quality.\n• It cautioned against global headwinds, including geopolitical tensions and volatile commodity prices, which could pose risks to domestic stability.\n• The FSR emphasized the need for continuous vigilance and proactive measures to address emerging risks from climate change and cyber threats.\n• Overall, the report expressed confidence in the financial sector's ability to support economic growth, despite external uncertainties.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Government Budgeting (indirectly through financial sector health)",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2024-12-27",
+      "source": "Reserve Bank of India (RBI)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "RBI",
+        "Financial Stability",
+        "Indian Economy",
+        "Banking Sector",
+        "NPAs",
+        "Monetary Policy"
+      ],
+      "keyTerms": [
+        "Financial Stability Report (FSR)",
+        "Non-Performing Assets (NPAs)",
+        "Capital Adequacy Ratio (CAR)",
+        "Basel III Norms",
+        "Systemically Important Banks (D-SIBs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Publisher of the Financial Stability Report.",
+        "Definition of Non-Performing Assets (NPAs).",
+        "Components of capital adequacy ratio.",
+        "Role of RBI in maintaining financial stability."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the key findings of the RBI's Financial Stability Report and their implications for India's economic outlook.",
+        "Discuss the factors contributing to the resilience of the Indian financial system amidst global uncertainties.",
+        "Examine the challenges posed by climate change and cyber threats to financial stability in India.",
+        "Suggest measures to further strengthen the banking sector and improve asset quality in the long term."
+      ],
+      "imageDescription": "RBI logo prominently displayed with charts and graphs in the background, symbolizing financial data.",
+      "section": "Economy",
+      "trivia": "The RBI releases the Financial Stability Report twice a year, typically in June and December.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Financial Market",
+        "topic": "Banking and Monetary Policy"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "brics-academic-forum-2024",
+      "headline": "India Hosts 14th BRICS Academic Forum, Focus on Multilateralism and Global Governance Reforms",
+      "explainer": "• India hosted the 14th BRICS Academic Forum, bringing together scholars, policymakers, and experts from BRICS nations to discuss critical global issues.\n• The forum's agenda centered on strengthening multilateralism, reforming global governance institutions, and fostering sustainable development.\n• Discussions included strategies for enhancing economic cooperation, technological collaboration, and cultural exchanges among BRICS members.\n• Participants emphasized the need for greater representation of developing countries in international decision-making bodies.\n• The recommendations from the forum will contribute to the agenda of the upcoming BRICS Leaders' Summit.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests",
+        "Important International institutions, agencies and fora, their structure, mandate."
+      ],
+      "date": "2024-12-27",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "BRICS",
+        "International Relations",
+        "Multilateralism",
+        "Global Governance",
+        "Economic Cooperation",
+        "Developing Countries"
+      ],
+      "keyTerms": [
+        "BRICS (Brazil, Russia, India, China, South Africa)",
+        "New Development Bank (NDB)",
+        "Contingent Reserve Arrangement (CRA)",
+        "Multilateral Institutions"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Member countries of BRICS.",
+        "Key objectives of BRICS cooperation.",
+        "Role of New Development Bank (NDB).",
+        "Concept of multilateralism."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of BRICS as a grouping for India's foreign policy objectives and economic interests.",
+        "Analyze the role of BRICS in advocating for reforms in global governance institutions and promoting a multipolar world order.",
+        "Examine the challenges and opportunities for enhanced cooperation among BRICS nations in trade, technology, and sustainable development.",
+        "Evaluate the effectiveness of BRICS in addressing contemporary global challenges such as climate change and geopolitical tensions."
+      ],
+      "imageDescription": "Logos of BRICS nations displayed on a screen during a conference.",
+      "section": "International",
+      "trivia": "The term 'BRIC' was coined in 2001 by Goldman Sachs economist Jim O'Neill to describe the four emerging economies of Brazil, Russia, India, and China.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Groupings",
+        "topic": "BRICS"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "national-cyber-security-policy-2024",
+      "headline": "National Cyber Security Policy 2024 Unveiled, Focus on Critical Infrastructure Protection",
+      "explainer": "• The Ministry of Electronics and Information Technology (MeitY) unveiled the new National Cyber Security Policy 2024, aiming to build a resilient and secure cyberspace for India.\n• The policy prioritizes the protection of critical information infrastructure (CII) across sectors like energy, finance, and telecommunications.\n• It emphasizes public-private partnerships, international cooperation, and capacity building to counter evolving cyber threats.\n• Key provisions include mandatory cyber security audits, establishment of a National Cyber Security Research and Innovation Hub, and promoting indigenous cyber security products.\n• The policy seeks to foster a culture of cyber hygiene and awareness among citizens and organizations.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention."
+      ],
+      "date": "2024-12-27",
+      "source": "Ministry of Electronics and Information Technology (MeitY)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Cyber Security",
+        "National Security",
+        "Critical Infrastructure",
+        "Digital India",
+        "Cyber Warfare",
+        "Government Policy"
+      ],
+      "keyTerms": [
+        "Critical Information Infrastructure (CII)",
+        "National Cyber Security Coordinator (NCSC)",
+        "CERT-In (Indian Computer Emergency Response Team)",
+        "Cyber Hygiene",
+        "Public-Private Partnership (PPP)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key objectives of the National Cyber Security Policy 2024.",
+        "Definition of Critical Information Infrastructure (CII).",
+        "Role of CERT-In.",
+        "Components of a robust cyber security framework."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolving landscape of cyber threats and the necessity for a comprehensive National Cyber Security Policy in India.",
+        "Analyze the effectiveness of the 2024 policy in protecting India's critical infrastructure and promoting a secure digital environment.",
+        "Examine the challenges in implementing cyber security measures, particularly in fostering public-private cooperation and indigenous development.",
+        "Suggest further policy interventions required to make India cyber-resilient in the face of advanced persistent threats."
+      ],
+      "imageDescription": "Abstract digital network lines forming a shield, symbolizing cyber protection.",
+      "section": "Security",
+      "trivia": "India's first National Cyber Security Policy was launched in 2013, focusing on protecting information infrastructure and promoting cyber security research.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Cyber Security",
+        "topic": "Government Policies on Cyber Security"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "ayushman-bharat-digital-mission-2-0",
+      "headline": "Ministry of Health Launches 'Ayushman Bharat Digital Mission 2.0' for Enhanced Digital Health Ecosystem",
+      "explainer": "• The Ministry of Health and Family Welfare launched 'Ayushman Bharat Digital Mission (ABDM) 2.0', an advanced phase of its flagship digital health initiative.\n• This version focuses on universalizing health records, ensuring seamless interoperability between various healthcare providers, and integrating AI for predictive health analytics.\n• It aims to create a comprehensive digital health ecosystem, including health IDs for all citizens, digitized medical records, and telemedicine services.\n• ABDM 2.0 seeks to improve accessibility, affordability, and quality of healthcare services across the country, especially in rural and underserved areas.\n• The mission leverages cutting-edge technology to transform India's healthcare landscape and achieve Universal Health Coverage.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "E-governance- applications, models, successes, limitations, and potential."
+      ],
+      "date": "2024-12-27",
+      "source": "Ministry of Health & Family Welfare",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Digital Health",
+        "Ayushman Bharat",
+        "Healthcare",
+        "E-governance",
+        "Telemedicine",
+        "Public Health"
+      ],
+      "keyTerms": [
+        "Ayushman Bharat Digital Mission (ABDM)",
+        "Health ID",
+        "Health Records",
+        "Interoperability",
+        "Universal Health Coverage (UHC)",
+        "National Health Authority (NHA)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Objectives and features of Ayushman Bharat Digital Mission.",
+        "Concept of a 'Health ID'.",
+        "Role of National Health Authority (NHA).",
+        "Benefits of telemedicine and digital health records."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss how Ayushman Bharat Digital Mission 2.0 can revolutionize healthcare delivery and access in India, especially in rural areas.",
+        "Analyze the challenges involved in creating a truly interoperable and secure digital health ecosystem across the country.",
+        "Evaluate the potential of AI and data analytics in improving public health outcomes and predictive healthcare under ABDM 2.0.",
+        "Examine the ethical and privacy concerns associated with large-scale digitization of health records and how they can be addressed."
+      ],
+      "imageDescription": "Digital health interface showing medical data and a universal health ID, symbolizing interconnected healthcare.",
+      "section": "National",
+      "trivia": "The Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) is the world's largest government-funded health insurance scheme.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Health",
+        "topic": "Government Schemes for Health"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "asi-ancient-trade-route",
+      "headline": "ASI Uncovers Ancient Trade Route Artifacts in Karnataka, Shedding Light on Historical Commerce",
+      "explainer": "• The Archaeological Survey of India (ASI) announced significant discoveries of artifacts along a suspected ancient trade route in parts of Karnataka.\n• Excavations have unearthed pottery, coinage, and structural remains indicating a flourishing commercial network dating back to the early historic period.\n• The findings suggest links with major ancient ports and inland trade centers, highlighting Karnataka's historical importance as a hub for inter-regional and international commerce.\n• This discovery provides crucial insights into the economic activities, cultural exchanges, and urban planning of ancient South India.\n• Further research is expected to map the full extent of this trade route and its connections with other historical sites.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, literature and Architecture from ancient to modern times.",
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes."
+      ],
+      "date": "2024-12-27",
+      "source": "Archaeological Survey of India (ASI)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Archaeology",
+        "Ancient India",
+        "Karnataka History",
+        "Trade Routes",
+        "Cultural Heritage",
+        "ASI"
+      ],
+      "keyTerms": [
+        "Archaeological Survey of India (ASI)",
+        "Early Historic Period",
+        "Indo-Roman Trade",
+        "Spice Route",
+        "Port Cities"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Role and mandate of ASI.",
+        "Major ancient trade routes of India (e.g., Silk Route, Dakshinapatha).",
+        "Significant ancient ports in South India (e.g., Arikamedu).",
+        "Types of artifacts found (pottery, coinage, structures)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of archaeological discoveries in reconstructing India's ancient economic and cultural history.",
+        "Analyze how ancient trade routes facilitated cultural exchange and the spread of ideas and technologies in India.",
+        "Examine the role of maritime trade in connecting South India with the wider world during the early historic period.",
+        "Evaluate the challenges and ethical considerations in archaeological excavations and preservation of historical sites."
+      ],
+      "imageDescription": "Archaeologists carefully excavating artifacts from a trench at a historical site.",
+      "section": "National",
+      "trivia": "Karnataka has been home to several powerful ancient and medieval empires, including the Kadambas, Western Gangas, Rashtrakutas, Chalukyas, Hoysalas, and the Vijayanagara Empire.",
+      "prelimsSyllabus": {
+        "subject": "History of India",
+        "area": "Ancient History",
+        "topic": "Trade and Commerce"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "green-hydrogen-policy-2024",
+      "headline": "Government Approves New Policy for Promoting Green Hydrogen Production and Export",
+      "explainer": "• The Union Cabinet approved a comprehensive National Green Hydrogen Policy 2024, aiming to establish India as a global hub for green hydrogen production and export.\n• The policy offers incentives for both production and consumption of green hydrogen, including financial support for pilot projects and R&D.\n• It mandates blending green hydrogen in specific industrial sectors and sets targets for reducing dependence on fossil fuels.\n• The initiative is crucial for India's energy security, decarbonization goals, and achieving its Net Zero emissions target by 2070.\n• This move is expected to attract significant domestic and foreign investment into the green hydrogen ecosystem.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Science and Technology- developments and their applications and effects in everyday life."
+      ],
+      "date": "2024-12-27",
+      "source": "Ministry of New and Renewable Energy",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "Renewable Energy",
+        "Energy Security",
+        "Climate Change",
+        "Decarbonization",
+        "Government Policy"
+      ],
+      "keyTerms": [
+        "Green Hydrogen",
+        "Electrolysis",
+        "National Green Hydrogen Mission",
+        "Net Zero Emissions",
+        "Power-to-X"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Definition of Green Hydrogen vs. Grey/Blue Hydrogen.",
+        "Process of producing Green Hydrogen (electrolysis).",
+        "India's Net Zero target year.",
+        "Applications of Green Hydrogen."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of Green Hydrogen for India's energy transition, climate goals, and economic growth.",
+        "Analyze the key provisions of the National Green Hydrogen Policy 2024 and their potential to catalyze the sector.",
+        "Examine the challenges in scaling up green hydrogen production and developing a robust supply chain in India.",
+        "Evaluate how this policy positions India in the global green energy landscape and its implications for international cooperation."
+      ],
+      "imageDescription": "Stylized image of a hydrogen molecule with green leaves, symbolizing eco-friendly energy.",
+      "section": "Environment",
+      "trivia": "Hydrogen is the most abundant chemical substance in the universe, but it rarely exists as a free gas on Earth.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Renewable Energy",
+        "topic": "Green Hydrogen"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "ucc-parliamentary-panel-report",
+      "headline": "Debate Intensifies Over Uniform Civil Code, Parliamentary Panel Submits Report",
+      "explainer": "• The parliamentary standing committee on Law and Justice submitted its report on the feasibility and implications of implementing a Uniform Civil Code (UCC) in India.\n• The report is expected to outline various perspectives from stakeholders, including religious bodies, legal experts, and civil society organizations.\n• The debate surrounding UCC intensified, with proponents arguing for national unity and gender justice, while opponents raise concerns about religious freedom and cultural diversity.\n• Article 44 of the Indian Constitution, a Directive Principle of State Policy, calls for the State to endeavor to secure a UCC for its citizens.\n• The government's stance and potential next steps on this sensitive issue are keenly awaited, following the panel's recommendations.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+        "Salient features of Indian Society, Diversity of India."
+      ],
+      "date": "2024-12-27",
+      "source": "PTI",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Uniform Civil Code",
+        "Indian Constitution",
+        "Directive Principles",
+        "Religious Freedom",
+        "Gender Justice",
+        "Parliamentary Committee"
+      ],
+      "keyTerms": [
+        "Uniform Civil Code (UCC)",
+        "Article 44",
+        "Directive Principles of State Policy (DPSP)",
+        "Personal Laws",
+        "Religious Pluralism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Constitutional provision for UCC (Article 44).",
+        "UCC as a Directive Principle of State Policy.",
+        "Goa as the only Indian state with a UCC.",
+        "Difference between Fundamental Rights and DPSPs."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the constitutional mandate and historical context of the Uniform Civil Code in India.",
+        "Analyze the arguments for and against the implementation of UCC, considering aspects of national integration, gender justice, and religious freedom.",
+        "Examine the challenges involved in drafting and implementing a UCC in a diverse country like India, with various personal laws.",
+        "Evaluate the potential socio-political implications of introducing a UCC and suggest a balanced approach to address the concerns of all stakeholders."
+      ],
+      "imageDescription": "Indian Constitution book with a gavel, symbolizing legal and constitutional debate.",
+      "section": "National",
+      "trivia": "Goa is the only state in India that currently has a Uniform Civil Code, inherited from its Portuguese colonial past.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Constitution",
+        "topic": "Directive Principles of State Policy"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "manufacturing-pmi-december",
+      "headline": "India's Manufacturing PMI Shows Robust Growth in December, Signaling Economic Recovery",
+      "explainer": "• India's Manufacturing Purchasing Managers' Index (PMI) registered robust growth in December, indicating strong economic activity at the year-end.\n• The index showed expansion in new orders, production, and employment, driven by both domestic and export demand.\n• This sustained growth in the manufacturing sector is a positive sign for the overall economic recovery and job creation.\n• However, input cost inflation remains a concern, which could potentially impact future output prices.\n• The positive PMI data reinforces expectations of continued economic momentum into the next fiscal quarter.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2024-12-27",
+      "source": "Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Indian Economy",
+        "Manufacturing",
+        "PMI",
+        "Economic Growth",
+        "Industrial Production",
+        "Inflation"
+      ],
+      "keyTerms": [
+        "Purchasing Managers' Index (PMI)",
+        "Gross Domestic Product (GDP)",
+        "Industrial Production Index (IIP)",
+        "Inflation",
+        "Economic Indicators"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "What PMI measures and its significance as an economic indicator.",
+        "Difference between PMI above 50 and below 50.",
+        "Components of PMI (new orders, output, employment, etc.).",
+        "Other key economic indicators for India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the implications of robust Manufacturing PMI data for India's economic growth trajectory and policy decisions.",
+        "Discuss the factors contributing to the resilience of India's manufacturing sector amidst global economic uncertainties.",
+        "Examine the challenges posed by input cost inflation and how it might affect future industrial growth and consumer prices.",
+        "Suggest measures to sustain and accelerate manufacturing growth in India, aligning with initiatives like 'Make in India'."
+      ],
+      "imageDescription": "Industrial factory setting with machinery, symbolizing manufacturing activity.",
+      "section": "Economy",
+      "trivia": "The PMI is a survey-based economic indicator derived from monthly surveys of private sector companies, providing insights into business conditions.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Economic Growth and Development",
+        "topic": "Economic Indicators"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "wildlife-census-western-ghats",
+      "headline": "Wildlife Census 2024 Reveals Encouraging Trends in Tiger and Elephant Populations in Western Ghats",
+      "explainer": "• The latest Wildlife Census for 2024, focusing on the Western Ghats region, has reported encouraging increases in the populations of Bengal tigers and Asian elephants.\n• The census, conducted using advanced methodologies including camera trapping and DNA analysis, indicates successful conservation efforts in protected areas.\n• The Western Ghats, a UNESCO World Heritage Site, is a biodiversity hotspot and crucial habitat for numerous endemic species.\n• Challenges such as habitat fragmentation, human-wildlife conflict, and climate change effects continue to pose threats, despite the positive trends.\n• The findings underscore the importance of continued monitoring, community involvement, and effective policy implementation for long-term conservation.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Biodiversity and its conservation."
+      ],
+      "date": "2024-12-27",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Wildlife Conservation",
+        "Tiger Census",
+        "Elephant Census",
+        "Western Ghats",
+        "Biodiversity",
+        "Protected Areas"
+      ],
+      "keyTerms": [
+        "Project Tiger",
+        "Project Elephant",
+        "Biodiversity Hotspot",
+        "UNESCO World Heritage Site",
+        "Camera Trapping",
+        "Human-Wildlife Conflict"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Location and significance of Western Ghats as a biodiversity hotspot.",
+        "Key conservation projects for tigers and elephants (Project Tiger, Project Elephant).",
+        "Census methodologies for wildlife population estimation.",
+        "Threats to wildlife in India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the Western Ghats as a biodiversity hotspot and the challenges it faces in wildlife conservation.",
+        "Analyze the factors contributing to the positive trends in tiger and elephant populations, highlighting successful conservation strategies.",
+        "Examine the persistent threats to wildlife in the region, such as habitat loss and human-wildlife conflict, and suggest mitigation measures.",
+        "Evaluate the role of community participation and technological advancements in effective wildlife monitoring and conservation efforts."
+      ],
+      "imageDescription": "A majestic Bengal tiger walking through dense forest, symbolizing wildlife.",
+      "section": "Environment",
+      "trivia": "The Western Ghats are older than the Himalayas and are recognized as one of the world's eight 'hottest hotspots' of biological diversity.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Biodiversity",
+        "topic": "Wildlife Conservation"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "sc-habeas-corpus-national-security",
+      "headline": "Supreme Court Clarifies Limits of 'Habeas Corpus' in Cases Involving National Security",
+      "explainer": "• The Supreme Court, in a recent judgment, clarified the scope and limitations of the writ of 'Habeas Corpus' when national security concerns are invoked by the state.\n• The court reiterated that while 'Habeas Corpus' is a fundamental right, its exercise can be subject to reasonable restrictions in extraordinary circumstances involving national security.\n• It emphasized the need for a rigorous judicial review to prevent arbitrary detention, even in such cases, ensuring due process is followed.\n• The judgment provided a framework for courts to balance individual liberty against the imperatives of national security.\n• This ruling is crucial for understanding the interplay between fundamental rights, state power, and judicial oversight in sensitive matters.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+        "Fundamental Rights."
+      ],
+      "date": "2024-12-27",
+      "source": "Live Law",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Habeas Corpus",
+        "Supreme Court",
+        "Fundamental Rights",
+        "National Security",
+        "Judicial Review",
+        "Preventive Detention"
+      ],
+      "keyTerms": [
+        "Habeas Corpus",
+        "Article 21 (Right to Life and Personal Liberty)",
+        "Preventive Detention",
+        "Rule of Law",
+        "Judicial Activism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Types of writs in the Indian Constitution.",
+        "Meaning and purpose of 'Habeas Corpus'.",
+        "Constitutional articles related to fundamental rights and personal liberty.",
+        "Concept of 'reasonable restrictions' on fundamental rights."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the writ of Habeas Corpus as a guardian of individual liberty in India.",
+        "Analyze how the Supreme Court balances individual freedom with national security concerns, particularly in cases of preventive detention.",
+        "Examine the challenges faced by the judiciary in exercising its review powers when the state invokes national security arguments.",
+        "Evaluate the implications of this judgment for human rights and the rule of law in India's democratic framework."
+      ],
+      "imageDescription": "A hand holding a legal document with 'Habeas Corpus' written, against a backdrop of the Indian flag.",
+      "section": "National",
+      "trivia": "The term 'Habeas Corpus' is Latin for 'You may have the body,' referring to a legal writ demanding that a person under arrest be brought before a court or judge.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Constitution",
+        "topic": "Writs"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-asean-fta-review",
+      "headline": "India-ASEAN Free Trade Agreement Review Concludes, Aiming for Deeper Economic Integration",
+      "explainer": "• The review of the India-ASEAN Free Trade Agreement (FTA) in Goods concluded successfully, paving the way for further liberalization of trade and investment.\n• The revised agreement aims to address existing trade imbalances, reduce non-tariff barriers, and enhance market access for Indian goods and services in ASEAN countries.\n• Discussions focused on diversifying supply chains, promoting digital trade, and fostering greater regional economic connectivity.\n• This move is crucial for India's 'Act East' policy and its ambition to strengthen economic ties with Southeast Asian nations.\n• The updated FTA is expected to boost bilateral trade significantly and create new opportunities for businesses in both regions.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests.",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2024-12-27",
+      "source": "Ministry of Commerce & Industry",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "India-ASEAN",
+        "Free Trade Agreement",
+        "Act East Policy",
+        "Economic Integration",
+        "Trade Policy",
+        "Southeast Asia"
+      ],
+      "keyTerms": [
+        "ASEAN (Association of Southeast Asian Nations)",
+        "Free Trade Agreement (FTA)",
+        "Non-Tariff Barriers (NTBs)",
+        "Regional Comprehensive Economic Partnership (RCEP)",
+        "Supply Chain Resilience Initiative (SCRI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Member countries of ASEAN.",
+        "Objectives of a Free Trade Agreement (FTA).",
+        "India's 'Act East' Policy.",
+        "Difference between FTA and CEPA (Comprehensive Economic Partnership Agreement)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic and economic significance of the India-ASEAN Free Trade Agreement for India's foreign policy and trade objectives.",
+        "Analyze the key changes introduced in the revised FTA and their potential impact on bilateral trade and investment flows.",
+        "Examine the challenges and opportunities in enhancing economic integration between India and ASEAN countries.",
+        "Evaluate how the updated FTA contributes to India's 'Act East' policy and its broader engagement in the Indo-Pacific region."
+      ],
+      "imageDescription": "Flags of India and ASEAN countries together, symbolizing cooperation.",
+      "section": "International",
+      "trivia": "ASEAN was founded in 1967 by Indonesia, Malaysia, the Philippines, Singapore, and Thailand, with subsequent members joining over the years.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Regional Groupings",
+        "topic": "ASEAN"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-education-policy-implementation-review",
+      "headline": "National Education Policy 2020 Implementation Reviewed, Focus on Foundational Literacy and Numeracy",
+      "explainer": "• The Ministry of Education conducted a comprehensive review of the implementation progress of the National Education Policy (NEP) 2020.\n• The review highlighted significant strides in integrating technology in education and promoting multidisciplinary learning.\n• A key focus area for accelerated implementation is foundational literacy and numeracy (FLN) across primary schools, under the NIPUN Bharat Mission.\n• Challenges identified include infrastructure gaps, teacher training, and ensuring equitable access to quality education in remote areas.\n• The government reaffirmed its commitment to the NEP's transformative vision, with targeted interventions planned for the upcoming academic year.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2024-12-27",
+      "source": "Ministry of Education",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "National Education Policy",
+        "Education Reform",
+        "Foundational Literacy",
+        "Numeracy",
+        "NIPUN Bharat",
+        "Teacher Training"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP) 2020",
+        "Foundational Literacy and Numeracy (FLN)",
+        "NIPUN Bharat Mission",
+        "Multidisciplinary Education",
+        "Gross Enrolment Ratio (GER)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key pillars and objectives of NEP 2020.",
+        "Aim of NIPUN Bharat Mission.",
+        "Concept of multidisciplinary education.",
+        "Recommendations of K. Kasturirangan Committee (NEP)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of the National Education Policy 2020 in reforming India's education system.",
+        "Analyze the progress and challenges in implementing key recommendations of NEP, particularly in foundational literacy and numeracy.",
+        "Examine the role of technology and teacher training in achieving the goals of NEP 2020 and ensuring equitable access to quality education.",
+        "Suggest innovative strategies to overcome infrastructure gaps and promote multidisciplinary learning in higher education as per NEP guidelines."
+      ],
+      "imageDescription": "Children in a classroom learning with digital tools, symbolizing modern education.",
+      "section": "National",
+      "trivia": "The National Education Policy 2020 is the first education policy of the 21st century, replacing the 34-year-old National Policy on Education (NPE), 1986.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Education",
+        "topic": "Government Policies on Education"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "indus-water-treaty-talks",
+      "headline": "India-Pakistan Hold Bilateral Talks on Indus Waters Treaty, Address Technical Issues",
+      "explainer": "• Officials from India and Pakistan held bilateral talks under the framework of the Indus Waters Treaty (IWT) to discuss technical aspects of various hydroelectric projects.\n• The Permanent Indus Commission (PIC) meeting aimed to resolve differences and ensure the smooth implementation of the treaty provisions.\n• Discussions focused on the design and operational aspects of India's run-of-the-river projects on the Western rivers, which Pakistan has raised concerns about.\n• Both sides reiterated their commitment to the IWT, a crucial agreement for water sharing in the region, despite broader bilateral tensions.\n• Such technical talks are vital for maintaining peace and cooperation on transboundary water resources.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests."
+      ],
+      "date": "2024-12-27",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Indus Waters Treaty",
+        "India-Pakistan Relations",
+        "Water Diplomacy",
+        "Hydroelectric Projects",
+        "Bilateral Talks",
+        "International Law"
+      ],
+      "keyTerms": [
+        "Indus Waters Treaty (IWT) 1960",
+        "Permanent Indus Commission (PIC)",
+        "Eastern Rivers (Ravi, Beas, Sutlej)",
+        "Western Rivers (Indus, Jhelum, Chenab)",
+        "Run-of-the-River Projects"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Signatories and year of the Indus Waters Treaty.",
+        "Rivers allocated to India and Pakistan under IWT.",
+        "Role of the Permanent Indus Commission.",
+        "Concept of 'run-of-the-river' hydroelectric projects."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the historical context and significance of the Indus Waters Treaty as a model for transboundary water sharing.",
+        "Analyze the challenges in implementing the IWT between India and Pakistan, particularly concerning hydroelectric projects on Western rivers.",
+        "Examine the role of the Permanent Indus Commission in resolving disputes and promoting cooperation on water resources.",
+        "Evaluate the broader implications of water diplomacy for India-Pakistan relations amidst ongoing geopolitical tensions."
+      ],
+      "imageDescription": "Map showing the Indus River system with India and Pakistan, symbolizing water sharing.",
+      "section": "International",
+      "trivia": "The Indus Waters Treaty was brokered by the World Bank and signed in 1960 by India's Prime Minister Jawaharlal Nehru and Pakistan's President Ayub Khan.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India and its Neighbourhood",
+        "topic": "India-Pakistan Relations"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "g20-tourism-roadmap",
+      "headline": "G20 Tourism Ministers Endorse India's Roadmap for Sustainable Tourism",
+      "explainer": "• The G20 Tourism Ministers' Meeting concluded with an endorsement of India's proposed 'Goa Roadmap for Tourism' focusing on sustainable and responsible tourism practices.\n• The roadmap outlines priorities such as green tourism, digitalization, skill development, and destination management for a resilient tourism sector.\n• India emphasized the potential of tourism for economic growth, job creation, and cultural preservation, especially in developing economies.\n• Discussions also covered strategies to promote inclusive growth and community involvement in tourism development post-pandemic.\n• The G20 members pledged to collaborate on implementing the roadmap to foster a more sustainable and equitable global tourism industry.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2024-12-27",
+      "source": "Ministry of Tourism",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "G20",
+        "Tourism",
+        "Sustainable Tourism",
+        "Economic Development",
+        "Cultural Diplomacy",
+        "Global Cooperation"
+      ],
+      "keyTerms": [
+        "G20 (Group of Twenty)",
+        "Sustainable Development Goals (SDGs)",
+        "Green Tourism",
+        "Digitalization in Tourism",
+        "Responsible Tourism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Purpose and members of G20.",
+        "Concept of sustainable tourism.",
+        "India's initiatives for promoting tourism (e.g., Dekho Apna Desh).",
+        "Economic significance of tourism for India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the 'Goa Roadmap for Tourism' in promoting sustainable and responsible tourism practices globally and for India.",
+        "Analyze how green tourism and digitalization can transform the tourism sector, contributing to economic growth and job creation.",
+        "Examine the challenges faced by the tourism industry in achieving sustainability and inclusivity, especially in the post-pandemic era.",
+        "Evaluate the role of international cooperation, particularly through forums like G20, in shaping global tourism policies and practices."
+      ],
+      "imageDescription": "A picturesque beach in Goa with tourists, symbolizing sustainable tourism.",
+      "section": "Economy",
+      "trivia": "Tourism is a major contributor to India's GDP and employment, with diverse attractions ranging from historical sites to natural wonders.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Growth and Development",
+        "topic": "Tourism Sector"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "Supreme Court delivers landmark judgment upholding Right to Digital Privacy in the age of AI, setting guidelines for data usage.",
+    "India-Africa Summit concludes with pledges for enhanced cooperation in trade, technology transfer, and climate resilience.",
+    "Government launches 'PM-Kisan Samriddhi' scheme to integrate agricultural support and boost farmer incomes.",
+    "ISRO successfully tests its next-generation Reusable Launch Vehicle (RLV), advancing towards affordable space access.",
+    "National Cyber Security Policy 2024 unveiled, prioritizing protection of critical information infrastructure and promoting indigenous solutions."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the Supreme Court's recent ruling on Digital Privacy and AI, consider the following statements:\n1. The 'Right to Digital Privacy' has been affirmed as an intrinsic part of Article 19 of the Indian Constitution.\n2. The judgment mandates strict consent mechanisms for personal data collection and processing by AI systems.\n3. It calls for a robust regulatory framework to govern AI development, focusing on algorithmic transparency.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 2 and 3 only",
+      "explanation": "Statement 1 is incorrect. The 'Right to Privacy' (including digital privacy) has been affirmed as an intrinsic part of Article 21 (Right to Life and Personal Liberty), not Article 19, by the Supreme Court in the Puttaswamy judgment (2017) and subsequently. Statements 2 and 3 are correct as per the recent ruling on AI data usage."
+    },
+    {
+      "question": "Which of the following is NOT a key focus area of the recently launched 'PM-Kisan Samriddhi Yojana'?",
+      "options": [
+        "(a) Promoting precision farming techniques",
+        "(b) Providing direct benefit transfers for input subsidies",
+        "(c) Mandating crop diversification for all farmers",
+        "(d) Strengthening Farmer Producer Organizations (FPOs)"
+      ],
+      "answer": "(c) Mandating crop diversification for all farmers",
+      "explanation": "While the PM-Kisan Samriddhi Yojana promotes crop diversification, it does not mandate it for all farmers. The scheme focuses on encouraging climate-resilient agriculture and diversification into high-value crops as a strategy, rather than a blanket mandate. Precision farming, DBT, and FPO strengthening are direct components."
+    },
+    {
+      "question": "Consider the following statements regarding the Reusable Launch Vehicle (RLV) technology developed by ISRO:\n1. RLV aims to reduce space mission costs and enhance launch frequency.\n2. It primarily focuses on deploying satellites into Geostationary Transfer Orbit (GTO) only.\n3. The RLV program is a step towards developing a two-stage-to-orbit (TSTO) fully reusable launch system.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 3 only",
+      "explanation": "Statement 1 is correct, as cost reduction and increased launch frequency are primary goals of RLV. Statement 2 is incorrect; RLV technology is versatile and not limited to GTO, aiming for broader applications including manned missions and various satellite deployments. Statement 3 is correct, as ISRO's RLV program aims for a TSTO fully reusable system."
+    },
+    {
+      "question": "With reference to the National Cyber Security Policy 2024, which of the following statements is/are correct?\n1. It emphasizes public-private partnerships to counter evolving cyber threats.\n2. The policy mandates mandatory cyber security audits for all government departments only.\n3. It focuses on the protection of Critical Information Infrastructure (CII).\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 1 and 3 only",
+        "(d) 2 and 3 only"
+      ],
+      "answer": "(c) 1 and 3 only",
+      "explanation": "Statement 1 is correct; the policy emphasizes public-private partnerships. Statement 2 is incorrect; while it mandates audits, it is likely to extend beyond only government departments to critical sectors and potentially private entities handling sensitive data. Statement 3 is correct, as protection of CII is a core focus."
+    },
+    {
+      "question": "Which of the following Articles of the Indian Constitution is related to the Uniform Civil Code (UCC)?",
+      "options": [
+        "(a) Article 39",
+        "(b) Article 44",
+        "(c) Article 48",
+        "(d) Article 51"
+      ],
+      "answer": "(b) Article 44",
+      "explanation": "Article 44 of the Indian Constitution states that 'The State shall endeavour to secure for the citizens a Uniform Civil Code throughout the territory of India.' It is a Directive Principle of State Policy."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "The Supreme Court's recent judgment on digital privacy and AI governance marks a significant evolution in India's legal framework. Discuss the challenges in balancing technological innovation with fundamental rights, and suggest measures for effective AI regulation in India. (150 words)",
+      "syllabusMatch": "GS2: Indian Constitution—fundamental rights; GS3: Science and Technology- developments and their applications and effects in everyday life; Cyber Security",
+      "approach": "Introduce the SC ruling and its significance for Article 21. Discuss challenges: data exploitation, algorithmic bias, lack of transparency, rapid tech evolution. Propose measures: robust data protection law, independent regulatory body for AI, ethical AI guidelines, public awareness, international cooperation."
+    },
+    {
+      "question": "India's 'Act East' policy aims to strengthen economic and strategic ties with Southeast Asian nations. In this context, analyze the significance of the recently concluded review of the India-ASEAN Free Trade Agreement (FTA) and its potential to foster deeper regional economic integration. (250 words)",
+      "syllabusMatch": "GS2: Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests; GS3: Effects of liberalization on the economy",
+      "approach": "Begin by defining 'Act East' policy and the importance of ASEAN. Discuss the background and objectives of the India-ASEAN FTA. Analyze the key outcomes of the review, focusing on trade liberalization, reduction of non-tariff barriers, digital trade, and supply chain resilience. Evaluate how these changes can boost bilateral trade, attract investment, and enhance India's economic footprint in Southeast Asia. Conclude with the strategic implications for India's regional role."
+    },
+    {
+      "question": "The National Green Hydrogen Policy 2024 aims to position India as a global hub for green hydrogen. Discuss the strategic importance of green hydrogen for India's energy transition and climate goals. What are the key challenges in scaling up its production and deployment, and how does the new policy address them? (250 words)",
+      "syllabusMatch": "GS3: Conservation, environmental pollution and degradation; Infrastructure: Energy; Science and Technology- developments and their applications and effects in everyday life",
+      "approach": "Introduce Green Hydrogen and its role in decarbonization. Explain its strategic importance for India: energy security, meeting Net Zero targets (2070), reducing fossil fuel imports, and creating new industries. Outline challenges: high production costs, need for vast renewable energy, infrastructure for storage and transport, technological advancements. Detail how the new policy addresses these through incentives, R&D support, blending mandates, and investment promotion. Conclude with the long-term vision and potential impact."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The Supreme Court's 'Right to Privacy' judgment (Puttaswamy case) was delivered in 2017.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Privacy",
+        "SC Judgments"
+      ]
+    },
+    {
+      "text": "India is the 5th largest economy in the world by nominal GDP and 3rd largest by PPP.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Indian Economy",
+        "GDP"
+      ]
+    },
+    {
+      "text": "The Western Ghats are older than the Himalayan mountain range.",
+      "category": "geography",
+      "gsPaper": "GS1",
+      "tags": [
+        "Western Ghats",
+        "Biodiversity"
+      ]
+    },
+    {
+      "text": "Article 44 of the Indian Constitution is a Directive Principle of State Policy.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "UCC",
+        "DPSP"
+      ]
+    },
+    {
+      "text": "ISRO's Mars Orbiter Mission (Mangalyaan) was India's first interplanetary mission.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "Space"
+      ]
+    },
+    {
+      "text": "The Indus Waters Treaty (1960) was brokered by the World Bank.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "India-Pakistan",
+        "Water Treaty"
+      ]
+    },
+    {
+      "text": "PMI (Purchasing Managers' Index) above 50 indicates expansion in economic activity.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Economic Indicators",
+        "PMI"
+      ]
+    },
+    {
+      "text": "NIPUN Bharat Mission aims to ensure foundational literacy and numeracy for children.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "Education",
+        "NEP"
+      ]
+    },
+    {
+      "text": "Green hydrogen production uses renewable energy for electrolysis, producing zero emissions.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Energy",
+        "Hydrogen"
+      ]
+    },
+    {
+      "text": "CERT-In is the national agency for responding to computer security incidents in India.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "Cyber Security",
+        "Government Agencies"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "asi-ancient-trade-route",
+        "headline": "ASI Uncovers Ancient Trade Route Artifacts in Karnataka, Shedding Light on Historical Commerce",
+        "explainer": "• The Archaeological Survey of India (ASI) announced significant discoveries of artifacts along a suspected ancient trade route in parts of Karnataka.\n• Excavations have unearthed pottery, coinage, and structural remains indicating a flourishing commercial network dating back to the early historic period.\n• The findings suggest links with major ancient ports and inland trade centers, highlighting Karnataka's historical importance as a hub for inter-regional and international commerce.\n• This discovery provides crucial insights into the economic activities, cultural exchanges, and urban planning of ancient South India.\n• Further research is expected to map the full extent of this trade route and its connections with other historical sites.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, literature and Architecture from ancient to modern times.",
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes."
+        ],
+        "date": "2024-12-27",
+        "source": "Archaeological Survey of India (ASI)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Archaeology",
+          "Ancient India",
+          "Karnataka History",
+          "Trade Routes",
+          "Cultural Heritage",
+          "ASI"
+        ],
+        "keyTerms": [
+          "Archaeological Survey of India (ASI)",
+          "Early Historic Period",
+          "Indo-Roman Trade",
+          "Spice Route",
+          "Port Cities"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Role and mandate of ASI.",
+          "Major ancient trade routes of India (e.g., Silk Route, Dakshinapatha).",
+          "Significant ancient ports in South India (e.g., Arikamedu).",
+          "Types of artifacts found (pottery, coinage, structures)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of archaeological discoveries in reconstructing India's ancient economic and cultural history.",
+          "Analyze how ancient trade routes facilitated cultural exchange and the spread of ideas and technologies in India.",
+          "Examine the role of maritime trade in connecting South India with the wider world during the early historic period.",
+          "Evaluate the challenges and ethical considerations in archaeological excavations and preservation of historical sites."
+        ],
+        "imageDescription": "Archaeologists carefully excavating artifacts from a trench at a historical site.",
+        "section": "National",
+        "trivia": "Karnataka has been home to several powerful ancient and medieval empires, including the Kadambas, Western Gangas, Rashtrakutas, Chalukyas, Hoysalas, and the Vijayanagara Empire.",
+        "prelimsSyllabus": {
+          "subject": "History of India",
+          "area": "Ancient History",
+          "topic": "Trade and Commerce"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "sc-digital-privacy-ai-governance",
+        "headline": "Supreme Court Upholds Digital Privacy, Issues Guidelines for AI Data Usage",
+        "explainer": "• In a landmark ruling, the Supreme Court affirmed the 'Right to Digital Privacy' as an intrinsic part of Article 21, extending it to the era of Artificial Intelligence.\n• The judgment mandates strict consent mechanisms for personal data collection and processing by AI systems, especially in sensitive sectors.\n• It calls for a robust regulatory framework to govern AI development and deployment, focusing on algorithmic transparency and accountability.\n• The court emphasized the need for a balance between technological innovation and fundamental rights, urging the government to expedite data protection legislation.\n• This ruling is expected to have significant implications for tech companies, government surveillance, and future AI policy in India.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Fundamental Rights (Article 21)",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "E-governance- applications, models, successes, limitations, and potential"
+        ],
+        "date": "2024-12-27",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Digital Privacy",
+          "Artificial Intelligence",
+          "Supreme Court",
+          "Fundamental Rights",
+          "Data Protection",
+          "AI Governance"
+        ],
+        "keyTerms": [
+          "Right to Digital Privacy",
+          "Article 21",
+          "Algorithmic Transparency",
+          "Data Localisation",
+          "Personal Data Protection Bill"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Right to Privacy affirmed as part of Article 21 (Puttaswamy judgment reference).",
+          "Supreme Court's role in interpreting fundamental rights.",
+          "Key provisions of the proposed Digital Personal Data Protection Bill.",
+          "Concept of 'Algorithmic Bias' and 'Algorithmic Accountability'."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the implications of the SC ruling on data privacy for individuals and corporations in the AI era.",
+          "Analyze the challenges in balancing technological advancement with fundamental rights, particularly privacy.",
+          "Evaluate the need for a comprehensive legal framework for AI governance in India, drawing parallels with international practices.",
+          "Examine the role of the judiciary in shaping digital rights and promoting ethical AI development."
+        ],
+        "imageDescription": "Gavel placed on a digital tablet with AI code, symbolizing judicial oversight on technology.",
+        "section": "Lead Opinion",
+        "trivia": "India's Supreme Court judgment on the Right to Privacy in 2017 (Puttaswamy case) laid the groundwork for expanding privacy rights in the digital age.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Constitution",
+          "topic": "Fundamental Rights"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "india-africa-summit-2024",
+        "headline": "India-Africa Summit Concludes, Pledges Enhanced Cooperation in Trade, Tech, and Climate",
+        "explainer": "• The second India-Africa Forum Summit (IAFS) concluded in New Delhi, reinforcing India's commitment to strengthening ties with African nations.\n• Key agreements were signed focusing on increasing bilateral trade, facilitating technology transfer, and collaborative efforts in climate change adaptation and mitigation.\n• India announced new credit lines and capacity-building programs, particularly in areas of digital transformation, healthcare, and renewable energy.\n• Discussions highlighted mutual interests in reforming multilateral institutions and fostering a more equitable global order.\n• The summit underscored the importance of South-South cooperation for sustainable development and addressing global challenges.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests",
+          "Effects of liberalization on the economy (trade aspects)"
+        ],
+        "date": "2024-12-27",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "India-Africa Relations",
+          "Foreign Policy",
+          "Trade",
+          "Technology Transfer",
+          "Climate Change",
+          "South-South Cooperation"
+        ],
+        "keyTerms": [
+          "India-Africa Forum Summit (IAFS)",
+          "Credit Lines",
+          "Capacity Building",
+          "Multilateralism",
+          "Sustainable Development Goals (SDGs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Frequency and significance of India-Africa Forum Summit.",
+          "Key pillars of India's foreign policy towards Africa.",
+          "Major Indian initiatives or schemes for African development.",
+          "Examples of South-South cooperation."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic significance of India's engagement with Africa in the current geopolitical landscape.",
+          "Discuss the challenges and opportunities for enhancing trade and investment between India and African countries.",
+          "Evaluate India's role as a development partner for Africa, particularly in technology and climate action.",
+          "Examine how India-Africa cooperation can contribute to reforming global governance structures."
+        ],
+        "imageDescription": "Indian and African leaders shaking hands at a summit, with flags in the background.",
+        "section": "International",
+        "trivia": "India was one of the first countries to establish diplomatic relations with African nations, even before their independence from colonial rule.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India and its Neighbourhood",
+          "topic": "Bilateral Relations"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "brics-academic-forum-2024",
+        "headline": "India Hosts 14th BRICS Academic Forum, Focus on Multilateralism and Global Governance Reforms",
+        "explainer": "• India hosted the 14th BRICS Academic Forum, bringing together scholars, policymakers, and experts from BRICS nations to discuss critical global issues.\n• The forum's agenda centered on strengthening multilateralism, reforming global governance institutions, and fostering sustainable development.\n• Discussions included strategies for enhancing economic cooperation, technological collaboration, and cultural exchanges among BRICS members.\n• Participants emphasized the need for greater representation of developing countries in international decision-making bodies.\n• The recommendations from the forum will contribute to the agenda of the upcoming BRICS Leaders' Summit.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests",
+          "Important International institutions, agencies and fora, their structure, mandate."
+        ],
+        "date": "2024-12-27",
+        "source": "Ministry of External Affairs (MEA)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "BRICS",
+          "International Relations",
+          "Multilateralism",
+          "Global Governance",
+          "Economic Cooperation",
+          "Developing Countries"
+        ],
+        "keyTerms": [
+          "BRICS (Brazil, Russia, India, China, South Africa)",
+          "New Development Bank (NDB)",
+          "Contingent Reserve Arrangement (CRA)",
+          "Multilateral Institutions"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Member countries of BRICS.",
+          "Key objectives of BRICS cooperation.",
+          "Role of New Development Bank (NDB).",
+          "Concept of multilateralism."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of BRICS as a grouping for India's foreign policy objectives and economic interests.",
+          "Analyze the role of BRICS in advocating for reforms in global governance institutions and promoting a multipolar world order.",
+          "Examine the challenges and opportunities for enhanced cooperation among BRICS nations in trade, technology, and sustainable development.",
+          "Evaluate the effectiveness of BRICS in addressing contemporary global challenges such as climate change and geopolitical tensions."
+        ],
+        "imageDescription": "Logos of BRICS nations displayed on a screen during a conference.",
+        "section": "International",
+        "trivia": "The term 'BRIC' was coined in 2001 by Goldman Sachs economist Jim O'Neill to describe the four emerging economies of Brazil, Russia, India, and China.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Groupings",
+          "topic": "BRICS"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ayushman-bharat-digital-mission-2-0",
+        "headline": "Ministry of Health Launches 'Ayushman Bharat Digital Mission 2.0' for Enhanced Digital Health Ecosystem",
+        "explainer": "• The Ministry of Health and Family Welfare launched 'Ayushman Bharat Digital Mission (ABDM) 2.0', an advanced phase of its flagship digital health initiative.\n• This version focuses on universalizing health records, ensuring seamless interoperability between various healthcare providers, and integrating AI for predictive health analytics.\n• It aims to create a comprehensive digital health ecosystem, including health IDs for all citizens, digitized medical records, and telemedicine services.\n• ABDM 2.0 seeks to improve accessibility, affordability, and quality of healthcare services across the country, especially in rural and underserved areas.\n• The mission leverages cutting-edge technology to transform India's healthcare landscape and achieve Universal Health Coverage.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "E-governance- applications, models, successes, limitations, and potential."
+        ],
+        "date": "2024-12-27",
+        "source": "Ministry of Health & Family Welfare",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Digital Health",
+          "Ayushman Bharat",
+          "Healthcare",
+          "E-governance",
+          "Telemedicine",
+          "Public Health"
+        ],
+        "keyTerms": [
+          "Ayushman Bharat Digital Mission (ABDM)",
+          "Health ID",
+          "Health Records",
+          "Interoperability",
+          "Universal Health Coverage (UHC)",
+          "National Health Authority (NHA)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Objectives and features of Ayushman Bharat Digital Mission.",
+          "Concept of a 'Health ID'.",
+          "Role of National Health Authority (NHA).",
+          "Benefits of telemedicine and digital health records."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss how Ayushman Bharat Digital Mission 2.0 can revolutionize healthcare delivery and access in India, especially in rural areas.",
+          "Analyze the challenges involved in creating a truly interoperable and secure digital health ecosystem across the country.",
+          "Evaluate the potential of AI and data analytics in improving public health outcomes and predictive healthcare under ABDM 2.0.",
+          "Examine the ethical and privacy concerns associated with large-scale digitization of health records and how they can be addressed."
+        ],
+        "imageDescription": "Digital health interface showing medical data and a universal health ID, symbolizing interconnected healthcare.",
+        "section": "National",
+        "trivia": "The Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) is the world's largest government-funded health insurance scheme.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Health",
+          "topic": "Government Schemes for Health"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "ucc-parliamentary-panel-report",
+        "headline": "Debate Intensifies Over Uniform Civil Code, Parliamentary Panel Submits Report",
+        "explainer": "• The parliamentary standing committee on Law and Justice submitted its report on the feasibility and implications of implementing a Uniform Civil Code (UCC) in India.\n• The report is expected to outline various perspectives from stakeholders, including religious bodies, legal experts, and civil society organizations.\n• The debate surrounding UCC intensified, with proponents arguing for national unity and gender justice, while opponents raise concerns about religious freedom and cultural diversity.\n• Article 44 of the Indian Constitution, a Directive Principle of State Policy, calls for the State to endeavor to secure a UCC for its citizens.\n• The government's stance and potential next steps on this sensitive issue are keenly awaited, following the panel's recommendations.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+          "Salient features of Indian Society, Diversity of India."
+        ],
+        "date": "2024-12-27",
+        "source": "PTI",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Uniform Civil Code",
+          "Indian Constitution",
+          "Directive Principles",
+          "Religious Freedom",
+          "Gender Justice",
+          "Parliamentary Committee"
+        ],
+        "keyTerms": [
+          "Uniform Civil Code (UCC)",
+          "Article 44",
+          "Directive Principles of State Policy (DPSP)",
+          "Personal Laws",
+          "Religious Pluralism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Constitutional provision for UCC (Article 44).",
+          "UCC as a Directive Principle of State Policy.",
+          "Goa as the only Indian state with a UCC.",
+          "Difference between Fundamental Rights and DPSPs."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the constitutional mandate and historical context of the Uniform Civil Code in India.",
+          "Analyze the arguments for and against the implementation of UCC, considering aspects of national integration, gender justice, and religious freedom.",
+          "Examine the challenges involved in drafting and implementing a UCC in a diverse country like India, with various personal laws.",
+          "Evaluate the potential socio-political implications of introducing a UCC and suggest a balanced approach to address the concerns of all stakeholders."
+        ],
+        "imageDescription": "Indian Constitution book with a gavel, symbolizing legal and constitutional debate.",
+        "section": "National",
+        "trivia": "Goa is the only state in India that currently has a Uniform Civil Code, inherited from its Portuguese colonial past.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Constitution",
+          "topic": "Directive Principles of State Policy"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "sc-habeas-corpus-national-security",
+        "headline": "Supreme Court Clarifies Limits of 'Habeas Corpus' in Cases Involving National Security",
+        "explainer": "• The Supreme Court, in a recent judgment, clarified the scope and limitations of the writ of 'Habeas Corpus' when national security concerns are invoked by the state.\n• The court reiterated that while 'Habeas Corpus' is a fundamental right, its exercise can be subject to reasonable restrictions in extraordinary circumstances involving national security.\n• It emphasized the need for a rigorous judicial review to prevent arbitrary detention, even in such cases, ensuring due process is followed.\n• The judgment provided a framework for courts to balance individual liberty against the imperatives of national security.\n• This ruling is crucial for understanding the interplay between fundamental rights, state power, and judicial oversight in sensitive matters.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+          "Fundamental Rights."
+        ],
+        "date": "2024-12-27",
+        "source": "Live Law",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Habeas Corpus",
+          "Supreme Court",
+          "Fundamental Rights",
+          "National Security",
+          "Judicial Review",
+          "Preventive Detention"
+        ],
+        "keyTerms": [
+          "Habeas Corpus",
+          "Article 21 (Right to Life and Personal Liberty)",
+          "Preventive Detention",
+          "Rule of Law",
+          "Judicial Activism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Types of writs in the Indian Constitution.",
+          "Meaning and purpose of 'Habeas Corpus'.",
+          "Constitutional articles related to fundamental rights and personal liberty.",
+          "Concept of 'reasonable restrictions' on fundamental rights."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the writ of Habeas Corpus as a guardian of individual liberty in India.",
+          "Analyze how the Supreme Court balances individual freedom with national security concerns, particularly in cases of preventive detention.",
+          "Examine the challenges faced by the judiciary in exercising its review powers when the state invokes national security arguments.",
+          "Evaluate the implications of this judgment for human rights and the rule of law in India's democratic framework."
+        ],
+        "imageDescription": "A hand holding a legal document with 'Habeas Corpus' written, against a backdrop of the Indian flag.",
+        "section": "National",
+        "trivia": "The term 'Habeas Corpus' is Latin for 'You may have the body,' referring to a legal writ demanding that a person under arrest be brought before a court or judge.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Constitution",
+          "topic": "Writs"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-asean-fta-review",
+        "headline": "India-ASEAN Free Trade Agreement Review Concludes, Aiming for Deeper Economic Integration",
+        "explainer": "• The review of the India-ASEAN Free Trade Agreement (FTA) in Goods concluded successfully, paving the way for further liberalization of trade and investment.\n• The revised agreement aims to address existing trade imbalances, reduce non-tariff barriers, and enhance market access for Indian goods and services in ASEAN countries.\n• Discussions focused on diversifying supply chains, promoting digital trade, and fostering greater regional economic connectivity.\n• This move is crucial for India's 'Act East' policy and its ambition to strengthen economic ties with Southeast Asian nations.\n• The updated FTA is expected to boost bilateral trade significantly and create new opportunities for businesses in both regions.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests.",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2024-12-27",
+        "source": "Ministry of Commerce & Industry",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "India-ASEAN",
+          "Free Trade Agreement",
+          "Act East Policy",
+          "Economic Integration",
+          "Trade Policy",
+          "Southeast Asia"
+        ],
+        "keyTerms": [
+          "ASEAN (Association of Southeast Asian Nations)",
+          "Free Trade Agreement (FTA)",
+          "Non-Tariff Barriers (NTBs)",
+          "Regional Comprehensive Economic Partnership (RCEP)",
+          "Supply Chain Resilience Initiative (SCRI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Member countries of ASEAN.",
+          "Objectives of a Free Trade Agreement (FTA).",
+          "India's 'Act East' Policy.",
+          "Difference between FTA and CEPA (Comprehensive Economic Partnership Agreement)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic and economic significance of the India-ASEAN Free Trade Agreement for India's foreign policy and trade objectives.",
+          "Analyze the key changes introduced in the revised FTA and their potential impact on bilateral trade and investment flows.",
+          "Examine the challenges and opportunities in enhancing economic integration between India and ASEAN countries.",
+          "Evaluate how the updated FTA contributes to India's 'Act East' policy and its broader engagement in the Indo-Pacific region."
+        ],
+        "imageDescription": "Flags of India and ASEAN countries together, symbolizing cooperation.",
+        "section": "International",
+        "trivia": "ASEAN was founded in 1967 by Indonesia, Malaysia, the Philippines, Singapore, and Thailand, with subsequent members joining over the years.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Regional Groupings",
+          "topic": "ASEAN"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-education-policy-implementation-review",
+        "headline": "National Education Policy 2020 Implementation Reviewed, Focus on Foundational Literacy and Numeracy",
+        "explainer": "• The Ministry of Education conducted a comprehensive review of the implementation progress of the National Education Policy (NEP) 2020.\n• The review highlighted significant strides in integrating technology in education and promoting multidisciplinary learning.\n• A key focus area for accelerated implementation is foundational literacy and numeracy (FLN) across primary schools, under the NIPUN Bharat Mission.\n• Challenges identified include infrastructure gaps, teacher training, and ensuring equitable access to quality education in remote areas.\n• The government reaffirmed its commitment to the NEP's transformative vision, with targeted interventions planned for the upcoming academic year.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2024-12-27",
+        "source": "Ministry of Education",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "National Education Policy",
+          "Education Reform",
+          "Foundational Literacy",
+          "Numeracy",
+          "NIPUN Bharat",
+          "Teacher Training"
+        ],
+        "keyTerms": [
+          "National Education Policy (NEP) 2020",
+          "Foundational Literacy and Numeracy (FLN)",
+          "NIPUN Bharat Mission",
+          "Multidisciplinary Education",
+          "Gross Enrolment Ratio (GER)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key pillars and objectives of NEP 2020.",
+          "Aim of NIPUN Bharat Mission.",
+          "Concept of multidisciplinary education.",
+          "Recommendations of K. Kasturirangan Committee (NEP)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the transformative potential of the National Education Policy 2020 in reforming India's education system.",
+          "Analyze the progress and challenges in implementing key recommendations of NEP, particularly in foundational literacy and numeracy.",
+          "Examine the role of technology and teacher training in achieving the goals of NEP 2020 and ensuring equitable access to quality education.",
+          "Suggest innovative strategies to overcome infrastructure gaps and promote multidisciplinary learning in higher education as per NEP guidelines."
+        ],
+        "imageDescription": "Children in a classroom learning with digital tools, symbolizing modern education.",
+        "section": "National",
+        "trivia": "The National Education Policy 2020 is the first education policy of the 21st century, replacing the 34-year-old National Policy on Education (NPE), 1986.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Education",
+          "topic": "Government Policies on Education"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "indus-water-treaty-talks",
+        "headline": "India-Pakistan Hold Bilateral Talks on Indus Waters Treaty, Address Technical Issues",
+        "explainer": "• Officials from India and Pakistan held bilateral talks under the framework of the Indus Waters Treaty (IWT) to discuss technical aspects of various hydroelectric projects.\n• The Permanent Indus Commission (PIC) meeting aimed to resolve differences and ensure the smooth implementation of the treaty provisions.\n• Discussions focused on the design and operational aspects of India's run-of-the-river projects on the Western rivers, which Pakistan has raised concerns about.\n• Both sides reiterated their commitment to the IWT, a crucial agreement for water sharing in the region, despite broader bilateral tensions.\n• Such technical talks are vital for maintaining peace and cooperation on transboundary water resources.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests."
+        ],
+        "date": "2024-12-27",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Indus Waters Treaty",
+          "India-Pakistan Relations",
+          "Water Diplomacy",
+          "Hydroelectric Projects",
+          "Bilateral Talks",
+          "International Law"
+        ],
+        "keyTerms": [
+          "Indus Waters Treaty (IWT) 1960",
+          "Permanent Indus Commission (PIC)",
+          "Eastern Rivers (Ravi, Beas, Sutlej)",
+          "Western Rivers (Indus, Jhelum, Chenab)",
+          "Run-of-the-River Projects"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Signatories and year of the Indus Waters Treaty.",
+          "Rivers allocated to India and Pakistan under IWT.",
+          "Role of the Permanent Indus Commission.",
+          "Concept of 'run-of-the-river' hydroelectric projects."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the historical context and significance of the Indus Waters Treaty as a model for transboundary water sharing.",
+          "Analyze the challenges in implementing the IWT between India and Pakistan, particularly concerning hydroelectric projects on Western rivers.",
+          "Examine the role of the Permanent Indus Commission in resolving disputes and promoting cooperation on water resources.",
+          "Evaluate the broader implications of water diplomacy for India-Pakistan relations amidst ongoing geopolitical tensions."
+        ],
+        "imageDescription": "Map showing the Indus River system with India and Pakistan, symbolizing water sharing.",
+        "section": "International",
+        "trivia": "The Indus Waters Treaty was brokered by the World Bank and signed in 1960 by India's Prime Minister Jawaharlal Nehru and Pakistan's President Ayub Khan.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India and its Neighbourhood",
+          "topic": "India-Pakistan Relations"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "pm-kisan-samriddhi-scheme",
+        "headline": "Government Launches 'PM-Kisan Samriddhi' to Boost Agricultural Productivity and Farmer Income",
+        "explainer": "• The Union Government launched the 'PM-Kisan Samriddhi Yojana', a comprehensive scheme aimed at enhancing agricultural productivity and ensuring higher incomes for farmers.\n• The scheme integrates various existing agricultural support programs, focusing on precision farming, soil health management, and access to advanced farm machinery.\n• It includes provisions for direct benefit transfers for input subsidies and promotes farmer producer organizations (FPOs) for better market linkages.\n• Special emphasis is placed on climate-resilient agriculture and diversification into high-value crops.\n• The initiative seeks to achieve sustainable agricultural growth and improve the overall socio-economic status of the farming community.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Major crops-cropping patterns in various parts of the country, - different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers",
+          "Issues related to direct and indirect farm subsidies and minimum support prices; Public Distribution System- objectives, functioning, limitations, revamping; issues of buffer stocks and food security; Technology missions; economics of animal-rearing.",
+          "Food processing and related industries in India- scope’ and significance, location, upstream and downstream requirements, supply chain management."
+        ],
+        "date": "2024-12-27",
+        "source": "Ministry of Agriculture & Farmers Welfare",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Agriculture",
+          "Farmer Income",
+          "Government Schemes",
+          "Agricultural Productivity",
+          "FPOs",
+          "Sustainable Agriculture"
+        ],
+        "keyTerms": [
+          "PM-Kisan Samriddhi Yojana",
+          "Precision Farming",
+          "Soil Health Card Scheme",
+          "Direct Benefit Transfer (DBT)",
+          "Farmer Producer Organizations (FPOs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Objectives and components of PM-Kisan Samriddhi Yojana.",
+          "Existing schemes integrated into the new program (e.g., PM-KISAN, Soil Health Card).",
+          "Role of FPOs in agricultural value chains.",
+          "Concepts of climate-resilient agriculture and crop diversification."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically evaluate the potential impact of PM-Kisan Samriddhi Yojana on doubling farmer incomes and agricultural sustainability.",
+          "Discuss the challenges in implementing such a comprehensive agricultural scheme across diverse agro-climatic zones.",
+          "Analyze how technology and FPOs can transform Indian agriculture, as envisioned by the scheme.",
+          "Examine the role of government subsidies and market reforms in ensuring food security and farmer welfare."
+        ],
+        "imageDescription": "Farmers working in a field with modern agricultural machinery under a clear sky.",
+        "section": "National",
+        "trivia": "India is the world's second-largest producer of rice, wheat, sugarcane, cotton, and groundnuts.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy and Social Development",
+          "area": "Agriculture",
+          "topic": "Government Policies in Agriculture"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "isro-rlv-test",
+        "headline": "ISRO Successfully Tests Next-Gen Reusable Launch Vehicle (RLV) for Future Space Missions",
+        "explainer": "• The Indian Space Research Organisation (ISRO) achieved a significant milestone with the successful test flight of its next-generation Reusable Launch Vehicle (RLV).\n• This test demonstrated critical technologies for autonomous landing and atmospheric re-entry, crucial for reducing space mission costs and enhancing launch frequency.\n• The RLV program aims to develop a two-stage-to-orbit (TSTO) fully reusable launch system, a major step towards affordable and sustainable space access.\n• This indigenous technology is vital for India's ambitious future space exploration plans, including manned missions and satellite deployment.\n• The success firmly places India among a select group of nations pursuing advanced reusable space technology.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+          "Space"
+        ],
+        "date": "2024-12-27",
+        "source": "ISRO",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Reusable Launch Vehicle",
+          "Space Technology",
+          "Space Exploration",
+          "Indigenous Technology",
+          "Aerospace"
+        ],
+        "keyTerms": [
+          "Reusable Launch Vehicle (RLV)",
+          "Two-Stage-to-Orbit (TSTO)",
+          "Atmospheric Re-entry",
+          "Autonomous Landing",
+          "Gaganyaan"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Purpose and significance of RLV technology.",
+          "Key features of ISRO's RLV program.",
+          "Difference between expendable and reusable launch vehicles.",
+          "Other countries developing similar technologies (e.g., SpaceX, NASA)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic and economic implications of developing reusable launch vehicle technology for India's space program.",
+          "Analyze how indigenous RLV technology contributes to India's self-reliance in space and its global positioning.",
+          "Examine the challenges involved in developing and deploying fully reusable space systems.",
+          "Evaluate the potential of RLV technology to make space access more affordable and sustainable for future missions."
+        ],
+        "imageDescription": "Conceptual image of ISRO's Reusable Launch Vehicle descending through the atmosphere.",
+        "section": "Science",
+        "trivia": "The first experimental flight of ISRO's RLV-TD (Technology Demonstrator) was successfully conducted in May 2016, marking a significant step towards this goal.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space Technology",
+          "topic": "ISRO Missions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "forest-conservation-rules-2024",
+        "headline": "New Forest Conservation Rules Notified, Emphasizing Community Role in Afforestation",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change has notified revised Forest (Conservation) Rules, 2024, aiming to streamline forest clearances and enhance conservation efforts.\n• A key feature is the greater emphasis on involving local communities and Gram Sabhas in the compensatory afforestation process and forest management.\n• The rules introduce clearer guidelines for diversion of forest land for non-forest purposes, while strengthening provisions for forest regeneration.\n• They also focus on integrating climate change mitigation and adaptation strategies into forest conservation plans.\n• Environmentalists and tribal rights groups are scrutinizing the rules for their potential impact on forest-dependent communities and biodiversity.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2024-12-27",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Forest Conservation",
+          "Environmental Policy",
+          "Compensatory Afforestation",
+          "Tribal Rights",
+          "Climate Change",
+          "Gram Sabha"
+        ],
+        "keyTerms": [
+          "Forest (Conservation) Act, 1980",
+          "Compensatory Afforestation Fund Act (CAMPA)",
+          "Forest Rights Act (FRA), 2006",
+          "Environmental Impact Assessment (EIA)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key provisions of the Forest Conservation Act, 1980.",
+          "Role of Gram Sabha under the Forest Rights Act, 2006.",
+          "Concept of compensatory afforestation.",
+          "Difference between reserved forest, protected forest, and village forest."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the objectives and potential impact of the new Forest Conservation Rules on forest governance and biodiversity conservation in India.",
+          "Discuss the challenges and opportunities in ensuring effective community participation in forest management and compensatory afforestation.",
+          "Evaluate the balance struck by the new rules between developmental needs and environmental protection.",
+          "Examine the criticisms and concerns raised by various stakeholders regarding the implementation of the rules."
+        ],
+        "imageDescription": "Lush green forest with sunlight filtering through trees, symbolizing conservation.",
+        "section": "Environment",
+        "trivia": "India's National Forest Policy aims to have at least 33% of the country's total land area under forest or tree cover.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Conservation",
+          "topic": "Forest Policies and Laws"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "rbi-financial-stability-report",
+        "headline": "RBI's Financial Stability Report Highlights Resilience of Indian Financial System",
+        "explainer": "• The Reserve Bank of India (RBI) released its half-yearly Financial Stability Report (FSR), indicating the continued resilience of the Indian financial system.\n• The report noted robust capital adequacy ratios of banks and a decline in non-performing assets (NPAs), reflecting improved asset quality.\n• It cautioned against global headwinds, including geopolitical tensions and volatile commodity prices, which could pose risks to domestic stability.\n• The FSR emphasized the need for continuous vigilance and proactive measures to address emerging risks from climate change and cyber threats.\n• Overall, the report expressed confidence in the financial sector's ability to support economic growth, despite external uncertainties.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Government Budgeting (indirectly through financial sector health)",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2024-12-27",
+        "source": "Reserve Bank of India (RBI)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "RBI",
+          "Financial Stability",
+          "Indian Economy",
+          "Banking Sector",
+          "NPAs",
+          "Monetary Policy"
+        ],
+        "keyTerms": [
+          "Financial Stability Report (FSR)",
+          "Non-Performing Assets (NPAs)",
+          "Capital Adequacy Ratio (CAR)",
+          "Basel III Norms",
+          "Systemically Important Banks (D-SIBs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Publisher of the Financial Stability Report.",
+          "Definition of Non-Performing Assets (NPAs).",
+          "Components of capital adequacy ratio.",
+          "Role of RBI in maintaining financial stability."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the key findings of the RBI's Financial Stability Report and their implications for India's economic outlook.",
+          "Discuss the factors contributing to the resilience of the Indian financial system amidst global uncertainties.",
+          "Examine the challenges posed by climate change and cyber threats to financial stability in India.",
+          "Suggest measures to further strengthen the banking sector and improve asset quality in the long term."
+        ],
+        "imageDescription": "RBI logo prominently displayed with charts and graphs in the background, symbolizing financial data.",
+        "section": "Economy",
+        "trivia": "The RBI releases the Financial Stability Report twice a year, typically in June and December.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Financial Market",
+          "topic": "Banking and Monetary Policy"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "national-cyber-security-policy-2024",
+        "headline": "National Cyber Security Policy 2024 Unveiled, Focus on Critical Infrastructure Protection",
+        "explainer": "• The Ministry of Electronics and Information Technology (MeitY) unveiled the new National Cyber Security Policy 2024, aiming to build a resilient and secure cyberspace for India.\n• The policy prioritizes the protection of critical information infrastructure (CII) across sectors like energy, finance, and telecommunications.\n• It emphasizes public-private partnerships, international cooperation, and capacity building to counter evolving cyber threats.\n• Key provisions include mandatory cyber security audits, establishment of a National Cyber Security Research and Innovation Hub, and promoting indigenous cyber security products.\n• The policy seeks to foster a culture of cyber hygiene and awareness among citizens and organizations.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention."
+        ],
+        "date": "2024-12-27",
+        "source": "Ministry of Electronics and Information Technology (MeitY)",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Cyber Security",
+          "National Security",
+          "Critical Infrastructure",
+          "Digital India",
+          "Cyber Warfare",
+          "Government Policy"
+        ],
+        "keyTerms": [
+          "Critical Information Infrastructure (CII)",
+          "National Cyber Security Coordinator (NCSC)",
+          "CERT-In (Indian Computer Emergency Response Team)",
+          "Cyber Hygiene",
+          "Public-Private Partnership (PPP)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key objectives of the National Cyber Security Policy 2024.",
+          "Definition of Critical Information Infrastructure (CII).",
+          "Role of CERT-In.",
+          "Components of a robust cyber security framework."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolving landscape of cyber threats and the necessity for a comprehensive National Cyber Security Policy in India.",
+          "Analyze the effectiveness of the 2024 policy in protecting India's critical infrastructure and promoting a secure digital environment.",
+          "Examine the challenges in implementing cyber security measures, particularly in fostering public-private cooperation and indigenous development.",
+          "Suggest further policy interventions required to make India cyber-resilient in the face of advanced persistent threats."
+        ],
+        "imageDescription": "Abstract digital network lines forming a shield, symbolizing cyber protection.",
+        "section": "Security",
+        "trivia": "India's first National Cyber Security Policy was launched in 2013, focusing on protecting information infrastructure and promoting cyber security research.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Cyber Security",
+          "topic": "Government Policies on Cyber Security"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "green-hydrogen-policy-2024",
+        "headline": "Government Approves New Policy for Promoting Green Hydrogen Production and Export",
+        "explainer": "• The Union Cabinet approved a comprehensive National Green Hydrogen Policy 2024, aiming to establish India as a global hub for green hydrogen production and export.\n• The policy offers incentives for both production and consumption of green hydrogen, including financial support for pilot projects and R&D.\n• It mandates blending green hydrogen in specific industrial sectors and sets targets for reducing dependence on fossil fuels.\n• The initiative is crucial for India's energy security, decarbonization goals, and achieving its Net Zero emissions target by 2070.\n• This move is expected to attract significant domestic and foreign investment into the green hydrogen ecosystem.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Science and Technology- developments and their applications and effects in everyday life."
+        ],
+        "date": "2024-12-27",
+        "source": "Ministry of New and Renewable Energy",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Green Hydrogen",
+          "Renewable Energy",
+          "Energy Security",
+          "Climate Change",
+          "Decarbonization",
+          "Government Policy"
+        ],
+        "keyTerms": [
+          "Green Hydrogen",
+          "Electrolysis",
+          "National Green Hydrogen Mission",
+          "Net Zero Emissions",
+          "Power-to-X"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Definition of Green Hydrogen vs. Grey/Blue Hydrogen.",
+          "Process of producing Green Hydrogen (electrolysis).",
+          "India's Net Zero target year.",
+          "Applications of Green Hydrogen."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of Green Hydrogen for India's energy transition, climate goals, and economic growth.",
+          "Analyze the key provisions of the National Green Hydrogen Policy 2024 and their potential to catalyze the sector.",
+          "Examine the challenges in scaling up green hydrogen production and developing a robust supply chain in India.",
+          "Evaluate how this policy positions India in the global green energy landscape and its implications for international cooperation."
+        ],
+        "imageDescription": "Stylized image of a hydrogen molecule with green leaves, symbolizing eco-friendly energy.",
+        "section": "Environment",
+        "trivia": "Hydrogen is the most abundant chemical substance in the universe, but it rarely exists as a free gas on Earth.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Renewable Energy",
+          "topic": "Green Hydrogen"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "manufacturing-pmi-december",
+        "headline": "India's Manufacturing PMI Shows Robust Growth in December, Signaling Economic Recovery",
+        "explainer": "• India's Manufacturing Purchasing Managers' Index (PMI) registered robust growth in December, indicating strong economic activity at the year-end.\n• The index showed expansion in new orders, production, and employment, driven by both domestic and export demand.\n• This sustained growth in the manufacturing sector is a positive sign for the overall economic recovery and job creation.\n• However, input cost inflation remains a concern, which could potentially impact future output prices.\n• The positive PMI data reinforces expectations of continued economic momentum into the next fiscal quarter.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2024-12-27",
+        "source": "Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Indian Economy",
+          "Manufacturing",
+          "PMI",
+          "Economic Growth",
+          "Industrial Production",
+          "Inflation"
+        ],
+        "keyTerms": [
+          "Purchasing Managers' Index (PMI)",
+          "Gross Domestic Product (GDP)",
+          "Industrial Production Index (IIP)",
+          "Inflation",
+          "Economic Indicators"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "What PMI measures and its significance as an economic indicator.",
+          "Difference between PMI above 50 and below 50.",
+          "Components of PMI (new orders, output, employment, etc.).",
+          "Other key economic indicators for India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the implications of robust Manufacturing PMI data for India's economic growth trajectory and policy decisions.",
+          "Discuss the factors contributing to the resilience of India's manufacturing sector amidst global economic uncertainties.",
+          "Examine the challenges posed by input cost inflation and how it might affect future industrial growth and consumer prices.",
+          "Suggest measures to sustain and accelerate manufacturing growth in India, aligning with initiatives like 'Make in India'."
+        ],
+        "imageDescription": "Industrial factory setting with machinery, symbolizing manufacturing activity.",
+        "section": "Economy",
+        "trivia": "The PMI is a survey-based economic indicator derived from monthly surveys of private sector companies, providing insights into business conditions.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Economic Growth and Development",
+          "topic": "Economic Indicators"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "wildlife-census-western-ghats",
+        "headline": "Wildlife Census 2024 Reveals Encouraging Trends in Tiger and Elephant Populations in Western Ghats",
+        "explainer": "• The latest Wildlife Census for 2024, focusing on the Western Ghats region, has reported encouraging increases in the populations of Bengal tigers and Asian elephants.\n• The census, conducted using advanced methodologies including camera trapping and DNA analysis, indicates successful conservation efforts in protected areas.\n• The Western Ghats, a UNESCO World Heritage Site, is a biodiversity hotspot and crucial habitat for numerous endemic species.\n• Challenges such as habitat fragmentation, human-wildlife conflict, and climate change effects continue to pose threats, despite the positive trends.\n• The findings underscore the importance of continued monitoring, community involvement, and effective policy implementation for long-term conservation.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Biodiversity and its conservation."
+        ],
+        "date": "2024-12-27",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Wildlife Conservation",
+          "Tiger Census",
+          "Elephant Census",
+          "Western Ghats",
+          "Biodiversity",
+          "Protected Areas"
+        ],
+        "keyTerms": [
+          "Project Tiger",
+          "Project Elephant",
+          "Biodiversity Hotspot",
+          "UNESCO World Heritage Site",
+          "Camera Trapping",
+          "Human-Wildlife Conflict"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Location and significance of Western Ghats as a biodiversity hotspot.",
+          "Key conservation projects for tigers and elephants (Project Tiger, Project Elephant).",
+          "Census methodologies for wildlife population estimation.",
+          "Threats to wildlife in India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the Western Ghats as a biodiversity hotspot and the challenges it faces in wildlife conservation.",
+          "Analyze the factors contributing to the positive trends in tiger and elephant populations, highlighting successful conservation strategies.",
+          "Examine the persistent threats to wildlife in the region, such as habitat loss and human-wildlife conflict, and suggest mitigation measures.",
+          "Evaluate the role of community participation and technological advancements in effective wildlife monitoring and conservation efforts."
+        ],
+        "imageDescription": "A majestic Bengal tiger walking through dense forest, symbolizing wildlife.",
+        "section": "Environment",
+        "trivia": "The Western Ghats are older than the Himalayas and are recognized as one of the world's eight 'hottest hotspots' of biological diversity.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Biodiversity",
+          "topic": "Wildlife Conservation"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "g20-tourism-roadmap",
+        "headline": "G20 Tourism Ministers Endorse India's Roadmap for Sustainable Tourism",
+        "explainer": "• The G20 Tourism Ministers' Meeting concluded with an endorsement of India's proposed 'Goa Roadmap for Tourism' focusing on sustainable and responsible tourism practices.\n• The roadmap outlines priorities such as green tourism, digitalization, skill development, and destination management for a resilient tourism sector.\n• India emphasized the potential of tourism for economic growth, job creation, and cultural preservation, especially in developing economies.\n• Discussions also covered strategies to promote inclusive growth and community involvement in tourism development post-pandemic.\n• The G20 members pledged to collaborate on implementing the roadmap to foster a more sustainable and equitable global tourism industry.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2024-12-27",
+        "source": "Ministry of Tourism",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "G20",
+          "Tourism",
+          "Sustainable Tourism",
+          "Economic Development",
+          "Cultural Diplomacy",
+          "Global Cooperation"
+        ],
+        "keyTerms": [
+          "G20 (Group of Twenty)",
+          "Sustainable Development Goals (SDGs)",
+          "Green Tourism",
+          "Digitalization in Tourism",
+          "Responsible Tourism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Purpose and members of G20.",
+          "Concept of sustainable tourism.",
+          "India's initiatives for promoting tourism (e.g., Dekho Apna Desh).",
+          "Economic significance of tourism for India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the 'Goa Roadmap for Tourism' in promoting sustainable and responsible tourism practices globally and for India.",
+          "Analyze how green tourism and digitalization can transform the tourism sector, contributing to economic growth and job creation.",
+          "Examine the challenges faced by the tourism industry in achieving sustainability and inclusivity, especially in the post-pandemic era.",
+          "Evaluate the role of international cooperation, particularly through forums like G20, in shaping global tourism policies and practices."
+        ],
+        "imageDescription": "A picturesque beach in Goa with tourists, symbolizing sustainable tourism.",
+        "section": "Economy",
+        "trivia": "Tourism is a major contributor to India's GDP and employment, with diverse attractions ranging from historical sites to natural wonders.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Growth and Development",
+          "topic": "Tourism Sector"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "The Hindu",
+    "Press Information Bureau (PIB)",
+    "Ministry of Agriculture & Farmers Welfare",
+    "ISRO",
+    "Ministry of Environment, Forest and Climate Change",
+    "Reserve Bank of India (RBI)",
+    "Ministry of External Affairs (MEA)",
+    "Ministry of Electronics and Information Technology (MeitY)",
+    "Ministry of Health & Family Welfare",
+    "Archaeological Survey of India (ASI)",
+    "Ministry of New and Renewable Energy",
+    "PTI",
+    "Economic Times",
+    "Live Law",
+    "Ministry of Commerce & Industry",
+    "Ministry of Education",
+    "The Economic Times",
+    "Ministry of Tourism"
+  ],
+  "totalScraped": 19,
+  "totalProcessed": 19
+}

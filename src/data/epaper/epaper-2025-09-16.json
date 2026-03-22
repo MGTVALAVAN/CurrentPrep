@@ -1,0 +1,2109 @@
+{
+  "date": "2025-09-16",
+  "dateFormatted": "Tuesday 16 September, 2025",
+  "lastUpdated": "2026-03-21T08:40:37.476Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "national-urban-resilience-mission-launch",
+      "headline": "Government Unveils 'National Urban Resilience Mission' for Sustainable Cities",
+      "explainer": "• The Union Cabinet approved the launch of the National Urban Resilience Mission (NURM) aiming to fortify Indian cities against climate change impacts and socio-economic shocks.\n• NURM will focus on integrated urban planning, green infrastructure development, climate-resilient housing, and digital governance.\n• The mission emphasizes participatory approaches, involving local bodies, private sector, and communities in urban development.\n• It seeks to enhance urban livability, economic productivity, and environmental sustainability across Tier-1 and Tier-2 cities.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors",
+        "Urbanization, their problems and their remedies",
+        "Disaster and disaster management"
+      ],
+      "date": "2025-09-16",
+      "source": "Ministry of Housing and Urban Affairs",
+      "sourceUrl": "https://example.com/nurm-launch-2025",
+      "importance": "high",
+      "tags": [
+        "urban development",
+        "climate resilience",
+        "sustainable cities",
+        "government schemes",
+        "infrastructure"
+      ],
+      "keyTerms": [
+        "National Urban Resilience Mission (NURM)",
+        "Integrated Urban Planning",
+        "Green Infrastructure",
+        "Climate Adaptation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Urban Resilience Mission (NURM) launched by Ministry of Housing and Urban Affairs.",
+        "Aims to make Indian cities resilient to climate change and socio-economic shocks.",
+        "Focuses on green infrastructure, resilient housing, and digital governance."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically analyze the potential of NURM in addressing the multifaceted challenges of rapid urbanization in India.",
+        "Discuss how NURM integrates climate change mitigation and adaptation strategies into urban planning.",
+        "Examine the role of technology and community participation envisioned under the mission for effective implementation."
+      ],
+      "imageDescription": "Illustration of a modern, green, and resilient city skyline.",
+      "section": "Lead Opinion",
+      "trivia": "India is projected to have 600 million urban residents by 2030, making robust urban planning crucial.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Government Policies and Interventions",
+        "topic": "Urban Development Schemes"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "isro-shukrayaan-2-venus-mission",
+      "headline": "ISRO Successfully Launches Shukrayaan-2 Mission to Venus",
+      "explainer": "• The Indian Space Research Organisation (ISRO) successfully launched its second mission to Venus, Shukrayaan-2, from Sriharikota.\n• The mission aims to study Venus's atmosphere, surface, and sub-surface composition, including its greenhouse effect and volcanic activity.\n• Shukrayaan-2 carries advanced scientific payloads, including a synthetic aperture radar (SAR) for surface mapping and an atmospheric probe.\n• This mission reinforces India's growing capabilities in interplanetary exploration and planetary science.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology",
+        "Indigenization of technology",
+        "Space technology"
+      ],
+      "date": "2025-09-16",
+      "source": "ISRO",
+      "sourceUrl": "https://www.isro.gov.in/shukrayaan2-launch",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Venus mission",
+        "space exploration",
+        "Shukrayaan-2",
+        "planetary science"
+      ],
+      "keyTerms": [
+        "Shukrayaan-2",
+        "Synthetic Aperture Radar (SAR)",
+        "Atmospheric Probe",
+        "Interplanetary Mission"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Shukrayaan-2 is India's second mission to Venus.",
+        "Launched by ISRO from Sriharikota.",
+        "Payloads include SAR for surface mapping and an atmospheric probe.",
+        "Aims to study Venus's atmosphere, surface, and sub-surface."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Evaluate the significance of Shukrayaan-2 in advancing India's position in global space exploration and scientific research.",
+        "Discuss the scientific objectives of the mission and how its findings could contribute to our understanding of planetary evolution and climate change on Earth.",
+        "Analyze the indigenous technological advancements demonstrated by ISRO in developing and launching such complex interplanetary missions."
+      ],
+      "imageDescription": "Artist's impression of the Shukrayaan-2 spacecraft orbiting Venus.",
+      "section": "Science",
+      "trivia": "Venus is often called Earth's 'sister planet' due to its similar size and mass, but it has an extremely hot and toxic atmosphere.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space Technology",
+        "topic": "Indian Space Missions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "g20-sustainable-development-finance-summit",
+      "headline": "India Hosts G20 Sustainable Development Finance Summit in New Delhi",
+      "explainer": "• India is hosting the G20 Sustainable Development Finance Summit in New Delhi, bringing together finance ministers and central bank governors.\n• The summit aims to strategize on mobilizing financial resources for achieving the UN Sustainable Development Goals (SDGs) amidst global economic challenges.\n• Key discussions include innovative financing mechanisms, debt sustainability for developing nations, and climate finance commitments.\n• India's presidency emphasizes a 'people-centric' approach to sustainable development, promoting equitable access to finance.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Important International institutions, agencies and fora, their structure, mandate"
+      ],
+      "date": "2025-09-16",
+      "source": "Ministry of Finance, Government of India",
+      "sourceUrl": "https://example.com/g20-sdf-summit",
+      "importance": "high",
+      "tags": [
+        "G20",
+        "sustainable development",
+        "climate finance",
+        "international cooperation",
+        "SDGs"
+      ],
+      "keyTerms": [
+        "G20 Summit",
+        "Sustainable Development Goals (SDGs)",
+        "Climate Finance",
+        "Debt Sustainability"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "G20 Sustainable Development Finance Summit hosted by India in New Delhi.",
+        "Focus on mobilizing finance for UN SDGs.",
+        "Discussions on innovative financing, debt sustainability, and climate finance."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze India's role and objectives in hosting the G20 Sustainable Development Finance Summit, particularly in the context of its global leadership aspirations.",
+        "Discuss the challenges in mobilizing adequate finance for SDGs globally and how the summit's outcomes could address these.",
+        "Examine the implications of the summit's deliberations on climate finance for developing countries, including India."
+      ],
+      "imageDescription": "Logo of the G20 with a backdrop of the Indian Parliament.",
+      "section": "International",
+      "trivia": "The G20 represents around two-thirds of the world's population, 85% of global GDP, and over 75% of global trade.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Global Groupings",
+        "topic": "G20 and India"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "national-wetlands-conservation-management-rules-2025",
+      "headline": "New National Wetlands Conservation and Management Rules, 2025 Notified",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change has notified the National Wetlands Conservation and Management Rules, 2025, replacing previous regulations.\n• The new rules aim for a more robust framework for the conservation, protection, and management of wetlands across India.\n• Key features include a decentralized approach with State/UT Wetland Authorities, a comprehensive list of prohibited activities, and emphasis on ecological character.\n• The rules are expected to strengthen India's commitments under the Ramsar Convention and enhance biodiversity protection.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation",
+        "Environmental impact assessment",
+        "Wetlands conservation"
+      ],
+      "date": "2025-09-16",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "https://example.com/wetlands-rules-2025",
+      "importance": "high",
+      "tags": [
+        "wetlands",
+        "conservation",
+        "environment policy",
+        "Ramsar Convention",
+        "biodiversity"
+      ],
+      "keyTerms": [
+        "National Wetlands Conservation and Management Rules",
+        "Ramsar Convention",
+        "Ecological Character",
+        "State/UT Wetland Authorities"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "New National Wetlands Conservation and Management Rules, 2025 notified.",
+        "Replaces previous regulations, aims for robust wetland protection.",
+        "Features include decentralized approach via State/UT Wetland Authorities.",
+        "Strengthens India's commitment to Ramsar Convention."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically evaluate the salient features of the National Wetlands Conservation and Management Rules, 2025, and their potential effectiveness in safeguarding India's wetlands.",
+        "Discuss the challenges in implementing wetland conservation policies in India, considering conflicting developmental pressures.",
+        "How do these new rules align with India's international commitments under the Ramsar Convention and other biodiversity agreements?"
+      ],
+      "imageDescription": "A serene wetland ecosystem with various bird species.",
+      "section": "Environment",
+      "trivia": "India has over 75 Ramsar sites, covering a wide range of wetland ecosystems.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Conservation",
+        "topic": "Wetlands and their Protection"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "sc-digital-privacy-vs-national-security",
+      "headline": "Supreme Court Begins Hearing on 'Right to Digital Privacy vs. National Security' Case",
+      "explainer": "• The Supreme Court of India commenced hearings on a landmark case concerning the delicate balance between an individual's right to digital privacy and the state's prerogative for national security.\n• The case specifically examines the legality of certain surveillance practices and data collection methods employed by government agencies.\n• Petitioners argue that unchecked state surveillance infringes upon fundamental rights guaranteed under Article 21 (Right to Life and Personal Liberty).\n• The ruling is expected to have significant implications for data protection laws, surveillance frameworks, and civil liberties in the digital age.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Fundamental Rights",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2025-09-16",
+      "source": "The Hindu",
+      "sourceUrl": "https://example.com/sc-digital-privacy-hearing",
+      "importance": "high",
+      "tags": [
+        "Supreme Court",
+        "digital privacy",
+        "national security",
+        "fundamental rights",
+        "surveillance",
+        "Article 21"
+      ],
+      "keyTerms": [
+        "Right to Digital Privacy",
+        "National Security",
+        "Surveillance Laws",
+        "Article 21",
+        "Data Protection"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Supreme Court hearing on digital privacy vs. national security.",
+        "Examines legality of state surveillance practices.",
+        "Relates to fundamental rights under Article 21 (Right to Life and Personal Liberty).",
+        "Expected to impact data protection and surveillance laws."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the constitutional perspective on the right to digital privacy in India, particularly in light of the Puttaswamy judgment.",
+        "Analyze the arguments for and against state surveillance in the context of national security, highlighting the need for a balanced approach.",
+        "Suggest potential legislative and technological safeguards that can protect individual privacy while addressing national security concerns."
+      ],
+      "imageDescription": "Gavel in front of a digital interface showing lock and data icons.",
+      "section": "National",
+      "trivia": "The landmark K.S. Puttaswamy judgment (2017) declared the Right to Privacy as a fundamental right under Article 21 of the Indian Constitution.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "rbi-financial-stability-report",
+      "headline": "RBI Releases Bi-Annual Financial Stability Report, Highlights Sectoral Risks",
+      "explainer": "• The Reserve Bank of India (RBI) released its bi-annual Financial Stability Report (FSR), assessing the health and resilience of the Indian financial system.\n• The report highlighted potential risks stemming from global economic volatility, rising interest rates, and specific sectoral vulnerabilities within the domestic economy.\n• It also assessed the asset quality of banks and non-banking financial companies (NBFCs), noting improvements in some areas but cautioning against emerging stress.\n• The FSR provides policy recommendations to maintain financial stability, including stricter regulatory oversight for certain segments.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Government Budgeting",
+        "Monetary policy"
+      ],
+      "date": "2025-09-16",
+      "source": "Reserve Bank of India",
+      "sourceUrl": "https://www.rbi.org.in/fsr-sep2025",
+      "importance": "medium",
+      "tags": [
+        "RBI",
+        "financial stability",
+        "economy",
+        "banking",
+        "NBFCs",
+        "monetary policy"
+      ],
+      "keyTerms": [
+        "Financial Stability Report (FSR)",
+        "Asset Quality",
+        "Non-Banking Financial Companies (NBFCs)",
+        "Monetary Policy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "RBI's Financial Stability Report (FSR) is a bi-annual publication.",
+        "Assesses health and resilience of Indian financial system.",
+        "Highlights global volatility, rising interest rates, and sectoral vulnerabilities.",
+        "Provides policy recommendations for financial stability."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the key findings of the latest RBI Financial Stability Report concerning the health of India's banking and non-banking financial sectors.",
+        "Discuss the major risks identified by the RBI to India's financial stability and the policy measures suggested to mitigate them.",
+        "Examine the role of the FSR in informing monetary policy decisions and regulatory interventions by the RBI."
+      ],
+      "imageDescription": "RBI logo with graphs depicting financial trends.",
+      "section": "Economy",
+      "trivia": "The Financial Stability Report is a statutory report published by the RBI.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Monetary Policy and Banking",
+        "topic": "Financial Stability"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "border-area-development-program-2.0",
+      "headline": "Ministry of Home Affairs Initiates 'Border Area Development Program 2.0'",
+      "explainer": "• The Ministry of Home Affairs (MHA) has launched the 'Border Area Development Program (BADP) 2.0', a revamped initiative for comprehensive development of border regions.\n• BADP 2.0 focuses on integrating advanced technology, improving critical infrastructure, and enhancing socio-economic opportunities in remote border villages.\n• The program aims to strengthen national security by fostering a sense of belonging among border populations and deterring cross-border illegal activities.\n• Special emphasis is placed on connectivity, digital literacy, and sustainable livelihood projects tailored to the unique needs of each border region.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security challenges and their management in border areas",
+        "Linkages of organized crime with terrorism",
+        "Development processes and the development industry — the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders"
+      ],
+      "date": "2025-09-16",
+      "source": "Ministry of Home Affairs",
+      "sourceUrl": "https://example.com/badp-2.0-launch",
+      "importance": "medium",
+      "tags": [
+        "border security",
+        "border development",
+        "MHA",
+        "internal security",
+        "infrastructure"
+      ],
+      "keyTerms": [
+        "Border Area Development Program (BADP)",
+        "Border Management",
+        "Socio-economic Development",
+        "National Security"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Border Area Development Program (BADP) 2.0 launched by MHA.",
+        "Focuses on technology integration, infrastructure, and socio-economic opportunities in border areas.",
+        "Aims to strengthen national security and deter illegal activities.",
+        "Emphasizes connectivity, digital literacy, and sustainable livelihoods."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolution and objectives of the Border Area Development Program (BADP) and how BADP 2.0 addresses previous shortcomings.",
+        "Analyze the correlation between border area development and national security, particularly in preventing cross-border infiltration and radicalization.",
+        "Examine the challenges in implementing development programs in remote and sensitive border regions and suggest measures for effective execution."
+      ],
+      "imageDescription": "Map of India highlighting border regions with developmental activities.",
+      "section": "National",
+      "trivia": "The original BADP was launched in the border areas of western region during the 7th Five Year Plan (1985-90).",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Border Management",
+        "topic": "Border Area Development"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ncw-gender-digital-divide-campaign",
+      "headline": "National Commission for Women Launches Pan-India Campaign on Gender Digital Divide",
+      "explainer": "• The National Commission for Women (NCW) launched a pan-India awareness campaign titled 'Bridging the Digital Gender Divide' to promote digital literacy and inclusion among women.\n• The initiative aims to empower women by providing access to digital resources, online education, and entrepreneurial opportunities.\n• The campaign will address barriers such as lack of access to devices, internet connectivity, digital skills, and societal norms that restrict women's digital participation.\n• It aligns with government efforts to foster gender equality and harness the potential of women in the digital economy.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Role of women and women’s organization",
+        "Social empowerment",
+        "Effects of globalization on Indian society"
+      ],
+      "date": "2025-09-16",
+      "source": "National Commission for Women",
+      "sourceUrl": "https://example.com/ncw-digital-divide",
+      "importance": "medium",
+      "tags": [
+        "women empowerment",
+        "digital literacy",
+        "gender equality",
+        "NCW",
+        "social inclusion"
+      ],
+      "keyTerms": [
+        "Gender Digital Divide",
+        "Digital Literacy",
+        "National Commission for Women (NCW)",
+        "Women Empowerment"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NCW launched 'Bridging the Digital Gender Divide' campaign.",
+        "Aims to promote digital literacy and inclusion among women.",
+        "Addresses barriers like access, connectivity, and skills.",
+        "Supports women's participation in the digital economy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the multi-dimensional nature of the digital gender divide in India and its implications for women's empowerment and economic participation.",
+        "Evaluate the effectiveness of initiatives like the NCW campaign in bridging this divide, considering the socio-cultural and economic barriers.",
+        "Suggest comprehensive policy measures and community-level interventions to ensure equitable access and utilization of digital technologies by women."
+      ],
+      "imageDescription": "Women using digital devices in a rural setting, symbolizing digital inclusion.",
+      "section": "National",
+      "trivia": "Studies indicate that women are 43% less likely than men to use the internet in South Asia.",
+      "prelimsSyllabus": {
+        "subject": "Indian Society",
+        "area": "Women and Society",
+        "topic": "Gender Equality and Digital Inclusion"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "shivram-bhoje-nuclear-scientist-passes-away",
+      "headline": "Dr. Shivram Bhoje, Architect of India's Fast Breeder Reactor Programme, Dies at 83",
+      "explainer": "• Renowned nuclear scientist Dr. Shivram Bhoje, instrumental in India's Fast Breeder Reactor (FBR) program, passed away at the age of 83.\n• Bhoje served as the Director of the Indira Gandhi Centre for Atomic Research (IGCAR) and played a pivotal role in the design and commissioning of the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam.\n• His contributions were crucial for India's three-stage nuclear power program, particularly in utilizing thorium reserves.\n• He was a recipient of the Padma Shri and several other prestigious awards for his pioneering work in nuclear energy.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology",
+        "Nuclear technology",
+        "Energy resources"
+      ],
+      "date": "2025-09-16",
+      "source": "Department of Atomic Energy",
+      "sourceUrl": "https://example.com/shivram-bhoje-obit",
+      "importance": "high",
+      "tags": [
+        "nuclear scientist",
+        "Shivram Bhoje",
+        "Fast Breeder Reactor",
+        "IGCAR",
+        "nuclear energy",
+        "Padma Shri"
+      ],
+      "keyTerms": [
+        "Fast Breeder Reactor (FBR)",
+        "Indira Gandhi Centre for Atomic Research (IGCAR)",
+        "Prototype Fast Breeder Reactor (PFBR)",
+        "Three-Stage Nuclear Power Program"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Dr. Shivram Bhoje: Nuclear scientist, architect of India's Fast Breeder Reactor (FBR) program.",
+        "Former Director of IGCAR.",
+        "Key role in design and commissioning of PFBR at Kalpakkam.",
+        "Recipient of Padma Shri.",
+        "Contributions vital for India's three-stage nuclear power program."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the Fast Breeder Reactor technology in India's energy security and its three-stage nuclear power program.",
+        "Highlight the contributions of scientists like Dr. Shivram Bhoje in achieving self-reliance in critical technological domains.",
+        "Analyze the challenges and prospects of India's nuclear energy program in meeting future energy demands."
+      ],
+      "imageDescription": "Portrait of Dr. Shivram Bhoje.",
+      "section": "National",
+      "trivia": "India is one of the few countries pursuing Fast Breeder Reactor technology to utilize its vast thorium reserves.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Nuclear Technology",
+        "topic": "Atomic Energy Program"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "abdul-gani-bhat-kashmiri-activist-passes",
+      "headline": "Abdul Gani Bhat, Veteran Kashmiri Political Activist and MUF Co-founder, Dies at 90",
+      "explainer": "• Abdul Gani Bhat, a prominent Kashmiri political activist and a co-founder of the Muslim United Front (MUF), passed away at 90.\n• Bhat was a significant voice in Kashmir's political landscape, advocating for dialogue and peaceful resolution of the Kashmir issue.\n• The MUF, formed in 1987, was a political coalition that contested elections, marking a crucial, albeit controversial, period in the region's history.\n• His demise marks the end of an era for a generation of Kashmiri leaders who witnessed and shaped the region's complex political trajectory.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+        "Internal security"
+      ],
+      "date": "2025-09-16",
+      "source": "Greater Kashmir",
+      "sourceUrl": "https://example.com/abdul-gani-bhat-obit",
+      "importance": "medium",
+      "tags": [
+        "Kashmir politics",
+        "Abdul Gani Bhat",
+        "MUF",
+        "political activist",
+        "regional politics"
+      ],
+      "keyTerms": [
+        "Abdul Gani Bhat",
+        "Muslim United Front (MUF)",
+        "Kashmir Issue",
+        "Political Dialogue"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Abdul Gani Bhat: Kashmiri political activist, co-founder of Muslim United Front (MUF).",
+        "MUF formed in 1987, contested elections in J&K.",
+        "Advocated for dialogue and peaceful resolution in Kashmir."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the historical context and significance of the Muslim United Front (MUF) in Kashmir's political history.",
+        "Analyze the role of leaders like Abdul Gani Bhat in the political discourse surrounding the Kashmir issue, particularly their advocacy for dialogue.",
+        "Examine the challenges in achieving lasting peace and political stability in the Jammu and Kashmir region."
+      ],
+      "imageDescription": "Black and white photo of Abdul Gani Bhat.",
+      "section": "National",
+      "trivia": "The 1987 Jammu and Kashmir elections, which the MUF contested, are often cited as a turning point in the region's political history.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Federalism",
+        "topic": "Issues in Jammu and Kashmir"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "gajanan-mehendale-historian-maratha-history",
+      "headline": "Eminent Historian Gajanan Mehendale, Authority on Maratha History, Passes Away at 77",
+      "explainer": "• Gajanan Mehendale, a distinguished historian known for his extensive research and writings on Maratha history, passed away at 77.\n• Mehendale was particularly renowned for his meticulous work on Chhatrapati Shivaji Maharaj and the foundational period of the Maratha Empire.\n• His scholarly approach emphasized critical analysis of primary sources, contributing significantly to a nuanced understanding of medieval Indian history.\n• His demise is a loss to the academic community, particularly those specializing in regional Indian history and military strategies of the Marathas.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "History of India"
+      ],
+      "date": "2025-09-16",
+      "source": "Pune Mirror",
+      "sourceUrl": "https://example.com/mehendale-obit",
+      "importance": "medium",
+      "tags": [
+        "historian",
+        "Gajanan Mehendale",
+        "Maratha history",
+        "Shivaji Maharaj",
+        "medieval India"
+      ],
+      "keyTerms": [
+        "Gajanan Mehendale",
+        "Maratha Empire",
+        "Chhatrapati Shivaji Maharaj",
+        "Primary Sources"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Gajanan Mehendale: Eminent historian, authority on Maratha history.",
+        "Known for research on Chhatrapati Shivaji Maharaj.",
+        "Emphasized critical analysis of primary sources.",
+        "Contributed to understanding medieval Indian history."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the challenges in reconstructing medieval Indian history, particularly regional histories like that of the Marathas, and the importance of critical source analysis.",
+        "Highlight the contributions of Chhatrapati Shivaji Maharaj to statecraft and military strategy, as elucidated by historians like Mehendale.",
+        "Examine the evolving interpretations of Maratha history in Indian historiography."
+      ],
+      "imageDescription": "Old photograph of Gajanan Mehendale.",
+      "section": "National",
+      "trivia": "Shivaji Maharaj's coronation in 1674 marked the formal establishment of the Maratha Empire.",
+      "prelimsSyllabus": {
+        "subject": "Indian History",
+        "area": "Medieval History",
+        "topic": "Maratha Empire"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "s-l-bhyrappa-novelist-passes-away",
+      "headline": "Jnanpith Awardee S. L. Bhyrappa, Veteran Kannada Novelist, Dies at 94",
+      "explainer": "• Celebrated Kannada novelist and Jnanpith Award recipient, S. L. Bhyrappa, passed away at the age of 94.\n• Known for his philosophical depth, historical narratives, and social commentary, Bhyrappa authored over 25 novels, many translated into multiple languages.\n• His works often explored themes of human relationships, cultural conflicts, and the complexities of Indian society, sparking widespread debate.\n• Bhyrappa's literary contributions earned him a prominent place in modern Indian literature, influencing generations of writers and readers.",
+      "category": "art_culture",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Salient features of Indian Society, Diversity of India"
+      ],
+      "date": "2025-09-16",
+      "source": "Deccan Herald",
+      "sourceUrl": "https://example.com/bhyrappa-obit",
+      "importance": "medium",
+      "tags": [
+        "Kannada literature",
+        "S. L. Bhyrappa",
+        "novelist",
+        "Jnanpith Award",
+        "Indian literature"
+      ],
+      "keyTerms": [
+        "S. L. Bhyrappa",
+        "Jnanpith Award",
+        "Kannada Literature",
+        "Philosophical Novel"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "S. L. Bhyrappa: Jnanpith Awardee, veteran Kannada novelist.",
+        "Known for philosophical depth, historical narratives, social commentary.",
+        "Authored over 25 novels, translated into many languages.",
+        "Explored themes of human relationships, cultural conflicts."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the role of regional literature, using S. L. Bhyrappa's works as an example, in reflecting and shaping societal values and philosophical thought in India.",
+        "Analyze how literary figures contribute to the cultural heritage and intellectual discourse of a nation.",
+        "Examine the challenges faced by regional language literature in gaining national and international recognition."
+      ],
+      "imageDescription": "Portrait of S. L. Bhyrappa.",
+      "section": "Art and Culture",
+      "trivia": "The Jnanpith Award is India's highest literary honor.",
+      "prelimsSyllabus": {
+        "subject": "Art and Culture",
+        "area": "Literature",
+        "topic": "Indian Literary Figures"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "kosa-maoist-leader-demise-security-implications",
+      "headline": "Demise of Top Maoist Leader 'Kosa': Implications for Left-Wing Extremism in India",
+      "explainer": "• Kosa, a long-standing and influential Maoist politician and rebel leader, reportedly passed away due to illness in a Naxal-affected region.\n• Kosa was a member of the central committee of the outlawed CPI (Maoist) and played a significant role in strategizing and executing insurgent activities.\n• His demise could potentially impact the leadership and operational capabilities of the Maoist movement in the Red Corridor, but also raise concerns about internal power struggles.\n• Security agencies are closely monitoring the situation for any shifts in the dynamics of left-wing extremism.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Linkages between development and spread of extremism",
+        "Role of external state and non-state actors in creating challenges to internal security",
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention"
+      ],
+      "date": "2025-09-16",
+      "source": "PTI",
+      "sourceUrl": "https://example.com/kosa-maoist-obit",
+      "importance": "medium",
+      "tags": [
+        "Maoist",
+        "Left-Wing Extremism",
+        "internal security",
+        "Naxalism",
+        "CPI (Maoist)"
+      ],
+      "keyTerms": [
+        "Kosa",
+        "Left-Wing Extremism (LWE)",
+        "CPI (Maoist)",
+        "Red Corridor",
+        "Internal Security"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Kosa: Top Maoist leader, member of CPI (Maoist) central committee.",
+        "Demise due to illness in Naxal-affected area.",
+        "Potential impact on leadership and operations of Maoist movement.",
+        "Security agencies monitoring for shifts in left-wing extremism."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the historical context and ideological underpinnings of Left-Wing Extremism (LWE) in India, and the role of its leadership in sustaining the movement.",
+        "Discuss the multi-pronged strategy adopted by the Indian government to combat LWE, encompassing security operations and developmental initiatives.",
+        "Evaluate the potential implications of the demise of key leaders like Kosa on the future trajectory and operational capabilities of Maoist groups."
+      ],
+      "imageDescription": "Map showing the 'Red Corridor' regions in India.",
+      "section": "National",
+      "trivia": "The term 'Red Corridor' refers to regions in central and eastern India affected by Naxalite-Maoist insurgency.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Internal Security Challenges",
+        "topic": "Left-Wing Extremism"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "hema-sane-botanist-passes-away",
+      "headline": "Noted Botanist Hema Sane, Specialist in Indian Flora, Dies at 85",
+      "explainer": "• Dr. Hema Sane, an eminent botanist and researcher known for her extensive work on Indian flora, passed away at the age of 85.\n• Her research focused on plant systematics, ecology, and the conservation of indigenous plant species, particularly in the Western Ghats region.\n• Sane published numerous papers and contributed to several botanical surveys, enriching the understanding of India's rich biodiversity.\n• Her legacy includes inspiring a new generation of botanists and advocating for environmental conservation.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Biodiversity"
+      ],
+      "date": "2025-09-16",
+      "source": "The Times of India",
+      "sourceUrl": "https://example.com/hema-sane-obit",
+      "importance": "low",
+      "tags": [
+        "botanist",
+        "Hema Sane",
+        "Indian flora",
+        "biodiversity",
+        "conservation"
+      ],
+      "keyTerms": [
+        "Hema Sane",
+        "Botany",
+        "Plant Systematics",
+        "Western Ghats",
+        "Biodiversity Conservation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Dr. Hema Sane: Noted botanist, specialized in Indian flora.",
+        "Research focused on plant systematics, ecology, and conservation.",
+        "Significant work in the Western Ghats region.",
+        "Contributed to understanding India's biodiversity."
+      ],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "Close-up of a rare indigenous plant species.",
+      "section": "National",
+      "trivia": "The Western Ghats is one of the world's eight 'hottest hotspots' of biological diversity.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Biodiversity",
+        "topic": "Indian Flora"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "anita-borges-pathologist-dies",
+      "headline": "Renowned Pathologist Dr. Anita Borges, Pioneer in Medical Diagnostics, Dies at 78",
+      "explainer": "• Dr. Anita Borges, a highly respected pathologist and a pioneer in advancing medical diagnostics in India, passed away at 78 following a heart attack.\n• Known for her expertise in oncopathology, she made significant contributions to cancer diagnosis and research, particularly in the field of breast pathology.\n• Borges was associated with several leading medical institutions and played a crucial role in establishing advanced diagnostic protocols.\n• Her work helped improve patient care and training for countless medical professionals across the country.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Biotechnology",
+        "Health"
+      ],
+      "date": "2025-09-16",
+      "source": "Medical Dialogues",
+      "sourceUrl": "https://example.com/anita-borges-obit",
+      "importance": "low",
+      "tags": [
+        "pathologist",
+        "Anita Borges",
+        "medical diagnostics",
+        "oncopathology",
+        "health"
+      ],
+      "keyTerms": [
+        "Anita Borges",
+        "Pathology",
+        "Oncopathology",
+        "Medical Diagnostics",
+        "Cancer Diagnosis"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Dr. Anita Borges: Renowned pathologist, pioneer in medical diagnostics.",
+        "Expertise in oncopathology, significant contributions to cancer diagnosis.",
+        "Associated with leading medical institutions.",
+        "Helped establish advanced diagnostic protocols."
+      ],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "Microscope slide with a focus on cellular structures, symbolizing pathology.",
+      "section": "National",
+      "trivia": "Pathology is the study of the causes and effects of disease or injury.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Health",
+        "topic": "Medical Science"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "jacob-thoomkuzhy-edwin-colaco-prelates",
+      "headline": "Syro-Malabar Archbishop Jacob Thoomkuzhy and Roman Catholic Bishop Edwin Colaço Pass Away",
+      "explainer": "• Two prominent Indian Catholic hierarchs, Archbishop Jacob Thoomkuzhy (Syro-Malabar Catholic Church) and Bishop Edwin Colaço (Roman Catholic Church), passed away.\n• Archbishop Thoomkuzhy, 94, served as Bishop of Mananthavady and Thamarassery, and Archbishop of Trichur, leaving a significant mark on the Syro-Malabar Church.\n• Bishop Colaço, 87, was the Bishop of Amravati and Aurangabad, known for his pastoral work and contributions to social upliftment.\n• Their demise marks a loss for the Christian community in India, highlighting the role of religious leaders in spiritual guidance and social welfare.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Salient features of Indian Society, Diversity of India",
+        "Role of religious institutions in society"
+      ],
+      "date": "2025-09-16",
+      "source": "Vatican News / UCA News",
+      "sourceUrl": "https://example.com/catholic-prelates-obit",
+      "importance": "low",
+      "tags": [
+        "Catholic Church",
+        "Jacob Thoomkuzhy",
+        "Edwin Colaço",
+        "religious leaders",
+        "Indian Christians",
+        "Syro-Malabar Church"
+      ],
+      "keyTerms": [
+        "Jacob Thoomkuzhy",
+        "Edwin Colaço",
+        "Syro-Malabar Catholic Church",
+        "Roman Catholic Church",
+        "Archbishop",
+        "Bishop"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Archbishop Jacob Thoomkuzhy: Syro-Malabar Catholic hierarch, served as Archbishop of Trichur.",
+        "Bishop Edwin Colaço: Roman Catholic prelate, served as Bishop of Amravati and Aurangabad.",
+        "Both were influential religious leaders in India."
+      ],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "Portraits of Archbishop Jacob Thoomkuzhy and Bishop Edwin Colaço.",
+      "section": "National",
+      "trivia": "The Syro-Malabar Church is one of the 23 Eastern Catholic Churches in full communion with the Pope.",
+      "prelimsSyllabus": {
+        "subject": "Indian Society",
+        "area": "Diversity of India",
+        "topic": "Religious Communities"
+      },
+      "prelimsPotential": 1
+    },
+    {
+      "id": "cine-personalities-pass-away",
+      "headline": "Indian Entertainment Industry Mourns Demise of Robo Shankar, Zubeen Garg, and Akella Venkata Suryanarayana",
+      "explainer": "• The Indian entertainment industry witnessed the passing of three notable personalities: Tamil comedian and actor Robo Shankar (46), Assamese singer-songwriter and actor Zubeen Garg (52), and veteran Telugu screenwriter and playwright Akella Venkata Suryanarayana (75).\n• Robo Shankar was known for his energetic comedic roles in films like 'Maari' and 'Velainu Vandhutta Vellaikaaran'.\n• Zubeen Garg was a cultural icon in Assam, celebrated for his soulful music and versatile acting, with hits like 'Tumi Mor Matho Mor'.\n• Akella Venkata Suryanarayana had a prolific career in Telugu cinema and theatre, contributing to numerous successful films and plays.\n• Their contributions spanned regional cinema and music, leaving a lasting impact on their respective industries and fan bases.",
+      "category": "art_culture",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Salient features of Indian Society, Diversity of India"
+      ],
+      "date": "2025-09-16",
+      "source": "Various Media Outlets",
+      "sourceUrl": "https://example.com/cine-obit-roundup",
+      "importance": "low",
+      "tags": [
+        "entertainment",
+        "cinema",
+        "music",
+        "Robo Shankar",
+        "Zubeen Garg",
+        "Akella Venkata Suryanarayana",
+        "regional cinema"
+      ],
+      "keyTerms": [
+        "Robo Shankar",
+        "Zubeen Garg",
+        "Akella Venkata Suryanarayana",
+        "Tamil Cinema",
+        "Assamese Music",
+        "Telugu Theatre"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Robo Shankar: Tamil comedian and actor (Maari, Velainu Vandhutta Vellaikaaran).",
+        "Zubeen Garg: Assamese singer-songwriter and actor (Tumi Mor Matho Mor, Mon Jaai).",
+        "Akella Venkata Suryanarayana: Telugu screenwriter and playwright.",
+        "All contributed significantly to Indian regional entertainment."
+      ],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "Collage of images of Robo Shankar, Zubeen Garg, and Akella Venkata Suryanarayana.",
+      "section": "Art and Culture",
+      "trivia": "Zubeen Garg holds the record for the highest number of songs recorded by an Assamese singer.",
+      "prelimsSyllabus": {
+        "subject": "Art and Culture",
+        "area": "Performing Arts",
+        "topic": "Indian Cinema and Music"
+      },
+      "prelimsPotential": 1
+    },
+    {
+      "id": "bijay-kumar-satpathy-weightlifter-dies",
+      "headline": "Former International Weightlifter Bijay Kumar Satpathy Passes Away at 73",
+      "explainer": "• Bijay Kumar Satpathy, a former international weightlifter who represented India in various championships, passed away at the age of 73.\n• Satpathy was a prominent figure in Indian weightlifting during the 1970s and 80s, winning several national and international medals.\n• After his competitive career, he dedicated himself to coaching and promoting the sport, nurturing young talent.\n• His contributions helped elevate the profile of weightlifting in India and inspired many aspiring athletes.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Salient features of Indian Society",
+        "Role of sports in nation building"
+      ],
+      "date": "2025-09-16",
+      "source": "Odisha TV",
+      "sourceUrl": "https://example.com/satpathy-obit",
+      "importance": "low",
+      "tags": [
+        "weightlifting",
+        "Bijay Kumar Satpathy",
+        "sports",
+        "Indian athletes",
+        "Odisha"
+      ],
+      "keyTerms": [
+        "Bijay Kumar Satpathy",
+        "Weightlifting",
+        "Indian Sports",
+        "Athlete"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Bijay Kumar Satpathy: Former international weightlifter.",
+        "Represented India in 1970s and 80s.",
+        "Won national and international medals.",
+        "Later became a coach, promoting the sport."
+      ],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "Black and white photo of Bijay Kumar Satpathy lifting weights.",
+      "section": "Sports",
+      "trivia": "Weightlifting was one of the original sports in the ancient Olympic Games.",
+      "prelimsSyllabus": {
+        "subject": "Indian Society",
+        "area": "Sports and Youth",
+        "topic": "Sports Personalities"
+      },
+      "prelimsPotential": 1
+    },
+    {
+      "id": "beela-venkateshan-civil-servant-dies",
+      "headline": "Senior Civil Servant Beela Venkateshan Passes Away at 56",
+      "explainer": "• Beela Venkateshan, a respected senior civil servant, passed away at the age of 56.\n• Known for her integrity and efficiency, Venkateshan held key positions in various ministries and departments at both central and state levels.\n• Her career was marked by significant contributions to policy formulation and implementation in sectors like rural development and public administration.\n• The civil services community mourns the loss of a dedicated officer committed to public service and good governance.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Governance, Constitution, Polity, Social Justice and International relations.",
+        "Role of Civil Services in a Democracy"
+      ],
+      "date": "2025-09-16",
+      "source": "The Economic Times",
+      "sourceUrl": "https://example.com/beela-venkateshan-obit",
+      "importance": "low",
+      "tags": [
+        "civil servant",
+        "Beela Venkateshan",
+        "public administration",
+        "governance",
+        "IAS"
+      ],
+      "keyTerms": [
+        "Beela Venkateshan",
+        "Civil Services",
+        "Public Administration",
+        "Good Governance"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Beela Venkateshan: Senior civil servant.",
+        "Held key positions in central and state ministries.",
+        "Contributed to policy formulation and implementation in rural development and public administration.",
+        "Known for integrity and efficiency."
+      ],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "Symbolic image of a government building or official seal.",
+      "section": "National",
+      "trivia": "The Indian Civil Service (ICS) was the elite higher civil service of the British Empire in British India during British rule.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Public Administration",
+        "topic": "Civil Services"
+      },
+      "prelimsPotential": 1
+    }
+  ],
+  "highlights": [
+    "Government launches 'National Urban Resilience Mission' to build climate-resilient and sustainable cities across India.",
+    "ISRO successfully sends Shukrayaan-2 to Venus, aiming to delve deeper into the planet's atmospheric and geological mysteries.",
+    "India hosts G20 Sustainable Development Finance Summit, focusing on mobilizing resources for UN SDGs and global climate finance.",
+    "Dr. Shivram Bhoje, the architect of India's Fast Breeder Reactor program, passes away, marking a loss for nuclear science.",
+    "Supreme Court begins crucial hearing on the balance between digital privacy and national security, with far-reaching implications for civil liberties."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the National Urban Resilience Mission (NURM), consider the following statements:\n1. It is launched by the Ministry of Rural Development.\n2. Its primary objective is to enhance urban livability and climate adaptation in Indian cities.\n3. It emphasizes a top-down approach to urban planning.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) 1 and 3 only",
+        "(d) 2 and 3 only"
+      ],
+      "answer": "(b) 2 only",
+      "explanation": "Statement 1 is incorrect: The National Urban Resilience Mission (NURM) is launched by the Ministry of Housing and Urban Affairs. Statement 2 is correct: NURM aims to enhance urban livability, economic productivity, and environmental sustainability, including climate adaptation. Statement 3 is incorrect: The mission emphasizes participatory approaches, involving local bodies, private sector, and communities, indicating a decentralized approach rather than a top-down one."
+    },
+    {
+      "question": "Shukrayaan-2, recently launched by ISRO, is associated with which of the following planets?",
+      "options": [
+        "(a) Mars",
+        "(b) Jupiter",
+        "(c) Venus",
+        "(d) Saturn"
+      ],
+      "answer": "(c) Venus",
+      "explanation": "Shukrayaan-2 is ISRO's second mission to Venus, aiming to study its atmosphere, surface, and sub-surface composition."
+    },
+    {
+      "question": "Consider the following statements regarding the National Wetlands Conservation and Management Rules, 2025:\n1. They replaced the previous wetlands regulations in India.\n2. They aim for a centralized approach, vesting all powers with the Union Ministry of Environment.\n3. They are expected to strengthen India's commitments under the Ramsar Convention.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 1 and 3 only",
+        "(d) 2 and 3 only"
+      ],
+      "answer": "(c) 1 and 3 only",
+      "explanation": "Statement 1 is correct as the new rules replaced previous regulations. Statement 2 is incorrect because the new rules aim for a decentralized approach with State/UT Wetland Authorities. Statement 3 is correct as the rules are expected to strengthen India's commitments under the Ramsar Convention."
+    },
+    {
+      "question": "Dr. Shivram Bhoje, who passed away recently, was renowned for his pivotal contributions to which of the following fields?",
+      "options": [
+        "(a) Space Exploration",
+        "(b) Fast Breeder Reactor Technology",
+        "(c) Organic Farming",
+        "(d) Renewable Energy"
+      ],
+      "answer": "(b) Fast Breeder Reactor Technology",
+      "explanation": "Dr. Shivram Bhoje was a renowned nuclear scientist, instrumental in India's Fast Breeder Reactor (FBR) program, and played a pivotal role in the design and commissioning of the Prototype Fast Breeder Reactor (PFBR)."
+    },
+    {
+      "question": "The Supreme Court of India recently began hearings on a landmark case concerning the balance between an individual's right to digital privacy and the state's prerogative for national security. This issue primarily relates to which Article of the Indian Constitution?",
+      "options": [
+        "(a) Article 14",
+        "(b) Article 19",
+        "(c) Article 21",
+        "(d) Article 32"
+      ],
+      "answer": "(c) Article 21",
+      "explanation": "The case examines surveillance practices in relation to fundamental rights guaranteed under Article 21 (Right to Life and Personal Liberty), which includes the Right to Privacy as established by the K.S. Puttaswamy judgment."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "The launch of the National Urban Resilience Mission (NURM) signifies a crucial step towards making Indian cities sustainable and climate-resilient. Discuss the multi-dimensional challenges faced by Indian urban centers and critically analyze how NURM's strategies aim to address them.",
+      "syllabusMatch": "GS2: Government policies and interventions for development in various sectors; Urbanization, their problems and their remedies. GS3: Disaster and disaster management.",
+      "approach": "Introduce NURM and its objectives. Detail the challenges of rapid urbanization (infrastructure, environment, social equity, climate risks). Explain how NURM's features like integrated planning, green infrastructure, and digital governance are designed to tackle these challenges. Conclude with potential impacts and necessary implementation mechanisms."
+    },
+    {
+      "question": "India's space missions, exemplified by Shukrayaan-2, reflect its growing prowess in scientific and technological advancements. Evaluate the strategic and scientific significance of India's interplanetary missions and their potential contributions to global knowledge and indigenous capabilities.",
+      "syllabusMatch": "GS3: Achievements of Indians in science & technology; Indigenization of technology and developing new technology; Space technology.",
+      "approach": "Begin with the context of Shukrayaan-2. Discuss scientific significance (understanding Venus, comparative planetology, climate science). Elaborate on strategic importance (technological self-reliance, international collaboration, soft power). Conclude with challenges and future prospects of India's space program."
+    },
+    {
+      "question": "The demise of top Maoist leader 'Kosa' brings into focus the evolving landscape of Left-Wing Extremism (LWE) in India. Analyze the factors contributing to the persistence of LWE and critically examine the effectiveness of the government's multi-pronged strategy in mitigating this internal security threat.",
+      "syllabusMatch": "GS3: Linkages between development and spread of extremism; Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention.",
+      "approach": "Introduce Kosa's demise and its potential impact. Discuss the root causes of LWE (socio-economic disparities, governance deficit, ideological factors). Detail the government's approach (security operations, developmental programs, surrender policies). Critically evaluate the successes and failures, and suggest future strategies to address LWE."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "National Urban Resilience Mission (NURM) aims for climate adaptation in Indian cities.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "urban development",
+        "climate resilience"
+      ]
+    },
+    {
+      "text": "ISRO's Shukrayaan-2 is India's second mission to study the planet Venus.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "space",
+        "Venus"
+      ]
+    },
+    {
+      "text": "India hosted the G20 Sustainable Development Finance Summit in New Delhi.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "G20",
+        "SDGs"
+      ]
+    },
+    {
+      "text": "New National Wetlands Conservation and Management Rules, 2025 notified.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "wetlands",
+        "conservation"
+      ]
+    },
+    {
+      "text": "Supreme Court hearing on digital privacy vs. national security involves Article 21.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "fundamental rights",
+        "privacy"
+      ]
+    },
+    {
+      "text": "Dr. Shivram Bhoje was a key figure in India's Fast Breeder Reactor program.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "nuclear energy",
+        "scientist"
+      ]
+    },
+    {
+      "text": "Abdul Gani Bhat was a co-founder of the Muslim United Front (MUF) in Kashmir.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "tags": [
+        "Kashmir politics",
+        "MUF"
+      ]
+    },
+    {
+      "text": "Gajanan Mehendale was an eminent historian specializing in Maratha history.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "tags": [
+        "Maratha Empire",
+        "historian"
+      ]
+    },
+    {
+      "text": "S. L. Bhyrappa, Jnanpith Awardee, was a celebrated Kannada novelist.",
+      "category": "art_culture",
+      "gsPaper": "GS1",
+      "tags": [
+        "literature",
+        "Kannada"
+      ]
+    },
+    {
+      "text": "Kosa, a top Maoist leader, passed away, impacting Left-Wing Extremism.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "Naxalism",
+        "internal security"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "ncw-gender-digital-divide-campaign",
+        "headline": "National Commission for Women Launches Pan-India Campaign on Gender Digital Divide",
+        "explainer": "• The National Commission for Women (NCW) launched a pan-India awareness campaign titled 'Bridging the Digital Gender Divide' to promote digital literacy and inclusion among women.\n• The initiative aims to empower women by providing access to digital resources, online education, and entrepreneurial opportunities.\n• The campaign will address barriers such as lack of access to devices, internet connectivity, digital skills, and societal norms that restrict women's digital participation.\n• It aligns with government efforts to foster gender equality and harness the potential of women in the digital economy.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Role of women and women’s organization",
+          "Social empowerment",
+          "Effects of globalization on Indian society"
+        ],
+        "date": "2025-09-16",
+        "source": "National Commission for Women",
+        "sourceUrl": "https://example.com/ncw-digital-divide",
+        "importance": "medium",
+        "tags": [
+          "women empowerment",
+          "digital literacy",
+          "gender equality",
+          "NCW",
+          "social inclusion"
+        ],
+        "keyTerms": [
+          "Gender Digital Divide",
+          "Digital Literacy",
+          "National Commission for Women (NCW)",
+          "Women Empowerment"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NCW launched 'Bridging the Digital Gender Divide' campaign.",
+          "Aims to promote digital literacy and inclusion among women.",
+          "Addresses barriers like access, connectivity, and skills.",
+          "Supports women's participation in the digital economy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the multi-dimensional nature of the digital gender divide in India and its implications for women's empowerment and economic participation.",
+          "Evaluate the effectiveness of initiatives like the NCW campaign in bridging this divide, considering the socio-cultural and economic barriers.",
+          "Suggest comprehensive policy measures and community-level interventions to ensure equitable access and utilization of digital technologies by women."
+        ],
+        "imageDescription": "Women using digital devices in a rural setting, symbolizing digital inclusion.",
+        "section": "National",
+        "trivia": "Studies indicate that women are 43% less likely than men to use the internet in South Asia.",
+        "prelimsSyllabus": {
+          "subject": "Indian Society",
+          "area": "Women and Society",
+          "topic": "Gender Equality and Digital Inclusion"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "gajanan-mehendale-historian-maratha-history",
+        "headline": "Eminent Historian Gajanan Mehendale, Authority on Maratha History, Passes Away at 77",
+        "explainer": "• Gajanan Mehendale, a distinguished historian known for his extensive research and writings on Maratha history, passed away at 77.\n• Mehendale was particularly renowned for his meticulous work on Chhatrapati Shivaji Maharaj and the foundational period of the Maratha Empire.\n• His scholarly approach emphasized critical analysis of primary sources, contributing significantly to a nuanced understanding of medieval Indian history.\n• His demise is a loss to the academic community, particularly those specializing in regional Indian history and military strategies of the Marathas.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "History of India"
+        ],
+        "date": "2025-09-16",
+        "source": "Pune Mirror",
+        "sourceUrl": "https://example.com/mehendale-obit",
+        "importance": "medium",
+        "tags": [
+          "historian",
+          "Gajanan Mehendale",
+          "Maratha history",
+          "Shivaji Maharaj",
+          "medieval India"
+        ],
+        "keyTerms": [
+          "Gajanan Mehendale",
+          "Maratha Empire",
+          "Chhatrapati Shivaji Maharaj",
+          "Primary Sources"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Gajanan Mehendale: Eminent historian, authority on Maratha history.",
+          "Known for research on Chhatrapati Shivaji Maharaj.",
+          "Emphasized critical analysis of primary sources.",
+          "Contributed to understanding medieval Indian history."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the challenges in reconstructing medieval Indian history, particularly regional histories like that of the Marathas, and the importance of critical source analysis.",
+          "Highlight the contributions of Chhatrapati Shivaji Maharaj to statecraft and military strategy, as elucidated by historians like Mehendale.",
+          "Examine the evolving interpretations of Maratha history in Indian historiography."
+        ],
+        "imageDescription": "Old photograph of Gajanan Mehendale.",
+        "section": "National",
+        "trivia": "Shivaji Maharaj's coronation in 1674 marked the formal establishment of the Maratha Empire.",
+        "prelimsSyllabus": {
+          "subject": "Indian History",
+          "area": "Medieval History",
+          "topic": "Maratha Empire"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "s-l-bhyrappa-novelist-passes-away",
+        "headline": "Jnanpith Awardee S. L. Bhyrappa, Veteran Kannada Novelist, Dies at 94",
+        "explainer": "• Celebrated Kannada novelist and Jnanpith Award recipient, S. L. Bhyrappa, passed away at the age of 94.\n• Known for his philosophical depth, historical narratives, and social commentary, Bhyrappa authored over 25 novels, many translated into multiple languages.\n• His works often explored themes of human relationships, cultural conflicts, and the complexities of Indian society, sparking widespread debate.\n• Bhyrappa's literary contributions earned him a prominent place in modern Indian literature, influencing generations of writers and readers.",
+        "category": "art_culture",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Salient features of Indian Society, Diversity of India"
+        ],
+        "date": "2025-09-16",
+        "source": "Deccan Herald",
+        "sourceUrl": "https://example.com/bhyrappa-obit",
+        "importance": "medium",
+        "tags": [
+          "Kannada literature",
+          "S. L. Bhyrappa",
+          "novelist",
+          "Jnanpith Award",
+          "Indian literature"
+        ],
+        "keyTerms": [
+          "S. L. Bhyrappa",
+          "Jnanpith Award",
+          "Kannada Literature",
+          "Philosophical Novel"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "S. L. Bhyrappa: Jnanpith Awardee, veteran Kannada novelist.",
+          "Known for philosophical depth, historical narratives, social commentary.",
+          "Authored over 25 novels, translated into many languages.",
+          "Explored themes of human relationships, cultural conflicts."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the role of regional literature, using S. L. Bhyrappa's works as an example, in reflecting and shaping societal values and philosophical thought in India.",
+          "Analyze how literary figures contribute to the cultural heritage and intellectual discourse of a nation.",
+          "Examine the challenges faced by regional language literature in gaining national and international recognition."
+        ],
+        "imageDescription": "Portrait of S. L. Bhyrappa.",
+        "section": "Art and Culture",
+        "trivia": "The Jnanpith Award is India's highest literary honor.",
+        "prelimsSyllabus": {
+          "subject": "Art and Culture",
+          "area": "Literature",
+          "topic": "Indian Literary Figures"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "jacob-thoomkuzhy-edwin-colaco-prelates",
+        "headline": "Syro-Malabar Archbishop Jacob Thoomkuzhy and Roman Catholic Bishop Edwin Colaço Pass Away",
+        "explainer": "• Two prominent Indian Catholic hierarchs, Archbishop Jacob Thoomkuzhy (Syro-Malabar Catholic Church) and Bishop Edwin Colaço (Roman Catholic Church), passed away.\n• Archbishop Thoomkuzhy, 94, served as Bishop of Mananthavady and Thamarassery, and Archbishop of Trichur, leaving a significant mark on the Syro-Malabar Church.\n• Bishop Colaço, 87, was the Bishop of Amravati and Aurangabad, known for his pastoral work and contributions to social upliftment.\n• Their demise marks a loss for the Christian community in India, highlighting the role of religious leaders in spiritual guidance and social welfare.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Salient features of Indian Society, Diversity of India",
+          "Role of religious institutions in society"
+        ],
+        "date": "2025-09-16",
+        "source": "Vatican News / UCA News",
+        "sourceUrl": "https://example.com/catholic-prelates-obit",
+        "importance": "low",
+        "tags": [
+          "Catholic Church",
+          "Jacob Thoomkuzhy",
+          "Edwin Colaço",
+          "religious leaders",
+          "Indian Christians",
+          "Syro-Malabar Church"
+        ],
+        "keyTerms": [
+          "Jacob Thoomkuzhy",
+          "Edwin Colaço",
+          "Syro-Malabar Catholic Church",
+          "Roman Catholic Church",
+          "Archbishop",
+          "Bishop"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Archbishop Jacob Thoomkuzhy: Syro-Malabar Catholic hierarch, served as Archbishop of Trichur.",
+          "Bishop Edwin Colaço: Roman Catholic prelate, served as Bishop of Amravati and Aurangabad.",
+          "Both were influential religious leaders in India."
+        ],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "Portraits of Archbishop Jacob Thoomkuzhy and Bishop Edwin Colaço.",
+        "section": "National",
+        "trivia": "The Syro-Malabar Church is one of the 23 Eastern Catholic Churches in full communion with the Pope.",
+        "prelimsSyllabus": {
+          "subject": "Indian Society",
+          "area": "Diversity of India",
+          "topic": "Religious Communities"
+        },
+        "prelimsPotential": 1
+      },
+      {
+        "id": "cine-personalities-pass-away",
+        "headline": "Indian Entertainment Industry Mourns Demise of Robo Shankar, Zubeen Garg, and Akella Venkata Suryanarayana",
+        "explainer": "• The Indian entertainment industry witnessed the passing of three notable personalities: Tamil comedian and actor Robo Shankar (46), Assamese singer-songwriter and actor Zubeen Garg (52), and veteran Telugu screenwriter and playwright Akella Venkata Suryanarayana (75).\n• Robo Shankar was known for his energetic comedic roles in films like 'Maari' and 'Velainu Vandhutta Vellaikaaran'.\n• Zubeen Garg was a cultural icon in Assam, celebrated for his soulful music and versatile acting, with hits like 'Tumi Mor Matho Mor'.\n• Akella Venkata Suryanarayana had a prolific career in Telugu cinema and theatre, contributing to numerous successful films and plays.\n• Their contributions spanned regional cinema and music, leaving a lasting impact on their respective industries and fan bases.",
+        "category": "art_culture",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Salient features of Indian Society, Diversity of India"
+        ],
+        "date": "2025-09-16",
+        "source": "Various Media Outlets",
+        "sourceUrl": "https://example.com/cine-obit-roundup",
+        "importance": "low",
+        "tags": [
+          "entertainment",
+          "cinema",
+          "music",
+          "Robo Shankar",
+          "Zubeen Garg",
+          "Akella Venkata Suryanarayana",
+          "regional cinema"
+        ],
+        "keyTerms": [
+          "Robo Shankar",
+          "Zubeen Garg",
+          "Akella Venkata Suryanarayana",
+          "Tamil Cinema",
+          "Assamese Music",
+          "Telugu Theatre"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Robo Shankar: Tamil comedian and actor (Maari, Velainu Vandhutta Vellaikaaran).",
+          "Zubeen Garg: Assamese singer-songwriter and actor (Tumi Mor Matho Mor, Mon Jaai).",
+          "Akella Venkata Suryanarayana: Telugu screenwriter and playwright.",
+          "All contributed significantly to Indian regional entertainment."
+        ],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "Collage of images of Robo Shankar, Zubeen Garg, and Akella Venkata Suryanarayana.",
+        "section": "Art and Culture",
+        "trivia": "Zubeen Garg holds the record for the highest number of songs recorded by an Assamese singer.",
+        "prelimsSyllabus": {
+          "subject": "Art and Culture",
+          "area": "Performing Arts",
+          "topic": "Indian Cinema and Music"
+        },
+        "prelimsPotential": 1
+      },
+      {
+        "id": "bijay-kumar-satpathy-weightlifter-dies",
+        "headline": "Former International Weightlifter Bijay Kumar Satpathy Passes Away at 73",
+        "explainer": "• Bijay Kumar Satpathy, a former international weightlifter who represented India in various championships, passed away at the age of 73.\n• Satpathy was a prominent figure in Indian weightlifting during the 1970s and 80s, winning several national and international medals.\n• After his competitive career, he dedicated himself to coaching and promoting the sport, nurturing young talent.\n• His contributions helped elevate the profile of weightlifting in India and inspired many aspiring athletes.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Salient features of Indian Society",
+          "Role of sports in nation building"
+        ],
+        "date": "2025-09-16",
+        "source": "Odisha TV",
+        "sourceUrl": "https://example.com/satpathy-obit",
+        "importance": "low",
+        "tags": [
+          "weightlifting",
+          "Bijay Kumar Satpathy",
+          "sports",
+          "Indian athletes",
+          "Odisha"
+        ],
+        "keyTerms": [
+          "Bijay Kumar Satpathy",
+          "Weightlifting",
+          "Indian Sports",
+          "Athlete"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Bijay Kumar Satpathy: Former international weightlifter.",
+          "Represented India in 1970s and 80s.",
+          "Won national and international medals.",
+          "Later became a coach, promoting the sport."
+        ],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "Black and white photo of Bijay Kumar Satpathy lifting weights.",
+        "section": "Sports",
+        "trivia": "Weightlifting was one of the original sports in the ancient Olympic Games.",
+        "prelimsSyllabus": {
+          "subject": "Indian Society",
+          "area": "Sports and Youth",
+          "topic": "Sports Personalities"
+        },
+        "prelimsPotential": 1
+      }
+    ],
+    "GS2": [
+      {
+        "id": "national-urban-resilience-mission-launch",
+        "headline": "Government Unveils 'National Urban Resilience Mission' for Sustainable Cities",
+        "explainer": "• The Union Cabinet approved the launch of the National Urban Resilience Mission (NURM) aiming to fortify Indian cities against climate change impacts and socio-economic shocks.\n• NURM will focus on integrated urban planning, green infrastructure development, climate-resilient housing, and digital governance.\n• The mission emphasizes participatory approaches, involving local bodies, private sector, and communities in urban development.\n• It seeks to enhance urban livability, economic productivity, and environmental sustainability across Tier-1 and Tier-2 cities.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors",
+          "Urbanization, their problems and their remedies",
+          "Disaster and disaster management"
+        ],
+        "date": "2025-09-16",
+        "source": "Ministry of Housing and Urban Affairs",
+        "sourceUrl": "https://example.com/nurm-launch-2025",
+        "importance": "high",
+        "tags": [
+          "urban development",
+          "climate resilience",
+          "sustainable cities",
+          "government schemes",
+          "infrastructure"
+        ],
+        "keyTerms": [
+          "National Urban Resilience Mission (NURM)",
+          "Integrated Urban Planning",
+          "Green Infrastructure",
+          "Climate Adaptation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Urban Resilience Mission (NURM) launched by Ministry of Housing and Urban Affairs.",
+          "Aims to make Indian cities resilient to climate change and socio-economic shocks.",
+          "Focuses on green infrastructure, resilient housing, and digital governance."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically analyze the potential of NURM in addressing the multifaceted challenges of rapid urbanization in India.",
+          "Discuss how NURM integrates climate change mitigation and adaptation strategies into urban planning.",
+          "Examine the role of technology and community participation envisioned under the mission for effective implementation."
+        ],
+        "imageDescription": "Illustration of a modern, green, and resilient city skyline.",
+        "section": "Lead Opinion",
+        "trivia": "India is projected to have 600 million urban residents by 2030, making robust urban planning crucial.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Government Policies and Interventions",
+          "topic": "Urban Development Schemes"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "g20-sustainable-development-finance-summit",
+        "headline": "India Hosts G20 Sustainable Development Finance Summit in New Delhi",
+        "explainer": "• India is hosting the G20 Sustainable Development Finance Summit in New Delhi, bringing together finance ministers and central bank governors.\n• The summit aims to strategize on mobilizing financial resources for achieving the UN Sustainable Development Goals (SDGs) amidst global economic challenges.\n• Key discussions include innovative financing mechanisms, debt sustainability for developing nations, and climate finance commitments.\n• India's presidency emphasizes a 'people-centric' approach to sustainable development, promoting equitable access to finance.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Important International institutions, agencies and fora, their structure, mandate"
+        ],
+        "date": "2025-09-16",
+        "source": "Ministry of Finance, Government of India",
+        "sourceUrl": "https://example.com/g20-sdf-summit",
+        "importance": "high",
+        "tags": [
+          "G20",
+          "sustainable development",
+          "climate finance",
+          "international cooperation",
+          "SDGs"
+        ],
+        "keyTerms": [
+          "G20 Summit",
+          "Sustainable Development Goals (SDGs)",
+          "Climate Finance",
+          "Debt Sustainability"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "G20 Sustainable Development Finance Summit hosted by India in New Delhi.",
+          "Focus on mobilizing finance for UN SDGs.",
+          "Discussions on innovative financing, debt sustainability, and climate finance."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze India's role and objectives in hosting the G20 Sustainable Development Finance Summit, particularly in the context of its global leadership aspirations.",
+          "Discuss the challenges in mobilizing adequate finance for SDGs globally and how the summit's outcomes could address these.",
+          "Examine the implications of the summit's deliberations on climate finance for developing countries, including India."
+        ],
+        "imageDescription": "Logo of the G20 with a backdrop of the Indian Parliament.",
+        "section": "International",
+        "trivia": "The G20 represents around two-thirds of the world's population, 85% of global GDP, and over 75% of global trade.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Global Groupings",
+          "topic": "G20 and India"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "sc-digital-privacy-vs-national-security",
+        "headline": "Supreme Court Begins Hearing on 'Right to Digital Privacy vs. National Security' Case",
+        "explainer": "• The Supreme Court of India commenced hearings on a landmark case concerning the delicate balance between an individual's right to digital privacy and the state's prerogative for national security.\n• The case specifically examines the legality of certain surveillance practices and data collection methods employed by government agencies.\n• Petitioners argue that unchecked state surveillance infringes upon fundamental rights guaranteed under Article 21 (Right to Life and Personal Liberty).\n• The ruling is expected to have significant implications for data protection laws, surveillance frameworks, and civil liberties in the digital age.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Fundamental Rights",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2025-09-16",
+        "source": "The Hindu",
+        "sourceUrl": "https://example.com/sc-digital-privacy-hearing",
+        "importance": "high",
+        "tags": [
+          "Supreme Court",
+          "digital privacy",
+          "national security",
+          "fundamental rights",
+          "surveillance",
+          "Article 21"
+        ],
+        "keyTerms": [
+          "Right to Digital Privacy",
+          "National Security",
+          "Surveillance Laws",
+          "Article 21",
+          "Data Protection"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Supreme Court hearing on digital privacy vs. national security.",
+          "Examines legality of state surveillance practices.",
+          "Relates to fundamental rights under Article 21 (Right to Life and Personal Liberty).",
+          "Expected to impact data protection and surveillance laws."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the constitutional perspective on the right to digital privacy in India, particularly in light of the Puttaswamy judgment.",
+          "Analyze the arguments for and against state surveillance in the context of national security, highlighting the need for a balanced approach.",
+          "Suggest potential legislative and technological safeguards that can protect individual privacy while addressing national security concerns."
+        ],
+        "imageDescription": "Gavel in front of a digital interface showing lock and data icons.",
+        "section": "National",
+        "trivia": "The landmark K.S. Puttaswamy judgment (2017) declared the Right to Privacy as a fundamental right under Article 21 of the Indian Constitution.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "abdul-gani-bhat-kashmiri-activist-passes",
+        "headline": "Abdul Gani Bhat, Veteran Kashmiri Political Activist and MUF Co-founder, Dies at 90",
+        "explainer": "• Abdul Gani Bhat, a prominent Kashmiri political activist and a co-founder of the Muslim United Front (MUF), passed away at 90.\n• Bhat was a significant voice in Kashmir's political landscape, advocating for dialogue and peaceful resolution of the Kashmir issue.\n• The MUF, formed in 1987, was a political coalition that contested elections, marking a crucial, albeit controversial, period in the region's history.\n• His demise marks the end of an era for a generation of Kashmiri leaders who witnessed and shaped the region's complex political trajectory.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+          "Internal security"
+        ],
+        "date": "2025-09-16",
+        "source": "Greater Kashmir",
+        "sourceUrl": "https://example.com/abdul-gani-bhat-obit",
+        "importance": "medium",
+        "tags": [
+          "Kashmir politics",
+          "Abdul Gani Bhat",
+          "MUF",
+          "political activist",
+          "regional politics"
+        ],
+        "keyTerms": [
+          "Abdul Gani Bhat",
+          "Muslim United Front (MUF)",
+          "Kashmir Issue",
+          "Political Dialogue"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Abdul Gani Bhat: Kashmiri political activist, co-founder of Muslim United Front (MUF).",
+          "MUF formed in 1987, contested elections in J&K.",
+          "Advocated for dialogue and peaceful resolution in Kashmir."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the historical context and significance of the Muslim United Front (MUF) in Kashmir's political history.",
+          "Analyze the role of leaders like Abdul Gani Bhat in the political discourse surrounding the Kashmir issue, particularly their advocacy for dialogue.",
+          "Examine the challenges in achieving lasting peace and political stability in the Jammu and Kashmir region."
+        ],
+        "imageDescription": "Black and white photo of Abdul Gani Bhat.",
+        "section": "National",
+        "trivia": "The 1987 Jammu and Kashmir elections, which the MUF contested, are often cited as a turning point in the region's political history.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Federalism",
+          "topic": "Issues in Jammu and Kashmir"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "beela-venkateshan-civil-servant-dies",
+        "headline": "Senior Civil Servant Beela Venkateshan Passes Away at 56",
+        "explainer": "• Beela Venkateshan, a respected senior civil servant, passed away at the age of 56.\n• Known for her integrity and efficiency, Venkateshan held key positions in various ministries and departments at both central and state levels.\n• Her career was marked by significant contributions to policy formulation and implementation in sectors like rural development and public administration.\n• The civil services community mourns the loss of a dedicated officer committed to public service and good governance.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Governance, Constitution, Polity, Social Justice and International relations.",
+          "Role of Civil Services in a Democracy"
+        ],
+        "date": "2025-09-16",
+        "source": "The Economic Times",
+        "sourceUrl": "https://example.com/beela-venkateshan-obit",
+        "importance": "low",
+        "tags": [
+          "civil servant",
+          "Beela Venkateshan",
+          "public administration",
+          "governance",
+          "IAS"
+        ],
+        "keyTerms": [
+          "Beela Venkateshan",
+          "Civil Services",
+          "Public Administration",
+          "Good Governance"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Beela Venkateshan: Senior civil servant.",
+          "Held key positions in central and state ministries.",
+          "Contributed to policy formulation and implementation in rural development and public administration.",
+          "Known for integrity and efficiency."
+        ],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "Symbolic image of a government building or official seal.",
+        "section": "National",
+        "trivia": "The Indian Civil Service (ICS) was the elite higher civil service of the British Empire in British India during British rule.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Public Administration",
+          "topic": "Civil Services"
+        },
+        "prelimsPotential": 1
+      }
+    ],
+    "GS3": [
+      {
+        "id": "isro-shukrayaan-2-venus-mission",
+        "headline": "ISRO Successfully Launches Shukrayaan-2 Mission to Venus",
+        "explainer": "• The Indian Space Research Organisation (ISRO) successfully launched its second mission to Venus, Shukrayaan-2, from Sriharikota.\n• The mission aims to study Venus's atmosphere, surface, and sub-surface composition, including its greenhouse effect and volcanic activity.\n• Shukrayaan-2 carries advanced scientific payloads, including a synthetic aperture radar (SAR) for surface mapping and an atmospheric probe.\n• This mission reinforces India's growing capabilities in interplanetary exploration and planetary science.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology",
+          "Indigenization of technology",
+          "Space technology"
+        ],
+        "date": "2025-09-16",
+        "source": "ISRO",
+        "sourceUrl": "https://www.isro.gov.in/shukrayaan2-launch",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Venus mission",
+          "space exploration",
+          "Shukrayaan-2",
+          "planetary science"
+        ],
+        "keyTerms": [
+          "Shukrayaan-2",
+          "Synthetic Aperture Radar (SAR)",
+          "Atmospheric Probe",
+          "Interplanetary Mission"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Shukrayaan-2 is India's second mission to Venus.",
+          "Launched by ISRO from Sriharikota.",
+          "Payloads include SAR for surface mapping and an atmospheric probe.",
+          "Aims to study Venus's atmosphere, surface, and sub-surface."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Evaluate the significance of Shukrayaan-2 in advancing India's position in global space exploration and scientific research.",
+          "Discuss the scientific objectives of the mission and how its findings could contribute to our understanding of planetary evolution and climate change on Earth.",
+          "Analyze the indigenous technological advancements demonstrated by ISRO in developing and launching such complex interplanetary missions."
+        ],
+        "imageDescription": "Artist's impression of the Shukrayaan-2 spacecraft orbiting Venus.",
+        "section": "Science",
+        "trivia": "Venus is often called Earth's 'sister planet' due to its similar size and mass, but it has an extremely hot and toxic atmosphere.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space Technology",
+          "topic": "Indian Space Missions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "national-wetlands-conservation-management-rules-2025",
+        "headline": "New National Wetlands Conservation and Management Rules, 2025 Notified",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change has notified the National Wetlands Conservation and Management Rules, 2025, replacing previous regulations.\n• The new rules aim for a more robust framework for the conservation, protection, and management of wetlands across India.\n• Key features include a decentralized approach with State/UT Wetland Authorities, a comprehensive list of prohibited activities, and emphasis on ecological character.\n• The rules are expected to strengthen India's commitments under the Ramsar Convention and enhance biodiversity protection.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation",
+          "Environmental impact assessment",
+          "Wetlands conservation"
+        ],
+        "date": "2025-09-16",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "https://example.com/wetlands-rules-2025",
+        "importance": "high",
+        "tags": [
+          "wetlands",
+          "conservation",
+          "environment policy",
+          "Ramsar Convention",
+          "biodiversity"
+        ],
+        "keyTerms": [
+          "National Wetlands Conservation and Management Rules",
+          "Ramsar Convention",
+          "Ecological Character",
+          "State/UT Wetland Authorities"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "New National Wetlands Conservation and Management Rules, 2025 notified.",
+          "Replaces previous regulations, aims for robust wetland protection.",
+          "Features include decentralized approach via State/UT Wetland Authorities.",
+          "Strengthens India's commitment to Ramsar Convention."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically evaluate the salient features of the National Wetlands Conservation and Management Rules, 2025, and their potential effectiveness in safeguarding India's wetlands.",
+          "Discuss the challenges in implementing wetland conservation policies in India, considering conflicting developmental pressures.",
+          "How do these new rules align with India's international commitments under the Ramsar Convention and other biodiversity agreements?"
+        ],
+        "imageDescription": "A serene wetland ecosystem with various bird species.",
+        "section": "Environment",
+        "trivia": "India has over 75 Ramsar sites, covering a wide range of wetland ecosystems.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Conservation",
+          "topic": "Wetlands and their Protection"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "rbi-financial-stability-report",
+        "headline": "RBI Releases Bi-Annual Financial Stability Report, Highlights Sectoral Risks",
+        "explainer": "• The Reserve Bank of India (RBI) released its bi-annual Financial Stability Report (FSR), assessing the health and resilience of the Indian financial system.\n• The report highlighted potential risks stemming from global economic volatility, rising interest rates, and specific sectoral vulnerabilities within the domestic economy.\n• It also assessed the asset quality of banks and non-banking financial companies (NBFCs), noting improvements in some areas but cautioning against emerging stress.\n• The FSR provides policy recommendations to maintain financial stability, including stricter regulatory oversight for certain segments.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Government Budgeting",
+          "Monetary policy"
+        ],
+        "date": "2025-09-16",
+        "source": "Reserve Bank of India",
+        "sourceUrl": "https://www.rbi.org.in/fsr-sep2025",
+        "importance": "medium",
+        "tags": [
+          "RBI",
+          "financial stability",
+          "economy",
+          "banking",
+          "NBFCs",
+          "monetary policy"
+        ],
+        "keyTerms": [
+          "Financial Stability Report (FSR)",
+          "Asset Quality",
+          "Non-Banking Financial Companies (NBFCs)",
+          "Monetary Policy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "RBI's Financial Stability Report (FSR) is a bi-annual publication.",
+          "Assesses health and resilience of Indian financial system.",
+          "Highlights global volatility, rising interest rates, and sectoral vulnerabilities.",
+          "Provides policy recommendations for financial stability."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the key findings of the latest RBI Financial Stability Report concerning the health of India's banking and non-banking financial sectors.",
+          "Discuss the major risks identified by the RBI to India's financial stability and the policy measures suggested to mitigate them.",
+          "Examine the role of the FSR in informing monetary policy decisions and regulatory interventions by the RBI."
+        ],
+        "imageDescription": "RBI logo with graphs depicting financial trends.",
+        "section": "Economy",
+        "trivia": "The Financial Stability Report is a statutory report published by the RBI.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Monetary Policy and Banking",
+          "topic": "Financial Stability"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "border-area-development-program-2.0",
+        "headline": "Ministry of Home Affairs Initiates 'Border Area Development Program 2.0'",
+        "explainer": "• The Ministry of Home Affairs (MHA) has launched the 'Border Area Development Program (BADP) 2.0', a revamped initiative for comprehensive development of border regions.\n• BADP 2.0 focuses on integrating advanced technology, improving critical infrastructure, and enhancing socio-economic opportunities in remote border villages.\n• The program aims to strengthen national security by fostering a sense of belonging among border populations and deterring cross-border illegal activities.\n• Special emphasis is placed on connectivity, digital literacy, and sustainable livelihood projects tailored to the unique needs of each border region.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security challenges and their management in border areas",
+          "Linkages of organized crime with terrorism",
+          "Development processes and the development industry — the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders"
+        ],
+        "date": "2025-09-16",
+        "source": "Ministry of Home Affairs",
+        "sourceUrl": "https://example.com/badp-2.0-launch",
+        "importance": "medium",
+        "tags": [
+          "border security",
+          "border development",
+          "MHA",
+          "internal security",
+          "infrastructure"
+        ],
+        "keyTerms": [
+          "Border Area Development Program (BADP)",
+          "Border Management",
+          "Socio-economic Development",
+          "National Security"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Border Area Development Program (BADP) 2.0 launched by MHA.",
+          "Focuses on technology integration, infrastructure, and socio-economic opportunities in border areas.",
+          "Aims to strengthen national security and deter illegal activities.",
+          "Emphasizes connectivity, digital literacy, and sustainable livelihoods."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolution and objectives of the Border Area Development Program (BADP) and how BADP 2.0 addresses previous shortcomings.",
+          "Analyze the correlation between border area development and national security, particularly in preventing cross-border infiltration and radicalization.",
+          "Examine the challenges in implementing development programs in remote and sensitive border regions and suggest measures for effective execution."
+        ],
+        "imageDescription": "Map of India highlighting border regions with developmental activities.",
+        "section": "National",
+        "trivia": "The original BADP was launched in the border areas of western region during the 7th Five Year Plan (1985-90).",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Border Management",
+          "topic": "Border Area Development"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "shivram-bhoje-nuclear-scientist-passes-away",
+        "headline": "Dr. Shivram Bhoje, Architect of India's Fast Breeder Reactor Programme, Dies at 83",
+        "explainer": "• Renowned nuclear scientist Dr. Shivram Bhoje, instrumental in India's Fast Breeder Reactor (FBR) program, passed away at the age of 83.\n• Bhoje served as the Director of the Indira Gandhi Centre for Atomic Research (IGCAR) and played a pivotal role in the design and commissioning of the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam.\n• His contributions were crucial for India's three-stage nuclear power program, particularly in utilizing thorium reserves.\n• He was a recipient of the Padma Shri and several other prestigious awards for his pioneering work in nuclear energy.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology",
+          "Nuclear technology",
+          "Energy resources"
+        ],
+        "date": "2025-09-16",
+        "source": "Department of Atomic Energy",
+        "sourceUrl": "https://example.com/shivram-bhoje-obit",
+        "importance": "high",
+        "tags": [
+          "nuclear scientist",
+          "Shivram Bhoje",
+          "Fast Breeder Reactor",
+          "IGCAR",
+          "nuclear energy",
+          "Padma Shri"
+        ],
+        "keyTerms": [
+          "Fast Breeder Reactor (FBR)",
+          "Indira Gandhi Centre for Atomic Research (IGCAR)",
+          "Prototype Fast Breeder Reactor (PFBR)",
+          "Three-Stage Nuclear Power Program"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Dr. Shivram Bhoje: Nuclear scientist, architect of India's Fast Breeder Reactor (FBR) program.",
+          "Former Director of IGCAR.",
+          "Key role in design and commissioning of PFBR at Kalpakkam.",
+          "Recipient of Padma Shri.",
+          "Contributions vital for India's three-stage nuclear power program."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the Fast Breeder Reactor technology in India's energy security and its three-stage nuclear power program.",
+          "Highlight the contributions of scientists like Dr. Shivram Bhoje in achieving self-reliance in critical technological domains.",
+          "Analyze the challenges and prospects of India's nuclear energy program in meeting future energy demands."
+        ],
+        "imageDescription": "Portrait of Dr. Shivram Bhoje.",
+        "section": "National",
+        "trivia": "India is one of the few countries pursuing Fast Breeder Reactor technology to utilize its vast thorium reserves.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Nuclear Technology",
+          "topic": "Atomic Energy Program"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "kosa-maoist-leader-demise-security-implications",
+        "headline": "Demise of Top Maoist Leader 'Kosa': Implications for Left-Wing Extremism in India",
+        "explainer": "• Kosa, a long-standing and influential Maoist politician and rebel leader, reportedly passed away due to illness in a Naxal-affected region.\n• Kosa was a member of the central committee of the outlawed CPI (Maoist) and played a significant role in strategizing and executing insurgent activities.\n• His demise could potentially impact the leadership and operational capabilities of the Maoist movement in the Red Corridor, but also raise concerns about internal power struggles.\n• Security agencies are closely monitoring the situation for any shifts in the dynamics of left-wing extremism.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Linkages between development and spread of extremism",
+          "Role of external state and non-state actors in creating challenges to internal security",
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention"
+        ],
+        "date": "2025-09-16",
+        "source": "PTI",
+        "sourceUrl": "https://example.com/kosa-maoist-obit",
+        "importance": "medium",
+        "tags": [
+          "Maoist",
+          "Left-Wing Extremism",
+          "internal security",
+          "Naxalism",
+          "CPI (Maoist)"
+        ],
+        "keyTerms": [
+          "Kosa",
+          "Left-Wing Extremism (LWE)",
+          "CPI (Maoist)",
+          "Red Corridor",
+          "Internal Security"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Kosa: Top Maoist leader, member of CPI (Maoist) central committee.",
+          "Demise due to illness in Naxal-affected area.",
+          "Potential impact on leadership and operations of Maoist movement.",
+          "Security agencies monitoring for shifts in left-wing extremism."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the historical context and ideological underpinnings of Left-Wing Extremism (LWE) in India, and the role of its leadership in sustaining the movement.",
+          "Discuss the multi-pronged strategy adopted by the Indian government to combat LWE, encompassing security operations and developmental initiatives.",
+          "Evaluate the potential implications of the demise of key leaders like Kosa on the future trajectory and operational capabilities of Maoist groups."
+        ],
+        "imageDescription": "Map showing the 'Red Corridor' regions in India.",
+        "section": "National",
+        "trivia": "The term 'Red Corridor' refers to regions in central and eastern India affected by Naxalite-Maoist insurgency.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Internal Security Challenges",
+          "topic": "Left-Wing Extremism"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "hema-sane-botanist-passes-away",
+        "headline": "Noted Botanist Hema Sane, Specialist in Indian Flora, Dies at 85",
+        "explainer": "• Dr. Hema Sane, an eminent botanist and researcher known for her extensive work on Indian flora, passed away at the age of 85.\n• Her research focused on plant systematics, ecology, and the conservation of indigenous plant species, particularly in the Western Ghats region.\n• Sane published numerous papers and contributed to several botanical surveys, enriching the understanding of India's rich biodiversity.\n• Her legacy includes inspiring a new generation of botanists and advocating for environmental conservation.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Biodiversity"
+        ],
+        "date": "2025-09-16",
+        "source": "The Times of India",
+        "sourceUrl": "https://example.com/hema-sane-obit",
+        "importance": "low",
+        "tags": [
+          "botanist",
+          "Hema Sane",
+          "Indian flora",
+          "biodiversity",
+          "conservation"
+        ],
+        "keyTerms": [
+          "Hema Sane",
+          "Botany",
+          "Plant Systematics",
+          "Western Ghats",
+          "Biodiversity Conservation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Dr. Hema Sane: Noted botanist, specialized in Indian flora.",
+          "Research focused on plant systematics, ecology, and conservation.",
+          "Significant work in the Western Ghats region.",
+          "Contributed to understanding India's biodiversity."
+        ],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "Close-up of a rare indigenous plant species.",
+        "section": "National",
+        "trivia": "The Western Ghats is one of the world's eight 'hottest hotspots' of biological diversity.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Biodiversity",
+          "topic": "Indian Flora"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "anita-borges-pathologist-dies",
+        "headline": "Renowned Pathologist Dr. Anita Borges, Pioneer in Medical Diagnostics, Dies at 78",
+        "explainer": "• Dr. Anita Borges, a highly respected pathologist and a pioneer in advancing medical diagnostics in India, passed away at 78 following a heart attack.\n• Known for her expertise in oncopathology, she made significant contributions to cancer diagnosis and research, particularly in the field of breast pathology.\n• Borges was associated with several leading medical institutions and played a crucial role in establishing advanced diagnostic protocols.\n• Her work helped improve patient care and training for countless medical professionals across the country.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Biotechnology",
+          "Health"
+        ],
+        "date": "2025-09-16",
+        "source": "Medical Dialogues",
+        "sourceUrl": "https://example.com/anita-borges-obit",
+        "importance": "low",
+        "tags": [
+          "pathologist",
+          "Anita Borges",
+          "medical diagnostics",
+          "oncopathology",
+          "health"
+        ],
+        "keyTerms": [
+          "Anita Borges",
+          "Pathology",
+          "Oncopathology",
+          "Medical Diagnostics",
+          "Cancer Diagnosis"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Dr. Anita Borges: Renowned pathologist, pioneer in medical diagnostics.",
+          "Expertise in oncopathology, significant contributions to cancer diagnosis.",
+          "Associated with leading medical institutions.",
+          "Helped establish advanced diagnostic protocols."
+        ],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "Microscope slide with a focus on cellular structures, symbolizing pathology.",
+        "section": "National",
+        "trivia": "Pathology is the study of the causes and effects of disease or injury.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Health",
+          "topic": "Medical Science"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Ministry of Housing and Urban Affairs",
+    "ISRO",
+    "Ministry of Finance, Government of India",
+    "Ministry of Environment, Forest and Climate Change",
+    "The Hindu",
+    "Reserve Bank of India",
+    "Ministry of Home Affairs",
+    "National Commission for Women",
+    "Department of Atomic Energy",
+    "Greater Kashmir",
+    "Pune Mirror",
+    "Deccan Herald",
+    "PTI",
+    "The Times of India",
+    "Medical Dialogues",
+    "Vatican News / UCA News",
+    "Various Media Outlets",
+    "Odisha TV",
+    "The Economic Times"
+  ],
+  "totalScraped": 19,
+  "totalProcessed": 19
+}

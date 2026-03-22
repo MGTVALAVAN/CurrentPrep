@@ -37,7 +37,7 @@ export async function GET(request: NextRequest) {
 
         // Return archive list
         if (archive === 'true') {
-            const dates = getEpaperDates(60);
+            const dates = getEpaperDates(600);
             const index = getEpaperIndex();
             return NextResponse.json({
                 dates,

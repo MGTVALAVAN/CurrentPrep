@@ -5,11 +5,18 @@ import { useLanguage } from '@/contexts/LanguageProvider';
 import {
     Search, ChevronDown, ChevronUp, Globe, Landmark, TrendingUp,
     Clock, ExternalLink, RefreshCw, Loader2, Zap,
-    CheckCircle2, AlertCircle, BookOpen, Download, Newspaper,
+    CheckCircle2, AlertCircle, BookOpen, Download, Newspaper, Lightbulb,
 } from 'lucide-react';
 import './newspaper.css';
 
 // ── Types ────────────────────────────────────────────────────────────────
+
+interface QuickByte {
+    text: string;
+    category: string;
+    gsPaper: string;
+    tags: string[];
+}
 
 interface EpaperArticle {
     id: string;
@@ -40,6 +47,7 @@ interface DailyEpaper {
     sources: string[];
     totalProcessed: number;
     highlights: string[];
+    quickBytes?: QuickByte[];
 }
 
 // ── Section config ───────────────────────────────────────────────────────
@@ -377,6 +385,46 @@ export default function CurrentAffairsPage() {
                                     </div>
                                 </div>
                             </article>
+                        )}
+
+                        {/* ═══ QUICK BYTES ═══ */}
+                        {epaper?.quickBytes && epaper.quickBytes.length > 0 && (
+                            <div className="np-quick-bytes">
+                                <div className="np-qb-header">
+                                    <Lightbulb size={16} />
+                                    <span>Quick Bytes</span>
+                                    <span className="np-qb-sub">Static GK · This Day in History</span>
+                                </div>
+                                <div className="np-qb-grid">
+                                    {epaper.quickBytes.map((qb, i) => {
+                                        const catIcons: Record<string, string> = {
+                                            art_culture: '🎨', history: '📜', anniversary: '📅',
+                                            geography: '🌍', science: '🔬', environment: '🌿',
+                                            polity: '⚖️', economy: '💰', international: '🌐', general: '📌',
+                                        };
+                                        const catLabels: Record<string, string> = {
+                                            art_culture: 'ART & CULTURE', history: 'HISTORY', anniversary: 'THIS DAY',
+                                            geography: 'GEOGRAPHY', science: 'SCIENCE', environment: 'ENVIRONMENT',
+                                            polity: 'POLITY', economy: 'ECONOMY', international: 'INTERNATIONAL', general: 'GENERAL',
+                                        };
+                                        return (
+                                            <div key={i} className="np-qb-item">
+                                                <span className="np-qb-icon">{catIcons[qb.category] || '📌'}</span>
+                                                <div className="np-qb-content">
+                                                    <div className="np-qb-meta">
+                                                        <span className="np-qb-cat">{catLabels[qb.category] || qb.category.toUpperCase()}</span>
+                                                        <span className="np-badge gs">{qb.gsPaper}</span>
+                                                    </div>
+                                                    <p className="np-qb-text">{qb.text}</p>
+                                                    <div className="np-qb-tags">
+                                                        {qb.tags.map(t => <span key={t}>#{t}</span>)}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        );
+                                    })}
+                                </div>
+                            </div>
                         )}
 
                         {/* ═══ GRID + SIDEBAR ═══ */}

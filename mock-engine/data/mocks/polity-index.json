@@ -1,0 +1,128 @@
+[
+  {
+    "mock_id": "polity-mock-1",
+    "title": "Polity & Governance Mock Test 1",
+    "subject": "polity",
+    "sequence_number": 1,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 30,
+      "medium": 40,
+      "hard": 30
+    },
+    "sub_topic_summary": {
+      "pol-constitution": 20,
+      "pol-parliament": 20,
+      "pol-federal": 17,
+      "pol-statutory": 15,
+      "pol-admin": 14,
+      "pol-evolution": 14
+    },
+    "created_at": "2026-03-20T09:42:39.825Z"
+  },
+  {
+    "mock_id": "polity-mock-2",
+    "title": "Polity & Governance Mock Test 2",
+    "subject": "polity",
+    "sequence_number": 2,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 30,
+      "medium": 40,
+      "hard": 30
+    },
+    "sub_topic_summary": {
+      "pol-constitution": 20,
+      "pol-parliament": 20,
+      "pol-federal": 17,
+      "pol-statutory": 15,
+      "pol-admin": 14,
+      "pol-evolution": 14
+    },
+    "created_at": "2026-03-20T09:42:39.825Z"
+  },
+  {
+    "mock_id": "polity-mock-3",
+    "title": "Polity & Governance Mock Test 3",
+    "subject": "polity",
+    "sequence_number": 3,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 30,
+      "medium": 40,
+      "hard": 30
+    },
+    "sub_topic_summary": {
+      "pol-constitution": 20,
+      "pol-parliament": 20,
+      "pol-federal": 17,
+      "pol-statutory": 15,
+      "pol-admin": 14,
+      "pol-evolution": 14
+    },
+    "created_at": "2026-03-20T09:42:39.826Z"
+  },
+  {
+    "mock_id": "polity-mock-4",
+    "title": "Polity & Governance Mock Test 4",
+    "subject": "polity",
+    "sequence_number": 4,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 30,
+      "medium": 40,
+      "hard": 30
+    },
+    "sub_topic_summary": {
+      "pol-constitution": 20,
+      "pol-parliament": 20,
+      "pol-federal": 17,
+      "pol-statutory": 15,
+      "pol-admin": 14,
+      "pol-evolution": 14
+    },
+    "created_at": "2026-03-20T09:42:39.826Z"
+  },
+  {
+    "mock_id": "polity-mock-5",
+    "title": "Polity & Governance Mock Test 5",
+    "subject": "polity",
+    "sequence_number": 5,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 30,
+      "medium": 40,
+      "hard": 30
+    },
+    "sub_topic_summary": {
+      "pol-constitution": 20,
+      "pol-parliament": 20,
+      "pol-federal": 17,
+      "pol-statutory": 15,
+      "pol-admin": 14,
+      "pol-evolution": 14
+    },
+    "created_at": "2026-03-20T09:42:39.826Z"
+  },
+  {
+    "mock_id": "polity-mock-6",
+    "title": "Polity & Governance Mock Test 6",
+    "subject": "polity",
+    "sequence_number": 6,
+    "total_questions": 100,
+    "difficulty_summary": {
+      "easy": 30,
+      "medium": 40,
+      "hard": 30
+    },
+    "sub_topic_summary": {
+      "pol-constitution": 20,
+      "pol-parliament": 20,
+      "pol-federal": 17,
+      "pol-statutory": 15,
+      "pol-admin": 14,
+      "pol-evolution": 14
+    },
+    "created_at": "2026-03-20T09:42:39.826Z"
+  }
+]

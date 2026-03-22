@@ -1,10 +1,12 @@
 'use client';
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
+import { useSearchParams } from 'next/navigation';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
     Loader2, Calendar, BookOpen, PenTool, ChevronDown,
     ChevronUp, Eye, EyeOff, CheckCircle2, XCircle, Target,
-    Clock, BarChart3, Zap, FileText, Brain,
+    Clock, BarChart3, Zap, FileText, Brain, Archive,
 } from 'lucide-react';
 import './daily-mock.css';
 
@@ -292,28 +294,30 @@ function MainsCard({ q, idx }: { q: MainsMock; idx: number }) {
 // ═════════════════════════════════════════════════════════════════════════
 
 export default function DailyMockPage() {
+    const searchParams = useSearchParams();
+    const urlDate = searchParams.get('date') || '';
     const [data, setData] = useState<MockData | null>(null);
     const [loading, setLoading] = useState(true);
     const [typeFilter, setTypeFilter] = useState<'all' | 'prelims' | 'csat' | 'mains'>('all');
-    const [selectedDate, setSelectedDate] = useState<string>('');
+    const [selectedDate, setSelectedDate] = useState<string>(urlDate);
 
     const fetchData = useCallback(async () => {
         setLoading(true);
         try {
-            const r = await fetch(`/api/daily-mock?_t=${Date.now()}`, { cache: 'no-store' });
+            const r = await fetch(`/api/daily-mock?limit=600&_t=${Date.now()}`, { cache: 'no-store' });
             if (!r.ok) throw new Error('Failed to load');
             const d: MockData = await r.json();
             setData(d);
-            // Default to latest (today's) date
+            // Default to URL date or latest (today's) date
             if (!selectedDate && d.availableDates.length > 0) {
-                setSelectedDate(d.availableDates[0]);
+                setSelectedDate(urlDate || d.availableDates[0]);
             }
         } catch (err) {
             console.error('Failed to load mock data:', err);
         } finally {
             setLoading(false);
         }
-    }, []);
+    }, [urlDate]);
 
     useEffect(() => { fetchData(); }, [fetchData]);
 
@@ -352,10 +356,14 @@ export default function DailyMockPage() {
                                 })}
                             </span>
                         </div>
-                        <div className="dm-topbar-right">
+                        <div className="dm-topbar-right" style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
                             <span style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
                                 <Calendar size={10} /> {stats.days} days available
                             </span>
+                            <Link href="/daily-mock/archive"
+                                style={{ display: 'flex', alignItems: 'center', gap: 4, color: 'var(--dm-prelims, #3b82f6)', fontWeight: 600, fontSize: 11 }}>
+                                <Archive size={10} /> Archive
+                            </Link>
                         </div>
                     </div>
 
@@ -393,13 +401,25 @@ export default function DailyMockPage() {
                         className="dm-date-select"
                         value={selectedDate}
                         onChange={e => setSelectedDate(e.target.value)}>
-                        {data?.availableDates.map(d => (
-                            <option key={d} value={d}>
-                                {new Date(d + 'T00:00:00').toLocaleDateString('en-IN', {
-                                    day: 'numeric', month: 'short', year: 'numeric',
-                                })}
-                            </option>
-                        ))}
+                        {(() => {
+                            const groups: Record<string, string[]> = {};
+                            for (const d of (data?.availableDates || [])) {
+                                const ym = d.slice(0, 7);
+                                if (!groups[ym]) groups[ym] = [];
+                                groups[ym].push(d);
+                            }
+                            return Object.entries(groups).map(([ym, dates]) => (
+                                <optgroup key={ym} label={new Date(dates[0] + 'T00:00:00').toLocaleDateString('en-IN', { month: 'long', year: 'numeric' })}>
+                                    {dates.map(d => (
+                                        <option key={d} value={d}>
+                                            {new Date(d + 'T00:00:00').toLocaleDateString('en-IN', {
+                                                weekday: 'short', day: 'numeric', month: 'short',
+                                            })}
+                                        </option>
+                                    ))}
+                                </optgroup>
+                            ));
+                        })()}
                     </select>
                 </div>
             </div>
@@ -459,50 +479,13 @@ export default function DailyMockPage() {
                                 </div>
                             </div>
 
-                            {/* Date Navigator */}
-                            <div className="dm-side-box">
-                                <div className="dm-side-head"><Calendar size={12} /> Date Navigator</div>
-                                <div className="dm-side-body">
-                                    {data?.availableDates.map(d => {
-                                        const dayData = data.days.find(dy => dy.date === d);
-                                        const csatCount = dayData
-                                            ? (dayData.csatMocks?.comprehension || []).reduce((s, c) => s + (c.questions?.length || 0), 0) + (dayData.csatMocks?.reasoning || []).length
-                                            : 0;
-                                        return (
-                                            <div key={d}
-                                                className="dm-stat-row"
-                                                style={{ cursor: 'pointer' }}
-                                                onClick={() => setSelectedDate(d)}>
-                                                <span style={{
-                                                    fontWeight: selectedDate === d ? 700 : 500,
-                                                    color: selectedDate === d ? 'var(--dm-prelims)' : undefined,
-                                                }}>
-                                                    {new Date(d + 'T00:00:00').toLocaleDateString('en-IN', {
-                                                        day: 'numeric', month: 'short', year: 'numeric',
-                                                    })}
-                                                </span>
-                                                <span style={{ display: 'flex', gap: 4 }}>
-                                                    {dayData?.prelimsMocks.length
-                                                        ? <span className="dm-date-badge prelims">
-                                                            {dayData.prelimsMocks.length}P
-                                                        </span>
-                                                        : null}
-                                                    {csatCount > 0
-                                                        ? <span className="dm-date-badge csat">
-                                                            {csatCount}C
-                                                        </span>
-                                                        : null}
-                                                    {dayData?.mainsMocks.length
-                                                        ? <span className="dm-date-badge mains">
-                                                            {dayData.mainsMocks.length}M
-                                                        </span>
-                                                        : null}
-                                                </span>
-                                            </div>
-                                        );
-                                    })}
-                                </div>
-                            </div>
+                            {/* Date Navigator — Grouped by Month */}
+                            <DateNavigator
+                                days={data?.days || []}
+                                availableDates={data?.availableDates || []}
+                                selectedDate={selectedDate}
+                                onSelectDate={setSelectedDate}
+                            />
 
                             {/* Quick Tips */}
                             <div className="dm-side-box">
@@ -525,6 +508,181 @@ export default function DailyMockPage() {
                         </aside>
                     </div>
                 )}
+            </div>
+        </div>
+    );
+}
+
+// ═════════════════════════════════════════════════════════════════════════
+// DATE NAVIGATOR (collapsible month accordion)
+// ═════════════════════════════════════════════════════════════════════════
+
+function DateNavigator({ days, availableDates, selectedDate, onSelectDate }: {
+    days: MockDay[];
+    availableDates: string[];
+    selectedDate: string;
+    onSelectDate: (d: string) => void;
+}) {
+    // Group dates by YYYY-MM
+    const monthGroups = useMemo(() => {
+        const groups: Record<string, { label: string; dates: string[] }> = {};
+        for (const d of availableDates) {
+            const ym = d.slice(0, 7);
+            if (!groups[ym]) {
+                const dt = new Date(d + 'T00:00:00');
+                groups[ym] = {
+                    label: dt.toLocaleDateString('en-IN', { month: 'short', year: 'numeric' }),
+                    dates: [],
+                };
+            }
+            groups[ym].dates.push(d);
+        }
+        return groups;
+    }, [availableDates]);
+
+    // Which month is currently open — default to the selected date's month
+    const selectedMonth = selectedDate ? selectedDate.slice(0, 7) : '';
+    const [expandedMonth, setExpandedMonth] = useState<string>(selectedMonth);
+
+    // Auto-expand when selected date changes
+    useEffect(() => {
+        if (selectedDate) {
+            setExpandedMonth(selectedDate.slice(0, 7));
+        }
+    }, [selectedDate]);
+
+    const toggleMonth = (ym: string) => {
+        setExpandedMonth(prev => prev === ym ? '' : ym);
+    };
+
+    return (
+        <div className="dm-side-box">
+            <div className="dm-side-head"><Calendar size={12} /> Date Navigator</div>
+            <div className="dm-side-body" style={{ padding: 0 }}>
+                {Object.entries(monthGroups).map(([ym, group]) => {
+                    const isOpen = expandedMonth === ym;
+                    const monthDays = group.dates.map(d => days.find(dy => dy.date === d)).filter(Boolean) as MockDay[];
+                    const totalP = monthDays.reduce((s, d) => s + (d.prelimsMocks?.length || 0), 0);
+                    const totalM = monthDays.reduce((s, d) => s + (d.mainsMocks?.length || 0), 0);
+                    const totalC = monthDays.reduce((s, d) => {
+                        const comp = (d.csatMocks?.comprehension || []).reduce((cs: number, c: any) => cs + (c.questions?.length || 0), 0);
+                        return s + comp + (d.csatMocks?.reasoning || []).length;
+                    }, 0);
+
+                    return (
+                        <div key={ym}>
+                            {/* Month Header — clickable */}
+                            <div
+                                onClick={() => toggleMonth(ym)}
+                                style={{
+                                    display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                                    padding: '8px 12px', cursor: 'pointer',
+                                    background: isOpen ? 'rgba(59,130,246,0.06)' : 'transparent',
+                                    borderBottom: '1px solid var(--dm-border, rgba(0,0,0,0.06))',
+                                    transition: 'background 0.15s',
+                                }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+                                    {isOpen
+                                        ? <ChevronDown size={11} style={{ color: 'var(--dm-prelims)' }} />
+                                        : <ChevronUp size={11} style={{ color: 'var(--dm-ink-2)', transform: 'rotate(180deg)' }} />
+                                    }
+                                    <span style={{
+                                        fontWeight: 700, fontSize: 11,
+                                        color: isOpen ? 'var(--dm-prelims)' : 'var(--dm-ink)',
+                                        fontFamily: 'var(--dm-head)',
+                                    }}>
+                                        {group.label}
+                                    </span>
+                                    <span style={{
+                                        fontSize: 9, color: 'var(--dm-ink-2)',
+                                        background: 'rgba(0,0,0,0.04)', borderRadius: 8,
+                                        padding: '1px 6px',
+                                    }}>
+                                        {group.dates.length}d
+                                    </span>
+                                </div>
+                                <div style={{ display: 'flex', gap: 3 }}>
+                                    {totalP > 0 && <span className="dm-date-badge prelims" style={{ fontSize: 8 }}>{totalP}P</span>}
+                                    {totalC > 0 && <span className="dm-date-badge csat" style={{ fontSize: 8 }}>{totalC}C</span>}
+                                    {totalM > 0 && <span className="dm-date-badge mains" style={{ fontSize: 8 }}>{totalM}M</span>}
+                                </div>
+                            </div>
+
+                            {/* Dates — only shown when expanded */}
+                            <AnimatePresence>
+                                {isOpen && (
+                                    <motion.div
+                                        initial={{ height: 0, opacity: 0 }}
+                                        animate={{ height: 'auto', opacity: 1 }}
+                                        exit={{ height: 0, opacity: 0 }}
+                                        transition={{ duration: 0.2 }}
+                                        style={{ overflow: 'hidden' }}>
+                                        <div style={{
+                                            display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(36px, 1fr))',
+                                            gap: 3, padding: '8px 10px',
+                                        }}>
+                                            {group.dates.map(d => {
+                                                const dayNum = parseInt(d.split('-')[2]);
+                                                const isSelected = d === selectedDate;
+                                                const dayData = days.find(dy => dy.date === d);
+                                                const hasCsat = dayData && ((dayData.csatMocks?.comprehension || []).length > 0 || (dayData.csatMocks?.reasoning || []).length > 0);
+
+                                                return (
+                                                    <div
+                                                        key={d}
+                                                        onClick={() => onSelectDate(d)}
+                                                        title={new Date(d + 'T00:00:00').toLocaleDateString('en-IN', {
+                                                            weekday: 'short', day: 'numeric', month: 'short'
+                                                        })}
+                                                        style={{
+                                                            width: 36, height: 36,
+                                                            display: 'flex', flexDirection: 'column',
+                                                            alignItems: 'center', justifyContent: 'center',
+                                                            borderRadius: 8, cursor: 'pointer',
+                                                            fontSize: 12, fontWeight: isSelected ? 800 : 600,
+                                                            fontFamily: 'var(--dm-head)',
+                                                            background: isSelected
+                                                                ? 'var(--dm-prelims, #3b82f6)'
+                                                                : 'rgba(0,0,0,0.03)',
+                                                            color: isSelected ? '#fff' : 'var(--dm-ink)',
+                                                            transition: 'all 0.15s',
+                                                            border: isSelected ? 'none' : '1px solid rgba(0,0,0,0.04)',
+                                                            position: 'relative',
+                                                        }}>
+                                                        {dayNum}
+                                                        {/* Tiny dots for P/C/M */}
+                                                        <div style={{
+                                                            display: 'flex', gap: 2, marginTop: 1,
+                                                        }}>
+                                                            {dayData?.prelimsMocks && dayData.prelimsMocks.length > 0 && (
+                                                                <span style={{
+                                                                    width: 4, height: 4, borderRadius: '50%',
+                                                                    background: isSelected ? 'rgba(255,255,255,0.7)' : '#3b82f6',
+                                                                }} />
+                                                            )}
+                                                            {hasCsat && (
+                                                                <span style={{
+                                                                    width: 4, height: 4, borderRadius: '50%',
+                                                                    background: isSelected ? 'rgba(255,255,255,0.7)' : '#a855f7',
+                                                                }} />
+                                                            )}
+                                                            {dayData?.mainsMocks && dayData.mainsMocks.length > 0 && (
+                                                                <span style={{
+                                                                    width: 4, height: 4, borderRadius: '50%',
+                                                                    background: isSelected ? 'rgba(255,255,255,0.7)' : '#22c55e',
+                                                                }} />
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                );
+                                            })}
+                                        </div>
+                                    </motion.div>
+                                )}
+                            </AnimatePresence>
+                        </div>
+                    );
+                })}
             </div>
         </div>
     );

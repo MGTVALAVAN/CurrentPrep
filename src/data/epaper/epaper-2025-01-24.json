@@ -1,0 +1,1938 @@
+{
+  "date": "2025-01-24",
+  "dateFormatted": "Friday 24 January, 2025",
+  "lastUpdated": "2026-03-21T18:25:38.345Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "bhandara-ordnance-explosion",
+      "headline": "Major Explosion Rocks Bhandara Ordnance Factory, Nine Feared Dead",
+      "explainer": "• A devastating explosion occurred at an ordnance factory in Bhandara, Maharashtra, claiming the lives of nine workers and injuring several others.\n• The factory is a key unit for manufacturing ammunition and explosives for the Indian Armed Forces.\n• An immediate high-level inquiry has been ordered to ascertain the cause, with initial reports pointing towards a malfunction in the manufacturing process.\n• The incident raises serious concerns about industrial safety protocols and the maintenance of critical defence infrastructure.\n• Defence Minister expressed condolences and assured full support for the victims' families and a thorough investigation.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Internal Security",
+        "Disaster Management",
+        "Industrial Security",
+        "Defence Technology",
+        "Role of regulatory bodies"
+      ],
+      "date": "2025-01-24",
+      "source": "PTI / The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Ordnance Factory",
+        "Bhandara",
+        "Industrial Accident",
+        "Defence Production",
+        "Safety Protocols"
+      ],
+      "keyTerms": [
+        "Ordnance Factories Board (OFB)",
+        "Industrial Safety",
+        "Disaster Response",
+        "Defence Manufacturing"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Bhandara district location in Maharashtra",
+        "Role of Ordnance Factories in India's defence",
+        "Regulatory bodies for industrial safety (e.g., Directorate General of Factory Advice Service & Labour Institutes - DGFASLI)"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Challenges in ensuring industrial safety in high-risk sectors like defence manufacturing",
+        "Role of accountability and investigation in preventing future incidents",
+        "Impact of such accidents on defence readiness and morale",
+        "Measures for strengthening disaster response and victim compensation mechanisms"
+      ],
+      "imageDescription": "Rescue operations underway at a damaged ordnance factory site.",
+      "section": "National",
+      "trivia": "Ordnance Factories in India are among the oldest industrial establishments in the country, with some dating back to the British era.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Industrial Policy",
+        "topic": "Defence Production"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "sc-data-privacy-ruling",
+      "headline": "Supreme Court Reaffirms Right to Privacy in Landmark Data Protection Ruling",
+      "explainer": "• The Supreme Court, in a significant verdict, reiterated the fundamental right to privacy, clarifying its application in the context of the new Digital Personal Data Protection Act, 2023.\n• The ruling addressed concerns regarding data localization, cross-border data flows, and the balance between individual privacy and state surveillance.\n• The court emphasized the need for proportionality and necessity for any state intervention infringing on privacy.\n• This judgment provides crucial interpretation for the implementation of the DPDP Act and future policy-making in the digital realm.\n• It is seen as a victory for digital rights advocates and a benchmark for data governance in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Fundamental Rights",
+        "Judiciary",
+        "Government Policies and Interventions",
+        "IT and Computers"
+      ],
+      "date": "2025-01-24",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Right to Privacy",
+        "Digital Personal Data Protection Act",
+        "Supreme Court",
+        "Data Governance",
+        "Fundamental Rights"
+      ],
+      "keyTerms": [
+        "K.S. Puttaswamy judgment",
+        "Digital Personal Data Protection Act (DPDP Act)",
+        "Data Fiduciary",
+        "Data Principal",
+        "Proportionality Test"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Digital Personal Data Protection Act, 2023",
+        "Article 21 of the Constitution",
+        "K.S. Puttaswamy vs Union of India case (2017)"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the implications of the judgment on individual digital rights and government surveillance powers.",
+        "Analyze the challenges and opportunities in implementing the DPDP Act post-judgment.",
+        "Evaluate the balance between national security interests and individual privacy in the digital age.",
+        "Role of judiciary in safeguarding fundamental rights in evolving technological landscapes."
+      ],
+      "imageDescription": "Gavel and a digital data icon, symbolizing legal judgment on technology.",
+      "section": "National",
+      "trivia": "India's journey towards a comprehensive data protection law began with the Srikrishna Committee report in 2018.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "vision-2047-economy",
+      "headline": "Government Unveils Ambitious 'Vision 2047' Economic Roadmap for Developed India",
+      "explainer": "• The Union Government presented its comprehensive 'Vision 2047' economic roadmap, outlining strategies to transform India into a developed nation by its centenary of independence.\n• Key pillars include boosting manufacturing, enhancing infrastructure, fostering innovation, promoting green growth, and ensuring inclusive development.\n• The roadmap emphasizes leveraging India's demographic dividend and integrating advanced technologies across sectors.\n• It sets specific targets for GDP growth, per capita income, and human development indices over the next two decades.\n• The plan involves significant public and private investment, along with structural reforms to improve ease of doing business.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning",
+        "Growth, Development and Employment",
+        "Infrastructure",
+        "Investment Models",
+        "Government Budgeting"
+      ],
+      "date": "2025-01-24",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Vision 2047",
+        "Economic Development",
+        "Developed India",
+        "Infrastructure",
+        "Manufacturing",
+        "Inclusive Growth"
+      ],
+      "keyTerms": [
+        "Developed Economy",
+        "Demographic Dividend",
+        "Green Growth",
+        "Ease of Doing Business",
+        "Structural Reforms"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Timeline for 'Developed India' vision (2047)",
+        "Key sectors identified for growth",
+        "Concept of 'green growth' and 'inclusive development'"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically analyze the feasibility and challenges in achieving the targets set in 'Vision 2047'.",
+        "Discuss the role of various stakeholders, including states and the private sector, in realizing this vision.",
+        "Evaluate the potential impact of global economic trends on India's 'Vision 2047' objectives.",
+        "Suggest policy measures to address potential roadblocks like income inequality and environmental sustainability."
+      ],
+      "imageDescription": "A graphic depicting India's economic growth trajectory towards 2047.",
+      "section": "Economy",
+      "trivia": "India aims to be the third-largest economy globally by 2030, a stepping stone to the 2047 vision.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy and Social Development",
+        "area": "Economic Growth and Development",
+        "topic": "Planning and Development"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-france-strategic-dialogue",
+      "headline": "India-France Strategic Dialogue Deepens Defence, Space & Technology Cooperation",
+      "explainer": "• India and France held their annual Strategic Dialogue in New Delhi, focusing on enhancing cooperation across defence, space, nuclear energy, and emerging technologies.\n• Discussions included joint development of military platforms, collaboration in critical and emerging technologies, and strengthening maritime security in the Indo-Pacific.\n• Both nations reiterated their commitment to a rules-based international order and multilateralism.\n• The dialogue also touched upon global challenges such as climate change, counter-terrorism, and regional stability.\n• This dialogue reinforces the robust strategic partnership between India and France, a key pillar of India's foreign policy.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India",
+        "Effect of policies and politics of developed and developing countries on India’s interests"
+      ],
+      "date": "2025-01-24",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "India-France Relations",
+        "Strategic Partnership",
+        "Defence Cooperation",
+        "Space Technology",
+        "Indo-Pacific",
+        "Bilateral Dialogue"
+      ],
+      "keyTerms": [
+        "Strategic Autonomy",
+        "Indo-Pacific",
+        "Multilateralism",
+        "Rafale Deal",
+        "Critical Technology"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key areas of India-France strategic partnership (Defence, Space, Nuclear)",
+        "Indo-Pacific strategy",
+        "Annual Strategic Dialogue mechanism"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of India's strategic partnership with France in the context of its foreign policy objectives.",
+        "Discuss how India and France are collaborating to address challenges in the Indo-Pacific region.",
+        "Evaluate the potential for further technological and defence cooperation between the two countries.",
+        "Examine the role of France as a key European partner for India's strategic autonomy."
+      ],
+      "imageDescription": "Indian and French flags side-by-side, symbolizing bilateral cooperation.",
+      "section": "International",
+      "trivia": "France was the first P5 nation to establish a strategic partnership with India in 1998.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India-France Relations"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-rlv-test",
+      "headline": "ISRO Successfully Tests Next-Generation Reusable Launch Vehicle Technology",
+      "explainer": "• The Indian Space Research Organisation (ISRO) achieved a significant milestone with the successful test of its Reusable Launch Vehicle (RLV) technology demonstrator.\n• This test involved a controlled descent and landing experiment, simulating the return of a space vehicle to Earth.\n• RLV technology is crucial for reducing the cost of space access by enabling multiple uses of launch vehicle components.\n• This success brings India closer to developing its own two-stage-to-orbit (TSTO) fully reusable launch system.\n• The indigenous development of RLV will enhance India's competitive edge in the global space market and support future ambitious missions like Gaganyaan.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Achievements of Indians in science & technology",
+        "Awareness in the fields of Space"
+      ],
+      "date": "2025-01-24",
+      "source": "ISRO",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Reusable Launch Vehicle (RLV)",
+        "Space Technology",
+        "Space Exploration",
+        "Gaganyaan",
+        "Indigenous Technology"
+      ],
+      "keyTerms": [
+        "RLV-TD",
+        "Two-Stage-To-Orbit (TSTO)",
+        "Space Access Cost",
+        "Aerodynamic Re-entry",
+        "Cryogenic Engine"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "RLV-TD program",
+        "Benefits of reusable launch vehicles (cost reduction, faster turnaround)",
+        "ISRO's future space missions (e.g., Gaganyaan)"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic and economic implications of India's indigenous RLV technology.",
+        "How does RLV technology contribute to India's ambition in global space commerce?",
+        "Analyze the challenges and future roadmap for ISRO's reusable launch vehicle development.",
+        "Examine the potential synergies between RLV development and other space missions like Gaganyaan."
+      ],
+      "imageDescription": "An artistic rendering of ISRO's Reusable Launch Vehicle.",
+      "section": "Science",
+      "trivia": "The first experimental flight of ISRO's RLV-TD (Hypersonic Flight Experiment) took place in 2016.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space Technology",
+        "topic": "Launch Vehicles"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "urban-air-quality-policy",
+      "headline": "Government Launches New Policy Framework for Urban Air Quality Management",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change unveiled a comprehensive new policy framework aimed at improving urban air quality across India.\n• The policy integrates source-specific emission reduction strategies, advanced monitoring systems, and public awareness campaigns.\n• It mandates stricter emission norms for industries and vehicles, promotes electric mobility, and encourages green infrastructure development.\n• Special focus is given to 131 non-attainment cities under the National Clean Air Programme (NCAP), with enhanced funding and technical support.\n• The framework also emphasizes inter-state and inter-ministerial coordination for effective implementation.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation",
+        "Environmental impact assessment",
+        "Government policies and interventions for development in various sectors"
+      ],
+      "date": "2025-01-24",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Air Quality",
+        "Urban Pollution",
+        "National Clean Air Programme (NCAP)",
+        "Electric Vehicles",
+        "Green Infrastructure",
+        "Environmental Policy"
+      ],
+      "keyTerms": [
+        "PM2.5",
+        "PM10",
+        "Non-attainment cities",
+        "Emission Norms",
+        "Air Quality Index (AQI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Clean Air Programme (NCAP)",
+        "Key pollutants (PM2.5, PM10)",
+        "Concept of non-attainment cities",
+        "Role of CPCB"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the effectiveness of existing air pollution control measures and the potential impact of the new policy.",
+        "Discuss the challenges in implementing a multi-sectoral approach to urban air quality management.",
+        "Evaluate the role of technology and citizen participation in achieving cleaner air in Indian cities.",
+        "Suggest innovative solutions for tackling agricultural stubble burning and industrial emissions."
+      ],
+      "imageDescription": "A cityscape with a clean air filter graphic overlay.",
+      "section": "Environment",
+      "trivia": "Delhi often ranks among the most polluted cities globally, especially during winter months, due to a combination of factors including vehicular emissions, industrial pollution, and stubble burning.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Environmental Pollution",
+        "topic": "Air Pollution"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "national-girl-child-day-stem",
+      "headline": "National Girl Child Day: Government Pledges Enhanced Focus on STEM Education for Girls",
+      "explainer": "• On National Girl Child Day (January 24), the Ministry of Women and Child Development announced new initiatives to promote girls' participation in Science, Technology, Engineering, and Mathematics (STEM) fields.\n• The programs include scholarships, mentorship schemes, and dedicated labs in schools to encourage young girls to pursue STEM careers.\n• Data indicates a significant gender gap in higher STEM education and employment, which the new push aims to address.\n• The initiative aligns with broader goals of women's empowerment and leveraging India's human capital for economic growth.\n• Emphasis was also placed on combating gender stereotypes and creating an enabling environment for girls' education.",
+      "category": "society",
+      "gsPaper": "GS1 / GS2",
+      "gsSubTopics": [
+        "Role of women and women’s organization",
+        "Social empowerment",
+        "Development processes and the development industry",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources"
+      ],
+      "date": "2025-01-24",
+      "source": "Ministry of Women and Child Development",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "National Girl Child Day",
+        "STEM Education",
+        "Women Empowerment",
+        "Gender Equality",
+        "Education Policy",
+        "Skill Development"
+      ],
+      "keyTerms": [
+        "Gender Gap",
+        "STEM Fields",
+        "Demographic Dividend",
+        "Beti Bachao Beti Padhao",
+        "Digital Literacy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Girl Child Day (Jan 24)",
+        "Initiatives for girls' education (e.g., Beti Bachao Beti Padhao)",
+        "Importance of STEM for national development"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the socio-economic benefits of increasing girls' participation in STEM fields in India.",
+        "Analyze the challenges faced by girls in accessing and excelling in STEM education.",
+        "Evaluate the effectiveness of government initiatives like 'Beti Bachao Beti Padhao' in promoting girls' education and empowerment.",
+        "Suggest policy recommendations to further bridge the gender gap in STEM and workforce participation."
+      ],
+      "imageDescription": "A group of young girls engaged in a science experiment.",
+      "section": "National",
+      "trivia": "National Girl Child Day was first observed in 2008 by the Ministry of Women and Child Development.",
+      "prelimsSyllabus": {
+        "subject": "Indian Society",
+        "area": "Women and Society",
+        "topic": "Gender Issues"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "rbi-repo-rate",
+      "headline": "RBI Maintains Repo Rate at 6.5% Amidst Persistent Inflationary Concerns",
+      "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) unanimously decided to keep the benchmark repo rate unchanged at 6.5%.\n• This decision reflects the MPC's cautious approach, balancing robust economic growth with persistent inflationary pressures, particularly in food prices.\n• The RBI reiterated its commitment to aligning inflation with the target while supporting growth.\n• Analysts anticipate a prolonged pause in rate cuts, with future decisions contingent on inflation trajectory and global economic conditions.\n• The move aims to anchor inflation expectations and ensure financial stability in the Indian economy.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning",
+        "Monetary Policy",
+        "Inflation",
+        "Government Budgeting"
+      ],
+      "date": "2025-01-24",
+      "source": "Reserve Bank of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "RBI",
+        "Repo Rate",
+        "Monetary Policy",
+        "Inflation",
+        "Economic Growth",
+        "Financial Stability"
+      ],
+      "keyTerms": [
+        "Repo Rate",
+        "Reverse Repo Rate",
+        "Cash Reserve Ratio (CRR)",
+        "Statutory Liquidity Ratio (SLR)",
+        "Monetary Policy Committee (MPC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Current Repo Rate (6.5%)",
+        "Role of Monetary Policy Committee (MPC)",
+        "Primary objective of RBI's monetary policy (inflation targeting)",
+        "Tools of monetary policy (repo, reverse repo, CRR, SLR)"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the factors influencing RBI's decision to maintain the repo rate and its implications for the Indian economy.",
+        "Analyze the challenges faced by the MPC in balancing inflation control and economic growth.",
+        "Evaluate the effectiveness of monetary policy tools in managing liquidity and credit conditions.",
+        "Examine the potential impact of global economic slowdowns and geopolitical events on India's monetary policy outlook."
+      ],
+      "imageDescription": "RBI logo with currency notes.",
+      "section": "Economy",
+      "trivia": "The Monetary Policy Committee (MPC) consists of six members – three officials from the RBI and three external members nominated by the Government of India.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy and Social Development",
+        "area": "Monetary Policy",
+        "topic": "Inflation and Interest Rates"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "parliament-police-reform",
+      "headline": "Parliamentary Panel Recommends Sweeping Reforms in Police Act and Criminal Justice System",
+      "explainer": "• A Parliamentary Standing Committee submitted its report recommending significant amendments to the existing Police Act and broader reforms in the criminal justice system.\n• The report advocates for modernizing police forces, improving accountability mechanisms, and enhancing training and infrastructure.\n• Key recommendations include separating investigation and law and order functions, establishing independent police complaints authorities, and ensuring adequate welfare for police personnel.\n• The committee emphasized the need to align police functioning with democratic principles and human rights standards.\n• These reforms are crucial for improving public trust in law enforcement and ensuring efficient justice delivery.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Structure, organization and functioning of the Executive and the Judiciary",
+        "Government policies and interventions for development in various sectors",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources"
+      ],
+      "date": "2025-01-24",
+      "source": "The Times of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Police Reforms",
+        "Criminal Justice System",
+        "Parliamentary Committee",
+        "Law Enforcement",
+        "Accountability",
+        "Human Rights"
+      ],
+      "keyTerms": [
+        "Police Act of 1861",
+        "Model Police Act",
+        "Prakash Singh case",
+        "Law Commission Reports",
+        "Independent Police Complaints Authority"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Prakash Singh vs Union of India judgment (2006)",
+        "Police Act, 1861",
+        "Concept of separating investigation and law & order"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the historical context and necessity of police reforms in India.",
+        "Analyze the key recommendations of the Parliamentary Committee and their potential impact on policing.",
+        "Evaluate the challenges in implementing police reforms across states, including issues of political will and resource allocation.",
+        "Suggest measures to enhance police accountability and public trust while ensuring operational efficiency."
+      ],
+      "imageDescription": "Police badge with a justice scale.",
+      "section": "National",
+      "trivia": "The Indian Police Act of 1861, enacted shortly after the 1857 revolt, primarily focused on maintaining order and suppressing dissent.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Government Policies and Interventions",
+        "topic": "Police Reforms"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "critical-minerals-initiative",
+      "headline": "India Joins Global Initiative for Secure Critical Minerals Supply Chains",
+      "explainer": "• India formally joined a multilateral initiative aimed at diversifying and securing global supply chains for critical minerals, essential for clean energy technologies and high-tech manufacturing.\n• The initiative focuses on collaboration in exploration, extraction, processing, and recycling of minerals like lithium, cobalt, nickel, and rare earth elements.\n• This move is crucial for India's energy transition goals and strategic autonomy in key industrial sectors.\n• It will facilitate partnerships with mineral-rich countries and advanced technology providers to reduce reliance on single-source suppliers.\n• The collaboration is expected to mitigate geopolitical risks and ensure stable access to these vital resources.",
+      "category": "ir",
+      "gsPaper": "GS2 / GS3",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India",
+        "Effect of policies and politics of developed and developing countries on India’s interests",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-01-24",
+      "source": "Ministry of Mines",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Critical Minerals",
+        "Supply Chain Security",
+        "Clean Energy",
+        "Strategic Autonomy",
+        "International Cooperation",
+        "Lithium",
+        "Rare Earth Elements"
+      ],
+      "keyTerms": [
+        "Critical Mineral Security Partnership (CMSP)",
+        "Energy Transition",
+        "Strategic Minerals",
+        "Geopolitical Risk",
+        "Resource Diplomacy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Examples of critical minerals (lithium, cobalt, REE)",
+        "Importance for clean energy and high-tech industries",
+        "India's initiatives for critical mineral security (e.g., KABIL)"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of critical minerals for India's economic growth and national security.",
+        "Analyze the challenges India faces in securing its critical mineral supply chains and how this initiative addresses them.",
+        "Evaluate the role of international cooperation in mitigating geopolitical risks associated with critical mineral access.",
+        "Examine the potential impact of this initiative on India's energy transition and manufacturing sector."
+      ],
+      "imageDescription": "A graphic representing various critical minerals and supply chain.",
+      "section": "International",
+      "trivia": "India's first-ever auction of critical mineral blocks, including lithium and graphite, was initiated in 2023.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Global Groupings",
+        "topic": "Resource Diplomacy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "indigenous-cancer-drug",
+      "headline": "Indian Scientists Announce Breakthrough in Indigenous Cancer Drug Research",
+      "explainer": "• Researchers at a prominent Indian institute announced a significant breakthrough in developing a novel indigenous drug molecule for a specific type of cancer.\n• Early-stage clinical trials have shown promising results in inhibiting cancer cell growth with fewer side effects compared to existing treatments.\n• This development holds immense potential for making advanced cancer therapies more affordable and accessible in India and other developing countries.\n• The research leveraged traditional knowledge combined with modern biotechnological approaches.\n• Further trials are underway, and the drug is expected to enter advanced phases of development soon.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Achievements of Indians in science & technology",
+        "Awareness in the fields of Biotechnology"
+      ],
+      "date": "2025-01-24",
+      "source": "The Hindu BusinessLine",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Cancer Research",
+        "Indigenous Drug Development",
+        "Biotechnology",
+        "Healthcare Innovation",
+        "Affordable Medicine",
+        "Medical Science"
+      ],
+      "keyTerms": [
+        "Clinical Trials",
+        "Drug Discovery",
+        "Biopharmaceuticals",
+        "Oncology",
+        "Traditional Knowledge"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Phases of clinical trials",
+        "Role of biotechnology in drug development",
+        "Importance of indigenous drug research"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of indigenous drug development for India's healthcare sector and pharmaceutical industry.",
+        "Analyze the challenges involved in bringing a new drug from research to market in India.",
+        "Evaluate how this breakthrough could impact cancer treatment accessibility and affordability.",
+        "Examine the role of public-private partnerships in fostering medical research and innovation in India."
+      ],
+      "imageDescription": "Microscopic view of cancer cells being targeted by a drug molecule.",
+      "section": "Science",
+      "trivia": "India is often referred to as the 'Pharmacy of the World' due to its significant role in generic drug manufacturing.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Biotechnology",
+        "topic": "Health and Medicine"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "wetlands-conservation-expansion",
+      "headline": "Wetlands Conservation Program Expanded to 20 More Sites Across India",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change announced the expansion of its national wetlands conservation program to include 20 new sites, bringing them under enhanced protection.\n• These newly identified wetlands are crucial for biodiversity, water regulation, and providing livelihoods for local communities.\n• The program focuses on scientific management, restoration activities, and community participation for sustainable conservation.\n• The expansion aims to boost India's commitment to the Ramsar Convention and achieve national biodiversity targets.\n• Wetlands are vital ecosystems, often referred to as \"kidneys of the landscape\" for their filtration capacities.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation",
+        "Environmental impact assessment",
+        "Biodiversity"
+      ],
+      "date": "2025-01-24",
+      "source": "Down To Earth",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Wetlands",
+        "Conservation",
+        "Biodiversity",
+        "Ramsar Sites",
+        "Ecosystem Services",
+        "Environmental Protection"
+      ],
+      "keyTerms": [
+        "Ramsar Convention",
+        "Wetland Ecosystems",
+        "Biodiversity Hotspots",
+        "Ecological Restoration",
+        "Ecosystem Services"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ramsar Convention (1971)",
+        "Importance of wetlands (biodiversity, water filtration, flood control)",
+        "Examples of Ramsar sites in India",
+        "National Wetland Conservation Programme (NWCP)"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ecological and economic significance of wetlands in India.",
+        "Analyze the major threats faced by wetland ecosystems and the effectiveness of current conservation efforts.",
+        "Evaluate the role of community participation and traditional ecological knowledge in wetland management.",
+        "Suggest policy measures to strengthen wetland conservation and prevent their degradation."
+      ],
+      "imageDescription": "A serene wetland landscape with migratory birds.",
+      "section": "Environment",
+      "trivia": "World Wetlands Day is celebrated annually on February 2nd, marking the date of the adoption of the Convention on Wetlands in Ramsar, Iran, in 1971.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Conservation",
+        "topic": "Wetlands"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "universal-health-coverage-report",
+      "headline": "Report Highlights Implementation Challenges in Universal Health Coverage in India",
+      "explainer": "• A new report released by a leading public health think tank pointed out significant challenges in achieving Universal Health Coverage (UHC) in India, despite various government initiatives.\n• The report highlighted issues such as inadequate public health infrastructure, shortage of skilled healthcare professionals, and disparities in access between urban and rural areas.\n• Financial protection for catastrophic health expenditures remains a concern for many households, pushing them into poverty.\n• Recommendations include increasing public health spending, strengthening primary healthcare, and improving governance in the health sector.\n• The findings underscore the need for a multi-pronged approach to ensure equitable and affordable healthcare for all citizens.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government policies and interventions for development in various sectors"
+      ],
+      "date": "2025-01-24",
+      "source": "NITI Aayog / Public Health Foundation of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Universal Health Coverage (UHC)",
+        "Healthcare Infrastructure",
+        "Public Health",
+        "Health Policy",
+        "Aarogya Bharat",
+        "Rural Health"
+      ],
+      "keyTerms": [
+        "Ayushman Bharat",
+        "Primary Healthcare",
+        "Out-of-Pocket Expenditure (OOPE)",
+        "Health Equity",
+        "Sustainable Development Goals (SDGs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Concept of Universal Health Coverage (UHC)",
+        "Government schemes (Ayushman Bharat)",
+        "SDG 3 (Good Health and Well-being)"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the major hurdles in achieving universal and equitable healthcare access in India.",
+        "Analyze the role of public and private sectors in strengthening India's healthcare delivery system.",
+        "Evaluate the effectiveness of current government schemes like Ayushman Bharat in reducing out-of-pocket expenditure.",
+        "Suggest policy interventions to address the shortage of healthcare professionals and improve rural health infrastructure."
+      ],
+      "imageDescription": "A doctor interacting with a rural patient, symbolizing healthcare access.",
+      "section": "National",
+      "trivia": "India's public health spending as a percentage of GDP is among the lowest globally, contributing to high out-of-pocket expenditures.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Social Sector Initiatives",
+        "topic": "Health Policy"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "pli-green-hydrogen",
+      "headline": "PLI Scheme Expanded to Boost Green Hydrogen Manufacturing in India",
+      "explainer": "• The Production Linked Incentive (PLI) scheme has been expanded to include incentives for the manufacturing of green hydrogen and its derivatives, aiming to establish India as a global hub.\n• This move is part of the National Green Hydrogen Mission and seeks to attract investments, foster technological innovation, and reduce production costs.\n• Incentives will be provided for electrolyzer manufacturing and the production of green hydrogen, encouraging both domestic and international players.\n• The scheme is expected to create significant employment opportunities and contribute to India's energy security and decarbonization goals.\n• It underscores the government's commitment to promoting clean energy and achieving net-zero emissions by 2070.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning",
+        "Growth, Development and Employment",
+        "Infrastructure: Energy",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-01-24",
+      "source": "Ministry of New and Renewable Energy",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "PLI Scheme",
+        "National Green Hydrogen Mission",
+        "Renewable Energy",
+        "Energy Security",
+        "Decarbonization",
+        "Manufacturing"
+      ],
+      "keyTerms": [
+        "Electrolyzer",
+        "Green Hydrogen",
+        "Production Linked Incentive (PLI)",
+        "Net-Zero Emissions",
+        "Energy Transition"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Green Hydrogen Mission",
+        "PLI scheme (purpose and sectors)",
+        "Electrolyzer technology",
+        "India's net-zero target (2070)"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of green hydrogen for India's energy security and climate change commitments.",
+        "Analyze how the expanded PLI scheme can boost domestic manufacturing and reduce the cost of green hydrogen production.",
+        "Evaluate the challenges and opportunities in establishing India as a global hub for green hydrogen.",
+        "Examine the potential impact of green hydrogen on various sectors of the Indian economy and its role in decarbonization."
+      ],
+      "imageDescription": "A graphic showing green hydrogen production from renewable energy.",
+      "section": "Economy",
+      "trivia": "Green hydrogen is produced by electrolysis of water using renewable energy, emitting no greenhouse gases in the process.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy and Social Development",
+        "area": "Infrastructure",
+        "topic": "Energy Sector"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "delimitation-ne-states",
+      "headline": "Delimitation Commission Concludes Consultations for North-Eastern States, Report Expected Soon",
+      "explainer": "• The Delimitation Commission, constituted for the North-Eastern states, has concluded its extensive consultations with political parties, civil society groups, and local administrations.\n• The exercise aims to redraw parliamentary and assembly constituencies based on the latest census data, ensuring proportional representation.\n• This process has been complex due to diverse geographical terrains, demographic shifts, and unique cultural considerations in the region.\n• The Commission's recommendations are expected to be submitted soon, potentially leading to significant changes in electoral boundaries.\n• The delimitation is crucial for ensuring fair representation and addressing long-standing demographic imbalances in the electoral map of the North-East.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Parliament and State Legislatures—structure, functioning, conduct of business, powers & privileges and issues arising out of these"
+      ],
+      "date": "2025-01-24",
+      "source": "Election Commission of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Delimitation Commission",
+        "North-Eastern States",
+        "Electoral Reforms",
+        "Constituency Redrawing",
+        "Proportional Representation",
+        "Census Data"
+      ],
+      "keyTerms": [
+        "Delimitation Act",
+        "Article 82",
+        "Article 170",
+        "Electoral Boundaries",
+        "Census Data"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Purpose of Delimitation Commission",
+        "Constitutional Articles related to delimitation (82, 170)",
+        "Basis of delimitation (Census data)",
+        "Last delimitation exercise (2002)"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the constitutional mandate and significance of the delimitation exercise in India.",
+        "Analyze the unique challenges faced by the Delimitation Commission in the North-Eastern states.",
+        "Evaluate the potential political and social implications of redrawing electoral boundaries in a diverse region.",
+        "Suggest measures to ensure fairness and address concerns of various stakeholders during the delimitation process."
+      ],
+      "imageDescription": "Map of North-Eastern India with electoral boundaries.",
+      "section": "National",
+      "trivia": "The last nationwide delimitation exercise was completed in 2008, based on the 2001 Census, but seats were frozen until 2026. However, special delimitation exercises can be carried out for specific regions.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Constitutional Bodies",
+        "topic": "Election Commission"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ancient-buddhist-site-odisha",
+      "headline": "Archaeological Survey Discovers Ancient Buddhist Site in Odisha, Unearths Rare Artifacts",
+      "explainer": "• The Archaeological Survey of India (ASI) announced the discovery of a significant ancient Buddhist site in Odisha, dating back to the early medieval period.\n• Excavations have revealed remnants of stupas, monasteries, and intricate sculptures, offering new insights into the spread of Buddhism in eastern India.\n• Rare artifacts, including terracotta figurines and inscriptions in ancient scripts, have been unearthed, providing valuable historical and cultural evidence.\n• The discovery sheds light on the region's rich Buddhist heritage and its connections with other major Buddhist centers.\n• Conservation efforts are underway, and the site is expected to become a major archaeological and tourist attraction.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times",
+        "History of India and Indian National Movement"
+      ],
+      "date": "2025-01-24",
+      "source": "Archaeological Survey of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Archaeology",
+        "Buddhist Heritage",
+        "Odisha",
+        "Ancient India",
+        "Art and Culture",
+        "ASI",
+        "Stupas"
+      ],
+      "keyTerms": [
+        "Archaeological Survey of India (ASI)",
+        "Stupa",
+        "Vihara",
+        "Early Medieval Period",
+        "Terracotta Figurines",
+        "Inscriptions"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Location of discovery (Odisha)",
+        "Significance of Buddhist sites in India",
+        "Role of ASI",
+        "Key features of Buddhist architecture (Stupas, Viharas)"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the contribution of archaeological discoveries to understanding India's ancient history and cultural heritage.",
+        "Analyze the spread and decline of Buddhism in eastern India, as evidenced by such findings.",
+        "Evaluate the challenges and importance of preserving archaeological sites for future generations.",
+        "Examine the role of the Archaeological Survey of India in promoting and protecting India's cultural heritage."
+      ],
+      "imageDescription": "Excavated ruins of an ancient stupa with intricate carvings.",
+      "section": "National",
+      "trivia": "Odisha has a rich Buddhist heritage, with famous sites like Ratnagiri, Udayagiri, and Lalitgiri, often referred to as the 'Diamond Triangle' of Buddhism.",
+      "prelimsSyllabus": {
+        "subject": "History of India",
+        "area": "Ancient History",
+        "topic": "Buddhism and Jainism"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "border-security-tech",
+      "headline": "Border Security Strengthened with Advanced Surveillance Technology and Integrated Patrols",
+      "explainer": "• The Ministry of Home Affairs announced significant upgrades to border security infrastructure, deploying advanced surveillance technologies along critical stretches of India's international borders.\n• The measures include the installation of smart fences, drone-based monitoring systems, and integrated ground patrols to detect and deter infiltration and smuggling.\n• Emphasis is also placed on enhancing inter-agency coordination and real-time intelligence sharing among border guarding forces.\n• The move aims to counter evolving threats from cross-border terrorism, illegal migration, and drug trafficking.\n• These technological advancements are part of a broader strategy to modernize border management and ensure national security.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Border areas",
+        "Security challenges and their management in border areas",
+        "Organized crime and its linkages with terrorism"
+      ],
+      "date": "2025-01-24",
+      "source": "Ministry of Home Affairs",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Border Security",
+        "Surveillance Technology",
+        "Internal Security",
+        "Drone Technology",
+        "Infiltration",
+        "National Security",
+        "Border Management"
+      ],
+      "keyTerms": [
+        "Comprehensive Integrated Border Management System (CIBMS)",
+        "Smart Fence",
+        "Drone Surveillance",
+        "Border Guarding Forces (BSF, ITBP, SSB)",
+        "Cross-border Terrorism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Border guarding forces (BSF, ITBP, SSB, Assam Rifles)",
+        "Comprehensive Integrated Border Management System (CIBMS)",
+        "Types of border challenges (infiltration, smuggling, terrorism)"
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the multi-faceted challenges faced by India in securing its diverse international borders.",
+        "Analyze the role of technology in enhancing border surveillance and management.",
+        "Evaluate the effectiveness of integrated border patrols and inter-agency coordination in preventing cross-border threats.",
+        "Suggest policy measures to address the socio-economic factors contributing to illegal cross-border activities and strengthen border community engagement."
+      ],
+      "imageDescription": "A border fence with surveillance cameras and a drone flying overhead.",
+      "section": "National",
+      "trivia": "India has a land border of over 15,000 kilometers, shared with seven countries, making border management a complex task.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Border Management",
+        "topic": "Border Security Challenges"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "Major explosion at Bhandara Ordnance Factory kills nine, prompting high-level inquiry into industrial safety.",
+    "Supreme Court reaffirms Right to Privacy, interpreting its application in the Digital Personal Data Protection Act, 2023.",
+    "Government unveils 'Vision 2047' economic roadmap, aiming for India to become a developed nation by its centenary of independence.",
+    "India and France deepen strategic cooperation in defence, space, and technology during their annual Strategic Dialogue.",
+    "ISRO successfully tests next-generation Reusable Launch Vehicle technology, a step towards cost-effective space access."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the Digital Personal Data Protection Act, 2023, and the Right to Privacy, consider the following statements:\n1. The Right to Privacy was declared a fundamental right under Article 21 by the Supreme Court in the K.S. Puttaswamy case.\n2. The Digital Personal Data Protection Act, 2023, primarily aims to regulate the processing of digital personal data.\n3. The Act allows for unrestricted cross-border transfer of personal data to any country without further checks.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(a) 1 and 2 only",
+      "explanation": "Statement 1 is correct: The Supreme Court, in its landmark 2017 judgment in K.S. Puttaswamy vs Union of India, declared the Right to Privacy as a fundamental right under Article 21 of the Constitution. Statement 2 is correct: The primary objective of the Digital Personal Data Protection Act, 2023, is to regulate the processing of digital personal data in a manner that recognizes both the right of individuals to protect their personal data and the need to process such data for lawful purposes. Statement 3 is incorrect: The Act includes provisions for restricting cross-border transfer of personal data to certain countries, implying that it is not an unrestricted transfer and is subject to government notification and other checks."
+    },
+    {
+      "question": "Which of the following statements correctly describes the 'Production Linked Incentive (PLI) Scheme' in the context of Green Hydrogen?",
+      "options": [
+        "(a) It offers subsidies to consumers for purchasing green hydrogen-powered vehicles.",
+        "(b) It provides financial incentives to companies for manufacturing electrolyzers and producing green hydrogen.",
+        "(c) It mandates a quota for industries to use a certain percentage of green hydrogen in their operations.",
+        "(d) It funds research and development into new methods of producing blue hydrogen."
+      ],
+      "answer": "(b) It provides financial incentives to companies for manufacturing electrolyzers and producing green hydrogen.",
+      "explanation": "The Production Linked Incentive (PLI) scheme, when expanded for Green Hydrogen, specifically aims to boost domestic manufacturing capabilities for electrolyzers (key equipment for green hydrogen production) and to incentivize the production of green hydrogen. This is intended to reduce production costs and establish India as a global hub for green hydrogen."
+    },
+    {
+      "question": "The term 'Non-attainment cities' is often seen in the news in the context of:",
+      "options": [
+        "(a) Cities failing to meet Smart City Mission targets.",
+        "(b) Cities where air quality standards consistently fall below national ambient air quality standards.",
+        "(c) Cities that have not achieved 100% household electrification.",
+        "(d) Cities with low literacy rates among women."
+      ],
+      "answer": "(b) Cities where air quality standards consistently fall below national ambient air quality standards.",
+      "explanation": "Non-attainment cities are identified under India's National Clean Air Programme (NCAP). These are cities that have consistently failed to meet the National Ambient Air Quality Standards (NAAQS) for specific pollutants (like PM2.5 and PM10) over a five-year period."
+    },
+    {
+      "question": "Consider the following pairs:\n1. Ramsar Convention: Wetlands conservation\n2. National Girl Child Day: January 24\n3. Critical Minerals: Essential for clean energy technologies\nHow many of the above pairs are correctly matched?",
+      "options": [
+        "(a) Only one",
+        "(b) Only two",
+        "(c) All three",
+        "(d) None"
+      ],
+      "answer": "(c) All three",
+      "explanation": "All three pairs are correctly matched. The Ramsar Convention is indeed an international treaty for the conservation and sustainable use of wetlands. National Girl Child Day is celebrated annually on January 24th in India. Critical minerals are indeed vital for clean energy technologies (e.g., lithium for batteries) and high-tech industries."
+    },
+    {
+      "question": "What is the primary objective of the Delimitation Commission in India?",
+      "options": [
+        "(a) To conduct elections for Lok Sabha and State Assemblies.",
+        "(b) To determine the boundaries of parliamentary and assembly constituencies.",
+        "(c) To register new political parties and allocate symbols.",
+        "(d) To investigate electoral malpractices and ensure free and fair elections."
+      ],
+      "answer": "(b) To determine the boundaries of parliamentary and assembly constituencies.",
+      "explanation": "The Delimitation Commission is a high-power body whose primary objective is to redraw the boundaries of Lok Sabha and State Assembly constituencies to ensure that each constituency has roughly the same population and to ensure fair representation based on recent census data. This process is known as delimitation."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "The recent explosion at the Bhandara Ordnance Factory underscores the critical need for robust industrial safety mechanisms and comprehensive disaster management protocols in India's strategic sectors. Discuss the multifaceted challenges in ensuring industrial safety in high-risk industries and suggest measures for improving accountability and preparedness.",
+      "syllabusMatch": "GS3: Internal Security; Disaster and Disaster Management.",
+      "approach": "Introduce the Bhandara incident as a case study highlighting industrial safety concerns. Discuss challenges such as outdated infrastructure, human error, inadequate regulatory oversight, lack of skilled personnel, and slow adoption of modern safety technologies. Suggest measures like stricter enforcement of safety norms, regular safety audits, integrating advanced monitoring systems, comprehensive training programs, establishing clear accountability frameworks, strengthening disaster response teams, providing timely victim compensation, and fostering public-private partnerships for safety research and implementation."
+    },
+    {
+      "question": "India's 'Vision 2047' aims to transform the nation into a developed economy. Critically analyze the key pillars of this vision and discuss the socio-economic and environmental challenges that need to be addressed for its successful realization.",
+      "syllabusMatch": "GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+      "approach": "Begin by outlining the core objectives and key pillars of 'Vision 2047' (e.g., boosting manufacturing, infrastructure, green growth, innovation, inclusive development). Analyze the potential benefits and opportunities. Then, critically discuss the socio-economic challenges such as persistent income inequality, skill gaps, unemployment, regional disparities, and social cohesion issues. Address environmental challenges including climate change impacts, resource scarcity, pollution, and the need for sustainable urbanization. Conclude by emphasizing the necessity of inclusive, equitable, and environmentally sustainable strategies for the vision's successful realization."
+    },
+    {
+      "question": "The Supreme Court's reaffirmation of the Right to Privacy in the context of the Digital Personal Data Protection Act, 2023, marks a significant step in India's digital governance journey. Evaluate the implications of this judgment on individual digital rights, state surveillance, and the responsibilities of data fiduciaries.",
+      "syllabusMatch": "GS2: Fundamental Rights; Government policies and interventions for development in various sectors; IT and Computers.",
+      "approach": "Introduce the Supreme Court's ruling, linking it to the Digital Personal Data Protection Act, 2023, and the K.S. Puttaswamy judgment. Evaluate its implications for individual digital rights, focusing on aspects like consent, data access, correction, and erasure. Analyze the impact on state surveillance powers, emphasizing the court's insistence on proportionality, necessity, and robust oversight mechanisms. Discuss the enhanced responsibilities of data fiduciaries in terms of data protection, breach notification, and transparent data handling. Conclude by highlighting the need for continuous legal evolution, robust enforcement, and public awareness to ensure effective digital governance."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "National Girl Child Day is celebrated on January 24 to promote awareness about the rights of girls and provide support and opportunities.",
+      "category": "society",
+      "gsPaper": "GS1/GS2",
+      "tags": [
+        "National Girl Child Day",
+        "Women Empowerment"
+      ]
+    },
+    {
+      "text": "The Monetary Policy Committee (MPC) of RBI determines the policy interest rates required to achieve the inflation target.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Inflation"
+      ]
+    },
+    {
+      "text": "The Ramsar Convention, signed in 1971, is an international treaty for the conservation and sustainable use of wetlands.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Wetlands",
+        "Ramsar Sites",
+        "Conservation"
+      ]
+    },
+    {
+      "text": "A 'developed nation' typically has a high per capita income, advanced industrialization, and high Human Development Index (HDI).",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Developed Economy",
+        "HDI"
+      ]
+    },
+    {
+      "text": "India's target for achieving Net-Zero emissions is 2070, announced at COP26 in Glasgow.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Net-Zero",
+        "Climate Change",
+        "COP26"
+      ]
+    },
+    {
+      "text": "The Archaeological Survey of India (ASI) is the premier organization for archaeological research and protection of cultural heritage.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "tags": [
+        "ASI",
+        "Archaeology",
+        "Cultural Heritage"
+      ]
+    },
+    {
+      "text": "Critical minerals like Lithium, Cobalt, and Rare Earth Elements are vital for electric vehicles, renewable energy, and defence.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "Critical Minerals",
+        "Clean Energy",
+        "EVs"
+      ]
+    },
+    {
+      "text": "The Police Act of 1861 is the primary legislation governing police forces in India, often criticized for being colonial in nature.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Police Reforms",
+        "Colonial Laws"
+      ]
+    },
+    {
+      "text": "ISRO's Reusable Launch Vehicle (RLV) program aims to significantly reduce the cost of space launches by reusing components.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "RLV",
+        "Space Technology"
+      ]
+    },
+    {
+      "text": "The term 'Indo-Pacific' refers to the geographical and geopolitical region encompassing the Indian and Pacific Oceans.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "Indo-Pacific",
+        "Geopolitics"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "ancient-buddhist-site-odisha",
+        "headline": "Archaeological Survey Discovers Ancient Buddhist Site in Odisha, Unearths Rare Artifacts",
+        "explainer": "• The Archaeological Survey of India (ASI) announced the discovery of a significant ancient Buddhist site in Odisha, dating back to the early medieval period.\n• Excavations have revealed remnants of stupas, monasteries, and intricate sculptures, offering new insights into the spread of Buddhism in eastern India.\n• Rare artifacts, including terracotta figurines and inscriptions in ancient scripts, have been unearthed, providing valuable historical and cultural evidence.\n• The discovery sheds light on the region's rich Buddhist heritage and its connections with other major Buddhist centers.\n• Conservation efforts are underway, and the site is expected to become a major archaeological and tourist attraction.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times",
+          "History of India and Indian National Movement"
+        ],
+        "date": "2025-01-24",
+        "source": "Archaeological Survey of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Archaeology",
+          "Buddhist Heritage",
+          "Odisha",
+          "Ancient India",
+          "Art and Culture",
+          "ASI",
+          "Stupas"
+        ],
+        "keyTerms": [
+          "Archaeological Survey of India (ASI)",
+          "Stupa",
+          "Vihara",
+          "Early Medieval Period",
+          "Terracotta Figurines",
+          "Inscriptions"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Location of discovery (Odisha)",
+          "Significance of Buddhist sites in India",
+          "Role of ASI",
+          "Key features of Buddhist architecture (Stupas, Viharas)"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the contribution of archaeological discoveries to understanding India's ancient history and cultural heritage.",
+          "Analyze the spread and decline of Buddhism in eastern India, as evidenced by such findings.",
+          "Evaluate the challenges and importance of preserving archaeological sites for future generations.",
+          "Examine the role of the Archaeological Survey of India in promoting and protecting India's cultural heritage."
+        ],
+        "imageDescription": "Excavated ruins of an ancient stupa with intricate carvings.",
+        "section": "National",
+        "trivia": "Odisha has a rich Buddhist heritage, with famous sites like Ratnagiri, Udayagiri, and Lalitgiri, often referred to as the 'Diamond Triangle' of Buddhism.",
+        "prelimsSyllabus": {
+          "subject": "History of India",
+          "area": "Ancient History",
+          "topic": "Buddhism and Jainism"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "sc-data-privacy-ruling",
+        "headline": "Supreme Court Reaffirms Right to Privacy in Landmark Data Protection Ruling",
+        "explainer": "• The Supreme Court, in a significant verdict, reiterated the fundamental right to privacy, clarifying its application in the context of the new Digital Personal Data Protection Act, 2023.\n• The ruling addressed concerns regarding data localization, cross-border data flows, and the balance between individual privacy and state surveillance.\n• The court emphasized the need for proportionality and necessity for any state intervention infringing on privacy.\n• This judgment provides crucial interpretation for the implementation of the DPDP Act and future policy-making in the digital realm.\n• It is seen as a victory for digital rights advocates and a benchmark for data governance in India.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Fundamental Rights",
+          "Judiciary",
+          "Government Policies and Interventions",
+          "IT and Computers"
+        ],
+        "date": "2025-01-24",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Right to Privacy",
+          "Digital Personal Data Protection Act",
+          "Supreme Court",
+          "Data Governance",
+          "Fundamental Rights"
+        ],
+        "keyTerms": [
+          "K.S. Puttaswamy judgment",
+          "Digital Personal Data Protection Act (DPDP Act)",
+          "Data Fiduciary",
+          "Data Principal",
+          "Proportionality Test"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Digital Personal Data Protection Act, 2023",
+          "Article 21 of the Constitution",
+          "K.S. Puttaswamy vs Union of India case (2017)"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the implications of the judgment on individual digital rights and government surveillance powers.",
+          "Analyze the challenges and opportunities in implementing the DPDP Act post-judgment.",
+          "Evaluate the balance between national security interests and individual privacy in the digital age.",
+          "Role of judiciary in safeguarding fundamental rights in evolving technological landscapes."
+        ],
+        "imageDescription": "Gavel and a digital data icon, symbolizing legal judgment on technology.",
+        "section": "National",
+        "trivia": "India's journey towards a comprehensive data protection law began with the Srikrishna Committee report in 2018.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-france-strategic-dialogue",
+        "headline": "India-France Strategic Dialogue Deepens Defence, Space & Technology Cooperation",
+        "explainer": "• India and France held their annual Strategic Dialogue in New Delhi, focusing on enhancing cooperation across defence, space, nuclear energy, and emerging technologies.\n• Discussions included joint development of military platforms, collaboration in critical and emerging technologies, and strengthening maritime security in the Indo-Pacific.\n• Both nations reiterated their commitment to a rules-based international order and multilateralism.\n• The dialogue also touched upon global challenges such as climate change, counter-terrorism, and regional stability.\n• This dialogue reinforces the robust strategic partnership between India and France, a key pillar of India's foreign policy.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India",
+          "Effect of policies and politics of developed and developing countries on India’s interests"
+        ],
+        "date": "2025-01-24",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "India-France Relations",
+          "Strategic Partnership",
+          "Defence Cooperation",
+          "Space Technology",
+          "Indo-Pacific",
+          "Bilateral Dialogue"
+        ],
+        "keyTerms": [
+          "Strategic Autonomy",
+          "Indo-Pacific",
+          "Multilateralism",
+          "Rafale Deal",
+          "Critical Technology"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key areas of India-France strategic partnership (Defence, Space, Nuclear)",
+          "Indo-Pacific strategy",
+          "Annual Strategic Dialogue mechanism"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of India's strategic partnership with France in the context of its foreign policy objectives.",
+          "Discuss how India and France are collaborating to address challenges in the Indo-Pacific region.",
+          "Evaluate the potential for further technological and defence cooperation between the two countries.",
+          "Examine the role of France as a key European partner for India's strategic autonomy."
+        ],
+        "imageDescription": "Indian and French flags side-by-side, symbolizing bilateral cooperation.",
+        "section": "International",
+        "trivia": "France was the first P5 nation to establish a strategic partnership with India in 1998.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India-France Relations"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "parliament-police-reform",
+        "headline": "Parliamentary Panel Recommends Sweeping Reforms in Police Act and Criminal Justice System",
+        "explainer": "• A Parliamentary Standing Committee submitted its report recommending significant amendments to the existing Police Act and broader reforms in the criminal justice system.\n• The report advocates for modernizing police forces, improving accountability mechanisms, and enhancing training and infrastructure.\n• Key recommendations include separating investigation and law and order functions, establishing independent police complaints authorities, and ensuring adequate welfare for police personnel.\n• The committee emphasized the need to align police functioning with democratic principles and human rights standards.\n• These reforms are crucial for improving public trust in law enforcement and ensuring efficient justice delivery.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Structure, organization and functioning of the Executive and the Judiciary",
+          "Government policies and interventions for development in various sectors",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources"
+        ],
+        "date": "2025-01-24",
+        "source": "The Times of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Police Reforms",
+          "Criminal Justice System",
+          "Parliamentary Committee",
+          "Law Enforcement",
+          "Accountability",
+          "Human Rights"
+        ],
+        "keyTerms": [
+          "Police Act of 1861",
+          "Model Police Act",
+          "Prakash Singh case",
+          "Law Commission Reports",
+          "Independent Police Complaints Authority"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Prakash Singh vs Union of India judgment (2006)",
+          "Police Act, 1861",
+          "Concept of separating investigation and law & order"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the historical context and necessity of police reforms in India.",
+          "Analyze the key recommendations of the Parliamentary Committee and their potential impact on policing.",
+          "Evaluate the challenges in implementing police reforms across states, including issues of political will and resource allocation.",
+          "Suggest measures to enhance police accountability and public trust while ensuring operational efficiency."
+        ],
+        "imageDescription": "Police badge with a justice scale.",
+        "section": "National",
+        "trivia": "The Indian Police Act of 1861, enacted shortly after the 1857 revolt, primarily focused on maintaining order and suppressing dissent.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Government Policies and Interventions",
+          "topic": "Police Reforms"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "universal-health-coverage-report",
+        "headline": "Report Highlights Implementation Challenges in Universal Health Coverage in India",
+        "explainer": "• A new report released by a leading public health think tank pointed out significant challenges in achieving Universal Health Coverage (UHC) in India, despite various government initiatives.\n• The report highlighted issues such as inadequate public health infrastructure, shortage of skilled healthcare professionals, and disparities in access between urban and rural areas.\n• Financial protection for catastrophic health expenditures remains a concern for many households, pushing them into poverty.\n• Recommendations include increasing public health spending, strengthening primary healthcare, and improving governance in the health sector.\n• The findings underscore the need for a multi-pronged approach to ensure equitable and affordable healthcare for all citizens.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government policies and interventions for development in various sectors"
+        ],
+        "date": "2025-01-24",
+        "source": "NITI Aayog / Public Health Foundation of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Universal Health Coverage (UHC)",
+          "Healthcare Infrastructure",
+          "Public Health",
+          "Health Policy",
+          "Aarogya Bharat",
+          "Rural Health"
+        ],
+        "keyTerms": [
+          "Ayushman Bharat",
+          "Primary Healthcare",
+          "Out-of-Pocket Expenditure (OOPE)",
+          "Health Equity",
+          "Sustainable Development Goals (SDGs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Concept of Universal Health Coverage (UHC)",
+          "Government schemes (Ayushman Bharat)",
+          "SDG 3 (Good Health and Well-being)"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the major hurdles in achieving universal and equitable healthcare access in India.",
+          "Analyze the role of public and private sectors in strengthening India's healthcare delivery system.",
+          "Evaluate the effectiveness of current government schemes like Ayushman Bharat in reducing out-of-pocket expenditure.",
+          "Suggest policy interventions to address the shortage of healthcare professionals and improve rural health infrastructure."
+        ],
+        "imageDescription": "A doctor interacting with a rural patient, symbolizing healthcare access.",
+        "section": "National",
+        "trivia": "India's public health spending as a percentage of GDP is among the lowest globally, contributing to high out-of-pocket expenditures.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Social Sector Initiatives",
+          "topic": "Health Policy"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "delimitation-ne-states",
+        "headline": "Delimitation Commission Concludes Consultations for North-Eastern States, Report Expected Soon",
+        "explainer": "• The Delimitation Commission, constituted for the North-Eastern states, has concluded its extensive consultations with political parties, civil society groups, and local administrations.\n• The exercise aims to redraw parliamentary and assembly constituencies based on the latest census data, ensuring proportional representation.\n• This process has been complex due to diverse geographical terrains, demographic shifts, and unique cultural considerations in the region.\n• The Commission's recommendations are expected to be submitted soon, potentially leading to significant changes in electoral boundaries.\n• The delimitation is crucial for ensuring fair representation and addressing long-standing demographic imbalances in the electoral map of the North-East.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Parliament and State Legislatures—structure, functioning, conduct of business, powers & privileges and issues arising out of these"
+        ],
+        "date": "2025-01-24",
+        "source": "Election Commission of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Delimitation Commission",
+          "North-Eastern States",
+          "Electoral Reforms",
+          "Constituency Redrawing",
+          "Proportional Representation",
+          "Census Data"
+        ],
+        "keyTerms": [
+          "Delimitation Act",
+          "Article 82",
+          "Article 170",
+          "Electoral Boundaries",
+          "Census Data"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Purpose of Delimitation Commission",
+          "Constitutional Articles related to delimitation (82, 170)",
+          "Basis of delimitation (Census data)",
+          "Last delimitation exercise (2002)"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the constitutional mandate and significance of the delimitation exercise in India.",
+          "Analyze the unique challenges faced by the Delimitation Commission in the North-Eastern states.",
+          "Evaluate the potential political and social implications of redrawing electoral boundaries in a diverse region.",
+          "Suggest measures to ensure fairness and address concerns of various stakeholders during the delimitation process."
+        ],
+        "imageDescription": "Map of North-Eastern India with electoral boundaries.",
+        "section": "National",
+        "trivia": "The last nationwide delimitation exercise was completed in 2008, based on the 2001 Census, but seats were frozen until 2026. However, special delimitation exercises can be carried out for specific regions.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Constitutional Bodies",
+          "topic": "Election Commission"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "bhandara-ordnance-explosion",
+        "headline": "Major Explosion Rocks Bhandara Ordnance Factory, Nine Feared Dead",
+        "explainer": "• A devastating explosion occurred at an ordnance factory in Bhandara, Maharashtra, claiming the lives of nine workers and injuring several others.\n• The factory is a key unit for manufacturing ammunition and explosives for the Indian Armed Forces.\n• An immediate high-level inquiry has been ordered to ascertain the cause, with initial reports pointing towards a malfunction in the manufacturing process.\n• The incident raises serious concerns about industrial safety protocols and the maintenance of critical defence infrastructure.\n• Defence Minister expressed condolences and assured full support for the victims' families and a thorough investigation.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Internal Security",
+          "Disaster Management",
+          "Industrial Security",
+          "Defence Technology",
+          "Role of regulatory bodies"
+        ],
+        "date": "2025-01-24",
+        "source": "PTI / The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Ordnance Factory",
+          "Bhandara",
+          "Industrial Accident",
+          "Defence Production",
+          "Safety Protocols"
+        ],
+        "keyTerms": [
+          "Ordnance Factories Board (OFB)",
+          "Industrial Safety",
+          "Disaster Response",
+          "Defence Manufacturing"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Bhandara district location in Maharashtra",
+          "Role of Ordnance Factories in India's defence",
+          "Regulatory bodies for industrial safety (e.g., Directorate General of Factory Advice Service & Labour Institutes - DGFASLI)"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Challenges in ensuring industrial safety in high-risk sectors like defence manufacturing",
+          "Role of accountability and investigation in preventing future incidents",
+          "Impact of such accidents on defence readiness and morale",
+          "Measures for strengthening disaster response and victim compensation mechanisms"
+        ],
+        "imageDescription": "Rescue operations underway at a damaged ordnance factory site.",
+        "section": "National",
+        "trivia": "Ordnance Factories in India are among the oldest industrial establishments in the country, with some dating back to the British era.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Industrial Policy",
+          "topic": "Defence Production"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "vision-2047-economy",
+        "headline": "Government Unveils Ambitious 'Vision 2047' Economic Roadmap for Developed India",
+        "explainer": "• The Union Government presented its comprehensive 'Vision 2047' economic roadmap, outlining strategies to transform India into a developed nation by its centenary of independence.\n• Key pillars include boosting manufacturing, enhancing infrastructure, fostering innovation, promoting green growth, and ensuring inclusive development.\n• The roadmap emphasizes leveraging India's demographic dividend and integrating advanced technologies across sectors.\n• It sets specific targets for GDP growth, per capita income, and human development indices over the next two decades.\n• The plan involves significant public and private investment, along with structural reforms to improve ease of doing business.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning",
+          "Growth, Development and Employment",
+          "Infrastructure",
+          "Investment Models",
+          "Government Budgeting"
+        ],
+        "date": "2025-01-24",
+        "source": "PIB",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Vision 2047",
+          "Economic Development",
+          "Developed India",
+          "Infrastructure",
+          "Manufacturing",
+          "Inclusive Growth"
+        ],
+        "keyTerms": [
+          "Developed Economy",
+          "Demographic Dividend",
+          "Green Growth",
+          "Ease of Doing Business",
+          "Structural Reforms"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Timeline for 'Developed India' vision (2047)",
+          "Key sectors identified for growth",
+          "Concept of 'green growth' and 'inclusive development'"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically analyze the feasibility and challenges in achieving the targets set in 'Vision 2047'.",
+          "Discuss the role of various stakeholders, including states and the private sector, in realizing this vision.",
+          "Evaluate the potential impact of global economic trends on India's 'Vision 2047' objectives.",
+          "Suggest policy measures to address potential roadblocks like income inequality and environmental sustainability."
+        ],
+        "imageDescription": "A graphic depicting India's economic growth trajectory towards 2047.",
+        "section": "Economy",
+        "trivia": "India aims to be the third-largest economy globally by 2030, a stepping stone to the 2047 vision.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy and Social Development",
+          "area": "Economic Growth and Development",
+          "topic": "Planning and Development"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "isro-rlv-test",
+        "headline": "ISRO Successfully Tests Next-Generation Reusable Launch Vehicle Technology",
+        "explainer": "• The Indian Space Research Organisation (ISRO) achieved a significant milestone with the successful test of its Reusable Launch Vehicle (RLV) technology demonstrator.\n• This test involved a controlled descent and landing experiment, simulating the return of a space vehicle to Earth.\n• RLV technology is crucial for reducing the cost of space access by enabling multiple uses of launch vehicle components.\n• This success brings India closer to developing its own two-stage-to-orbit (TSTO) fully reusable launch system.\n• The indigenous development of RLV will enhance India's competitive edge in the global space market and support future ambitious missions like Gaganyaan.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Achievements of Indians in science & technology",
+          "Awareness in the fields of Space"
+        ],
+        "date": "2025-01-24",
+        "source": "ISRO",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Reusable Launch Vehicle (RLV)",
+          "Space Technology",
+          "Space Exploration",
+          "Gaganyaan",
+          "Indigenous Technology"
+        ],
+        "keyTerms": [
+          "RLV-TD",
+          "Two-Stage-To-Orbit (TSTO)",
+          "Space Access Cost",
+          "Aerodynamic Re-entry",
+          "Cryogenic Engine"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "RLV-TD program",
+          "Benefits of reusable launch vehicles (cost reduction, faster turnaround)",
+          "ISRO's future space missions (e.g., Gaganyaan)"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic and economic implications of India's indigenous RLV technology.",
+          "How does RLV technology contribute to India's ambition in global space commerce?",
+          "Analyze the challenges and future roadmap for ISRO's reusable launch vehicle development.",
+          "Examine the potential synergies between RLV development and other space missions like Gaganyaan."
+        ],
+        "imageDescription": "An artistic rendering of ISRO's Reusable Launch Vehicle.",
+        "section": "Science",
+        "trivia": "The first experimental flight of ISRO's RLV-TD (Hypersonic Flight Experiment) took place in 2016.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space Technology",
+          "topic": "Launch Vehicles"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "urban-air-quality-policy",
+        "headline": "Government Launches New Policy Framework for Urban Air Quality Management",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change unveiled a comprehensive new policy framework aimed at improving urban air quality across India.\n• The policy integrates source-specific emission reduction strategies, advanced monitoring systems, and public awareness campaigns.\n• It mandates stricter emission norms for industries and vehicles, promotes electric mobility, and encourages green infrastructure development.\n• Special focus is given to 131 non-attainment cities under the National Clean Air Programme (NCAP), with enhanced funding and technical support.\n• The framework also emphasizes inter-state and inter-ministerial coordination for effective implementation.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation",
+          "Environmental impact assessment",
+          "Government policies and interventions for development in various sectors"
+        ],
+        "date": "2025-01-24",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Air Quality",
+          "Urban Pollution",
+          "National Clean Air Programme (NCAP)",
+          "Electric Vehicles",
+          "Green Infrastructure",
+          "Environmental Policy"
+        ],
+        "keyTerms": [
+          "PM2.5",
+          "PM10",
+          "Non-attainment cities",
+          "Emission Norms",
+          "Air Quality Index (AQI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Clean Air Programme (NCAP)",
+          "Key pollutants (PM2.5, PM10)",
+          "Concept of non-attainment cities",
+          "Role of CPCB"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the effectiveness of existing air pollution control measures and the potential impact of the new policy.",
+          "Discuss the challenges in implementing a multi-sectoral approach to urban air quality management.",
+          "Evaluate the role of technology and citizen participation in achieving cleaner air in Indian cities.",
+          "Suggest innovative solutions for tackling agricultural stubble burning and industrial emissions."
+        ],
+        "imageDescription": "A cityscape with a clean air filter graphic overlay.",
+        "section": "Environment",
+        "trivia": "Delhi often ranks among the most polluted cities globally, especially during winter months, due to a combination of factors including vehicular emissions, industrial pollution, and stubble burning.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Environmental Pollution",
+          "topic": "Air Pollution"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "rbi-repo-rate",
+        "headline": "RBI Maintains Repo Rate at 6.5% Amidst Persistent Inflationary Concerns",
+        "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) unanimously decided to keep the benchmark repo rate unchanged at 6.5%.\n• This decision reflects the MPC's cautious approach, balancing robust economic growth with persistent inflationary pressures, particularly in food prices.\n• The RBI reiterated its commitment to aligning inflation with the target while supporting growth.\n• Analysts anticipate a prolonged pause in rate cuts, with future decisions contingent on inflation trajectory and global economic conditions.\n• The move aims to anchor inflation expectations and ensure financial stability in the Indian economy.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning",
+          "Monetary Policy",
+          "Inflation",
+          "Government Budgeting"
+        ],
+        "date": "2025-01-24",
+        "source": "Reserve Bank of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "RBI",
+          "Repo Rate",
+          "Monetary Policy",
+          "Inflation",
+          "Economic Growth",
+          "Financial Stability"
+        ],
+        "keyTerms": [
+          "Repo Rate",
+          "Reverse Repo Rate",
+          "Cash Reserve Ratio (CRR)",
+          "Statutory Liquidity Ratio (SLR)",
+          "Monetary Policy Committee (MPC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Current Repo Rate (6.5%)",
+          "Role of Monetary Policy Committee (MPC)",
+          "Primary objective of RBI's monetary policy (inflation targeting)",
+          "Tools of monetary policy (repo, reverse repo, CRR, SLR)"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the factors influencing RBI's decision to maintain the repo rate and its implications for the Indian economy.",
+          "Analyze the challenges faced by the MPC in balancing inflation control and economic growth.",
+          "Evaluate the effectiveness of monetary policy tools in managing liquidity and credit conditions.",
+          "Examine the potential impact of global economic slowdowns and geopolitical events on India's monetary policy outlook."
+        ],
+        "imageDescription": "RBI logo with currency notes.",
+        "section": "Economy",
+        "trivia": "The Monetary Policy Committee (MPC) consists of six members – three officials from the RBI and three external members nominated by the Government of India.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy and Social Development",
+          "area": "Monetary Policy",
+          "topic": "Inflation and Interest Rates"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indigenous-cancer-drug",
+        "headline": "Indian Scientists Announce Breakthrough in Indigenous Cancer Drug Research",
+        "explainer": "• Researchers at a prominent Indian institute announced a significant breakthrough in developing a novel indigenous drug molecule for a specific type of cancer.\n• Early-stage clinical trials have shown promising results in inhibiting cancer cell growth with fewer side effects compared to existing treatments.\n• This development holds immense potential for making advanced cancer therapies more affordable and accessible in India and other developing countries.\n• The research leveraged traditional knowledge combined with modern biotechnological approaches.\n• Further trials are underway, and the drug is expected to enter advanced phases of development soon.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Achievements of Indians in science & technology",
+          "Awareness in the fields of Biotechnology"
+        ],
+        "date": "2025-01-24",
+        "source": "The Hindu BusinessLine",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Cancer Research",
+          "Indigenous Drug Development",
+          "Biotechnology",
+          "Healthcare Innovation",
+          "Affordable Medicine",
+          "Medical Science"
+        ],
+        "keyTerms": [
+          "Clinical Trials",
+          "Drug Discovery",
+          "Biopharmaceuticals",
+          "Oncology",
+          "Traditional Knowledge"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Phases of clinical trials",
+          "Role of biotechnology in drug development",
+          "Importance of indigenous drug research"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of indigenous drug development for India's healthcare sector and pharmaceutical industry.",
+          "Analyze the challenges involved in bringing a new drug from research to market in India.",
+          "Evaluate how this breakthrough could impact cancer treatment accessibility and affordability.",
+          "Examine the role of public-private partnerships in fostering medical research and innovation in India."
+        ],
+        "imageDescription": "Microscopic view of cancer cells being targeted by a drug molecule.",
+        "section": "Science",
+        "trivia": "India is often referred to as the 'Pharmacy of the World' due to its significant role in generic drug manufacturing.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Biotechnology",
+          "topic": "Health and Medicine"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "wetlands-conservation-expansion",
+        "headline": "Wetlands Conservation Program Expanded to 20 More Sites Across India",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change announced the expansion of its national wetlands conservation program to include 20 new sites, bringing them under enhanced protection.\n• These newly identified wetlands are crucial for biodiversity, water regulation, and providing livelihoods for local communities.\n• The program focuses on scientific management, restoration activities, and community participation for sustainable conservation.\n• The expansion aims to boost India's commitment to the Ramsar Convention and achieve national biodiversity targets.\n• Wetlands are vital ecosystems, often referred to as \"kidneys of the landscape\" for their filtration capacities.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation",
+          "Environmental impact assessment",
+          "Biodiversity"
+        ],
+        "date": "2025-01-24",
+        "source": "Down To Earth",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Wetlands",
+          "Conservation",
+          "Biodiversity",
+          "Ramsar Sites",
+          "Ecosystem Services",
+          "Environmental Protection"
+        ],
+        "keyTerms": [
+          "Ramsar Convention",
+          "Wetland Ecosystems",
+          "Biodiversity Hotspots",
+          "Ecological Restoration",
+          "Ecosystem Services"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ramsar Convention (1971)",
+          "Importance of wetlands (biodiversity, water filtration, flood control)",
+          "Examples of Ramsar sites in India",
+          "National Wetland Conservation Programme (NWCP)"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ecological and economic significance of wetlands in India.",
+          "Analyze the major threats faced by wetland ecosystems and the effectiveness of current conservation efforts.",
+          "Evaluate the role of community participation and traditional ecological knowledge in wetland management.",
+          "Suggest policy measures to strengthen wetland conservation and prevent their degradation."
+        ],
+        "imageDescription": "A serene wetland landscape with migratory birds.",
+        "section": "Environment",
+        "trivia": "World Wetlands Day is celebrated annually on February 2nd, marking the date of the adoption of the Convention on Wetlands in Ramsar, Iran, in 1971.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Conservation",
+          "topic": "Wetlands"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "pli-green-hydrogen",
+        "headline": "PLI Scheme Expanded to Boost Green Hydrogen Manufacturing in India",
+        "explainer": "• The Production Linked Incentive (PLI) scheme has been expanded to include incentives for the manufacturing of green hydrogen and its derivatives, aiming to establish India as a global hub.\n• This move is part of the National Green Hydrogen Mission and seeks to attract investments, foster technological innovation, and reduce production costs.\n• Incentives will be provided for electrolyzer manufacturing and the production of green hydrogen, encouraging both domestic and international players.\n• The scheme is expected to create significant employment opportunities and contribute to India's energy security and decarbonization goals.\n• It underscores the government's commitment to promoting clean energy and achieving net-zero emissions by 2070.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning",
+          "Growth, Development and Employment",
+          "Infrastructure: Energy",
+          "Science and Technology- developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-01-24",
+        "source": "Ministry of New and Renewable Energy",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Green Hydrogen",
+          "PLI Scheme",
+          "National Green Hydrogen Mission",
+          "Renewable Energy",
+          "Energy Security",
+          "Decarbonization",
+          "Manufacturing"
+        ],
+        "keyTerms": [
+          "Electrolyzer",
+          "Green Hydrogen",
+          "Production Linked Incentive (PLI)",
+          "Net-Zero Emissions",
+          "Energy Transition"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Green Hydrogen Mission",
+          "PLI scheme (purpose and sectors)",
+          "Electrolyzer technology",
+          "India's net-zero target (2070)"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of green hydrogen for India's energy security and climate change commitments.",
+          "Analyze how the expanded PLI scheme can boost domestic manufacturing and reduce the cost of green hydrogen production.",
+          "Evaluate the challenges and opportunities in establishing India as a global hub for green hydrogen.",
+          "Examine the potential impact of green hydrogen on various sectors of the Indian economy and its role in decarbonization."
+        ],
+        "imageDescription": "A graphic showing green hydrogen production from renewable energy.",
+        "section": "Economy",
+        "trivia": "Green hydrogen is produced by electrolysis of water using renewable energy, emitting no greenhouse gases in the process.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy and Social Development",
+          "area": "Infrastructure",
+          "topic": "Energy Sector"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "border-security-tech",
+        "headline": "Border Security Strengthened with Advanced Surveillance Technology and Integrated Patrols",
+        "explainer": "• The Ministry of Home Affairs announced significant upgrades to border security infrastructure, deploying advanced surveillance technologies along critical stretches of India's international borders.\n• The measures include the installation of smart fences, drone-based monitoring systems, and integrated ground patrols to detect and deter infiltration and smuggling.\n• Emphasis is also placed on enhancing inter-agency coordination and real-time intelligence sharing among border guarding forces.\n• The move aims to counter evolving threats from cross-border terrorism, illegal migration, and drug trafficking.\n• These technological advancements are part of a broader strategy to modernize border management and ensure national security.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Border areas",
+          "Security challenges and their management in border areas",
+          "Organized crime and its linkages with terrorism"
+        ],
+        "date": "2025-01-24",
+        "source": "Ministry of Home Affairs",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Border Security",
+          "Surveillance Technology",
+          "Internal Security",
+          "Drone Technology",
+          "Infiltration",
+          "National Security",
+          "Border Management"
+        ],
+        "keyTerms": [
+          "Comprehensive Integrated Border Management System (CIBMS)",
+          "Smart Fence",
+          "Drone Surveillance",
+          "Border Guarding Forces (BSF, ITBP, SSB)",
+          "Cross-border Terrorism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Border guarding forces (BSF, ITBP, SSB, Assam Rifles)",
+          "Comprehensive Integrated Border Management System (CIBMS)",
+          "Types of border challenges (infiltration, smuggling, terrorism)"
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the multi-faceted challenges faced by India in securing its diverse international borders.",
+          "Analyze the role of technology in enhancing border surveillance and management.",
+          "Evaluate the effectiveness of integrated border patrols and inter-agency coordination in preventing cross-border threats.",
+          "Suggest policy measures to address the socio-economic factors contributing to illegal cross-border activities and strengthen border community engagement."
+        ],
+        "imageDescription": "A border fence with surveillance cameras and a drone flying overhead.",
+        "section": "National",
+        "trivia": "India has a land border of over 15,000 kilometers, shared with seven countries, making border management a complex task.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Border Management",
+          "topic": "Border Security Challenges"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "PTI / The Hindu",
+    "The Indian Express",
+    "PIB",
+    "Ministry of External Affairs",
+    "ISRO",
+    "Ministry of Environment, Forest and Climate Change",
+    "Ministry of Women and Child Development",
+    "Reserve Bank of India",
+    "The Times of India",
+    "Ministry of Mines",
+    "The Hindu BusinessLine",
+    "Down To Earth",
+    "NITI Aayog / Public Health Foundation of India",
+    "Ministry of New and Renewable Energy",
+    "Election Commission of India",
+    "Archaeological Survey of India",
+    "Ministry of Home Affairs"
+  ],
+  "totalScraped": 17,
+  "totalProcessed": 17
+}

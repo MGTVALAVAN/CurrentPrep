@@ -1,0 +1,113 @@
+{
+  "timestamp": "2026-03-21T02:45:17.161Z",
+  "totalQuestions": 5099,
+  "totalCritical": 12,
+  "totalWarning": 3,
+  "issues": [
+    {
+      "mock": "art_culture-mock-2.json",
+      "qIndex": 10,
+      "question": "In the context of Indian classical music, what does 'Alap' primarily refer to?",
+      "issue": "Question may end abruptly",
+      "severity": "warning"
+    },
+    {
+      "mock": "art_culture-mock-2.json",
+      "qIndex": 43,
+      "question": "Consider the following statements about Thangka painting:",
+      "issue": "Consider statements without listing them",
+      "severity": "critical"
+    },
+    {
+      "mock": "art_culture-mock-2.json",
+      "qIndex": 90,
+      "question": "Consider the following statements regarding the Jagannath Ratha Yatra of Puri:",
+      "issue": "Consider statements without listing them",
+      "severity": "critical"
+    },
+    {
+      "mock": "art_culture-mock-3.json",
+      "qIndex": 1,
+      "question": "Consider the following statements about GI-tagged Indian textiles:",
+      "issue": "Consider statements without listing them",
+      "severity": "critical"
+    },
+    {
+      "mock": "art_culture-mock-4.json",
+      "qIndex": 16,
+      "question": "In the context of Indian temple architecture, what does 'Amalaka' refer to?",
+      "issue": "Question may end abruptly",
+      "severity": "warning"
+    },
+    {
+      "mock": "current_affairs-mock-4.json",
+      "qIndex": 57,
+      "question": "Consider the following statements regarding disability rights in India:",
+      "issue": "Consider statements without listing them",
+      "severity": "critical"
+    },
+    {
+      "mock": "current_affairs-mock-4.json",
+      "qIndex": 77,
+      "question": "Consider the following statements about the implementation of NEP 2020:",
+      "issue": "Consider statements without listing them",
+      "severity": "critical"
+    },
+    {
+      "mock": "geography-mock-3.json",
+      "qIndex": 95,
+      "question": "Consider the following statements regarding altitudinal vegetation zones in the ",
+      "issue": "Duplicate options found (3 unique out of 4)",
+      "severity": "critical"
+    },
+    {
+      "mock": "geography-mock-3.json",
+      "qIndex": 95,
+      "question": "Consider the following statements regarding altitudinal vegetation zones in the ",
+      "issue": "Options B and D are identical",
+      "severity": "critical"
+    },
+    {
+      "mock": "polity-mock-1.json",
+      "qIndex": 55,
+      "question": "Consider the following statements regarding the Concurrent List:",
+      "issue": "Consider statements without listing them",
+      "severity": "critical"
+    },
+    {
+      "mock": "polity-mock-5.json",
+      "qIndex": 1,
+      "question": "Arrange the following judicial pronouncements in chronological order of their delivery:",
+      "issue": "Arrange chronologically without items listed",
+      "severity": "critical"
+    },
+    {
+      "mock": "science-mock-5.json",
+      "qIndex": 30,
+      "question": "In the context of submarines, what does the acronym AIP stand for?",
+      "issue": "Question may end abruptly",
+      "severity": "warning"
+    },
+    {
+      "mock": "society-mock-2.json",
+      "qIndex": 10,
+      "question": "Consider the following statements regarding social movements in India:",
+      "issue": "Consider statements without listing them",
+      "severity": "critical"
+    },
+    {
+      "mock": "society-mock-2.json",
+      "qIndex": 91,
+      "question": "Consider the following statements regarding India's population dynamics:",
+      "issue": "Consider statements without listing them",
+      "severity": "critical"
+    },
+    {
+      "mock": "society-mock-3.json",
+      "qIndex": 10,
+      "question": "Consider the following statements regarding internal migration in India:",
+      "issue": "Consider statements without listing them",
+      "severity": "critical"
+    }
+  ]
+}

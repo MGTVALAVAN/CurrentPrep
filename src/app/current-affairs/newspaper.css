@@ -929,4 +929,111 @@
         gap: 3px;
         text-align: center;
     }
+
+    .np-qb-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* ── Quick Bytes ──────────────────────────────────────────────────────── */
+.np-quick-bytes {
+    margin-bottom: 28px;
+    border: 1px solid var(--np-rule);
+    border-radius: 6px;
+    overflow: hidden;
+    background: var(--np-surface);
+}
+
+.np-qb-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: linear-gradient(135deg, #4A148C, #7B1FA2);
+    color: #fff;
+    font: 700 12px/1 var(--np-sans);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.np-qb-sub {
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 10px;
+    opacity: 0.8;
+    letter-spacing: 0.04em;
+}
+
+.np-qb-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.np-qb-item {
+    display: flex;
+    gap: 10px;
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--np-rule);
+    border-right: 1px solid var(--np-rule);
+    transition: background 0.15s;
+}
+
+.np-qb-item:nth-child(2n) {
+    border-right: none;
+}
+
+.np-qb-item:nth-last-child(-n+2) {
+    border-bottom: none;
+}
+
+.np-qb-item:hover {
+    background: var(--np-warm);
+}
+
+.np-qb-icon {
+    font-size: 20px;
+    flex-shrink: 0;
+    margin-top: 2px;
+}
+
+.np-qb-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.np-qb-meta {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 4px;
+}
+
+.np-qb-cat {
+    font: 700 9px/1 var(--np-sans);
+    letter-spacing: 0.1em;
+    color: #7B1FA2;
+}
+
+.dark .np-qb-cat {
+    color: #CE93D8;
+}
+
+.np-qb-text {
+    margin: 0 0 4px;
+    font: 400 13px/1.5 var(--np-body);
+    color: var(--np-ink-2);
+}
+
+.np-qb-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.np-qb-tags span {
+    font: 500 8.5px/1 var(--np-sans);
+    padding: 2px 5px;
+    background: var(--np-bg);
+    border-radius: 2px;
+    color: var(--np-ink-4);
 }

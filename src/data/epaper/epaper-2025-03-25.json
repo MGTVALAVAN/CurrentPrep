@@ -1,0 +1,2527 @@
+{
+  "date": "2025-03-25",
+  "dateFormatted": "Tuesday 25 March, 2025",
+  "lastUpdated": "2026-03-21T16:54:37.251Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "national-quantum-mission-progress",
+      "headline": "National Quantum Mission Achieves Key Milestones in Quantum Computing and Communication",
+      "explainer": "• India's National Quantum Mission (NQM) has announced significant progress in developing indigenous quantum computing hardware and secure quantum communication networks.\n• Researchers at various IITs and IISc have successfully demonstrated a 64-qubit quantum processor prototype, marking a major leap in computational power.\n• Breakthroughs in quantum key distribution (QKD) have enabled secure communication over distances exceeding 100 km, crucial for national security applications.\n• The mission emphasizes public-private partnerships, attracting investments from leading tech firms and fostering a vibrant quantum ecosystem.\n• Training programs for a skilled quantum workforce are being scaled up to meet future demands in this frontier technology.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology-developments and their applications and effects in everyday life",
+        "Achievements of Indians in science & technology",
+        "Indigenization of technology and developing new technology"
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Science & Technology / The Hindu",
+      "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=XXXX",
+      "importance": "high",
+      "tags": [
+        "Quantum Computing",
+        "National Quantum Mission",
+        "Quantum Communication",
+        "QKD",
+        "Frontier Technology",
+        "Make in India",
+        "Digital India"
+      ],
+      "keyTerms": [
+        "Quantum Entanglement",
+        "Superposition",
+        "Qubit",
+        "Quantum Key Distribution (QKD)",
+        "National Quantum Mission (NQM)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Quantum Mission (NQM) launched in 2023 with a budget of ₹6,000 crores.",
+        "Aims to develop quantum technologies and related applications.",
+        "Focus areas include quantum computing, quantum communication, quantum sensing and metrology, and quantum materials.",
+        "64-qubit prototype demonstrates significant computational capability.",
+        "QKD enables unhackable communication by leveraging quantum mechanics principles."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of quantum technology for India's national security, economic growth, and technological sovereignty.",
+        "Analyze the challenges and opportunities in building a robust quantum ecosystem in India, including skill development and infrastructure.",
+        "Evaluate the potential impact of quantum computing on various sectors like healthcare, finance, and defense.",
+        "Examine how NQM aligns with India's broader vision of Aatmanirbhar Bharat in critical and emerging technologies."
+      ],
+      "imageDescription": "Illustration of quantum computing elements with qubits and entangled particles, symbolizing India's progress in quantum technology.",
+      "section": "Lead Opinion",
+      "trivia": "The smallest unit of quantum information is a qubit, which can exist in multiple states simultaneously, unlike a classical bit (0 or 1).",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Information Technology",
+        "topic": "Quantum Technology"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "india-japan-strategic-dialogue",
+      "headline": "India-Japan Strategic Dialogue Emphasizes Indo-Pacific Cooperation and Economic Ties",
+      "explainer": "• The annual India-Japan Strategic Dialogue concluded with both nations reaffirming their commitment to a free, open, and inclusive Indo-Pacific region.\n• Discussions focused on enhancing defense cooperation, including joint exercises and technology transfer, to counter regional challenges.\n• Economic partnership received significant attention, with new agreements on infrastructure development, clean energy, and resilient supply chains.\n• Both sides stressed the importance of multilateral cooperation through forums like the Quad to address shared security and economic interests.\n• The dialogue also touched upon regional stability, counter-terrorism efforts, and people-to-people exchanges to strengthen bilateral ties.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests",
+        "Effect of policies and politics of developed and developing countries on India's interests"
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of External Affairs / PTI",
+      "sourceUrl": "https://mea.gov.in/press-releases.htm",
+      "importance": "high",
+      "tags": [
+        "India-Japan",
+        "Strategic Dialogue",
+        "Indo-Pacific",
+        "Quad",
+        "Defense Cooperation",
+        "Economic Ties",
+        "Bilateral Relations"
+      ],
+      "keyTerms": [
+        "Indo-Pacific Strategy",
+        "Quad Grouping",
+        "Act East Policy",
+        "Special Strategic and Global Partnership"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India and Japan are members of the Quad (Quadrilateral Security Dialogue) along with the US and Australia.",
+        "Japan is a major investor in India's infrastructure projects (e.g., Mumbai-Ahmedabad High-Speed Rail).",
+        "Both countries hold regular joint military exercises (e.g., Dharma Guardian, Malabar).",
+        "Strategic Dialogue reviews progress on various aspects of bilateral cooperation.",
+        "Emphasis on rules-based international order and freedom of navigation in the Indo-Pacific."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of the India-Japan Special Strategic and Global Partnership in shaping the geopolitics of the Indo-Pacific region.",
+        "Discuss the various pillars of India-Japan cooperation, including defense, economy, and technology, and their contributions to India's strategic interests.",
+        "Evaluate the role of India and Japan in promoting regional stability and connectivity, particularly in the context of China's growing influence.",
+        "Examine the challenges and opportunities in deepening India-Japan collaboration in areas like clean energy and resilient supply chains."
+      ],
+      "imageDescription": "Flags of India and Japan displayed side-by-side during a diplomatic meeting, symbolizing strong bilateral relations.",
+      "section": "International",
+      "trivia": "Japan is the only Asian country in the G7 group of advanced economies.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India and East Asia"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "electoral-bonds-review-committee",
+      "headline": "Government Constitutes Expert Committee to Review Electoral Bonds Scheme Post-SC Scrutiny",
+      "explainer": "• Following the Supreme Court's directives and public discourse, the Union Government has formed an expert committee to review the existing Electoral Bonds scheme.\n• The committee, comprising legal luminaries, economists, and political scientists, will examine the scheme's transparency, anonymity, and impact on electoral finance.\n• Its mandate includes suggesting amendments or alternative mechanisms to ensure greater accountability and fairness in political funding.\n• The move comes amidst ongoing debates about the balance between donor anonymity and the public's right to know the source of political funds.\n• The committee is expected to submit its report within six months, potentially paving the way for significant reforms in campaign finance.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Salient features of the Representation of People’s Act"
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Law and Justice / The Indian Express",
+      "sourceUrl": "https://indianexpress.com/news/electoral-bonds/",
+      "importance": "high",
+      "tags": [
+        "Electoral Bonds",
+        "Political Funding",
+        "Transparency",
+        "Electoral Reforms",
+        "Supreme Court",
+        "Government Policy"
+      ],
+      "keyTerms": [
+        "Electoral Bonds",
+        "Political Finance",
+        "Right to Information (RTI)",
+        "Free and Fair Elections",
+        "Association for Democratic Reforms (ADR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Electoral Bonds scheme introduced in 2017 through Finance Act 2017.",
+        "Allows citizens and corporates to donate to political parties anonymously.",
+        "Bonds issued by State Bank of India (SBI) in denominations of ₹1,000 to ₹1 crore.",
+        "Supreme Court has consistently raised concerns regarding transparency and potential for quid pro quo.",
+        "The committee will study global best practices in political funding regulations."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically analyze the pros and cons of the Electoral Bonds scheme in the context of electoral transparency and political accountability in India.",
+        "Discuss the constitutional implications of donor anonymity versus the voter's right to know, as highlighted by Supreme Court observations.",
+        "Suggest comprehensive electoral reforms needed to ensure free, fair, and transparent political funding in India.",
+        "Examine how the committee's recommendations could impact the future of political parties and their funding mechanisms."
+      ],
+      "imageDescription": "Gavel and law books placed on a table, symbolizing legal review and electoral reforms.",
+      "section": "National",
+      "trivia": "The first electoral bonds were issued in March 2018.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Electoral System",
+        "topic": "Electoral Reforms"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "climate-resilient-agriculture",
+      "headline": "India Launches National Mission for Climate-Resilient Agriculture (NMCRA) to Bolster Food Security",
+      "explainer": "• The Union Agriculture Ministry has rolled out the National Mission for Climate-Resilient Agriculture (NMCRA) to mitigate the impacts of climate change on farming.\n• The mission focuses on developing and deploying climate-smart agricultural practices, including drought-resistant crops, efficient irrigation, and sustainable land management.\n• It aims to enhance farmers' adaptive capacity through technology adoption, weather advisories, and financial support for climate-resilient infrastructure.\n• Pilot projects are being initiated in vulnerable regions, integrating traditional knowledge with modern scientific approaches.\n• The NMCRA is a crucial step towards ensuring long-term food security and improving livelihoods of farmers in the face of erratic weather patterns.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Agriculture - major crops-cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers",
+        "Food processing and related industries in India- scope’ and significance, location, upstream and downstream requirements, supply chain management."
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Agriculture & Farmers Welfare / Down To Earth",
+      "sourceUrl": "https://www.downtoearth.org.in/news/",
+      "importance": "high",
+      "tags": [
+        "Climate Change",
+        "Agriculture",
+        "Food Security",
+        "Climate-Resilient Agriculture",
+        "Sustainable Farming",
+        "Farmers Welfare",
+        "Government Schemes"
+      ],
+      "keyTerms": [
+        "Climate-Smart Agriculture (CSA)",
+        "Drought-Resistant Crops",
+        "Precision Agriculture",
+        "Soil Health Card Scheme",
+        "National Adaptation Fund for Climate Change (NAFCC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NMCRA is a new umbrella mission building on existing initiatives like National Innovations in Climate Resilient Agriculture (NICRA).",
+        "Focuses on integrated farming systems, water management, and soil health.",
+        "Aims to reduce greenhouse gas emissions from agriculture while increasing productivity.",
+        "Includes components for research and development of new crop varieties.",
+        "Part of India's broader climate action commitments under the Paris Agreement."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the multi-faceted challenges posed by climate change to Indian agriculture and the imperative for climate-resilient strategies.",
+        "Analyze the key features and potential impact of the National Mission for Climate-Resilient Agriculture on food security and farmer incomes.",
+        "Evaluate the role of technology, traditional knowledge, and government policies in promoting sustainable and climate-resilient farming practices in India.",
+        "Examine the interlinkages between climate-resilient agriculture and India's commitment to achieving Sustainable Development Goals (SDGs)."
+      ],
+      "imageDescription": "Farmers working in a field with modern irrigation systems, symbolizing climate-resilient agriculture.",
+      "section": "Environment",
+      "trivia": "India is one of the top producers of several agricultural commodities, but also highly vulnerable to climate variability.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Climate Change",
+        "topic": "Impact on Agriculture"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "digital-public-infrastructure-g20",
+      "headline": "India's Digital Public Infrastructure Model Gains Global Traction at G20 Finance Ministers' Meeting",
+      "explainer": "• India's pioneering Digital Public Infrastructure (DPI) model, including Aadhaar, UPI, and DigiLocker, was a central theme at the recent G20 Finance Ministers and Central Bank Governors meeting.\n• Several developing nations expressed keen interest in adopting components of India's DPI to foster financial inclusion and digital governance.\n• India highlighted the cost-effectiveness and scalability of its DPI approach, which has transformed public service delivery and economic transactions.\n• Discussions focused on creating a global framework for interoperable DPIs to facilitate cross-border payments and data exchange securely.\n• The G20 acknowledged DPIs as critical enablers for achieving Sustainable Development Goals and building resilient digital economies worldwide.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Inclusive growth and issues arising from it."
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Finance / Livemint",
+      "sourceUrl": "https://www.livemint.com/news/g20-india-dpi-model/",
+      "importance": "high",
+      "tags": [
+        "Digital Public Infrastructure",
+        "DPI",
+        "G20",
+        "Financial Inclusion",
+        "Digital Governance",
+        "UPI",
+        "Aadhaar",
+        "Global Cooperation"
+      ],
+      "keyTerms": [
+        "Digital Public Infrastructure (DPI)",
+        "Unified Payments Interface (UPI)",
+        "Aadhaar",
+        "DigiLocker",
+        "Financial Inclusion",
+        "Sustainable Development Goals (SDGs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "DPI refers to shared digital systems like identity, payment, and data exchange layers.",
+        "UPI is a real-time payment system developed by NPCI.",
+        "Aadhaar provides a unique 12-digit identity number linked to biometric data.",
+        "DigiLocker is a secure cloud-based platform for issuance and verification of documents.",
+        "India's G20 presidency in 2023 significantly pushed the DPI agenda globally."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze how India's Digital Public Infrastructure has been instrumental in driving financial inclusion and transforming public service delivery.",
+        "Discuss the potential and challenges of replicating India's DPI model in other developing countries, considering their unique contexts.",
+        "Examine the role of DPIs in achieving Sustainable Development Goals (SDGs) and fostering inclusive economic growth.",
+        "Critically evaluate the implications of a global framework for interoperable DPIs on data privacy, security, and national sovereignty."
+      ],
+      "imageDescription": "Abstract digital network symbolizing interconnected digital public infrastructure, with various country flags in the background.",
+      "section": "Economy",
+      "trivia": "UPI processed over 10 billion transactions in a single month in 2023.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Digital Economy",
+        "topic": "Financial Inclusion"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "delhi-air-pollution-strategy",
+      "headline": "Delhi Government Unveils 'Green Budget' with Focus on Long-Term Air Pollution Mitigation",
+      "explainer": "• The Delhi government has presented its 'Green Budget' for 2025-26, allocating significant funds towards long-term strategies to combat air pollution.\n• Key initiatives include expanding the electric vehicle (EV) charging infrastructure, promoting public transport, and phasing out older polluting vehicles.\n• Investments in green infrastructure, urban forestry, and waste management are also central to the budget's environmental agenda.\n• The budget emphasizes transitioning to cleaner industrial fuels and stricter enforcement of pollution control norms across the National Capital Region (NCR).\n• Experts laud the shift towards a sustained, multi-sectoral approach rather than seasonal emergency measures for air quality improvement.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Government Budgeting"
+      ],
+      "date": "2025-03-25",
+      "source": "Delhi Government / Hindustan Times",
+      "sourceUrl": "https://www.hindustantimes.com/cities/delhi-news",
+      "importance": "medium",
+      "tags": [
+        "Delhi Air Pollution",
+        "Green Budget",
+        "Electric Vehicles",
+        "Public Transport",
+        "Environmental Protection",
+        "Sustainable Development",
+        "NCR"
+      ],
+      "keyTerms": [
+        "Air Quality Index (AQI)",
+        "Particulate Matter (PM2.5, PM10)",
+        "Electric Vehicle Policy",
+        "Green Corridor",
+        "Pollution Under Control (PUC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Delhi is consistently ranked among the world's most polluted cities.",
+        "Sources of pollution include vehicular emissions, industrial discharge, stubble burning, and dust.",
+        "Green Budget aims to integrate environmental goals into fiscal policy.",
+        "EV policy offers subsidies and incentives for electric vehicle adoption.",
+        "Central Pollution Control Board (CPCB) monitors air quality across India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the complex factors contributing to air pollution in Delhi and the National Capital Region (NCR).",
+        "Evaluate the effectiveness of Delhi's 'Green Budget' and its long-term strategies in achieving sustainable air quality improvements.",
+        "Discuss the challenges in implementing comprehensive air pollution control measures, including inter-state coordination and public cooperation.",
+        "Suggest additional policy interventions and technological solutions for mitigating urban air pollution in India."
+      ],
+      "imageDescription": "A clean city skyline with electric buses and green spaces, contrasting with smoggy depictions.",
+      "section": "National",
+      "trivia": "The Odd-Even scheme was a temporary measure implemented in Delhi to curb vehicular pollution.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Pollution",
+        "topic": "Air Pollution"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "pm-gatishakti-progress",
+      "headline": "PM GatiShakti National Master Plan Accelerates Infrastructure Project Execution",
+      "explainer": "• The PM GatiShakti National Master Plan has demonstrated significant success in streamlining the planning and execution of multi-modal infrastructure projects across India.\n• The digital platform has facilitated better coordination among 16 central ministries, reducing delays and optimizing resource utilization.\n• Over 1,000 critical infrastructure projects across roads, railways, ports, and airports are currently being monitored and expedited under the framework.\n• This integrated approach aims to cut down logistics costs, enhance connectivity, and boost India's economic competitiveness.\n• The government is now focusing on extending GatiShakti principles to state-level infrastructure development and social sector projects.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Commerce & Industry / Business Standard",
+      "sourceUrl": "https://www.business-standard.com/industry/infrastructure",
+      "importance": "medium",
+      "tags": [
+        "PM GatiShakti",
+        "Infrastructure",
+        "Logistics",
+        "Economic Growth",
+        "Multi-modal Connectivity",
+        "Government Schemes"
+      ],
+      "keyTerms": [
+        "PM GatiShakti National Master Plan",
+        "Multi-modal Connectivity",
+        "Logistics Cost",
+        "Geospatial Mapping",
+        "Infrastructure Development"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "PM GatiShakti was launched in October 2021.",
+        "Aims to break silos between departments and integrate planning.",
+        "Uses geospatial technology for comprehensive visibility of infrastructure projects.",
+        "Covers 16 ministries including Railways, Road Transport, Petroleum & Natural Gas, Power, Telecom.",
+        "Targeted to reduce logistics costs, which are high in India compared to developed economies."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the objectives and key features of the PM GatiShakti National Master Plan and its potential to transform India's infrastructure landscape.",
+        "Analyze how an integrated approach to infrastructure development can address the challenges of logistics costs and improve economic competitiveness.",
+        "Evaluate the role of technology and inter-ministerial coordination in the successful implementation of large-scale infrastructure projects.",
+        "Examine the potential socio-economic impacts of enhanced multi-modal connectivity on regional development and employment generation."
+      ],
+      "imageDescription": "An aerial view of interconnected roads, railways, and ports, overlaid with digital data points, representing PM GatiShakti.",
+      "section": "Economy",
+      "trivia": "India's logistics cost as a percentage of GDP is estimated to be around 13-14%, higher than the global average of 8-10%.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Infrastructure",
+        "topic": "Logistics"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "brics-expansion-impact",
+      "headline": "BRICS Expansion: India Navigates New Geopolitical Dynamics and Economic Opportunities",
+      "explainer": "• The recent expansion of BRICS with the inclusion of new member states has altered the geopolitical and geo-economic landscape for India.\n• India is actively engaging with the new members to strengthen intra-BRICS trade, investment, and cooperation on global issues.\n• The expanded grouping presents opportunities for India to diversify its economic partnerships and enhance its influence in the Global South.\n• Challenges include managing diverse interests among a larger group and maintaining consensus on critical international matters.\n• India advocates for a reform of global institutions and a more representative world order through the expanded BRICS platform.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests",
+        "Effect of policies and politics of developed and developing countries on India's interests"
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of External Affairs / The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/international",
+      "importance": "medium",
+      "tags": [
+        "BRICS",
+        "Global South",
+        "Geopolitics",
+        "Economic Cooperation",
+        "Multilateralism",
+        "India's Foreign Policy"
+      ],
+      "keyTerms": [
+        "BRICS Expansion",
+        "Global South",
+        "Multipolar World Order",
+        "New Development Bank (NDB)",
+        "BRICS Contingent Reserve Arrangement (CRA)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "BRICS originally comprised Brazil, Russia, India, China, and South Africa.",
+        "Several new members joined or are set to join, including Egypt, Ethiopia, Iran, Saudi Arabia, and UAE.",
+        "BRICS aims to promote cooperation in economic, trade, political, and cultural spheres.",
+        "New Development Bank (NDB) is a multilateral development bank established by BRICS states.",
+        "India plays a key role in advocating for the interests of developing countries within BRICS."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the implications of BRICS expansion for India's foreign policy and its strategic position in the evolving global order.",
+        "Discuss the opportunities for India to enhance its economic and political influence through deeper engagement with the expanded BRICS grouping.",
+        "Examine the challenges that India might face in navigating the diverse interests and priorities of a larger BRICS collective.",
+        "Evaluate the potential of BRICS as a platform for challenging existing global governance structures and promoting a multipolar world."
+      ],
+      "imageDescription": "Flags of BRICS nations, including new members, arranged in a circle, symbolizing the expanded grouping.",
+      "section": "International",
+      "trivia": "The term 'BRIC' was coined by Goldman Sachs economist Jim O'Neill in 2001.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Global Groupings",
+        "topic": "BRICS"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "urban-local-bodies-funding",
+      "headline": "Fifteenth Finance Commission Recommendations on Urban Local Bodies Funding Under Scrutiny",
+      "explainer": "• The Union government is reviewing the implementation of the Fifteenth Finance Commission's (FC-15) recommendations concerning grants to Urban Local Bodies (ULBs).\n• FC-15 had recommended significant grants to ULBs, tied to performance and reforms in areas like sanitation, water supply, and financial autonomy.\n• Challenges in utilizing these funds effectively, particularly in capacity building and project execution, have been identified.\n• The review aims to assess the impact of these grants on urban governance and infrastructure development.\n• Discussions are underway to streamline the devolution of funds and ensure greater accountability at the local level for better service delivery.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+        "Statutory, regulatory and various quasi-judicial bodies."
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Housing and Urban Affairs / The Hindu",
+      "sourceUrl": "https://www.thehindu.com/news/national/urban-local-bodies/",
+      "importance": "medium",
+      "tags": [
+        "Urban Local Bodies",
+        "Fifteenth Finance Commission",
+        "Fiscal Federalism",
+        "Urban Governance",
+        "Decentralization",
+        "Grants"
+      ],
+      "keyTerms": [
+        "Fifteenth Finance Commission (FC-15)",
+        "Urban Local Bodies (ULBs)",
+        "Grants-in-Aid",
+        "Fiscal Decentralization",
+        "74th Constitutional Amendment Act"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Finance Commission is a constitutional body under Article 280.",
+        "FC-15 (Chairman N.K. Singh) submitted its report for 2021-26.",
+        "Recommended grants for ULBs are based on population and area, with conditions for reforms.",
+        "74th Constitutional Amendment Act (1992) gave constitutional status to ULBs.",
+        "Issues include lack of financial autonomy, human resource constraints, and inadequate capacity."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the role of Finance Commissions in strengthening fiscal federalism in India, with a specific focus on grants to Urban Local Bodies.",
+        "Analyze the challenges faced by ULBs in India in achieving financial autonomy and effective service delivery, despite constitutional provisions and central grants.",
+        "Evaluate the effectiveness of performance-based grants recommended by the Fifteenth Finance Commission in incentivizing reforms at the local level.",
+        "Suggest measures to improve the financial health and governance of ULBs to make them more responsive to urban challenges."
+      ],
+      "imageDescription": "A map of India with urban areas highlighted, indicating funding flows to local bodies.",
+      "section": "National",
+      "trivia": "The 74th Constitutional Amendment Act mandates the constitution of a State Finance Commission every five years.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Federalism",
+        "topic": "Finance Commission"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "deep-ocean-mission-progress",
+      "headline": "Deep Ocean Mission Progresses with Successful Manned Submersible Trials",
+      "explainer": "• India's ambitious Deep Ocean Mission (DOM) has achieved a significant milestone with the successful completion of manned submersible trials in the Bay of Bengal.\n• The 'Matsya 6000' submersible, designed to carry humans to a depth of 6,000 meters, demonstrated its capabilities in deep-sea exploration and data collection.\n• This mission aims to explore vast untapped resources like polymetallic nodules and study deep-sea biodiversity and climate change impacts.\n• The technological prowess showcased positions India among a select few nations with advanced deep-sea exploration capabilities.\n• Further trials and scientific expeditions are planned to unlock the mysteries and resources of the Indian Ocean.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology-developments and their applications and effects in everyday life",
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Earth Sciences / ISRO",
+      "sourceUrl": "https://www.isro.gov.in/DOM",
+      "importance": "high",
+      "tags": [
+        "Deep Ocean Mission",
+        "Matsya 6000",
+        "Ocean Exploration",
+        "Blue Economy",
+        "Marine Resources",
+        "Science & Technology",
+        "ISRO"
+      ],
+      "keyTerms": [
+        "Deep Ocean Mission (DOM)",
+        "Polymetallic Nodules (PMN)",
+        "Exclusive Economic Zone (EEZ)",
+        "Continental Shelf",
+        "International Seabed Authority (ISA)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Deep Ocean Mission was approved in 2021 by the Union Cabinet.",
+        "Matsya 6000 is a manned submersible developed by NIOT (National Institute of Ocean Technology).",
+        "Aims to develop technologies for deep-sea mining and ocean climate change advisory services.",
+        "India has been allocated a site of 75,000 sq km in the Central Indian Ocean Basin for polymetallic nodules by ISA.",
+        "The mission is crucial for India's 'Blue Economy' strategy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of India's Deep Ocean Mission in the context of resource security, scientific research, and geopolitical influence.",
+        "Analyze the technological challenges and breakthroughs involved in developing manned submersibles for deep-sea exploration.",
+        "Evaluate the potential environmental implications of deep-sea mining and the regulatory frameworks required for sustainable ocean resource extraction.",
+        "Examine how the Deep Ocean Mission aligns with India's 'Blue Economy' vision and its role in global ocean governance."
+      ],
+      "imageDescription": "An illustration of the 'Matsya 6000' submersible exploring the deep ocean floor, with marine life visible.",
+      "section": "Science",
+      "trivia": "Only a few countries like the US, Russia, Japan, France, and China have similar manned submersible technologies.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space & Ocean Technology",
+        "topic": "Deep Ocean Mission"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "gender-budgeting-impact",
+      "headline": "Gender Budgeting: A Critical Assessment of its Impact on Women's Empowerment in India",
+      "explainer": "• A recent report by a parliamentary committee has critically assessed the effectiveness of gender budgeting in achieving women's empowerment goals in India.\n• While gender budgeting has been adopted by many ministries, the report highlights gaps in implementation, monitoring, and outcome measurement.\n• Issues such as inadequate allocation for direct women-centric schemes and lack of gender-disaggregated data were identified.\n• The committee recommended stronger institutional mechanisms, capacity building for gender-sensitive planning, and greater participation of women in decision-making.\n• This assessment underscores the need to move beyond mere financial allocation to ensure tangible improvements in women's health, education, and economic opportunities.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Role of women and women’s organization, population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies.",
+        "Social empowerment"
+      ],
+      "date": "2025-03-25",
+      "source": "Parliamentary Committee Report / PRS Legislative Research",
+      "sourceUrl": "https://www.prsindia.org/parliamenttrack/reports-committees",
+      "importance": "medium",
+      "tags": [
+        "Gender Budgeting",
+        "Women Empowerment",
+        "Social Justice",
+        "Government Schemes",
+        "Gender Equality",
+        "Budgeting"
+      ],
+      "keyTerms": [
+        "Gender Budgeting",
+        "Gender Equality",
+        "Women's Empowerment",
+        "Gender-Disaggregated Data",
+        "Sustainable Development Goal 5 (SDG 5)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Gender Budget Statement is presented annually with the Union Budget since 2005-06.",
+        "It analyzes the budget from a gender perspective to assess its impact on women.",
+        "Categorizes allocations into two parts: 1) 100% for women, 2) at least 30% for women.",
+        "SDG 5 aims to achieve gender equality and empower all women and girls.",
+        "Various schemes like Beti Bachao Beti Padhao, Ujjwala Yojana, PM Matru Vandana Yojana target women."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Explain the concept of gender budgeting and its objectives in the Indian context. Critically analyze its effectiveness in promoting women's empowerment.",
+        "Discuss the key challenges in the implementation and monitoring of gender budgeting initiatives in India.",
+        "Suggest concrete measures to strengthen gender budgeting mechanisms and ensure more impactful outcomes for women's development.",
+        "Examine the role of gender-sensitive policy-making beyond financial allocations in addressing systemic gender inequalities in Indian society."
+      ],
+      "imageDescription": "A graphic showing budget allocations with a focus on women-centric schemes, symbolizing gender budgeting.",
+      "section": "National",
+      "trivia": "Australia was one of the first countries to introduce gender budgeting in the mid-1980s.",
+      "prelimsSyllabus": {
+        "subject": "Society",
+        "area": "Women Issues",
+        "topic": "Gender Budgeting"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "cyber-security-framework",
+      "headline": "India Strengthens Cyber Security Framework with New Data Protection Regulations",
+      "explainer": "• The Indian government has unveiled a comprehensive update to its cybersecurity framework, including new regulations under the Digital Personal Data Protection Act.\n• The revised framework mandates stricter data localization requirements for critical infrastructure and enhanced reporting mechanisms for cyber incidents.\n• Focus is on protecting citizens' data privacy, safeguarding critical information infrastructure, and fostering a secure digital ecosystem.\n• The National Critical Information Infrastructure Protection Centre (NCIIPC) will play a crucial role in coordinating responses to cyber threats.\n• Industry stakeholders are actively engaged in developing compliance strategies and enhancing their cyber resilience capabilities.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention.",
+        "Science and Technology-developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Electronics and Information Technology / The Times of India",
+      "sourceUrl": "https://timesofindia.indiatimes.com/india/cyber-security",
+      "importance": "medium",
+      "tags": [
+        "Cyber Security",
+        "Data Protection",
+        "Digital Personal Data Protection Act",
+        "Critical Information Infrastructure",
+        "Digital India",
+        "Internal Security"
+      ],
+      "keyTerms": [
+        "Digital Personal Data Protection Act (DPDP Act)",
+        "Cybersecurity",
+        "Data Localisation",
+        "Critical Information Infrastructure (CII)",
+        "CERT-In (Indian Computer Emergency Response Team)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Digital Personal Data Protection Act, 2023, is India's primary law for data privacy.",
+        "NCIIPC is mandated to protect critical information infrastructure.",
+        "CERT-In is the national agency for responding to computer security incidents.",
+        "Data localization requires data of Indian citizens to be stored on servers within India.",
+        "Cybersecurity is a rapidly evolving domain with increasing threats from state and non-state actors."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the growing threat of cyberattacks and their implications for India's national security and economic stability.",
+        "Analyze the key provisions of the Digital Personal Data Protection Act and its role in safeguarding citizens' data privacy.",
+        "Evaluate the effectiveness of India's current cybersecurity framework, including the roles of NCIIPC and CERT-In, in preventing and responding to cyber threats.",
+        "Examine the challenges in implementing data localization policies and ensuring compliance across various sectors."
+      ],
+      "imageDescription": "A padlock icon overlaid on a digital network, symbolizing enhanced cybersecurity measures and data protection.",
+      "section": "Security",
+      "trivia": "India ranks among the top countries targeted by cyberattacks globally.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "Internal Security",
+        "topic": "Cyber Security"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "indus-water-treaty-dialogue",
+      "headline": "India-Pakistan Hold Bilateral Talks on Indus Waters Treaty Mechanisms",
+      "explainer": "• Delegations from India and Pakistan met for bilateral talks to discuss the implementation and mechanisms of the Indus Waters Treaty (IWT).\n• The discussions focused on technical aspects related to the construction of hydroelectric projects on rivers allocated to India under the treaty.\n• Both sides reiterated their commitment to upholding the provisions of the IWT, a landmark agreement signed in 1960.\n• While points of contention remain, the dialogue is seen as a positive step towards resolving differences through peaceful means.\n• The Permanent Indus Commission, established under the treaty, continues to serve as the primary forum for resolving water-related disputes.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests"
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Water Resources / Dawn (Pakistan)",
+      "sourceUrl": "https://www.dawn.com/news/indus-water-treaty",
+      "importance": "medium",
+      "tags": [
+        "Indus Waters Treaty",
+        "India-Pakistan",
+        "Bilateral Relations",
+        "Water Diplomacy",
+        "International Agreements",
+        "Permanent Indus Commission"
+      ],
+      "keyTerms": [
+        "Indus Waters Treaty (IWT)",
+        "Permanent Indus Commission (PIC)",
+        "Western Rivers (Indus, Jhelum, Chenab)",
+        "Eastern Rivers (Ravi, Beas, Sutlej)",
+        "Run-of-the-river projects"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Indus Waters Treaty was brokered by the World Bank and signed in 1960.",
+        "Allocates Eastern Rivers (Ravi, Beas, Sutlej) to India for unrestricted use.",
+        "Allocates Western Rivers (Indus, Jhelum, Chenab) to Pakistan for unrestricted use, with India allowed limited non-consumptive uses.",
+        "Permanent Indus Commission (PIC) meets annually to resolve disputes.",
+        "India can build run-of-the-river hydroelectric projects on Western Rivers as long as they don't impede flow."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the Indus Waters Treaty as a model for transboundary water sharing agreements, despite ongoing India-Pakistan tensions.",
+        "Analyze the key provisions of the IWT and the mechanisms it provides for dispute resolution.",
+        "Examine the challenges faced by both India and Pakistan in implementing the treaty, particularly concerning hydroelectric projects on the Western Rivers.",
+        "Evaluate the role of water diplomacy in fostering cooperation and mitigating conflicts between riparian states."
+      ],
+      "imageDescription": "A stylized map showing the Indus River system with flags of India and Pakistan, symbolizing the treaty.",
+      "section": "International",
+      "trivia": "The Indus Waters Treaty is considered one of the most successful water treaties in the world, having survived multiple conflicts between India and Pakistan.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India and Pakistan"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "national-education-policy-implementation",
+      "headline": "National Education Policy 2020: Focus on Vocational Training and Skill Development",
+      "explainer": "• The Ministry of Education held a review meeting on the implementation of the National Education Policy (NEP) 2020, with a special emphasis on vocational training.\n• Significant progress has been reported in integrating vocational education from the school level and aligning it with industry demands.\n• New skill development centers and partnerships with industries are being established to provide practical training and enhance employability.\n• The policy aims to equip students with 21st-century skills, making them job-ready and fostering entrepreneurship.\n• Challenges include teacher training, infrastructure development, and changing societal perceptions towards vocational education.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Development processes and the development industry — the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders.",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Education / PIB",
+      "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=NEP",
+      "importance": "medium",
+      "tags": [
+        "National Education Policy",
+        "NEP 2020",
+        "Vocational Education",
+        "Skill Development",
+        "Education Reform",
+        "Employability",
+        "Human Resources"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP) 2020",
+        "Vocational Education",
+        "Skill India Mission",
+        "Multidisciplinary Education",
+        "National Skill Development Corporation (NSDC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NEP 2020 replaced the 1986 National Policy on Education.",
+        "Aims for universalization of education from pre-school to secondary level.",
+        "Proposes a 5+3+3+4 curricular structure.",
+        "Emphasizes vocational education from Class 6 onwards.",
+        "Focus on holistic development, critical thinking, and experiential learning."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of the National Education Policy (NEP) 2020 in addressing the skill gap and enhancing employability in India.",
+        "Analyze the challenges in integrating vocational education into the mainstream curriculum and changing societal attitudes towards it.",
+        "Evaluate the role of public-private partnerships and industry collaboration in successfully implementing the vocational training objectives of NEP 2020.",
+        "Examine how NEP 2020 can contribute to India's demographic dividend and foster a knowledge-based economy."
+      ],
+      "imageDescription": "Students engaged in vocational training, such as carpentry or electronics, symbolizing skill development initiatives.",
+      "section": "National",
+      "trivia": "The first National Policy on Education in India was formulated in 1968.",
+      "prelimsSyllabus": {
+        "subject": "Society",
+        "area": "Education",
+        "topic": "NEP 2020"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "heritage-conservation-funding",
+      "headline": "ASI Seeks Enhanced Funding for Restoration of Neglected Heritage Sites",
+      "explainer": "• The Archaeological Survey of India (ASI) has made a strong plea for increased budgetary allocation to undertake comprehensive restoration work at numerous neglected heritage sites across the country.\n• A recent survey revealed that hundreds of protected monuments are in various states of disrepair due to insufficient funds and manpower.\n• The proposed enhanced funding aims to not only restore structural integrity but also improve visitor amenities and promote cultural tourism.\n• ASI plans to leverage technology, including 3D mapping and drone surveys, for better conservation planning and monitoring.\n• This initiative is crucial for preserving India's rich cultural heritage and boosting local economies dependent on tourism.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Conservation, environmental pollution and degradation, environmental impact assessment"
+      ],
+      "date": "2025-03-25",
+      "source": "Archaeological Survey of India / The Times of India",
+      "sourceUrl": "https://timesofindia.indiatimes.com/india/heritage-conservation",
+      "importance": "low",
+      "tags": [
+        "Archaeological Survey of India",
+        "Heritage Conservation",
+        "Cultural Tourism",
+        "Monument Preservation",
+        "Budget Allocation",
+        "Indian Culture"
+      ],
+      "keyTerms": [
+        "Archaeological Survey of India (ASI)",
+        "Protected Monuments",
+        "Cultural Heritage",
+        "World Heritage Sites",
+        "Intangible Cultural Heritage"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ASI is the premier organization for archaeological research and protection of cultural heritage.",
+        "Under the Ministry of Culture.",
+        "Manages over 3,600 protected monuments.",
+        "Ancient Monuments and Archaeological Sites and Remains Act, 1958, governs ASI's functions.",
+        "India has numerous UNESCO World Heritage Sites, both cultural and natural."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the importance of preserving India's cultural heritage for national identity, tourism, and economic development.",
+        "Analyze the challenges faced by the Archaeological Survey of India (ASI) in effectively conserving and managing the vast number of protected monuments.",
+        "Suggest innovative funding mechanisms and public-private partnerships to enhance heritage conservation efforts in India.",
+        "Examine the role of technology and community participation in the sustainable management of heritage sites."
+      ],
+      "imageDescription": "A historical monument undergoing restoration work, with scaffolding and workers carefully preserving its structure.",
+      "section": "National",
+      "trivia": "ASI was founded in 1861 by Alexander Cunningham.",
+      "prelimsSyllabus": {
+        "subject": "Art and Culture",
+        "area": "Architecture",
+        "topic": "Conservation"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "new-solar-power-targets",
+      "headline": "Government Revises Solar Power Targets Upwards Amidst Renewable Energy Push",
+      "explainer": "• The Ministry of New and Renewable Energy has announced an upward revision of India's solar power capacity targets for 2030, reflecting strong growth in the sector.\n• The new targets aim to accelerate the transition away from fossil fuels and achieve energy independence.\n• Policies supporting domestic manufacturing of solar components, including polysilicon and cells, are being strengthened under the PLI scheme.\n• Significant investments are planned for grid modernization and energy storage solutions to integrate higher shares of intermittent renewable energy.\n• This ambitious push is expected to create numerous green jobs and contribute significantly to India's climate commitments.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Science and Technology-developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of New and Renewable Energy / The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/industry/energy",
+      "importance": "high",
+      "tags": [
+        "Solar Power",
+        "Renewable Energy",
+        "Climate Change",
+        "Energy Transition",
+        "PLI Scheme",
+        "Energy Security",
+        "Sustainable Development"
+      ],
+      "keyTerms": [
+        "Solar Energy",
+        "Renewable Energy Target",
+        "Production Linked Incentive (PLI) Scheme",
+        "National Solar Mission",
+        "International Solar Alliance (ISA)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India initially set a target of 175 GW renewable energy capacity by 2022 (including 100 GW solar).",
+        "Later, target of 500 GW non-fossil fuel energy capacity by 2030 was announced at COP26.",
+        "PLI scheme for High-Efficiency Solar PV Modules aims to boost domestic manufacturing.",
+        "International Solar Alliance (ISA) was launched by India and France.",
+        "India is the third-largest producer of renewable energy in the world."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss India's ambitious renewable energy targets and the policy initiatives undertaken to achieve them, particularly in the solar sector.",
+        "Analyze the challenges and opportunities in scaling up solar power generation and integrating it into the national grid.",
+        "Evaluate the role of domestic manufacturing and 'Make in India' initiatives in strengthening India's energy security and reducing import dependence.",
+        "Examine how the accelerated push for solar energy contributes to India's climate commitments and sustainable development goals."
+      ],
+      "imageDescription": "A vast solar power farm stretching to the horizon under a clear sky, symbolizing renewable energy growth.",
+      "section": "Environment",
+      "trivia": "Bhadla Solar Park in Rajasthan is one of the largest solar parks in the world.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Renewable Energy",
+        "topic": "Solar Energy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "medical-education-reforms",
+      "headline": "NMC Introduces Reforms in Medical Education Curriculum and Internship Guidelines",
+      "explainer": "• The National Medical Commission (NMC) has unveiled significant reforms aimed at modernizing the undergraduate medical education curriculum and internship guidelines.\n• The changes emphasize competency-based medical education, early clinical exposure, and integration of digital health technologies.\n• New guidelines for internships focus on rural health postings, primary healthcare exposure, and enhanced patient interaction skills.\n• The reforms also seek to address the shortage of healthcare professionals in underserved areas and improve the quality of medical training.\n• Stakeholders, including medical colleges and students, are preparing for the phased implementation of these revised standards.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2025-03-25",
+      "source": "National Medical Commission / The Hindu",
+      "sourceUrl": "https://www.thehindu.com/news/national/medical-education/",
+      "importance": "medium",
+      "tags": [
+        "Medical Education",
+        "NMC",
+        "Healthcare Reforms",
+        "Competency-Based Education",
+        "Rural Health",
+        "Public Health"
+      ],
+      "keyTerms": [
+        "National Medical Commission (NMC)",
+        "Competency-Based Medical Education (CBME)",
+        "Graduate Medical Education Regulations (GMER)",
+        "Primary Healthcare",
+        "Public Health System"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NMC replaced the Medical Council of India (MCI) in 2020.",
+        "NMC is responsible for regulating medical education and practice in India.",
+        "CBME focuses on outcomes and practical skills rather than just theoretical knowledge.",
+        "Rural health postings aim to expose future doctors to challenges in rural healthcare.",
+        "India faces a significant doctor-patient ratio imbalance, especially in rural areas."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the rationale behind the reforms introduced by the National Medical Commission (NMC) in medical education and their potential impact on healthcare delivery in India.",
+        "Analyze how competency-based education and mandatory rural postings can address the challenges of quality and accessibility in India's healthcare system.",
+        "Evaluate the role of the NMC in ensuring high standards of medical education and regulating medical practice.",
+        "Examine the broader implications of these reforms for public health, human resources in healthcare, and equitable access to medical services."
+      ],
+      "imageDescription": "Medical students in a classroom setting, with a doctor demonstrating a procedure on a mannequin, symbolizing modern medical education.",
+      "section": "National",
+      "trivia": "The NMC comprises 33 members, including a Chairperson, 10 ex-officio members, and 22 part-time members.",
+      "prelimsSyllabus": {
+        "subject": "Society",
+        "area": "Health",
+        "topic": "Medical Education"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "asean-india-maritime-exercise",
+      "headline": "ASEAN-India Maritime Exercise Enhances Regional Security and Interoperability",
+      "explainer": "• The ASEAN-India Maritime Exercise (AIME) concluded successfully in the Andaman Sea, reinforcing cooperation between India and Southeast Asian nations.\n• The exercise focused on enhancing interoperability in maritime security operations, including anti-piracy, search and rescue, and disaster relief.\n• Participants from various ASEAN member states and the Indian Navy engaged in complex drills and professional exchanges.\n• This collaborative effort underscores India's 'Act East' policy and its commitment to a secure and stable Indo-Pacific maritime domain.\n• Such exercises are crucial for building trust and addressing common security challenges in a strategically vital region.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+        "Various Security forces and agencies and their mandate."
+      ],
+      "date": "2025-03-25",
+      "source": "Indian Navy / The Hindu",
+      "sourceUrl": "https://www.thehindu.com/news/national/indian-navy/",
+      "importance": "medium",
+      "tags": [
+        "ASEAN",
+        "India",
+        "Maritime Exercise",
+        "Regional Security",
+        "Indo-Pacific",
+        "Act East Policy",
+        "Indian Navy"
+      ],
+      "keyTerms": [
+        "ASEAN (Association of Southeast Asian Nations)",
+        "Indo-Pacific",
+        "Act East Policy",
+        "Maritime Security",
+        "Interoperability",
+        "Search and Rescue (SAR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ASEAN is a regional intergovernmental organization of ten Southeast Asian countries.",
+        "India became a Sectoral Dialogue Partner of ASEAN in 1992 and a Full Dialogue Partner in 1995.",
+        "AIME is a biennial exercise aimed at strengthening maritime cooperation.",
+        "Andaman Sea is a critical maritime corridor in the Indo-Pacific.",
+        "India's Act East Policy focuses on extensive engagement with Southeast Asian countries."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the ASEAN-India Maritime Exercise (AIME) in bolstering regional security and stability in the Indo-Pacific.",
+        "Analyze how India's 'Act East' policy contributes to its strategic engagement with Southeast Asian nations and addresses common maritime challenges.",
+        "Evaluate the importance of multilateral naval exercises in enhancing interoperability, trust, and collective response capabilities among participating nations.",
+        "Examine the evolving geopolitical dynamics in the Indo-Pacific and India's role in promoting a free, open, and rules-based maritime order."
+      ],
+      "imageDescription": "Naval ships from India and ASEAN nations sailing in formation during a maritime exercise.",
+      "section": "International",
+      "trivia": "The Indian Navy has a dedicated Andaman and Nicobar Command, which plays a crucial role in India's maritime security in the eastern Indian Ocean.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "External Security",
+        "topic": "Maritime Security"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ancient-harappan-site-discovery",
+      "headline": "Archaeologists Uncover New Insights at Ancient Harappan Site in Haryana",
+      "explainer": "• Recent excavations at a Harappan-era site in Haryana have yielded significant new archaeological findings, shedding light on urban planning and trade networks.\n• Researchers uncovered evidence of advanced water management systems and sophisticated craft production, indicating a thriving ancient civilization.\n• The discovery of seals and pottery with foreign influences suggests extensive trade links with contemporary civilizations like Mesopotamia.\n• Carbon dating of artifacts is expected to provide a more precise timeline for the settlement, potentially extending the known period of the Harappan civilization.\n• The findings contribute to a deeper understanding of India's ancient history and the complexity of the Indus Valley Civilization.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "History of India and Indian National Movement."
+      ],
+      "date": "2025-03-25",
+      "source": "Archaeological Survey of India / The Hindu",
+      "sourceUrl": "https://www.thehindu.com/news/national/archaeology/",
+      "importance": "medium",
+      "tags": [
+        "Harappan Civilization",
+        "Indus Valley Civilization",
+        "Archaeology",
+        "Ancient India",
+        "Haryana",
+        "Cultural Heritage",
+        "Urban Planning"
+      ],
+      "keyTerms": [
+        "Harappan Civilization",
+        "Indus Valley Civilization",
+        "Mohenjo-Daro",
+        "Dholavira",
+        "Rakhigarhi",
+        "Carbon Dating",
+        "Artefacts"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Indus Valley Civilization (Harappan Civilization) flourished around 2500-1900 BCE.",
+        "Major sites include Harappa, Mohenjo-Daro, Lothal, Dholavira, Rakhigarhi.",
+        "Known for advanced urban planning, drainage systems, and standardized brick sizes.",
+        "Rakhigarhi in Haryana is one of the largest Harappan sites.",
+        "Seals with unicorn motifs and undeciphered script are characteristic of the civilization."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the key features of urban planning and socio-economic life in the Harappan Civilization, based on recent archaeological discoveries.",
+        "Analyze the significance of new findings at Harappan sites in understanding the extent, decline, and legacy of the Indus Valley Civilization.",
+        "Evaluate the methods used by archaeologists, such as carbon dating and comparative analysis, to reconstruct ancient history.",
+        "Examine how the study of ancient civilizations like the Harappan contributes to our understanding of human development and cultural evolution."
+      ],
+      "imageDescription": "Archaeologists meticulously working at an excavation site, uncovering ancient pottery and structural remains.",
+      "section": "National",
+      "trivia": "The Harappan civilization was one of the three early civilizations of the Near East and South Asia (along with ancient Egypt and Mesopotamia).",
+      "prelimsSyllabus": {
+        "subject": "History",
+        "area": "Ancient History",
+        "topic": "Indus Valley Civilization"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "animal-welfare-board-report",
+      "headline": "Animal Welfare Board Submits Report on Regulations for Pet Breeding and Sale",
+      "explainer": "• The Animal Welfare Board of India (AWBI) has submitted a comprehensive report to the government, proposing stringent regulations for pet breeding and sale.\n• The recommendations aim to curb illegal breeding practices, ensure humane treatment of animals, and prevent the spread of diseases.\n• Proposed measures include mandatory licensing for breeders, regular inspections of facilities, and a robust tracking system for pets.\n• The report also advocates for public awareness campaigns on responsible pet ownership and adoption over purchase.\n• This initiative is a response to growing concerns over animal cruelty and the need for a standardized framework to protect companion animals.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Environment, Forest and Climate Change / The Hindu",
+      "sourceUrl": "https://www.thehindu.com/sci-tech/energy-and-environment/",
+      "importance": "low",
+      "tags": [
+        "Animal Welfare",
+        "Pet Breeding",
+        "Animal Rights",
+        "Government Regulations",
+        "Environmental Protection",
+        "AWBI"
+      ],
+      "keyTerms": [
+        "Animal Welfare Board of India (AWBI)",
+        "Prevention of Cruelty to Animals Act, 1960",
+        "Responsible Pet Ownership",
+        "Illegal Breeding",
+        "Zoonotic Diseases"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "AWBI is a statutory advisory body established under the Prevention of Cruelty to Animals Act, 1960.",
+        "Works under the Ministry of Environment, Forest and Climate Change.",
+        "Its functions include advising the government on animal welfare laws and promoting humane treatment of animals.",
+        "Illegal pet trade contributes to animal cruelty and spread of diseases.",
+        "Many states already have some regulations, but a uniform national framework is needed."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ethical and public health concerns associated with unregulated pet breeding and sale in India.",
+        "Analyze the key recommendations of the Animal Welfare Board of India (AWBI) for regulating pet breeding and sale and their potential impact.",
+        "Evaluate the role of government regulations and public awareness campaigns in promoting responsible pet ownership and preventing animal cruelty.",
+        "Examine the legal framework for animal welfare in India and suggest further reforms needed to strengthen animal protection laws."
+      ],
+      "imageDescription": "A happy family adopting a pet from an animal shelter, symbolizing responsible pet ownership.",
+      "section": "Environment",
+      "trivia": "The Prevention of Cruelty to Animals Act, 1960, was enacted to prevent the infliction of unnecessary pain or suffering on animals.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Biodiversity",
+        "topic": "Animal Welfare"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "e-waste-management-policy",
+      "headline": "India Revises E-Waste Management Policy to Boost Circular Economy",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change has introduced revised guidelines for E-Waste Management, aiming to enhance collection and recycling.\n• The new policy emphasizes an Extended Producer Responsibility (EPR) framework, making manufacturers and producers more accountable for end-of-life products.\n• Incentives for formalizing the informal e-waste recycling sector and promoting resource recovery are key components.\n• The goal is to reduce environmental pollution from e-waste and promote a circular economy model for electronic goods.\n• Public awareness campaigns are also planned to encourage responsible disposal of electronic waste.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Science and Technology-developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-03-25",
+      "source": "Ministry of Environment, Forest and Climate Change / The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/industry/e-waste",
+      "importance": "medium",
+      "tags": [
+        "E-Waste Management",
+        "Circular Economy",
+        "Extended Producer Responsibility",
+        "Environmental Pollution",
+        "Recycling",
+        "Sustainable Development"
+      ],
+      "keyTerms": [
+        "E-Waste Management Rules",
+        "Extended Producer Responsibility (EPR)",
+        "Circular Economy",
+        "Resource Recovery",
+        "Hazardous Waste"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India is among the top five e-waste generating countries globally.",
+        "E-waste contains hazardous substances like lead, mercury, cadmium.",
+        "E-Waste (Management) Rules, 2016, and subsequent amendments govern e-waste in India.",
+        "EPR makes producers responsible for managing the end-of-life of their products.",
+        "Circular economy aims to keep resources in use for as long as possible, extract maximum value, then recover and regenerate products and materials at the end of service life."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the environmental and health hazards posed by inadequate e-waste management in India.",
+        "Analyze the concept of Extended Producer Responsibility (EPR) and its role in promoting a circular economy for electronic goods.",
+        "Evaluate the effectiveness of India's revised E-Waste Management Policy in tackling the growing problem of electronic waste.",
+        "Suggest measures to formalize the informal e-waste recycling sector and ensure safe and sustainable practices."
+      ],
+      "imageDescription": "A pile of discarded electronic devices being sorted for recycling, symbolizing e-waste management.",
+      "section": "Environment",
+      "trivia": "Only about 10-20% of e-waste is formally recycled worldwide.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Pollution",
+        "topic": "Waste Management"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "India's National Quantum Mission makes significant strides with 64-qubit prototype and secure quantum communication.",
+    "India-Japan Strategic Dialogue reinforces Indo-Pacific cooperation and economic partnership, focusing on defense and clean energy.",
+    "Government forms expert committee to review Electoral Bonds scheme amidst transparency concerns, aiming for electoral finance reforms.",
+    "National Mission for Climate-Resilient Agriculture launched to bolster food security and enhance farmer adaptive capacity against climate change.",
+    "India's Digital Public Infrastructure model gains global recognition at G20 Finance Ministers' meeting for financial inclusion and digital governance."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to India's National Quantum Mission (NQM), consider the following statements:\n1. It aims to develop a 64-qubit quantum processor prototype by 2025.\n2. Quantum Key Distribution (QKD) is a technology for secure communication.\n3. NQM focuses exclusively on quantum computing hardware development.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) 1 and 2 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 2 only",
+      "explanation": "Statement 1 is correct as the article mentions the achievement of a 64-qubit prototype. Statement 2 is correct as QKD is explicitly mentioned as a secure communication technology. Statement 3 is incorrect as NQM also focuses on quantum communication, sensing, and materials, not exclusively hardware."
+    },
+    {
+      "question": "Which of the following bodies is responsible for regulating medical education and practice in India, having replaced the Medical Council of India (MCI)?",
+      "options": [
+        "(a) All India Council for Technical Education (AICTE)",
+        "(b) University Grants Commission (UGC)",
+        "(c) National Medical Commission (NMC)",
+        "(d) Indian Council of Medical Research (ICMR)"
+      ],
+      "answer": "(c) National Medical Commission (NMC)",
+      "explanation": "The National Medical Commission (NMC) replaced the Medical Council of India (MCI) in 2020 and is the apex body for regulating medical education and practice in India."
+    },
+    {
+      "question": "Consider the following statements regarding the Indus Waters Treaty (IWT):\n1. It was brokered by the World Bank.\n2. The treaty allocates the Eastern Rivers (Ravi, Beas, Sutlej) to Pakistan for unrestricted use.\n3. The Permanent Indus Commission (PIC) is the primary forum for resolving water-related disputes under the treaty.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 3 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 3 only",
+      "explanation": "Statement 1 is correct; the IWT was brokered by the World Bank. Statement 2 is incorrect; the Eastern Rivers are allocated to India for unrestricted use, while Western Rivers are primarily for Pakistan. Statement 3 is correct; the PIC serves as the primary forum for dispute resolution."
+    },
+    {
+      "question": "Which of the following is NOT a component of India's Digital Public Infrastructure (DPI) model often highlighted at international forums?",
+      "options": [
+        "(a) Aadhaar",
+        "(b) Unified Payments Interface (UPI)",
+        "(c) DigiLocker",
+        "(d) Goods and Services Tax Network (GSTN)"
+      ],
+      "answer": "(d) Goods and Services Tax Network (GSTN)",
+      "explanation": "Aadhaar, UPI, and DigiLocker are core components of India's DPI model. While GSTN is a critical digital infrastructure for taxation, it is generally not categorized as a 'Digital Public Infrastructure' in the same context as the others, which are foundational identity, payment, and document exchange layers for broad public use."
+    },
+    {
+      "question": "With respect to E-Waste Management in India, the term 'Extended Producer Responsibility (EPR)' refers to:",
+      "options": [
+        "(a) The responsibility of consumers to dispose of electronic waste properly.",
+        "(b) The responsibility of the government to set up e-waste collection centers.",
+        "(c) The responsibility of manufacturers and producers for managing the end-of-life of their products.",
+        "(d) The responsibility of informal recyclers to adopt environmentally sound practices."
+      ],
+      "answer": "(c) The responsibility of manufacturers and producers for managing the end-of-life of their products.",
+      "explanation": "Extended Producer Responsibility (EPR) is a policy approach under which producers are given a significant responsibility for the treatment or disposal of post-consumer products. It makes manufacturers accountable for collecting and recycling their products once they become waste."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "India's National Quantum Mission (NQM) represents a strategic imperative for the nation. Critically analyze the potential socio-economic and strategic implications of India's advancements in quantum technology. (15 marks)",
+      "syllabusMatch": "GS3: Science and Technology-developments and their applications and effects in everyday life; Indigenization of technology and developing new technology.",
+      "approach": "Introduce NQM and its objectives. Discuss socio-economic implications (e.g., healthcare, finance, AI, job creation, digital security). Analyze strategic implications (e.g., defense, intelligence, technological sovereignty, global positioning). Conclude with challenges and the way forward for India to harness this technology fully."
+    },
+    {
+      "question": "The effectiveness of gender budgeting in India has been a subject of continuous debate. Evaluate the successes and shortcomings of gender budgeting initiatives in achieving women's empowerment, and suggest measures for more impactful implementation. (15 marks)",
+      "syllabusMatch": "GS1: Role of women and women’s organization, population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies. GS2: Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+      "approach": "Define gender budgeting and its objectives. Discuss successes (e.g., increased awareness, specific scheme allocations). Analyze shortcomings (e.g., implementation gaps, data issues, lack of direct impact). Provide concrete suggestions for improvement (e.g., capacity building, outcome-based monitoring, greater women's participation, comprehensive gender analysis)."
+    },
+    {
+      "question": "India's 'Act East' policy, coupled with its engagement in multilateral forums like ASEAN, is crucial for its maritime security and regional influence. Discuss how India's participation in the ASEAN-India Maritime Exercise (AIME) strengthens its strategic objectives in the Indo-Pacific region. (10 marks)",
+      "syllabusMatch": "GS2: India and its neighborhood- relations; Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests. GS3: Security challenges and their management in border areas.",
+      "approach": "Briefly introduce 'Act East' policy and its significance. Explain the AIME and its focus. Discuss how such exercises enhance interoperability, build trust, and address common maritime challenges (piracy, SAR, HADR). Link these to India's strategic goals of a free, open, and inclusive Indo-Pacific and counterbalancing regional powers. Conclude on the importance of continued engagement."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The National Quantum Mission (NQM) aims to make India a leader in quantum technology.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "Quantum Technology",
+        "NQM"
+      ]
+    },
+    {
+      "text": "The Indus Waters Treaty (IWT) was signed between India and Pakistan in 1960.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "Indus Waters Treaty",
+        "India-Pakistan"
+      ]
+    },
+    {
+      "text": "PM GatiShakti National Master Plan aims to reduce logistics costs in India.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "GatiShakti",
+        "Infrastructure"
+      ]
+    },
+    {
+      "text": "The 74th Constitutional Amendment Act gave constitutional status to Urban Local Bodies (ULBs).",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "ULBs",
+        "Constitutional Amendment"
+      ]
+    },
+    {
+      "text": "Matsya 6000 is India's manned submersible for deep-sea exploration under the Deep Ocean Mission.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "Deep Ocean Mission",
+        "Matsya 6000"
+      ]
+    },
+    {
+      "text": "The National Education Policy (NEP) 2020 replaced the 1986 education policy.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "NEP 2020",
+        "Education Reform"
+      ]
+    },
+    {
+      "text": "The Archaeological Survey of India (ASI) was founded in 1861 by Alexander Cunningham.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "tags": [
+        "ASI",
+        "Archaeology"
+      ]
+    },
+    {
+      "text": "India aims for 500 GW non-fossil fuel energy capacity by 2030, announced at COP26.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Renewable Energy",
+        "Climate Target"
+      ]
+    },
+    {
+      "text": "The Animal Welfare Board of India (AWBI) is a statutory body under the Ministry of Environment.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Animal Welfare",
+        "AWBI"
+      ]
+    },
+    {
+      "text": "Extended Producer Responsibility (EPR) holds manufacturers accountable for managing product end-of-life.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "E-Waste",
+        "Circular Economy"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "gender-budgeting-impact",
+        "headline": "Gender Budgeting: A Critical Assessment of its Impact on Women's Empowerment in India",
+        "explainer": "• A recent report by a parliamentary committee has critically assessed the effectiveness of gender budgeting in achieving women's empowerment goals in India.\n• While gender budgeting has been adopted by many ministries, the report highlights gaps in implementation, monitoring, and outcome measurement.\n• Issues such as inadequate allocation for direct women-centric schemes and lack of gender-disaggregated data were identified.\n• The committee recommended stronger institutional mechanisms, capacity building for gender-sensitive planning, and greater participation of women in decision-making.\n• This assessment underscores the need to move beyond mere financial allocation to ensure tangible improvements in women's health, education, and economic opportunities.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Role of women and women’s organization, population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies.",
+          "Social empowerment"
+        ],
+        "date": "2025-03-25",
+        "source": "Parliamentary Committee Report / PRS Legislative Research",
+        "sourceUrl": "https://www.prsindia.org/parliamenttrack/reports-committees",
+        "importance": "medium",
+        "tags": [
+          "Gender Budgeting",
+          "Women Empowerment",
+          "Social Justice",
+          "Government Schemes",
+          "Gender Equality",
+          "Budgeting"
+        ],
+        "keyTerms": [
+          "Gender Budgeting",
+          "Gender Equality",
+          "Women's Empowerment",
+          "Gender-Disaggregated Data",
+          "Sustainable Development Goal 5 (SDG 5)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Gender Budget Statement is presented annually with the Union Budget since 2005-06.",
+          "It analyzes the budget from a gender perspective to assess its impact on women.",
+          "Categorizes allocations into two parts: 1) 100% for women, 2) at least 30% for women.",
+          "SDG 5 aims to achieve gender equality and empower all women and girls.",
+          "Various schemes like Beti Bachao Beti Padhao, Ujjwala Yojana, PM Matru Vandana Yojana target women."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Explain the concept of gender budgeting and its objectives in the Indian context. Critically analyze its effectiveness in promoting women's empowerment.",
+          "Discuss the key challenges in the implementation and monitoring of gender budgeting initiatives in India.",
+          "Suggest concrete measures to strengthen gender budgeting mechanisms and ensure more impactful outcomes for women's development.",
+          "Examine the role of gender-sensitive policy-making beyond financial allocations in addressing systemic gender inequalities in Indian society."
+        ],
+        "imageDescription": "A graphic showing budget allocations with a focus on women-centric schemes, symbolizing gender budgeting.",
+        "section": "National",
+        "trivia": "Australia was one of the first countries to introduce gender budgeting in the mid-1980s.",
+        "prelimsSyllabus": {
+          "subject": "Society",
+          "area": "Women Issues",
+          "topic": "Gender Budgeting"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "heritage-conservation-funding",
+        "headline": "ASI Seeks Enhanced Funding for Restoration of Neglected Heritage Sites",
+        "explainer": "• The Archaeological Survey of India (ASI) has made a strong plea for increased budgetary allocation to undertake comprehensive restoration work at numerous neglected heritage sites across the country.\n• A recent survey revealed that hundreds of protected monuments are in various states of disrepair due to insufficient funds and manpower.\n• The proposed enhanced funding aims to not only restore structural integrity but also improve visitor amenities and promote cultural tourism.\n• ASI plans to leverage technology, including 3D mapping and drone surveys, for better conservation planning and monitoring.\n• This initiative is crucial for preserving India's rich cultural heritage and boosting local economies dependent on tourism.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Conservation, environmental pollution and degradation, environmental impact assessment"
+        ],
+        "date": "2025-03-25",
+        "source": "Archaeological Survey of India / The Times of India",
+        "sourceUrl": "https://timesofindia.indiatimes.com/india/heritage-conservation",
+        "importance": "low",
+        "tags": [
+          "Archaeological Survey of India",
+          "Heritage Conservation",
+          "Cultural Tourism",
+          "Monument Preservation",
+          "Budget Allocation",
+          "Indian Culture"
+        ],
+        "keyTerms": [
+          "Archaeological Survey of India (ASI)",
+          "Protected Monuments",
+          "Cultural Heritage",
+          "World Heritage Sites",
+          "Intangible Cultural Heritage"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ASI is the premier organization for archaeological research and protection of cultural heritage.",
+          "Under the Ministry of Culture.",
+          "Manages over 3,600 protected monuments.",
+          "Ancient Monuments and Archaeological Sites and Remains Act, 1958, governs ASI's functions.",
+          "India has numerous UNESCO World Heritage Sites, both cultural and natural."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the importance of preserving India's cultural heritage for national identity, tourism, and economic development.",
+          "Analyze the challenges faced by the Archaeological Survey of India (ASI) in effectively conserving and managing the vast number of protected monuments.",
+          "Suggest innovative funding mechanisms and public-private partnerships to enhance heritage conservation efforts in India.",
+          "Examine the role of technology and community participation in the sustainable management of heritage sites."
+        ],
+        "imageDescription": "A historical monument undergoing restoration work, with scaffolding and workers carefully preserving its structure.",
+        "section": "National",
+        "trivia": "ASI was founded in 1861 by Alexander Cunningham.",
+        "prelimsSyllabus": {
+          "subject": "Art and Culture",
+          "area": "Architecture",
+          "topic": "Conservation"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "ancient-harappan-site-discovery",
+        "headline": "Archaeologists Uncover New Insights at Ancient Harappan Site in Haryana",
+        "explainer": "• Recent excavations at a Harappan-era site in Haryana have yielded significant new archaeological findings, shedding light on urban planning and trade networks.\n• Researchers uncovered evidence of advanced water management systems and sophisticated craft production, indicating a thriving ancient civilization.\n• The discovery of seals and pottery with foreign influences suggests extensive trade links with contemporary civilizations like Mesopotamia.\n• Carbon dating of artifacts is expected to provide a more precise timeline for the settlement, potentially extending the known period of the Harappan civilization.\n• The findings contribute to a deeper understanding of India's ancient history and the complexity of the Indus Valley Civilization.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "History of India and Indian National Movement."
+        ],
+        "date": "2025-03-25",
+        "source": "Archaeological Survey of India / The Hindu",
+        "sourceUrl": "https://www.thehindu.com/news/national/archaeology/",
+        "importance": "medium",
+        "tags": [
+          "Harappan Civilization",
+          "Indus Valley Civilization",
+          "Archaeology",
+          "Ancient India",
+          "Haryana",
+          "Cultural Heritage",
+          "Urban Planning"
+        ],
+        "keyTerms": [
+          "Harappan Civilization",
+          "Indus Valley Civilization",
+          "Mohenjo-Daro",
+          "Dholavira",
+          "Rakhigarhi",
+          "Carbon Dating",
+          "Artefacts"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Indus Valley Civilization (Harappan Civilization) flourished around 2500-1900 BCE.",
+          "Major sites include Harappa, Mohenjo-Daro, Lothal, Dholavira, Rakhigarhi.",
+          "Known for advanced urban planning, drainage systems, and standardized brick sizes.",
+          "Rakhigarhi in Haryana is one of the largest Harappan sites.",
+          "Seals with unicorn motifs and undeciphered script are characteristic of the civilization."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the key features of urban planning and socio-economic life in the Harappan Civilization, based on recent archaeological discoveries.",
+          "Analyze the significance of new findings at Harappan sites in understanding the extent, decline, and legacy of the Indus Valley Civilization.",
+          "Evaluate the methods used by archaeologists, such as carbon dating and comparative analysis, to reconstruct ancient history.",
+          "Examine how the study of ancient civilizations like the Harappan contributes to our understanding of human development and cultural evolution."
+        ],
+        "imageDescription": "Archaeologists meticulously working at an excavation site, uncovering ancient pottery and structural remains.",
+        "section": "National",
+        "trivia": "The Harappan civilization was one of the three early civilizations of the Near East and South Asia (along with ancient Egypt and Mesopotamia).",
+        "prelimsSyllabus": {
+          "subject": "History",
+          "area": "Ancient History",
+          "topic": "Indus Valley Civilization"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "india-japan-strategic-dialogue",
+        "headline": "India-Japan Strategic Dialogue Emphasizes Indo-Pacific Cooperation and Economic Ties",
+        "explainer": "• The annual India-Japan Strategic Dialogue concluded with both nations reaffirming their commitment to a free, open, and inclusive Indo-Pacific region.\n• Discussions focused on enhancing defense cooperation, including joint exercises and technology transfer, to counter regional challenges.\n• Economic partnership received significant attention, with new agreements on infrastructure development, clean energy, and resilient supply chains.\n• Both sides stressed the importance of multilateral cooperation through forums like the Quad to address shared security and economic interests.\n• The dialogue also touched upon regional stability, counter-terrorism efforts, and people-to-people exchanges to strengthen bilateral ties.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests",
+          "Effect of policies and politics of developed and developing countries on India's interests"
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of External Affairs / PTI",
+        "sourceUrl": "https://mea.gov.in/press-releases.htm",
+        "importance": "high",
+        "tags": [
+          "India-Japan",
+          "Strategic Dialogue",
+          "Indo-Pacific",
+          "Quad",
+          "Defense Cooperation",
+          "Economic Ties",
+          "Bilateral Relations"
+        ],
+        "keyTerms": [
+          "Indo-Pacific Strategy",
+          "Quad Grouping",
+          "Act East Policy",
+          "Special Strategic and Global Partnership"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India and Japan are members of the Quad (Quadrilateral Security Dialogue) along with the US and Australia.",
+          "Japan is a major investor in India's infrastructure projects (e.g., Mumbai-Ahmedabad High-Speed Rail).",
+          "Both countries hold regular joint military exercises (e.g., Dharma Guardian, Malabar).",
+          "Strategic Dialogue reviews progress on various aspects of bilateral cooperation.",
+          "Emphasis on rules-based international order and freedom of navigation in the Indo-Pacific."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of the India-Japan Special Strategic and Global Partnership in shaping the geopolitics of the Indo-Pacific region.",
+          "Discuss the various pillars of India-Japan cooperation, including defense, economy, and technology, and their contributions to India's strategic interests.",
+          "Evaluate the role of India and Japan in promoting regional stability and connectivity, particularly in the context of China's growing influence.",
+          "Examine the challenges and opportunities in deepening India-Japan collaboration in areas like clean energy and resilient supply chains."
+        ],
+        "imageDescription": "Flags of India and Japan displayed side-by-side during a diplomatic meeting, symbolizing strong bilateral relations.",
+        "section": "International",
+        "trivia": "Japan is the only Asian country in the G7 group of advanced economies.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India and East Asia"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "electoral-bonds-review-committee",
+        "headline": "Government Constitutes Expert Committee to Review Electoral Bonds Scheme Post-SC Scrutiny",
+        "explainer": "• Following the Supreme Court's directives and public discourse, the Union Government has formed an expert committee to review the existing Electoral Bonds scheme.\n• The committee, comprising legal luminaries, economists, and political scientists, will examine the scheme's transparency, anonymity, and impact on electoral finance.\n• Its mandate includes suggesting amendments or alternative mechanisms to ensure greater accountability and fairness in political funding.\n• The move comes amidst ongoing debates about the balance between donor anonymity and the public's right to know the source of political funds.\n• The committee is expected to submit its report within six months, potentially paving the way for significant reforms in campaign finance.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Salient features of the Representation of People’s Act"
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Law and Justice / The Indian Express",
+        "sourceUrl": "https://indianexpress.com/news/electoral-bonds/",
+        "importance": "high",
+        "tags": [
+          "Electoral Bonds",
+          "Political Funding",
+          "Transparency",
+          "Electoral Reforms",
+          "Supreme Court",
+          "Government Policy"
+        ],
+        "keyTerms": [
+          "Electoral Bonds",
+          "Political Finance",
+          "Right to Information (RTI)",
+          "Free and Fair Elections",
+          "Association for Democratic Reforms (ADR)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Electoral Bonds scheme introduced in 2017 through Finance Act 2017.",
+          "Allows citizens and corporates to donate to political parties anonymously.",
+          "Bonds issued by State Bank of India (SBI) in denominations of ₹1,000 to ₹1 crore.",
+          "Supreme Court has consistently raised concerns regarding transparency and potential for quid pro quo.",
+          "The committee will study global best practices in political funding regulations."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically analyze the pros and cons of the Electoral Bonds scheme in the context of electoral transparency and political accountability in India.",
+          "Discuss the constitutional implications of donor anonymity versus the voter's right to know, as highlighted by Supreme Court observations.",
+          "Suggest comprehensive electoral reforms needed to ensure free, fair, and transparent political funding in India.",
+          "Examine how the committee's recommendations could impact the future of political parties and their funding mechanisms."
+        ],
+        "imageDescription": "Gavel and law books placed on a table, symbolizing legal review and electoral reforms.",
+        "section": "National",
+        "trivia": "The first electoral bonds were issued in March 2018.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Electoral System",
+          "topic": "Electoral Reforms"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "brics-expansion-impact",
+        "headline": "BRICS Expansion: India Navigates New Geopolitical Dynamics and Economic Opportunities",
+        "explainer": "• The recent expansion of BRICS with the inclusion of new member states has altered the geopolitical and geo-economic landscape for India.\n• India is actively engaging with the new members to strengthen intra-BRICS trade, investment, and cooperation on global issues.\n• The expanded grouping presents opportunities for India to diversify its economic partnerships and enhance its influence in the Global South.\n• Challenges include managing diverse interests among a larger group and maintaining consensus on critical international matters.\n• India advocates for a reform of global institutions and a more representative world order through the expanded BRICS platform.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests",
+          "Effect of policies and politics of developed and developing countries on India's interests"
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of External Affairs / The Economic Times",
+        "sourceUrl": "https://economictimes.indiatimes.com/news/international",
+        "importance": "medium",
+        "tags": [
+          "BRICS",
+          "Global South",
+          "Geopolitics",
+          "Economic Cooperation",
+          "Multilateralism",
+          "India's Foreign Policy"
+        ],
+        "keyTerms": [
+          "BRICS Expansion",
+          "Global South",
+          "Multipolar World Order",
+          "New Development Bank (NDB)",
+          "BRICS Contingent Reserve Arrangement (CRA)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "BRICS originally comprised Brazil, Russia, India, China, and South Africa.",
+          "Several new members joined or are set to join, including Egypt, Ethiopia, Iran, Saudi Arabia, and UAE.",
+          "BRICS aims to promote cooperation in economic, trade, political, and cultural spheres.",
+          "New Development Bank (NDB) is a multilateral development bank established by BRICS states.",
+          "India plays a key role in advocating for the interests of developing countries within BRICS."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the implications of BRICS expansion for India's foreign policy and its strategic position in the evolving global order.",
+          "Discuss the opportunities for India to enhance its economic and political influence through deeper engagement with the expanded BRICS grouping.",
+          "Examine the challenges that India might face in navigating the diverse interests and priorities of a larger BRICS collective.",
+          "Evaluate the potential of BRICS as a platform for challenging existing global governance structures and promoting a multipolar world."
+        ],
+        "imageDescription": "Flags of BRICS nations, including new members, arranged in a circle, symbolizing the expanded grouping.",
+        "section": "International",
+        "trivia": "The term 'BRIC' was coined by Goldman Sachs economist Jim O'Neill in 2001.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Global Groupings",
+          "topic": "BRICS"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "urban-local-bodies-funding",
+        "headline": "Fifteenth Finance Commission Recommendations on Urban Local Bodies Funding Under Scrutiny",
+        "explainer": "• The Union government is reviewing the implementation of the Fifteenth Finance Commission's (FC-15) recommendations concerning grants to Urban Local Bodies (ULBs).\n• FC-15 had recommended significant grants to ULBs, tied to performance and reforms in areas like sanitation, water supply, and financial autonomy.\n• Challenges in utilizing these funds effectively, particularly in capacity building and project execution, have been identified.\n• The review aims to assess the impact of these grants on urban governance and infrastructure development.\n• Discussions are underway to streamline the devolution of funds and ensure greater accountability at the local level for better service delivery.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+          "Statutory, regulatory and various quasi-judicial bodies."
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Housing and Urban Affairs / The Hindu",
+        "sourceUrl": "https://www.thehindu.com/news/national/urban-local-bodies/",
+        "importance": "medium",
+        "tags": [
+          "Urban Local Bodies",
+          "Fifteenth Finance Commission",
+          "Fiscal Federalism",
+          "Urban Governance",
+          "Decentralization",
+          "Grants"
+        ],
+        "keyTerms": [
+          "Fifteenth Finance Commission (FC-15)",
+          "Urban Local Bodies (ULBs)",
+          "Grants-in-Aid",
+          "Fiscal Decentralization",
+          "74th Constitutional Amendment Act"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Finance Commission is a constitutional body under Article 280.",
+          "FC-15 (Chairman N.K. Singh) submitted its report for 2021-26.",
+          "Recommended grants for ULBs are based on population and area, with conditions for reforms.",
+          "74th Constitutional Amendment Act (1992) gave constitutional status to ULBs.",
+          "Issues include lack of financial autonomy, human resource constraints, and inadequate capacity."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the role of Finance Commissions in strengthening fiscal federalism in India, with a specific focus on grants to Urban Local Bodies.",
+          "Analyze the challenges faced by ULBs in India in achieving financial autonomy and effective service delivery, despite constitutional provisions and central grants.",
+          "Evaluate the effectiveness of performance-based grants recommended by the Fifteenth Finance Commission in incentivizing reforms at the local level.",
+          "Suggest measures to improve the financial health and governance of ULBs to make them more responsive to urban challenges."
+        ],
+        "imageDescription": "A map of India with urban areas highlighted, indicating funding flows to local bodies.",
+        "section": "National",
+        "trivia": "The 74th Constitutional Amendment Act mandates the constitution of a State Finance Commission every five years.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Federalism",
+          "topic": "Finance Commission"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indus-water-treaty-dialogue",
+        "headline": "India-Pakistan Hold Bilateral Talks on Indus Waters Treaty Mechanisms",
+        "explainer": "• Delegations from India and Pakistan met for bilateral talks to discuss the implementation and mechanisms of the Indus Waters Treaty (IWT).\n• The discussions focused on technical aspects related to the construction of hydroelectric projects on rivers allocated to India under the treaty.\n• Both sides reiterated their commitment to upholding the provisions of the IWT, a landmark agreement signed in 1960.\n• While points of contention remain, the dialogue is seen as a positive step towards resolving differences through peaceful means.\n• The Permanent Indus Commission, established under the treaty, continues to serve as the primary forum for resolving water-related disputes.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India's interests"
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Water Resources / Dawn (Pakistan)",
+        "sourceUrl": "https://www.dawn.com/news/indus-water-treaty",
+        "importance": "medium",
+        "tags": [
+          "Indus Waters Treaty",
+          "India-Pakistan",
+          "Bilateral Relations",
+          "Water Diplomacy",
+          "International Agreements",
+          "Permanent Indus Commission"
+        ],
+        "keyTerms": [
+          "Indus Waters Treaty (IWT)",
+          "Permanent Indus Commission (PIC)",
+          "Western Rivers (Indus, Jhelum, Chenab)",
+          "Eastern Rivers (Ravi, Beas, Sutlej)",
+          "Run-of-the-river projects"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Indus Waters Treaty was brokered by the World Bank and signed in 1960.",
+          "Allocates Eastern Rivers (Ravi, Beas, Sutlej) to India for unrestricted use.",
+          "Allocates Western Rivers (Indus, Jhelum, Chenab) to Pakistan for unrestricted use, with India allowed limited non-consumptive uses.",
+          "Permanent Indus Commission (PIC) meets annually to resolve disputes.",
+          "India can build run-of-the-river hydroelectric projects on Western Rivers as long as they don't impede flow."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the Indus Waters Treaty as a model for transboundary water sharing agreements, despite ongoing India-Pakistan tensions.",
+          "Analyze the key provisions of the IWT and the mechanisms it provides for dispute resolution.",
+          "Examine the challenges faced by both India and Pakistan in implementing the treaty, particularly concerning hydroelectric projects on the Western Rivers.",
+          "Evaluate the role of water diplomacy in fostering cooperation and mitigating conflicts between riparian states."
+        ],
+        "imageDescription": "A stylized map showing the Indus River system with flags of India and Pakistan, symbolizing the treaty.",
+        "section": "International",
+        "trivia": "The Indus Waters Treaty is considered one of the most successful water treaties in the world, having survived multiple conflicts between India and Pakistan.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India and Pakistan"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "national-education-policy-implementation",
+        "headline": "National Education Policy 2020: Focus on Vocational Training and Skill Development",
+        "explainer": "• The Ministry of Education held a review meeting on the implementation of the National Education Policy (NEP) 2020, with a special emphasis on vocational training.\n• Significant progress has been reported in integrating vocational education from the school level and aligning it with industry demands.\n• New skill development centers and partnerships with industries are being established to provide practical training and enhance employability.\n• The policy aims to equip students with 21st-century skills, making them job-ready and fostering entrepreneurship.\n• Challenges include teacher training, infrastructure development, and changing societal perceptions towards vocational education.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Development processes and the development industry — the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders.",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Education / PIB",
+        "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=NEP",
+        "importance": "medium",
+        "tags": [
+          "National Education Policy",
+          "NEP 2020",
+          "Vocational Education",
+          "Skill Development",
+          "Education Reform",
+          "Employability",
+          "Human Resources"
+        ],
+        "keyTerms": [
+          "National Education Policy (NEP) 2020",
+          "Vocational Education",
+          "Skill India Mission",
+          "Multidisciplinary Education",
+          "National Skill Development Corporation (NSDC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NEP 2020 replaced the 1986 National Policy on Education.",
+          "Aims for universalization of education from pre-school to secondary level.",
+          "Proposes a 5+3+3+4 curricular structure.",
+          "Emphasizes vocational education from Class 6 onwards.",
+          "Focus on holistic development, critical thinking, and experiential learning."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the transformative potential of the National Education Policy (NEP) 2020 in addressing the skill gap and enhancing employability in India.",
+          "Analyze the challenges in integrating vocational education into the mainstream curriculum and changing societal attitudes towards it.",
+          "Evaluate the role of public-private partnerships and industry collaboration in successfully implementing the vocational training objectives of NEP 2020.",
+          "Examine how NEP 2020 can contribute to India's demographic dividend and foster a knowledge-based economy."
+        ],
+        "imageDescription": "Students engaged in vocational training, such as carpentry or electronics, symbolizing skill development initiatives.",
+        "section": "National",
+        "trivia": "The first National Policy on Education in India was formulated in 1968.",
+        "prelimsSyllabus": {
+          "subject": "Society",
+          "area": "Education",
+          "topic": "NEP 2020"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "medical-education-reforms",
+        "headline": "NMC Introduces Reforms in Medical Education Curriculum and Internship Guidelines",
+        "explainer": "• The National Medical Commission (NMC) has unveiled significant reforms aimed at modernizing the undergraduate medical education curriculum and internship guidelines.\n• The changes emphasize competency-based medical education, early clinical exposure, and integration of digital health technologies.\n• New guidelines for internships focus on rural health postings, primary healthcare exposure, and enhanced patient interaction skills.\n• The reforms also seek to address the shortage of healthcare professionals in underserved areas and improve the quality of medical training.\n• Stakeholders, including medical colleges and students, are preparing for the phased implementation of these revised standards.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2025-03-25",
+        "source": "National Medical Commission / The Hindu",
+        "sourceUrl": "https://www.thehindu.com/news/national/medical-education/",
+        "importance": "medium",
+        "tags": [
+          "Medical Education",
+          "NMC",
+          "Healthcare Reforms",
+          "Competency-Based Education",
+          "Rural Health",
+          "Public Health"
+        ],
+        "keyTerms": [
+          "National Medical Commission (NMC)",
+          "Competency-Based Medical Education (CBME)",
+          "Graduate Medical Education Regulations (GMER)",
+          "Primary Healthcare",
+          "Public Health System"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NMC replaced the Medical Council of India (MCI) in 2020.",
+          "NMC is responsible for regulating medical education and practice in India.",
+          "CBME focuses on outcomes and practical skills rather than just theoretical knowledge.",
+          "Rural health postings aim to expose future doctors to challenges in rural healthcare.",
+          "India faces a significant doctor-patient ratio imbalance, especially in rural areas."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the rationale behind the reforms introduced by the National Medical Commission (NMC) in medical education and their potential impact on healthcare delivery in India.",
+          "Analyze how competency-based education and mandatory rural postings can address the challenges of quality and accessibility in India's healthcare system.",
+          "Evaluate the role of the NMC in ensuring high standards of medical education and regulating medical practice.",
+          "Examine the broader implications of these reforms for public health, human resources in healthcare, and equitable access to medical services."
+        ],
+        "imageDescription": "Medical students in a classroom setting, with a doctor demonstrating a procedure on a mannequin, symbolizing modern medical education.",
+        "section": "National",
+        "trivia": "The NMC comprises 33 members, including a Chairperson, 10 ex-officio members, and 22 part-time members.",
+        "prelimsSyllabus": {
+          "subject": "Society",
+          "area": "Health",
+          "topic": "Medical Education"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "national-quantum-mission-progress",
+        "headline": "National Quantum Mission Achieves Key Milestones in Quantum Computing and Communication",
+        "explainer": "• India's National Quantum Mission (NQM) has announced significant progress in developing indigenous quantum computing hardware and secure quantum communication networks.\n• Researchers at various IITs and IISc have successfully demonstrated a 64-qubit quantum processor prototype, marking a major leap in computational power.\n• Breakthroughs in quantum key distribution (QKD) have enabled secure communication over distances exceeding 100 km, crucial for national security applications.\n• The mission emphasizes public-private partnerships, attracting investments from leading tech firms and fostering a vibrant quantum ecosystem.\n• Training programs for a skilled quantum workforce are being scaled up to meet future demands in this frontier technology.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology-developments and their applications and effects in everyday life",
+          "Achievements of Indians in science & technology",
+          "Indigenization of technology and developing new technology"
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Science & Technology / The Hindu",
+        "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=XXXX",
+        "importance": "high",
+        "tags": [
+          "Quantum Computing",
+          "National Quantum Mission",
+          "Quantum Communication",
+          "QKD",
+          "Frontier Technology",
+          "Make in India",
+          "Digital India"
+        ],
+        "keyTerms": [
+          "Quantum Entanglement",
+          "Superposition",
+          "Qubit",
+          "Quantum Key Distribution (QKD)",
+          "National Quantum Mission (NQM)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Quantum Mission (NQM) launched in 2023 with a budget of ₹6,000 crores.",
+          "Aims to develop quantum technologies and related applications.",
+          "Focus areas include quantum computing, quantum communication, quantum sensing and metrology, and quantum materials.",
+          "64-qubit prototype demonstrates significant computational capability.",
+          "QKD enables unhackable communication by leveraging quantum mechanics principles."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of quantum technology for India's national security, economic growth, and technological sovereignty.",
+          "Analyze the challenges and opportunities in building a robust quantum ecosystem in India, including skill development and infrastructure.",
+          "Evaluate the potential impact of quantum computing on various sectors like healthcare, finance, and defense.",
+          "Examine how NQM aligns with India's broader vision of Aatmanirbhar Bharat in critical and emerging technologies."
+        ],
+        "imageDescription": "Illustration of quantum computing elements with qubits and entangled particles, symbolizing India's progress in quantum technology.",
+        "section": "Lead Opinion",
+        "trivia": "The smallest unit of quantum information is a qubit, which can exist in multiple states simultaneously, unlike a classical bit (0 or 1).",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Information Technology",
+          "topic": "Quantum Technology"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "climate-resilient-agriculture",
+        "headline": "India Launches National Mission for Climate-Resilient Agriculture (NMCRA) to Bolster Food Security",
+        "explainer": "• The Union Agriculture Ministry has rolled out the National Mission for Climate-Resilient Agriculture (NMCRA) to mitigate the impacts of climate change on farming.\n• The mission focuses on developing and deploying climate-smart agricultural practices, including drought-resistant crops, efficient irrigation, and sustainable land management.\n• It aims to enhance farmers' adaptive capacity through technology adoption, weather advisories, and financial support for climate-resilient infrastructure.\n• Pilot projects are being initiated in vulnerable regions, integrating traditional knowledge with modern scientific approaches.\n• The NMCRA is a crucial step towards ensuring long-term food security and improving livelihoods of farmers in the face of erratic weather patterns.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Agriculture - major crops-cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers",
+          "Food processing and related industries in India- scope’ and significance, location, upstream and downstream requirements, supply chain management."
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Agriculture & Farmers Welfare / Down To Earth",
+        "sourceUrl": "https://www.downtoearth.org.in/news/",
+        "importance": "high",
+        "tags": [
+          "Climate Change",
+          "Agriculture",
+          "Food Security",
+          "Climate-Resilient Agriculture",
+          "Sustainable Farming",
+          "Farmers Welfare",
+          "Government Schemes"
+        ],
+        "keyTerms": [
+          "Climate-Smart Agriculture (CSA)",
+          "Drought-Resistant Crops",
+          "Precision Agriculture",
+          "Soil Health Card Scheme",
+          "National Adaptation Fund for Climate Change (NAFCC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NMCRA is a new umbrella mission building on existing initiatives like National Innovations in Climate Resilient Agriculture (NICRA).",
+          "Focuses on integrated farming systems, water management, and soil health.",
+          "Aims to reduce greenhouse gas emissions from agriculture while increasing productivity.",
+          "Includes components for research and development of new crop varieties.",
+          "Part of India's broader climate action commitments under the Paris Agreement."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the multi-faceted challenges posed by climate change to Indian agriculture and the imperative for climate-resilient strategies.",
+          "Analyze the key features and potential impact of the National Mission for Climate-Resilient Agriculture on food security and farmer incomes.",
+          "Evaluate the role of technology, traditional knowledge, and government policies in promoting sustainable and climate-resilient farming practices in India.",
+          "Examine the interlinkages between climate-resilient agriculture and India's commitment to achieving Sustainable Development Goals (SDGs)."
+        ],
+        "imageDescription": "Farmers working in a field with modern irrigation systems, symbolizing climate-resilient agriculture.",
+        "section": "Environment",
+        "trivia": "India is one of the top producers of several agricultural commodities, but also highly vulnerable to climate variability.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Climate Change",
+          "topic": "Impact on Agriculture"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "digital-public-infrastructure-g20",
+        "headline": "India's Digital Public Infrastructure Model Gains Global Traction at G20 Finance Ministers' Meeting",
+        "explainer": "• India's pioneering Digital Public Infrastructure (DPI) model, including Aadhaar, UPI, and DigiLocker, was a central theme at the recent G20 Finance Ministers and Central Bank Governors meeting.\n• Several developing nations expressed keen interest in adopting components of India's DPI to foster financial inclusion and digital governance.\n• India highlighted the cost-effectiveness and scalability of its DPI approach, which has transformed public service delivery and economic transactions.\n• Discussions focused on creating a global framework for interoperable DPIs to facilitate cross-border payments and data exchange securely.\n• The G20 acknowledged DPIs as critical enablers for achieving Sustainable Development Goals and building resilient digital economies worldwide.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Inclusive growth and issues arising from it."
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Finance / Livemint",
+        "sourceUrl": "https://www.livemint.com/news/g20-india-dpi-model/",
+        "importance": "high",
+        "tags": [
+          "Digital Public Infrastructure",
+          "DPI",
+          "G20",
+          "Financial Inclusion",
+          "Digital Governance",
+          "UPI",
+          "Aadhaar",
+          "Global Cooperation"
+        ],
+        "keyTerms": [
+          "Digital Public Infrastructure (DPI)",
+          "Unified Payments Interface (UPI)",
+          "Aadhaar",
+          "DigiLocker",
+          "Financial Inclusion",
+          "Sustainable Development Goals (SDGs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "DPI refers to shared digital systems like identity, payment, and data exchange layers.",
+          "UPI is a real-time payment system developed by NPCI.",
+          "Aadhaar provides a unique 12-digit identity number linked to biometric data.",
+          "DigiLocker is a secure cloud-based platform for issuance and verification of documents.",
+          "India's G20 presidency in 2023 significantly pushed the DPI agenda globally."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze how India's Digital Public Infrastructure has been instrumental in driving financial inclusion and transforming public service delivery.",
+          "Discuss the potential and challenges of replicating India's DPI model in other developing countries, considering their unique contexts.",
+          "Examine the role of DPIs in achieving Sustainable Development Goals (SDGs) and fostering inclusive economic growth.",
+          "Critically evaluate the implications of a global framework for interoperable DPIs on data privacy, security, and national sovereignty."
+        ],
+        "imageDescription": "Abstract digital network symbolizing interconnected digital public infrastructure, with various country flags in the background.",
+        "section": "Economy",
+        "trivia": "UPI processed over 10 billion transactions in a single month in 2023.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Digital Economy",
+          "topic": "Financial Inclusion"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "delhi-air-pollution-strategy",
+        "headline": "Delhi Government Unveils 'Green Budget' with Focus on Long-Term Air Pollution Mitigation",
+        "explainer": "• The Delhi government has presented its 'Green Budget' for 2025-26, allocating significant funds towards long-term strategies to combat air pollution.\n• Key initiatives include expanding the electric vehicle (EV) charging infrastructure, promoting public transport, and phasing out older polluting vehicles.\n• Investments in green infrastructure, urban forestry, and waste management are also central to the budget's environmental agenda.\n• The budget emphasizes transitioning to cleaner industrial fuels and stricter enforcement of pollution control norms across the National Capital Region (NCR).\n• Experts laud the shift towards a sustained, multi-sectoral approach rather than seasonal emergency measures for air quality improvement.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Government Budgeting"
+        ],
+        "date": "2025-03-25",
+        "source": "Delhi Government / Hindustan Times",
+        "sourceUrl": "https://www.hindustantimes.com/cities/delhi-news",
+        "importance": "medium",
+        "tags": [
+          "Delhi Air Pollution",
+          "Green Budget",
+          "Electric Vehicles",
+          "Public Transport",
+          "Environmental Protection",
+          "Sustainable Development",
+          "NCR"
+        ],
+        "keyTerms": [
+          "Air Quality Index (AQI)",
+          "Particulate Matter (PM2.5, PM10)",
+          "Electric Vehicle Policy",
+          "Green Corridor",
+          "Pollution Under Control (PUC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Delhi is consistently ranked among the world's most polluted cities.",
+          "Sources of pollution include vehicular emissions, industrial discharge, stubble burning, and dust.",
+          "Green Budget aims to integrate environmental goals into fiscal policy.",
+          "EV policy offers subsidies and incentives for electric vehicle adoption.",
+          "Central Pollution Control Board (CPCB) monitors air quality across India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the complex factors contributing to air pollution in Delhi and the National Capital Region (NCR).",
+          "Evaluate the effectiveness of Delhi's 'Green Budget' and its long-term strategies in achieving sustainable air quality improvements.",
+          "Discuss the challenges in implementing comprehensive air pollution control measures, including inter-state coordination and public cooperation.",
+          "Suggest additional policy interventions and technological solutions for mitigating urban air pollution in India."
+        ],
+        "imageDescription": "A clean city skyline with electric buses and green spaces, contrasting with smoggy depictions.",
+        "section": "National",
+        "trivia": "The Odd-Even scheme was a temporary measure implemented in Delhi to curb vehicular pollution.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Pollution",
+          "topic": "Air Pollution"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "pm-gatishakti-progress",
+        "headline": "PM GatiShakti National Master Plan Accelerates Infrastructure Project Execution",
+        "explainer": "• The PM GatiShakti National Master Plan has demonstrated significant success in streamlining the planning and execution of multi-modal infrastructure projects across India.\n• The digital platform has facilitated better coordination among 16 central ministries, reducing delays and optimizing resource utilization.\n• Over 1,000 critical infrastructure projects across roads, railways, ports, and airports are currently being monitored and expedited under the framework.\n• This integrated approach aims to cut down logistics costs, enhance connectivity, and boost India's economic competitiveness.\n• The government is now focusing on extending GatiShakti principles to state-level infrastructure development and social sector projects.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Commerce & Industry / Business Standard",
+        "sourceUrl": "https://www.business-standard.com/industry/infrastructure",
+        "importance": "medium",
+        "tags": [
+          "PM GatiShakti",
+          "Infrastructure",
+          "Logistics",
+          "Economic Growth",
+          "Multi-modal Connectivity",
+          "Government Schemes"
+        ],
+        "keyTerms": [
+          "PM GatiShakti National Master Plan",
+          "Multi-modal Connectivity",
+          "Logistics Cost",
+          "Geospatial Mapping",
+          "Infrastructure Development"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "PM GatiShakti was launched in October 2021.",
+          "Aims to break silos between departments and integrate planning.",
+          "Uses geospatial technology for comprehensive visibility of infrastructure projects.",
+          "Covers 16 ministries including Railways, Road Transport, Petroleum & Natural Gas, Power, Telecom.",
+          "Targeted to reduce logistics costs, which are high in India compared to developed economies."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the objectives and key features of the PM GatiShakti National Master Plan and its potential to transform India's infrastructure landscape.",
+          "Analyze how an integrated approach to infrastructure development can address the challenges of logistics costs and improve economic competitiveness.",
+          "Evaluate the role of technology and inter-ministerial coordination in the successful implementation of large-scale infrastructure projects.",
+          "Examine the potential socio-economic impacts of enhanced multi-modal connectivity on regional development and employment generation."
+        ],
+        "imageDescription": "An aerial view of interconnected roads, railways, and ports, overlaid with digital data points, representing PM GatiShakti.",
+        "section": "Economy",
+        "trivia": "India's logistics cost as a percentage of GDP is estimated to be around 13-14%, higher than the global average of 8-10%.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Infrastructure",
+          "topic": "Logistics"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "deep-ocean-mission-progress",
+        "headline": "Deep Ocean Mission Progresses with Successful Manned Submersible Trials",
+        "explainer": "• India's ambitious Deep Ocean Mission (DOM) has achieved a significant milestone with the successful completion of manned submersible trials in the Bay of Bengal.\n• The 'Matsya 6000' submersible, designed to carry humans to a depth of 6,000 meters, demonstrated its capabilities in deep-sea exploration and data collection.\n• This mission aims to explore vast untapped resources like polymetallic nodules and study deep-sea biodiversity and climate change impacts.\n• The technological prowess showcased positions India among a select few nations with advanced deep-sea exploration capabilities.\n• Further trials and scientific expeditions are planned to unlock the mysteries and resources of the Indian Ocean.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology-developments and their applications and effects in everyday life",
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Earth Sciences / ISRO",
+        "sourceUrl": "https://www.isro.gov.in/DOM",
+        "importance": "high",
+        "tags": [
+          "Deep Ocean Mission",
+          "Matsya 6000",
+          "Ocean Exploration",
+          "Blue Economy",
+          "Marine Resources",
+          "Science & Technology",
+          "ISRO"
+        ],
+        "keyTerms": [
+          "Deep Ocean Mission (DOM)",
+          "Polymetallic Nodules (PMN)",
+          "Exclusive Economic Zone (EEZ)",
+          "Continental Shelf",
+          "International Seabed Authority (ISA)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Deep Ocean Mission was approved in 2021 by the Union Cabinet.",
+          "Matsya 6000 is a manned submersible developed by NIOT (National Institute of Ocean Technology).",
+          "Aims to develop technologies for deep-sea mining and ocean climate change advisory services.",
+          "India has been allocated a site of 75,000 sq km in the Central Indian Ocean Basin for polymetallic nodules by ISA.",
+          "The mission is crucial for India's 'Blue Economy' strategy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of India's Deep Ocean Mission in the context of resource security, scientific research, and geopolitical influence.",
+          "Analyze the technological challenges and breakthroughs involved in developing manned submersibles for deep-sea exploration.",
+          "Evaluate the potential environmental implications of deep-sea mining and the regulatory frameworks required for sustainable ocean resource extraction.",
+          "Examine how the Deep Ocean Mission aligns with India's 'Blue Economy' vision and its role in global ocean governance."
+        ],
+        "imageDescription": "An illustration of the 'Matsya 6000' submersible exploring the deep ocean floor, with marine life visible.",
+        "section": "Science",
+        "trivia": "Only a few countries like the US, Russia, Japan, France, and China have similar manned submersible technologies.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space & Ocean Technology",
+          "topic": "Deep Ocean Mission"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "cyber-security-framework",
+        "headline": "India Strengthens Cyber Security Framework with New Data Protection Regulations",
+        "explainer": "• The Indian government has unveiled a comprehensive update to its cybersecurity framework, including new regulations under the Digital Personal Data Protection Act.\n• The revised framework mandates stricter data localization requirements for critical infrastructure and enhanced reporting mechanisms for cyber incidents.\n• Focus is on protecting citizens' data privacy, safeguarding critical information infrastructure, and fostering a secure digital ecosystem.\n• The National Critical Information Infrastructure Protection Centre (NCIIPC) will play a crucial role in coordinating responses to cyber threats.\n• Industry stakeholders are actively engaged in developing compliance strategies and enhancing their cyber resilience capabilities.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention.",
+          "Science and Technology-developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Electronics and Information Technology / The Times of India",
+        "sourceUrl": "https://timesofindia.indiatimes.com/india/cyber-security",
+        "importance": "medium",
+        "tags": [
+          "Cyber Security",
+          "Data Protection",
+          "Digital Personal Data Protection Act",
+          "Critical Information Infrastructure",
+          "Digital India",
+          "Internal Security"
+        ],
+        "keyTerms": [
+          "Digital Personal Data Protection Act (DPDP Act)",
+          "Cybersecurity",
+          "Data Localisation",
+          "Critical Information Infrastructure (CII)",
+          "CERT-In (Indian Computer Emergency Response Team)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Digital Personal Data Protection Act, 2023, is India's primary law for data privacy.",
+          "NCIIPC is mandated to protect critical information infrastructure.",
+          "CERT-In is the national agency for responding to computer security incidents.",
+          "Data localization requires data of Indian citizens to be stored on servers within India.",
+          "Cybersecurity is a rapidly evolving domain with increasing threats from state and non-state actors."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the growing threat of cyberattacks and their implications for India's national security and economic stability.",
+          "Analyze the key provisions of the Digital Personal Data Protection Act and its role in safeguarding citizens' data privacy.",
+          "Evaluate the effectiveness of India's current cybersecurity framework, including the roles of NCIIPC and CERT-In, in preventing and responding to cyber threats.",
+          "Examine the challenges in implementing data localization policies and ensuring compliance across various sectors."
+        ],
+        "imageDescription": "A padlock icon overlaid on a digital network, symbolizing enhanced cybersecurity measures and data protection.",
+        "section": "Security",
+        "trivia": "India ranks among the top countries targeted by cyberattacks globally.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "Internal Security",
+          "topic": "Cyber Security"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "new-solar-power-targets",
+        "headline": "Government Revises Solar Power Targets Upwards Amidst Renewable Energy Push",
+        "explainer": "• The Ministry of New and Renewable Energy has announced an upward revision of India's solar power capacity targets for 2030, reflecting strong growth in the sector.\n• The new targets aim to accelerate the transition away from fossil fuels and achieve energy independence.\n• Policies supporting domestic manufacturing of solar components, including polysilicon and cells, are being strengthened under the PLI scheme.\n• Significant investments are planned for grid modernization and energy storage solutions to integrate higher shares of intermittent renewable energy.\n• This ambitious push is expected to create numerous green jobs and contribute significantly to India's climate commitments.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Science and Technology-developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of New and Renewable Energy / The Economic Times",
+        "sourceUrl": "https://economictimes.indiatimes.com/industry/energy",
+        "importance": "high",
+        "tags": [
+          "Solar Power",
+          "Renewable Energy",
+          "Climate Change",
+          "Energy Transition",
+          "PLI Scheme",
+          "Energy Security",
+          "Sustainable Development"
+        ],
+        "keyTerms": [
+          "Solar Energy",
+          "Renewable Energy Target",
+          "Production Linked Incentive (PLI) Scheme",
+          "National Solar Mission",
+          "International Solar Alliance (ISA)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India initially set a target of 175 GW renewable energy capacity by 2022 (including 100 GW solar).",
+          "Later, target of 500 GW non-fossil fuel energy capacity by 2030 was announced at COP26.",
+          "PLI scheme for High-Efficiency Solar PV Modules aims to boost domestic manufacturing.",
+          "International Solar Alliance (ISA) was launched by India and France.",
+          "India is the third-largest producer of renewable energy in the world."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss India's ambitious renewable energy targets and the policy initiatives undertaken to achieve them, particularly in the solar sector.",
+          "Analyze the challenges and opportunities in scaling up solar power generation and integrating it into the national grid.",
+          "Evaluate the role of domestic manufacturing and 'Make in India' initiatives in strengthening India's energy security and reducing import dependence.",
+          "Examine how the accelerated push for solar energy contributes to India's climate commitments and sustainable development goals."
+        ],
+        "imageDescription": "A vast solar power farm stretching to the horizon under a clear sky, symbolizing renewable energy growth.",
+        "section": "Environment",
+        "trivia": "Bhadla Solar Park in Rajasthan is one of the largest solar parks in the world.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Renewable Energy",
+          "topic": "Solar Energy"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "asean-india-maritime-exercise",
+        "headline": "ASEAN-India Maritime Exercise Enhances Regional Security and Interoperability",
+        "explainer": "• The ASEAN-India Maritime Exercise (AIME) concluded successfully in the Andaman Sea, reinforcing cooperation between India and Southeast Asian nations.\n• The exercise focused on enhancing interoperability in maritime security operations, including anti-piracy, search and rescue, and disaster relief.\n• Participants from various ASEAN member states and the Indian Navy engaged in complex drills and professional exchanges.\n• This collaborative effort underscores India's 'Act East' policy and its commitment to a secure and stable Indo-Pacific maritime domain.\n• Such exercises are crucial for building trust and addressing common security challenges in a strategically vital region.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+          "Various Security forces and agencies and their mandate."
+        ],
+        "date": "2025-03-25",
+        "source": "Indian Navy / The Hindu",
+        "sourceUrl": "https://www.thehindu.com/news/national/indian-navy/",
+        "importance": "medium",
+        "tags": [
+          "ASEAN",
+          "India",
+          "Maritime Exercise",
+          "Regional Security",
+          "Indo-Pacific",
+          "Act East Policy",
+          "Indian Navy"
+        ],
+        "keyTerms": [
+          "ASEAN (Association of Southeast Asian Nations)",
+          "Indo-Pacific",
+          "Act East Policy",
+          "Maritime Security",
+          "Interoperability",
+          "Search and Rescue (SAR)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ASEAN is a regional intergovernmental organization of ten Southeast Asian countries.",
+          "India became a Sectoral Dialogue Partner of ASEAN in 1992 and a Full Dialogue Partner in 1995.",
+          "AIME is a biennial exercise aimed at strengthening maritime cooperation.",
+          "Andaman Sea is a critical maritime corridor in the Indo-Pacific.",
+          "India's Act East Policy focuses on extensive engagement with Southeast Asian countries."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the ASEAN-India Maritime Exercise (AIME) in bolstering regional security and stability in the Indo-Pacific.",
+          "Analyze how India's 'Act East' policy contributes to its strategic engagement with Southeast Asian nations and addresses common maritime challenges.",
+          "Evaluate the importance of multilateral naval exercises in enhancing interoperability, trust, and collective response capabilities among participating nations.",
+          "Examine the evolving geopolitical dynamics in the Indo-Pacific and India's role in promoting a free, open, and rules-based maritime order."
+        ],
+        "imageDescription": "Naval ships from India and ASEAN nations sailing in formation during a maritime exercise.",
+        "section": "International",
+        "trivia": "The Indian Navy has a dedicated Andaman and Nicobar Command, which plays a crucial role in India's maritime security in the eastern Indian Ocean.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "External Security",
+          "topic": "Maritime Security"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "animal-welfare-board-report",
+        "headline": "Animal Welfare Board Submits Report on Regulations for Pet Breeding and Sale",
+        "explainer": "• The Animal Welfare Board of India (AWBI) has submitted a comprehensive report to the government, proposing stringent regulations for pet breeding and sale.\n• The recommendations aim to curb illegal breeding practices, ensure humane treatment of animals, and prevent the spread of diseases.\n• Proposed measures include mandatory licensing for breeders, regular inspections of facilities, and a robust tracking system for pets.\n• The report also advocates for public awareness campaigns on responsible pet ownership and adoption over purchase.\n• This initiative is a response to growing concerns over animal cruelty and the need for a standardized framework to protect companion animals.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Environment, Forest and Climate Change / The Hindu",
+        "sourceUrl": "https://www.thehindu.com/sci-tech/energy-and-environment/",
+        "importance": "low",
+        "tags": [
+          "Animal Welfare",
+          "Pet Breeding",
+          "Animal Rights",
+          "Government Regulations",
+          "Environmental Protection",
+          "AWBI"
+        ],
+        "keyTerms": [
+          "Animal Welfare Board of India (AWBI)",
+          "Prevention of Cruelty to Animals Act, 1960",
+          "Responsible Pet Ownership",
+          "Illegal Breeding",
+          "Zoonotic Diseases"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "AWBI is a statutory advisory body established under the Prevention of Cruelty to Animals Act, 1960.",
+          "Works under the Ministry of Environment, Forest and Climate Change.",
+          "Its functions include advising the government on animal welfare laws and promoting humane treatment of animals.",
+          "Illegal pet trade contributes to animal cruelty and spread of diseases.",
+          "Many states already have some regulations, but a uniform national framework is needed."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ethical and public health concerns associated with unregulated pet breeding and sale in India.",
+          "Analyze the key recommendations of the Animal Welfare Board of India (AWBI) for regulating pet breeding and sale and their potential impact.",
+          "Evaluate the role of government regulations and public awareness campaigns in promoting responsible pet ownership and preventing animal cruelty.",
+          "Examine the legal framework for animal welfare in India and suggest further reforms needed to strengthen animal protection laws."
+        ],
+        "imageDescription": "A happy family adopting a pet from an animal shelter, symbolizing responsible pet ownership.",
+        "section": "Environment",
+        "trivia": "The Prevention of Cruelty to Animals Act, 1960, was enacted to prevent the infliction of unnecessary pain or suffering on animals.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Biodiversity",
+          "topic": "Animal Welfare"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "e-waste-management-policy",
+        "headline": "India Revises E-Waste Management Policy to Boost Circular Economy",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change has introduced revised guidelines for E-Waste Management, aiming to enhance collection and recycling.\n• The new policy emphasizes an Extended Producer Responsibility (EPR) framework, making manufacturers and producers more accountable for end-of-life products.\n• Incentives for formalizing the informal e-waste recycling sector and promoting resource recovery are key components.\n• The goal is to reduce environmental pollution from e-waste and promote a circular economy model for electronic goods.\n• Public awareness campaigns are also planned to encourage responsible disposal of electronic waste.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Science and Technology-developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-03-25",
+        "source": "Ministry of Environment, Forest and Climate Change / The Economic Times",
+        "sourceUrl": "https://economictimes.indiatimes.com/industry/e-waste",
+        "importance": "medium",
+        "tags": [
+          "E-Waste Management",
+          "Circular Economy",
+          "Extended Producer Responsibility",
+          "Environmental Pollution",
+          "Recycling",
+          "Sustainable Development"
+        ],
+        "keyTerms": [
+          "E-Waste Management Rules",
+          "Extended Producer Responsibility (EPR)",
+          "Circular Economy",
+          "Resource Recovery",
+          "Hazardous Waste"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India is among the top five e-waste generating countries globally.",
+          "E-waste contains hazardous substances like lead, mercury, cadmium.",
+          "E-Waste (Management) Rules, 2016, and subsequent amendments govern e-waste in India.",
+          "EPR makes producers responsible for managing the end-of-life of their products.",
+          "Circular economy aims to keep resources in use for as long as possible, extract maximum value, then recover and regenerate products and materials at the end of service life."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the environmental and health hazards posed by inadequate e-waste management in India.",
+          "Analyze the concept of Extended Producer Responsibility (EPR) and its role in promoting a circular economy for electronic goods.",
+          "Evaluate the effectiveness of India's revised E-Waste Management Policy in tackling the growing problem of electronic waste.",
+          "Suggest measures to formalize the informal e-waste recycling sector and ensure safe and sustainable practices."
+        ],
+        "imageDescription": "A pile of discarded electronic devices being sorted for recycling, symbolizing e-waste management.",
+        "section": "Environment",
+        "trivia": "Only about 10-20% of e-waste is formally recycled worldwide.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Pollution",
+          "topic": "Waste Management"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Ministry of Science & Technology / The Hindu",
+    "Ministry of External Affairs / PTI",
+    "Ministry of Law and Justice / The Indian Express",
+    "Ministry of Agriculture & Farmers Welfare / Down To Earth",
+    "Ministry of Finance / Livemint",
+    "Delhi Government / Hindustan Times",
+    "Ministry of Commerce & Industry / Business Standard",
+    "Ministry of External Affairs / The Economic Times",
+    "Ministry of Housing and Urban Affairs / The Hindu",
+    "Ministry of Earth Sciences / ISRO",
+    "Parliamentary Committee Report / PRS Legislative Research",
+    "Ministry of Electronics and Information Technology / The Times of India",
+    "Ministry of Water Resources / Dawn (Pakistan)",
+    "Ministry of Education / PIB",
+    "Archaeological Survey of India / The Times of India",
+    "Ministry of New and Renewable Energy / The Economic Times",
+    "National Medical Commission / The Hindu",
+    "Indian Navy / The Hindu",
+    "Archaeological Survey of India / The Hindu",
+    "Ministry of Environment, Forest and Climate Change / The Hindu",
+    "Ministry of Environment, Forest and Climate Change / The Economic Times"
+  ],
+  "totalScraped": 21,
+  "totalProcessed": 21
+}

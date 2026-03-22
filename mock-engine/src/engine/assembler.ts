@@ -349,11 +349,13 @@ function printReport(mocks: AssembledMock[], warnings: string[], stats: {
 async function main() {
   const args = process.argv.slice(2);
   const subjectArg = args[0];
+  const numMocksArg = parseInt(args[1]) || 5;
 
   if (!subjectArg) {
     console.log('\n🏗️ Mock Test Assembler');
     console.log('═'.repeat(50));
-    console.log('\nUsage: npm run assemble -- <subject>');
+    console.log('\nUsage: npm run assemble -- <subject> [numMocks]');
+    console.log('  numMocks: number of mock papers to assemble (default: 5)');
     console.log('\nAvailable subjects:');
     for (const s of SUBJECTS) {
       console.log(`  ${s.id.padEnd(20)} ${s.label}`);
@@ -367,7 +369,7 @@ async function main() {
     process.exit(1);
   }
 
-  console.log(`\n🏗️ Assembling ${subjectDef.label} Mock Tests`);
+  console.log(`\n🏗️ Assembling ${subjectDef.label} Mock Tests (${numMocksArg} mocks)`);
   console.log('═'.repeat(50));
 
   // Step 1: Load
@@ -400,8 +402,8 @@ async function main() {
   }
 
   // Step 4: Assemble
-  console.log('\n🏗️ Assembling 5 mock papers...');
-  const { mocks, warnings } = assembleMocks(pool, subjectDef, 5);
+  console.log(`\n🏗️ Assembling ${numMocksArg} mock papers...`);
+  const { mocks, warnings } = assembleMocks(pool, subjectDef, numMocksArg);
 
   // Step 5: Save
   const outputDir = path.resolve(__dirname, '../../data/mocks');

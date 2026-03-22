@@ -6,7 +6,7 @@
   <title>UPSC Prelims Mock Test — Current IAS Prep</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    :root {
+    :root, [data-theme="dark"] {
       --bg-primary: #0a0e1a;
       --bg-secondary: #111827;
       --bg-card: #1a2236;
@@ -31,6 +31,42 @@
       --shadow: 0 8px 32px rgba(0,0,0,0.3);
     }
 
+    [data-theme="light"] {
+      --bg-primary: #f0f2f5;
+      --bg-secondary: #ffffff;
+      --bg-card: #ffffff;
+      --bg-hover: #f1f5f9;
+      --text-primary: #1e293b;
+      --text-secondary: #475569;
+      --text-muted: #94a3b8;
+      --accent: #4f46e5;
+      --accent-hover: #6366f1;
+      --accent-glow: rgba(79, 70, 229, 0.2);
+      --green: #16a34a;
+      --green-bg: rgba(22, 163, 74, 0.1);
+      --red: #dc2626;
+      --red-bg: rgba(220, 38, 38, 0.1);
+      --orange: #d97706;
+      --orange-bg: rgba(217, 119, 6, 0.1);
+      --blue: #2563eb;
+      --blue-bg: rgba(37, 99, 235, 0.1);
+      --purple: #9333ea;
+      --border: #e2e8f0;
+      --radius: 12px;
+      --shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+
+    [data-theme="light"] .landing-card h1 {
+      background: linear-gradient(135deg, #1e293b, #4f46e5);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    [data-theme="light"] .mock-selector select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23475569' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    }
+
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
     body {
@@ -41,26 +77,244 @@
       overflow-x: hidden;
     }
 
-    /* ===== LANDING PAGE ===== */
+    /* ===== DASHBOARD LANDING PAGE ===== */
     #landing {
-      display: flex;
-      align-items: center;
-      justify-content: center;
       min-height: 100vh;
       padding: 2rem;
       background: radial-gradient(ellipse at 50% 0%, rgba(99,102,241,0.12) 0%, transparent 60%);
     }
 
-    .landing-card {
+    .dashboard {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 3rem 0 2rem;
+    }
+
+    .hero-title {
+      font-size: 2.4rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #fff, #818cf8);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 1.2rem;
+    }
+    [data-theme="light"] .hero-title {
+      background: linear-gradient(135deg, #1e293b, #4f46e5);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-stats {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+
+    .hero-num {
+      display: block;
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--accent-hover);
+    }
+
+    .hero-divider {
+      width: 1px;
+      height: 40px;
+      background: var(--border);
+    }
+
+    /* Subject Grid */
+    .subject-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 1.5rem;
+    }
+
+    .subject-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.25rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .subject-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+      background: attr(data-color);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .subject-card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    }
+
+    .subject-card.expanded {
+      border-color: var(--accent);
+      box-shadow: 0 4px 20px var(--accent-glow);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .card-icon {
+      font-size: 2rem;
+      flex-shrink: 0;
+    }
+
+    .card-info h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 2px;
+    }
+
+    .card-meta {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    .card-mocks {
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .card-select {
+      flex: 1;
+      padding: 8px 12px;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-size: 0.85rem;
+      font-family: inherit;
+      cursor: pointer;
+    }
+
+    .card-btn {
+      padding: 8px 18px;
+      background: var(--btn-clr, var(--accent));
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .card-btn:hover { opacity: 0.85; transform: scale(1.05); }
+
+    /* Coming Soon Cards */
+    .coming-soon-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-bottom: 1.5rem;
+    }
+
+    .coming-soon-card {
+      background: var(--bg-card);
+      border: 1px dashed var(--border);
+      border-radius: 16px;
+      padding: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      opacity: 0.6;
+    }
+
+    .coming-soon-card h3 {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 2px;
+    }
+    .coming-soon-card p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin: 0;
+    }
+
+    /* Exam Info Bar */
+    .exam-info-bar {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      padding: 1rem 0;
+    }
+
+    .info-chip {
       background: var(--bg-card);
       border: 1px solid var(--border);
       border-radius: 20px;
-      padding: 3rem;
-      max-width: 620px;
-      width: 100%;
-      text-align: center;
-      box-shadow: var(--shadow);
+      padding: 8px 18px;
+      font-size: 0.85rem;
+      color: var(--text-secondary);
     }
+
+    @media (max-width: 900px) {
+      .subject-grid { grid-template-columns: repeat(2, 1fr); }
+      .coming-soon-grid { grid-template-columns: 1fr; }
+      .hero-title { font-size: 1.8rem; }
+    }
+    @media (max-width: 540px) {
+      .subject-grid { grid-template-columns: 1fr; }
+      .hero-stats { flex-direction: column; gap: 0.5rem; }
+      .hero-divider { width: 40px; height: 1px; }
+    }
+
+    /* Custom Mock Modal */
+    .custom-modal { position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 1000; display: flex; align-items: center; justify-content: center; }
+    .custom-modal.hidden { display: none; }
+    .custom-modal-backdrop { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.6); backdrop-filter: blur(4px); }
+    .custom-modal-content {
+      position: relative; z-index: 1;
+      background: var(--bg-card); border: 1px solid var(--border); border-radius: 20px;
+      padding: 2rem; max-width: 580px; width: 90%; max-height: 85vh; overflow-y: auto;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+      color: var(--text-primary);
+    }
+    .custom-section { margin-bottom: 1.2rem; }
+    .custom-label { display: block; font-size: 0.85rem; font-weight: 700; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .custom-checkboxes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .custom-check, .custom-radio {
+      display: flex; align-items: center; gap: 6px;
+      padding: 8px 12px; background: var(--bg-secondary); border: 1px solid var(--border);
+      border-radius: 8px; font-size: 0.85rem; cursor: pointer; transition: all 0.2s;
+    }
+    .custom-check:has(input:checked), .custom-radio:has(input:checked) {
+      border-color: var(--accent); background: var(--accent-glow);
+    }
+    .custom-radio-group { display: flex; gap: 8px; flex-wrap: wrap; }
+    input[type="range"] { accent-color: var(--accent); }
+
 
     .landing-card .badge {
       display: inline-block;
@@ -79,8 +333,51 @@
       font-weight: 800;
       background: linear-gradient(135deg, #fff, #818cf8);
       -webkit-background-clip: text;
+      background-clip: text;
       -webkit-text-fill-color: transparent;
       margin-bottom: 0.75rem;
+    }
+
+    .theme-toggle {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-primary);
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      transition: all 0.3s;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+    .theme-toggle:hover { transform: scale(1.1); }
+
+    .btn-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 28px;
+      background: var(--bg-card);
+      color: var(--accent-hover);
+      border: 2px solid var(--accent);
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-top: 1.5rem;
+    }
+    .btn-back:hover {
+      background: var(--accent);
+      color: white;
+      transform: translateY(-1px);
     }
 
     .landing-card .subtitle {
@@ -479,7 +776,7 @@
       height: 140px;
       border-radius: 50%;
       margin: 1.5rem 0;
-      font-size: 2.5rem;
+      font-size: 1.7rem;
       font-weight: 800;
     }
 
@@ -668,75 +965,321 @@
     }
   </style>
 </head>
-<body>
+<body data-theme="dark">
 
-  <!-- ===== LANDING PAGE ===== -->
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" title="Toggle Dark/Light Mode">🌙</button>
+
+  <!-- ===== LANDING PAGE (DASHBOARD) ===== -->
   <div id="landing">
-    <div class="landing-card">
-      <div class="badge">🏛️ CURRENT IAS PREP</div>
-      <h1 id="mockTitle">Select a Mock Test</h1>
-      <p class="subtitle">UPSC Prelims 2026 — Subject-Wise Test Series</p>
-
-      <div class="mock-selector">
-        <label>Choose Mock Test</label>
-        <select id="mockSelect" onchange="onMockSelect()">
-          <optgroup label="📚 History (5 Mocks)">
-            <option value="history-mock-1">History Mock Test 1</option>
-            <option value="history-mock-2">History Mock Test 2</option>
-            <option value="history-mock-3">History Mock Test 3</option>
-            <option value="history-mock-4">History Mock Test 4</option>
-            <option value="history-mock-5">History Mock Test 5</option>
-          </optgroup>
-          <optgroup label="🎨 Art &amp; Culture (5 Mocks)">
-            <option value="art_culture-mock-1">Art &amp; Culture Mock Test 1</option>
-            <option value="art_culture-mock-2">Art &amp; Culture Mock Test 2</option>
-            <option value="art_culture-mock-3">Art &amp; Culture Mock Test 3</option>
-            <option value="art_culture-mock-4">Art &amp; Culture Mock Test 4</option>
-            <option value="art_culture-mock-5">Art &amp; Culture Mock Test 5</option>
-          </optgroup>
-          <optgroup label="🌍 Geography (5 Mocks)">
-            <option value="geography-mock-1">Geography Mock Test 1</option>
-            <option value="geography-mock-2">Geography Mock Test 2</option>
-            <option value="geography-mock-3">Geography Mock Test 3</option>
-            <option value="geography-mock-4">Geography Mock Test 4</option>
-            <option value="geography-mock-5">Geography Mock Test 5</option>
-          </optgroup>
-        </select>
-      </div>
-
-      <div class="info-grid">
-        <div class="info-item">
-          <div class="label">Questions</div>
-          <div class="value" id="info-total">100</div>
-        </div>
-        <div class="info-item">
-          <div class="label">Duration</div>
-          <div class="value">2 Hours</div>
-        </div>
-        <div class="info-item">
-          <div class="label">Correct Answer</div>
-          <div class="value" style="color:var(--green)">+2.00</div>
-        </div>
-        <div class="info-item">
-          <div class="label">Wrong Answer</div>
-          <div class="value" style="color:var(--red)">−0.66</div>
+    <div class="dashboard">
+      <!-- Hero -->
+      <div class="hero">
+        <div class="badge" style="margin-bottom:1rem">🏛️ CURRENT IAS PREP</div>
+        <h1 class="hero-title">UPSC CSE Prelims Mock Tests</h1>
+        <div class="hero-stats">
+          <div class="hero-stat"><span class="hero-num">51</span>Mock Tests</div>
+          <div class="hero-divider"></div>
+          <div class="hero-stat"><span class="hero-num">5,100+</span>Questions</div>
+          <div class="hero-divider"></div>
+          <div class="hero-stat"><span class="hero-num">9</span>Subjects</div>
         </div>
       </div>
 
-      <div class="rules-box">
-        <h3>⚠️ Exam Instructions</h3>
-        <ul>
-          <li>All questions are compulsory. Choose the best answer.</li>
-          <li>There is 1/3rd negative marking for wrong answers.</li>
-          <li>No marks are deducted for unanswered questions.</li>
-          <li>You can mark questions for review and revisit them.</li>
-          <li>The test will auto-submit when time expires.</li>
-        </ul>
+      <!-- Subject Cards Grid -->
+      <div class="subject-grid">
+        <div class="subject-card" data-color="#6366f1" onclick="toggleCard(this)">
+          <div class="card-header">
+            <span class="card-icon">📜</span>
+            <div class="card-info"><h3>History</h3><span class="card-meta">5 Mocks · 500 Qs</span></div>
+          </div>
+          <div class="card-mocks hidden">
+            <select class="card-select" id="sel-history">
+              <option value="history-mock-1">History Mock Test 1</option>
+              <option value="history-mock-2">History Mock Test 2</option>
+              <option value="history-mock-3">History Mock Test 3</option>
+              <option value="history-mock-4">History Mock Test 4</option>
+              <option value="history-mock-5">History Mock Test 5</option>
+            </select>
+            <button class="card-btn" onclick="startFromCard('sel-history', event)" style="--btn-clr:#6366f1">▶ Start</button>
+          </div>
+        </div>
+
+        <div class="subject-card" data-color="#ec4899" onclick="toggleCard(this)">
+          <div class="card-header">
+            <span class="card-icon">🎨</span>
+            <div class="card-info"><h3>Art & Culture</h3><span class="card-meta">5 Mocks · 500 Qs</span></div>
+          </div>
+          <div class="card-mocks hidden">
+            <select class="card-select" id="sel-art">
+              <option value="art_culture-mock-1">Art & Culture Mock Test 1</option>
+              <option value="art_culture-mock-2">Art & Culture Mock Test 2</option>
+              <option value="art_culture-mock-3">Art & Culture Mock Test 3</option>
+              <option value="art_culture-mock-4">Art & Culture Mock Test 4</option>
+              <option value="art_culture-mock-5">Art & Culture Mock Test 5</option>
+            </select>
+            <button class="card-btn" onclick="startFromCard('sel-art', event)" style="--btn-clr:#ec4899">▶ Start</button>
+          </div>
+        </div>
+
+        <div class="subject-card" data-color="#14b8a6" onclick="toggleCard(this)">
+          <div class="card-header">
+            <span class="card-icon">🌍</span>
+            <div class="card-info"><h3>Geography</h3><span class="card-meta">5 Mocks · 500 Qs</span></div>
+          </div>
+          <div class="card-mocks hidden">
+            <select class="card-select" id="sel-geo">
+              <option value="geography-mock-1">Geography Mock Test 1</option>
+              <option value="geography-mock-2">Geography Mock Test 2</option>
+              <option value="geography-mock-3">Geography Mock Test 3</option>
+              <option value="geography-mock-4">Geography Mock Test 4</option>
+              <option value="geography-mock-5">Geography Mock Test 5</option>
+            </select>
+            <button class="card-btn" onclick="startFromCard('sel-geo', event)" style="--btn-clr:#14b8a6">▶ Start</button>
+          </div>
+        </div>
+
+        <div class="subject-card" data-color="#f59e0b" onclick="toggleCard(this)">
+          <div class="card-header">
+            <span class="card-icon">⚖️</span>
+            <div class="card-info"><h3>Polity & Governance</h3><span class="card-meta">6 Mocks · 600 Qs</span></div>
+          </div>
+          <div class="card-mocks hidden">
+            <select class="card-select" id="sel-polity">
+              <option value="polity-mock-1">Polity Mock Test 1</option>
+              <option value="polity-mock-2">Polity Mock Test 2</option>
+              <option value="polity-mock-3">Polity Mock Test 3</option>
+              <option value="polity-mock-4">Polity Mock Test 4</option>
+              <option value="polity-mock-5">Polity Mock Test 5</option>
+              <option value="polity-mock-6">Polity Mock Test 6</option>
+            </select>
+            <button class="card-btn" onclick="startFromCard('sel-polity', event)" style="--btn-clr:#f59e0b">▶ Start</button>
+          </div>
+        </div>
+
+        <div class="subject-card" data-color="#22c55e" onclick="toggleCard(this)">
+          <div class="card-header">
+            <span class="card-icon">💰</span>
+            <div class="card-info"><h3>Economics</h3><span class="card-meta">6 Mocks · 600 Qs</span></div>
+          </div>
+          <div class="card-mocks hidden">
+            <select class="card-select" id="sel-eco">
+              <option value="economics-mock-1">Economics Mock Test 1</option>
+              <option value="economics-mock-2">Economics Mock Test 2</option>
+              <option value="economics-mock-3">Economics Mock Test 3</option>
+              <option value="economics-mock-4">Economics Mock Test 4</option>
+              <option value="economics-mock-5">Economics Mock Test 5</option>
+              <option value="economics-mock-6">Economics Mock Test 6</option>
+            </select>
+            <button class="card-btn" onclick="startFromCard('sel-eco', event)" style="--btn-clr:#22c55e">▶ Start</button>
+          </div>
+        </div>
+
+        <div class="subject-card" data-color="#10b981" onclick="toggleCard(this)">
+          <div class="card-header">
+            <span class="card-icon">🌿</span>
+            <div class="card-info"><h3>Environment & Ecology</h3><span class="card-meta">6 Mocks · 600 Qs</span></div>
+          </div>
+          <div class="card-mocks hidden">
+            <select class="card-select" id="sel-env">
+              <option value="environment-mock-1">Environment Mock Test 1</option>
+              <option value="environment-mock-2">Environment Mock Test 2</option>
+              <option value="environment-mock-3">Environment Mock Test 3</option>
+              <option value="environment-mock-4">Environment Mock Test 4</option>
+              <option value="environment-mock-5">Environment Mock Test 5</option>
+              <option value="environment-mock-6">Environment Mock Test 6</option>
+            </select>
+            <button class="card-btn" onclick="startFromCard('sel-env', event)" style="--btn-clr:#10b981">▶ Start</button>
+          </div>
+        </div>
+
+        <div class="subject-card" data-color="#3b82f6" onclick="toggleCard(this)">
+          <div class="card-header">
+            <span class="card-icon">🔬</span>
+            <div class="card-info"><h3>Science & Technology</h3><span class="card-meta">6 Mocks · 600 Qs</span></div>
+          </div>
+          <div class="card-mocks hidden">
+            <select class="card-select" id="sel-sci">
+              <option value="science-mock-1">S&T Mock Test 1</option>
+              <option value="science-mock-2">S&T Mock Test 2</option>
+              <option value="science-mock-3">S&T Mock Test 3</option>
+              <option value="science-mock-4">S&T Mock Test 4</option>
+              <option value="science-mock-5">S&T Mock Test 5</option>
+              <option value="science-mock-6">S&T Mock Test 6</option>
+            </select>
+            <button class="card-btn" onclick="startFromCard('sel-sci', event)" style="--btn-clr:#3b82f6">▶ Start</button>
+          </div>
+        </div>
+
+        <div class="subject-card" data-color="#a855f7" onclick="toggleCard(this)">
+          <div class="card-header">
+            <span class="card-icon">👥</span>
+            <div class="card-info"><h3>Indian Society</h3><span class="card-meta">6 Mocks · 600 Qs</span></div>
+          </div>
+          <div class="card-mocks hidden">
+            <select class="card-select" id="sel-soc">
+              <option value="society-mock-1">Society Mock Test 1</option>
+              <option value="society-mock-2">Society Mock Test 2</option>
+              <option value="society-mock-3">Society Mock Test 3</option>
+              <option value="society-mock-4">Society Mock Test 4</option>
+              <option value="society-mock-5">Society Mock Test 5</option>
+              <option value="society-mock-6">Society Mock Test 6</option>
+            </select>
+            <button class="card-btn" onclick="startFromCard('sel-soc', event)" style="--btn-clr:#a855f7">▶ Start</button>
+          </div>
+        </div>
+
+        <div class="subject-card" data-color="#ef4444" onclick="toggleCard(this)">
+          <div class="card-header">
+            <span class="card-icon">📰</span>
+            <div class="card-info"><h3>Current Affairs</h3><span class="card-meta">6 Mocks · 600 Qs</span></div>
+          </div>
+          <div class="card-mocks hidden">
+            <select class="card-select" id="sel-ca">
+              <option value="current_affairs-mock-1">Current Affairs Mock 1</option>
+              <option value="current_affairs-mock-2">Current Affairs Mock 2</option>
+              <option value="current_affairs-mock-3">Current Affairs Mock 3</option>
+              <option value="current_affairs-mock-4">Current Affairs Mock 4</option>
+              <option value="current_affairs-mock-5">Current Affairs Mock 5</option>
+              <option value="current_affairs-mock-6">Current Affairs Mock 6</option>
+            </select>
+            <button class="card-btn" onclick="startFromCard('sel-ca', event)" style="--btn-clr:#ef4444">▶ Start</button>
+          </div>
+        </div>
       </div>
 
-      <button class="btn-start" onclick="startExam()">
-        🚀 Start Exam
-      </button>
+      <!-- Special Cards -->
+      <div class="coming-soon-grid">
+        <div class="coming-soon-card" style="opacity:1;cursor:pointer;border-style:solid;border-color:var(--accent);transition:all 0.3s" onmouseenter="this.style.transform='translateY(-2px)';this.style.boxShadow='0 8px 24px rgba(99,102,241,0.25)'" onmouseleave="this.style.transform='';this.style.boxShadow=''" onclick="openCustomModal()">
+          <span class="card-icon">🎯</span>
+          <div style="flex:1">
+            <h3>Custom Mock Test</h3>
+            <p>Build your own test — choose subjects, difficulty, and question count</p>
+          </div>
+          <span style="padding:6px 16px;border-radius:20px;font-size:0.75rem;font-weight:700;background:linear-gradient(135deg,#6366f1,#8b5cf6);color:white;letter-spacing:0.05em;white-space:nowrap">✦ BUILD</span>
+        </div>
+        <div class="coming-soon-card">
+          <span class="card-icon">📋</span>
+          <div>
+            <h3>Full-Length UPSC Mock</h3>
+            <p>100 questions across all subjects — simulate the real exam</p>
+          </div>
+          <span class="badge" style="margin:0;font-size:0.7rem">COMING SOON</span>
+        </div>
+      </div>
+
+      <!-- Custom Mock Modal -->
+      <div id="customModal" class="custom-modal hidden">
+        <div class="custom-modal-backdrop" onclick="closeCustomModal()"></div>
+        <div class="custom-modal-content">
+          <h2 style="margin-bottom:0.3rem">🎯 Build Custom Mock Test</h2>
+          <p style="color:var(--text-muted);font-size:0.85rem;margin-bottom:1.5rem">Select subjects and configure your test</p>
+
+          <div class="custom-section">
+            <label class="custom-label">Select Subjects</label>
+            <div class="custom-checkboxes" id="subjectChecks">
+              <label class="custom-check"><input type="checkbox" value="history" checked> 📜 History</label>
+              <label class="custom-check"><input type="checkbox" value="art_culture"> 🎨 Art & Culture</label>
+              <label class="custom-check"><input type="checkbox" value="geography" checked> 🌍 Geography</label>
+              <label class="custom-check"><input type="checkbox" value="polity" checked> ⚖️ Polity</label>
+              <label class="custom-check"><input type="checkbox" value="economics"> 💰 Economics</label>
+              <label class="custom-check"><input type="checkbox" value="environment"> 🌿 Environment</label>
+              <label class="custom-check"><input type="checkbox" value="science"> 🔬 Science</label>
+              <label class="custom-check"><input type="checkbox" value="society"> 👥 Society</label>
+              <label class="custom-check"><input type="checkbox" value="current_affairs"> 📰 Current Affairs</label>
+            </div>
+          </div>
+
+          <div class="custom-section">
+            <label class="custom-label">Difficulty</label>
+            <div class="custom-radio-group">
+              <label class="custom-radio"><input type="radio" name="difficulty" value="all" checked> All levels</label>
+              <label class="custom-radio"><input type="radio" name="difficulty" value="easy"> Easy</label>
+              <label class="custom-radio"><input type="radio" name="difficulty" value="medium"> Medium</label>
+              <label class="custom-radio"><input type="radio" name="difficulty" value="hard"> Hard</label>
+            </div>
+          </div>
+
+          <div class="custom-section">
+            <label class="custom-label">Number of Questions: <strong id="qCountDisplay">50</strong></label>
+            <input type="range" id="qCountSlider" min="10" max="100" step="5" value="50" oninput="updateQCount(this.value)" style="width:100%">
+            <div style="display:flex;justify-content:space-between;font-size:0.75rem;color:var(--text-muted)">
+              <span>10</span><span>50</span><span>100</span>
+            </div>
+          </div>
+
+          <div class="custom-section">
+            <label class="custom-label">Estimated Duration: <strong id="durationDisplay">60</strong> minutes</label>
+            <div style="height:4px;background:var(--bg-secondary);border-radius:4px;overflow:hidden;margin-top:8px">
+              <div id="durationBar" style="height:100%;width:50%;background:linear-gradient(90deg,var(--accent),#8b5cf6);border-radius:4px;transition:width 0.3s"></div>
+            </div>
+            <div style="display:flex;justify-content:space-between;font-size:0.75rem;color:var(--text-muted);margin-top:4px">
+              <span>~1.2 min per question</span><span>UPSC pace</span>
+            </div>
+          </div>
+
+          <div style="display:flex;gap:12px;margin-top:1.5rem">
+            <button class="card-btn" style="flex:1;padding:12px;font-size:1rem;--btn-clr:var(--accent)" onclick="generateCustomMock()">🚀 Generate & Start</button>
+            <button class="card-btn" style="padding:12px 20px;--btn-clr:var(--bg-secondary);color:var(--text-secondary);border:1px solid var(--border)" onclick="closeCustomModal()">Cancel</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Exam Info -->
+      <div class="exam-info-bar">
+        <div class="info-chip"><span style="color:var(--green);font-weight:800">+2.00</span> Correct</div>
+        <div class="info-chip"><span style="color:var(--red);font-weight:800">−0.66</span> Wrong</div>
+        <div class="info-chip">⏱ 2 Hours per test</div>
+        <div class="info-chip">100 questions per mock</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== PRE-EXAM INSTRUCTIONS ===== -->
+  <div id="preExam" style="display:none">
+    <div style="display:flex;align-items:center;justify-content:center;min-height:100vh;padding:2rem;background:radial-gradient(ellipse at 50% 0%, rgba(99,102,241,0.12) 0%, transparent 60%)">
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:20px;padding:3rem;max-width:620px;width:100%;text-align:center;box-shadow:var(--shadow)">
+        <div class="badge">🏛️ CURRENT IAS PREP</div>
+        <h1 id="preExamTitle" style="font-size:1.6rem;font-weight:800;color:var(--text-primary);margin:1rem 0 0.5rem">History Mock Test 1</h1>
+        <p style="color:var(--text-muted);font-size:0.9rem;margin-bottom:1.5rem">Subject-Wise UPSC Prelims Practice</p>
+
+        <div class="info-grid" style="margin-bottom:1.5rem">
+          <div class="info-item">
+            <div class="label">Questions</div>
+            <div class="value" id="pre-info-total">100</div>
+          </div>
+          <div class="info-item">
+            <div class="label">Duration</div>
+            <div class="value" id="pre-info-duration">2 Hours</div>
+          </div>
+          <div class="info-item">
+            <div class="label">Correct Answer</div>
+            <div class="value" style="color:var(--green)">+2.00</div>
+          </div>
+          <div class="info-item">
+            <div class="label">Wrong Answer</div>
+            <div class="value" style="color:var(--red)">−0.66</div>
+          </div>
+        </div>
+
+        <div class="rules-box" style="margin-bottom:2rem">
+          <h3>⚠️ Exam Instructions</h3>
+          <ul>
+            <li>All questions are compulsory. Choose the best answer.</li>
+            <li>There is 1/3rd negative marking for wrong answers.</li>
+            <li>No marks are deducted for unanswered questions.</li>
+            <li>You can mark questions for review and revisit them.</li>
+            <li>The test will auto-submit when time expires.</li>
+            <li>Once started, the timer cannot be paused.</li>
+          </ul>
+        </div>
+
+        <button class="btn-start" onclick="beginExam()" style="margin-bottom:1rem">
+          🚀 Begin Exam
+        </button>
+        <br>
+        <a href="#" onclick="backToDashboard(event)" style="color:var(--text-muted);font-size:0.9rem;text-decoration:underline;cursor:pointer">← Back to Mock Tests</a>
+      </div>
     </div>
   </div>
 
@@ -817,6 +1360,38 @@
       'geo-india': 'Indian Geography',
       'geo-world': 'World Geography',
       'geo-economic': 'Economic Geography',
+      'pol-constitution': 'Constitution',
+      'pol-parliament': 'Parliament, Executive & Judiciary',
+      'pol-federal': 'Federalism & Local Bodies',
+      'pol-statutory': 'Statutory & Constitutional Bodies',
+      'pol-admin': 'Governance & Administration',
+      'pol-evolution': 'Historical Evolution & Salient Features',
+      'eco-macro': 'Macroeconomics',
+      'eco-budget': 'Budget & Public Finance',
+      'eco-sectors': 'Sectors of Economy',
+      'eco-external': 'External Sector & Trade',
+      'eco-banking': 'Banking & Monetary Policy',
+      'eco-schemes': 'Government Schemes & Programmes',
+      'env-biodiversity': 'Biodiversity',
+      'env-climate': 'Climate Change',
+      'env-pollution': 'Pollution & Conservation',
+      'env-sustainable': 'Sustainable Development & Renewable Energy',
+      'env-ecology': 'Ecology Fundamentals',
+      'env-eia': 'EIA & Environmental Governance',
+      'env-species': 'Species & Conservation Projects',
+      'env-sdgs': 'Sustainable Development Goals (SDGs)',
+      'sci-physics': 'Physics & Space',
+      'sci-biology': 'Biology & Health',
+      'sci-it': 'IT & Emerging Tech',
+      'sci-defense': 'Defence Technology',
+      'soc-structure': 'Social Structure & Diversity',
+      'soc-women': 'Women & Vulnerable Sections',
+      'soc-population': 'Population & Urbanization',
+      'soc-issues': 'Social Issues & Movements',
+      'ca-national': 'National Affairs',
+      'ca-international': 'International Relations',
+      'ca-awards': 'Awards, Appointments & Events',
+      'ca-reports': 'Reports & Indices',
     };
 
     // ===== MOCK SELECTOR =====
@@ -832,13 +1407,181 @@
         const res = await fetch(`/data/mocks/${mockId}.json`);
         mockData = await res.json();
         document.getElementById('info-total').textContent = mockData.total_questions;
-        document.getElementById('mockTitle').textContent = mockData.title;
         document.querySelector('.exam-header .title').innerHTML =
           `🏛️ <span>${mockData.title}</span>`;
       } catch (e) {
         console.error('Failed to load mock data:', e);
         alert('Could not load mock test data. Ensure the server is running.');
       }
+    }
+
+    // ===== THEME TOGGLE =====
+    function toggleTheme() {
+      const body = document.body;
+      const btn = document.getElementById('themeToggle');
+      if (body.getAttribute('data-theme') === 'dark') {
+        body.setAttribute('data-theme', 'light');
+        btn.textContent = '☀️';
+        localStorage.setItem('mockTheme', 'light');
+      } else {
+        body.setAttribute('data-theme', 'dark');
+        btn.textContent = '🌙';
+        localStorage.setItem('mockTheme', 'dark');
+      }
+    }
+
+    // Restore saved theme
+    (function() {
+      const saved = localStorage.getItem('mockTheme');
+      if (saved === 'light') {
+        document.body.setAttribute('data-theme', 'light');
+        document.getElementById('themeToggle').textContent = '☀️';
+      }
+    })();
+
+    // ===== CUSTOM MOCK =====
+    function openCustomModal() {
+      document.getElementById('customModal').classList.remove('hidden');
+    }
+    function closeCustomModal() {
+      document.getElementById('customModal').classList.add('hidden');
+    }
+
+    function updateQCount(val) {
+      document.getElementById('qCountDisplay').textContent = val;
+      const duration = Math.round(val * 1.2);
+      document.getElementById('durationDisplay').textContent = duration;
+      document.getElementById('durationBar').style.width = val + '%';
+    }
+
+    const MOCK_COUNTS = {
+      history: 5, art_culture: 5, geography: 5, polity: 6, economics: 6,
+      environment: 6, science: 6, society: 6, current_affairs: 6
+    };
+
+    async function generateCustomMock() {
+      const checks = document.querySelectorAll('#subjectChecks input:checked');
+      const subjects = Array.from(checks).map(c => c.value);
+      if (subjects.length === 0) { alert('Please select at least one subject.'); return; }
+
+      const difficulty = document.querySelector('input[name="difficulty"]:checked').value;
+      const qCount = parseInt(document.getElementById('qCountSlider').value);
+      const duration = Math.round(qCount * 1.2);
+
+      const btn = event.target;
+      const origText = btn.textContent;
+      btn.textContent = '⏳ Loading...';
+      btn.disabled = true;
+
+      try {
+        let allQuestions = [];
+        for (const subj of subjects) {
+          const mockCount = MOCK_COUNTS[subj] || 5;
+          const mockNum = Math.floor(Math.random() * mockCount) + 1;
+          try {
+            const res = await fetch(`/data/mocks/${subj}-mock-${mockNum}.json`);
+            const data = await res.json();
+            allQuestions.push(...data.questions.map(q => ({ ...q, _subject: subj })));
+          } catch (e) { console.warn('Skip', subj); }
+        }
+        if (difficulty !== 'all') {
+          const filtered = allQuestions.filter(q => q.difficulty === difficulty);
+          if (filtered.length >= qCount) allQuestions = filtered;
+        }
+        for (let i = allQuestions.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [allQuestions[i], allQuestions[j]] = [allQuestions[j], allQuestions[i]];
+        }
+        const selected = allQuestions.slice(0, qCount);
+        if (selected.length === 0) { alert('No questions found.'); return; }
+
+        const subjectNames = subjects.map(s => s.replace(/_/g,' ').replace(/\b\w/g, l => l.toUpperCase()));
+        mockData = {
+          id: 'custom-mock',
+          title: 'Custom Mock — ' + subjectNames.join(', '),
+          total_questions: selected.length,
+          time_minutes: duration,
+          marks_correct: 2,
+          marks_wrong: -0.66,
+          questions: selected,
+        };
+        closeCustomModal();
+        document.getElementById('landing').style.display = 'none';
+        document.getElementById('preExam').style.display = 'block';
+        document.getElementById('preExamTitle').textContent = mockData.title;
+        document.getElementById('pre-info-total').textContent = mockData.total_questions;
+        document.getElementById('pre-info-duration').textContent = duration >= 60 ? (duration/60) + ' Hour' + (duration > 60 ? 's' : '') : duration + ' min';
+        window.scrollTo(0, 0);
+      } catch (e) {
+        alert('Error: ' + e.message);
+      } finally {
+        btn.textContent = origText;
+        btn.disabled = false;
+      }
+    }
+
+    // ===== BACK TO HOME =====
+    function backToHome() {
+      document.getElementById('results').style.display = 'none';
+      document.getElementById('results').innerHTML = '';
+      document.getElementById('exam').style.display = 'none';
+      document.getElementById('landing').style.display = 'block';
+      // Reset state
+      answers = {};
+      markedForReview = new Set();
+      currentQ = 0;
+      window.scrollTo(0, 0);
+    }
+
+    // ===== CARD TOGGLE =====
+    function toggleCard(card) {
+      const mocks = card.querySelector('.card-mocks');
+      const isExpanded = card.classList.contains('expanded');
+      
+      // Collapse all
+      document.querySelectorAll('.subject-card').forEach(c => {
+        c.classList.remove('expanded');
+        const m = c.querySelector('.card-mocks');
+        if (m) m.classList.add('hidden');
+      });
+
+      // Toggle clicked
+      if (!isExpanded) {
+        card.classList.add('expanded');
+        if (mocks) mocks.classList.remove('hidden');
+      }
+    }
+
+    // ===== START FROM CARD =====
+    async function startFromCard(selectId, event) {
+      event.stopPropagation();
+      const sel = document.getElementById(selectId);
+      const mockId = sel.value;
+      selectedMockId = mockId;
+      await loadMock(mockId);
+      // Show pre-exam instructions
+      document.getElementById('landing').style.display = 'none';
+      document.getElementById('preExam').style.display = 'block';
+      document.getElementById('preExamTitle').textContent = mockData.title;
+      document.getElementById('pre-info-total').textContent = mockData.total_questions;
+      const mins = mockData.time_minutes || 120;
+      document.getElementById('pre-info-duration').textContent = mins >= 60 ? (mins/60) + ' Hour' + (mins > 60 ? 's' : '') : mins + ' min';
+      window.scrollTo(0, 0);
+    }
+
+    // ===== BEGIN EXAM (from instructions page) =====
+    function beginExam() {
+      if (!mockData) { alert('Still loading...'); return; }
+      document.getElementById('preExam').style.display = 'none';
+      startExam();
+    }
+
+    // ===== BACK TO DASHBOARD =====
+    function backToDashboard(event) {
+      if (event) event.preventDefault();
+      document.getElementById('preExam').style.display = 'none';
+      document.getElementById('landing').style.display = 'block';
+      window.scrollTo(0, 0);
     }
 
     loadMock('history-mock-1');
@@ -849,6 +1592,7 @@
       document.getElementById('landing').style.display = 'none';
       document.getElementById('exam').style.display = 'block';
       examStarted = true;
+      remainingSeconds = (mockData.time_minutes || 120) * 60;
       renderNavGrid();
       renderQuestion(0);
       startTimer();
@@ -1109,6 +1853,7 @@
             <p style="color:var(--text-secondary);margin-top:8px">
               Score: ${rawScore.toFixed(2)} / ${maxScore} marks
             </p>
+            <button class="btn-back" onclick="backToHome()">← Back to Mock Tests</button>
           </div>
 
           <div class="results-grid">

@@ -1,0 +1,2734 @@
+{
+  "date": "2024-09-29",
+  "dateFormatted": "Sunday 29 September, 2024",
+  "lastUpdated": "2026-03-21T21:53:21.593Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "green-hydrogen-mission-policy-boost",
+      "headline": "India Unveils New Policy Framework to Accelerate Green Hydrogen Mission",
+      "explainer": "• The Ministry of New and Renewable Energy (MNRE) announced a comprehensive policy framework offering production-linked incentives (PLI) and viability gap funding (VGF) for green hydrogen and electrolyser manufacturing.\n• The policy aims to reduce the cost of green hydrogen production, making it competitive with fossil-fuel-based hydrogen, and promote India as a global hub for green hydrogen.\n• Key components include tax breaks for early adopters, dedicated green hydrogen corridors, and R&D support for advanced electrolyser technologies.\n• The move is crucial for India's energy security, decarbonization goals, and achieving Net Zero emissions by 2070.\n• Industry experts laud the policy for providing long-term visibility and investor confidence in the nascent green hydrogen sector.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy",
+        "Environmental pollution and degradation",
+        "Conservation",
+        "New and renewable energy"
+      ],
+      "date": "2024-09-29",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=XXXX",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "Energy Transition",
+        "Renewable Energy",
+        "Climate Change",
+        "Make in India",
+        "PLI Scheme"
+      ],
+      "keyTerms": [
+        "National Green Hydrogen Mission",
+        "Electrolyser Manufacturing",
+        "Viability Gap Funding (VGF)",
+        "Production Linked Incentive (PLI)",
+        "Net Zero Emissions"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Green Hydrogen Mission launched in 2023.",
+        "MNRE is the nodal ministry.",
+        "Target: 5 MMT (Million Metric Tonnes) green hydrogen production capacity by 2030.",
+        "PLI and VGF are financial incentives.",
+        "Aim to reduce green hydrogen cost to $1/kg."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss India's strategy for energy security and decarbonization through green hydrogen.",
+        "Analyze the economic implications of the new policy for domestic manufacturing and exports.",
+        "Evaluate the challenges in scaling up green hydrogen production and adoption in India.",
+        "Examine the role of policy support in fostering new-age industries and achieving climate targets."
+      ],
+      "imageDescription": "Illustration of a green hydrogen plant with electrolysers and renewable energy sources.",
+      "section": "Lead Opinion",
+      "trivia": "Hydrogen is the most abundant chemical substance in the universe, making up roughly 75% of all normal matter.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Energy",
+        "topic": "Renewable Energy Schemes"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "sc-ruling-right-to-privacy-data",
+      "headline": "Supreme Court Reinforces 'Right to be Forgotten' in Digital Age, Calls for Comprehensive Data Protection Law",
+      "explainer": "• The Supreme Court delivered a landmark judgment emphasizing the 'Right to be Forgotten' as an intrinsic part of the Right to Privacy under Article 21 of the Constitution.\n• The ruling came in a case involving the removal of outdated personal information from public digital platforms that was causing reputational harm to an individual.\n• The Court urged the government to expedite the enactment of a robust, comprehensive data protection law that addresses emerging challenges of the digital era, including data localization and cross-border data flows.\n• It highlighted the need for a balance between an individual's right to privacy and the public's right to information, especially concerning public figures.\n• This judgment is expected to have significant implications for internet intermediaries, search engines, and social media platforms operating in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+        "Mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+      ],
+      "date": "2024-09-29",
+      "source": "The Hindu",
+      "sourceUrl": "https://www.thehindu.com/news/national/XXXX",
+      "importance": "high",
+      "tags": [
+        "Right to Privacy",
+        "Right to be Forgotten",
+        "Data Protection",
+        "Supreme Court",
+        "Article 21",
+        "Digital Rights"
+      ],
+      "keyTerms": [
+        "Right to Privacy",
+        "Right to be Forgotten",
+        "Personal Data Protection Bill",
+        "Digital India",
+        "Article 21"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Puttaswamy judgment (2017) declared Right to Privacy a fundamental right.",
+        "Justice B.N. Srikrishna Committee report on data protection.",
+        "Article 21 of the Indian Constitution guarantees protection of life and personal liberty.",
+        "The Personal Data Protection Bill, 2019 (now Digital Personal Data Protection Act, 2023) is relevant."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolution of the Right to Privacy in India and its implications for digital governance.",
+        "Analyze the challenges in implementing the 'Right to be Forgotten' in a technologically advanced and interconnected world.",
+        "Examine the need for a balanced data protection framework that safeguards individual rights while promoting digital innovation.",
+        "Critically evaluate the role of the judiciary in interpreting fundamental rights in the context of emerging technologies."
+      ],
+      "imageDescription": "Gavel on a legal document with a blurred digital background symbolizing data.",
+      "section": "National",
+      "trivia": "The concept of 'Right to be Forgotten' originated in Europe, with a landmark ruling by the European Court of Justice in 2014.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-asean-maritime-security-dialogue",
+      "headline": "India-ASEAN Dialogue Focuses on Enhanced Maritime Security and Regional Stability",
+      "explainer": "• India hosted the annual India-ASEAN Maritime Security Dialogue, emphasizing cooperation on traditional and non-traditional security threats in the Indo-Pacific region.\n• Discussions focused on joint naval exercises, information sharing, capacity building for coastal surveillance, and combating piracy and illegal fishing.\n• Both sides reiterated commitment to a free, open, and inclusive Indo-Pacific, upholding international law, particularly UNCLOS.\n• The dialogue also touched upon humanitarian assistance and disaster relief (HADR) operations and enhancing interoperability among maritime agencies.\n• This engagement underscores India's 'Act East' policy and its growing strategic convergence with ASEAN nations.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2024-09-29",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "https://mea.gov.in/press-releases.htm",
+      "importance": "high",
+      "tags": [
+        "India-ASEAN",
+        "Maritime Security",
+        "Indo-Pacific",
+        "Act East Policy",
+        "UNCLOS",
+        "Regional Cooperation"
+      ],
+      "keyTerms": [
+        "ASEAN",
+        "Indo-Pacific",
+        "UNCLOS",
+        "Act East Policy",
+        "HADR",
+        "SAGAR Vision"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ASEAN was founded in 1967.",
+        "India became a Sectoral Dialogue Partner of ASEAN in 1992.",
+        "UNCLOS (United Nations Convention on the Law of the Sea) is a key international treaty.",
+        "SAGAR (Security and Growth for All in the Region) is India's vision for the Indian Ocean.",
+        "10 member states in ASEAN."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of India-ASEAN maritime cooperation for regional stability and India's strategic interests.",
+        "Discuss the challenges to maritime security in the Indo-Pacific and how India and ASEAN can jointly address them.",
+        "Evaluate the effectiveness of India's Act East Policy in strengthening ties with Southeast Asian nations.",
+        "Examine the role of multilateral forums like ASEAN in shaping India's foreign policy objectives."
+      ],
+      "imageDescription": "Naval ships from India and ASEAN countries participating in a joint exercise.",
+      "section": "International",
+      "trivia": "The Strait of Malacca, a crucial maritime chokepoint, connects the Indian Ocean to the Pacific Ocean, making maritime security in the region vital for global trade.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Regional Groupings",
+        "topic": "ASEAN"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-digital-rupee-pilot-expansion",
+      "headline": "RBI Expands Digital Rupee (e₹) Pilot to Include More Banks and Use Cases",
+      "explainer": "• The Reserve Bank of India (RBI) announced a significant expansion of its Central Bank Digital Currency (CBDC) pilot project for both retail (e₹-R) and wholesale (e₹-W) segments.\n• The expansion includes onboarding more public and private sector banks and exploring new use cases beyond interbank settlements and person-to-person transactions.\n• Focus areas for new use cases include programmable payments, offline functionality, and integration with existing payment infrastructure like UPI.\n• The RBI aims to gather more data on user experience, technological robustness, and economic impact before a full-scale rollout.\n• This move signals India's proactive approach to digital currencies and financial innovation, potentially revolutionizing the payment landscape.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+        "Government Budgeting.",
+        "Science and Technology- developments and their applications and effects in everyday life."
+      ],
+      "date": "2024-09-29",
+      "source": "Reserve Bank of India (RBI)",
+      "sourceUrl": "https://www.rbi.org.in/Scripts/PressReleaseDisplay.aspx?prid=XXXX",
+      "importance": "high",
+      "tags": [
+        "Digital Rupee",
+        "CBDC",
+        "RBI",
+        "Financial Technology",
+        "Digital Payments",
+        "Monetary Policy"
+      ],
+      "keyTerms": [
+        "Central Bank Digital Currency (CBDC)",
+        "e₹-R (Retail CBDC)",
+        "e₹-W (Wholesale CBDC)",
+        "Blockchain Technology",
+        "Unified Payments Interface (UPI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "RBI launched the wholesale CBDC pilot on Nov 1, 2022.",
+        "Retail CBDC pilot launched on Dec 1, 2022.",
+        "CBDC is a legal tender issued by a central bank in digital form.",
+        "It is different from cryptocurrencies like Bitcoin.",
+        "Programmable payments allow for specific conditions for transactions."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the potential benefits and risks associated with the introduction of a Central Bank Digital Currency in India.",
+        "Analyze how the Digital Rupee could impact India's financial ecosystem, including banks and payment service providers.",
+        "Examine the technological challenges and regulatory considerations in developing and deploying a national CBDC.",
+        "Compare and contrast India's approach to CBDC with that of other major economies globally."
+      ],
+      "imageDescription": "Digital representation of Indian Rupee symbol with binary code background.",
+      "section": "Economy",
+      "trivia": "The Bahamas was the first country to launch a full-fledged retail CBDC, known as the 'Sand Dollar', in 2020.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Monetary Policy",
+        "topic": "Digital Currency"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-next-gen-launch-vehicle-progress",
+      "headline": "ISRO Achieves Key Milestone in Next-Gen Launch Vehicle Development",
+      "explainer": "• The Indian Space Research Organisation (ISRO) successfully conducted a critical hot test of the cryogenic upper stage engine for its Next-Generation Launch Vehicle (NGLV).\n• The NGLV is envisioned as a cost-effective, reusable heavy-lift launch vehicle capable of carrying heavier payloads into various orbits.\n• This test validates the indigenous design and manufacturing capabilities for advanced propulsion systems, crucial for future space missions.\n• The NGLV aims to replace existing operational launchers like PSLV and GSLV, offering enhanced payload capacity and reduced launch costs through reusability.\n• This development is vital for India's ambitions in commercial space launches, human spaceflight (Gaganyaan), and deep-space exploration.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology."
+      ],
+      "date": "2024-09-29",
+      "source": "ISRO",
+      "sourceUrl": "https://www.isro.gov.in/pressrelease/XXXX",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "NGLV",
+        "Space Technology",
+        "Cryogenic Engine",
+        "Reusable Launch Vehicle",
+        "Gaganyaan"
+      ],
+      "keyTerms": [
+        "Next-Generation Launch Vehicle (NGLV)",
+        "Cryogenic Engine",
+        "Reusable Launch Vehicle (RLV)",
+        "Gaganyaan Mission",
+        "PSLV",
+        "GSLV"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "PSLV is ISRO's workhorse launch vehicle.",
+        "GSLV is used for heavier satellites and geostationary orbits.",
+        "Cryogenic engines use liquid oxygen and liquid hydrogen as propellants.",
+        "RLV-TD (Reusable Launch Vehicle – Technology Demonstrator) is a precursor project.",
+        "NGLV aims for a payload capacity of up to 10 tonnes to GTO."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of developing indigenous heavy-lift and reusable launch vehicle technology for India's space program.",
+        "Analyze how NGLV can enhance India's capabilities in commercial space, human spaceflight, and deep-space missions.",
+        "Examine the economic benefits and technological challenges associated with reusable launch vehicles.",
+        "Evaluate the role of ISRO in promoting scientific temper and technological self-reliance in India."
+      ],
+      "imageDescription": "Diagram of the Next-Generation Launch Vehicle (NGLV) with a focus on its engine.",
+      "section": "Science",
+      "trivia": "The first successful flight of a cryogenic engine by ISRO was in 2014 with the GSLV-D5 mission.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space",
+        "topic": "Launch Vehicles"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "new-education-policy-implementation-review",
+      "headline": "Government Reviews Progress of National Education Policy (NEP) 2020 Implementation",
+      "explainer": "• The Ministry of Education held a high-level meeting to review the implementation status of the National Education Policy (NEP) 2020 across states and Union Territories.\n• Discussions focused on the progress in curriculum reforms, vocational education integration, digital learning initiatives, and teacher training programs.\n• Challenges identified include infrastructure gaps, faculty shortages, and the need for greater state-level coordination in adopting the new framework.\n• The Ministry reiterated its commitment to achieving the policy's goals, particularly universal access to quality education and skill development.\n• Emphasis was placed on leveraging technology for education delivery and assessment, in line with the policy's vision.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Development processes and the development industry—the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders.",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+      ],
+      "date": "2024-09-29",
+      "source": "Ministry of Education",
+      "sourceUrl": "https://www.education.gov.in/XXXX",
+      "importance": "medium",
+      "tags": [
+        "NEP 2020",
+        "Education Policy",
+        "Vocational Education",
+        "Digital Learning",
+        "Curriculum Reform",
+        "Skill Development"
+      ],
+      "keyTerms": [
+        "National Education Policy 2020",
+        "Holistic Education",
+        "Vocational Education",
+        "Multidisciplinary Education",
+        "Foundational Literacy and Numeracy (FLN)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NEP 2020 replaced the 1986 policy.",
+        "It proposes a 5+3+3+4 curricular structure.",
+        "Focus on multidisciplinary and holistic education.",
+        "Emphasis on vocational education from Class 6 onwards.",
+        "Goal of 100% Gross Enrolment Ratio (GER) in preschool to secondary level by 2030."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the transformative potential of NEP 2020 in addressing the challenges of India's education system.",
+        "Discuss the key reforms proposed by NEP 2020 and their expected impact on students and the workforce.",
+        "Evaluate the implementation challenges faced by states and suggest measures for effective policy rollout.",
+        "Examine the role of technology and teacher training in achieving the objectives of NEP 2020."
+      ],
+      "imageDescription": "Children in a classroom setting, symbolizing education.",
+      "section": "National",
+      "trivia": "The Kothari Commission (1964-66) was instrumental in shaping India's first National Policy on Education in 1968.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Education",
+        "topic": "Government Policies"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-brazil-south-south-cooperation",
+      "headline": "India and Brazil Strengthen South-South Cooperation on Climate Action and Renewable Energy",
+      "explainer": "• India and Brazil held high-level bilateral talks, reiterating their commitment to strengthening South-South cooperation, particularly in climate change mitigation and renewable energy.\n• Discussions included joint research and development projects in biofuels, solar energy, and sustainable agriculture.\n• Both nations emphasized the importance of a common position in international climate negotiations, advocating for climate justice and equitable burden-sharing.\n• They agreed to share best practices in sustainable development models and collaborate on technology transfer for green technologies.\n• This partnership highlights the growing role of major developing economies in global environmental governance.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+        "Important International institutions, agencies and fora, their structure, mandate."
+      ],
+      "date": "2024-09-29",
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/economy/policy/XXXX",
+      "importance": "medium",
+      "tags": [
+        "India-Brazil",
+        "South-South Cooperation",
+        "Climate Change",
+        "Renewable Energy",
+        "BRICS",
+        "Climate Justice"
+      ],
+      "keyTerms": [
+        "South-South Cooperation",
+        "Climate Justice",
+        "Biofuels",
+        "BRICS",
+        "Renewable Energy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India and Brazil are members of BRICS.",
+        "Both are major developing economies.",
+        "Brazil is a leading producer of ethanol from sugarcane.",
+        "South-South cooperation refers to collaboration among developing countries.",
+        "International Solar Alliance (ISA) is an initiative by India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of South-South cooperation in addressing global challenges like climate change and sustainable development.",
+        "Analyze the potential for India-Brazil collaboration in renewable energy and green technologies.",
+        "Examine how developing countries can collectively influence international climate negotiations.",
+        "Evaluate the role of BRICS in fostering economic and environmental cooperation among member states."
+      ],
+      "imageDescription": "Flags of India and Brazil intertwined, symbolizing cooperation.",
+      "section": "International",
+      "trivia": "Brazil has the largest tropical forest in the world, the Amazon rainforest, which plays a crucial role in global climate regulation.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India-Brazil"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-wetland-conservation-plan",
+      "headline": "Ministry of Environment Launches New Wetland Conservation and Management Plan",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) unveiled an enhanced national action plan for the conservation and sustainable management of wetlands.\n• The plan focuses on holistic approaches, including community participation, scientific inventorying of wetlands, restoration of degraded sites, and stricter enforcement against encroachment.\n• It integrates climate change resilience measures and promotes eco-tourism opportunities around identified wetlands.\n• Special emphasis is laid on wetlands outside the Ramsar List, ensuring broader protection for diverse aquatic ecosystems.\n• This initiative is critical for biodiversity preservation, water security, and mitigating the impacts of climate change.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Disaster and disaster management."
+      ],
+      "date": "2024-09-29",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "https://moef.gov.in/en/XXXX",
+      "importance": "medium",
+      "tags": [
+        "Wetland Conservation",
+        "Biodiversity",
+        "Ramsar Sites",
+        "Climate Resilience",
+        "Ecosystem Services",
+        "Environmental Policy"
+      ],
+      "keyTerms": [
+        "Wetlands",
+        "Ramsar Convention",
+        "Ecosystem Services",
+        "Biodiversity Hotspots",
+        "Wetland (Conservation and Management) Rules"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ramsar Convention signed in 1971 in Ramsar, Iran.",
+        "World Wetlands Day is celebrated on February 2nd.",
+        "Wetlands are crucial for flood control, water purification, and biodiversity.",
+        "India has a significant number of Ramsar Sites.",
+        "Wetland (Conservation and Management) Rules, 2017 are in place."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ecological and economic significance of wetlands and the threats they face in India.",
+        "Analyze the key features of the new wetland conservation plan and its potential effectiveness.",
+        "Examine the role of community participation and inter-sectoral coordination in wetland management.",
+        "Suggest policy measures to enhance the protection of wetlands beyond designated Ramsar Sites."
+      ],
+      "imageDescription": "A serene wetland landscape with migratory birds and lush vegetation.",
+      "section": "Environment",
+      "trivia": "Chilika Lake in Odisha was the first Indian wetland of international importance designated under the Ramsar Convention.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Conservation",
+        "topic": "Wetlands"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "defence-indigenization-update",
+      "headline": "Defence Ministry Releases New 'Positive Indigenisation List' for Defence Procurement",
+      "explainer": "• The Ministry of Defence released its fourth 'Positive Indigenisation List' (PIL) comprising 101 items that will be procured only from domestic sources after specific timelines.\n• This list includes complex systems, sub-systems, and components, further boosting India's self-reliance in defence manufacturing.\n• The move is aimed at reducing import dependency, stimulating domestic R&D, and strengthening the 'Make in India' initiative in the defence sector.\n• The policy provides a clear roadmap for the Indian defence industry to invest in technological upgrades and production capabilities.\n• It is expected to create significant opportunities for MSMEs and startups in the defence ecosystem.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism."
+      ],
+      "date": "2024-09-29",
+      "source": "Ministry of Defence",
+      "sourceUrl": "https://www.mod.gov.in/XXXX",
+      "importance": "medium",
+      "tags": [
+        "Defence Indigenisation",
+        "Make in India",
+        "Defence Procurement",
+        "Self-Reliance",
+        "Defence Manufacturing",
+        "MSMEs"
+      ],
+      "keyTerms": [
+        "Positive Indigenisation List (PIL)",
+        "Defence Acquisition Procedure (DAP)",
+        "Strategic Partnership Model",
+        "Defence Corridors",
+        "Atmanirbhar Bharat"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "First PIL released in 2020.",
+        "DAP 2020 promotes indigenous defence production.",
+        "Defence Corridors established in Uttar Pradesh and Tamil Nadu.",
+        "The goal is to achieve $5 billion in defence exports by 2025.",
+        "MSMEs play a crucial role in defence supply chains."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of defence indigenization for India's national security and economic growth.",
+        "Analyze how the 'Positive Indigenisation List' contributes to achieving self-reliance in the defence sector.",
+        "Examine the challenges faced by the domestic defence industry and suggest measures to overcome them.",
+        "Evaluate the role of government policies in fostering a robust defence manufacturing ecosystem in India."
+      ],
+      "imageDescription": "Modern defence equipment manufactured in India.",
+      "section": "National",
+      "trivia": "India is one of the world's largest importers of defence equipment, a trend the indigenization drive aims to reverse.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "Defence",
+        "topic": "Indigenisation"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "un-general-assembly-india-address",
+      "headline": "India Reiterates Call for UN Reforms at General Assembly Session",
+      "explainer": "• India's Permanent Representative to the UN addressed the 79th session of the UN General Assembly, reiterating India's long-standing demand for comprehensive reforms of the United Nations Security Council (UNSC).\n• The address highlighted the anachronistic nature of the current UNSC structure, which does not reflect contemporary geopolitical realities.\n• India emphasized the need for greater representation for developing countries and increased transparency in the Council's functioning.\n• The statement also touched upon global challenges such as climate change, terrorism, and sustainable development, urging collective action.\n• This consistent advocacy underscores India's aspiration for a permanent seat in a reformed UNSC.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2024-09-29",
+      "source": "United Nations News",
+      "sourceUrl": "https://news.un.org/en/story/XXXX",
+      "importance": "medium",
+      "tags": [
+        "UN Reforms",
+        "UNSC",
+        "Multilateralism",
+        "India at UN",
+        "Global Governance",
+        "Developing Countries"
+      ],
+      "keyTerms": [
+        "United Nations Security Council (UNSC)",
+        "UN General Assembly (UNGA)",
+        "G4 Nations",
+        "Permanent Membership",
+        "Multilateralism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "UNSC has 5 permanent members (P5) and 10 non-permanent members.",
+        "P5 members have veto power.",
+        "India is a member of the G4 group, advocating for UNSC expansion.",
+        "UNGA is the main deliberative, policymaking and representative organ of the UN.",
+        "The UN was founded in 1945."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the arguments for and against the reform of the UN Security Council.",
+        "Analyze India's persistent demand for a permanent seat in the UNSC and its implications for global power dynamics.",
+        "Examine the challenges to achieving consensus on UN reforms among member states.",
+        "Evaluate the effectiveness of the UN in addressing contemporary global challenges in its current structure."
+      ],
+      "imageDescription": "The United Nations headquarters building in New York.",
+      "section": "International",
+      "trivia": "The UN Security Council held its first session on 17 January 1946 in London.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "United Nations"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ayushman-bharat-digital-mission-progress",
+      "headline": "Ayushman Bharat Digital Mission Achieves Milestone in Health ID Generation",
+      "explainer": "• The Ayushman Bharat Digital Mission (ABDM) announced a significant milestone, surpassing 500 million Ayushman Bharat Health Accounts (ABHA) IDs generated nationwide.\n• This achievement marks substantial progress in creating a seamless online platform for healthcare services, enabling digital storage and access to medical records.\n• The mission aims to build the necessary infrastructure to support India's integrated digital health ecosystem, connecting patients, doctors, and other healthcare providers.\n• It facilitates interoperability of health data and promotes paperless healthcare, improving efficiency and accessibility.\n• The government plans further outreach to ensure wider adoption, especially in rural and remote areas, to realize the vision of 'Health for All'.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2024-09-29",
+      "source": "National Health Authority (NHA)",
+      "sourceUrl": "https://nha.gov.in/XXXX",
+      "importance": "medium",
+      "tags": [
+        "ABDM",
+        "Digital Health",
+        "Health ID",
+        "Healthcare Access",
+        "National Health Authority",
+        "Telemedicine"
+      ],
+      "keyTerms": [
+        "Ayushman Bharat Digital Mission (ABDM)",
+        "Ayushman Bharat Health Account (ABHA)",
+        "Digital Health Ecosystem",
+        "National Health Authority (NHA)",
+        "Telemedicine"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ABDM was launched in 2021 by Prime Minister Narendra Modi.",
+        "NHA is the implementing agency.",
+        "ABHA ID is a 14-digit unique health identification number.",
+        "It aims to link the digital health solutions of hospitals across the country.",
+        "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) is a related scheme."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the potential of the Ayushman Bharat Digital Mission in transforming India's healthcare delivery system.",
+        "Analyze the benefits and challenges of creating a centralized digital health ecosystem in a diverse country like India.",
+        "Examine the role of technology in improving healthcare access, affordability, and quality.",
+        "Suggest measures to address issues of data privacy, security, and digital literacy for wider adoption of ABDM."
+      ],
+      "imageDescription": "A graphic depicting an ABHA health ID card with digital connections to various healthcare services.",
+      "section": "National",
+      "trivia": "The National Digital Health Blueprint, released in 2019, laid the groundwork for the Ayushman Bharat Digital Mission.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Health",
+        "topic": "Government Schemes"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "global-fossil-fuel-subsidy-report",
+      "headline": "UNEP Report Highlights Persistent Global Fossil Fuel Subsidies Despite Climate Goals",
+      "explainer": "• A new report by the UN Environment Programme (UNEP) revealed that global fossil fuel subsidies continue to rise, undermining efforts to combat climate change.\n• The report indicates that governments worldwide spent record amounts on supporting fossil fuels in 2023, largely due to energy price volatility and cost-of-living crises.\n• It calls for an urgent phase-out of inefficient fossil fuel subsidies and a redirection of funds towards renewable energy and sustainable alternatives.\n• The persistence of these subsidies creates market distortions, discourages green investments, and exacerbates greenhouse gas emissions.\n• This finding poses a significant challenge for countries committed to their Paris Agreement targets and achieving global decarbonization.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment."
+      ],
+      "date": "2024-09-29",
+      "source": "UN Environment Programme (UNEP)",
+      "sourceUrl": "https://www.unep.org/news-and-stories/press-release/XXXX",
+      "importance": "high",
+      "tags": [
+        "Fossil Fuel Subsidies",
+        "Climate Change",
+        "UNEP",
+        "Renewable Energy",
+        "Energy Transition",
+        "Paris Agreement"
+      ],
+      "keyTerms": [
+        "Fossil Fuel Subsidies",
+        "UN Environment Programme (UNEP)",
+        "Paris Agreement",
+        "Decarbonization",
+        "Greenhouse Gas Emissions",
+        "Just Energy Transition"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "UNEP is the leading global environmental authority.",
+        "Paris Agreement (2015) aims to limit global warming to well below 2°C.",
+        "Fossil fuels include coal, oil, and natural gas.",
+        "Subsidies can be direct financial transfers or tax breaks.",
+        "IPCC (Intergovernmental Panel on Climate Change) provides scientific assessments."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the economic and environmental implications of persistent fossil fuel subsidies globally.",
+        "Analyze the challenges faced by developing countries in phasing out fossil fuel subsidies while ensuring energy access and affordability.",
+        "Examine the strategies for a 'just energy transition' that supports vulnerable populations during the shift to renewable energy.",
+        "Evaluate the role of international organizations like UNEP in advocating for sustainable energy policies."
+      ],
+      "imageDescription": "A graph showing rising fossil fuel subsidies alongside a backdrop of industrial emissions.",
+      "section": "International",
+      "trivia": "The G20 nations committed to phasing out inefficient fossil fuel subsidies in 2009, a pledge that has seen limited progress.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Climate Change",
+        "topic": "International Reports"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "indias-tourism-sector-recovery",
+      "headline": "India's Tourism Sector Shows Strong Recovery, Focus on Sustainable Tourism",
+      "explainer": "• The Ministry of Tourism reported a significant rebound in both domestic and international tourist arrivals, surpassing pre-pandemic levels in several key destinations.\n• The recovery is attributed to government initiatives like 'Dekho Apna Desh', improved connectivity, and targeted marketing campaigns.\n• There's a growing emphasis on promoting sustainable and responsible tourism, including eco-tourism, rural tourism, and cultural heritage circuits.\n• New policies are being formulated to enhance infrastructure, ensure tourist safety, and develop lesser-known destinations.\n• The sector is poised for further growth, contributing significantly to employment generation and foreign exchange earnings.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+      ],
+      "date": "2024-09-29",
+      "source": "Ministry of Tourism",
+      "sourceUrl": "https://tourism.gov.in/XXXX",
+      "importance": "medium",
+      "tags": [
+        "Tourism",
+        "Economic Recovery",
+        "Sustainable Tourism",
+        "Dekho Apna Desh",
+        "Employment Generation",
+        "Cultural Heritage"
+      ],
+      "keyTerms": [
+        "Sustainable Tourism",
+        "Eco-tourism",
+        "Rural Tourism",
+        "Dekho Apna Desh",
+        "Incredible India",
+        "Foreign Exchange Earnings"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "'Dekho Apna Desh' initiative promotes domestic tourism.",
+        "Incredible India campaign targets international tourists.",
+        "Tourism sector is a major employer.",
+        "Foreign Exchange Earnings (FEEs) from tourism are a key indicator.",
+        "Swadesh Darshan Scheme focuses on theme-based tourist circuits."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the economic significance of the tourism sector for India and the factors contributing to its post-pandemic recovery.",
+        "Analyze the concept of sustainable tourism and its importance for India's diverse ecological and cultural heritage.",
+        "Examine government initiatives aimed at promoting tourism and their effectiveness.",
+        "Suggest strategies to further boost tourism, enhance tourist experience, and ensure local community benefits."
+      ],
+      "imageDescription": "A vibrant picture of a popular Indian tourist destination, showcasing its cultural richness.",
+      "section": "Economy",
+      "trivia": "India's first National Tourism Policy was announced in 1982.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Sectors of Economy",
+        "topic": "Tourism"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ai-governance-framework-india",
+      "headline": "India Pushes for Ethical AI Governance Framework at Global AI Summit",
+      "explainer": "• India participated in a global Artificial Intelligence (AI) summit, advocating for a multilateral governance framework that ensures ethical, responsible, and inclusive development and deployment of AI.\n• The Indian delegation highlighted the need for a human-centric approach to AI, addressing concerns around bias, privacy, accountability, and the socio-economic impact of automation.\n• India emphasized its commitment to leveraging AI for public good, citing initiatives in healthcare, agriculture, and education.\n• The discussions also focused on international cooperation for AI research, standard-setting, and capacity building, especially for developing nations.\n• This stance aligns with India's vision of 'AI for All' and its growing leadership in digital public infrastructure.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to Intellectual Property Rights."
+      ],
+      "date": "2024-09-29",
+      "source": "PTI",
+      "sourceUrl": "https://www.ptinews.com/news/national/XXXX",
+      "importance": "medium",
+      "tags": [
+        "AI Governance",
+        "Ethical AI",
+        "Artificial Intelligence",
+        "Digital Public Infrastructure",
+        "International Cooperation",
+        "Technology Policy"
+      ],
+      "keyTerms": [
+        "Artificial Intelligence (AI)",
+        "AI Governance",
+        "Ethical AI",
+        "Digital Public Infrastructure (DPI)",
+        "Responsible AI",
+        "AI for All"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NITI Aayog released 'National Strategy for Artificial Intelligence' in 2018.",
+        "India's G20 presidency focused on Digital Public Infrastructure.",
+        "AI can be applied in various sectors like healthcare, agriculture, education.",
+        "Concerns include algorithmic bias and job displacement.",
+        "Responsible AI development is crucial."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ethical challenges and societal implications of rapidly advancing Artificial Intelligence technologies.",
+        "Analyze India's approach to AI governance and its advocacy for a human-centric global framework.",
+        "Examine the potential of AI to drive socio-economic development in India, particularly in priority sectors.",
+        "Evaluate the need for international cooperation and standard-setting in regulating AI to prevent misuse and ensure equitable benefits."
+      ],
+      "imageDescription": "A stylized brain connecting with digital circuits, representing AI and its global reach.",
+      "section": "Science",
+      "trivia": "The term 'Artificial Intelligence' was coined by John McCarthy in 1956 at the Dartmouth Conference.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "IT",
+        "topic": "Artificial Intelligence"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "monsoon-withdrawal-impact-agriculture",
+      "headline": "Monsoon Withdrawal Progresses, Mixed Impact on Kharif Harvest and Rabi Sowing",
+      "explainer": "• The India Meteorological Department (IMD) announced the further progression of monsoon withdrawal across parts of Northwest and Central India.\n• While overall monsoon rainfall for the season was near normal, regional disparities have led to mixed outcomes for the ongoing Kharif crop harvest.\n• Adequate soil moisture in some regions bodes well for the upcoming Rabi sowing, particularly for wheat and pulses.\n• However, concerns remain for areas that experienced deficit rainfall, potentially impacting agricultural yields and necessitating irrigation support.\n• The government is monitoring the situation closely and preparing contingency plans for affected farmers, including support for Rabi crop diversification.",
+      "category": "geography",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes.",
+        "Major crops cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers."
+      ],
+      "date": "2024-09-29",
+      "source": "India Meteorological Department (IMD)",
+      "sourceUrl": "https://mausam.imd.gov.in/XXXX",
+      "importance": "medium",
+      "tags": [
+        "Monsoon",
+        "Agriculture",
+        "Kharif Crop",
+        "Rabi Crop",
+        "IMD",
+        "Food Security",
+        "Climate Change"
+      ],
+      "keyTerms": [
+        "Southwest Monsoon",
+        "Kharif Crops",
+        "Rabi Crops",
+        "India Meteorological Department (IMD)",
+        "El Niño",
+        "La Niña"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Monsoon withdrawal typically begins in September from Northwest India.",
+        "Kharif crops are sown in monsoon and harvested in autumn (e.g., rice, maize).",
+        "Rabi crops are sown in winter and harvested in spring (e.g., wheat, barley).",
+        "IMD is the primary agency for meteorological observations and forecasting.",
+        "El Niño generally correlates with weaker monsoons in India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the impact of monsoon variability and regional rainfall distribution on India's agricultural sector and food security.",
+        "Analyze the challenges faced by farmers due to erratic monsoon patterns and the government's role in mitigating risks.",
+        "Examine the importance of accurate meteorological forecasting and climate-resilient agricultural practices.",
+        "Suggest policy interventions for improving irrigation infrastructure and promoting crop diversification to enhance agricultural resilience."
+      ],
+      "imageDescription": "A map of India showing monsoon withdrawal patterns with agricultural fields in the foreground.",
+      "section": "National",
+      "trivia": "The word 'monsoon' is derived from the Arabic word 'mausim', meaning 'season'.",
+      "prelimsSyllabus": {
+        "subject": "Geography",
+        "area": "Climatology",
+        "topic": "Monsoon"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "editorial-urban-resilience-planning",
+      "headline": "Editorial: Towards Resilient Urban Planning for Climate Change Adaptation",
+      "explainer": "• This editorial highlights the increasing vulnerability of Indian cities to extreme weather events, calling for a paradigm shift in urban planning.\n• It emphasizes the need for integrated strategies that incorporate climate change adaptation and disaster risk reduction into city development plans.\n• Key recommendations include investing in green infrastructure, improving drainage systems, promoting sustainable transport, and strengthening early warning mechanisms.\n• The editorial argues for greater collaboration between urban local bodies, state governments, and citizens in building climate-resilient cities.\n• It underscores that sustainable urban development is not just an environmental imperative but also an economic necessity for India's future.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Disaster and disaster management.",
+        "Urbanization, their problems and their remedies."
+      ],
+      "date": "2024-09-29",
+      "source": "The Indian Express",
+      "sourceUrl": "https://indianexpress.com/article/opinion/XXXX",
+      "importance": "high",
+      "tags": [
+        "Urban Planning",
+        "Climate Adaptation",
+        "Disaster Resilience",
+        "Green Infrastructure",
+        "Sustainable Cities",
+        "Climate Change"
+      ],
+      "keyTerms": [
+        "Urban Resilience",
+        "Climate Adaptation",
+        "Disaster Risk Reduction (DRR)",
+        "Green Infrastructure",
+        "Smart Cities Mission",
+        "Urban Local Bodies (ULBs)"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the multifaceted challenges faced by Indian cities due to climate change and rapid urbanization.",
+        "Discuss the principles of resilient urban planning and how they can be integrated into India's urban development policies.",
+        "Examine the role of green infrastructure, technological solutions, and community engagement in building climate-resilient cities.",
+        "Suggest policy recommendations for strengthening urban local bodies and fostering inter-agency coordination for effective disaster management."
+      ],
+      "imageDescription": "A modern cityscape with elements of green spaces and flood-resistant architecture.",
+      "section": "Editorial",
+      "trivia": "Over 35% of India's population lives in urban areas, a figure projected to reach 50% by 2050, making urban resilience critical.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Climate Change",
+        "topic": "Urban Adaptation"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "new-scheme-for-msme-digitalization",
+      "headline": "Government Launches Scheme to Boost Digitalization of MSMEs",
+      "explainer": "• The Ministry of Micro, Small & Medium Enterprises (MSME) launched a new scheme aimed at facilitating the digitalization and technological upgrade of MSMEs across various sectors.\n• The scheme offers financial assistance for adopting digital tools, cloud computing, e-commerce integration, and cybersecurity solutions.\n• It seeks to enhance the competitiveness of Indian MSMEs in global markets and integrate them into the digital economy.\n• Capacity building programs and workshops will also be conducted to improve digital literacy among MSME entrepreneurs.\n• This initiative is expected to drive innovation, improve efficiency, and create new employment opportunities within the MSME sector.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+        "Government Budgeting.",
+        "Science and Technology- developments and their applications and effects in everyday life."
+      ],
+      "date": "2024-09-29",
+      "source": "The Hindu BusinessLine",
+      "sourceUrl": "https://www.thehindubusinessline.com/news/economy/XXXX",
+      "importance": "medium",
+      "tags": [
+        "MSME",
+        "Digitalization",
+        "E-commerce",
+        "Government Scheme",
+        "Economic Growth",
+        "Make in India"
+      ],
+      "keyTerms": [
+        "Micro, Small & Medium Enterprises (MSMEs)",
+        "Digital Transformation",
+        "E-commerce",
+        "Cloud Computing",
+        "Cybersecurity",
+        "Atmanirbhar Bharat"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "MSMEs contribute significantly to India's GDP and exports.",
+        "Udyam Registration is a government portal for MSMEs.",
+        "Mudra Yojana provides loans to non-corporate, non-farm small/micro enterprises.",
+        "The scheme aims to improve MSME access to digital markets.",
+        "Cybersecurity is a growing concern for businesses."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the importance of the MSME sector for India's economy and the challenges it faces in the digital age.",
+        "Analyze how digitalization can enhance the competitiveness and resilience of MSMEs.",
+        "Examine the role of government schemes and policy support in fostering digital adoption among small businesses.",
+        "Suggest measures to overcome barriers to digitalization, such as lack of digital literacy and access to affordable technology."
+      ],
+      "imageDescription": "A small business owner using a tablet with digital charts, symbolizing digitalization.",
+      "section": "Economy",
+      "trivia": "The MSME sector is estimated to contribute about 30% to India's GDP and 48% to its exports.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Industrial Policy",
+        "topic": "MSMEs"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ancient-harappan-site-discovery",
+      "headline": "Archaeologists Uncover New Insights at Ancient Harappan Site in Haryana",
+      "explainer": "• A team of archaeologists from the Archaeological Survey of India (ASI) announced significant new findings at a Harappan site in Haryana.\n• The discoveries include evidence of advanced urban planning, water management systems, and unique pottery artifacts, shedding new light on the mature Harappan period.\n• Further excavations revealed distinct residential and industrial zones, suggesting a highly organized society with specialized craftsmanship.\n• Analysis of unearthed seals and figurines provides clues about trade networks and religious practices of the ancient civilization.\n• These findings contribute to a deeper understanding of the Indus Valley Civilization's spread and cultural nuances beyond well-known sites like Mohenjo-Daro and Harappa.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times."
+      ],
+      "date": "2024-09-29",
+      "source": "Archaeological Survey of India (ASI)",
+      "sourceUrl": "https://asi.nic.in/press-release/XXXX",
+      "importance": "medium",
+      "tags": [
+        "Harappan Civilization",
+        "Indus Valley Civilization",
+        "Archaeology",
+        "Ancient India",
+        "Haryana",
+        "Urban Planning"
+      ],
+      "keyTerms": [
+        "Harappan Civilization",
+        "Indus Valley Civilization",
+        "Archaeological Survey of India (ASI)",
+        "Mature Harappan Period",
+        "Urban Planning",
+        "Artifacts"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Indus Valley Civilization flourished around 2500-1900 BCE.",
+        "Major sites: Harappa, Mohenjo-Daro, Lothal, Dholavira, Rakhigarhi.",
+        "Rakhigarhi in Haryana is one of the largest Harappan sites.",
+        "ASI is responsible for archaeological research and conservation.",
+        "Harappan cities were known for grid patterns and elaborate drainage systems."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the key features of urban planning and socio-economic organization of the Mature Harappan Civilization.",
+        "Analyze how recent archaeological discoveries contribute to our understanding of the spread and decline of the Indus Valley Civilization.",
+        "Examine the significance of water management systems and craftsmanship in Harappan cities.",
+        "Evaluate the challenges and ethical considerations in archaeological excavations and preservation of ancient sites in India."
+      ],
+      "imageDescription": "An archaeological dig site showing excavated ancient pottery and structures.",
+      "section": "National",
+      "trivia": "The Indus Valley Civilization is one of the world's three early civilizations of the Ancient Near East and South Asia, along with Ancient Egypt and Mesopotamia.",
+      "prelimsSyllabus": {
+        "subject": "History",
+        "area": "Ancient India",
+        "topic": "Indus Valley Civilization"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "global-hunger-index-report-india",
+      "headline": "Global Hunger Index 2024: India's Position and Efforts to Combat Malnutrition",
+      "explainer": "• The Global Hunger Index (GHI) 2024 report was released, indicating India's continued progress in addressing hunger and malnutrition, though challenges persist.\n• India's ranking improved slightly, reflecting ongoing efforts through various government schemes targeting food security and nutritional outcomes.\n• The report highlighted specific areas where India needs to intensify efforts, such as reducing child wasting and improving dietary diversity.\n• Government officials reiterated their commitment to achieving Sustainable Development Goal (SDG) 2: Zero Hunger by 2030.\n• The GHI report serves as a critical tool for assessing national and global progress in combating hunger and identifying areas for intervention.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to poverty and hunger.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2024-09-29",
+      "source": "International Food Policy Research Institute (IFPRI)",
+      "sourceUrl": "https://www.globalhungerindex.org/XXXX",
+      "importance": "high",
+      "tags": [
+        "Global Hunger Index",
+        "Malnutrition",
+        "Food Security",
+        "Child Wasting",
+        "Government Schemes",
+        "SDGs"
+      ],
+      "keyTerms": [
+        "Global Hunger Index (GHI)",
+        "Malnutrition",
+        "Child Wasting",
+        "Child Stunting",
+        "Undernourishment",
+        "Sustainable Development Goal (SDG) 2"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "GHI is published annually by Concern Worldwide and Welthungerhilfe.",
+        "GHI score is based on four indicators: undernourishment, child wasting, child stunting, and child mortality.",
+        "POSHAN Abhiyaan (National Nutrition Mission) is a flagship scheme.",
+        "National Food Security Act (NFSA) 2013 aims to provide subsidized food grains.",
+        "SDG 2 aims for Zero Hunger by 2030."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically analyze India's performance in the Global Hunger Index and the underlying causes of persistent malnutrition.",
+        "Discuss the effectiveness of government schemes and policies aimed at ensuring food security and improving nutritional outcomes in India.",
+        "Examine the multi-sectoral approach required to address malnutrition, considering health, sanitation, education, and women's empowerment.",
+        "Suggest innovative strategies and policy reforms for India to achieve its targets under SDG 2: Zero Hunger."
+      ],
+      "imageDescription": "A graphic depicting the indicators of the Global Hunger Index.",
+      "section": "National",
+      "trivia": "Globally, nearly 690 million people are undernourished, according to recent UN estimates.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Poverty & Hunger",
+        "topic": "Malnutrition"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "eastern-ghats-biodiversity-study",
+      "headline": "New Study Highlights Unique Biodiversity and Threats in Eastern Ghats",
+      "explainer": "• A recent ecological study published in a leading journal underscored the unique biodiversity of the Eastern Ghats, identifying several endemic species of flora and fauna.\n• The study warned of increasing threats to this mountain range, including deforestation, mining, agricultural expansion, and climate change.\n• Researchers emphasized the critical role of the Eastern Ghats as a crucial ecological corridor and a biodiversity hotspot, often overshadowed by the Western Ghats.\n• It called for urgent conservation efforts, including designating new protected areas and implementing sustainable land-use practices.\n• The findings are vital for formulating targeted conservation policies and promoting ecological restoration in the region.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Biodiversity and its conservation."
+      ],
+      "date": "2024-09-29",
+      "source": "Environmental Science Journal",
+      "sourceUrl": "https://www.environmentaljournal.org/XXXX",
+      "importance": "medium",
+      "tags": [
+        "Eastern Ghats",
+        "Biodiversity",
+        "Conservation",
+        "Endemic Species",
+        "Deforestation",
+        "Ecological Corridor"
+      ],
+      "keyTerms": [
+        "Eastern Ghats",
+        "Biodiversity Hotspot",
+        "Endemic Species",
+        "Deforestation",
+        "Ecological Corridor",
+        "Sustainable Land-use"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Eastern Ghats are discontinuous mountain ranges along India's eastern coast.",
+        "They are older than the Western Ghats.",
+        "They receive rainfall from the Northeast Monsoon.",
+        "Endemic species are found exclusively in a particular geographical area.",
+        "Nallamala Hills, Palkonda Range are parts of Eastern Ghats."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ecological significance of the Eastern Ghats and compare its biodiversity with the Western Ghats.",
+        "Analyze the major threats to the biodiversity of the Eastern Ghats and their long-term environmental implications.",
+        "Examine the role of scientific research in informing conservation strategies and policy decisions.",
+        "Suggest comprehensive measures for the conservation and sustainable management of the Eastern Ghats' ecosystem."
+      ],
+      "imageDescription": "Lush green landscape of the Eastern Ghats with a focus on its diverse flora.",
+      "section": "Environment",
+      "trivia": "Mahendragiri in Odisha is one of the highest peaks in the Eastern Ghats.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Biodiversity",
+        "topic": "Geographical Features"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "startup-ecosystem-growth-report",
+      "headline": "India's Startup Ecosystem Continues Robust Growth Amidst Global Headwinds",
+      "explainer": "• A new report by industry body NASSCOM highlighted the continued robust growth of India's startup ecosystem, with a significant increase in new ventures and funding.\n• Despite global economic headwinds, India remains a top destination for venture capital, particularly in sectors like FinTech, HealthTech, and DeepTech.\n• Government initiatives such as 'Startup India' and 'Fund of Funds for Startups' are credited for fostering a conducive environment for innovation.\n• The report also pointed to the increasing number of unicorns and the expansion of startup activity beyond metropolitan areas to Tier 2 and Tier 3 cities.\n• This growth is crucial for job creation, technological innovation, and India's aspiration to become a $5 trillion economy.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+        "Science and Technology- developments and their applications and effects in everyday life."
+      ],
+      "date": "2024-09-29",
+      "source": "NASSCOM",
+      "sourceUrl": "https://nasscom.in/XXXX",
+      "importance": "medium",
+      "tags": [
+        "Startup Ecosystem",
+        "Venture Capital",
+        "Unicorns",
+        "Startup India",
+        "Innovation",
+        "Economic Growth"
+      ],
+      "keyTerms": [
+        "Startup Ecosystem",
+        "Venture Capital",
+        "Unicorns",
+        "Startup India",
+        "Fund of Funds for Startups",
+        "DeepTech",
+        "FinTech"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "'Startup India' initiative launched in 2016.",
+        "A 'unicorn' is a privately held startup company valued at over $1 billion.",
+        "NASSCOM is the National Association of Software and Service Companies.",
+        "India has the third-largest startup ecosystem globally.",
+        "Government provides tax benefits and easier compliance for startups."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the key drivers behind the growth of India's startup ecosystem and its contribution to the national economy.",
+        "Analyze the role of government policies and initiatives in fostering innovation and entrepreneurship in India.",
+        "Examine the challenges faced by startups in India, including access to funding, talent retention, and regulatory hurdles.",
+        "Suggest measures to further strengthen the startup ecosystem and ensure its equitable spread across different regions and sectors."
+      ],
+      "imageDescription": "A group of young entrepreneurs collaborating in a modern office space.",
+      "section": "Economy",
+      "trivia": "India added a record number of unicorns in 2021, cementing its position as a global startup powerhouse.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Industrial Policy",
+        "topic": "Startups"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-species-discovery-western-ghats",
+      "headline": "Scientists Discover New Species of Frog in Western Ghats",
+      "explainer": "• A team of Indian herpetologists announced the discovery of a new species of frog in the biodiverse Western Ghats region.\n• The newly identified amphibian, named 'Nyctibatrachus sahyadriensis', belongs to the genus of night frogs, known for their unique breeding habits.\n• This discovery underscores the unparalleled biodiversity of the Western Ghats, a UNESCO World Heritage Site and a global biodiversity hotspot.\n• Researchers emphasized the urgent need for conservation efforts to protect the fragile habitats of such endemic species from climate change and human encroachment.\n• The finding contributes significantly to the understanding of amphibian evolution and distribution in the Indian subcontinent.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Biodiversity and its conservation."
+      ],
+      "date": "2024-09-29",
+      "source": "Zoos' Print Journal",
+      "sourceUrl": "https://www.zoosprint.org/XXXX",
+      "importance": "low",
+      "tags": [
+        "Western Ghats",
+        "Biodiversity",
+        "New Species",
+        "Amphibians",
+        "Conservation",
+        "Endemic Species"
+      ],
+      "keyTerms": [
+        "Western Ghats",
+        "Biodiversity Hotspot",
+        "Endemic Species",
+        "Amphibians",
+        "Herpetology",
+        "Conservation Biology"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Western Ghats are a UNESCO World Heritage Site.",
+        "They are one of the 8 'hottest hotspots' of biological diversity in the world.",
+        "Endemic species are unique to a specific region.",
+        "Amphibians are bio-indicators of environmental health.",
+        "Nyctibatrachus is a genus of frogs endemic to the Western Ghats."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ecological significance of the Western Ghats as a biodiversity hotspot and the factors contributing to its unique species richness.",
+        "Analyze the threats faced by amphibians and other endemic species in the Western Ghats due to habitat loss and climate change.",
+        "Examine the importance of scientific discoveries in driving conservation policy and public awareness.",
+        "Suggest comprehensive strategies for the protection and sustainable management of the Western Ghats ecosystem."
+      ],
+      "imageDescription": "A close-up photograph of the newly discovered frog species in its natural habitat.",
+      "section": "Environment",
+      "trivia": "The Western Ghats are older than the Himalayas and influence India's monsoon weather patterns.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Biodiversity",
+        "topic": "Western Ghats"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "cybersecurity-threats-report-india",
+      "headline": "CERT-In Issues Advisory on Rising Cyber Threats and Data Breaches",
+      "explainer": "• The Indian Computer Emergency Response Team (CERT-In) issued a comprehensive advisory warning against a surge in cybersecurity threats, including ransomware attacks and data breaches.\n• The advisory urged government agencies, critical infrastructure operators, and private organizations to bolster their digital defenses and implement robust cybersecurity protocols.\n• It highlighted the growing sophistication of cyber adversaries and the increasing targeting of personal data and financial systems.\n• CERT-In recommended regular security audits, employee training, and timely patching of vulnerabilities to mitigate risks.\n• This alert underscores the critical importance of national cybersecurity strategies in safeguarding digital assets and citizen data.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention.",
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism."
+      ],
+      "date": "2024-09-29",
+      "source": "CERT-In",
+      "sourceUrl": "https://www.cert-in.org.in/XXXX",
+      "importance": "medium",
+      "tags": [
+        "Cybersecurity",
+        "Ransomware",
+        "Data Breach",
+        "CERT-In",
+        "Digital Security",
+        "Critical Infrastructure"
+      ],
+      "keyTerms": [
+        "CERT-In (Indian Computer Emergency Response Team)",
+        "Cybersecurity",
+        "Ransomware",
+        "Data Breach",
+        "Critical Information Infrastructure",
+        "National Cyber Security Policy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "CERT-In is the national agency for cybersecurity incident response.",
+        "Ransomware encrypts data and demands payment for its release.",
+        "Data breaches involve unauthorized access to sensitive information.",
+        "Critical Information Infrastructure (CII) refers to essential services.",
+        "National Cyber Security Strategy 2020 (draft) aims to secure cyberspace."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolving landscape of cybersecurity threats in India and their potential impact on national security and economic stability.",
+        "Analyze the role of CERT-In and other government agencies in safeguarding India's cyberspace.",
+        "Examine the challenges in securing critical infrastructure and citizen data from sophisticated cyberattacks.",
+        "Suggest comprehensive measures, including legislative, technological, and public awareness initiatives, to enhance India's cybersecurity posture."
+      ],
+      "imageDescription": "A digital padlock symbol overlaid on a circuit board, representing cybersecurity.",
+      "section": "National",
+      "trivia": "The first computer virus, 'Brain', was created in 1986 by two Pakistani brothers.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "Cyber Security",
+        "topic": "Threats and Measures"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "India launches new policy framework with PLI and VGF to boost Green Hydrogen Mission, aiming for global leadership in green energy.",
+    "Supreme Court reinforces 'Right to be Forgotten' as part of Right to Privacy, urging comprehensive data protection law enactment.",
+    "RBI expands Digital Rupee (e₹) pilot program, including more banks and exploring new use cases for India's CBDC.",
+    "ISRO achieves critical milestone in Next-Gen Launch Vehicle (NGLV) development, advancing India's heavy-lift and reusable space capabilities.",
+    "UNEP report highlights persistent global fossil fuel subsidies, challenging climate goals and calling for urgent phase-out.",
+    "Global Hunger Index 2024 shows India's progress in combating malnutrition, with continued focus on child wasting and dietary diversity."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the National Green Hydrogen Mission, consider the following statements:\n1. It aims to make India a global hub for green hydrogen production and export.\n2. The Ministry of Power is the nodal ministry for its implementation.\n3. Production Linked Incentives (PLI) and Viability Gap Funding (VGF) are key financial mechanisms under the mission.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 3 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 3 only",
+      "explanation": "Statement 1 is correct. The mission's overarching goal is to make India a global hub for green hydrogen production, utilization, and export. Statement 2 is incorrect. The Ministry of New and Renewable Energy (MNRE) is the nodal ministry for the National Green Hydrogen Mission. Statement 3 is correct. The Strategic Interventions for Green Hydrogen Transition (SIGHT) programme, a component of the mission, provides financial incentives for manufacturing electrolysers and producing green hydrogen through PLI and VGF mechanisms."
+    },
+    {
+      "question": "Which of the following bodies is responsible for issuing advisories and handling cybersecurity incidents in India?",
+      "options": [
+        "(a) National Informatics Centre (NIC)",
+        "(b) Unique Identification Authority of India (UIDAI)",
+        "(c) Indian Computer Emergency Response Team (CERT-In)",
+        "(d) National Critical Information Infrastructure Protection Centre (NCIIPC)"
+      ],
+      "answer": "(c) Indian Computer Emergency Response Team (CERT-In)",
+      "explanation": "The Indian Computer Emergency Response Team (CERT-In) is the national agency established to deal with cyber security incidents. It collects, analyzes, and disseminates information on cyber incidents, and issues forecasts and alerts of cyber security threats."
+    },
+    {
+      "question": "Consider the following statements regarding the 'Right to be Forgotten' in India:\n1. It is explicitly enshrined as a separate fundamental right in the Indian Constitution.\n2. The Supreme Court has recognized it as an intrinsic part of the Right to Privacy under Article 21.\n3. The Personal Data Protection Bill, 2019, provided for the 'Right to Erasure' which is similar in concept.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 2 and 3 only",
+      "explanation": "Statement 1 is incorrect. The 'Right to be Forgotten' is not explicitly enshrined as a separate fundamental right but has been interpreted by the judiciary. Statement 2 is correct. The Supreme Court, building on the Puttaswamy judgment, has recognized it as an intrinsic part of the Right to Privacy under Article 21. Statement 3 is correct. The Digital Personal Data Protection Act, 2023 (previously Personal Data Protection Bill, 2019) includes provisions for the 'Right to Erasure' or correction of personal data, which is analogous to the 'Right to be Forgotten'."
+    },
+    {
+      "question": "Which of the following indicators are used to calculate the Global Hunger Index (GHI)?\n1. Undernourishment\n2. Child Wasting\n3. Child Stunting\n4. Child Mortality\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1, 2 and 3 only",
+        "(b) 1, 3 and 4 only",
+        "(c) 2, 3 and 4 only",
+        "(d) 1, 2, 3 and 4"
+      ],
+      "answer": "(d) 1, 2, 3 and 4",
+      "explanation": "The Global Hunger Index (GHI) is a tool that measures and tracks hunger globally, regionally, and nationally. The GHI score is calculated based on four indicators: 1. Undernourishment (proportion of the population with insufficient caloric intake), 2. Child Wasting (proportion of children under the age of five who have low weight for their height, reflecting acute undernutrition), 3. Child Stunting (proportion of children under the age of five who have low height for their age, reflecting chronic undernutrition), and 4. Child Mortality (mortality rate of children under the age of five)."
+    },
+    {
+      "question": "With respect to India's space program, what is the primary objective of the Next-Generation Launch Vehicle (NGLV)?",
+      "options": [
+        "(a) To serve as a dedicated launch vehicle for small satellites only.",
+        "(b) To replace PSLV for all future ISRO missions without reusability features.",
+        "(c) To develop a cost-effective, reusable heavy-lift launch vehicle for various orbits.",
+        "(d) To exclusively launch human spaceflight missions to the Moon."
+      ],
+      "answer": "(c) To develop a cost-effective, reusable heavy-lift launch vehicle for various orbits.",
+      "explanation": "The Next-Generation Launch Vehicle (NGLV) is envisioned by ISRO as a cost-effective, reusable heavy-lift launch vehicle capable of carrying heavier payloads into Geostationary Transfer Orbit (GTO), Low Earth Orbit (LEO), and other orbits. It aims to reduce launch costs and enhance payload capacity, serving commercial, human spaceflight (Gaganyaan), and deep-space missions. Options (a), (b), and (d) are incorrect as they either limit its scope or misrepresent its core features like reusability and heavy-lift capability."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "Discuss the strategic importance of India's National Green Hydrogen Mission in achieving energy security and climate goals. What are the key challenges in scaling up green hydrogen production and how can the new policy framework address them? (15 marks, 250 words)",
+      "syllabusMatch": "GS3: Infrastructure: Energy; Environmental pollution and degradation; Conservation.",
+      "approach": "Introduce the National Green Hydrogen Mission and its goals. Explain its strategic importance for energy security (reducing import dependency) and climate goals (decarbonization, Net Zero). Discuss challenges like high production costs, lack of infrastructure, technology gaps, and market demand. Analyze how the new policy (PLI, VGF, R&D support) aims to overcome these challenges, fostering indigenous manufacturing and making green hydrogen competitive."
+    },
+    {
+      "question": "The Supreme Court's reinforcement of the 'Right to be Forgotten' underscores the evolving nature of fundamental rights in the digital age. Critically examine the implications of this right for individual privacy and public information, and discuss the necessity of a comprehensive data protection law in India. (15 marks, 250 words)",
+      "syllabusMatch": "GS2: Indian Constitution—fundamental rights; Government policies and interventions; Mechanisms, laws, institutions for protection of vulnerable sections.",
+      "approach": "Define 'Right to be Forgotten' and its connection to Article 21 (Right to Privacy). Discuss its implications for individual privacy (reputational harm, control over personal data) and for public information (freedom of expression, historical record). Highlight the balance required. Argue for the necessity of a comprehensive data protection law (like DPDP Act) to provide a clear legal framework, address digital age challenges (data localization, cross-border data flows), and ensure enforcement and redressal mechanisms."
+    },
+    {
+      "question": "Despite significant progress, malnutrition remains a persistent challenge in India, as highlighted by the Global Hunger Index. Analyze the multi-dimensional causes of malnutrition in India and evaluate the effectiveness of government interventions. Suggest comprehensive strategies to achieve Sustainable Development Goal 2 (Zero Hunger) by 2030. (15 marks, 250 words)",
+      "syllabusMatch": "GS2: Issues relating to poverty and hunger; Government policies and interventions for development in various sectors.",
+      "approach": "Introduce India's GHI status and the severity of malnutrition. Analyze causes: poverty, food insecurity, lack of access to clean water/sanitation, inadequate healthcare, poor dietary diversity, women's education, and cultural practices. Evaluate existing schemes (NFSA, POSHAN Abhiyaan, MDM) – their successes and limitations. Suggest comprehensive strategies: strengthening PDS, promoting nutritional diversity, improving sanitation, enhancing women's empowerment, early childhood care, and leveraging technology for monitoring and delivery."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The National Green Hydrogen Mission targets 5 MMT of green hydrogen production capacity by 2030.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Hydrogen",
+        "Mission"
+      ]
+    },
+    {
+      "text": "The 'Right to be Forgotten' is recognized as part of the Right to Privacy under Article 21 of the Indian Constitution.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Right to Privacy",
+        "Fundamental Rights"
+      ]
+    },
+    {
+      "text": "ASEAN was founded in 1967 and comprises 10 member states in Southeast Asia.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "ASEAN",
+        "International Groupings"
+      ]
+    },
+    {
+      "text": "The Digital Rupee (e₹) is India's Central Bank Digital Currency (CBDC), distinct from cryptocurrencies.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "CBDC",
+        "RBI"
+      ]
+    },
+    {
+      "text": "ISRO's PSLV is known as the 'workhorse' launch vehicle, used for launching Earth Observation Satellites.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "PSLV"
+      ]
+    },
+    {
+      "text": "The National Education Policy (NEP) 2020 replaced the 1986 policy, introducing a 5+3+3+4 curricular structure.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "NEP 2020",
+        "Education"
+      ]
+    },
+    {
+      "text": "The Ramsar Convention (1971) is an international treaty for the conservation and sustainable use of wetlands.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Wetlands",
+        "Ramsar Sites"
+      ]
+    },
+    {
+      "text": "The Ayushman Bharat Health Account (ABHA) ID is a 14-digit unique health identification number.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "ABDM",
+        "Health ID"
+      ]
+    },
+    {
+      "text": "The Global Hunger Index (GHI) uses four indicators: undernourishment, child wasting, child stunting, and child mortality.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "Malnutrition",
+        "GHI"
+      ]
+    },
+    {
+      "text": "Rakhigarhi in Haryana is one of the largest and most significant Harappan sites in India.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "tags": [
+        "Harappan",
+        "Archaeology"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "monsoon-withdrawal-impact-agriculture",
+        "headline": "Monsoon Withdrawal Progresses, Mixed Impact on Kharif Harvest and Rabi Sowing",
+        "explainer": "• The India Meteorological Department (IMD) announced the further progression of monsoon withdrawal across parts of Northwest and Central India.\n• While overall monsoon rainfall for the season was near normal, regional disparities have led to mixed outcomes for the ongoing Kharif crop harvest.\n• Adequate soil moisture in some regions bodes well for the upcoming Rabi sowing, particularly for wheat and pulses.\n• However, concerns remain for areas that experienced deficit rainfall, potentially impacting agricultural yields and necessitating irrigation support.\n• The government is monitoring the situation closely and preparing contingency plans for affected farmers, including support for Rabi crop diversification.",
+        "category": "geography",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes.",
+          "Major crops cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers."
+        ],
+        "date": "2024-09-29",
+        "source": "India Meteorological Department (IMD)",
+        "sourceUrl": "https://mausam.imd.gov.in/XXXX",
+        "importance": "medium",
+        "tags": [
+          "Monsoon",
+          "Agriculture",
+          "Kharif Crop",
+          "Rabi Crop",
+          "IMD",
+          "Food Security",
+          "Climate Change"
+        ],
+        "keyTerms": [
+          "Southwest Monsoon",
+          "Kharif Crops",
+          "Rabi Crops",
+          "India Meteorological Department (IMD)",
+          "El Niño",
+          "La Niña"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Monsoon withdrawal typically begins in September from Northwest India.",
+          "Kharif crops are sown in monsoon and harvested in autumn (e.g., rice, maize).",
+          "Rabi crops are sown in winter and harvested in spring (e.g., wheat, barley).",
+          "IMD is the primary agency for meteorological observations and forecasting.",
+          "El Niño generally correlates with weaker monsoons in India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the impact of monsoon variability and regional rainfall distribution on India's agricultural sector and food security.",
+          "Analyze the challenges faced by farmers due to erratic monsoon patterns and the government's role in mitigating risks.",
+          "Examine the importance of accurate meteorological forecasting and climate-resilient agricultural practices.",
+          "Suggest policy interventions for improving irrigation infrastructure and promoting crop diversification to enhance agricultural resilience."
+        ],
+        "imageDescription": "A map of India showing monsoon withdrawal patterns with agricultural fields in the foreground.",
+        "section": "National",
+        "trivia": "The word 'monsoon' is derived from the Arabic word 'mausim', meaning 'season'.",
+        "prelimsSyllabus": {
+          "subject": "Geography",
+          "area": "Climatology",
+          "topic": "Monsoon"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ancient-harappan-site-discovery",
+        "headline": "Archaeologists Uncover New Insights at Ancient Harappan Site in Haryana",
+        "explainer": "• A team of archaeologists from the Archaeological Survey of India (ASI) announced significant new findings at a Harappan site in Haryana.\n• The discoveries include evidence of advanced urban planning, water management systems, and unique pottery artifacts, shedding new light on the mature Harappan period.\n• Further excavations revealed distinct residential and industrial zones, suggesting a highly organized society with specialized craftsmanship.\n• Analysis of unearthed seals and figurines provides clues about trade networks and religious practices of the ancient civilization.\n• These findings contribute to a deeper understanding of the Indus Valley Civilization's spread and cultural nuances beyond well-known sites like Mohenjo-Daro and Harappa.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times."
+        ],
+        "date": "2024-09-29",
+        "source": "Archaeological Survey of India (ASI)",
+        "sourceUrl": "https://asi.nic.in/press-release/XXXX",
+        "importance": "medium",
+        "tags": [
+          "Harappan Civilization",
+          "Indus Valley Civilization",
+          "Archaeology",
+          "Ancient India",
+          "Haryana",
+          "Urban Planning"
+        ],
+        "keyTerms": [
+          "Harappan Civilization",
+          "Indus Valley Civilization",
+          "Archaeological Survey of India (ASI)",
+          "Mature Harappan Period",
+          "Urban Planning",
+          "Artifacts"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Indus Valley Civilization flourished around 2500-1900 BCE.",
+          "Major sites: Harappa, Mohenjo-Daro, Lothal, Dholavira, Rakhigarhi.",
+          "Rakhigarhi in Haryana is one of the largest Harappan sites.",
+          "ASI is responsible for archaeological research and conservation.",
+          "Harappan cities were known for grid patterns and elaborate drainage systems."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the key features of urban planning and socio-economic organization of the Mature Harappan Civilization.",
+          "Analyze how recent archaeological discoveries contribute to our understanding of the spread and decline of the Indus Valley Civilization.",
+          "Examine the significance of water management systems and craftsmanship in Harappan cities.",
+          "Evaluate the challenges and ethical considerations in archaeological excavations and preservation of ancient sites in India."
+        ],
+        "imageDescription": "An archaeological dig site showing excavated ancient pottery and structures.",
+        "section": "National",
+        "trivia": "The Indus Valley Civilization is one of the world's three early civilizations of the Ancient Near East and South Asia, along with Ancient Egypt and Mesopotamia.",
+        "prelimsSyllabus": {
+          "subject": "History",
+          "area": "Ancient India",
+          "topic": "Indus Valley Civilization"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "sc-ruling-right-to-privacy-data",
+        "headline": "Supreme Court Reinforces 'Right to be Forgotten' in Digital Age, Calls for Comprehensive Data Protection Law",
+        "explainer": "• The Supreme Court delivered a landmark judgment emphasizing the 'Right to be Forgotten' as an intrinsic part of the Right to Privacy under Article 21 of the Constitution.\n• The ruling came in a case involving the removal of outdated personal information from public digital platforms that was causing reputational harm to an individual.\n• The Court urged the government to expedite the enactment of a robust, comprehensive data protection law that addresses emerging challenges of the digital era, including data localization and cross-border data flows.\n• It highlighted the need for a balance between an individual's right to privacy and the public's right to information, especially concerning public figures.\n• This judgment is expected to have significant implications for internet intermediaries, search engines, and social media platforms operating in India.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+          "Mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+        ],
+        "date": "2024-09-29",
+        "source": "The Hindu",
+        "sourceUrl": "https://www.thehindu.com/news/national/XXXX",
+        "importance": "high",
+        "tags": [
+          "Right to Privacy",
+          "Right to be Forgotten",
+          "Data Protection",
+          "Supreme Court",
+          "Article 21",
+          "Digital Rights"
+        ],
+        "keyTerms": [
+          "Right to Privacy",
+          "Right to be Forgotten",
+          "Personal Data Protection Bill",
+          "Digital India",
+          "Article 21"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Puttaswamy judgment (2017) declared Right to Privacy a fundamental right.",
+          "Justice B.N. Srikrishna Committee report on data protection.",
+          "Article 21 of the Indian Constitution guarantees protection of life and personal liberty.",
+          "The Personal Data Protection Bill, 2019 (now Digital Personal Data Protection Act, 2023) is relevant."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolution of the Right to Privacy in India and its implications for digital governance.",
+          "Analyze the challenges in implementing the 'Right to be Forgotten' in a technologically advanced and interconnected world.",
+          "Examine the need for a balanced data protection framework that safeguards individual rights while promoting digital innovation.",
+          "Critically evaluate the role of the judiciary in interpreting fundamental rights in the context of emerging technologies."
+        ],
+        "imageDescription": "Gavel on a legal document with a blurred digital background symbolizing data.",
+        "section": "National",
+        "trivia": "The concept of 'Right to be Forgotten' originated in Europe, with a landmark ruling by the European Court of Justice in 2014.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-asean-maritime-security-dialogue",
+        "headline": "India-ASEAN Dialogue Focuses on Enhanced Maritime Security and Regional Stability",
+        "explainer": "• India hosted the annual India-ASEAN Maritime Security Dialogue, emphasizing cooperation on traditional and non-traditional security threats in the Indo-Pacific region.\n• Discussions focused on joint naval exercises, information sharing, capacity building for coastal surveillance, and combating piracy and illegal fishing.\n• Both sides reiterated commitment to a free, open, and inclusive Indo-Pacific, upholding international law, particularly UNCLOS.\n• The dialogue also touched upon humanitarian assistance and disaster relief (HADR) operations and enhancing interoperability among maritime agencies.\n• This engagement underscores India's 'Act East' policy and its growing strategic convergence with ASEAN nations.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2024-09-29",
+        "source": "Ministry of External Affairs (MEA)",
+        "sourceUrl": "https://mea.gov.in/press-releases.htm",
+        "importance": "high",
+        "tags": [
+          "India-ASEAN",
+          "Maritime Security",
+          "Indo-Pacific",
+          "Act East Policy",
+          "UNCLOS",
+          "Regional Cooperation"
+        ],
+        "keyTerms": [
+          "ASEAN",
+          "Indo-Pacific",
+          "UNCLOS",
+          "Act East Policy",
+          "HADR",
+          "SAGAR Vision"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ASEAN was founded in 1967.",
+          "India became a Sectoral Dialogue Partner of ASEAN in 1992.",
+          "UNCLOS (United Nations Convention on the Law of the Sea) is a key international treaty.",
+          "SAGAR (Security and Growth for All in the Region) is India's vision for the Indian Ocean.",
+          "10 member states in ASEAN."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of India-ASEAN maritime cooperation for regional stability and India's strategic interests.",
+          "Discuss the challenges to maritime security in the Indo-Pacific and how India and ASEAN can jointly address them.",
+          "Evaluate the effectiveness of India's Act East Policy in strengthening ties with Southeast Asian nations.",
+          "Examine the role of multilateral forums like ASEAN in shaping India's foreign policy objectives."
+        ],
+        "imageDescription": "Naval ships from India and ASEAN countries participating in a joint exercise.",
+        "section": "International",
+        "trivia": "The Strait of Malacca, a crucial maritime chokepoint, connects the Indian Ocean to the Pacific Ocean, making maritime security in the region vital for global trade.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Regional Groupings",
+          "topic": "ASEAN"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "new-education-policy-implementation-review",
+        "headline": "Government Reviews Progress of National Education Policy (NEP) 2020 Implementation",
+        "explainer": "• The Ministry of Education held a high-level meeting to review the implementation status of the National Education Policy (NEP) 2020 across states and Union Territories.\n• Discussions focused on the progress in curriculum reforms, vocational education integration, digital learning initiatives, and teacher training programs.\n• Challenges identified include infrastructure gaps, faculty shortages, and the need for greater state-level coordination in adopting the new framework.\n• The Ministry reiterated its commitment to achieving the policy's goals, particularly universal access to quality education and skill development.\n• Emphasis was placed on leveraging technology for education delivery and assessment, in line with the policy's vision.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Development processes and the development industry—the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders.",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+        ],
+        "date": "2024-09-29",
+        "source": "Ministry of Education",
+        "sourceUrl": "https://www.education.gov.in/XXXX",
+        "importance": "medium",
+        "tags": [
+          "NEP 2020",
+          "Education Policy",
+          "Vocational Education",
+          "Digital Learning",
+          "Curriculum Reform",
+          "Skill Development"
+        ],
+        "keyTerms": [
+          "National Education Policy 2020",
+          "Holistic Education",
+          "Vocational Education",
+          "Multidisciplinary Education",
+          "Foundational Literacy and Numeracy (FLN)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NEP 2020 replaced the 1986 policy.",
+          "It proposes a 5+3+3+4 curricular structure.",
+          "Focus on multidisciplinary and holistic education.",
+          "Emphasis on vocational education from Class 6 onwards.",
+          "Goal of 100% Gross Enrolment Ratio (GER) in preschool to secondary level by 2030."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the transformative potential of NEP 2020 in addressing the challenges of India's education system.",
+          "Discuss the key reforms proposed by NEP 2020 and their expected impact on students and the workforce.",
+          "Evaluate the implementation challenges faced by states and suggest measures for effective policy rollout.",
+          "Examine the role of technology and teacher training in achieving the objectives of NEP 2020."
+        ],
+        "imageDescription": "Children in a classroom setting, symbolizing education.",
+        "section": "National",
+        "trivia": "The Kothari Commission (1964-66) was instrumental in shaping India's first National Policy on Education in 1968.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Education",
+          "topic": "Government Policies"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-brazil-south-south-cooperation",
+        "headline": "India and Brazil Strengthen South-South Cooperation on Climate Action and Renewable Energy",
+        "explainer": "• India and Brazil held high-level bilateral talks, reiterating their commitment to strengthening South-South cooperation, particularly in climate change mitigation and renewable energy.\n• Discussions included joint research and development projects in biofuels, solar energy, and sustainable agriculture.\n• Both nations emphasized the importance of a common position in international climate negotiations, advocating for climate justice and equitable burden-sharing.\n• They agreed to share best practices in sustainable development models and collaborate on technology transfer for green technologies.\n• This partnership highlights the growing role of major developing economies in global environmental governance.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+          "Important International institutions, agencies and fora, their structure, mandate."
+        ],
+        "date": "2024-09-29",
+        "source": "The Economic Times",
+        "sourceUrl": "https://economictimes.indiatimes.com/news/economy/policy/XXXX",
+        "importance": "medium",
+        "tags": [
+          "India-Brazil",
+          "South-South Cooperation",
+          "Climate Change",
+          "Renewable Energy",
+          "BRICS",
+          "Climate Justice"
+        ],
+        "keyTerms": [
+          "South-South Cooperation",
+          "Climate Justice",
+          "Biofuels",
+          "BRICS",
+          "Renewable Energy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India and Brazil are members of BRICS.",
+          "Both are major developing economies.",
+          "Brazil is a leading producer of ethanol from sugarcane.",
+          "South-South cooperation refers to collaboration among developing countries.",
+          "International Solar Alliance (ISA) is an initiative by India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of South-South cooperation in addressing global challenges like climate change and sustainable development.",
+          "Analyze the potential for India-Brazil collaboration in renewable energy and green technologies.",
+          "Examine how developing countries can collectively influence international climate negotiations.",
+          "Evaluate the role of BRICS in fostering economic and environmental cooperation among member states."
+        ],
+        "imageDescription": "Flags of India and Brazil intertwined, symbolizing cooperation.",
+        "section": "International",
+        "trivia": "Brazil has the largest tropical forest in the world, the Amazon rainforest, which plays a crucial role in global climate regulation.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India-Brazil"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "un-general-assembly-india-address",
+        "headline": "India Reiterates Call for UN Reforms at General Assembly Session",
+        "explainer": "• India's Permanent Representative to the UN addressed the 79th session of the UN General Assembly, reiterating India's long-standing demand for comprehensive reforms of the United Nations Security Council (UNSC).\n• The address highlighted the anachronistic nature of the current UNSC structure, which does not reflect contemporary geopolitical realities.\n• India emphasized the need for greater representation for developing countries and increased transparency in the Council's functioning.\n• The statement also touched upon global challenges such as climate change, terrorism, and sustainable development, urging collective action.\n• This consistent advocacy underscores India's aspiration for a permanent seat in a reformed UNSC.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2024-09-29",
+        "source": "United Nations News",
+        "sourceUrl": "https://news.un.org/en/story/XXXX",
+        "importance": "medium",
+        "tags": [
+          "UN Reforms",
+          "UNSC",
+          "Multilateralism",
+          "India at UN",
+          "Global Governance",
+          "Developing Countries"
+        ],
+        "keyTerms": [
+          "United Nations Security Council (UNSC)",
+          "UN General Assembly (UNGA)",
+          "G4 Nations",
+          "Permanent Membership",
+          "Multilateralism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "UNSC has 5 permanent members (P5) and 10 non-permanent members.",
+          "P5 members have veto power.",
+          "India is a member of the G4 group, advocating for UNSC expansion.",
+          "UNGA is the main deliberative, policymaking and representative organ of the UN.",
+          "The UN was founded in 1945."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the arguments for and against the reform of the UN Security Council.",
+          "Analyze India's persistent demand for a permanent seat in the UNSC and its implications for global power dynamics.",
+          "Examine the challenges to achieving consensus on UN reforms among member states.",
+          "Evaluate the effectiveness of the UN in addressing contemporary global challenges in its current structure."
+        ],
+        "imageDescription": "The United Nations headquarters building in New York.",
+        "section": "International",
+        "trivia": "The UN Security Council held its first session on 17 January 1946 in London.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Organizations",
+          "topic": "United Nations"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ayushman-bharat-digital-mission-progress",
+        "headline": "Ayushman Bharat Digital Mission Achieves Milestone in Health ID Generation",
+        "explainer": "• The Ayushman Bharat Digital Mission (ABDM) announced a significant milestone, surpassing 500 million Ayushman Bharat Health Accounts (ABHA) IDs generated nationwide.\n• This achievement marks substantial progress in creating a seamless online platform for healthcare services, enabling digital storage and access to medical records.\n• The mission aims to build the necessary infrastructure to support India's integrated digital health ecosystem, connecting patients, doctors, and other healthcare providers.\n• It facilitates interoperability of health data and promotes paperless healthcare, improving efficiency and accessibility.\n• The government plans further outreach to ensure wider adoption, especially in rural and remote areas, to realize the vision of 'Health for All'.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2024-09-29",
+        "source": "National Health Authority (NHA)",
+        "sourceUrl": "https://nha.gov.in/XXXX",
+        "importance": "medium",
+        "tags": [
+          "ABDM",
+          "Digital Health",
+          "Health ID",
+          "Healthcare Access",
+          "National Health Authority",
+          "Telemedicine"
+        ],
+        "keyTerms": [
+          "Ayushman Bharat Digital Mission (ABDM)",
+          "Ayushman Bharat Health Account (ABHA)",
+          "Digital Health Ecosystem",
+          "National Health Authority (NHA)",
+          "Telemedicine"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ABDM was launched in 2021 by Prime Minister Narendra Modi.",
+          "NHA is the implementing agency.",
+          "ABHA ID is a 14-digit unique health identification number.",
+          "It aims to link the digital health solutions of hospitals across the country.",
+          "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB PM-JAY) is a related scheme."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the potential of the Ayushman Bharat Digital Mission in transforming India's healthcare delivery system.",
+          "Analyze the benefits and challenges of creating a centralized digital health ecosystem in a diverse country like India.",
+          "Examine the role of technology in improving healthcare access, affordability, and quality.",
+          "Suggest measures to address issues of data privacy, security, and digital literacy for wider adoption of ABDM."
+        ],
+        "imageDescription": "A graphic depicting an ABHA health ID card with digital connections to various healthcare services.",
+        "section": "National",
+        "trivia": "The National Digital Health Blueprint, released in 2019, laid the groundwork for the Ayushman Bharat Digital Mission.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Health",
+          "topic": "Government Schemes"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "global-hunger-index-report-india",
+        "headline": "Global Hunger Index 2024: India's Position and Efforts to Combat Malnutrition",
+        "explainer": "• The Global Hunger Index (GHI) 2024 report was released, indicating India's continued progress in addressing hunger and malnutrition, though challenges persist.\n• India's ranking improved slightly, reflecting ongoing efforts through various government schemes targeting food security and nutritional outcomes.\n• The report highlighted specific areas where India needs to intensify efforts, such as reducing child wasting and improving dietary diversity.\n• Government officials reiterated their commitment to achieving Sustainable Development Goal (SDG) 2: Zero Hunger by 2030.\n• The GHI report serves as a critical tool for assessing national and global progress in combating hunger and identifying areas for intervention.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to poverty and hunger.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2024-09-29",
+        "source": "International Food Policy Research Institute (IFPRI)",
+        "sourceUrl": "https://www.globalhungerindex.org/XXXX",
+        "importance": "high",
+        "tags": [
+          "Global Hunger Index",
+          "Malnutrition",
+          "Food Security",
+          "Child Wasting",
+          "Government Schemes",
+          "SDGs"
+        ],
+        "keyTerms": [
+          "Global Hunger Index (GHI)",
+          "Malnutrition",
+          "Child Wasting",
+          "Child Stunting",
+          "Undernourishment",
+          "Sustainable Development Goal (SDG) 2"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "GHI is published annually by Concern Worldwide and Welthungerhilfe.",
+          "GHI score is based on four indicators: undernourishment, child wasting, child stunting, and child mortality.",
+          "POSHAN Abhiyaan (National Nutrition Mission) is a flagship scheme.",
+          "National Food Security Act (NFSA) 2013 aims to provide subsidized food grains.",
+          "SDG 2 aims for Zero Hunger by 2030."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically analyze India's performance in the Global Hunger Index and the underlying causes of persistent malnutrition.",
+          "Discuss the effectiveness of government schemes and policies aimed at ensuring food security and improving nutritional outcomes in India.",
+          "Examine the multi-sectoral approach required to address malnutrition, considering health, sanitation, education, and women's empowerment.",
+          "Suggest innovative strategies and policy reforms for India to achieve its targets under SDG 2: Zero Hunger."
+        ],
+        "imageDescription": "A graphic depicting the indicators of the Global Hunger Index.",
+        "section": "National",
+        "trivia": "Globally, nearly 690 million people are undernourished, according to recent UN estimates.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Poverty & Hunger",
+          "topic": "Malnutrition"
+        },
+        "prelimsPotential": 4
+      }
+    ],
+    "GS3": [
+      {
+        "id": "green-hydrogen-mission-policy-boost",
+        "headline": "India Unveils New Policy Framework to Accelerate Green Hydrogen Mission",
+        "explainer": "• The Ministry of New and Renewable Energy (MNRE) announced a comprehensive policy framework offering production-linked incentives (PLI) and viability gap funding (VGF) for green hydrogen and electrolyser manufacturing.\n• The policy aims to reduce the cost of green hydrogen production, making it competitive with fossil-fuel-based hydrogen, and promote India as a global hub for green hydrogen.\n• Key components include tax breaks for early adopters, dedicated green hydrogen corridors, and R&D support for advanced electrolyser technologies.\n• The move is crucial for India's energy security, decarbonization goals, and achieving Net Zero emissions by 2070.\n• Industry experts laud the policy for providing long-term visibility and investor confidence in the nascent green hydrogen sector.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy",
+          "Environmental pollution and degradation",
+          "Conservation",
+          "New and renewable energy"
+        ],
+        "date": "2024-09-29",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=XXXX",
+        "importance": "high",
+        "tags": [
+          "Green Hydrogen",
+          "Energy Transition",
+          "Renewable Energy",
+          "Climate Change",
+          "Make in India",
+          "PLI Scheme"
+        ],
+        "keyTerms": [
+          "National Green Hydrogen Mission",
+          "Electrolyser Manufacturing",
+          "Viability Gap Funding (VGF)",
+          "Production Linked Incentive (PLI)",
+          "Net Zero Emissions"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Green Hydrogen Mission launched in 2023.",
+          "MNRE is the nodal ministry.",
+          "Target: 5 MMT (Million Metric Tonnes) green hydrogen production capacity by 2030.",
+          "PLI and VGF are financial incentives.",
+          "Aim to reduce green hydrogen cost to $1/kg."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss India's strategy for energy security and decarbonization through green hydrogen.",
+          "Analyze the economic implications of the new policy for domestic manufacturing and exports.",
+          "Evaluate the challenges in scaling up green hydrogen production and adoption in India.",
+          "Examine the role of policy support in fostering new-age industries and achieving climate targets."
+        ],
+        "imageDescription": "Illustration of a green hydrogen plant with electrolysers and renewable energy sources.",
+        "section": "Lead Opinion",
+        "trivia": "Hydrogen is the most abundant chemical substance in the universe, making up roughly 75% of all normal matter.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Energy",
+          "topic": "Renewable Energy Schemes"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "rbi-digital-rupee-pilot-expansion",
+        "headline": "RBI Expands Digital Rupee (e₹) Pilot to Include More Banks and Use Cases",
+        "explainer": "• The Reserve Bank of India (RBI) announced a significant expansion of its Central Bank Digital Currency (CBDC) pilot project for both retail (e₹-R) and wholesale (e₹-W) segments.\n• The expansion includes onboarding more public and private sector banks and exploring new use cases beyond interbank settlements and person-to-person transactions.\n• Focus areas for new use cases include programmable payments, offline functionality, and integration with existing payment infrastructure like UPI.\n• The RBI aims to gather more data on user experience, technological robustness, and economic impact before a full-scale rollout.\n• This move signals India's proactive approach to digital currencies and financial innovation, potentially revolutionizing the payment landscape.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+          "Government Budgeting.",
+          "Science and Technology- developments and their applications and effects in everyday life."
+        ],
+        "date": "2024-09-29",
+        "source": "Reserve Bank of India (RBI)",
+        "sourceUrl": "https://www.rbi.org.in/Scripts/PressReleaseDisplay.aspx?prid=XXXX",
+        "importance": "high",
+        "tags": [
+          "Digital Rupee",
+          "CBDC",
+          "RBI",
+          "Financial Technology",
+          "Digital Payments",
+          "Monetary Policy"
+        ],
+        "keyTerms": [
+          "Central Bank Digital Currency (CBDC)",
+          "e₹-R (Retail CBDC)",
+          "e₹-W (Wholesale CBDC)",
+          "Blockchain Technology",
+          "Unified Payments Interface (UPI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "RBI launched the wholesale CBDC pilot on Nov 1, 2022.",
+          "Retail CBDC pilot launched on Dec 1, 2022.",
+          "CBDC is a legal tender issued by a central bank in digital form.",
+          "It is different from cryptocurrencies like Bitcoin.",
+          "Programmable payments allow for specific conditions for transactions."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the potential benefits and risks associated with the introduction of a Central Bank Digital Currency in India.",
+          "Analyze how the Digital Rupee could impact India's financial ecosystem, including banks and payment service providers.",
+          "Examine the technological challenges and regulatory considerations in developing and deploying a national CBDC.",
+          "Compare and contrast India's approach to CBDC with that of other major economies globally."
+        ],
+        "imageDescription": "Digital representation of Indian Rupee symbol with binary code background.",
+        "section": "Economy",
+        "trivia": "The Bahamas was the first country to launch a full-fledged retail CBDC, known as the 'Sand Dollar', in 2020.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Monetary Policy",
+          "topic": "Digital Currency"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "isro-next-gen-launch-vehicle-progress",
+        "headline": "ISRO Achieves Key Milestone in Next-Gen Launch Vehicle Development",
+        "explainer": "• The Indian Space Research Organisation (ISRO) successfully conducted a critical hot test of the cryogenic upper stage engine for its Next-Generation Launch Vehicle (NGLV).\n• The NGLV is envisioned as a cost-effective, reusable heavy-lift launch vehicle capable of carrying heavier payloads into various orbits.\n• This test validates the indigenous design and manufacturing capabilities for advanced propulsion systems, crucial for future space missions.\n• The NGLV aims to replace existing operational launchers like PSLV and GSLV, offering enhanced payload capacity and reduced launch costs through reusability.\n• This development is vital for India's ambitions in commercial space launches, human spaceflight (Gaganyaan), and deep-space exploration.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology."
+        ],
+        "date": "2024-09-29",
+        "source": "ISRO",
+        "sourceUrl": "https://www.isro.gov.in/pressrelease/XXXX",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "NGLV",
+          "Space Technology",
+          "Cryogenic Engine",
+          "Reusable Launch Vehicle",
+          "Gaganyaan"
+        ],
+        "keyTerms": [
+          "Next-Generation Launch Vehicle (NGLV)",
+          "Cryogenic Engine",
+          "Reusable Launch Vehicle (RLV)",
+          "Gaganyaan Mission",
+          "PSLV",
+          "GSLV"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "PSLV is ISRO's workhorse launch vehicle.",
+          "GSLV is used for heavier satellites and geostationary orbits.",
+          "Cryogenic engines use liquid oxygen and liquid hydrogen as propellants.",
+          "RLV-TD (Reusable Launch Vehicle – Technology Demonstrator) is a precursor project.",
+          "NGLV aims for a payload capacity of up to 10 tonnes to GTO."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of developing indigenous heavy-lift and reusable launch vehicle technology for India's space program.",
+          "Analyze how NGLV can enhance India's capabilities in commercial space, human spaceflight, and deep-space missions.",
+          "Examine the economic benefits and technological challenges associated with reusable launch vehicles.",
+          "Evaluate the role of ISRO in promoting scientific temper and technological self-reliance in India."
+        ],
+        "imageDescription": "Diagram of the Next-Generation Launch Vehicle (NGLV) with a focus on its engine.",
+        "section": "Science",
+        "trivia": "The first successful flight of a cryogenic engine by ISRO was in 2014 with the GSLV-D5 mission.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space",
+          "topic": "Launch Vehicles"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "new-wetland-conservation-plan",
+        "headline": "Ministry of Environment Launches New Wetland Conservation and Management Plan",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) unveiled an enhanced national action plan for the conservation and sustainable management of wetlands.\n• The plan focuses on holistic approaches, including community participation, scientific inventorying of wetlands, restoration of degraded sites, and stricter enforcement against encroachment.\n• It integrates climate change resilience measures and promotes eco-tourism opportunities around identified wetlands.\n• Special emphasis is laid on wetlands outside the Ramsar List, ensuring broader protection for diverse aquatic ecosystems.\n• This initiative is critical for biodiversity preservation, water security, and mitigating the impacts of climate change.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Disaster and disaster management."
+        ],
+        "date": "2024-09-29",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "https://moef.gov.in/en/XXXX",
+        "importance": "medium",
+        "tags": [
+          "Wetland Conservation",
+          "Biodiversity",
+          "Ramsar Sites",
+          "Climate Resilience",
+          "Ecosystem Services",
+          "Environmental Policy"
+        ],
+        "keyTerms": [
+          "Wetlands",
+          "Ramsar Convention",
+          "Ecosystem Services",
+          "Biodiversity Hotspots",
+          "Wetland (Conservation and Management) Rules"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ramsar Convention signed in 1971 in Ramsar, Iran.",
+          "World Wetlands Day is celebrated on February 2nd.",
+          "Wetlands are crucial for flood control, water purification, and biodiversity.",
+          "India has a significant number of Ramsar Sites.",
+          "Wetland (Conservation and Management) Rules, 2017 are in place."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ecological and economic significance of wetlands and the threats they face in India.",
+          "Analyze the key features of the new wetland conservation plan and its potential effectiveness.",
+          "Examine the role of community participation and inter-sectoral coordination in wetland management.",
+          "Suggest policy measures to enhance the protection of wetlands beyond designated Ramsar Sites."
+        ],
+        "imageDescription": "A serene wetland landscape with migratory birds and lush vegetation.",
+        "section": "Environment",
+        "trivia": "Chilika Lake in Odisha was the first Indian wetland of international importance designated under the Ramsar Convention.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Conservation",
+          "topic": "Wetlands"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "defence-indigenization-update",
+        "headline": "Defence Ministry Releases New 'Positive Indigenisation List' for Defence Procurement",
+        "explainer": "• The Ministry of Defence released its fourth 'Positive Indigenisation List' (PIL) comprising 101 items that will be procured only from domestic sources after specific timelines.\n• This list includes complex systems, sub-systems, and components, further boosting India's self-reliance in defence manufacturing.\n• The move is aimed at reducing import dependency, stimulating domestic R&D, and strengthening the 'Make in India' initiative in the defence sector.\n• The policy provides a clear roadmap for the Indian defence industry to invest in technological upgrades and production capabilities.\n• It is expected to create significant opportunities for MSMEs and startups in the defence ecosystem.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism."
+        ],
+        "date": "2024-09-29",
+        "source": "Ministry of Defence",
+        "sourceUrl": "https://www.mod.gov.in/XXXX",
+        "importance": "medium",
+        "tags": [
+          "Defence Indigenisation",
+          "Make in India",
+          "Defence Procurement",
+          "Self-Reliance",
+          "Defence Manufacturing",
+          "MSMEs"
+        ],
+        "keyTerms": [
+          "Positive Indigenisation List (PIL)",
+          "Defence Acquisition Procedure (DAP)",
+          "Strategic Partnership Model",
+          "Defence Corridors",
+          "Atmanirbhar Bharat"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "First PIL released in 2020.",
+          "DAP 2020 promotes indigenous defence production.",
+          "Defence Corridors established in Uttar Pradesh and Tamil Nadu.",
+          "The goal is to achieve $5 billion in defence exports by 2025.",
+          "MSMEs play a crucial role in defence supply chains."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of defence indigenization for India's national security and economic growth.",
+          "Analyze how the 'Positive Indigenisation List' contributes to achieving self-reliance in the defence sector.",
+          "Examine the challenges faced by the domestic defence industry and suggest measures to overcome them.",
+          "Evaluate the role of government policies in fostering a robust defence manufacturing ecosystem in India."
+        ],
+        "imageDescription": "Modern defence equipment manufactured in India.",
+        "section": "National",
+        "trivia": "India is one of the world's largest importers of defence equipment, a trend the indigenization drive aims to reverse.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "Defence",
+          "topic": "Indigenisation"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "global-fossil-fuel-subsidy-report",
+        "headline": "UNEP Report Highlights Persistent Global Fossil Fuel Subsidies Despite Climate Goals",
+        "explainer": "• A new report by the UN Environment Programme (UNEP) revealed that global fossil fuel subsidies continue to rise, undermining efforts to combat climate change.\n• The report indicates that governments worldwide spent record amounts on supporting fossil fuels in 2023, largely due to energy price volatility and cost-of-living crises.\n• It calls for an urgent phase-out of inefficient fossil fuel subsidies and a redirection of funds towards renewable energy and sustainable alternatives.\n• The persistence of these subsidies creates market distortions, discourages green investments, and exacerbates greenhouse gas emissions.\n• This finding poses a significant challenge for countries committed to their Paris Agreement targets and achieving global decarbonization.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment."
+        ],
+        "date": "2024-09-29",
+        "source": "UN Environment Programme (UNEP)",
+        "sourceUrl": "https://www.unep.org/news-and-stories/press-release/XXXX",
+        "importance": "high",
+        "tags": [
+          "Fossil Fuel Subsidies",
+          "Climate Change",
+          "UNEP",
+          "Renewable Energy",
+          "Energy Transition",
+          "Paris Agreement"
+        ],
+        "keyTerms": [
+          "Fossil Fuel Subsidies",
+          "UN Environment Programme (UNEP)",
+          "Paris Agreement",
+          "Decarbonization",
+          "Greenhouse Gas Emissions",
+          "Just Energy Transition"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "UNEP is the leading global environmental authority.",
+          "Paris Agreement (2015) aims to limit global warming to well below 2°C.",
+          "Fossil fuels include coal, oil, and natural gas.",
+          "Subsidies can be direct financial transfers or tax breaks.",
+          "IPCC (Intergovernmental Panel on Climate Change) provides scientific assessments."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the economic and environmental implications of persistent fossil fuel subsidies globally.",
+          "Analyze the challenges faced by developing countries in phasing out fossil fuel subsidies while ensuring energy access and affordability.",
+          "Examine the strategies for a 'just energy transition' that supports vulnerable populations during the shift to renewable energy.",
+          "Evaluate the role of international organizations like UNEP in advocating for sustainable energy policies."
+        ],
+        "imageDescription": "A graph showing rising fossil fuel subsidies alongside a backdrop of industrial emissions.",
+        "section": "International",
+        "trivia": "The G20 nations committed to phasing out inefficient fossil fuel subsidies in 2009, a pledge that has seen limited progress.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Climate Change",
+          "topic": "International Reports"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "indias-tourism-sector-recovery",
+        "headline": "India's Tourism Sector Shows Strong Recovery, Focus on Sustainable Tourism",
+        "explainer": "• The Ministry of Tourism reported a significant rebound in both domestic and international tourist arrivals, surpassing pre-pandemic levels in several key destinations.\n• The recovery is attributed to government initiatives like 'Dekho Apna Desh', improved connectivity, and targeted marketing campaigns.\n• There's a growing emphasis on promoting sustainable and responsible tourism, including eco-tourism, rural tourism, and cultural heritage circuits.\n• New policies are being formulated to enhance infrastructure, ensure tourist safety, and develop lesser-known destinations.\n• The sector is poised for further growth, contributing significantly to employment generation and foreign exchange earnings.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+        ],
+        "date": "2024-09-29",
+        "source": "Ministry of Tourism",
+        "sourceUrl": "https://tourism.gov.in/XXXX",
+        "importance": "medium",
+        "tags": [
+          "Tourism",
+          "Economic Recovery",
+          "Sustainable Tourism",
+          "Dekho Apna Desh",
+          "Employment Generation",
+          "Cultural Heritage"
+        ],
+        "keyTerms": [
+          "Sustainable Tourism",
+          "Eco-tourism",
+          "Rural Tourism",
+          "Dekho Apna Desh",
+          "Incredible India",
+          "Foreign Exchange Earnings"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "'Dekho Apna Desh' initiative promotes domestic tourism.",
+          "Incredible India campaign targets international tourists.",
+          "Tourism sector is a major employer.",
+          "Foreign Exchange Earnings (FEEs) from tourism are a key indicator.",
+          "Swadesh Darshan Scheme focuses on theme-based tourist circuits."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the economic significance of the tourism sector for India and the factors contributing to its post-pandemic recovery.",
+          "Analyze the concept of sustainable tourism and its importance for India's diverse ecological and cultural heritage.",
+          "Examine government initiatives aimed at promoting tourism and their effectiveness.",
+          "Suggest strategies to further boost tourism, enhance tourist experience, and ensure local community benefits."
+        ],
+        "imageDescription": "A vibrant picture of a popular Indian tourist destination, showcasing its cultural richness.",
+        "section": "Economy",
+        "trivia": "India's first National Tourism Policy was announced in 1982.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Sectors of Economy",
+          "topic": "Tourism"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ai-governance-framework-india",
+        "headline": "India Pushes for Ethical AI Governance Framework at Global AI Summit",
+        "explainer": "• India participated in a global Artificial Intelligence (AI) summit, advocating for a multilateral governance framework that ensures ethical, responsible, and inclusive development and deployment of AI.\n• The Indian delegation highlighted the need for a human-centric approach to AI, addressing concerns around bias, privacy, accountability, and the socio-economic impact of automation.\n• India emphasized its commitment to leveraging AI for public good, citing initiatives in healthcare, agriculture, and education.\n• The discussions also focused on international cooperation for AI research, standard-setting, and capacity building, especially for developing nations.\n• This stance aligns with India's vision of 'AI for All' and its growing leadership in digital public infrastructure.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to Intellectual Property Rights."
+        ],
+        "date": "2024-09-29",
+        "source": "PTI",
+        "sourceUrl": "https://www.ptinews.com/news/national/XXXX",
+        "importance": "medium",
+        "tags": [
+          "AI Governance",
+          "Ethical AI",
+          "Artificial Intelligence",
+          "Digital Public Infrastructure",
+          "International Cooperation",
+          "Technology Policy"
+        ],
+        "keyTerms": [
+          "Artificial Intelligence (AI)",
+          "AI Governance",
+          "Ethical AI",
+          "Digital Public Infrastructure (DPI)",
+          "Responsible AI",
+          "AI for All"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NITI Aayog released 'National Strategy for Artificial Intelligence' in 2018.",
+          "India's G20 presidency focused on Digital Public Infrastructure.",
+          "AI can be applied in various sectors like healthcare, agriculture, education.",
+          "Concerns include algorithmic bias and job displacement.",
+          "Responsible AI development is crucial."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ethical challenges and societal implications of rapidly advancing Artificial Intelligence technologies.",
+          "Analyze India's approach to AI governance and its advocacy for a human-centric global framework.",
+          "Examine the potential of AI to drive socio-economic development in India, particularly in priority sectors.",
+          "Evaluate the need for international cooperation and standard-setting in regulating AI to prevent misuse and ensure equitable benefits."
+        ],
+        "imageDescription": "A stylized brain connecting with digital circuits, representing AI and its global reach.",
+        "section": "Science",
+        "trivia": "The term 'Artificial Intelligence' was coined by John McCarthy in 1956 at the Dartmouth Conference.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "IT",
+          "topic": "Artificial Intelligence"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "editorial-urban-resilience-planning",
+        "headline": "Editorial: Towards Resilient Urban Planning for Climate Change Adaptation",
+        "explainer": "• This editorial highlights the increasing vulnerability of Indian cities to extreme weather events, calling for a paradigm shift in urban planning.\n• It emphasizes the need for integrated strategies that incorporate climate change adaptation and disaster risk reduction into city development plans.\n• Key recommendations include investing in green infrastructure, improving drainage systems, promoting sustainable transport, and strengthening early warning mechanisms.\n• The editorial argues for greater collaboration between urban local bodies, state governments, and citizens in building climate-resilient cities.\n• It underscores that sustainable urban development is not just an environmental imperative but also an economic necessity for India's future.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Disaster and disaster management.",
+          "Urbanization, their problems and their remedies."
+        ],
+        "date": "2024-09-29",
+        "source": "The Indian Express",
+        "sourceUrl": "https://indianexpress.com/article/opinion/XXXX",
+        "importance": "high",
+        "tags": [
+          "Urban Planning",
+          "Climate Adaptation",
+          "Disaster Resilience",
+          "Green Infrastructure",
+          "Sustainable Cities",
+          "Climate Change"
+        ],
+        "keyTerms": [
+          "Urban Resilience",
+          "Climate Adaptation",
+          "Disaster Risk Reduction (DRR)",
+          "Green Infrastructure",
+          "Smart Cities Mission",
+          "Urban Local Bodies (ULBs)"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the multifaceted challenges faced by Indian cities due to climate change and rapid urbanization.",
+          "Discuss the principles of resilient urban planning and how they can be integrated into India's urban development policies.",
+          "Examine the role of green infrastructure, technological solutions, and community engagement in building climate-resilient cities.",
+          "Suggest policy recommendations for strengthening urban local bodies and fostering inter-agency coordination for effective disaster management."
+        ],
+        "imageDescription": "A modern cityscape with elements of green spaces and flood-resistant architecture.",
+        "section": "Editorial",
+        "trivia": "Over 35% of India's population lives in urban areas, a figure projected to reach 50% by 2050, making urban resilience critical.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Climate Change",
+          "topic": "Urban Adaptation"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "new-scheme-for-msme-digitalization",
+        "headline": "Government Launches Scheme to Boost Digitalization of MSMEs",
+        "explainer": "• The Ministry of Micro, Small & Medium Enterprises (MSME) launched a new scheme aimed at facilitating the digitalization and technological upgrade of MSMEs across various sectors.\n• The scheme offers financial assistance for adopting digital tools, cloud computing, e-commerce integration, and cybersecurity solutions.\n• It seeks to enhance the competitiveness of Indian MSMEs in global markets and integrate them into the digital economy.\n• Capacity building programs and workshops will also be conducted to improve digital literacy among MSME entrepreneurs.\n• This initiative is expected to drive innovation, improve efficiency, and create new employment opportunities within the MSME sector.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+          "Government Budgeting.",
+          "Science and Technology- developments and their applications and effects in everyday life."
+        ],
+        "date": "2024-09-29",
+        "source": "The Hindu BusinessLine",
+        "sourceUrl": "https://www.thehindubusinessline.com/news/economy/XXXX",
+        "importance": "medium",
+        "tags": [
+          "MSME",
+          "Digitalization",
+          "E-commerce",
+          "Government Scheme",
+          "Economic Growth",
+          "Make in India"
+        ],
+        "keyTerms": [
+          "Micro, Small & Medium Enterprises (MSMEs)",
+          "Digital Transformation",
+          "E-commerce",
+          "Cloud Computing",
+          "Cybersecurity",
+          "Atmanirbhar Bharat"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "MSMEs contribute significantly to India's GDP and exports.",
+          "Udyam Registration is a government portal for MSMEs.",
+          "Mudra Yojana provides loans to non-corporate, non-farm small/micro enterprises.",
+          "The scheme aims to improve MSME access to digital markets.",
+          "Cybersecurity is a growing concern for businesses."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the importance of the MSME sector for India's economy and the challenges it faces in the digital age.",
+          "Analyze how digitalization can enhance the competitiveness and resilience of MSMEs.",
+          "Examine the role of government schemes and policy support in fostering digital adoption among small businesses.",
+          "Suggest measures to overcome barriers to digitalization, such as lack of digital literacy and access to affordable technology."
+        ],
+        "imageDescription": "A small business owner using a tablet with digital charts, symbolizing digitalization.",
+        "section": "Economy",
+        "trivia": "The MSME sector is estimated to contribute about 30% to India's GDP and 48% to its exports.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Industrial Policy",
+          "topic": "MSMEs"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "eastern-ghats-biodiversity-study",
+        "headline": "New Study Highlights Unique Biodiversity and Threats in Eastern Ghats",
+        "explainer": "• A recent ecological study published in a leading journal underscored the unique biodiversity of the Eastern Ghats, identifying several endemic species of flora and fauna.\n• The study warned of increasing threats to this mountain range, including deforestation, mining, agricultural expansion, and climate change.\n• Researchers emphasized the critical role of the Eastern Ghats as a crucial ecological corridor and a biodiversity hotspot, often overshadowed by the Western Ghats.\n• It called for urgent conservation efforts, including designating new protected areas and implementing sustainable land-use practices.\n• The findings are vital for formulating targeted conservation policies and promoting ecological restoration in the region.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Biodiversity and its conservation."
+        ],
+        "date": "2024-09-29",
+        "source": "Environmental Science Journal",
+        "sourceUrl": "https://www.environmentaljournal.org/XXXX",
+        "importance": "medium",
+        "tags": [
+          "Eastern Ghats",
+          "Biodiversity",
+          "Conservation",
+          "Endemic Species",
+          "Deforestation",
+          "Ecological Corridor"
+        ],
+        "keyTerms": [
+          "Eastern Ghats",
+          "Biodiversity Hotspot",
+          "Endemic Species",
+          "Deforestation",
+          "Ecological Corridor",
+          "Sustainable Land-use"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Eastern Ghats are discontinuous mountain ranges along India's eastern coast.",
+          "They are older than the Western Ghats.",
+          "They receive rainfall from the Northeast Monsoon.",
+          "Endemic species are found exclusively in a particular geographical area.",
+          "Nallamala Hills, Palkonda Range are parts of Eastern Ghats."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ecological significance of the Eastern Ghats and compare its biodiversity with the Western Ghats.",
+          "Analyze the major threats to the biodiversity of the Eastern Ghats and their long-term environmental implications.",
+          "Examine the role of scientific research in informing conservation strategies and policy decisions.",
+          "Suggest comprehensive measures for the conservation and sustainable management of the Eastern Ghats' ecosystem."
+        ],
+        "imageDescription": "Lush green landscape of the Eastern Ghats with a focus on its diverse flora.",
+        "section": "Environment",
+        "trivia": "Mahendragiri in Odisha is one of the highest peaks in the Eastern Ghats.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Biodiversity",
+          "topic": "Geographical Features"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "startup-ecosystem-growth-report",
+        "headline": "India's Startup Ecosystem Continues Robust Growth Amidst Global Headwinds",
+        "explainer": "• A new report by industry body NASSCOM highlighted the continued robust growth of India's startup ecosystem, with a significant increase in new ventures and funding.\n• Despite global economic headwinds, India remains a top destination for venture capital, particularly in sectors like FinTech, HealthTech, and DeepTech.\n• Government initiatives such as 'Startup India' and 'Fund of Funds for Startups' are credited for fostering a conducive environment for innovation.\n• The report also pointed to the increasing number of unicorns and the expansion of startup activity beyond metropolitan areas to Tier 2 and Tier 3 cities.\n• This growth is crucial for job creation, technological innovation, and India's aspiration to become a $5 trillion economy.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment.",
+          "Science and Technology- developments and their applications and effects in everyday life."
+        ],
+        "date": "2024-09-29",
+        "source": "NASSCOM",
+        "sourceUrl": "https://nasscom.in/XXXX",
+        "importance": "medium",
+        "tags": [
+          "Startup Ecosystem",
+          "Venture Capital",
+          "Unicorns",
+          "Startup India",
+          "Innovation",
+          "Economic Growth"
+        ],
+        "keyTerms": [
+          "Startup Ecosystem",
+          "Venture Capital",
+          "Unicorns",
+          "Startup India",
+          "Fund of Funds for Startups",
+          "DeepTech",
+          "FinTech"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "'Startup India' initiative launched in 2016.",
+          "A 'unicorn' is a privately held startup company valued at over $1 billion.",
+          "NASSCOM is the National Association of Software and Service Companies.",
+          "India has the third-largest startup ecosystem globally.",
+          "Government provides tax benefits and easier compliance for startups."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the key drivers behind the growth of India's startup ecosystem and its contribution to the national economy.",
+          "Analyze the role of government policies and initiatives in fostering innovation and entrepreneurship in India.",
+          "Examine the challenges faced by startups in India, including access to funding, talent retention, and regulatory hurdles.",
+          "Suggest measures to further strengthen the startup ecosystem and ensure its equitable spread across different regions and sectors."
+        ],
+        "imageDescription": "A group of young entrepreneurs collaborating in a modern office space.",
+        "section": "Economy",
+        "trivia": "India added a record number of unicorns in 2021, cementing its position as a global startup powerhouse.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Industrial Policy",
+          "topic": "Startups"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-species-discovery-western-ghats",
+        "headline": "Scientists Discover New Species of Frog in Western Ghats",
+        "explainer": "• A team of Indian herpetologists announced the discovery of a new species of frog in the biodiverse Western Ghats region.\n• The newly identified amphibian, named 'Nyctibatrachus sahyadriensis', belongs to the genus of night frogs, known for their unique breeding habits.\n• This discovery underscores the unparalleled biodiversity of the Western Ghats, a UNESCO World Heritage Site and a global biodiversity hotspot.\n• Researchers emphasized the urgent need for conservation efforts to protect the fragile habitats of such endemic species from climate change and human encroachment.\n• The finding contributes significantly to the understanding of amphibian evolution and distribution in the Indian subcontinent.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Biodiversity and its conservation."
+        ],
+        "date": "2024-09-29",
+        "source": "Zoos' Print Journal",
+        "sourceUrl": "https://www.zoosprint.org/XXXX",
+        "importance": "low",
+        "tags": [
+          "Western Ghats",
+          "Biodiversity",
+          "New Species",
+          "Amphibians",
+          "Conservation",
+          "Endemic Species"
+        ],
+        "keyTerms": [
+          "Western Ghats",
+          "Biodiversity Hotspot",
+          "Endemic Species",
+          "Amphibians",
+          "Herpetology",
+          "Conservation Biology"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Western Ghats are a UNESCO World Heritage Site.",
+          "They are one of the 8 'hottest hotspots' of biological diversity in the world.",
+          "Endemic species are unique to a specific region.",
+          "Amphibians are bio-indicators of environmental health.",
+          "Nyctibatrachus is a genus of frogs endemic to the Western Ghats."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ecological significance of the Western Ghats as a biodiversity hotspot and the factors contributing to its unique species richness.",
+          "Analyze the threats faced by amphibians and other endemic species in the Western Ghats due to habitat loss and climate change.",
+          "Examine the importance of scientific discoveries in driving conservation policy and public awareness.",
+          "Suggest comprehensive strategies for the protection and sustainable management of the Western Ghats ecosystem."
+        ],
+        "imageDescription": "A close-up photograph of the newly discovered frog species in its natural habitat.",
+        "section": "Environment",
+        "trivia": "The Western Ghats are older than the Himalayas and influence India's monsoon weather patterns.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Biodiversity",
+          "topic": "Western Ghats"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "cybersecurity-threats-report-india",
+        "headline": "CERT-In Issues Advisory on Rising Cyber Threats and Data Breaches",
+        "explainer": "• The Indian Computer Emergency Response Team (CERT-In) issued a comprehensive advisory warning against a surge in cybersecurity threats, including ransomware attacks and data breaches.\n• The advisory urged government agencies, critical infrastructure operators, and private organizations to bolster their digital defenses and implement robust cybersecurity protocols.\n• It highlighted the growing sophistication of cyber adversaries and the increasing targeting of personal data and financial systems.\n• CERT-In recommended regular security audits, employee training, and timely patching of vulnerabilities to mitigate risks.\n• This alert underscores the critical importance of national cybersecurity strategies in safeguarding digital assets and citizen data.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention.",
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism."
+        ],
+        "date": "2024-09-29",
+        "source": "CERT-In",
+        "sourceUrl": "https://www.cert-in.org.in/XXXX",
+        "importance": "medium",
+        "tags": [
+          "Cybersecurity",
+          "Ransomware",
+          "Data Breach",
+          "CERT-In",
+          "Digital Security",
+          "Critical Infrastructure"
+        ],
+        "keyTerms": [
+          "CERT-In (Indian Computer Emergency Response Team)",
+          "Cybersecurity",
+          "Ransomware",
+          "Data Breach",
+          "Critical Information Infrastructure",
+          "National Cyber Security Policy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "CERT-In is the national agency for cybersecurity incident response.",
+          "Ransomware encrypts data and demands payment for its release.",
+          "Data breaches involve unauthorized access to sensitive information.",
+          "Critical Information Infrastructure (CII) refers to essential services.",
+          "National Cyber Security Strategy 2020 (draft) aims to secure cyberspace."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolving landscape of cybersecurity threats in India and their potential impact on national security and economic stability.",
+          "Analyze the role of CERT-In and other government agencies in safeguarding India's cyberspace.",
+          "Examine the challenges in securing critical infrastructure and citizen data from sophisticated cyberattacks.",
+          "Suggest comprehensive measures, including legislative, technological, and public awareness initiatives, to enhance India's cybersecurity posture."
+        ],
+        "imageDescription": "A digital padlock symbol overlaid on a circuit board, representing cybersecurity.",
+        "section": "National",
+        "trivia": "The first computer virus, 'Brain', was created in 1986 by two Pakistani brothers.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "Cyber Security",
+          "topic": "Threats and Measures"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Press Information Bureau (PIB)",
+    "The Hindu",
+    "Ministry of External Affairs (MEA)",
+    "Reserve Bank of India (RBI)",
+    "ISRO",
+    "Ministry of Education",
+    "The Economic Times",
+    "Ministry of Environment, Forest and Climate Change",
+    "Ministry of Defence",
+    "United Nations News",
+    "National Health Authority (NHA)",
+    "UN Environment Programme (UNEP)",
+    "Ministry of Tourism",
+    "PTI",
+    "India Meteorological Department (IMD)",
+    "The Indian Express",
+    "The Hindu BusinessLine",
+    "Archaeological Survey of India (ASI)",
+    "International Food Policy Research Institute (IFPRI)",
+    "Environmental Science Journal",
+    "NASSCOM",
+    "Zoos' Print Journal",
+    "CERT-In"
+  ],
+  "totalScraped": 23,
+  "totalProcessed": 23
+}

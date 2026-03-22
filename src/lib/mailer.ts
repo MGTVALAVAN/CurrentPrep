@@ -51,7 +51,7 @@ export async function sendDailyEpaperEmail(date: string) {
 
     const mailOptions: any = {
         from: `"Current IAS Prep" <${process.env.SMTP_USER || 'no-reply@currentiasprep.in'}>`,
-        to: 'mgt.valavan@gmail.com, sunnyarya1988@gmail.com, remeshvet@gmail.com',
+        to: 'mgt.valavan@gmail.com, sunnyarya1988@gmail.com, rameshvet@gmail.com',
         subject: `📰 Current IAS Prep — Daily ePaper (${date})`,
         html: `
             <div style="font-family: 'Georgia', 'Times New Roman', serif; padding: 0; color: #33200A; background-color: #FDFAF5; max-width: 600px; margin: 0 auto; border: 1px solid #C9A87C; border-radius: 8px; overflow: hidden;">

@@ -401,7 +401,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                 {/* === PAGE 1: FRONT PAGE === */}
                 <div className="epaper-print-page" style={{ display: 'flex', flexDirection: 'column', position: 'relative', height: '277mm', maxHeight: '277mm', overflow: 'hidden', boxSizing: 'border-box' }}>
                     {/* Masthead */}
-                    <header className="epaper-print-masthead" style={{ marginBottom: '18px', flexShrink: 0 }}>
+                    <header className="epaper-print-masthead" style={{ marginBottom: '10px', flexShrink: 0 }}>
                         <div style={{
                             position: 'relative',
                             overflow: 'hidden',
@@ -411,14 +411,14 @@ export default function EpaperPrintView({ date }: { date: string }) {
                             alignItems: 'center',
                             justifyContent: 'center',
                             gap: '40px',
-                            padding: '28px 0',
+                            padding: '18px 0',
                             borderRadius: '16px',
                         }}>
 
-                            <img src="/images/logo_globe.png?v=2" alt="Globe Icon" style={{ height: '140px', objectFit: 'contain', position: 'relative', zIndex: 1 }} crossOrigin="anonymous" />
+                            <img src="/images/logo_globe.png?v=2" alt="Globe Icon" style={{ height: '100px', objectFit: 'contain', position: 'relative', zIndex: 1 }} crossOrigin="anonymous" />
                             <div style={{
                                 backgroundColor: 'rgba(255, 255, 255, 0.9)',
-                                padding: '16px 45px',
+                                padding: '12px 35px',
                                 borderRadius: '35px',
                                 display: 'flex',
                                 flexDirection: 'column',
@@ -427,7 +427,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                 position: 'relative',
                                 zIndex: 1
                             }}>
-                                <img src="/images/logo_text.png?v=2" alt="Current IAS Prep" style={{ height: '70px', objectFit: 'contain' }} crossOrigin="anonymous" />
+                                <img src="/images/logo_text.png?v=2" alt="Current IAS Prep" style={{ height: '55px', objectFit: 'contain' }} crossOrigin="anonymous" />
                             </div>
                         </div>
 
@@ -443,14 +443,14 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                 <span className="epaper-print-date">{epaper.dateFormatted}</span>
                             </div>
                         </div>
-                        <div className="epaper-print-masthead-rule" style={{ marginTop: '10px' }} />
+                        <div className="epaper-print-masthead-rule" style={{ marginTop: '6px' }} />
                     </header>
 
                     {/* Top headlines bar */}
                     <div className="epaper-print-headlines-bar" style={{ flexShrink: 0 }}>
                         <span className="epaper-print-headlines-label">TODAY&apos;S HIGHLIGHTS</span>
                         <span className="epaper-print-headlines-text">
-                            {epaper.highlights.slice(0, 3).join('  ●  ')}
+                            {epaper.highlights.slice(0, 3).join('  |  ')}
                         </span>
                     </div>
 
@@ -469,7 +469,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                             <div className="epaper-print-lead-category">
                                                 {CAT_LABELS[lead.category] || lead.category.toUpperCase()} · {lead.gsPaper}
                                             </div>
-                                            <h2 className="epaper-print-lead-headline" style={{ fontSize: '24px', lineHeight: 1.15, marginTop: '4px' }}>{lead.headline}</h2>
+                                            <h2 className="epaper-print-lead-headline" style={{ fontSize: '20px', lineHeight: 1.15, marginTop: '4px' }}>{lead.headline}</h2>
                                             <div className="epaper-print-lead-meta" style={{ marginTop: '8px' }}>
                                                 Source: {lead.source} · {lead.importance === 'high' ? '★ HIGH PRIORITY' : lead.importance === 'medium' ? '● MEDIUM' : '○ LOW'}
                                             </div>
@@ -484,7 +484,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                 <div className="epaper-print-pointer-box" style={{ breakInside: 'avoid', pageBreakInside: 'avoid' }}>
                                                     <div className="epaper-print-pointer-title">📝 PRELIMS POINTERS</div>
                                                     <ul>
-                                                        {lead.prelimsPoints.map((p, i) => <li key={i}>{p}</li>)}
+                                                        {lead.prelimsPoints.slice(0, 3).map((p, i) => <li key={i}>{p}</li>)}
                                                     </ul>
                                                 </div>
                                             )}
@@ -492,7 +492,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                 <div className="epaper-print-pointer-box" style={{ breakInside: 'avoid', pageBreakInside: 'avoid' }}>
                                                     <div className="epaper-print-pointer-title">✍️ MAINS DIMENSIONS</div>
                                                     <ul>
-                                                        {lead.mainsPoints.map((p, i) => <li key={i}>{p}</li>)}
+                                                        {lead.mainsPoints.slice(0, 2).map((p, i) => <li key={i}>{p}</li>)}
                                                     </ul>
                                                 </div>
                                             )}
@@ -507,34 +507,30 @@ export default function EpaperPrintView({ date }: { date: string }) {
 
                                     {/* Right Sidebar: Explainer */}
                                     <div style={{ flex: '1', boxSizing: 'border-box', overflow: 'hidden' }}>
-                                        <div className="epaper-print-lead-body" style={{ fontSize: '13px', lineHeight: 1.6, textAlign: 'justify', columns: 1 }}>
+                                        <div className="epaper-print-lead-body" style={{ fontSize: '11px', lineHeight: 1.6, textAlign: 'justify', columns: 1 }}>
                                             {(() => {
                                                 const rawOriginal = typeof lead.explainer === 'string' ? lead.explainer : Object.entries(lead.explainer || {}).map(([k, v]) => `**${k}:** ${v}`).join('\n');
                                                 const raw = normalizeExplainer(rawOriginal);
-                                                const parts = raw.split(/\s*•\s*/);
+                                                // Split by newlines and classify each line
+                                                const lines = raw.split('\n');
                                                 const bullets: string[] = [];
-                                                let passage = '';
-                                                parts.forEach((p, i) => {
-                                                    const trimmed = p.trim();
+                                                const passageLines: string[] = [];
+                                                lines.forEach(line => {
+                                                    const trimmed = line.trim();
                                                     if (!trimmed) return;
-                                                    if (i === 0 && !raw.trim().startsWith('•')) {
-                                                        passage = trimmed;
+                                                    if (trimmed.startsWith('•')) {
+                                                        bullets.push(trimmed.replace(/^•\s*/, ''));
                                                     } else {
-                                                        bullets.push(trimmed);
+                                                        passageLines.push(trimmed);
                                                     }
                                                 });
-                                                if (bullets.length > 0 && !passage) {
-                                                    const last = bullets[bullets.length - 1];
-                                                    if (last.length > 120) {
-                                                        passage = bullets.pop()!;
-                                                    }
-                                                }
+                                                const passage = passageLines.join(' ');
                                                 if (bullets.length === 0) {
                                                     return renderText(raw);
                                                 }
                                                 return (
                                                     <>
-                                                        <div style={{ background: '#CCCCCC', borderRadius: '5px', padding: '8px 10px', marginBottom: '10px', fontSize: '13px', lineHeight: 1.5, WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
+                                                        <div style={{ background: '#CCCCCC', borderRadius: '5px', padding: '8px 10px', marginBottom: '10px', fontSize: '11px', lineHeight: 1.5, WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
                                                             {bullets.map((b, i) => <div key={i} style={{ paddingLeft: '12px', textIndent: '-12px', marginBottom: i < bullets.length - 1 ? '5px' : '0' }}>• {b}</div>)}
                                                         </div>
                                                         {passage && renderText(passage)}
@@ -590,32 +586,21 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                         <div style={{ flex: '1.3', fontSize: '11px', lineHeight: 1.6, color: '#3D2B1A', fontFamily: "'Source Serif 4', Georgia, serif", textAlign: 'justify', overflow: 'hidden' }}>
                                             {(() => {
                                                 const rawText = typeof a.explainer === 'string' ? a.explainer : Object.entries(a.explainer || {}).map(([k, v]) => `**${k}:** ${v}`).join('\n');
-                                                const raw = truncateWords(normalizeExplainer(rawText), 180);
-                                                // Split by • marker (handles inline "• fact1. • fact2." format)
-                                                const parts = raw.split(/\s*•\s*/);
+                                                const raw = normalizeExplainer(rawText);
+                                                // Split by newlines and classify each line
+                                                const lines = raw.split('\n');
                                                 const bullets: string[] = [];
-                                                let passage = '';
-                                                parts.forEach((p, i) => {
-                                                    const trimmed = p.trim();
+                                                const passageLines: string[] = [];
+                                                lines.forEach(line => {
+                                                    const trimmed = line.trim();
                                                     if (!trimmed) return;
-                                                    if (i === 0 && !raw.trim().startsWith('•')) {
-                                                        // Text before first bullet = passage prefix
-                                                        passage = trimmed;
-                                                    } else if (i === parts.length - 1 && trimmed.length > 80 && !trimmed.endsWith('.')) {
-                                                        // Long last segment without period = passage
-                                                        passage = trimmed;
+                                                    if (trimmed.startsWith('•')) {
+                                                        bullets.push(trimmed.replace(/^•\s*/, ''));
                                                     } else {
-                                                        bullets.push(trimmed);
+                                                        passageLines.push(trimmed);
                                                     }
                                                 });
-                                                // If no bullets found, check if last segment is the passage
-                                                if (bullets.length > 0 && !passage) {
-                                                    // Last bullet might actually be the passage (longer text without bullet style)
-                                                    const last = bullets[bullets.length - 1];
-                                                    if (last.length > 120) {
-                                                        passage = bullets.pop()!;
-                                                    }
-                                                }
+                                                const passage = passageLines.join(' ');
                                                 // If still no separation, treat everything as passage
                                                 if (bullets.length === 0) {
                                                     return renderText(raw);
@@ -632,23 +617,23 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                         </div>
                                         {/* Right: terms + pointers */}
                                         <div style={{ flex: '1', fontSize: '11px', display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                                            <div style={{ background: 'rgba(139,69,19,0.06)', padding: '5px 8px', borderRadius: '4px', fontSize: '11px', lineHeight: 1.4 }}>
-                                                <strong style={{ color: '#8B4513' }}>Key Terms:</strong> <span style={{ color: '#5C3D1A' }}>{a.keyTerms.slice(0, 4).join(' · ')}</span>
+                                            <div style={{ background: 'rgba(139,69,19,0.06)', padding: '5px 8px', borderRadius: '4px', fontSize: '11.5px', lineHeight: 1.4 }}>
+                                                <strong style={{ color: '#8B4513', fontSize: '10.5px' }}>Key Terms:</strong> <span style={{ color: '#5C3D1A' }}>{a.keyTerms.slice(0, 4).join(' · ')}</span>
                                             </div>
                                             {a.prelims && a.prelimsPoints.length > 0 && (
-                                                <div style={{ background: 'rgba(192,57,43,0.06)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11px', border: '1px solid rgba(192,57,43,0.12)' }}>
-                                                    <div style={{ fontWeight: 700, color: '#C0392B', marginBottom: '2px', fontSize: '10px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>📝 Prelims</div>
+                                                <div style={{ background: 'rgba(192,57,43,0.06)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11.5px', border: '1px solid rgba(192,57,43,0.12)' }}>
+                                                    <div style={{ fontWeight: 700, color: '#C0392B', marginBottom: '2px', fontSize: '10.5px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>📝 Prelims</div>
                                                     {a.prelimsPoints.slice(0, 3).map((p, i) => <div key={i} style={{ color: '#5C3D1A', paddingLeft: '10px', textIndent: '-10px' }}>• {p}</div>)}
                                                 </div>
                                             )}
                                             {a.mains && a.mainsPoints.length > 0 && (
-                                                <div style={{ background: 'rgba(26,60,110,0.06)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11px', border: '1px solid rgba(26,60,110,0.12)' }}>
-                                                    <div style={{ fontWeight: 700, color: '#1A3C6E', marginBottom: '2px', fontSize: '10px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>✍️ Mains</div>
+                                                <div style={{ background: 'rgba(26,60,110,0.06)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11.5px', border: '1px solid rgba(26,60,110,0.12)' }}>
+                                                    <div style={{ fontWeight: 700, color: '#1A3C6E', marginBottom: '2px', fontSize: '10.5px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>✍️ Mains</div>
                                                     {a.mainsPoints.slice(0, 2).map((p, i) => <div key={i} style={{ color: '#5C3D1A', paddingLeft: '10px', textIndent: '-10px' }}>• {p}</div>)}
                                                 </div>
                                             )}
                                             {a.trivia && (
-                                                <div style={{ background: 'rgba(212,121,28,0.08)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11px', border: '1px solid rgba(212,121,28,0.12)' }}>
+                                                <div style={{ background: 'rgba(212,121,28,0.08)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11.5px', border: '1px solid rgba(212,121,28,0.12)' }}>
                                                     <span style={{ fontWeight: 700, color: '#D4791C' }}>💡 </span>
                                                     <span style={{ color: '#5C3D1A' }}>{a.trivia}</span>
                                                 </div>
@@ -705,7 +690,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                 {qb.text}
                                             </div>
                                             {qb.tags && qb.tags.length > 0 && (
-                                                <div style={{ marginTop: '2px', fontSize: '8px', color: '#8B6B42' }}>
+                                                <div style={{ marginTop: '2px', fontSize: '9px', color: '#8B6B42' }}>
                                                     {qb.tags.join(' • ')}
                                                 </div>
                                             )}

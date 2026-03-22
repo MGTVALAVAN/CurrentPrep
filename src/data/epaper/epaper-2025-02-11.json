@@ -1,0 +1,1922 @@
+{
+  "date": "2025-02-11",
+  "dateFormatted": "Tuesday 11 February, 2025",
+  "lastUpdated": "2026-03-21T17:21:56.906Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "india-green-steel-policy-launch",
+      "headline": "India Unveils Ambitious Green Steel Policy to Decarbonize Industry",
+      "explainer": "• The Union Government has launched a comprehensive 'Green Steel Policy' aimed at accelerating the decarbonization of India's steel sector.\n• The policy focuses on promoting the use of green hydrogen, renewable energy, and carbon capture technologies in steel production.\n• Key incentives include financial support for R&D, pilot projects, and adoption of clean technologies by steel manufacturers.\n• This move aligns with India's net-zero targets and strengthens its position in the global green economy.\n• The policy is expected to create new job opportunities and boost indigenous manufacturing of green technologies.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy",
+        "Investment models",
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Conservation, environmental pollution and degradation",
+        "Environmental impact assessment"
+      ],
+      "date": "2025-02-11",
+      "source": "Ministry of Steel / The Hindu",
+      "sourceUrl": "Not available online",
+      "importance": "high",
+      "tags": [
+        "Green Steel",
+        "Decarbonization",
+        "Green Hydrogen",
+        "Climate Change",
+        "Industrial Policy",
+        "Make in India",
+        "Net Zero"
+      ],
+      "keyTerms": [
+        "Green Steel",
+        "Green Hydrogen",
+        "Carbon Capture, Utilisation and Storage (CCUS)",
+        "Decarbonization",
+        "Net-Zero Emissions",
+        "National Green Hydrogen Mission"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India's Green Steel Policy aims to reduce carbon emissions from the steel industry.",
+        "The policy promotes the use of green hydrogen and renewable energy.",
+        "It offers incentives for R&D and adoption of clean technologies.",
+        "Steel production is a major contributor to global carbon emissions.",
+        "The National Green Hydrogen Mission is a foundational element for this policy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Economic Impact:** Discuss how the policy can boost domestic manufacturing, attract investments in green technologies, and create skilled jobs.",
+        "**Environmental Impact:** Analyze its role in achieving India's climate targets (NDC commitments, net-zero by 2070) and reducing industrial pollution.",
+        "**Technological Advancements:** Examine the challenges and opportunities in adopting green hydrogen and CCUS technologies in a large-scale industrial sector like steel.",
+        "**Policy Framework:** Critically evaluate the incentive mechanisms and regulatory support needed for successful implementation.",
+        "**Global Competitiveness:** How can this policy enhance India's competitiveness in the global steel market and promote sustainable trade practices?"
+      ],
+      "imageDescription": "Illustration depicting a modern steel plant with green hydrogen facilities and reduced emissions, symbolizing the 'Green Steel' initiative.",
+      "section": "Lead Opinion",
+      "trivia": "Steel production accounts for 7-9% of global greenhouse gas emissions annually, making its decarbonization crucial for climate goals.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Growth & Development",
+        "topic": "Industrial Policy & Infrastructure"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "raosaheb-rangnath-borade-passes-away",
+      "headline": "Noted Marathi Novelist Raosaheb Rangnath Borade Passes Away at 84",
+      "explainer": "• Renowned Marathi novelist and Sahitya Akademi Award recipient, Raosaheb Rangnath Borade, passed away at the age of 84.\n• Borade was celebrated for his realistic portrayal of rural life, particularly the struggles and aspirations of the farming community in Maharashtra.\n• His prominent works include 'Pachola' (Dry Leaf), 'Mala Udhvasta Vhayachay', and 'Manus'.\n• He was a recipient of the Sahitya Akademi Award for his contributions to Marathi literature.\n• His writings are considered significant contributions to rural Marathi literature, offering deep insights into social structures and human emotions.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Salient features of Indian Society, Diversity of India."
+      ],
+      "date": "2025-02-11",
+      "source": "The Indian Express",
+      "sourceUrl": "Not available online",
+      "importance": "medium",
+      "tags": [
+        "Raosaheb Rangnath Borade",
+        "Marathi Literature",
+        "Novelist",
+        "Sahitya Akademi Award",
+        "Rural Life",
+        "Maharashtra"
+      ],
+      "keyTerms": [
+        "Marathi Literature",
+        "Sahitya Akademi Award",
+        "Rural Realism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Raosaheb Rangnath Borade was a Marathi novelist.",
+        "He was known for depicting rural life.",
+        "His famous works include 'Pachola'.",
+        "He was a recipient of the Sahitya Akademi Award."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Contribution to Literature:** Discuss Borade's unique style and thematic concerns, particularly his focus on rural Maharashtra and the lives of farmers.",
+        "**Social Commentary:** Analyze how his works provided critical insights into social issues, caste dynamics, and economic disparities in rural India.",
+        "**Legacy:** Evaluate his impact on Marathi literature and his role in bringing regional narratives to national prominence.",
+        "**Role of Literature:** How does literature like Borade's contribute to understanding the social fabric and cultural heritage of India?"
+      ],
+      "imageDescription": "Black and white portrait of Raosaheb Rangnath Borade, a distinguished Marathi novelist.",
+      "section": "National",
+      "trivia": "The Sahitya Akademi Award is a literary honor in India conferred by the Sahitya Akademi, India's National Academy of Letters.",
+      "prelimsSyllabus": {
+        "subject": "Art & Culture",
+        "area": "Literature",
+        "topic": "Indian Literature Personalities"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "sc-digital-privacy-data-localization",
+      "headline": "Supreme Court Reinforces Digital Privacy Rights in Landmark Ruling on Data Localization",
+      "explainer": "• The Supreme Court delivered a significant judgment, reinforcing digital privacy rights and issuing guidelines on data localization for critical personal data.\n• The ruling emphasizes that the 'Right to Privacy' under Article 21 extends to digital spaces, necessitating robust data protection mechanisms.\n• The court directed the government to finalize a comprehensive data protection law, while also setting interim norms for handling sensitive personal data by private entities and public bodies.\n• This judgment comes amidst growing concerns over cross-border data flows and the implications for national security and individual autonomy.\n• It builds upon previous landmark rulings like the Puttaswamy judgment, further defining the contours of privacy in the digital age.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights"
+      ],
+      "date": "2025-02-11",
+      "source": "Supreme Court of India / Live Law",
+      "sourceUrl": "Not available online",
+      "importance": "high",
+      "tags": [
+        "Digital Privacy",
+        "Data Localization",
+        "Supreme Court",
+        "Right to Privacy",
+        "Article 21",
+        "Data Protection Law",
+        "Puttaswamy Judgment"
+      ],
+      "keyTerms": [
+        "Right to Privacy",
+        "Data Localization",
+        "Personal Data Protection Bill",
+        "Digital India",
+        "Article 21"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Supreme Court's ruling connects digital privacy to Article 21 (Right to Life and Personal Liberty).",
+        "It emphasizes the need for a comprehensive data protection law.",
+        "The judgment provides interim guidelines for handling sensitive personal data.",
+        "The Puttaswamy judgment (2017) declared privacy as a fundamental right.",
+        "Data localization refers to storing data within a country's borders."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Constitutional Implications:** Discuss how the ruling strengthens the fundamental right to privacy and its interpretation in the digital age.",
+        "**Policy & Governance Challenges:** Analyze the complexities involved in drafting and implementing a robust data protection law that balances individual rights with state interests and business needs (e.g., cross-border data flows, surveillance).",
+        "**Economic Impact:** Examine the potential effects of data localization mandates on global tech companies operating in India and on India's digital economy.",
+        "**Technological Aspects:** Discuss the technical challenges and infrastructure requirements for implementing data localization and ensuring data security.",
+        "**Global Context:** Compare India's approach to data privacy and localization with international standards and practices (e.g., GDPR)."
+      ],
+      "imageDescription": "Abstract graphic representing digital data flowing securely, with a Supreme Court emblem in the background.",
+      "section": "National",
+      "trivia": "The 'Right to be Forgotten' is an aspect of digital privacy, allowing individuals to request the removal of certain personal information from public search results.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "india-asean-maritime-security-dialogue",
+      "headline": "India Calls for Enhanced Maritime Cooperation at India-ASEAN Security Dialogue",
+      "explainer": "• India participated in the annual India-ASEAN Maritime Security Dialogue, reiterating its commitment to a free, open, and inclusive Indo-Pacific.\n• Discussions focused on strengthening regional maritime security, combating piracy, enhancing HADR (Humanitarian Assistance and Disaster Relief) efforts, and promoting sustainable use of marine resources.\n• India emphasized the importance of adhering to international law, particularly UNCLOS (United Nations Convention on the Law of the Sea), for peaceful resolution of maritime disputes.\n• The dialogue also explored avenues for joint naval exercises and capacity building among ASEAN member states.\n• This engagement underscores India's 'Act East' policy and its growing strategic ties with Southeast Asian nations.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora"
+      ],
+      "date": "2025-02-11",
+      "source": "Ministry of External Affairs / The Hindu",
+      "sourceUrl": "Not available online",
+      "importance": "high",
+      "tags": [
+        "India-ASEAN",
+        "Maritime Security",
+        "Indo-Pacific",
+        "UNCLOS",
+        "Act East Policy",
+        "Regional Cooperation",
+        "HADR"
+      ],
+      "keyTerms": [
+        "ASEAN",
+        "Indo-Pacific",
+        "UNCLOS",
+        "Act East Policy",
+        "HADR",
+        "Maritime Domain Awareness"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India-ASEAN Dialogue focuses on maritime security.",
+        "India advocates for a free, open, and inclusive Indo-Pacific.",
+        "UNCLOS is a key international law for maritime governance.",
+        "HADR stands for Humanitarian Assistance and Disaster Relief.",
+        "The 'Act East' policy is central to India's engagement with Southeast Asia."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Strategic Importance:** Discuss the strategic significance of the Indo-Pacific region for India's security and economic interests.",
+        "**India's Role:** Analyze India's 'Act East' policy and its efforts to enhance connectivity, security, and trade with ASEAN countries.",
+        "**Challenges to Maritime Security:** Examine the various threats to maritime security in the region, including piracy, illegal fishing, territorial disputes, and environmental degradation.",
+        "**Multilateral Cooperation:** Evaluate the effectiveness of India-ASEAN cooperation mechanisms in addressing these challenges and promoting regional stability.",
+        "**UNCLOS and International Law:** Discuss the role of UNCLOS in resolving maritime disputes and ensuring freedom of navigation, especially in contested areas."
+      ],
+      "imageDescription": "Naval ships from India and ASEAN nations conducting a joint exercise in the Indo-Pacific, symbolizing maritime cooperation.",
+      "section": "International",
+      "trivia": "ASEAN (Association of Southeast Asian Nations) was established in 1967 and comprises ten member states.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Regional Groupings",
+        "topic": "India & ASEAN"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "amrit-dharohar-wetland-conservation-phase2",
+      "headline": "Government Launches 'Amrit Dharohar' Phase II for Wetland Conservation",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change has launched the second phase of the 'Amrit Dharohar' initiative, focusing on the holistic conservation and wise use of India's wetlands.\n• Phase II aims to expand the network of Ramsar sites, enhance community participation, and promote ecotourism opportunities around these vital ecosystems.\n• The initiative emphasizes integrated management plans for wetlands, addressing issues like pollution, encroachment, and unsustainable resource extraction.\n• Wetlands play a crucial role in biodiversity conservation, climate change mitigation, and providing essential ecosystem services.\n• The program seeks to leverage local knowledge and livelihoods to ensure the long-term sustainability of wetland ecosystems.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Disaster and disaster management"
+      ],
+      "date": "2025-02-11",
+      "source": "Ministry of Environment, Forest and Climate Change / Down To Earth",
+      "sourceUrl": "Not available online",
+      "importance": "medium",
+      "tags": [
+        "Wetland Conservation",
+        "Amrit Dharohar",
+        "Ramsar Sites",
+        "Ecotourism",
+        "Biodiversity",
+        "Climate Change Mitigation",
+        "Ecosystem Services"
+      ],
+      "keyTerms": [
+        "Wetlands",
+        "Ramsar Convention",
+        "Ecosystem Services",
+        "Biodiversity Hotspots",
+        "Climate Change Adaptation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "'Amrit Dharohar' initiative is focused on wetland conservation.",
+        "Phase II aims to expand Ramsar sites and promote ecotourism.",
+        "Wetlands are crucial for biodiversity and climate regulation.",
+        "The Ramsar Convention is an international treaty for wetland conservation.",
+        "India has a significant number of Ramsar sites."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Ecological Importance:** Discuss the critical role of wetlands in maintaining ecological balance, supporting biodiversity, and providing ecosystem services (e.g., water purification, flood control).",
+        "**Challenges to Wetland Conservation:** Analyze the major threats faced by wetlands in India, such as pollution, urbanization, agricultural expansion, and climate change.",
+        "**Government Initiatives:** Evaluate the effectiveness of programs like 'Amrit Dharohar' and the Ramsar Convention in addressing these challenges.",
+        "**Community Participation:** Discuss the importance of involving local communities in wetland management and promoting sustainable livelihoods.",
+        "**Policy Recommendations:** Suggest measures for strengthening legal frameworks, enhancing inter-sectoral coordination, and ensuring scientific management of wetlands."
+      ],
+      "imageDescription": "A serene wetland landscape with migratory birds, reflecting the importance of these ecosystems for biodiversity.",
+      "section": "Environment",
+      "trivia": "The world's first Ramsar site was the Cobourg Peninsula in Australia, designated in 1974.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Conservation",
+        "topic": "Wetlands & Ramsar Sites"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-shukrayaan-1-update",
+      "headline": "ISRO Provides Update on Shukrayaan-1, Mission on Track for Venus Orbit Insertion",
+      "explainer": "• The Indian Space Research Organisation (ISRO) announced that its Shukrayaan-1 mission, India's maiden orbiter to Venus, is progressing as planned.\n• The spacecraft has successfully completed critical trajectory correction maneuvers and is on course for its scheduled Venus orbit insertion.\n• Shukrayaan-1 is equipped with a suite of scientific instruments to study Venus's atmosphere, surface, and subsurface, including its geological features and atmospheric composition.\n• The mission aims to provide unprecedented data on Venusian climate, potential past oceans, and the planet's evolution.\n• This mission marks another significant step for India in deep-space exploration, following successful Mars and Moon missions.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights"
+      ],
+      "date": "2025-02-11",
+      "source": "ISRO / Press Information Bureau",
+      "sourceUrl": "Not available online",
+      "importance": "medium",
+      "tags": [
+        "ISRO",
+        "Shukrayaan-1",
+        "Venus Mission",
+        "Space Exploration",
+        "Planetary Science",
+        "Deep Space",
+        "Indian Space Program"
+      ],
+      "keyTerms": [
+        "Shukrayaan-1",
+        "ISRO",
+        "Venus Orbiter",
+        "Deep Space Mission",
+        "Atmospheric Composition",
+        "Planetary Evolution"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Shukrayaan-1 is India's first mission to Venus.",
+        "It is an orbiter mission, not a lander.",
+        "ISRO is the agency responsible for the mission.",
+        "The mission aims to study Venus's atmosphere and surface.",
+        "India has previously sent missions to Mars (Mangalyaan) and the Moon (Chandrayaan)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Scientific Objectives:** Discuss the key scientific questions Shukrayaan-1 aims to answer regarding Venus's geology, atmosphere, and evolution.",
+        "**Technological Prowess:** Analyze how this mission demonstrates India's growing capabilities in deep-space exploration and indigenous technology development.",
+        "**International Collaboration:** Discuss potential opportunities for collaboration with other space agencies in Venus exploration.",
+        "**Benefits to Humanity:** How do such planetary missions contribute to our understanding of the universe and potentially address challenges on Earth (e.g., climate change research)?",
+        "**Future of Indian Space Program:** Evaluate the significance of Shukrayaan-1 in shaping the future trajectory of India's space exploration endeavors."
+      ],
+      "imageDescription": "Artistic rendering of the Shukrayaan-1 spacecraft orbiting Venus, with the planet's dense atmosphere visible.",
+      "section": "Science",
+      "trivia": "Venus is often called Earth's 'sister planet' due to its similar size and mass, but its extremely hot and toxic atmosphere makes it vastly different.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space Technology",
+        "topic": "Indian Space Missions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "q3-economic-survey-report-fy25",
+      "headline": "Q3 Economic Survey Highlights Resilience Amidst Global Headwinds, Focus on Manufacturing Growth",
+      "explainer": "• The Ministry of Finance released its Quarterly Economic Survey for Q3 FY25, indicating continued resilience of the Indian economy despite ongoing global economic uncertainties.\n• The survey highlighted robust growth in the manufacturing sector, driven by government incentives and increased domestic demand.\n• It noted a moderation in inflation, attributed to supply-side management and stable commodity prices, though certain food inflation segments remain a concern.\n• Exports showed mixed performance, with a focus on diversifying markets and products to mitigate global slowdown impacts.\n• The report emphasized the government's commitment to capital expenditure and structural reforms to sustain long-term growth momentum.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+        "Government Budgeting",
+        "Investment models",
+        "Major crops cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers; Land reforms in India."
+      ],
+      "date": "2025-02-11",
+      "source": "Ministry of Finance / Press Information Bureau",
+      "sourceUrl": "Not available online",
+      "importance": "high",
+      "tags": [
+        "Economic Survey",
+        "Indian Economy",
+        "Manufacturing Growth",
+        "Inflation",
+        "Exports",
+        "Capital Expenditure",
+        "Fiscal Policy"
+      ],
+      "keyTerms": [
+        "GDP Growth",
+        "Inflation Targeting",
+        "Fiscal Deficit",
+        "Current Account Deficit (CAD)",
+        "FDI",
+        "Make in India"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Economic Survey provides an official review of the Indian economy.",
+        "It is released by the Ministry of Finance.",
+        "Q3 FY25 refers to the third quarter of the fiscal year 2024-25 (October-December 2024).",
+        "Manufacturing sector growth and inflation trends are key indicators.",
+        "Government capital expenditure is a driver of economic growth."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Current Economic Scenario:** Analyze the key findings of the Q3 Economic Survey, including growth drivers, sectoral performance, and macroeconomic stability indicators.",
+        "**Challenges and Opportunities:** Discuss the major challenges confronting the Indian economy (e.g., global slowdown, inflation, unemployment) and the opportunities for sustained growth.",
+        "**Government Policies:** Evaluate the effectiveness of current fiscal and monetary policies in fostering economic growth and managing inflation.",
+        "**Manufacturing Sector:** Examine the factors contributing to manufacturing growth and the role of government initiatives like PLI schemes.",
+        "**Inclusive Growth:** Discuss how economic growth can be made more inclusive, addressing issues of income inequality and regional disparities."
+      ],
+      "imageDescription": "Infographic showing key economic indicators like GDP growth, inflation, and manufacturing output, representing India's economic performance.",
+      "section": "Economy",
+      "trivia": "The first Economic Survey of India was presented in 1950-51, and until 1964, it was presented along with the Union Budget.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Macroeconomics",
+        "topic": "Economic Growth & Development"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "bro-border-road-projects-northeast",
+      "headline": "BRO Expedites Critical Border Road Projects in Northeastern States",
+      "explainer": "• The Border Roads Organisation (BRO) announced significant progress in expediting critical road and bridge projects along India's northern and eastern borders, particularly in the Northeastern states.\n• These infrastructure projects are vital for enhancing connectivity to remote border areas, facilitating troop movement, and supporting local economic development.\n• The focus is on constructing all-weather roads, tunnels, and strategic bridges in challenging terrains.\n• The initiative is part of India's broader strategy to bolster border infrastructure amidst evolving geopolitical dynamics.\n• Improved connectivity is also expected to boost tourism and trade in the region, integrating border communities into the national mainstream.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+      ],
+      "date": "2025-02-11",
+      "source": "Ministry of Defence / PIB",
+      "sourceUrl": "Not available online",
+      "importance": "medium",
+      "tags": [
+        "BRO",
+        "Border Infrastructure",
+        "Northeast India",
+        "Border Security",
+        "Connectivity",
+        "Strategic Roads",
+        "National Security"
+      ],
+      "keyTerms": [
+        "Border Roads Organisation (BRO)",
+        "Line of Actual Control (LAC)",
+        "Border Management",
+        "Infrastructure Development",
+        "Northeastern Region"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "BRO is responsible for road construction in border areas.",
+        "Projects are focused on Northeastern states.",
+        "These roads are crucial for national security and troop movement.",
+        "All-weather connectivity is a key objective.",
+        "Improved infrastructure aids local economic development."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Strategic Significance:** Discuss the strategic importance of robust border infrastructure for national security, especially in the context of geopolitical challenges.",
+        "**Regional Development:** Analyze how improved connectivity in the Northeastern states can foster economic development, integrate remote communities, and counter insurgencies.",
+        "**Challenges in Construction:** Examine the unique challenges faced by BRO in constructing infrastructure in difficult terrains and adverse weather conditions.",
+        "**Impact on Defence:** Discuss how these projects enhance the operational capabilities of the armed forces and facilitate rapid deployment.",
+        "**Environmental Concerns:** Briefly touch upon the environmental impact assessments and sustainable construction practices employed in such sensitive ecological zones."
+      ],
+      "imageDescription": "A newly constructed all-weather road winding through mountainous terrain in the Himalayas, with BRO signage.",
+      "section": "National",
+      "trivia": "BRO was formed in 1960 to secure India's borders and develop infrastructure in remote areas.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Border Management",
+        "topic": "Border Infrastructure"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "nep-2020-implementation-review",
+      "headline": "Ministry of Education Reviews NEP 2020 Implementation Progress, Focus on Foundational Literacy",
+      "explainer": "• The Ministry of Education conducted a comprehensive review of the implementation progress of the National Education Policy (NEP) 2020.\n• The review highlighted significant strides in integrating technology into education and promoting multidisciplinary learning at higher education levels.\n• A key focus area for accelerated implementation is foundational literacy and numeracy (FLN) under the 'NIPUN Bharat' mission.\n• Challenges identified include ensuring equitable access to quality education in remote areas and adequate teacher training.\n• The government reiterated its commitment to achieving the policy's transformative goals by the target timelines, emphasizing continuous monitoring and stakeholder engagement.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2025-02-11",
+      "source": "Ministry of Education / The Hindu",
+      "sourceUrl": "Not available online",
+      "importance": "high",
+      "tags": [
+        "NEP 2020",
+        "National Education Policy",
+        "Foundational Literacy",
+        "NIPUN Bharat",
+        "Education Reforms",
+        "Teacher Training",
+        "Multidisciplinary Learning"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP)",
+        "Foundational Literacy and Numeracy (FLN)",
+        "NIPUN Bharat Mission",
+        "Multidisciplinary Education",
+        "Gross Enrolment Ratio (GER)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NEP 2020 aims to transform India's education system.",
+        "NIPUN Bharat Mission focuses on foundational literacy and numeracy.",
+        "The policy promotes multidisciplinary learning.",
+        "Teacher training is a crucial component of NEP implementation.",
+        "The Ministry of Education is responsible for NEP implementation."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Objectives of NEP 2020:** Discuss the core principles and objectives of the National Education Policy 2020 and its vision for Indian education.",
+        "**Implementation Challenges:** Analyze the major hurdles in the effective implementation of NEP 2020, particularly in areas like infrastructure, teacher capacity, and digital divide.",
+        "**Foundational Literacy & Numeracy:** Evaluate the significance of the NIPUN Bharat mission and its potential impact on early childhood education outcomes.",
+        "**Higher Education Reforms:** Discuss the implications of multidisciplinary education, academic bank of credits, and internationalization of higher education as envisioned by NEP.",
+        "**Inclusive Education:** How does NEP 2020 address issues of equity and access for marginalized sections and remote areas?"
+      ],
+      "imageDescription": "Students in a modern classroom setting, with digital learning tools, symbolizing the advancements envisioned by NEP 2020.",
+      "section": "National",
+      "trivia": "The NEP 2020 is the third major education policy in India, after policies in 1968 and 1986.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Human Resource Development",
+        "topic": "Education Policy"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "integrated-urban-flood-management-strategy",
+      "headline": "Centre Proposes Integrated Urban Flood Management Strategy for Major Cities",
+      "explainer": "• The Union Government has proposed a new Integrated Urban Flood Management Strategy to tackle the escalating problem of urban flooding in major Indian cities.\n• The strategy emphasizes a multi-pronged approach, including upgrading drainage infrastructure, promoting permeable surfaces, early warning systems, and community preparedness.\n• It calls for better inter-agency coordination among municipal bodies, disaster management authorities, and urban planning departments.\n• Climate change-induced extreme weather events have exacerbated urban flooding, causing significant economic losses and disruption.\n• The proposal includes provisions for financial assistance to states for adopting sustainable urban planning practices and resilient infrastructure development.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Disaster and disaster management",
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2025-02-11",
+      "source": "Ministry of Housing and Urban Affairs / The Hindu",
+      "sourceUrl": "Not available online",
+      "importance": "medium",
+      "tags": [
+        "Urban Flooding",
+        "Disaster Management",
+        "Climate Resilience",
+        "Urban Planning",
+        "Drainage Infrastructure",
+        "Early Warning Systems",
+        "NDMA"
+      ],
+      "keyTerms": [
+        "Urban Flooding",
+        "Disaster Risk Reduction (DRR)",
+        "Climate Resilience",
+        "Sustainable Urban Development",
+        "National Disaster Management Authority (NDMA)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Integrated Urban Flood Management Strategy addresses urban flooding.",
+        "It includes drainage upgrades, permeable surfaces, and early warning systems.",
+        "Inter-agency coordination is a key component.",
+        "Urban flooding is exacerbated by climate change.",
+        "NDMA plays a role in disaster management."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Causes of Urban Flooding:** Analyze the primary anthropogenic and natural factors contributing to urban flooding in Indian cities.",
+        "**Impacts:** Discuss the socio-economic and environmental consequences of urban flooding, including infrastructure damage, health risks, and disruption to livelihoods.",
+        "**Current Mitigation Measures:** Critically evaluate the existing urban flood management practices and their limitations.",
+        "**Proposed Strategy:** Examine the key features of the new integrated strategy, focusing on its holistic approach and emphasis on prevention, preparedness, and response.",
+        "**Governance Challenges:** Discuss the institutional and governance challenges in implementing effective urban flood management, including issues of planning, funding, and coordination."
+      ],
+      "imageDescription": "A flooded urban street with vehicles submerged, highlighting the severity of urban flooding, with a graphic overlay of proposed solutions.",
+      "section": "Environment",
+      "trivia": "Chennai, Mumbai, and Bengaluru are among the Indian cities most vulnerable to urban flooding due to rapid urbanization and inadequate drainage.",
+      "prelimsSyllabus": {
+        "subject": "Disaster Management",
+        "area": "Natural Disasters",
+        "topic": "Urban Floods"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-france-strategic-dialogue",
+      "headline": "India-France Strategic Dialogue Emphasizes Defense, Space, and Clean Energy Cooperation",
+      "explainer": "• India and France held their annual Strategic Dialogue, reaffirming their robust strategic partnership and charting new avenues for cooperation.\n• The dialogue focused on strengthening defense ties, including co-development and co-production of military equipment, and enhancing counter-terrorism efforts.\n• Space cooperation was a key agenda, with discussions on joint satellite missions, space situational awareness, and sharing of expertise.\n• Both nations also pledged to deepen collaboration in clean energy technologies, particularly in nuclear energy and green hydrogen.\n• The discussions underscored the shared commitment to a rules-based international order and addressing global challenges, including climate change and regional security.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora"
+      ],
+      "date": "2025-02-11",
+      "source": "Ministry of External Affairs / The Economic Times",
+      "sourceUrl": "Not available online",
+      "importance": "high",
+      "tags": [
+        "India-France Relations",
+        "Strategic Partnership",
+        "Defense Cooperation",
+        "Space Cooperation",
+        "Clean Energy",
+        "Indo-Pacific",
+        "Bilateral Relations"
+      ],
+      "keyTerms": [
+        "Strategic Partnership",
+        "Defense Industrial Corridor",
+        "Space Situational Awareness",
+        "Nuclear Energy Cooperation",
+        "Green Hydrogen"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India and France hold an annual Strategic Dialogue.",
+        "Key cooperation areas include defense, space, and clean energy.",
+        "Co-development and co-production are part of defense ties.",
+        "Joint satellite missions are discussed in space cooperation.",
+        "Both nations emphasize a rules-based international order."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Evolution of Partnership:** Trace the trajectory of India-France strategic partnership, highlighting its key pillars and milestones.",
+        "**Defense & Security Cooperation:** Discuss the significance of defense ties, including technology transfer, joint exercises, and counter-terrorism efforts, for India's strategic autonomy.",
+        "**Space & Technology Collaboration:** Analyze the importance of India-France cooperation in space exploration, satellite technology, and emerging areas like AI and quantum computing.",
+        "**Clean Energy & Climate Action:** Examine how both nations are collaborating on clean energy transitions, particularly in nuclear power and green hydrogen, to achieve climate goals.",
+        "**Geopolitical Alignment:** Discuss how India and France align on key geopolitical issues, including the Indo-Pacific strategy and multilateralism, and their role in shaping global order."
+      ],
+      "imageDescription": "Flags of India and France displayed prominently during a diplomatic meeting, symbolizing strong bilateral ties.",
+      "section": "International",
+      "trivia": "France was one of the first countries to establish a strategic partnership with India, dating back to 1998.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India & France"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "micro-irrigation-promotion-scheme",
+      "headline": "Government Boosts Micro-irrigation Scheme to Enhance Water Use Efficiency in Agriculture",
+      "explainer": "• The Ministry of Agriculture and Farmers Welfare announced enhanced financial incentives and technical support for farmers under the 'Per Drop More Crop' component of the Pradhan Mantri Krishi Sinchayee Yojana (PMKSY).\n• The initiative aims to significantly expand the adoption of micro-irrigation systems, including drip and sprinkler irrigation, across the country.\n• This push is critical for addressing water scarcity, improving crop productivity, and reducing cultivation costs for farmers.\n• The government also emphasized the integration of precision agriculture technologies and awareness campaigns to educate farmers on efficient water management practices.\n• Increased water use efficiency in agriculture is vital for India's food security and sustainable agricultural development.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Major crops cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers; Land reforms in India.",
+        "Conservation, environmental pollution and degradation, environmental impact assessment"
+      ],
+      "date": "2025-02-11",
+      "source": "Ministry of Agriculture & Farmers Welfare / PIB",
+      "sourceUrl": "Not available online",
+      "importance": "medium",
+      "tags": [
+        "Micro-irrigation",
+        "Water Use Efficiency",
+        "Agriculture",
+        "PMKSY",
+        "Per Drop More Crop",
+        "Drip Irrigation",
+        "Sprinkler Irrigation",
+        "Food Security"
+      ],
+      "keyTerms": [
+        "Micro-irrigation",
+        "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)",
+        "Water Scarcity",
+        "Precision Agriculture",
+        "Sustainable Agriculture"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "'Per Drop More Crop' is a component of PMKSY.",
+        "It promotes micro-irrigation systems like drip and sprinkler irrigation.",
+        "The scheme aims to enhance water use efficiency in agriculture.",
+        "It helps in improving crop productivity and reducing cultivation costs.",
+        "Water scarcity is a major challenge for Indian agriculture."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Significance of Micro-irrigation:** Discuss how micro-irrigation systems contribute to water conservation, increased crop yields, and farmer income.",
+        "**Challenges in Adoption:** Analyze the factors hindering widespread adoption of micro-irrigation, such as initial investment costs, awareness gaps, and fragmented landholdings.",
+        "**Government Initiatives:** Evaluate the effectiveness of schemes like PMKSY and 'Per Drop More Crop' in promoting sustainable irrigation practices.",
+        "**Impact on Water Security:** Discuss how efficient water management in agriculture can contribute to national water security and mitigate the effects of climate change.",
+        "**Technological Integration:** Examine the role of precision agriculture and e-technology in optimizing water usage and crop management."
+      ],
+      "imageDescription": "A field being irrigated using drip irrigation system, showing water droplets precisely delivered to plant roots.",
+      "section": "Economy",
+      "trivia": "Drip irrigation was developed in Israel in the 1960s and is now used worldwide, especially in arid and semi-arid regions.",
+      "prelimsSyllabus": {
+        "subject": "Indian Agriculture",
+        "area": "Irrigation",
+        "topic": "Water Management in Agriculture"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ayushman-bharat-digital-mission-expansion",
+      "headline": "Ayushman Bharat Digital Mission Expands to Cover All Primary Health Centers",
+      "explainer": "• The National Health Authority (NHA) announced the expansion of the Ayushman Bharat Digital Mission (ABDM) to include all Primary Health Centers (PHCs) across the country.\n• This expansion aims to create a seamless online platform for healthcare services, enabling digital health records, teleconsultations, and easier access to medical facilities.\n• Every citizen will be encouraged to create an Ayushman Bharat Health Account (ABHA) number, a unique health ID for accessing digital health services.\n• The move is expected to improve efficiency, transparency, and accessibility of healthcare, especially in rural and underserved areas.\n• ABDM is a foundational step towards achieving Universal Health Coverage in India, leveraging digital technology.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-02-11",
+      "source": "National Health Authority / The Hindu",
+      "sourceUrl": "Not available online",
+      "importance": "medium",
+      "tags": [
+        "ABDM",
+        "Ayushman Bharat Digital Mission",
+        "Digital Health",
+        "Universal Health Coverage",
+        "Primary Health Centers",
+        "ABHA",
+        "Telemedicine"
+      ],
+      "keyTerms": [
+        "Ayushman Bharat Digital Mission (ABDM)",
+        "Ayushman Bharat Health Account (ABHA)",
+        "Universal Health Coverage (UHC)",
+        "Digital Health Records (DHR)",
+        "Teleconsultation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ABDM is expanding to include all Primary Health Centers (PHCs).",
+        "It aims to create digital health records and enable teleconsultations.",
+        "ABHA (Ayushman Bharat Health Account) is a unique health ID.",
+        "NHA is the implementing agency for ABDM.",
+        "The mission contributes to Universal Health Coverage."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Objectives & Vision:** Discuss the core objectives of ABDM and its role in transforming India's healthcare landscape through digitalization.",
+        "**Benefits:** Analyze how ABDM can improve healthcare accessibility, efficiency, and transparency, particularly for rural and marginalized populations.",
+        "**Challenges:** Examine the challenges in implementing ABDM, including digital literacy, data security concerns, infrastructure gaps, and interoperability issues.",
+        "**Universal Health Coverage:** Discuss how ABDM contributes to achieving Universal Health Coverage and strengthening the public health system.",
+        "**Ethical Considerations:** Briefly touch upon the ethical implications related to data privacy, consent, and potential misuse of digital health data."
+      ],
+      "imageDescription": "An infographic showing the interconnected components of the Ayushman Bharat Digital Mission, with a focus on digital health records and teleconsultation.",
+      "section": "National",
+      "trivia": "The Ayushman Bharat Yojana (PM-JAY) is the world's largest government-funded health assurance scheme.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Health",
+        "topic": "Government Health Schemes"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "renewable-energy-capacity-addition-q3fy25",
+      "headline": "India Records Significant Renewable Energy Capacity Addition in Q3 FY25",
+      "explainer": "• The Ministry of New and Renewable Energy (MNRE) reported a substantial increase in renewable energy capacity addition during the third quarter of Fiscal Year 2024-25.\n• Solar power projects, both utility-scale and rooftop, continued to dominate the new installations, followed by wind energy.\n• This surge is attributed to supportive government policies, increasing private sector investment, and declining costs of renewable energy technologies.\n• The accelerated deployment of renewables is crucial for India to meet its ambitious climate targets and enhance energy security.\n• The report also highlighted the need for further investment in grid infrastructure and energy storage solutions to integrate higher shares of intermittent renewable energy.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy",
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment"
+      ],
+      "date": "2025-02-11",
+      "source": "Ministry of New and Renewable Energy / Economic Survey",
+      "sourceUrl": "Not available online",
+      "importance": "medium",
+      "tags": [
+        "Renewable Energy",
+        "Solar Power",
+        "Wind Energy",
+        "Energy Security",
+        "Climate Targets",
+        "Green Energy",
+        "MNRE"
+      ],
+      "keyTerms": [
+        "Renewable Energy Capacity",
+        "Solar Energy",
+        "Wind Energy",
+        "Energy Transition",
+        "Grid Integration",
+        "Energy Storage"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India has seen significant renewable energy capacity additions.",
+        "Solar power is the leading source of new installations.",
+        "Government policies and private investment drive growth.",
+        "Renewable energy is vital for climate targets and energy security.",
+        "Grid infrastructure and energy storage are key for future integration."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Energy Transition:** Discuss India's progress and challenges in transitioning from fossil fuels to renewable energy sources.",
+        "**Economic Benefits:** Analyze the economic advantages of renewable energy, including job creation, reduced import dependence, and investment opportunities.",
+        "**Policy Framework:** Evaluate the effectiveness of government policies and incentives (e.g., PLI schemes, solar parks) in promoting renewable energy deployment.",
+        "**Challenges & Solutions:** Examine the hurdles in large-scale renewable energy integration, such as intermittency, grid stability, land acquisition, and financing, and suggest potential solutions.",
+        "**Climate Change Mitigation:** Discuss how India's renewable energy push contributes to its international climate commitments and global efforts to combat climate change."
+      ],
+      "imageDescription": "A vast solar power farm stretching to the horizon under a clear sky, symbolizing India's renewable energy growth.",
+      "section": "Economy",
+      "trivia": "India aims to achieve 500 GW of non-fossil energy capacity by 2030, a significant step towards its net-zero target.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Infrastructure",
+        "topic": "Energy Sector"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "legacy-bhakti-movement-indian-society",
+      "headline": "Revisiting the Enduring Legacy of the Bhakti Movement on Indian Society",
+      "explainer": "• A recent academic seminar highlighted the profound and enduring impact of the Bhakti Movement on Indian society, challenging traditional hierarchies and promoting social equality.\n• The Bhakti saints, across various regions, preached devotion to a personal God, emphasizing love, compassion, and the equality of all beings irrespective of caste, creed, or gender.\n• The movement contributed significantly to the development of regional languages and literature, as saints composed hymns and verses in vernacular tongues.\n• It fostered a spirit of social reform, questioning rigid caste systems and rituals, and empowering marginalized sections of society.\n• The spiritual and cultural legacies of Bhakti continue to influence contemporary Indian thought, music, and social harmony.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Salient features of Indian Society, Diversity of India."
+      ],
+      "date": "2025-02-11",
+      "source": "Academic Journal / The Hindu",
+      "sourceUrl": "Not available online",
+      "importance": "medium",
+      "tags": [
+        "Bhakti Movement",
+        "Indian History",
+        "Social Reform",
+        "Literature",
+        "Regional Languages",
+        "Caste System",
+        "Spirituality",
+        "Cultural Heritage"
+      ],
+      "keyTerms": [
+        "Bhakti Movement",
+        "Vaishnavism",
+        "Shaivism",
+        "Sufism",
+        "Varkari Tradition",
+        "Alvars",
+        "Nayanars",
+        "Sikhism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Bhakti Movement challenged social hierarchies.",
+        "Bhakti saints preached devotion to a personal God.",
+        "It contributed to the development of regional languages (e.g., Marathi, Hindi, Tamil).",
+        "Key figures include Kabir, Nanak, Chaitanya, Mirabai, and Shankaradeva.",
+        "The movement promoted social equality and questioned caste systems."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Origins & Spread:** Discuss the historical context and various regional manifestations of the Bhakti Movement across India.",
+        "**Core Tenets:** Analyze the fundamental principles and teachings of Bhakti saints, emphasizing devotion, equality, and rejection of ritualism.",
+        "**Socio-Cultural Impact:** Examine how the Bhakti Movement influenced social reforms, challenged the caste system, empowered women, and fostered communal harmony.",
+        "**Literary & Linguistic Contributions:** Discuss the role of Bhakti saints in enriching regional languages and literature through their devotional poetry and teachings.",
+        "**Enduring Legacy:** Evaluate the lasting impact of the Bhakti Movement on Indian spirituality, art, music, and the broader socio-cultural fabric of the nation."
+      ],
+      "imageDescription": "A montage of various Bhakti saints (e.g., Kabir, Nanak, Mirabai) from different regions of India, symbolizing the pan-Indian nature of the movement.",
+      "section": "Editorial",
+      "trivia": "Guru Nanak Dev, the founder of Sikhism, was greatly influenced by the Bhakti and Sufi movements.",
+      "prelimsSyllabus": {
+        "subject": "History",
+        "area": "Medieval History",
+        "topic": "Bhakti & Sufi Movements"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "India launches 'Green Steel Policy' to drive industrial decarbonization and achieve net-zero targets.",
+    "Noted Marathi novelist Raosaheb Rangnath Borade, known for depicting rural life, passes away at 84.",
+    "Supreme Court reinforces digital privacy rights, issuing landmark guidelines on data localization for critical personal data.",
+    "India calls for enhanced maritime cooperation with ASEAN nations to ensure a free and open Indo-Pacific.",
+    "ISRO provides a positive update on Shukrayaan-1, confirming the Venus orbiter mission is on track.",
+    "Government reviews NEP 2020 implementation, prioritizing foundational literacy and numeracy under NIPUN Bharat.",
+    "Q3 Economic Survey highlights India's economic resilience, driven by manufacturing growth amidst global headwinds.",
+    "BRO expedites strategic border road projects in the Northeastern states to bolster connectivity and security.",
+    "Ayushman Bharat Digital Mission expands to cover all Primary Health Centers for universal digital health access."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the recently launched 'Green Steel Policy' in India, consider the following statements:\n1. The policy primarily aims to promote the use of coking coal in steel production.\n2. Green Hydrogen is a key component promoted under this policy for decarbonization.\n3. The policy provides financial incentives for research and development in carbon capture technologies.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 2 and 3 only",
+      "explanation": "Statement 1 is incorrect. The Green Steel Policy aims to *decarbonize* the steel industry, which means reducing reliance on carbon-intensive fuels like coking coal, not promoting them. Statements 2 and 3 are correct. The policy focuses on promoting green hydrogen and carbon capture technologies to achieve its decarbonization goals."
+    },
+    {
+      "question": "Raosaheb Rangnath Borade, who recently passed away, was a prominent figure in which of the following fields?",
+      "options": [
+        "(a) Classical Music",
+        "(b) Marathi Literature",
+        "(c) Space Technology",
+        "(d) Environmental Activism"
+      ],
+      "answer": "(b) Marathi Literature",
+      "explanation": "Raosaheb Rangnath Borade was a renowned Marathi novelist, celebrated for his realistic portrayal of rural life in Maharashtra. He was a recipient of the Sahitya Akademi Award for his contributions to Marathi literature."
+    },
+    {
+      "question": "Consider the following statements regarding the Supreme Court's recent ruling on digital privacy:\n1. The ruling explicitly states that the 'Right to Privacy' under Article 21 extends to digital spaces.\n2. It mandates immediate implementation of a comprehensive data protection law by all private entities.\n3. The judgment builds upon the principles laid down in the Puttaswamy judgment.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 3 only",
+      "explanation": "Statement 1 is correct, as the ruling reinforces the extension of Article 21 to digital privacy. Statement 2 is incorrect; the court directed the government to *finalize* a comprehensive law and set *interim* norms, not immediate mandates on all private entities for a non-existent finalized law. Statement 3 is correct, as it builds upon the Puttaswamy judgment (2017) which declared privacy a fundamental right."
+    },
+    {
+      "question": "Which of the following statements correctly describes the 'Amrit Dharohar' initiative?\n(a) It is a scheme for preserving ancient Indian monuments and heritage sites.\n(b) It focuses on the holistic conservation and wise use of India's wetlands.\n(c) It aims to promote organic farming practices across rain-fed areas.\n(d) It is a program for digitalizing traditional Indian art forms and crafts.",
+      "answer": "(b) It focuses on the holistic conservation and wise use of India's wetlands.",
+      "explanation": "The 'Amrit Dharohar' initiative, launched by the Ministry of Environment, Forest and Climate Change, is specifically aimed at the conservation and sustainable management of India's wetlands, including expanding the network of Ramsar sites and promoting ecotourism."
+    },
+    {
+      "question": "With respect to India's space missions, 'Shukrayaan-1' is associated with which celestial body?",
+      "options": [
+        "(a) Mars",
+        "(b) Jupiter",
+        "(c) Venus",
+        "(d) Moon"
+      ],
+      "answer": "(c) Venus",
+      "explanation": "Shukrayaan-1 is ISRO's maiden orbiter mission to Venus, aimed at studying its atmosphere, surface, and subsurface. India has previously sent missions to Mars (Mangalyaan) and the Moon (Chandrayaan)."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "Critically analyze the potential of India's 'Green Steel Policy' to achieve its dual objectives of industrial decarbonization and economic growth. What are the key technological and financial challenges that need to be addressed for its successful implementation? (15 marks, 250 words)",
+      "syllabusMatch": "GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment; Conservation, environmental pollution and degradation, environmental impact assessment; Science and Technology- developments and their applications and effects in everyday life.",
+      "approach": "Introduce the Green Steel Policy and its dual objectives. Discuss the economic benefits (job creation, investment, global competitiveness) and environmental benefits (net-zero targets, climate action). Identify key challenges such as high initial capital costs, technological readiness (green hydrogen production, CCUS), energy infrastructure requirements, and policy support mechanisms. Conclude with recommendations for a robust implementation strategy."
+    },
+    {
+      "question": "The Supreme Court's recent ruling on digital privacy and data localization has significant implications for both individual rights and national digital economy. Discuss these implications, and evaluate the challenges in formulating and implementing a comprehensive data protection law in India. (15 marks, 250 words)",
+      "syllabusMatch": "GS2: Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure; Government policies and interventions for development in various sectors and issues arising out of their design and implementation; GS3: Science and Technology- developments and their applications and effects in everyday life; Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights.",
+      "approach": "Begin by linking the ruling to Article 21 and the Puttaswamy judgment, establishing digital privacy as a fundamental right. Discuss implications for individuals (data security, autonomy) and the digital economy (impact on global tech, local data processing). Analyze challenges in law formulation (balancing state surveillance, business interests, individual rights) and implementation (infrastructure, digital literacy, cross-border data flow regulations, enforcement). Conclude with the need for a balanced, future-proof framework."
+    },
+    {
+      "question": "The National Education Policy (NEP) 2020 aims for a transformative overhaul of India's education system. Evaluate the progress of its implementation, particularly focusing on the 'Foundational Literacy and Numeracy' aspect and the challenges faced in achieving its ambitious goals. (10 marks, 150 words)",
+      "syllabusMatch": "GS2: Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources; Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+      "approach": "Briefly introduce NEP 2020's vision. Discuss the progress in areas like foundational literacy (NIPUN Bharat), multidisciplinary education, and technology integration. Highlight the challenges such as infrastructure gaps, teacher training and capacity building, digital divide in rural areas, and ensuring equitable access. Conclude with the need for sustained efforts and continuous monitoring to overcome these hurdles."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "Green Hydrogen is produced by electrolysis of water using renewable energy, emitting no greenhouse gases.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Hydrogen",
+        "Renewable Energy"
+      ]
+    },
+    {
+      "text": "The Sahitya Akademi Award, instituted in 1954, is India's second-highest literary honour after the Jnanpith Award.",
+      "category": "art_culture",
+      "gsPaper": "GS1",
+      "tags": [
+        "Sahitya Akademi Award",
+        "Literature"
+      ]
+    },
+    {
+      "text": "Article 21 of the Indian Constitution guarantees the fundamental Right to Life and Personal Liberty.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Article 21",
+        "Fundamental Rights"
+      ]
+    },
+    {
+      "text": "The United Nations Convention on the Law of the Sea (UNCLOS) defines the rights and responsibilities of nations with respect to their use of the world's oceans.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "UNCLOS",
+        "Maritime Law"
+      ]
+    },
+    {
+      "text": "Ramsar Sites are wetlands designated as being of international importance under the Ramsar Convention.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Ramsar Sites",
+        "Wetlands",
+        "Conservation"
+      ]
+    },
+    {
+      "text": "ISRO's Mars Orbiter Mission (Mangalyaan) made India the first Asian nation to reach Martian orbit.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "Mangalyaan",
+        "Space Missions"
+      ]
+    },
+    {
+      "text": "The Border Roads Organisation (BRO) constructs and maintains road networks in India's border areas and friendly neighboring countries.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "BRO",
+        "Border Infrastructure"
+      ]
+    },
+    {
+      "text": "NIPUN Bharat Mission aims to ensure that every child achieves foundational literacy and numeracy by the end of Grade 3.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "NIPUN Bharat",
+        "Education Policy",
+        "Literacy"
+      ]
+    },
+    {
+      "text": "Drip irrigation, a micro-irrigation method, delivers water directly to the plant root zone, minimizing water loss.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Drip Irrigation",
+        "Agriculture",
+        "Water Management"
+      ]
+    },
+    {
+      "text": "The Bhakti Movement, a socio-religious reform movement, challenged caste distinctions and emphasized personal devotion.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "tags": [
+        "Bhakti Movement",
+        "Social Reform",
+        "Medieval India"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "raosaheb-rangnath-borade-passes-away",
+        "headline": "Noted Marathi Novelist Raosaheb Rangnath Borade Passes Away at 84",
+        "explainer": "• Renowned Marathi novelist and Sahitya Akademi Award recipient, Raosaheb Rangnath Borade, passed away at the age of 84.\n• Borade was celebrated for his realistic portrayal of rural life, particularly the struggles and aspirations of the farming community in Maharashtra.\n• His prominent works include 'Pachola' (Dry Leaf), 'Mala Udhvasta Vhayachay', and 'Manus'.\n• He was a recipient of the Sahitya Akademi Award for his contributions to Marathi literature.\n• His writings are considered significant contributions to rural Marathi literature, offering deep insights into social structures and human emotions.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Salient features of Indian Society, Diversity of India."
+        ],
+        "date": "2025-02-11",
+        "source": "The Indian Express",
+        "sourceUrl": "Not available online",
+        "importance": "medium",
+        "tags": [
+          "Raosaheb Rangnath Borade",
+          "Marathi Literature",
+          "Novelist",
+          "Sahitya Akademi Award",
+          "Rural Life",
+          "Maharashtra"
+        ],
+        "keyTerms": [
+          "Marathi Literature",
+          "Sahitya Akademi Award",
+          "Rural Realism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Raosaheb Rangnath Borade was a Marathi novelist.",
+          "He was known for depicting rural life.",
+          "His famous works include 'Pachola'.",
+          "He was a recipient of the Sahitya Akademi Award."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Contribution to Literature:** Discuss Borade's unique style and thematic concerns, particularly his focus on rural Maharashtra and the lives of farmers.",
+          "**Social Commentary:** Analyze how his works provided critical insights into social issues, caste dynamics, and economic disparities in rural India.",
+          "**Legacy:** Evaluate his impact on Marathi literature and his role in bringing regional narratives to national prominence.",
+          "**Role of Literature:** How does literature like Borade's contribute to understanding the social fabric and cultural heritage of India?"
+        ],
+        "imageDescription": "Black and white portrait of Raosaheb Rangnath Borade, a distinguished Marathi novelist.",
+        "section": "National",
+        "trivia": "The Sahitya Akademi Award is a literary honor in India conferred by the Sahitya Akademi, India's National Academy of Letters.",
+        "prelimsSyllabus": {
+          "subject": "Art & Culture",
+          "area": "Literature",
+          "topic": "Indian Literature Personalities"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "legacy-bhakti-movement-indian-society",
+        "headline": "Revisiting the Enduring Legacy of the Bhakti Movement on Indian Society",
+        "explainer": "• A recent academic seminar highlighted the profound and enduring impact of the Bhakti Movement on Indian society, challenging traditional hierarchies and promoting social equality.\n• The Bhakti saints, across various regions, preached devotion to a personal God, emphasizing love, compassion, and the equality of all beings irrespective of caste, creed, or gender.\n• The movement contributed significantly to the development of regional languages and literature, as saints composed hymns and verses in vernacular tongues.\n• It fostered a spirit of social reform, questioning rigid caste systems and rituals, and empowering marginalized sections of society.\n• The spiritual and cultural legacies of Bhakti continue to influence contemporary Indian thought, music, and social harmony.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Salient features of Indian Society, Diversity of India."
+        ],
+        "date": "2025-02-11",
+        "source": "Academic Journal / The Hindu",
+        "sourceUrl": "Not available online",
+        "importance": "medium",
+        "tags": [
+          "Bhakti Movement",
+          "Indian History",
+          "Social Reform",
+          "Literature",
+          "Regional Languages",
+          "Caste System",
+          "Spirituality",
+          "Cultural Heritage"
+        ],
+        "keyTerms": [
+          "Bhakti Movement",
+          "Vaishnavism",
+          "Shaivism",
+          "Sufism",
+          "Varkari Tradition",
+          "Alvars",
+          "Nayanars",
+          "Sikhism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Bhakti Movement challenged social hierarchies.",
+          "Bhakti saints preached devotion to a personal God.",
+          "It contributed to the development of regional languages (e.g., Marathi, Hindi, Tamil).",
+          "Key figures include Kabir, Nanak, Chaitanya, Mirabai, and Shankaradeva.",
+          "The movement promoted social equality and questioned caste systems."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Origins & Spread:** Discuss the historical context and various regional manifestations of the Bhakti Movement across India.",
+          "**Core Tenets:** Analyze the fundamental principles and teachings of Bhakti saints, emphasizing devotion, equality, and rejection of ritualism.",
+          "**Socio-Cultural Impact:** Examine how the Bhakti Movement influenced social reforms, challenged the caste system, empowered women, and fostered communal harmony.",
+          "**Literary & Linguistic Contributions:** Discuss the role of Bhakti saints in enriching regional languages and literature through their devotional poetry and teachings.",
+          "**Enduring Legacy:** Evaluate the lasting impact of the Bhakti Movement on Indian spirituality, art, music, and the broader socio-cultural fabric of the nation."
+        ],
+        "imageDescription": "A montage of various Bhakti saints (e.g., Kabir, Nanak, Mirabai) from different regions of India, symbolizing the pan-Indian nature of the movement.",
+        "section": "Editorial",
+        "trivia": "Guru Nanak Dev, the founder of Sikhism, was greatly influenced by the Bhakti and Sufi movements.",
+        "prelimsSyllabus": {
+          "subject": "History",
+          "area": "Medieval History",
+          "topic": "Bhakti & Sufi Movements"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "sc-digital-privacy-data-localization",
+        "headline": "Supreme Court Reinforces Digital Privacy Rights in Landmark Ruling on Data Localization",
+        "explainer": "• The Supreme Court delivered a significant judgment, reinforcing digital privacy rights and issuing guidelines on data localization for critical personal data.\n• The ruling emphasizes that the 'Right to Privacy' under Article 21 extends to digital spaces, necessitating robust data protection mechanisms.\n• The court directed the government to finalize a comprehensive data protection law, while also setting interim norms for handling sensitive personal data by private entities and public bodies.\n• This judgment comes amidst growing concerns over cross-border data flows and the implications for national security and individual autonomy.\n• It builds upon previous landmark rulings like the Puttaswamy judgment, further defining the contours of privacy in the digital age.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights"
+        ],
+        "date": "2025-02-11",
+        "source": "Supreme Court of India / Live Law",
+        "sourceUrl": "Not available online",
+        "importance": "high",
+        "tags": [
+          "Digital Privacy",
+          "Data Localization",
+          "Supreme Court",
+          "Right to Privacy",
+          "Article 21",
+          "Data Protection Law",
+          "Puttaswamy Judgment"
+        ],
+        "keyTerms": [
+          "Right to Privacy",
+          "Data Localization",
+          "Personal Data Protection Bill",
+          "Digital India",
+          "Article 21"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Supreme Court's ruling connects digital privacy to Article 21 (Right to Life and Personal Liberty).",
+          "It emphasizes the need for a comprehensive data protection law.",
+          "The judgment provides interim guidelines for handling sensitive personal data.",
+          "The Puttaswamy judgment (2017) declared privacy as a fundamental right.",
+          "Data localization refers to storing data within a country's borders."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Constitutional Implications:** Discuss how the ruling strengthens the fundamental right to privacy and its interpretation in the digital age.",
+          "**Policy & Governance Challenges:** Analyze the complexities involved in drafting and implementing a robust data protection law that balances individual rights with state interests and business needs (e.g., cross-border data flows, surveillance).",
+          "**Economic Impact:** Examine the potential effects of data localization mandates on global tech companies operating in India and on India's digital economy.",
+          "**Technological Aspects:** Discuss the technical challenges and infrastructure requirements for implementing data localization and ensuring data security.",
+          "**Global Context:** Compare India's approach to data privacy and localization with international standards and practices (e.g., GDPR)."
+        ],
+        "imageDescription": "Abstract graphic representing digital data flowing securely, with a Supreme Court emblem in the background.",
+        "section": "National",
+        "trivia": "The 'Right to be Forgotten' is an aspect of digital privacy, allowing individuals to request the removal of certain personal information from public search results.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "india-asean-maritime-security-dialogue",
+        "headline": "India Calls for Enhanced Maritime Cooperation at India-ASEAN Security Dialogue",
+        "explainer": "• India participated in the annual India-ASEAN Maritime Security Dialogue, reiterating its commitment to a free, open, and inclusive Indo-Pacific.\n• Discussions focused on strengthening regional maritime security, combating piracy, enhancing HADR (Humanitarian Assistance and Disaster Relief) efforts, and promoting sustainable use of marine resources.\n• India emphasized the importance of adhering to international law, particularly UNCLOS (United Nations Convention on the Law of the Sea), for peaceful resolution of maritime disputes.\n• The dialogue also explored avenues for joint naval exercises and capacity building among ASEAN member states.\n• This engagement underscores India's 'Act East' policy and its growing strategic ties with Southeast Asian nations.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora"
+        ],
+        "date": "2025-02-11",
+        "source": "Ministry of External Affairs / The Hindu",
+        "sourceUrl": "Not available online",
+        "importance": "high",
+        "tags": [
+          "India-ASEAN",
+          "Maritime Security",
+          "Indo-Pacific",
+          "UNCLOS",
+          "Act East Policy",
+          "Regional Cooperation",
+          "HADR"
+        ],
+        "keyTerms": [
+          "ASEAN",
+          "Indo-Pacific",
+          "UNCLOS",
+          "Act East Policy",
+          "HADR",
+          "Maritime Domain Awareness"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India-ASEAN Dialogue focuses on maritime security.",
+          "India advocates for a free, open, and inclusive Indo-Pacific.",
+          "UNCLOS is a key international law for maritime governance.",
+          "HADR stands for Humanitarian Assistance and Disaster Relief.",
+          "The 'Act East' policy is central to India's engagement with Southeast Asia."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Strategic Importance:** Discuss the strategic significance of the Indo-Pacific region for India's security and economic interests.",
+          "**India's Role:** Analyze India's 'Act East' policy and its efforts to enhance connectivity, security, and trade with ASEAN countries.",
+          "**Challenges to Maritime Security:** Examine the various threats to maritime security in the region, including piracy, illegal fishing, territorial disputes, and environmental degradation.",
+          "**Multilateral Cooperation:** Evaluate the effectiveness of India-ASEAN cooperation mechanisms in addressing these challenges and promoting regional stability.",
+          "**UNCLOS and International Law:** Discuss the role of UNCLOS in resolving maritime disputes and ensuring freedom of navigation, especially in contested areas."
+        ],
+        "imageDescription": "Naval ships from India and ASEAN nations conducting a joint exercise in the Indo-Pacific, symbolizing maritime cooperation.",
+        "section": "International",
+        "trivia": "ASEAN (Association of Southeast Asian Nations) was established in 1967 and comprises ten member states.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Regional Groupings",
+          "topic": "India & ASEAN"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "nep-2020-implementation-review",
+        "headline": "Ministry of Education Reviews NEP 2020 Implementation Progress, Focus on Foundational Literacy",
+        "explainer": "• The Ministry of Education conducted a comprehensive review of the implementation progress of the National Education Policy (NEP) 2020.\n• The review highlighted significant strides in integrating technology into education and promoting multidisciplinary learning at higher education levels.\n• A key focus area for accelerated implementation is foundational literacy and numeracy (FLN) under the 'NIPUN Bharat' mission.\n• Challenges identified include ensuring equitable access to quality education in remote areas and adequate teacher training.\n• The government reiterated its commitment to achieving the policy's transformative goals by the target timelines, emphasizing continuous monitoring and stakeholder engagement.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2025-02-11",
+        "source": "Ministry of Education / The Hindu",
+        "sourceUrl": "Not available online",
+        "importance": "high",
+        "tags": [
+          "NEP 2020",
+          "National Education Policy",
+          "Foundational Literacy",
+          "NIPUN Bharat",
+          "Education Reforms",
+          "Teacher Training",
+          "Multidisciplinary Learning"
+        ],
+        "keyTerms": [
+          "National Education Policy (NEP)",
+          "Foundational Literacy and Numeracy (FLN)",
+          "NIPUN Bharat Mission",
+          "Multidisciplinary Education",
+          "Gross Enrolment Ratio (GER)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NEP 2020 aims to transform India's education system.",
+          "NIPUN Bharat Mission focuses on foundational literacy and numeracy.",
+          "The policy promotes multidisciplinary learning.",
+          "Teacher training is a crucial component of NEP implementation.",
+          "The Ministry of Education is responsible for NEP implementation."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Objectives of NEP 2020:** Discuss the core principles and objectives of the National Education Policy 2020 and its vision for Indian education.",
+          "**Implementation Challenges:** Analyze the major hurdles in the effective implementation of NEP 2020, particularly in areas like infrastructure, teacher capacity, and digital divide.",
+          "**Foundational Literacy & Numeracy:** Evaluate the significance of the NIPUN Bharat mission and its potential impact on early childhood education outcomes.",
+          "**Higher Education Reforms:** Discuss the implications of multidisciplinary education, academic bank of credits, and internationalization of higher education as envisioned by NEP.",
+          "**Inclusive Education:** How does NEP 2020 address issues of equity and access for marginalized sections and remote areas?"
+        ],
+        "imageDescription": "Students in a modern classroom setting, with digital learning tools, symbolizing the advancements envisioned by NEP 2020.",
+        "section": "National",
+        "trivia": "The NEP 2020 is the third major education policy in India, after policies in 1968 and 1986.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Human Resource Development",
+          "topic": "Education Policy"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "india-france-strategic-dialogue",
+        "headline": "India-France Strategic Dialogue Emphasizes Defense, Space, and Clean Energy Cooperation",
+        "explainer": "• India and France held their annual Strategic Dialogue, reaffirming their robust strategic partnership and charting new avenues for cooperation.\n• The dialogue focused on strengthening defense ties, including co-development and co-production of military equipment, and enhancing counter-terrorism efforts.\n• Space cooperation was a key agenda, with discussions on joint satellite missions, space situational awareness, and sharing of expertise.\n• Both nations also pledged to deepen collaboration in clean energy technologies, particularly in nuclear energy and green hydrogen.\n• The discussions underscored the shared commitment to a rules-based international order and addressing global challenges, including climate change and regional security.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora"
+        ],
+        "date": "2025-02-11",
+        "source": "Ministry of External Affairs / The Economic Times",
+        "sourceUrl": "Not available online",
+        "importance": "high",
+        "tags": [
+          "India-France Relations",
+          "Strategic Partnership",
+          "Defense Cooperation",
+          "Space Cooperation",
+          "Clean Energy",
+          "Indo-Pacific",
+          "Bilateral Relations"
+        ],
+        "keyTerms": [
+          "Strategic Partnership",
+          "Defense Industrial Corridor",
+          "Space Situational Awareness",
+          "Nuclear Energy Cooperation",
+          "Green Hydrogen"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India and France hold an annual Strategic Dialogue.",
+          "Key cooperation areas include defense, space, and clean energy.",
+          "Co-development and co-production are part of defense ties.",
+          "Joint satellite missions are discussed in space cooperation.",
+          "Both nations emphasize a rules-based international order."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Evolution of Partnership:** Trace the trajectory of India-France strategic partnership, highlighting its key pillars and milestones.",
+          "**Defense & Security Cooperation:** Discuss the significance of defense ties, including technology transfer, joint exercises, and counter-terrorism efforts, for India's strategic autonomy.",
+          "**Space & Technology Collaboration:** Analyze the importance of India-France cooperation in space exploration, satellite technology, and emerging areas like AI and quantum computing.",
+          "**Clean Energy & Climate Action:** Examine how both nations are collaborating on clean energy transitions, particularly in nuclear power and green hydrogen, to achieve climate goals.",
+          "**Geopolitical Alignment:** Discuss how India and France align on key geopolitical issues, including the Indo-Pacific strategy and multilateralism, and their role in shaping global order."
+        ],
+        "imageDescription": "Flags of India and France displayed prominently during a diplomatic meeting, symbolizing strong bilateral ties.",
+        "section": "International",
+        "trivia": "France was one of the first countries to establish a strategic partnership with India, dating back to 1998.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India & France"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "ayushman-bharat-digital-mission-expansion",
+        "headline": "Ayushman Bharat Digital Mission Expands to Cover All Primary Health Centers",
+        "explainer": "• The National Health Authority (NHA) announced the expansion of the Ayushman Bharat Digital Mission (ABDM) to include all Primary Health Centers (PHCs) across the country.\n• This expansion aims to create a seamless online platform for healthcare services, enabling digital health records, teleconsultations, and easier access to medical facilities.\n• Every citizen will be encouraged to create an Ayushman Bharat Health Account (ABHA) number, a unique health ID for accessing digital health services.\n• The move is expected to improve efficiency, transparency, and accessibility of healthcare, especially in rural and underserved areas.\n• ABDM is a foundational step towards achieving Universal Health Coverage in India, leveraging digital technology.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Science and Technology- developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-02-11",
+        "source": "National Health Authority / The Hindu",
+        "sourceUrl": "Not available online",
+        "importance": "medium",
+        "tags": [
+          "ABDM",
+          "Ayushman Bharat Digital Mission",
+          "Digital Health",
+          "Universal Health Coverage",
+          "Primary Health Centers",
+          "ABHA",
+          "Telemedicine"
+        ],
+        "keyTerms": [
+          "Ayushman Bharat Digital Mission (ABDM)",
+          "Ayushman Bharat Health Account (ABHA)",
+          "Universal Health Coverage (UHC)",
+          "Digital Health Records (DHR)",
+          "Teleconsultation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ABDM is expanding to include all Primary Health Centers (PHCs).",
+          "It aims to create digital health records and enable teleconsultations.",
+          "ABHA (Ayushman Bharat Health Account) is a unique health ID.",
+          "NHA is the implementing agency for ABDM.",
+          "The mission contributes to Universal Health Coverage."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Objectives & Vision:** Discuss the core objectives of ABDM and its role in transforming India's healthcare landscape through digitalization.",
+          "**Benefits:** Analyze how ABDM can improve healthcare accessibility, efficiency, and transparency, particularly for rural and marginalized populations.",
+          "**Challenges:** Examine the challenges in implementing ABDM, including digital literacy, data security concerns, infrastructure gaps, and interoperability issues.",
+          "**Universal Health Coverage:** Discuss how ABDM contributes to achieving Universal Health Coverage and strengthening the public health system.",
+          "**Ethical Considerations:** Briefly touch upon the ethical implications related to data privacy, consent, and potential misuse of digital health data."
+        ],
+        "imageDescription": "An infographic showing the interconnected components of the Ayushman Bharat Digital Mission, with a focus on digital health records and teleconsultation.",
+        "section": "National",
+        "trivia": "The Ayushman Bharat Yojana (PM-JAY) is the world's largest government-funded health assurance scheme.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Health",
+          "topic": "Government Health Schemes"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "india-green-steel-policy-launch",
+        "headline": "India Unveils Ambitious Green Steel Policy to Decarbonize Industry",
+        "explainer": "• The Union Government has launched a comprehensive 'Green Steel Policy' aimed at accelerating the decarbonization of India's steel sector.\n• The policy focuses on promoting the use of green hydrogen, renewable energy, and carbon capture technologies in steel production.\n• Key incentives include financial support for R&D, pilot projects, and adoption of clean technologies by steel manufacturers.\n• This move aligns with India's net-zero targets and strengthens its position in the global green economy.\n• The policy is expected to create new job opportunities and boost indigenous manufacturing of green technologies.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy",
+          "Investment models",
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Conservation, environmental pollution and degradation",
+          "Environmental impact assessment"
+        ],
+        "date": "2025-02-11",
+        "source": "Ministry of Steel / The Hindu",
+        "sourceUrl": "Not available online",
+        "importance": "high",
+        "tags": [
+          "Green Steel",
+          "Decarbonization",
+          "Green Hydrogen",
+          "Climate Change",
+          "Industrial Policy",
+          "Make in India",
+          "Net Zero"
+        ],
+        "keyTerms": [
+          "Green Steel",
+          "Green Hydrogen",
+          "Carbon Capture, Utilisation and Storage (CCUS)",
+          "Decarbonization",
+          "Net-Zero Emissions",
+          "National Green Hydrogen Mission"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India's Green Steel Policy aims to reduce carbon emissions from the steel industry.",
+          "The policy promotes the use of green hydrogen and renewable energy.",
+          "It offers incentives for R&D and adoption of clean technologies.",
+          "Steel production is a major contributor to global carbon emissions.",
+          "The National Green Hydrogen Mission is a foundational element for this policy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Economic Impact:** Discuss how the policy can boost domestic manufacturing, attract investments in green technologies, and create skilled jobs.",
+          "**Environmental Impact:** Analyze its role in achieving India's climate targets (NDC commitments, net-zero by 2070) and reducing industrial pollution.",
+          "**Technological Advancements:** Examine the challenges and opportunities in adopting green hydrogen and CCUS technologies in a large-scale industrial sector like steel.",
+          "**Policy Framework:** Critically evaluate the incentive mechanisms and regulatory support needed for successful implementation.",
+          "**Global Competitiveness:** How can this policy enhance India's competitiveness in the global steel market and promote sustainable trade practices?"
+        ],
+        "imageDescription": "Illustration depicting a modern steel plant with green hydrogen facilities and reduced emissions, symbolizing the 'Green Steel' initiative.",
+        "section": "Lead Opinion",
+        "trivia": "Steel production accounts for 7-9% of global greenhouse gas emissions annually, making its decarbonization crucial for climate goals.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Growth & Development",
+          "topic": "Industrial Policy & Infrastructure"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "amrit-dharohar-wetland-conservation-phase2",
+        "headline": "Government Launches 'Amrit Dharohar' Phase II for Wetland Conservation",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change has launched the second phase of the 'Amrit Dharohar' initiative, focusing on the holistic conservation and wise use of India's wetlands.\n• Phase II aims to expand the network of Ramsar sites, enhance community participation, and promote ecotourism opportunities around these vital ecosystems.\n• The initiative emphasizes integrated management plans for wetlands, addressing issues like pollution, encroachment, and unsustainable resource extraction.\n• Wetlands play a crucial role in biodiversity conservation, climate change mitigation, and providing essential ecosystem services.\n• The program seeks to leverage local knowledge and livelihoods to ensure the long-term sustainability of wetland ecosystems.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Disaster and disaster management"
+        ],
+        "date": "2025-02-11",
+        "source": "Ministry of Environment, Forest and Climate Change / Down To Earth",
+        "sourceUrl": "Not available online",
+        "importance": "medium",
+        "tags": [
+          "Wetland Conservation",
+          "Amrit Dharohar",
+          "Ramsar Sites",
+          "Ecotourism",
+          "Biodiversity",
+          "Climate Change Mitigation",
+          "Ecosystem Services"
+        ],
+        "keyTerms": [
+          "Wetlands",
+          "Ramsar Convention",
+          "Ecosystem Services",
+          "Biodiversity Hotspots",
+          "Climate Change Adaptation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "'Amrit Dharohar' initiative is focused on wetland conservation.",
+          "Phase II aims to expand Ramsar sites and promote ecotourism.",
+          "Wetlands are crucial for biodiversity and climate regulation.",
+          "The Ramsar Convention is an international treaty for wetland conservation.",
+          "India has a significant number of Ramsar sites."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Ecological Importance:** Discuss the critical role of wetlands in maintaining ecological balance, supporting biodiversity, and providing ecosystem services (e.g., water purification, flood control).",
+          "**Challenges to Wetland Conservation:** Analyze the major threats faced by wetlands in India, such as pollution, urbanization, agricultural expansion, and climate change.",
+          "**Government Initiatives:** Evaluate the effectiveness of programs like 'Amrit Dharohar' and the Ramsar Convention in addressing these challenges.",
+          "**Community Participation:** Discuss the importance of involving local communities in wetland management and promoting sustainable livelihoods.",
+          "**Policy Recommendations:** Suggest measures for strengthening legal frameworks, enhancing inter-sectoral coordination, and ensuring scientific management of wetlands."
+        ],
+        "imageDescription": "A serene wetland landscape with migratory birds, reflecting the importance of these ecosystems for biodiversity.",
+        "section": "Environment",
+        "trivia": "The world's first Ramsar site was the Cobourg Peninsula in Australia, designated in 1974.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Conservation",
+          "topic": "Wetlands & Ramsar Sites"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "isro-shukrayaan-1-update",
+        "headline": "ISRO Provides Update on Shukrayaan-1, Mission on Track for Venus Orbit Insertion",
+        "explainer": "• The Indian Space Research Organisation (ISRO) announced that its Shukrayaan-1 mission, India's maiden orbiter to Venus, is progressing as planned.\n• The spacecraft has successfully completed critical trajectory correction maneuvers and is on course for its scheduled Venus orbit insertion.\n• Shukrayaan-1 is equipped with a suite of scientific instruments to study Venus's atmosphere, surface, and subsurface, including its geological features and atmospheric composition.\n• The mission aims to provide unprecedented data on Venusian climate, potential past oceans, and the planet's evolution.\n• This mission marks another significant step for India in deep-space exploration, following successful Mars and Moon missions.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights"
+        ],
+        "date": "2025-02-11",
+        "source": "ISRO / Press Information Bureau",
+        "sourceUrl": "Not available online",
+        "importance": "medium",
+        "tags": [
+          "ISRO",
+          "Shukrayaan-1",
+          "Venus Mission",
+          "Space Exploration",
+          "Planetary Science",
+          "Deep Space",
+          "Indian Space Program"
+        ],
+        "keyTerms": [
+          "Shukrayaan-1",
+          "ISRO",
+          "Venus Orbiter",
+          "Deep Space Mission",
+          "Atmospheric Composition",
+          "Planetary Evolution"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Shukrayaan-1 is India's first mission to Venus.",
+          "It is an orbiter mission, not a lander.",
+          "ISRO is the agency responsible for the mission.",
+          "The mission aims to study Venus's atmosphere and surface.",
+          "India has previously sent missions to Mars (Mangalyaan) and the Moon (Chandrayaan)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Scientific Objectives:** Discuss the key scientific questions Shukrayaan-1 aims to answer regarding Venus's geology, atmosphere, and evolution.",
+          "**Technological Prowess:** Analyze how this mission demonstrates India's growing capabilities in deep-space exploration and indigenous technology development.",
+          "**International Collaboration:** Discuss potential opportunities for collaboration with other space agencies in Venus exploration.",
+          "**Benefits to Humanity:** How do such planetary missions contribute to our understanding of the universe and potentially address challenges on Earth (e.g., climate change research)?",
+          "**Future of Indian Space Program:** Evaluate the significance of Shukrayaan-1 in shaping the future trajectory of India's space exploration endeavors."
+        ],
+        "imageDescription": "Artistic rendering of the Shukrayaan-1 spacecraft orbiting Venus, with the planet's dense atmosphere visible.",
+        "section": "Science",
+        "trivia": "Venus is often called Earth's 'sister planet' due to its similar size and mass, but its extremely hot and toxic atmosphere makes it vastly different.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space Technology",
+          "topic": "Indian Space Missions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "q3-economic-survey-report-fy25",
+        "headline": "Q3 Economic Survey Highlights Resilience Amidst Global Headwinds, Focus on Manufacturing Growth",
+        "explainer": "• The Ministry of Finance released its Quarterly Economic Survey for Q3 FY25, indicating continued resilience of the Indian economy despite ongoing global economic uncertainties.\n• The survey highlighted robust growth in the manufacturing sector, driven by government incentives and increased domestic demand.\n• It noted a moderation in inflation, attributed to supply-side management and stable commodity prices, though certain food inflation segments remain a concern.\n• Exports showed mixed performance, with a focus on diversifying markets and products to mitigate global slowdown impacts.\n• The report emphasized the government's commitment to capital expenditure and structural reforms to sustain long-term growth momentum.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+          "Government Budgeting",
+          "Investment models",
+          "Major crops cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers; Land reforms in India."
+        ],
+        "date": "2025-02-11",
+        "source": "Ministry of Finance / Press Information Bureau",
+        "sourceUrl": "Not available online",
+        "importance": "high",
+        "tags": [
+          "Economic Survey",
+          "Indian Economy",
+          "Manufacturing Growth",
+          "Inflation",
+          "Exports",
+          "Capital Expenditure",
+          "Fiscal Policy"
+        ],
+        "keyTerms": [
+          "GDP Growth",
+          "Inflation Targeting",
+          "Fiscal Deficit",
+          "Current Account Deficit (CAD)",
+          "FDI",
+          "Make in India"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Economic Survey provides an official review of the Indian economy.",
+          "It is released by the Ministry of Finance.",
+          "Q3 FY25 refers to the third quarter of the fiscal year 2024-25 (October-December 2024).",
+          "Manufacturing sector growth and inflation trends are key indicators.",
+          "Government capital expenditure is a driver of economic growth."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Current Economic Scenario:** Analyze the key findings of the Q3 Economic Survey, including growth drivers, sectoral performance, and macroeconomic stability indicators.",
+          "**Challenges and Opportunities:** Discuss the major challenges confronting the Indian economy (e.g., global slowdown, inflation, unemployment) and the opportunities for sustained growth.",
+          "**Government Policies:** Evaluate the effectiveness of current fiscal and monetary policies in fostering economic growth and managing inflation.",
+          "**Manufacturing Sector:** Examine the factors contributing to manufacturing growth and the role of government initiatives like PLI schemes.",
+          "**Inclusive Growth:** Discuss how economic growth can be made more inclusive, addressing issues of income inequality and regional disparities."
+        ],
+        "imageDescription": "Infographic showing key economic indicators like GDP growth, inflation, and manufacturing output, representing India's economic performance.",
+        "section": "Economy",
+        "trivia": "The first Economic Survey of India was presented in 1950-51, and until 1964, it was presented along with the Union Budget.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Macroeconomics",
+          "topic": "Economic Growth & Development"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "bro-border-road-projects-northeast",
+        "headline": "BRO Expedites Critical Border Road Projects in Northeastern States",
+        "explainer": "• The Border Roads Organisation (BRO) announced significant progress in expediting critical road and bridge projects along India's northern and eastern borders, particularly in the Northeastern states.\n• These infrastructure projects are vital for enhancing connectivity to remote border areas, facilitating troop movement, and supporting local economic development.\n• The focus is on constructing all-weather roads, tunnels, and strategic bridges in challenging terrains.\n• The initiative is part of India's broader strategy to bolster border infrastructure amidst evolving geopolitical dynamics.\n• Improved connectivity is also expected to boost tourism and trade in the region, integrating border communities into the national mainstream.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+        ],
+        "date": "2025-02-11",
+        "source": "Ministry of Defence / PIB",
+        "sourceUrl": "Not available online",
+        "importance": "medium",
+        "tags": [
+          "BRO",
+          "Border Infrastructure",
+          "Northeast India",
+          "Border Security",
+          "Connectivity",
+          "Strategic Roads",
+          "National Security"
+        ],
+        "keyTerms": [
+          "Border Roads Organisation (BRO)",
+          "Line of Actual Control (LAC)",
+          "Border Management",
+          "Infrastructure Development",
+          "Northeastern Region"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "BRO is responsible for road construction in border areas.",
+          "Projects are focused on Northeastern states.",
+          "These roads are crucial for national security and troop movement.",
+          "All-weather connectivity is a key objective.",
+          "Improved infrastructure aids local economic development."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Strategic Significance:** Discuss the strategic importance of robust border infrastructure for national security, especially in the context of geopolitical challenges.",
+          "**Regional Development:** Analyze how improved connectivity in the Northeastern states can foster economic development, integrate remote communities, and counter insurgencies.",
+          "**Challenges in Construction:** Examine the unique challenges faced by BRO in constructing infrastructure in difficult terrains and adverse weather conditions.",
+          "**Impact on Defence:** Discuss how these projects enhance the operational capabilities of the armed forces and facilitate rapid deployment.",
+          "**Environmental Concerns:** Briefly touch upon the environmental impact assessments and sustainable construction practices employed in such sensitive ecological zones."
+        ],
+        "imageDescription": "A newly constructed all-weather road winding through mountainous terrain in the Himalayas, with BRO signage.",
+        "section": "National",
+        "trivia": "BRO was formed in 1960 to secure India's borders and develop infrastructure in remote areas.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Border Management",
+          "topic": "Border Infrastructure"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "integrated-urban-flood-management-strategy",
+        "headline": "Centre Proposes Integrated Urban Flood Management Strategy for Major Cities",
+        "explainer": "• The Union Government has proposed a new Integrated Urban Flood Management Strategy to tackle the escalating problem of urban flooding in major Indian cities.\n• The strategy emphasizes a multi-pronged approach, including upgrading drainage infrastructure, promoting permeable surfaces, early warning systems, and community preparedness.\n• It calls for better inter-agency coordination among municipal bodies, disaster management authorities, and urban planning departments.\n• Climate change-induced extreme weather events have exacerbated urban flooding, causing significant economic losses and disruption.\n• The proposal includes provisions for financial assistance to states for adopting sustainable urban planning practices and resilient infrastructure development.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Disaster and disaster management",
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2025-02-11",
+        "source": "Ministry of Housing and Urban Affairs / The Hindu",
+        "sourceUrl": "Not available online",
+        "importance": "medium",
+        "tags": [
+          "Urban Flooding",
+          "Disaster Management",
+          "Climate Resilience",
+          "Urban Planning",
+          "Drainage Infrastructure",
+          "Early Warning Systems",
+          "NDMA"
+        ],
+        "keyTerms": [
+          "Urban Flooding",
+          "Disaster Risk Reduction (DRR)",
+          "Climate Resilience",
+          "Sustainable Urban Development",
+          "National Disaster Management Authority (NDMA)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Integrated Urban Flood Management Strategy addresses urban flooding.",
+          "It includes drainage upgrades, permeable surfaces, and early warning systems.",
+          "Inter-agency coordination is a key component.",
+          "Urban flooding is exacerbated by climate change.",
+          "NDMA plays a role in disaster management."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Causes of Urban Flooding:** Analyze the primary anthropogenic and natural factors contributing to urban flooding in Indian cities.",
+          "**Impacts:** Discuss the socio-economic and environmental consequences of urban flooding, including infrastructure damage, health risks, and disruption to livelihoods.",
+          "**Current Mitigation Measures:** Critically evaluate the existing urban flood management practices and their limitations.",
+          "**Proposed Strategy:** Examine the key features of the new integrated strategy, focusing on its holistic approach and emphasis on prevention, preparedness, and response.",
+          "**Governance Challenges:** Discuss the institutional and governance challenges in implementing effective urban flood management, including issues of planning, funding, and coordination."
+        ],
+        "imageDescription": "A flooded urban street with vehicles submerged, highlighting the severity of urban flooding, with a graphic overlay of proposed solutions.",
+        "section": "Environment",
+        "trivia": "Chennai, Mumbai, and Bengaluru are among the Indian cities most vulnerable to urban flooding due to rapid urbanization and inadequate drainage.",
+        "prelimsSyllabus": {
+          "subject": "Disaster Management",
+          "area": "Natural Disasters",
+          "topic": "Urban Floods"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "micro-irrigation-promotion-scheme",
+        "headline": "Government Boosts Micro-irrigation Scheme to Enhance Water Use Efficiency in Agriculture",
+        "explainer": "• The Ministry of Agriculture and Farmers Welfare announced enhanced financial incentives and technical support for farmers under the 'Per Drop More Crop' component of the Pradhan Mantri Krishi Sinchayee Yojana (PMKSY).\n• The initiative aims to significantly expand the adoption of micro-irrigation systems, including drip and sprinkler irrigation, across the country.\n• This push is critical for addressing water scarcity, improving crop productivity, and reducing cultivation costs for farmers.\n• The government also emphasized the integration of precision agriculture technologies and awareness campaigns to educate farmers on efficient water management practices.\n• Increased water use efficiency in agriculture is vital for India's food security and sustainable agricultural development.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Major crops cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers; Land reforms in India.",
+          "Conservation, environmental pollution and degradation, environmental impact assessment"
+        ],
+        "date": "2025-02-11",
+        "source": "Ministry of Agriculture & Farmers Welfare / PIB",
+        "sourceUrl": "Not available online",
+        "importance": "medium",
+        "tags": [
+          "Micro-irrigation",
+          "Water Use Efficiency",
+          "Agriculture",
+          "PMKSY",
+          "Per Drop More Crop",
+          "Drip Irrigation",
+          "Sprinkler Irrigation",
+          "Food Security"
+        ],
+        "keyTerms": [
+          "Micro-irrigation",
+          "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY)",
+          "Water Scarcity",
+          "Precision Agriculture",
+          "Sustainable Agriculture"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "'Per Drop More Crop' is a component of PMKSY.",
+          "It promotes micro-irrigation systems like drip and sprinkler irrigation.",
+          "The scheme aims to enhance water use efficiency in agriculture.",
+          "It helps in improving crop productivity and reducing cultivation costs.",
+          "Water scarcity is a major challenge for Indian agriculture."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Significance of Micro-irrigation:** Discuss how micro-irrigation systems contribute to water conservation, increased crop yields, and farmer income.",
+          "**Challenges in Adoption:** Analyze the factors hindering widespread adoption of micro-irrigation, such as initial investment costs, awareness gaps, and fragmented landholdings.",
+          "**Government Initiatives:** Evaluate the effectiveness of schemes like PMKSY and 'Per Drop More Crop' in promoting sustainable irrigation practices.",
+          "**Impact on Water Security:** Discuss how efficient water management in agriculture can contribute to national water security and mitigate the effects of climate change.",
+          "**Technological Integration:** Examine the role of precision agriculture and e-technology in optimizing water usage and crop management."
+        ],
+        "imageDescription": "A field being irrigated using drip irrigation system, showing water droplets precisely delivered to plant roots.",
+        "section": "Economy",
+        "trivia": "Drip irrigation was developed in Israel in the 1960s and is now used worldwide, especially in arid and semi-arid regions.",
+        "prelimsSyllabus": {
+          "subject": "Indian Agriculture",
+          "area": "Irrigation",
+          "topic": "Water Management in Agriculture"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "renewable-energy-capacity-addition-q3fy25",
+        "headline": "India Records Significant Renewable Energy Capacity Addition in Q3 FY25",
+        "explainer": "• The Ministry of New and Renewable Energy (MNRE) reported a substantial increase in renewable energy capacity addition during the third quarter of Fiscal Year 2024-25.\n• Solar power projects, both utility-scale and rooftop, continued to dominate the new installations, followed by wind energy.\n• This surge is attributed to supportive government policies, increasing private sector investment, and declining costs of renewable energy technologies.\n• The accelerated deployment of renewables is crucial for India to meet its ambitious climate targets and enhance energy security.\n• The report also highlighted the need for further investment in grid infrastructure and energy storage solutions to integrate higher shares of intermittent renewable energy.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy",
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment"
+        ],
+        "date": "2025-02-11",
+        "source": "Ministry of New and Renewable Energy / Economic Survey",
+        "sourceUrl": "Not available online",
+        "importance": "medium",
+        "tags": [
+          "Renewable Energy",
+          "Solar Power",
+          "Wind Energy",
+          "Energy Security",
+          "Climate Targets",
+          "Green Energy",
+          "MNRE"
+        ],
+        "keyTerms": [
+          "Renewable Energy Capacity",
+          "Solar Energy",
+          "Wind Energy",
+          "Energy Transition",
+          "Grid Integration",
+          "Energy Storage"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India has seen significant renewable energy capacity additions.",
+          "Solar power is the leading source of new installations.",
+          "Government policies and private investment drive growth.",
+          "Renewable energy is vital for climate targets and energy security.",
+          "Grid infrastructure and energy storage are key for future integration."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Energy Transition:** Discuss India's progress and challenges in transitioning from fossil fuels to renewable energy sources.",
+          "**Economic Benefits:** Analyze the economic advantages of renewable energy, including job creation, reduced import dependence, and investment opportunities.",
+          "**Policy Framework:** Evaluate the effectiveness of government policies and incentives (e.g., PLI schemes, solar parks) in promoting renewable energy deployment.",
+          "**Challenges & Solutions:** Examine the hurdles in large-scale renewable energy integration, such as intermittency, grid stability, land acquisition, and financing, and suggest potential solutions.",
+          "**Climate Change Mitigation:** Discuss how India's renewable energy push contributes to its international climate commitments and global efforts to combat climate change."
+        ],
+        "imageDescription": "A vast solar power farm stretching to the horizon under a clear sky, symbolizing India's renewable energy growth.",
+        "section": "Economy",
+        "trivia": "India aims to achieve 500 GW of non-fossil energy capacity by 2030, a significant step towards its net-zero target.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Infrastructure",
+          "topic": "Energy Sector"
+        },
+        "prelimsPotential": 4
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Ministry of Steel / The Hindu",
+    "The Indian Express",
+    "Supreme Court of India / Live Law",
+    "Ministry of External Affairs / The Hindu",
+    "Ministry of Environment, Forest and Climate Change / Down To Earth",
+    "ISRO / Press Information Bureau",
+    "Ministry of Finance / Press Information Bureau",
+    "Ministry of Defence / PIB",
+    "Ministry of Education / The Hindu",
+    "Ministry of Housing and Urban Affairs / The Hindu",
+    "Ministry of External Affairs / The Economic Times",
+    "Ministry of Agriculture & Farmers Welfare / PIB",
+    "National Health Authority / The Hindu",
+    "Ministry of New and Renewable Energy / Economic Survey",
+    "Academic Journal / The Hindu"
+  ],
+  "totalScraped": 15,
+  "totalProcessed": 15
+}

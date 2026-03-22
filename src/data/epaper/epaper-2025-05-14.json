@@ -1,0 +1,2215 @@
+{
+  "date": "2025-05-14",
+  "dateFormatted": "Wednesday 14 May, 2025",
+  "lastUpdated": "2026-03-21T15:01:27.336Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "national-green-economy-mission-launched",
+      "headline": "Government Unveils 'National Green Economy Mission' to Drive Sustainable Growth",
+      "explainer": "• The Union Cabinet approved a new comprehensive policy aimed at integrating environmental sustainability with economic development goals.\n• Focus areas include green energy transition, circular economy practices, sustainable agriculture, and eco-tourism.\n• The mission seeks to create green jobs, attract investments in sustainable technologies, and reduce carbon footprint across sectors.\n• A multi-ministerial task force will oversee implementation and monitor progress against set targets.\n• Public-private partnerships and international collaborations are key components for achieving the mission's objectives.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Environmental pollution and degradation",
+        "Conservation",
+        "Environmental impact assessment",
+        "Economic growth and development",
+        "Government policies and interventions"
+      ],
+      "date": "2025-05-14",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Green Economy",
+        "Sustainable Development",
+        "Climate Change",
+        "Environmental Policy",
+        "Economic Growth"
+      ],
+      "keyTerms": [
+        "National Green Economy Mission",
+        "Circular Economy",
+        "Green Jobs",
+        "Carbon Footprint",
+        "Sustainable Agriculture"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Launch date of National Green Economy Mission: 14 May 2025.",
+        "Key pillars: Green energy, circular economy, sustainable agriculture, eco-tourism.",
+        "Responsible Ministry/Department: Ministry of Environment, Forest and Climate Change in collaboration with NITI Aayog.",
+        "Aims to achieve India's NDC targets and SDG goals."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Significance of integrating environmental goals with economic policy for long-term sustainable development.",
+        "Challenges in implementation, including funding, technological adoption, and inter-ministerial coordination.",
+        "Potential for job creation and boosting innovation in green technologies.",
+        "Role of public awareness and behavioural change in achieving mission objectives.",
+        "Comparison with global green economy initiatives and India's leadership role."
+      ],
+      "imageDescription": "A graphic depicting sustainable development goals intertwined with economic indicators.",
+      "section": "Lead Opinion",
+      "trivia": "India's per capita carbon emissions are significantly lower than many developed nations, yet it faces immense pressure to decarbonize due to its large population and developing economy.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Sustainable Development",
+        "topic": "Government Policies"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "supreme-court-data-protection",
+      "headline": "Supreme Court Upholds Core Principles of New Data Protection Act",
+      "explainer": "• The Supreme Court delivered a landmark judgment upholding the constitutional validity of key provisions of the recently enacted Digital Personal Data Protection Act, 2023.\n• The ruling clarified the balance between individual privacy rights and legitimate state interests, including national security and public order.\n• The court emphasized the importance of consent, data minimization, and the right to be forgotten as fundamental tenets of data protection.\n• Petitions challenging the Act's provisions on grounds of potential surveillance and lack of independent oversight were largely dismissed, with caveats for future review.\n• This judgment provides much-needed legal clarity for businesses and individuals on data handling practices in the digital age.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution - fundamental rights",
+        "Government policies and interventions",
+        "Role of Supreme Court",
+        "Cybersecurity",
+        "IT and Computers"
+      ],
+      "date": "2025-05-14",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Data Protection Act",
+        "Privacy Rights",
+        "Supreme Court",
+        "Digital India",
+        "Fundamental Rights"
+      ],
+      "keyTerms": [
+        "Digital Personal Data Protection Act, 2023",
+        "Right to Privacy",
+        "Data Fiduciary",
+        "Data Principal",
+        "Right to be Forgotten"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Name of the Act: Digital Personal Data Protection Act, 2023.",
+        "Key principles affirmed: Consent, Data Minimization, Right to be Forgotten.",
+        "Supreme Court's role in constitutional interpretation.",
+        "Distinction between Data Fiduciary and Data Principal."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analysis of the balance struck by the Act between individual privacy and state/corporate interests.",
+        "Implications of the judgment for digital businesses, government data handling, and citizens' rights.",
+        "Challenges in enforcement and the role of the Data Protection Board.",
+        "Comparison with global data protection regimes (e.g., GDPR).",
+        "Future prospects for digital rights and governance in India."
+      ],
+      "imageDescription": "A gavel and legal books symbolizing a Supreme Court judgment on data privacy.",
+      "section": "National",
+      "trivia": "India is home to one of the largest internet user bases globally, making robust data protection laws crucial for its digital economy.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-monetary-policy-review",
+      "headline": "RBI Holds Repo Rate Steady, Signals Vigilance Amid Global Uncertainties",
+      "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) unanimously decided to keep the benchmark repo rate unchanged at its current level.\n• This decision reflects a cautious approach to inflation management, despite recent moderation in some price indices.\n• RBI Governor highlighted global economic uncertainties, geopolitical tensions, and potential impact on commodity prices as key factors influencing the MPC's stance.\n• The central bank reiterated its commitment to supporting economic growth while ensuring price stability over the medium term.\n• Analysts anticipate continued liquidity management measures and potential rate adjustments later in the fiscal year, depending on inflation trajectory.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning",
+        "Mobilization of resources",
+        "Growth, development and employment",
+        "Monetary Policy",
+        "Inflation and its impact"
+      ],
+      "date": "2025-05-14",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Repo Rate",
+        "Inflation",
+        "Economic Growth",
+        "Financial Markets"
+      ],
+      "keyTerms": [
+        "Monetary Policy Committee (MPC)",
+        "Repo Rate",
+        "Inflation Targeting",
+        "Price Stability",
+        "Liquidity Adjustment Facility (LAF)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Composition of the Monetary Policy Committee (MPC).",
+        "Definition and function of Repo Rate.",
+        "Primary objective of RBI's monetary policy: Price Stability while keeping in mind the objective of growth.",
+        "Current status of key policy rates."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Impact of stable repo rate on lending rates, investment, and consumer demand.",
+        "Challenges faced by RBI in balancing inflation control and growth stimulus.",
+        "Influence of global economic factors on India's monetary policy decisions.",
+        "Effectiveness of current monetary policy tools in addressing supply-side inflation.",
+        "Future outlook for interest rates and its implications for various sectors of the economy."
+      ],
+      "imageDescription": "RBI logo with graphs showing economic trends.",
+      "section": "Economy",
+      "trivia": "The Monetary Policy Committee (MPC) was constituted in 2016 and comprises six members – three officials from the RBI and three external members nominated by the Central Government.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI and its functions"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-france-strategic-dialogue",
+      "headline": "India-France Strategic Dialogue Reinforces Indo-Pacific Cooperation, Defence Ties",
+      "explainer": "• High-level strategic dialogue between India and France concluded with renewed commitments to bolster cooperation in the Indo-Pacific region.\n• Discussions focused on enhancing maritime security, counter-terrorism efforts, and joint military exercises.\n• Both nations emphasized the importance of a free, open, and inclusive Indo-Pacific, adhering to international law.\n• Agreements were reached to deepen collaboration in defence industrial partnership, technology transfer, and space exploration.\n• This dialogue further strengthens the strategic partnership, aligning with India's vision for 'SAGAR' (Security and Growth for All in the Region).",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India",
+        "Effect of policies and politics of developed and developing countries on India’s interests"
+      ],
+      "date": "2025-05-14",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "India-France Relations",
+        "Indo-Pacific",
+        "Defence Cooperation",
+        "Strategic Partnership",
+        "Maritime Security",
+        "SAGAR"
+      ],
+      "keyTerms": [
+        "Strategic Partnership",
+        "Indo-Pacific Strategy",
+        "SAGAR",
+        "Defence Industrial Corridor",
+        "Quad"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key partners in Indo-Pacific strategy: India and France.",
+        "Focus areas: Maritime security, defence, space, counter-terrorism.",
+        "Concept of 'SAGAR' (Security and Growth for All in the Region).",
+        "Recent major defence deals between India and France."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Significance of India-France strategic convergence in the Indo-Pacific context, particularly in countering China's growing influence.",
+        "Potential for defence technology transfer and co-production, boosting India's 'Make in India' initiative.",
+        "Role of France as a key European partner for India's geopolitical ambitions.",
+        "Challenges and opportunities in expanding bilateral trade and investment.",
+        "Impact of this partnership on regional stability and multilateral forums."
+      ],
+      "imageDescription": "Flags of India and France displayed during a diplomatic meeting.",
+      "section": "International",
+      "trivia": "France is the first country to have signed a civil nuclear cooperation agreement with India (in 2008) after the Nuclear Suppliers Group (NSG) waiver.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India-France"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-reusable-launch-vehicle",
+      "headline": "ISRO Achieves Milestone in Reusable Launch Vehicle Technology",
+      "explainer": "• The Indian Space Research Organisation (ISRO) announced the successful completion of critical ground tests for its next-generation Reusable Launch Vehicle (RLV) components.\n• These tests validate technologies for autonomous landing, hypersonic flight, and advanced propulsion systems, crucial for reducing space launch costs.\n• The RLV program aims to develop a two-stage-to-orbit (TSTO) fully reusable launch vehicle, significantly enhancing India's space access capabilities.\n• This development is a step towards making space travel more economical and sustainable, aligning with global trends in space exploration.\n• Future plans include integrated flight tests and further development of the RLV-TD (Technology Demonstrator) series.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology",
+        "Indigenization of technology and developing new technology",
+        "Space technology",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-05-14",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Reusable Launch Vehicle",
+        "Space Technology",
+        "Space Exploration",
+        "Indigenous Technology",
+        "RLV-TD"
+      ],
+      "keyTerms": [
+        "Reusable Launch Vehicle (RLV)",
+        "Two-Stage-to-Orbit (TSTO)",
+        "Hypersonic Flight",
+        "Autonomous Landing",
+        "PSLV",
+        "GSLV"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Full form of RLV: Reusable Launch Vehicle.",
+        "Purpose of RLV: Reduce cost of space access.",
+        "Key technologies tested: Autonomous landing, hypersonic flight, advanced propulsion.",
+        "ISRO's current operational launch vehicles: PSLV, GSLV."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Significance of reusable launch vehicle technology for India's space program and commercial space sector.",
+        "Economic benefits of reduced launch costs for satellite deployment and future manned missions.",
+        "Technological challenges involved in developing and perfecting RLV systems.",
+        "India's position in the global space race with this advancement.",
+        "Potential for private sector participation and growth in India's space economy."
+      ],
+      "imageDescription": "An artistic rendering of ISRO's Reusable Launch Vehicle concept in flight.",
+      "section": "Science",
+      "trivia": "ISRO's RLV-TD (Technology Demonstrator) completed its first experimental flight in 2016, marking a significant step in the program.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space Technology",
+        "topic": "ISRO missions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "project-cheetah-progress",
+      "headline": "Project Cheetah Reports Steady Progress, Focus on Habitat Management and Monitoring",
+      "explainer": "• Officials overseeing Project Cheetah announced the birth of new cubs at Kuno National Park, indicating positive signs for the cheetah reintroduction program.\n• The project continues to focus on intensive monitoring of the introduced cheetahs, habitat management, and addressing human-wildlife conflict.\n• Challenges remain, including adapting cheetahs to the Indian environment and ensuring genetic viability of the population.\n• The government plans to expand suitable habitats for cheetahs in other identified locations to create a metapopulation.\n• International experts are collaborating with Indian wildlife authorities to share best practices and ensure long-term success.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation",
+        "Environmental impact assessment",
+        "Biodiversity",
+        "Wildlife protection"
+      ],
+      "date": "2025-05-14",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Project Cheetah",
+        "Kuno National Park",
+        "Wildlife Conservation",
+        "Biodiversity",
+        "Cheetah Reintroduction"
+      ],
+      "keyTerms": [
+        "Cheetah Reintroduction",
+        "Metapopulation",
+        "Kuno National Park",
+        "Wildlife Protection Act",
+        "IUCN Red List"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Location of cheetah reintroduction: Kuno National Park, Madhya Pradesh.",
+        "Source countries for cheetahs: Namibia, South Africa.",
+        "Status of Cheetah on IUCN Red List: Vulnerable.",
+        "Last recorded cheetah in India: 1947, declared extinct in 1952."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Ecological significance of cheetah reintroduction for grassland ecosystems in India.",
+        "Challenges in managing a reintroduced predator population, including prey base, habitat suitability, and human-wildlife interface.",
+        "Ethical considerations and scientific debates surrounding species reintroduction programs.",
+        "Role of local communities in the success of conservation efforts.",
+        "Lessons learned from Project Cheetah for future wildlife conservation initiatives."
+      ],
+      "imageDescription": "A cheetah cub alongside its mother in Kuno National Park.",
+      "section": "Environment",
+      "trivia": "Cheetahs are the fastest land animals, capable of reaching speeds up to 120 km/h over short distances.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Biodiversity Conservation",
+        "topic": "Species Reintroduction"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "digital-health-platform-rural",
+      "headline": "Union Health Ministry Launches New Digital Health Platform for Rural Areas",
+      "explainer": "• The Union Health Ministry inaugurated a new comprehensive digital health platform specifically designed to cater to the healthcare needs of rural and remote populations.\n• The platform integrates telemedicine services, online consultations with specialists, digital health records, and e-pharmacy facilities.\n• It aims to bridge the urban-rural healthcare divide by improving access to quality medical services and reducing travel time for patients.\n• A key feature includes training local health workers to assist villagers in utilizing the digital tools effectively.\n• This initiative is part of the larger 'Ayushman Bharat Digital Mission' (ABDM) to create a robust national digital health ecosystem.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health",
+        "Government policies and interventions",
+        "E-governance"
+      ],
+      "date": "2025-05-14",
+      "source": "Ministry of Health and Family Welfare",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Digital Health",
+        "Rural Healthcare",
+        "Telemedicine",
+        "Ayushman Bharat Digital Mission",
+        "E-health",
+        "Public Health"
+      ],
+      "keyTerms": [
+        "Ayushman Bharat Digital Mission (ABDM)",
+        "Health ID",
+        "Telemedicine",
+        "Digital Health Records",
+        "Primary Healthcare"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Parent mission: Ayushman Bharat Digital Mission (ABDM).",
+        "Key features: Telemedicine, e-consultation, digital health records, e-pharmacy.",
+        "Target beneficiaries: Rural and remote populations.",
+        "Nodal ministry: Ministry of Health and Family Welfare."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Potential of digital health platforms to revolutionize rural healthcare access and quality.",
+        "Challenges in implementation, including digital literacy, internet connectivity, and data privacy concerns in rural settings.",
+        "Impact on reducing out-of-pocket expenditure for healthcare and improving health outcomes.",
+        "Role of community health workers and local governance in successful adoption of such initiatives.",
+        "Comparison with global models of digital health for underserved populations."
+      ],
+      "imageDescription": "A rural health worker assisting an elderly person with a tablet for a digital consultation.",
+      "section": "National",
+      "trivia": "India has the world's largest government-funded healthcare scheme, Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY), covering over 50 crore beneficiaries.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Health Sector",
+        "topic": "Government initiatives"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "bharatmala-pariyojana-phase2",
+      "headline": "Government Expedites Bharatmala Pariyojana Phase II, Focus on Economic Corridors",
+      "explainer": "• The Ministry of Road Transport and Highways announced accelerated implementation of Bharatmala Pariyojana Phase II, targeting strategic economic corridors and inter-state connectivity.\n• The project aims to develop an extensive network of national highways, expressways, and logistical parks to boost trade and reduce transportation costs.\n• Special emphasis is being placed on integrating multi-modal logistics and enhancing connectivity to ports and industrial clusters.\n• Land acquisition and environmental clearances are being streamlined to ensure timely completion of projects under this ambitious program.\n• This phase is crucial for India's economic competitiveness, reducing transit times, and facilitating regional development.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Investment models",
+        "Growth, development and employment"
+      ],
+      "date": "2025-05-14",
+      "source": "The Hindu BusinessLine",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Bharatmala Pariyojana",
+        "Infrastructure",
+        "Road Transport",
+        "Economic Corridors",
+        "Logistics",
+        "National Highways"
+      ],
+      "keyTerms": [
+        "Bharatmala Pariyojana",
+        "Economic Corridors",
+        "Multi-modal Logistics Parks",
+        "National Highways Authority of India (NHAI)",
+        "Greenfield Expressways"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Bharatmala Pariyojana is a centrally sponsored and funded road and highways project.",
+        "Phase II focuses on economic corridors and inter-state connectivity.",
+        "Implementing agency: NHAI, NHIDCL, State PWDs.",
+        "Aim: Reduce logistics costs, enhance connectivity."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Economic benefits of robust road infrastructure, including job creation, increased trade, and reduced transportation costs.",
+        "Challenges in large-scale infrastructure projects: land acquisition, environmental clearances, and funding models.",
+        "Impact on regional development and integration of remote areas.",
+        "Role of private investment and innovative financing mechanisms.",
+        "Contribution to India's goal of becoming a USD 5 trillion economy."
+      ],
+      "imageDescription": "An aerial view of a modern expressway with multiple lanes.",
+      "section": "Economy",
+      "trivia": "Bharatmala Pariyojana is India's second-largest highway construction project after the National Highway Development Project (NHDP).",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Infrastructure",
+        "topic": "Roadways"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "unsc-reforms-india-advocacy",
+      "headline": "India Reiterates Call for Comprehensive UNSC Reforms at Multilateral Forum",
+      "explainer": "• India's Permanent Representative to the UN strongly advocated for comprehensive reforms of the United Nations Security Council (UNSC) at a recent global conference.\n• India highlighted the anachronistic nature of the current UNSC structure, which does not reflect contemporary geopolitical realities.\n• The call included an expansion of both permanent and non-permanent seats, with increased representation for developing countries.\n• India emphasized its credentials for a permanent seat, citing its commitment to multilateralism, democratic values, and significant contributions to global peace and development.\n• The push for reforms aims to make the UNSC more legitimate, effective, and representative of the 21st-century world order.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate",
+        "Effect of policies and politics of developed and developing countries on India’s interests"
+      ],
+      "date": "2025-05-14",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "UNSC Reforms",
+        "United Nations",
+        "Multilateralism",
+        "India's UN Bid",
+        "Global Governance",
+        "International Organizations"
+      ],
+      "keyTerms": [
+        "United Nations Security Council (UNSC)",
+        "Permanent Members (P5)",
+        "Non-Permanent Members",
+        "G4 Nations",
+        "Uniting for Consensus (UFC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Current permanent members of UNSC (P5): USA, UK, France, Russia, China.",
+        "Number of non-permanent members: 10.",
+        "Term of non-permanent members: 2 years.",
+        "G4 nations advocating for permanent seats: India, Brazil, Germany, Japan."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Arguments for and against UNSC reforms, particularly regarding the expansion of permanent membership.",
+        "India's strategic rationale for a permanent seat, including its economic size, population, democratic values, and contributions to UN peacekeeping.",
+        "Challenges in achieving UNSC reforms, especially resistance from existing P5 members and rival groupings.",
+        "Impact of UNSC's current structure on its effectiveness in addressing global conflicts and challenges.",
+        "Role of India in shaping a more equitable and representative global governance architecture."
+      ],
+      "imageDescription": "The United Nations headquarters building with flags of member states.",
+      "section": "International",
+      "trivia": "India has been elected as a non-permanent member of the UNSC for eight terms, the most recent being for 2021-22.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "United Nations"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "cybersecurity-advisory-critical-infra",
+      "headline": "CERT-In Issues High-Alert Advisory on Increased Phishing Attacks Targeting Critical Infrastructure",
+      "explainer": "• The Indian Computer Emergency Response Team (CERT-In) released a critical advisory warning of a significant surge in sophisticated phishing and ransomware attacks.\n• The attacks are primarily targeting organizations involved in critical national infrastructure, including energy, finance, and telecommunications sectors.\n• The advisory urged immediate implementation of enhanced cybersecurity protocols, employee training, and regular security audits.\n• These malicious campaigns are suspected to be state-sponsored or advanced persistent threat (APT) groups aiming for data exfiltration and disruption.\n• The government is collaborating with industry stakeholders to strengthen national cybersecurity resilience and develop a rapid response framework.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Challenges to internal security through communication networks",
+        "Role of media and social networking sites in internal security challenges",
+        "Cyber security",
+        "Money-laundering and its prevention"
+      ],
+      "date": "2025-05-14",
+      "source": "Ministry of Electronics and Information Technology",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Cybersecurity",
+        "Critical Infrastructure",
+        "Phishing",
+        "Ransomware",
+        "CERT-In",
+        "National Security"
+      ],
+      "keyTerms": [
+        "CERT-In",
+        "Phishing",
+        "Ransomware",
+        "Advanced Persistent Threat (APT)",
+        "Critical Information Infrastructure (CII)",
+        "Cyber Warfare"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Full form of CERT-In: Indian Computer Emergency Response Team.",
+        "CERT-In is the national agency for responding to computer security incidents.",
+        "Definition of critical infrastructure sectors.",
+        "Difference between phishing and ransomware."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Growing threat of cyberattacks on critical infrastructure and its implications for national security and economic stability.",
+        "Strategies for enhancing cybersecurity defense mechanisms, including technological solutions and human resource development.",
+        "Role of international cooperation in combating cross-border cyber threats.",
+        "Challenges in attributing cyberattacks and developing a robust cyber deterrence strategy.",
+        "Government's multi-stakeholder approach to building national cyber resilience."
+      ],
+      "imageDescription": "A lock icon superimposed on a digital circuit board, symbolizing cybersecurity.",
+      "section": "National",
+      "trivia": "India's National Cyber Security Strategy 2020 aims to create a secure and resilient cyberspace for citizens, businesses, and government.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Cyber Security",
+        "topic": "Cyber threats"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "parliamentary-panel-judicial-appointments",
+      "headline": "Parliamentary Panel Recommends Reforms for Faster Judicial Appointments",
+      "explainer": "• A Parliamentary Standing Committee on Law and Justice submitted a report recommending significant reforms to expedite the process of judicial appointments in higher courts.\n• Key recommendations include setting clear timelines for the Collegium and the executive, and establishing a robust mechanism for tracking vacancies.\n• The panel also suggested a greater role for the State in the appointment of High Court judges and a transparent selection criteria.\n• The recommendations aim to address the persistent issue of judicial vacancies, which contributes to pendency of cases.\n• The report emphasized maintaining the independence of the judiciary while improving accountability and efficiency in appointments.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Structure, organization and functioning of the Executive and the Judiciary",
+        "Appointment to various Constitutional posts",
+        "Parliament and State Legislatures—structure, functioning, conduct of business"
+      ],
+      "date": "2025-05-14",
+      "source": "The Times of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Judicial Appointments",
+        "Collegium System",
+        "Judiciary Reforms",
+        "Parliamentary Committee",
+        "Pendency of Cases",
+        "High Courts"
+      ],
+      "keyTerms": [
+        "Collegium System",
+        "Judicial Appointments",
+        "Judicial Independence",
+        "National Judicial Appointments Commission (NJAC)",
+        "Parliamentary Standing Committee"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Collegium system: Judges appoint judges.",
+        "NJAC was struck down by Supreme Court.",
+        "Constitutional provisions for appointment of Supreme Court and High Court judges (Articles 124, 217).",
+        "Role of Parliamentary Standing Committees."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critical analysis of the Collegium system and its shortcomings in judicial appointments.",
+        "Arguments for and against executive involvement in judicial appointments, balancing independence and accountability.",
+        "Impact of judicial vacancies on the administration of justice and access to justice for citizens.",
+        "Feasibility and implications of the recommended reforms, including clear timelines and selection criteria.",
+        "Debate on the need for a National Judicial Commission to streamline appointments and address grievances."
+      ],
+      "imageDescription": "A judge's gavel on a table in a courtroom setting.",
+      "section": "National",
+      "trivia": "The Supreme Court Collegium consists of the Chief Justice of India and four senior-most judges of the Supreme Court.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity",
+        "area": "Judiciary",
+        "topic": "Appointment of Judges"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "microplastics-indian-ocean",
+      "headline": "Study Reveals Alarming Levels of Microplastics in Indian Ocean Marine Ecosystems",
+      "explainer": "• A new scientific study published in a leading environmental journal highlighted unprecedented levels of microplastic contamination in various marine ecosystems across the Indian Ocean.\n• Researchers found microplastic particles in diverse organisms, from plankton to commercially important fish species, raising concerns about food chain contamination.\n• The study identified major sources as coastal waste mismanagement, textile runoff, and plastic pollution originating from rivers.\n• Implications include potential health risks for marine life and humans, and disruption of oceanic biogeochemical cycles.\n• Experts call for urgent policy interventions, improved waste management infrastructure, and international cooperation to tackle this growing environmental threat.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation",
+        "Environmental impact assessment",
+        "Biodiversity",
+        "Waste Management"
+      ],
+      "date": "2025-05-14",
+      "source": "Science Daily",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Microplastics",
+        "Marine Pollution",
+        "Indian Ocean",
+        "Environmental Degradation",
+        "Plastic Waste",
+        "Food Chain"
+      ],
+      "keyTerms": [
+        "Microplastics",
+        "Marine Ecosystems",
+        "Food Chain Contamination",
+        "Coastal Waste Management",
+        "Biogeochemical Cycles",
+        "Plastic Pollution"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Definition of microplastics (particles smaller than 5mm).",
+        "Sources of microplastic pollution: primary (manufactured) and secondary (breakdown of larger plastics).",
+        "Impact on marine life and potential human health risks.",
+        "Major ocean currents contributing to plastic accumulation."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Comprehensive analysis of the environmental and health impacts of microplastic pollution.",
+        "Effectiveness of current national and international policies on plastic waste management.",
+        "Technological solutions and innovative approaches to mitigate microplastic contamination.",
+        "Role of consumer awareness, behavioural change, and corporate responsibility in reducing plastic footprint.",
+        "India's challenges and strategies in addressing marine plastic pollution, especially in the context of its long coastline."
+      ],
+      "imageDescription": "Microplastic particles visible under a microscope, with a blurred ocean background.",
+      "section": "Environment",
+      "trivia": "It is estimated that over 11 million metric tons of plastic enter the oceans each year.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Environmental Pollution",
+        "topic": "Plastic Pollution"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indigenous-ev-battery-tech",
+      "headline": "Indian Researchers Develop Advanced Indigenous Battery Technology for Electric Vehicles",
+      "explainer": "• A consortium of Indian research institutions and startups announced a significant breakthrough in developing advanced, cost-effective battery technology for Electric Vehicles (EVs).\n• The new battery chemistry promises higher energy density, faster charging cycles, and improved safety features compared to conventional lithium-ion batteries.\n• This indigenous development is crucial for reducing India's reliance on imported battery components and boosting local manufacturing capabilities.\n• The technology is expected to accelerate the adoption of EVs in India, contributing to emission reduction targets and energy security.\n• Pilot projects for commercial deployment are planned, with potential applications extending beyond EVs to grid-scale energy storage.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indigenization of technology and developing new technology",
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Energy",
+        "Environmental pollution and degradation"
+      ],
+      "date": "2025-05-14",
+      "source": "Department of Science & Technology",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Electric Vehicles",
+        "Battery Technology",
+        "Indigenous Research",
+        "Energy Storage",
+        "Lithium-ion",
+        "Make in India"
+      ],
+      "keyTerms": [
+        "Electric Vehicles (EVs)",
+        "Battery Chemistry",
+        "Energy Density",
+        "Charging Infrastructure",
+        "Lithium-ion Batteries",
+        "Grid-Scale Storage"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key components of an EV: Battery, electric motor, inverter, controller.",
+        "Types of EV batteries: Lithium-ion, Solid-state, Sodium-ion (emerging).",
+        "Government initiatives promoting EVs: FAME India Scheme.",
+        "Importance of indigenous battery manufacturing for energy security."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Impact of indigenous EV battery technology on India's energy security and balance of payments.",
+        "Role in accelerating EV adoption and achieving national emission reduction targets.",
+        "Challenges in scaling up production and commercializing new battery technologies.",
+        "Comparison with global leaders in battery technology and India's competitive advantages.",
+        "Potential for job creation and growth in the domestic EV manufacturing ecosystem."
+      ],
+      "imageDescription": "A stylized image of an electric car battery pack with circuits.",
+      "section": "Science",
+      "trivia": "India aims for 30% of new car sales to be electric by 2030, a target that heavily relies on affordable and efficient battery technology.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Energy",
+        "topic": "Electric Vehicles"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "agricultural-sector-growth-msp",
+      "headline": "Agricultural Sector Shows Robust Growth; MSP Review Underway for Kharif Season",
+      "explainer": "• The latest economic survey data indicates strong growth in India's agricultural sector, driven by favorable monsoons and government support measures.\n• The Ministry of Agriculture and Farmers' Welfare announced that the review process for Minimum Support Prices (MSPs) for upcoming Kharif crops is underway.\n• Discussions include ensuring remunerative prices for farmers, diversifying crop patterns, and promoting sustainable farming practices.\n• Efforts are also focused on improving agricultural credit availability, irrigation infrastructure, and market linkages for farmers.\n• This sustained growth is vital for rural livelihoods, food security, and overall economic stability, especially in the context of climate change impacts.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Major crops-cropping patterns in various parts of the country",
+        "Different types of irrigation and irrigation systems storage",
+        "Transport and marketing of agricultural produce and issues and related constraints",
+        "Minimum Support Price",
+        "Public Distribution System objectives, functioning, limitations, revamping"
+      ],
+      "date": "2025-05-14",
+      "source": "Ministry of Agriculture & Farmers' Welfare",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Agriculture",
+        "Economic Growth",
+        "MSP",
+        "Kharif Crops",
+        "Food Security",
+        "Farmers' Welfare"
+      ],
+      "keyTerms": [
+        "Minimum Support Price (MSP)",
+        "Kharif Crops",
+        "Agricultural Credit",
+        "Crop Diversification",
+        "Food Security",
+        "Commission for Agricultural Costs and Prices (CACP)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Definition of Kharif crops (sown in monsoon, harvested autumn). Examples: Paddy, maize, jowar, bajra, tur, moong, urad, cotton, groundnut, soybean.",
+        "Role of Commission for Agricultural Costs and Prices (CACP) in recommending MSPs.",
+        "Objectives of MSP: Ensure remunerative prices, encourage higher production, protect farmers from price fluctuations.",
+        "Major government schemes for agricultural support."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Impact of MSP policy on farmers' income, crop diversification, and food inflation.",
+        "Challenges in effective implementation of MSP and procurement mechanisms.",
+        "Strategies for making Indian agriculture more resilient to climate change and market volatilities.",
+        "Role of technology and agricultural reforms in boosting productivity and farmer welfare.",
+        "Debate on the long-term sustainability of current MSP regime and alternatives."
+      ],
+      "imageDescription": "A farmer tending to crops in a lush green field.",
+      "section": "Economy",
+      "trivia": "India is the world's largest producer of milk, pulses, and jute, and the second-largest producer of rice, wheat, sugarcane, groundnut, and cotton.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Agriculture",
+        "topic": "MSP"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "skill-india-manufacturing-youth",
+      "headline": "Skill India Initiative Focuses on Youth for Advanced Manufacturing Sector",
+      "explainer": "• The Ministry of Skill Development and Entrepreneurship launched a new phase of the Skill India initiative, specifically targeting youth for advanced manufacturing jobs.\n• The program aims to train and upskill a large workforce in areas like automation, robotics, AI-driven manufacturing, and precision engineering.\n• Partnerships with industry leaders and academic institutions are being forged to develop industry-relevant curriculum and provide hands-on training.\n• This move is critical for India to capitalize on its demographic dividend and become a global manufacturing hub.\n• The initiative seeks to bridge the skill gap, enhance employability, and contribute to the 'Make in India' and 'Atmanirbhar Bharat' campaigns.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Education",
+        "Human Resources",
+        "Government policies and interventions",
+        "Growth, development and employment"
+      ],
+      "date": "2025-05-14",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Skill India",
+        "Skill Development",
+        "Manufacturing",
+        "Youth Employment",
+        "Demographic Dividend",
+        "Make in India"
+      ],
+      "keyTerms": [
+        "Skill India Mission",
+        "Demographic Dividend",
+        "Advanced Manufacturing",
+        "Industry 4.0",
+        "Vocational Training",
+        "National Skill Development Corporation (NSDC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Launch year of Skill India Mission: 2015.",
+        "Parent Ministry: Ministry of Skill Development and Entrepreneurship.",
+        "Key sub-missions/schemes under Skill India: Pradhan Mantri Kaushal Vikas Yojana (PMKVY).",
+        "Concept of demographic dividend."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Importance of skill development in leveraging India's demographic dividend for economic growth.",
+        "Challenges in aligning skill training with industry demands and ensuring quality education.",
+        "Role of public-private partnerships in creating a robust skill ecosystem.",
+        "Impact of advanced manufacturing on future job markets and the need for continuous upskilling.",
+        "Contribution of skill development initiatives to 'Make in India' and 'Atmanirbhar Bharat' objectives."
+      ],
+      "imageDescription": "Young Indian professionals working with advanced machinery in a manufacturing plant.",
+      "section": "National",
+      "trivia": "India has the world's largest youth population, with over 65% of its population below 35 years of age.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Human Resource Development",
+        "topic": "Skill Development"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "asi-harappan-artifacts",
+      "headline": "ASI Unearths Significant Harappan Artifacts, Reveals Ancient Trade Networks",
+      "explainer": "• The Archaeological Survey of India (ASI) announced the discovery of a cache of significant artifacts at a previously unexplored site believed to be an outpost of the Harappan civilization.\n• The findings include unique pottery, seals, and tools, providing new insights into the daily life and technological advancements of the Indus Valley people.\n• Preliminary analysis suggests evidence of extensive trade networks extending beyond the known Harappan core regions.\n• This discovery sheds further light on the geographical spread and economic prowess of one of the world's earliest major civilizations.\n• Conservation efforts are underway, and further excavations are planned to fully explore the site's potential.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian Heritage and Culture",
+        "History of India",
+        "Art forms, literature and Architecture from ancient to modern times"
+      ],
+      "date": "2025-05-14",
+      "source": "Archaeological Survey of India (ASI)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Harappan Civilization",
+        "Indus Valley Civilization",
+        "Archaeology",
+        "ASI",
+        "Ancient India",
+        "Trade Routes"
+      ],
+      "keyTerms": [
+        "Harappan Civilization",
+        "Indus Valley Civilization",
+        "Archaeological Survey of India (ASI)",
+        "Seals",
+        "Urban Planning",
+        "Trade Networks"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key features of Harappan civilization: Urban planning, drainage system, standardized weights and measures, seals.",
+        "Major Harappan sites: Mohenjo-Daro, Harappa, Lothal, Dholavira, Rakhigarhi.",
+        "Role of ASI in archaeological research and conservation.",
+        "Common artifacts found: Pottery, beads, figurines, tools."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Significance of new archaeological discoveries in re-interpreting ancient Indian history and culture.",
+        "Contribution of Harappan civilization to urban planning and early state formation.",
+        "Role of trade and commerce in the prosperity and decline of the Indus Valley Civilization.",
+        "Challenges in preserving archaeological sites and artifacts in India.",
+        "Potential for interdisciplinary research (archaeology, history, anthropology) to understand ancient societies."
+      ],
+      "imageDescription": "Recently unearthed Harappan pottery and seals displayed.",
+      "section": "National",
+      "trivia": "The Indus Valley Civilization is one of the three early civilizations of the Near East and South Asia, along with Ancient Egypt and Mesopotamia.",
+      "prelimsSyllabus": {
+        "subject": "Ancient History",
+        "area": "Indus Valley Civilization",
+        "topic": "Harappan sites"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "monsoon-preparedness-review",
+      "headline": "Monsoon Preparedness Review Emphasizes Disaster Resilience in Vulnerable Regions",
+      "explainer": "• The National Disaster Management Authority (NDMA) conducted a high-level review meeting to assess monsoon preparedness across states, particularly in flood-prone and landslide-prone regions.\n• Emphasis was placed on pre-positioning relief materials, strengthening early warning systems, and evacuating vulnerable populations proactively.\n• States were urged to conduct mock drills, improve inter-agency coordination, and ensure the readiness of rescue and relief teams.\n• Climate change impacts, leading to more extreme weather events, necessitate a shift towards a proactive and resilience-building approach to disaster management.\n• The review also highlighted the importance of community participation and local self-governance bodies in effective disaster response.",
+      "category": "geography",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc",
+        "Geographical features and their location- changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes",
+        "Disaster and disaster management"
+      ],
+      "date": "2025-05-14",
+      "source": "National Disaster Management Authority (NDMA)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Monsoon",
+        "Disaster Management",
+        "Flood Preparedness",
+        "Landslides",
+        "NDMA",
+        "Climate Resilience"
+      ],
+      "keyTerms": [
+        "National Disaster Management Authority (NDMA)",
+        "Early Warning Systems",
+        "Disaster Resilience",
+        "Monsoon Season",
+        "Incident Response System (IRS)",
+        "Community-Based Disaster Management (CBDM)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Role of NDMA: Apex body for disaster management in India.",
+        "Monsoon season in India: June to September.",
+        "Types of natural disasters associated with monsoon: Floods, landslides, cyclones.",
+        "Importance of early warning systems."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Impact of climate change on monsoon patterns and the frequency/intensity of extreme weather events in India.",
+        "Challenges in effective disaster preparedness and response in densely populated and geographically diverse regions.",
+        "Role of technology (remote sensing, AI) in enhancing early warning and disaster mitigation.",
+        "Importance of a multi-hazard approach to disaster management and integrating climate change adaptation strategies.",
+        "Critically evaluate the effectiveness of India's disaster management framework and suggest improvements."
+      ],
+      "imageDescription": "Rescue workers assisting people in a flooded village during monsoon.",
+      "section": "National",
+      "trivia": "India's National Disaster Response Force (NDRF) was constituted under the Disaster Management Act, 2005, for specialized response to disaster situations.",
+      "prelimsSyllabus": {
+        "subject": "Geography",
+        "area": "Disaster Management",
+        "topic": "Monsoon related disasters"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "editorial-green-economy-mission",
+      "headline": "Editorial: The Green Economy Mission - A Paradigm Shift or a Green Façade?",
+      "explainer": "• This editorial critically examines the recently launched National Green Economy Mission, analyzing its potential and inherent challenges.\n• It argues that while the mission's objectives are laudable, successful implementation hinges on robust policy coherence, adequate funding, and genuine stakeholder engagement.\n• Concerns are raised regarding the potential for 'greenwashing' if environmental regulations are not strictly enforced alongside economic incentives.\n• The piece emphasizes the need for a just transition that addresses the socio-economic impacts on vulnerable communities and traditional industries.\n• Ultimately, the editorial calls for transparent monitoring, accountability, and a long-term vision to ensure the mission delivers tangible environmental and economic benefits.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Environmental pollution and degradation",
+        "Conservation",
+        "Environmental impact assessment",
+        "Economic growth and development",
+        "Government policies and interventions"
+      ],
+      "date": "2025-05-14",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Green Economy",
+        "Sustainable Development",
+        "Climate Policy",
+        "Economic Policy",
+        "Environmental Governance",
+        "Editorial"
+      ],
+      "keyTerms": [
+        "Green Economy",
+        "Just Transition",
+        "Greenwashing",
+        "Policy Coherence",
+        "Environmental Regulations",
+        "Sustainable Development Goals (SDGs)"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": true,
+      "mainsPoints": [
+        "Critical evaluation of the strengths and weaknesses of India's National Green Economy Mission.",
+        "Discussion on the concept of 'just transition' in the context of shifting towards a green economy.",
+        "Analysis of the potential for 'greenwashing' and how to prevent it through effective governance.",
+        "Strategies for ensuring policy coherence across different ministries and levels of government.",
+        "Importance of inclusive growth and protecting vulnerable populations during economic transitions."
+      ],
+      "imageDescription": "A person balancing a sprout and a coin on a scale, symbolizing economic and environmental balance.",
+      "section": "Editorial",
+      "trivia": "The concept of a 'green economy' gained prominence at the Rio+20 United Nations Conference on Sustainable Development in 2012.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Sustainable Development",
+        "topic": "Green Economy"
+      },
+      "prelimsPotential": 2
+    }
+  ],
+  "highlights": [
+    "Government launches 'National Green Economy Mission' to integrate environmental sustainability with economic growth, focusing on green energy and circular economy.",
+    "Supreme Court upholds core principles of the Digital Personal Data Protection Act, 2023, clarifying privacy rights and state interests.",
+    "RBI's Monetary Policy Committee maintains repo rate, signaling cautious optimism on inflation amidst global uncertainties.",
+    "India and France reinforce Indo-Pacific cooperation and defence ties through high-level strategic dialogue.",
+    "ISRO achieves a significant milestone in Reusable Launch Vehicle technology, advancing India's cost-effective space access capabilities."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the 'National Green Economy Mission' recently launched by the Government of India, consider the following statements:\n1. Its primary objective is to achieve net-zero carbon emissions by 2030.\n2. It emphasizes public-private partnerships and international collaborations.\n3. Sustainable agriculture and eco-tourism are among its core focus areas.\nWhich of the statements given above are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 2 and 3 only",
+      "explanation": "Statement 1 is incorrect. While the mission aims to reduce carbon footprint, its primary objective is integrating environmental sustainability with economic development, not necessarily a net-zero target by 2030, which is an ambitious goal for India. India's net-zero target is 2070. Statement 2 is correct, as the mission explicitly mentions PPPs and international collaborations. Statement 3 is correct, as sustainable agriculture and eco-tourism are highlighted as key components."
+    },
+    {
+      "question": "Which of the following is NOT a core principle emphasized by the Supreme Court regarding the Digital Personal Data Protection Act, 2023?\n(a) Right to be forgotten\n(b) Data minimization\n(c) Mandatory data localization for all sectors\n(d) Consent of the data principal",
+      "answer": "(c) Mandatory data localization for all sectors",
+      "explanation": "The Supreme Court judgment emphasized principles like consent, data minimization, and the right to be forgotten. While data localization is a relevant aspect of data protection debates, the judgment did not specifically uphold *mandatory data localization for all sectors* as a core principle. The Act itself has provisions for cross-border data transfer, not universal localization."
+    },
+    {
+      "question": "Consider the following statements regarding the Monetary Policy Committee (MPC) of the Reserve Bank of India (RBI):\n1. It consists of six members, with three nominated by the Central Government and three from the RBI.\n2. The Governor of the RBI is the ex-officio Chairperson of the MPC.\n3. Its primary objective is to maintain price stability while keeping in mind the objective of growth.\nWhich of the statements given above are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(d) 1, 2 and 3",
+      "explanation": "All three statements are correct. The MPC indeed has six members (3 government, 3 RBI), the RBI Governor chairs it, and its mandate is price stability with growth in mind. This is standard static GK about the MPC."
+    },
+    {
+      "question": "Which of the following countries are part of the G4 nations, which advocate for permanent seats in the UN Security Council?\n1. India\n2. Germany\n3. Japan\n4. South Africa\n5. Brazil\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1, 2, 3 and 4",
+        "(b) 1, 2, 3 and 5",
+        "(c) 1, 3, 4 and 5",
+        "(d) 2, 3, 4 and 5"
+      ],
+      "answer": "(b) 1, 2, 3 and 5",
+      "explanation": "The G4 nations comprise India, Germany, Japan, and Brazil. South Africa is not part of the G4, although it is a prominent developing country and often advocates for UNSC reforms."
+    },
+    {
+      "question": "With respect to Project Cheetah in India, which of the following statements is/are correct?\n1. The cheetahs were reintroduced to Kuno National Park in Madhya Pradesh.\n2. Cheetahs are currently classified as 'Critically Endangered' on the IUCN Red List.\n3. The project aims to establish a metapopulation of cheetahs in multiple suitable habitats.\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 3 only",
+      "explanation": "Statement 1 is correct; Kuno National Park is the primary site for cheetah reintroduction. Statement 2 is incorrect; cheetahs are currently classified as 'Vulnerable' on the IUCN Red List, not 'Critically Endangered'. Statement 3 is correct; creating a metapopulation in multiple habitats is a key long-term goal for the project's success."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "Critically analyze the potential of the 'National Green Economy Mission' to achieve a balance between India's economic growth aspirations and its environmental sustainability goals. Discuss the challenges in its implementation and suggest measures for effective governance. (150 words)",
+      "syllabusMatch": "GS3: Conservation, environmental pollution and degradation, environmental impact assessment; Economic growth and development, Government policies and interventions.",
+      "approach": "Introduce the mission's objectives. Discuss its potential for sustainable growth, green jobs, and climate targets. Highlight challenges like funding, inter-ministerial coordination, greenwashing, and just transition. Suggest measures: robust monitoring, stakeholder engagement, transparent governance, and strong regulatory framework."
+    },
+    {
+      "question": "The Supreme Court's recent judgment on the Digital Personal Data Protection Act, 2023, marks a crucial step in India's digital governance. Discuss the implications of this judgment for individual privacy rights and the responsibilities of data fiduciaries. How does it compare with global data protection regimes? (250 words)",
+      "syllabusMatch": "GS2: Indian Constitution - fundamental rights; Government policies and interventions; IT and Computers; Role of Supreme Court.",
+      "approach": "Start by acknowledging the judgment's importance. Elaborate on how it affirms privacy rights (consent, data minimization, right to be forgotten) and clarifies responsibilities of data fiduciaries. Discuss the balance with state interests. Compare with GDPR, highlighting similarities (data principal rights) and differences (e.g., state exemptions, Data Protection Board structure). Conclude on its impact on India's digital future."
+    },
+    {
+      "question": "Despite significant investments in infrastructure, India faces persistent challenges in logistics efficiency. In this context, discuss the role of Bharatmala Pariyojana Phase II in transforming India's logistics sector and fostering regional development. (150 words)",
+      "syllabusMatch": "GS3: Infrastructure: Energy, Ports, Roads, Airports, Railways etc.; Investment models; Growth, development and employment.",
+      "approach": "Briefly state India's logistics challenges (cost, time). Explain how Bharatmala Pariyojana Phase II addresses these through economic corridors, multi-modal logistics, and port connectivity. Discuss benefits like reduced transit time, lower costs, increased trade, and job creation. Conclude with its impact on 'Make in India' and regional economic integration, while briefly mentioning implementation challenges."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The National Green Economy Mission aims to integrate environmental sustainability with economic goals.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Economy",
+        "Sustainable Development"
+      ]
+    },
+    {
+      "text": "Digital Personal Data Protection Act, 2023, emphasizes consent and data minimization.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Data Protection",
+        "Privacy"
+      ]
+    },
+    {
+      "text": "RBI's Monetary Policy Committee (MPC) sets the benchmark repo rate in India.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "Monetary Policy"
+      ]
+    },
+    {
+      "text": "The G4 nations (India, Brazil, Germany, Japan) advocate for UNSC permanent seats.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "UNSC",
+        "G4"
+      ]
+    },
+    {
+      "text": "ISRO's Reusable Launch Vehicle (RLV) program aims to reduce space launch costs.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "Space Technology"
+      ]
+    },
+    {
+      "text": "Kuno National Park in Madhya Pradesh is the site for Project Cheetah reintroduction.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Project Cheetah",
+        "Kuno National Park"
+      ]
+    },
+    {
+      "text": "Bharatmala Pariyojana Phase II focuses on developing economic corridors and logistics.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Infrastructure",
+        "Roadways"
+      ]
+    },
+    {
+      "text": "CERT-In is India's national agency for responding to computer security incidents.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "Cybersecurity",
+        "CERT-In"
+      ]
+    },
+    {
+      "text": "The Collegium System is responsible for judicial appointments in higher courts.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Judiciary",
+        "Collegium"
+      ]
+    },
+    {
+      "text": "Microplastics are plastic particles smaller than 5mm, posing threats to marine ecosystems.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Microplastics",
+        "Marine Pollution"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "asi-harappan-artifacts",
+        "headline": "ASI Unearths Significant Harappan Artifacts, Reveals Ancient Trade Networks",
+        "explainer": "• The Archaeological Survey of India (ASI) announced the discovery of a cache of significant artifacts at a previously unexplored site believed to be an outpost of the Harappan civilization.\n• The findings include unique pottery, seals, and tools, providing new insights into the daily life and technological advancements of the Indus Valley people.\n• Preliminary analysis suggests evidence of extensive trade networks extending beyond the known Harappan core regions.\n• This discovery sheds further light on the geographical spread and economic prowess of one of the world's earliest major civilizations.\n• Conservation efforts are underway, and further excavations are planned to fully explore the site's potential.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian Heritage and Culture",
+          "History of India",
+          "Art forms, literature and Architecture from ancient to modern times"
+        ],
+        "date": "2025-05-14",
+        "source": "Archaeological Survey of India (ASI)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Harappan Civilization",
+          "Indus Valley Civilization",
+          "Archaeology",
+          "ASI",
+          "Ancient India",
+          "Trade Routes"
+        ],
+        "keyTerms": [
+          "Harappan Civilization",
+          "Indus Valley Civilization",
+          "Archaeological Survey of India (ASI)",
+          "Seals",
+          "Urban Planning",
+          "Trade Networks"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key features of Harappan civilization: Urban planning, drainage system, standardized weights and measures, seals.",
+          "Major Harappan sites: Mohenjo-Daro, Harappa, Lothal, Dholavira, Rakhigarhi.",
+          "Role of ASI in archaeological research and conservation.",
+          "Common artifacts found: Pottery, beads, figurines, tools."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Significance of new archaeological discoveries in re-interpreting ancient Indian history and culture.",
+          "Contribution of Harappan civilization to urban planning and early state formation.",
+          "Role of trade and commerce in the prosperity and decline of the Indus Valley Civilization.",
+          "Challenges in preserving archaeological sites and artifacts in India.",
+          "Potential for interdisciplinary research (archaeology, history, anthropology) to understand ancient societies."
+        ],
+        "imageDescription": "Recently unearthed Harappan pottery and seals displayed.",
+        "section": "National",
+        "trivia": "The Indus Valley Civilization is one of the three early civilizations of the Near East and South Asia, along with Ancient Egypt and Mesopotamia.",
+        "prelimsSyllabus": {
+          "subject": "Ancient History",
+          "area": "Indus Valley Civilization",
+          "topic": "Harappan sites"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "monsoon-preparedness-review",
+        "headline": "Monsoon Preparedness Review Emphasizes Disaster Resilience in Vulnerable Regions",
+        "explainer": "• The National Disaster Management Authority (NDMA) conducted a high-level review meeting to assess monsoon preparedness across states, particularly in flood-prone and landslide-prone regions.\n• Emphasis was placed on pre-positioning relief materials, strengthening early warning systems, and evacuating vulnerable populations proactively.\n• States were urged to conduct mock drills, improve inter-agency coordination, and ensure the readiness of rescue and relief teams.\n• Climate change impacts, leading to more extreme weather events, necessitate a shift towards a proactive and resilience-building approach to disaster management.\n• The review also highlighted the importance of community participation and local self-governance bodies in effective disaster response.",
+        "category": "geography",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc",
+          "Geographical features and their location- changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes",
+          "Disaster and disaster management"
+        ],
+        "date": "2025-05-14",
+        "source": "National Disaster Management Authority (NDMA)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Monsoon",
+          "Disaster Management",
+          "Flood Preparedness",
+          "Landslides",
+          "NDMA",
+          "Climate Resilience"
+        ],
+        "keyTerms": [
+          "National Disaster Management Authority (NDMA)",
+          "Early Warning Systems",
+          "Disaster Resilience",
+          "Monsoon Season",
+          "Incident Response System (IRS)",
+          "Community-Based Disaster Management (CBDM)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Role of NDMA: Apex body for disaster management in India.",
+          "Monsoon season in India: June to September.",
+          "Types of natural disasters associated with monsoon: Floods, landslides, cyclones.",
+          "Importance of early warning systems."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Impact of climate change on monsoon patterns and the frequency/intensity of extreme weather events in India.",
+          "Challenges in effective disaster preparedness and response in densely populated and geographically diverse regions.",
+          "Role of technology (remote sensing, AI) in enhancing early warning and disaster mitigation.",
+          "Importance of a multi-hazard approach to disaster management and integrating climate change adaptation strategies.",
+          "Critically evaluate the effectiveness of India's disaster management framework and suggest improvements."
+        ],
+        "imageDescription": "Rescue workers assisting people in a flooded village during monsoon.",
+        "section": "National",
+        "trivia": "India's National Disaster Response Force (NDRF) was constituted under the Disaster Management Act, 2005, for specialized response to disaster situations.",
+        "prelimsSyllabus": {
+          "subject": "Geography",
+          "area": "Disaster Management",
+          "topic": "Monsoon related disasters"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "supreme-court-data-protection",
+        "headline": "Supreme Court Upholds Core Principles of New Data Protection Act",
+        "explainer": "• The Supreme Court delivered a landmark judgment upholding the constitutional validity of key provisions of the recently enacted Digital Personal Data Protection Act, 2023.\n• The ruling clarified the balance between individual privacy rights and legitimate state interests, including national security and public order.\n• The court emphasized the importance of consent, data minimization, and the right to be forgotten as fundamental tenets of data protection.\n• Petitions challenging the Act's provisions on grounds of potential surveillance and lack of independent oversight were largely dismissed, with caveats for future review.\n• This judgment provides much-needed legal clarity for businesses and individuals on data handling practices in the digital age.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution - fundamental rights",
+          "Government policies and interventions",
+          "Role of Supreme Court",
+          "Cybersecurity",
+          "IT and Computers"
+        ],
+        "date": "2025-05-14",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Data Protection Act",
+          "Privacy Rights",
+          "Supreme Court",
+          "Digital India",
+          "Fundamental Rights"
+        ],
+        "keyTerms": [
+          "Digital Personal Data Protection Act, 2023",
+          "Right to Privacy",
+          "Data Fiduciary",
+          "Data Principal",
+          "Right to be Forgotten"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Name of the Act: Digital Personal Data Protection Act, 2023.",
+          "Key principles affirmed: Consent, Data Minimization, Right to be Forgotten.",
+          "Supreme Court's role in constitutional interpretation.",
+          "Distinction between Data Fiduciary and Data Principal."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analysis of the balance struck by the Act between individual privacy and state/corporate interests.",
+          "Implications of the judgment for digital businesses, government data handling, and citizens' rights.",
+          "Challenges in enforcement and the role of the Data Protection Board.",
+          "Comparison with global data protection regimes (e.g., GDPR).",
+          "Future prospects for digital rights and governance in India."
+        ],
+        "imageDescription": "A gavel and legal books symbolizing a Supreme Court judgment on data privacy.",
+        "section": "National",
+        "trivia": "India is home to one of the largest internet user bases globally, making robust data protection laws crucial for its digital economy.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-france-strategic-dialogue",
+        "headline": "India-France Strategic Dialogue Reinforces Indo-Pacific Cooperation, Defence Ties",
+        "explainer": "• High-level strategic dialogue between India and France concluded with renewed commitments to bolster cooperation in the Indo-Pacific region.\n• Discussions focused on enhancing maritime security, counter-terrorism efforts, and joint military exercises.\n• Both nations emphasized the importance of a free, open, and inclusive Indo-Pacific, adhering to international law.\n• Agreements were reached to deepen collaboration in defence industrial partnership, technology transfer, and space exploration.\n• This dialogue further strengthens the strategic partnership, aligning with India's vision for 'SAGAR' (Security and Growth for All in the Region).",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India",
+          "Effect of policies and politics of developed and developing countries on India’s interests"
+        ],
+        "date": "2025-05-14",
+        "source": "Ministry of External Affairs (MEA)",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "India-France Relations",
+          "Indo-Pacific",
+          "Defence Cooperation",
+          "Strategic Partnership",
+          "Maritime Security",
+          "SAGAR"
+        ],
+        "keyTerms": [
+          "Strategic Partnership",
+          "Indo-Pacific Strategy",
+          "SAGAR",
+          "Defence Industrial Corridor",
+          "Quad"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key partners in Indo-Pacific strategy: India and France.",
+          "Focus areas: Maritime security, defence, space, counter-terrorism.",
+          "Concept of 'SAGAR' (Security and Growth for All in the Region).",
+          "Recent major defence deals between India and France."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Significance of India-France strategic convergence in the Indo-Pacific context, particularly in countering China's growing influence.",
+          "Potential for defence technology transfer and co-production, boosting India's 'Make in India' initiative.",
+          "Role of France as a key European partner for India's geopolitical ambitions.",
+          "Challenges and opportunities in expanding bilateral trade and investment.",
+          "Impact of this partnership on regional stability and multilateral forums."
+        ],
+        "imageDescription": "Flags of India and France displayed during a diplomatic meeting.",
+        "section": "International",
+        "trivia": "France is the first country to have signed a civil nuclear cooperation agreement with India (in 2008) after the Nuclear Suppliers Group (NSG) waiver.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India-France"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "digital-health-platform-rural",
+        "headline": "Union Health Ministry Launches New Digital Health Platform for Rural Areas",
+        "explainer": "• The Union Health Ministry inaugurated a new comprehensive digital health platform specifically designed to cater to the healthcare needs of rural and remote populations.\n• The platform integrates telemedicine services, online consultations with specialists, digital health records, and e-pharmacy facilities.\n• It aims to bridge the urban-rural healthcare divide by improving access to quality medical services and reducing travel time for patients.\n• A key feature includes training local health workers to assist villagers in utilizing the digital tools effectively.\n• This initiative is part of the larger 'Ayushman Bharat Digital Mission' (ABDM) to create a robust national digital health ecosystem.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health",
+          "Government policies and interventions",
+          "E-governance"
+        ],
+        "date": "2025-05-14",
+        "source": "Ministry of Health and Family Welfare",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Digital Health",
+          "Rural Healthcare",
+          "Telemedicine",
+          "Ayushman Bharat Digital Mission",
+          "E-health",
+          "Public Health"
+        ],
+        "keyTerms": [
+          "Ayushman Bharat Digital Mission (ABDM)",
+          "Health ID",
+          "Telemedicine",
+          "Digital Health Records",
+          "Primary Healthcare"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Parent mission: Ayushman Bharat Digital Mission (ABDM).",
+          "Key features: Telemedicine, e-consultation, digital health records, e-pharmacy.",
+          "Target beneficiaries: Rural and remote populations.",
+          "Nodal ministry: Ministry of Health and Family Welfare."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Potential of digital health platforms to revolutionize rural healthcare access and quality.",
+          "Challenges in implementation, including digital literacy, internet connectivity, and data privacy concerns in rural settings.",
+          "Impact on reducing out-of-pocket expenditure for healthcare and improving health outcomes.",
+          "Role of community health workers and local governance in successful adoption of such initiatives.",
+          "Comparison with global models of digital health for underserved populations."
+        ],
+        "imageDescription": "A rural health worker assisting an elderly person with a tablet for a digital consultation.",
+        "section": "National",
+        "trivia": "India has the world's largest government-funded healthcare scheme, Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (AB-PMJAY), covering over 50 crore beneficiaries.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Health Sector",
+          "topic": "Government initiatives"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "unsc-reforms-india-advocacy",
+        "headline": "India Reiterates Call for Comprehensive UNSC Reforms at Multilateral Forum",
+        "explainer": "• India's Permanent Representative to the UN strongly advocated for comprehensive reforms of the United Nations Security Council (UNSC) at a recent global conference.\n• India highlighted the anachronistic nature of the current UNSC structure, which does not reflect contemporary geopolitical realities.\n• The call included an expansion of both permanent and non-permanent seats, with increased representation for developing countries.\n• India emphasized its credentials for a permanent seat, citing its commitment to multilateralism, democratic values, and significant contributions to global peace and development.\n• The push for reforms aims to make the UNSC more legitimate, effective, and representative of the 21st-century world order.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate",
+          "Effect of policies and politics of developed and developing countries on India’s interests"
+        ],
+        "date": "2025-05-14",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "UNSC Reforms",
+          "United Nations",
+          "Multilateralism",
+          "India's UN Bid",
+          "Global Governance",
+          "International Organizations"
+        ],
+        "keyTerms": [
+          "United Nations Security Council (UNSC)",
+          "Permanent Members (P5)",
+          "Non-Permanent Members",
+          "G4 Nations",
+          "Uniting for Consensus (UFC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Current permanent members of UNSC (P5): USA, UK, France, Russia, China.",
+          "Number of non-permanent members: 10.",
+          "Term of non-permanent members: 2 years.",
+          "G4 nations advocating for permanent seats: India, Brazil, Germany, Japan."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Arguments for and against UNSC reforms, particularly regarding the expansion of permanent membership.",
+          "India's strategic rationale for a permanent seat, including its economic size, population, democratic values, and contributions to UN peacekeeping.",
+          "Challenges in achieving UNSC reforms, especially resistance from existing P5 members and rival groupings.",
+          "Impact of UNSC's current structure on its effectiveness in addressing global conflicts and challenges.",
+          "Role of India in shaping a more equitable and representative global governance architecture."
+        ],
+        "imageDescription": "The United Nations headquarters building with flags of member states.",
+        "section": "International",
+        "trivia": "India has been elected as a non-permanent member of the UNSC for eight terms, the most recent being for 2021-22.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Organizations",
+          "topic": "United Nations"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "parliamentary-panel-judicial-appointments",
+        "headline": "Parliamentary Panel Recommends Reforms for Faster Judicial Appointments",
+        "explainer": "• A Parliamentary Standing Committee on Law and Justice submitted a report recommending significant reforms to expedite the process of judicial appointments in higher courts.\n• Key recommendations include setting clear timelines for the Collegium and the executive, and establishing a robust mechanism for tracking vacancies.\n• The panel also suggested a greater role for the State in the appointment of High Court judges and a transparent selection criteria.\n• The recommendations aim to address the persistent issue of judicial vacancies, which contributes to pendency of cases.\n• The report emphasized maintaining the independence of the judiciary while improving accountability and efficiency in appointments.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Structure, organization and functioning of the Executive and the Judiciary",
+          "Appointment to various Constitutional posts",
+          "Parliament and State Legislatures—structure, functioning, conduct of business"
+        ],
+        "date": "2025-05-14",
+        "source": "The Times of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Judicial Appointments",
+          "Collegium System",
+          "Judiciary Reforms",
+          "Parliamentary Committee",
+          "Pendency of Cases",
+          "High Courts"
+        ],
+        "keyTerms": [
+          "Collegium System",
+          "Judicial Appointments",
+          "Judicial Independence",
+          "National Judicial Appointments Commission (NJAC)",
+          "Parliamentary Standing Committee"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Collegium system: Judges appoint judges.",
+          "NJAC was struck down by Supreme Court.",
+          "Constitutional provisions for appointment of Supreme Court and High Court judges (Articles 124, 217).",
+          "Role of Parliamentary Standing Committees."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critical analysis of the Collegium system and its shortcomings in judicial appointments.",
+          "Arguments for and against executive involvement in judicial appointments, balancing independence and accountability.",
+          "Impact of judicial vacancies on the administration of justice and access to justice for citizens.",
+          "Feasibility and implications of the recommended reforms, including clear timelines and selection criteria.",
+          "Debate on the need for a National Judicial Commission to streamline appointments and address grievances."
+        ],
+        "imageDescription": "A judge's gavel on a table in a courtroom setting.",
+        "section": "National",
+        "trivia": "The Supreme Court Collegium consists of the Chief Justice of India and four senior-most judges of the Supreme Court.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity",
+          "area": "Judiciary",
+          "topic": "Appointment of Judges"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "skill-india-manufacturing-youth",
+        "headline": "Skill India Initiative Focuses on Youth for Advanced Manufacturing Sector",
+        "explainer": "• The Ministry of Skill Development and Entrepreneurship launched a new phase of the Skill India initiative, specifically targeting youth for advanced manufacturing jobs.\n• The program aims to train and upskill a large workforce in areas like automation, robotics, AI-driven manufacturing, and precision engineering.\n• Partnerships with industry leaders and academic institutions are being forged to develop industry-relevant curriculum and provide hands-on training.\n• This move is critical for India to capitalize on its demographic dividend and become a global manufacturing hub.\n• The initiative seeks to bridge the skill gap, enhance employability, and contribute to the 'Make in India' and 'Atmanirbhar Bharat' campaigns.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Education",
+          "Human Resources",
+          "Government policies and interventions",
+          "Growth, development and employment"
+        ],
+        "date": "2025-05-14",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Skill India",
+          "Skill Development",
+          "Manufacturing",
+          "Youth Employment",
+          "Demographic Dividend",
+          "Make in India"
+        ],
+        "keyTerms": [
+          "Skill India Mission",
+          "Demographic Dividend",
+          "Advanced Manufacturing",
+          "Industry 4.0",
+          "Vocational Training",
+          "National Skill Development Corporation (NSDC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Launch year of Skill India Mission: 2015.",
+          "Parent Ministry: Ministry of Skill Development and Entrepreneurship.",
+          "Key sub-missions/schemes under Skill India: Pradhan Mantri Kaushal Vikas Yojana (PMKVY).",
+          "Concept of demographic dividend."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Importance of skill development in leveraging India's demographic dividend for economic growth.",
+          "Challenges in aligning skill training with industry demands and ensuring quality education.",
+          "Role of public-private partnerships in creating a robust skill ecosystem.",
+          "Impact of advanced manufacturing on future job markets and the need for continuous upskilling.",
+          "Contribution of skill development initiatives to 'Make in India' and 'Atmanirbhar Bharat' objectives."
+        ],
+        "imageDescription": "Young Indian professionals working with advanced machinery in a manufacturing plant.",
+        "section": "National",
+        "trivia": "India has the world's largest youth population, with over 65% of its population below 35 years of age.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Human Resource Development",
+          "topic": "Skill Development"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "national-green-economy-mission-launched",
+        "headline": "Government Unveils 'National Green Economy Mission' to Drive Sustainable Growth",
+        "explainer": "• The Union Cabinet approved a new comprehensive policy aimed at integrating environmental sustainability with economic development goals.\n• Focus areas include green energy transition, circular economy practices, sustainable agriculture, and eco-tourism.\n• The mission seeks to create green jobs, attract investments in sustainable technologies, and reduce carbon footprint across sectors.\n• A multi-ministerial task force will oversee implementation and monitor progress against set targets.\n• Public-private partnerships and international collaborations are key components for achieving the mission's objectives.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Environmental pollution and degradation",
+          "Conservation",
+          "Environmental impact assessment",
+          "Economic growth and development",
+          "Government policies and interventions"
+        ],
+        "date": "2025-05-14",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Green Economy",
+          "Sustainable Development",
+          "Climate Change",
+          "Environmental Policy",
+          "Economic Growth"
+        ],
+        "keyTerms": [
+          "National Green Economy Mission",
+          "Circular Economy",
+          "Green Jobs",
+          "Carbon Footprint",
+          "Sustainable Agriculture"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Launch date of National Green Economy Mission: 14 May 2025.",
+          "Key pillars: Green energy, circular economy, sustainable agriculture, eco-tourism.",
+          "Responsible Ministry/Department: Ministry of Environment, Forest and Climate Change in collaboration with NITI Aayog.",
+          "Aims to achieve India's NDC targets and SDG goals."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Significance of integrating environmental goals with economic policy for long-term sustainable development.",
+          "Challenges in implementation, including funding, technological adoption, and inter-ministerial coordination.",
+          "Potential for job creation and boosting innovation in green technologies.",
+          "Role of public awareness and behavioural change in achieving mission objectives.",
+          "Comparison with global green economy initiatives and India's leadership role."
+        ],
+        "imageDescription": "A graphic depicting sustainable development goals intertwined with economic indicators.",
+        "section": "Lead Opinion",
+        "trivia": "India's per capita carbon emissions are significantly lower than many developed nations, yet it faces immense pressure to decarbonize due to its large population and developing economy.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Sustainable Development",
+          "topic": "Government Policies"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "rbi-monetary-policy-review",
+        "headline": "RBI Holds Repo Rate Steady, Signals Vigilance Amid Global Uncertainties",
+        "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) unanimously decided to keep the benchmark repo rate unchanged at its current level.\n• This decision reflects a cautious approach to inflation management, despite recent moderation in some price indices.\n• RBI Governor highlighted global economic uncertainties, geopolitical tensions, and potential impact on commodity prices as key factors influencing the MPC's stance.\n• The central bank reiterated its commitment to supporting economic growth while ensuring price stability over the medium term.\n• Analysts anticipate continued liquidity management measures and potential rate adjustments later in the fiscal year, depending on inflation trajectory.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning",
+          "Mobilization of resources",
+          "Growth, development and employment",
+          "Monetary Policy",
+          "Inflation and its impact"
+        ],
+        "date": "2025-05-14",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "RBI",
+          "Monetary Policy",
+          "Repo Rate",
+          "Inflation",
+          "Economic Growth",
+          "Financial Markets"
+        ],
+        "keyTerms": [
+          "Monetary Policy Committee (MPC)",
+          "Repo Rate",
+          "Inflation Targeting",
+          "Price Stability",
+          "Liquidity Adjustment Facility (LAF)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Composition of the Monetary Policy Committee (MPC).",
+          "Definition and function of Repo Rate.",
+          "Primary objective of RBI's monetary policy: Price Stability while keeping in mind the objective of growth.",
+          "Current status of key policy rates."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Impact of stable repo rate on lending rates, investment, and consumer demand.",
+          "Challenges faced by RBI in balancing inflation control and growth stimulus.",
+          "Influence of global economic factors on India's monetary policy decisions.",
+          "Effectiveness of current monetary policy tools in addressing supply-side inflation.",
+          "Future outlook for interest rates and its implications for various sectors of the economy."
+        ],
+        "imageDescription": "RBI logo with graphs showing economic trends.",
+        "section": "Economy",
+        "trivia": "The Monetary Policy Committee (MPC) was constituted in 2016 and comprises six members – three officials from the RBI and three external members nominated by the Central Government.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI and its functions"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "isro-reusable-launch-vehicle",
+        "headline": "ISRO Achieves Milestone in Reusable Launch Vehicle Technology",
+        "explainer": "• The Indian Space Research Organisation (ISRO) announced the successful completion of critical ground tests for its next-generation Reusable Launch Vehicle (RLV) components.\n• These tests validate technologies for autonomous landing, hypersonic flight, and advanced propulsion systems, crucial for reducing space launch costs.\n• The RLV program aims to develop a two-stage-to-orbit (TSTO) fully reusable launch vehicle, significantly enhancing India's space access capabilities.\n• This development is a step towards making space travel more economical and sustainable, aligning with global trends in space exploration.\n• Future plans include integrated flight tests and further development of the RLV-TD (Technology Demonstrator) series.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology",
+          "Indigenization of technology and developing new technology",
+          "Space technology",
+          "Science and Technology- developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-05-14",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Reusable Launch Vehicle",
+          "Space Technology",
+          "Space Exploration",
+          "Indigenous Technology",
+          "RLV-TD"
+        ],
+        "keyTerms": [
+          "Reusable Launch Vehicle (RLV)",
+          "Two-Stage-to-Orbit (TSTO)",
+          "Hypersonic Flight",
+          "Autonomous Landing",
+          "PSLV",
+          "GSLV"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Full form of RLV: Reusable Launch Vehicle.",
+          "Purpose of RLV: Reduce cost of space access.",
+          "Key technologies tested: Autonomous landing, hypersonic flight, advanced propulsion.",
+          "ISRO's current operational launch vehicles: PSLV, GSLV."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Significance of reusable launch vehicle technology for India's space program and commercial space sector.",
+          "Economic benefits of reduced launch costs for satellite deployment and future manned missions.",
+          "Technological challenges involved in developing and perfecting RLV systems.",
+          "India's position in the global space race with this advancement.",
+          "Potential for private sector participation and growth in India's space economy."
+        ],
+        "imageDescription": "An artistic rendering of ISRO's Reusable Launch Vehicle concept in flight.",
+        "section": "Science",
+        "trivia": "ISRO's RLV-TD (Technology Demonstrator) completed its first experimental flight in 2016, marking a significant step in the program.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space Technology",
+          "topic": "ISRO missions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "project-cheetah-progress",
+        "headline": "Project Cheetah Reports Steady Progress, Focus on Habitat Management and Monitoring",
+        "explainer": "• Officials overseeing Project Cheetah announced the birth of new cubs at Kuno National Park, indicating positive signs for the cheetah reintroduction program.\n• The project continues to focus on intensive monitoring of the introduced cheetahs, habitat management, and addressing human-wildlife conflict.\n• Challenges remain, including adapting cheetahs to the Indian environment and ensuring genetic viability of the population.\n• The government plans to expand suitable habitats for cheetahs in other identified locations to create a metapopulation.\n• International experts are collaborating with Indian wildlife authorities to share best practices and ensure long-term success.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation",
+          "Environmental impact assessment",
+          "Biodiversity",
+          "Wildlife protection"
+        ],
+        "date": "2025-05-14",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Project Cheetah",
+          "Kuno National Park",
+          "Wildlife Conservation",
+          "Biodiversity",
+          "Cheetah Reintroduction"
+        ],
+        "keyTerms": [
+          "Cheetah Reintroduction",
+          "Metapopulation",
+          "Kuno National Park",
+          "Wildlife Protection Act",
+          "IUCN Red List"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Location of cheetah reintroduction: Kuno National Park, Madhya Pradesh.",
+          "Source countries for cheetahs: Namibia, South Africa.",
+          "Status of Cheetah on IUCN Red List: Vulnerable.",
+          "Last recorded cheetah in India: 1947, declared extinct in 1952."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Ecological significance of cheetah reintroduction for grassland ecosystems in India.",
+          "Challenges in managing a reintroduced predator population, including prey base, habitat suitability, and human-wildlife interface.",
+          "Ethical considerations and scientific debates surrounding species reintroduction programs.",
+          "Role of local communities in the success of conservation efforts.",
+          "Lessons learned from Project Cheetah for future wildlife conservation initiatives."
+        ],
+        "imageDescription": "A cheetah cub alongside its mother in Kuno National Park.",
+        "section": "Environment",
+        "trivia": "Cheetahs are the fastest land animals, capable of reaching speeds up to 120 km/h over short distances.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Biodiversity Conservation",
+          "topic": "Species Reintroduction"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "bharatmala-pariyojana-phase2",
+        "headline": "Government Expedites Bharatmala Pariyojana Phase II, Focus on Economic Corridors",
+        "explainer": "• The Ministry of Road Transport and Highways announced accelerated implementation of Bharatmala Pariyojana Phase II, targeting strategic economic corridors and inter-state connectivity.\n• The project aims to develop an extensive network of national highways, expressways, and logistical parks to boost trade and reduce transportation costs.\n• Special emphasis is being placed on integrating multi-modal logistics and enhancing connectivity to ports and industrial clusters.\n• Land acquisition and environmental clearances are being streamlined to ensure timely completion of projects under this ambitious program.\n• This phase is crucial for India's economic competitiveness, reducing transit times, and facilitating regional development.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Investment models",
+          "Growth, development and employment"
+        ],
+        "date": "2025-05-14",
+        "source": "The Hindu BusinessLine",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Bharatmala Pariyojana",
+          "Infrastructure",
+          "Road Transport",
+          "Economic Corridors",
+          "Logistics",
+          "National Highways"
+        ],
+        "keyTerms": [
+          "Bharatmala Pariyojana",
+          "Economic Corridors",
+          "Multi-modal Logistics Parks",
+          "National Highways Authority of India (NHAI)",
+          "Greenfield Expressways"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Bharatmala Pariyojana is a centrally sponsored and funded road and highways project.",
+          "Phase II focuses on economic corridors and inter-state connectivity.",
+          "Implementing agency: NHAI, NHIDCL, State PWDs.",
+          "Aim: Reduce logistics costs, enhance connectivity."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Economic benefits of robust road infrastructure, including job creation, increased trade, and reduced transportation costs.",
+          "Challenges in large-scale infrastructure projects: land acquisition, environmental clearances, and funding models.",
+          "Impact on regional development and integration of remote areas.",
+          "Role of private investment and innovative financing mechanisms.",
+          "Contribution to India's goal of becoming a USD 5 trillion economy."
+        ],
+        "imageDescription": "An aerial view of a modern expressway with multiple lanes.",
+        "section": "Economy",
+        "trivia": "Bharatmala Pariyojana is India's second-largest highway construction project after the National Highway Development Project (NHDP).",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Infrastructure",
+          "topic": "Roadways"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "cybersecurity-advisory-critical-infra",
+        "headline": "CERT-In Issues High-Alert Advisory on Increased Phishing Attacks Targeting Critical Infrastructure",
+        "explainer": "• The Indian Computer Emergency Response Team (CERT-In) released a critical advisory warning of a significant surge in sophisticated phishing and ransomware attacks.\n• The attacks are primarily targeting organizations involved in critical national infrastructure, including energy, finance, and telecommunications sectors.\n• The advisory urged immediate implementation of enhanced cybersecurity protocols, employee training, and regular security audits.\n• These malicious campaigns are suspected to be state-sponsored or advanced persistent threat (APT) groups aiming for data exfiltration and disruption.\n• The government is collaborating with industry stakeholders to strengthen national cybersecurity resilience and develop a rapid response framework.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Challenges to internal security through communication networks",
+          "Role of media and social networking sites in internal security challenges",
+          "Cyber security",
+          "Money-laundering and its prevention"
+        ],
+        "date": "2025-05-14",
+        "source": "Ministry of Electronics and Information Technology",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Cybersecurity",
+          "Critical Infrastructure",
+          "Phishing",
+          "Ransomware",
+          "CERT-In",
+          "National Security"
+        ],
+        "keyTerms": [
+          "CERT-In",
+          "Phishing",
+          "Ransomware",
+          "Advanced Persistent Threat (APT)",
+          "Critical Information Infrastructure (CII)",
+          "Cyber Warfare"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Full form of CERT-In: Indian Computer Emergency Response Team.",
+          "CERT-In is the national agency for responding to computer security incidents.",
+          "Definition of critical infrastructure sectors.",
+          "Difference between phishing and ransomware."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Growing threat of cyberattacks on critical infrastructure and its implications for national security and economic stability.",
+          "Strategies for enhancing cybersecurity defense mechanisms, including technological solutions and human resource development.",
+          "Role of international cooperation in combating cross-border cyber threats.",
+          "Challenges in attributing cyberattacks and developing a robust cyber deterrence strategy.",
+          "Government's multi-stakeholder approach to building national cyber resilience."
+        ],
+        "imageDescription": "A lock icon superimposed on a digital circuit board, symbolizing cybersecurity.",
+        "section": "National",
+        "trivia": "India's National Cyber Security Strategy 2020 aims to create a secure and resilient cyberspace for citizens, businesses, and government.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Cyber Security",
+          "topic": "Cyber threats"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "microplastics-indian-ocean",
+        "headline": "Study Reveals Alarming Levels of Microplastics in Indian Ocean Marine Ecosystems",
+        "explainer": "• A new scientific study published in a leading environmental journal highlighted unprecedented levels of microplastic contamination in various marine ecosystems across the Indian Ocean.\n• Researchers found microplastic particles in diverse organisms, from plankton to commercially important fish species, raising concerns about food chain contamination.\n• The study identified major sources as coastal waste mismanagement, textile runoff, and plastic pollution originating from rivers.\n• Implications include potential health risks for marine life and humans, and disruption of oceanic biogeochemical cycles.\n• Experts call for urgent policy interventions, improved waste management infrastructure, and international cooperation to tackle this growing environmental threat.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation",
+          "Environmental impact assessment",
+          "Biodiversity",
+          "Waste Management"
+        ],
+        "date": "2025-05-14",
+        "source": "Science Daily",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Microplastics",
+          "Marine Pollution",
+          "Indian Ocean",
+          "Environmental Degradation",
+          "Plastic Waste",
+          "Food Chain"
+        ],
+        "keyTerms": [
+          "Microplastics",
+          "Marine Ecosystems",
+          "Food Chain Contamination",
+          "Coastal Waste Management",
+          "Biogeochemical Cycles",
+          "Plastic Pollution"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Definition of microplastics (particles smaller than 5mm).",
+          "Sources of microplastic pollution: primary (manufactured) and secondary (breakdown of larger plastics).",
+          "Impact on marine life and potential human health risks.",
+          "Major ocean currents contributing to plastic accumulation."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Comprehensive analysis of the environmental and health impacts of microplastic pollution.",
+          "Effectiveness of current national and international policies on plastic waste management.",
+          "Technological solutions and innovative approaches to mitigate microplastic contamination.",
+          "Role of consumer awareness, behavioural change, and corporate responsibility in reducing plastic footprint.",
+          "India's challenges and strategies in addressing marine plastic pollution, especially in the context of its long coastline."
+        ],
+        "imageDescription": "Microplastic particles visible under a microscope, with a blurred ocean background.",
+        "section": "Environment",
+        "trivia": "It is estimated that over 11 million metric tons of plastic enter the oceans each year.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Environmental Pollution",
+          "topic": "Plastic Pollution"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indigenous-ev-battery-tech",
+        "headline": "Indian Researchers Develop Advanced Indigenous Battery Technology for Electric Vehicles",
+        "explainer": "• A consortium of Indian research institutions and startups announced a significant breakthrough in developing advanced, cost-effective battery technology for Electric Vehicles (EVs).\n• The new battery chemistry promises higher energy density, faster charging cycles, and improved safety features compared to conventional lithium-ion batteries.\n• This indigenous development is crucial for reducing India's reliance on imported battery components and boosting local manufacturing capabilities.\n• The technology is expected to accelerate the adoption of EVs in India, contributing to emission reduction targets and energy security.\n• Pilot projects for commercial deployment are planned, with potential applications extending beyond EVs to grid-scale energy storage.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indigenization of technology and developing new technology",
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Energy",
+          "Environmental pollution and degradation"
+        ],
+        "date": "2025-05-14",
+        "source": "Department of Science & Technology",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Electric Vehicles",
+          "Battery Technology",
+          "Indigenous Research",
+          "Energy Storage",
+          "Lithium-ion",
+          "Make in India"
+        ],
+        "keyTerms": [
+          "Electric Vehicles (EVs)",
+          "Battery Chemistry",
+          "Energy Density",
+          "Charging Infrastructure",
+          "Lithium-ion Batteries",
+          "Grid-Scale Storage"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key components of an EV: Battery, electric motor, inverter, controller.",
+          "Types of EV batteries: Lithium-ion, Solid-state, Sodium-ion (emerging).",
+          "Government initiatives promoting EVs: FAME India Scheme.",
+          "Importance of indigenous battery manufacturing for energy security."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Impact of indigenous EV battery technology on India's energy security and balance of payments.",
+          "Role in accelerating EV adoption and achieving national emission reduction targets.",
+          "Challenges in scaling up production and commercializing new battery technologies.",
+          "Comparison with global leaders in battery technology and India's competitive advantages.",
+          "Potential for job creation and growth in the domestic EV manufacturing ecosystem."
+        ],
+        "imageDescription": "A stylized image of an electric car battery pack with circuits.",
+        "section": "Science",
+        "trivia": "India aims for 30% of new car sales to be electric by 2030, a target that heavily relies on affordable and efficient battery technology.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Energy",
+          "topic": "Electric Vehicles"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "agricultural-sector-growth-msp",
+        "headline": "Agricultural Sector Shows Robust Growth; MSP Review Underway for Kharif Season",
+        "explainer": "• The latest economic survey data indicates strong growth in India's agricultural sector, driven by favorable monsoons and government support measures.\n• The Ministry of Agriculture and Farmers' Welfare announced that the review process for Minimum Support Prices (MSPs) for upcoming Kharif crops is underway.\n• Discussions include ensuring remunerative prices for farmers, diversifying crop patterns, and promoting sustainable farming practices.\n• Efforts are also focused on improving agricultural credit availability, irrigation infrastructure, and market linkages for farmers.\n• This sustained growth is vital for rural livelihoods, food security, and overall economic stability, especially in the context of climate change impacts.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Major crops-cropping patterns in various parts of the country",
+          "Different types of irrigation and irrigation systems storage",
+          "Transport and marketing of agricultural produce and issues and related constraints",
+          "Minimum Support Price",
+          "Public Distribution System objectives, functioning, limitations, revamping"
+        ],
+        "date": "2025-05-14",
+        "source": "Ministry of Agriculture & Farmers' Welfare",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Agriculture",
+          "Economic Growth",
+          "MSP",
+          "Kharif Crops",
+          "Food Security",
+          "Farmers' Welfare"
+        ],
+        "keyTerms": [
+          "Minimum Support Price (MSP)",
+          "Kharif Crops",
+          "Agricultural Credit",
+          "Crop Diversification",
+          "Food Security",
+          "Commission for Agricultural Costs and Prices (CACP)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Definition of Kharif crops (sown in monsoon, harvested autumn). Examples: Paddy, maize, jowar, bajra, tur, moong, urad, cotton, groundnut, soybean.",
+          "Role of Commission for Agricultural Costs and Prices (CACP) in recommending MSPs.",
+          "Objectives of MSP: Ensure remunerative prices, encourage higher production, protect farmers from price fluctuations.",
+          "Major government schemes for agricultural support."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Impact of MSP policy on farmers' income, crop diversification, and food inflation.",
+          "Challenges in effective implementation of MSP and procurement mechanisms.",
+          "Strategies for making Indian agriculture more resilient to climate change and market volatilities.",
+          "Role of technology and agricultural reforms in boosting productivity and farmer welfare.",
+          "Debate on the long-term sustainability of current MSP regime and alternatives."
+        ],
+        "imageDescription": "A farmer tending to crops in a lush green field.",
+        "section": "Economy",
+        "trivia": "India is the world's largest producer of milk, pulses, and jute, and the second-largest producer of rice, wheat, sugarcane, groundnut, and cotton.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Agriculture",
+          "topic": "MSP"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "editorial-green-economy-mission",
+        "headline": "Editorial: The Green Economy Mission - A Paradigm Shift or a Green Façade?",
+        "explainer": "• This editorial critically examines the recently launched National Green Economy Mission, analyzing its potential and inherent challenges.\n• It argues that while the mission's objectives are laudable, successful implementation hinges on robust policy coherence, adequate funding, and genuine stakeholder engagement.\n• Concerns are raised regarding the potential for 'greenwashing' if environmental regulations are not strictly enforced alongside economic incentives.\n• The piece emphasizes the need for a just transition that addresses the socio-economic impacts on vulnerable communities and traditional industries.\n• Ultimately, the editorial calls for transparent monitoring, accountability, and a long-term vision to ensure the mission delivers tangible environmental and economic benefits.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Environmental pollution and degradation",
+          "Conservation",
+          "Environmental impact assessment",
+          "Economic growth and development",
+          "Government policies and interventions"
+        ],
+        "date": "2025-05-14",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Green Economy",
+          "Sustainable Development",
+          "Climate Policy",
+          "Economic Policy",
+          "Environmental Governance",
+          "Editorial"
+        ],
+        "keyTerms": [
+          "Green Economy",
+          "Just Transition",
+          "Greenwashing",
+          "Policy Coherence",
+          "Environmental Regulations",
+          "Sustainable Development Goals (SDGs)"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": true,
+        "mainsPoints": [
+          "Critical evaluation of the strengths and weaknesses of India's National Green Economy Mission.",
+          "Discussion on the concept of 'just transition' in the context of shifting towards a green economy.",
+          "Analysis of the potential for 'greenwashing' and how to prevent it through effective governance.",
+          "Strategies for ensuring policy coherence across different ministries and levels of government.",
+          "Importance of inclusive growth and protecting vulnerable populations during economic transitions."
+        ],
+        "imageDescription": "A person balancing a sprout and a coin on a scale, symbolizing economic and environmental balance.",
+        "section": "Editorial",
+        "trivia": "The concept of a 'green economy' gained prominence at the Rio+20 United Nations Conference on Sustainable Development in 2012.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Sustainable Development",
+          "topic": "Green Economy"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Press Information Bureau (PIB)",
+    "The Hindu",
+    "The Economic Times",
+    "Ministry of External Affairs (MEA)",
+    "Ministry of Environment, Forest and Climate Change",
+    "Ministry of Health and Family Welfare",
+    "The Hindu BusinessLine",
+    "The Indian Express",
+    "Ministry of Electronics and Information Technology",
+    "The Times of India",
+    "Science Daily",
+    "Department of Science & Technology",
+    "Ministry of Agriculture & Farmers' Welfare",
+    "Archaeological Survey of India (ASI)",
+    "National Disaster Management Authority (NDMA)"
+  ],
+  "totalScraped": 18,
+  "totalProcessed": 18
+}

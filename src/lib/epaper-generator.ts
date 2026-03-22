@@ -4,7 +4,7 @@
  *
  * For each article, generates:
  *  - UPSC-friendly headline (not clickbait)
- *  - 200-300 word explainer with context, conceptual clarity,
+ *  - 300-400 word explainer with context, conceptual clarity,
  *    Prelims & Mains relevance, and embedded syllabus keywords
  *  - GS paper mapping (GS1/GS2/GS3/GS4)
  *  - One-line image description
@@ -170,9 +170,9 @@ For each INCLUDED article, return a JSON object with these fields:
 1. "headline": A clear, UPSC-relevant headline (max 100 chars, no clickbait, institutional/policy tone)
 
 2. "explainer": A TWO-PART article body structured as follows:
-   PART 1 — KEY FACTS: 5-6 bullet points, each starting with the bullet character. Each bullet must state a concrete, verifiable fact covering: what happened, who/which institution was involved, where/when, specific provisions/data/Acts cited, and consequences or reactions. No vague or generic statements.
+   PART 1 — KEY FACTS: Exactly 5 bullet points, each starting with the • character. Each bullet must be a SINGLE crisp sentence stating one concrete, verifiable fact (what happened, who was involved, key data/provisions). Keep each bullet SHORT — maximum 15-20 words. No multi-sentence bullets. Example: "• India's crude oil import bill rose 18% to $142 billion in FY25."
    After the bullets, leave one blank line, then write:
-   PART 2 — ANALYSIS: A 150-word analytical paragraph covering the policy/governance significance, institutional implications, and connections to constitutional principles, development challenges, or international dimensions. Do NOT use structural headers like "Context:", "Significance:", or "Way Forward:". The analysis must read as premium newspaper prose, naturally weaving in Civil Services syllabus keywords (e.g., federal structure, constitutionalism, fiscal deficit, inclusive growth, biodiversity hotspots, cooperative federalism, SDGs, Article 21). NEVER explicitly mention "UPSC", "syllabus", or "aspirants".
+   PART 2 — ANALYSIS: A 180-200 word analytical passage that helps the reader think deeper about the issue. Cover: why this matters for governance/policy, institutional implications, connections to constitutional principles or development challenges, and what dimensions a thoughtful citizen should consider. Write in premium newspaper prose — flowing paragraphs, not bullet points. Naturally weave in Civil Services syllabus keywords (e.g., federal structure, constitutionalism, fiscal deficit, inclusive growth, cooperative federalism, SDGs, Article 21). NEVER explicitly mention "UPSC", "syllabus", or "aspirants". Do NOT use structural headers. The analysis must be substantive and thought-provoking — aim for exactly 180-200 words.
 
 3. "category": One of: polity, governance, economy, ir, environment, science, social, history, geography, security, agriculture, disaster, ethics
 

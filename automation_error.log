@@ -47,3 +47,72 @@ Validation failed at Mon Mar 16 08:43:29 IST 2026
 [epaper-scraper] Feed returned 403: PIB (Press Releases)
 [epaper-scraper] Feed returned 404: UN News (Asia-Pacific)
 Validation failed at Tue Mar 17 06:06:36 IST 2026
+[epaper-scraper] Feed returned 403: PIB (Press Releases)
+[epaper-scraper] Feed returned 404: UN News (Asia-Pacific)
+Failed to generate master lead: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13185:13
+    at async main (/Users/mgtvalavan/UPSC coaching antigravity/generate_custom_epaper.ts:84:26) {
+  [cause]: HeadersTimeoutError: Headers Timeout Error
+      at Timeout.onParserTimeout [as callback] (node:internal/deps/undici/undici:5995:32)
+      at Timeout.onTimeout [as _onTimeout] (node:internal/deps/undici/undici:2356:17)
+      at listOnTimeout (node:internal/timers:581:17)
+      at process.processTimers (node:internal/timers:519:7) {
+    code: 'UND_ERR_HEADERS_TIMEOUT'
+  }
+}
+Validation failed at Wed Mar 18 06:17:22 IST 2026
+[epaper-scraper] Feed returned 403: PIB (Press Releases)
+[epaper-scraper] Feed returned 404: UN News (Asia-Pacific)
+Failed to generate master lead: TypeError: fetch failed
+    at node:internal/deps/undici/undici:13185:13
+    at async main (/Users/mgtvalavan/UPSC coaching antigravity/generate_custom_epaper.ts:84:26) {
+  [cause]: HeadersTimeoutError: Headers Timeout Error
+      at Timeout.onParserTimeout [as callback] (node:internal/deps/undici/undici:5995:32)
+      at Timeout.onTimeout [as _onTimeout] (node:internal/deps/undici/undici:2356:17)
+      at listOnTimeout (node:internal/timers:581:17)
+      at process.processTimers (node:internal/timers:519:7) {
+    code: 'UND_ERR_HEADERS_TIMEOUT'
+  }
+}
+[epaper-gen] CSAT gen error on gemini-2.5-flash, retrying in 10s: Bad control character in string literal in JSON at position 12806
+[epaper-gen] Quick Bytes truncated (MAX_TOKENS), retrying...
+[epaper-gen] Quick Bytes truncated (MAX_TOKENS), retrying...
+[epaper-gen] Quick Bytes failed on gemini-2.0-flash (attempt 1): HTTP 404
+[epaper-gen] Quick Bytes failed on gemini-2.0-flash (attempt 2): HTTP 404
+[epaper-gen] Quick Bytes failed on gemini-2.0-flash-lite (attempt 1): HTTP 404
+[epaper-gen] Quick Bytes failed on gemini-2.0-flash-lite (attempt 2): HTTP 404
+[epaper-gen] Quick Bytes generation failed
+Truncated (MAX_TOKENS), retrying...
+Validation failed at Thu Mar 19 06:33:55 IST 2026
+[epaper-scraper] Feed returned 403: PIB (Press Releases)
+[epaper-gen] Error on gemini-2.5-flash, retrying in 10s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 20s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 10s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 20s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 40s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 80s: fetch failed
+[epaper-gen] All retries failed for gemini-2.5-flash, trying next model…
+[epaper-gen] Error on gemini-2.5-flash, retrying in 10s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 20s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 40s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 10s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 20s: fetch failed
+[epaper-gen] CSAT gen error on gemini-2.5-flash, retrying in 10s: Unterminated string in JSON at position 3531
+[epaper-gen] Quick Bytes truncated (MAX_TOKENS), retrying...
+[epaper-gen] Quick Bytes truncated (MAX_TOKENS), retrying...
+Truncated (MAX_TOKENS), retrying...
+Truncated (MAX_TOKENS), retrying...
+[epaper-scraper] Feed returned 403: PIB (Press Releases)
+[epaper-gen] Error on gemini-2.5-flash, retrying in 10s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 20s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 40s: fetch failed
+[epaper-gen] Error on gemini-2.5-flash, retrying in 80s: fetch failed
+[epaper-gen] Quick Bytes truncated (MAX_TOKENS), retrying...
+[epaper-gen] Quick Bytes truncated (MAX_TOKENS), retrying...
+Truncated (MAX_TOKENS), retrying...
+Truncated (MAX_TOKENS), retrying...
+[epaper-scraper] Feed returned 403: PIB (Press Releases)
+[epaper-gen] CSAT gen error on gemini-2.5-flash, retrying in 10s: Bad control character in string literal in JSON at position 15313
+[epaper-gen] Quick Bytes truncated (MAX_TOKENS), retrying...
+[epaper-gen] Quick Bytes truncated (MAX_TOKENS), retrying...
+Truncated (MAX_TOKENS), retrying...

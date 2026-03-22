@@ -1,0 +1,2211 @@
+{
+  "metadata": {
+    "generatedAt": "2026-03-18T03:24:43.024Z",
+    "sourceQuestions": 1102,
+    "prelimsQuestions": 741,
+    "mainsQuestions": 361,
+    "yearRange": "1995-2025",
+    "version": "2.0",
+    "weightSource": "Expert-verified from Education Province UPSC Prelims Subjectwise Weightage 2011-2024"
+  },
+  "expertPrelimsWeights": {
+    "Economy": 21,
+    "Environment": 18,
+    "Polity": 15,
+    "Geography": 11,
+    "Science & Technology": 11,
+    "Current Affairs & GK": 8,
+    "Modern History": 7,
+    "Ancient History": 6,
+    "Art & Culture": 2,
+    "Medieval History": 2
+  },
+  "yearWiseWeights": {
+    "2020": {
+      "Economy": 20,
+      "Environment": 18,
+      "Polity": 18,
+      "Geography": 10,
+      "Science & Technology": 11,
+      "Current Affairs & GK": 4,
+      "Modern History": 8,
+      "Ancient History": 10,
+      "Art & Culture": 0,
+      "Medieval History": 1
+    },
+    "2021": {
+      "Economy": 15,
+      "Environment": 15,
+      "Polity": 17,
+      "Geography": 12,
+      "Science & Technology": 11,
+      "Current Affairs & GK": 7,
+      "Modern History": 8,
+      "Ancient History": 7,
+      "Art & Culture": 3,
+      "Medieval History": 5
+    },
+    "2022": {
+      "Economy": 20,
+      "Environment": 17,
+      "Polity": 11,
+      "Geography": 12,
+      "Science & Technology": 14,
+      "Current Affairs & GK": 13,
+      "Modern History": 8,
+      "Ancient History": 8,
+      "Art & Culture": 0,
+      "Medieval History": 4
+    },
+    "2023": {
+      "Economy": 16,
+      "Environment": 18,
+      "Polity": 15,
+      "Geography": 10,
+      "Science & Technology": 9,
+      "Current Affairs & GK": 14,
+      "Modern History": 3,
+      "Ancient History": 9,
+      "Art & Culture": 0,
+      "Medieval History": 2
+    },
+    "2024": {
+      "Economy": 16,
+      "Environment": 19,
+      "Polity": 16,
+      "Geography": 15,
+      "Science & Technology": 7,
+      "Current Affairs & GK": 14,
+      "Modern History": 3,
+      "Ancient History": 5,
+      "Art & Culture": 2,
+      "Medieval History": 1
+    }
+  },
+  "topicWeights": {
+    "Economy": 100,
+    "Environment": 86,
+    "Polity": 71,
+    "Geography": 62,
+    "Science & Technology": 52,
+    "Current Affairs & GK": 48,
+    "Modern History": 33,
+    "Ancient History": 39,
+    "Art & Culture": 10,
+    "Medieval History": 10,
+    "Society": 35,
+    "International Relations": 30,
+    "Social Justice": 25,
+    "Internal Security": 25,
+    "Governance": 20,
+    "Disaster Management": 15,
+    "Post-Independence": 25,
+    "World History": 25,
+    "Ethics": 10,
+    "Essay": 5
+  },
+  "topicFrequency": {
+    "Art & Culture": {
+      "total": 44,
+      "prelims": 30,
+      "mains": 14,
+      "pct": 4
+    },
+    "Current Affairs & GK": {
+      "total": 43,
+      "prelims": 43,
+      "mains": 0,
+      "pct": 3.9
+    },
+    "Economy": {
+      "total": 75,
+      "prelims": 25,
+      "mains": 50,
+      "pct": 6.8
+    },
+    "Environment": {
+      "total": 44,
+      "prelims": 24,
+      "mains": 20,
+      "pct": 4
+    },
+    "Geography": {
+      "total": 283,
+      "prelims": 239,
+      "mains": 44,
+      "pct": 25.7
+    },
+    "Polity": {
+      "total": 207,
+      "prelims": 142,
+      "mains": 65,
+      "pct": 18.8
+    },
+    "Science & Technology": {
+      "total": 151,
+      "prelims": 133,
+      "mains": 18,
+      "pct": 13.7
+    },
+    "Ancient History": {
+      "total": 63,
+      "prelims": 63,
+      "mains": 0,
+      "pct": 5.7
+    },
+    "Disaster Management": {
+      "total": 8,
+      "prelims": 0,
+      "mains": 8,
+      "pct": 0.7
+    },
+    "Governance": {
+      "total": 6,
+      "prelims": 0,
+      "mains": 6,
+      "pct": 0.5
+    },
+    "Internal Security": {
+      "total": 24,
+      "prelims": 0,
+      "mains": 24,
+      "pct": 2.2
+    },
+    "International Relations": {
+      "total": 24,
+      "prelims": 0,
+      "mains": 24,
+      "pct": 2.2
+    },
+    "Modern History": {
+      "total": 15,
+      "prelims": 0,
+      "mains": 15,
+      "pct": 1.4
+    },
+    "Social Justice": {
+      "total": 27,
+      "prelims": 0,
+      "mains": 27,
+      "pct": 2.5
+    },
+    "Society": {
+      "total": 42,
+      "prelims": 0,
+      "mains": 42,
+      "pct": 3.8
+    },
+    "World History": {
+      "total": 3,
+      "prelims": 0,
+      "mains": 3,
+      "pct": 0.3
+    },
+    "Medieval History": {
+      "total": 42,
+      "prelims": 42,
+      "mains": 0,
+      "pct": 3.8
+    },
+    "Post-Independence": {
+      "total": 1,
+      "prelims": 0,
+      "mains": 1,
+      "pct": 0.1
+    }
+  },
+  "gsPaperDistribution": {
+    "GS1": 493,
+    "GS2": 307,
+    "GS3": 302
+  },
+  "subtopicFrequency": {
+    "Geography/Climatology": {
+      "topic": "Geography",
+      "total": 47,
+      "pct": 4.3
+    },
+    "Polity/Union & State Legislature": {
+      "topic": "Polity",
+      "total": 37,
+      "pct": 3.4
+    },
+    "Science & Technology/Space Technology": {
+      "topic": "Science & Technology",
+      "total": 32,
+      "pct": 2.9
+    },
+    "Geography/Agriculture": {
+      "topic": "Geography",
+      "total": 30,
+      "pct": 2.7
+    },
+    "Science & Technology/Electronics and IT": {
+      "topic": "Science & Technology",
+      "total": 29,
+      "pct": 2.6
+    },
+    "Current Affairs & GK/International Organizations": {
+      "topic": "Current Affairs & GK",
+      "total": 27,
+      "pct": 2.5
+    },
+    "Medieval History/Important Rulers and Kingdoms": {
+      "topic": "Medieval History",
+      "total": 26,
+      "pct": 2.4
+    },
+    "Ancient History/Politics and Society": {
+      "topic": "Ancient History",
+      "total": 26,
+      "pct": 2.4
+    },
+    "Geography/Map-Based World": {
+      "topic": "Geography",
+      "total": 25,
+      "pct": 2.3
+    },
+    "Science & Technology/Biotechnology": {
+      "topic": "Science & Technology",
+      "total": 25,
+      "pct": 2.3
+    },
+    "Geography/11] INDIAN GEOGRAPHY": {
+      "topic": "Geography",
+      "total": 25,
+      "pct": 2.3
+    },
+    "Environment/Climate Change": {
+      "topic": "Environment",
+      "total": 24,
+      "pct": 2.2
+    },
+    "Geography/Rivers and Lakes": {
+      "topic": "Geography",
+      "total": 23,
+      "pct": 2.1
+    },
+    "Geography/Physical Geography": {
+      "topic": "Geography",
+      "total": 22,
+      "pct": 2
+    },
+    "Polity/Judiciary & Judicial System": {
+      "topic": "Polity",
+      "total": 21,
+      "pct": 1.9
+    },
+    "Environment/14] CONSERVATION, ENVIRONMENTAL POLLUTION AND DEGRADATION, ENVIRONMENTAL IMPACT ": {
+      "topic": "Environment",
+      "total": 20,
+      "pct": 1.8
+    },
+    "Art & Culture/Art and Craft": {
+      "topic": "Art & Culture",
+      "total": 18,
+      "pct": 1.6
+    },
+    "Economy/Macroeconomy": {
+      "topic": "Economy",
+      "total": 18,
+      "pct": 1.6
+    },
+    "Polity/Indian Constitution": {
+      "topic": "Polity",
+      "total": 17,
+      "pct": 1.5
+    },
+    "Geography/Rocks, Soil and Minerals": {
+      "topic": "Geography",
+      "total": 17,
+      "pct": 1.5
+    },
+    "Polity/Ministers and Ministries": {
+      "topic": "Polity",
+      "total": 17,
+      "pct": 1.5
+    },
+    "Geography/Oceanography": {
+      "topic": "Geography",
+      "total": 15,
+      "pct": 1.4
+    },
+    "Geography/World Regional Geography": {
+      "topic": "Geography",
+      "total": 15,
+      "pct": 1.4
+    },
+    "Polity/President/VP/Governor": {
+      "topic": "Polity",
+      "total": 15,
+      "pct": 1.4
+    },
+    "Ancient History/Architecture": {
+      "topic": "Ancient History",
+      "total": 15,
+      "pct": 1.4
+    },
+    "Ancient History/Religion and Philosophy": {
+      "topic": "Ancient History",
+      "total": 15,
+      "pct": 1.4
+    },
+    "Economy/4] MAJOR CROPS, CROPPING PATTERN IN VARIOUS PARTS OF THE COUNTRY, DIFFERENT TYPE": {
+      "topic": "Economy",
+      "total": 15,
+      "pct": 1.4
+    },
+    "Modern History/2.1] 18TH CENTURY AND ESTABLISHMENT OF EIC": {
+      "topic": "Modern History",
+      "total": 15,
+      "pct": 1.4
+    },
+    "Science & Technology/Physics": {
+      "topic": "Science & Technology",
+      "total": 14,
+      "pct": 1.3
+    },
+    "Science & Technology/Biology": {
+      "topic": "Science & Technology",
+      "total": 14,
+      "pct": 1.3
+    },
+    "Society/7] WOMEN, POPULATION, POVERTY, DEVELOPMENT AND URBANIZATION ISSUES": {
+      "topic": "Society",
+      "total": 14,
+      "pct": 1.3
+    },
+    "Geography/Location and Climate": {
+      "topic": "Geography",
+      "total": 14,
+      "pct": 1.3
+    },
+    "Geography/10] WORLD GEOGRAPHY": {
+      "topic": "Geography",
+      "total": 13,
+      "pct": 1.2
+    },
+    "Art & Culture/Indian Culture and Heritage": {
+      "topic": "Art & Culture",
+      "total": 12,
+      "pct": 1.1
+    },
+    "Economy/1] INDIAN ECONOMY AND ISSUES RELATED TO PLANNING, MOBILIZATION OF RESOURCES, GRO": {
+      "topic": "Economy",
+      "total": 12,
+      "pct": 1.1
+    },
+    "Society/9] SOCIAL EMPOWERMENT, CASTE, COMMUNALISM, REGIONALISM, SECULARISM": {
+      "topic": "Society",
+      "total": 12,
+      "pct": 1.1
+    },
+    "Science & Technology/Diseases": {
+      "topic": "Science & Technology",
+      "total": 12,
+      "pct": 1.1
+    },
+    "Current Affairs & GK/Defence": {
+      "topic": "Current Affairs & GK",
+      "total": 11,
+      "pct": 1
+    },
+    "Geography/Mountains and Glaciers": {
+      "topic": "Geography",
+      "total": 11,
+      "pct": 1
+    },
+    "Polity/DPSPs and Fundamental Duties": {
+      "topic": "Polity",
+      "total": 10,
+      "pct": 0.9
+    },
+    "Polity/2] FUNCTIONS AND RESPONSIBILITIES OF THE UNION AND THE STATES, ISSUES AND CHALLE": {
+      "topic": "Polity",
+      "total": 10,
+      "pct": 0.9
+    },
+    "Polity/6] STRUCTURE, ORGANIZATION AND FUNCTIONING OF THE EXECUTIVE AND JUDICIARY &#8211": {
+      "topic": "Polity",
+      "total": 10,
+      "pct": 0.9
+    },
+    "Science & Technology/13] AWARENESS IN THE FIELDS OF IT, SPACE, COMPUTERS, ROBOTICS, NANO-TECHNOLOGY, ": {
+      "topic": "Science & Technology",
+      "total": 10,
+      "pct": 0.9
+    },
+    "Social Justice/13] ISSUES RELATING TO DEVELOPMENT AND MANAGEMENT OF SOCIAL SECTOR / SERVICES RE": {
+      "topic": "Social Justice",
+      "total": 10,
+      "pct": 0.9
+    },
+    "Polity/8] APPOINTMENTS TO VARIOUS CONSTITUTIONAL POSTS, POWERS, FUNCTIONS AND RESPONSIB": {
+      "topic": "Polity",
+      "total": 10,
+      "pct": 0.9
+    },
+    "Polity/Elections & RPA Act": {
+      "topic": "Polity",
+      "total": 10,
+      "pct": 0.9
+    },
+    "Geography/Roads, Railways and Ports": {
+      "topic": "Geography",
+      "total": 9,
+      "pct": 0.8
+    },
+    "International Relations/18] BILATERAL, REGIONAL AND GLOBAL GROUPINGS AND AGREEMENTS INVOLVING INDIA AND ": {
+      "topic": "International Relations",
+      "total": 9,
+      "pct": 0.8
+    },
+    "International Relations/19] EFFECT OF POLICIES AND POLITICS OF DEVELOPED AND DEVELOPING COUNTRIES ON IND": {
+      "topic": "International Relations",
+      "total": 9,
+      "pct": 0.8
+    },
+    "Polity/Fundamental Rights": {
+      "topic": "Polity",
+      "total": 9,
+      "pct": 0.8
+    },
+    "Polity/5] PARLIAMENT AND STATE LEGISLATURES &#8211; STRUCTURE, FUNCTIONING, CONDUCT OF ": {
+      "topic": "Polity",
+      "total": 9,
+      "pct": 0.8
+    },
+    "Disaster Management/15] DISASTER AND DISASTER MANAGEMENT": {
+      "topic": "Disaster Management",
+      "total": 8,
+      "pct": 0.7
+    },
+    "Internal Security/19] SECURITY CHALLENGES AND THEIR MANAGEMENT IN BORDER AREAS &#8211; LINKAGES OF": {
+      "topic": "Internal Security",
+      "total": 8,
+      "pct": 0.7
+    },
+    "Society/6] INDIAN SOCIETY AND DIVERSITY": {
+      "topic": "Society",
+      "total": 8,
+      "pct": 0.7
+    },
+    "Society/8] EFFECTS OF GLOBALIZATION ON INDIAN SOCIETY.": {
+      "topic": "Society",
+      "total": 8,
+      "pct": 0.7
+    },
+    "Medieval History/Religion and Philosophy": {
+      "topic": "Medieval History",
+      "total": 8,
+      "pct": 0.7
+    },
+    "Economy/Taxation System": {
+      "topic": "Economy",
+      "total": 7,
+      "pct": 0.6
+    },
+    "Science & Technology/Chemistry": {
+      "topic": "Science & Technology",
+      "total": 7,
+      "pct": 0.6
+    },
+    "Ancient History/Literature": {
+      "topic": "Ancient History",
+      "total": 7,
+      "pct": 0.6
+    },
+    "Art & Culture/1.4] CULTURE AND RELIGION": {
+      "topic": "Art & Culture",
+      "total": 7,
+      "pct": 0.6
+    },
+    "Internal Security/18] CHALLENGES TO INTERNAL SECURITY THROUGH COMMUNICATION NETWORKS, ROLE OF MEDI": {
+      "topic": "Internal Security",
+      "total": 7,
+      "pct": 0.6
+    },
+    "Geography/12] PHYSICAL GEOGRAPHY": {
+      "topic": "Geography",
+      "total": 6,
+      "pct": 0.5
+    },
+    "Polity/1] INDIAN CONSTITUTION HISTORICAL UNDERPINNINGS, EVOLUTION, FEATURES, AMENDMENTS": {
+      "topic": "Polity",
+      "total": 6,
+      "pct": 0.5
+    },
+    "Polity/4] COMPARISON OF THE INDIAN CONSTITUTIONAL SCHEME WITH THAT OF OTHER COUNTRIES": {
+      "topic": "Polity",
+      "total": 6,
+      "pct": 0.5
+    },
+    "Science & Technology/11] S & T &#8211; DEVELOPMENTS AND THEIR APPLICATIONS AND EFFECTS IN EVERYDAY LI": {
+      "topic": "Science & Technology",
+      "total": 6,
+      "pct": 0.5
+    },
+    "Social Justice/12] WELFARE SCHEMES FOR VULNERABLE SECTIONS OF THE POPULATION BY THE CENTRE AND ": {
+      "topic": "Social Justice",
+      "total": 6,
+      "pct": 0.5
+    },
+    "Geography/Industries and Projects": {
+      "topic": "Geography",
+      "total": 6,
+      "pct": 0.5
+    },
+    "Economy/5] ISSUES RELATED TO DIRECT AND INDIRECT FARM SUBSIDIES AND MINIMUM SUPPORT PRIC": {
+      "topic": "Economy",
+      "total": 5,
+      "pct": 0.5
+    },
+    "Governance/15] IMPORTANT ASPECTS OF GOVERNANCE, TRANSPARENCY AND ACCOUNTABILITY, E-GOVERNAN": {
+      "topic": "Governance",
+      "total": 5,
+      "pct": 0.5
+    },
+    "International Relations/20] IMPORTANT INTERNATIONAL INSTITUTIONS, AGENCIES AND FORA &#8211; THEIR STRUCT": {
+      "topic": "International Relations",
+      "total": 5,
+      "pct": 0.5
+    },
+    "Polity/9] STATUTORY, REGULATORY AND VARIOUS QUASI-JUDICIAL BODIES": {
+      "topic": "Polity",
+      "total": 5,
+      "pct": 0.5
+    },
+    "Polity/7] SALIENT FEATURES OF THE REPRESENTATION OF PEOPLE&#8217;S ACT": {
+      "topic": "Polity",
+      "total": 5,
+      "pct": 0.5
+    },
+    "Social Justice/11] DEVELOPMENT PROCESSES AND THE DEVELOPMENT INDUSTRY &#8211; THE ROLE OF NGOS,": {
+      "topic": "Social Justice",
+      "total": 5,
+      "pct": 0.5
+    },
+    "Economy/3] GOVERNMENT BUDGETING": {
+      "topic": "Economy",
+      "total": 5,
+      "pct": 0.5
+    },
+    "Current Affairs & GK/Nuclear Weapons and Treaties": {
+      "topic": "Current Affairs & GK",
+      "total": 5,
+      "pct": 0.5
+    },
+    "Geography/Map-Based India": {
+      "topic": "Geography",
+      "total": 5,
+      "pct": 0.5
+    },
+    "Economy/2] INCLUSIVE GROWTH AND ISSUES ARISING OUT OF IT": {
+      "topic": "Economy",
+      "total": 4,
+      "pct": 0.4
+    },
+    "Internal Security/16] LINKAGES BETWEEN DEVELOPMENT AND SPREAD OF EXTREMISM": {
+      "topic": "Internal Security",
+      "total": 4,
+      "pct": 0.4
+    },
+    "Polity/3] SEPARATION OF POWERS BETWEEN VARIOUS ORGANS, DISPUTE REDRESSAL MECHANISMS AND": {
+      "topic": "Polity",
+      "total": 4,
+      "pct": 0.4
+    },
+    "Medieval History/Advent of Europeans": {
+      "topic": "Medieval History",
+      "total": 4,
+      "pct": 0.4
+    },
+    "Medieval History/Art, Architecture & Literature": {
+      "topic": "Medieval History",
+      "total": 4,
+      "pct": 0.4
+    },
+    "Polity/Indian Political System": {
+      "topic": "Polity",
+      "total": 4,
+      "pct": 0.4
+    },
+    "World History/World History": {
+      "topic": "World History",
+      "total": 3,
+      "pct": 0.3
+    },
+    "Economy/6] FOOD PROCESSING AND RELATED INDUSTRIES IN INDIA, SCOPE AND SIGNIFICANCE, LOCA": {
+      "topic": "Economy",
+      "total": 3,
+      "pct": 0.3
+    },
+    "Social Justice/10] GOVERNMENT POLICIES AND INTERVENTIONS FOR DEVELOPMENT IN VARIOUS SECTORS AND": {
+      "topic": "Social Justice",
+      "total": 3,
+      "pct": 0.3
+    },
+    "Art & Culture/1.2] LITERATURE": {
+      "topic": "Art & Culture",
+      "total": 3,
+      "pct": 0.3
+    },
+    "Internal Security/17] ROLE OF EXTERNAL STATE AND NON-STATE ACTORS IN CREATING CHALLENGES TO INTERN": {
+      "topic": "Internal Security",
+      "total": 3,
+      "pct": 0.3
+    },
+    "Social Justice/14] ISSUES RELATING TO POVERTY AND HUNGER": {
+      "topic": "Social Justice",
+      "total": 3,
+      "pct": 0.3
+    },
+    "Economy/7] LAND REFORMS IN INDIA": {
+      "topic": "Economy",
+      "total": 2,
+      "pct": 0.2
+    },
+    "Internal Security/20] VARIOUS SECURITY FORCES AND AGENCIES AND THEIR MANDATE": {
+      "topic": "Internal Security",
+      "total": 2,
+      "pct": 0.2
+    },
+    "Art & Culture/1.3] ARCHITECTURE": {
+      "topic": "Art & Culture",
+      "total": 2,
+      "pct": 0.2
+    },
+    "Economy/9] INFRASTRUCTURE: ENERGY, PORTS, ROADS, AIRPORTS, RAILWAYS ETC": {
+      "topic": "Economy",
+      "total": 2,
+      "pct": 0.2
+    },
+    "Economy/10] INVESTMENT MODELS": {
+      "topic": "Economy",
+      "total": 2,
+      "pct": 0.2
+    },
+    "Art & Culture/1.1] VARIOUS ART FORMS": {
+      "topic": "Art & Culture",
+      "total": 2,
+      "pct": 0.2
+    },
+    "Science & Technology/12] ACHIEVEMENTS OF INDIANS IN SCIENCE & TECHNOLOGY; INDIGENIZATION OF TECHNOLOG": {
+      "topic": "Science & Technology",
+      "total": 2,
+      "pct": 0.2
+    },
+    "Polity/Political Theory": {
+      "topic": "Polity",
+      "total": 2,
+      "pct": 0.2
+    },
+    "International Relations/17] INDIA AND ITS NEIGHBOURHOOD RELATIONS": {
+      "topic": "International Relations",
+      "total": 1,
+      "pct": 0.1
+    },
+    "Post-Independence/Post-Independence": {
+      "topic": "Post-Independence",
+      "total": 1,
+      "pct": 0.1
+    },
+    "Governance/16] ROLE OF CIVIL SERVICES IN A DEMOCRACY": {
+      "topic": "Governance",
+      "total": 1,
+      "pct": 0.1
+    }
+  },
+  "trendingTopics": {
+    "Art & Culture": {
+      "recent": 11,
+      "prior": 12,
+      "trend": -8,
+      "direction": "Steady"
+    },
+    "Current Affairs & GK": {
+      "recent": 19,
+      "prior": 6,
+      "trend": 217,
+      "direction": "Rising"
+    },
+    "Economy": {
+      "recent": 32,
+      "prior": 32,
+      "trend": 0,
+      "direction": "Steady"
+    },
+    "Environment": {
+      "recent": 16,
+      "prior": 17,
+      "trend": -6,
+      "direction": "Steady"
+    },
+    "Geography": {
+      "recent": 71,
+      "prior": 46,
+      "trend": 54,
+      "direction": "Rising"
+    },
+    "Polity": {
+      "recent": 67,
+      "prior": 62,
+      "trend": 8,
+      "direction": "Steady"
+    },
+    "Science & Technology": {
+      "recent": 44,
+      "prior": 46,
+      "trend": -4,
+      "direction": "Steady"
+    },
+    "Ancient History": {
+      "recent": 12,
+      "prior": 8,
+      "trend": 50,
+      "direction": "Rising"
+    },
+    "Disaster Management": {
+      "recent": 4,
+      "prior": 4,
+      "trend": 0,
+      "direction": "Steady"
+    },
+    "Governance": {
+      "recent": 2,
+      "prior": 4,
+      "trend": -50,
+      "direction": "Declining"
+    },
+    "Internal Security": {
+      "recent": 12,
+      "prior": 12,
+      "trend": 0,
+      "direction": "Steady"
+    },
+    "International Relations": {
+      "recent": 12,
+      "prior": 12,
+      "trend": 0,
+      "direction": "Steady"
+    },
+    "Modern History": {
+      "recent": 8,
+      "prior": 7,
+      "trend": 14,
+      "direction": "Steady"
+    },
+    "Social Justice": {
+      "recent": 14,
+      "prior": 13,
+      "trend": 8,
+      "direction": "Steady"
+    },
+    "Society": {
+      "recent": 20,
+      "prior": 22,
+      "trend": -9,
+      "direction": "Steady"
+    },
+    "World History": {
+      "recent": 2,
+      "prior": 1,
+      "trend": 100,
+      "direction": "Rising"
+    },
+    "Medieval History": {
+      "recent": 6,
+      "prior": 7,
+      "trend": -14,
+      "direction": "Steady"
+    },
+    "Post-Independence": {
+      "recent": 1,
+      "prior": 0,
+      "trend": 100,
+      "direction": "Rising"
+    }
+  },
+  "yearTopicMatrix": {
+    "2013": {
+      "Ancient History": 5,
+      "Art & Culture": 1,
+      "Geography": 8,
+      "Medieval History": 1,
+      "Polity": 5,
+      "Science & Technology": 10
+    },
+    "2014": {
+      "Ancient History": 2,
+      "Art & Culture": 5,
+      "Current Affairs & GK": 5,
+      "Environment": 2,
+      "Geography": 8,
+      "Polity": 5,
+      "Science & Technology": 8
+    },
+    "2015": {
+      "Current Affairs & GK": 4,
+      "Economy": 2,
+      "Environment": 2,
+      "Geography": 6,
+      "Medieval History": 3,
+      "Polity": 4,
+      "Science & Technology": 4
+    },
+    "2016": {
+      "Ancient History": 2,
+      "Current Affairs & GK": 3,
+      "Geography": 2,
+      "Medieval History": 2,
+      "Polity": 3,
+      "Science & Technology": 4
+    },
+    "2017": {
+      "Ancient History": 2,
+      "Art & Culture": 2,
+      "Current Affairs & GK": 2,
+      "Economy": 3,
+      "Environment": 1,
+      "Geography": 5,
+      "Polity": 10,
+      "Science & Technology": 5
+    },
+    "2018": {
+      "Art & Culture": 6,
+      "Current Affairs & GK": 1,
+      "Disaster Management": 1,
+      "Economy": 10,
+      "Environment": 4,
+      "Geography": 13,
+      "Governance": 2,
+      "Internal Security": 4,
+      "International Relations": 4,
+      "Medieval History": 1,
+      "Modern History": 1,
+      "Polity": 18,
+      "Science & Technology": 14,
+      "Social Justice": 3,
+      "Society": 8
+    },
+    "2019": {
+      "Ancient History": 1,
+      "Art & Culture": 1,
+      "Disaster Management": 2,
+      "Economy": 10,
+      "Environment": 6,
+      "Geography": 11,
+      "Internal Security": 4,
+      "International Relations": 4,
+      "Medieval History": 3,
+      "Modern History": 4,
+      "Polity": 15,
+      "Science & Technology": 10,
+      "Social Justice": 6,
+      "Society": 7,
+      "World History": 1
+    },
+    "2020": {
+      "Ancient History": 3,
+      "Art & Culture": 3,
+      "Disaster Management": 1,
+      "Economy": 9,
+      "Environment": 6,
+      "Geography": 15,
+      "Governance": 2,
+      "Internal Security": 4,
+      "International Relations": 4,
+      "Medieval History": 1,
+      "Modern History": 2,
+      "Polity": 16,
+      "Science & Technology": 13,
+      "Social Justice": 4,
+      "Society": 7
+    },
+    "2021": {
+      "Ancient History": 2,
+      "Art & Culture": 3,
+      "Current Affairs & GK": 1,
+      "Disaster Management": 2,
+      "Economy": 9,
+      "Environment": 3,
+      "Geography": 13,
+      "Internal Security": 4,
+      "International Relations": 4,
+      "Medieval History": 4,
+      "Modern History": 3,
+      "Polity": 16,
+      "Post-Independence": 1,
+      "Science & Technology": 10,
+      "Social Justice": 6,
+      "Society": 7,
+      "World History": 1
+    },
+    "2022": {
+      "Ancient History": 4,
+      "Art & Culture": 3,
+      "Current Affairs & GK": 4,
+      "Disaster Management": 1,
+      "Economy": 10,
+      "Environment": 3,
+      "Geography": 15,
+      "Governance": 1,
+      "Internal Security": 4,
+      "International Relations": 4,
+      "Medieval History": 2,
+      "Modern History": 3,
+      "Polity": 18,
+      "Science & Technology": 13,
+      "Social Justice": 5,
+      "Society": 6
+    },
+    "2023": {
+      "Ancient History": 4,
+      "Art & Culture": 3,
+      "Current Affairs & GK": 6,
+      "Disaster Management": 1,
+      "Economy": 9,
+      "Environment": 5,
+      "Geography": 17,
+      "Governance": 1,
+      "Internal Security": 4,
+      "International Relations": 4,
+      "Modern History": 2,
+      "Polity": 17,
+      "Science & Technology": 8,
+      "Social Justice": 3,
+      "Society": 7,
+      "World History": 1
+    },
+    "2024": {
+      "Ancient History": 2,
+      "Art & Culture": 1,
+      "Current Affairs & GK": 6,
+      "Economy": 3,
+      "Geography": 14,
+      "Polity": 8,
+      "Science & Technology": 5
+    },
+    "2025": {
+      "Art & Culture": 1,
+      "Current Affairs & GK": 2,
+      "Economy": 1,
+      "Environment": 5,
+      "Geography": 12,
+      "Polity": 8,
+      "Science & Technology": 8
+    }
+  },
+  "entityDictionary": {
+    "allied agricultural act": {
+      "count": 2,
+      "topics": [
+        "Economy"
+      ]
+    },
+    "tax act, 1961": {
+      "count": 2,
+      "topics": [
+        "Economy"
+      ]
+    },
+    "schedule ii": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "any central act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "a state act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "to inspire act": {
+      "count": 2,
+      "topics": [
+        "Current Affairs & GK"
+      ]
+    },
+    "economic act": {
+      "count": 2,
+      "topics": [
+        "Economy"
+      ]
+    },
+    "article 109": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "the above act": {
+      "count": 6,
+      "topics": [
+        "Science & Technology"
+      ]
+    },
+    "article 335": {
+      "count": 3,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "all act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "of courts act, 1971": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "of an act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "sit and act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "of people act, 1951": {
+      "count": 3,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "act, 1959": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "mentioned act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "act 1968": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "act, 1968": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "income tax act": {
+      "count": 2,
+      "topics": [
+        "Economy"
+      ]
+    },
+    "is an act": {
+      "count": 2,
+      "topics": [
+        "Geography"
+      ]
+    },
+    "schedule c": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "the rte act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "promote effective act": {
+      "count": 2,
+      "topics": [
+        "Current Affairs & GK"
+      ]
+    },
+    "per the act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "the act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "local social act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "nature through act": {
+      "count": 2,
+      "topics": [
+        "Art & Culture"
+      ]
+    },
+    "and collective act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "article 301": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "article 300": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "plead or act": {
+      "count": 4,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "judicial act": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "business act": {
+      "count": 2,
+      "topics": [
+        "Economy"
+      ]
+    },
+    "with business act": {
+      "count": 2,
+      "topics": [
+        "Economy"
+      ]
+    },
+    "schedule iv": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "article 108": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "the people act, 1951": {
+      "count": 3,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "lok sabha": {
+      "count": 51,
+      "topics": [
+        "Art & Culture",
+        "Polity"
+      ]
+    },
+    "rbi": {
+      "count": 24,
+      "topics": [
+        "Current Affairs & GK",
+        "Geography",
+        "Science & Technology",
+        "Art & Culture"
+      ]
+    },
+    "act": {
+      "count": 124,
+      "topics": [
+        "Environment",
+        "Polity",
+        "Science & Technology",
+        "Art & Culture",
+        "Current Affairs & GK",
+        "Economy",
+        "Geography",
+        "Society",
+        "Medieval History",
+        "Internal Security",
+        "International Relations",
+        "Disaster Management",
+        "Social Justice",
+        "Ancient History"
+      ]
+    },
+    "directive principles": {
+      "count": 6,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "fundamental duties": {
+      "count": 3,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "fundamental rights": {
+      "count": 5,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "fundamental right": {
+      "count": 2,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "who": {
+      "count": 18,
+      "topics": [
+        "Polity",
+        "Environment",
+        "International Relations",
+        "Ancient History",
+        "Current Affairs & GK",
+        "Medieval History",
+        "Art & Culture",
+        "Geography"
+      ]
+    },
+    "rajya sabha": {
+      "count": 22,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "gdp": {
+      "count": 15,
+      "topics": [
+        "Economy",
+        "Geography",
+        "Current Affairs & GK"
+      ]
+    },
+    "ngt": {
+      "count": 14,
+      "topics": [
+        "International Relations",
+        "Social Justice",
+        "Governance",
+        "Polity",
+        "Science & Technology",
+        "Internal Security",
+        "Modern History",
+        "Society",
+        "Geography"
+      ]
+    },
+    "supreme court": {
+      "count": 24,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "brics": {
+      "count": 3,
+      "topics": [
+        "Economy",
+        "Current Affairs & GK"
+      ]
+    },
+    "high court": {
+      "count": 17,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "national commission for": {
+      "count": 4,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "finance commission": {
+      "count": 5,
+      "topics": [
+        "Polity"
+      ]
+    },
+    "gst": {
+      "count": 6,
+      "topics": [
+        "Economy",
+        "Geography"
+      ]
+    },
+    "unesco": {
+      "count": 3,
+      "topics": [
+        "International Relations",
+        "Current Affairs & GK",
+        "Ancient History"
+      ]
+    },
+    "niti aayog": {
+      "count": 2,
+      "topics": [
+        "Polity",
+        "Economy"
+      ]
+    },
+    "isro": {
+      "count": 2,
+      "topics": [
+        "Science & Technology"
+      ]
+    },
+    "iucn": {
+      "count": 2,
+      "topics": [
+        "Environment"
+      ]
+    }
+  },
+  "hotKeywords": [
+    {
+      "word": "india",
+      "count": 396
+    },
+    {
+      "word": "state",
+      "count": 105
+    },
+    {
+      "word": "list",
+      "count": 95
+    },
+    {
+      "word": "codes",
+      "count": 81
+    },
+    {
+      "word": "sabha",
+      "count": 73
+    },
+    {
+      "word": "indian",
+      "count": 67
+    },
+    {
+      "word": "constitution",
+      "count": 66
+    },
+    {
+      "word": "many",
+      "count": 59
+    },
+    {
+      "word": "water",
+      "count": 55
+    },
+    {
+      "word": "national",
+      "count": 50
+    },
+    {
+      "word": "court",
+      "count": 49
+    },
+    {
+      "word": "matched",
+      "count": 48
+    },
+    {
+      "word": "government",
+      "count": 48
+    },
+    {
+      "word": "correctly",
+      "count": 47
+    },
+    {
+      "word": "president",
+      "count": 46
+    },
+    {
+      "word": "pairs",
+      "count": 46
+    },
+    {
+      "word": "earth",
+      "count": 46
+    },
+    {
+      "word": "there",
+      "count": 44
+    },
+    {
+      "word": "world",
+      "count": 44
+    },
+    {
+      "word": "election",
+      "count": 44
+    },
+    {
+      "word": "states",
+      "count": 42
+    },
+    {
+      "word": "reason",
+      "count": 39
+    },
+    {
+      "word": "system",
+      "count": 38
+    },
+    {
+      "word": "were",
+      "count": 38
+    },
+    {
+      "word": "development",
+      "count": 38
+    },
+    {
+      "word": "high",
+      "count": 38
+    },
+    {
+      "word": "parliament",
+      "count": 38
+    },
+    {
+      "word": "power",
+      "count": 34
+    },
+    {
+      "word": "country",
+      "count": 33
+    },
+    {
+      "word": "role",
+      "count": 33
+    },
+    {
+      "word": "ocean",
+      "count": 31
+    },
+    {
+      "word": "region",
+      "count": 30
+    },
+    {
+      "word": "countries",
+      "count": 30
+    },
+    {
+      "word": "shall",
+      "count": 30
+    },
+    {
+      "word": "first",
+      "count": 30
+    },
+    {
+      "word": "security",
+      "count": 30
+    },
+    {
+      "word": "members",
+      "count": 29
+    },
+    {
+      "word": "areas",
+      "count": 29
+    },
+    {
+      "word": "over",
+      "count": 29
+    },
+    {
+      "word": "union",
+      "count": 29
+    },
+    {
+      "word": "bill",
+      "count": 29
+    },
+    {
+      "word": "commission",
+      "count": 29
+    },
+    {
+      "word": "while",
+      "count": 28
+    },
+    {
+      "word": "during",
+      "count": 28
+    },
+    {
+      "word": "river",
+      "count": 28
+    },
+    {
+      "word": "human",
+      "count": 28
+    },
+    {
+      "word": "production",
+      "count": 27
+    },
+    {
+      "word": "office",
+      "count": 27
+    },
+    {
+      "word": "house",
+      "count": 27
+    },
+    {
+      "word": "public",
+      "count": 26
+    },
+    {
+      "word": "year",
+      "count": 26
+    },
+    {
+      "word": "minister",
+      "count": 25
+    },
+    {
+      "word": "area",
+      "count": 25
+    },
+    {
+      "word": "right",
+      "count": 25
+    },
+    {
+      "word": "pradesh",
+      "count": 25
+    },
+    {
+      "word": "growth",
+      "count": 25
+    },
+    {
+      "word": "supreme",
+      "count": 25
+    },
+    {
+      "word": "land",
+      "count": 24
+    },
+    {
+      "word": "people",
+      "count": 24
+    },
+    {
+      "word": "time",
+      "count": 24
+    },
+    {
+      "word": "member",
+      "count": 24
+    },
+    {
+      "word": "cannot",
+      "count": 24
+    },
+    {
+      "word": "north",
+      "count": 23
+    },
+    {
+      "word": "carbon",
+      "count": 23
+    },
+    {
+      "word": "global",
+      "count": 23
+    },
+    {
+      "word": "food",
+      "count": 23
+    },
+    {
+      "word": "energy",
+      "count": 23
+    },
+    {
+      "word": "central",
+      "count": 23
+    },
+    {
+      "word": "speaker",
+      "count": 23
+    },
+    {
+      "word": "east",
+      "count": 23
+    },
+    {
+      "word": "economic",
+      "count": 22
+    },
+    {
+      "word": "rajya",
+      "count": 22
+    },
+    {
+      "word": "legislative",
+      "count": 22
+    },
+    {
+      "word": "chief",
+      "count": 21
+    },
+    {
+      "word": "before",
+      "count": 21
+    },
+    {
+      "word": "technology",
+      "count": 21
+    },
+    {
+      "word": "women",
+      "count": 21
+    },
+    {
+      "word": "help",
+      "count": 21
+    },
+    {
+      "word": "governor",
+      "count": 20
+    },
+    {
+      "word": "policy",
+      "count": 20
+    },
+    {
+      "word": "space",
+      "count": 20
+    },
+    {
+      "word": "international",
+      "count": 20
+    },
+    {
+      "word": "present",
+      "count": 20
+    },
+    {
+      "word": "impact",
+      "count": 20
+    },
+    {
+      "word": "light",
+      "count": 20
+    },
+    {
+      "word": "person",
+      "count": 20
+    },
+    {
+      "word": "last",
+      "count": 20
+    },
+    {
+      "word": "economy",
+      "count": 19
+    },
+    {
+      "word": "well",
+      "count": 19
+    },
+    {
+      "word": "political",
+      "count": 19
+    },
+    {
+      "word": "council",
+      "count": 19
+    },
+    {
+      "word": "examples",
+      "count": 19
+    },
+    {
+      "word": "measures",
+      "count": 19
+    },
+    {
+      "word": "challenges",
+      "count": 19
+    },
+    {
+      "word": "education",
+      "count": 19
+    },
+    {
+      "word": "local",
+      "count": 18
+    },
+    {
+      "word": "years",
+      "count": 18
+    },
+    {
+      "word": "major",
+      "count": 18
+    },
+    {
+      "word": "part",
+      "count": 18
+    },
+    {
+      "word": "climate",
+      "count": 18
+    },
+    {
+      "word": "give",
+      "count": 18
+    },
+    {
+      "word": "increased",
+      "count": 18
+    },
+    {
+      "word": "your",
+      "count": 18
+    },
+    {
+      "word": "environment",
+      "count": 18
+    },
+    {
+      "word": "against",
+      "count": 18
+    },
+    {
+      "word": "based",
+      "count": 18
+    },
+    {
+      "word": "process",
+      "count": 17
+    },
+    {
+      "word": "tropical",
+      "count": 17
+    },
+    {
+      "word": "through",
+      "count": 17
+    },
+    {
+      "word": "different",
+      "count": 17
+    },
+    {
+      "word": "temperature",
+      "count": 17
+    },
+    {
+      "word": "surface",
+      "count": 17
+    },
+    {
+      "word": "united",
+      "count": 17
+    },
+    {
+      "word": "being",
+      "count": 17
+    },
+    {
+      "word": "compared",
+      "count": 17
+    },
+    {
+      "word": "society",
+      "count": 17
+    },
+    {
+      "word": "various",
+      "count": 17
+    },
+    {
+      "word": "assembly",
+      "count": 17
+    },
+    {
+      "word": "valley",
+      "count": 17
+    },
+    {
+      "word": "whereas",
+      "count": 16
+    },
+    {
+      "word": "atmosphere",
+      "count": 16
+    },
+    {
+      "word": "rights",
+      "count": 16
+    },
+    {
+      "word": "ministers",
+      "count": 16
+    },
+    {
+      "word": "temple",
+      "count": 16
+    },
+    {
+      "word": "committee",
+      "count": 16
+    },
+    {
+      "word": "greater",
+      "count": 16
+    },
+    {
+      "word": "increase",
+      "count": 16
+    },
+    {
+      "word": "recent",
+      "count": 16
+    },
+    {
+      "word": "effective",
+      "count": 16
+    },
+    {
+      "word": "west",
+      "count": 16
+    },
+    {
+      "word": "value",
+      "count": 16
+    },
+    {
+      "word": "held",
+      "count": 16
+    },
+    {
+      "word": "movement",
+      "count": 16
+    },
+    {
+      "word": "data",
+      "count": 16
+    },
+    {
+      "word": "less",
+      "count": 15
+    },
+    {
+      "word": "suggest",
+      "count": 15
+    },
+    {
+      "word": "place",
+      "count": 15
+    },
+    {
+      "word": "without",
+      "count": 15
+    },
+    {
+      "word": "northern",
+      "count": 15
+    },
+    {
+      "word": "required",
+      "count": 15
+    },
+    {
+      "word": "judicial",
+      "count": 15
+    },
+    {
+      "word": "party",
+      "count": 15
+    },
+    {
+      "word": "make",
+      "count": 15
+    },
+    {
+      "word": "main",
+      "count": 15
+    },
+    {
+      "word": "nuclear",
+      "count": 15
+    },
+    {
+      "word": "authority",
+      "count": 15
+    },
+    {
+      "word": "level",
+      "count": 15
+    },
+    {
+      "word": "china",
+      "count": 15
+    },
+    {
+      "word": "number",
+      "count": 15
+    },
+    {
+      "word": "order",
+      "count": 15
+    },
+    {
+      "word": "possible",
+      "count": 15
+    },
+    {
+      "word": "cells",
+      "count": 15
+    },
+    {
+      "word": "prime",
+      "count": 14
+    },
+    {
+      "word": "income",
+      "count": 14
+    },
+    {
+      "word": "agricultural",
+      "count": 14
+    },
+    {
+      "word": "terms",
+      "count": 14
+    },
+    {
+      "word": "very",
+      "count": 14
+    },
+    {
+      "word": "regions",
+      "count": 14
+    },
+    {
+      "word": "total",
+      "count": 14
+    },
+    {
+      "word": "amendment",
+      "count": 14
+    },
+    {
+      "word": "services",
+      "count": 14
+    },
+    {
+      "word": "general",
+      "count": 14
+    },
+    {
+      "word": "reasons",
+      "count": 14
+    },
+    {
+      "word": "range",
+      "count": 14
+    },
+    {
+      "word": "form",
+      "count": 14
+    },
+    {
+      "word": "powers",
+      "count": 14
+    },
+    {
+      "word": "changes",
+      "count": 14
+    },
+    {
+      "word": "health",
+      "count": 14
+    },
+    {
+      "word": "soil",
+      "count": 14
+    },
+    {
+      "word": "taken",
+      "count": 14
+    },
+    {
+      "word": "parliamentary",
+      "count": 14
+    },
+    {
+      "word": "civil",
+      "count": 14
+    },
+    {
+      "word": "judge",
+      "count": 14
+    },
+    {
+      "word": "justice",
+      "count": 13
+    },
+    {
+      "word": "fuel",
+      "count": 13
+    },
+    {
+      "word": "largest",
+      "count": 13
+    },
+    {
+      "word": "western",
+      "count": 13
+    },
+    {
+      "word": "hemisphere",
+      "count": 13
+    },
+    {
+      "word": "constitutional",
+      "count": 13
+    },
+    {
+      "word": "much",
+      "count": 13
+    },
+    {
+      "word": "south",
+      "count": 13
+    },
+    {
+      "word": "money",
+      "count": 13
+    },
+    {
+      "word": "vote",
+      "count": 13
+    },
+    {
+      "word": "life",
+      "count": 13
+    },
+    {
+      "word": "resources",
+      "count": 13
+    },
+    {
+      "word": "forest",
+      "count": 13
+    },
+    {
+      "word": "legal",
+      "count": 13
+    },
+    {
+      "word": "social",
+      "count": 13
+    },
+    {
+      "word": "same",
+      "count": 13
+    },
+    {
+      "word": "plant",
+      "count": 13
+    },
+    {
+      "word": "found",
+      "count": 13
+    },
+    {
+      "word": "five",
+      "count": 13
+    },
+    {
+      "word": "crop",
+      "count": 13
+    },
+    {
+      "word": "farming",
+      "count": 12
+    },
+    {
+      "word": "rural",
+      "count": 12
+    },
+    {
+      "word": "dioxide",
+      "count": 12
+    },
+    {
+      "word": "asia",
+      "count": 12
+    },
+    {
+      "word": "body",
+      "count": 12
+    },
+    {
+      "word": "rocks",
+      "count": 12
+    },
+    {
+      "word": "amount",
+      "count": 12
+    }
+  ],
+  "diversityTargets": {
+    "minTopicsPerEpaper": 6,
+    "idealDistribution": {
+      "Economy": 5,
+      "Environment": 4,
+      "Polity": 4,
+      "Geography": 3,
+      "Science & Technology": 3,
+      "Current Affairs & GK": 2,
+      "Modern History": 1,
+      "International Relations": 1,
+      "Society": 1,
+      "Internal Security": 1
+    }
+  }
+}

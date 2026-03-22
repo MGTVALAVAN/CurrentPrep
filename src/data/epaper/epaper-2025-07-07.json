@@ -1,0 +1,2240 @@
+{
+  "date": "2025-07-07",
+  "dateFormatted": "Monday 7 July, 2025",
+  "lastUpdated": "2026-03-21T10:58:37.835Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "india-green-hydrogen-mission-progress",
+      "headline": "India's Green Hydrogen Mission: Scaling Up Production and Global Ambitions",
+      "explainer": "• The Ministry of New and Renewable Energy (MNRE) released its mid-term review report on the National Green Hydrogen Mission, highlighting significant progress in pilot projects and policy framework development.\n• Focus areas include incentives for electrolyser manufacturing, developing green hydrogen production hubs, and facilitating demand creation in sectors like refining, fertilisers, and steel.\n• India aims to become a global hub for green hydrogen production and export, contributing to energy security and decarbonization goals.\n• Challenges remain in cost reduction, infrastructure development for storage and transport, and securing international partnerships for technology transfer.\n• The mission targets annual green hydrogen production of 5 million metric tonnes by 2030, attracting over INR 8 lakh crore in investments and creating 6 lakh jobs.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy",
+        "Economic Development",
+        "Environmental Pollution & Degradation",
+        "Science and Technology- Developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-07-07",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "Renewable Energy",
+        "Energy Transition",
+        "Climate Change",
+        "Economic Growth",
+        "Make in India"
+      ],
+      "keyTerms": [
+        "National Green Hydrogen Mission",
+        "Electrolyser",
+        "Green Hydrogen Hubs",
+        "Decarbonization",
+        "Energy Security"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Green Hydrogen Mission launched in January 2023.",
+        "Target: 5 MMT green hydrogen production by 2030.",
+        "Expected investments: Over INR 8 lakh crore.",
+        "Key components: SIGHT (Strategic Interventions for Green Hydrogen Transition) Programme, R&D, pilot projects.",
+        "Applications: Fertilizers, refineries, steel, heavy mobility, shipping."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss India's strategic rationale for promoting Green Hydrogen, linking it to energy independence and climate commitments.",
+        "Analyze the economic potential of the Green Hydrogen Mission, including job creation and export opportunities.",
+        "Evaluate the challenges in achieving the mission's targets, such as high production costs, infrastructure gaps, and technological bottlenecks.",
+        "Suggest policy measures and international collaborations necessary to accelerate the adoption and scaling of green hydrogen technology in India."
+      ],
+      "imageDescription": "Illustration of a green hydrogen production plant with solar panels and wind turbines in the background.",
+      "section": "Lead Opinion",
+      "trivia": "Hydrogen is the most abundant chemical substance in the universe, making up roughly 75% of all normal matter.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Infrastructure",
+        "topic": "Energy Sector"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "supreme-court-data-privacy-ruling",
+      "headline": "Supreme Court Reinforces Data Privacy as Fundamental Right Amidst Digital India Push",
+      "explainer": "• The Supreme Court delivered a landmark judgment reiterating data privacy as an intrinsic part of the right to life and personal liberty under Article 21, even as the Digital India programme expands.\n• The ruling came in a case challenging certain provisions of a new government scheme that involved extensive data collection without explicit consent mechanisms.\n• The court emphasized the need for a robust data protection framework, urging the government to expedite the enactment of a comprehensive data protection law.\n• It highlighted the importance of balancing national security interests and individual privacy rights in the digital age.\n• The judgment is expected to have significant implications for government surveillance, private sector data handling, and ongoing debates around digital public infrastructure.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2025-07-07",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Data Privacy",
+        "Fundamental Rights",
+        "Supreme Court",
+        "Digital India",
+        "Article 21",
+        "Data Protection Law"
+      ],
+      "keyTerms": [
+        "Right to Privacy",
+        "Article 21",
+        "Data Protection Bill",
+        "Digital Public Infrastructure",
+        "Consent Mechanism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "K.S. Puttaswamy judgment (2017) declared Right to Privacy as a fundamental right.",
+        "Article 21 of the Indian Constitution: Protection of Life and Personal Liberty.",
+        "Digital Personal Data Protection Act, 2023 is the current legislative framework.",
+        "The ruling reinforces judicial oversight on state's data collection powers."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the evolution of the Right to Privacy in India, citing landmark judgments and their impact on governance.",
+        "Discuss the challenges in balancing state's legitimate interests (e.g., national security, public welfare) with individual data privacy in a digitally transforming society.",
+        "Critically examine the adequacy of existing data protection laws and suggest improvements for a more robust framework.",
+        "Evaluate the implications of this judgment on future government schemes involving digital data collection and private sector data handling practices."
+      ],
+      "imageDescription": "A stylized image depicting digital data flowing into a padlock, symbolizing data privacy and security.",
+      "section": "National",
+      "trivia": "The concept of 'right to be forgotten' is an aspect of data privacy, allowing individuals to request removal of certain personal data from public internet searches.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-monetary-policy-review",
+      "headline": "RBI Maintains Status Quo on Repo Rate Amidst Inflationary Concerns and Global Slowdown",
+      "explainer": "• The Reserve Bank of India's (RBI) Monetary Policy Committee (MPC) announced its bi-monthly review, deciding to keep the repo rate unchanged at 6.5%.\n• The decision was influenced by persistent food inflation, geopolitical uncertainties, and a cautious outlook on global economic growth.\n• RBI Governor highlighted the need to remain vigilant against potential inflationary pressures while supporting nascent economic recovery.\n• The central bank also revised its GDP growth projection slightly downwards for the current fiscal year due to global headwinds.\n• Liquidity management measures were discussed to ensure adequate credit flow to productive sectors of the economy.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Government Budgeting.",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2025-07-07",
+      "source": "Livemint",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Repo Rate",
+        "Inflation",
+        "Economic Growth",
+        "Global Economy"
+      ],
+      "keyTerms": [
+        "Monetary Policy Committee (MPC)",
+        "Repo Rate",
+        "Reverse Repo Rate",
+        "Inflation Targeting",
+        "GDP Projection"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Repo rate is the rate at which RBI lends money to commercial banks.",
+        "Monetary Policy Committee (MPC) is a 6-member body responsible for setting policy rates.",
+        "Primary objective of MPC is to maintain price stability while keeping in mind the objective of growth.",
+        "Inflation target band in India is 4% +/- 2%."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the factors influencing RBI's decision to maintain the status quo on the repo rate, considering both domestic and international economic conditions.",
+        "Discuss the challenges faced by the RBI in managing inflation while simultaneously supporting economic growth in India.",
+        "Evaluate the effectiveness of monetary policy tools in addressing supply-side inflation and external shocks.",
+        "Examine the interplay between fiscal policy and monetary policy in achieving macroeconomic stability in India."
+      ],
+      "imageDescription": "RBI headquarters building with a graph showing stable interest rates.",
+      "section": "Economy",
+      "trivia": "The Reserve Bank of India was established on April 1, 1935, under the Reserve Bank of India Act, 1934.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI Functions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-asean-summit-maritime-security",
+      "headline": "India-ASEAN Summit Concludes with Renewed Focus on Maritime Security and Digital Connectivity",
+      "explainer": "• The annual India-ASEAN Summit concluded in Jakarta, with leaders emphasizing enhanced cooperation in maritime security, trade, and digital transformation.\n• Key outcomes included agreements to conduct joint naval exercises and intelligence sharing to counter piracy and promote a free and open Indo-Pacific.\n• Discussions also focused on strengthening supply chain resilience and accelerating digital connectivity initiatives across the region.\n• India reiterated its 'Act East' policy commitment, highlighting ASEAN as a central pillar of its vision for a rules-based regional order.\n• The summit underscored the growing strategic alignment between India and ASEAN nations amidst evolving geopolitical dynamics.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighbourhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2025-07-07",
+      "source": "The Times of India",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "India-ASEAN",
+        "Act East Policy",
+        "Maritime Security",
+        "Indo-Pacific",
+        "Regional Cooperation",
+        "Digital Connectivity"
+      ],
+      "keyTerms": [
+        "ASEAN",
+        "Indo-Pacific",
+        "Act East Policy",
+        "Regional Comprehensive Economic Partnership (RCEP)",
+        "Freedom of Navigation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ASEAN (Association of Southeast Asian Nations) comprises 10 member states.",
+        "India became a Sectoral Dialogue Partner of ASEAN in 1992, Dialogue Partner in 1996, and Strategic Partner in 2012.",
+        "India's Act East Policy replaced the Look East Policy in 2014.",
+        "Jakarta is the headquarters of the ASEAN Secretariat."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of India's 'Act East' policy in strengthening ties with ASEAN, particularly in the context of evolving geopolitical landscapes.",
+        "Discuss the challenges and opportunities for India-ASEAN cooperation in maritime security, trade, and digital transformation.",
+        "Evaluate India's role in promoting a free, open, and inclusive Indo-Pacific region through its engagement with ASEAN.",
+        "Examine how enhanced connectivity initiatives with ASEAN can contribute to India's economic growth and regional stability."
+      ],
+      "imageDescription": "Flags of India and ASEAN member states displayed during a summit meeting.",
+      "section": "International",
+      "trivia": "The ASEAN motto is 'One Vision, One Identity, One Community'.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Regional Groupings",
+        "topic": "ASEAN"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "indigenous-defence-production-boost",
+      "headline": "Government Unveils New Policy to Boost Indigenous Defence Production and Exports",
+      "explainer": "• The Ministry of Defence announced a new Defence Production and Export Promotion Policy (DPEPP) 2025, aiming for self-reliance in defence manufacturing.\n• The policy introduces enhanced incentives for private sector participation, including MSMEs and startups, in defence R&D and manufacturing.\n• It sets ambitious targets for increasing the indigenization of defence equipment and promoting defence exports to friendly foreign countries.\n• Streamlined procurement procedures and a dedicated fund for defence innovation are key features of the new policy.\n• The move is expected to reduce India's reliance on foreign defence imports and establish it as a significant global defence manufacturing hub.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- Developments and their applications and effects in everyday life.",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism."
+      ],
+      "date": "2025-07-07",
+      "source": "Press Information Bureau",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Defence Production",
+        "Indigenization",
+        "Defence Exports",
+        "Make in India",
+        "MSME",
+        "Defence Acquisition"
+      ],
+      "keyTerms": [
+        "Defence Production and Export Promotion Policy (DPEPP)",
+        "Self-Reliance in Defence",
+        "Strategic Partnership Model",
+        "Defence Corridors",
+        "Offset Policy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India is among the largest arms importers globally.",
+        "Defence corridors are being set up in Uttar Pradesh and Tamil Nadu.",
+        "Negative Import List (Positive Indigenisation List) aims to ban import of certain defence items.",
+        "FDI in defence manufacturing is allowed up to 74% through automatic route and 100% via government route."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of indigenization in defence production for India's national security and economic growth.",
+        "Analyze the key provisions of the new Defence Production and Export Promotion Policy (DPEPP) 2025 and their potential impact on the defence ecosystem.",
+        "Evaluate the challenges faced by India in achieving self-reliance in defence manufacturing, including technological gaps and R&D investment.",
+        "Suggest measures to further boost private sector participation and defence exports, considering geopolitical implications."
+      ],
+      "imageDescription": "A modern fighter jet being manufactured in an Indian factory, symbolizing indigenous production.",
+      "section": "National",
+      "trivia": "The Ordnance Factory Board (OFB), established in 1712, is one of the oldest and largest government-operated production organisations in India.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "Defence Industry",
+        "topic": "Indigenization"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "national-water-security-mission-20",
+      "headline": "Government Launches National Water Security Mission 2.0 to Tackle Water Scarcity",
+      "explainer": "• Building on previous initiatives, the Ministry of Jal Shakti launched National Water Security Mission 2.0, focusing on integrated water resource management.\n• The mission aims to address increasing water scarcity through enhanced rainwater harvesting, groundwater recharge, and efficient irrigation practices.\n• It incorporates advanced technology like AI and IoT for real-time monitoring of water levels and quality across basins.\n• Community participation and behavioral change campaigns are central to the mission's strategy for sustainable water use.\n• A significant allocation has been made for inter-state river linking projects and urban water supply infrastructure upgrades.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Disaster and disaster management.",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+      ],
+      "date": "2025-07-07",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Water Security",
+        "Jal Shakti Mission",
+        "Water Conservation",
+        "Groundwater Recharge",
+        "Integrated Water Management",
+        "AI in Environment"
+      ],
+      "keyTerms": [
+        "National Water Security Mission",
+        "Jal Jeevan Mission",
+        "Atal Bhujal Yojana",
+        "Rainwater Harvesting",
+        "Water Stress"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ministry of Jal Shakti was formed in 2019 by merging Ministry of Water Resources, River Development & Ganga Rejuvenation and Ministry of Drinking Water & Sanitation.",
+        "Jal Jeevan Mission aims to provide safe and adequate drinking water through individual household tap connections by 2024.",
+        "Atal Bhujal Yojana (ATAL JAL) focuses on improving groundwater management.",
+        "India holds 4% of world's fresh water resources but supports 18% of global population."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the multifaceted challenges of water scarcity in India and the need for an integrated approach to water resource management.",
+        "Discuss the key objectives and strategies of the National Water Security Mission 2.0, highlighting its innovative aspects.",
+        "Evaluate the role of technology (AI, IoT) and community participation in achieving sustainable water security goals.",
+        "Suggest policy recommendations for effective implementation of inter-state river linking projects and urban water infrastructure upgrades."
+      ],
+      "imageDescription": "A map of India overlaid with water flow lines and conservation symbols.",
+      "section": "Environment",
+      "trivia": "The average annual per capita availability of water in India is projected to further decline from 1486 cubic metres in 2021 to 1367 cubic metres in 2031.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Conservation",
+        "topic": "Water Resources"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "isro-next-gen-communication-satellite",
+      "headline": "ISRO Prepares for Launch of Advanced Communication Satellite for Digital India Initiatives",
+      "explainer": "• The Indian Space Research Organisation (ISRO) announced the readiness of its next-generation geostationary communication satellite, GSAT-25, for launch.\n• GSAT-25 is designed to enhance broadband connectivity, support 5G rollout, and provide secure communication for strategic applications across India.\n• The satellite features advanced transponders and high-throughput capabilities, aiming to bridge the digital divide in remote and rural areas.\n• This launch is part of ISRO's broader strategy to bolster India's satellite communication infrastructure and support various Digital India programs.\n• The mission will utilize India's Geosynchronous Satellite Launch Vehicle (GSLV) Mark III, demonstrating indigenous capabilities in heavy-lift launches.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- Developments and their applications and effects in everyday life.",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights."
+      ],
+      "date": "2025-07-07",
+      "source": "The Hindu BusinessLine",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "ISRO",
+        "Space Technology",
+        "Communication Satellite",
+        "Digital India",
+        "5G",
+        "GSLV Mk III"
+      ],
+      "keyTerms": [
+        "Geostationary Satellite",
+        "Transponders",
+        "High-throughput Satellite (HTS)",
+        "GSLV Mark III",
+        "Broadband Connectivity"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ISRO is India's national space agency.",
+        "Geostationary satellites orbit at an altitude of approximately 35,786 km above the Earth's equator.",
+        "GSLV Mk III (LVM3) is ISRO's heaviest launch vehicle.",
+        "Communication satellites play a crucial role in DTH, VSAT, and telecommunication services."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of advanced communication satellites like GSAT-25 for India's digital infrastructure and socio-economic development.",
+        "Analyze how ISRO's indigenous capabilities in space technology contribute to India's strategic autonomy and global standing.",
+        "Evaluate the role of space-based services in bridging the digital divide and enabling initiatives like Digital India and BharatNet.",
+        "Examine the challenges and opportunities for India's space sector in the coming decade, including private sector participation and international collaborations."
+      ],
+      "imageDescription": "An artistic rendering of the GSAT-25 satellite orbiting Earth, with communication signals radiating.",
+      "section": "Science",
+      "trivia": "India launched its first satellite, Aryabhata, on April 19, 1975, with the help of the Soviet Union.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space",
+        "topic": "Satellite Technology"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "nep-implementation-digital-divide",
+      "headline": "New Education Policy Implementation Review Highlights Persistent Digital Divide",
+      "explainer": "• A parliamentary committee reviewing the progress of the National Education Policy (NEP) 2020 noted significant strides in curriculum reforms but raised concerns about the digital divide.\n• While online learning platforms and digital resources have expanded, equitable access to devices and internet connectivity remains a major challenge, particularly in rural and marginalized communities.\n• The report recommended increased public investment in digital infrastructure and targeted programs to provide affordable devices and internet access to students.\n• Teacher training in digital pedagogy and content localization for diverse linguistic groups were also highlighted as critical areas for improvement.\n• The NEP's goal of universalizing quality education through technology faces hurdles that require concerted efforts from both central and state governments.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2025-07-07",
+      "source": "Deccan Herald",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "National Education Policy",
+        "NEP 2020",
+        "Digital Divide",
+        "Education Reforms",
+        "Online Learning",
+        "Rural Education"
+      ],
+      "keyTerms": [
+        "NEP 2020",
+        "Digital Divide",
+        "EdTech",
+        "Learning Management Systems (LMS)",
+        "Equitable Access"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Education Policy 2020 replaced the 1986 policy.",
+        "Focuses on multidisciplinary education, vocational training, and digital literacy.",
+        "SWAYAM, DIKSHA are key government digital education platforms.",
+        "Article 21A of the Constitution provides for Right to Education."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the transformative potential of the National Education Policy (NEP) 2020 in reforming India's education system.",
+        "Discuss the challenges posed by the digital divide to the effective implementation of NEP 2020, especially in ensuring equitable access to quality education.",
+        "Suggest policy measures and strategies to bridge the digital divide in education, including infrastructure development and affordability initiatives.",
+        "Evaluate the role of public-private partnerships and community engagement in achieving the NEP's goals for inclusive and quality education."
+      ],
+      "imageDescription": "Students in a rural classroom using digital tablets for learning, highlighting the digital divide.",
+      "section": "National",
+      "trivia": "The Kothari Commission (1964-66) was India's sixth education commission and recommended a common education structure (10+2+3).",
+      "prelimsSyllabus": {
+        "subject": "Society",
+        "area": "Education",
+        "topic": "Government Policies"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "msp-policy-debate-agriculture",
+      "headline": "MSP Policy Debate Intensifies Amidst Calls for Legal Guarantee and Market Reforms",
+      "explainer": "• The debate over Minimum Support Price (MSP) policy for agricultural produce intensified, with farmer organizations demanding a legal guarantee for MSP.\n• The government reiterated its commitment to farmer welfare but emphasized the need for market-oriented reforms to ensure sustainable agricultural growth.\n• Economists highlighted the fiscal implications of a legally guaranteed MSP and suggested alternative mechanisms like deficiency payments or price stabilization funds.\n• Discussions included diversification of crops, improving storage and logistics infrastructure, and reducing post-harvest losses to empower farmers.\n• The issue remains a critical point of contention between government policy and farmer demands, impacting agricultural policy direction.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Major crops cropping patterns in various parts of the country, different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers.",
+        "Issues related to direct and indirect farm subsidies and minimum support prices; Public Distribution System—objectives, functioning, limitations, revamping; issues of buffer stocks and food security; Technology missions; economics of animal-rearing."
+      ],
+      "date": "2025-07-07",
+      "source": "Business Standard",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "MSP",
+        "Agriculture",
+        "Farmer Protests",
+        "Agricultural Reforms",
+        "Food Security",
+        "Market Intervention"
+      ],
+      "keyTerms": [
+        "Minimum Support Price (MSP)",
+        "Commission for Agricultural Costs and Prices (CACP)",
+        "Deficiency Payment",
+        "Agricultural Produce Market Committee (APMC)",
+        "Food Corporation of India (FCI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "MSP is announced by the government for 22 mandated crops and Fair and Remunerative Price (FRP) for sugarcane.",
+        "CACP recommends MSPs based on A2+FL (all paid out costs plus family labour) and C2 (comprehensive cost).",
+        "MSP aims to protect farmers from excessive fall in prices during bumper production years.",
+        "Swaminathan Commission recommended MSP at 50% above C2 cost."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically examine the rationale behind the demand for a legal guarantee for Minimum Support Price (MSP) and its potential implications for India's agricultural economy.",
+        "Discuss the various arguments for and against a legally guaranteed MSP, considering fiscal burden, market distortions, and farmer welfare.",
+        "Propose alternative policy mechanisms and reforms that can ensure fair prices for farmers while promoting sustainable and efficient agricultural markets.",
+        "Analyze the role of agricultural infrastructure, diversification, and value addition in enhancing farmer incomes and reducing dependence on MSP."
+      ],
+      "imageDescription": "Farmers protesting with placards demanding legal guarantee for MSP.",
+      "section": "Economy",
+      "trivia": "The concept of MSP was introduced in the mid-1960s as part of the Green Revolution strategy to incentivize food grain production.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Agriculture",
+        "topic": "Farm Subsidies"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "un-peacekeeping-india-role",
+      "headline": "India Pledges Enhanced Role in UN Peacekeeping Operations, Focus on Women Peacekeepers",
+      "explainer": "• India reaffirmed its commitment to UN Peacekeeping Operations (UNPKOs), pledging additional troops and resources, particularly for missions in Africa.\n• A significant focus was placed on increasing the deployment of women peacekeepers, aligning with UN Security Council resolutions on Women, Peace, and Security.\n• India emphasized the need for clear mandates, robust resources, and greater accountability for peacekeepers to ensure mission effectiveness and safety.\n• The announcement came during a UN General Assembly high-level meeting on peacekeeping, where India highlighted its historical contributions.\n• India also advocated for greater representation of troop-contributing countries in the UN's decision-making processes regarding peacekeeping.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2025-07-07",
+      "source": "ANI",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "UN Peacekeeping",
+        "India UN",
+        "Women Peacekeepers",
+        "International Security",
+        "UN General Assembly",
+        "Foreign Policy"
+      ],
+      "keyTerms": [
+        "United Nations Peacekeeping Operations (UNPKOs)",
+        "Troop Contributing Countries (TCCs)",
+        "Women, Peace, and Security (WPS)",
+        "Blue Helmets",
+        "UN Security Council"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India is one of the largest troop-contributing countries to UNPKOs.",
+        "India has contributed over 2.75 lakh troops to 49 UNPKOs since 1948.",
+        "The first all-women Formed Police Unit (FPU) in UN Peacekeeping was deployed by India to Liberia in 2007.",
+        "UN Peacekeeping operations are guided by three basic principles: Consent of the parties, Impartiality, Non-use of force except in self-defence and defence of the mandate."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze India's historical contributions and evolving role in United Nations Peacekeeping Operations (UNPKOs), highlighting its strategic interests.",
+        "Discuss the significance of increasing women's participation in peacekeeping for mission effectiveness and gender mainstreaming in conflict zones.",
+        "Evaluate the challenges faced by UNPKOs globally and how India's proposals for reforms can enhance their efficacy and accountability.",
+        "Examine the broader implications of India's enhanced engagement in UNPKOs for its foreign policy and aspirations for a permanent UNSC seat."
+      ],
+      "imageDescription": "Indian women peacekeepers in blue helmets marching during a UN mission parade.",
+      "section": "International",
+      "trivia": "The Nobel Peace Prize was awarded to UN Peacekeeping Forces in 1988.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "United Nations"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "digital-governance-public-services",
+      "headline": "Digital Governance Initiatives Streamline Public Service Delivery, Challenges Remain",
+      "explainer": "• A government report highlighted the success of various digital governance platforms in streamlining public service delivery, reducing corruption, and increasing transparency.\n• Initiatives like the National Single Window System, e-Courts, and online citizen services have significantly improved efficiency and accessibility for citizens.\n• However, challenges such as digital literacy, cybersecurity threats, and the need for interoperability across different platforms persist.\n• The report emphasized the importance of a 'whole-of-government' approach to digital transformation, ensuring seamless integration of services.\n• Training and capacity building for government officials in digital tools and data analytics were identified as crucial for further progress.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Governance, Constitution, Polity, Social Justice and International relations.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+        "E-governance- applications, models, successes, limitations, and potential; citizens charters, transparency & accountability and institutional and other measures."
+      ],
+      "date": "2025-07-07",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Digital Governance",
+        "E-Governance",
+        "Public Service Delivery",
+        "Transparency",
+        "Accountability",
+        "Digital India"
+      ],
+      "keyTerms": [
+        "Digital India",
+        "National e-Governance Plan (NeGP)",
+        "Single Window System",
+        "e-Courts",
+        "Cybersecurity"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Digital India program was launched in 2015.",
+        "UMANG app provides a single platform for various government services.",
+        "DigiLocker is a secure cloud-based platform for issuance and verification of documents.",
+        "e-Kranti is a key component of Digital India, focusing on electronic delivery of services."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the transformative impact of digital governance initiatives on public service delivery, transparency, and accountability in India.",
+        "Discuss the various challenges encountered in the implementation of e-governance projects, including digital literacy, infrastructure, and cybersecurity.",
+        "Suggest strategies for fostering a 'whole-of-government' approach to digital transformation and ensuring interoperability of various platforms.",
+        "Evaluate the role of technology and data analytics in improving policy formulation and public feedback mechanisms in a digital governance framework."
+      ],
+      "imageDescription": "A graphic showing various digital government services connected by a network, with a citizen at the center.",
+      "section": "National",
+      "trivia": "The National e-Governance Plan (NeGP) was formulated by the Department of Electronics and Information Technology (DeitY) and Department of Administrative Reforms and Public Grievances (DARPG) in 2006.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Governance",
+        "topic": "E-Governance"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "g20-climate-finance-india",
+      "headline": "India Advocates for Equitable Climate Finance at G20 Ministerial Meeting",
+      "explainer": "• India strongly advocated for a substantial increase in climate finance from developed nations at the G20 Environment and Climate Sustainability Ministerial Meeting.\n• The Indian delegation highlighted the historical responsibility of developed countries and the need for accessible, affordable, and predictable finance for developing nations' climate action.\n• Discussions included the operationalization of the Loss and Damage Fund and mechanisms for technology transfer to support climate adaptation and mitigation efforts.\n• India reiterated its commitment to its Nationally Determined Contributions (NDCs) but stressed that climate justice requires adequate financial support.\n• The meeting concluded with a joint statement acknowledging the urgency of climate action and the need for multilateral cooperation, though specific finance commitments remained contentious.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Important International institutions, agencies and fora, their structure, mandate."
+      ],
+      "date": "2025-07-07",
+      "source": "Mint",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Climate Finance",
+        "G20",
+        "Climate Change",
+        "NDCs",
+        "Loss and Damage",
+        "Climate Justice"
+      ],
+      "keyTerms": [
+        "Climate Finance",
+        "Nationally Determined Contributions (NDCs)",
+        "Loss and Damage Fund",
+        "Common but Differentiated Responsibilities (CBDR)",
+        "Global Stocktake"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "G20 is an intergovernmental forum comprising 19 countries and the European Union (EU).",
+        "Developed countries pledged $100 billion per year in climate finance by 2020, which has not been fully met.",
+        "Loss and Damage Fund was established at COP27 in Sharm El Sheikh.",
+        "India's NDCs include reducing emissions intensity by 45% by 2030 from 2005 levels and achieving about 50% cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the concept of climate justice and its relevance in the context of global climate negotiations, particularly regarding climate finance.",
+        "Discuss India's stance on climate finance at international forums like the G20 and its rationale for demanding greater contributions from developed nations.",
+        "Evaluate the effectiveness of existing climate finance mechanisms and the challenges in mobilizing adequate and accessible funds for developing countries.",
+        "Suggest policy approaches for fostering greater international cooperation on climate action, including technology transfer and capacity building."
+      ],
+      "imageDescription": "Leaders from G20 nations discussing climate change around a conference table.",
+      "section": "International",
+      "trivia": "The G20 was formed in 1999 in response to the Asian financial crisis.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Climate Change",
+        "topic": "International Conventions"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indigenous-vaccine-development",
+      "headline": "India Achieves Milestone in Indigenous Vaccine Development for Tropical Diseases",
+      "explainer": "• Indian researchers and pharmaceutical companies announced a significant breakthrough in developing an indigenous multi-valent vaccine for several prevalent tropical diseases.\n• The vaccine, developed through public-private partnerships, has shown promising results in late-stage clinical trials, offering hope for widespread prevention.\n• This achievement underscores India's growing capabilities in biotechnology and pharmaceutical research, contributing to global health security.\n• The government emphasized its commitment to affordable and accessible healthcare, indicating plans for mass production and distribution of the vaccine.\n• The development positions India as a key player in vaccine innovation, especially for diseases endemic to tropical and subtropical regions.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- Developments and their applications and effects in everyday life.",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+      ],
+      "date": "2025-07-07",
+      "source": "PTI",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Vaccine Development",
+        "Biotechnology",
+        "Tropical Diseases",
+        "Public Health",
+        "Healthcare Innovation",
+        "Make in India"
+      ],
+      "keyTerms": [
+        "Multi-valent Vaccine",
+        "Clinical Trials",
+        "Public-Private Partnership",
+        "Disease Burden",
+        "Health Security"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India is known as the 'pharmacy of the world' due to its large-scale vaccine and generic drug production.",
+        "National Biopharma Mission aims to accelerate biopharmaceutical development.",
+        "Diseases like Dengue, Chikungunya, Malaria, and Zika are prevalent tropical diseases.",
+        "The Department of Biotechnology (DBT) supports research in this area."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of indigenous vaccine development for tropical diseases in enhancing India's public health security and global health leadership.",
+        "Analyze the role of public-private partnerships and government support in fostering innovation in India's biotechnology and pharmaceutical sectors.",
+        "Evaluate the challenges in making vaccines affordable and accessible to all sections of the population, particularly in remote areas.",
+        "Examine how such breakthroughs contribute to achieving Universal Health Coverage and addressing the disease burden in developing countries."
+      ],
+      "imageDescription": "Scientists in a laboratory examining vaccine samples, with advanced equipment.",
+      "section": "Science",
+      "trivia": "Edward Jenner developed the world's first vaccine for smallpox in 1796.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Biotechnology",
+        "topic": "Vaccine Development"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "economic-liberalization-india-30-years",
+      "headline": "Editorial: Economic Liberalization in India - Three Decades On, A Mixed Legacy",
+      "explainer": "• This editorial reflects on the over three decades since India embarked on its path of economic liberalization in 1991, analyzing its profound impact.\n• It acknowledges the significant economic growth, poverty reduction, and integration into the global economy facilitated by these reforms.\n• However, it also critically examines the mixed legacy, pointing to rising income inequality, jobless growth, and regional disparities that have emerged or intensified.\n• The article discusses the need for 'next-generation reforms' focusing on inclusive growth, human capital development, and environmental sustainability.\n• It concludes that while liberalization laid the foundation for a modern economy, addressing its downsides is crucial for India's future trajectory.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2025-07-07",
+      "source": "The Mint",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Economic Liberalization",
+        "Indian Economy",
+        "Economic Reforms",
+        "Poverty Reduction",
+        "Income Inequality",
+        "Jobless Growth",
+        "1991 Reforms"
+      ],
+      "keyTerms": [
+        "Liberalization, Privatization, Globalization (LPG)",
+        "Fiscal Deficit",
+        "Balance of Payments Crisis",
+        "Structural Reforms",
+        "Inclusive Growth"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the key drivers and initial impact of India's economic liberalization reforms initiated in 1991.",
+        "Critically evaluate the 'mixed legacy' of these reforms, highlighting both their successes (e.g., growth, trade) and failures (e.g., inequality, jobless growth, regional disparities).",
+        "Discuss the concept of 'next-generation reforms' required for India to achieve inclusive and sustainable development in the coming decades.",
+        "Examine how the Indian economy has transformed over the past three decades due to liberalization and what challenges remain in its integration with the global economy."
+      ],
+      "imageDescription": "A timeline graphic depicting major economic milestones in India since 1991.",
+      "section": "Editorial",
+      "trivia": "The 1991 economic reforms were introduced by then Finance Minister Dr. Manmohan Singh under Prime Minister P.V. Narasimha Rao.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Economic Reforms",
+        "topic": "Liberalization"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "uniform-civil-code-consultations",
+      "headline": "Government Initiates Broad Consultations on Proposed Uniform Civil Code",
+      "explainer": "• The Ministry of Law and Justice officially commenced broad consultations with various stakeholders on the proposed Uniform Civil Code (UCC).\n• The initiative aims to solicit opinions from religious organizations, legal experts, women's rights groups, and tribal communities across the country.\n• The government emphasized that the goal is to foster national unity and gender justice by unifying personal laws while respecting cultural diversity.\n• Opposition parties and some religious groups have expressed concerns about potential infringement on religious freedom and cultural practices.\n• The consultation process is expected to be extensive and will inform the drafting of a comprehensive UCC bill, if consensus is reached.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+        "Social empowerment, communalism, regionalism & secularism."
+      ],
+      "date": "2025-07-07",
+      "source": "Press Trust of India",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Uniform Civil Code",
+        "UCC",
+        "Personal Laws",
+        "Gender Justice",
+        "Religious Freedom",
+        "Indian Constitution",
+        "Article 44"
+      ],
+      "keyTerms": [
+        "Uniform Civil Code",
+        "Directive Principles of State Policy",
+        "Article 44",
+        "Personal Laws",
+        "Secularism",
+        "Gender Equality"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Article 44 of the Indian Constitution states that 'The State shall endeavour to secure for the citizens a Uniform Civil Code throughout the territory of India.'",
+        "It is a Directive Principle of State Policy (DPSP), hence not directly enforceable by courts.",
+        "Goa is the only Indian state with a Uniform Civil Code.",
+        "Personal laws in India include Hindu Marriage Act, Muslim Personal Law (Shariat) Application Act, Indian Christian Marriage Act, etc."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the constitutional mandate and historical background of the Uniform Civil Code (UCC) in India.",
+        "Analyze the arguments for and against the implementation of a UCC, considering aspects of gender justice, religious freedom, and national integration.",
+        "Examine the challenges involved in drafting and implementing a UCC in a diverse country like India, with various religious and cultural practices.",
+        "Suggest a balanced approach to the UCC debate that respects religious diversity while upholding principles of equality and justice."
+      ],
+      "imageDescription": "A balance scale with symbols representing different religions and law books, symbolizing the UCC debate.",
+      "section": "National",
+      "trivia": "The Shah Bano case (1985) brought the debate on Uniform Civil Code to national prominence.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Constitutional Provisions",
+        "topic": "Directive Principles"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "mumbai-trans-harbour-sea-link-phase-2",
+      "headline": "Mumbai Trans Harbour Sea Link Phase 2 Inauguration Set to Boost Regional Connectivity",
+      "explainer": "• The second phase of the Mumbai Trans Harbour Sea Link (MTHL), also known as Atal Setu, is slated for inauguration, significantly enhancing connectivity in the Mumbai Metropolitan Region.\n• This phase extends the sea link further, reducing travel time between Mumbai and Navi Mumbai and facilitating faster access to the Navi Mumbai International Airport.\n• The mega-infrastructure project is expected to spur economic development in the extended Mumbai region, including the Jawaharlal Nehru Port (JNPT) area.\n• It incorporates advanced engineering techniques and environmental mitigation measures to minimize ecological impact.\n• MTHL is a crucial component of India's broader national infrastructure development push under the Gati Shakti Master Plan.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment."
+      ],
+      "date": "2025-07-07",
+      "source": "The Times of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Mumbai Trans Harbour Sea Link",
+        "MTHL",
+        "Infrastructure",
+        "Connectivity",
+        "Mumbai Metropolitan Region",
+        "Atal Setu",
+        "Gati Shakti"
+      ],
+      "keyTerms": [
+        "Mumbai Trans Harbour Sea Link (MTHL)",
+        "Atal Setu",
+        "Mumbai Metropolitan Region (MMR)",
+        "Gati Shakti Master Plan",
+        "Navi Mumbai International Airport"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "MTHL is India's longest sea bridge.",
+        "Connects Sewri in Mumbai to Nhava Sheva in Navi Mumbai.",
+        "Named 'Atal Bihari Vajpayee Smruti Nhava Sheva Atal Setu'.",
+        "Aims to decongest Mumbai and boost development in Navi Mumbai."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the socio-economic impact of mega-infrastructure projects like the Mumbai Trans Harbour Sea Link on urban development and regional connectivity.",
+        "Analyze how such projects align with national development strategies like the Gati Shakti Master Plan and contribute to multimodal connectivity.",
+        "Evaluate the engineering challenges and environmental considerations involved in constructing large-scale sea links.",
+        "Examine the potential for infrastructure development to drive economic growth and job creation in metropolitan regions."
+      ],
+      "imageDescription": "An aerial view of the majestic Mumbai Trans Harbour Sea Link stretching across the bay.",
+      "section": "Economy",
+      "trivia": "The Bandra-Worli Sea Link, inaugurated in 2009, was India's first cable-stayed bridge over the open sea.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Infrastructure",
+        "topic": "Roadways"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indo-pacific-geopolitical-dynamics",
+      "headline": "Analysis: Evolving Geopolitical Dynamics in the Indo-Pacific Region",
+      "explainer": "• A leading foreign policy think tank released an analysis on the rapidly evolving geopolitical landscape of the Indo-Pacific region.\n• The report highlights increasing strategic competition among major powers, particularly concerning freedom of navigation and regional security architectures.\n• It emphasizes India's growing role as a net security provider and a key partner in initiatives like the Quad and various bilateral security dialogues.\n• The analysis points to the economic implications of these dynamics, including supply chain diversification and investment flows.\n• Recommendations include strengthening multilateral institutions, promoting rules-based order, and fostering inclusive regional cooperation frameworks.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighbourhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2025-07-07",
+      "source": "Observer Research Foundation",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Indo-Pacific",
+        "Geopolitics",
+        "Quad",
+        "Maritime Security",
+        "Foreign Policy",
+        "Regional Stability"
+      ],
+      "keyTerms": [
+        "Indo-Pacific Strategy",
+        "Quad (Quadrilateral Security Dialogue)",
+        "Freedom of Navigation Operations (FONOPs)",
+        "ASEAN Centrality",
+        "Rules-based Order"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the key factors driving the evolving geopolitical dynamics in the Indo-Pacific region and their implications for global stability.",
+        "Discuss India's strategic interests and its multifaceted role in shaping the Indo-Pacific architecture, citing examples of regional engagements.",
+        "Evaluate the significance of groupings like the Quad and other bilateral/multilateral security dialogues in promoting a free, open, and inclusive Indo-Pacific.",
+        "Examine the economic and security challenges posed by the evolving dynamics in the region and suggest policy responses for India."
+      ],
+      "imageDescription": "A stylized map of the Indo-Pacific region highlighting key maritime routes and strategic points.",
+      "section": "International",
+      "trivia": "The term 'Indo-Pacific' gained prominence as a geopolitical concept in the 21st century, replacing 'Asia-Pacific' to reflect India's growing strategic importance.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Geopolitics",
+        "topic": "Indo-Pacific"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "smart-cities-mission-milestones",
+      "headline": "Smart Cities Mission Achieves Key Milestones in Sustainable Urbanization",
+      "explainer": "• The Ministry of Housing and Urban Affairs announced that the Smart Cities Mission has achieved significant milestones, completing over 75% of its proposed projects.\n• Key successes include integrated command and control centers, smart mobility solutions, and improved waste management systems in selected cities.\n• The mission has demonstrated the potential for technology-driven urban planning to enhance liveability, sustainability, and economic growth.\n• Challenges persist in funding, inter-agency coordination, and ensuring equitable access to smart infrastructure for all residents.\n• The government is now focusing on scaling up successful models and integrating lessons learned into future urban development policies.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2025-07-07",
+      "source": "Hindustan Times",
+      "sourceUrl": "",
+      "importance": "low",
+      "tags": [
+        "Smart Cities Mission",
+        "Urban Development",
+        "Sustainable Urbanization",
+        "Integrated Command Control Centers",
+        "Smart Mobility",
+        "Waste Management"
+      ],
+      "keyTerms": [
+        "Smart Cities Mission",
+        "Integrated Command and Control Centres (ICCCs)",
+        "Urban Governance",
+        "Sustainable Development Goals (SDGs)",
+        "Public-Private Partnership (PPP)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Smart Cities Mission was launched in 2015.",
+        "Aims to promote cities that provide core infrastructure, a clean and sustainable environment, and a decent quality of life to their citizens.",
+        "100 cities were selected under the mission.",
+        "Integrated Command and Control Centres (ICCCs) are the brain for city operations."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the objectives and achievements of the Smart Cities Mission in promoting sustainable urbanization in India.",
+        "Discuss the role of technology and integrated command and control centers in improving urban governance and service delivery.",
+        "Evaluate the challenges faced by the Smart Cities Mission, including funding constraints, citizen participation, and equitable development.",
+        "Suggest policy recommendations for scaling up successful smart city models and ensuring inclusive urban development in India."
+      ],
+      "imageDescription": "A futuristic cityscape with smart infrastructure, green spaces, and integrated technology.",
+      "section": "Environment",
+      "trivia": "The concept of 'smart city' originated in the early 2000s, often linked with the rise of information and communication technologies (ICT).",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Urbanization",
+        "topic": "Government Schemes"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "intangible-cultural-heritage-india",
+      "headline": "Government Launches New Initiatives for Preserving India's Intangible Cultural Heritage",
+      "explainer": "• The Ministry of Culture announced a series of new initiatives aimed at the preservation, promotion, and dissemination of India's rich intangible cultural heritage.\n• These initiatives include digital archiving projects, skill development programs for traditional artisans, and cultural exchange festivals.\n• A special focus is placed on documenting endangered art forms, oral traditions, and traditional knowledge systems, particularly from tribal and remote communities.\n• The move is intended to safeguard India's diverse cultural expressions and ensure their transmission to future generations.\n• International collaborations with UNESCO and other cultural organizations are also being explored to enhance global recognition of Indian heritage.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Salient features of Indian Society, Diversity of India."
+      ],
+      "date": "2025-07-07",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "low",
+      "tags": [
+        "Intangible Cultural Heritage",
+        "Art and Culture",
+        "Cultural Preservation",
+        "Traditional Arts",
+        "UNESCO",
+        "Tribal Culture"
+      ],
+      "keyTerms": [
+        "Intangible Cultural Heritage (ICH)",
+        "UNESCO Representative List",
+        "Oral Traditions",
+        "Traditional Knowledge Systems",
+        "Cultural Diversity"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage was adopted in 2003.",
+        "India has 14 elements inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity (e.g., Yoga, Kumbh Mela, Durga Puja).",
+        "The Sangeet Natak Akademi is the nodal agency in India for intangible cultural heritage.",
+        "Intangible heritage includes oral traditions, performing arts, social practices, rituals, festive events, knowledge and practices concerning nature and the universe, and traditional craftsmanship."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of preserving India's intangible cultural heritage in the context of national identity and global cultural diversity.",
+        "Analyze the challenges faced in safeguarding traditional art forms, oral traditions, and indigenous knowledge systems in a rapidly modernizing society.",
+        "Evaluate the effectiveness of government initiatives and international collaborations in promoting and documenting India's intangible cultural heritage.",
+        "Suggest community-led approaches and educational reforms that can ensure the intergenerational transmission of cultural practices."
+      ],
+      "imageDescription": "A collage of various Indian traditional art forms, dances, and rituals.",
+      "section": "National",
+      "trivia": "The 'Vedic chanting' was one of the first Indian elements to be inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2008.",
+      "prelimsSyllabus": {
+        "subject": "Art & Culture",
+        "area": "Cultural Heritage",
+        "topic": "Intangible Heritage"
+      },
+      "prelimsPotential": 2
+    }
+  ],
+  "highlights": [
+    "India's Green Hydrogen Mission: Mid-term review shows progress, aims for 5 MMT production by 2030, attracting INR 8 lakh crore investment.",
+    "Supreme Court reinforces data privacy as a fundamental right, urging comprehensive data protection law enactment.",
+    "RBI maintains status quo on repo rate (6.5%) amidst inflationary concerns and global economic slowdown.",
+    "India-ASEAN Summit concludes with renewed focus on maritime security, trade, and digital connectivity in the Indo-Pacific.",
+    "Government launches National Water Security Mission 2.0, focusing on integrated water management and technology for scarcity."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to India's National Green Hydrogen Mission, consider the following statements:\n1. The mission aims to make India a global hub for green hydrogen production and export.\n2. It targets an annual green hydrogen production of 10 million metric tonnes by 2030.\n3. The Strategic Interventions for Green Hydrogen Transition (SIGHT) Programme is a key component of the mission.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 3 only",
+      "explanation": "Statement 1 is correct. The mission aims to position India as a global hub. Statement 2 is incorrect. The target is 5 million metric tonnes (MMT) of green hydrogen production by 2030, not 10 MMT. Statement 3 is correct. SIGHT programme provides financial incentives for electrolyser manufacturing and green hydrogen production."
+    },
+    {
+      "question": "Which of the following articles of the Indian Constitution is most closely associated with the Right to Privacy, as interpreted by the Supreme Court?",
+      "options": [
+        "(a) Article 19",
+        "(b) Article 21",
+        "(c) Article 14",
+        "(d) Article 32"
+      ],
+      "answer": "(b) Article 21",
+      "explanation": "The Supreme Court in the K.S. Puttaswamy judgment (2017) declared the Right to Privacy as a fundamental right, an intrinsic part of the Right to Life and Personal Liberty guaranteed under Article 21 of the Constitution."
+    },
+    {
+      "question": "Consider the following statements regarding the Minimum Support Price (MSP) in India:\n1. The Commission for Agricultural Costs and Prices (CACP) recommends the MSPs.\n2. MSP is legally guaranteed for all crops for which it is announced.\n3. The Fair and Remunerative Price (FRP) is announced for sugarcane.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 3 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 3 only",
+      "explanation": "Statement 1 is correct. CACP recommends MSPs for 22 mandated crops. Statement 2 is incorrect. MSP is not legally guaranteed for all crops; it is a policy intervention. Statement 3 is correct. FRP is announced for sugarcane, not MSP."
+    },
+    {
+      "question": "India's 'Act East Policy' is a significant foreign policy initiative. Which of the following international groupings is a central pillar of this policy?",
+      "options": [
+        "(a) SAARC",
+        "(b) BRICS",
+        "(c) ASEAN",
+        "(d) SCO"
+      ],
+      "answer": "(c) ASEAN",
+      "explanation": "The Act East Policy, which succeeded the Look East Policy in 2014, places ASEAN at the core of India's engagement with the Indo-Pacific region, emphasizing enhanced cooperation in trade, connectivity, and security."
+    },
+    {
+      "question": "Which of the following is NOT a core principle guiding UN Peacekeeping Operations?",
+      "options": [
+        "(a) Consent of the parties",
+        "(b) Impartiality",
+        "(c) Non-use of force except in self-defence and defence of the mandate",
+        "(d) Intervention in domestic affairs of host nations"
+      ],
+      "answer": "(d) Intervention in domestic affairs of host nations",
+      "explanation": "UN Peacekeeping operations are strictly guided by principles including consent of the parties, impartiality, and non-use of force except in self-defence and defence of the mandate. Intervention in domestic affairs of host nations is explicitly avoided to maintain neutrality and legitimacy."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "India's pursuit of a robust Green Hydrogen ecosystem is crucial for its energy security and climate goals. Discuss the opportunities and challenges in scaling up green hydrogen production and its integration into India's energy mix. (150 words)",
+      "syllabusMatch": "GS3: Infrastructure: Energy; Environmental Pollution & Degradation; Science and Technology",
+      "approach": "Introduce Green Hydrogen's significance. Discuss opportunities like energy independence, decarbonization, economic growth, and job creation. Address challenges such as high production costs, infrastructure development, technology gaps, and market creation. Conclude with policy support and international collaboration."
+    },
+    {
+      "question": "The Supreme Court's pronouncements on the Right to Privacy have significant implications for governance in a digital age. Critically analyze how the balance between individual privacy and state's legitimate interests can be maintained in the context of government's digital initiatives. (250 words)",
+      "syllabusMatch": "GS2: Indian Constitution—fundamental rights; Government policies and interventions; E-governance",
+      "approach": "Start with the constitutional basis of privacy (Article 21, Puttaswamy judgment). Discuss the need for state data collection for welfare/security. Analyze the conflict points: surveillance, data sharing, consent. Suggest solutions: robust data protection law, independent oversight, transparency, data minimization, technological safeguards, and digital literacy. Emphasize ethical governance."
+    },
+    {
+      "question": "The debate surrounding the Minimum Support Price (MSP) policy reflects deeper issues within India's agricultural sector. Examine the arguments for and against a legally guaranteed MSP, and suggest comprehensive reforms needed to ensure sustainable farmer incomes and agricultural growth. (250 words)",
+      "syllabusMatch": "GS3: Issues related to direct and indirect farm subsidies and minimum support prices; storage, transport and marketing of agricultural produce",
+      "approach": "Define MSP and its objective. Present arguments for legal guarantee (farmer protection, income stability) and against (fiscal burden, market distortion, limited crop coverage, environmental impact). Discuss current issues like procurement inefficiencies and crop diversification. Propose comprehensive reforms: market infrastructure, value chain development, direct income support, crop diversification, FPOs, and rationalization of subsidies."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The National Green Hydrogen Mission aims for 5 MMT production by 2030.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Hydrogen",
+        "Mission"
+      ]
+    },
+    {
+      "text": "Article 21 of the Indian Constitution protects the Right to Life and Personal Liberty, including data privacy.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Fundamental Rights",
+        "Privacy"
+      ]
+    },
+    {
+      "text": "The Reserve Bank of India (RBI) Monetary Policy Committee (MPC) sets the repo rate.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "Monetary Policy"
+      ]
+    },
+    {
+      "text": "India's 'Act East Policy' focuses on strengthening ties with Southeast Asian nations, particularly ASEAN.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "ASEAN",
+        "Foreign Policy"
+      ]
+    },
+    {
+      "text": "India is one of the largest troop-contributing countries to UN Peacekeeping Operations.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "UN",
+        "Peacekeeping"
+      ]
+    },
+    {
+      "text": "The Ministry of Jal Shakti is responsible for water resources and drinking water in India.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Water Security",
+        "Government Bodies"
+      ]
+    },
+    {
+      "text": "ISRO's GSLV Mk III is India's heaviest operational launch vehicle.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "Space"
+      ]
+    },
+    {
+      "text": "The National Education Policy (NEP) 2020 replaced the 1986 policy.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "Education",
+        "NEP"
+      ]
+    },
+    {
+      "text": "Article 44 of the Constitution mandates the State to endeavor for a Uniform Civil Code (UCC).",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "UCC",
+        "DPSP"
+      ]
+    },
+    {
+      "text": "The Mumbai Trans Harbour Sea Link (MTHL) is India's longest sea bridge.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Infrastructure",
+        "Mumbai"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "intangible-cultural-heritage-india",
+        "headline": "Government Launches New Initiatives for Preserving India's Intangible Cultural Heritage",
+        "explainer": "• The Ministry of Culture announced a series of new initiatives aimed at the preservation, promotion, and dissemination of India's rich intangible cultural heritage.\n• These initiatives include digital archiving projects, skill development programs for traditional artisans, and cultural exchange festivals.\n• A special focus is placed on documenting endangered art forms, oral traditions, and traditional knowledge systems, particularly from tribal and remote communities.\n• The move is intended to safeguard India's diverse cultural expressions and ensure their transmission to future generations.\n• International collaborations with UNESCO and other cultural organizations are also being explored to enhance global recognition of Indian heritage.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Salient features of Indian Society, Diversity of India."
+        ],
+        "date": "2025-07-07",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "low",
+        "tags": [
+          "Intangible Cultural Heritage",
+          "Art and Culture",
+          "Cultural Preservation",
+          "Traditional Arts",
+          "UNESCO",
+          "Tribal Culture"
+        ],
+        "keyTerms": [
+          "Intangible Cultural Heritage (ICH)",
+          "UNESCO Representative List",
+          "Oral Traditions",
+          "Traditional Knowledge Systems",
+          "Cultural Diversity"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "UNESCO Convention for the Safeguarding of the Intangible Cultural Heritage was adopted in 2003.",
+          "India has 14 elements inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity (e.g., Yoga, Kumbh Mela, Durga Puja).",
+          "The Sangeet Natak Akademi is the nodal agency in India for intangible cultural heritage.",
+          "Intangible heritage includes oral traditions, performing arts, social practices, rituals, festive events, knowledge and practices concerning nature and the universe, and traditional craftsmanship."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of preserving India's intangible cultural heritage in the context of national identity and global cultural diversity.",
+          "Analyze the challenges faced in safeguarding traditional art forms, oral traditions, and indigenous knowledge systems in a rapidly modernizing society.",
+          "Evaluate the effectiveness of government initiatives and international collaborations in promoting and documenting India's intangible cultural heritage.",
+          "Suggest community-led approaches and educational reforms that can ensure the intergenerational transmission of cultural practices."
+        ],
+        "imageDescription": "A collage of various Indian traditional art forms, dances, and rituals.",
+        "section": "National",
+        "trivia": "The 'Vedic chanting' was one of the first Indian elements to be inscribed on UNESCO's Representative List of the Intangible Cultural Heritage of Humanity in 2008.",
+        "prelimsSyllabus": {
+          "subject": "Art & Culture",
+          "area": "Cultural Heritage",
+          "topic": "Intangible Heritage"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS2": [
+      {
+        "id": "supreme-court-data-privacy-ruling",
+        "headline": "Supreme Court Reinforces Data Privacy as Fundamental Right Amidst Digital India Push",
+        "explainer": "• The Supreme Court delivered a landmark judgment reiterating data privacy as an intrinsic part of the right to life and personal liberty under Article 21, even as the Digital India programme expands.\n• The ruling came in a case challenging certain provisions of a new government scheme that involved extensive data collection without explicit consent mechanisms.\n• The court emphasized the need for a robust data protection framework, urging the government to expedite the enactment of a comprehensive data protection law.\n• It highlighted the importance of balancing national security interests and individual privacy rights in the digital age.\n• The judgment is expected to have significant implications for government surveillance, private sector data handling, and ongoing debates around digital public infrastructure.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2025-07-07",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Data Privacy",
+          "Fundamental Rights",
+          "Supreme Court",
+          "Digital India",
+          "Article 21",
+          "Data Protection Law"
+        ],
+        "keyTerms": [
+          "Right to Privacy",
+          "Article 21",
+          "Data Protection Bill",
+          "Digital Public Infrastructure",
+          "Consent Mechanism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "K.S. Puttaswamy judgment (2017) declared Right to Privacy as a fundamental right.",
+          "Article 21 of the Indian Constitution: Protection of Life and Personal Liberty.",
+          "Digital Personal Data Protection Act, 2023 is the current legislative framework.",
+          "The ruling reinforces judicial oversight on state's data collection powers."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the evolution of the Right to Privacy in India, citing landmark judgments and their impact on governance.",
+          "Discuss the challenges in balancing state's legitimate interests (e.g., national security, public welfare) with individual data privacy in a digitally transforming society.",
+          "Critically examine the adequacy of existing data protection laws and suggest improvements for a more robust framework.",
+          "Evaluate the implications of this judgment on future government schemes involving digital data collection and private sector data handling practices."
+        ],
+        "imageDescription": "A stylized image depicting digital data flowing into a padlock, symbolizing data privacy and security.",
+        "section": "National",
+        "trivia": "The concept of 'right to be forgotten' is an aspect of data privacy, allowing individuals to request removal of certain personal data from public internet searches.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-asean-summit-maritime-security",
+        "headline": "India-ASEAN Summit Concludes with Renewed Focus on Maritime Security and Digital Connectivity",
+        "explainer": "• The annual India-ASEAN Summit concluded in Jakarta, with leaders emphasizing enhanced cooperation in maritime security, trade, and digital transformation.\n• Key outcomes included agreements to conduct joint naval exercises and intelligence sharing to counter piracy and promote a free and open Indo-Pacific.\n• Discussions also focused on strengthening supply chain resilience and accelerating digital connectivity initiatives across the region.\n• India reiterated its 'Act East' policy commitment, highlighting ASEAN as a central pillar of its vision for a rules-based regional order.\n• The summit underscored the growing strategic alignment between India and ASEAN nations amidst evolving geopolitical dynamics.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighbourhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2025-07-07",
+        "source": "The Times of India",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "India-ASEAN",
+          "Act East Policy",
+          "Maritime Security",
+          "Indo-Pacific",
+          "Regional Cooperation",
+          "Digital Connectivity"
+        ],
+        "keyTerms": [
+          "ASEAN",
+          "Indo-Pacific",
+          "Act East Policy",
+          "Regional Comprehensive Economic Partnership (RCEP)",
+          "Freedom of Navigation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ASEAN (Association of Southeast Asian Nations) comprises 10 member states.",
+          "India became a Sectoral Dialogue Partner of ASEAN in 1992, Dialogue Partner in 1996, and Strategic Partner in 2012.",
+          "India's Act East Policy replaced the Look East Policy in 2014.",
+          "Jakarta is the headquarters of the ASEAN Secretariat."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of India's 'Act East' policy in strengthening ties with ASEAN, particularly in the context of evolving geopolitical landscapes.",
+          "Discuss the challenges and opportunities for India-ASEAN cooperation in maritime security, trade, and digital transformation.",
+          "Evaluate India's role in promoting a free, open, and inclusive Indo-Pacific region through its engagement with ASEAN.",
+          "Examine how enhanced connectivity initiatives with ASEAN can contribute to India's economic growth and regional stability."
+        ],
+        "imageDescription": "Flags of India and ASEAN member states displayed during a summit meeting.",
+        "section": "International",
+        "trivia": "The ASEAN motto is 'One Vision, One Identity, One Community'.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Regional Groupings",
+          "topic": "ASEAN"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "nep-implementation-digital-divide",
+        "headline": "New Education Policy Implementation Review Highlights Persistent Digital Divide",
+        "explainer": "• A parliamentary committee reviewing the progress of the National Education Policy (NEP) 2020 noted significant strides in curriculum reforms but raised concerns about the digital divide.\n• While online learning platforms and digital resources have expanded, equitable access to devices and internet connectivity remains a major challenge, particularly in rural and marginalized communities.\n• The report recommended increased public investment in digital infrastructure and targeted programs to provide affordable devices and internet access to students.\n• Teacher training in digital pedagogy and content localization for diverse linguistic groups were also highlighted as critical areas for improvement.\n• The NEP's goal of universalizing quality education through technology faces hurdles that require concerted efforts from both central and state governments.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2025-07-07",
+        "source": "Deccan Herald",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "National Education Policy",
+          "NEP 2020",
+          "Digital Divide",
+          "Education Reforms",
+          "Online Learning",
+          "Rural Education"
+        ],
+        "keyTerms": [
+          "NEP 2020",
+          "Digital Divide",
+          "EdTech",
+          "Learning Management Systems (LMS)",
+          "Equitable Access"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Education Policy 2020 replaced the 1986 policy.",
+          "Focuses on multidisciplinary education, vocational training, and digital literacy.",
+          "SWAYAM, DIKSHA are key government digital education platforms.",
+          "Article 21A of the Constitution provides for Right to Education."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the transformative potential of the National Education Policy (NEP) 2020 in reforming India's education system.",
+          "Discuss the challenges posed by the digital divide to the effective implementation of NEP 2020, especially in ensuring equitable access to quality education.",
+          "Suggest policy measures and strategies to bridge the digital divide in education, including infrastructure development and affordability initiatives.",
+          "Evaluate the role of public-private partnerships and community engagement in achieving the NEP's goals for inclusive and quality education."
+        ],
+        "imageDescription": "Students in a rural classroom using digital tablets for learning, highlighting the digital divide.",
+        "section": "National",
+        "trivia": "The Kothari Commission (1964-66) was India's sixth education commission and recommended a common education structure (10+2+3).",
+        "prelimsSyllabus": {
+          "subject": "Society",
+          "area": "Education",
+          "topic": "Government Policies"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "un-peacekeeping-india-role",
+        "headline": "India Pledges Enhanced Role in UN Peacekeeping Operations, Focus on Women Peacekeepers",
+        "explainer": "• India reaffirmed its commitment to UN Peacekeeping Operations (UNPKOs), pledging additional troops and resources, particularly for missions in Africa.\n• A significant focus was placed on increasing the deployment of women peacekeepers, aligning with UN Security Council resolutions on Women, Peace, and Security.\n• India emphasized the need for clear mandates, robust resources, and greater accountability for peacekeepers to ensure mission effectiveness and safety.\n• The announcement came during a UN General Assembly high-level meeting on peacekeeping, where India highlighted its historical contributions.\n• India also advocated for greater representation of troop-contributing countries in the UN's decision-making processes regarding peacekeeping.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2025-07-07",
+        "source": "ANI",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "UN Peacekeeping",
+          "India UN",
+          "Women Peacekeepers",
+          "International Security",
+          "UN General Assembly",
+          "Foreign Policy"
+        ],
+        "keyTerms": [
+          "United Nations Peacekeeping Operations (UNPKOs)",
+          "Troop Contributing Countries (TCCs)",
+          "Women, Peace, and Security (WPS)",
+          "Blue Helmets",
+          "UN Security Council"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India is one of the largest troop-contributing countries to UNPKOs.",
+          "India has contributed over 2.75 lakh troops to 49 UNPKOs since 1948.",
+          "The first all-women Formed Police Unit (FPU) in UN Peacekeeping was deployed by India to Liberia in 2007.",
+          "UN Peacekeeping operations are guided by three basic principles: Consent of the parties, Impartiality, Non-use of force except in self-defence and defence of the mandate."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze India's historical contributions and evolving role in United Nations Peacekeeping Operations (UNPKOs), highlighting its strategic interests.",
+          "Discuss the significance of increasing women's participation in peacekeeping for mission effectiveness and gender mainstreaming in conflict zones.",
+          "Evaluate the challenges faced by UNPKOs globally and how India's proposals for reforms can enhance their efficacy and accountability.",
+          "Examine the broader implications of India's enhanced engagement in UNPKOs for its foreign policy and aspirations for a permanent UNSC seat."
+        ],
+        "imageDescription": "Indian women peacekeepers in blue helmets marching during a UN mission parade.",
+        "section": "International",
+        "trivia": "The Nobel Peace Prize was awarded to UN Peacekeeping Forces in 1988.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Organizations",
+          "topic": "United Nations"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "digital-governance-public-services",
+        "headline": "Digital Governance Initiatives Streamline Public Service Delivery, Challenges Remain",
+        "explainer": "• A government report highlighted the success of various digital governance platforms in streamlining public service delivery, reducing corruption, and increasing transparency.\n• Initiatives like the National Single Window System, e-Courts, and online citizen services have significantly improved efficiency and accessibility for citizens.\n• However, challenges such as digital literacy, cybersecurity threats, and the need for interoperability across different platforms persist.\n• The report emphasized the importance of a 'whole-of-government' approach to digital transformation, ensuring seamless integration of services.\n• Training and capacity building for government officials in digital tools and data analytics were identified as crucial for further progress.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Governance, Constitution, Polity, Social Justice and International relations.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+          "E-governance- applications, models, successes, limitations, and potential; citizens charters, transparency & accountability and institutional and other measures."
+        ],
+        "date": "2025-07-07",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Digital Governance",
+          "E-Governance",
+          "Public Service Delivery",
+          "Transparency",
+          "Accountability",
+          "Digital India"
+        ],
+        "keyTerms": [
+          "Digital India",
+          "National e-Governance Plan (NeGP)",
+          "Single Window System",
+          "e-Courts",
+          "Cybersecurity"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Digital India program was launched in 2015.",
+          "UMANG app provides a single platform for various government services.",
+          "DigiLocker is a secure cloud-based platform for issuance and verification of documents.",
+          "e-Kranti is a key component of Digital India, focusing on electronic delivery of services."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the transformative impact of digital governance initiatives on public service delivery, transparency, and accountability in India.",
+          "Discuss the various challenges encountered in the implementation of e-governance projects, including digital literacy, infrastructure, and cybersecurity.",
+          "Suggest strategies for fostering a 'whole-of-government' approach to digital transformation and ensuring interoperability of various platforms.",
+          "Evaluate the role of technology and data analytics in improving policy formulation and public feedback mechanisms in a digital governance framework."
+        ],
+        "imageDescription": "A graphic showing various digital government services connected by a network, with a citizen at the center.",
+        "section": "National",
+        "trivia": "The National e-Governance Plan (NeGP) was formulated by the Department of Electronics and Information Technology (DeitY) and Department of Administrative Reforms and Public Grievances (DARPG) in 2006.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Governance",
+          "topic": "E-Governance"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "uniform-civil-code-consultations",
+        "headline": "Government Initiates Broad Consultations on Proposed Uniform Civil Code",
+        "explainer": "• The Ministry of Law and Justice officially commenced broad consultations with various stakeholders on the proposed Uniform Civil Code (UCC).\n• The initiative aims to solicit opinions from religious organizations, legal experts, women's rights groups, and tribal communities across the country.\n• The government emphasized that the goal is to foster national unity and gender justice by unifying personal laws while respecting cultural diversity.\n• Opposition parties and some religious groups have expressed concerns about potential infringement on religious freedom and cultural practices.\n• The consultation process is expected to be extensive and will inform the drafting of a comprehensive UCC bill, if consensus is reached.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+          "Social empowerment, communalism, regionalism & secularism."
+        ],
+        "date": "2025-07-07",
+        "source": "Press Trust of India",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Uniform Civil Code",
+          "UCC",
+          "Personal Laws",
+          "Gender Justice",
+          "Religious Freedom",
+          "Indian Constitution",
+          "Article 44"
+        ],
+        "keyTerms": [
+          "Uniform Civil Code",
+          "Directive Principles of State Policy",
+          "Article 44",
+          "Personal Laws",
+          "Secularism",
+          "Gender Equality"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Article 44 of the Indian Constitution states that 'The State shall endeavour to secure for the citizens a Uniform Civil Code throughout the territory of India.'",
+          "It is a Directive Principle of State Policy (DPSP), hence not directly enforceable by courts.",
+          "Goa is the only Indian state with a Uniform Civil Code.",
+          "Personal laws in India include Hindu Marriage Act, Muslim Personal Law (Shariat) Application Act, Indian Christian Marriage Act, etc."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the constitutional mandate and historical background of the Uniform Civil Code (UCC) in India.",
+          "Analyze the arguments for and against the implementation of a UCC, considering aspects of gender justice, religious freedom, and national integration.",
+          "Examine the challenges involved in drafting and implementing a UCC in a diverse country like India, with various religious and cultural practices.",
+          "Suggest a balanced approach to the UCC debate that respects religious diversity while upholding principles of equality and justice."
+        ],
+        "imageDescription": "A balance scale with symbols representing different religions and law books, symbolizing the UCC debate.",
+        "section": "National",
+        "trivia": "The Shah Bano case (1985) brought the debate on Uniform Civil Code to national prominence.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Constitutional Provisions",
+          "topic": "Directive Principles"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "indo-pacific-geopolitical-dynamics",
+        "headline": "Analysis: Evolving Geopolitical Dynamics in the Indo-Pacific Region",
+        "explainer": "• A leading foreign policy think tank released an analysis on the rapidly evolving geopolitical landscape of the Indo-Pacific region.\n• The report highlights increasing strategic competition among major powers, particularly concerning freedom of navigation and regional security architectures.\n• It emphasizes India's growing role as a net security provider and a key partner in initiatives like the Quad and various bilateral security dialogues.\n• The analysis points to the economic implications of these dynamics, including supply chain diversification and investment flows.\n• Recommendations include strengthening multilateral institutions, promoting rules-based order, and fostering inclusive regional cooperation frameworks.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighbourhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2025-07-07",
+        "source": "Observer Research Foundation",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Indo-Pacific",
+          "Geopolitics",
+          "Quad",
+          "Maritime Security",
+          "Foreign Policy",
+          "Regional Stability"
+        ],
+        "keyTerms": [
+          "Indo-Pacific Strategy",
+          "Quad (Quadrilateral Security Dialogue)",
+          "Freedom of Navigation Operations (FONOPs)",
+          "ASEAN Centrality",
+          "Rules-based Order"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the key factors driving the evolving geopolitical dynamics in the Indo-Pacific region and their implications for global stability.",
+          "Discuss India's strategic interests and its multifaceted role in shaping the Indo-Pacific architecture, citing examples of regional engagements.",
+          "Evaluate the significance of groupings like the Quad and other bilateral/multilateral security dialogues in promoting a free, open, and inclusive Indo-Pacific.",
+          "Examine the economic and security challenges posed by the evolving dynamics in the region and suggest policy responses for India."
+        ],
+        "imageDescription": "A stylized map of the Indo-Pacific region highlighting key maritime routes and strategic points.",
+        "section": "International",
+        "trivia": "The term 'Indo-Pacific' gained prominence as a geopolitical concept in the 21st century, replacing 'Asia-Pacific' to reflect India's growing strategic importance.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Geopolitics",
+          "topic": "Indo-Pacific"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "india-green-hydrogen-mission-progress",
+        "headline": "India's Green Hydrogen Mission: Scaling Up Production and Global Ambitions",
+        "explainer": "• The Ministry of New and Renewable Energy (MNRE) released its mid-term review report on the National Green Hydrogen Mission, highlighting significant progress in pilot projects and policy framework development.\n• Focus areas include incentives for electrolyser manufacturing, developing green hydrogen production hubs, and facilitating demand creation in sectors like refining, fertilisers, and steel.\n• India aims to become a global hub for green hydrogen production and export, contributing to energy security and decarbonization goals.\n• Challenges remain in cost reduction, infrastructure development for storage and transport, and securing international partnerships for technology transfer.\n• The mission targets annual green hydrogen production of 5 million metric tonnes by 2030, attracting over INR 8 lakh crore in investments and creating 6 lakh jobs.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy",
+          "Economic Development",
+          "Environmental Pollution & Degradation",
+          "Science and Technology- Developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-07-07",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Green Hydrogen",
+          "Renewable Energy",
+          "Energy Transition",
+          "Climate Change",
+          "Economic Growth",
+          "Make in India"
+        ],
+        "keyTerms": [
+          "National Green Hydrogen Mission",
+          "Electrolyser",
+          "Green Hydrogen Hubs",
+          "Decarbonization",
+          "Energy Security"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Green Hydrogen Mission launched in January 2023.",
+          "Target: 5 MMT green hydrogen production by 2030.",
+          "Expected investments: Over INR 8 lakh crore.",
+          "Key components: SIGHT (Strategic Interventions for Green Hydrogen Transition) Programme, R&D, pilot projects.",
+          "Applications: Fertilizers, refineries, steel, heavy mobility, shipping."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss India's strategic rationale for promoting Green Hydrogen, linking it to energy independence and climate commitments.",
+          "Analyze the economic potential of the Green Hydrogen Mission, including job creation and export opportunities.",
+          "Evaluate the challenges in achieving the mission's targets, such as high production costs, infrastructure gaps, and technological bottlenecks.",
+          "Suggest policy measures and international collaborations necessary to accelerate the adoption and scaling of green hydrogen technology in India."
+        ],
+        "imageDescription": "Illustration of a green hydrogen production plant with solar panels and wind turbines in the background.",
+        "section": "Lead Opinion",
+        "trivia": "Hydrogen is the most abundant chemical substance in the universe, making up roughly 75% of all normal matter.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Infrastructure",
+          "topic": "Energy Sector"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "rbi-monetary-policy-review",
+        "headline": "RBI Maintains Status Quo on Repo Rate Amidst Inflationary Concerns and Global Slowdown",
+        "explainer": "• The Reserve Bank of India's (RBI) Monetary Policy Committee (MPC) announced its bi-monthly review, deciding to keep the repo rate unchanged at 6.5%.\n• The decision was influenced by persistent food inflation, geopolitical uncertainties, and a cautious outlook on global economic growth.\n• RBI Governor highlighted the need to remain vigilant against potential inflationary pressures while supporting nascent economic recovery.\n• The central bank also revised its GDP growth projection slightly downwards for the current fiscal year due to global headwinds.\n• Liquidity management measures were discussed to ensure adequate credit flow to productive sectors of the economy.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Government Budgeting.",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2025-07-07",
+        "source": "Livemint",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "RBI",
+          "Monetary Policy",
+          "Repo Rate",
+          "Inflation",
+          "Economic Growth",
+          "Global Economy"
+        ],
+        "keyTerms": [
+          "Monetary Policy Committee (MPC)",
+          "Repo Rate",
+          "Reverse Repo Rate",
+          "Inflation Targeting",
+          "GDP Projection"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Repo rate is the rate at which RBI lends money to commercial banks.",
+          "Monetary Policy Committee (MPC) is a 6-member body responsible for setting policy rates.",
+          "Primary objective of MPC is to maintain price stability while keeping in mind the objective of growth.",
+          "Inflation target band in India is 4% +/- 2%."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the factors influencing RBI's decision to maintain the status quo on the repo rate, considering both domestic and international economic conditions.",
+          "Discuss the challenges faced by the RBI in managing inflation while simultaneously supporting economic growth in India.",
+          "Evaluate the effectiveness of monetary policy tools in addressing supply-side inflation and external shocks.",
+          "Examine the interplay between fiscal policy and monetary policy in achieving macroeconomic stability in India."
+        ],
+        "imageDescription": "RBI headquarters building with a graph showing stable interest rates.",
+        "section": "Economy",
+        "trivia": "The Reserve Bank of India was established on April 1, 1935, under the Reserve Bank of India Act, 1934.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI Functions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "indigenous-defence-production-boost",
+        "headline": "Government Unveils New Policy to Boost Indigenous Defence Production and Exports",
+        "explainer": "• The Ministry of Defence announced a new Defence Production and Export Promotion Policy (DPEPP) 2025, aiming for self-reliance in defence manufacturing.\n• The policy introduces enhanced incentives for private sector participation, including MSMEs and startups, in defence R&D and manufacturing.\n• It sets ambitious targets for increasing the indigenization of defence equipment and promoting defence exports to friendly foreign countries.\n• Streamlined procurement procedures and a dedicated fund for defence innovation are key features of the new policy.\n• The move is expected to reduce India's reliance on foreign defence imports and establish it as a significant global defence manufacturing hub.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- Developments and their applications and effects in everyday life.",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism."
+        ],
+        "date": "2025-07-07",
+        "source": "Press Information Bureau",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Defence Production",
+          "Indigenization",
+          "Defence Exports",
+          "Make in India",
+          "MSME",
+          "Defence Acquisition"
+        ],
+        "keyTerms": [
+          "Defence Production and Export Promotion Policy (DPEPP)",
+          "Self-Reliance in Defence",
+          "Strategic Partnership Model",
+          "Defence Corridors",
+          "Offset Policy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India is among the largest arms importers globally.",
+          "Defence corridors are being set up in Uttar Pradesh and Tamil Nadu.",
+          "Negative Import List (Positive Indigenisation List) aims to ban import of certain defence items.",
+          "FDI in defence manufacturing is allowed up to 74% through automatic route and 100% via government route."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of indigenization in defence production for India's national security and economic growth.",
+          "Analyze the key provisions of the new Defence Production and Export Promotion Policy (DPEPP) 2025 and their potential impact on the defence ecosystem.",
+          "Evaluate the challenges faced by India in achieving self-reliance in defence manufacturing, including technological gaps and R&D investment.",
+          "Suggest measures to further boost private sector participation and defence exports, considering geopolitical implications."
+        ],
+        "imageDescription": "A modern fighter jet being manufactured in an Indian factory, symbolizing indigenous production.",
+        "section": "National",
+        "trivia": "The Ordnance Factory Board (OFB), established in 1712, is one of the oldest and largest government-operated production organisations in India.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "Defence Industry",
+          "topic": "Indigenization"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "national-water-security-mission-20",
+        "headline": "Government Launches National Water Security Mission 2.0 to Tackle Water Scarcity",
+        "explainer": "• Building on previous initiatives, the Ministry of Jal Shakti launched National Water Security Mission 2.0, focusing on integrated water resource management.\n• The mission aims to address increasing water scarcity through enhanced rainwater harvesting, groundwater recharge, and efficient irrigation practices.\n• It incorporates advanced technology like AI and IoT for real-time monitoring of water levels and quality across basins.\n• Community participation and behavioral change campaigns are central to the mission's strategy for sustainable water use.\n• A significant allocation has been made for inter-state river linking projects and urban water supply infrastructure upgrades.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Disaster and disaster management.",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+        ],
+        "date": "2025-07-07",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Water Security",
+          "Jal Shakti Mission",
+          "Water Conservation",
+          "Groundwater Recharge",
+          "Integrated Water Management",
+          "AI in Environment"
+        ],
+        "keyTerms": [
+          "National Water Security Mission",
+          "Jal Jeevan Mission",
+          "Atal Bhujal Yojana",
+          "Rainwater Harvesting",
+          "Water Stress"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ministry of Jal Shakti was formed in 2019 by merging Ministry of Water Resources, River Development & Ganga Rejuvenation and Ministry of Drinking Water & Sanitation.",
+          "Jal Jeevan Mission aims to provide safe and adequate drinking water through individual household tap connections by 2024.",
+          "Atal Bhujal Yojana (ATAL JAL) focuses on improving groundwater management.",
+          "India holds 4% of world's fresh water resources but supports 18% of global population."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the multifaceted challenges of water scarcity in India and the need for an integrated approach to water resource management.",
+          "Discuss the key objectives and strategies of the National Water Security Mission 2.0, highlighting its innovative aspects.",
+          "Evaluate the role of technology (AI, IoT) and community participation in achieving sustainable water security goals.",
+          "Suggest policy recommendations for effective implementation of inter-state river linking projects and urban water infrastructure upgrades."
+        ],
+        "imageDescription": "A map of India overlaid with water flow lines and conservation symbols.",
+        "section": "Environment",
+        "trivia": "The average annual per capita availability of water in India is projected to further decline from 1486 cubic metres in 2021 to 1367 cubic metres in 2031.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Conservation",
+          "topic": "Water Resources"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "isro-next-gen-communication-satellite",
+        "headline": "ISRO Prepares for Launch of Advanced Communication Satellite for Digital India Initiatives",
+        "explainer": "• The Indian Space Research Organisation (ISRO) announced the readiness of its next-generation geostationary communication satellite, GSAT-25, for launch.\n• GSAT-25 is designed to enhance broadband connectivity, support 5G rollout, and provide secure communication for strategic applications across India.\n• The satellite features advanced transponders and high-throughput capabilities, aiming to bridge the digital divide in remote and rural areas.\n• This launch is part of ISRO's broader strategy to bolster India's satellite communication infrastructure and support various Digital India programs.\n• The mission will utilize India's Geosynchronous Satellite Launch Vehicle (GSLV) Mark III, demonstrating indigenous capabilities in heavy-lift launches.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- Developments and their applications and effects in everyday life.",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights."
+        ],
+        "date": "2025-07-07",
+        "source": "The Hindu BusinessLine",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "ISRO",
+          "Space Technology",
+          "Communication Satellite",
+          "Digital India",
+          "5G",
+          "GSLV Mk III"
+        ],
+        "keyTerms": [
+          "Geostationary Satellite",
+          "Transponders",
+          "High-throughput Satellite (HTS)",
+          "GSLV Mark III",
+          "Broadband Connectivity"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ISRO is India's national space agency.",
+          "Geostationary satellites orbit at an altitude of approximately 35,786 km above the Earth's equator.",
+          "GSLV Mk III (LVM3) is ISRO's heaviest launch vehicle.",
+          "Communication satellites play a crucial role in DTH, VSAT, and telecommunication services."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of advanced communication satellites like GSAT-25 for India's digital infrastructure and socio-economic development.",
+          "Analyze how ISRO's indigenous capabilities in space technology contribute to India's strategic autonomy and global standing.",
+          "Evaluate the role of space-based services in bridging the digital divide and enabling initiatives like Digital India and BharatNet.",
+          "Examine the challenges and opportunities for India's space sector in the coming decade, including private sector participation and international collaborations."
+        ],
+        "imageDescription": "An artistic rendering of the GSAT-25 satellite orbiting Earth, with communication signals radiating.",
+        "section": "Science",
+        "trivia": "India launched its first satellite, Aryabhata, on April 19, 1975, with the help of the Soviet Union.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space",
+          "topic": "Satellite Technology"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "msp-policy-debate-agriculture",
+        "headline": "MSP Policy Debate Intensifies Amidst Calls for Legal Guarantee and Market Reforms",
+        "explainer": "• The debate over Minimum Support Price (MSP) policy for agricultural produce intensified, with farmer organizations demanding a legal guarantee for MSP.\n• The government reiterated its commitment to farmer welfare but emphasized the need for market-oriented reforms to ensure sustainable agricultural growth.\n• Economists highlighted the fiscal implications of a legally guaranteed MSP and suggested alternative mechanisms like deficiency payments or price stabilization funds.\n• Discussions included diversification of crops, improving storage and logistics infrastructure, and reducing post-harvest losses to empower farmers.\n• The issue remains a critical point of contention between government policy and farmer demands, impacting agricultural policy direction.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Major crops cropping patterns in various parts of the country, different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers.",
+          "Issues related to direct and indirect farm subsidies and minimum support prices; Public Distribution System—objectives, functioning, limitations, revamping; issues of buffer stocks and food security; Technology missions; economics of animal-rearing."
+        ],
+        "date": "2025-07-07",
+        "source": "Business Standard",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "MSP",
+          "Agriculture",
+          "Farmer Protests",
+          "Agricultural Reforms",
+          "Food Security",
+          "Market Intervention"
+        ],
+        "keyTerms": [
+          "Minimum Support Price (MSP)",
+          "Commission for Agricultural Costs and Prices (CACP)",
+          "Deficiency Payment",
+          "Agricultural Produce Market Committee (APMC)",
+          "Food Corporation of India (FCI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "MSP is announced by the government for 22 mandated crops and Fair and Remunerative Price (FRP) for sugarcane.",
+          "CACP recommends MSPs based on A2+FL (all paid out costs plus family labour) and C2 (comprehensive cost).",
+          "MSP aims to protect farmers from excessive fall in prices during bumper production years.",
+          "Swaminathan Commission recommended MSP at 50% above C2 cost."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically examine the rationale behind the demand for a legal guarantee for Minimum Support Price (MSP) and its potential implications for India's agricultural economy.",
+          "Discuss the various arguments for and against a legally guaranteed MSP, considering fiscal burden, market distortions, and farmer welfare.",
+          "Propose alternative policy mechanisms and reforms that can ensure fair prices for farmers while promoting sustainable and efficient agricultural markets.",
+          "Analyze the role of agricultural infrastructure, diversification, and value addition in enhancing farmer incomes and reducing dependence on MSP."
+        ],
+        "imageDescription": "Farmers protesting with placards demanding legal guarantee for MSP.",
+        "section": "Economy",
+        "trivia": "The concept of MSP was introduced in the mid-1960s as part of the Green Revolution strategy to incentivize food grain production.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Agriculture",
+          "topic": "Farm Subsidies"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "g20-climate-finance-india",
+        "headline": "India Advocates for Equitable Climate Finance at G20 Ministerial Meeting",
+        "explainer": "• India strongly advocated for a substantial increase in climate finance from developed nations at the G20 Environment and Climate Sustainability Ministerial Meeting.\n• The Indian delegation highlighted the historical responsibility of developed countries and the need for accessible, affordable, and predictable finance for developing nations' climate action.\n• Discussions included the operationalization of the Loss and Damage Fund and mechanisms for technology transfer to support climate adaptation and mitigation efforts.\n• India reiterated its commitment to its Nationally Determined Contributions (NDCs) but stressed that climate justice requires adequate financial support.\n• The meeting concluded with a joint statement acknowledging the urgency of climate action and the need for multilateral cooperation, though specific finance commitments remained contentious.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Important International institutions, agencies and fora, their structure, mandate."
+        ],
+        "date": "2025-07-07",
+        "source": "Mint",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Climate Finance",
+          "G20",
+          "Climate Change",
+          "NDCs",
+          "Loss and Damage",
+          "Climate Justice"
+        ],
+        "keyTerms": [
+          "Climate Finance",
+          "Nationally Determined Contributions (NDCs)",
+          "Loss and Damage Fund",
+          "Common but Differentiated Responsibilities (CBDR)",
+          "Global Stocktake"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "G20 is an intergovernmental forum comprising 19 countries and the European Union (EU).",
+          "Developed countries pledged $100 billion per year in climate finance by 2020, which has not been fully met.",
+          "Loss and Damage Fund was established at COP27 in Sharm El Sheikh.",
+          "India's NDCs include reducing emissions intensity by 45% by 2030 from 2005 levels and achieving about 50% cumulative electric power installed capacity from non-fossil fuel-based energy resources by 2030."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the concept of climate justice and its relevance in the context of global climate negotiations, particularly regarding climate finance.",
+          "Discuss India's stance on climate finance at international forums like the G20 and its rationale for demanding greater contributions from developed nations.",
+          "Evaluate the effectiveness of existing climate finance mechanisms and the challenges in mobilizing adequate and accessible funds for developing countries.",
+          "Suggest policy approaches for fostering greater international cooperation on climate action, including technology transfer and capacity building."
+        ],
+        "imageDescription": "Leaders from G20 nations discussing climate change around a conference table.",
+        "section": "International",
+        "trivia": "The G20 was formed in 1999 in response to the Asian financial crisis.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Climate Change",
+          "topic": "International Conventions"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indigenous-vaccine-development",
+        "headline": "India Achieves Milestone in Indigenous Vaccine Development for Tropical Diseases",
+        "explainer": "• Indian researchers and pharmaceutical companies announced a significant breakthrough in developing an indigenous multi-valent vaccine for several prevalent tropical diseases.\n• The vaccine, developed through public-private partnerships, has shown promising results in late-stage clinical trials, offering hope for widespread prevention.\n• This achievement underscores India's growing capabilities in biotechnology and pharmaceutical research, contributing to global health security.\n• The government emphasized its commitment to affordable and accessible healthcare, indicating plans for mass production and distribution of the vaccine.\n• The development positions India as a key player in vaccine innovation, especially for diseases endemic to tropical and subtropical regions.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- Developments and their applications and effects in everyday life.",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+        ],
+        "date": "2025-07-07",
+        "source": "PTI",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Vaccine Development",
+          "Biotechnology",
+          "Tropical Diseases",
+          "Public Health",
+          "Healthcare Innovation",
+          "Make in India"
+        ],
+        "keyTerms": [
+          "Multi-valent Vaccine",
+          "Clinical Trials",
+          "Public-Private Partnership",
+          "Disease Burden",
+          "Health Security"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India is known as the 'pharmacy of the world' due to its large-scale vaccine and generic drug production.",
+          "National Biopharma Mission aims to accelerate biopharmaceutical development.",
+          "Diseases like Dengue, Chikungunya, Malaria, and Zika are prevalent tropical diseases.",
+          "The Department of Biotechnology (DBT) supports research in this area."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of indigenous vaccine development for tropical diseases in enhancing India's public health security and global health leadership.",
+          "Analyze the role of public-private partnerships and government support in fostering innovation in India's biotechnology and pharmaceutical sectors.",
+          "Evaluate the challenges in making vaccines affordable and accessible to all sections of the population, particularly in remote areas.",
+          "Examine how such breakthroughs contribute to achieving Universal Health Coverage and addressing the disease burden in developing countries."
+        ],
+        "imageDescription": "Scientists in a laboratory examining vaccine samples, with advanced equipment.",
+        "section": "Science",
+        "trivia": "Edward Jenner developed the world's first vaccine for smallpox in 1796.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Biotechnology",
+          "topic": "Vaccine Development"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "economic-liberalization-india-30-years",
+        "headline": "Editorial: Economic Liberalization in India - Three Decades On, A Mixed Legacy",
+        "explainer": "• This editorial reflects on the over three decades since India embarked on its path of economic liberalization in 1991, analyzing its profound impact.\n• It acknowledges the significant economic growth, poverty reduction, and integration into the global economy facilitated by these reforms.\n• However, it also critically examines the mixed legacy, pointing to rising income inequality, jobless growth, and regional disparities that have emerged or intensified.\n• The article discusses the need for 'next-generation reforms' focusing on inclusive growth, human capital development, and environmental sustainability.\n• It concludes that while liberalization laid the foundation for a modern economy, addressing its downsides is crucial for India's future trajectory.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2025-07-07",
+        "source": "The Mint",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Economic Liberalization",
+          "Indian Economy",
+          "Economic Reforms",
+          "Poverty Reduction",
+          "Income Inequality",
+          "Jobless Growth",
+          "1991 Reforms"
+        ],
+        "keyTerms": [
+          "Liberalization, Privatization, Globalization (LPG)",
+          "Fiscal Deficit",
+          "Balance of Payments Crisis",
+          "Structural Reforms",
+          "Inclusive Growth"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the key drivers and initial impact of India's economic liberalization reforms initiated in 1991.",
+          "Critically evaluate the 'mixed legacy' of these reforms, highlighting both their successes (e.g., growth, trade) and failures (e.g., inequality, jobless growth, regional disparities).",
+          "Discuss the concept of 'next-generation reforms' required for India to achieve inclusive and sustainable development in the coming decades.",
+          "Examine how the Indian economy has transformed over the past three decades due to liberalization and what challenges remain in its integration with the global economy."
+        ],
+        "imageDescription": "A timeline graphic depicting major economic milestones in India since 1991.",
+        "section": "Editorial",
+        "trivia": "The 1991 economic reforms were introduced by then Finance Minister Dr. Manmohan Singh under Prime Minister P.V. Narasimha Rao.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Economic Reforms",
+          "topic": "Liberalization"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "mumbai-trans-harbour-sea-link-phase-2",
+        "headline": "Mumbai Trans Harbour Sea Link Phase 2 Inauguration Set to Boost Regional Connectivity",
+        "explainer": "• The second phase of the Mumbai Trans Harbour Sea Link (MTHL), also known as Atal Setu, is slated for inauguration, significantly enhancing connectivity in the Mumbai Metropolitan Region.\n• This phase extends the sea link further, reducing travel time between Mumbai and Navi Mumbai and facilitating faster access to the Navi Mumbai International Airport.\n• The mega-infrastructure project is expected to spur economic development in the extended Mumbai region, including the Jawaharlal Nehru Port (JNPT) area.\n• It incorporates advanced engineering techniques and environmental mitigation measures to minimize ecological impact.\n• MTHL is a crucial component of India's broader national infrastructure development push under the Gati Shakti Master Plan.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment."
+        ],
+        "date": "2025-07-07",
+        "source": "The Times of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Mumbai Trans Harbour Sea Link",
+          "MTHL",
+          "Infrastructure",
+          "Connectivity",
+          "Mumbai Metropolitan Region",
+          "Atal Setu",
+          "Gati Shakti"
+        ],
+        "keyTerms": [
+          "Mumbai Trans Harbour Sea Link (MTHL)",
+          "Atal Setu",
+          "Mumbai Metropolitan Region (MMR)",
+          "Gati Shakti Master Plan",
+          "Navi Mumbai International Airport"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "MTHL is India's longest sea bridge.",
+          "Connects Sewri in Mumbai to Nhava Sheva in Navi Mumbai.",
+          "Named 'Atal Bihari Vajpayee Smruti Nhava Sheva Atal Setu'.",
+          "Aims to decongest Mumbai and boost development in Navi Mumbai."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the socio-economic impact of mega-infrastructure projects like the Mumbai Trans Harbour Sea Link on urban development and regional connectivity.",
+          "Analyze how such projects align with national development strategies like the Gati Shakti Master Plan and contribute to multimodal connectivity.",
+          "Evaluate the engineering challenges and environmental considerations involved in constructing large-scale sea links.",
+          "Examine the potential for infrastructure development to drive economic growth and job creation in metropolitan regions."
+        ],
+        "imageDescription": "An aerial view of the majestic Mumbai Trans Harbour Sea Link stretching across the bay.",
+        "section": "Economy",
+        "trivia": "The Bandra-Worli Sea Link, inaugurated in 2009, was India's first cable-stayed bridge over the open sea.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Infrastructure",
+          "topic": "Roadways"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "smart-cities-mission-milestones",
+        "headline": "Smart Cities Mission Achieves Key Milestones in Sustainable Urbanization",
+        "explainer": "• The Ministry of Housing and Urban Affairs announced that the Smart Cities Mission has achieved significant milestones, completing over 75% of its proposed projects.\n• Key successes include integrated command and control centers, smart mobility solutions, and improved waste management systems in selected cities.\n• The mission has demonstrated the potential for technology-driven urban planning to enhance liveability, sustainability, and economic growth.\n• Challenges persist in funding, inter-agency coordination, and ensuring equitable access to smart infrastructure for all residents.\n• The government is now focusing on scaling up successful models and integrating lessons learned into future urban development policies.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2025-07-07",
+        "source": "Hindustan Times",
+        "sourceUrl": "",
+        "importance": "low",
+        "tags": [
+          "Smart Cities Mission",
+          "Urban Development",
+          "Sustainable Urbanization",
+          "Integrated Command Control Centers",
+          "Smart Mobility",
+          "Waste Management"
+        ],
+        "keyTerms": [
+          "Smart Cities Mission",
+          "Integrated Command and Control Centres (ICCCs)",
+          "Urban Governance",
+          "Sustainable Development Goals (SDGs)",
+          "Public-Private Partnership (PPP)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Smart Cities Mission was launched in 2015.",
+          "Aims to promote cities that provide core infrastructure, a clean and sustainable environment, and a decent quality of life to their citizens.",
+          "100 cities were selected under the mission.",
+          "Integrated Command and Control Centres (ICCCs) are the brain for city operations."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the objectives and achievements of the Smart Cities Mission in promoting sustainable urbanization in India.",
+          "Discuss the role of technology and integrated command and control centers in improving urban governance and service delivery.",
+          "Evaluate the challenges faced by the Smart Cities Mission, including funding constraints, citizen participation, and equitable development.",
+          "Suggest policy recommendations for scaling up successful smart city models and ensuring inclusive urban development in India."
+        ],
+        "imageDescription": "A futuristic cityscape with smart infrastructure, green spaces, and integrated technology.",
+        "section": "Environment",
+        "trivia": "The concept of 'smart city' originated in the early 2000s, often linked with the rise of information and communication technologies (ICT).",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Urbanization",
+          "topic": "Government Schemes"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "The Economic Times",
+    "The Hindu",
+    "Livemint",
+    "The Times of India",
+    "Press Information Bureau",
+    "The Indian Express",
+    "The Hindu BusinessLine",
+    "Deccan Herald",
+    "Business Standard",
+    "ANI",
+    "Mint",
+    "PTI",
+    "The Mint",
+    "Press Trust of India",
+    "Observer Research Foundation",
+    "Hindustan Times"
+  ],
+  "totalScraped": 19,
+  "totalProcessed": 19
+}
