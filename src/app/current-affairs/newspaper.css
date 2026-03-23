@@ -1037,3 +1037,127 @@
     border-radius: 2px;
     color: var(--np-ink-4);
 }
+
+/* ── Front Page Extras (Quote, On This Day, Data Snapshot) ───────────── */
+.np-extras {
+    background: var(--np-surface);
+    border-bottom: 1px solid var(--np-rule);
+}
+
+.np-extras-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 14px 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+
+.np-extra-card {
+    border-radius: 8px;
+    padding: 16px 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Quote of the Day */
+.np-extra-quote {
+    background: linear-gradient(135deg, #1E3A5F 0%, #2563EB 100%);
+    border: 1px solid rgba(59,130,246,0.25);
+}
+
+.np-extra-watermark {
+    position: absolute;
+    top: 6px;
+    right: 14px;
+    font-size: 48px;
+    opacity: 0.08;
+    color: #fff;
+    font-family: var(--np-serif);
+    pointer-events: none;
+    user-select: none;
+}
+
+.np-extra-label {
+    font: 700 9px/1 var(--np-sans);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.45);
+    margin-bottom: 10px;
+}
+
+.np-extra-quote-text {
+    font: 500 13.5px/1.55 var(--np-body);
+    font-style: italic;
+    color: #FFF1E5;
+    margin: 0 0 8px;
+}
+
+.np-extra-quote-author {
+    font: 600 11px/1 var(--np-sans);
+    color: rgba(255,255,255,0.55);
+    text-align: right;
+    margin: 0;
+}
+
+/* On This Day */
+.np-extra-otd {
+    background: linear-gradient(135deg, #064E3B 0%, #059669 100%);
+    border: 1px solid rgba(16,185,129,0.25);
+}
+
+.np-extra-year {
+    font: 800 28px/1 var(--np-sans);
+    color: #FFF1E5;
+    margin-bottom: 6px;
+}
+
+.np-extra-event {
+    font: 400 13px/1.5 var(--np-body);
+    color: rgba(255,255,255,0.88);
+    margin: 0;
+}
+
+/* Data Snapshot */
+.np-extra-data {
+    background: linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%);
+    border: 1px solid rgba(99,102,241,0.25);
+}
+
+.np-extra-data-row {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.np-extra-data-stat {
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.np-extra-data-value {
+    font: 800 30px/1 var(--np-sans);
+    color: #FFF1E5;
+}
+
+.np-extra-data-label {
+    font: 700 8px/1 var(--np-sans);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.35);
+    margin-top: 3px;
+}
+
+.np-extra-data-context {
+    font: 400 12px/1.5 var(--np-body);
+    color: rgba(255,255,255,0.65);
+    border-left: 1px solid rgba(255,255,255,0.14);
+    padding-left: 12px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .np-extras-inner {
+        grid-template-columns: 1fr;
+    }
+}

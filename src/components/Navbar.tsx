@@ -13,14 +13,10 @@ export default function Navbar() {
 
     const links: { href: string; label: string }[] = [
         { href: '/', label: t('nav_home') },
-        { href: '/syllabus', label: t('nav_syllabus') },
-        { href: '/quiz', label: 'AI Quiz' },
-        { href: '/mock-tests', label: 'Mock Tests' },
-        { href: '/features', label: t('nav_features') },
         { href: '/current-affairs', label: 'Current Affairs' },
         { href: '/daily-mock', label: 'Daily Mock' },
+        { href: '/mock-tests', label: 'Practice Mock Tests' },
         { href: '/pricing', label: t('nav_pricing') },
-        { href: '/about', label: t('nav_about') },
         { href: '/contact', label: 'Contact' },
     ];
 

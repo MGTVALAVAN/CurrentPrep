@@ -1,48 +1,72 @@
-# Dependencies
+# ── Dependencies ────────────────────────────────────────────────────────
 node_modules/
 .pnp/
 .pnp.js
 
-# Build output
+# ── Build output ────────────────────────────────────────────────────────
 .next/
 out/
 build/
 dist/
 
-# Environment variables
+# ── Environment variables ───────────────────────────────────────────────
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Debug logs
+# ── Debug & automation logs ─────────────────────────────────────────────
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
 
-# OS files
+# ── OS files ────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
 
-# IDE
+# ── IDE ─────────────────────────────────────────────────────────────────
 .vscode/
 .idea/
-
-# Vercel
-.vercel
-
-# TypeScript
-*.tsbuildinfo
-next-env.d.ts
-
-# Testing
-coverage/
-
-# Misc
 *.swp
 *.swo
 *~
 
-# PYQ raw PDFs (too large for git)
+# ── Vercel ──────────────────────────────────────────────────────────────
+.vercel
+
+# ── TypeScript ──────────────────────────────────────────────────────────
+*.tsbuildinfo
+next-env.d.ts
+
+# ── Testing ─────────────────────────────────────────────────────────────
+coverage/
+
+# ── Generated PDFs (ePaper output) ──────────────────────────────────────
+*.pdf
+
+# ── Generated screenshots & test images ─────────────────────────────────
+screenshot.jpg
+preview.jpg
+scripts/test_globe.png
+scripts/test_text.png
+
+# ── ePaper data (moves to Supabase in Day 5) ────────────────────────────
+src/data/epaper/
+src/data/current-affairs/
+
+# ── Generation manifests (runtime output) ───────────────────────────────
+generation_manifest.json
+
+# ── PYQ raw PDFs (too large for git) ────────────────────────────────────
 src/data/pyq/pdfs/
+
+# ── Generated images ───────────────────────────────────────────────────
+public/images/generated/
+
+# ── Empty directories ──────────────────────────────────────────────────
+Image collection/
+
+# ── Gemini/AI agent files ──────────────────────────────────────────────
+.gemini/

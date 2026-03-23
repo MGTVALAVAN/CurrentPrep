@@ -1,26 +1,84 @@
-import { NextResponse } from 'next/server';
+/**
+ * API Route: POST /api/contact
+ * 
+ * Handles contact form submissions.
+ * 
+ * SECURITY FIXES:
+ *   Issue 1.5 — Input sanitization with sanitize-html + Zod validation
+ *   Issue 1.7 — Rate limited: 5 requests per IP per hour
+ * 
+ * Previously, user inputs (name, email, subject, message) were interpolated
+ * directly into HTML email templates without sanitization, enabling HTML injection.
+ */
+
+import { NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
+import sanitize from 'sanitize-html';
+import { z } from 'zod';
+import { checkContactRateLimit, rateLimitResponse, getClientIP } from '@/lib/rate-limit';
 
-export async function POST(request: Request) {
+// ── Input Validation Schema ────────────────────────────────────────────
+
+const contactSchema = z.object({
+    name: z
+        .string()
+        .min(1, 'Name is required')
+        .max(100, 'Name must be under 100 characters')
+        .transform(val => sanitize(val, { allowedTags: [], allowedAttributes: {} })),
+    email: z
+        .string()
+        .email('Please provide a valid email address')
+        .max(255, 'Email must be under 255 characters'),
+    subject: z
+        .string()
+        .min(1, 'Subject is required')
+        .max(200, 'Subject must be under 200 characters')
+        .transform(val => sanitize(val, { allowedTags: [], allowedAttributes: {} })),
+    message: z
+        .string()
+        .min(1, 'Message is required')
+        .max(5000, 'Message must be under 5,000 characters')
+        .transform(val => sanitize(val, { allowedTags: [], allowedAttributes: {} })),
+});
+
+// ── Subject labels ─────────────────────────────────────────────────────
+
+const subjectLabels: Record<string, string> = {
+    general: 'General Inquiry',
+    support: 'Technical Support',
+    feedback: 'Feedback / Suggestion',
+    partnership: 'Partnership / Collaboration',
+    bug: 'Bug Report',
+    premium: 'Premium Plan Questions',
+};
+
+// ── Route Handler ──────────────────────────────────────────────────────
+
+export async function POST(request: NextRequest) {
     try {
-        const { name, email, subject, message } = await request.json();
-
-        if (!name || !email || !subject || !message) {
-            return NextResponse.json({ error: 'All fields are required' }, { status: 400 });
+        // --- Rate limit check (Issue 1.7) ---
+        const ip = getClientIP(request);
+        const rateCheck = checkContactRateLimit(ip);
+        if (!rateCheck.allowed) {
+            return rateLimitResponse(rateCheck.resetAt);
         }
 
-        const subjectLabels: Record<string, string> = {
-            general: 'General Inquiry',
-            support: 'Technical Support',
-            feedback: 'Feedback / Suggestion',
-            partnership: 'Partnership / Collaboration',
-            bug: 'Bug Report',
-            premium: 'Premium Plan Questions',
-        };
+        // --- Parse and validate input (Issue 1.5) ---
+        const body = await request.json();
+        const parseResult = contactSchema.safeParse(body);
 
-        const subjectLabel = subjectLabels[subject] || subject;
+        if (!parseResult.success) {
+            const errors = parseResult.error.issues.map(i => i.message);
+            return NextResponse.json(
+                { error: 'Validation failed', details: errors },
+                { status: 400 }
+            );
+        }
 
-        // If SMTP is configured, send a real email
+        const { name, email, subject, message } = parseResult.data;
+        const subjectLabel = subjectLabels[subject] || sanitize(subject, { allowedTags: [], allowedAttributes: {} });
+
+        // --- Send email (if SMTP configured) ---
         if (process.env.SMTP_USER && process.env.SMTP_PASS) {
             const transporter = nodemailer.createTransport({
                 host: process.env.SMTP_HOST || 'smtp.gmail.com',
@@ -32,9 +90,10 @@ export async function POST(request: Request) {
                 },
             });
 
+            // All values are already sanitized by Zod transforms above
             await transporter.sendMail({
-                from: `"Current IAS Prep Contact" <${process.env.SMTP_USER}>`,
-                to: process.env.CONTACT_EMAIL || process.env.SMTP_USER,
+                from: `"CurrentPrep Contact" <${process.env.SMTP_USER}>`,
+                to: process.env.CONTACT_EMAIL_TO || process.env.SMTP_USER,
                 replyTo: email,
                 subject: `[Contact] ${subjectLabel} — from ${name}`,
                 html: `
@@ -46,23 +105,23 @@ export async function POST(request: Request) {
                             <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
                                 <tr>
                                     <td style="padding: 8px 0; font-weight: bold; width: 100px; vertical-align: top;">Name:</td>
-                                    <td style="padding: 8px 0;">${name}</td>
+                                    <td style="padding: 8px 0;">${escapeHtml(name)}</td>
                                 </tr>
                                 <tr>
                                     <td style="padding: 8px 0; font-weight: bold; vertical-align: top;">Email:</td>
-                                    <td style="padding: 8px 0;"><a href="mailto:${email}">${email}</a></td>
+                                    <td style="padding: 8px 0;"><a href="mailto:${escapeHtml(email)}">${escapeHtml(email)}</a></td>
                                 </tr>
                                 <tr>
                                     <td style="padding: 8px 0; font-weight: bold; vertical-align: top;">Subject:</td>
-                                    <td style="padding: 8px 0;">${subjectLabel}</td>
+                                    <td style="padding: 8px 0;">${escapeHtml(subjectLabel)}</td>
                                 </tr>
                                 <tr>
                                     <td style="padding: 8px 0; font-weight: bold; vertical-align: top;">Message:</td>
-                                    <td style="padding: 8px 0; white-space: pre-wrap;">${message}</td>
+                                    <td style="padding: 8px 0; white-space: pre-wrap;">${escapeHtml(message)}</td>
                                 </tr>
                             </table>
                             <hr style="border: none; border-top: 1px solid #E0D0BE; margin: 20px 0;" />
-                            <p style="font-size: 12px; color: #8B6B42;">Sent via Current IAS Prep contact form</p>
+                            <p style="font-size: 12px; color: #8B6B42;">Sent via CurrentPrep contact form</p>
                         </div>
                     </div>
                 `,
@@ -76,11 +135,23 @@ export async function POST(request: Request) {
         console.log(`  Name: ${name}`);
         console.log(`  Email: ${email}`);
         console.log(`  Subject: ${subjectLabel}`);
-        console.log(`  Message: ${message}`);
+        console.log(`  Message: ${message.substring(0, 100)}...`);
 
         return NextResponse.json({ success: true, message: 'Message received (logged)' });
     } catch (error: any) {
         console.error('[contact] Error:', error.message);
         return NextResponse.json({ error: 'Failed to send message' }, { status: 500 });
     }
+}
+
+// ── HTML Escape Utility ────────────────────────────────────────────────
+
+/** Escape HTML special characters for safe interpolation into templates */
+function escapeHtml(text: string): string {
+    return text
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
 }

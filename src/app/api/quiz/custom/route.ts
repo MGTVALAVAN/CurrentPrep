@@ -1,4 +1,7 @@
 import { NextResponse } from 'next/server';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/app/api/auth/[...nextauth]/route';
+import { checkQuizRateLimit, rateLimitResponse } from '@/lib/rate-limit';
 import fs from 'fs';
 import path from 'path';
 
@@ -41,6 +44,23 @@ const UPSC_FULL_LENGTH_WEIGHTAGE: Record<string, number> = {
 // POST /api/quiz/custom — accepts body with attempted UIDs for repeat control
 export async function POST(request: Request) {
     try {
+        // --- Auth check (Issue 1.4) ---
+        const session = await getServerSession(authOptions);
+        if (!session?.user) {
+            return NextResponse.json(
+                { error: 'Authentication required. Please log in.' },
+                { status: 401 }
+            );
+        }
+
+        const userId = (session.user as any).id || session.user.email || 'unknown';
+
+        // --- Rate limit check (Issue 1.7) ---
+        const rateCheck = checkQuizRateLimit(userId);
+        if (!rateCheck.allowed) {
+            return rateLimitResponse(rateCheck.resetAt);
+        }
+
         const body = await request.json();
         const {
             subjects = [],        // string[]

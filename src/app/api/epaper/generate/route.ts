@@ -7,11 +7,16 @@
  *  3. Save structured JSON to data store
  *  4. Auto-fetch relevant images (Pexels / Gemini)
  *
- * Auth: Cron calls require CRON_SECRET; UI calls with ?force=true are allowed.
+ * Auth: ALL requests require CRON_SECRET in the Authorization header.
+ *       Use ?force=true to regenerate an existing edition (still requires auth).
+ *
  * Designed to be called by:
- *  - GitHub Actions at 8:00 AM IST (02:30 UTC)
  *  - Vercel Cron
- *  - Manual trigger from admin/UI
+ *  - Admin console (with CRON_SECRET)
+ *  - Manual trigger via curl (with CRON_SECRET)
+ *
+ * SECURITY FIX (Issue 1.3): Removed the ?force=true auth bypass.
+ * Previously, anyone could trigger expensive Gemini API calls without auth.
  */
 
 import { NextRequest, NextResponse } from 'next/server';
@@ -27,13 +32,21 @@ export async function POST(request: NextRequest) {
     try {
         const forceUpdate = request.nextUrl.searchParams.get('force') === 'true';
 
-        // --- Auth check (skip for UI-triggered force generation) ---
+        // --- Auth check: ALWAYS require CRON_SECRET (no bypasses) ---
         const authHeader = request.headers.get('authorization');
         const cronSecret = process.env.CRON_SECRET;
 
-        if (cronSecret && !forceUpdate && authHeader !== `Bearer ${cronSecret}`) {
+        if (!cronSecret) {
+            console.error('[epaper-api] CRON_SECRET is not configured');
             return NextResponse.json(
-                { error: 'Unauthorized' },
+                { error: 'Server misconfiguration: CRON_SECRET not set' },
+                { status: 500 }
+            );
+        }
+
+        if (authHeader !== `Bearer ${cronSecret}`) {
+            return NextResponse.json(
+                { error: 'Unauthorized. Provide valid CRON_SECRET in Authorization header.' },
                 { status: 401 }
             );
         }

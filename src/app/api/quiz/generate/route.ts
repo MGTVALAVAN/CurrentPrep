@@ -1,5 +1,8 @@
 import { NextResponse } from 'next/server';
 import { GoogleGenerativeAI } from '@google/generative-ai';
+import { getServerSession } from 'next-auth';
+import { authOptions } from '@/app/api/auth/[...nextauth]/route';
+import { checkQuizRateLimit, rateLimitResponse } from '@/lib/rate-limit';
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
 
@@ -20,6 +23,23 @@ const TOPICS = {
 
 export async function POST(request: Request) {
     try {
+        // --- Auth check (Issue 1.4) ---
+        const session = await getServerSession(authOptions);
+        if (!session?.user) {
+            return NextResponse.json(
+                { error: 'Authentication required. Please log in to generate quizzes.' },
+                { status: 401 }
+            );
+        }
+
+        const userId = (session.user as any).id || session.user.email || 'unknown';
+
+        // --- Rate limit check (Issue 1.7) ---
+        const rateCheck = checkQuizRateLimit(userId);
+        if (!rateCheck.allowed) {
+            return rateLimitResponse(rateCheck.resetAt);
+        }
+
         const { topic, difficulty, count, subtopic } = await request.json();
 
         if (!topic || !difficulty || !count) {

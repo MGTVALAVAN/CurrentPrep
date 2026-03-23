@@ -48,6 +48,9 @@ interface DailyEpaper {
     totalProcessed: number;
     highlights: string[];
     quickBytes?: QuickByte[];
+    quoteOfTheDay?: { text: string; author: string };
+    onThisDay?: { year: number; event: string };
+    dataSnapshot?: { label: string; value: string; context: string };
 }
 
 // ── Section config ───────────────────────────────────────────────────────
@@ -276,6 +279,60 @@ export default function CurrentAffairsPage() {
                     </div>
                 </div>
             ) : null}
+
+            {/* ── FRONT PAGE EXTRAS ──────────────────────────────── */}
+            {epaper && (epaper.quoteOfTheDay || epaper.onThisDay || epaper.dataSnapshot) && (
+                <div className="np-extras">
+                    <div className="np-extras-inner">
+                        {epaper.quoteOfTheDay && (
+                            <motion.div
+                                initial={{ opacity: 0, y: 12 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.15, duration: 0.45 }}
+                                className="np-extra-card np-extra-quote"
+                            >
+                                <div className="np-extra-watermark">{"\u201C"}</div>
+                                <div className="np-extra-label">{'\ud83d\udcac'} Quote of the Day</div>
+                                <p className="np-extra-quote-text">
+                                    &ldquo;{epaper.quoteOfTheDay.text}&rdquo;
+                                </p>
+                                <p className="np-extra-quote-author">
+                                    &mdash; {epaper.quoteOfTheDay.author}
+                                </p>
+                            </motion.div>
+                        )}
+                        {epaper.onThisDay && (
+                            <motion.div
+                                initial={{ opacity: 0, y: 12 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.25, duration: 0.45 }}
+                                className="np-extra-card np-extra-otd"
+                            >
+                                <div className="np-extra-label">{'\ud83d\udcc5'} On This Day</div>
+                                <div className="np-extra-year">{epaper.onThisDay.year}</div>
+                                <p className="np-extra-event">{epaper.onThisDay.event}</p>
+                            </motion.div>
+                        )}
+                        {epaper.dataSnapshot && (
+                            <motion.div
+                                initial={{ opacity: 0, y: 12 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.35, duration: 0.45 }}
+                                className="np-extra-card np-extra-data"
+                            >
+                                <div className="np-extra-label">{'\ud83d\udcca'} Data Snapshot</div>
+                                <div className="np-extra-data-row">
+                                    <div className="np-extra-data-stat">
+                                        <div className="np-extra-data-value">{epaper.dataSnapshot.value}</div>
+                                        <div className="np-extra-data-label">{epaper.dataSnapshot.label}</div>
+                                    </div>
+                                    <div className="np-extra-data-context">{epaper.dataSnapshot.context}</div>
+                                </div>
+                            </motion.div>
+                        )}
+                    </div>
+                </div>
+            )}
 
             {/* ── TOOLBAR ──────────────────────────────────────────── */}
             <div className="np-bar">

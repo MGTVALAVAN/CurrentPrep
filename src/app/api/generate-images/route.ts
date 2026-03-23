@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import { fetchArticleImages } from '@/lib/image-generator';
 import { loadLatestEpaper } from '@/lib/epaper-store';
 
@@ -9,9 +9,21 @@ import { loadLatestEpaper } from '@/lib/epaper-store';
  * 
  * Set PEXELS_API_KEY in .env.local for Pexels (free at pexels.com/api/)
  * Set GEMINI_API_KEY for AI generation fallback
+ * 
+ * SECURITY: Requires CRON_SECRET in Authorization header.
  */
-export async function POST() {
+export async function POST(request: NextRequest) {
     try {
+        // --- Auth check: require CRON_SECRET ---
+        const authHeader = request.headers.get('authorization');
+        const cronSecret = process.env.CRON_SECRET;
+        if (!cronSecret || authHeader !== `Bearer ${cronSecret}`) {
+            return NextResponse.json(
+                { error: 'Unauthorized. Provide valid CRON_SECRET.' },
+                { status: 401 }
+            );
+        }
+
         const pexelsKey = process.env.PEXELS_API_KEY;
         const geminiKey = process.env.GEMINI_API_KEY;
 

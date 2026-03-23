@@ -116,6 +116,9 @@ export interface DailyEpaper {
         reasoning: CsatReasoning[];
     };
     quickBytes?: QuickByte[];
+    quoteOfTheDay?: { text: string; author: string };
+    onThisDay?: { year: number; event: string };
+    dataSnapshot?: { label: string; value: string; context: string };
 }
 
 // ---------------------------------------------------------------------------

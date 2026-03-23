@@ -27,13 +27,21 @@ export const maxDuration = 60; // Allow up to 60 seconds for scraping + AI
 
 export async function POST(request: NextRequest) {
     try {
-        // --- Auth check ---
+        // --- Auth check: ALWAYS require CRON_SECRET ---
         const authHeader = request.headers.get('authorization');
         const cronSecret = process.env.CRON_SECRET;
 
-        if (cronSecret && authHeader !== `Bearer ${cronSecret}`) {
+        if (!cronSecret) {
+            console.error('[update] CRON_SECRET is not configured');
             return NextResponse.json(
-                { error: 'Unauthorized' },
+                { error: 'Server misconfiguration: CRON_SECRET not set' },
+                { status: 500 }
+            );
+        }
+
+        if (authHeader !== `Bearer ${cronSecret}`) {
+            return NextResponse.json(
+                { error: 'Unauthorized. Provide valid CRON_SECRET in Authorization header.' },
                 { status: 401 }
             );
         }

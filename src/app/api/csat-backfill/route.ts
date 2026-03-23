@@ -13,6 +13,16 @@ export const maxDuration = 120;
 
 export async function POST(request: NextRequest) {
     try {
+        // --- Auth check: require CRON_SECRET ---
+        const authHeader = request.headers.get('authorization');
+        const cronSecret = process.env.CRON_SECRET;
+        if (!cronSecret || authHeader !== `Bearer ${cronSecret}`) {
+            return NextResponse.json(
+                { error: 'Unauthorized. Provide valid CRON_SECRET.' },
+                { status: 401 }
+            );
+        }
+
         const apiKey = process.env.GEMINI_API_KEY;
         if (!apiKey) {
             return NextResponse.json({ error: 'GEMINI_API_KEY not configured' }, { status: 500 });
