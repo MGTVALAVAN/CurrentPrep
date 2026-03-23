@@ -1,0 +1,78 @@
+# GitHub Actions Workflow: Daily Content Pipeline
+#
+# Single orchestrated workflow that runs the CurrentPrep daily pipeline:
+#   1. Current Affairs scraping + AI categorization (5:30 AM IST)
+#   2. ePaper generation with explainers (30 min after news, 6:00 AM IST)
+#
+# Consolidates the previous separate daily-current-affairs.yml and
+# daily-epaper.yml workflows to prevent duplicate triggers (Issue 3.4).
+#
+# Prerequisites — set these GitHub repo secrets:
+#   - CRON_SECRET: Must match your .env.local CRON_SECRET
+#   - APP_URL: Your deployed app URL (e.g. https://currentprep.vercel.app)
+
+name: Daily Content Pipeline
+
+on:
+  schedule:
+    # 00:00 UTC = 05:30 AM IST — start the daily pipeline
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+jobs:
+  daily-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: 📰 Step 1 — Scrape & Categorize Current Affairs
+        id: current-affairs
+        run: |
+          echo "🕐 Step 1: Triggering current affairs update at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+
+          RESPONSE=$(curl -s -w "\n%{http_code}" \
+            -X POST "${{ secrets.APP_URL }}/api/current-affairs/update" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            -H "Content-Type: application/json" \
+            --max-time 60)
+
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+
+          echo "HTTP Status: $HTTP_CODE"
+          echo "Response: $BODY"
+
+          if [ "$HTTP_CODE" -ne 200 ]; then
+            echo "⚠️ Current affairs update returned $HTTP_CODE — continuing to ePaper generation"
+          else
+            echo "✅ Current affairs updated successfully!"
+          fi
+
+      - name: ⏳ Wait for news to settle
+        run: |
+          echo "Waiting 5 minutes before generating ePaper..."
+          sleep 300
+
+      - name: 📰 Step 2 — Generate Daily ePaper
+        id: epaper
+        run: |
+          echo "🕐 Step 2: Generating daily ePaper at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+
+          RESPONSE=$(curl -s -w "\n%{http_code}" \
+            -X POST "${{ secrets.APP_URL }}/api/epaper/generate" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            -H "Content-Type: application/json" \
+            --max-time 180)
+
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+
+          echo "HTTP Status: $HTTP_CODE"
+          echo "Response: $BODY"
+
+          if [ "$HTTP_CODE" -ne 200 ]; then
+            echo "❌ ePaper generation failed with status $HTTP_CODE"
+            exit 1
+          fi
+
+          echo "✅ Daily ePaper generated successfully!"
