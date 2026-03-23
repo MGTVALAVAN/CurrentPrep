@@ -89,3 +89,15 @@ export function isSupabaseConfigured(): boolean {
         process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
     );
 }
+
+/**
+ * Convenience getter: lazily create and return the admin Supabase client.
+ * Safe to use at module-level because it throws only when actually called
+ * (not at import time).
+ */
+export const supabaseAdmin = new Proxy({} as SupabaseClient, {
+    get(_target, prop) {
+        return (getSupabaseAdmin() as any)[prop];
+    },
+});
+

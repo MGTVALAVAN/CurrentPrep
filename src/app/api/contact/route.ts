@@ -16,6 +16,7 @@ import nodemailer from 'nodemailer';
 import sanitize from 'sanitize-html';
 import { z } from 'zod';
 import { checkContactRateLimit, rateLimitResponse, getClientIP } from '@/lib/rate-limit';
+import { saveContactSubmission } from '@/lib/db/contact';
 
 // ── Input Validation Schema ────────────────────────────────────────────
 
@@ -77,6 +78,15 @@ export async function POST(request: NextRequest) {
 
         const { name, email, subject, message } = parseResult.data;
         const subjectLabel = subjectLabels[subject] || sanitize(subject, { allowedTags: [], allowedAttributes: {} });
+
+        // --- Save to database (for admin console) ---
+        await saveContactSubmission({
+            name,
+            email,
+            subject: subjectLabel,
+            message,
+            ip_address: ip,
+        }).catch(err => console.error('[contact] DB save failed (non-blocking):', err));
 
         // --- Send email (if SMTP configured) ---
         if (process.env.SMTP_USER && process.env.SMTP_PASS) {
