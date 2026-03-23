@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { getServerSession } from 'next-auth';
-import { authOptions } from '@/app/api/auth/[...nextauth]/route';
+import { authOptions } from '@/lib/auth';
 import { checkQuizRateLimit, rateLimitResponse } from '@/lib/rate-limit';
 import fs from 'fs';
 import path from 'path';

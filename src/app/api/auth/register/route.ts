@@ -25,8 +25,9 @@ export async function POST(request: NextRequest) {
     try {
         // Rate limit
         const ip = getClientIP(request);
-        if (!checkAuthRateLimit(ip)) {
-            return rateLimitResponse();
+        const rateLimit = checkAuthRateLimit(ip);
+        if (!rateLimit.allowed) {
+            return rateLimitResponse(rateLimit.resetAt);
         }
 
         const body = await request.json();

@@ -1,0 +1,45 @@
+# CI Workflow: Lint + Type Check + Build
+#
+# Runs on every push to main and on all pull requests.
+# Ensures the codebase compiles, TypeScript is correct,
+# and ESLint passes before merging.
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+env:
+  NODE_VERSION: '20'
+
+jobs:
+  lint-build:
+    name: Lint & Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: 📥 Checkout code
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
+
+      - name: 📦 Install dependencies
+        run: npm ci
+
+      - name: 🧹 Lint
+        run: npm run lint
+
+      - name: 🏗️ Build
+        run: npm run build
+        env:
+          # Required by NextAuth at build time
+          NEXTAUTH_SECRET: ci-build-secret-not-real
+          NEXTAUTH_URL: http://localhost:3000

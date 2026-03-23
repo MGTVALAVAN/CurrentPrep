@@ -330,7 +330,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                             </div>
                             <h2 className="text-xl font-bold text-[#33200A]">High-Quality PDF Engine</h2>
                             <p className="text-center text-[#5C3D1A] text-sm mt-2">
-                                For an A4 formatted, perfect resolution, and text-searchable native PDF (unlike generic browser snapshots), we securely utilise your computer's built-in print PDF generator.
+                                For an A4 formatted, perfect resolution, and text-searchable native PDF (unlike generic browser snapshots), we securely utilise your computer&apos;s built-in print PDF generator.
                             </p>
                         </div>
                         <div className="p-6 bg-white flex flex-col gap-4">
@@ -516,7 +516,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                             {epaper.quoteOfTheDay && (
                                                 <div style={{ background: 'rgba(59,130,246,0.06)', padding: '6px 8px', borderRadius: '5px', lineHeight: 1.4, fontSize: '10px', border: '1px solid rgba(59,130,246,0.15)', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', marginTop: 'auto' }}>
                                                     <div style={{ fontWeight: 700, color: '#1E40AF', marginBottom: '3px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>💬 Quote of the Day</div>
-                                                    <div style={{ color: '#1E3A5F', fontStyle: 'italic', fontFamily: "'Source Serif 4', Georgia, serif", fontSize: '10.5px', lineHeight: 1.45 }}>"{epaper.quoteOfTheDay.text}"</div>
+                                                    <div style={{ color: '#1E3A5F', fontStyle: 'italic', fontFamily: "'Source Serif 4', Georgia, serif", fontSize: '10.5px', lineHeight: 1.45 }}>&ldquo;{epaper.quoteOfTheDay.text}&rdquo;</div>
                                                     <div style={{ color: '#64748B', fontSize: '9px', textAlign: 'right', marginTop: '2px', fontWeight: 600 }}>— {epaper.quoteOfTheDay.author}</div>
                                                 </div>
                                             )}
