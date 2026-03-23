@@ -1,6 +1,7 @@
 'use client';
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '@/contexts/LanguageProvider';
 import {
@@ -554,9 +555,9 @@ export default function DailyEpaperPage() {
                         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>
                             <div className="flex flex-col sm:flex-row justify-center items-center gap-5">
                                 <div className="bg-[#E3120B] p-2 md:p-3 rounded-2xl shadow-md flex items-center justify-center gap-3 md:gap-4 transition-transform hover:scale-[1.02] flex-shrink-0">
-                                    <img src="/images/logo_globe.png?v=2" alt="Globe Icon" className="h-10 md:h-14 w-auto object-contain drop-shadow-sm flex-shrink-0" />
+                                    <Image src="/images/logo_globe.png" alt="Globe Icon" width={56} height={56} className="h-10 md:h-14 w-auto object-contain drop-shadow-sm flex-shrink-0" priority />
                                     <div className="bg-white px-3 py-1.5 md:py-2 rounded-xl shadow-sm flex items-center justify-center flex-shrink-0">
-                                        <img src="/images/logo_text.png?v=2" alt="Current IAS Prep" className="h-8 md:h-10 w-auto object-contain" />
+                                        <Image src="/images/logo_text.png" alt="Current IAS Prep" width={120} height={40} className="h-8 md:h-10 w-auto object-contain" priority />
                                     </div>
                                 </div>
                                 <h1 className="epaper-title flex items-center gap-3">

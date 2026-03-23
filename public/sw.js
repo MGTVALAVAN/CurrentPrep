@@ -1,5 +1,5 @@
 // CurrentPrep Service Worker — Offline-first for ePaper
-const CACHE_NAME = 'currentprep-v2';
+const CACHE_NAME = 'currentprep-v3';
 const OFFLINE_URL = '/daily-epaper';
 
 // Assets to pre-cache on install
@@ -7,6 +7,9 @@ const PRE_CACHE = [
     '/',
     '/daily-epaper',
     '/daily-epaper/archive',
+    '/current-affairs',
+    '/syllabus',
+    '/pricing',
     '/manifest.json',
 ];
 
@@ -61,6 +64,25 @@ self.addEventListener('fetch', (event) => {
 
     // Images from bank: cache-first (they don't change)
     if (url.pathname.startsWith('/images/bank/')) {
+        event.respondWith(
+            caches.match(event.request).then((cached) => {
+                if (cached) return cached;
+                return fetch(event.request).then((response) => {
+                    if (response.ok) {
+                        const clone = response.clone();
+                        caches.open(CACHE_NAME).then((cache) => {
+                            cache.put(event.request, clone);
+                        });
+                    }
+                    return response;
+                });
+            })
+        );
+        return;
+    }
+
+    // Next.js static chunks + fonts: cache-first (immutable, hash-based)
+    if (url.pathname.startsWith('/_next/static/') || url.hostname === 'fonts.googleapis.com' || url.hostname === 'fonts.gstatic.com') {
         event.respondWith(
             caches.match(event.request).then((cached) => {
                 if (cached) return cached;

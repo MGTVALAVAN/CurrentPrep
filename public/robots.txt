@@ -1,0 +1,13 @@
+# robots.txt — CurrentPrep
+# https://currentprep.vercel.app
+
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+Disallow: /dashboard
+Disallow: /profile/
+Disallow: /_next/
+
+# Sitemap
+Sitemap: https://currentprep.vercel.app/sitemap.xml
