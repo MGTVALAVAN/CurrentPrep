@@ -3,6 +3,8 @@ import React, { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { ThemeProvider } from '@/contexts/ThemeProvider';
 import { LanguageProvider } from '@/contexts/LanguageProvider';
+import { ErrorBoundary } from '@/components/ErrorBoundary';
+import { WebVitalsReporter } from '@/components/WebVitalsReporter';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
@@ -30,12 +32,15 @@ export default function ClientProviders({ children }: { children: React.ReactNod
     }
 
     return (
-        <ThemeProvider>
-            <LanguageProvider>
-                <Navbar />
-                <main className="flex-1 pt-16">{children}</main>
-                <Footer />
-            </LanguageProvider>
-        </ThemeProvider>
+        <ErrorBoundary>
+            <ThemeProvider>
+                <LanguageProvider>
+                    <Navbar />
+                    <main id="main-content" className="flex-1 pt-16">{children}</main>
+                    <Footer />
+                    <WebVitalsReporter />
+                </LanguageProvider>
+            </ThemeProvider>
+        </ErrorBoundary>
     );
 }
