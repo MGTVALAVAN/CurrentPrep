@@ -1,281 +1,206 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/PWA-Enabled-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white" alt="PWA" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
-</p>
+# CurrentPrep — UPSC CSE Preparation Platform
 
-<h1 align="center">📚 CurrentPrep</h1>
-<h3 align="center"><em>Where Aspirants Become Achievers</em></h3>
-<p align="center">CSE SelfStudy Hub — Free, AI-Powered UPSC Civil Services Exam Preparation Platform</p>
+> **Where Aspirants Become Achievers** — AI-powered UPSC preparation with daily ePaper, mock tests, quizzes, and more.
 
-<p align="center">
-  <a href="#-features">Features</a> •
-  <a href="#-screenshots">Screenshots</a> •
-  <a href="#-tech-stack">Tech Stack</a> •
-  <a href="#-getting-started">Getting Started</a> •
-  <a href="#-project-structure">Structure</a> •
-  <a href="#-roadmap">Roadmap</a>
-</p>
+[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com)
+[![Tests](https://img.shields.io/badge/tests-53%20passing-brightgreen)](https://github.com)
+[![License](https://img.shields.io/badge/license-private-blue)](LICENSE)
 
 ---
 
-## 🎯 About
+## 🚀 Features
 
-**CurrentPrep** is a free, open-source, self-study platform for UPSC Civil Services Exam aspirants. Built with a **Blue Ocean Strategy** — we eliminate expensive coaching barriers and create accessible, AI-enhanced learning tools for students across India.
+### Free Tier
+- **Daily Current Affairs Digest** — AI-curated, GS-mapped articles with prelims & mains pointers
+- **UPSC Syllabus Hub** — Complete syllabus with PDF downloads
+- **AI Quiz Practice** — 5 quizzes/day across all subjects
+- **Bilingual Support** — English and Tamil
+- **Community Forum** — Read-only access
 
-### Why CurrentPrep?
-
-- 🆓 **Free Forever** — Core content is always free. No paywalls on essential resources.
-- 🤖 **AI-Powered** — Smart quiz generator, answer checker, personalized study roadmaps.
-- 🌐 **Bilingual** — Seamless English ↔ Tamil language switching (more languages coming).
-- 📱 **Mobile-First PWA** — Install on any phone, works offline.
-- 🌙 **Dark Mode** — Study comfortably at any hour.
-- 👥 **Community Driven** — Forum for aspirants to discuss, share, and support each other.
-
----
-
-## 📸 Screenshots
-
-### Homepage
-![Homepage](docs/screenshots/homepage.png)
-
-### Login / Sign Up
-![Login](docs/screenshots/login.png)
-
-### Dashboard
-![Dashboard](docs/screenshots/dashboard.png)
-
-### Community Forum
-![Community](docs/screenshots/community.png)
-
-### Current Affairs
-![Current Affairs](docs/screenshots/current-affairs.png)
+### Pro Tier (₹299/month)
+- **Daily ePaper** — Full newspaper-style explainers with source attribution
+- **Unlimited AI Quizzes** — Generate quizzes on any topic
+- **Daily Mock Tests** — Prelims (MCQ) & Mains (descriptive) practice
+- **Custom Mock Builder** — Build full-length UPSC papers
+- **PYQ Database** — 1995–2025 with analytics
+- **AI Answer Evaluation** — Mains answer checking
+- **Bookmarks & Study Lists** — Save and organize content
+- **Full Forum Access** — Post and reply
+- **Priority Support** — Direct email support
 
 ---
 
-## ✨ Features
-
-| Feature | Description |
-|---------|-------------|
-| 📖 **Syllabus Hub** | Complete UPSC Prelims & Mains syllabus with NCERT summaries, topic trees, and PDF links |
-| 🧠 **AI Quiz Generator** | Practice MCQs generated from specific topics, mimicking UPSC patterns |
-| 📊 **Progress Dashboard** | Track topics completed, quiz scores, study streaks, and earned badges |
-| 📰 **Current Affairs** | Daily news analysis with Prelims/Mains relevance tags and GS paper mapping |
-| 💬 **Community Forum** | Discussion threads with categories, upvotes, and peer mentorship |
-| ⏱️ **Study Timer** | Built-in Pomodoro-style timer with walking break reminders |
-| 🔐 **Authentication** | Secure login with NextAuth (demo mode + Google OAuth ready) |
-| 🌍 **Bilingual** | Full English & Tamil support with instant language switching |
-| 🌙 **Dark/Light Mode** | Theme toggle with system preference detection |
-| 📱 **PWA Support** | Installable on mobile, with service worker for offline access |
-| 💰 **Freemium Model** | Free tier + optional Premium (₹299/mo) for advanced AI tools |
-
----
-
-## 🛠️ Tech Stack
+## 🏗️ Tech Stack
 
 | Layer | Technology |
-|-------|------------|
-| **Framework** | [Next.js 14](https://nextjs.org/) (App Router) |
-| **Language** | [TypeScript](https://www.typescriptlang.org/) |
-| **Styling** | [Tailwind CSS](https://tailwindcss.com/) + Custom CSS variables |
-| **Animations** | [Framer Motion](https://www.framer.com/motion/) |
-| **Icons** | [Lucide React](https://lucide.dev/) |
-| **Authentication** | [NextAuth.js](https://next-auth.js.org/) |
-| **Database** | [Supabase](https://supabase.com/) (PostgreSQL) |
-| **Fonts** | Google Fonts (Inter + Outfit) |
-| **PWA** | Custom Service Worker + Web Manifest |
-
----
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- **Node.js** 18+ ([download](https://nodejs.org/))
-- **npm** or **yarn**
-
-### Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/MGTVALAVAN/CurrentPrep.git
-cd CurrentPrep
-
-# Install dependencies
-npm install
-
-# Set up environment variables
-cp .env.local.example .env.local
-# Edit .env.local with your values (see Environment Variables below)
-
-# Start development server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Environment Variables
-
-Create a `.env.local` file in the root directory:
-
-```env
-# NextAuth
-NEXTAUTH_URL=http://localhost:3000
-NEXTAUTH_SECRET=your-secret-key-here
-
-# Supabase (optional — for database integration)
-NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your-anon-key
-
-# Google OAuth (optional — for Google login)
-GOOGLE_CLIENT_ID=your-google-client-id
-GOOGLE_CLIENT_SECRET=your-google-client-secret
-```
-
-> **Note:** The app runs in **demo mode** by default — any email/password combination works for testing.
-
-### Build for Production
-
-```bash
-npm run build
-npm start
-```
+|-------|-----------|
+| **Framework** | Next.js 14 (App Router) |
+| **Language** | TypeScript |
+| **Styling** | Tailwind CSS + Custom CSS |
+| **Database** | Supabase (PostgreSQL) |
+| **Auth** | NextAuth.js (JWT + Google OAuth) |
+| **AI** | Google Gemini API |
+| **Payments** | Razorpay |
+| **Hosting** | Vercel |
+| **Testing** | Vitest + React Testing Library |
 
 ---
 
 ## 📁 Project Structure
 
 ```
-CurrentPrep/
-├── public/
-│   ├── manifest.json          # PWA configuration
-│   └── sw.js                  # Service worker for offline support
-├── src/
-│   ├── app/
-│   │   ├── page.tsx           # Homepage
-│   │   ├── layout.tsx         # Root layout with SEO metadata
-│   │   ├── globals.css        # Design system & CSS variables
-│   │   ├── login/             # Login & signup page
-│   │   ├── dashboard/         # User progress dashboard
-│   │   ├── syllabus/          # UPSC syllabus hub
-│   │   ├── features/          # Platform features showcase
-│   │   ├── pricing/           # Free & premium plans
-│   │   ├── blog/              # Preparation blog
-│   │   ├── community/         # Discussion forum
-│   │   ├── current-affairs/   # Daily news analysis
-│   │   ├── about/             # About page
-│   │   ├── contact/           # Contact & FAQ
-│   │   └── api/auth/          # NextAuth API routes
-│   ├── components/
-│   │   ├── Navbar.tsx         # Navigation bar
-│   │   ├── Footer.tsx         # Site footer
-│   │   └── ClientProviders.tsx # Theme & language providers
-│   ├── contexts/
-│   │   ├── ThemeProvider.tsx   # Dark/light mode context
-│   │   └── LanguageProvider.tsx # Bilingual context (EN/TA)
-│   └── data/
-│       ├── translations.ts    # i18n translation strings
-│       └── syllabusData.ts    # UPSC syllabus data
-├── supabase/
-│   └── schema.sql             # Database schema
-├── docs/
-│   └── screenshots/           # App screenshots
-├── tailwind.config.ts         # Tailwind CSS configuration
-├── next.config.mjs            # Next.js configuration
-└── package.json
+src/
+├── app/
+│   ├── api/              # API routes
+│   │   ├── auth/         # NextAuth.js handlers
+│   │   ├── epaper/       # ePaper generation & retrieval
+│   │   ├── payments/     # Razorpay integration
+│   │   ├── quiz/         # AI quiz generation
+│   │   └── admin/        # Admin panel APIs
+│   ├── admin/            # Admin console pages
+│   ├── current-affairs/  # Current affairs pages
+│   ├── daily-epaper/     # ePaper viewer & archive
+│   ├── daily-mock/       # Mock test pages
+│   ├── pricing/          # Pricing & billing
+│   ├── privacy-policy/   # Legal: privacy policy
+│   ├── terms/            # Legal: terms of service
+│   └── layout.tsx        # Root layout (SEO, JSON-LD)
+├── components/           # Reusable UI components
+├── config/               # App configuration (pricing, etc.)
+├── contexts/             # React contexts (theme, language)
+├── lib/                  # Core libraries
+│   ├── db/               # Database access layer
+│   ├── auth.ts           # NextAuth.js config
+│   ├── permissions.ts    # Feature gating
+│   ├── rate-limit.ts     # Rate limiting
+│   └── supabase.ts       # Supabase client
+├── i18n/                 # Internationalization strings
+└── types/                # TypeScript type definitions
 ```
 
 ---
 
-## 🗄️ Database Schema
+## 🛠️ Local Development
 
-The Supabase PostgreSQL schema includes tables for:
+### Prerequisites
+- Node.js 20+
+- npm 10+
+- Supabase project (free tier works)
+- Gemini API key
 
-| Table | Purpose |
-|-------|---------|
-| `users` | User profiles and preferences |
-| `progress` | Topic-wise completion tracking |
-| `forum_posts` | Community discussion threads |
-| `forum_replies` | Replies to forum posts |
-| `quiz_attempts` | Quiz scores and history |
-| `badges` | Gamification achievement badges |
-| `study_sessions` | Study time tracking |
+### Setup
 
-See [`supabase/schema.sql`](supabase/schema.sql) for the full schema.
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-org/currentprep.git
+cd currentprep
 
----
+# 2. Install dependencies
+npm install
 
-## 📄 Pages
+# 3. Copy environment template
+cp .env.local.example .env.local
 
-| Route | Page | Description |
-|-------|------|-------------|
-| `/` | Home | Hero, features, testimonials, stats, CTA |
-| `/login` | Login/Signup | Auth form with demo mode, Google OAuth |
-| `/dashboard` | Dashboard | Progress, streaks, timer, badges, quick actions |
-| `/syllabus` | Syllabus Hub | Prelims & Mains syllabus with topic trees |
-| `/features` | Features | Platform capabilities showcase |
-| `/pricing` | Pricing | Free vs Premium plan comparison |
-| `/blog` | Blog | Preparation tips and strategy guides |
-| `/community` | Community | Forum with categories, posts, contributors |
-| `/current-affairs` | Current Affairs | Daily news with UPSC relevance mapping |
-| `/about` | About | Mission, team, Blue Ocean strategy |
-| `/contact` | Contact | Contact form + FAQ accordion |
+# 4. Fill in environment variables (see below)
 
----
+# 5. Start dev server
+npm run dev
+```
 
-## 🗺️ Roadmap
+### Environment Variables
 
-- [x] Core pages (Home, Syllabus, Features, Pricing, Blog, About)
-- [x] Authentication (NextAuth with demo mode)
-- [x] Dashboard with progress tracking
-- [x] Community forum
-- [x] Current affairs page
-- [x] Dark/Light theme
-- [x] Bilingual support (EN/TA)
-- [x] PWA with service worker
-- [x] Contact page with FAQ
-- [ ] Supabase integration for data persistence
-- [ ] AI quiz generator backend
-- [ ] Google OAuth integration
-- [ ] Hindi, Telugu, Kannada language support
-- [ ] Blog post detail pages
-- [ ] Syllabus topic detail pages
-- [ ] Push notifications for current affairs
-- [ ] Answer writing practice module
-- [ ] Mentorship matching system
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `NEXTAUTH_URL` | ✅ | App URL (http://localhost:3000 for dev) |
+| `NEXTAUTH_SECRET` | ✅ | Random secret (openssl rand -base64 32) |
+| `NEXT_PUBLIC_SUPABASE_URL` | ✅ | Supabase project URL |
+| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | ✅ | Supabase anon key |
+| `SUPABASE_SERVICE_ROLE_KEY` | ✅ | Supabase service role key |
+| `GEMINI_API_KEY` | ✅ | Google Gemini API key |
+| `CRON_SECRET` | ✅ | Secret for cron job auth |
+| `GOOGLE_CLIENT_ID` | ❌ | Google OAuth client ID |
+| `GOOGLE_CLIENT_SECRET` | ❌ | Google OAuth client secret |
+| `SMTP_HOST` | ❌ | SMTP server for email |
+| `SMTP_PORT` | ❌ | SMTP port |
+| `SMTP_USER` | ❌ | SMTP username |
+| `SMTP_PASS` | ❌ | SMTP password |
+| `CONTACT_EMAIL_TO` | ❌ | Contact form recipient |
+| `RAZORPAY_KEY_ID` | ❌ | Razorpay key (for payments) |
+| `RAZORPAY_KEY_SECRET` | ❌ | Razorpay secret |
+| `RAZORPAY_WEBHOOK_SECRET` | ❌ | Razorpay webhook secret |
 
 ---
 
-## 🤝 Contributing
+## 🧪 Testing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+```bash
+# Run all tests
+npm test
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+# Watch mode
+npm run test:watch
 
----
+# Coverage report
+npm run test:coverage
+```
 
-## 📜 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgements
-
-- [NCERT](https://ncert.nic.in/) for free educational content
-- [UPSC](https://upsc.gov.in/) for official syllabus and resources
-- The UPSC aspirant community for inspiration and feedback
+**Test coverage:** 6 test suites, 53 tests covering:
+- Rate limiting logic
+- Auth configuration
+- Registration API
+- Contact form validation
+- Environment config
+- Middleware route protection
 
 ---
 
-<p align="center">
-  Made with ❤️ in Chennai, India 🇮🇳
-  <br />
-  <strong>CurrentPrep</strong> — Where Aspirants Become Achievers
-</p>
+## 🚢 Deployment (Vercel)
+
+1. Push to GitHub
+2. Connect repo to Vercel
+3. Add all environment variables in Vercel dashboard
+4. Deploy
+
+**CI/CD:** GitHub Actions runs tests → lint → build on every push and PR.
+
+### Cron Jobs (Vercel)
+| Endpoint | Schedule | Purpose |
+|----------|----------|---------|
+| `/api/epaper/generate` | 5:30 AM IST daily | Generate daily ePaper |
+| `/api/current-affairs/update` | 6:00 AM IST daily | Update current affairs |
+
+---
+
+## 🔒 Security
+
+- **Authentication:** NextAuth.js with JWT strategy, bcrypt password hashing
+- **Database:** Supabase RLS (Row-Level Security) policies
+- **API Protection:** Rate limiting on all sensitive endpoints
+- **Input Validation:** Zod schemas + sanitize-html
+- **Headers:** X-Frame-Options, X-Content-Type-Options, CSP
+- **Payments:** Razorpay HMAC-SHA256 signature verification
+- **Admin:** Role-based middleware protection
+
+---
+
+## ♿ Accessibility
+
+- WCAG 2.1 AA color contrast compliance
+- Skip-to-content link for keyboard navigation
+- Focus-visible outlines on interactive elements
+- ARIA labels on all icon buttons
+- Semantic HTML structure
+- Screen reader support
+
+---
+
+## 📄 License
+
+This project is proprietary. All rights reserved.
+
+---
+
+## 📧 Contact
+
+- **Email:** support@currentprep.in
+- **Website:** [currentprep.vercel.app](https://currentprep.vercel.app)

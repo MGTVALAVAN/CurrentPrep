@@ -1,6 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useTheme } from '@/contexts/ThemeProvider';
 import { useLanguage } from '@/contexts/LanguageProvider';
 import { Menu, X, Sun, Moon, BookOpen, Globe } from 'lucide-react';
@@ -22,22 +23,30 @@ export default function Navbar() {
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl border-b"
-            style={{ background: 'var(--glass-bg)', borderColor: 'var(--border-color)' }}>
+            style={{ background: 'var(--glass-bg)', borderColor: 'var(--border-color)' }}
+            role="navigation"
+            aria-label="Main navigation">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center group shrink min-w-0">
+                    <Link href="/" className="flex items-center group shrink min-w-0" aria-label="CurrentPrep Home">
                         <div className="bg-[#E3120B] p-1.5 md:p-2 rounded-xl flex shrink min-w-0 items-center justify-center gap-2 transition-transform group-hover:scale-[1.02] shadow-sm">
-                            <img
-                                src="/images/logo_globe.png?v=2"
-                                alt="Globe Icon"
+                            <Image
+                                src="/images/logo_globe.png"
+                                alt=""
+                                width={32}
+                                height={32}
                                 className="h-6 md:h-8 w-auto object-contain drop-shadow-sm shrink-0"
+                                priority
                             />
                             <div className="bg-white px-2 py-1 md:py-1.5 rounded-lg shadow-sm flex items-center justify-center shrink min-w-0">
-                                <img
-                                    src="/images/logo_text.png?v=2"
-                                    alt="Current IAS Prep"
+                                <Image
+                                    src="/images/logo_text.png"
+                                    alt="CurrentPrep"
+                                    width={80}
+                                    height={24}
                                     className="h-4 md:h-6 w-auto object-contain shrink min-w-0"
+                                    priority
                                 />
                             </div>
                         </div>
@@ -59,17 +68,18 @@ export default function Navbar() {
                     <div className="flex items-center gap-2">
                         <button onClick={toggleLanguage}
                             className="p-2 rounded-lg transition-all duration-200 hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
-                            title={language === 'en' ? 'Switch to Tamil' : 'Switch to English'}
+                            aria-label={language === 'en' ? 'Switch to Tamil' : 'Switch to English'}
                             style={{ color: 'var(--text-secondary)' }}>
-                            <Globe className="w-5 h-5" />
+                            <Globe className="w-5 h-5" aria-hidden="true" />
                             <span className="sr-only">{t('language_toggle')}</span>
                         </button>
 
+
                         <button onClick={toggleTheme}
                             className="p-2 rounded-lg transition-all duration-200 hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
-                            title={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
+                            aria-label={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
                             style={{ color: 'var(--text-secondary)' }}>
-                            {theme === 'light' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
+                            {theme === 'light' ? <Moon className="w-5 h-5" aria-hidden="true" /> : <Sun className="w-5 h-5" aria-hidden="true" />}
                         </button>
 
                         <Link href="/dashboard" className="hidden sm:inline-flex items-center gap-1.5 btn-outline text-sm !px-3 !py-2 mr-1"
@@ -82,8 +92,11 @@ export default function Navbar() {
 
                         {/* Mobile Menu Toggle */}
                         <button onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2 rounded-lg"
+                            aria-label={isOpen ? 'Close menu' : 'Open menu'}
+                            aria-expanded={isOpen}
+                            aria-controls="mobile-nav"
                             style={{ color: 'var(--text-primary)' }}>
-                            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                            {isOpen ? <X className="w-6 h-6" aria-hidden="true" /> : <Menu className="w-6 h-6" aria-hidden="true" />}
                         </button>
                     </div>
                 </div>
@@ -96,7 +109,9 @@ export default function Navbar() {
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
                         exit={{ opacity: 0, height: 0 }}
+                        id="mobile-nav"
                         className="md:hidden border-t overflow-hidden"
+                        role="menu"
                         style={{ background: 'var(--bg-primary)', borderColor: 'var(--border-color)' }}>
                         <div className="px-4 py-4 space-y-1">
                             {links.map((link) => (

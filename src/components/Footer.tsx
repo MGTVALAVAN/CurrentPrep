@@ -1,6 +1,7 @@
 'use client';
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useLanguage } from '@/contexts/LanguageProvider';
 import { BookOpen, Mail, MapPin, Phone } from 'lucide-react';
 
@@ -26,22 +27,26 @@ export default function Footer() {
     ];
 
     return (
-        <footer className="border-t" style={{ background: 'var(--bg-secondary)', borderColor: 'var(--border-color)' }}>
+        <footer className="border-t" style={{ background: 'var(--bg-secondary)', borderColor: 'var(--border-color)' }} role="contentinfo">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {/* Brand */}
                     <div className="lg:col-span-1">
-                        <Link href="/" className="flex items-center gap-2 mb-4">
+                        <Link href="/" className="flex items-center gap-2 mb-4" aria-label="CurrentPrep Home">
                             <div className="bg-[#E3120B] p-1.5 md:p-2 rounded-xl flex shrink min-w-0 items-center justify-center gap-2 transition-transform group-hover:scale-[1.02] shadow-sm">
-                                <img
-                                    src="/images/logo_globe.png?v=2"
-                                    alt="Globe Icon"
+                                <Image
+                                    src="/images/logo_globe.png"
+                                    alt=""
+                                    width={32}
+                                    height={32}
                                     className="h-6 md:h-8 w-auto object-contain drop-shadow-sm shrink-0"
                                 />
                                 <div className="bg-white px-2 py-1 md:py-1.5 rounded-lg shadow-sm flex items-center justify-center shrink min-w-0">
-                                    <img
-                                        src="/images/logo_text.png?v=2"
-                                        alt="Current IAS Prep"
+                                    <Image
+                                        src="/images/logo_text.png"
+                                        alt="CurrentPrep"
+                                        width={80}
+                                        height={24}
                                         className="h-4 md:h-6 w-auto object-contain shrink min-w-0"
                                     />
                                 </div>
@@ -125,6 +130,12 @@ export default function Footer() {
                         {t('footer_rights')}
                     </p>
                     <div className="flex items-center gap-4">
+                        <Link href="/privacy-policy" className="text-xs hover:text-accent-500 transition-colors" style={{ color: 'var(--text-muted)' }}>
+                            Privacy Policy
+                        </Link>
+                        <Link href="/terms" className="text-xs hover:text-accent-500 transition-colors" style={{ color: 'var(--text-muted)' }}>
+                            Terms of Service
+                        </Link>
                         <span className="text-xs px-3 py-1 rounded-full bg-green-500/10 text-green-600 dark:text-green-400 font-medium">
                             🇮🇳 Made in India
                         </span>
