@@ -49,8 +49,10 @@ coverage/
 # ── Generated screenshots & test images ─────────────────────────────────
 screenshot.jpg
 preview.jpg
-scripts/test_globe.png
-scripts/test_text.png
+scripts/test_*.png
+Curentprep logo.png
+*.jpg
+!public/**/*.jpg
 
 # ── ePaper data (moves to Supabase in Day 5) ────────────────────────────
 src/data/epaper/

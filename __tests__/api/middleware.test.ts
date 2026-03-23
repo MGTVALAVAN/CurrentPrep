@@ -6,7 +6,7 @@
  * ensures public routes are accessible.
  */
 
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
 
 // Mock next-auth JWT
 vi.mock('next-auth/jwt', () => ({

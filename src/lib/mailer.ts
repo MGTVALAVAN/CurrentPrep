@@ -1,5 +1,4 @@
 import nodemailer from 'nodemailer';
-import puppeteer from 'puppeteer';
 
 export async function sendDailyEpaperEmail(date: string) {
     const transporter = nodemailer.createTransport({
@@ -19,7 +18,10 @@ export async function sendDailyEpaperEmail(date: string) {
 
     try {
         console.log(`[mailer] Generating PDF attachment via Puppeteer from ${epaperUrl} ...`);
-        const browser = await puppeteer.launch({
+        // Dynamic import: puppeteer is in devDependencies (only available in
+        // the GitHub Actions cron environment, not on Vercel production).
+        const puppeteer = await import('puppeteer');
+        const browser = await puppeteer.default.launch({
             headless: true,
             args: ['--no-sandbox', '--disable-setuid-sandbox']
         });
