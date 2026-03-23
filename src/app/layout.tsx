@@ -1,6 +1,22 @@
 import type { Metadata, Viewport } from 'next';
+import { Inter, Outfit } from 'next/font/google';
 import './globals.css';
 import ClientProviders from '@/components/ClientProviders';
+
+// ── Font Loading (replaces CSS @import — Issue 4.4) ──────────────────
+const inter = Inter({
+    subsets: ['latin'],
+    display: 'swap',
+    variable: '--font-inter',
+    weight: ['300', '400', '500', '600', '700', '800'],
+});
+
+const outfit = Outfit({
+    subsets: ['latin'],
+    display: 'swap',
+    variable: '--font-outfit',
+    weight: ['400', '500', '600', '700', '800'],
+});
 
 export const viewport: Viewport = {
     width: 'device-width',
@@ -26,7 +42,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
-        <html lang="en" suppressHydrationWarning>
+        <html lang="en" suppressHydrationWarning className={`${inter.variable} ${outfit.variable}`}>
             <head>
                 <meta name="apple-mobile-web-app-capable" content="yes" />
                 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />

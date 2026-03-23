@@ -1,11 +1,14 @@
 'use client';
 import React, { useState } from 'react';
 import { signIn } from 'next-auth/react';
-import { useSearchParams } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useLanguage } from '@/contexts/LanguageProvider';
-import { Mail, Lock, Eye, EyeOff, BookOpen, ArrowRight, CheckCircle2, AlertTriangle } from 'lucide-react';
+import {
+    Mail, Lock, User, Eye, EyeOff, BookOpen, ArrowRight,
+    CheckCircle2, AlertTriangle, Sparkles
+} from 'lucide-react';
 
 const benefits = [
     'Free NCERT summaries & study material',
@@ -16,39 +19,63 @@ const benefits = [
     'Daily current affairs updates',
 ];
 
-export default function LoginPage() {
+export default function RegisterPage() {
     const { t } = useLanguage();
+    const router = useRouter();
     const searchParams = useSearchParams();
-    const callbackUrl = searchParams.get('callbackUrl') || '/dashboard';
-    const errorParam = searchParams.get('error');
 
-    const [showPassword, setShowPassword] = useState(false);
-    const [email, setEmail] = useState('');
+    const [name, setName] = useState(searchParams.get('name') || '');
+    const [email, setEmail] = useState(searchParams.get('email') || '');
     const [password, setPassword] = useState('');
+    const [confirmPassword, setConfirmPassword] = useState('');
+    const [showPassword, setShowPassword] = useState(false);
     const [isLoading, setIsLoading] = useState(false);
-    const [error, setError] = useState<string | null>(
-        errorParam === 'CredentialsSignin' ? 'Invalid email or password. Please try again.' :
-        errorParam ? 'An error occurred. Please try again.' : null
-    );
+    const [error, setError] = useState<string | null>(null);
 
-    const handleCredentialsLogin = async (e: React.FormEvent) => {
+    const handleRegister = async (e: React.FormEvent) => {
         e.preventDefault();
-        setIsLoading(true);
         setError(null);
 
+        // Client-side validation
+        if (password.length < 8) {
+            setError('Password must be at least 8 characters long.');
+            return;
+        }
+        if (password !== confirmPassword) {
+            setError('Passwords do not match.');
+            return;
+        }
+
+        setIsLoading(true);
+
         try {
-            const result = await signIn('credentials', {
+            // Call our registration API
+            const res = await fetch('/api/auth/register', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name, email, password }),
+            });
+
+            const data = await res.json();
+
+            if (!res.ok) {
+                setError(data.error || 'Registration failed. Please try again.');
+                setIsLoading(false);
+                return;
+            }
+
+            // Auto sign-in after successful registration
+            const signInResult = await signIn('credentials', {
                 email,
                 password,
                 redirect: false,
             });
 
-            if (result?.error) {
-                setError('Invalid email or password. Please try again.');
-                setIsLoading(false);
-            } else if (result?.ok) {
-                // Successful login — redirect
-                window.location.href = callbackUrl;
+            if (signInResult?.ok) {
+                router.push('/dashboard');
+            } else {
+                // Registration worked but auto-login failed — redirect to login
+                router.push('/login');
             }
         } catch {
             setError('Something went wrong. Please try again.');
@@ -56,13 +83,13 @@ export default function LoginPage() {
         }
     };
 
-    const handleGoogleLogin = () => {
-        signIn('google', { callbackUrl });
+    const handleGoogleSignup = () => {
+        signIn('google', { callbackUrl: '/dashboard' });
     };
 
     return (
         <div className="min-h-screen flex" style={{ background: 'var(--bg-primary)' }}>
-            {/* Left Side - Branding & Benefits */}
+            {/* Left Side - Branding */}
             <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden">
                 <div className="hero-bg absolute inset-0" />
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-800/90 to-primary-900/95" />
@@ -83,11 +110,11 @@ export default function LoginPage() {
                         </Link>
 
                         <h1 className="font-heading text-4xl lg:text-5xl font-bold leading-tight mb-2">
-                            Where Aspirants<br />
-                            <span className="text-accent-300">Become Achievers</span>
+                            Start Your<br />
+                            <span className="text-accent-300">UPSC Journey</span>
                         </h1>
                         <p className="text-primary-300 text-sm mb-6 font-medium tracking-wide uppercase">
-                            Your UPSC Journey Starts Here
+                            100% Free • No Credit Card Needed
                         </p>
                         <p className="text-primary-200 text-lg mb-10 max-w-md">
                             Join thousands of aspirants preparing smarter with AI-powered tools and curated free resources.
@@ -109,7 +136,7 @@ export default function LoginPage() {
                 </div>
             </div>
 
-            {/* Right Side - Login Form */}
+            {/* Right Side - Registration Form */}
             <div className="w-full lg:w-1/2 flex items-center justify-center p-6 sm:p-12">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -128,11 +155,14 @@ export default function LoginPage() {
                         </div>
                     </div>
 
-                    <h2 className="font-heading text-3xl font-bold mb-2" style={{ color: 'var(--text-primary)' }}>
-                        Welcome Back
-                    </h2>
+                    <div className="flex items-center gap-2 mb-6">
+                        <Sparkles className="w-5 h-5 text-accent-500" />
+                        <h2 className="font-heading text-3xl font-bold" style={{ color: 'var(--text-primary)' }}>
+                            Create Account
+                        </h2>
+                    </div>
                     <p className="text-base mb-8" style={{ color: 'var(--text-secondary)' }}>
-                        Continue your preparation where you left off
+                        Start your UPSC preparation journey today — completely free.
                     </p>
 
                     {/* Error Message */}
@@ -145,7 +175,7 @@ export default function LoginPage() {
 
                     {/* Google OAuth */}
                     <button
-                        onClick={handleGoogleLogin}
+                        onClick={handleGoogleSignup}
                         className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 transition-all duration-200 hover:shadow-md mb-6"
                         style={{ borderColor: 'var(--border-color)', color: 'var(--text-primary)', background: 'var(--bg-card)' }}>
                         <svg className="w-5 h-5" viewBox="0 0 24 24">
@@ -154,17 +184,34 @@ export default function LoginPage() {
                             <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05" />
                             <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335" />
                         </svg>
-                        Continue with Google
+                        Sign up with Google
                     </button>
 
                     <div className="flex items-center gap-3 mb-6">
                         <div className="flex-1 h-px" style={{ background: 'var(--border-color)' }} />
-                        <span className="text-sm" style={{ color: 'var(--text-muted)' }}>or sign in with email</span>
+                        <span className="text-sm" style={{ color: 'var(--text-muted)' }}>or register with email</span>
                         <div className="flex-1 h-px" style={{ background: 'var(--border-color)' }} />
                     </div>
 
-                    {/* Credentials Form */}
-                    <form onSubmit={handleCredentialsLogin} className="space-y-4">
+                    {/* Registration Form */}
+                    <form onSubmit={handleRegister} className="space-y-4">
+                        <div>
+                            <label className="block text-sm font-medium mb-1.5" style={{ color: 'var(--text-secondary)' }}>
+                                Full Name
+                            </label>
+                            <div className="relative">
+                                <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: 'var(--text-muted)' }} />
+                                <input
+                                    type="text" value={name} onChange={(e) => setName(e.target.value)}
+                                    placeholder="Enter your full name"
+                                    className="input-field !pl-11"
+                                    required
+                                    id="register-name"
+                                    autoComplete="name"
+                                />
+                            </div>
+                        </div>
+
                         <div>
                             <label className="block text-sm font-medium mb-1.5" style={{ color: 'var(--text-secondary)' }}>
                                 Email Address
@@ -176,7 +223,7 @@ export default function LoginPage() {
                                     placeholder="you@example.com"
                                     className="input-field !pl-11"
                                     required
-                                    id="login-email"
+                                    id="register-email"
                                     autoComplete="email"
                                 />
                             </div>
@@ -191,11 +238,12 @@ export default function LoginPage() {
                                 <input
                                     type={showPassword ? 'text' : 'password'}
                                     value={password} onChange={(e) => setPassword(e.target.value)}
-                                    placeholder="Enter your password"
+                                    placeholder="Min 8 characters"
                                     className="input-field !pl-11 !pr-11"
                                     required
-                                    id="login-password"
-                                    autoComplete="current-password"
+                                    minLength={8}
+                                    id="register-password"
+                                    autoComplete="new-password"
                                 />
                                 <button type="button" onClick={() => setShowPassword(!showPassword)}
                                     className="absolute right-3.5 top-1/2 -translate-y-1/2"
@@ -206,25 +254,51 @@ export default function LoginPage() {
                             </div>
                         </div>
 
+                        <div>
+                            <label className="block text-sm font-medium mb-1.5" style={{ color: 'var(--text-secondary)' }}>
+                                Confirm Password
+                            </label>
+                            <div className="relative">
+                                <Lock className="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: 'var(--text-muted)' }} />
+                                <input
+                                    type={showPassword ? 'text' : 'password'}
+                                    value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)}
+                                    placeholder="Re-enter your password"
+                                    className="input-field !pl-11"
+                                    required
+                                    minLength={8}
+                                    id="register-confirm-password"
+                                    autoComplete="new-password"
+                                />
+                            </div>
+                        </div>
+
                         <button type="submit" disabled={isLoading}
-                            id="login-submit"
+                            id="register-submit"
                             className="w-full btn-primary flex items-center justify-center gap-2 !py-3.5 text-base disabled:opacity-60">
                             {isLoading ? (
                                 <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                             ) : (
                                 <>
-                                    Sign In
+                                    Create Free Account
                                     <ArrowRight className="w-5 h-5" />
                                 </>
                             )}
                         </button>
+
+                        <p className="text-center text-xs mt-2" style={{ color: 'var(--text-muted)' }}>
+                            By creating an account, you agree to our{' '}
+                            <Link href="/terms" className="text-accent-500 hover:underline">Terms</Link>
+                            {' '}and{' '}
+                            <Link href="/privacy-policy" className="text-accent-500 hover:underline">Privacy Policy</Link>.
+                        </p>
                     </form>
 
                     <p className="text-center mt-6 text-sm" style={{ color: 'var(--text-secondary)' }}>
-                        Don&apos;t have an account?{' '}
-                        <Link href="/register"
+                        Already have an account?{' '}
+                        <Link href="/login"
                             className="font-semibold text-accent-500 hover:text-accent-600 transition-colors">
-                            Sign Up Free
+                            Sign In
                         </Link>
                     </p>
                 </motion.div>

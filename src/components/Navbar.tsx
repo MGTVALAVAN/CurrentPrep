@@ -76,7 +76,7 @@ export default function Navbar() {
                             style={{ fontSize: '13px' }}>
                             Dashboard
                         </Link>
-                        <Link href="/login" className="hidden sm:inline-flex btn-accent text-sm !px-4 !py-2">
+                        <Link href="/register" className="hidden sm:inline-flex btn-accent text-sm !px-4 !py-2">
                             {t('nav_signup')}
                         </Link>
 
@@ -108,7 +108,7 @@ export default function Navbar() {
                                     {link.label}
                                 </Link>
                             ))}
-                            <Link href="/pricing" onClick={() => setIsOpen(false)}
+                            <Link href="/register" onClick={() => setIsOpen(false)}
                                 className="block text-center btn-accent mt-3 text-sm">
                                 {t('nav_signup')}
                             </Link>

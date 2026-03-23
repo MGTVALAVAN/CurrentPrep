@@ -86,9 +86,11 @@ export default function HomePage() {
 
     const handleSignup = (e: React.FormEvent) => {
         e.preventDefault();
-        // TODO: Hook up to actual signup API
-        setSignupSubmitted(true);
-        setTimeout(() => setSignupSubmitted(false), 4000);
+        // Redirect to register page with pre-filled data
+        const params = new URLSearchParams();
+        if (signupName) params.set('name', signupName);
+        if (signupEmail) params.set('email', signupEmail);
+        window.location.href = `/register?${params.toString()}`;
     };
 
     return (
