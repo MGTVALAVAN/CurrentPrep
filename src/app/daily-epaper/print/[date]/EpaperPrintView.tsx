@@ -81,6 +81,9 @@ interface DailyEpaper {
         comprehension: CsatComprehension[];
         reasoning: CsatReasoning[];
     };
+    quoteOfTheDay?: { text: string; author: string };
+    onThisDay?: { year: number; event: string };
+    dataSnapshot?: { label: string; value: string; context: string };
 }
 
 /* ─────────────────────────────────────────────────────────────────────────
@@ -497,9 +500,24 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                 </div>
                                             )}
                                             {lead.trivia && (
-                                                <div style={{ background: 'rgba(212,121,28,0.08)', padding: '5px 8px', borderRadius: '5px', lineHeight: 1.35, fontSize: '10px', border: '1px solid rgba(212,121,28,0.15)', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', marginTop: 'auto', marginBottom: 0 }}>
+                                                <div style={{ background: 'rgba(212,121,28,0.08)', padding: '5px 8px', borderRadius: '5px', lineHeight: 1.35, fontSize: '10px', border: '1px solid rgba(212,121,28,0.15)', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
                                                     <div style={{ fontWeight: 700, color: '#D4791C', marginBottom: '2px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>💡 Did You Know?</div>
                                                     <div style={{ color: '#5C3D1A', fontFamily: "'Source Serif 4', Georgia, serif" }}>{lead.trivia}</div>
+                                                </div>
+                                            )}
+                                            {/* On This Day */}
+                                            {epaper.onThisDay && (
+                                                <div style={{ background: 'rgba(16,185,129,0.08)', padding: '5px 8px', borderRadius: '5px', lineHeight: 1.35, fontSize: '10px', border: '1px solid rgba(16,185,129,0.2)', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
+                                                    <div style={{ fontWeight: 700, color: '#047857', marginBottom: '2px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>📅 On This Day ({epaper.onThisDay.year})</div>
+                                                    <div style={{ color: '#064E3B', fontFamily: "'Source Serif 4', Georgia, serif" }}>{epaper.onThisDay.event}</div>
+                                                </div>
+                                            )}
+                                            {/* Quote of the Day */}
+                                            {epaper.quoteOfTheDay && (
+                                                <div style={{ background: 'rgba(59,130,246,0.06)', padding: '6px 8px', borderRadius: '5px', lineHeight: 1.4, fontSize: '10px', border: '1px solid rgba(59,130,246,0.15)', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', marginTop: 'auto' }}>
+                                                    <div style={{ fontWeight: 700, color: '#1E40AF', marginBottom: '3px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>💬 Quote of the Day</div>
+                                                    <div style={{ color: '#1E3A5F', fontStyle: 'italic', fontFamily: "'Source Serif 4', Georgia, serif", fontSize: '10.5px', lineHeight: 1.45 }}>&ldquo;{epaper.quoteOfTheDay.text}&rdquo;</div>
+                                                    <div style={{ color: '#64748B', fontSize: '9px', textAlign: 'right', marginTop: '2px', fontWeight: 600 }}>— {epaper.quoteOfTheDay.author}</div>
                                                 </div>
                                             )}
                                         </div>
@@ -538,6 +556,21 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                 );
                                             })()}
                                         </div>
+                                    {/* Data Snapshot */}
+                                    {epaper.dataSnapshot && (
+                                        <div style={{ background: '#1A3C6E', borderRadius: '6px', padding: '8px 12px', marginTop: '8px', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
+                                            <div style={{ fontWeight: 700, color: 'rgba(255,255,255,0.7)', fontSize: '8.5px', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '3px' }}>📊 Data Snapshot</div>
+                                            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                                <div style={{ textAlign: 'center', flexShrink: 0 }}>
+                                                    <div style={{ fontSize: '22px', fontWeight: 800, color: '#FFF1E5', fontFamily: "'DM Sans', system-ui, sans-serif", lineHeight: 1.1 }}>{epaper.dataSnapshot.value}</div>
+                                                    <div style={{ fontSize: '8px', color: 'rgba(255,255,255,0.6)', textTransform: 'uppercase', letterSpacing: '0.06em', marginTop: '1px' }}>{epaper.dataSnapshot.label}</div>
+                                                </div>
+                                                <div style={{ fontSize: '9.5px', color: 'rgba(255,255,255,0.85)', lineHeight: 1.35, fontFamily: "'Source Serif 4', Georgia, serif", borderLeft: '1px solid rgba(255,255,255,0.2)', paddingLeft: '10px' }}>
+                                                    {epaper.dataSnapshot.context}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )}
                                     </div>
                                 </div>
                             </div>
@@ -580,66 +613,65 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                     </div>
                                     {/* Headline */}
                                     <h3 style={{ fontSize: '17px', fontWeight: 800, lineHeight: 1.15, margin: '0 0 5px 0', color: '#33200A', fontFamily: "'Source Serif 4', Georgia, serif" }}>{a.headline}</h3>
-                                    {/* Two-column body */}
-                                    <div style={{ display: 'flex', gap: '14px', flex: 1, overflow: 'hidden' }}>
-                                        {/* Left: explainer */}
-                                        <div style={{ flex: '1.3', fontSize: '11px', lineHeight: 1.6, color: '#3D2B1A', fontFamily: "'Source Serif 4', Georgia, serif", textAlign: 'justify', overflow: 'hidden' }}>
-                                            {(() => {
-                                                const rawText = typeof a.explainer === 'string' ? a.explainer : Object.entries(a.explainer || {}).map(([k, v]) => `**${k}:** ${v}`).join('\n');
-                                                const raw = normalizeExplainer(rawText);
-                                                // Split by newlines and classify each line
-                                                const lines = raw.split('\n');
-                                                const bullets: string[] = [];
-                                                const passageLines: string[] = [];
-                                                lines.forEach(line => {
-                                                    const trimmed = line.trim();
-                                                    if (!trimmed) return;
-                                                    if (trimmed.startsWith('•')) {
-                                                        bullets.push(trimmed.replace(/^•\s*/, ''));
-                                                    } else {
-                                                        passageLines.push(trimmed);
-                                                    }
-                                                });
-                                                const passage = passageLines.join(' ');
-                                                // If still no separation, treat everything as passage
-                                                if (bullets.length === 0) {
-                                                    return renderText(raw);
-                                                }
-                                                return (
-                                                    <>
-                                                        <div style={{ background: '#EFEFEF', borderRadius: '5px', padding: '8px 10px', marginBottom: '8px', fontSize: '10.5px', lineHeight: 1.5, WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
-                                                            {bullets.map((b, i) => <div key={i} style={{ paddingLeft: '12px', textIndent: '-12px', marginBottom: i < bullets.length - 1 ? '5px' : '0' }}>• {b}</div>)}
-                                                        </div>
-                                                        {passage && renderText(passage)}
-                                                    </>
-                                                );
-                                            })()}
-                                        </div>
-                                        {/* Right: terms + pointers */}
-                                        <div style={{ flex: '1', fontSize: '11px', display: 'flex', flexDirection: 'column', gap: '5px' }}>
-                                            <div style={{ background: 'rgba(139,69,19,0.06)', padding: '5px 8px', borderRadius: '4px', fontSize: '11.5px', lineHeight: 1.4 }}>
-                                                <strong style={{ color: '#8B4513', fontSize: '10.5px' }}>Key Terms:</strong> <span style={{ color: '#5C3D1A' }}>{a.keyTerms.slice(0, 4).join(' · ')}</span>
+                                    {/* Flowing two-column body: bullets → analysis → boxes */}
+                                    {(() => {
+                                        const rawText = typeof a.explainer === 'string' ? a.explainer : Object.entries(a.explainer || {}).map(([k, v]) => `**${k}:** ${v}`).join('\n');
+                                        const raw = normalizeExplainer(rawText);
+                                        const lines = raw.split('\n');
+                                        const bullets: string[] = [];
+                                        const passageLines: string[] = [];
+                                        lines.forEach(line => {
+                                            const trimmed = line.trim();
+                                            if (!trimmed) return;
+                                            if (trimmed.startsWith('•')) {
+                                                bullets.push(trimmed.replace(/^•\s*/, ''));
+                                            } else {
+                                                passageLines.push(trimmed);
+                                            }
+                                        });
+                                        const passage = passageLines.join(' ');
+                                        const hasBullets = bullets.length > 0;
+
+                                        return (
+                                            <div style={{ columnCount: 2, columnGap: '14px', columnRule: '1px solid var(--ep-rule)', flex: 1, overflow: 'hidden', fontSize: '11px', lineHeight: 1.6, color: '#3D2B1A', fontFamily: "'Source Serif 4', Georgia, serif" }}>
+                                                {/* Bullet points */}
+                                                {hasBullets && (
+                                                    <div style={{ background: '#EFEFEF', borderRadius: '5px', padding: '8px 10px', marginBottom: '8px', fontSize: '10.5px', lineHeight: 1.5, WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', breakInside: 'avoid' }}>
+                                                        {bullets.map((b, i) => <div key={i} style={{ paddingLeft: '12px', textIndent: '-12px', marginBottom: i < bullets.length - 1 ? '5px' : '0' }}>• {b}</div>)}
+                                                    </div>
+                                                )}
+                                                {/* Analysis passage */}
+                                                <div style={{ textAlign: 'justify', hyphens: 'auto' as any }}>
+                                                    {hasBullets ? (passage && renderText(passage)) : renderText(raw)}
+                                                </div>
+                                                {/* Key Terms */}
+                                                <div style={{ background: 'rgba(139,69,19,0.06)', padding: '5px 8px', borderRadius: '4px', fontSize: '11.5px', lineHeight: 1.4, marginTop: '8px', breakInside: 'avoid' }}>
+                                                    <strong style={{ color: '#8B4513', fontSize: '10.5px' }}>Key Terms:</strong> <span style={{ color: '#5C3D1A' }}>{a.keyTerms.slice(0, 4).join(' · ')}</span>
+                                                </div>
+                                                {/* Prelims */}
+                                                {a.prelims && a.prelimsPoints.length > 0 && (
+                                                    <div style={{ background: 'rgba(192,57,43,0.06)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11.5px', border: '1px solid rgba(192,57,43,0.12)', marginTop: '5px', breakInside: 'avoid' }}>
+                                                        <div style={{ fontWeight: 700, color: '#C0392B', marginBottom: '2px', fontSize: '10.5px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>📝 Prelims</div>
+                                                        {a.prelimsPoints.slice(0, 3).map((p, i) => <div key={i} style={{ color: '#5C3D1A', paddingLeft: '10px', textIndent: '-10px' }}>• {p}</div>)}
+                                                    </div>
+                                                )}
+                                                {/* Mains */}
+                                                {a.mains && a.mainsPoints.length > 0 && (
+                                                    <div style={{ background: 'rgba(26,60,110,0.06)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11.5px', border: '1px solid rgba(26,60,110,0.12)', marginTop: '5px', breakInside: 'avoid' }}>
+                                                        <div style={{ fontWeight: 700, color: '#1A3C6E', marginBottom: '2px', fontSize: '10.5px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>✍️ Mains</div>
+                                                        {a.mainsPoints.slice(0, 2).map((p, i) => <div key={i} style={{ color: '#5C3D1A', paddingLeft: '10px', textIndent: '-10px' }}>• {p}</div>)}
+                                                    </div>
+                                                )}
+                                                {/* Trivia */}
+                                                {a.trivia && (
+                                                    <div style={{ background: 'rgba(212,121,28,0.08)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11.5px', border: '1px solid rgba(212,121,28,0.12)', marginTop: '5px', breakInside: 'avoid' }}>
+                                                        <span style={{ fontWeight: 700, color: '#D4791C' }}>💡 </span>
+                                                        <span style={{ color: '#5C3D1A' }}>{a.trivia}</span>
+                                                    </div>
+                                                )}
                                             </div>
-                                            {a.prelims && a.prelimsPoints.length > 0 && (
-                                                <div style={{ background: 'rgba(192,57,43,0.06)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11.5px', border: '1px solid rgba(192,57,43,0.12)' }}>
-                                                    <div style={{ fontWeight: 700, color: '#C0392B', marginBottom: '2px', fontSize: '10.5px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>📝 Prelims</div>
-                                                    {a.prelimsPoints.slice(0, 3).map((p, i) => <div key={i} style={{ color: '#5C3D1A', paddingLeft: '10px', textIndent: '-10px' }}>• {p}</div>)}
-                                                </div>
-                                            )}
-                                            {a.mains && a.mainsPoints.length > 0 && (
-                                                <div style={{ background: 'rgba(26,60,110,0.06)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11.5px', border: '1px solid rgba(26,60,110,0.12)' }}>
-                                                    <div style={{ fontWeight: 700, color: '#1A3C6E', marginBottom: '2px', fontSize: '10.5px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>✍️ Mains</div>
-                                                    {a.mainsPoints.slice(0, 2).map((p, i) => <div key={i} style={{ color: '#5C3D1A', paddingLeft: '10px', textIndent: '-10px' }}>• {p}</div>)}
-                                                </div>
-                                            )}
-                                            {a.trivia && (
-                                                <div style={{ background: 'rgba(212,121,28,0.08)', padding: '6px 8px', borderRadius: '4px', lineHeight: 1.4, fontSize: '11.5px', border: '1px solid rgba(212,121,28,0.12)' }}>
-                                                    <span style={{ fontWeight: 700, color: '#D4791C' }}>💡 </span>
-                                                    <span style={{ color: '#5C3D1A' }}>{a.trivia}</span>
-                                                </div>
-                                            )}
-                                        </div>
-                                    </div>
+                                        );
+                                    })()}
                                 </div>
                             ))}
                         </div>
@@ -802,25 +834,29 @@ export default function EpaperPrintView({ date }: { date: string }) {
 
                 {/* === MAINS MOCK PAGE === */}
                 {epaper.mainsMocks && epaper.mainsMocks.length > 0 && (
-                    <div className="epaper-print-page" style={{ pageBreakBefore: 'always', breakBefore: 'page', padding: '10mm 12mm', height: '277mm', maxHeight: '277mm', overflow: 'hidden', display: 'flex', flexDirection: 'column', boxSizing: 'border-box' }}>
-                        <header style={{ background: '#1A3C6E', borderRadius: '6px', padding: '8px 14px', marginBottom: '10px', textAlign: 'center', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', flexShrink: 0 }}>
+                    <div className="epaper-print-page" style={{ pageBreakBefore: 'always', breakBefore: 'page', padding: '8mm 12mm', height: '277mm', maxHeight: '277mm', display: 'flex', flexDirection: 'column', boxSizing: 'border-box' }}>
+                        <header style={{ background: '#1A3C6E', borderRadius: '6px', padding: '6px 14px', marginBottom: '6px', textAlign: 'center', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', flexShrink: 0 }}>
                             <h2 style={{ margin: 0, color: '#FFF1E5', fontSize: '14px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.12em', fontFamily: "'DM Sans', system-ui, sans-serif" }}>
                                 ✍️ Mains Mock — Daily Practice
                             </h2>
                         </header>
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', flex: 1, overflow: 'hidden' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', flex: 1 }}>
                             {epaper.mainsMocks.slice(0, 5).map((q, i) => {
                                 // Truncate syllabus to ~120 chars for 2-line display
                                 const syllabusShort = q.syllabusMatch.length > 120
                                     ? q.syllabusMatch.substring(0, q.syllabusMatch.lastIndexOf(' ', 120)) + '…'
                                     : q.syllabusMatch;
+                                // Truncate approach to ~350 chars to ensure all 5 questions fit
+                                const approachShort = q.approach.length > 350
+                                    ? q.approach.substring(0, q.approach.lastIndexOf(' ', 350)) + '…'
+                                    : q.approach;
                                 return (
-                                    <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '6px 10px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', overflow: 'hidden' }}>
-                                        <div style={{ fontWeight: 700, fontSize: '10.5px', color: '#33200A', textAlign: 'justify', marginBottom: '3px', lineHeight: 1.4 }}>Q{i + 1}. {q.question}</div>
-                                        <div style={{ background: 'var(--ep-bg)', padding: '4px 8px', borderRadius: '3px', border: '1px solid rgba(139,69,19,0.06)', fontSize: '10px', lineHeight: 1.35 }}>
-                                            <div style={{ fontWeight: 700, color: '#1A3C6E', marginBottom: '1px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.04em' }}>Syllabus: {syllabusShort}</div>
-                                            <div style={{ fontWeight: 700, color: '#8B4513', marginBottom: '1px', fontSize: '10px' }}>Approach:</div>
-                                            <div style={{ color: '#5C3D1A', fontStyle: 'italic', fontSize: '10px' }}>{q.approach}</div>
+                                    <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '4px 10px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
+                                        <div style={{ fontWeight: 700, fontSize: '10px', color: '#33200A', textAlign: 'justify', marginBottom: '2px', lineHeight: 1.35 }}>Q{i + 1}. {q.question}</div>
+                                        <div style={{ background: 'var(--ep-bg)', padding: '3px 8px', borderRadius: '3px', border: '1px solid rgba(139,69,19,0.06)', fontSize: '9px', lineHeight: 1.3 }}>
+                                            <div style={{ fontWeight: 700, color: '#1A3C6E', marginBottom: '1px', fontSize: '8.5px', textTransform: 'uppercase', letterSpacing: '0.04em' }}>Syllabus: {syllabusShort}</div>
+                                            <div style={{ fontWeight: 700, color: '#8B4513', marginBottom: '1px', fontSize: '9px' }}>Approach:</div>
+                                            <div style={{ color: '#5C3D1A', fontStyle: 'italic', fontSize: '9px' }}>{approachShort}</div>
                                         </div>
                                     </div>
                                 );
