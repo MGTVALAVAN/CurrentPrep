@@ -622,21 +622,124 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                 );
                                             })()}
                                         </div>
-                                    {/* Data Snapshot */}
-                                    {epaper.dataSnapshot && (
-                                        <div style={{ background: '#1A3C6E', borderRadius: '6px', padding: '8px 12px', marginTop: '8px', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
-                                            <div style={{ fontWeight: 700, color: 'rgba(255,255,255,0.7)', fontSize: '8.5px', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '3px' }}>📊 Data Snapshot</div>
-                                            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                                                <div style={{ textAlign: 'center', flexShrink: 0 }}>
-                                                    <div style={{ fontSize: '22px', fontWeight: 800, color: '#FFF1E5', fontFamily: "'DM Sans', system-ui, sans-serif", lineHeight: 1.1 }}>{epaper.dataSnapshot.value}</div>
-                                                    <div style={{ fontSize: '8px', color: 'rgba(255,255,255,0.6)', textTransform: 'uppercase', letterSpacing: '0.06em', marginTop: '1px' }}>{epaper.dataSnapshot.label}</div>
-                                                </div>
-                                                <div style={{ fontSize: '9.5px', color: 'rgba(255,255,255,0.85)', lineHeight: 1.35, fontFamily: "'Source Serif 4', Georgia, serif", borderLeft: '1px solid rgba(255,255,255,0.2)', paddingLeft: '10px' }}>
-                                                    {epaper.dataSnapshot.context}
+                                    {/* Data Snapshot — always show */}
+                                    {(() => {
+                                        const dayNum = parseInt(date.split('-')[2]) || 1;
+                                        const DS_FALLBACKS = [
+                                            { label: 'INDIA GDP (2024-25)', value: '₹324 Lakh Cr', context: 'India is the 5th largest economy globally by nominal GDP and 3rd by PPP.' },
+                                            { label: 'FOREX RESERVES', value: '$642 Bn', context: 'India holds the 4th largest forex reserves globally, providing import cover.' },
+                                            { label: 'INDIA POPULATION', value: '1.44 Bn', context: 'India became the most populous country in 2023, overtaking China.' },
+                                            { label: 'FISCAL DEFICIT TARGET', value: '4.9%', context: 'Union Budget 2024-25 targets fiscal deficit at 4.9% of GDP.' },
+                                            { label: 'LITERACY RATE', value: '77.7%', context: 'the literacy rate of India has improved significantly from 12% at independence.' },
+                                            { label: 'FDI INFLOWS', value: '$84.8 Bn', context: 'India ranks among the top 3 FDI destinations among emerging economies.' },
+                                            { label: 'GST COLLECTION', value: '₹1.87 Lakh Cr', context: 'Monthly GST collections crossed ₹1.87 lakh crore, reflecting economic buoyancy.' },
+                                        ];
+                                        const ds = (epaper.dataSnapshot && /\d/.test(epaper.dataSnapshot.value))
+                                            ? epaper.dataSnapshot
+                                            : DS_FALLBACKS[(dayNum - 1) % DS_FALLBACKS.length];
+                                        return (
+                                            <div style={{ background: '#1A3C6E', borderRadius: '6px', padding: '8px 12px', marginTop: '8px', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
+                                                <div style={{ fontWeight: 700, color: 'rgba(255,255,255,0.7)', fontSize: '8.5px', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '3px' }}>📊 Data Snapshot</div>
+                                                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                                                    <div style={{ textAlign: 'center', flexShrink: 0 }}>
+                                                        <div style={{ fontSize: '22px', fontWeight: 800, color: '#FFF1E5', fontFamily: "'DM Sans', system-ui, sans-serif", lineHeight: 1.1 }}>{ds.value}</div>
+                                                        <div style={{ fontSize: '8px', color: 'rgba(255,255,255,0.6)', textTransform: 'uppercase', letterSpacing: '0.06em', marginTop: '1px' }}>{ds.label}</div>
+                                                    </div>
+                                                    <div style={{ fontSize: '9.5px', color: 'rgba(255,255,255,0.85)', lineHeight: 1.35, fontFamily: "'Source Serif 4', Georgia, serif", borderLeft: '1px solid rgba(255,255,255,0.2)', paddingLeft: '10px' }}>
+                                                        {ds.context}
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    )}
+                                        );
+                                    })()}
+                                    {/* Infographic — India at a Glance */}
+                                    {(() => {
+                                        const INFOGRAPHICS = [
+                                            {
+                                                title: 'INDIA — ECONOMIC SNAPSHOT',
+                                                source: 'Economic Survey 2024-25 / RBI',
+                                                items: [
+                                                    { metric: 'GDP Growth Rate', value: '6.5%', detail: 'FY 2024-25 (Advance Est.)' },
+                                                    { metric: 'Per Capita Income', value: '₹2.36L', detail: 'FY 2024-25' },
+                                                    { metric: 'Inflation (CPI)', value: '4.9%', detail: 'FY 2024-25 Average' },
+                                                    { metric: 'Repo Rate', value: '6.50%', detail: 'RBI Policy Rate' },
+                                                ],
+                                            },
+                                            {
+                                                title: 'UNION BUDGET — KEY NUMBERS',
+                                                source: 'Union Budget 2025-26',
+                                                items: [
+                                                    { metric: 'Total Expenditure', value: '₹50.65L Cr', detail: 'Budget Estimate' },
+                                                    { metric: 'Capital Expenditure', value: '₹11.21L Cr', detail: '22% of total spend' },
+                                                    { metric: 'Defence Budget', value: '₹6.81L Cr', detail: '13.5% of total' },
+                                                    { metric: 'Education Budget', value: '₹1.28L Cr', detail: '3.1% of GDP target' },
+                                                ],
+                                            },
+                                            {
+                                                title: 'INDIA — SOCIAL INDICATORS',
+                                                source: 'Census / NITI Aayog / UNDP',
+                                                items: [
+                                                    { metric: 'HDI Rank', value: '134th', detail: 'Out of 193 (UNDP 2024)' },
+                                                    { metric: 'Sex Ratio', value: '1020', detail: 'Females per 1000 males (NFHS-5)' },
+                                                    { metric: 'Poverty Reduction', value: '24.8 Cr', detail: 'Lifted out of poverty (2006-21)' },
+                                                    { metric: 'Life Expectancy', value: '70.8 yrs', detail: 'Up from 32 yrs in 1947' },
+                                                ],
+                                            },
+                                            {
+                                                title: 'INDIA — TRADE & COMMERCE',
+                                                source: 'DGCIS / Commerce Ministry',
+                                                items: [
+                                                    { metric: 'Total Exports', value: '$778 Bn', detail: 'Goods + Services (2023-24)' },
+                                                    { metric: 'Trade Deficit', value: '$241 Bn', detail: 'Merchandise trade (2023-24)' },
+                                                    { metric: 'Top Export', value: 'Petroleum', detail: 'Refined petroleum products' },
+                                                    { metric: 'IT Service Export', value: '$199 Bn', detail: 'Software services (2023-24)' },
+                                                ],
+                                            },
+                                            {
+                                                title: 'GOVERNANCE — KEY SCHEMES',
+                                                source: 'Govt. of India / Various Ministries',
+                                                items: [
+                                                    { metric: 'Jan Dhan A/Cs', value: '52.8 Cr', detail: 'Financial inclusion milestone' },
+                                                    { metric: 'Ujjwala LPG', value: '10.3 Cr', detail: 'Free LPG connections given' },
+                                                    { metric: 'Ayushman Cards', value: '30+ Cr', detail: 'Health coverage beneficiaries' },
+                                                    { metric: 'PM-KISAN', value: '₹3.04L Cr', detail: 'Disbursed to 11+ Cr farmers' },
+                                                ],
+                                            },
+                                        ];
+                                        const dayNum = parseInt(date.split('-')[2]) || 1;
+                                        const infog = INFOGRAPHICS[(dayNum - 1) % INFOGRAPHICS.length];
+                                        return (
+                                            <div style={{
+                                                background: 'linear-gradient(135deg, #0F172A 0%, #1E293B 100%)',
+                                                borderRadius: '6px',
+                                                padding: '10px 12px',
+                                                marginTop: '8px',
+                                                WebkitPrintColorAdjust: 'exact',
+                                                printColorAdjust: 'exact',
+                                            }}>
+                                                <div style={{ fontWeight: 800, color: '#F59E0B', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.1em', marginBottom: '2px' }}>
+                                                    📈 {infog.title}
+                                                </div>
+                                                <div style={{ fontSize: '7px', color: 'rgba(255,255,255,0.4)', marginBottom: '6px', letterSpacing: '0.04em' }}>
+                                                    Source: {infog.source}
+                                                </div>
+                                                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6px' }}>
+                                                    {infog.items.map((item, idx) => (
+                                                        <div key={idx} style={{
+                                                            background: 'rgba(255,255,255,0.06)',
+                                                            borderRadius: '4px',
+                                                            padding: '5px 7px',
+                                                            borderLeft: `2px solid ${['#F59E0B','#3B82F6','#10B981','#EF4444'][idx]}`,
+                                                        }}>
+                                                            <div style={{ fontSize: '7.5px', color: 'rgba(255,255,255,0.5)', textTransform: 'uppercase', letterSpacing: '0.04em', marginBottom: '1px' }}>{item.metric}</div>
+                                                            <div style={{ fontSize: '15px', fontWeight: 800, color: '#FFF', fontFamily: "'DM Sans', system-ui, sans-serif", lineHeight: 1.1 }}>{item.value}</div>
+                                                            <div style={{ fontSize: '7px', color: 'rgba(255,255,255,0.45)', marginTop: '1px' }}>{item.detail}</div>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        );
+                                    })()}
                                     </div>
                                 </div>
                             </div>

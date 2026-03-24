@@ -118,7 +118,17 @@ Return ONLY a valid JSON object (no markdown, no code fences):
     // Use gemini-2.0-flash (non-thinking) for short structured output
     for (let attempt = 1; attempt <= 3; attempt++) {
         try {
-            const dsPrompt = `Give me one key statistic about: ${leadArticle.headline}. Return ONLY valid JSON: {"label":"metric name max 5 words","value":"number with unit max 3 words","context":"explanation max 20 words"}`;
+            const dsPrompt = `Based on the news topic "${leadArticle.headline}", provide ONE striking numerical statistic from credible sources like the Economic Survey, RBI Annual Report, Union Budget, Census, NITI Aayog reports, World Bank data, or reputable newspapers (The Hindu, Indian Express, Times of India).
+
+REQUIREMENTS:
+- The "value" MUST be a real NUMBER with unit (e.g., "164", "$642 Bn", "28.7%", "1.4 Bn", "₹45.03 Lakh Cr")
+- Do NOT use syllabus codes like GS1, GS2 etc.
+- The "label" should name the metric (e.g., "WTO MEMBER NATIONS", "GDP GROWTH RATE", "FOREX RESERVES")
+- The "context" should explain why this number matters (max 25 words)
+- Must be a REAL, verifiable statistic
+
+Return ONLY valid JSON (no markdown, no code fences):
+{"label": "metric name in CAPS max 5 words", "value": "number with unit", "context": "brief explanation max 25 words"}`;
             const response = await fetch(
                 `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`,
                 {
@@ -134,6 +144,12 @@ Return ONLY a valid JSON object (no markdown, no code fences):
             const raw = result.candidates?.[0]?.content?.parts?.[0]?.text?.trim() || '';
             const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
             dataSnapshot = JSON.parse(cleaned);
+            // Validate: value must contain a digit, reject syllabus codes
+            if (!dataSnapshot!.value || !/\d/.test(dataSnapshot!.value) || /^GS\d/.test(dataSnapshot!.value)) {
+                console.log(`  ⚠️ Invalid value "${dataSnapshot!.value}", retrying...`);
+                dataSnapshot = undefined;
+                continue;
+            }
             console.log(`  ✅ ${dataSnapshot!.label}: ${dataSnapshot!.value} — ${dataSnapshot!.context}`);
             break;
         } catch (e: any) {
@@ -142,14 +158,17 @@ Return ONLY a valid JSON object (no markdown, no code fences):
         }
     }
 
-    // Fallback: extract a stat from key terms if AI fails
+    // Fallback: use meaningful UPSC-relevant stats, not syllabus codes
     if (!dataSnapshot) {
-        console.log('  ℹ️ Using fallback data snapshot from article key terms');
-        dataSnapshot = {
-            label: leadArticle.keyTerms[0] || 'Key Fact',
-            value: leadArticle.gsPaper,
-            context: `Related to ${leadArticle.category.replace(/_/g, ' ')} — ${leadArticle.headline.substring(0, 60)}`
-        };
+        const STAT_FALLBACKS = [
+            { label: 'INDIA GDP (2024-25)', value: '₹324 Lakh Cr', context: 'India is the 5th largest economy globally by nominal GDP and 3rd by PPP.' },
+            { label: 'FOREX RESERVES', value: '$642 Bn', context: 'India holds the 4th largest forex reserves globally, providing import cover.' },
+            { label: 'INDIA POPULATION', value: '1.44 Bn', context: 'India became the most populous country in 2023, overtaking China.' },
+            { label: 'FISCAL DEFICIT TARGET', value: '4.9%', context: 'Union Budget 2024-25 targets fiscal deficit at 4.9% of GDP.' },
+            { label: 'LITERACY RATE', value: '77.7%', context: 'India\'s literacy rate has improved significantly from 12% at independence.' },
+        ];
+        const dayIdx = parseInt(dateArg.split('-')[2]) || 1;
+        dataSnapshot = STAT_FALLBACKS[(dayIdx - 1) % STAT_FALLBACKS.length];
         console.log(`  ✅ Fallback: ${dataSnapshot.label}: ${dataSnapshot.value}`);
     }
 
