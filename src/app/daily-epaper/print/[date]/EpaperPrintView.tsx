@@ -327,7 +327,7 @@ export default function EpaperPrintView({ date }: { date: string }) {
                             </div>
                             <h2 className="text-xl font-bold text-[#33200A]">High-Quality PDF Engine</h2>
                             <p className="text-center text-[#5C3D1A] text-sm mt-2">
-                                For an A4 formatted, perfect resolution, and text-searchable native PDF (unlike generic browser snapshots), we securely utilise your computer's built-in print PDF generator.
+                                For an A4 formatted, perfect resolution, and text-searchable native PDF (unlike generic browser snapshots), we securely utilise your computer&apos;s built-in print PDF generator.
                             </p>
                         </div>
                         <div className="p-6 bg-white flex flex-col gap-4">
