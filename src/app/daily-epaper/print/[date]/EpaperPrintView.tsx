@@ -129,6 +129,64 @@ const UPSC_TRIVIA = [
     "✅ VVPAT was first used in the 2013 Noksen assembly by-election in Nagaland."
 ];
 
+/* Fallback "On This Day" events — UPSC-relevant historical events, one per day of month */
+const ON_THIS_DAY_FALLBACKS: { year: number; event: string }[] = [
+    { year: 1950, event: 'The Constitution of India came into effect, and India became a Republic.' },
+    { year: 1948, event: 'Mahatma Gandhi was assassinated by Nathuram Godse in New Delhi.' },
+    { year: 1947, event: 'Lord Mountbatten was appointed as the last Viceroy of India.' },
+    { year: 1919, event: 'The Jallianwala Bagh massacre took place in Amritsar under General Dyer.' },
+    { year: 1930, event: 'Mahatma Gandhi began the historic Salt March (Dandi March) from Sabarmati.' },
+    { year: 1857, event: 'Mangal Pandey attacked British officers at Barrackpore, sparking the Revolt of 1857.' },
+    { year: 1942, event: 'The Quit India Resolution was passed by the AICC at Gowalia Tank Maidan, Bombay.' },
+    { year: 1946, event: 'The Cabinet Mission arrived in India to discuss the transfer of power.' },
+    { year: 1931, event: 'Bhagat Singh, Sukhdev Thapar, and Shivaram Rajguru were executed in Lahore Central Jail.' },
+    { year: 1956, event: 'The States Reorganisation Act was enacted, redrawing state boundaries on linguistic lines.' },
+    { year: 1973, event: 'Project Tiger was launched at Jim Corbett National Park to protect the Bengal tiger.' },
+    { year: 1975, event: 'A national emergency was declared by President Fakhruddin Ali Ahmed on PM Indira Gandhi\'s advice.' },
+    { year: 1991, event: 'India initiated sweeping economic liberalisation under PM Narasimha Rao and FM Manmohan Singh.' },
+    { year: 2005, event: 'The Right to Information (RTI) Act received Presidential assent.' },
+    { year: 1949, event: 'The Constituent Assembly of India adopted the Constitution after nearly 3 years of deliberation.' },
+    { year: 1955, event: 'The Imperial Bank of India was nationalised and renamed State Bank of India.' },
+    { year: 1969, event: 'Fourteen major commercial banks were nationalised by ordinance.' },
+    { year: 1952, event: 'India held its first general elections — the largest democratic exercise in the world at the time.' },
+    { year: 2017, event: 'The Goods and Services Tax (GST) was launched at a midnight session in Parliament\'s Central Hall.' },
+    { year: 1935, event: 'The Government of India Act, 1935 was passed — it became the basis of the Indian Constitution.' },
+    { year: 2014, event: 'India\'s Mars Orbiter Mission (Mangalyaan) successfully entered Mars orbit on its maiden attempt.' },
+    { year: 1961, event: 'Goa was liberated from Portuguese rule through Operation Vijay.' },
+    { year: 1966, event: 'The Tashkent Agreement was signed between India and Pakistan, mediated by the USSR.' },
+    { year: 1971, event: 'India achieved decisive victory in the Bangladesh Liberation War; Pakistan surrendered at Dhaka.' },
+    { year: 1974, event: 'India conducted its first nuclear test (Smiling Buddha) at Pokhran, Rajasthan.' },
+    { year: 1999, event: 'The Kargil conflict between India and Pakistan began in the high-altitude terrain of Ladakh.' },
+    { year: 1984, event: 'The Indian Space Research Organisation (ISRO) launched India\'s first astronaut mission concept.' },
+    { year: 2019, event: 'India conducted the ASAT missile test (Mission Shakti), becoming a space power.' },
+    { year: 1943, event: 'Subhas Chandra Bose proclaimed the establishment of the Azad Hind Government in Singapore.' },
+    { year: 1928, event: 'Simon Commission arrived in India, greeted with black flags and "Simon Go Back" protests.' },
+];
+
+/* Fallback motivational quotes — from Indian leaders and thinkers */
+const QUOTE_FALLBACKS: { text: string; author: string }[] = [
+    { text: 'Be the change that you wish to see in the world.', author: 'Mahatma Gandhi' },
+    { text: 'You must not lose faith in humanity. Humanity is an ocean; if a few drops are dirty, the ocean does not become dirty.', author: 'Mahatma Gandhi' },
+    { text: 'Life is not about finding yourself. Life is about creating yourself.', author: 'A.P.J. Abdul Kalam' },
+    { text: 'Political democracy cannot last unless there lies at the base of it social democracy.', author: 'B. R. Ambedkar' },
+    { text: 'Cultivation of mind should be the ultimate aim of human existence.', author: 'B. R. Ambedkar' },
+    { text: 'The best way to find yourself is to lose yourself in the service of others.', author: 'Mahatma Gandhi' },
+    { text: 'Dream, dream, dream. Dreams transform into thoughts and thoughts result in action.', author: 'A.P.J. Abdul Kalam' },
+    { text: 'Swaraj is my birthright, and I shall have it.', author: 'Bal Gangadhar Tilak' },
+    { text: 'Every Indian should know that within his country are the fountains and solutions of every problem.', author: 'Swami Vivekananda' },
+    { text: 'Arise, awake, and stop not till the goal is reached.', author: 'Swami Vivekananda' },
+    { text: 'You can change your future by changing your decisions today.', author: 'A.P.J. Abdul Kalam' },
+    { text: 'The essence of democracy is the dignity and freedom of the individual.', author: 'Jawaharlal Nehru' },
+    { text: 'Freedom is not worth having if it does not connote freedom to err.', author: 'Mahatma Gandhi' },
+    { text: 'A nation\'s culture resides in the hearts and in the soul of its people.', author: 'Mahatma Gandhi' },
+    { text: 'Where the mind is without fear and the head is held high — into that heaven of freedom, let my country awake.', author: 'Rabindranath Tagore' },
+    { text: 'Do not wait for leaders; do it alone, person to person.', author: 'Mother Teresa' },
+    { text: 'Education is the most powerful weapon which you can use to change the world.', author: 'Nelson Mandela' },
+    { text: 'The future depends on what you do today.', author: 'Mahatma Gandhi' },
+    { text: 'Strength does not come from physical capacity. It comes from an indomitable will.', author: 'Mahatma Gandhi' },
+    { text: 'We owe a lot to the Indians, who taught us how to count, without which no worthwhile scientific discovery could have been made.', author: 'Albert Einstein' },
+];
+
 const UPSC_PYQ_FALLBACKS: Record<string, { headline: string; explainer: string; keyTerms: string[]; source: string; prelimsPoints: string[]; mainsPoints: string[]; }> = {
     GS1: {
         headline: "Revisiting the 1857 Revolt: UPSC PYQ Perspective",
@@ -505,21 +563,29 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                     <div style={{ color: '#5C3D1A', fontFamily: "'Source Serif 4', Georgia, serif" }}>{lead.trivia}</div>
                                                 </div>
                                             )}
-                                            {/* On This Day */}
-                                            {epaper.onThisDay && (
-                                                <div style={{ background: 'rgba(16,185,129,0.08)', padding: '5px 8px', borderRadius: '5px', lineHeight: 1.35, fontSize: '10px', border: '1px solid rgba(16,185,129,0.2)', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
-                                                    <div style={{ fontWeight: 700, color: '#047857', marginBottom: '2px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>📅 On This Day ({epaper.onThisDay.year})</div>
-                                                    <div style={{ color: '#064E3B', fontFamily: "'Source Serif 4', Georgia, serif" }}>{epaper.onThisDay.event}</div>
-                                                </div>
-                                            )}
-                                            {/* Quote of the Day */}
-                                            {epaper.quoteOfTheDay && (
-                                                <div style={{ background: 'rgba(59,130,246,0.06)', padding: '6px 8px', borderRadius: '5px', lineHeight: 1.4, fontSize: '10px', border: '1px solid rgba(59,130,246,0.15)', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', marginTop: 'auto' }}>
-                                                    <div style={{ fontWeight: 700, color: '#1E40AF', marginBottom: '3px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>💬 Quote of the Day</div>
-                                                    <div style={{ color: '#1E3A5F', fontStyle: 'italic', fontFamily: "'Source Serif 4', Georgia, serif", fontSize: '10.5px', lineHeight: 1.45 }}>&ldquo;{epaper.quoteOfTheDay.text}&rdquo;</div>
-                                                    <div style={{ color: '#64748B', fontSize: '9px', textAlign: 'right', marginTop: '2px', fontWeight: 600 }}>— {epaper.quoteOfTheDay.author}</div>
-                                                </div>
-                                            )}
+                                            {/* On This Day — always show */}
+                                            {(() => {
+                                                const dayNum = parseInt(date.split('-')[2]) || 1;
+                                                const otd = epaper.onThisDay || ON_THIS_DAY_FALLBACKS[(dayNum - 1) % ON_THIS_DAY_FALLBACKS.length];
+                                                return (
+                                                    <div style={{ background: 'rgba(16,185,129,0.08)', padding: '5px 8px', borderRadius: '5px', lineHeight: 1.35, fontSize: '10px', border: '1px solid rgba(16,185,129,0.2)', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact' }}>
+                                                        <div style={{ fontWeight: 700, color: '#047857', marginBottom: '2px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>📅 On This Day ({otd.year})</div>
+                                                        <div style={{ color: '#064E3B', fontFamily: "'Source Serif 4', Georgia, serif" }}>{otd.event}</div>
+                                                    </div>
+                                                );
+                                            })()}
+                                            {/* Quote of the Day — always show */}
+                                            {(() => {
+                                                const dayNum = parseInt(date.split('-')[2]) || 1;
+                                                const qt = epaper.quoteOfTheDay || QUOTE_FALLBACKS[(dayNum - 1) % QUOTE_FALLBACKS.length];
+                                                return (
+                                                    <div style={{ background: 'rgba(59,130,246,0.06)', padding: '6px 8px', borderRadius: '5px', lineHeight: 1.4, fontSize: '10px', border: '1px solid rgba(59,130,246,0.15)', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', marginTop: 'auto' }}>
+                                                        <div style={{ fontWeight: 700, color: '#1E40AF', marginBottom: '3px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.05em' }}>💬 Quote of the Day</div>
+                                                        <div style={{ color: '#1E3A5F', fontStyle: 'italic', fontFamily: "'Source Serif 4', Georgia, serif", fontSize: '10.5px', lineHeight: 1.45 }}>&ldquo;{qt.text}&rdquo;</div>
+                                                        <div style={{ color: '#64748B', fontSize: '9px', textAlign: 'right', marginTop: '2px', fontWeight: 600 }}>— {qt.author}</div>
+                                                    </div>
+                                                );
+                                            })()}
                                         </div>
                                     </div>
 
