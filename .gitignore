@@ -54,9 +54,11 @@ Curentprep logo.png
 *.jpg
 !public/**/*.jpg
 
-# ── ePaper data (moves to Supabase in Day 5) ────────────────────────────
-src/data/epaper/
-src/data/current-affairs/
+# ── ePaper data ──────────────────────────────────────────────────────────
+# NOT ignored — committed by the daily GitHub Actions pipeline
+# so Vercel can serve the JSON data files at runtime.
+# src/data/epaper/
+# src/data/current-affairs/
 
 # ── Generation manifests (runtime output) ───────────────────────────────
 generation_manifest.json
