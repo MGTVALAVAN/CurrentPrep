@@ -1,0 +1,2314 @@
+{
+  "date": "2025-06-27",
+  "dateFormatted": "Friday 27 June, 2025",
+  "lastUpdated": "2026-03-22T01:57:16.757Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "sc-green-transition-fund",
+      "headline": "Supreme Court Upholds Validity of National Green Transition Fund, Boosts Climate Action",
+      "explainer": "• The Supreme Court of India today upheld the constitutional validity of the 'National Green Transition Fund' (NGTF) Act, 2024, a landmark legislation aimed at financing India's climate mitigation and adaptation efforts.\n• The ruling dismissed petitions challenging the Act on grounds of legislative competence and potential financial burden on states, reinforcing the Centre's role in national environmental policy.\n• The NGTF is designed to pool resources from budgetary allocations, carbon taxes, green bonds, and international climate finance, directing them towards renewable energy, afforestation, sustainable agriculture, and disaster resilience projects.\n• Experts laud the judgment as a significant step towards institutionalizing climate finance and providing a stable funding mechanism for India's ambitious climate targets.\n• The fund is expected to play a crucial role in enabling India to meet its Nationally Determined Contributions (NDCs) under the Paris Agreement and transition towards a net-zero economy.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Environmental pollution and degradation",
+        "Environmental impact assessment",
+        "Conservation",
+        "Climate Change",
+        "Government policies and interventions"
+      ],
+      "date": "2025-06-27",
+      "source": "The Hindu",
+      "sourceUrl": "https://www.thehindu.com/news/national/sc-upholds-green-fund-validity/",
+      "importance": "high",
+      "tags": [
+        "Supreme Court",
+        "National Green Transition Fund",
+        "Climate Finance",
+        "Environmental Governance",
+        "Judicial Review",
+        "Paris Agreement",
+        "NDCs"
+      ],
+      "keyTerms": [
+        "National Green Transition Fund (NGTF)",
+        "Climate Mitigation",
+        "Climate Adaptation",
+        "Carbon Tax",
+        "Green Bonds",
+        "Nationally Determined Contributions (NDCs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Green Transition Fund (NGTF) Act, 2024.",
+        "Purpose: Financing climate mitigation and adaptation.",
+        "Funding sources: Budgetary allocations, carbon taxes, green bonds, international climate finance.",
+        "Supreme Court's role in upholding legislation."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Significance of institutionalized climate finance for India's climate goals.",
+        "Role of judiciary in environmental governance and upholding legislative intent.",
+        "Challenges and opportunities in mobilizing and deploying climate finance in India.",
+        "Impact of NGTF on India's net-zero transition and international climate commitments.",
+        "Federalism issues in environmental policy and Centre-state financial implications."
+      ],
+      "imageDescription": "Illustration of Supreme Court building with green energy symbols.",
+      "section": "Lead Opinion",
+      "trivia": "India's first National Environment Policy was formulated in 2006, aiming for sustainable development.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Conservation",
+        "topic": "Climate Change and Policies"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "india-eu-fta-progress",
+      "headline": "India-EU Free Trade Agreement Negotiations Enter Final Phase, Focus on Market Access",
+      "explainer": "• Negotiations for the India-European Union Free Trade Agreement (FTA) have entered their crucial final phase, with both sides expressing optimism about concluding a comprehensive deal by year-end.\n• Key sticking points remain on market access for agricultural products, intellectual property rights, and sustainable development provisions, though significant progress has been reported in recent rounds.\n• The FTA aims to boost bilateral trade in goods and services, reduce tariffs, and create a more predictable regulatory environment for businesses.\n• Indian negotiators are pushing for greater access for its services sector professionals and pharmaceutical exports, while the EU is keen on reducing tariffs on automobiles and wines.\n• A successful FTA could significantly enhance India's economic ties with one of the world's largest trading blocs, diversifying its export markets and attracting European investment.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests"
+      ],
+      "date": "2025-06-27",
+      "source": "Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-fta-final-phase/",
+      "importance": "high",
+      "tags": [
+        "India-EU Relations",
+        "Free Trade Agreement",
+        "International Trade",
+        "Economic Diplomacy",
+        "Market Access",
+        "Intellectual Property Rights"
+      ],
+      "keyTerms": [
+        "Free Trade Agreement (FTA)",
+        "European Union (EU)",
+        "Bilateral Trade",
+        "Tariff Barriers",
+        "Services Sector"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India-EU FTA negotiations status: Final phase.",
+        "Key areas of discussion: Market access, IPR, sustainable development.",
+        "Expected benefits: Boost trade, reduce tariffs, attract investment."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Strategic importance of the India-EU FTA for India's economic growth and geopolitical standing.",
+        "Challenges in negotiating comprehensive FTAs, balancing domestic interests with international commitments.",
+        "Potential impact on various sectors of the Indian economy (agriculture, manufacturing, services).",
+        "Comparison with other FTAs India is pursuing (e.g., with UK, GCC).",
+        "Role of trade agreements in India's 'Act East' and 'Connect West' policies."
+      ],
+      "imageDescription": "Flags of India and European Union intertwined.",
+      "section": "International",
+      "trivia": "The EU is India's third-largest trading partner, after the US and China, accounting for over 10% of India's total trade.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Groupings",
+        "topic": "India and European Union"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-rlv-lex-test",
+      "headline": "ISRO Successfully Conducts Critical Landing Experiment for Reusable Launch Vehicle",
+      "explainer": "• The Indian Space Research Organisation (ISRO) today announced the successful completion of a crucial Landing Experiment (LEX) for its Reusable Launch Vehicle (RLV) Technology Demonstrator program.\n• The autonomous landing was performed at the Aeronautical Test Range in Chitradurga, Karnataka, simulating a space return vehicle's high-speed, unpowered approach and precision landing.\n• This test is a significant step towards developing a fully reusable two-stage orbital launch vehicle, which promises to drastically reduce the cost of space access.\n• The RLV-TD program is a key component of India's long-term vision for sustainable space exploration and commercial space launches.\n• Future tests will focus on orbital re-entry and hypersonic flight, gradually building towards an operational RLV.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology",
+        "Indigenization of technology and developing new technology",
+        "Space technology"
+      ],
+      "date": "2025-06-27",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=123456",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Reusable Launch Vehicle",
+        "Space Technology",
+        "Aerospace",
+        "Indigenous Technology",
+        "Cost Reduction"
+      ],
+      "keyTerms": [
+        "Reusable Launch Vehicle (RLV)",
+        "RLV Technology Demonstrator (RLV-TD)",
+        "Landing Experiment (LEX)",
+        "Autonomous Landing",
+        "Space Access"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ISRO's RLV-TD program: Reusable Launch Vehicle Technology Demonstrator.",
+        "Latest test: Landing Experiment (LEX) at Chitradurga.",
+        "Goal: Reduce cost of space access, sustainable space exploration."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Significance of reusable launch vehicles for India's space ambitions and commercial space sector.",
+        "Challenges in developing RLV technology (materials, guidance, thermal protection).",
+        "How RLVs contribute to sustainable space exploration and debris mitigation.",
+        "India's position in the global reusable launch vehicle race compared to SpaceX, Blue Origin.",
+        "Economic implications of reduced launch costs for satellite deployment and space tourism."
+      ],
+      "imageDescription": "Artistic rendering of ISRO's RLV landing on a runway.",
+      "section": "Science",
+      "trivia": "ISRO's first successful RLV-TD Hypersonic Flight Experiment (HEX) was conducted in 2016.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space",
+        "topic": "Indian Space Program"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "parliament-data-protection-amendments",
+      "headline": "Parliament Debates Key Amendments to Digital Personal Data Protection Act, 2023",
+      "explainer": "• Parliament today commenced discussions on proposed amendments to the Digital Personal Data Protection Act (DPDP Act), 2023, primarily focusing on clarifying data fiduciary obligations and enhancing individual consent mechanisms.\n• The amendments aim to address implementation challenges and stakeholder feedback received since the Act's operationalization, particularly concerning cross-border data transfers and the scope of 'legitimate uses' of data.\n• A key proposal includes streamlining the process for data breach notifications and strengthening the powers of the Data Protection Board of India.\n• Critics argue that some amendments might dilute protections for certain categories of data, while proponents emphasize the need for a balanced approach to foster innovation and ensure ease of doing business.\n• The debate highlights India's ongoing efforts to refine its data governance framework in line with global best practices while safeguarding citizen privacy.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Cyber security",
+        "Role of civil services in a democracy"
+      ],
+      "date": "2025-06-27",
+      "source": "The Indian Express",
+      "sourceUrl": "https://indianexpress.com/news/national/data-protection-act-amendments-parliament/",
+      "importance": "high",
+      "tags": [
+        "Data Protection",
+        "Digital Personal Data Protection Act",
+        "Privacy",
+        "Cybersecurity",
+        "Parliament",
+        "Data Governance",
+        "MeitY"
+      ],
+      "keyTerms": [
+        "Digital Personal Data Protection Act (DPDP Act), 2023",
+        "Data Fiduciary",
+        "Data Principal",
+        "Data Protection Board of India",
+        "Cross-border Data Transfer",
+        "Consent Mechanism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Digital Personal Data Protection Act (DPDP Act), 2023.",
+        "Key concepts: Data Fiduciary, Data Principal.",
+        "Role of Data Protection Board of India.",
+        "Focus of amendments: Data fiduciary obligations, consent, cross-border transfers."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of the DPDP Act in India's digital economy and privacy landscape.",
+        "Discuss the challenges in balancing data privacy with innovation and ease of doing business.",
+        "Evaluate the proposed amendments' impact on individual rights and corporate responsibilities.",
+        "Compare India's data protection framework with global standards like GDPR.",
+        "Role of parliamentary debate in shaping critical legislation and addressing stakeholder concerns."
+      ],
+      "imageDescription": "Parliament building with digital data streams flowing.",
+      "section": "National",
+      "trivia": "India's journey towards a comprehensive data protection law began with the Puttaswamy judgment (2017) affirming the Right to Privacy as a fundamental right.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Governance",
+        "topic": "E-governance"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "g20-global-south-framework",
+      "headline": "India Proposes New Framework for Global South Cooperation at G20 Ministerial Meeting",
+      "explainer": "• India today presented a detailed proposal for a 'Global South Solidarity and Development Framework' during the G20 Development Ministers' Meeting in Brazil, emphasizing collective action on climate finance, debt relief, and technology transfer.\n• The framework calls for enhanced cooperation among developing nations and increased support from developed economies to address common challenges like poverty, food insecurity, and health disparities.\n• India highlighted its own initiatives, such as the International Solar Alliance (ISA) and disaster resilience infrastructure, as models for South-South cooperation.\n• The proposal received broad support from several G20 members, particularly those representing emerging economies, and is expected to be a key agenda item for future G20 summits.\n• This move reinforces India's growing leadership role in advocating for the interests and priorities of the Global South on multilateral platforms.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate",
+        "Effect of policies and politics of developed and developing countries on India’s interests"
+      ],
+      "date": "2025-06-27",
+      "source": "DD News",
+      "sourceUrl": "https://ddnews.gov.in/national/india-proposes-global-south-framework-g20/",
+      "importance": "high",
+      "tags": [
+        "G20",
+        "Global South",
+        "South-South Cooperation",
+        "Development Diplomacy",
+        "Climate Finance",
+        "Debt Relief",
+        "Technology Transfer"
+      ],
+      "keyTerms": [
+        "Global South Solidarity and Development Framework",
+        "G20 Development Ministers' Meeting",
+        "International Solar Alliance (ISA)",
+        "South-South Cooperation",
+        "Multilateralism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India's proposal: 'Global South Solidarity and Development Framework' at G20.",
+        "Key focus areas: Climate finance, debt relief, technology transfer.",
+        "India's role: Advocate for Global South interests, promote ISA."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze India's increasing leadership role in the Global South and its implications for India's foreign policy.",
+        "Discuss the challenges faced by the Global South and how a collective framework can address them.",
+        "Evaluate the effectiveness of G20 as a platform for addressing development challenges of developing countries.",
+        "Role of India's development partnerships and initiatives (e.g., Line of Credit, capacity building) in strengthening South-South cooperation.",
+        "Impact of geopolitical shifts on the relevance and influence of the Global South."
+      ],
+      "imageDescription": "World map highlighting the Global South nations, with G20 logo.",
+      "section": "International",
+      "trivia": "India hosted the G20 Summit in 2023, during which it championed the inclusion of the African Union as a permanent member.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Institutions",
+        "topic": "G20"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "sustainable-urban-mobility-policy",
+      "headline": "Ministry of Housing and Urban Affairs Unveils New Policy for Sustainable Urban Mobility",
+      "explainer": "• The Ministry of Housing and Urban Affairs (MoHUA) today launched the 'National Policy on Sustainable Urban Mobility (NPSUM) 2025', aiming to promote eco-friendly and inclusive transport systems in Indian cities.\n• The policy prioritizes public transport, non-motorized transport (walking and cycling), and electric vehicles, alongside integrated land-use planning.\n• Key interventions include financial incentives for states adopting green mobility solutions, development of multimodal hubs, and smart traffic management systems.\n• It also emphasizes capacity building for urban local bodies and fostering public-private partnerships for infrastructure development.\n• NPSUM 2025 seeks to reduce urban congestion, improve air quality, and enhance the quality of life for city dwellers, aligning with India's sustainable development goals.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Environmental pollution and degradation",
+        "Conservation",
+        "Urbanization - problems and remedies"
+      ],
+      "date": "2025-06-27",
+      "source": "Ministry of Housing and Urban Affairs",
+      "sourceUrl": "https://mohua.gov.in/news/npsum2025-launched",
+      "importance": "medium",
+      "tags": [
+        "Urban Mobility",
+        "Sustainable Transport",
+        "Public Transport",
+        "Electric Vehicles",
+        "Urban Planning",
+        "Smart Cities",
+        "MoHUA"
+      ],
+      "keyTerms": [
+        "National Policy on Sustainable Urban Mobility (NPSUM) 2025",
+        "Non-Motorized Transport (NMT)",
+        "Multimodal Hubs",
+        "Integrated Land-Use Planning"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NPSUM 2025 launched by MoHUA.",
+        "Focus: Public transport, NMT, EVs, integrated land-use.",
+        "Aims: Reduce congestion, improve air quality, quality of life."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Examine the need for a comprehensive sustainable urban mobility policy in India's rapidly urbanizing context.",
+        "Discuss the challenges in implementing green transport solutions in Indian cities (funding, public acceptance, infrastructure).",
+        "Evaluate the potential impact of NPSUM 2025 on urban air quality, traffic congestion, and carbon emissions.",
+        "Role of technology and smart solutions in achieving sustainable urban mobility.",
+        "How the policy aligns with India's broader climate commitments and Smart Cities Mission."
+      ],
+      "imageDescription": "City skyline with metro, cycling paths, and electric buses.",
+      "section": "National",
+      "trivia": "India's urban population is projected to reach 600 million by 2030, making sustainable urban planning critical.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Urbanization",
+        "topic": "Sustainable Development"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "rbi-repo-rate",
+      "headline": "RBI Maintains Status Quo on Repo Rate Amidst Easing Inflationary Pressures",
+      "explainer": "• The Reserve Bank of India's (RBI) Monetary Policy Committee (MPC) today decided to keep the repo rate unchanged at 6.5%, extending a pause for the seventh consecutive meeting.\n• The decision comes amidst a cautious assessment of easing retail inflation, which has shown signs of moderation, while global economic uncertainties persist.\n• Governor Shaktikanta Das highlighted the need to remain vigilant against potential upside risks to inflation, particularly from volatile food prices and geopolitical developments.\n• The MPC also reiterated its commitment to withdrawing accommodation to ensure inflation aligns with the target while supporting growth.\n• This stability in interest rates is expected to provide continued support to economic growth, though credit demand will be closely monitored.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Monetary policy"
+      ],
+      "date": "2025-06-27",
+      "source": "Business Standard",
+      "sourceUrl": "https://www.business-standard.com/rbi-monetary-policy-update/",
+      "importance": "high",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Repo Rate",
+        "Inflation",
+        "Economic Growth",
+        "Monetary Policy Committee"
+      ],
+      "keyTerms": [
+        "Repo Rate",
+        "Monetary Policy Committee (MPC)",
+        "Retail Inflation (CPI)",
+        "Monetary Accommodation",
+        "Reverse Repo Rate"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "RBI's MPC decision: Repo rate unchanged at 6.5%.",
+        "Reason: Easing inflation, global uncertainties.",
+        "Objective: Inflation target, supporting growth."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the factors influencing RBI's monetary policy decisions in the current economic scenario.",
+        "Discuss the trade-offs between controlling inflation and supporting economic growth.",
+        "Evaluate the effectiveness of monetary policy tools like the repo rate in managing India's economy.",
+        "Impact of global economic developments (e.g., interest rate hikes by major central banks, commodity prices) on India's monetary policy.",
+        "Role of the MPC in ensuring transparency and credibility in monetary policy formulation."
+      ],
+      "imageDescription": "RBI logo and graphs showing inflation and interest rates.",
+      "section": "Economy",
+      "trivia": "The Monetary Policy Committee (MPC) was constituted in 2016 to bring transparency and accountability in deciding monetary policy.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI and Instruments"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "skill-india-digital-2.0",
+      "headline": "Government Launches 'Skill India Digital 2.0' Platform for Enhanced Skilling and Employment",
+      "explainer": "• The Ministry of Skill Development and Entrepreneurship (MSDE) today launched 'Skill India Digital 2.0', an upgraded digital platform aimed at unifying skilling, education, and employment ecosystems.\n• The platform integrates various government skill development programs, offering personalized learning pathways, industry-relevant courses, and direct linkages to job opportunities.\n• Key features include AI-powered career counseling, verifiable digital credentials, and a robust employer-matching system to bridge the demand-supply gap in the labor market.\n• Skill India Digital 2.0 also provides access to entrepreneurial training modules and financial literacy programs for aspiring self-starters.\n• This initiative is poised to enhance workforce employability, promote lifelong learning, and contribute to India's demographic dividend by empowering youth with future-ready skills.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources"
+      ],
+      "date": "2025-06-27",
+      "source": "PIB",
+      "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=skillindia2.0",
+      "importance": "medium",
+      "tags": [
+        "Skill Development",
+        "Digital India",
+        "Employment",
+        "Education",
+        "MSDE",
+        "Demographic Dividend",
+        "AI in Education"
+      ],
+      "keyTerms": [
+        "Skill India Digital 2.0",
+        "Ministry of Skill Development and Entrepreneurship (MSDE)",
+        "Personalized Learning Pathways",
+        "Digital Credentials",
+        "Demand-Supply Gap"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Skill India Digital 2.0 launched by MSDE.",
+        "Purpose: Unify skilling, education, employment.",
+        "Features: AI counseling, digital credentials, job matching."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the role of digital platforms in addressing skill gaps and unemployment in India.",
+        "Evaluate the potential of Skill India Digital 2.0 to enhance the employability of India's youth and leverage the demographic dividend.",
+        "Challenges in skill development: infrastructure, quality of training, industry linkage, and digital literacy.",
+        "How government initiatives like Skill India align with the National Education Policy (NEP) 2020's focus on vocational education.",
+        "Impact on informal sector workers and opportunities for reskilling and upskilling."
+      ],
+      "imageDescription": "People learning on digital tablets with 'Skill India Digital 2.0' logo.",
+      "section": "National",
+      "trivia": "The 'Skill India Mission' was launched in 2015 to create convergence across various skill training schemes and initiatives.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Human Resources",
+        "topic": "Skill Development"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "coastal-security-sagar-kavach",
+      "headline": "Coastal Security Exercise 'Sagar Kavach' Concludes, Enhancing Maritime Preparedness",
+      "explainer": "• The biannual coastal security exercise 'Sagar Kavach' concluded today along the western coast, involving the Indian Navy, Coast Guard, Marine Police, Customs, and other maritime agencies.\n• The exercise simulated a multi-pronged infiltration attempt from the sea, testing the coastal security apparatus's vigilance, coordination, and response capabilities.\n• Emphasis was placed on intelligence sharing, inter-agency communication, and rapid deployment of assets in a realistic operational scenario.\n• 'Sagar Kavach' is crucial for fortifying India's extensive coastline against potential threats, including terrorism, smuggling, and illegal immigration.\n• The post-exercise debrief will identify areas for improvement and further strengthen the integrated coastal security framework established after the 26/11 Mumbai attacks.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security challenges and their management in border areas",
+        "Various Security forces and agencies and their mandate"
+      ],
+      "date": "2025-06-27",
+      "source": "Ministry of Defence",
+      "sourceUrl": "https://mod.gov.in/press-release/sagar-kavach-concludes",
+      "importance": "medium",
+      "tags": [
+        "Coastal Security",
+        "Maritime Security",
+        "Indian Navy",
+        "Indian Coast Guard",
+        "Internal Security",
+        "Joint Exercise",
+        "Border Management"
+      ],
+      "keyTerms": [
+        "Sagar Kavach",
+        "Coastal Security Apparatus",
+        "Inter-agency Coordination",
+        "Maritime Domain Awareness (MDA)",
+        "26/11 Mumbai Attacks"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Exercise 'Sagar Kavach': Biannual coastal security exercise.",
+        "Participants: Indian Navy, Coast Guard, Marine Police, Customs.",
+        "Objective: Test coastal security, intelligence sharing, inter-agency coordination.",
+        "Context: Post-26/11 security enhancements."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the multi-faceted challenges to India's coastal security and the evolution of its response mechanisms.",
+        "Analyze the importance of inter-agency coordination and intelligence sharing in effective coastal defense.",
+        "Evaluate the role of exercises like 'Sagar Kavach' in enhancing operational readiness and identifying gaps.",
+        "Technological advancements and surveillance systems used in maritime security (e.g., Coastal Surveillance Network).",
+        "Link between coastal security and national security, including economic and environmental dimensions."
+      ],
+      "imageDescription": "Naval ships and Coast Guard boats patrolling the coastline.",
+      "section": "National",
+      "trivia": "India has a coastline of approximately 7,516.6 km, including island territories.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "Internal Security",
+        "topic": "Border Management"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "bimstec-ministerial-connectivity",
+      "headline": "BIMSTEC Ministerial Meeting Focuses on Enhancing Regional Connectivity and Trade",
+      "explainer": "• The Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC) ministerial meeting concluded today in Bangkok, with member states reiterating commitment to accelerating regional connectivity projects.\n• Discussions centered on the operationalization of the BIMSTEC Master Plan for Transport Connectivity and strategies to boost intra-BIMSTEC trade and investment.\n• India emphasized its 'Act East' policy and its commitment to developing multimodal connectivity projects, including road, rail, and waterways, to integrate the Bay of Bengal region.\n• Member nations also explored cooperation in energy, digital connectivity, and climate resilience, recognizing their shared vulnerability to climate change impacts.\n• The meeting underscored the growing strategic importance of BIMSTEC as a bridge between South Asia and Southeast Asia, fostering economic prosperity and regional stability.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "India and its neighborhood- relations"
+      ],
+      "date": "2025-06-27",
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/international/bimstec-connectivity-meeting/",
+      "importance": "medium",
+      "tags": [
+        "BIMSTEC",
+        "Regional Cooperation",
+        "Connectivity",
+        "Trade",
+        "Act East Policy",
+        "Bay of Bengal",
+        "Multilateralism"
+      ],
+      "keyTerms": [
+        "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC)",
+        "BIMSTEC Master Plan for Transport Connectivity",
+        "Intra-BIMSTEC Trade",
+        "Act East Policy",
+        "Multimodal Connectivity"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "BIMSTEC Ministerial Meeting in Bangkok.",
+        "Focus: Regional connectivity, trade, Master Plan for Transport Connectivity.",
+        "India's role: Act East policy, multimodal projects.",
+        "Members: Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic significance of BIMSTEC for India's foreign policy, particularly its 'Act East' initiatives.",
+        "Discuss the challenges and opportunities in enhancing regional connectivity and economic integration within the BIMSTEC framework.",
+        "Compare BIMSTEC's potential and limitations with other regional groupings like SAARC.",
+        "Role of India in driving development and cooperation within BIMSTEC.",
+        "Impact of geopolitical dynamics in the Indo-Pacific on BIMSTEC's future trajectory."
+      ],
+      "imageDescription": "Map of BIMSTEC member countries connected by trade routes.",
+      "section": "International",
+      "trivia": "BIMSTEC was formed in 1997, initially with six members, and Thailand joined later.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Regional Groupings",
+        "topic": "BIMSTEC"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ai-healthcare-ethical-guidelines",
+      "headline": "NITI Aayog Releases Ethical Guidelines for AI Deployment in Healthcare Sector",
+      "explainer": "• NITI Aayog today unveiled a comprehensive set of 'Ethical Guidelines for Artificial Intelligence in Healthcare', aiming to ensure responsible and equitable integration of AI technologies in the medical field.\n• The guidelines address critical issues such as data privacy, algorithmic bias, accountability for AI-driven decisions, transparency in AI models, and patient consent.\n• They recommend establishing a multi-stakeholder oversight body to review AI applications in healthcare and ensure adherence to ethical principles.\n• The initiative seeks to harness AI's potential for improving diagnostics, drug discovery, and personalized treatment, while mitigating risks related to patient safety and trust.\n• These guidelines are a proactive step by India to become a leader in ethical AI deployment, particularly in sensitive sectors like healthcare.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights.",
+        "Role of NITI Aayog"
+      ],
+      "date": "2025-06-27",
+      "source": "NITI Aayog",
+      "sourceUrl": "https://niti.gov.in/news/ai-healthcare-ethical-guidelines",
+      "importance": "medium",
+      "tags": [
+        "Artificial Intelligence",
+        "Healthcare",
+        "Ethics",
+        "NITI Aayog",
+        "Data Privacy",
+        "Algorithmic Bias",
+        "Digital Health"
+      ],
+      "keyTerms": [
+        "Ethical Guidelines for AI in Healthcare",
+        "Algorithmic Bias",
+        "Data Privacy",
+        "Accountability",
+        "Patient Consent",
+        "Multi-stakeholder Oversight"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NITI Aayog's new guidelines: Ethical AI in Healthcare.",
+        "Key concerns: Data privacy, algorithmic bias, accountability, consent.",
+        "Recommendation: Multi-stakeholder oversight body."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of AI in the healthcare sector in India (diagnostics, drug discovery, personalized medicine).",
+        "Examine the ethical challenges associated with AI deployment in healthcare and the need for robust regulatory frameworks.",
+        "Evaluate the effectiveness of NITI Aayog's guidelines in addressing concerns like data privacy, bias, and accountability.",
+        "Role of public-private partnerships in developing and deploying ethical AI solutions in healthcare.",
+        "How India can leverage AI for universal healthcare access while ensuring equity and trust."
+      ],
+      "imageDescription": "AI interface showing medical data with a human hand interacting.",
+      "section": "Science",
+      "trivia": "NITI Aayog's 'National Strategy for Artificial Intelligence' (2018) identified healthcare as one of the five focus areas for AI adoption in India.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Computers",
+        "topic": "Artificial Intelligence"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "ucc-discussions-momentum",
+      "headline": "Discussions on Uniform Civil Code (UCC) Gain Momentum Across States",
+      "explainer": "• Discussions surrounding the implementation of a Uniform Civil Code (UCC) have gained renewed momentum, with several states initiating public consultations and legislative reviews on the matter.\n• The UCC aims to replace diverse personal laws based on religion with a common set of laws governing marriage, divorce, inheritance, adoption, and succession for all citizens.\n• Proponents argue it promotes gender justice, secularism, and national integration, while opponents raise concerns about preserving religious freedom and cultural diversity.\n• The Law Commission of India's ongoing examination of the UCC has provided further impetus to the national debate.\n• This renewed focus indicates a potential legislative push, requiring extensive stakeholder engagement and consensus-building to navigate complex legal and social implications.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Separation of powers between various organs dispute redressal mechanisms and institutions"
+      ],
+      "date": "2025-06-27",
+      "source": "Hindustan Times",
+      "sourceUrl": "https://www.hindustantimes.com/india-news/ucc-discussions-gain-momentum-states/",
+      "importance": "high",
+      "tags": [
+        "Uniform Civil Code",
+        "UCC",
+        "Constitutional Law",
+        "Gender Justice",
+        "Secularism",
+        "Religious Freedom",
+        "Law Commission"
+      ],
+      "keyTerms": [
+        "Uniform Civil Code (UCC)",
+        "Article 44 (DPSP)",
+        "Personal Laws",
+        "Gender Justice",
+        "Secularism",
+        "National Integration"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Uniform Civil Code (UCC) mentioned in Article 44 of DPSP.",
+        "Aims to replace religious personal laws with common laws.",
+        "Covers: Marriage, divorce, inheritance, adoption, succession.",
+        "Arguments for: Gender justice, secularism, national integration.",
+        "Arguments against: Religious freedom, cultural diversity."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Examine the constitutional mandate and historical context of the Uniform Civil Code (UCC) in India.",
+        "Discuss the arguments for and against the implementation of a UCC, considering gender justice, religious freedom, and national integration.",
+        "Analyze the role of the judiciary and the Law Commission in the UCC debate.",
+        "Challenges in drafting and implementing a UCC in a diverse country like India, requiring consensus-building.",
+        "How a UCC could impact different religious communities and tribal groups in India."
+      ],
+      "imageDescription": "Indian Constitution book with symbols of different religions.",
+      "section": "National",
+      "trivia": "Goa is the only Indian state that currently has a Uniform Civil Code, inherited from its Portuguese colonial past.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Constitutional Provisions",
+        "topic": "Directive Principles of State Policy"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "heatwave-agriculture-impact",
+      "headline": "Report Highlights Severe Impact of Prolonged Heatwaves on Agricultural Productivity",
+      "explainer": "• A new report released by the Indian Council of Agricultural Research (ICAR) today details the severe impact of recent prolonged heatwaves on agricultural productivity across several states.\n• The report indicates significant yield losses for major crops like wheat, rice, and pulses, primarily due to heat stress during critical growth stages and increased water evaporation.\n• It also highlights adverse effects on livestock, including reduced milk production and increased mortality rates, posing a threat to rural livelihoods.\n• ICAR recommends urgent implementation of climate-resilient agricultural practices, such as heat-tolerant crop varieties, improved irrigation techniques, and early warning systems for farmers.\n• The findings underscore the escalating challenge of climate change for India's food security and the need for adaptive strategies in the agricultural sector.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Major crops cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers",
+        "Environmental pollution and degradation",
+        "Climate Change"
+      ],
+      "date": "2025-06-27",
+      "source": "Indian Council of Agricultural Research (ICAR)",
+      "sourceUrl": "https://icar.org.in/news/heatwave-impact-agriculture-report",
+      "importance": "high",
+      "tags": [
+        "Heatwave",
+        "Agriculture",
+        "Climate Change Impact",
+        "Food Security",
+        "Crop Yield",
+        "Livestock",
+        "ICAR",
+        "Climate Resilience"
+      ],
+      "keyTerms": [
+        "Heat Stress",
+        "Yield Losses",
+        "Climate-Resilient Agriculture",
+        "Heat-Tolerant Varieties",
+        "Early Warning Systems",
+        "Food Security"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ICAR report on heatwave impact on agriculture.",
+        "Impact: Yield losses (wheat, rice, pulses), livestock issues.",
+        "Recommendations: Climate-resilient practices, heat-tolerant crops, irrigation, early warnings."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the multi-dimensional impact of climate change-induced heatwaves on India's agricultural sector and rural economy.",
+        "Discuss strategies and policies required to enhance climate resilience in Indian agriculture.",
+        "Evaluate the role of research institutions like ICAR in developing and disseminating climate-smart agricultural technologies.",
+        "Challenges in ensuring food security amidst changing climate patterns and extreme weather events.",
+        "Government schemes and initiatives (e.g., PM Fasal Bima Yojana, National Mission for Sustainable Agriculture) to support farmers against climate risks."
+      ],
+      "imageDescription": "Parched agricultural fields under a scorching sun.",
+      "section": "Environment",
+      "trivia": "India is one of the most vulnerable countries to climate change, experiencing frequent extreme weather events like heatwaves, floods, and droughts.",
+      "prelimsSyllabus": {
+        "subject": "Agriculture",
+        "area": "Climate Change",
+        "topic": "Impact on Agriculture"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "industrial-output-growth",
+      "headline": "India's Industrial Output Shows Robust Growth in May, Led by Manufacturing",
+      "explainer": "• India's Index of Industrial Production (IIP) registered a robust growth of 8.2% in May 2025, primarily driven by strong performance in the manufacturing sector.\n• The data released by the National Statistical Office (NSO) indicates a sustained recovery in industrial activity, reflecting increased consumer demand and investment.\n• Manufacturing, which accounts for over 77% of the IIP, grew by 9.5%, with significant contributions from sectors like automotive, electronics, and textiles.\n• Mining and electricity sectors also recorded positive growth, albeit at a slower pace, contributing to the overall industrial expansion.\n• This positive trend is expected to bolster investor confidence and provide further impetus to India's economic growth trajectory, though global headwinds remain a concern.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Industrial policy"
+      ],
+      "date": "2025-06-27",
+      "source": "National Statistical Office (NSO)",
+      "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=iip-may2025",
+      "importance": "medium",
+      "tags": [
+        "Industrial Production",
+        "IIP",
+        "Manufacturing Sector",
+        "Economic Indicators",
+        "NSO",
+        "Economic Growth",
+        "Investment"
+      ],
+      "keyTerms": [
+        "Index of Industrial Production (IIP)",
+        "National Statistical Office (NSO)",
+        "Manufacturing Sector",
+        "Mining Sector",
+        "Electricity Sector",
+        "Consumer Demand"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "IIP growth in May 2025: 8.2%.",
+        "Driven by: Manufacturing sector (9.5%).",
+        "Released by: National Statistical Office (NSO).",
+        "Components of IIP: Manufacturing, Mining, Electricity."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of the Index of Industrial Production (IIP) as a key economic indicator for India.",
+        "Discuss the factors contributing to the robust growth in the manufacturing sector and its implications for employment generation.",
+        "Challenges and opportunities for sustained industrial growth in India (e.g., infrastructure, ease of doing business, global supply chains).",
+        "Role of government policies (e.g., Make in India, PLI schemes) in boosting industrial output.",
+        "Impact of industrial growth on India's overall GDP and export performance."
+      ],
+      "imageDescription": "Factory floor with machinery and workers.",
+      "section": "Economy",
+      "trivia": "The base year for the Index of Industrial Production (IIP) in India is currently 2011-12.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Economic Indicators",
+        "topic": "Industrial Output"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "national-health-mission-progress",
+      "headline": "Progress Report on National Health Mission (NHM) Highlights Achievements and Gaps",
+      "explainer": "• The Ministry of Health and Family Welfare today released its annual progress report on the National Health Mission (NHM), detailing achievements in maternal and child health, communicable diseases, and health infrastructure.\n• The report noted significant reductions in Maternal Mortality Ratio (MMR) and Infant Mortality Rate (IMR) in several states, attributed to improved access to institutional deliveries and immunization programs.\n• However, it also highlighted persistent challenges in remote areas, including shortages of healthcare professionals, equitable access to specialized services, and funding disparities.\n• NHM's focus on strengthening primary healthcare through Ayushman Bharat – Health and Wellness Centres (AB-HWCs) was lauded, with an emphasis on preventive and promotive health.\n• The report calls for continued investment in public health infrastructure and human resources to achieve universal health coverage goals.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2025-06-27",
+      "source": "Ministry of Health and Family Welfare",
+      "sourceUrl": "https://www.mohfw.gov.in/news/nhm-progress-report-2025",
+      "importance": "medium",
+      "tags": [
+        "National Health Mission",
+        "Public Health",
+        "Maternal Health",
+        "Child Health",
+        "Ayushman Bharat",
+        "Health Infrastructure",
+        "Universal Health Coverage"
+      ],
+      "keyTerms": [
+        "National Health Mission (NHM)",
+        "Maternal Mortality Ratio (MMR)",
+        "Infant Mortality Rate (IMR)",
+        "Ayushman Bharat – Health and Wellness Centres (AB-HWCs)",
+        "Primary Healthcare",
+        "Universal Health Coverage"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NHM progress report by MoHFW.",
+        "Achievements: Reduced MMR, IMR, improved institutional deliveries.",
+        "Challenges: Remote areas, staff shortages, equitable access.",
+        "Focus: Primary healthcare via AB-HWCs."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Evaluate the success and challenges of the National Health Mission (NHM) in achieving its objectives of strengthening public healthcare in India.",
+        "Discuss the role of Ayushman Bharat – Health and Wellness Centres (AB-HWCs) in transforming primary healthcare and promoting preventive health.",
+        "Analyze the disparities in healthcare access and outcomes across different regions and socio-economic groups in India.",
+        "Recommendations for improving health infrastructure, human resources, and equitable access to healthcare services.",
+        "Link between public health initiatives and India's demographic dividend and sustainable development goals."
+      ],
+      "imageDescription": "Doctor and nurse attending to patients in a rural health center.",
+      "section": "National",
+      "trivia": "The National Health Mission (NHM) was launched in 2013 by subsuming the National Rural Health Mission (NRHM) and the National Urban Health Mission (NUHM).",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Health",
+        "topic": "Government Health Programs"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-sri-lanka-economic-support",
+      "headline": "India Pledges Continued Support for Sri Lanka's Economic Recovery and Stability",
+      "explainer": "• India today reiterated its steadfast commitment to supporting Sri Lanka's ongoing economic recovery efforts, following a high-level bilateral meeting in New Delhi.\n• Discussions focused on extending credit lines for essential commodities, promoting Indian investments in Sri Lankan infrastructure, and enhancing tourism cooperation.\n• Both nations emphasized the importance of regional stability and strengthening bilateral trade ties to ensure long-term economic resilience for Sri Lanka.\n• India has been a crucial partner for Sri Lanka during its economic crisis, providing significant financial assistance and humanitarian aid.\n• The meeting also explored joint projects in renewable energy and digital connectivity, underscoring a broader strategic partnership beyond immediate economic relief.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests"
+      ],
+      "date": "2025-06-27",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "https://www.mea.gov.in/press-releases.htm?dtl/38202/India_Sri_Lanka_Bilateral_Meeting",
+      "importance": "medium",
+      "tags": [
+        "India-Sri Lanka Relations",
+        "Economic Diplomacy",
+        "Neighborhood First Policy",
+        "Bilateral Aid",
+        "Regional Stability",
+        "Foreign Policy"
+      ],
+      "keyTerms": [
+        "Credit Lines",
+        "Economic Recovery",
+        "Bilateral Trade",
+        "Humanitarian Aid",
+        "Neighborhood First Policy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India's support for Sri Lanka's economic recovery.",
+        "Areas of cooperation: Credit lines, investment, tourism, renewable energy.",
+        "Context: Sri Lanka's economic crisis."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of India's 'Neighborhood First' policy in the context of its relations with Sri Lanka.",
+        "Discuss the challenges and opportunities in India-Sri Lanka bilateral relations, particularly concerning economic stability and geopolitical influence.",
+        "Evaluate India's role as a regional leader and first responder during crises in its neighborhood.",
+        "Impact of external debt and geopolitical competition on Sri Lanka's sovereignty and economic recovery.",
+        "Prospects for enhancing connectivity, trade, and cultural ties between India and Sri Lanka."
+      ],
+      "imageDescription": "Flags of India and Sri Lanka side-by-side.",
+      "section": "International",
+      "trivia": "India and Sri Lanka share a maritime boundary and historical cultural ties, including the Ramayana Trail.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India and its Neighborhood",
+        "topic": "India-Sri Lanka Relations"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-education-policy-implementation",
+      "headline": "States Showcase Progress in Implementing National Education Policy (NEP) 2020 Reforms",
+      "explainer": "• A national conference of State Education Ministers today highlighted significant progress made by various states in implementing key reforms outlined in the National Education Policy (NEP) 2020.\n• Several states presented innovative models for early childhood care and education (ECCE), vocational education integration, and digital learning initiatives.\n• The focus has been on foundational literacy and numeracy (FLN), curriculum reforms, and teacher training programs aligned with NEP's multidisciplinary approach.\n• Challenges remain in ensuring equitable access to quality education, particularly in remote areas, and addressing the digital divide.\n• The Ministry of Education reiterated its commitment to supporting states in achieving the transformative goals of NEP 2020 for a future-ready education system.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2025-06-27",
+      "source": "Ministry of Education",
+      "sourceUrl": "https://education.gov.in/news/nep2020-implementation-progress",
+      "importance": "medium",
+      "tags": [
+        "National Education Policy",
+        "NEP 2020",
+        "Education Reform",
+        "Early Childhood Education",
+        "Vocational Education",
+        "Digital Learning",
+        "Teacher Training"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP) 2020",
+        "Early Childhood Care and Education (ECCE)",
+        "Foundational Literacy and Numeracy (FLN)",
+        "Multidisciplinary Education",
+        "Digital Divide"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NEP 2020 implementation progress reviewed.",
+        "Key areas: ECCE, vocational education, digital learning, FLN, teacher training.",
+        "Challenges: Equitable access, digital divide."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the transformative vision of the National Education Policy (NEP) 2020 and its potential to reshape India's education system.",
+        "Discuss the key challenges in the implementation of NEP 2020, particularly concerning federalism, funding, and infrastructure.",
+        "Evaluate the impact of reforms like ECCE and vocational education integration on India's human resource development and demographic dividend.",
+        "Role of technology and digital learning in bridging the education gap and ensuring equitable access.",
+        "Strategies to improve teacher training and professional development under NEP 2020."
+      ],
+      "imageDescription": "Students learning in a modern classroom setting.",
+      "section": "National",
+      "trivia": "NEP 2020 replaced the 34-year-old National Policy on Education (1986).",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Education",
+        "topic": "Government Policies"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-policy-green-hydrogen-production",
+      "headline": "Government Announces New Incentive Policy to Boost Green Hydrogen Production",
+      "explainer": "• The Ministry of New and Renewable Energy today announced a new Production Linked Incentive (PLI) scheme and policy framework to significantly boost green hydrogen production and its adoption across various sectors.\n• The policy aims to position India as a global hub for green hydrogen manufacturing and export, aligning with the National Green Hydrogen Mission's targets.\n• Incentives include financial support for electrolyzer manufacturing, renewable energy integration for hydrogen production, and pilot projects for green hydrogen applications in steel, fertilizer, and mobility sectors.\n• The move is expected to attract significant domestic and international investment, create new jobs, and reduce India's reliance on fossil fuels.\n• This aggressive push for green hydrogen is crucial for India's energy transition and achieving its net-zero emissions goal by 2070.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-06-27",
+      "source": "Ministry of New and Renewable Energy",
+      "sourceUrl": "https://mnre.gov.in/news/green-hydrogen-policy-2025",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "Renewable Energy",
+        "Energy Transition",
+        "Production Linked Incentive",
+        "PLI Scheme",
+        "National Green Hydrogen Mission",
+        "Net Zero Emissions"
+      ],
+      "keyTerms": [
+        "Green Hydrogen",
+        "Electrolyzer Manufacturing",
+        "National Green Hydrogen Mission",
+        "Production Linked Incentive (PLI) Scheme",
+        "Net-Zero Emissions"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "New PLI scheme for green hydrogen by MNRE.",
+        "Aim: Global hub for green hydrogen, achieve National Green Hydrogen Mission targets.",
+        "Incentives: Electrolyzer manufacturing, renewable energy integration, pilot projects.",
+        "Goal: Reduce fossil fuel reliance, net-zero emissions by 2070."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of green hydrogen for India's energy security and climate change mitigation efforts.",
+        "Analyze the components of the new incentive policy and its potential impact on the green hydrogen ecosystem in India.",
+        "Challenges in scaling up green hydrogen production and adoption (e.g., cost, infrastructure, storage).",
+        "Compare India's National Green Hydrogen Mission with similar initiatives globally.",
+        "Role of public and private investment in driving the green hydrogen economy and creating new industries."
+      ],
+      "imageDescription": "Illustration of green hydrogen production facility with wind turbines.",
+      "section": "Economy",
+      "trivia": "The National Green Hydrogen Mission, launched in 2023, aims to make India a global hub for green hydrogen production, utilization, and export.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Energy",
+        "topic": "Renewable Energy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "global-chip-shortage-india-impact",
+      "headline": "Global Chip Shortage Continues to Impact Indian Electronics Manufacturing",
+      "explainer": "• The ongoing global semiconductor chip shortage continues to pose significant challenges for India's electronics manufacturing sector, impacting production timelines and increasing costs.\n• Automobile, consumer electronics, and IT hardware industries are particularly affected, leading to delays in product launches and supply chain disruptions.\n• While government initiatives like the Semiconductor Mission are making strides in attracting chip fabrication units, their operationalization will take time, leaving a near-term supply gap.\n• Indian manufacturers are exploring strategies such as diversifying sourcing, optimizing inventory management, and increasing domestic component production.\n• The situation underscores the urgent need for India to build a robust domestic semiconductor ecosystem to ensure self-reliance and resilience in critical technology supply chains.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth",
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Challenges to internal security through communication networks"
+      ],
+      "date": "2025-06-27",
+      "source": "Livemint",
+      "sourceUrl": "https://www.livemint.com/news/india-chip-shortage-impacts-manufacturing/",
+      "importance": "medium",
+      "tags": [
+        "Semiconductor Shortage",
+        "Chip Shortage",
+        "Electronics Manufacturing",
+        "Supply Chain",
+        "Automobile Industry",
+        "Semiconductor Mission",
+        "Atmanirbhar Bharat"
+      ],
+      "keyTerms": [
+        "Semiconductor Chip Shortage",
+        "Electronics Manufacturing",
+        "Supply Chain Disruptions",
+        "Semiconductor Mission",
+        "Chip Fabrication Units",
+        "Atmanirbhar Bharat"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Global chip shortage impacts Indian electronics manufacturing.",
+        "Affected sectors: Auto, consumer electronics, IT hardware.",
+        "Government initiative: Semiconductor Mission.",
+        "Need for domestic semiconductor ecosystem."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the causes and global implications of the semiconductor chip shortage.",
+        "Discuss the impact of the chip shortage on India's 'Make in India' initiative and aspirations to become a manufacturing hub.",
+        "Evaluate the effectiveness of India's Semiconductor Mission in building a resilient domestic chip ecosystem.",
+        "Challenges in establishing semiconductor fabrication units in India (e.g., capital intensity, technology transfer, skilled labor).",
+        "Strategic importance of semiconductors for national security and economic sovereignty."
+      ],
+      "imageDescription": "Microchips on a circuit board.",
+      "section": "Economy",
+      "trivia": "Semiconductors are essential components in virtually all modern electronic devices, from smartphones to electric vehicles.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Electronics",
+        "topic": "Semiconductors"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "Supreme Court upholds constitutional validity of National Green Transition Fund, boosting India's climate action financing.",
+    "India-EU Free Trade Agreement negotiations enter final phase, aiming for comprehensive deal to boost bilateral trade.",
+    "ISRO successfully conducts critical landing experiment for its Reusable Launch Vehicle (RLV) program, a step towards cheaper space access.",
+    "Parliament debates key amendments to the Digital Personal Data Protection Act, 2023, focusing on data fiduciary obligations and consent.",
+    "India proposes 'Global South Solidarity and Development Framework' at G20 Ministerial Meeting, advocating for collective action on climate finance and debt relief."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the 'National Green Transition Fund (NGTF)', consider the following statements:\n1. It is a fund established under the NGTF Act, 2024, to finance India's climate mitigation and adaptation efforts.\n2. Its funding sources include budgetary allocations, carbon taxes, green bonds, and international climate finance.\n3. The Supreme Court has recently declared the NGTF Act unconstitutional.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 2 only",
+      "explanation": "Statement 1 is correct: The NGTF is established under the NGTF Act, 2024, for climate mitigation and adaptation. Statement 2 is correct: Its funding sources include budgetary allocations, carbon taxes, green bonds, and international climate finance. Statement 3 is incorrect: The Supreme Court *upheld* the constitutional validity of the NGTF Act, dismissing challenges, as per the news."
+    },
+    {
+      "question": "Which of the following bodies is responsible for deciding the benchmark interest rates (like the Repo Rate) in India?",
+      "options": [
+        "(a) Ministry of Finance",
+        "(b) Reserve Bank of India (RBI) Board of Directors",
+        "(c) Monetary Policy Committee (MPC)",
+        "(d) Indian Banks' Association (IBA)"
+      ],
+      "answer": "(c) Monetary Policy Committee (MPC)",
+      "explanation": "The Monetary Policy Committee (MPC) is a statutory body constituted in 2016 and entrusted with the task of fixing the benchmark policy interest rate (repo rate) to achieve the inflation target within the flexible inflation targeting framework."
+    },
+    {
+      "question": "The 'Sagar Kavach' exercise, recently concluded along India's western coast, is related to:",
+      "options": [
+        "(a) A joint military exercise with a neighboring country for border management.",
+        "(b) A coastal security exercise involving various maritime agencies.",
+        "(c) A disaster relief operation simulating a cyclone response.",
+        "(d) An anti-piracy operation in the Indian Ocean region."
+      ],
+      "answer": "(b) A coastal security exercise involving various maritime agencies.",
+      "explanation": "'Sagar Kavach' is a biannual coastal security exercise involving the Indian Navy, Coast Guard, Marine Police, Customs, and other maritime agencies to test coastal security apparatus and inter-agency coordination."
+    },
+    {
+      "question": "Consider the following statements regarding the National Education Policy (NEP) 2020:\n1. It replaced the 34-year-old National Policy on Education (1986).\n2. It emphasizes Foundational Literacy and Numeracy (FLN) as a key priority.\n3. Early Childhood Care and Education (ECCE) is an integral part of its framework.\nHow many of the statements given above are correct?",
+      "options": [
+        "(a) Only one",
+        "(b) Only two",
+        "(c) All three",
+        "(d) None"
+      ],
+      "answer": "(c) All three",
+      "explanation": "All three statements are correct. NEP 2020 indeed replaced the 1986 policy, places strong emphasis on FLN, and integrates ECCE into its comprehensive framework for education reform."
+    },
+    {
+      "question": "Which of the following is NOT a primary objective of the Uniform Civil Code (UCC) as generally understood in India?",
+      "options": [
+        "(a) Promoting gender justice",
+        "(b) Ensuring religious freedom for all communities",
+        "(c) Fostering national integration",
+        "(d) Replacing diverse personal laws with a common set of laws"
+      ],
+      "answer": "(b) Ensuring religious freedom for all communities",
+      "explanation": "While ensuring religious freedom is a constitutional principle, the UCC's primary objective is to replace diverse religion-based personal laws with a common set of laws, which some argue might impinge on religious freedom. Promoting gender justice, fostering national integration, and replacing diverse personal laws are commonly cited objectives of the UCC. Religious freedom is a concern raised by opponents, not a primary objective of the UCC itself."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "The Supreme Court's validation of the National Green Transition Fund marks a significant step towards institutionalizing climate finance in India. Discuss the challenges and opportunities in mobilizing and deploying climate finance effectively to achieve India's ambitious climate targets. (15 Marks)",
+      "syllabusMatch": "GS3: Conservation, environmental pollution and degradation, environmental impact assessment; Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+      "approach": "Introduce the NGTF and its validation. Discuss challenges in climate finance mobilization (e.g., funding gaps, access to international finance, domestic resource constraints, policy consistency). Explore opportunities (e.g., green bonds, carbon markets, private sector engagement, technological innovation, international partnerships). Conclude with the importance of a robust framework for India's climate goals."
+    },
+    {
+      "question": "India's pursuit of a comprehensive Free Trade Agreement (FTA) with the European Union (EU) holds immense strategic and economic significance. Analyze the potential benefits and challenges for India in concluding and implementing such a broad-based trade deal. (15 Marks)",
+      "syllabusMatch": "GS2: Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests; Effect of policies and politics of developed and developing countries on India’s interests.",
+      "approach": "Begin by highlighting the significance of India-EU trade relations. Discuss potential benefits for India (e.g., market access for goods/services, investment, technology transfer, diversification of supply chains). Elaborate on challenges (e.g., tariff barriers, non-tariff barriers, IPR issues, agricultural sensitivities, labor/environmental standards, domestic industry protection). Conclude on the need for careful negotiation and implementation."
+    },
+    {
+      "question": "The renewed debate on the Uniform Civil Code (UCC) brings to the forefront complex questions of gender justice, religious freedom, and national integration. Critically examine the arguments for and against the implementation of a UCC in India, considering its constitutional mandate and socio-cultural diversity. (15 Marks)",
+      "syllabusMatch": "GS2: Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure; Separation of powers between various organs dispute redressal mechanisms and institutions.",
+      "approach": "Introduce UCC (Article 44 DPSP) and its aim. Present arguments for UCC (gender equality, secularism, national unity, judicial pronouncements). Present arguments against UCC (threat to religious freedom, cultural diversity, minority rights, practical implementation difficulties). Discuss the complexities in a diverse society like India and the need for consensus. Conclude with a balanced perspective on balancing uniformity with diversity."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The National Green Transition Fund (NGTF) Act, 2024, was upheld by the Supreme Court.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "NGTF",
+        "Climate Finance"
+      ]
+    },
+    {
+      "text": "India-EU FTA negotiations are in their final phase, focusing on market access and IPR.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "India-EU",
+        "FTA"
+      ]
+    },
+    {
+      "text": "ISRO's RLV-TD program aims to develop fully reusable launch vehicles for cheaper space access.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "RLV"
+      ]
+    },
+    {
+      "text": "Digital Personal Data Protection Act, 2023, is undergoing parliamentary amendments.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "DPDP Act",
+        "Data Privacy"
+      ]
+    },
+    {
+      "text": "India proposed a 'Global South Solidarity and Development Framework' at the G20 meeting.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "G20",
+        "Global South"
+      ]
+    },
+    {
+      "text": "NPSUM 2025 focuses on public transport, non-motorized transport, and EVs in urban areas.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Urban Mobility",
+        "Sustainable Transport"
+      ]
+    },
+    {
+      "text": "RBI's MPC kept the repo rate unchanged at 6.5% for the seventh consecutive meeting.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "Repo Rate"
+      ]
+    },
+    {
+      "text": "Skill India Digital 2.0 unifies skilling, education, and employment ecosystems.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "Skill India",
+        "Digital Skilling"
+      ]
+    },
+    {
+      "text": "BIMSTEC ministerial meeting focused on regional connectivity and intra-BIMSTEC trade.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "BIMSTEC",
+        "Connectivity"
+      ]
+    },
+    {
+      "text": "NITI Aayog released ethical guidelines for AI deployment in the healthcare sector.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "AI Ethics",
+        "Healthcare"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [],
+    "GS2": [
+      {
+        "id": "india-eu-fta-progress",
+        "headline": "India-EU Free Trade Agreement Negotiations Enter Final Phase, Focus on Market Access",
+        "explainer": "• Negotiations for the India-European Union Free Trade Agreement (FTA) have entered their crucial final phase, with both sides expressing optimism about concluding a comprehensive deal by year-end.\n• Key sticking points remain on market access for agricultural products, intellectual property rights, and sustainable development provisions, though significant progress has been reported in recent rounds.\n• The FTA aims to boost bilateral trade in goods and services, reduce tariffs, and create a more predictable regulatory environment for businesses.\n• Indian negotiators are pushing for greater access for its services sector professionals and pharmaceutical exports, while the EU is keen on reducing tariffs on automobiles and wines.\n• A successful FTA could significantly enhance India's economic ties with one of the world's largest trading blocs, diversifying its export markets and attracting European investment.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests"
+        ],
+        "date": "2025-06-27",
+        "source": "Economic Times",
+        "sourceUrl": "https://economictimes.indiatimes.com/news/economy/foreign-trade/india-eu-fta-final-phase/",
+        "importance": "high",
+        "tags": [
+          "India-EU Relations",
+          "Free Trade Agreement",
+          "International Trade",
+          "Economic Diplomacy",
+          "Market Access",
+          "Intellectual Property Rights"
+        ],
+        "keyTerms": [
+          "Free Trade Agreement (FTA)",
+          "European Union (EU)",
+          "Bilateral Trade",
+          "Tariff Barriers",
+          "Services Sector"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India-EU FTA negotiations status: Final phase.",
+          "Key areas of discussion: Market access, IPR, sustainable development.",
+          "Expected benefits: Boost trade, reduce tariffs, attract investment."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Strategic importance of the India-EU FTA for India's economic growth and geopolitical standing.",
+          "Challenges in negotiating comprehensive FTAs, balancing domestic interests with international commitments.",
+          "Potential impact on various sectors of the Indian economy (agriculture, manufacturing, services).",
+          "Comparison with other FTAs India is pursuing (e.g., with UK, GCC).",
+          "Role of trade agreements in India's 'Act East' and 'Connect West' policies."
+        ],
+        "imageDescription": "Flags of India and European Union intertwined.",
+        "section": "International",
+        "trivia": "The EU is India's third-largest trading partner, after the US and China, accounting for over 10% of India's total trade.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Groupings",
+          "topic": "India and European Union"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "parliament-data-protection-amendments",
+        "headline": "Parliament Debates Key Amendments to Digital Personal Data Protection Act, 2023",
+        "explainer": "• Parliament today commenced discussions on proposed amendments to the Digital Personal Data Protection Act (DPDP Act), 2023, primarily focusing on clarifying data fiduciary obligations and enhancing individual consent mechanisms.\n• The amendments aim to address implementation challenges and stakeholder feedback received since the Act's operationalization, particularly concerning cross-border data transfers and the scope of 'legitimate uses' of data.\n• A key proposal includes streamlining the process for data breach notifications and strengthening the powers of the Data Protection Board of India.\n• Critics argue that some amendments might dilute protections for certain categories of data, while proponents emphasize the need for a balanced approach to foster innovation and ensure ease of doing business.\n• The debate highlights India's ongoing efforts to refine its data governance framework in line with global best practices while safeguarding citizen privacy.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Cyber security",
+          "Role of civil services in a democracy"
+        ],
+        "date": "2025-06-27",
+        "source": "The Indian Express",
+        "sourceUrl": "https://indianexpress.com/news/national/data-protection-act-amendments-parliament/",
+        "importance": "high",
+        "tags": [
+          "Data Protection",
+          "Digital Personal Data Protection Act",
+          "Privacy",
+          "Cybersecurity",
+          "Parliament",
+          "Data Governance",
+          "MeitY"
+        ],
+        "keyTerms": [
+          "Digital Personal Data Protection Act (DPDP Act), 2023",
+          "Data Fiduciary",
+          "Data Principal",
+          "Data Protection Board of India",
+          "Cross-border Data Transfer",
+          "Consent Mechanism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Digital Personal Data Protection Act (DPDP Act), 2023.",
+          "Key concepts: Data Fiduciary, Data Principal.",
+          "Role of Data Protection Board of India.",
+          "Focus of amendments: Data fiduciary obligations, consent, cross-border transfers."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of the DPDP Act in India's digital economy and privacy landscape.",
+          "Discuss the challenges in balancing data privacy with innovation and ease of doing business.",
+          "Evaluate the proposed amendments' impact on individual rights and corporate responsibilities.",
+          "Compare India's data protection framework with global standards like GDPR.",
+          "Role of parliamentary debate in shaping critical legislation and addressing stakeholder concerns."
+        ],
+        "imageDescription": "Parliament building with digital data streams flowing.",
+        "section": "National",
+        "trivia": "India's journey towards a comprehensive data protection law began with the Puttaswamy judgment (2017) affirming the Right to Privacy as a fundamental right.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Governance",
+          "topic": "E-governance"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "g20-global-south-framework",
+        "headline": "India Proposes New Framework for Global South Cooperation at G20 Ministerial Meeting",
+        "explainer": "• India today presented a detailed proposal for a 'Global South Solidarity and Development Framework' during the G20 Development Ministers' Meeting in Brazil, emphasizing collective action on climate finance, debt relief, and technology transfer.\n• The framework calls for enhanced cooperation among developing nations and increased support from developed economies to address common challenges like poverty, food insecurity, and health disparities.\n• India highlighted its own initiatives, such as the International Solar Alliance (ISA) and disaster resilience infrastructure, as models for South-South cooperation.\n• The proposal received broad support from several G20 members, particularly those representing emerging economies, and is expected to be a key agenda item for future G20 summits.\n• This move reinforces India's growing leadership role in advocating for the interests and priorities of the Global South on multilateral platforms.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate",
+          "Effect of policies and politics of developed and developing countries on India’s interests"
+        ],
+        "date": "2025-06-27",
+        "source": "DD News",
+        "sourceUrl": "https://ddnews.gov.in/national/india-proposes-global-south-framework-g20/",
+        "importance": "high",
+        "tags": [
+          "G20",
+          "Global South",
+          "South-South Cooperation",
+          "Development Diplomacy",
+          "Climate Finance",
+          "Debt Relief",
+          "Technology Transfer"
+        ],
+        "keyTerms": [
+          "Global South Solidarity and Development Framework",
+          "G20 Development Ministers' Meeting",
+          "International Solar Alliance (ISA)",
+          "South-South Cooperation",
+          "Multilateralism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India's proposal: 'Global South Solidarity and Development Framework' at G20.",
+          "Key focus areas: Climate finance, debt relief, technology transfer.",
+          "India's role: Advocate for Global South interests, promote ISA."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze India's increasing leadership role in the Global South and its implications for India's foreign policy.",
+          "Discuss the challenges faced by the Global South and how a collective framework can address them.",
+          "Evaluate the effectiveness of G20 as a platform for addressing development challenges of developing countries.",
+          "Role of India's development partnerships and initiatives (e.g., Line of Credit, capacity building) in strengthening South-South cooperation.",
+          "Impact of geopolitical shifts on the relevance and influence of the Global South."
+        ],
+        "imageDescription": "World map highlighting the Global South nations, with G20 logo.",
+        "section": "International",
+        "trivia": "India hosted the G20 Summit in 2023, during which it championed the inclusion of the African Union as a permanent member.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Institutions",
+          "topic": "G20"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "skill-india-digital-2.0",
+        "headline": "Government Launches 'Skill India Digital 2.0' Platform for Enhanced Skilling and Employment",
+        "explainer": "• The Ministry of Skill Development and Entrepreneurship (MSDE) today launched 'Skill India Digital 2.0', an upgraded digital platform aimed at unifying skilling, education, and employment ecosystems.\n• The platform integrates various government skill development programs, offering personalized learning pathways, industry-relevant courses, and direct linkages to job opportunities.\n• Key features include AI-powered career counseling, verifiable digital credentials, and a robust employer-matching system to bridge the demand-supply gap in the labor market.\n• Skill India Digital 2.0 also provides access to entrepreneurial training modules and financial literacy programs for aspiring self-starters.\n• This initiative is poised to enhance workforce employability, promote lifelong learning, and contribute to India's demographic dividend by empowering youth with future-ready skills.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources"
+        ],
+        "date": "2025-06-27",
+        "source": "PIB",
+        "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=skillindia2.0",
+        "importance": "medium",
+        "tags": [
+          "Skill Development",
+          "Digital India",
+          "Employment",
+          "Education",
+          "MSDE",
+          "Demographic Dividend",
+          "AI in Education"
+        ],
+        "keyTerms": [
+          "Skill India Digital 2.0",
+          "Ministry of Skill Development and Entrepreneurship (MSDE)",
+          "Personalized Learning Pathways",
+          "Digital Credentials",
+          "Demand-Supply Gap"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Skill India Digital 2.0 launched by MSDE.",
+          "Purpose: Unify skilling, education, employment.",
+          "Features: AI counseling, digital credentials, job matching."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the role of digital platforms in addressing skill gaps and unemployment in India.",
+          "Evaluate the potential of Skill India Digital 2.0 to enhance the employability of India's youth and leverage the demographic dividend.",
+          "Challenges in skill development: infrastructure, quality of training, industry linkage, and digital literacy.",
+          "How government initiatives like Skill India align with the National Education Policy (NEP) 2020's focus on vocational education.",
+          "Impact on informal sector workers and opportunities for reskilling and upskilling."
+        ],
+        "imageDescription": "People learning on digital tablets with 'Skill India Digital 2.0' logo.",
+        "section": "National",
+        "trivia": "The 'Skill India Mission' was launched in 2015 to create convergence across various skill training schemes and initiatives.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Human Resources",
+          "topic": "Skill Development"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "bimstec-ministerial-connectivity",
+        "headline": "BIMSTEC Ministerial Meeting Focuses on Enhancing Regional Connectivity and Trade",
+        "explainer": "• The Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC) ministerial meeting concluded today in Bangkok, with member states reiterating commitment to accelerating regional connectivity projects.\n• Discussions centered on the operationalization of the BIMSTEC Master Plan for Transport Connectivity and strategies to boost intra-BIMSTEC trade and investment.\n• India emphasized its 'Act East' policy and its commitment to developing multimodal connectivity projects, including road, rail, and waterways, to integrate the Bay of Bengal region.\n• Member nations also explored cooperation in energy, digital connectivity, and climate resilience, recognizing their shared vulnerability to climate change impacts.\n• The meeting underscored the growing strategic importance of BIMSTEC as a bridge between South Asia and Southeast Asia, fostering economic prosperity and regional stability.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "India and its neighborhood- relations"
+        ],
+        "date": "2025-06-27",
+        "source": "The Economic Times",
+        "sourceUrl": "https://economictimes.indiatimes.com/news/international/bimstec-connectivity-meeting/",
+        "importance": "medium",
+        "tags": [
+          "BIMSTEC",
+          "Regional Cooperation",
+          "Connectivity",
+          "Trade",
+          "Act East Policy",
+          "Bay of Bengal",
+          "Multilateralism"
+        ],
+        "keyTerms": [
+          "Bay of Bengal Initiative for Multi-Sectoral Technical and Economic Cooperation (BIMSTEC)",
+          "BIMSTEC Master Plan for Transport Connectivity",
+          "Intra-BIMSTEC Trade",
+          "Act East Policy",
+          "Multimodal Connectivity"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "BIMSTEC Ministerial Meeting in Bangkok.",
+          "Focus: Regional connectivity, trade, Master Plan for Transport Connectivity.",
+          "India's role: Act East policy, multimodal projects.",
+          "Members: Bangladesh, Bhutan, India, Myanmar, Nepal, Sri Lanka, Thailand."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic significance of BIMSTEC for India's foreign policy, particularly its 'Act East' initiatives.",
+          "Discuss the challenges and opportunities in enhancing regional connectivity and economic integration within the BIMSTEC framework.",
+          "Compare BIMSTEC's potential and limitations with other regional groupings like SAARC.",
+          "Role of India in driving development and cooperation within BIMSTEC.",
+          "Impact of geopolitical dynamics in the Indo-Pacific on BIMSTEC's future trajectory."
+        ],
+        "imageDescription": "Map of BIMSTEC member countries connected by trade routes.",
+        "section": "International",
+        "trivia": "BIMSTEC was formed in 1997, initially with six members, and Thailand joined later.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Regional Groupings",
+          "topic": "BIMSTEC"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ucc-discussions-momentum",
+        "headline": "Discussions on Uniform Civil Code (UCC) Gain Momentum Across States",
+        "explainer": "• Discussions surrounding the implementation of a Uniform Civil Code (UCC) have gained renewed momentum, with several states initiating public consultations and legislative reviews on the matter.\n• The UCC aims to replace diverse personal laws based on religion with a common set of laws governing marriage, divorce, inheritance, adoption, and succession for all citizens.\n• Proponents argue it promotes gender justice, secularism, and national integration, while opponents raise concerns about preserving religious freedom and cultural diversity.\n• The Law Commission of India's ongoing examination of the UCC has provided further impetus to the national debate.\n• This renewed focus indicates a potential legislative push, requiring extensive stakeholder engagement and consensus-building to navigate complex legal and social implications.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Separation of powers between various organs dispute redressal mechanisms and institutions"
+        ],
+        "date": "2025-06-27",
+        "source": "Hindustan Times",
+        "sourceUrl": "https://www.hindustantimes.com/india-news/ucc-discussions-gain-momentum-states/",
+        "importance": "high",
+        "tags": [
+          "Uniform Civil Code",
+          "UCC",
+          "Constitutional Law",
+          "Gender Justice",
+          "Secularism",
+          "Religious Freedom",
+          "Law Commission"
+        ],
+        "keyTerms": [
+          "Uniform Civil Code (UCC)",
+          "Article 44 (DPSP)",
+          "Personal Laws",
+          "Gender Justice",
+          "Secularism",
+          "National Integration"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Uniform Civil Code (UCC) mentioned in Article 44 of DPSP.",
+          "Aims to replace religious personal laws with common laws.",
+          "Covers: Marriage, divorce, inheritance, adoption, succession.",
+          "Arguments for: Gender justice, secularism, national integration.",
+          "Arguments against: Religious freedom, cultural diversity."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Examine the constitutional mandate and historical context of the Uniform Civil Code (UCC) in India.",
+          "Discuss the arguments for and against the implementation of a UCC, considering gender justice, religious freedom, and national integration.",
+          "Analyze the role of the judiciary and the Law Commission in the UCC debate.",
+          "Challenges in drafting and implementing a UCC in a diverse country like India, requiring consensus-building.",
+          "How a UCC could impact different religious communities and tribal groups in India."
+        ],
+        "imageDescription": "Indian Constitution book with symbols of different religions.",
+        "section": "National",
+        "trivia": "Goa is the only Indian state that currently has a Uniform Civil Code, inherited from its Portuguese colonial past.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Constitutional Provisions",
+          "topic": "Directive Principles of State Policy"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "national-health-mission-progress",
+        "headline": "Progress Report on National Health Mission (NHM) Highlights Achievements and Gaps",
+        "explainer": "• The Ministry of Health and Family Welfare today released its annual progress report on the National Health Mission (NHM), detailing achievements in maternal and child health, communicable diseases, and health infrastructure.\n• The report noted significant reductions in Maternal Mortality Ratio (MMR) and Infant Mortality Rate (IMR) in several states, attributed to improved access to institutional deliveries and immunization programs.\n• However, it also highlighted persistent challenges in remote areas, including shortages of healthcare professionals, equitable access to specialized services, and funding disparities.\n• NHM's focus on strengthening primary healthcare through Ayushman Bharat – Health and Wellness Centres (AB-HWCs) was lauded, with an emphasis on preventive and promotive health.\n• The report calls for continued investment in public health infrastructure and human resources to achieve universal health coverage goals.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2025-06-27",
+        "source": "Ministry of Health and Family Welfare",
+        "sourceUrl": "https://www.mohfw.gov.in/news/nhm-progress-report-2025",
+        "importance": "medium",
+        "tags": [
+          "National Health Mission",
+          "Public Health",
+          "Maternal Health",
+          "Child Health",
+          "Ayushman Bharat",
+          "Health Infrastructure",
+          "Universal Health Coverage"
+        ],
+        "keyTerms": [
+          "National Health Mission (NHM)",
+          "Maternal Mortality Ratio (MMR)",
+          "Infant Mortality Rate (IMR)",
+          "Ayushman Bharat – Health and Wellness Centres (AB-HWCs)",
+          "Primary Healthcare",
+          "Universal Health Coverage"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NHM progress report by MoHFW.",
+          "Achievements: Reduced MMR, IMR, improved institutional deliveries.",
+          "Challenges: Remote areas, staff shortages, equitable access.",
+          "Focus: Primary healthcare via AB-HWCs."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Evaluate the success and challenges of the National Health Mission (NHM) in achieving its objectives of strengthening public healthcare in India.",
+          "Discuss the role of Ayushman Bharat – Health and Wellness Centres (AB-HWCs) in transforming primary healthcare and promoting preventive health.",
+          "Analyze the disparities in healthcare access and outcomes across different regions and socio-economic groups in India.",
+          "Recommendations for improving health infrastructure, human resources, and equitable access to healthcare services.",
+          "Link between public health initiatives and India's demographic dividend and sustainable development goals."
+        ],
+        "imageDescription": "Doctor and nurse attending to patients in a rural health center.",
+        "section": "National",
+        "trivia": "The National Health Mission (NHM) was launched in 2013 by subsuming the National Rural Health Mission (NRHM) and the National Urban Health Mission (NUHM).",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Health",
+          "topic": "Government Health Programs"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-sri-lanka-economic-support",
+        "headline": "India Pledges Continued Support for Sri Lanka's Economic Recovery and Stability",
+        "explainer": "• India today reiterated its steadfast commitment to supporting Sri Lanka's ongoing economic recovery efforts, following a high-level bilateral meeting in New Delhi.\n• Discussions focused on extending credit lines for essential commodities, promoting Indian investments in Sri Lankan infrastructure, and enhancing tourism cooperation.\n• Both nations emphasized the importance of regional stability and strengthening bilateral trade ties to ensure long-term economic resilience for Sri Lanka.\n• India has been a crucial partner for Sri Lanka during its economic crisis, providing significant financial assistance and humanitarian aid.\n• The meeting also explored joint projects in renewable energy and digital connectivity, underscoring a broader strategic partnership beyond immediate economic relief.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests"
+        ],
+        "date": "2025-06-27",
+        "source": "Ministry of External Affairs (MEA)",
+        "sourceUrl": "https://www.mea.gov.in/press-releases.htm?dtl/38202/India_Sri_Lanka_Bilateral_Meeting",
+        "importance": "medium",
+        "tags": [
+          "India-Sri Lanka Relations",
+          "Economic Diplomacy",
+          "Neighborhood First Policy",
+          "Bilateral Aid",
+          "Regional Stability",
+          "Foreign Policy"
+        ],
+        "keyTerms": [
+          "Credit Lines",
+          "Economic Recovery",
+          "Bilateral Trade",
+          "Humanitarian Aid",
+          "Neighborhood First Policy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India's support for Sri Lanka's economic recovery.",
+          "Areas of cooperation: Credit lines, investment, tourism, renewable energy.",
+          "Context: Sri Lanka's economic crisis."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of India's 'Neighborhood First' policy in the context of its relations with Sri Lanka.",
+          "Discuss the challenges and opportunities in India-Sri Lanka bilateral relations, particularly concerning economic stability and geopolitical influence.",
+          "Evaluate India's role as a regional leader and first responder during crises in its neighborhood.",
+          "Impact of external debt and geopolitical competition on Sri Lanka's sovereignty and economic recovery.",
+          "Prospects for enhancing connectivity, trade, and cultural ties between India and Sri Lanka."
+        ],
+        "imageDescription": "Flags of India and Sri Lanka side-by-side.",
+        "section": "International",
+        "trivia": "India and Sri Lanka share a maritime boundary and historical cultural ties, including the Ramayana Trail.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India and its Neighborhood",
+          "topic": "India-Sri Lanka Relations"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-education-policy-implementation",
+        "headline": "States Showcase Progress in Implementing National Education Policy (NEP) 2020 Reforms",
+        "explainer": "• A national conference of State Education Ministers today highlighted significant progress made by various states in implementing key reforms outlined in the National Education Policy (NEP) 2020.\n• Several states presented innovative models for early childhood care and education (ECCE), vocational education integration, and digital learning initiatives.\n• The focus has been on foundational literacy and numeracy (FLN), curriculum reforms, and teacher training programs aligned with NEP's multidisciplinary approach.\n• Challenges remain in ensuring equitable access to quality education, particularly in remote areas, and addressing the digital divide.\n• The Ministry of Education reiterated its commitment to supporting states in achieving the transformative goals of NEP 2020 for a future-ready education system.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2025-06-27",
+        "source": "Ministry of Education",
+        "sourceUrl": "https://education.gov.in/news/nep2020-implementation-progress",
+        "importance": "medium",
+        "tags": [
+          "National Education Policy",
+          "NEP 2020",
+          "Education Reform",
+          "Early Childhood Education",
+          "Vocational Education",
+          "Digital Learning",
+          "Teacher Training"
+        ],
+        "keyTerms": [
+          "National Education Policy (NEP) 2020",
+          "Early Childhood Care and Education (ECCE)",
+          "Foundational Literacy and Numeracy (FLN)",
+          "Multidisciplinary Education",
+          "Digital Divide"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NEP 2020 implementation progress reviewed.",
+          "Key areas: ECCE, vocational education, digital learning, FLN, teacher training.",
+          "Challenges: Equitable access, digital divide."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the transformative vision of the National Education Policy (NEP) 2020 and its potential to reshape India's education system.",
+          "Discuss the key challenges in the implementation of NEP 2020, particularly concerning federalism, funding, and infrastructure.",
+          "Evaluate the impact of reforms like ECCE and vocational education integration on India's human resource development and demographic dividend.",
+          "Role of technology and digital learning in bridging the education gap and ensuring equitable access.",
+          "Strategies to improve teacher training and professional development under NEP 2020."
+        ],
+        "imageDescription": "Students learning in a modern classroom setting.",
+        "section": "National",
+        "trivia": "NEP 2020 replaced the 34-year-old National Policy on Education (1986).",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Education",
+          "topic": "Government Policies"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "sc-green-transition-fund",
+        "headline": "Supreme Court Upholds Validity of National Green Transition Fund, Boosts Climate Action",
+        "explainer": "• The Supreme Court of India today upheld the constitutional validity of the 'National Green Transition Fund' (NGTF) Act, 2024, a landmark legislation aimed at financing India's climate mitigation and adaptation efforts.\n• The ruling dismissed petitions challenging the Act on grounds of legislative competence and potential financial burden on states, reinforcing the Centre's role in national environmental policy.\n• The NGTF is designed to pool resources from budgetary allocations, carbon taxes, green bonds, and international climate finance, directing them towards renewable energy, afforestation, sustainable agriculture, and disaster resilience projects.\n• Experts laud the judgment as a significant step towards institutionalizing climate finance and providing a stable funding mechanism for India's ambitious climate targets.\n• The fund is expected to play a crucial role in enabling India to meet its Nationally Determined Contributions (NDCs) under the Paris Agreement and transition towards a net-zero economy.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Environmental pollution and degradation",
+          "Environmental impact assessment",
+          "Conservation",
+          "Climate Change",
+          "Government policies and interventions"
+        ],
+        "date": "2025-06-27",
+        "source": "The Hindu",
+        "sourceUrl": "https://www.thehindu.com/news/national/sc-upholds-green-fund-validity/",
+        "importance": "high",
+        "tags": [
+          "Supreme Court",
+          "National Green Transition Fund",
+          "Climate Finance",
+          "Environmental Governance",
+          "Judicial Review",
+          "Paris Agreement",
+          "NDCs"
+        ],
+        "keyTerms": [
+          "National Green Transition Fund (NGTF)",
+          "Climate Mitigation",
+          "Climate Adaptation",
+          "Carbon Tax",
+          "Green Bonds",
+          "Nationally Determined Contributions (NDCs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Green Transition Fund (NGTF) Act, 2024.",
+          "Purpose: Financing climate mitigation and adaptation.",
+          "Funding sources: Budgetary allocations, carbon taxes, green bonds, international climate finance.",
+          "Supreme Court's role in upholding legislation."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Significance of institutionalized climate finance for India's climate goals.",
+          "Role of judiciary in environmental governance and upholding legislative intent.",
+          "Challenges and opportunities in mobilizing and deploying climate finance in India.",
+          "Impact of NGTF on India's net-zero transition and international climate commitments.",
+          "Federalism issues in environmental policy and Centre-state financial implications."
+        ],
+        "imageDescription": "Illustration of Supreme Court building with green energy symbols.",
+        "section": "Lead Opinion",
+        "trivia": "India's first National Environment Policy was formulated in 2006, aiming for sustainable development.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Conservation",
+          "topic": "Climate Change and Policies"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "isro-rlv-lex-test",
+        "headline": "ISRO Successfully Conducts Critical Landing Experiment for Reusable Launch Vehicle",
+        "explainer": "• The Indian Space Research Organisation (ISRO) today announced the successful completion of a crucial Landing Experiment (LEX) for its Reusable Launch Vehicle (RLV) Technology Demonstrator program.\n• The autonomous landing was performed at the Aeronautical Test Range in Chitradurga, Karnataka, simulating a space return vehicle's high-speed, unpowered approach and precision landing.\n• This test is a significant step towards developing a fully reusable two-stage orbital launch vehicle, which promises to drastically reduce the cost of space access.\n• The RLV-TD program is a key component of India's long-term vision for sustainable space exploration and commercial space launches.\n• Future tests will focus on orbital re-entry and hypersonic flight, gradually building towards an operational RLV.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology",
+          "Indigenization of technology and developing new technology",
+          "Space technology"
+        ],
+        "date": "2025-06-27",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=123456",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Reusable Launch Vehicle",
+          "Space Technology",
+          "Aerospace",
+          "Indigenous Technology",
+          "Cost Reduction"
+        ],
+        "keyTerms": [
+          "Reusable Launch Vehicle (RLV)",
+          "RLV Technology Demonstrator (RLV-TD)",
+          "Landing Experiment (LEX)",
+          "Autonomous Landing",
+          "Space Access"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ISRO's RLV-TD program: Reusable Launch Vehicle Technology Demonstrator.",
+          "Latest test: Landing Experiment (LEX) at Chitradurga.",
+          "Goal: Reduce cost of space access, sustainable space exploration."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Significance of reusable launch vehicles for India's space ambitions and commercial space sector.",
+          "Challenges in developing RLV technology (materials, guidance, thermal protection).",
+          "How RLVs contribute to sustainable space exploration and debris mitigation.",
+          "India's position in the global reusable launch vehicle race compared to SpaceX, Blue Origin.",
+          "Economic implications of reduced launch costs for satellite deployment and space tourism."
+        ],
+        "imageDescription": "Artistic rendering of ISRO's RLV landing on a runway.",
+        "section": "Science",
+        "trivia": "ISRO's first successful RLV-TD Hypersonic Flight Experiment (HEX) was conducted in 2016.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space",
+          "topic": "Indian Space Program"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "sustainable-urban-mobility-policy",
+        "headline": "Ministry of Housing and Urban Affairs Unveils New Policy for Sustainable Urban Mobility",
+        "explainer": "• The Ministry of Housing and Urban Affairs (MoHUA) today launched the 'National Policy on Sustainable Urban Mobility (NPSUM) 2025', aiming to promote eco-friendly and inclusive transport systems in Indian cities.\n• The policy prioritizes public transport, non-motorized transport (walking and cycling), and electric vehicles, alongside integrated land-use planning.\n• Key interventions include financial incentives for states adopting green mobility solutions, development of multimodal hubs, and smart traffic management systems.\n• It also emphasizes capacity building for urban local bodies and fostering public-private partnerships for infrastructure development.\n• NPSUM 2025 seeks to reduce urban congestion, improve air quality, and enhance the quality of life for city dwellers, aligning with India's sustainable development goals.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Environmental pollution and degradation",
+          "Conservation",
+          "Urbanization - problems and remedies"
+        ],
+        "date": "2025-06-27",
+        "source": "Ministry of Housing and Urban Affairs",
+        "sourceUrl": "https://mohua.gov.in/news/npsum2025-launched",
+        "importance": "medium",
+        "tags": [
+          "Urban Mobility",
+          "Sustainable Transport",
+          "Public Transport",
+          "Electric Vehicles",
+          "Urban Planning",
+          "Smart Cities",
+          "MoHUA"
+        ],
+        "keyTerms": [
+          "National Policy on Sustainable Urban Mobility (NPSUM) 2025",
+          "Non-Motorized Transport (NMT)",
+          "Multimodal Hubs",
+          "Integrated Land-Use Planning"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NPSUM 2025 launched by MoHUA.",
+          "Focus: Public transport, NMT, EVs, integrated land-use.",
+          "Aims: Reduce congestion, improve air quality, quality of life."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Examine the need for a comprehensive sustainable urban mobility policy in India's rapidly urbanizing context.",
+          "Discuss the challenges in implementing green transport solutions in Indian cities (funding, public acceptance, infrastructure).",
+          "Evaluate the potential impact of NPSUM 2025 on urban air quality, traffic congestion, and carbon emissions.",
+          "Role of technology and smart solutions in achieving sustainable urban mobility.",
+          "How the policy aligns with India's broader climate commitments and Smart Cities Mission."
+        ],
+        "imageDescription": "City skyline with metro, cycling paths, and electric buses.",
+        "section": "National",
+        "trivia": "India's urban population is projected to reach 600 million by 2030, making sustainable urban planning critical.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Urbanization",
+          "topic": "Sustainable Development"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "rbi-repo-rate",
+        "headline": "RBI Maintains Status Quo on Repo Rate Amidst Easing Inflationary Pressures",
+        "explainer": "• The Reserve Bank of India's (RBI) Monetary Policy Committee (MPC) today decided to keep the repo rate unchanged at 6.5%, extending a pause for the seventh consecutive meeting.\n• The decision comes amidst a cautious assessment of easing retail inflation, which has shown signs of moderation, while global economic uncertainties persist.\n• Governor Shaktikanta Das highlighted the need to remain vigilant against potential upside risks to inflation, particularly from volatile food prices and geopolitical developments.\n• The MPC also reiterated its commitment to withdrawing accommodation to ensure inflation aligns with the target while supporting growth.\n• This stability in interest rates is expected to provide continued support to economic growth, though credit demand will be closely monitored.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Monetary policy"
+        ],
+        "date": "2025-06-27",
+        "source": "Business Standard",
+        "sourceUrl": "https://www.business-standard.com/rbi-monetary-policy-update/",
+        "importance": "high",
+        "tags": [
+          "RBI",
+          "Monetary Policy",
+          "Repo Rate",
+          "Inflation",
+          "Economic Growth",
+          "Monetary Policy Committee"
+        ],
+        "keyTerms": [
+          "Repo Rate",
+          "Monetary Policy Committee (MPC)",
+          "Retail Inflation (CPI)",
+          "Monetary Accommodation",
+          "Reverse Repo Rate"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "RBI's MPC decision: Repo rate unchanged at 6.5%.",
+          "Reason: Easing inflation, global uncertainties.",
+          "Objective: Inflation target, supporting growth."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the factors influencing RBI's monetary policy decisions in the current economic scenario.",
+          "Discuss the trade-offs between controlling inflation and supporting economic growth.",
+          "Evaluate the effectiveness of monetary policy tools like the repo rate in managing India's economy.",
+          "Impact of global economic developments (e.g., interest rate hikes by major central banks, commodity prices) on India's monetary policy.",
+          "Role of the MPC in ensuring transparency and credibility in monetary policy formulation."
+        ],
+        "imageDescription": "RBI logo and graphs showing inflation and interest rates.",
+        "section": "Economy",
+        "trivia": "The Monetary Policy Committee (MPC) was constituted in 2016 to bring transparency and accountability in deciding monetary policy.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI and Instruments"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "coastal-security-sagar-kavach",
+        "headline": "Coastal Security Exercise 'Sagar Kavach' Concludes, Enhancing Maritime Preparedness",
+        "explainer": "• The biannual coastal security exercise 'Sagar Kavach' concluded today along the western coast, involving the Indian Navy, Coast Guard, Marine Police, Customs, and other maritime agencies.\n• The exercise simulated a multi-pronged infiltration attempt from the sea, testing the coastal security apparatus's vigilance, coordination, and response capabilities.\n• Emphasis was placed on intelligence sharing, inter-agency communication, and rapid deployment of assets in a realistic operational scenario.\n• 'Sagar Kavach' is crucial for fortifying India's extensive coastline against potential threats, including terrorism, smuggling, and illegal immigration.\n• The post-exercise debrief will identify areas for improvement and further strengthen the integrated coastal security framework established after the 26/11 Mumbai attacks.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security challenges and their management in border areas",
+          "Various Security forces and agencies and their mandate"
+        ],
+        "date": "2025-06-27",
+        "source": "Ministry of Defence",
+        "sourceUrl": "https://mod.gov.in/press-release/sagar-kavach-concludes",
+        "importance": "medium",
+        "tags": [
+          "Coastal Security",
+          "Maritime Security",
+          "Indian Navy",
+          "Indian Coast Guard",
+          "Internal Security",
+          "Joint Exercise",
+          "Border Management"
+        ],
+        "keyTerms": [
+          "Sagar Kavach",
+          "Coastal Security Apparatus",
+          "Inter-agency Coordination",
+          "Maritime Domain Awareness (MDA)",
+          "26/11 Mumbai Attacks"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Exercise 'Sagar Kavach': Biannual coastal security exercise.",
+          "Participants: Indian Navy, Coast Guard, Marine Police, Customs.",
+          "Objective: Test coastal security, intelligence sharing, inter-agency coordination.",
+          "Context: Post-26/11 security enhancements."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the multi-faceted challenges to India's coastal security and the evolution of its response mechanisms.",
+          "Analyze the importance of inter-agency coordination and intelligence sharing in effective coastal defense.",
+          "Evaluate the role of exercises like 'Sagar Kavach' in enhancing operational readiness and identifying gaps.",
+          "Technological advancements and surveillance systems used in maritime security (e.g., Coastal Surveillance Network).",
+          "Link between coastal security and national security, including economic and environmental dimensions."
+        ],
+        "imageDescription": "Naval ships and Coast Guard boats patrolling the coastline.",
+        "section": "National",
+        "trivia": "India has a coastline of approximately 7,516.6 km, including island territories.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "Internal Security",
+          "topic": "Border Management"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ai-healthcare-ethical-guidelines",
+        "headline": "NITI Aayog Releases Ethical Guidelines for AI Deployment in Healthcare Sector",
+        "explainer": "• NITI Aayog today unveiled a comprehensive set of 'Ethical Guidelines for Artificial Intelligence in Healthcare', aiming to ensure responsible and equitable integration of AI technologies in the medical field.\n• The guidelines address critical issues such as data privacy, algorithmic bias, accountability for AI-driven decisions, transparency in AI models, and patient consent.\n• They recommend establishing a multi-stakeholder oversight body to review AI applications in healthcare and ensure adherence to ethical principles.\n• The initiative seeks to harness AI's potential for improving diagnostics, drug discovery, and personalized treatment, while mitigating risks related to patient safety and trust.\n• These guidelines are a proactive step by India to become a leader in ethical AI deployment, particularly in sensitive sectors like healthcare.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights.",
+          "Role of NITI Aayog"
+        ],
+        "date": "2025-06-27",
+        "source": "NITI Aayog",
+        "sourceUrl": "https://niti.gov.in/news/ai-healthcare-ethical-guidelines",
+        "importance": "medium",
+        "tags": [
+          "Artificial Intelligence",
+          "Healthcare",
+          "Ethics",
+          "NITI Aayog",
+          "Data Privacy",
+          "Algorithmic Bias",
+          "Digital Health"
+        ],
+        "keyTerms": [
+          "Ethical Guidelines for AI in Healthcare",
+          "Algorithmic Bias",
+          "Data Privacy",
+          "Accountability",
+          "Patient Consent",
+          "Multi-stakeholder Oversight"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NITI Aayog's new guidelines: Ethical AI in Healthcare.",
+          "Key concerns: Data privacy, algorithmic bias, accountability, consent.",
+          "Recommendation: Multi-stakeholder oversight body."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the transformative potential of AI in the healthcare sector in India (diagnostics, drug discovery, personalized medicine).",
+          "Examine the ethical challenges associated with AI deployment in healthcare and the need for robust regulatory frameworks.",
+          "Evaluate the effectiveness of NITI Aayog's guidelines in addressing concerns like data privacy, bias, and accountability.",
+          "Role of public-private partnerships in developing and deploying ethical AI solutions in healthcare.",
+          "How India can leverage AI for universal healthcare access while ensuring equity and trust."
+        ],
+        "imageDescription": "AI interface showing medical data with a human hand interacting.",
+        "section": "Science",
+        "trivia": "NITI Aayog's 'National Strategy for Artificial Intelligence' (2018) identified healthcare as one of the five focus areas for AI adoption in India.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Computers",
+          "topic": "Artificial Intelligence"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "heatwave-agriculture-impact",
+        "headline": "Report Highlights Severe Impact of Prolonged Heatwaves on Agricultural Productivity",
+        "explainer": "• A new report released by the Indian Council of Agricultural Research (ICAR) today details the severe impact of recent prolonged heatwaves on agricultural productivity across several states.\n• The report indicates significant yield losses for major crops like wheat, rice, and pulses, primarily due to heat stress during critical growth stages and increased water evaporation.\n• It also highlights adverse effects on livestock, including reduced milk production and increased mortality rates, posing a threat to rural livelihoods.\n• ICAR recommends urgent implementation of climate-resilient agricultural practices, such as heat-tolerant crop varieties, improved irrigation techniques, and early warning systems for farmers.\n• The findings underscore the escalating challenge of climate change for India's food security and the need for adaptive strategies in the agricultural sector.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Major crops cropping patterns in various parts of the country, different types of irrigation and irrigation systems storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers",
+          "Environmental pollution and degradation",
+          "Climate Change"
+        ],
+        "date": "2025-06-27",
+        "source": "Indian Council of Agricultural Research (ICAR)",
+        "sourceUrl": "https://icar.org.in/news/heatwave-impact-agriculture-report",
+        "importance": "high",
+        "tags": [
+          "Heatwave",
+          "Agriculture",
+          "Climate Change Impact",
+          "Food Security",
+          "Crop Yield",
+          "Livestock",
+          "ICAR",
+          "Climate Resilience"
+        ],
+        "keyTerms": [
+          "Heat Stress",
+          "Yield Losses",
+          "Climate-Resilient Agriculture",
+          "Heat-Tolerant Varieties",
+          "Early Warning Systems",
+          "Food Security"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ICAR report on heatwave impact on agriculture.",
+          "Impact: Yield losses (wheat, rice, pulses), livestock issues.",
+          "Recommendations: Climate-resilient practices, heat-tolerant crops, irrigation, early warnings."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the multi-dimensional impact of climate change-induced heatwaves on India's agricultural sector and rural economy.",
+          "Discuss strategies and policies required to enhance climate resilience in Indian agriculture.",
+          "Evaluate the role of research institutions like ICAR in developing and disseminating climate-smart agricultural technologies.",
+          "Challenges in ensuring food security amidst changing climate patterns and extreme weather events.",
+          "Government schemes and initiatives (e.g., PM Fasal Bima Yojana, National Mission for Sustainable Agriculture) to support farmers against climate risks."
+        ],
+        "imageDescription": "Parched agricultural fields under a scorching sun.",
+        "section": "Environment",
+        "trivia": "India is one of the most vulnerable countries to climate change, experiencing frequent extreme weather events like heatwaves, floods, and droughts.",
+        "prelimsSyllabus": {
+          "subject": "Agriculture",
+          "area": "Climate Change",
+          "topic": "Impact on Agriculture"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "industrial-output-growth",
+        "headline": "India's Industrial Output Shows Robust Growth in May, Led by Manufacturing",
+        "explainer": "• India's Index of Industrial Production (IIP) registered a robust growth of 8.2% in May 2025, primarily driven by strong performance in the manufacturing sector.\n• The data released by the National Statistical Office (NSO) indicates a sustained recovery in industrial activity, reflecting increased consumer demand and investment.\n• Manufacturing, which accounts for over 77% of the IIP, grew by 9.5%, with significant contributions from sectors like automotive, electronics, and textiles.\n• Mining and electricity sectors also recorded positive growth, albeit at a slower pace, contributing to the overall industrial expansion.\n• This positive trend is expected to bolster investor confidence and provide further impetus to India's economic growth trajectory, though global headwinds remain a concern.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Industrial policy"
+        ],
+        "date": "2025-06-27",
+        "source": "National Statistical Office (NSO)",
+        "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=iip-may2025",
+        "importance": "medium",
+        "tags": [
+          "Industrial Production",
+          "IIP",
+          "Manufacturing Sector",
+          "Economic Indicators",
+          "NSO",
+          "Economic Growth",
+          "Investment"
+        ],
+        "keyTerms": [
+          "Index of Industrial Production (IIP)",
+          "National Statistical Office (NSO)",
+          "Manufacturing Sector",
+          "Mining Sector",
+          "Electricity Sector",
+          "Consumer Demand"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "IIP growth in May 2025: 8.2%.",
+          "Driven by: Manufacturing sector (9.5%).",
+          "Released by: National Statistical Office (NSO).",
+          "Components of IIP: Manufacturing, Mining, Electricity."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of the Index of Industrial Production (IIP) as a key economic indicator for India.",
+          "Discuss the factors contributing to the robust growth in the manufacturing sector and its implications for employment generation.",
+          "Challenges and opportunities for sustained industrial growth in India (e.g., infrastructure, ease of doing business, global supply chains).",
+          "Role of government policies (e.g., Make in India, PLI schemes) in boosting industrial output.",
+          "Impact of industrial growth on India's overall GDP and export performance."
+        ],
+        "imageDescription": "Factory floor with machinery and workers.",
+        "section": "Economy",
+        "trivia": "The base year for the Index of Industrial Production (IIP) in India is currently 2011-12.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Economic Indicators",
+          "topic": "Industrial Output"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-policy-green-hydrogen-production",
+        "headline": "Government Announces New Incentive Policy to Boost Green Hydrogen Production",
+        "explainer": "• The Ministry of New and Renewable Energy today announced a new Production Linked Incentive (PLI) scheme and policy framework to significantly boost green hydrogen production and its adoption across various sectors.\n• The policy aims to position India as a global hub for green hydrogen manufacturing and export, aligning with the National Green Hydrogen Mission's targets.\n• Incentives include financial support for electrolyzer manufacturing, renewable energy integration for hydrogen production, and pilot projects for green hydrogen applications in steel, fertilizer, and mobility sectors.\n• The move is expected to attract significant domestic and international investment, create new jobs, and reduce India's reliance on fossil fuels.\n• This aggressive push for green hydrogen is crucial for India's energy transition and achieving its net-zero emissions goal by 2070.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Science and Technology- developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-06-27",
+        "source": "Ministry of New and Renewable Energy",
+        "sourceUrl": "https://mnre.gov.in/news/green-hydrogen-policy-2025",
+        "importance": "high",
+        "tags": [
+          "Green Hydrogen",
+          "Renewable Energy",
+          "Energy Transition",
+          "Production Linked Incentive",
+          "PLI Scheme",
+          "National Green Hydrogen Mission",
+          "Net Zero Emissions"
+        ],
+        "keyTerms": [
+          "Green Hydrogen",
+          "Electrolyzer Manufacturing",
+          "National Green Hydrogen Mission",
+          "Production Linked Incentive (PLI) Scheme",
+          "Net-Zero Emissions"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "New PLI scheme for green hydrogen by MNRE.",
+          "Aim: Global hub for green hydrogen, achieve National Green Hydrogen Mission targets.",
+          "Incentives: Electrolyzer manufacturing, renewable energy integration, pilot projects.",
+          "Goal: Reduce fossil fuel reliance, net-zero emissions by 2070."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of green hydrogen for India's energy security and climate change mitigation efforts.",
+          "Analyze the components of the new incentive policy and its potential impact on the green hydrogen ecosystem in India.",
+          "Challenges in scaling up green hydrogen production and adoption (e.g., cost, infrastructure, storage).",
+          "Compare India's National Green Hydrogen Mission with similar initiatives globally.",
+          "Role of public and private investment in driving the green hydrogen economy and creating new industries."
+        ],
+        "imageDescription": "Illustration of green hydrogen production facility with wind turbines.",
+        "section": "Economy",
+        "trivia": "The National Green Hydrogen Mission, launched in 2023, aims to make India a global hub for green hydrogen production, utilization, and export.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Energy",
+          "topic": "Renewable Energy"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "global-chip-shortage-india-impact",
+        "headline": "Global Chip Shortage Continues to Impact Indian Electronics Manufacturing",
+        "explainer": "• The ongoing global semiconductor chip shortage continues to pose significant challenges for India's electronics manufacturing sector, impacting production timelines and increasing costs.\n• Automobile, consumer electronics, and IT hardware industries are particularly affected, leading to delays in product launches and supply chain disruptions.\n• While government initiatives like the Semiconductor Mission are making strides in attracting chip fabrication units, their operationalization will take time, leaving a near-term supply gap.\n• Indian manufacturers are exploring strategies such as diversifying sourcing, optimizing inventory management, and increasing domestic component production.\n• The situation underscores the urgent need for India to build a robust domestic semiconductor ecosystem to ensure self-reliance and resilience in critical technology supply chains.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth",
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Challenges to internal security through communication networks"
+        ],
+        "date": "2025-06-27",
+        "source": "Livemint",
+        "sourceUrl": "https://www.livemint.com/news/india-chip-shortage-impacts-manufacturing/",
+        "importance": "medium",
+        "tags": [
+          "Semiconductor Shortage",
+          "Chip Shortage",
+          "Electronics Manufacturing",
+          "Supply Chain",
+          "Automobile Industry",
+          "Semiconductor Mission",
+          "Atmanirbhar Bharat"
+        ],
+        "keyTerms": [
+          "Semiconductor Chip Shortage",
+          "Electronics Manufacturing",
+          "Supply Chain Disruptions",
+          "Semiconductor Mission",
+          "Chip Fabrication Units",
+          "Atmanirbhar Bharat"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Global chip shortage impacts Indian electronics manufacturing.",
+          "Affected sectors: Auto, consumer electronics, IT hardware.",
+          "Government initiative: Semiconductor Mission.",
+          "Need for domestic semiconductor ecosystem."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the causes and global implications of the semiconductor chip shortage.",
+          "Discuss the impact of the chip shortage on India's 'Make in India' initiative and aspirations to become a manufacturing hub.",
+          "Evaluate the effectiveness of India's Semiconductor Mission in building a resilient domestic chip ecosystem.",
+          "Challenges in establishing semiconductor fabrication units in India (e.g., capital intensity, technology transfer, skilled labor).",
+          "Strategic importance of semiconductors for national security and economic sovereignty."
+        ],
+        "imageDescription": "Microchips on a circuit board.",
+        "section": "Economy",
+        "trivia": "Semiconductors are essential components in virtually all modern electronic devices, from smartphones to electric vehicles.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Electronics",
+          "topic": "Semiconductors"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "The Hindu",
+    "Economic Times",
+    "Press Information Bureau (PIB)",
+    "The Indian Express",
+    "DD News",
+    "Ministry of Housing and Urban Affairs",
+    "Business Standard",
+    "PIB",
+    "Ministry of Defence",
+    "The Economic Times",
+    "NITI Aayog",
+    "Hindustan Times",
+    "Indian Council of Agricultural Research (ICAR)",
+    "National Statistical Office (NSO)",
+    "Ministry of Health and Family Welfare",
+    "Ministry of External Affairs (MEA)",
+    "Ministry of Education",
+    "Ministry of New and Renewable Energy",
+    "Livemint"
+  ],
+  "totalScraped": 19,
+  "totalProcessed": 19
+}

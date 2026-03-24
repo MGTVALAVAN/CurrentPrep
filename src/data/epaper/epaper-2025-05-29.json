@@ -1,0 +1,2453 @@
+{
+  "date": "2025-05-29",
+  "dateFormatted": "Thursday 29 May, 2025",
+  "lastUpdated": "2026-03-21T15:24:04.290Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "india-eu-fta-breakthrough",
+      "headline": "India-EU FTA Negotiations See Major Breakthrough on Key Sectors",
+      "explainer": "• After years of intense negotiations, India and the European Union announced significant progress on a Free Trade Agreement (FTA), particularly in critical sectors like digital trade and sustainable development.\n• The joint statement highlighted consensus on intellectual property rights and investment facilitation, paving the way for a comprehensive deal by year-end.\n• This FTA aims to boost bilateral trade significantly, potentially increasing it by over 40% in five years, and enhancing strategic cooperation.\n• Key sticking points like market access for automobiles and agricultural products are still under discussion but show signs of compromise.\n• Experts believe the deal will diversify India's export basket and provide EU businesses greater access to the Indian market, strengthening global supply chains.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests"
+      ],
+      "date": "2025-05-29",
+      "source": "The Economic Times",
+      "sourceUrl": "https://www.economictimes.indiatimes.com/india-eu-fta-breakthrough",
+      "importance": "high",
+      "tags": [
+        "India-EU relations",
+        "Free Trade Agreement",
+        "International Trade",
+        "Economic Diplomacy",
+        "Geopolitics"
+      ],
+      "keyTerms": [
+        "Free Trade Agreement (FTA)",
+        "Bilateral Trade",
+        "Intellectual Property Rights (IPR)",
+        "Digital Trade",
+        "Sustainable Development Goals (SDGs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India-EU FTA aims to boost bilateral trade and strategic cooperation.",
+        "Key areas of breakthrough: digital trade, sustainable development, IPR, investment facilitation.",
+        "European Union (EU) is a major trading partner for India.",
+        "FTA negotiations resumed in 2021 after a pause since 2013."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic and economic implications of the India-EU FTA for India's foreign policy and economic growth.",
+        "Discuss the challenges and opportunities for Indian industries arising from increased competition and market access.",
+        "Evaluate how this FTA aligns with India's broader trade policy objectives and its 'Act East' and 'Look West' strategies.",
+        "Examine the role of sustainable development and digital trade clauses in modern FTAs."
+      ],
+      "imageDescription": "Flags of India and the European Union displayed together, symbolizing strong bilateral ties and a potential trade agreement.",
+      "section": "Lead Opinion",
+      "trivia": "The EU is India's third-largest trading partner, accounting for 10.8% of India's total trade in goods in 2022-23.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India and Europe"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "sc-upholds-environmental-compensation",
+      "headline": "Supreme Court Upholds State's Power to Levy Environmental Compensation on Polluting Industries",
+      "explainer": "• The Supreme Court, in a landmark judgment, affirmed the power of state pollution control boards to impose environmental compensation on industries violating pollution norms.\n• The ruling came in a case challenging a state government's notification imposing fines based on the 'Polluter Pays Principle' and the 'Precautionary Principle'.\n• The court emphasized that environmental protection is a constitutional mandate under Article 48A and 51A(g), and states have inherent power to ensure ecological balance.\n• This judgment is expected to strengthen environmental governance and act as a deterrent against industrial pollution across the country.\n• It clarifies the legal framework for calculating and imposing compensation, directing for transparent and scientific methodologies.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Structure, organization and functioning of the Executive and the Judiciary",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Environmental pollution and degradation"
+      ],
+      "date": "2025-05-29",
+      "source": "The Hindu",
+      "sourceUrl": "https://www.thehindu.com/sc-environmental-compensation",
+      "importance": "high",
+      "tags": [
+        "Supreme Court",
+        "Environmental Law",
+        "Pollution Control",
+        "Judicial Activism",
+        "State Powers"
+      ],
+      "keyTerms": [
+        "Polluter Pays Principle",
+        "Precautionary Principle",
+        "Environmental Compensation",
+        "Article 48A",
+        "Article 51A(g)",
+        "State Pollution Control Board"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Supreme Court affirmed state's power to levy environmental compensation.",
+        "Judgment based on 'Polluter Pays Principle' and 'Precautionary Principle'.",
+        "Constitutional provisions for environment: Article 48A (DPSP) and Article 51A(g) (Fundamental Duty).",
+        "State Pollution Control Boards (SPCBs) are statutory bodies under Water Act, 1974 and Air Act, 1981."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the 'Polluter Pays Principle' and 'Precautionary Principle' in India's environmental jurisprudence.",
+        "Analyze how this Supreme Court ruling strengthens federal environmental governance and promotes sustainable industrial practices.",
+        "Critically evaluate the challenges in implementing environmental compensation mechanisms effectively and ensuring their proper utilization.",
+        "Examine the role of the judiciary in upholding environmental rights and balancing industrial development with ecological protection."
+      ],
+      "imageDescription": "A gavel resting on law books, with a blurred background of a factory emitting smoke, symbolizing legal action against pollution.",
+      "section": "National",
+      "trivia": "The 'Polluter Pays Principle' was first introduced in India in the Vellore Citizens' Welfare Forum v. Union of India case (1996).",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity",
+        "area": "Judiciary",
+        "topic": "Supreme Court and Environmental Law"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-rlv-successful-test",
+      "headline": "ISRO Successfully Conducts Critical Test of Reusable Launch Vehicle (RLV) Prototype",
+      "explainer": "• The Indian Space Research Organisation (ISRO) announced the successful completion of a crucial test flight for its Reusable Launch Vehicle (RLV) prototype, 'Pushpak'.\n• The test involved a precise landing experiment, simulating conditions for future orbital re-entry and autonomous landing on a runway.\n• This achievement marks a significant step towards developing a fully reusable two-stage orbital launch vehicle, aiming to drastically reduce space launch costs.\n• The RLV-TD (Technology Demonstrator) project is a long-term vision of ISRO to make space access more affordable and sustainable.\n• Future tests will focus on orbital flight and re-entry characteristics, integrating advanced materials and propulsion systems.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology",
+        "Indigenization of technology and developing new technology",
+        "Awareness in the fields of Space"
+      ],
+      "date": "2025-05-29",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "https://www.pib.gov.in/isro-rlv-test",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Space Technology",
+        "Reusable Launch Vehicle",
+        "Indigenous Technology",
+        "Space Exploration"
+      ],
+      "keyTerms": [
+        "Reusable Launch Vehicle (RLV)",
+        "RLV-TD (Technology Demonstrator)",
+        "Orbital Re-entry",
+        "Autonomous Landing",
+        "Space Launch Costs"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ISRO's RLV project aims to reduce space launch costs.",
+        "The prototype is named 'Pushpak'.",
+        "The recent test focused on precise landing experiments.",
+        "RLV-TD is a step towards a fully reusable two-stage orbital launch vehicle."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of Reusable Launch Vehicle technology for India's space program and its global competitiveness.",
+        "Analyze the economic benefits and environmental advantages of developing reusable launch systems compared to traditional expendable rockets.",
+        "Examine the challenges and technological advancements required to achieve a fully operational reusable launch vehicle.",
+        "Evaluate India's position in the global space race with indigenous innovations like the RLV."
+      ],
+      "imageDescription": "An artistic rendition of ISRO's 'Pushpak' Reusable Launch Vehicle prototype descending for a landing on a runway.",
+      "section": "Science",
+      "trivia": "ISRO first successfully conducted the RLV-TD HEX (Hypersonic Flight Experiment) in 2016, demonstrating its controlled flight and re-entry capability.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space Technology",
+        "topic": "ISRO's initiatives"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "national-skill-mission-green-jobs",
+      "headline": "National Skill Mission to Prioritize 'Green Jobs' Training for Rural Youth",
+      "explainer": "• The Ministry of Skill Development and Entrepreneurship announced a major overhaul of the National Skill Mission, with a dedicated focus on training rural youth for 'green jobs'.\n• This initiative aims to align India's workforce with the growing demands of renewable energy, sustainable agriculture, waste management, and eco-tourism sectors.\n• The program will involve collaborations with industry partners, NGOs, and local self-help groups to ensure relevant and demand-driven training modules.\n• The move is expected to address rural unemployment, reduce migration to urban areas, and contribute to India's climate action goals.\n• Pilot projects have shown promising results in states like Rajasthan and Gujarat, leading to the nationwide expansion.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Development processes and the development industry —the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+      ],
+      "date": "2025-05-29",
+      "source": "Hindustan Times",
+      "sourceUrl": "https://www.hindustantimes.com/green-jobs-rural-youth",
+      "importance": "medium",
+      "tags": [
+        "Skill Development",
+        "Green Jobs",
+        "Rural Employment",
+        "Climate Action",
+        "National Skill Mission"
+      ],
+      "keyTerms": [
+        "Green Jobs",
+        "National Skill Mission",
+        "Sustainable Agriculture",
+        "Renewable Energy Sector",
+        "Rural Unemployment"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Skill Mission focusing on 'green jobs' for rural youth.",
+        "Aims to align workforce with renewable energy, waste management, eco-tourism.",
+        "Ministry of Skill Development and Entrepreneurship is the nodal ministry.",
+        "Collaborations with industry, NGOs, SHGs are part of the strategy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze how the focus on 'green jobs' in the National Skill Mission can address both unemployment and climate change challenges in India.",
+        "Discuss the potential benefits and challenges of integrating green skills into existing vocational training frameworks, especially in rural areas.",
+        "Evaluate the role of public-private partnerships and community involvement in ensuring the success and sustainability of such skill development initiatives.",
+        "Examine the socio-economic impact of promoting green entrepreneurship among rural youth."
+      ],
+      "imageDescription": "Young people in a vocational training center learning about solar panel installation, representing 'green jobs' training.",
+      "section": "National",
+      "trivia": "According to the International Labour Organization (ILO), 'green jobs' are decent jobs that contribute to preserving or restoring the environment.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Human Resources",
+        "topic": "Skill Development"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indus-water-treaty-review",
+      "headline": "India Calls for Review of Indus Water Treaty Provisions Amid Changing Hydrological Realities",
+      "explainer": "• India has reiterated its call for a review of certain provisions of the Indus Water Treaty (IWT) with Pakistan, citing changing hydrological realities and climate change impacts.\n• The Ministry of External Affairs emphasized the need for a more equitable and efficient utilization of shared water resources, in light of reduced glacier melt and altered river flows.\n• Pakistan, however, has maintained its stance on strict adherence to the existing treaty, which largely allocates western rivers to Pakistan and eastern rivers to India.\n• India has been undertaking several hydroelectric projects on its allocated rivers, which Pakistan often views as potential violations, leading to ongoing disputes.\n• The World Bank, a guarantor of the treaty, is being kept informed of the developments, as both nations seek a diplomatic resolution.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests"
+      ],
+      "date": "2025-05-29",
+      "source": "Times of India",
+      "sourceUrl": "https://www.timesofindia.com/indus-water-treaty-review",
+      "importance": "high",
+      "tags": [
+        "Indus Water Treaty",
+        "India-Pakistan Relations",
+        "Water Diplomacy",
+        "Climate Change",
+        "International Law"
+      ],
+      "keyTerms": [
+        "Indus Water Treaty (IWT)",
+        "Hydrological Realities",
+        "Western Rivers",
+        "Eastern Rivers",
+        "World Bank"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India seeks review of Indus Water Treaty (IWT) provisions.",
+        "Reasons cited: changing hydrological realities and climate change impacts.",
+        "IWT allocates Western Rivers (Indus, Jhelum, Chenab) to Pakistan, Eastern Rivers (Ravi, Beas, Sutlej) to India.",
+        "The World Bank is a signatory/guarantor of the IWT (signed 1960)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the historical context and key provisions of the Indus Water Treaty and its significance for India-Pakistan relations.",
+        "Discuss the implications of climate change on shared water resources and the challenges it poses for existing water-sharing agreements.",
+        "Evaluate India's arguments for reviewing the IWT and the potential diplomatic and strategic ramifications of such a move.",
+        "Examine the role of international mediators like the World Bank in resolving water disputes between riparian states."
+      ],
+      "imageDescription": "A map showing the Indus River system flowing through India and Pakistan, with national flags superimposed.",
+      "section": "International",
+      "trivia": "The Indus Water Treaty is considered one of the most successful water-sharing treaties in the world, having survived multiple conflicts between India and Pakistan.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India and its Neighbourhood",
+        "topic": "India-Pakistan Relations and Water Disputes"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "new-data-protection-framework-implementation",
+      "headline": "Government Reviews Implementation of New Data Protection Framework, Addresses Initial Challenges",
+      "explainer": "• The Ministry of Electronics and Information Technology (MeitY) conducted a comprehensive review of the initial implementation phase of India's new Data Protection Framework.\n• The framework, which came into effect earlier this year, aims to regulate the processing of personal data and protect citizens' privacy rights.\n• Key challenges identified include ensuring compliance by smaller entities, clarity on cross-border data flows, and establishing the Data Protection Board effectively.\n• The government reassured stakeholders of its commitment to a robust and adaptable framework, promising clarifications and amendments where necessary.\n• The framework is critical for fostering trust in India's digital economy and aligning with global data governance standards.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Role of civil services in a democracy",
+        "Cyber security basics"
+      ],
+      "date": "2025-05-29",
+      "source": "Livemint",
+      "sourceUrl": "https://www.livemint.com/data-protection-review",
+      "importance": "medium",
+      "tags": [
+        "Data Protection",
+        "Digital India",
+        "Cyber Law",
+        "Privacy Rights",
+        "Government Policy"
+      ],
+      "keyTerms": [
+        "Data Protection Framework",
+        "Personal Data",
+        "Data Protection Board",
+        "Cross-border Data Flows",
+        "Digital Economy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ministry of Electronics and Information Technology (MeitY) reviews Data Protection Framework.",
+        "Framework aims to protect citizens' privacy rights and regulate personal data processing.",
+        "Challenges include compliance by small entities and cross-border data flow clarity.",
+        "A Data Protection Board is to be established under the framework."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of a robust data protection framework for India's digital economy and its citizens' privacy rights.",
+        "Discuss the key challenges faced during the initial implementation of the Data Protection Framework and suggest potential solutions.",
+        "Evaluate the balance between data protection, innovation, and national security in the Indian context.",
+        "Compare India's data protection framework with international standards like GDPR and identify areas of convergence and divergence."
+      ],
+      "imageDescription": "A padlock icon superimposed on binary code, representing data security and digital privacy.",
+      "section": "National",
+      "trivia": "The Puttaswamy judgment (2017) by the Supreme Court declared privacy a fundamental right under Article 21 of the Indian Constitution, paving the way for data protection legislation.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity",
+        "area": "Governance",
+        "topic": "E-governance and Data Protection"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "monetary-policy-committee-inflation",
+      "headline": "RBI's Monetary Policy Committee Expresses Concern Over Persistent Food Inflation",
+      "explainer": "• The Reserve Bank of India's (RBI) Monetary Policy Committee (MPC) concluded its bi-monthly meeting, maintaining the repo rate but expressing significant concern over persistent food inflation.\n• While headline inflation has shown signs of moderation, volatile food prices, especially for vegetables and pulses, continue to pose a challenge to the inflation target.\n• The MPC reiterated its commitment to bringing inflation within the target band of 4% (+/- 2%) while supporting growth.\n• Analysts anticipate continued vigilance from the RBI, with future policy decisions heavily dependent on monsoon performance and global commodity prices.\n• The committee emphasized the need for supply-side interventions by the government to complement monetary policy efforts.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Government Budgeting",
+        "Inflation and its impact"
+      ],
+      "date": "2025-05-29",
+      "source": "Business Standard",
+      "sourceUrl": "https://www.business-standard.com/rbi-mpc-food-inflation",
+      "importance": "high",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Inflation",
+        "Repo Rate",
+        "Food Prices",
+        "Economic Indicators"
+      ],
+      "keyTerms": [
+        "Monetary Policy Committee (MPC)",
+        "Repo Rate",
+        "Headline Inflation",
+        "Food Inflation",
+        "Inflation Target",
+        "Supply-side Interventions"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "RBI's MPC maintains repo rate, concerned about food inflation.",
+        "Inflation target: 4% (+/- 2%).",
+        "MPC is a 6-member body (3 RBI, 3 GoI nominees).",
+        "Decisions are by majority vote, with Governor having a casting vote."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the primary objectives and instruments of India's monetary policy, particularly in the context of persistent inflation.",
+        "Analyze the causes and consequences of food inflation in India and its disproportionate impact on different segments of the population.",
+        "Evaluate the effectiveness of monetary policy in tackling supply-side inflation and the necessity of coordinated fiscal measures.",
+        "Examine the challenges faced by the RBI in balancing inflation control with economic growth objectives."
+      ],
+      "imageDescription": "RBI logo with graphs showing rising inflation, symbolizing the central bank's focus on economic stability.",
+      "section": "Economy",
+      "trivia": "The Monetary Policy Committee (MPC) was constituted in 2016, making the inflation targeting framework statutory.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI and Inflation"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "indigenous-anti-drone-system",
+      "headline": "DRDO Unveils Advanced Indigenous Anti-Drone System for Border Security",
+      "explainer": "• The Defence Research and Development Organisation (DRDO) successfully demonstrated an advanced indigenous anti-drone system designed to counter emerging threats from unmanned aerial vehicles (UAVs).\n• The system incorporates both 'soft kill' (jamming, spoofing) and 'hard kill' (laser-based interception) capabilities, offering comprehensive protection against rogue drones.\n• Developed in collaboration with private sector partners, it aims to enhance border security and protect critical infrastructure from drone-based attacks.\n• The system features artificial intelligence for threat detection and classification, with a range of several kilometers.\n• This development is a significant boost to India's 'Atmanirbhar Bharat' initiative in the defence sector, reducing reliance on foreign technology.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Indigenization of technology and developing new technology",
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security"
+      ],
+      "date": "2025-05-29",
+      "source": "The Economic Times",
+      "sourceUrl": "https://www.economictimes.indiatimes.com/drdo-anti-drone-system",
+      "importance": "medium",
+      "tags": [
+        "DRDO",
+        "Anti-Drone System",
+        "Border Security",
+        "Internal Security",
+        "Defence Technology",
+        "Atmanirbhar Bharat"
+      ],
+      "keyTerms": [
+        "Unmanned Aerial Vehicles (UAVs)",
+        "Soft Kill",
+        "Hard Kill",
+        "Artificial Intelligence (AI)",
+        "Critical Infrastructure Protection"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "DRDO unveils advanced indigenous anti-drone system.",
+        "System has 'soft kill' (jamming) and 'hard kill' (laser) capabilities.",
+        "Aims to counter UAV threats for border security and critical infrastructure.",
+        "Developed under 'Atmanirbhar Bharat' initiative."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolving threat landscape posed by drones in modern warfare and internal security challenges.",
+        "Analyze how indigenous development of anti-drone systems contributes to India's national security and strategic autonomy.",
+        "Examine the technological complexities and ethical considerations involved in deploying advanced anti-drone systems.",
+        "Evaluate the 'Atmanirbhar Bharat' initiative's success in boosting India's defence manufacturing capabilities through such projects."
+      ],
+      "imageDescription": "A sophisticated anti-drone system with radar dishes and laser emitters, aimed at a small drone in the sky.",
+      "section": "Security",
+      "trivia": "DRDO has been working on anti-drone technologies for several years, with initial versions deployed for VVIP protection.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Defence Technology",
+        "topic": "DRDO and UAVs"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "urban-heat-island-effect-mitigation",
+      "headline": "Ministry of Urban Affairs Releases Guidelines for Mitigating Urban Heat Island Effect",
+      "explainer": "• The Ministry of Housing and Urban Affairs released a comprehensive set of guidelines for urban local bodies to mitigate the 'Urban Heat Island' (UHI) effect.\n• The guidelines emphasize green infrastructure development, promotion of cool roofs and pavements, and increased tree cover in urban areas.\n• UHI effect leads to higher temperatures in cities compared to surrounding rural areas, impacting public health, energy consumption, and air quality.\n• Cities are encouraged to develop specific action plans, integrate UHI mitigation into urban planning, and leverage smart city technologies.\n• This initiative is part of India's broader climate resilience strategy, aiming to make cities more sustainable and livable.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Disaster and disaster management",
+        "Urbanization, their problems and their remedies"
+      ],
+      "date": "2025-05-29",
+      "source": "The Indian Express",
+      "sourceUrl": "https://www.indianexpress.com/urban-heat-island",
+      "importance": "medium",
+      "tags": [
+        "Urban Planning",
+        "Climate Change",
+        "Urban Heat Island",
+        "Green Infrastructure",
+        "Sustainable Cities"
+      ],
+      "keyTerms": [
+        "Urban Heat Island (UHI)",
+        "Green Infrastructure",
+        "Cool Roofs",
+        "Urban Local Bodies (ULBs)",
+        "Climate Resilience"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ministry of Housing and Urban Affairs released guidelines for UHI mitigation.",
+        "UHI effect: higher urban temperatures than rural surroundings.",
+        "Mitigation strategies: green infrastructure, cool roofs, increased tree cover.",
+        "Part of India's climate resilience strategy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Explain the phenomenon of the Urban Heat Island effect and its various impacts on urban environments and public health.",
+        "Discuss the effectiveness of different mitigation strategies proposed in the guidelines, such as green infrastructure and cool surfaces.",
+        "Analyze the challenges in implementing UHI mitigation measures in rapidly urbanizing Indian cities and suggest policy interventions.",
+        "Evaluate the role of urban planning and smart city initiatives in building climate-resilient cities in India."
+      ],
+      "imageDescription": "An aerial view of a city with green spaces and 'cool roofs' contrasted with dense concrete buildings, showing UHI mitigation efforts.",
+      "section": "Environment",
+      "trivia": "Cities can be 1-3°C warmer than their surrounding rural areas during the day, and up to 12°C warmer at night, due to the UHI effect.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Climate Change",
+        "topic": "Urbanization and Environment"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "g20-health-declaration",
+      "headline": "India Champions Global Health Equity in G20 Health Ministers' Meeting",
+      "explainer": "• India played a pivotal role in the G20 Health Ministers' meeting, advocating for global health equity, affordable access to vaccines, and strengthening pandemic preparedness.\n• The Indian delegation highlighted its experience in vaccine manufacturing and delivery, offering to share best practices and technological expertise with developing nations.\n• Discussions focused on establishing a robust global health architecture, improving health workforce capacity, and leveraging digital health solutions.\n• The G20 Health Declaration emphasized collaboration in research and development and equitable distribution of medical countermeasures.\n• India's stance aligns with its 'Vasudhaiva Kutumbakam' (The world is one family) philosophy, promoting collective global health security.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate",
+        "Issues relating to development and management of Social Sector/Services relating to Health"
+      ],
+      "date": "2025-05-29",
+      "source": "Ministry of Health and Family Welfare",
+      "sourceUrl": "https://www.mohfw.gov.in/g20-health-declaration",
+      "importance": "medium",
+      "tags": [
+        "G20",
+        "Global Health",
+        "Health Equity",
+        "Pandemic Preparedness",
+        "Vaccine Diplomacy",
+        "International Cooperation"
+      ],
+      "keyTerms": [
+        "G20 Health Ministers' Meeting",
+        "Global Health Equity",
+        "Pandemic Preparedness",
+        "Digital Health Solutions",
+        "Medical Countermeasures"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India advocated for global health equity at G20 Health Ministers' meeting.",
+        "Focus on affordable vaccine access and pandemic preparedness.",
+        "India offered expertise in vaccine manufacturing and delivery.",
+        "G20 is an intergovernmental forum comprising 19 countries and the European Union."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss India's role in shaping the global health agenda, particularly in the context of G20 and its commitment to 'Vasudhaiva Kutumbakam'.",
+        "Analyze the challenges in achieving global health equity and the importance of international cooperation in addressing health crises.",
+        "Evaluate India's potential as a global pharmaceutical hub and its contribution to vaccine manufacturing and distribution.",
+        "Examine how digital health solutions can transform healthcare delivery and improve health outcomes worldwide."
+      ],
+      "imageDescription": "A stylized image of a globe with medical symbols, surrounded by the G20 logo, representing global health cooperation.",
+      "section": "International",
+      "trivia": "India's presidency of the G20 in 2023 saw 'One Earth, One Family, One Future' as its theme, emphasizing collective action on global challenges including health.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "G20 and Global Health"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "agriculture-drone-subsidy",
+      "headline": "Government Expands Subsidy Scheme for Agricultural Drones to Boost Productivity",
+      "explainer": "• The Ministry of Agriculture and Farmers Welfare announced an expansion of its subsidy scheme for purchasing agricultural drones, making the technology more accessible to farmers.\n• The scheme provides financial assistance for buying drones and for establishing custom hiring centers for drone services in rural areas.\n• Drones are being increasingly used for precision agriculture tasks such as crop health monitoring, pesticide spraying, and nutrient assessment, leading to higher efficiency and reduced input costs.\n• The expansion aims to further modernize Indian agriculture, improve farm productivity, and address labor shortages.\n• Training programs for farmers and rural entrepreneurs on drone operation and maintenance are also being scaled up.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Major crops-cropping patterns in various parts of the country, - different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers",
+        "Technology missions; economics of animal-rearing",
+        "Public Distribution System- objectives, functioning, limitations, revamping; issues of buffer stocks and food security"
+      ],
+      "date": "2025-05-29",
+      "source": "PIB",
+      "sourceUrl": "https://www.pib.gov.in/agriculture-drone-subsidy",
+      "importance": "medium",
+      "tags": [
+        "Agriculture",
+        "Drones",
+        "Farm Mechanization",
+        "Government Schemes",
+        "Precision Agriculture",
+        "Rural Development"
+      ],
+      "keyTerms": [
+        "Agricultural Drones",
+        "Subsidy Scheme",
+        "Custom Hiring Centers",
+        "Precision Agriculture",
+        "Crop Health Monitoring",
+        "Pesticide Spraying"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ministry of Agriculture expands subsidy for agricultural drones.",
+        "Drones used for crop monitoring, pesticide spraying, nutrient assessment.",
+        "Scheme includes financial aid for buying drones and custom hiring centers.",
+        "Aims to modernize agriculture and boost productivity."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of drone technology in enhancing agricultural productivity and efficiency in India.",
+        "Analyze the benefits and challenges associated with the widespread adoption of agricultural drones, particularly for small and marginal farmers.",
+        "Evaluate the effectiveness of government subsidy schemes and custom hiring centers in promoting farm mechanization and technological adoption.",
+        "Examine how precision agriculture tools like drones can contribute to sustainable farming practices and resource optimization."
+      ],
+      "imageDescription": "A drone flying over a green field, spraying fertilizers, symbolizing modern agriculture and technology.",
+      "section": "Economy",
+      "trivia": "The 'Drone Shakti' scheme, announced in the Union Budget 2022-23, aimed to promote drone usage in various sectors, including agriculture.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Agriculture",
+        "topic": "E-technology in agriculture"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ancient-settlement-discovery",
+      "headline": "Archaeologists Unearth Evidence of Ancient Settlement in Haryana, Dating Back to Harappan Period",
+      "explainer": "• A team of archaeologists has unearthed significant evidence of an ancient settlement in Haryana, believed to date back to the mature Harappan period (c. 2600–1900 BCE).\n• The excavation site revealed pottery, terracotta figurines, beads, and structural remains, indicating a well-developed urban life.\n• This discovery adds to the growing understanding of the geographical spread and cultural diversity of the Indus Valley Civilization in the Ghaggar-Hakra basin.\n• Further analysis of the artifacts and stratigraphy is expected to provide insights into trade routes, social structures, and daily life of the inhabitants.\n• The site's strategic location suggests its potential role as a regional center or a key outpost for resource management.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times",
+        "History of India and Indian National Movement"
+      ],
+      "date": "2025-05-29",
+      "source": "Archaeological Survey of India",
+      "sourceUrl": "https://www.asi.nic.in/haryana-harappan-site",
+      "importance": "medium",
+      "tags": [
+        "Archaeology",
+        "Harappan Civilization",
+        "Indus Valley Civilization",
+        "Ancient India",
+        "Haryana",
+        "Cultural Heritage"
+      ],
+      "keyTerms": [
+        "Mature Harappan Period",
+        "Indus Valley Civilization (IVC)",
+        "Ghaggar-Hakra Basin",
+        "Terracotta Figurines",
+        "Stratigraphy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ancient settlement discovered in Haryana, dating to Mature Harappan period.",
+        "Findings include pottery, terracotta figurines, beads, structural remains.",
+        "Adds to understanding of Indus Valley Civilization in Ghaggar-Hakra basin.",
+        "Archaeological Survey of India (ASI) is the nodal body."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of recent archaeological discoveries in re-evaluating the geographical extent and characteristics of the Indus Valley Civilization.",
+        "Analyze the contribution of such findings to our understanding of urban planning, trade networks, and social organization in ancient India.",
+        "Examine the challenges faced by archaeologists in preserving and interpreting ancient sites in modern India.",
+        "Evaluate the role of the Ghaggar-Hakra river system in the development and decline of the Harappan Civilization."
+      ],
+      "imageDescription": "Archaeologists meticulously excavating an ancient site, revealing pottery shards and structural remains.",
+      "section": "National",
+      "trivia": "Rakhigarhi, also in Haryana, is one of the largest and oldest sites of the Indus Valley Civilization, believed to be larger than Mohenjo-Daro.",
+      "prelimsSyllabus": {
+        "subject": "Ancient History",
+        "area": "Indus Valley Civilization",
+        "topic": "Sites and Discoveries"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "bharat-net-phase3-tender",
+      "headline": "Government Invites Tenders for BharatNet Phase III, Aims for Pan-India Rural Connectivity",
+      "explainer": "• The Department of Telecommunications (DoT) has initiated the tender process for Phase III of the BharatNet project, aiming to connect all remaining gram panchayats and habitations.\n• This phase focuses on leveraging Public-Private Partnership (PPP) models for faster deployment and sustainable operation of optical fiber networks.\n• BharatNet is a flagship program to provide broadband connectivity to rural and remote areas, bridging the digital divide.\n• Phase III includes provisions for upgrading existing infrastructure and incorporating future-proof technologies like 5G backhaul capabilities.\n• The project is crucial for digital inclusion, e-governance, digital education, and healthcare services in rural India.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2025-05-29",
+      "source": "PTI",
+      "sourceUrl": "https://www.pti.in/bharatnet-phase3-tender",
+      "importance": "medium",
+      "tags": [
+        "BharatNet",
+        "Digital India",
+        "Rural Connectivity",
+        "Broadband",
+        "Optical Fiber",
+        "Public-Private Partnership"
+      ],
+      "keyTerms": [
+        "BharatNet Project",
+        "Gram Panchayats",
+        "Optical Fiber Network (OFN)",
+        "Digital Divide",
+        "Public-Private Partnership (PPP)",
+        "5G Backhaul"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "BharatNet Phase III tenders invited by Department of Telecommunications (DoT).",
+        "Aims to connect all remaining gram panchayats and habitations.",
+        "Focus on Public-Private Partnership (PPP) model.",
+        "Project crucial for digital inclusion and e-governance in rural areas."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of the BharatNet project in bridging India's digital divide and promoting inclusive growth.",
+        "Discuss the challenges encountered in previous phases of BharatNet and how Phase III aims to address them through the PPP model.",
+        "Evaluate the potential socio-economic impact of pervasive broadband connectivity in rural areas on education, healthcare, and economic opportunities.",
+        "Examine the role of infrastructure projects like BharatNet in realizing the vision of 'Digital India'."
+      ],
+      "imageDescription": "Optical fiber cables extending into a rural landscape, symbolizing internet connectivity reaching remote villages.",
+      "section": "Economy",
+      "trivia": "BharatNet is one of the world's largest rural broadband connectivity programs, aiming to connect 2.5 lakh gram panchayats.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Infrastructure",
+        "topic": "Digital Infrastructure"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "solar-energy-capacity-milestone",
+      "headline": "India Crosses 100 GW Mark in Installed Solar Energy Capacity",
+      "explainer": "• India has achieved a significant milestone by crossing 100 GW of installed solar energy capacity, marking a rapid expansion in its renewable energy sector.\n• This includes both large-scale solar parks and decentralized rooftop solar installations across the country.\n• The accelerated growth is attributed to supportive government policies, declining solar panel costs, and increased private sector investment.\n• This achievement brings India closer to its ambitious target of 500 GW of non-fossil fuel energy capacity by 2030.\n• The push for solar energy is vital for energy security, reducing carbon emissions, and meeting international climate commitments.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Infrastructure: Energy",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2025-05-29",
+      "source": "Ministry of New and Renewable Energy",
+      "sourceUrl": "https://mnre.gov.in/solar-capacity-milestone",
+      "importance": "high",
+      "tags": [
+        "Solar Energy",
+        "Renewable Energy",
+        "Climate Change",
+        "Energy Security",
+        "Sustainable Development",
+        "Government Targets"
+      ],
+      "keyTerms": [
+        "Solar Energy Capacity",
+        "Renewable Energy",
+        "Non-fossil Fuel Capacity",
+        "Rooftop Solar",
+        "Carbon Emissions",
+        "Climate Commitments"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India crosses 100 GW installed solar energy capacity.",
+        "Includes large-scale and rooftop solar installations.",
+        "Target: 500 GW non-fossil fuel energy capacity by 2030.",
+        "Ministry of New and Renewable Energy (MNRE) is the nodal ministry."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the key drivers behind India's rapid expansion in solar energy and its implications for energy security and environmental sustainability.",
+        "Analyze the challenges in achieving the ambitious target of 500 GW non-fossil fuel capacity by 2030, including grid integration and storage solutions.",
+        "Evaluate the socio-economic benefits of decentralized renewable energy projects, particularly for rural electrification and employment generation.",
+        "Examine India's role in global climate action and its commitment to renewable energy transitions."
+      ],
+      "imageDescription": "Vast solar panels stretching across a landscape under a clear sky, symbolizing India's achievement in solar energy.",
+      "section": "Environment",
+      "trivia": "The International Solar Alliance (ISA), headquartered in India, is an alliance of 121 signatory countries, most being sunshine countries, working to promote solar energy.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Energy",
+        "topic": "Renewable Energy Sources"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "editorial-ai-governance-framework",
+      "headline": "Editorial: The Imperative for a Robust AI Governance Framework in India",
+      "explainer": "• This editorial argues for the urgent need for a comprehensive Artificial Intelligence (AI) governance framework in India to manage its rapid adoption.\n• It highlights the dual potential of AI for economic growth and societal challenges, including ethical dilemmas, job displacement, and data privacy concerns.\n• The piece suggests that India, as a burgeoning digital economy, must proactively develop regulations that foster innovation while ensuring accountability and fairness.\n• It calls for a multi-stakeholder approach involving government, industry, academia, and civil society in drafting AI policies.\n• The editorial emphasizes learning from global best practices while tailoring solutions to India's unique social and economic context.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Indigenization of technology and developing new technology",
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security"
+      ],
+      "date": "2025-05-29",
+      "source": "The Hindu",
+      "sourceUrl": "https://www.thehindu.com/editorial-ai-governance",
+      "importance": "high",
+      "tags": [
+        "Artificial Intelligence",
+        "AI Governance",
+        "Ethics in AI",
+        "Digital Policy",
+        "Technology Regulation",
+        "Innovation"
+      ],
+      "keyTerms": [
+        "Artificial Intelligence (AI)",
+        "AI Governance Framework",
+        "Ethical AI",
+        "Job Displacement",
+        "Data Privacy",
+        "Multi-stakeholder Approach"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the opportunities and challenges presented by the rapid proliferation of Artificial Intelligence in India's economy and society.",
+        "Analyze the key components that a robust AI governance framework in India should encompass to balance innovation with ethical considerations and public welfare.",
+        "Evaluate the role of a multi-stakeholder approach in developing effective AI policies and regulations.",
+        "Compare and contrast India's approach to AI governance with global models, highlighting unique aspects and potential learnings."
+      ],
+      "imageDescription": "A stylized brain composed of circuit board patterns, with 'AI' text, representing the complexity of Artificial Intelligence.",
+      "section": "Editorial",
+      "trivia": "India launched the 'National Strategy for Artificial Intelligence' in 2018, outlining its vision for AI in various sectors.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Information Technology",
+        "topic": "Artificial Intelligence"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "new-education-policy-implementation-review",
+      "headline": "Ministry of Education Reviews Progress of National Education Policy (NEP) Implementation",
+      "explainer": "• The Ministry of Education conducted a high-level review meeting to assess the progress and impact of the National Education Policy (NEP) 2020 across states and institutions.\n• Key areas of focus included curricular reforms, teacher training programs, vocational education integration, and the establishment of multidisciplinary institutions.\n• While significant progress has been made in certain aspects, challenges remain in achieving universal foundational literacy and numeracy, and ensuring equitable access to quality education.\n• The review emphasized the need for greater collaboration between central and state governments, and increased investment in educational infrastructure.\n• NEP 2020 aims to transform India's education system to meet the demands of the 21st century and foster holistic development.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Issues relating to development and management of Social Sector/Services relating to Education, Human Resources."
+      ],
+      "date": "2025-05-29",
+      "source": "The Times of India",
+      "sourceUrl": "https://www.timesofindia.com/nep-implementation-review",
+      "importance": "medium",
+      "tags": [
+        "National Education Policy",
+        "Education Reform",
+        "Vocational Education",
+        "Teacher Training",
+        "Digital Education",
+        "Human Resources"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP) 2020",
+        "Curricular Reforms",
+        "Foundational Literacy and Numeracy (FLN)",
+        "Multidisciplinary Education",
+        "Vocational Education Integration"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ministry of Education reviews NEP 2020 implementation.",
+        "Focus on curricular reforms, teacher training, vocational education.",
+        "Challenges: universal foundational literacy, equitable access.",
+        "NEP 2020 aims for holistic development and 21st-century skills."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the key objectives and transformative potential of the National Education Policy (NEP) 2020 for India's education system.",
+        "Discuss the progress made and the major challenges encountered in implementing NEP 2020, particularly at the state and institutional levels.",
+        "Evaluate the role of vocational education and multidisciplinary approaches in preparing India's youth for future job markets.",
+        "Examine the strategies required to ensure equitable access to quality education and address the digital divide in the context of NEP implementation."
+      ],
+      "imageDescription": "Students in a modern classroom setting, symbolizing the future of education under NEP 2020.",
+      "section": "National",
+      "trivia": "NEP 2020 replaced the National Policy on Education of 1986, which had been in place for 34 years.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Human Resources",
+        "topic": "Education Policy"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "cautious-outlook-global-economy",
+      "headline": "Indian Finance Ministry Cautions Against Global Economic Headwinds, Maintains Growth Optimism",
+      "explainer": "• The Finance Ministry released its monthly economic review, highlighting continued resilience of the Indian economy but cautioning against escalating global economic headwinds.\n• Factors such as geopolitical tensions, persistent inflation in major economies, and tightening global financial conditions pose risks to India's export and investment outlook.\n• Despite these external challenges, the Ministry expressed optimism about India's domestic demand, robust public capital expenditure, and strong financial sector.\n• Projections for India's GDP growth remain robust, albeit with a watchful approach towards global volatility.\n• The report emphasized continued fiscal prudence and structural reforms to sustain long-term growth momentum.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Government Budgeting",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth"
+      ],
+      "date": "2025-05-29",
+      "source": "Ministry of Finance",
+      "sourceUrl": "https://www.finmin.nic.in/economic-review",
+      "importance": "medium",
+      "tags": [
+        "Indian Economy",
+        "Global Economy",
+        "Economic Growth",
+        "Inflation",
+        "Fiscal Policy",
+        "Investment"
+      ],
+      "keyTerms": [
+        "Global Economic Headwinds",
+        "Geopolitical Tensions",
+        "Fiscal Prudence",
+        "Public Capital Expenditure",
+        "GDP Growth",
+        "Structural Reforms"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Finance Ministry cautions on global economic headwinds.",
+        "Optimistic about India's domestic demand and public capital expenditure.",
+        "Factors: geopolitical tensions, global inflation, tight financial conditions.",
+        "Emphasizes fiscal prudence and structural reforms."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the key external and internal factors influencing India's economic growth trajectory in the current global environment.",
+        "Discuss the strategies adopted by the Indian government and RBI to mitigate global economic headwinds and maintain macroeconomic stability.",
+        "Evaluate the role of domestic demand and public capital expenditure in sustaining India's growth momentum.",
+        "Examine the importance of fiscal prudence and structural reforms in achieving long-term sustainable economic development."
+      ],
+      "imageDescription": "A chart showing economic growth trends with an upward arrow, alongside a storm cloud, symbolizing optimism despite global challenges.",
+      "section": "Economy",
+      "trivia": "India is projected to be one of the fastest-growing major economies globally, contributing significantly to world GDP growth.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Macroeconomics",
+        "topic": "Economic Growth and Global Factors"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ganga-rejuvenation-targets",
+      "headline": "National Mission for Clean Ganga Reviews Progress, Sets New Rejuvenation Targets",
+      "explainer": "• The National Mission for Clean Ganga (NMCG) held a high-level meeting to review the progress of various projects under the Namami Gange program and set new targets for river rejuvenation.\n• Focus areas include improving municipal wastewater treatment, industrial pollution abatement, and promoting biodiversity conservation along the Ganga basin.\n• While significant strides have been made in infrastructure development, challenges persist in community participation and ensuring continuous flow (Aviral Dhara).\n• New targets emphasize sustainable river basin management, promotion of natural farming, and protection of riverine ecosystems.\n• The mission reiterated its commitment to making Ganga 'Nirmal' (clean) and 'Aviral' (free-flowing) through a holistic approach.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Disaster and disaster management"
+      ],
+      "date": "2025-05-29",
+      "source": "Ministry of Jal Shakti",
+      "sourceUrl": "https://www.jalshakti.gov.in/ganga-rejuvenation-targets",
+      "importance": "medium",
+      "tags": [
+        "Namami Gange",
+        "River Rejuvenation",
+        "Water Pollution",
+        "Biodiversity Conservation",
+        "Ganga River",
+        "Environmental Governance"
+      ],
+      "keyTerms": [
+        "National Mission for Clean Ganga (NMCG)",
+        "Namami Gange Program",
+        "Wastewater Treatment",
+        "Industrial Pollution Abatement",
+        "Aviral Dhara",
+        "Nirmal Dhara"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Mission for Clean Ganga (NMCG) reviews Namami Gange program.",
+        "Aims for 'Nirmal' (clean) and 'Aviral' (free-flowing) Ganga.",
+        "Focus on wastewater treatment, pollution abatement, biodiversity.",
+        "Ministry of Jal Shakti is the nodal ministry."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically evaluate the achievements and shortcomings of the Namami Gange program in achieving its objectives of Ganga rejuvenation.",
+        "Discuss the multi-faceted challenges involved in cleaning and restoring a river system as vast and ecologically complex as the Ganga.",
+        "Analyze the importance of community participation and inter-state cooperation in successful river basin management programs.",
+        "Examine the concept of 'Aviral Dhara' and 'Nirmal Dhara' and the policy interventions required to achieve them."
+      ],
+      "imageDescription": "A clean stretch of the Ganga river with green banks, symbolizing successful rejuvenation efforts.",
+      "section": "Environment",
+      "trivia": "The Namami Gange Programme was launched in 2014 as an integrated conservation mission to achieve the twin objectives of effective abatement of pollution, conservation and rejuvenation of National River Ganga.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Conservation",
+        "topic": "River Conservation"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "global-supply-chain-resilience",
+      "headline": "India Advocates for Diversified and Resilient Global Supply Chains at WTO Forum",
+      "explainer": "• India, at a World Trade Organization (WTO) forum, strongly advocated for the diversification and resilience of global supply chains to prevent future disruptions.\n• The Commerce and Industry Minister highlighted vulnerabilities exposed during recent global crises, emphasizing the need for robust alternative manufacturing hubs.\n• India presented its vision for becoming a reliable and competitive partner in global value chains, leveraging its strong manufacturing base and skilled workforce.\n• Discussions included proposals for a new WTO framework to facilitate trade in essential goods during emergencies and reduce over-reliance on single sources.\n• This stance aligns with India's economic diplomacy to enhance its role in global trade and promote a more equitable international economic order.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate",
+        "Effect of policies and politics of developed and developing countries on India’s interests"
+      ],
+      "date": "2025-05-29",
+      "source": "Ministry of Commerce and Industry",
+      "sourceUrl": "https://www.commerce.gov.in/wto-supply-chain",
+      "importance": "medium",
+      "tags": [
+        "WTO",
+        "Global Supply Chain",
+        "Trade Policy",
+        "Economic Diplomacy",
+        "International Trade",
+        "Resilience"
+      ],
+      "keyTerms": [
+        "World Trade Organization (WTO)",
+        "Global Supply Chains",
+        "Global Value Chains (GVCs)",
+        "Trade Resilience",
+        "Manufacturing Hubs",
+        "Economic Order"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India advocates for diversified, resilient global supply chains at WTO.",
+        "Highlights vulnerabilities exposed during global crises.",
+        "India aims to be a reliable partner in global value chains.",
+        "WTO is an intergovernmental organization that regulates international trade."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of resilient global supply chains for international trade and economic stability, particularly in the post-pandemic era.",
+        "Analyze India's strategy to position itself as a key player in diversified global value chains and its implications for domestic manufacturing.",
+        "Evaluate the role of the World Trade Organization (WTO) in facilitating discussions and formulating frameworks for global supply chain resilience.",
+        "Examine the challenges and opportunities for developing countries in strengthening their participation in global supply networks."
+      ],
+      "imageDescription": "Interconnected global map with arrows indicating trade routes, symbolizing global supply chains and resilience.",
+      "section": "International",
+      "trivia": "The concept of 'supply chain resilience' gained significant traction globally after the disruptions caused by the COVID-19 pandemic.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "WTO and Trade"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "start-up-ecosystem-growth",
+      "headline": "India's Startup Ecosystem Continues Robust Growth, Focus on Deep Tech and Rural Innovation",
+      "explainer": "• India's startup ecosystem demonstrated continued robust growth in the first half of 2025, with a notable surge in funding for deep tech and rural innovation startups.\n• Government initiatives like 'Startup India' and 'Fund of Funds for Startups' have played a crucial role in fostering an entrepreneurial environment.\n• The focus is shifting towards sectors like Artificial Intelligence, SpaceTech, Agritech, and MedTech, attracting both domestic and international investors.\n• Rural innovation is gaining traction, with startups addressing local challenges in areas like sustainable farming, craft promotion, and last-mile logistics.\n• This growth is vital for job creation, economic diversification, and leveraging India's demographic dividend.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth"
+      ],
+      "date": "2025-05-29",
+      "source": "NITI Aayog",
+      "sourceUrl": "https://www.niti.gov.in/startup-ecosystem-growth",
+      "importance": "medium",
+      "tags": [
+        "Startup India",
+        "Deep Tech",
+        "Rural Innovation",
+        "Entrepreneurship",
+        "Venture Capital",
+        "Job Creation"
+      ],
+      "keyTerms": [
+        "Startup Ecosystem",
+        "Deep Tech",
+        "Rural Innovation",
+        "Fund of Funds for Startups",
+        "Venture Capital Funding",
+        "Demographic Dividend"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India's startup ecosystem shows robust growth.",
+        "Focus on deep tech (AI, SpaceTech) and rural innovation (Agritech, MedTech).",
+        "Government initiatives: 'Startup India', 'Fund of Funds for Startups'.",
+        "Important for job creation and economic diversification."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the factors contributing to the robust growth of India's startup ecosystem and its significance for the nation's economic development.",
+        "Discuss the role of government policies and funding mechanisms in nurturing entrepreneurship and innovation, particularly in deep tech and rural sectors.",
+        "Evaluate the potential of deep tech startups to address complex societal challenges and drive technological advancement in India.",
+        "Examine how rural innovation can bridge developmental gaps and create sustainable livelihoods in remote areas."
+      ],
+      "imageDescription": "A diverse group of young entrepreneurs collaborating in a modern office space, symbolizing India's vibrant startup culture.",
+      "section": "Economy",
+      "trivia": "India is home to the third-largest startup ecosystem in the world, after the US and China.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Industrial Policy",
+        "topic": "Startup Ecosystem"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "climate-induced-migration-study",
+      "headline": "Report Highlights Growing Threat of Climate-Induced Migration in Coastal Regions",
+      "explainer": "• A new report released by a consortium of environmental NGOs and research institutions warned of the escalating threat of climate-induced migration in India's coastal regions.\n• Rising sea levels, increased frequency of extreme weather events, and saltwater intrusion are displacing communities and impacting livelihoods.\n• The report projects that millions could be internally displaced by 2050 if adequate adaptation and mitigation measures are not implemented.\n• It calls for a national policy framework to address climate migration, including resettlement programs, livelihood diversification, and infrastructure protection.\n• The study emphasizes the need for integrating climate resilience into regional development plans and urban planning.",
+      "category": "environment",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes.",
+        "Environmental pollution and degradation, environmental impact assessment"
+      ],
+      "date": "2025-05-29",
+      "source": "Down To Earth",
+      "sourceUrl": "https://www.downtoearth.org.in/climate-migration-report",
+      "importance": "medium",
+      "tags": [
+        "Climate Change",
+        "Climate Migration",
+        "Coastal Regions",
+        "Sea Level Rise",
+        "Displacement",
+        "Environmental Policy"
+      ],
+      "keyTerms": [
+        "Climate-induced Migration",
+        "Coastal Erosion",
+        "Extreme Weather Events",
+        "Saltwater Intrusion",
+        "Adaptation and Mitigation",
+        "Climate Resilience"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the various drivers and manifestations of climate-induced migration in India's coastal regions and its socio-economic consequences.",
+        "Analyze the policy and institutional gaps in addressing climate migration and the need for a comprehensive national framework.",
+        "Evaluate the effectiveness of current adaptation and mitigation strategies in protecting vulnerable coastal communities and their livelihoods.",
+        "Examine the ethical and human rights dimensions of climate displacement and the responsibility of the state in ensuring rehabilitation."
+      ],
+      "imageDescription": "Coastal village partially submerged by rising sea levels, with people moving away, depicting climate-induced migration.",
+      "section": "Environment",
+      "trivia": "The Sunderbans delta, shared by India and Bangladesh, is one of the most vulnerable regions globally to climate change and sea-level rise, leading to significant displacement.",
+      "prelimsSyllabus": {
+        "subject": "Geography",
+        "area": "Physical Geography",
+        "topic": "Climate Change Impacts"
+      },
+      "prelimsPotential": 2
+    }
+  ],
+  "highlights": [
+    "India-EU FTA negotiations achieve major breakthroughs in digital trade and sustainable development, paving way for comprehensive deal.",
+    "Supreme Court upholds state's power to levy environmental compensation on polluting industries, reinforcing 'Polluter Pays Principle'.",
+    "ISRO successfully conducts a critical test flight of its Reusable Launch Vehicle (RLV) prototype, 'Pushpak', for autonomous landing.",
+    "National Skill Mission prioritizes training rural youth for 'green jobs' in renewable energy, waste management, and eco-tourism sectors.",
+    "India reiterates call for reviewing Indus Water Treaty provisions with Pakistan due to changing hydrological realities and climate change."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the recent Supreme Court judgment on environmental compensation, consider the following statements:\n1. The judgment affirms the power of state pollution control boards to impose compensation based on the 'Polluter Pays Principle'.\n2. The ruling explicitly cites Article 48A and Article 51A(g) of the Indian Constitution as foundational for environmental protection.\n3. The 'Precautionary Principle' was also a key consideration in the court's decision.\nWhich of the statements given above are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(d) 1, 2 and 3",
+      "explanation": "All three statements are correct. The Supreme Court's judgment upheld the power of state pollution control boards to levy environmental compensation, based on both the 'Polluter Pays Principle' and the 'Precautionary Principle'. It also emphasized that environmental protection is a constitutional mandate under Article 48A (Directive Principles of State Policy) and Article 51A(g) (Fundamental Duties)."
+    },
+    {
+      "question": "Which of the following statements correctly describes ISRO's 'Pushpak' program?",
+      "options": [
+        "(a) It is a mission to study the Sun's outer corona.",
+        "(b) It is a prototype for a fully reusable launch vehicle.",
+        "(c) It is a project to develop indigenous cryogenic engines.",
+        "(d) It is India's first manned space mission."
+      ],
+      "answer": "(b) It is a prototype for a fully reusable launch vehicle.",
+      "explanation": "ISRO's 'Pushpak' is the name given to the Reusable Launch Vehicle (RLV) Technology Demonstrator (RLV-TD) project. Its primary aim is to develop technologies for a fully reusable two-stage orbital launch vehicle, which can significantly reduce the cost of space launches. Aditya-L1 is for studying the Sun, Gaganyaan is for manned space missions, and cryogenic engine development is a separate but related area."
+    },
+    {
+      "question": "Consider the following pairs regarding government initiatives and their objectives:\n1. National Skill Mission: Promoting green jobs for rural youth\n2. BharatNet Phase III: Providing 5G connectivity to urban centers\n3. Namami Gange Programme: Ensuring 'Nirmal' and 'Aviral' flow of river Ganga\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 3 only",
+      "explanation": "Pair 1 is correctly matched, as the National Skill Mission is prioritizing 'green jobs' training. Pair 3 is correctly matched, as Namami Gange aims for a clean ('Nirmal') and free-flowing ('Aviral') Ganga. Pair 2 is incorrectly matched; BharatNet Phase III aims to connect all remaining gram panchayats and habitations with broadband, primarily optical fiber, not specifically 5G connectivity to urban centers, though it may incorporate 5G backhaul capabilities."
+    },
+    {
+      "question": "With respect to the Indus Water Treaty (IWT), which of the following rivers are classified as 'Western Rivers' and primarily allocated to Pakistan?",
+      "options": [
+        "(a) Ravi, Beas, Sutlej",
+        "(b) Indus, Jhelum, Chenab",
+        "(c) Ganga, Yamuna, Brahmaputra",
+        "(d) Godavari, Krishna, Cauvery"
+      ],
+      "answer": "(b) Indus, Jhelum, Chenab",
+      "explanation": "Under the Indus Water Treaty (IWT), the Eastern Rivers (Ravi, Beas, and Sutlej) are allocated for India's unrestricted use, while the Western Rivers (Indus, Jhelum, and Chenab) are largely allocated to Pakistan, though India has limited rights for non-consumptive uses like power generation."
+    },
+    {
+      "question": "Which of the following constitutional provisions are directly related to environmental protection in India?",
+      "options": [
+        "(a) Article 19(1)(a) and Article 21",
+        "(b) Article 48A and Article 51A(g)",
+        "(c) Article 32 and Article 226",
+        "(d) Article 14 and Article 15"
+      ],
+      "answer": "(b) Article 48A and Article 51A(g)",
+      "explanation": "Article 48A (Directive Principles of State Policy) states that the State shall endeavour to protect and improve the environment and to safeguard the forests and wildlife of the country. Article 51A(g) (Fundamental Duties) states that it shall be the duty of every citizen of India to protect and improve the natural environment including forests, lakes, rivers and wildlife, and to have compassion for living creatures. While other articles like Article 21 (Right to life) have been interpreted by courts to include the right to a clean environment, 48A and 51A(g) are directly and explicitly related to environmental protection."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "Analyze the strategic and economic implications of the recent breakthroughs in India-EU Free Trade Agreement negotiations for India's foreign policy and trade diversification objectives. What challenges remain in finalizing and implementing a comprehensive deal?",
+      "syllabusMatch": "GS2: Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests; GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment; Effects of liberalization on the economy.",
+      "approach": "Introduce the significance of India-EU FTA. Discuss strategic implications (geopolitical alignment, reducing reliance on certain partners, enhanced diplomatic leverage). Detail economic implications (market access, investment flow, tech transfer, impact on domestic industries, export diversification). Outline remaining challenges (tariff barriers, non-tariff barriers, labor/environmental standards, IPR enforcement, dispute resolution mechanisms). Conclude with potential benefits if challenges are overcome."
+    },
+    {
+      "question": "The Supreme Court's affirmation of the state's power to levy environmental compensation strengthens India's environmental jurisprudence. Discuss the 'Polluter Pays Principle' and 'Precautionary Principle' in this context. What are the challenges in effectively implementing such compensation mechanisms and ensuring their proper utilization for ecological restoration?",
+      "syllabusMatch": "GS2: Structure, organization and functioning of the Executive and the Judiciary; Government policies and interventions for development in various sectors; GS3: Environmental pollution and degradation, environmental impact assessment.",
+      "approach": "Begin by explaining the Supreme Court's ruling and its importance. Define and elaborate on the 'Polluter Pays Principle' and 'Precautionary Principle' with examples of their application in India. Discuss constitutional backing (Art 48A, 51A(g)). Enumerate challenges in implementation (assessment of damage, collection, transparency in utilization, capacity of regulatory bodies, legal loopholes). Suggest measures for effective implementation and monitoring."
+    },
+    {
+      "question": "India's ambition to become a global leader in space technology is significantly bolstered by its advancements in Reusable Launch Vehicle (RLV) technology. Discuss the strategic and economic importance of RLVs for India's space program. What are the technological challenges involved in developing a fully reusable launch system, and how is ISRO addressing them?",
+      "syllabusMatch": "GS3: Science and Technology- developments and their applications and effects in everyday life; Indigenization of technology and developing new technology; Awareness in the fields of Space.",
+      "approach": "Introduce ISRO's RLV program and its significance. Explain strategic importance (self-reliance, military applications, global competitiveness, access to space). Detail economic importance (cost reduction, increased launch frequency, commercial opportunities). Outline technological challenges (aerodynamics, thermal protection, propulsion, autonomous landing, materials science). Describe ISRO's current efforts and future roadmap. Conclude on India's potential in the global space sector."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The 'Polluter Pays Principle' mandates that the party responsible for pollution should bear the costs of its management.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "environmental law",
+        "governance"
+      ]
+    },
+    {
+      "text": "ISRO's 'Pushpak' is a Reusable Launch Vehicle (RLV) prototype, aiming to reduce space launch costs.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "space technology",
+        "ISRO"
+      ]
+    },
+    {
+      "text": "Article 48A of the DPSP directs the state to protect and improve the environment.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "DPSP",
+        "environment"
+      ]
+    },
+    {
+      "text": "The Indus Water Treaty was brokered by the World Bank in 1960 between India and Pakistan.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "India-Pakistan",
+        "water treaty"
+      ]
+    },
+    {
+      "text": "The Monetary Policy Committee (MPC) sets the benchmark interest rate (repo rate) to control inflation in India.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "monetary policy"
+      ]
+    },
+    {
+      "text": "The National Education Policy (NEP) 2020 replaced the 1986 policy.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "education",
+        "policy"
+      ]
+    },
+    {
+      "text": "Urban Heat Island (UHI) effect refers to cities being significantly warmer than surrounding rural areas.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "climate change",
+        "urbanization"
+      ]
+    },
+    {
+      "text": "BharatNet project aims to provide broadband connectivity to all Gram Panchayats in India.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "digital India",
+        "infrastructure"
+      ]
+    },
+    {
+      "text": "The International Solar Alliance (ISA) is an Indian initiative to promote solar energy globally.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "solar energy",
+        "international organizations"
+      ]
+    },
+    {
+      "text": "Rakhigarhi in Haryana is one of the largest known sites of the Indus Valley Civilization.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "tags": [
+        "IVC",
+        "archaeology"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "ancient-settlement-discovery",
+        "headline": "Archaeologists Unearth Evidence of Ancient Settlement in Haryana, Dating Back to Harappan Period",
+        "explainer": "• A team of archaeologists has unearthed significant evidence of an ancient settlement in Haryana, believed to date back to the mature Harappan period (c. 2600–1900 BCE).\n• The excavation site revealed pottery, terracotta figurines, beads, and structural remains, indicating a well-developed urban life.\n• This discovery adds to the growing understanding of the geographical spread and cultural diversity of the Indus Valley Civilization in the Ghaggar-Hakra basin.\n• Further analysis of the artifacts and stratigraphy is expected to provide insights into trade routes, social structures, and daily life of the inhabitants.\n• The site's strategic location suggests its potential role as a regional center or a key outpost for resource management.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times",
+          "History of India and Indian National Movement"
+        ],
+        "date": "2025-05-29",
+        "source": "Archaeological Survey of India",
+        "sourceUrl": "https://www.asi.nic.in/haryana-harappan-site",
+        "importance": "medium",
+        "tags": [
+          "Archaeology",
+          "Harappan Civilization",
+          "Indus Valley Civilization",
+          "Ancient India",
+          "Haryana",
+          "Cultural Heritage"
+        ],
+        "keyTerms": [
+          "Mature Harappan Period",
+          "Indus Valley Civilization (IVC)",
+          "Ghaggar-Hakra Basin",
+          "Terracotta Figurines",
+          "Stratigraphy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ancient settlement discovered in Haryana, dating to Mature Harappan period.",
+          "Findings include pottery, terracotta figurines, beads, structural remains.",
+          "Adds to understanding of Indus Valley Civilization in Ghaggar-Hakra basin.",
+          "Archaeological Survey of India (ASI) is the nodal body."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of recent archaeological discoveries in re-evaluating the geographical extent and characteristics of the Indus Valley Civilization.",
+          "Analyze the contribution of such findings to our understanding of urban planning, trade networks, and social organization in ancient India.",
+          "Examine the challenges faced by archaeologists in preserving and interpreting ancient sites in modern India.",
+          "Evaluate the role of the Ghaggar-Hakra river system in the development and decline of the Harappan Civilization."
+        ],
+        "imageDescription": "Archaeologists meticulously excavating an ancient site, revealing pottery shards and structural remains.",
+        "section": "National",
+        "trivia": "Rakhigarhi, also in Haryana, is one of the largest and oldest sites of the Indus Valley Civilization, believed to be larger than Mohenjo-Daro.",
+        "prelimsSyllabus": {
+          "subject": "Ancient History",
+          "area": "Indus Valley Civilization",
+          "topic": "Sites and Discoveries"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "climate-induced-migration-study",
+        "headline": "Report Highlights Growing Threat of Climate-Induced Migration in Coastal Regions",
+        "explainer": "• A new report released by a consortium of environmental NGOs and research institutions warned of the escalating threat of climate-induced migration in India's coastal regions.\n• Rising sea levels, increased frequency of extreme weather events, and saltwater intrusion are displacing communities and impacting livelihoods.\n• The report projects that millions could be internally displaced by 2050 if adequate adaptation and mitigation measures are not implemented.\n• It calls for a national policy framework to address climate migration, including resettlement programs, livelihood diversification, and infrastructure protection.\n• The study emphasizes the need for integrating climate resilience into regional development plans and urban planning.",
+        "category": "environment",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes.",
+          "Environmental pollution and degradation, environmental impact assessment"
+        ],
+        "date": "2025-05-29",
+        "source": "Down To Earth",
+        "sourceUrl": "https://www.downtoearth.org.in/climate-migration-report",
+        "importance": "medium",
+        "tags": [
+          "Climate Change",
+          "Climate Migration",
+          "Coastal Regions",
+          "Sea Level Rise",
+          "Displacement",
+          "Environmental Policy"
+        ],
+        "keyTerms": [
+          "Climate-induced Migration",
+          "Coastal Erosion",
+          "Extreme Weather Events",
+          "Saltwater Intrusion",
+          "Adaptation and Mitigation",
+          "Climate Resilience"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the various drivers and manifestations of climate-induced migration in India's coastal regions and its socio-economic consequences.",
+          "Analyze the policy and institutional gaps in addressing climate migration and the need for a comprehensive national framework.",
+          "Evaluate the effectiveness of current adaptation and mitigation strategies in protecting vulnerable coastal communities and their livelihoods.",
+          "Examine the ethical and human rights dimensions of climate displacement and the responsibility of the state in ensuring rehabilitation."
+        ],
+        "imageDescription": "Coastal village partially submerged by rising sea levels, with people moving away, depicting climate-induced migration.",
+        "section": "Environment",
+        "trivia": "The Sunderbans delta, shared by India and Bangladesh, is one of the most vulnerable regions globally to climate change and sea-level rise, leading to significant displacement.",
+        "prelimsSyllabus": {
+          "subject": "Geography",
+          "area": "Physical Geography",
+          "topic": "Climate Change Impacts"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS2": [
+      {
+        "id": "india-eu-fta-breakthrough",
+        "headline": "India-EU FTA Negotiations See Major Breakthrough on Key Sectors",
+        "explainer": "• After years of intense negotiations, India and the European Union announced significant progress on a Free Trade Agreement (FTA), particularly in critical sectors like digital trade and sustainable development.\n• The joint statement highlighted consensus on intellectual property rights and investment facilitation, paving the way for a comprehensive deal by year-end.\n• This FTA aims to boost bilateral trade significantly, potentially increasing it by over 40% in five years, and enhancing strategic cooperation.\n• Key sticking points like market access for automobiles and agricultural products are still under discussion but show signs of compromise.\n• Experts believe the deal will diversify India's export basket and provide EU businesses greater access to the Indian market, strengthening global supply chains.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests"
+        ],
+        "date": "2025-05-29",
+        "source": "The Economic Times",
+        "sourceUrl": "https://www.economictimes.indiatimes.com/india-eu-fta-breakthrough",
+        "importance": "high",
+        "tags": [
+          "India-EU relations",
+          "Free Trade Agreement",
+          "International Trade",
+          "Economic Diplomacy",
+          "Geopolitics"
+        ],
+        "keyTerms": [
+          "Free Trade Agreement (FTA)",
+          "Bilateral Trade",
+          "Intellectual Property Rights (IPR)",
+          "Digital Trade",
+          "Sustainable Development Goals (SDGs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India-EU FTA aims to boost bilateral trade and strategic cooperation.",
+          "Key areas of breakthrough: digital trade, sustainable development, IPR, investment facilitation.",
+          "European Union (EU) is a major trading partner for India.",
+          "FTA negotiations resumed in 2021 after a pause since 2013."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic and economic implications of the India-EU FTA for India's foreign policy and economic growth.",
+          "Discuss the challenges and opportunities for Indian industries arising from increased competition and market access.",
+          "Evaluate how this FTA aligns with India's broader trade policy objectives and its 'Act East' and 'Look West' strategies.",
+          "Examine the role of sustainable development and digital trade clauses in modern FTAs."
+        ],
+        "imageDescription": "Flags of India and the European Union displayed together, symbolizing strong bilateral ties and a potential trade agreement.",
+        "section": "Lead Opinion",
+        "trivia": "The EU is India's third-largest trading partner, accounting for 10.8% of India's total trade in goods in 2022-23.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India and Europe"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "sc-upholds-environmental-compensation",
+        "headline": "Supreme Court Upholds State's Power to Levy Environmental Compensation on Polluting Industries",
+        "explainer": "• The Supreme Court, in a landmark judgment, affirmed the power of state pollution control boards to impose environmental compensation on industries violating pollution norms.\n• The ruling came in a case challenging a state government's notification imposing fines based on the 'Polluter Pays Principle' and the 'Precautionary Principle'.\n• The court emphasized that environmental protection is a constitutional mandate under Article 48A and 51A(g), and states have inherent power to ensure ecological balance.\n• This judgment is expected to strengthen environmental governance and act as a deterrent against industrial pollution across the country.\n• It clarifies the legal framework for calculating and imposing compensation, directing for transparent and scientific methodologies.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Structure, organization and functioning of the Executive and the Judiciary",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Environmental pollution and degradation"
+        ],
+        "date": "2025-05-29",
+        "source": "The Hindu",
+        "sourceUrl": "https://www.thehindu.com/sc-environmental-compensation",
+        "importance": "high",
+        "tags": [
+          "Supreme Court",
+          "Environmental Law",
+          "Pollution Control",
+          "Judicial Activism",
+          "State Powers"
+        ],
+        "keyTerms": [
+          "Polluter Pays Principle",
+          "Precautionary Principle",
+          "Environmental Compensation",
+          "Article 48A",
+          "Article 51A(g)",
+          "State Pollution Control Board"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Supreme Court affirmed state's power to levy environmental compensation.",
+          "Judgment based on 'Polluter Pays Principle' and 'Precautionary Principle'.",
+          "Constitutional provisions for environment: Article 48A (DPSP) and Article 51A(g) (Fundamental Duty).",
+          "State Pollution Control Boards (SPCBs) are statutory bodies under Water Act, 1974 and Air Act, 1981."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the 'Polluter Pays Principle' and 'Precautionary Principle' in India's environmental jurisprudence.",
+          "Analyze how this Supreme Court ruling strengthens federal environmental governance and promotes sustainable industrial practices.",
+          "Critically evaluate the challenges in implementing environmental compensation mechanisms effectively and ensuring their proper utilization.",
+          "Examine the role of the judiciary in upholding environmental rights and balancing industrial development with ecological protection."
+        ],
+        "imageDescription": "A gavel resting on law books, with a blurred background of a factory emitting smoke, symbolizing legal action against pollution.",
+        "section": "National",
+        "trivia": "The 'Polluter Pays Principle' was first introduced in India in the Vellore Citizens' Welfare Forum v. Union of India case (1996).",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity",
+          "area": "Judiciary",
+          "topic": "Supreme Court and Environmental Law"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "national-skill-mission-green-jobs",
+        "headline": "National Skill Mission to Prioritize 'Green Jobs' Training for Rural Youth",
+        "explainer": "• The Ministry of Skill Development and Entrepreneurship announced a major overhaul of the National Skill Mission, with a dedicated focus on training rural youth for 'green jobs'.\n• This initiative aims to align India's workforce with the growing demands of renewable energy, sustainable agriculture, waste management, and eco-tourism sectors.\n• The program will involve collaborations with industry partners, NGOs, and local self-help groups to ensure relevant and demand-driven training modules.\n• The move is expected to address rural unemployment, reduce migration to urban areas, and contribute to India's climate action goals.\n• Pilot projects have shown promising results in states like Rajasthan and Gujarat, leading to the nationwide expansion.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Development processes and the development industry —the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+        ],
+        "date": "2025-05-29",
+        "source": "Hindustan Times",
+        "sourceUrl": "https://www.hindustantimes.com/green-jobs-rural-youth",
+        "importance": "medium",
+        "tags": [
+          "Skill Development",
+          "Green Jobs",
+          "Rural Employment",
+          "Climate Action",
+          "National Skill Mission"
+        ],
+        "keyTerms": [
+          "Green Jobs",
+          "National Skill Mission",
+          "Sustainable Agriculture",
+          "Renewable Energy Sector",
+          "Rural Unemployment"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Skill Mission focusing on 'green jobs' for rural youth.",
+          "Aims to align workforce with renewable energy, waste management, eco-tourism.",
+          "Ministry of Skill Development and Entrepreneurship is the nodal ministry.",
+          "Collaborations with industry, NGOs, SHGs are part of the strategy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze how the focus on 'green jobs' in the National Skill Mission can address both unemployment and climate change challenges in India.",
+          "Discuss the potential benefits and challenges of integrating green skills into existing vocational training frameworks, especially in rural areas.",
+          "Evaluate the role of public-private partnerships and community involvement in ensuring the success and sustainability of such skill development initiatives.",
+          "Examine the socio-economic impact of promoting green entrepreneurship among rural youth."
+        ],
+        "imageDescription": "Young people in a vocational training center learning about solar panel installation, representing 'green jobs' training.",
+        "section": "National",
+        "trivia": "According to the International Labour Organization (ILO), 'green jobs' are decent jobs that contribute to preserving or restoring the environment.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Human Resources",
+          "topic": "Skill Development"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indus-water-treaty-review",
+        "headline": "India Calls for Review of Indus Water Treaty Provisions Amid Changing Hydrological Realities",
+        "explainer": "• India has reiterated its call for a review of certain provisions of the Indus Water Treaty (IWT) with Pakistan, citing changing hydrological realities and climate change impacts.\n• The Ministry of External Affairs emphasized the need for a more equitable and efficient utilization of shared water resources, in light of reduced glacier melt and altered river flows.\n• Pakistan, however, has maintained its stance on strict adherence to the existing treaty, which largely allocates western rivers to Pakistan and eastern rivers to India.\n• India has been undertaking several hydroelectric projects on its allocated rivers, which Pakistan often views as potential violations, leading to ongoing disputes.\n• The World Bank, a guarantor of the treaty, is being kept informed of the developments, as both nations seek a diplomatic resolution.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests"
+        ],
+        "date": "2025-05-29",
+        "source": "Times of India",
+        "sourceUrl": "https://www.timesofindia.com/indus-water-treaty-review",
+        "importance": "high",
+        "tags": [
+          "Indus Water Treaty",
+          "India-Pakistan Relations",
+          "Water Diplomacy",
+          "Climate Change",
+          "International Law"
+        ],
+        "keyTerms": [
+          "Indus Water Treaty (IWT)",
+          "Hydrological Realities",
+          "Western Rivers",
+          "Eastern Rivers",
+          "World Bank"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India seeks review of Indus Water Treaty (IWT) provisions.",
+          "Reasons cited: changing hydrological realities and climate change impacts.",
+          "IWT allocates Western Rivers (Indus, Jhelum, Chenab) to Pakistan, Eastern Rivers (Ravi, Beas, Sutlej) to India.",
+          "The World Bank is a signatory/guarantor of the IWT (signed 1960)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the historical context and key provisions of the Indus Water Treaty and its significance for India-Pakistan relations.",
+          "Discuss the implications of climate change on shared water resources and the challenges it poses for existing water-sharing agreements.",
+          "Evaluate India's arguments for reviewing the IWT and the potential diplomatic and strategic ramifications of such a move.",
+          "Examine the role of international mediators like the World Bank in resolving water disputes between riparian states."
+        ],
+        "imageDescription": "A map showing the Indus River system flowing through India and Pakistan, with national flags superimposed.",
+        "section": "International",
+        "trivia": "The Indus Water Treaty is considered one of the most successful water-sharing treaties in the world, having survived multiple conflicts between India and Pakistan.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India and its Neighbourhood",
+          "topic": "India-Pakistan Relations and Water Disputes"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "new-data-protection-framework-implementation",
+        "headline": "Government Reviews Implementation of New Data Protection Framework, Addresses Initial Challenges",
+        "explainer": "• The Ministry of Electronics and Information Technology (MeitY) conducted a comprehensive review of the initial implementation phase of India's new Data Protection Framework.\n• The framework, which came into effect earlier this year, aims to regulate the processing of personal data and protect citizens' privacy rights.\n• Key challenges identified include ensuring compliance by smaller entities, clarity on cross-border data flows, and establishing the Data Protection Board effectively.\n• The government reassured stakeholders of its commitment to a robust and adaptable framework, promising clarifications and amendments where necessary.\n• The framework is critical for fostering trust in India's digital economy and aligning with global data governance standards.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Role of civil services in a democracy",
+          "Cyber security basics"
+        ],
+        "date": "2025-05-29",
+        "source": "Livemint",
+        "sourceUrl": "https://www.livemint.com/data-protection-review",
+        "importance": "medium",
+        "tags": [
+          "Data Protection",
+          "Digital India",
+          "Cyber Law",
+          "Privacy Rights",
+          "Government Policy"
+        ],
+        "keyTerms": [
+          "Data Protection Framework",
+          "Personal Data",
+          "Data Protection Board",
+          "Cross-border Data Flows",
+          "Digital Economy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ministry of Electronics and Information Technology (MeitY) reviews Data Protection Framework.",
+          "Framework aims to protect citizens' privacy rights and regulate personal data processing.",
+          "Challenges include compliance by small entities and cross-border data flow clarity.",
+          "A Data Protection Board is to be established under the framework."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of a robust data protection framework for India's digital economy and its citizens' privacy rights.",
+          "Discuss the key challenges faced during the initial implementation of the Data Protection Framework and suggest potential solutions.",
+          "Evaluate the balance between data protection, innovation, and national security in the Indian context.",
+          "Compare India's data protection framework with international standards like GDPR and identify areas of convergence and divergence."
+        ],
+        "imageDescription": "A padlock icon superimposed on binary code, representing data security and digital privacy.",
+        "section": "National",
+        "trivia": "The Puttaswamy judgment (2017) by the Supreme Court declared privacy a fundamental right under Article 21 of the Indian Constitution, paving the way for data protection legislation.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity",
+          "area": "Governance",
+          "topic": "E-governance and Data Protection"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "g20-health-declaration",
+        "headline": "India Champions Global Health Equity in G20 Health Ministers' Meeting",
+        "explainer": "• India played a pivotal role in the G20 Health Ministers' meeting, advocating for global health equity, affordable access to vaccines, and strengthening pandemic preparedness.\n• The Indian delegation highlighted its experience in vaccine manufacturing and delivery, offering to share best practices and technological expertise with developing nations.\n• Discussions focused on establishing a robust global health architecture, improving health workforce capacity, and leveraging digital health solutions.\n• The G20 Health Declaration emphasized collaboration in research and development and equitable distribution of medical countermeasures.\n• India's stance aligns with its 'Vasudhaiva Kutumbakam' (The world is one family) philosophy, promoting collective global health security.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate",
+          "Issues relating to development and management of Social Sector/Services relating to Health"
+        ],
+        "date": "2025-05-29",
+        "source": "Ministry of Health and Family Welfare",
+        "sourceUrl": "https://www.mohfw.gov.in/g20-health-declaration",
+        "importance": "medium",
+        "tags": [
+          "G20",
+          "Global Health",
+          "Health Equity",
+          "Pandemic Preparedness",
+          "Vaccine Diplomacy",
+          "International Cooperation"
+        ],
+        "keyTerms": [
+          "G20 Health Ministers' Meeting",
+          "Global Health Equity",
+          "Pandemic Preparedness",
+          "Digital Health Solutions",
+          "Medical Countermeasures"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India advocated for global health equity at G20 Health Ministers' meeting.",
+          "Focus on affordable vaccine access and pandemic preparedness.",
+          "India offered expertise in vaccine manufacturing and delivery.",
+          "G20 is an intergovernmental forum comprising 19 countries and the European Union."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss India's role in shaping the global health agenda, particularly in the context of G20 and its commitment to 'Vasudhaiva Kutumbakam'.",
+          "Analyze the challenges in achieving global health equity and the importance of international cooperation in addressing health crises.",
+          "Evaluate India's potential as a global pharmaceutical hub and its contribution to vaccine manufacturing and distribution.",
+          "Examine how digital health solutions can transform healthcare delivery and improve health outcomes worldwide."
+        ],
+        "imageDescription": "A stylized image of a globe with medical symbols, surrounded by the G20 logo, representing global health cooperation.",
+        "section": "International",
+        "trivia": "India's presidency of the G20 in 2023 saw 'One Earth, One Family, One Future' as its theme, emphasizing collective action on global challenges including health.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Organizations",
+          "topic": "G20 and Global Health"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-education-policy-implementation-review",
+        "headline": "Ministry of Education Reviews Progress of National Education Policy (NEP) Implementation",
+        "explainer": "• The Ministry of Education conducted a high-level review meeting to assess the progress and impact of the National Education Policy (NEP) 2020 across states and institutions.\n• Key areas of focus included curricular reforms, teacher training programs, vocational education integration, and the establishment of multidisciplinary institutions.\n• While significant progress has been made in certain aspects, challenges remain in achieving universal foundational literacy and numeracy, and ensuring equitable access to quality education.\n• The review emphasized the need for greater collaboration between central and state governments, and increased investment in educational infrastructure.\n• NEP 2020 aims to transform India's education system to meet the demands of the 21st century and foster holistic development.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Issues relating to development and management of Social Sector/Services relating to Education, Human Resources."
+        ],
+        "date": "2025-05-29",
+        "source": "The Times of India",
+        "sourceUrl": "https://www.timesofindia.com/nep-implementation-review",
+        "importance": "medium",
+        "tags": [
+          "National Education Policy",
+          "Education Reform",
+          "Vocational Education",
+          "Teacher Training",
+          "Digital Education",
+          "Human Resources"
+        ],
+        "keyTerms": [
+          "National Education Policy (NEP) 2020",
+          "Curricular Reforms",
+          "Foundational Literacy and Numeracy (FLN)",
+          "Multidisciplinary Education",
+          "Vocational Education Integration"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ministry of Education reviews NEP 2020 implementation.",
+          "Focus on curricular reforms, teacher training, vocational education.",
+          "Challenges: universal foundational literacy, equitable access.",
+          "NEP 2020 aims for holistic development and 21st-century skills."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the key objectives and transformative potential of the National Education Policy (NEP) 2020 for India's education system.",
+          "Discuss the progress made and the major challenges encountered in implementing NEP 2020, particularly at the state and institutional levels.",
+          "Evaluate the role of vocational education and multidisciplinary approaches in preparing India's youth for future job markets.",
+          "Examine the strategies required to ensure equitable access to quality education and address the digital divide in the context of NEP implementation."
+        ],
+        "imageDescription": "Students in a modern classroom setting, symbolizing the future of education under NEP 2020.",
+        "section": "National",
+        "trivia": "NEP 2020 replaced the National Policy on Education of 1986, which had been in place for 34 years.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Human Resources",
+          "topic": "Education Policy"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "global-supply-chain-resilience",
+        "headline": "India Advocates for Diversified and Resilient Global Supply Chains at WTO Forum",
+        "explainer": "• India, at a World Trade Organization (WTO) forum, strongly advocated for the diversification and resilience of global supply chains to prevent future disruptions.\n• The Commerce and Industry Minister highlighted vulnerabilities exposed during recent global crises, emphasizing the need for robust alternative manufacturing hubs.\n• India presented its vision for becoming a reliable and competitive partner in global value chains, leveraging its strong manufacturing base and skilled workforce.\n• Discussions included proposals for a new WTO framework to facilitate trade in essential goods during emergencies and reduce over-reliance on single sources.\n• This stance aligns with India's economic diplomacy to enhance its role in global trade and promote a more equitable international economic order.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate",
+          "Effect of policies and politics of developed and developing countries on India’s interests"
+        ],
+        "date": "2025-05-29",
+        "source": "Ministry of Commerce and Industry",
+        "sourceUrl": "https://www.commerce.gov.in/wto-supply-chain",
+        "importance": "medium",
+        "tags": [
+          "WTO",
+          "Global Supply Chain",
+          "Trade Policy",
+          "Economic Diplomacy",
+          "International Trade",
+          "Resilience"
+        ],
+        "keyTerms": [
+          "World Trade Organization (WTO)",
+          "Global Supply Chains",
+          "Global Value Chains (GVCs)",
+          "Trade Resilience",
+          "Manufacturing Hubs",
+          "Economic Order"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India advocates for diversified, resilient global supply chains at WTO.",
+          "Highlights vulnerabilities exposed during global crises.",
+          "India aims to be a reliable partner in global value chains.",
+          "WTO is an intergovernmental organization that regulates international trade."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of resilient global supply chains for international trade and economic stability, particularly in the post-pandemic era.",
+          "Analyze India's strategy to position itself as a key player in diversified global value chains and its implications for domestic manufacturing.",
+          "Evaluate the role of the World Trade Organization (WTO) in facilitating discussions and formulating frameworks for global supply chain resilience.",
+          "Examine the challenges and opportunities for developing countries in strengthening their participation in global supply networks."
+        ],
+        "imageDescription": "Interconnected global map with arrows indicating trade routes, symbolizing global supply chains and resilience.",
+        "section": "International",
+        "trivia": "The concept of 'supply chain resilience' gained significant traction globally after the disruptions caused by the COVID-19 pandemic.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Organizations",
+          "topic": "WTO and Trade"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "isro-rlv-successful-test",
+        "headline": "ISRO Successfully Conducts Critical Test of Reusable Launch Vehicle (RLV) Prototype",
+        "explainer": "• The Indian Space Research Organisation (ISRO) announced the successful completion of a crucial test flight for its Reusable Launch Vehicle (RLV) prototype, 'Pushpak'.\n• The test involved a precise landing experiment, simulating conditions for future orbital re-entry and autonomous landing on a runway.\n• This achievement marks a significant step towards developing a fully reusable two-stage orbital launch vehicle, aiming to drastically reduce space launch costs.\n• The RLV-TD (Technology Demonstrator) project is a long-term vision of ISRO to make space access more affordable and sustainable.\n• Future tests will focus on orbital flight and re-entry characteristics, integrating advanced materials and propulsion systems.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology",
+          "Indigenization of technology and developing new technology",
+          "Awareness in the fields of Space"
+        ],
+        "date": "2025-05-29",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "https://www.pib.gov.in/isro-rlv-test",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Space Technology",
+          "Reusable Launch Vehicle",
+          "Indigenous Technology",
+          "Space Exploration"
+        ],
+        "keyTerms": [
+          "Reusable Launch Vehicle (RLV)",
+          "RLV-TD (Technology Demonstrator)",
+          "Orbital Re-entry",
+          "Autonomous Landing",
+          "Space Launch Costs"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ISRO's RLV project aims to reduce space launch costs.",
+          "The prototype is named 'Pushpak'.",
+          "The recent test focused on precise landing experiments.",
+          "RLV-TD is a step towards a fully reusable two-stage orbital launch vehicle."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of Reusable Launch Vehicle technology for India's space program and its global competitiveness.",
+          "Analyze the economic benefits and environmental advantages of developing reusable launch systems compared to traditional expendable rockets.",
+          "Examine the challenges and technological advancements required to achieve a fully operational reusable launch vehicle.",
+          "Evaluate India's position in the global space race with indigenous innovations like the RLV."
+        ],
+        "imageDescription": "An artistic rendition of ISRO's 'Pushpak' Reusable Launch Vehicle prototype descending for a landing on a runway.",
+        "section": "Science",
+        "trivia": "ISRO first successfully conducted the RLV-TD HEX (Hypersonic Flight Experiment) in 2016, demonstrating its controlled flight and re-entry capability.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space Technology",
+          "topic": "ISRO's initiatives"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "monetary-policy-committee-inflation",
+        "headline": "RBI's Monetary Policy Committee Expresses Concern Over Persistent Food Inflation",
+        "explainer": "• The Reserve Bank of India's (RBI) Monetary Policy Committee (MPC) concluded its bi-monthly meeting, maintaining the repo rate but expressing significant concern over persistent food inflation.\n• While headline inflation has shown signs of moderation, volatile food prices, especially for vegetables and pulses, continue to pose a challenge to the inflation target.\n• The MPC reiterated its commitment to bringing inflation within the target band of 4% (+/- 2%) while supporting growth.\n• Analysts anticipate continued vigilance from the RBI, with future policy decisions heavily dependent on monsoon performance and global commodity prices.\n• The committee emphasized the need for supply-side interventions by the government to complement monetary policy efforts.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Government Budgeting",
+          "Inflation and its impact"
+        ],
+        "date": "2025-05-29",
+        "source": "Business Standard",
+        "sourceUrl": "https://www.business-standard.com/rbi-mpc-food-inflation",
+        "importance": "high",
+        "tags": [
+          "RBI",
+          "Monetary Policy",
+          "Inflation",
+          "Repo Rate",
+          "Food Prices",
+          "Economic Indicators"
+        ],
+        "keyTerms": [
+          "Monetary Policy Committee (MPC)",
+          "Repo Rate",
+          "Headline Inflation",
+          "Food Inflation",
+          "Inflation Target",
+          "Supply-side Interventions"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "RBI's MPC maintains repo rate, concerned about food inflation.",
+          "Inflation target: 4% (+/- 2%).",
+          "MPC is a 6-member body (3 RBI, 3 GoI nominees).",
+          "Decisions are by majority vote, with Governor having a casting vote."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the primary objectives and instruments of India's monetary policy, particularly in the context of persistent inflation.",
+          "Analyze the causes and consequences of food inflation in India and its disproportionate impact on different segments of the population.",
+          "Evaluate the effectiveness of monetary policy in tackling supply-side inflation and the necessity of coordinated fiscal measures.",
+          "Examine the challenges faced by the RBI in balancing inflation control with economic growth objectives."
+        ],
+        "imageDescription": "RBI logo with graphs showing rising inflation, symbolizing the central bank's focus on economic stability.",
+        "section": "Economy",
+        "trivia": "The Monetary Policy Committee (MPC) was constituted in 2016, making the inflation targeting framework statutory.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI and Inflation"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "indigenous-anti-drone-system",
+        "headline": "DRDO Unveils Advanced Indigenous Anti-Drone System for Border Security",
+        "explainer": "• The Defence Research and Development Organisation (DRDO) successfully demonstrated an advanced indigenous anti-drone system designed to counter emerging threats from unmanned aerial vehicles (UAVs).\n• The system incorporates both 'soft kill' (jamming, spoofing) and 'hard kill' (laser-based interception) capabilities, offering comprehensive protection against rogue drones.\n• Developed in collaboration with private sector partners, it aims to enhance border security and protect critical infrastructure from drone-based attacks.\n• The system features artificial intelligence for threat detection and classification, with a range of several kilometers.\n• This development is a significant boost to India's 'Atmanirbhar Bharat' initiative in the defence sector, reducing reliance on foreign technology.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Indigenization of technology and developing new technology",
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security"
+        ],
+        "date": "2025-05-29",
+        "source": "The Economic Times",
+        "sourceUrl": "https://www.economictimes.indiatimes.com/drdo-anti-drone-system",
+        "importance": "medium",
+        "tags": [
+          "DRDO",
+          "Anti-Drone System",
+          "Border Security",
+          "Internal Security",
+          "Defence Technology",
+          "Atmanirbhar Bharat"
+        ],
+        "keyTerms": [
+          "Unmanned Aerial Vehicles (UAVs)",
+          "Soft Kill",
+          "Hard Kill",
+          "Artificial Intelligence (AI)",
+          "Critical Infrastructure Protection"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "DRDO unveils advanced indigenous anti-drone system.",
+          "System has 'soft kill' (jamming) and 'hard kill' (laser) capabilities.",
+          "Aims to counter UAV threats for border security and critical infrastructure.",
+          "Developed under 'Atmanirbhar Bharat' initiative."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolving threat landscape posed by drones in modern warfare and internal security challenges.",
+          "Analyze how indigenous development of anti-drone systems contributes to India's national security and strategic autonomy.",
+          "Examine the technological complexities and ethical considerations involved in deploying advanced anti-drone systems.",
+          "Evaluate the 'Atmanirbhar Bharat' initiative's success in boosting India's defence manufacturing capabilities through such projects."
+        ],
+        "imageDescription": "A sophisticated anti-drone system with radar dishes and laser emitters, aimed at a small drone in the sky.",
+        "section": "Security",
+        "trivia": "DRDO has been working on anti-drone technologies for several years, with initial versions deployed for VVIP protection.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Defence Technology",
+          "topic": "DRDO and UAVs"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "urban-heat-island-effect-mitigation",
+        "headline": "Ministry of Urban Affairs Releases Guidelines for Mitigating Urban Heat Island Effect",
+        "explainer": "• The Ministry of Housing and Urban Affairs released a comprehensive set of guidelines for urban local bodies to mitigate the 'Urban Heat Island' (UHI) effect.\n• The guidelines emphasize green infrastructure development, promotion of cool roofs and pavements, and increased tree cover in urban areas.\n• UHI effect leads to higher temperatures in cities compared to surrounding rural areas, impacting public health, energy consumption, and air quality.\n• Cities are encouraged to develop specific action plans, integrate UHI mitigation into urban planning, and leverage smart city technologies.\n• This initiative is part of India's broader climate resilience strategy, aiming to make cities more sustainable and livable.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Disaster and disaster management",
+          "Urbanization, their problems and their remedies"
+        ],
+        "date": "2025-05-29",
+        "source": "The Indian Express",
+        "sourceUrl": "https://www.indianexpress.com/urban-heat-island",
+        "importance": "medium",
+        "tags": [
+          "Urban Planning",
+          "Climate Change",
+          "Urban Heat Island",
+          "Green Infrastructure",
+          "Sustainable Cities"
+        ],
+        "keyTerms": [
+          "Urban Heat Island (UHI)",
+          "Green Infrastructure",
+          "Cool Roofs",
+          "Urban Local Bodies (ULBs)",
+          "Climate Resilience"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ministry of Housing and Urban Affairs released guidelines for UHI mitigation.",
+          "UHI effect: higher urban temperatures than rural surroundings.",
+          "Mitigation strategies: green infrastructure, cool roofs, increased tree cover.",
+          "Part of India's climate resilience strategy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Explain the phenomenon of the Urban Heat Island effect and its various impacts on urban environments and public health.",
+          "Discuss the effectiveness of different mitigation strategies proposed in the guidelines, such as green infrastructure and cool surfaces.",
+          "Analyze the challenges in implementing UHI mitigation measures in rapidly urbanizing Indian cities and suggest policy interventions.",
+          "Evaluate the role of urban planning and smart city initiatives in building climate-resilient cities in India."
+        ],
+        "imageDescription": "An aerial view of a city with green spaces and 'cool roofs' contrasted with dense concrete buildings, showing UHI mitigation efforts.",
+        "section": "Environment",
+        "trivia": "Cities can be 1-3°C warmer than their surrounding rural areas during the day, and up to 12°C warmer at night, due to the UHI effect.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Climate Change",
+          "topic": "Urbanization and Environment"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "agriculture-drone-subsidy",
+        "headline": "Government Expands Subsidy Scheme for Agricultural Drones to Boost Productivity",
+        "explainer": "• The Ministry of Agriculture and Farmers Welfare announced an expansion of its subsidy scheme for purchasing agricultural drones, making the technology more accessible to farmers.\n• The scheme provides financial assistance for buying drones and for establishing custom hiring centers for drone services in rural areas.\n• Drones are being increasingly used for precision agriculture tasks such as crop health monitoring, pesticide spraying, and nutrient assessment, leading to higher efficiency and reduced input costs.\n• The expansion aims to further modernize Indian agriculture, improve farm productivity, and address labor shortages.\n• Training programs for farmers and rural entrepreneurs on drone operation and maintenance are also being scaled up.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Major crops-cropping patterns in various parts of the country, - different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers",
+          "Technology missions; economics of animal-rearing",
+          "Public Distribution System- objectives, functioning, limitations, revamping; issues of buffer stocks and food security"
+        ],
+        "date": "2025-05-29",
+        "source": "PIB",
+        "sourceUrl": "https://www.pib.gov.in/agriculture-drone-subsidy",
+        "importance": "medium",
+        "tags": [
+          "Agriculture",
+          "Drones",
+          "Farm Mechanization",
+          "Government Schemes",
+          "Precision Agriculture",
+          "Rural Development"
+        ],
+        "keyTerms": [
+          "Agricultural Drones",
+          "Subsidy Scheme",
+          "Custom Hiring Centers",
+          "Precision Agriculture",
+          "Crop Health Monitoring",
+          "Pesticide Spraying"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ministry of Agriculture expands subsidy for agricultural drones.",
+          "Drones used for crop monitoring, pesticide spraying, nutrient assessment.",
+          "Scheme includes financial aid for buying drones and custom hiring centers.",
+          "Aims to modernize agriculture and boost productivity."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the transformative potential of drone technology in enhancing agricultural productivity and efficiency in India.",
+          "Analyze the benefits and challenges associated with the widespread adoption of agricultural drones, particularly for small and marginal farmers.",
+          "Evaluate the effectiveness of government subsidy schemes and custom hiring centers in promoting farm mechanization and technological adoption.",
+          "Examine how precision agriculture tools like drones can contribute to sustainable farming practices and resource optimization."
+        ],
+        "imageDescription": "A drone flying over a green field, spraying fertilizers, symbolizing modern agriculture and technology.",
+        "section": "Economy",
+        "trivia": "The 'Drone Shakti' scheme, announced in the Union Budget 2022-23, aimed to promote drone usage in various sectors, including agriculture.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Agriculture",
+          "topic": "E-technology in agriculture"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "bharat-net-phase3-tender",
+        "headline": "Government Invites Tenders for BharatNet Phase III, Aims for Pan-India Rural Connectivity",
+        "explainer": "• The Department of Telecommunications (DoT) has initiated the tender process for Phase III of the BharatNet project, aiming to connect all remaining gram panchayats and habitations.\n• This phase focuses on leveraging Public-Private Partnership (PPP) models for faster deployment and sustainable operation of optical fiber networks.\n• BharatNet is a flagship program to provide broadband connectivity to rural and remote areas, bridging the digital divide.\n• Phase III includes provisions for upgrading existing infrastructure and incorporating future-proof technologies like 5G backhaul capabilities.\n• The project is crucial for digital inclusion, e-governance, digital education, and healthcare services in rural India.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2025-05-29",
+        "source": "PTI",
+        "sourceUrl": "https://www.pti.in/bharatnet-phase3-tender",
+        "importance": "medium",
+        "tags": [
+          "BharatNet",
+          "Digital India",
+          "Rural Connectivity",
+          "Broadband",
+          "Optical Fiber",
+          "Public-Private Partnership"
+        ],
+        "keyTerms": [
+          "BharatNet Project",
+          "Gram Panchayats",
+          "Optical Fiber Network (OFN)",
+          "Digital Divide",
+          "Public-Private Partnership (PPP)",
+          "5G Backhaul"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "BharatNet Phase III tenders invited by Department of Telecommunications (DoT).",
+          "Aims to connect all remaining gram panchayats and habitations.",
+          "Focus on Public-Private Partnership (PPP) model.",
+          "Project crucial for digital inclusion and e-governance in rural areas."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of the BharatNet project in bridging India's digital divide and promoting inclusive growth.",
+          "Discuss the challenges encountered in previous phases of BharatNet and how Phase III aims to address them through the PPP model.",
+          "Evaluate the potential socio-economic impact of pervasive broadband connectivity in rural areas on education, healthcare, and economic opportunities.",
+          "Examine the role of infrastructure projects like BharatNet in realizing the vision of 'Digital India'."
+        ],
+        "imageDescription": "Optical fiber cables extending into a rural landscape, symbolizing internet connectivity reaching remote villages.",
+        "section": "Economy",
+        "trivia": "BharatNet is one of the world's largest rural broadband connectivity programs, aiming to connect 2.5 lakh gram panchayats.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Infrastructure",
+          "topic": "Digital Infrastructure"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "solar-energy-capacity-milestone",
+        "headline": "India Crosses 100 GW Mark in Installed Solar Energy Capacity",
+        "explainer": "• India has achieved a significant milestone by crossing 100 GW of installed solar energy capacity, marking a rapid expansion in its renewable energy sector.\n• This includes both large-scale solar parks and decentralized rooftop solar installations across the country.\n• The accelerated growth is attributed to supportive government policies, declining solar panel costs, and increased private sector investment.\n• This achievement brings India closer to its ambitious target of 500 GW of non-fossil fuel energy capacity by 2030.\n• The push for solar energy is vital for energy security, reducing carbon emissions, and meeting international climate commitments.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Infrastructure: Energy",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2025-05-29",
+        "source": "Ministry of New and Renewable Energy",
+        "sourceUrl": "https://mnre.gov.in/solar-capacity-milestone",
+        "importance": "high",
+        "tags": [
+          "Solar Energy",
+          "Renewable Energy",
+          "Climate Change",
+          "Energy Security",
+          "Sustainable Development",
+          "Government Targets"
+        ],
+        "keyTerms": [
+          "Solar Energy Capacity",
+          "Renewable Energy",
+          "Non-fossil Fuel Capacity",
+          "Rooftop Solar",
+          "Carbon Emissions",
+          "Climate Commitments"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India crosses 100 GW installed solar energy capacity.",
+          "Includes large-scale and rooftop solar installations.",
+          "Target: 500 GW non-fossil fuel energy capacity by 2030.",
+          "Ministry of New and Renewable Energy (MNRE) is the nodal ministry."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the key drivers behind India's rapid expansion in solar energy and its implications for energy security and environmental sustainability.",
+          "Analyze the challenges in achieving the ambitious target of 500 GW non-fossil fuel capacity by 2030, including grid integration and storage solutions.",
+          "Evaluate the socio-economic benefits of decentralized renewable energy projects, particularly for rural electrification and employment generation.",
+          "Examine India's role in global climate action and its commitment to renewable energy transitions."
+        ],
+        "imageDescription": "Vast solar panels stretching across a landscape under a clear sky, symbolizing India's achievement in solar energy.",
+        "section": "Environment",
+        "trivia": "The International Solar Alliance (ISA), headquartered in India, is an alliance of 121 signatory countries, most being sunshine countries, working to promote solar energy.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Energy",
+          "topic": "Renewable Energy Sources"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "editorial-ai-governance-framework",
+        "headline": "Editorial: The Imperative for a Robust AI Governance Framework in India",
+        "explainer": "• This editorial argues for the urgent need for a comprehensive Artificial Intelligence (AI) governance framework in India to manage its rapid adoption.\n• It highlights the dual potential of AI for economic growth and societal challenges, including ethical dilemmas, job displacement, and data privacy concerns.\n• The piece suggests that India, as a burgeoning digital economy, must proactively develop regulations that foster innovation while ensuring accountability and fairness.\n• It calls for a multi-stakeholder approach involving government, industry, academia, and civil society in drafting AI policies.\n• The editorial emphasizes learning from global best practices while tailoring solutions to India's unique social and economic context.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Indigenization of technology and developing new technology",
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security"
+        ],
+        "date": "2025-05-29",
+        "source": "The Hindu",
+        "sourceUrl": "https://www.thehindu.com/editorial-ai-governance",
+        "importance": "high",
+        "tags": [
+          "Artificial Intelligence",
+          "AI Governance",
+          "Ethics in AI",
+          "Digital Policy",
+          "Technology Regulation",
+          "Innovation"
+        ],
+        "keyTerms": [
+          "Artificial Intelligence (AI)",
+          "AI Governance Framework",
+          "Ethical AI",
+          "Job Displacement",
+          "Data Privacy",
+          "Multi-stakeholder Approach"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the opportunities and challenges presented by the rapid proliferation of Artificial Intelligence in India's economy and society.",
+          "Analyze the key components that a robust AI governance framework in India should encompass to balance innovation with ethical considerations and public welfare.",
+          "Evaluate the role of a multi-stakeholder approach in developing effective AI policies and regulations.",
+          "Compare and contrast India's approach to AI governance with global models, highlighting unique aspects and potential learnings."
+        ],
+        "imageDescription": "A stylized brain composed of circuit board patterns, with 'AI' text, representing the complexity of Artificial Intelligence.",
+        "section": "Editorial",
+        "trivia": "India launched the 'National Strategy for Artificial Intelligence' in 2018, outlining its vision for AI in various sectors.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Information Technology",
+          "topic": "Artificial Intelligence"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "cautious-outlook-global-economy",
+        "headline": "Indian Finance Ministry Cautions Against Global Economic Headwinds, Maintains Growth Optimism",
+        "explainer": "• The Finance Ministry released its monthly economic review, highlighting continued resilience of the Indian economy but cautioning against escalating global economic headwinds.\n• Factors such as geopolitical tensions, persistent inflation in major economies, and tightening global financial conditions pose risks to India's export and investment outlook.\n• Despite these external challenges, the Ministry expressed optimism about India's domestic demand, robust public capital expenditure, and strong financial sector.\n• Projections for India's GDP growth remain robust, albeit with a watchful approach towards global volatility.\n• The report emphasized continued fiscal prudence and structural reforms to sustain long-term growth momentum.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Government Budgeting",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth"
+        ],
+        "date": "2025-05-29",
+        "source": "Ministry of Finance",
+        "sourceUrl": "https://www.finmin.nic.in/economic-review",
+        "importance": "medium",
+        "tags": [
+          "Indian Economy",
+          "Global Economy",
+          "Economic Growth",
+          "Inflation",
+          "Fiscal Policy",
+          "Investment"
+        ],
+        "keyTerms": [
+          "Global Economic Headwinds",
+          "Geopolitical Tensions",
+          "Fiscal Prudence",
+          "Public Capital Expenditure",
+          "GDP Growth",
+          "Structural Reforms"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Finance Ministry cautions on global economic headwinds.",
+          "Optimistic about India's domestic demand and public capital expenditure.",
+          "Factors: geopolitical tensions, global inflation, tight financial conditions.",
+          "Emphasizes fiscal prudence and structural reforms."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the key external and internal factors influencing India's economic growth trajectory in the current global environment.",
+          "Discuss the strategies adopted by the Indian government and RBI to mitigate global economic headwinds and maintain macroeconomic stability.",
+          "Evaluate the role of domestic demand and public capital expenditure in sustaining India's growth momentum.",
+          "Examine the importance of fiscal prudence and structural reforms in achieving long-term sustainable economic development."
+        ],
+        "imageDescription": "A chart showing economic growth trends with an upward arrow, alongside a storm cloud, symbolizing optimism despite global challenges.",
+        "section": "Economy",
+        "trivia": "India is projected to be one of the fastest-growing major economies globally, contributing significantly to world GDP growth.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Macroeconomics",
+          "topic": "Economic Growth and Global Factors"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ganga-rejuvenation-targets",
+        "headline": "National Mission for Clean Ganga Reviews Progress, Sets New Rejuvenation Targets",
+        "explainer": "• The National Mission for Clean Ganga (NMCG) held a high-level meeting to review the progress of various projects under the Namami Gange program and set new targets for river rejuvenation.\n• Focus areas include improving municipal wastewater treatment, industrial pollution abatement, and promoting biodiversity conservation along the Ganga basin.\n• While significant strides have been made in infrastructure development, challenges persist in community participation and ensuring continuous flow (Aviral Dhara).\n• New targets emphasize sustainable river basin management, promotion of natural farming, and protection of riverine ecosystems.\n• The mission reiterated its commitment to making Ganga 'Nirmal' (clean) and 'Aviral' (free-flowing) through a holistic approach.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Disaster and disaster management"
+        ],
+        "date": "2025-05-29",
+        "source": "Ministry of Jal Shakti",
+        "sourceUrl": "https://www.jalshakti.gov.in/ganga-rejuvenation-targets",
+        "importance": "medium",
+        "tags": [
+          "Namami Gange",
+          "River Rejuvenation",
+          "Water Pollution",
+          "Biodiversity Conservation",
+          "Ganga River",
+          "Environmental Governance"
+        ],
+        "keyTerms": [
+          "National Mission for Clean Ganga (NMCG)",
+          "Namami Gange Program",
+          "Wastewater Treatment",
+          "Industrial Pollution Abatement",
+          "Aviral Dhara",
+          "Nirmal Dhara"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Mission for Clean Ganga (NMCG) reviews Namami Gange program.",
+          "Aims for 'Nirmal' (clean) and 'Aviral' (free-flowing) Ganga.",
+          "Focus on wastewater treatment, pollution abatement, biodiversity.",
+          "Ministry of Jal Shakti is the nodal ministry."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically evaluate the achievements and shortcomings of the Namami Gange program in achieving its objectives of Ganga rejuvenation.",
+          "Discuss the multi-faceted challenges involved in cleaning and restoring a river system as vast and ecologically complex as the Ganga.",
+          "Analyze the importance of community participation and inter-state cooperation in successful river basin management programs.",
+          "Examine the concept of 'Aviral Dhara' and 'Nirmal Dhara' and the policy interventions required to achieve them."
+        ],
+        "imageDescription": "A clean stretch of the Ganga river with green banks, symbolizing successful rejuvenation efforts.",
+        "section": "Environment",
+        "trivia": "The Namami Gange Programme was launched in 2014 as an integrated conservation mission to achieve the twin objectives of effective abatement of pollution, conservation and rejuvenation of National River Ganga.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Conservation",
+          "topic": "River Conservation"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "start-up-ecosystem-growth",
+        "headline": "India's Startup Ecosystem Continues Robust Growth, Focus on Deep Tech and Rural Innovation",
+        "explainer": "• India's startup ecosystem demonstrated continued robust growth in the first half of 2025, with a notable surge in funding for deep tech and rural innovation startups.\n• Government initiatives like 'Startup India' and 'Fund of Funds for Startups' have played a crucial role in fostering an entrepreneurial environment.\n• The focus is shifting towards sectors like Artificial Intelligence, SpaceTech, Agritech, and MedTech, attracting both domestic and international investors.\n• Rural innovation is gaining traction, with startups addressing local challenges in areas like sustainable farming, craft promotion, and last-mile logistics.\n• This growth is vital for job creation, economic diversification, and leveraging India's demographic dividend.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth"
+        ],
+        "date": "2025-05-29",
+        "source": "NITI Aayog",
+        "sourceUrl": "https://www.niti.gov.in/startup-ecosystem-growth",
+        "importance": "medium",
+        "tags": [
+          "Startup India",
+          "Deep Tech",
+          "Rural Innovation",
+          "Entrepreneurship",
+          "Venture Capital",
+          "Job Creation"
+        ],
+        "keyTerms": [
+          "Startup Ecosystem",
+          "Deep Tech",
+          "Rural Innovation",
+          "Fund of Funds for Startups",
+          "Venture Capital Funding",
+          "Demographic Dividend"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India's startup ecosystem shows robust growth.",
+          "Focus on deep tech (AI, SpaceTech) and rural innovation (Agritech, MedTech).",
+          "Government initiatives: 'Startup India', 'Fund of Funds for Startups'.",
+          "Important for job creation and economic diversification."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the factors contributing to the robust growth of India's startup ecosystem and its significance for the nation's economic development.",
+          "Discuss the role of government policies and funding mechanisms in nurturing entrepreneurship and innovation, particularly in deep tech and rural sectors.",
+          "Evaluate the potential of deep tech startups to address complex societal challenges and drive technological advancement in India.",
+          "Examine how rural innovation can bridge developmental gaps and create sustainable livelihoods in remote areas."
+        ],
+        "imageDescription": "A diverse group of young entrepreneurs collaborating in a modern office space, symbolizing India's vibrant startup culture.",
+        "section": "Economy",
+        "trivia": "India is home to the third-largest startup ecosystem in the world, after the US and China.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Industrial Policy",
+          "topic": "Startup Ecosystem"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "The Economic Times",
+    "The Hindu",
+    "Press Information Bureau (PIB)",
+    "Hindustan Times",
+    "Times of India",
+    "Livemint",
+    "Business Standard",
+    "The Indian Express",
+    "Ministry of Health and Family Welfare",
+    "PIB",
+    "Archaeological Survey of India",
+    "PTI",
+    "Ministry of New and Renewable Energy",
+    "The Times of India",
+    "Ministry of Finance",
+    "Ministry of Jal Shakti",
+    "Ministry of Commerce and Industry",
+    "NITI Aayog",
+    "Down To Earth"
+  ],
+  "totalScraped": 21,
+  "totalProcessed": 21
+}

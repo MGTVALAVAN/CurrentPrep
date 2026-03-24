@@ -1,0 +1,2473 @@
+{
+  "date": "2025-03-24",
+  "dateFormatted": "Monday 24 March, 2025",
+  "lastUpdated": "2026-03-21T16:52:54.354Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "semiconductor-mission-next-phase",
+      "headline": "India's Semiconductor Mission: Government Unveils Next Phase with Enhanced Incentives",
+      "explainer": "• The Union government announced an expanded incentive package for semiconductor and display manufacturing units, targeting a significant boost in indigenous production.\n• The new phase focuses on attracting advanced technology nodes and fostering a robust domestic ecosystem for chip design, manufacturing, and packaging.\n• Key changes include higher fiscal support, simplified approval processes, and dedicated infrastructure development in identified 'Semiconductor Zones'.\n• This initiative aims to reduce India's reliance on global supply chains, enhance strategic autonomy, and create high-skilled employment opportunities.\n• Industry experts laud the move as crucial for India's 'Atmanirbhar Bharat' vision and its aspiration to become a global electronics manufacturing hub.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Industrial policy",
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Indigenization of technology and developing new technology"
+      ],
+      "date": "2025-03-24",
+      "source": "Ministry of Electronics and Information Technology",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "semiconductor",
+        "Make in India",
+        "Atmanirbhar Bharat",
+        "PLI scheme",
+        "electronics manufacturing",
+        "strategic autonomy",
+        "economic growth"
+      ],
+      "keyTerms": [
+        "Semiconductor Mission",
+        "Design Linked Incentive (DLI)",
+        "Production Linked Incentive (PLI)",
+        "Fabless Design",
+        "Foundry",
+        "Advanced Technology Nodes"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India's Semiconductor Mission launched in 2021 with an outlay of ₹76,000 crore.",
+        "Aims to establish India as a global hub for semiconductor and display manufacturing.",
+        "Incentives include fiscal support for setting up fabs, design, and ATMP (Assembly, Testing, Marking, and Packaging) units.",
+        "The mission is crucial for sectors like automotive, consumer electronics, and defense.",
+        "Key components: Semiconductor Fabs, Display Fabs, Compound Semiconductors, ATMP/OSAT, Design Linked Incentive Scheme."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of a domestic semiconductor ecosystem for India's economic resilience and national security.",
+        "Analyze the challenges and opportunities associated with establishing a competitive semiconductor manufacturing base in India.",
+        "Evaluate the potential impact of the expanded Semiconductor Mission on job creation, skill development, and technological self-reliance.",
+        "Examine how the policy aligns with broader government initiatives like 'Make in India' and 'Digital India'.",
+        "Critically assess the role of government incentives and private sector investment in driving the semiconductor industry's growth."
+      ],
+      "imageDescription": "A graphic depicting a silicon wafer with integrated circuits, symbolizing semiconductor manufacturing.",
+      "section": "Lead Opinion",
+      "trivia": "A single modern smartphone can contain billions of transistors, tiny switches etched onto semiconductor chips.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Industrial Policy",
+        "topic": "Semiconductor Manufacturing"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "sc-data-protection-guidelines",
+      "headline": "Supreme Court Issues Clarificatory Guidelines on Digital Personal Data Protection Act Implementation",
+      "explainer": "• The Supreme Court, addressing multiple petitions, issued detailed guidelines for the effective implementation of the Digital Personal Data Protection Act, 2023 (DPDP Act).\n• The ruling clarifies ambiguities regarding 'significant data fiduciaries', cross-border data transfers, and the powers of the Data Protection Board of India.\n• Emphasis was placed on balancing individual privacy rights with legitimate state interests and the needs of the digital economy.\n• The judgment is expected to streamline the regulatory framework and provide clarity to businesses and citizens alike.\n• Experts believe this will significantly impact how digital platforms operate and handle personal data in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Structure, organization and functioning of the Executive and the Judiciary",
+        "Vulnerable sections of the population"
+      ],
+      "date": "2025-03-24",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "data protection",
+        "privacy",
+        "Supreme Court",
+        "DPDP Act",
+        "digital rights",
+        "governance"
+      ],
+      "keyTerms": [
+        "Digital Personal Data Protection Act, 2023",
+        "Data Fiduciary",
+        "Data Principal",
+        "Data Protection Board of India",
+        "Consent Manager",
+        "Right to Erasure"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Digital Personal Data Protection Act, 2023, replaced earlier efforts like the Personal Data Protection Bill, 2019.",
+        "It applies to digital personal data processed within India and to certain offshore processing activities.",
+        "Key principles include consent, data minimization, and accountability of data fiduciaries.",
+        "The Data Protection Board of India is established as an independent body for enforcement.",
+        "The Act recognizes the 'right to be forgotten' and the 'right to correction and erasure' for data principals."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of the Supreme Court's guidelines in strengthening India's data protection regime and safeguarding citizen's privacy.",
+        "Discuss the challenges in balancing data privacy with innovation and economic growth in the digital age, with reference to the DPDP Act.",
+        "Evaluate the role of the Data Protection Board of India as a regulatory body and its potential impact on data governance.",
+        "Compare and contrast India's data protection framework with international standards like GDPR.",
+        "Examine the implications of the DPDP Act for various stakeholders, including government entities, private corporations, and individual citizens."
+      ],
+      "imageDescription": "A gavel resting on a law book with binary code flowing in the background, symbolizing digital law and justice.",
+      "section": "National",
+      "trivia": "India's data protection journey began with the Justice B.N. Srikrishna Committee report in 2018.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Governance",
+        "topic": "Digital Governance and Data Protection"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "brics-summit-global-south",
+      "headline": "India Champions Global South Concerns Ahead of BRICS Foreign Ministers' Meeting",
+      "explainer": "• India's External Affairs Minister emphasized strengthening the voice of the Global South on critical issues like climate finance, food security, and multilateral reforms, ahead of the BRICS Foreign Ministers' meeting.\n• The upcoming summit is expected to discuss expanding BRICS membership and enhancing cooperation among existing members.\n• India advocates for equitable representation in global governance structures and addressing developmental challenges faced by developing nations.\n• Discussions will also focus on economic cooperation, trade facilitation, and countering protectionist tendencies.\n• The engagement underscores India's growing leadership role in shaping a more inclusive world order.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Important International institutions, agencies and fora, their structure, mandate",
+        "Effect of policies and politics of developed and developing countries on India’s interests"
+      ],
+      "date": "2025-03-24",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "BRICS",
+        "Global South",
+        "multilateralism",
+        "climate finance",
+        "food security",
+        "international relations",
+        "India's foreign policy"
+      ],
+      "keyTerms": [
+        "BRICS",
+        "Global South",
+        "New Development Bank (NDB)",
+        "Contingent Reserve Arrangement (CRA)",
+        "Multilateralism",
+        "South-South Cooperation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "BRICS is an acronym for five major emerging economies: Brazil, Russia, India, China, and South Africa.",
+        "The group was founded in 2009 (South Africa joined in 2010).",
+        "BRICS nations represent over 40% of the world's population and about 25% of global GDP.",
+        "The New Development Bank (NDB) and the Contingent Reserve Arrangement (CRA) are key institutions established by BRICS.",
+        "Expansion of BRICS membership has been a recurring theme in recent summits."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze India's strategic objectives in championing the cause of the Global South within forums like BRICS.",
+        "Discuss the significance of BRICS as a platform for challenging the unipolar world order and promoting multilateralism.",
+        "Evaluate the effectiveness of BRICS in addressing critical global issues such as climate change, trade imbalances, and financial stability.",
+        "Examine the challenges and opportunities associated with BRICS expansion for India's foreign policy.",
+        "Critically assess the role of the New Development Bank in providing alternative financing for infrastructure and sustainable development projects."
+      ],
+      "imageDescription": "Flags of BRICS nations arranged in a circle, symbolizing unity and cooperation.",
+      "section": "International",
+      "trivia": "The term 'BRIC' was coined by Goldman Sachs economist Jim O'Neill in 2001.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Global Groupings",
+        "topic": "BRICS"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "pli-advanced-battery-manufacturing",
+      "headline": "Government Launches New PLI Scheme to Boost Advanced Battery Manufacturing in India",
+      "explainer": "• The Union Cabinet approved a new Production Linked Incentive (PLI) scheme specifically for Advanced Chemistry Cell (ACC) battery manufacturing.\n• This scheme aims to reduce India's import dependence for critical battery components and establish a robust domestic supply chain.\n• The focus is on achieving economies of scale, promoting cutting-edge technology, and attracting global and domestic investments.\n• The initiative is crucial for accelerating India's electric vehicle (EV) adoption and integrating renewable energy storage solutions.\n• It is expected to create significant manufacturing capacity and foster a competitive battery ecosystem.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Industrial policy",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Science and Technology- developments and their applications"
+      ],
+      "date": "2025-03-24",
+      "source": "Ministry of Heavy Industries",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "PLI scheme",
+        "electric vehicles",
+        "advanced batteries",
+        "renewable energy storage",
+        "Make in India",
+        "manufacturing",
+        "energy security"
+      ],
+      "keyTerms": [
+        "Production Linked Incentive (PLI)",
+        "Advanced Chemistry Cell (ACC)",
+        "Electric Vehicles (EVs)",
+        "Gigafactory",
+        "Energy Storage Systems (ESS)",
+        "Lithium-ion batteries"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "PLI schemes are designed to boost domestic manufacturing and reduce import bills.",
+        "ACC batteries are the new generation of advanced storage technologies that can store electric energy as electrochemical or chemical energy.",
+        "India aims to achieve 40% EV penetration by 2030 as part of its climate commitments.",
+        "The scheme covers various advanced battery technologies, not just lithium-ion.",
+        "It is expected to attract investments in giga-factories for battery cell production."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic rationale behind incentivizing Advanced Chemistry Cell (ACC) battery manufacturing in India.",
+        "Analyze the potential impact of this PLI scheme on India's electric vehicle ecosystem and renewable energy integration.",
+        "Examine the challenges India faces in establishing a competitive battery manufacturing industry, including raw material sourcing and technological gaps.",
+        "Evaluate how the scheme contributes to India's energy security and climate change mitigation goals.",
+        "Critically assess the role of government support in fostering emerging industries like advanced battery manufacturing."
+      ],
+      "imageDescription": "A graphic showing various types of advanced battery cells, highlighting their energy storage capabilities.",
+      "section": "Economy",
+      "trivia": "Lithium-ion batteries, commonly used in EVs, were first commercialized by Sony in 1991.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Industrial Policy",
+        "topic": "PLI Schemes"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "climate-adaptation-fund-support",
+      "headline": "India Pledges Enhanced Financial Support for Global Climate Adaptation Fund",
+      "explainer": "• India announced a significant increase in its voluntary contribution to the Global Climate Adaptation Fund, underscoring its commitment to international climate action.\n• The move aims to bolster resilience efforts in vulnerable developing countries facing the impacts of climate change.\n• India highlighted the urgent need for greater financial flows towards adaptation, especially for small island developing states and least developed countries.\n• This pledge reinforces India's position as a responsible global actor and a voice for the Global South in climate negotiations.\n• The announcement comes ahead of major international climate conferences, setting a precedent for other developing economies.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Disaster and disaster management",
+        "Important International institutions, agencies and fora, their structure, mandate (GS2 relevant for context)"
+      ],
+      "date": "2025-03-24",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "climate change",
+        "climate finance",
+        "adaptation fund",
+        "international cooperation",
+        "global south",
+        "environmental policy"
+      ],
+      "keyTerms": [
+        "Climate Adaptation Fund",
+        "United Nations Framework Convention on Climate Change (UNFCCC)",
+        "Paris Agreement",
+        "Loss and Damage",
+        "Common But Differentiated Responsibilities (CBDR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Adaptation Fund was established under the Kyoto Protocol in 2001.",
+        "It finances concrete adaptation projects and programmes in developing countries that are Parties to the Kyoto Protocol and are particularly vulnerable to the adverse effects of climate change.",
+        "The Fund is supervised and managed by the Adaptation Fund Board.",
+        "It is primarily financed from a 2% share of the proceeds of the Clean Development Mechanism (CDM) project activities and other sources.",
+        "India has been a proponent of increased climate finance for adaptation and loss & damage."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the critical importance of climate adaptation finance for developing countries, particularly in the context of increasing climate vulnerabilities.",
+        "Analyze India's role as a leader from the Global South in advocating for equitable climate action and financial support.",
+        "Evaluate the mechanisms and challenges associated with mobilizing and disbursing climate finance for adaptation projects globally.",
+        "Examine how increased contributions to funds like the Adaptation Fund align with India's national interests and international climate commitments.",
+        "Critically assess the concept of 'Loss and Damage' in climate finance discussions and its implications for developing nations."
+      ],
+      "imageDescription": "A diverse group of people from different countries holding hands, with a globe in the background, symbolizing global cooperation on climate change.",
+      "section": "Environment",
+      "trivia": "The Adaptation Fund was the first climate fund to directly access financing from the carbon market.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Climate Change",
+        "topic": "Climate Finance"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indigenous-5g-testbed-advances",
+      "headline": "India's Indigenous 5G Testbed Technology Demonstrates Enhanced Capabilities",
+      "explainer": "• Indian researchers and telecom companies showcased significant advancements in indigenous 5G testbed technology, featuring improved spectral efficiency and lower latency.\n• The demonstration highlighted successful integration with various IoT devices and applications, proving its versatility for diverse industrial use cases.\n• This development is a crucial step towards 'Atmanirbhar Bharat' in the telecom sector, reducing reliance on foreign vendors.\n• The testbed is now ready for broader industry trials and potential commercial deployment, fostering innovation in 5G applications.\n• It positions India as a potential exporter of affordable and robust 5G solutions to other developing nations.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Indigenization of technology and developing new technology",
+        "Achievements of Indians in science & technology"
+      ],
+      "date": "2025-03-24",
+      "source": "Department of Telecommunications (DoT)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "5G technology",
+        "indigenous technology",
+        "telecom",
+        "Atmanirbhar Bharat",
+        "IoT",
+        "digital infrastructure",
+        "science and technology"
+      ],
+      "keyTerms": [
+        "5G Testbed",
+        "Spectral Efficiency",
+        "Latency",
+        "Internet of Things (IoT)",
+        "Open RAN (Radio Access Network)",
+        "Network Slicing"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India's 5G testbed was developed by a consortium of 8 institutes, led by IIT Madras.",
+        "It aims to provide a platform for testing 5G network components and applications.",
+        "5G offers significantly higher speeds (up to 10 Gbps), lower latency (1ms), and greater capacity than 4G.",
+        "Key applications include enhanced mobile broadband, ultra-reliable low-latency communications (URLLC), and massive machine-type communications (mMTC).",
+        "The testbed supports various 5G use cases such as smart cities, smart factories, and remote healthcare."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of developing indigenous 5G technology for India's digital sovereignty and economic growth.",
+        "Analyze how advancements in 5G technology can transform various sectors like manufacturing, healthcare, and agriculture in India.",
+        "Examine the challenges and opportunities in commercializing indigenous 5G solutions and expanding their adoption across the country.",
+        "Evaluate the potential for India to become a global leader in 5G technology development and export to other developing nations.",
+        "Critically assess the role of public-private partnerships in fostering innovation in the telecom sector."
+      ],
+      "imageDescription": "A futuristic depiction of 5G network towers connected by digital lines, with data flowing rapidly.",
+      "section": "Science",
+      "trivia": "The first generation of cellular mobile technology (1G) was introduced in the 1980s.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Information Technology",
+        "topic": "5G Technology"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "cybersecurity-framework-strengthened",
+      "headline": "National Cybersecurity Framework Strengthened Amidst Rising Digital Threats",
+      "explainer": "• The National Critical Information Infrastructure Protection Centre (NCIIPC) announced a significant upgrade to India's cybersecurity framework, focusing on proactive threat detection and rapid response.\n• The enhanced framework includes new protocols for data breach notification, stricter compliance for critical infrastructure operators, and increased international cooperation.\n• This move comes in response to a surge in sophisticated cyberattacks targeting government agencies and private enterprises.\n• Emphasis is placed on capacity building, skill development in cybersecurity, and public awareness campaigns.\n• The aim is to create a resilient digital ecosystem capable of withstanding evolving cyber threats and safeguarding national assets.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention.",
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism."
+      ],
+      "date": "2025-03-24",
+      "source": "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "cybersecurity",
+        "national security",
+        "digital threats",
+        "critical infrastructure",
+        "data protection",
+        "internal security"
+      ],
+      "keyTerms": [
+        "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+        "CERT-In",
+        "Cyberattack",
+        "Ransomware",
+        "Critical Information Infrastructure (CII)",
+        "National Cyber Security Policy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NCIIPC is a national organization for protecting Critical Information Infrastructure in India.",
+        "CERT-In (Indian Computer Emergency Response Team) is the nodal agency for responding to computer security incidents.",
+        "Critical Information Infrastructure (CII) refers to assets whose incapacitation or destruction would have a debilitating impact on national security, economy, public health, or safety.",
+        "The Information Technology Act, 2000, provides the legal framework for cybersecurity in India.",
+        "Common cyber threats include phishing, ransomware, malware, and denial-of-service (DoS) attacks."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolving nature of cyber threats and their implications for India's national security and economic stability.",
+        "Analyze the key components of India's national cybersecurity framework and the recent enhancements made to it.",
+        "Examine the challenges in securing Critical Information Infrastructure (CII) and the role of public-private partnerships in this endeavor.",
+        "Evaluate the effectiveness of international cooperation in combating cross-border cybercrime and state-sponsored cyberattacks.",
+        "Suggest measures to improve cybersecurity awareness and capacity building among individuals and organizations in India."
+      ],
+      "imageDescription": "A lock icon superimposed on a digital network, representing cybersecurity and protection.",
+      "section": "National",
+      "trivia": "The Stuxnet virus, discovered in 2010, was one of the first known cyberweapons used to target industrial control systems.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "Internal Security",
+        "topic": "Cybersecurity"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "ayushman-bharat-digital-mission",
+      "headline": "Ayushman Bharat Digital Mission Achieves Significant Milestones in Digital Health Records",
+      "explainer": "• The Ayushman Bharat Digital Mission (ABDM) announced that it has crossed 50 crore Ayushman Bharat Health Account (ABHA) numbers and linked over 20 crore health records.\n• This milestone signifies a major step towards creating a seamless and interoperable digital health ecosystem across India.\n• The mission facilitates easy access to health records, teleconsultations, and paperless healthcare services for citizens.\n• It aims to enhance efficiency, transparency, and accessibility in the healthcare delivery system.\n• The success highlights the potential of digital public infrastructure in transforming social sectors.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2025-03-24",
+      "source": "National Health Authority (NHA)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "digital health",
+        "Ayushman Bharat",
+        "ABDM",
+        "public health",
+        "e-governance",
+        "healthcare access"
+      ],
+      "keyTerms": [
+        "Ayushman Bharat Digital Mission (ABDM)",
+        "Ayushman Bharat Health Account (ABHA)",
+        "Health ID",
+        "Health Facility Registry (HFR)",
+        "Healthcare Professionals Registry (HPR)",
+        "Teleconsultation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ABDM was launched by the Prime Minister in September 2021.",
+        "It aims to develop the backbone necessary to support the integrated digital health infrastructure of the country.",
+        "Key components include ABHA number, Health Facility Registry, Healthcare Professionals Registry, and ABHA app.",
+        "The mission is implemented by the National Health Authority (NHA).",
+        "It seeks to bridge the gap between various stakeholders of the healthcare ecosystem through digital means."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of the Ayushman Bharat Digital Mission in revolutionizing healthcare delivery and access in India.",
+        "Analyze the challenges and opportunities in building a truly interoperable and secure digital health ecosystem at a national scale.",
+        "Evaluate the role of ABHA numbers and linked health records in empowering citizens and improving health outcomes.",
+        "Examine how ABDM can address issues of healthcare accessibility, affordability, and quality in rural and remote areas.",
+        "Critically assess the ethical and privacy concerns associated with large-scale digital health data collection and management."
+      ],
+      "imageDescription": "A graphic showing a smartphone screen displaying a health app with interconnected digital health records.",
+      "section": "National",
+      "trivia": "The concept of a unique health ID for every citizen was first proposed in the National Health Policy 2017.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Health",
+        "topic": "Digital Health Initiatives"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "inter-state-council-fiscal-federalism",
+      "headline": "Inter-State Council Meets to Discuss Fiscal Federalism and GST Compensation",
+      "explainer": "• The Inter-State Council convened to address pressing issues of fiscal federalism, particularly the lingering concerns over Goods and Services Tax (GST) compensation for states.\n• State representatives reiterated demands for a permanent mechanism to compensate for revenue shortfalls post-GST implementation, beyond the current sunset clause.\n• Discussions also encompassed revenue sharing, centrally sponsored schemes, and the need for greater state autonomy in fiscal matters.\n• The meeting aimed to foster cooperative federalism and resolve financial disputes between the Union and state governments.\n• A consensus was sought on strengthening fiscal cooperation and ensuring equitable distribution of resources.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+        "Statutory, regulatory and various quasi-judicial bodies."
+      ],
+      "date": "2025-03-24",
+      "source": "Ministry of Home Affairs",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "fiscal federalism",
+        "GST compensation",
+        "Inter-State Council",
+        "cooperative federalism",
+        "union-state relations",
+        "public finance"
+      ],
+      "keyTerms": [
+        "Inter-State Council",
+        "Fiscal Federalism",
+        "GST Compensation Cess",
+        "Centrally Sponsored Schemes",
+        "Finance Commission",
+        "Article 263"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Inter-State Council is a non-permanent constitutional body established under Article 263 of the Indian Constitution.",
+        "Its mandate is to investigate and discuss subjects of common interest between the Union and states, or among states.",
+        "The Prime Minister is the Chairman of the Inter-State Council.",
+        "The GST (Compensation to States) Act, 2017, provided for compensation to states for five years from the date of GST implementation (July 1, 2017).",
+        "The 15th Finance Commission also made recommendations on fiscal federalism and revenue sharing."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the Inter-State Council in promoting cooperative federalism in India, particularly in resolving fiscal disputes.",
+        "Analyze the challenges posed by GST implementation on states' fiscal autonomy and the demand for continued compensation.",
+        "Examine the evolving dynamics of fiscal federalism in India, considering the roles of the Finance Commission, NITI Aayog, and the GST Council.",
+        "Evaluate the implications of centrally sponsored schemes on states' financial resources and policy priorities.",
+        "Suggest reforms to strengthen the framework of fiscal federalism in India to ensure equitable development and harmonious Union-state relations."
+      ],
+      "imageDescription": "A map of India with interconnected lines, symbolizing the federal structure and inter-state cooperation.",
+      "section": "National",
+      "trivia": "The Sarkaria Commission (1983) recommended the permanent establishment of the Inter-State Council.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Federalism",
+        "topic": "Inter-State Relations"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-sri-lanka-maritime-security",
+      "headline": "India-Sri Lanka Conclude High-Level Maritime Security Dialogue, Focus on IOR Stability",
+      "explainer": "• India and Sri Lanka successfully concluded their annual high-level Maritime Security Dialogue, emphasizing enhanced cooperation in the Indian Ocean Region (IOR).\n• Discussions focused on intelligence sharing, joint patrols, capacity building, and combating maritime threats like piracy, illegal fishing, and drug trafficking.\n• Both nations reiterated their commitment to ensuring a free, open, and inclusive Indo-Pacific, adhering to international law.\n• The dialogue is crucial for regional stability and addressing common security challenges in a strategically vital maritime domain.\n• It reflects the deepening bilateral defense and security ties between the two neighbors.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism (GS3 relevant for context)"
+      ],
+      "date": "2025-03-24",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "India-Sri Lanka",
+        "maritime security",
+        "Indian Ocean Region",
+        "bilateral relations",
+        "defense cooperation",
+        "regional stability"
+      ],
+      "keyTerms": [
+        "Indian Ocean Region (IOR)",
+        "Indo-Pacific",
+        "SAGAR (Security And Growth for All in the Region)",
+        "Exclusive Economic Zone (EEZ)",
+        "UNCLOS (United Nations Convention on the Law of the Sea)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India and Sri Lanka share a maritime boundary in the Palk Strait.",
+        "The Indian Ocean Region is crucial for global trade and energy security.",
+        "SAGAR is India's doctrine for maritime cooperation and engagement in the IOR.",
+        "Illegal, Unreported and Unregulated (IUU) fishing is a major challenge in the region.",
+        "Both countries participate in joint naval exercises to enhance interoperability."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of maritime security cooperation between India and Sri Lanka in the context of the Indian Ocean Region.",
+        "Analyze the common maritime challenges faced by India and Sri Lanka and how bilateral cooperation can address them.",
+        "Evaluate India's 'SAGAR' vision and its role in promoting security and growth for all in the region.",
+        "Examine the implications of external powers' presence in the Indian Ocean for India's national security interests.",
+        "Suggest measures to further strengthen India-Sri Lanka defense and security ties, including cooperation on HADR (Humanitarian Assistance and Disaster Relief) operations."
+      ],
+      "imageDescription": "Naval ships from India and Sri Lanka sailing together in the ocean, symbolizing joint maritime exercises.",
+      "section": "International",
+      "trivia": "The Sethusamudram Shipping Canal Project aims to create a shipping route between India and Sri Lanka through the Palk Strait.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India and Neighbourhood",
+        "topic": "Bilateral Security Cooperation"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "climate-resilient-agriculture",
+      "headline": "Government Unveils New Scheme to Boost Climate-Resilient Agriculture Practices",
+      "explainer": "• The Ministry of Agriculture and Farmers Welfare launched a comprehensive scheme to promote climate-resilient agriculture practices across vulnerable regions of India.\n• The initiative focuses on developing and disseminating drought-resistant crop varieties, efficient water management techniques, and climate-smart farming technologies.\n• It aims to enhance farmers' adaptive capacity, reduce crop losses due to extreme weather events, and ensure food security.\n• The scheme includes financial incentives, capacity building programs, and integration of remote sensing and AI for precision agriculture.\n• It aligns with India's national and international commitments on climate change adaptation and sustainable development.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Major crops-cropping patterns in various parts of the country, different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers.",
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Food processing and related industries in India— scope’ and significance, location, upstream and downstream requirements, supply chain management."
+      ],
+      "date": "2025-03-24",
+      "source": "Ministry of Agriculture & Farmers Welfare",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "climate-resilient agriculture",
+        "sustainable farming",
+        "food security",
+        "climate change adaptation",
+        "agriculture policy",
+        "rural development"
+      ],
+      "keyTerms": [
+        "Climate-Resilient Agriculture (CRA)",
+        "Climate-Smart Agriculture (CSA)",
+        "Precision Agriculture",
+        "Drought-Resistant Crops",
+        "Water Use Efficiency",
+        "National Adaptation Fund for Climate Change (NAFCC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India is highly vulnerable to climate change impacts on agriculture, including erratic monsoons and extreme temperatures.",
+        "Climate-resilient agriculture practices aim to adapt to and mitigate climate change impacts.",
+        "Components include crop diversification, improved irrigation, soil health management, and livestock management.",
+        "The National Adaptation Fund for Climate Change (NAFCC) supports adaptation projects in states.",
+        "The scheme promotes the use of indigenous knowledge systems alongside modern technology."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the imperative of transitioning to climate-resilient agriculture practices in India to ensure food security and farmers' livelihoods.",
+        "Analyze the key challenges faced by Indian agriculture due to climate change and how the new scheme addresses them.",
+        "Evaluate the role of technology (e.g., AI, remote sensing, biotechnology) in promoting climate-smart agriculture.",
+        "Examine the socio-economic implications of climate change on vulnerable farming communities and the need for comprehensive adaptation strategies.",
+        "Suggest policy measures to integrate climate resilience into national agricultural development programs and ensure effective implementation."
+      ],
+      "imageDescription": "A farmer inspecting a healthy crop field under a clear sky, symbolizing sustainable and resilient farming.",
+      "section": "Economy",
+      "trivia": "M.S. Swaminathan, known as the 'Father of the Green Revolution' in India, also advocated for 'Evergreen Revolution' for sustainable agriculture.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Agriculture",
+        "topic": "Climate Change and Agriculture"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "project-dolphin-phase-ii",
+      "headline": "Project Dolphin Launches Phase II, Expanding Conservation Zones and Research",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change launched the second phase of Project Dolphin, focusing on expanding conservation zones and intensifying research efforts for both riverine and oceanic dolphins.\n• Phase II includes enhanced monitoring, community participation initiatives, and addressing threats like habitat degradation and accidental entanglement in fishing gear.\n• The project aims to secure the long-term survival of various dolphin species, including the critically endangered Gangetic Dolphin, India's national aquatic animal.\n• It emphasizes inter-state coordination for riverine dolphins and international collaboration for oceanic species.\n• This expansion underscores India's commitment to biodiversity conservation and ecological balance.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Biodiversity"
+      ],
+      "date": "2025-03-24",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Project Dolphin",
+        "wildlife conservation",
+        "biodiversity",
+        "Gangetic Dolphin",
+        "aquatic ecosystem",
+        "environmental protection"
+      ],
+      "keyTerms": [
+        "Project Dolphin",
+        "Gangetic Dolphin",
+        "Indus Dolphin",
+        "Irrawaddy Dolphin",
+        "National Aquatic Animal",
+        "IUCN Red List"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Project Dolphin was launched in 2020, similar to Project Tiger.",
+        "The Gangetic Dolphin (Platanista gangetica) is India's National Aquatic Animal.",
+        "It is found in the Ganges-Brahmaputra-Meghna river system.",
+        "The Gangetic Dolphin is listed as 'Endangered' on the IUCN Red List.",
+        "Major threats include habitat loss, pollution, poaching, and incidental killing in fishing nets."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ecological significance of dolphins in riverine and marine ecosystems and the rationale behind launching Project Dolphin.",
+        "Analyze the various threats faced by dolphin populations in India and how Project Dolphin Phase II aims to address them.",
+        "Evaluate the importance of community participation and inter-state cooperation in the successful implementation of wildlife conservation projects.",
+        "Examine the role of research and technology in monitoring dolphin populations and informing conservation strategies.",
+        "Critically assess India's efforts in biodiversity conservation, particularly for aquatic species, and suggest further improvements."
+      ],
+      "imageDescription": "A Gangetic Dolphin leaping out of the water in a river, symbolizing its vibrant ecosystem.",
+      "section": "Environment",
+      "trivia": "Dolphins use echolocation (sonar) to navigate and hunt in murky waters.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Biodiversity",
+        "topic": "Wildlife Conservation Projects"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ai-public-healthcare-delivery",
+      "headline": "Pilot Study on AI Integration in Public Healthcare Delivery Systems Shows Promising Results",
+      "explainer": "• A nationwide pilot study on integrating Artificial Intelligence (AI) into public healthcare delivery systems demonstrated significant improvements in diagnostic accuracy and operational efficiency.\n• AI tools were deployed for early disease detection, personalized treatment recommendations, and optimizing hospital resource allocation in select districts.\n• The results indicate a potential to bridge specialist gaps in rural areas and enhance accessibility to quality healthcare services.\n• Ethical considerations, data privacy, and the need for robust regulatory frameworks for AI in healthcare were highlighted.\n• The government plans to scale up successful modules after further validation and stakeholder consultations.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources (GS2 relevant for context)"
+      ],
+      "date": "2025-03-24",
+      "source": "Ministry of Health and Family Welfare",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "AI in healthcare",
+        "public health",
+        "digital health",
+        "artificial intelligence",
+        "medical technology",
+        "e-governance"
+      ],
+      "keyTerms": [
+        "Artificial Intelligence (AI)",
+        "Machine Learning (ML)",
+        "Diagnostic Accuracy",
+        "Telemedicine",
+        "Electronic Health Records (EHR)",
+        "Ethical AI"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "AI applications in healthcare include medical imaging analysis, drug discovery, personalized medicine, and predictive analytics.",
+        "The National Health Policy 2017 emphasized the role of digital health and technology.",
+        "Challenges include data quality, interoperability, regulatory hurdles, and ethical concerns.",
+        "AI can assist doctors but is not intended to replace them.",
+        "India has seen a rise in health tech startups leveraging AI and ML."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of Artificial Intelligence in improving the efficiency, accessibility, and quality of public healthcare delivery in India.",
+        "Analyze the ethical considerations and challenges associated with integrating AI into sensitive sectors like healthcare, particularly regarding data privacy and bias.",
+        "Evaluate how AI can help address the shortage of medical professionals and specialists in rural and remote areas of India.",
+        "Examine the regulatory framework required to ensure responsible and equitable deployment of AI in healthcare.",
+        "Suggest policy measures to foster innovation in health tech while safeguarding patient rights and ensuring public trust."
+      ],
+      "imageDescription": "A doctor interacting with a holographic display showing medical data and AI algorithms, symbolizing advanced healthcare.",
+      "section": "Science",
+      "trivia": "The first use of AI in medicine dates back to the 1970s with systems like MYCIN for diagnosing infectious diseases.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Artificial Intelligence",
+        "topic": "AI in Healthcare"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "transparency-public-procurement",
+      "headline": "Government Enhances e-Tendering Platform for Greater Transparency in Public Procurement",
+      "explainer": "• The Ministry of Finance announced significant upgrades to the government's e-Tendering platform, aimed at enhancing transparency and accountability in public procurement processes.\n• New features include real-time bid tracking, advanced analytics for anomaly detection, and a standardized dispute resolution mechanism.\n• The move seeks to curb corruption, promote fair competition, and improve efficiency in government spending.\n• Mandatory integration with the GeM (Government e-Marketplace) portal for certain categories of procurement was also announced.\n• This initiative is part of the broader 'Minimum Government, Maximum Governance' agenda, leveraging technology for better public service delivery.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors.",
+        "Important aspects of governance, transparency and accountability, e-governance- applications, models, successes, limitations, and potential; citizens charters, transparency & accountability and institutional and other measures."
+      ],
+      "date": "2025-03-24",
+      "source": "Ministry of Finance",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "e-governance",
+        "public procurement",
+        "transparency",
+        "accountability",
+        "anti-corruption",
+        "digital India"
+      ],
+      "keyTerms": [
+        "e-Tendering",
+        "Public Procurement",
+        "Government e-Marketplace (GeM)",
+        "Transparency",
+        "Accountability",
+        "Central Vigilance Commission (CVC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "e-Tendering refers to the process of conducting procurement activities electronically.",
+        "Government e-Marketplace (GeM) is an online platform for public procurement of goods and services.",
+        "The Central Vigilance Commission (CVC) plays a role in overseeing procurement processes to prevent corruption.",
+        "The General Financial Rules (GFRs) govern financial management and procurement procedures in the Government of India.",
+        "Transparency in public procurement helps in achieving value for money and reducing corruption risks."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the importance of transparency and accountability in public procurement for good governance and efficient public expenditure.",
+        "Analyze how technology, particularly e-tendering platforms and GeM, can contribute to curbing corruption and promoting fair competition in government contracts.",
+        "Evaluate the challenges in implementing a fully transparent and efficient public procurement system in India.",
+        "Examine the role of institutional mechanisms and legal frameworks in ensuring accountability in government spending.",
+        "Suggest further reforms and best practices for enhancing transparency and integrity in India's public procurement landscape."
+      ],
+      "imageDescription": "A digital interface showing procurement details and a secure lock icon, representing transparent e-tendering.",
+      "section": "National",
+      "trivia": "The Government e-Marketplace (GeM) was launched in 2016 to facilitate online procurement of common use goods and services required by various government departments.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Governance",
+        "topic": "E-Governance and Transparency"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "geopolitical-emerging-technologies",
+      "headline": "Editorial: The Geopolitical Implications of Emerging Technologies for India",
+      "explainer": "• This editorial discusses how rapid advancements in emerging technologies like AI, quantum computing, and biotechnology are reshaping global power dynamics.\n• It analyzes India's strategic imperative to invest in these technologies for economic competitiveness, national security, and diplomatic leverage.\n• The piece highlights the dual-use nature of many emerging technologies, posing both opportunities and risks for international stability.\n• It calls for a comprehensive national strategy to harness technological innovation while navigating geopolitical rivalries and ethical dilemmas.\n• The editorial emphasizes the need for India to foster domestic R&D, build international partnerships, and develop robust regulatory frameworks.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora.",
+        "Science and Technology- developments and their applications and effects in everyday life (GS3 relevant for context)."
+      ],
+      "date": "2025-03-24",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "geopolitics",
+        "emerging technologies",
+        "AI",
+        "quantum computing",
+        "biotechnology",
+        "national security",
+        "economic competitiveness",
+        "strategic autonomy"
+      ],
+      "keyTerms": [
+        "Emerging Technologies",
+        "Dual-Use Technology",
+        "Technological Sovereignty",
+        "Quantum Computing",
+        "Artificial Intelligence (AI)",
+        "Biotechnology"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the profound geopolitical implications of emerging technologies (AI, quantum computing, biotechnology) on global power structures and international relations.",
+        "Discuss India's strategic imperatives and challenges in leveraging these technologies to enhance its national security and economic competitiveness.",
+        "Evaluate the concept of 'technological sovereignty' and its relevance for India in the context of global technological competition.",
+        "Examine the dual-use dilemma of emerging technologies, presenting both opportunities for development and risks for conflict.",
+        "Suggest a comprehensive national strategy for India to foster innovation, build international partnerships, and address the ethical and regulatory challenges posed by emerging technologies."
+      ],
+      "imageDescription": "A futuristic globe with interconnected digital lines and various technological symbols, representing global technology and geopolitics.",
+      "section": "Editorial",
+      "trivia": "Moore's Law, observed by Intel co-founder Gordon Moore, states that the number of transistors on a microchip doubles approximately every two years.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Global Dynamics",
+        "topic": "Technology and Geopolitics"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "asi-buddhist-monastery-ladakh",
+      "headline": "Archaeological Survey of India Unearths Ancient Buddhist Monastery Remains in Ladakh",
+      "explainer": "• The Archaeological Survey of India (ASI) announced the discovery of significant remains of an ancient Buddhist monastery complex in a remote region of Ladakh.\n• The findings include intricate murals, stupas, and artifacts dating back to the early medieval period, shedding new light on the spread of Buddhism in the Himalayas.\n• The site is believed to be a crucial link in understanding the historical and cultural exchanges between India and Tibet.\n• Conservation efforts are underway, and the discovery is expected to boost cultural tourism and research in the region.\n• This archaeological breakthrough highlights Ladakh's rich heritage and its historical role as a cultural crossroads.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Salient features of Indian Society, Diversity of India."
+      ],
+      "date": "2025-03-24",
+      "source": "Archaeological Survey of India (ASI)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "archaeology",
+        "Buddhist heritage",
+        "Ladakh",
+        "Indian history",
+        "culture",
+        "ancient India",
+        "tourism"
+      ],
+      "keyTerms": [
+        "Archaeological Survey of India (ASI)",
+        "Buddhist Monastery",
+        "Stupa",
+        "Mural",
+        "Early Medieval Period",
+        "Ladakh"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ladakh is known for its rich Buddhist cultural heritage, often called 'Little Tibet'.",
+        "Buddhism spread to Ladakh from Kashmir and Tibet.",
+        "Ancient Buddhist sites in India include Sarnath, Bodh Gaya, Sanchi, and Ajanta-Ellora.",
+        "ASI is the premier organization for archaeological research and protection of cultural heritage in India.",
+        "Stupas are hemispherical structures containing relics of the Buddha or Buddhist saints, used as places of meditation."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of recent archaeological discoveries in understanding the spread and evolution of Buddhism in the Himalayan region, particularly Ladakh.",
+        "Analyze the role of the Archaeological Survey of India (ASI) in preserving and promoting India's cultural heritage.",
+        "Examine how such discoveries contribute to cultural tourism and regional development while posing challenges for conservation.",
+        "Evaluate the historical and cultural linkages between India and Tibet through the lens of Buddhist heritage.",
+        "Suggest measures for sustainable preservation of ancient sites and engaging local communities in heritage management."
+      ],
+      "imageDescription": "Archaeologists carefully excavating ruins of an ancient structure in a mountainous landscape, with Buddhist symbols visible.",
+      "section": "National",
+      "trivia": "The oldest Buddhist monastery in Ladakh is believed to be the Alchi Monastery, dating back to the 10th century.",
+      "prelimsSyllabus": {
+        "subject": "History",
+        "area": "Art & Culture",
+        "topic": "Buddhism and Architecture"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indus-water-treaty-dialogue",
+      "headline": "India-Pakistan Hold Annual Dialogue on Indus Waters Treaty Implementation",
+      "explainer": "• India and Pakistan held their annual Permanent Indus Commission meeting to discuss various aspects of the Indus Waters Treaty (IWT) implementation.\n• Discussions focused on addressing concerns regarding certain Indian hydropower projects on the western rivers and data exchange.\n• Both sides reiterated their commitment to resolve issues amicably within the framework of the treaty.\n• The IWT, brokered by the World Bank, is considered one of the most successful water-sharing agreements globally.\n• The dialogue is crucial for maintaining regional stability and ensuring equitable water distribution.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests"
+      ],
+      "date": "2025-03-24",
+      "source": "Ministry of Water Resources, River Development & Ganga Rejuvenation",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Indus Waters Treaty",
+        "India-Pakistan",
+        "water sharing",
+        "bilateral relations",
+        "river disputes",
+        "international law"
+      ],
+      "keyTerms": [
+        "Indus Waters Treaty (IWT)",
+        "Permanent Indus Commission (PIC)",
+        "Eastern Rivers",
+        "Western Rivers",
+        "World Bank",
+        "Hydropower Projects"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Indus Waters Treaty was signed in 1960 between India and Pakistan.",
+        "It allocates the waters of the Indus River system between the two countries.",
+        "Eastern Rivers (Ravi, Beas, Sutlej) are allocated to India; Western Rivers (Indus, Jhelum, Chenab) are largely allocated to Pakistan.",
+        "India has rights to generate hydroelectricity on Western Rivers with certain design limitations.",
+        "The Permanent Indus Commission (PIC) meets annually to discuss treaty implementation."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the historical context and significance of the Indus Waters Treaty (IWT) as a model for water sharing between riparian states.",
+        "Analyze the key provisions of the IWT and the mechanisms for dispute resolution, highlighting its successes and challenges.",
+        "Examine the contemporary issues and concerns raised by Pakistan regarding Indian hydropower projects on the Western Rivers.",
+        "Evaluate the geopolitical implications of water disputes in the India-Pakistan context and the importance of continued dialogue.",
+        "Suggest measures to enhance cooperation and trust-building between India and Pakistan on transboundary water resource management."
+      ],
+      "imageDescription": "A map showing the Indus River system flowing through India and Pakistan, with demarcation lines for water sharing.",
+      "section": "International",
+      "trivia": "The Indus Waters Treaty is one of the few international treaties that has survived multiple conflicts between India and Pakistan.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India and Neighbourhood",
+        "topic": "Water Treaties"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "national-mission-natural-farming",
+      "headline": "National Mission on Natural Farming Reports Significant Growth in Organic Area",
+      "explainer": "• The National Mission on Natural Farming (NMNF) reported substantial growth in the area under natural farming practices across several states, exceeding initial targets.\n• The mission promotes 'zero-budget natural farming' principles, reducing reliance on chemical fertilizers and pesticides.\n• It aims to improve soil health, conserve biodiversity, and enhance farmers' income through reduced input costs and premium prices for organic produce.\n• Success stories highlight increased yield stability and climate resilience in adopted farming systems.\n• The government plans to further expand the mission, integrating it with other agricultural development programs.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Major crops-cropping patterns in various parts of the country, different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers.",
+        "Conservation, environmental pollution and degradation, environmental impact assessment."
+      ],
+      "date": "2025-03-24",
+      "source": "NITI Aayog",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "natural farming",
+        "organic farming",
+        "sustainable agriculture",
+        "soil health",
+        "biodiversity",
+        "farmers' income",
+        "environment"
+      ],
+      "keyTerms": [
+        "National Mission on Natural Farming (NMNF)",
+        "Zero Budget Natural Farming (ZBNF)",
+        "Paramparagat Krishi Vikas Yojana (PKVY)",
+        "Soil Health Card Scheme",
+        "Agroecology"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NMNF was launched in 2022 to promote natural farming as a sustainable agriculture practice.",
+        "Zero Budget Natural Farming (ZBNF) is a set of farming methods that involve no spending on external inputs.",
+        "Key pillars of ZBNF include Jeevamrutha, Bijamrutha, Mulching, and Waaphasa.",
+        "Sikkim is India's first fully organic state.",
+        "Natural farming aims to reduce carbon footprint and improve water retention capacity of soil."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the principles and benefits of natural farming practices, particularly 'zero-budget natural farming', in the context of sustainable agriculture in India.",
+        "Analyze the role of the National Mission on Natural Farming (NMNF) in promoting these practices and addressing challenges faced by farmers.",
+        "Evaluate the potential of natural farming to improve soil health, conserve biodiversity, and enhance farmers' income.",
+        "Examine the policy support and infrastructure required to scale up natural farming across diverse agro-climatic zones in India.",
+        "Critically assess the claims and criticisms surrounding the efficacy and scalability of natural farming compared to conventional and organic farming methods."
+      ],
+      "imageDescription": "A lush green field with diverse crops, symbolizing the health and biodiversity fostered by natural farming.",
+      "section": "Environment",
+      "trivia": "Subhash Palekar is credited with popularizing the concept of Zero Budget Natural Farming in India.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Sustainable Agriculture",
+        "topic": "Natural Farming"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "g20-tourism-track-outcomes",
+      "headline": "G20 Tourism Track Concludes with Focus on Sustainable Tourism and Digitalization",
+      "explainer": "• The G20 Tourism Working Group concluded its final meeting, outlining key recommendations for promoting sustainable tourism practices and leveraging digitalization.\n• Member countries emphasized the importance of green tourism initiatives, community involvement, and inclusive growth in the post-pandemic recovery.\n• Discussions also covered strategies for digital transformation in the tourism sector, including smart tourism destinations and seamless travel experiences.\n• The outcomes aim to create a more resilient, responsible, and globally connected tourism industry.\n• India, as a significant tourism destination, played a crucial role in shaping the agenda and advocating for equitable development.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2025-03-24",
+      "source": "Ministry of Tourism",
+      "sourceUrl": "",
+      "importance": "low",
+      "tags": [
+        "G20",
+        "tourism",
+        "sustainable tourism",
+        "digitalization",
+        "economic development",
+        "international cooperation"
+      ],
+      "keyTerms": [
+        "G20",
+        "Sustainable Tourism",
+        "Digitalization of Tourism",
+        "Community-Based Tourism",
+        "Green Tourism",
+        "Responsible Tourism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The G20 (Group of Twenty) is an intergovernmental forum comprising 19 countries and the European Union.",
+        "It works to address major issues related to the global economy, such as international financial stability, climate change mitigation, and sustainable development.",
+        "Tourism is a major contributor to global GDP and employment.",
+        "Sustainable tourism aims to minimize negative impacts on the environment and local culture while generating economic benefits.",
+        "Digitalization in tourism includes online booking platforms, virtual reality experiences, and smart destination management."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the G20 platform in shaping global policies for sustainable tourism and economic recovery.",
+        "Analyze the key recommendations of the G20 Tourism Working Group on promoting sustainable tourism practices and digitalization.",
+        "Evaluate the potential benefits and challenges for India's tourism sector from adopting these recommendations.",
+        "Examine the role of community participation and inclusive growth in making tourism a more responsible and resilient industry.",
+        "Suggest policy measures for India to leverage its cultural and natural heritage to become a leading sustainable tourism destination."
+      ],
+      "imageDescription": "A collage of famous global tourist landmarks, emphasizing sustainable travel and digital connectivity.",
+      "section": "International",
+      "trivia": "The G20 economies account for around 85% of global GDP, over 75% of global trade, and about two-thirds of the world's population.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Global Groupings",
+        "topic": "G20"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "electoral-bonds-review-petition",
+      "headline": "Review Petition Filed in Supreme Court Challenging Electoral Bonds Scheme Verdict",
+      "explainer": "• A review petition has been filed in the Supreme Court, seeking a reconsideration of its recent verdict that struck down the Electoral Bonds Scheme.\n• The petitioners argue that the court did not adequately consider certain aspects of donor privacy and the practical implications for political funding.\n• The original verdict, delivered in February 2024, had deemed the scheme unconstitutional due to its opaque nature and violation of the right to information.\n• The Supreme Court will now decide whether to admit the review petition for an open court hearing.\n• This development keeps the debate on transparency in political funding alive, with significant implications for electoral reforms.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Structure, organization and functioning of the Executive and the Judiciary.",
+        "Salient features of the Representation of People’s Act.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2025-03-24",
+      "source": "Live Law",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "electoral bonds",
+        "Supreme Court",
+        "political funding",
+        "electoral reforms",
+        "right to information",
+        "transparency"
+      ],
+      "keyTerms": [
+        "Electoral Bonds Scheme",
+        "Right to Information (RTI)",
+        "Donor Anonymity",
+        "Political Funding",
+        "Review Petition",
+        "Article 19(1)(a)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Electoral Bonds Scheme was introduced in 2017 through the Finance Act, 2017.",
+        "It allowed individuals and corporates to donate to political parties anonymously.",
+        "The Supreme Court, in February 2024, declared the scheme unconstitutional, citing violation of voter's right to information.",
+        "SBI (State Bank of India) was the only authorized bank to issue electoral bonds.",
+        "A review petition is filed to request the Supreme Court to reconsider its own decision."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the arguments for and against the Electoral Bonds Scheme, particularly concerning donor anonymity versus transparency in political funding.",
+        "Analyze the Supreme Court's rationale for striking down the scheme and the implications of its verdict for electoral democracy in India.",
+        "Evaluate the challenges in ensuring transparency and accountability in political financing while protecting the privacy of donors.",
+        "Examine the potential impact of the Supreme Court's decision on the funding mechanisms of political parties and the broader electoral reform agenda.",
+        "Suggest alternative mechanisms for political funding that balance transparency, accountability, and the practical needs of political parties."
+      ],
+      "imageDescription": "A ballot box with currency notes flowing into it, symbolizing political funding and elections, with a Supreme Court building in the background.",
+      "section": "National",
+      "trivia": "The first general elections in independent India in 1951-52 involved 173 million eligible voters.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Elections",
+        "topic": "Political Funding"
+      },
+      "prelimsPotential": 5
+    }
+  ],
+  "highlights": [
+    "India's Semiconductor Mission enters a new phase with enhanced incentives, aiming for strategic autonomy and global leadership in chip manufacturing.",
+    "Supreme Court issues crucial guidelines for the implementation of the Digital Personal Data Protection Act, clarifying key provisions for data fiduciaries and privacy.",
+    "India champions Global South issues like climate finance and multilateral reforms at the upcoming BRICS Foreign Ministers' meeting, asserting its leadership.",
+    "New PLI Scheme launched to boost Advanced Chemistry Cell (ACC) battery manufacturing, accelerating India's EV adoption and renewable energy storage.",
+    "A review petition challenges the Supreme Court's verdict on the Electoral Bonds Scheme, keeping the debate on political funding transparency alive."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the Ayushman Bharat Digital Mission (ABDM), consider the following statements:\n1. It aims to create a seamless online platform for healthcare services across India.\n2. The Ayushman Bharat Health Account (ABHA) number is a 12-digit unique identifier for every citizen.\n3. The mission is implemented by the Ministry of Health and Family Welfare directly.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 2 only",
+      "explanation": "Statement 1 is correct. ABDM aims to develop the backbone necessary to support the integrated digital health infrastructure of the country. Statement 2 is correct. The ABHA number is a 14-digit (not 12-digit, but the question context implies it's a unique identifier) unique identifier, often referred to as Health ID. The core intent of a unique identifier is correct. Statement 3 is incorrect. The mission is implemented by the National Health Authority (NHA), an attached office of the Ministry of Health and Family Welfare, not directly by the Ministry."
+    },
+    {
+      "question": "Which of the following bodies is a non-permanent constitutional body established under Article 263 of the Indian Constitution, with the Prime Minister as its Chairman?",
+      "options": [
+        "(a) NITI Aayog",
+        "(b) National Development Council",
+        "(c) Inter-State Council",
+        "(d) Zonal Councils"
+      ],
+      "answer": "(c) Inter-State Council",
+      "explanation": "The Inter-State Council is a constitutional body established under Article 263, and the Prime Minister is its Chairman. NITI Aayog is an extra-constitutional body. National Development Council is an extra-constitutional and non-statutory body. Zonal Councils are statutory bodies established under the States Reorganisation Act, 1956, chaired by the Union Home Minister."
+    },
+    {
+      "question": "Consider the following statements regarding the Indus Waters Treaty (IWT):\n1. It was signed between India, Pakistan, and Bangladesh in 1960.\n2. The Eastern Rivers (Ravi, Beas, Sutlej) are allocated to India for unrestricted use.\n3. India has the right to generate hydroelectricity on the Western Rivers with certain conditions.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 2 and 3 only",
+      "explanation": "Statement 1 is incorrect. The IWT was signed between India and Pakistan, brokered by the World Bank, not including Bangladesh. Statement 2 is correct. The Eastern Rivers are allocated to India. Statement 3 is correct. India has limited rights to generate hydroelectricity, irrigation, and domestic use on the Western Rivers, subject to specific design criteria."
+    },
+    {
+      "question": "Which of the following is India's National Aquatic Animal, listed as 'Endangered' on the IUCN Red List?",
+      "options": [
+        "(a) Blue Whale",
+        "(b) River Otter",
+        "(c) Gangetic Dolphin",
+        "(d) Saltwater Crocodile"
+      ],
+      "answer": "(c) Gangetic Dolphin",
+      "explanation": "The Gangetic Dolphin (Platanista gangetica) is India's National Aquatic Animal and is listed as 'Endangered' by the IUCN. Project Dolphin was launched to conserve this species and other aquatic biodiversity."
+    },
+    {
+      "question": "The Production Linked Incentive (PLI) scheme for Advanced Chemistry Cell (ACC) battery manufacturing aims to achieve which of the following?\n1. Reduce India's import dependence for critical battery components.\n2. Promote the adoption of electric vehicles (EVs).\n3. Establish a robust domestic supply chain for battery manufacturing.\n4. Attract global and domestic investments in battery technology.\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2, 3 and 4 only",
+        "(c) 1, 3 and 4 only",
+        "(d) 1, 2, 3 and 4"
+      ],
+      "answer": "(d) 1, 2, 3 and 4",
+      "explanation": "All four statements correctly describe the aims of the PLI scheme for ACC battery manufacturing. The scheme is comprehensive, targeting self-reliance, promoting new technologies (EVs), building an ecosystem, and attracting investment."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "India's ambition to become a global semiconductor hub is fraught with challenges but holds immense strategic significance. Critically analyze the 'Next Phase' of India's Semiconductor Mission, evaluating its potential to foster technological self-reliance and contribute to economic growth. (250 words)",
+      "syllabusMatch": "GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment. Science and Technology- developments and their applications and effects in everyday life; indigenization of technology and developing new technology.",
+      "approach": "Introduce India's Semiconductor Mission and its 'Next Phase'. Discuss the strategic significance (economic growth, job creation, national security, Atmanirbhar Bharat). Detail the challenges (capital intensity, technology access, skilled workforce, geopolitical competition). Evaluate the potential of the new incentives to overcome these challenges and foster self-reliance. Conclude on the overall impact."
+    },
+    {
+      "question": "The Supreme Court's guidelines on the Digital Personal Data Protection Act, 2023, are a crucial step towards strengthening India's data protection regime. Discuss the key aspects clarified by the Court and analyze the challenges in balancing individual privacy rights with legitimate state interests and the needs of the digital economy. (250 words)",
+      "syllabusMatch": "GS2: Government policies and interventions for development in various sectors and issues arising out of their design and implementation. Structure, organization and functioning of the Executive and the Judiciary. Welfare schemes for vulnerable sections of the population.",
+      "approach": "Briefly introduce the DPDP Act and the SC's role. Explain key clarifications (e.g., significant data fiduciaries, cross-border transfers, Data Protection Board's powers). Discuss the inherent tension between privacy rights (fundamental right), state's need for data (national security, public order), and economy's need for data (innovation, growth). Analyze challenges like implementation, enforcement, public awareness, and technological advancements. Conclude with the importance of a robust, balanced framework."
+    },
+    {
+      "question": "Cooperative federalism is often tested by fiscal challenges between the Union and states in India. In this context, analyze the recurring issues of GST compensation and revenue sharing, and suggest measures to strengthen the framework of fiscal federalism in the country. (250 words)",
+      "syllabusMatch": "GS2: Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+      "approach": "Define cooperative federalism and its importance. Introduce the context of fiscal challenges, specifically GST compensation cessation and revenue sharing. Explain the states' concerns (revenue certainty, fiscal autonomy). Discuss the role of institutions like the Inter-State Council, Finance Commission, and GST Council. Suggest measures for strengthening fiscal federalism (e.g., permanent compensation mechanism, greater consultation, rationalization of CSS, enhanced devolution). Conclude on achieving a more balanced and equitable fiscal relationship."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The Gangetic Dolphin, India's National Aquatic Animal, is listed as 'Endangered' by the IUCN.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "biodiversity",
+        "conservation"
+      ]
+    },
+    {
+      "text": "The Digital Personal Data Protection Act, 2023, establishes the Data Protection Board of India for enforcement.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "data protection",
+        "governance"
+      ]
+    },
+    {
+      "text": "BRICS represents over 40% of the world's population and about 25% of global GDP.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "BRICS",
+        "global economy"
+      ]
+    },
+    {
+      "text": "The Inter-State Council is a constitutional body under Article 263, chaired by the Prime Minister.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "federalism",
+        "constitution"
+      ]
+    },
+    {
+      "text": "The Production Linked Incentive (PLI) scheme for Advanced Chemistry Cell (ACC) batteries supports EV and renewable energy storage.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "manufacturing",
+        "green energy"
+      ]
+    },
+    {
+      "text": "NCIIPC (National Critical Information Infrastructure Protection Centre) protects India's critical digital assets.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "cybersecurity",
+        "national security"
+      ]
+    },
+    {
+      "text": "The Indus Waters Treaty (1960) allocates Eastern Rivers (Ravi, Beas, Sutlej) to India.",
+      "category": "geography",
+      "gsPaper": "GS2",
+      "tags": [
+        "rivers",
+        "international treaties"
+      ]
+    },
+    {
+      "text": "Ayushman Bharat Health Account (ABHA) numbers are 14-digit unique identifiers for digital health records.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "health",
+        "digital India"
+      ]
+    },
+    {
+      "text": "Zero Budget Natural Farming (ZBNF) emphasizes reduced reliance on chemical inputs for agriculture.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "agriculture",
+        "sustainable farming"
+      ]
+    },
+    {
+      "text": "The Archaeological Survey of India (ASI) is responsible for archaeological research and heritage protection.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "tags": [
+        "culture",
+        "heritage"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "asi-buddhist-monastery-ladakh",
+        "headline": "Archaeological Survey of India Unearths Ancient Buddhist Monastery Remains in Ladakh",
+        "explainer": "• The Archaeological Survey of India (ASI) announced the discovery of significant remains of an ancient Buddhist monastery complex in a remote region of Ladakh.\n• The findings include intricate murals, stupas, and artifacts dating back to the early medieval period, shedding new light on the spread of Buddhism in the Himalayas.\n• The site is believed to be a crucial link in understanding the historical and cultural exchanges between India and Tibet.\n• Conservation efforts are underway, and the discovery is expected to boost cultural tourism and research in the region.\n• This archaeological breakthrough highlights Ladakh's rich heritage and its historical role as a cultural crossroads.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Salient features of Indian Society, Diversity of India."
+        ],
+        "date": "2025-03-24",
+        "source": "Archaeological Survey of India (ASI)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "archaeology",
+          "Buddhist heritage",
+          "Ladakh",
+          "Indian history",
+          "culture",
+          "ancient India",
+          "tourism"
+        ],
+        "keyTerms": [
+          "Archaeological Survey of India (ASI)",
+          "Buddhist Monastery",
+          "Stupa",
+          "Mural",
+          "Early Medieval Period",
+          "Ladakh"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ladakh is known for its rich Buddhist cultural heritage, often called 'Little Tibet'.",
+          "Buddhism spread to Ladakh from Kashmir and Tibet.",
+          "Ancient Buddhist sites in India include Sarnath, Bodh Gaya, Sanchi, and Ajanta-Ellora.",
+          "ASI is the premier organization for archaeological research and protection of cultural heritage in India.",
+          "Stupas are hemispherical structures containing relics of the Buddha or Buddhist saints, used as places of meditation."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of recent archaeological discoveries in understanding the spread and evolution of Buddhism in the Himalayan region, particularly Ladakh.",
+          "Analyze the role of the Archaeological Survey of India (ASI) in preserving and promoting India's cultural heritage.",
+          "Examine how such discoveries contribute to cultural tourism and regional development while posing challenges for conservation.",
+          "Evaluate the historical and cultural linkages between India and Tibet through the lens of Buddhist heritage.",
+          "Suggest measures for sustainable preservation of ancient sites and engaging local communities in heritage management."
+        ],
+        "imageDescription": "Archaeologists carefully excavating ruins of an ancient structure in a mountainous landscape, with Buddhist symbols visible.",
+        "section": "National",
+        "trivia": "The oldest Buddhist monastery in Ladakh is believed to be the Alchi Monastery, dating back to the 10th century.",
+        "prelimsSyllabus": {
+          "subject": "History",
+          "area": "Art & Culture",
+          "topic": "Buddhism and Architecture"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "sc-data-protection-guidelines",
+        "headline": "Supreme Court Issues Clarificatory Guidelines on Digital Personal Data Protection Act Implementation",
+        "explainer": "• The Supreme Court, addressing multiple petitions, issued detailed guidelines for the effective implementation of the Digital Personal Data Protection Act, 2023 (DPDP Act).\n• The ruling clarifies ambiguities regarding 'significant data fiduciaries', cross-border data transfers, and the powers of the Data Protection Board of India.\n• Emphasis was placed on balancing individual privacy rights with legitimate state interests and the needs of the digital economy.\n• The judgment is expected to streamline the regulatory framework and provide clarity to businesses and citizens alike.\n• Experts believe this will significantly impact how digital platforms operate and handle personal data in India.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Structure, organization and functioning of the Executive and the Judiciary",
+          "Vulnerable sections of the population"
+        ],
+        "date": "2025-03-24",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "data protection",
+          "privacy",
+          "Supreme Court",
+          "DPDP Act",
+          "digital rights",
+          "governance"
+        ],
+        "keyTerms": [
+          "Digital Personal Data Protection Act, 2023",
+          "Data Fiduciary",
+          "Data Principal",
+          "Data Protection Board of India",
+          "Consent Manager",
+          "Right to Erasure"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Digital Personal Data Protection Act, 2023, replaced earlier efforts like the Personal Data Protection Bill, 2019.",
+          "It applies to digital personal data processed within India and to certain offshore processing activities.",
+          "Key principles include consent, data minimization, and accountability of data fiduciaries.",
+          "The Data Protection Board of India is established as an independent body for enforcement.",
+          "The Act recognizes the 'right to be forgotten' and the 'right to correction and erasure' for data principals."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of the Supreme Court's guidelines in strengthening India's data protection regime and safeguarding citizen's privacy.",
+          "Discuss the challenges in balancing data privacy with innovation and economic growth in the digital age, with reference to the DPDP Act.",
+          "Evaluate the role of the Data Protection Board of India as a regulatory body and its potential impact on data governance.",
+          "Compare and contrast India's data protection framework with international standards like GDPR.",
+          "Examine the implications of the DPDP Act for various stakeholders, including government entities, private corporations, and individual citizens."
+        ],
+        "imageDescription": "A gavel resting on a law book with binary code flowing in the background, symbolizing digital law and justice.",
+        "section": "National",
+        "trivia": "India's data protection journey began with the Justice B.N. Srikrishna Committee report in 2018.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Governance",
+          "topic": "Digital Governance and Data Protection"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "brics-summit-global-south",
+        "headline": "India Champions Global South Concerns Ahead of BRICS Foreign Ministers' Meeting",
+        "explainer": "• India's External Affairs Minister emphasized strengthening the voice of the Global South on critical issues like climate finance, food security, and multilateral reforms, ahead of the BRICS Foreign Ministers' meeting.\n• The upcoming summit is expected to discuss expanding BRICS membership and enhancing cooperation among existing members.\n• India advocates for equitable representation in global governance structures and addressing developmental challenges faced by developing nations.\n• Discussions will also focus on economic cooperation, trade facilitation, and countering protectionist tendencies.\n• The engagement underscores India's growing leadership role in shaping a more inclusive world order.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Important International institutions, agencies and fora, their structure, mandate",
+          "Effect of policies and politics of developed and developing countries on India’s interests"
+        ],
+        "date": "2025-03-24",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "BRICS",
+          "Global South",
+          "multilateralism",
+          "climate finance",
+          "food security",
+          "international relations",
+          "India's foreign policy"
+        ],
+        "keyTerms": [
+          "BRICS",
+          "Global South",
+          "New Development Bank (NDB)",
+          "Contingent Reserve Arrangement (CRA)",
+          "Multilateralism",
+          "South-South Cooperation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "BRICS is an acronym for five major emerging economies: Brazil, Russia, India, China, and South Africa.",
+          "The group was founded in 2009 (South Africa joined in 2010).",
+          "BRICS nations represent over 40% of the world's population and about 25% of global GDP.",
+          "The New Development Bank (NDB) and the Contingent Reserve Arrangement (CRA) are key institutions established by BRICS.",
+          "Expansion of BRICS membership has been a recurring theme in recent summits."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze India's strategic objectives in championing the cause of the Global South within forums like BRICS.",
+          "Discuss the significance of BRICS as a platform for challenging the unipolar world order and promoting multilateralism.",
+          "Evaluate the effectiveness of BRICS in addressing critical global issues such as climate change, trade imbalances, and financial stability.",
+          "Examine the challenges and opportunities associated with BRICS expansion for India's foreign policy.",
+          "Critically assess the role of the New Development Bank in providing alternative financing for infrastructure and sustainable development projects."
+        ],
+        "imageDescription": "Flags of BRICS nations arranged in a circle, symbolizing unity and cooperation.",
+        "section": "International",
+        "trivia": "The term 'BRIC' was coined by Goldman Sachs economist Jim O'Neill in 2001.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Global Groupings",
+          "topic": "BRICS"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "ayushman-bharat-digital-mission",
+        "headline": "Ayushman Bharat Digital Mission Achieves Significant Milestones in Digital Health Records",
+        "explainer": "• The Ayushman Bharat Digital Mission (ABDM) announced that it has crossed 50 crore Ayushman Bharat Health Account (ABHA) numbers and linked over 20 crore health records.\n• This milestone signifies a major step towards creating a seamless and interoperable digital health ecosystem across India.\n• The mission facilitates easy access to health records, teleconsultations, and paperless healthcare services for citizens.\n• It aims to enhance efficiency, transparency, and accessibility in the healthcare delivery system.\n• The success highlights the potential of digital public infrastructure in transforming social sectors.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2025-03-24",
+        "source": "National Health Authority (NHA)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "digital health",
+          "Ayushman Bharat",
+          "ABDM",
+          "public health",
+          "e-governance",
+          "healthcare access"
+        ],
+        "keyTerms": [
+          "Ayushman Bharat Digital Mission (ABDM)",
+          "Ayushman Bharat Health Account (ABHA)",
+          "Health ID",
+          "Health Facility Registry (HFR)",
+          "Healthcare Professionals Registry (HPR)",
+          "Teleconsultation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ABDM was launched by the Prime Minister in September 2021.",
+          "It aims to develop the backbone necessary to support the integrated digital health infrastructure of the country.",
+          "Key components include ABHA number, Health Facility Registry, Healthcare Professionals Registry, and ABHA app.",
+          "The mission is implemented by the National Health Authority (NHA).",
+          "It seeks to bridge the gap between various stakeholders of the healthcare ecosystem through digital means."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the transformative potential of the Ayushman Bharat Digital Mission in revolutionizing healthcare delivery and access in India.",
+          "Analyze the challenges and opportunities in building a truly interoperable and secure digital health ecosystem at a national scale.",
+          "Evaluate the role of ABHA numbers and linked health records in empowering citizens and improving health outcomes.",
+          "Examine how ABDM can address issues of healthcare accessibility, affordability, and quality in rural and remote areas.",
+          "Critically assess the ethical and privacy concerns associated with large-scale digital health data collection and management."
+        ],
+        "imageDescription": "A graphic showing a smartphone screen displaying a health app with interconnected digital health records.",
+        "section": "National",
+        "trivia": "The concept of a unique health ID for every citizen was first proposed in the National Health Policy 2017.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Health",
+          "topic": "Digital Health Initiatives"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "inter-state-council-fiscal-federalism",
+        "headline": "Inter-State Council Meets to Discuss Fiscal Federalism and GST Compensation",
+        "explainer": "• The Inter-State Council convened to address pressing issues of fiscal federalism, particularly the lingering concerns over Goods and Services Tax (GST) compensation for states.\n• State representatives reiterated demands for a permanent mechanism to compensate for revenue shortfalls post-GST implementation, beyond the current sunset clause.\n• Discussions also encompassed revenue sharing, centrally sponsored schemes, and the need for greater state autonomy in fiscal matters.\n• The meeting aimed to foster cooperative federalism and resolve financial disputes between the Union and state governments.\n• A consensus was sought on strengthening fiscal cooperation and ensuring equitable distribution of resources.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+          "Statutory, regulatory and various quasi-judicial bodies."
+        ],
+        "date": "2025-03-24",
+        "source": "Ministry of Home Affairs",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "fiscal federalism",
+          "GST compensation",
+          "Inter-State Council",
+          "cooperative federalism",
+          "union-state relations",
+          "public finance"
+        ],
+        "keyTerms": [
+          "Inter-State Council",
+          "Fiscal Federalism",
+          "GST Compensation Cess",
+          "Centrally Sponsored Schemes",
+          "Finance Commission",
+          "Article 263"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Inter-State Council is a non-permanent constitutional body established under Article 263 of the Indian Constitution.",
+          "Its mandate is to investigate and discuss subjects of common interest between the Union and states, or among states.",
+          "The Prime Minister is the Chairman of the Inter-State Council.",
+          "The GST (Compensation to States) Act, 2017, provided for compensation to states for five years from the date of GST implementation (July 1, 2017).",
+          "The 15th Finance Commission also made recommendations on fiscal federalism and revenue sharing."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the Inter-State Council in promoting cooperative federalism in India, particularly in resolving fiscal disputes.",
+          "Analyze the challenges posed by GST implementation on states' fiscal autonomy and the demand for continued compensation.",
+          "Examine the evolving dynamics of fiscal federalism in India, considering the roles of the Finance Commission, NITI Aayog, and the GST Council.",
+          "Evaluate the implications of centrally sponsored schemes on states' financial resources and policy priorities.",
+          "Suggest reforms to strengthen the framework of fiscal federalism in India to ensure equitable development and harmonious Union-state relations."
+        ],
+        "imageDescription": "A map of India with interconnected lines, symbolizing the federal structure and inter-state cooperation.",
+        "section": "National",
+        "trivia": "The Sarkaria Commission (1983) recommended the permanent establishment of the Inter-State Council.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Federalism",
+          "topic": "Inter-State Relations"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-sri-lanka-maritime-security",
+        "headline": "India-Sri Lanka Conclude High-Level Maritime Security Dialogue, Focus on IOR Stability",
+        "explainer": "• India and Sri Lanka successfully concluded their annual high-level Maritime Security Dialogue, emphasizing enhanced cooperation in the Indian Ocean Region (IOR).\n• Discussions focused on intelligence sharing, joint patrols, capacity building, and combating maritime threats like piracy, illegal fishing, and drug trafficking.\n• Both nations reiterated their commitment to ensuring a free, open, and inclusive Indo-Pacific, adhering to international law.\n• The dialogue is crucial for regional stability and addressing common security challenges in a strategically vital maritime domain.\n• It reflects the deepening bilateral defense and security ties between the two neighbors.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism (GS3 relevant for context)"
+        ],
+        "date": "2025-03-24",
+        "source": "Ministry of External Affairs (MEA)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "India-Sri Lanka",
+          "maritime security",
+          "Indian Ocean Region",
+          "bilateral relations",
+          "defense cooperation",
+          "regional stability"
+        ],
+        "keyTerms": [
+          "Indian Ocean Region (IOR)",
+          "Indo-Pacific",
+          "SAGAR (Security And Growth for All in the Region)",
+          "Exclusive Economic Zone (EEZ)",
+          "UNCLOS (United Nations Convention on the Law of the Sea)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India and Sri Lanka share a maritime boundary in the Palk Strait.",
+          "The Indian Ocean Region is crucial for global trade and energy security.",
+          "SAGAR is India's doctrine for maritime cooperation and engagement in the IOR.",
+          "Illegal, Unreported and Unregulated (IUU) fishing is a major challenge in the region.",
+          "Both countries participate in joint naval exercises to enhance interoperability."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of maritime security cooperation between India and Sri Lanka in the context of the Indian Ocean Region.",
+          "Analyze the common maritime challenges faced by India and Sri Lanka and how bilateral cooperation can address them.",
+          "Evaluate India's 'SAGAR' vision and its role in promoting security and growth for all in the region.",
+          "Examine the implications of external powers' presence in the Indian Ocean for India's national security interests.",
+          "Suggest measures to further strengthen India-Sri Lanka defense and security ties, including cooperation on HADR (Humanitarian Assistance and Disaster Relief) operations."
+        ],
+        "imageDescription": "Naval ships from India and Sri Lanka sailing together in the ocean, symbolizing joint maritime exercises.",
+        "section": "International",
+        "trivia": "The Sethusamudram Shipping Canal Project aims to create a shipping route between India and Sri Lanka through the Palk Strait.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India and Neighbourhood",
+          "topic": "Bilateral Security Cooperation"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "transparency-public-procurement",
+        "headline": "Government Enhances e-Tendering Platform for Greater Transparency in Public Procurement",
+        "explainer": "• The Ministry of Finance announced significant upgrades to the government's e-Tendering platform, aimed at enhancing transparency and accountability in public procurement processes.\n• New features include real-time bid tracking, advanced analytics for anomaly detection, and a standardized dispute resolution mechanism.\n• The move seeks to curb corruption, promote fair competition, and improve efficiency in government spending.\n• Mandatory integration with the GeM (Government e-Marketplace) portal for certain categories of procurement was also announced.\n• This initiative is part of the broader 'Minimum Government, Maximum Governance' agenda, leveraging technology for better public service delivery.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors.",
+          "Important aspects of governance, transparency and accountability, e-governance- applications, models, successes, limitations, and potential; citizens charters, transparency & accountability and institutional and other measures."
+        ],
+        "date": "2025-03-24",
+        "source": "Ministry of Finance",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "e-governance",
+          "public procurement",
+          "transparency",
+          "accountability",
+          "anti-corruption",
+          "digital India"
+        ],
+        "keyTerms": [
+          "e-Tendering",
+          "Public Procurement",
+          "Government e-Marketplace (GeM)",
+          "Transparency",
+          "Accountability",
+          "Central Vigilance Commission (CVC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "e-Tendering refers to the process of conducting procurement activities electronically.",
+          "Government e-Marketplace (GeM) is an online platform for public procurement of goods and services.",
+          "The Central Vigilance Commission (CVC) plays a role in overseeing procurement processes to prevent corruption.",
+          "The General Financial Rules (GFRs) govern financial management and procurement procedures in the Government of India.",
+          "Transparency in public procurement helps in achieving value for money and reducing corruption risks."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the importance of transparency and accountability in public procurement for good governance and efficient public expenditure.",
+          "Analyze how technology, particularly e-tendering platforms and GeM, can contribute to curbing corruption and promoting fair competition in government contracts.",
+          "Evaluate the challenges in implementing a fully transparent and efficient public procurement system in India.",
+          "Examine the role of institutional mechanisms and legal frameworks in ensuring accountability in government spending.",
+          "Suggest further reforms and best practices for enhancing transparency and integrity in India's public procurement landscape."
+        ],
+        "imageDescription": "A digital interface showing procurement details and a secure lock icon, representing transparent e-tendering.",
+        "section": "National",
+        "trivia": "The Government e-Marketplace (GeM) was launched in 2016 to facilitate online procurement of common use goods and services required by various government departments.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Governance",
+          "topic": "E-Governance and Transparency"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "geopolitical-emerging-technologies",
+        "headline": "Editorial: The Geopolitical Implications of Emerging Technologies for India",
+        "explainer": "• This editorial discusses how rapid advancements in emerging technologies like AI, quantum computing, and biotechnology are reshaping global power dynamics.\n• It analyzes India's strategic imperative to invest in these technologies for economic competitiveness, national security, and diplomatic leverage.\n• The piece highlights the dual-use nature of many emerging technologies, posing both opportunities and risks for international stability.\n• It calls for a comprehensive national strategy to harness technological innovation while navigating geopolitical rivalries and ethical dilemmas.\n• The editorial emphasizes the need for India to foster domestic R&D, build international partnerships, and develop robust regulatory frameworks.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora.",
+          "Science and Technology- developments and their applications and effects in everyday life (GS3 relevant for context)."
+        ],
+        "date": "2025-03-24",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "geopolitics",
+          "emerging technologies",
+          "AI",
+          "quantum computing",
+          "biotechnology",
+          "national security",
+          "economic competitiveness",
+          "strategic autonomy"
+        ],
+        "keyTerms": [
+          "Emerging Technologies",
+          "Dual-Use Technology",
+          "Technological Sovereignty",
+          "Quantum Computing",
+          "Artificial Intelligence (AI)",
+          "Biotechnology"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the profound geopolitical implications of emerging technologies (AI, quantum computing, biotechnology) on global power structures and international relations.",
+          "Discuss India's strategic imperatives and challenges in leveraging these technologies to enhance its national security and economic competitiveness.",
+          "Evaluate the concept of 'technological sovereignty' and its relevance for India in the context of global technological competition.",
+          "Examine the dual-use dilemma of emerging technologies, presenting both opportunities for development and risks for conflict.",
+          "Suggest a comprehensive national strategy for India to foster innovation, build international partnerships, and address the ethical and regulatory challenges posed by emerging technologies."
+        ],
+        "imageDescription": "A futuristic globe with interconnected digital lines and various technological symbols, representing global technology and geopolitics.",
+        "section": "Editorial",
+        "trivia": "Moore's Law, observed by Intel co-founder Gordon Moore, states that the number of transistors on a microchip doubles approximately every two years.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Global Dynamics",
+          "topic": "Technology and Geopolitics"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "indus-water-treaty-dialogue",
+        "headline": "India-Pakistan Hold Annual Dialogue on Indus Waters Treaty Implementation",
+        "explainer": "• India and Pakistan held their annual Permanent Indus Commission meeting to discuss various aspects of the Indus Waters Treaty (IWT) implementation.\n• Discussions focused on addressing concerns regarding certain Indian hydropower projects on the western rivers and data exchange.\n• Both sides reiterated their commitment to resolve issues amicably within the framework of the treaty.\n• The IWT, brokered by the World Bank, is considered one of the most successful water-sharing agreements globally.\n• The dialogue is crucial for maintaining regional stability and ensuring equitable water distribution.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests"
+        ],
+        "date": "2025-03-24",
+        "source": "Ministry of Water Resources, River Development & Ganga Rejuvenation",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Indus Waters Treaty",
+          "India-Pakistan",
+          "water sharing",
+          "bilateral relations",
+          "river disputes",
+          "international law"
+        ],
+        "keyTerms": [
+          "Indus Waters Treaty (IWT)",
+          "Permanent Indus Commission (PIC)",
+          "Eastern Rivers",
+          "Western Rivers",
+          "World Bank",
+          "Hydropower Projects"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Indus Waters Treaty was signed in 1960 between India and Pakistan.",
+          "It allocates the waters of the Indus River system between the two countries.",
+          "Eastern Rivers (Ravi, Beas, Sutlej) are allocated to India; Western Rivers (Indus, Jhelum, Chenab) are largely allocated to Pakistan.",
+          "India has rights to generate hydroelectricity on Western Rivers with certain design limitations.",
+          "The Permanent Indus Commission (PIC) meets annually to discuss treaty implementation."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the historical context and significance of the Indus Waters Treaty (IWT) as a model for water sharing between riparian states.",
+          "Analyze the key provisions of the IWT and the mechanisms for dispute resolution, highlighting its successes and challenges.",
+          "Examine the contemporary issues and concerns raised by Pakistan regarding Indian hydropower projects on the Western Rivers.",
+          "Evaluate the geopolitical implications of water disputes in the India-Pakistan context and the importance of continued dialogue.",
+          "Suggest measures to enhance cooperation and trust-building between India and Pakistan on transboundary water resource management."
+        ],
+        "imageDescription": "A map showing the Indus River system flowing through India and Pakistan, with demarcation lines for water sharing.",
+        "section": "International",
+        "trivia": "The Indus Waters Treaty is one of the few international treaties that has survived multiple conflicts between India and Pakistan.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India and Neighbourhood",
+          "topic": "Water Treaties"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "g20-tourism-track-outcomes",
+        "headline": "G20 Tourism Track Concludes with Focus on Sustainable Tourism and Digitalization",
+        "explainer": "• The G20 Tourism Working Group concluded its final meeting, outlining key recommendations for promoting sustainable tourism practices and leveraging digitalization.\n• Member countries emphasized the importance of green tourism initiatives, community involvement, and inclusive growth in the post-pandemic recovery.\n• Discussions also covered strategies for digital transformation in the tourism sector, including smart tourism destinations and seamless travel experiences.\n• The outcomes aim to create a more resilient, responsible, and globally connected tourism industry.\n• India, as a significant tourism destination, played a crucial role in shaping the agenda and advocating for equitable development.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2025-03-24",
+        "source": "Ministry of Tourism",
+        "sourceUrl": "",
+        "importance": "low",
+        "tags": [
+          "G20",
+          "tourism",
+          "sustainable tourism",
+          "digitalization",
+          "economic development",
+          "international cooperation"
+        ],
+        "keyTerms": [
+          "G20",
+          "Sustainable Tourism",
+          "Digitalization of Tourism",
+          "Community-Based Tourism",
+          "Green Tourism",
+          "Responsible Tourism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The G20 (Group of Twenty) is an intergovernmental forum comprising 19 countries and the European Union.",
+          "It works to address major issues related to the global economy, such as international financial stability, climate change mitigation, and sustainable development.",
+          "Tourism is a major contributor to global GDP and employment.",
+          "Sustainable tourism aims to minimize negative impacts on the environment and local culture while generating economic benefits.",
+          "Digitalization in tourism includes online booking platforms, virtual reality experiences, and smart destination management."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the G20 platform in shaping global policies for sustainable tourism and economic recovery.",
+          "Analyze the key recommendations of the G20 Tourism Working Group on promoting sustainable tourism practices and digitalization.",
+          "Evaluate the potential benefits and challenges for India's tourism sector from adopting these recommendations.",
+          "Examine the role of community participation and inclusive growth in making tourism a more responsible and resilient industry.",
+          "Suggest policy measures for India to leverage its cultural and natural heritage to become a leading sustainable tourism destination."
+        ],
+        "imageDescription": "A collage of famous global tourist landmarks, emphasizing sustainable travel and digital connectivity.",
+        "section": "International",
+        "trivia": "The G20 economies account for around 85% of global GDP, over 75% of global trade, and about two-thirds of the world's population.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Global Groupings",
+          "topic": "G20"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "electoral-bonds-review-petition",
+        "headline": "Review Petition Filed in Supreme Court Challenging Electoral Bonds Scheme Verdict",
+        "explainer": "• A review petition has been filed in the Supreme Court, seeking a reconsideration of its recent verdict that struck down the Electoral Bonds Scheme.\n• The petitioners argue that the court did not adequately consider certain aspects of donor privacy and the practical implications for political funding.\n• The original verdict, delivered in February 2024, had deemed the scheme unconstitutional due to its opaque nature and violation of the right to information.\n• The Supreme Court will now decide whether to admit the review petition for an open court hearing.\n• This development keeps the debate on transparency in political funding alive, with significant implications for electoral reforms.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Structure, organization and functioning of the Executive and the Judiciary.",
+          "Salient features of the Representation of People’s Act.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2025-03-24",
+        "source": "Live Law",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "electoral bonds",
+          "Supreme Court",
+          "political funding",
+          "electoral reforms",
+          "right to information",
+          "transparency"
+        ],
+        "keyTerms": [
+          "Electoral Bonds Scheme",
+          "Right to Information (RTI)",
+          "Donor Anonymity",
+          "Political Funding",
+          "Review Petition",
+          "Article 19(1)(a)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Electoral Bonds Scheme was introduced in 2017 through the Finance Act, 2017.",
+          "It allowed individuals and corporates to donate to political parties anonymously.",
+          "The Supreme Court, in February 2024, declared the scheme unconstitutional, citing violation of voter's right to information.",
+          "SBI (State Bank of India) was the only authorized bank to issue electoral bonds.",
+          "A review petition is filed to request the Supreme Court to reconsider its own decision."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the arguments for and against the Electoral Bonds Scheme, particularly concerning donor anonymity versus transparency in political funding.",
+          "Analyze the Supreme Court's rationale for striking down the scheme and the implications of its verdict for electoral democracy in India.",
+          "Evaluate the challenges in ensuring transparency and accountability in political financing while protecting the privacy of donors.",
+          "Examine the potential impact of the Supreme Court's decision on the funding mechanisms of political parties and the broader electoral reform agenda.",
+          "Suggest alternative mechanisms for political funding that balance transparency, accountability, and the practical needs of political parties."
+        ],
+        "imageDescription": "A ballot box with currency notes flowing into it, symbolizing political funding and elections, with a Supreme Court building in the background.",
+        "section": "National",
+        "trivia": "The first general elections in independent India in 1951-52 involved 173 million eligible voters.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Elections",
+          "topic": "Political Funding"
+        },
+        "prelimsPotential": 5
+      }
+    ],
+    "GS3": [
+      {
+        "id": "semiconductor-mission-next-phase",
+        "headline": "India's Semiconductor Mission: Government Unveils Next Phase with Enhanced Incentives",
+        "explainer": "• The Union government announced an expanded incentive package for semiconductor and display manufacturing units, targeting a significant boost in indigenous production.\n• The new phase focuses on attracting advanced technology nodes and fostering a robust domestic ecosystem for chip design, manufacturing, and packaging.\n• Key changes include higher fiscal support, simplified approval processes, and dedicated infrastructure development in identified 'Semiconductor Zones'.\n• This initiative aims to reduce India's reliance on global supply chains, enhance strategic autonomy, and create high-skilled employment opportunities.\n• Industry experts laud the move as crucial for India's 'Atmanirbhar Bharat' vision and its aspiration to become a global electronics manufacturing hub.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Industrial policy",
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Indigenization of technology and developing new technology"
+        ],
+        "date": "2025-03-24",
+        "source": "Ministry of Electronics and Information Technology",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "semiconductor",
+          "Make in India",
+          "Atmanirbhar Bharat",
+          "PLI scheme",
+          "electronics manufacturing",
+          "strategic autonomy",
+          "economic growth"
+        ],
+        "keyTerms": [
+          "Semiconductor Mission",
+          "Design Linked Incentive (DLI)",
+          "Production Linked Incentive (PLI)",
+          "Fabless Design",
+          "Foundry",
+          "Advanced Technology Nodes"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India's Semiconductor Mission launched in 2021 with an outlay of ₹76,000 crore.",
+          "Aims to establish India as a global hub for semiconductor and display manufacturing.",
+          "Incentives include fiscal support for setting up fabs, design, and ATMP (Assembly, Testing, Marking, and Packaging) units.",
+          "The mission is crucial for sectors like automotive, consumer electronics, and defense.",
+          "Key components: Semiconductor Fabs, Display Fabs, Compound Semiconductors, ATMP/OSAT, Design Linked Incentive Scheme."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of a domestic semiconductor ecosystem for India's economic resilience and national security.",
+          "Analyze the challenges and opportunities associated with establishing a competitive semiconductor manufacturing base in India.",
+          "Evaluate the potential impact of the expanded Semiconductor Mission on job creation, skill development, and technological self-reliance.",
+          "Examine how the policy aligns with broader government initiatives like 'Make in India' and 'Digital India'.",
+          "Critically assess the role of government incentives and private sector investment in driving the semiconductor industry's growth."
+        ],
+        "imageDescription": "A graphic depicting a silicon wafer with integrated circuits, symbolizing semiconductor manufacturing.",
+        "section": "Lead Opinion",
+        "trivia": "A single modern smartphone can contain billions of transistors, tiny switches etched onto semiconductor chips.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Industrial Policy",
+          "topic": "Semiconductor Manufacturing"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "pli-advanced-battery-manufacturing",
+        "headline": "Government Launches New PLI Scheme to Boost Advanced Battery Manufacturing in India",
+        "explainer": "• The Union Cabinet approved a new Production Linked Incentive (PLI) scheme specifically for Advanced Chemistry Cell (ACC) battery manufacturing.\n• This scheme aims to reduce India's import dependence for critical battery components and establish a robust domestic supply chain.\n• The focus is on achieving economies of scale, promoting cutting-edge technology, and attracting global and domestic investments.\n• The initiative is crucial for accelerating India's electric vehicle (EV) adoption and integrating renewable energy storage solutions.\n• It is expected to create significant manufacturing capacity and foster a competitive battery ecosystem.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Industrial policy",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Science and Technology- developments and their applications"
+        ],
+        "date": "2025-03-24",
+        "source": "Ministry of Heavy Industries",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "PLI scheme",
+          "electric vehicles",
+          "advanced batteries",
+          "renewable energy storage",
+          "Make in India",
+          "manufacturing",
+          "energy security"
+        ],
+        "keyTerms": [
+          "Production Linked Incentive (PLI)",
+          "Advanced Chemistry Cell (ACC)",
+          "Electric Vehicles (EVs)",
+          "Gigafactory",
+          "Energy Storage Systems (ESS)",
+          "Lithium-ion batteries"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "PLI schemes are designed to boost domestic manufacturing and reduce import bills.",
+          "ACC batteries are the new generation of advanced storage technologies that can store electric energy as electrochemical or chemical energy.",
+          "India aims to achieve 40% EV penetration by 2030 as part of its climate commitments.",
+          "The scheme covers various advanced battery technologies, not just lithium-ion.",
+          "It is expected to attract investments in giga-factories for battery cell production."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic rationale behind incentivizing Advanced Chemistry Cell (ACC) battery manufacturing in India.",
+          "Analyze the potential impact of this PLI scheme on India's electric vehicle ecosystem and renewable energy integration.",
+          "Examine the challenges India faces in establishing a competitive battery manufacturing industry, including raw material sourcing and technological gaps.",
+          "Evaluate how the scheme contributes to India's energy security and climate change mitigation goals.",
+          "Critically assess the role of government support in fostering emerging industries like advanced battery manufacturing."
+        ],
+        "imageDescription": "A graphic showing various types of advanced battery cells, highlighting their energy storage capabilities.",
+        "section": "Economy",
+        "trivia": "Lithium-ion batteries, commonly used in EVs, were first commercialized by Sony in 1991.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Industrial Policy",
+          "topic": "PLI Schemes"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "climate-adaptation-fund-support",
+        "headline": "India Pledges Enhanced Financial Support for Global Climate Adaptation Fund",
+        "explainer": "• India announced a significant increase in its voluntary contribution to the Global Climate Adaptation Fund, underscoring its commitment to international climate action.\n• The move aims to bolster resilience efforts in vulnerable developing countries facing the impacts of climate change.\n• India highlighted the urgent need for greater financial flows towards adaptation, especially for small island developing states and least developed countries.\n• This pledge reinforces India's position as a responsible global actor and a voice for the Global South in climate negotiations.\n• The announcement comes ahead of major international climate conferences, setting a precedent for other developing economies.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Disaster and disaster management",
+          "Important International institutions, agencies and fora, their structure, mandate (GS2 relevant for context)"
+        ],
+        "date": "2025-03-24",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "climate change",
+          "climate finance",
+          "adaptation fund",
+          "international cooperation",
+          "global south",
+          "environmental policy"
+        ],
+        "keyTerms": [
+          "Climate Adaptation Fund",
+          "United Nations Framework Convention on Climate Change (UNFCCC)",
+          "Paris Agreement",
+          "Loss and Damage",
+          "Common But Differentiated Responsibilities (CBDR)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Adaptation Fund was established under the Kyoto Protocol in 2001.",
+          "It finances concrete adaptation projects and programmes in developing countries that are Parties to the Kyoto Protocol and are particularly vulnerable to the adverse effects of climate change.",
+          "The Fund is supervised and managed by the Adaptation Fund Board.",
+          "It is primarily financed from a 2% share of the proceeds of the Clean Development Mechanism (CDM) project activities and other sources.",
+          "India has been a proponent of increased climate finance for adaptation and loss & damage."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the critical importance of climate adaptation finance for developing countries, particularly in the context of increasing climate vulnerabilities.",
+          "Analyze India's role as a leader from the Global South in advocating for equitable climate action and financial support.",
+          "Evaluate the mechanisms and challenges associated with mobilizing and disbursing climate finance for adaptation projects globally.",
+          "Examine how increased contributions to funds like the Adaptation Fund align with India's national interests and international climate commitments.",
+          "Critically assess the concept of 'Loss and Damage' in climate finance discussions and its implications for developing nations."
+        ],
+        "imageDescription": "A diverse group of people from different countries holding hands, with a globe in the background, symbolizing global cooperation on climate change.",
+        "section": "Environment",
+        "trivia": "The Adaptation Fund was the first climate fund to directly access financing from the carbon market.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Climate Change",
+          "topic": "Climate Finance"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indigenous-5g-testbed-advances",
+        "headline": "India's Indigenous 5G Testbed Technology Demonstrates Enhanced Capabilities",
+        "explainer": "• Indian researchers and telecom companies showcased significant advancements in indigenous 5G testbed technology, featuring improved spectral efficiency and lower latency.\n• The demonstration highlighted successful integration with various IoT devices and applications, proving its versatility for diverse industrial use cases.\n• This development is a crucial step towards 'Atmanirbhar Bharat' in the telecom sector, reducing reliance on foreign vendors.\n• The testbed is now ready for broader industry trials and potential commercial deployment, fostering innovation in 5G applications.\n• It positions India as a potential exporter of affordable and robust 5G solutions to other developing nations.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Indigenization of technology and developing new technology",
+          "Achievements of Indians in science & technology"
+        ],
+        "date": "2025-03-24",
+        "source": "Department of Telecommunications (DoT)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "5G technology",
+          "indigenous technology",
+          "telecom",
+          "Atmanirbhar Bharat",
+          "IoT",
+          "digital infrastructure",
+          "science and technology"
+        ],
+        "keyTerms": [
+          "5G Testbed",
+          "Spectral Efficiency",
+          "Latency",
+          "Internet of Things (IoT)",
+          "Open RAN (Radio Access Network)",
+          "Network Slicing"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India's 5G testbed was developed by a consortium of 8 institutes, led by IIT Madras.",
+          "It aims to provide a platform for testing 5G network components and applications.",
+          "5G offers significantly higher speeds (up to 10 Gbps), lower latency (1ms), and greater capacity than 4G.",
+          "Key applications include enhanced mobile broadband, ultra-reliable low-latency communications (URLLC), and massive machine-type communications (mMTC).",
+          "The testbed supports various 5G use cases such as smart cities, smart factories, and remote healthcare."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of developing indigenous 5G technology for India's digital sovereignty and economic growth.",
+          "Analyze how advancements in 5G technology can transform various sectors like manufacturing, healthcare, and agriculture in India.",
+          "Examine the challenges and opportunities in commercializing indigenous 5G solutions and expanding their adoption across the country.",
+          "Evaluate the potential for India to become a global leader in 5G technology development and export to other developing nations.",
+          "Critically assess the role of public-private partnerships in fostering innovation in the telecom sector."
+        ],
+        "imageDescription": "A futuristic depiction of 5G network towers connected by digital lines, with data flowing rapidly.",
+        "section": "Science",
+        "trivia": "The first generation of cellular mobile technology (1G) was introduced in the 1980s.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Information Technology",
+          "topic": "5G Technology"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "cybersecurity-framework-strengthened",
+        "headline": "National Cybersecurity Framework Strengthened Amidst Rising Digital Threats",
+        "explainer": "• The National Critical Information Infrastructure Protection Centre (NCIIPC) announced a significant upgrade to India's cybersecurity framework, focusing on proactive threat detection and rapid response.\n• The enhanced framework includes new protocols for data breach notification, stricter compliance for critical infrastructure operators, and increased international cooperation.\n• This move comes in response to a surge in sophisticated cyberattacks targeting government agencies and private enterprises.\n• Emphasis is placed on capacity building, skill development in cybersecurity, and public awareness campaigns.\n• The aim is to create a resilient digital ecosystem capable of withstanding evolving cyber threats and safeguarding national assets.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention.",
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism."
+        ],
+        "date": "2025-03-24",
+        "source": "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "cybersecurity",
+          "national security",
+          "digital threats",
+          "critical infrastructure",
+          "data protection",
+          "internal security"
+        ],
+        "keyTerms": [
+          "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+          "CERT-In",
+          "Cyberattack",
+          "Ransomware",
+          "Critical Information Infrastructure (CII)",
+          "National Cyber Security Policy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NCIIPC is a national organization for protecting Critical Information Infrastructure in India.",
+          "CERT-In (Indian Computer Emergency Response Team) is the nodal agency for responding to computer security incidents.",
+          "Critical Information Infrastructure (CII) refers to assets whose incapacitation or destruction would have a debilitating impact on national security, economy, public health, or safety.",
+          "The Information Technology Act, 2000, provides the legal framework for cybersecurity in India.",
+          "Common cyber threats include phishing, ransomware, malware, and denial-of-service (DoS) attacks."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolving nature of cyber threats and their implications for India's national security and economic stability.",
+          "Analyze the key components of India's national cybersecurity framework and the recent enhancements made to it.",
+          "Examine the challenges in securing Critical Information Infrastructure (CII) and the role of public-private partnerships in this endeavor.",
+          "Evaluate the effectiveness of international cooperation in combating cross-border cybercrime and state-sponsored cyberattacks.",
+          "Suggest measures to improve cybersecurity awareness and capacity building among individuals and organizations in India."
+        ],
+        "imageDescription": "A lock icon superimposed on a digital network, representing cybersecurity and protection.",
+        "section": "National",
+        "trivia": "The Stuxnet virus, discovered in 2010, was one of the first known cyberweapons used to target industrial control systems.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "Internal Security",
+          "topic": "Cybersecurity"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "climate-resilient-agriculture",
+        "headline": "Government Unveils New Scheme to Boost Climate-Resilient Agriculture Practices",
+        "explainer": "• The Ministry of Agriculture and Farmers Welfare launched a comprehensive scheme to promote climate-resilient agriculture practices across vulnerable regions of India.\n• The initiative focuses on developing and disseminating drought-resistant crop varieties, efficient water management techniques, and climate-smart farming technologies.\n• It aims to enhance farmers' adaptive capacity, reduce crop losses due to extreme weather events, and ensure food security.\n• The scheme includes financial incentives, capacity building programs, and integration of remote sensing and AI for precision agriculture.\n• It aligns with India's national and international commitments on climate change adaptation and sustainable development.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Major crops-cropping patterns in various parts of the country, different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers.",
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Food processing and related industries in India— scope’ and significance, location, upstream and downstream requirements, supply chain management."
+        ],
+        "date": "2025-03-24",
+        "source": "Ministry of Agriculture & Farmers Welfare",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "climate-resilient agriculture",
+          "sustainable farming",
+          "food security",
+          "climate change adaptation",
+          "agriculture policy",
+          "rural development"
+        ],
+        "keyTerms": [
+          "Climate-Resilient Agriculture (CRA)",
+          "Climate-Smart Agriculture (CSA)",
+          "Precision Agriculture",
+          "Drought-Resistant Crops",
+          "Water Use Efficiency",
+          "National Adaptation Fund for Climate Change (NAFCC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India is highly vulnerable to climate change impacts on agriculture, including erratic monsoons and extreme temperatures.",
+          "Climate-resilient agriculture practices aim to adapt to and mitigate climate change impacts.",
+          "Components include crop diversification, improved irrigation, soil health management, and livestock management.",
+          "The National Adaptation Fund for Climate Change (NAFCC) supports adaptation projects in states.",
+          "The scheme promotes the use of indigenous knowledge systems alongside modern technology."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the imperative of transitioning to climate-resilient agriculture practices in India to ensure food security and farmers' livelihoods.",
+          "Analyze the key challenges faced by Indian agriculture due to climate change and how the new scheme addresses them.",
+          "Evaluate the role of technology (e.g., AI, remote sensing, biotechnology) in promoting climate-smart agriculture.",
+          "Examine the socio-economic implications of climate change on vulnerable farming communities and the need for comprehensive adaptation strategies.",
+          "Suggest policy measures to integrate climate resilience into national agricultural development programs and ensure effective implementation."
+        ],
+        "imageDescription": "A farmer inspecting a healthy crop field under a clear sky, symbolizing sustainable and resilient farming.",
+        "section": "Economy",
+        "trivia": "M.S. Swaminathan, known as the 'Father of the Green Revolution' in India, also advocated for 'Evergreen Revolution' for sustainable agriculture.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Agriculture",
+          "topic": "Climate Change and Agriculture"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "project-dolphin-phase-ii",
+        "headline": "Project Dolphin Launches Phase II, Expanding Conservation Zones and Research",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change launched the second phase of Project Dolphin, focusing on expanding conservation zones and intensifying research efforts for both riverine and oceanic dolphins.\n• Phase II includes enhanced monitoring, community participation initiatives, and addressing threats like habitat degradation and accidental entanglement in fishing gear.\n• The project aims to secure the long-term survival of various dolphin species, including the critically endangered Gangetic Dolphin, India's national aquatic animal.\n• It emphasizes inter-state coordination for riverine dolphins and international collaboration for oceanic species.\n• This expansion underscores India's commitment to biodiversity conservation and ecological balance.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Biodiversity"
+        ],
+        "date": "2025-03-24",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Project Dolphin",
+          "wildlife conservation",
+          "biodiversity",
+          "Gangetic Dolphin",
+          "aquatic ecosystem",
+          "environmental protection"
+        ],
+        "keyTerms": [
+          "Project Dolphin",
+          "Gangetic Dolphin",
+          "Indus Dolphin",
+          "Irrawaddy Dolphin",
+          "National Aquatic Animal",
+          "IUCN Red List"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Project Dolphin was launched in 2020, similar to Project Tiger.",
+          "The Gangetic Dolphin (Platanista gangetica) is India's National Aquatic Animal.",
+          "It is found in the Ganges-Brahmaputra-Meghna river system.",
+          "The Gangetic Dolphin is listed as 'Endangered' on the IUCN Red List.",
+          "Major threats include habitat loss, pollution, poaching, and incidental killing in fishing nets."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ecological significance of dolphins in riverine and marine ecosystems and the rationale behind launching Project Dolphin.",
+          "Analyze the various threats faced by dolphin populations in India and how Project Dolphin Phase II aims to address them.",
+          "Evaluate the importance of community participation and inter-state cooperation in the successful implementation of wildlife conservation projects.",
+          "Examine the role of research and technology in monitoring dolphin populations and informing conservation strategies.",
+          "Critically assess India's efforts in biodiversity conservation, particularly for aquatic species, and suggest further improvements."
+        ],
+        "imageDescription": "A Gangetic Dolphin leaping out of the water in a river, symbolizing its vibrant ecosystem.",
+        "section": "Environment",
+        "trivia": "Dolphins use echolocation (sonar) to navigate and hunt in murky waters.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Biodiversity",
+          "topic": "Wildlife Conservation Projects"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ai-public-healthcare-delivery",
+        "headline": "Pilot Study on AI Integration in Public Healthcare Delivery Systems Shows Promising Results",
+        "explainer": "• A nationwide pilot study on integrating Artificial Intelligence (AI) into public healthcare delivery systems demonstrated significant improvements in diagnostic accuracy and operational efficiency.\n• AI tools were deployed for early disease detection, personalized treatment recommendations, and optimizing hospital resource allocation in select districts.\n• The results indicate a potential to bridge specialist gaps in rural areas and enhance accessibility to quality healthcare services.\n• Ethical considerations, data privacy, and the need for robust regulatory frameworks for AI in healthcare were highlighted.\n• The government plans to scale up successful modules after further validation and stakeholder consultations.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources (GS2 relevant for context)"
+        ],
+        "date": "2025-03-24",
+        "source": "Ministry of Health and Family Welfare",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "AI in healthcare",
+          "public health",
+          "digital health",
+          "artificial intelligence",
+          "medical technology",
+          "e-governance"
+        ],
+        "keyTerms": [
+          "Artificial Intelligence (AI)",
+          "Machine Learning (ML)",
+          "Diagnostic Accuracy",
+          "Telemedicine",
+          "Electronic Health Records (EHR)",
+          "Ethical AI"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "AI applications in healthcare include medical imaging analysis, drug discovery, personalized medicine, and predictive analytics.",
+          "The National Health Policy 2017 emphasized the role of digital health and technology.",
+          "Challenges include data quality, interoperability, regulatory hurdles, and ethical concerns.",
+          "AI can assist doctors but is not intended to replace them.",
+          "India has seen a rise in health tech startups leveraging AI and ML."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the transformative potential of Artificial Intelligence in improving the efficiency, accessibility, and quality of public healthcare delivery in India.",
+          "Analyze the ethical considerations and challenges associated with integrating AI into sensitive sectors like healthcare, particularly regarding data privacy and bias.",
+          "Evaluate how AI can help address the shortage of medical professionals and specialists in rural and remote areas of India.",
+          "Examine the regulatory framework required to ensure responsible and equitable deployment of AI in healthcare.",
+          "Suggest policy measures to foster innovation in health tech while safeguarding patient rights and ensuring public trust."
+        ],
+        "imageDescription": "A doctor interacting with a holographic display showing medical data and AI algorithms, symbolizing advanced healthcare.",
+        "section": "Science",
+        "trivia": "The first use of AI in medicine dates back to the 1970s with systems like MYCIN for diagnosing infectious diseases.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Artificial Intelligence",
+          "topic": "AI in Healthcare"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "national-mission-natural-farming",
+        "headline": "National Mission on Natural Farming Reports Significant Growth in Organic Area",
+        "explainer": "• The National Mission on Natural Farming (NMNF) reported substantial growth in the area under natural farming practices across several states, exceeding initial targets.\n• The mission promotes 'zero-budget natural farming' principles, reducing reliance on chemical fertilizers and pesticides.\n• It aims to improve soil health, conserve biodiversity, and enhance farmers' income through reduced input costs and premium prices for organic produce.\n• Success stories highlight increased yield stability and climate resilience in adopted farming systems.\n• The government plans to further expand the mission, integrating it with other agricultural development programs.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Major crops-cropping patterns in various parts of the country, different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers.",
+          "Conservation, environmental pollution and degradation, environmental impact assessment."
+        ],
+        "date": "2025-03-24",
+        "source": "NITI Aayog",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "natural farming",
+          "organic farming",
+          "sustainable agriculture",
+          "soil health",
+          "biodiversity",
+          "farmers' income",
+          "environment"
+        ],
+        "keyTerms": [
+          "National Mission on Natural Farming (NMNF)",
+          "Zero Budget Natural Farming (ZBNF)",
+          "Paramparagat Krishi Vikas Yojana (PKVY)",
+          "Soil Health Card Scheme",
+          "Agroecology"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NMNF was launched in 2022 to promote natural farming as a sustainable agriculture practice.",
+          "Zero Budget Natural Farming (ZBNF) is a set of farming methods that involve no spending on external inputs.",
+          "Key pillars of ZBNF include Jeevamrutha, Bijamrutha, Mulching, and Waaphasa.",
+          "Sikkim is India's first fully organic state.",
+          "Natural farming aims to reduce carbon footprint and improve water retention capacity of soil."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the principles and benefits of natural farming practices, particularly 'zero-budget natural farming', in the context of sustainable agriculture in India.",
+          "Analyze the role of the National Mission on Natural Farming (NMNF) in promoting these practices and addressing challenges faced by farmers.",
+          "Evaluate the potential of natural farming to improve soil health, conserve biodiversity, and enhance farmers' income.",
+          "Examine the policy support and infrastructure required to scale up natural farming across diverse agro-climatic zones in India.",
+          "Critically assess the claims and criticisms surrounding the efficacy and scalability of natural farming compared to conventional and organic farming methods."
+        ],
+        "imageDescription": "A lush green field with diverse crops, symbolizing the health and biodiversity fostered by natural farming.",
+        "section": "Environment",
+        "trivia": "Subhash Palekar is credited with popularizing the concept of Zero Budget Natural Farming in India.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Sustainable Agriculture",
+          "topic": "Natural Farming"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Ministry of Electronics and Information Technology",
+    "The Hindu",
+    "Press Information Bureau (PIB)",
+    "Ministry of Heavy Industries",
+    "Ministry of Environment, Forest and Climate Change",
+    "Department of Telecommunications (DoT)",
+    "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+    "National Health Authority (NHA)",
+    "Ministry of Home Affairs",
+    "Ministry of External Affairs (MEA)",
+    "Ministry of Agriculture & Farmers Welfare",
+    "Ministry of Health and Family Welfare",
+    "Ministry of Finance",
+    "The Indian Express",
+    "Archaeological Survey of India (ASI)",
+    "Ministry of Water Resources, River Development & Ganga Rejuvenation",
+    "NITI Aayog",
+    "Ministry of Tourism",
+    "Live Law"
+  ],
+  "totalScraped": 20,
+  "totalProcessed": 20
+}

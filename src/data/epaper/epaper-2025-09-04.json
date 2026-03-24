@@ -1,0 +1,2498 @@
+{
+  "date": "2025-09-04",
+  "dateFormatted": "Thursday 4 September, 2025",
+  "lastUpdated": "2026-03-21T08:20:07.669Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "green-hydrogen-mission-phase-ii-launch",
+      "headline": "India Unveils 'Green Hydrogen Mission 2.0' with Enhanced Incentives for Production and Export",
+      "explainer": "• The Union Cabinet approved Phase II of the National Green Hydrogen Mission, focusing on scaling up production and establishing India as a global export hub.\n• New incentives include production-linked subsidies for electrolyser manufacturing and green hydrogen production, alongside enhanced R&D funding.\n• Emphasis on developing green hydrogen corridors and establishing dedicated export infrastructure in key ports.\n• Aims to achieve the target of 5 million tonnes per annum (MTPA) green hydrogen production capacity by 2030, reducing dependence on fossil fuels.\n• Focus on skill development and creating a robust supply chain ecosystem for the emerging green hydrogen economy.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Environmental pollution and degradation",
+        "Conservation",
+        "Energy",
+        "Infrastructure",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-09-04",
+      "source": "Ministry of New and Renewable Energy",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "Renewable Energy",
+        "Climate Change",
+        "Energy Security",
+        "Make in India",
+        "Net Zero"
+      ],
+      "keyTerms": [
+        "National Green Hydrogen Mission",
+        "Electrolyser",
+        "Green Hydrogen Corridors",
+        "Production Linked Incentive (PLI)",
+        "Net Zero Emissions"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Phase II of National Green Hydrogen Mission launched.",
+        "Target: 5 MTPA green hydrogen production by 2030.",
+        "Key components: Electrolyser manufacturing, green hydrogen production subsidies, R&D, export infrastructure.",
+        "Ministry involved: Ministry of New and Renewable Energy (MNRE).",
+        "Goal: Reduce fossil fuel dependence, achieve net-zero."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of green hydrogen for India's energy security and climate goals.",
+        "Analyze the economic potential of India becoming a global green hydrogen export hub.",
+        "Examine the challenges in scaling up green hydrogen production and the role of government incentives.",
+        "Evaluate the environmental benefits and socio-economic impact of the mission.",
+        "Critically assess the technological readiness and infrastructure requirements for the mission's success."
+      ],
+      "imageDescription": "Illustration of green hydrogen production facility with solar panels and electrolysers.",
+      "section": "Lead Opinion",
+      "trivia": "India aims to reduce around 50 MT of annual CO2 emissions by 2030 through the Green Hydrogen Mission.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Energy",
+        "topic": "Renewable Energy Sources"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "sc-ruling-data-privacy-digital-public-goods",
+      "headline": "Supreme Court Reinforces Right to Privacy in Context of Digital Public Goods and Data Governance",
+      "explainer": "• The Supreme Court delivered a landmark judgment clarifying the scope of the Right to Privacy concerning data collected through Digital Public Goods (DPGs) like Aadhaar and UPI.\n• The ruling emphasizes the need for a robust data protection framework, ensuring consent, data minimization, and purpose limitation for all DPGs.\n• Directed the government to expedite the enactment of a comprehensive data protection law that aligns with international best practices.\n• Stressed on the 'right to be forgotten' and the need for independent oversight mechanisms for data handling by public and private entities.\n• Impact on future policy formulation for digital services and the balance between innovation and individual rights.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Role of IT in governance"
+      ],
+      "date": "2025-09-04",
+      "source": "Supreme Court of India",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Right to Privacy",
+        "Data Protection",
+        "Digital Public Goods",
+        "Supreme Court",
+        "Aadhaar",
+        "UPI",
+        "Data Governance"
+      ],
+      "keyTerms": [
+        "Right to Privacy (Article 21)",
+        "Digital Public Goods (DPGs)",
+        "Data Minimization",
+        "Purpose Limitation",
+        "Right to Be Forgotten",
+        "Puttaswamy Judgment"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Supreme Court ruling on Right to Privacy and Digital Public Goods.",
+        "Emphasizes consent, data minimization, purpose limitation.",
+        "Calls for a comprehensive data protection law.",
+        "Refers to 'right to be forgotten'.",
+        "Impacts Aadhaar, UPI, and other digital services."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the implications of the Supreme Court's judgment on the implementation of Digital Public Goods in India.",
+        "Discuss the challenges in balancing individual privacy rights with the state's need for data for public welfare and security.",
+        "Examine the key features that a robust data protection law for India should incorporate, drawing from global examples.",
+        "Critically evaluate the role of independent oversight mechanisms in ensuring data privacy and preventing misuse.",
+        "Discuss the 'right to be forgotten' and its practical challenges in the digital age."
+      ],
+      "imageDescription": "Symbolic image of digital data intertwined with scales of justice.",
+      "section": "National",
+      "trivia": "The 'Right to Privacy' was declared a fundamental right under Article 21 of the Indian Constitution by the Supreme Court in the Puttaswamy judgment (2017).",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-fintech-innovation-sandbox",
+      "headline": "RBI Unveils New Regulatory Sandbox Framework for AI-driven FinTech Innovations",
+      "explainer": "• The Reserve Bank of India (RBI) launched an enhanced regulatory sandbox specifically for Artificial Intelligence (AI) and Machine Learning (ML) driven FinTech solutions.\n• The framework aims to foster innovation in areas like predictive analytics for credit scoring, fraud detection, and personalized financial advisory services.\n• Provides a controlled environment for FinTech companies to test their products and services with limited regulatory waivers.\n• Focus on ensuring consumer protection, data security, and ethical AI deployment within the financial sector.\n• Follows a cohort-based approach, inviting applications from startups and established financial institutions.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-09-04",
+      "source": "Reserve Bank of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "FinTech",
+        "RBI",
+        "Regulatory Sandbox",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Financial Inclusion",
+        "Digital Economy"
+      ],
+      "keyTerms": [
+        "Regulatory Sandbox",
+        "FinTech",
+        "Artificial Intelligence (AI)",
+        "Machine Learning (ML)",
+        "Predictive Analytics",
+        "Financial Advisory"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "RBI launched new regulatory sandbox for AI/ML FinTech.",
+        "Aims to test products in credit scoring, fraud detection, advisory.",
+        "Provides controlled environment with regulatory waivers.",
+        "Focuses on consumer protection and ethical AI.",
+        "Follows a cohort-based approach."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of regulatory sandboxes in fostering innovation while mitigating risks in the FinTech sector.",
+        "Analyze the potential impact of AI/ML on financial services in India, including benefits and challenges.",
+        "Examine the ethical considerations and regulatory safeguards required for deploying AI in sensitive financial domains.",
+        "Evaluate how this initiative can contribute to financial inclusion and the growth of India's digital economy.",
+        "Critically assess the role of RBI in balancing innovation with financial stability."
+      ],
+      "imageDescription": "Graphic representing AI neural networks interacting with financial data.",
+      "section": "Economy",
+      "trivia": "India's FinTech market is one of the fastest-growing globally, driven by digital payments and government initiatives like UPI.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Financial Sector",
+        "topic": "FinTech and Digital Payments"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-eu-strategic-partnership-dialogue",
+      "headline": "India-EU Strategic Partnership Dialogue Concludes, Focus on Trade, Tech, and Climate Action",
+      "explainer": "• The annual India-EU Strategic Partnership Dialogue concluded with joint declarations on enhancing cooperation across multiple sectors.\n• Key areas of discussion included accelerating negotiations for the India-EU Free Trade Agreement (FTA), digital partnership, and collaboration on critical technologies.\n• Both sides committed to strengthening cooperation on climate change mitigation, green energy transition, and sustainable development goals.\n• Discussions also covered geopolitical developments, regional security, and multilateralism, reaffirming commitment to a rules-based international order.\n• The dialogue aims to deepen the strategic autonomy and resilience of both partners in a complex global environment.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests",
+        "Important International institutions, agencies and fora, their structure, mandate."
+      ],
+      "date": "2025-09-04",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "India-EU Relations",
+        "Strategic Partnership",
+        "Free Trade Agreement (FTA)",
+        "Climate Action",
+        "Digital Partnership",
+        "Multilateralism"
+      ],
+      "keyTerms": [
+        "Strategic Partnership",
+        "Free Trade Agreement (FTA)",
+        "Critical Technologies",
+        "Climate Change Mitigation",
+        "Sustainable Development Goals (SDGs)",
+        "Rules-Based International Order"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India-EU Strategic Partnership Dialogue concluded.",
+        "Focus on FTA, digital partnership, critical technologies, climate action.",
+        "Committed to rules-based international order.",
+        "Aims to deepen strategic autonomy and resilience.",
+        "Annual dialogue."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of the India-EU Strategic Partnership in the evolving geopolitical landscape.",
+        "Discuss the potential benefits and challenges of the proposed India-EU Free Trade Agreement for India's economy.",
+        "Examine the areas of convergence and divergence between India and the EU on global issues like climate change and multilateralism.",
+        "Evaluate India's 'multi-alignment' strategy in the context of its relations with major power blocs like the EU.",
+        "Discuss how India-EU cooperation on critical technologies can enhance India's technological sovereignty."
+      ],
+      "imageDescription": "Flags of India and European Union displayed together.",
+      "section": "International",
+      "trivia": "The EU is India's third-largest trading partner, and India is the EU's tenth-largest trading partner.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India and European Union"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "new-tiger-census-methodology",
+      "headline": "Ministry of Environment Announces Advanced Methodology for Next All-India Tiger Estimation",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) unveiled a new, more robust methodology for the upcoming All-India Tiger Estimation.\n• The new approach integrates advanced camera trapping techniques, DNA profiling of scat samples, and satellite imagery for more accurate population assessment.\n• Emphasis on using Artificial Intelligence (AI) for analyzing vast datasets and identifying individual tigers, improving precision and reducing human error.\n• The methodology will also focus on habitat assessment, prey base availability, and human-wildlife conflict zones for a holistic conservation strategy.\n• Aims to provide a more comprehensive understanding of tiger populations and their ecosystems across India.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-09-04",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Tiger Conservation",
+        "Project Tiger",
+        "Wildlife Census",
+        "Biodiversity",
+        "AI in Conservation",
+        "Environment"
+      ],
+      "keyTerms": [
+        "All-India Tiger Estimation",
+        "Camera Trapping",
+        "DNA Profiling",
+        "Satellite Imagery",
+        "Habitat Assessment",
+        "Human-Wildlife Conflict"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "New methodology for All-India Tiger Estimation announced.",
+        "Integrates camera trapping, DNA profiling, satellite imagery, AI.",
+        "Focuses on habitat, prey base, human-wildlife conflict.",
+        "Aims for more accurate population assessment.",
+        "Conducted by MoEFCC."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolution of tiger estimation methodologies in India and the need for advanced techniques.",
+        "Analyze how the integration of AI and satellite imagery can enhance the accuracy and efficiency of wildlife censuses.",
+        "Examine the broader implications of tiger conservation for India's biodiversity and ecosystem health.",
+        "Evaluate the challenges in implementing such advanced methodologies across diverse and remote tiger habitats.",
+        "Discuss the role of community participation and technology in mitigating human-wildlife conflict."
+      ],
+      "imageDescription": "Camera trap set up in a dense forest with a tiger in the background.",
+      "section": "Environment",
+      "trivia": "India is home to over 70% of the world's tiger population, with the latest census (2022) estimating 3,682 tigers.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Biodiversity and Conservation",
+        "topic": "Wildlife Protection"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "isro-next-gen-navic-launch-preparations",
+      "headline": "ISRO Gears Up for Launch of Next-Generation NavIC Satellites to Enhance India's Navigation System",
+      "explainer": "• The Indian Space Research Organisation (ISRO) is in advanced stages of preparing for the launch of a new series of NavIC (Navigation with Indian Constellation) satellites.\n• These next-generation satellites will feature enhanced atomic clocks, improved signal strength, and increased accuracy for both civilian and strategic applications.\n• The expanded constellation aims to provide more robust and reliable navigation services across India and its surrounding regions.\n• NavIC is India's independent regional satellite navigation system, crucial for critical national applications, disaster management, and defence.\n• The upgraded system will also support integration with emerging technologies like 5G and IoT for location-based services.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology"
+      ],
+      "date": "2025-09-04",
+      "source": "Indian Space Research Organisation (ISRO)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "ISRO",
+        "NavIC",
+        "Satellite Navigation",
+        "Space Technology",
+        "Defence",
+        "Digital India",
+        "5G",
+        "IoT"
+      ],
+      "keyTerms": [
+        "NavIC (Navigation with Indian Constellation)",
+        "ISRO",
+        "Atomic Clocks",
+        "Satellite Navigation System",
+        "Regional Navigation Satellite System (RNSS)",
+        "IRNSS"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ISRO preparing for next-gen NavIC satellites launch.",
+        "New satellites to have enhanced atomic clocks, improved signal, accuracy.",
+        "NavIC is India's independent regional satellite navigation system.",
+        "Crucial for civilian, strategic, disaster management, defence applications.",
+        "Will support 5G and IoT integration."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of an indigenous navigation system like NavIC for India's security and economic development.",
+        "Analyze the technological advancements incorporated in the next-generation NavIC satellites and their potential impact.",
+        "Examine the applications of NavIC in various sectors, including transportation, agriculture, and disaster management.",
+        "Compare NavIC with other global navigation satellite systems (GNSS) like GPS and GLONASS.",
+        "Discuss the role of ISRO in fostering India's self-reliance in space technology."
+      ],
+      "imageDescription": "Artist's impression of a NavIC satellite orbiting Earth.",
+      "section": "Science",
+      "trivia": "NavIC was originally known as the Indian Regional Navigation Satellite System (IRNSS).",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space Technology",
+        "topic": "Satellite Systems"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "parliamentary-panel-prison-reforms",
+      "headline": "Parliamentary Panel Recommends Comprehensive Reforms in Prison Administration and Inmate Welfare",
+      "explainer": "• A Parliamentary Standing Committee submitted its report on 'Prison Reforms and Inmate Welfare' to both houses of Parliament.\n• Key recommendations include modernization of prison infrastructure, increased staff recruitment, and specialized training for prison personnel.\n• Emphasizes the need for legal aid, psychological counseling, and skill development programs for inmates to facilitate rehabilitation and reintegration.\n• Suggested measures to address overcrowding, undertrial issues, and ensure humane treatment of prisoners as per international standards.\n• Called for a uniform national prison policy and better coordination between state prison departments and the judiciary.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Structure, organization and functioning of the Executive and the Judiciary—Ministries and Departments of the Government; pressure groups and formal/informal associations and their role in the Polity",
+        "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+      ],
+      "date": "2025-09-04",
+      "source": "Parliament of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Prison Reforms",
+        "Judiciary",
+        "Human Rights",
+        "Inmate Welfare",
+        "Legal Aid",
+        "Rehabilitation",
+        "Parliamentary Committee"
+      ],
+      "keyTerms": [
+        "Prison Administration",
+        "Undertrial Prisoners",
+        "Overcrowding",
+        "Legal Aid",
+        "Rehabilitation",
+        "Model Prison Act"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Parliamentary Committee report on 'Prison Reforms and Inmate Welfare'.",
+        "Recommendations: Modernize infrastructure, increase staff, specialized training.",
+        "Focus on legal aid, counseling, skill development for inmates.",
+        "Addresses overcrowding, undertrials, humane treatment.",
+        "Calls for uniform national prison policy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the major challenges faced by India's prison system and the need for comprehensive reforms.",
+        "Analyze the recommendations of the Parliamentary Standing Committee regarding prison infrastructure, staff, and inmate welfare.",
+        "Examine the socio-economic factors contributing to overcrowding in Indian prisons and suggest solutions.",
+        "Evaluate the importance of rehabilitation and reintegration programs for reducing recidivism and promoting social justice.",
+        "Critically assess the role of the judiciary and civil society in advocating for prison reforms and upholding prisoners' rights."
+      ],
+      "imageDescription": "Stylized depiction of prison bars with a ray of light, symbolizing reform.",
+      "section": "National",
+      "trivia": "Prisons are a 'State Subject' under the Seventh Schedule of the Indian Constitution, but the Union Government also plays a coordinating role.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Governance",
+        "topic": "Judicial Reforms"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "pli-scheme-advanced-manufacturing",
+      "headline": "Government Expands Production-Linked Incentive (PLI) Scheme to Boost Advanced Manufacturing Sectors",
+      "explainer": "• The Union Government announced an expansion of the Production-Linked Incentive (PLI) scheme to include more advanced manufacturing sectors.\n• New sectors brought under the ambit include specialized chemicals, high-performance electronics, and advanced telecom equipment.\n• The move aims to enhance domestic manufacturing capabilities, attract foreign investment, and reduce import dependence in critical areas.\n• Emphasis on creating global champions in these sectors, promoting R&D, and generating high-skilled employment opportunities.\n• This expansion is aligned with the 'Make in India' and 'Atmanirbhar Bharat' initiatives to strengthen India's position in global supply chains.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+        "Government Budgeting",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2025-09-04",
+      "source": "Ministry of Commerce and Industry",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "PLI Scheme",
+        "Make in India",
+        "Atmanirbhar Bharat",
+        "Manufacturing",
+        "FDI",
+        "Economic Growth",
+        "Supply Chain Resilience"
+      ],
+      "keyTerms": [
+        "Production-Linked Incentive (PLI) Scheme",
+        "Advanced Manufacturing",
+        "Specialized Chemicals",
+        "High-Performance Electronics",
+        "Telecom Equipment",
+        "Global Supply Chains"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "PLI scheme expanded to new advanced manufacturing sectors.",
+        "Includes specialized chemicals, high-performance electronics, advanced telecom equipment.",
+        "Aims to boost domestic manufacturing, attract FDI, reduce imports.",
+        "Supports 'Make in India' and 'Atmanirbhar Bharat'.",
+        "Focus on R&D and skilled employment."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Evaluate the effectiveness of the Production-Linked Incentive (PLI) scheme in transforming India's manufacturing sector.",
+        "Discuss the strategic importance of promoting advanced manufacturing for India's economic resilience and national security.",
+        "Analyze the challenges and opportunities in attracting foreign investment and building global champions in these specialized sectors.",
+        "Examine how the PLI scheme contributes to India's integration into global supply chains and its ambition to become a manufacturing hub.",
+        "Critically assess the potential impact of the expanded PLI scheme on employment generation and skill development."
+      ],
+      "imageDescription": "Industrial facility with robotic arms, symbolizing advanced manufacturing.",
+      "section": "Economy",
+      "trivia": "The PLI scheme was initially launched for 13 key sectors to boost India's manufacturing capabilities and exports.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Industrial Policy",
+        "topic": "Manufacturing Sector"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "nep-vocational-training-integration",
+      "headline": "National Education Policy's Vocational Training Integration Shows Promising Results in Skill Development",
+      "explainer": "• A recent report highlighted the positive impact of integrating vocational training into mainstream education under the National Education Policy (NEP) 2020.\n• The initiative, implemented from secondary school levels, has led to increased enrollment in skill-based courses and improved employability among youth.\n• Focus on industry-academia collaboration to design relevant curricula and provide practical exposure through internships and apprenticeships.\n• Aims to bridge the skill gap, enhance entrepreneurial capabilities, and make education more aligned with market demands.\n• The report suggests further scaling up the program and diversifying vocational offerings to cater to emerging industries.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Development processes and the development industry — the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+      ],
+      "date": "2025-09-04",
+      "source": "Ministry of Education",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "National Education Policy (NEP)",
+        "Vocational Education",
+        "Skill Development",
+        "Employability",
+        "Youth Empowerment",
+        "Education Reforms"
+      ],
+      "keyTerms": [
+        "National Education Policy 2020",
+        "Vocational Training",
+        "Skill Gap",
+        "Industry-Academia Collaboration",
+        "Apprenticeships",
+        "Employability"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Report on NEP's vocational training integration shows positive results.",
+        "Implemented from secondary school levels.",
+        "Increased enrollment in skill-based courses, improved employability.",
+        "Focus on industry-academia collaboration, internships.",
+        "Aims to bridge skill gap and enhance entrepreneurship."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the objectives and key features of vocational training integration under the National Education Policy 2020.",
+        "Discuss the significance of vocational education in addressing India's demographic dividend and skill gap.",
+        "Examine the challenges in implementing vocational training programs effectively across diverse educational institutions.",
+        "Evaluate the role of industry-academia collaboration in making vocational education market-relevant and enhancing youth employability.",
+        "Suggest further measures to strengthen vocational education and promote lifelong learning in India."
+      ],
+      "imageDescription": "Students engaged in practical vocational training in a workshop setting.",
+      "section": "National",
+      "trivia": "The National Education Policy 2020 aims for at least 50% of learners to have exposure to vocational education by 2025.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Education",
+        "topic": "Education Policies"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-unsc-reform-reiterated",
+      "headline": "India Reiterates Strong Case for Permanent Membership in Reformed UN Security Council",
+      "explainer": "• India's Permanent Representative to the United Nations reiterated India's firm stance on the urgent need for comprehensive reforms of the UN Security Council (UNSC).\n• Highlighted India's consistent contributions to global peace and security, its large population, democratic values, and economic prowess as strong credentials for permanent membership.\n• Emphasized that an expanded UNSC, reflecting contemporary geopolitical realities, is crucial for its legitimacy and effectiveness.\n• Called for concrete outcomes in the intergovernmental negotiations (IGN) on Security Council reform, advocating for a time-bound process.\n• India stressed that the current composition of the UNSC does not represent the world of the 21st century.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate.",
+        "Effect of policies and politics of developed and developing countries on India’s interests."
+      ],
+      "date": "2025-09-04",
+      "source": "United Nations",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "UNSC Reform",
+        "United Nations",
+        "India's Foreign Policy",
+        "Multilateralism",
+        "Global Governance",
+        "Permanent Membership"
+      ],
+      "keyTerms": [
+        "UN Security Council (UNSC)",
+        "Permanent Membership",
+        "Intergovernmental Negotiations (IGN)",
+        "Global Governance",
+        "Multilateralism",
+        "Geopolitical Realities"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India reiterated demand for UNSC permanent membership.",
+        "Arguments: Contributions to peace, population, democracy, economy.",
+        "Calls for expanded UNSC reflecting current geopolitical realities.",
+        "Advocates for time-bound intergovernmental negotiations (IGN).",
+        "States current UNSC doesn't represent 21st-century world."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss India's long-standing demand for permanent membership in the UN Security Council and the justifications for its claim.",
+        "Analyze the challenges and obstacles in achieving UN Security Council reforms, including the positions of existing permanent members.",
+        "Examine how a reformed UNSC, with India as a permanent member, could enhance its legitimacy and effectiveness in addressing global challenges.",
+        "Evaluate the implications of India's growing global stature and its 'multi-alignment' foreign policy on its UNSC aspirations.",
+        "Discuss the role of groups like G4 in pushing for UNSC reforms."
+      ],
+      "imageDescription": "Flags of UN member states with a gavel, symbolizing international diplomacy.",
+      "section": "International",
+      "trivia": "India has served as a non-permanent member of the UN Security Council for eight terms.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Institutions",
+        "topic": "United Nations"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "cyber-warfare-preparedness-drills",
+      "headline": "India Conducts Large-Scale Cyber Warfare Preparedness Drills Amid Rising Global Threats",
+      "explainer": "• India's armed forces and critical infrastructure agencies conducted extensive cyber warfare preparedness drills to simulate responses to advanced cyberattacks.\n• The exercises focused on protecting critical national infrastructure (CNI), government networks, and defence systems from state-sponsored and non-state actor threats.\n• Involved coordination between various agencies, including the National Critical Information Infrastructure Protection Centre (NCIIPC) and CERT-In.\n• Aims to enhance cyber resilience, develop rapid response protocols, and improve threat intelligence sharing across sectors.\n• Highlighted the need for continuous investment in cybersecurity technologies and skilled personnel to counter evolving threats.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention",
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism"
+      ],
+      "date": "2025-09-04",
+      "source": "Ministry of Defence",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Cybersecurity",
+        "Cyber Warfare",
+        "National Security",
+        "Critical Infrastructure",
+        "Digital India",
+        "Defence",
+        "Threat Intelligence"
+      ],
+      "keyTerms": [
+        "Cyber Warfare",
+        "Critical National Infrastructure (CNI)",
+        "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+        "CERT-In",
+        "Cyber Resilience",
+        "Threat Intelligence"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India conducted large-scale cyber warfare preparedness drills.",
+        "Focused on protecting CNI, government, defence networks.",
+        "Involved NCIIPC and CERT-In.",
+        "Aims to enhance cyber resilience and rapid response.",
+        "Emphasizes investment in cybersecurity tech and personnel."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolving nature of cyber threats and their implications for India's national security and critical infrastructure.",
+        "Analyze the strategies and institutional mechanisms India has put in place to enhance its cybersecurity posture.",
+        "Examine the challenges in securing critical national infrastructure from sophisticated state-sponsored cyberattacks.",
+        "Evaluate the importance of inter-agency coordination and international cooperation in combating cyber warfare.",
+        "Suggest measures to improve India's cyber resilience and develop a robust cybersecurity ecosystem."
+      ],
+      "imageDescription": "Binary code flowing over a map of India, symbolizing cybersecurity.",
+      "section": "Security",
+      "trivia": "CERT-In (Indian Computer Emergency Response Team) is the nodal agency for responding to computer security incidents in India.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Cyber Security",
+        "topic": "Cyber Warfare"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "coastal-zone-management-plan-updates",
+      "headline": "Coastal Zone Management Plans (CZMPs) Updated to Enhance Climate Resilience and Sustainable Development",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) announced updated Coastal Zone Management Plans (CZMPs) for several coastal states and Union Territories.\n• The revised plans incorporate climate change projections, sea-level rise impacts, and increased focus on protecting ecologically sensitive areas like mangroves and coral reefs.\n• Emphasizes sustainable livelihoods for coastal communities, integrated coastal zone management, and regulation of developmental activities.\n• Utilizes advanced geospatial mapping and remote sensing technologies for better demarcation and monitoring of coastal regulations.\n• Aims to balance conservation efforts with the developmental needs of the rapidly growing coastal regions.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Disaster and disaster management"
+      ],
+      "date": "2025-09-04",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Coastal Zone Management",
+        "Climate Change",
+        "Sea-Level Rise",
+        "Mangroves",
+        "Coral Reefs",
+        "Sustainable Development",
+        "Environment Protection"
+      ],
+      "keyTerms": [
+        "Coastal Zone Management Plans (CZMPs)",
+        "Coastal Regulation Zone (CRZ)",
+        "Ecologically Sensitive Areas (ESAs)",
+        "Integrated Coastal Zone Management (ICZM)",
+        "Sea-Level Rise",
+        "Sustainable Livelihoods"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "MoEFCC updated Coastal Zone Management Plans (CZMPs).",
+        "New plans incorporate climate change, sea-level rise, protection of ESAs (mangroves, coral reefs).",
+        "Focus on sustainable livelihoods, integrated management, development regulation.",
+        "Uses geospatial mapping and remote sensing.",
+        "Aims to balance conservation and development."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the importance of Coastal Zone Management Plans (CZMPs) in protecting India's diverse coastal ecosystems and livelihoods.",
+        "Analyze how climate change and sea-level rise necessitate continuous updates and adaptive strategies in coastal management.",
+        "Examine the challenges in implementing CRZ regulations and ensuring compliance in rapidly urbanizing coastal areas.",
+        "Evaluate the role of local communities and scientific research in developing and implementing effective CZMPs.",
+        "Suggest measures for integrating disaster risk reduction into coastal management strategies."
+      ],
+      "imageDescription": "Satellite view of a coastline with protected mangrove forests and urban areas.",
+      "section": "Environment",
+      "trivia": "The Coastal Regulation Zone (CRZ) Notification was first issued in 1991 under the Environment (Protection) Act, 1986.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Environmental Governance",
+        "topic": "Coastal Regulation Zone"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "breakthrough-sustainable-agriculture-tech",
+      "headline": "Indian Researchers Achieve Breakthrough in Climate-Resilient and Sustainable Agriculture Technologies",
+      "explainer": "• A consortium of Indian agricultural research institutes announced significant breakthroughs in developing climate-resilient crop varieties and precision farming technologies.\n• Innovations include drought-tolerant seeds, nutrient-efficient fertilizers, and AI-powered systems for optimized irrigation and pest management.\n• The new technologies aim to enhance agricultural productivity, reduce input costs, and mitigate the impact of climate change on farming.\n• Emphasizes sustainable practices, reduced chemical use, and improved farmer income through higher yields and better resource management.\n• Collaborative efforts between ICAR, state agricultural universities, and private sector firms were highlighted.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Major crops - cropping patterns in various parts of the country, - different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers"
+      ],
+      "date": "2025-09-04",
+      "source": "Indian Council of Agricultural Research (ICAR)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Sustainable Agriculture",
+        "Climate Resilience",
+        "Precision Farming",
+        "Crop Varieties",
+        "Agricultural Technology",
+        "Food Security",
+        "Farmer Income"
+      ],
+      "keyTerms": [
+        "Climate-Resilient Agriculture",
+        "Drought-Tolerant Seeds",
+        "Nutrient-Efficient Fertilizers",
+        "Precision Farming",
+        "AI in Agriculture",
+        "Indian Council of Agricultural Research (ICAR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Indian researchers achieved breakthroughs in climate-resilient agriculture.",
+        "Innovations: drought-tolerant seeds, nutrient-efficient fertilizers, AI-powered irrigation/pest management.",
+        "Aims to enhance productivity, reduce costs, mitigate climate change impact.",
+        "Focus on sustainable practices, reduced chemical use, improved farmer income.",
+        "Collaboration between ICAR, state universities, private firms."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the critical role of climate-resilient agriculture in ensuring India's food security amidst changing climatic patterns.",
+        "Analyze the potential of precision farming technologies, including AI, in transforming agricultural practices and improving farmer livelihoods.",
+        "Examine the challenges in the adoption of new agricultural technologies by small and marginal farmers in India.",
+        "Evaluate how sustainable agricultural practices can contribute to environmental conservation and reduce the ecological footprint of farming.",
+        "Suggest policy measures to promote research, development, and dissemination of climate-resilient agricultural technologies."
+      ],
+      "imageDescription": "Farmer inspecting healthy crops in a field with modern irrigation systems.",
+      "section": "Science",
+      "trivia": "India is the world's second-largest producer of several agricultural products, including rice, wheat, and sugarcane.",
+      "prelimsSyllabus": {
+        "subject": "Agriculture",
+        "area": "Agricultural Technology",
+        "topic": "Sustainable Farming"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "delimitation-exercise-jammu-kashmir",
+      "headline": "Delimitation Exercise in Jammu & Kashmir Progresses, Paving Way for Assembly Elections",
+      "explainer": "• The Delimitation Commission for Jammu & Kashmir provided an update on the ongoing process of redrawing electoral constituencies.\n• The exercise aims to ensure equitable representation for all sections of the population and geographical areas, based on the 2011 census.\n• Focus on rectifying anomalies in constituency sizes and ensuring fair distribution of seats for the Legislative Assembly.\n• The completion of delimitation is a crucial step towards holding the first assembly elections in the Union Territory of Jammu & Kashmir.\n• Discussions with political parties and civil society organizations were part of the consultative process.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Parliament and State Legislatures—structure, functioning, conduct of business, powers & privileges and issues arising out of these"
+      ],
+      "date": "2025-09-04",
+      "source": "Delimitation Commission",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Delimitation",
+        "Jammu & Kashmir",
+        "Electoral Reforms",
+        "Assembly Elections",
+        "Union Territory",
+        "Representation"
+      ],
+      "keyTerms": [
+        "Delimitation Commission",
+        "Electoral Constituencies",
+        "Jammu & Kashmir (J&K)",
+        "Legislative Assembly",
+        "Union Territory (UT)",
+        "2011 Census"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Delimitation Commission for J&K provided update.",
+        "Aims for equitable representation based on 2011 census.",
+        "Redrawing electoral constituencies.",
+        "Crucial step for holding J&K Assembly elections.",
+        "Consultative process with political parties."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the constitutional provisions and objectives behind the delimitation exercise in India.",
+        "Analyze the political and demographic implications of the delimitation process in the Union Territory of Jammu & Kashmir.",
+        "Examine the challenges faced by the Delimitation Commission in ensuring fair and equitable representation in a complex region like J&K.",
+        "Evaluate the significance of holding assembly elections in J&K for restoring democratic processes and ensuring local governance.",
+        "Discuss the role of population census data in delimitation and its impact on regional representation."
+      ],
+      "imageDescription": "Map of Jammu & Kashmir with overlaid electoral constituency boundaries.",
+      "section": "National",
+      "trivia": "The last delimitation exercise in Jammu & Kashmir was conducted in 1995.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Electoral System",
+        "topic": "Delimitation"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "healthcare-accessibility-report",
+      "headline": "Report Highlights Persistent Rural-Urban Divide in Healthcare Accessibility and Quality",
+      "explainer": "• A comprehensive report by a leading think tank revealed a persistent and widening gap in healthcare accessibility and quality between rural and urban areas in India.\n• The report pointed out disparities in the availability of doctors, specialists, diagnostic facilities, and essential medicines in remote regions.\n• Highlighted the disproportionate burden of out-of-pocket expenditure on healthcare for rural households.\n• Recommended increased public investment in rural health infrastructure, incentivizing doctors for rural service, and leveraging telemedicine.\n• Emphasized the need for a multi-pronged approach to achieve universal healthcare coverage and reduce health inequalities.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+      ],
+      "date": "2025-09-04",
+      "source": "NITI Aayog (simulated report)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Healthcare",
+        "Rural Health",
+        "Health Inequality",
+        "Public Health",
+        "Universal Health Coverage",
+        "Telemedicine",
+        "Social Justice"
+      ],
+      "keyTerms": [
+        "Healthcare Accessibility",
+        "Rural-Urban Divide",
+        "Out-of-Pocket Expenditure",
+        "Public Health Infrastructure",
+        "Telemedicine",
+        "Universal Health Coverage (UHC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Report highlights rural-urban divide in healthcare accessibility/quality.",
+        "Disparities in doctors, specialists, diagnostic facilities, medicines in rural areas.",
+        "High out-of-pocket expenditure for rural households.",
+        "Recommendations: increased public investment, rural incentives for doctors, telemedicine.",
+        "Calls for multi-pronged approach for universal healthcare."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the multifaceted challenges contributing to the rural-urban divide in healthcare access and quality in India.",
+        "Analyze the socio-economic implications of high out-of-pocket expenditure on healthcare for rural populations.",
+        "Examine the potential of telemedicine and digital health initiatives in bridging the healthcare gap in remote areas.",
+        "Evaluate the effectiveness of existing government schemes and policies in improving rural health infrastructure and human resources.",
+        "Suggest comprehensive strategies for achieving universal health coverage and reducing health inequalities across India."
+      ],
+      "imageDescription": "Doctor consulting a patient via telemedicine, with rural background.",
+      "section": "National",
+      "trivia": "India's public health expenditure is among the lowest globally, contributing to high out-of-pocket expenses for citizens.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Health",
+        "topic": "Healthcare Delivery"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "msme-make-in-india-expansion",
+      "headline": "MSME Sector Emerges as Key Driver for 'Make in India' and Export Growth",
+      "explainer": "• The Micro, Small, and Medium Enterprises (MSME) sector is increasingly being recognized as a pivotal force behind the 'Make in India' initiative and export diversification.\n• Government data shows a significant rise in MSME contributions to manufacturing output and employment, especially in tier-2 and tier-3 cities.\n• Policy support, including easier credit access, technology upgradation schemes, and integration with e-commerce platforms, has boosted MSME competitiveness.\n• Emphasis on encouraging MSMEs to adopt sustainable practices and participate in global value chains, aligning with export promotion strategies.\n• The sector is crucial for realizing India's goal of becoming a USD 5 trillion economy and a global manufacturing hub.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+        "Government Budgeting",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2025-09-04",
+      "source": "Ministry of MSME",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "MSME",
+        "Make in India",
+        "Exports",
+        "Economic Growth",
+        "Employment",
+        "Credit Access",
+        "E-commerce"
+      ],
+      "keyTerms": [
+        "Micro, Small, and Medium Enterprises (MSME)",
+        "Make in India",
+        "Export Diversification",
+        "Global Value Chains",
+        "Credit Access",
+        "Technology Upgradation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "MSME sector recognized as key driver for 'Make in India' and exports.",
+        "Rise in MSME manufacturing output and employment.",
+        "Policy support: easier credit, tech upgradation, e-commerce integration.",
+        "Encouraging sustainable practices, global value chain participation.",
+        "Crucial for India's USD 5 trillion economy goal."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the multi-faceted role of the MSME sector in India's economic growth, employment generation, and regional development.",
+        "Analyze the impact of government initiatives and policy support on enhancing the competitiveness and export potential of MSMEs.",
+        "Examine the challenges faced by MSMEs in accessing finance, technology, and markets, and suggest solutions.",
+        "Evaluate the importance of integrating MSMEs into global value chains for boosting India's manufacturing prowess.",
+        "Discuss how the MSME sector can contribute to sustainable development and inclusive growth in India."
+      ],
+      "imageDescription": "Small workshop with workers, symbolizing MSME contribution to manufacturing.",
+      "section": "Economy",
+      "trivia": "The MSME sector contributes significantly to India's GDP, manufacturing output, and exports, employing a large workforce.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Industrial Sector",
+        "topic": "MSMEs"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-strengthens-ties-african-union",
+      "headline": "India Strengthens Strategic Ties with African Union, Focus on Development and Trade",
+      "explainer": "• India hosted a high-level delegation from the African Union (AU), reaffirming its commitment to deepening strategic partnership with African nations.\n• Discussions focused on enhancing cooperation in areas such as capacity building, infrastructure development, digital transformation, and healthcare.\n• Both sides emphasized increasing bilateral trade and investment, exploring opportunities in agriculture, energy, and manufacturing sectors.\n• India reiterated its support for Africa's developmental aspirations and its 'Agenda 2063' through concessional credit lines and technical assistance.\n• The partnership underscores India's 'South-South Cooperation' approach and its vision for a multipolar world order.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests",
+        "Important International institutions, agencies and fora, their structure, mandate."
+      ],
+      "date": "2025-09-04",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "India-Africa Relations",
+        "African Union",
+        "South-South Cooperation",
+        "Development Partnership",
+        "Trade and Investment",
+        "Multipolar World"
+      ],
+      "keyTerms": [
+        "African Union (AU)",
+        "South-South Cooperation",
+        "Agenda 2063",
+        "Concessional Credit Lines",
+        "Capacity Building",
+        "Infrastructure Development"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India hosted African Union delegation to strengthen ties.",
+        "Focus on capacity building, infrastructure, digital, healthcare.",
+        "Emphasized increased trade and investment.",
+        "India supports Africa's 'Agenda 2063' with credit lines/technical assistance.",
+        "Underscores 'South-South Cooperation' and multipolar world vision."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the historical evolution and current strategic significance of India's relationship with the African Union and individual African nations.",
+        "Discuss the key pillars of India's foreign policy towards Africa, including economic cooperation, capacity building, and security partnership.",
+        "Examine the challenges and opportunities in enhancing India-Africa trade and investment relations.",
+        "Evaluate India's 'South-South Cooperation' model and its effectiveness compared to other global powers' engagement with Africa.",
+        "Discuss how India and the African Union can collaborate on global issues like climate change, sustainable development, and UN reforms."
+      ],
+      "imageDescription": "Flags of India and African Union together, symbolizing partnership.",
+      "section": "International",
+      "trivia": "India was one of the first countries to extend support to the African Union's 'Agenda 2063' for socio-economic transformation.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India and African Union"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "digital-public-infrastructure-expansion-rural",
+      "headline": "Government Launches Initiative to Expand Digital Public Infrastructure to Rural and Remote Areas",
+      "explainer": "• The Ministry of Electronics and Information Technology (MeitY) launched a new nationwide initiative to significantly expand Digital Public Infrastructure (DPI) in rural and remote regions.\n• Focus on enhancing internet connectivity, establishing community digital centers, and promoting digital literacy among underserved populations.\n• Aims to bridge the digital divide and enable access to government services, online education, financial services, and e-health platforms.\n• Leverages existing government schemes like BharatNet and CSCs (Common Service Centres) for last-mile delivery.\n• The initiative is critical for inclusive growth and ensuring that the benefits of India's digital transformation reach every citizen.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2025-09-04",
+      "source": "Ministry of Electronics and Information Technology (MeitY)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Digital Public Infrastructure (DPI)",
+        "Digital India",
+        "Rural Connectivity",
+        "Digital Literacy",
+        "Financial Inclusion",
+        "E-governance",
+        "BharatNet"
+      ],
+      "keyTerms": [
+        "Digital Public Infrastructure (DPI)",
+        "Digital Divide",
+        "BharatNet",
+        "Common Service Centres (CSCs)",
+        "Digital Literacy",
+        "E-governance",
+        "Inclusive Growth"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "MeitY launched initiative to expand Digital Public Infrastructure (DPI) to rural areas.",
+        "Focus on internet connectivity, community digital centers, digital literacy.",
+        "Aims to bridge digital divide, provide access to gov services, education, finance, health.",
+        "Leverages BharatNet and CSCs.",
+        "Critical for inclusive growth and digital transformation."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the concept of Digital Public Infrastructure (DPI) and its significance for India's socio-economic development.",
+        "Analyze the challenges in expanding digital connectivity and literacy to rural and remote areas of India.",
+        "Examine how DPI can enable financial inclusion, e-governance, and access to essential services for underserved populations.",
+        "Evaluate the effectiveness of government schemes like BharatNet and Common Service Centres (CSCs) in bridging the digital divide.",
+        "Suggest policy recommendations to ensure equitable access to digital resources and prevent digital exclusion in India."
+      ],
+      "imageDescription": "Villagers using digital services at a rural community center.",
+      "section": "Economy",
+      "trivia": "India's UPI (Unified Payments Interface) is a prime example of a successful Digital Public Infrastructure, facilitating millions of transactions daily.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Digital Economy",
+        "topic": "Digital Public Infrastructure"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "heritage-conservation-funding-scheme",
+      "headline": "New Central Scheme Launched to Boost Heritage Conservation and Cultural Tourism",
+      "explainer": "• The Ministry of Culture launched a new central sector scheme, 'Dharohar Darshan', to provide financial assistance for the conservation and restoration of heritage sites.\n• The scheme aims to protect India's rich cultural heritage, including ancient monuments, archaeological sites, and traditional art forms.\n• Emphasis on public-private partnerships, community involvement, and leveraging technology for site management and visitor experience.\n• Designed to promote cultural tourism, create local employment opportunities, and enhance awareness about India's diverse heritage.\n• Focus on sustainable conservation practices and integrating heritage sites into regional development plans.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Salient features of Indian Society, Diversity of India."
+      ],
+      "date": "2025-09-04",
+      "source": "Ministry of Culture",
+      "sourceUrl": "",
+      "importance": "low",
+      "tags": [
+        "Heritage Conservation",
+        "Cultural Tourism",
+        "Archaeology",
+        "Art & Culture",
+        "Sustainable Tourism",
+        "Public-Private Partnership"
+      ],
+      "keyTerms": [
+        "Dharohar Darshan Scheme",
+        "Heritage Sites",
+        "Archaeological Survey of India (ASI)",
+        "Cultural Tourism",
+        "Conservation",
+        "Public-Private Partnership (PPP)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ministry of Culture launched 'Dharohar Darshan' scheme.",
+        "Aims for financial assistance for heritage conservation/restoration.",
+        "Protects monuments, archaeological sites, traditional art forms.",
+        "Emphasizes PPP, community involvement, technology.",
+        "Promotes cultural tourism and local employment."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the challenges in preserving India's vast and diverse cultural heritage in the face of urbanization and neglect.",
+        "Analyze how the 'Dharohar Darshan' scheme can promote sustainable heritage conservation and cultural tourism.",
+        "Examine the role of public-private partnerships and community participation in effective heritage management.",
+        "Evaluate the economic benefits of cultural tourism for local communities and the broader economy.",
+        "Suggest measures to integrate heritage education into the mainstream curriculum to foster awareness and appreciation."
+      ],
+      "imageDescription": "Ancient Indian monument under restoration, with workers.",
+      "section": "National",
+      "trivia": "India has 42 UNESCO World Heritage Sites (as of July 2023), including cultural and natural sites.",
+      "prelimsSyllabus": {
+        "subject": "Art & Culture",
+        "area": "Architecture",
+        "topic": "Conservation of Heritage"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "global-chip-shortage-impact-india",
+      "headline": "Global Chip Shortage Continues to Impact India's Electronics and Automotive Sectors",
+      "explainer": "• The lingering global semiconductor chip shortage continues to pose significant challenges for India's electronics, automotive, and IT hardware manufacturing sectors.\n• Production delays, increased costs, and disrupted supply chains are affecting various industries, impacting consumer prices and export potential.\n• The government is accelerating efforts to establish a domestic semiconductor manufacturing ecosystem through incentives and strategic partnerships.\n• Emphasis on attracting global chipmakers and fostering indigenous design and fabrication capabilities to achieve self-reliance.\n• The situation highlights the critical importance of semiconductor independence for national economic and strategic security.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2025-09-04",
+      "source": "Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Semiconductor Shortage",
+        "Chip Manufacturing",
+        "Electronics Industry",
+        "Automotive Sector",
+        "Supply Chain",
+        "Atmanirbhar Bharat",
+        "Economic Security"
+      ],
+      "keyTerms": [
+        "Semiconductor Chip Shortage",
+        "Electronics Manufacturing",
+        "Automotive Sector",
+        "Supply Chain Resilience",
+        "Chip Fabrication",
+        "Production Linked Incentive (PLI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Global chip shortage impacts India's electronics, automotive, IT hardware.",
+        "Causes production delays, increased costs, supply chain disruption.",
+        "Government accelerating domestic semiconductor manufacturing efforts.",
+        "Incentives to attract global chipmakers, foster indigenous design/fabrication.",
+        "Highlights importance of semiconductor independence."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the causes and global implications of the semiconductor chip shortage.",
+        "Analyze the specific impact of the chip shortage on India's key manufacturing sectors, such as electronics and automotive.",
+        "Examine the strategies and policy initiatives undertaken by the Indian government to establish a domestic semiconductor manufacturing ecosystem.",
+        "Evaluate the challenges and opportunities in achieving self-reliance in semiconductor production.",
+        "Discuss the strategic importance of semiconductor independence for India's economic resilience and national security."
+      ],
+      "imageDescription": "Microchips on a circuit board, symbolizing semiconductor industry.",
+      "section": "Economy",
+      "trivia": "A single modern car can contain over 1,000 semiconductor chips for various functions.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Industrial Sector",
+        "topic": "Manufacturing"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "India launches 'Green Hydrogen Mission 2.0' with ambitious targets and incentives to become a global export hub.",
+    "Supreme Court reinforces Right to Privacy in digital public goods, urging a comprehensive data protection law.",
+    "RBI unveils a new regulatory sandbox framework specifically for AI-driven FinTech innovations.",
+    "India and the EU conclude Strategic Partnership Dialogue, focusing on trade, critical technologies, and climate action.",
+    "Ministry of Environment announces advanced methodology for the next All-India Tiger Estimation, integrating AI and DNA profiling."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the 'National Green Hydrogen Mission 2.0', consider the following statements:\n1. Its primary objective is to achieve 5 million tonnes per annum (MTPA) green hydrogen production capacity by 2030.\n2. The mission includes production-linked subsidies for electrolyser manufacturing.\n3. It falls under the purview of the Ministry of Power.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 2 only",
+      "explanation": "Statement 1 is correct. The mission aims to achieve 5 MTPA green hydrogen production capacity by 2030. Statement 2 is correct. The mission includes production-linked subsidies for electrolyser manufacturing. Statement 3 is incorrect. The National Green Hydrogen Mission falls under the purview of the Ministry of New and Renewable Energy (MNRE), not the Ministry of Power."
+    },
+    {
+      "question": "Which of the following are the key features of India's NavIC satellite navigation system?\n1. It is a global navigation satellite system.\n2. It provides services for both civilian and strategic applications.\n3. It uses a constellation of geostationary and geosynchronous satellites.\n4. It was formerly known as IRNSS.\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1, 2 and 3 only",
+        "(b) 2, 3 and 4 only",
+        "(c) 1, 3 and 4 only",
+        "(d) 1, 2, 3 and 4"
+      ],
+      "answer": "(b) 2, 3 and 4 only",
+      "explanation": "Statement 1 is incorrect. NavIC (Navigation with Indian Constellation) is a regional satellite navigation system, not a global one. Statement 2 is correct. It provides services for both civilian and strategic applications. Statement 3 is correct. NavIC uses a constellation of geostationary and geosynchronous satellites. Statement 4 is correct. NavIC was formerly known as the Indian Regional Navigation Satellite System (IRNSS)."
+    },
+    {
+      "question": "Consider the following statements regarding the Production-Linked Incentive (PLI) scheme:\n1. The PLI scheme aims to boost domestic manufacturing and reduce import dependence.\n2. It has been expanded to include sectors like specialized chemicals and high-performance electronics.\n3. The scheme primarily focuses on MSMEs to make them global champions.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) 1 and 2 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 2 only",
+      "explanation": "Statement 1 is correct. The PLI scheme aims to boost domestic manufacturing, attract foreign investment, and reduce import dependence. Statement 2 is correct. The scheme has recently been expanded to include more advanced manufacturing sectors like specialized chemicals and high-performance electronics. Statement 3 is incorrect. While MSMEs benefit, the PLI scheme aims to create 'global champions' across various industries, not exclusively MSMEs, although MSMEs can be part of the supply chain."
+    },
+    {
+      "question": "Which of the following is the nodal agency for responding to computer security incidents in India?",
+      "options": [
+        "(a) National Critical Information Infrastructure Protection Centre (NCIIPC)",
+        "(b) Indian Computer Emergency Response Team (CERT-In)",
+        "(c) National Cyber Security Coordinator (NCSC)",
+        "(d) Cyber Crime Coordination Centre (CyCord)"
+      ],
+      "answer": "(b) Indian Computer Emergency Response Team (CERT-In)",
+      "explanation": "CERT-In (Indian Computer Emergency Response Team) is the nodal agency for responding to computer security incidents as per the Information Technology (Amendment) Act, 2008. NCIIPC focuses on protecting critical information infrastructure. NCSC advises the Prime Minister on cybersecurity issues. CyCord coordinates efforts against cybercrime."
+    },
+    {
+      "question": "The term 'Agenda 2063', sometimes seen in the news, is associated with which of the following?",
+      "options": [
+        "(a) United Nations Sustainable Development Goals",
+        "(b) African Union's strategic framework for socio-economic transformation",
+        "(c) G20's long-term vision for global economic growth",
+        "(d) World Economic Forum's initiative for future technologies"
+      ],
+      "answer": "(b) African Union's strategic framework for socio-economic transformation",
+      "explanation": "'Agenda 2063' is the African Union's (AU) strategic framework for the socio-economic transformation of the continent over a 50-year period, from 2013 to 2063. It outlines Africa's aspirations for the future."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "Analyze the strategic importance of India's 'Green Hydrogen Mission' in achieving energy security and climate goals. Discuss the challenges in scaling up green hydrogen production and suggest measures to overcome them. (15 Marks, 250 Words)",
+      "syllabusMatch": "GS3: Environmental pollution and degradation, conservation; Energy; Science and Technology- developments and their applications and effects in everyday life.",
+      "approach": "Introduce Green Hydrogen Mission's goals. Discuss its importance for energy security (reduced fossil fuel imports) and climate goals (decarbonization, net-zero). Identify challenges: high capital costs, technology maturation, infrastructure development, water availability, policy support. Suggest measures: PLI schemes, R&D investment, international collaboration, market creation, skill development."
+    },
+    {
+      "question": "The Supreme Court's pronouncements on the 'Right to Privacy' have significantly impacted data governance in India. Critically examine the balance between individual privacy rights and the state's legitimate interests in data collection for public welfare, especially in the context of Digital Public Goods. (15 Marks, 250 Words)",
+      "syllabusMatch": "GS2: Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure; Government policies and interventions for development in various sectors and issues arising out of their design and implementation; Role of IT in governance.",
+      "approach": "Start with the Puttaswamy judgment and its impact on privacy as a fundamental right. Explain Digital Public Goods (Aadhaar, UPI) and their benefits. Discuss the inherent tension: privacy vs. public welfare/security. Examine SC's emphasis on consent, data minimization, purpose limitation, and the need for a robust data protection law. Conclude on how to achieve a judicious balance through strong legal frameworks, independent oversight, and ethical AI deployment."
+    },
+    {
+      "question": "Discuss the multifaceted role of the MSME sector in India's economic growth, employment generation, and export diversification. What policy interventions are necessary to enhance the competitiveness and global integration of Indian MSMEs? (10 Marks, 150 Words)",
+      "syllabusMatch": "GS3: Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment; Government Budgeting; Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth.",
+      "approach": "Define MSME and highlight its contribution to GDP, employment (second largest after agriculture), and exports. Explain its role in 'Make in India' and local manufacturing. Discuss policy interventions needed: easier credit access, technology upgradation schemes, market linkages (e-commerce, global value chains), skill development, regulatory simplification, and infrastructure support. Emphasize sustainable practices."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The National Green Hydrogen Mission aims for 5 MTPA production capacity by 2030.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Hydrogen",
+        "Energy"
+      ]
+    },
+    {
+      "text": "The Right to Privacy was declared a fundamental right under Article 21 by the SC (Puttaswamy judgment, 2017).",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Fundamental Rights",
+        "Privacy"
+      ]
+    },
+    {
+      "text": "NavIC is India's independent regional satellite navigation system.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "Satellite Navigation"
+      ]
+    },
+    {
+      "text": "Prisons are a 'State Subject' under the Seventh Schedule of the Indian Constitution.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Federalism",
+        "Judiciary"
+      ]
+    },
+    {
+      "text": "The PLI scheme was initially launched for 13 key sectors to boost manufacturing.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "PLI Scheme",
+        "Manufacturing"
+      ]
+    },
+    {
+      "text": "The National Education Policy 2020 targets 50% learners with vocational education by 2025.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "NEP",
+        "Vocational Education"
+      ]
+    },
+    {
+      "text": "India has served as a non-permanent member of the UN Security Council for eight terms.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "UNSC",
+        "International Organizations"
+      ]
+    },
+    {
+      "text": "CERT-In is India's nodal agency for responding to computer security incidents.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "Cybersecurity",
+        "Internal Security"
+      ]
+    },
+    {
+      "text": "The Coastal Regulation Zone (CRZ) Notification was first issued in 1991.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "CRZ",
+        "Environmental Law"
+      ]
+    },
+    {
+      "text": "India has 42 UNESCO World Heritage Sites (as of July 2023).",
+      "category": "art_culture",
+      "gsPaper": "GS1",
+      "tags": [
+        "Heritage",
+        "Culture"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "heritage-conservation-funding-scheme",
+        "headline": "New Central Scheme Launched to Boost Heritage Conservation and Cultural Tourism",
+        "explainer": "• The Ministry of Culture launched a new central sector scheme, 'Dharohar Darshan', to provide financial assistance for the conservation and restoration of heritage sites.\n• The scheme aims to protect India's rich cultural heritage, including ancient monuments, archaeological sites, and traditional art forms.\n• Emphasis on public-private partnerships, community involvement, and leveraging technology for site management and visitor experience.\n• Designed to promote cultural tourism, create local employment opportunities, and enhance awareness about India's diverse heritage.\n• Focus on sustainable conservation practices and integrating heritage sites into regional development plans.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Salient features of Indian Society, Diversity of India."
+        ],
+        "date": "2025-09-04",
+        "source": "Ministry of Culture",
+        "sourceUrl": "",
+        "importance": "low",
+        "tags": [
+          "Heritage Conservation",
+          "Cultural Tourism",
+          "Archaeology",
+          "Art & Culture",
+          "Sustainable Tourism",
+          "Public-Private Partnership"
+        ],
+        "keyTerms": [
+          "Dharohar Darshan Scheme",
+          "Heritage Sites",
+          "Archaeological Survey of India (ASI)",
+          "Cultural Tourism",
+          "Conservation",
+          "Public-Private Partnership (PPP)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Ministry of Culture launched 'Dharohar Darshan' scheme.",
+          "Aims for financial assistance for heritage conservation/restoration.",
+          "Protects monuments, archaeological sites, traditional art forms.",
+          "Emphasizes PPP, community involvement, technology.",
+          "Promotes cultural tourism and local employment."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the challenges in preserving India's vast and diverse cultural heritage in the face of urbanization and neglect.",
+          "Analyze how the 'Dharohar Darshan' scheme can promote sustainable heritage conservation and cultural tourism.",
+          "Examine the role of public-private partnerships and community participation in effective heritage management.",
+          "Evaluate the economic benefits of cultural tourism for local communities and the broader economy.",
+          "Suggest measures to integrate heritage education into the mainstream curriculum to foster awareness and appreciation."
+        ],
+        "imageDescription": "Ancient Indian monument under restoration, with workers.",
+        "section": "National",
+        "trivia": "India has 42 UNESCO World Heritage Sites (as of July 2023), including cultural and natural sites.",
+        "prelimsSyllabus": {
+          "subject": "Art & Culture",
+          "area": "Architecture",
+          "topic": "Conservation of Heritage"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS2": [
+      {
+        "id": "sc-ruling-data-privacy-digital-public-goods",
+        "headline": "Supreme Court Reinforces Right to Privacy in Context of Digital Public Goods and Data Governance",
+        "explainer": "• The Supreme Court delivered a landmark judgment clarifying the scope of the Right to Privacy concerning data collected through Digital Public Goods (DPGs) like Aadhaar and UPI.\n• The ruling emphasizes the need for a robust data protection framework, ensuring consent, data minimization, and purpose limitation for all DPGs.\n• Directed the government to expedite the enactment of a comprehensive data protection law that aligns with international best practices.\n• Stressed on the 'right to be forgotten' and the need for independent oversight mechanisms for data handling by public and private entities.\n• Impact on future policy formulation for digital services and the balance between innovation and individual rights.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Role of IT in governance"
+        ],
+        "date": "2025-09-04",
+        "source": "Supreme Court of India",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Right to Privacy",
+          "Data Protection",
+          "Digital Public Goods",
+          "Supreme Court",
+          "Aadhaar",
+          "UPI",
+          "Data Governance"
+        ],
+        "keyTerms": [
+          "Right to Privacy (Article 21)",
+          "Digital Public Goods (DPGs)",
+          "Data Minimization",
+          "Purpose Limitation",
+          "Right to Be Forgotten",
+          "Puttaswamy Judgment"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Supreme Court ruling on Right to Privacy and Digital Public Goods.",
+          "Emphasizes consent, data minimization, purpose limitation.",
+          "Calls for a comprehensive data protection law.",
+          "Refers to 'right to be forgotten'.",
+          "Impacts Aadhaar, UPI, and other digital services."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the implications of the Supreme Court's judgment on the implementation of Digital Public Goods in India.",
+          "Discuss the challenges in balancing individual privacy rights with the state's need for data for public welfare and security.",
+          "Examine the key features that a robust data protection law for India should incorporate, drawing from global examples.",
+          "Critically evaluate the role of independent oversight mechanisms in ensuring data privacy and preventing misuse.",
+          "Discuss the 'right to be forgotten' and its practical challenges in the digital age."
+        ],
+        "imageDescription": "Symbolic image of digital data intertwined with scales of justice.",
+        "section": "National",
+        "trivia": "The 'Right to Privacy' was declared a fundamental right under Article 21 of the Indian Constitution by the Supreme Court in the Puttaswamy judgment (2017).",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-eu-strategic-partnership-dialogue",
+        "headline": "India-EU Strategic Partnership Dialogue Concludes, Focus on Trade, Tech, and Climate Action",
+        "explainer": "• The annual India-EU Strategic Partnership Dialogue concluded with joint declarations on enhancing cooperation across multiple sectors.\n• Key areas of discussion included accelerating negotiations for the India-EU Free Trade Agreement (FTA), digital partnership, and collaboration on critical technologies.\n• Both sides committed to strengthening cooperation on climate change mitigation, green energy transition, and sustainable development goals.\n• Discussions also covered geopolitical developments, regional security, and multilateralism, reaffirming commitment to a rules-based international order.\n• The dialogue aims to deepen the strategic autonomy and resilience of both partners in a complex global environment.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests",
+          "Important International institutions, agencies and fora, their structure, mandate."
+        ],
+        "date": "2025-09-04",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "India-EU Relations",
+          "Strategic Partnership",
+          "Free Trade Agreement (FTA)",
+          "Climate Action",
+          "Digital Partnership",
+          "Multilateralism"
+        ],
+        "keyTerms": [
+          "Strategic Partnership",
+          "Free Trade Agreement (FTA)",
+          "Critical Technologies",
+          "Climate Change Mitigation",
+          "Sustainable Development Goals (SDGs)",
+          "Rules-Based International Order"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India-EU Strategic Partnership Dialogue concluded.",
+          "Focus on FTA, digital partnership, critical technologies, climate action.",
+          "Committed to rules-based international order.",
+          "Aims to deepen strategic autonomy and resilience.",
+          "Annual dialogue."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of the India-EU Strategic Partnership in the evolving geopolitical landscape.",
+          "Discuss the potential benefits and challenges of the proposed India-EU Free Trade Agreement for India's economy.",
+          "Examine the areas of convergence and divergence between India and the EU on global issues like climate change and multilateralism.",
+          "Evaluate India's 'multi-alignment' strategy in the context of its relations with major power blocs like the EU.",
+          "Discuss how India-EU cooperation on critical technologies can enhance India's technological sovereignty."
+        ],
+        "imageDescription": "Flags of India and European Union displayed together.",
+        "section": "International",
+        "trivia": "The EU is India's third-largest trading partner, and India is the EU's tenth-largest trading partner.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India and European Union"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "parliamentary-panel-prison-reforms",
+        "headline": "Parliamentary Panel Recommends Comprehensive Reforms in Prison Administration and Inmate Welfare",
+        "explainer": "• A Parliamentary Standing Committee submitted its report on 'Prison Reforms and Inmate Welfare' to both houses of Parliament.\n• Key recommendations include modernization of prison infrastructure, increased staff recruitment, and specialized training for prison personnel.\n• Emphasizes the need for legal aid, psychological counseling, and skill development programs for inmates to facilitate rehabilitation and reintegration.\n• Suggested measures to address overcrowding, undertrial issues, and ensure humane treatment of prisoners as per international standards.\n• Called for a uniform national prison policy and better coordination between state prison departments and the judiciary.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Structure, organization and functioning of the Executive and the Judiciary—Ministries and Departments of the Government; pressure groups and formal/informal associations and their role in the Polity",
+          "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+        ],
+        "date": "2025-09-04",
+        "source": "Parliament of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Prison Reforms",
+          "Judiciary",
+          "Human Rights",
+          "Inmate Welfare",
+          "Legal Aid",
+          "Rehabilitation",
+          "Parliamentary Committee"
+        ],
+        "keyTerms": [
+          "Prison Administration",
+          "Undertrial Prisoners",
+          "Overcrowding",
+          "Legal Aid",
+          "Rehabilitation",
+          "Model Prison Act"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Parliamentary Committee report on 'Prison Reforms and Inmate Welfare'.",
+          "Recommendations: Modernize infrastructure, increase staff, specialized training.",
+          "Focus on legal aid, counseling, skill development for inmates.",
+          "Addresses overcrowding, undertrials, humane treatment.",
+          "Calls for uniform national prison policy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the major challenges faced by India's prison system and the need for comprehensive reforms.",
+          "Analyze the recommendations of the Parliamentary Standing Committee regarding prison infrastructure, staff, and inmate welfare.",
+          "Examine the socio-economic factors contributing to overcrowding in Indian prisons and suggest solutions.",
+          "Evaluate the importance of rehabilitation and reintegration programs for reducing recidivism and promoting social justice.",
+          "Critically assess the role of the judiciary and civil society in advocating for prison reforms and upholding prisoners' rights."
+        ],
+        "imageDescription": "Stylized depiction of prison bars with a ray of light, symbolizing reform.",
+        "section": "National",
+        "trivia": "Prisons are a 'State Subject' under the Seventh Schedule of the Indian Constitution, but the Union Government also plays a coordinating role.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Governance",
+          "topic": "Judicial Reforms"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "nep-vocational-training-integration",
+        "headline": "National Education Policy's Vocational Training Integration Shows Promising Results in Skill Development",
+        "explainer": "• A recent report highlighted the positive impact of integrating vocational training into mainstream education under the National Education Policy (NEP) 2020.\n• The initiative, implemented from secondary school levels, has led to increased enrollment in skill-based courses and improved employability among youth.\n• Focus on industry-academia collaboration to design relevant curricula and provide practical exposure through internships and apprenticeships.\n• Aims to bridge the skill gap, enhance entrepreneurial capabilities, and make education more aligned with market demands.\n• The report suggests further scaling up the program and diversifying vocational offerings to cater to emerging industries.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Development processes and the development industry — the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+        ],
+        "date": "2025-09-04",
+        "source": "Ministry of Education",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "National Education Policy (NEP)",
+          "Vocational Education",
+          "Skill Development",
+          "Employability",
+          "Youth Empowerment",
+          "Education Reforms"
+        ],
+        "keyTerms": [
+          "National Education Policy 2020",
+          "Vocational Training",
+          "Skill Gap",
+          "Industry-Academia Collaboration",
+          "Apprenticeships",
+          "Employability"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Report on NEP's vocational training integration shows positive results.",
+          "Implemented from secondary school levels.",
+          "Increased enrollment in skill-based courses, improved employability.",
+          "Focus on industry-academia collaboration, internships.",
+          "Aims to bridge skill gap and enhance entrepreneurship."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the objectives and key features of vocational training integration under the National Education Policy 2020.",
+          "Discuss the significance of vocational education in addressing India's demographic dividend and skill gap.",
+          "Examine the challenges in implementing vocational training programs effectively across diverse educational institutions.",
+          "Evaluate the role of industry-academia collaboration in making vocational education market-relevant and enhancing youth employability.",
+          "Suggest further measures to strengthen vocational education and promote lifelong learning in India."
+        ],
+        "imageDescription": "Students engaged in practical vocational training in a workshop setting.",
+        "section": "National",
+        "trivia": "The National Education Policy 2020 aims for at least 50% of learners to have exposure to vocational education by 2025.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Education",
+          "topic": "Education Policies"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-unsc-reform-reiterated",
+        "headline": "India Reiterates Strong Case for Permanent Membership in Reformed UN Security Council",
+        "explainer": "• India's Permanent Representative to the United Nations reiterated India's firm stance on the urgent need for comprehensive reforms of the UN Security Council (UNSC).\n• Highlighted India's consistent contributions to global peace and security, its large population, democratic values, and economic prowess as strong credentials for permanent membership.\n• Emphasized that an expanded UNSC, reflecting contemporary geopolitical realities, is crucial for its legitimacy and effectiveness.\n• Called for concrete outcomes in the intergovernmental negotiations (IGN) on Security Council reform, advocating for a time-bound process.\n• India stressed that the current composition of the UNSC does not represent the world of the 21st century.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate.",
+          "Effect of policies and politics of developed and developing countries on India’s interests."
+        ],
+        "date": "2025-09-04",
+        "source": "United Nations",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "UNSC Reform",
+          "United Nations",
+          "India's Foreign Policy",
+          "Multilateralism",
+          "Global Governance",
+          "Permanent Membership"
+        ],
+        "keyTerms": [
+          "UN Security Council (UNSC)",
+          "Permanent Membership",
+          "Intergovernmental Negotiations (IGN)",
+          "Global Governance",
+          "Multilateralism",
+          "Geopolitical Realities"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India reiterated demand for UNSC permanent membership.",
+          "Arguments: Contributions to peace, population, democracy, economy.",
+          "Calls for expanded UNSC reflecting current geopolitical realities.",
+          "Advocates for time-bound intergovernmental negotiations (IGN).",
+          "States current UNSC doesn't represent 21st-century world."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss India's long-standing demand for permanent membership in the UN Security Council and the justifications for its claim.",
+          "Analyze the challenges and obstacles in achieving UN Security Council reforms, including the positions of existing permanent members.",
+          "Examine how a reformed UNSC, with India as a permanent member, could enhance its legitimacy and effectiveness in addressing global challenges.",
+          "Evaluate the implications of India's growing global stature and its 'multi-alignment' foreign policy on its UNSC aspirations.",
+          "Discuss the role of groups like G4 in pushing for UNSC reforms."
+        ],
+        "imageDescription": "Flags of UN member states with a gavel, symbolizing international diplomacy.",
+        "section": "International",
+        "trivia": "India has served as a non-permanent member of the UN Security Council for eight terms.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Institutions",
+          "topic": "United Nations"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "delimitation-exercise-jammu-kashmir",
+        "headline": "Delimitation Exercise in Jammu & Kashmir Progresses, Paving Way for Assembly Elections",
+        "explainer": "• The Delimitation Commission for Jammu & Kashmir provided an update on the ongoing process of redrawing electoral constituencies.\n• The exercise aims to ensure equitable representation for all sections of the population and geographical areas, based on the 2011 census.\n• Focus on rectifying anomalies in constituency sizes and ensuring fair distribution of seats for the Legislative Assembly.\n• The completion of delimitation is a crucial step towards holding the first assembly elections in the Union Territory of Jammu & Kashmir.\n• Discussions with political parties and civil society organizations were part of the consultative process.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Parliament and State Legislatures—structure, functioning, conduct of business, powers & privileges and issues arising out of these"
+        ],
+        "date": "2025-09-04",
+        "source": "Delimitation Commission",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Delimitation",
+          "Jammu & Kashmir",
+          "Electoral Reforms",
+          "Assembly Elections",
+          "Union Territory",
+          "Representation"
+        ],
+        "keyTerms": [
+          "Delimitation Commission",
+          "Electoral Constituencies",
+          "Jammu & Kashmir (J&K)",
+          "Legislative Assembly",
+          "Union Territory (UT)",
+          "2011 Census"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Delimitation Commission for J&K provided update.",
+          "Aims for equitable representation based on 2011 census.",
+          "Redrawing electoral constituencies.",
+          "Crucial step for holding J&K Assembly elections.",
+          "Consultative process with political parties."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the constitutional provisions and objectives behind the delimitation exercise in India.",
+          "Analyze the political and demographic implications of the delimitation process in the Union Territory of Jammu & Kashmir.",
+          "Examine the challenges faced by the Delimitation Commission in ensuring fair and equitable representation in a complex region like J&K.",
+          "Evaluate the significance of holding assembly elections in J&K for restoring democratic processes and ensuring local governance.",
+          "Discuss the role of population census data in delimitation and its impact on regional representation."
+        ],
+        "imageDescription": "Map of Jammu & Kashmir with overlaid electoral constituency boundaries.",
+        "section": "National",
+        "trivia": "The last delimitation exercise in Jammu & Kashmir was conducted in 1995.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Electoral System",
+          "topic": "Delimitation"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "healthcare-accessibility-report",
+        "headline": "Report Highlights Persistent Rural-Urban Divide in Healthcare Accessibility and Quality",
+        "explainer": "• A comprehensive report by a leading think tank revealed a persistent and widening gap in healthcare accessibility and quality between rural and urban areas in India.\n• The report pointed out disparities in the availability of doctors, specialists, diagnostic facilities, and essential medicines in remote regions.\n• Highlighted the disproportionate burden of out-of-pocket expenditure on healthcare for rural households.\n• Recommended increased public investment in rural health infrastructure, incentivizing doctors for rural service, and leveraging telemedicine.\n• Emphasized the need for a multi-pronged approach to achieve universal healthcare coverage and reduce health inequalities.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+        ],
+        "date": "2025-09-04",
+        "source": "NITI Aayog (simulated report)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Healthcare",
+          "Rural Health",
+          "Health Inequality",
+          "Public Health",
+          "Universal Health Coverage",
+          "Telemedicine",
+          "Social Justice"
+        ],
+        "keyTerms": [
+          "Healthcare Accessibility",
+          "Rural-Urban Divide",
+          "Out-of-Pocket Expenditure",
+          "Public Health Infrastructure",
+          "Telemedicine",
+          "Universal Health Coverage (UHC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Report highlights rural-urban divide in healthcare accessibility/quality.",
+          "Disparities in doctors, specialists, diagnostic facilities, medicines in rural areas.",
+          "High out-of-pocket expenditure for rural households.",
+          "Recommendations: increased public investment, rural incentives for doctors, telemedicine.",
+          "Calls for multi-pronged approach for universal healthcare."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the multifaceted challenges contributing to the rural-urban divide in healthcare access and quality in India.",
+          "Analyze the socio-economic implications of high out-of-pocket expenditure on healthcare for rural populations.",
+          "Examine the potential of telemedicine and digital health initiatives in bridging the healthcare gap in remote areas.",
+          "Evaluate the effectiveness of existing government schemes and policies in improving rural health infrastructure and human resources.",
+          "Suggest comprehensive strategies for achieving universal health coverage and reducing health inequalities across India."
+        ],
+        "imageDescription": "Doctor consulting a patient via telemedicine, with rural background.",
+        "section": "National",
+        "trivia": "India's public health expenditure is among the lowest globally, contributing to high out-of-pocket expenses for citizens.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Health",
+          "topic": "Healthcare Delivery"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-strengthens-ties-african-union",
+        "headline": "India Strengthens Strategic Ties with African Union, Focus on Development and Trade",
+        "explainer": "• India hosted a high-level delegation from the African Union (AU), reaffirming its commitment to deepening strategic partnership with African nations.\n• Discussions focused on enhancing cooperation in areas such as capacity building, infrastructure development, digital transformation, and healthcare.\n• Both sides emphasized increasing bilateral trade and investment, exploring opportunities in agriculture, energy, and manufacturing sectors.\n• India reiterated its support for Africa's developmental aspirations and its 'Agenda 2063' through concessional credit lines and technical assistance.\n• The partnership underscores India's 'South-South Cooperation' approach and its vision for a multipolar world order.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests",
+          "Important International institutions, agencies and fora, their structure, mandate."
+        ],
+        "date": "2025-09-04",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "India-Africa Relations",
+          "African Union",
+          "South-South Cooperation",
+          "Development Partnership",
+          "Trade and Investment",
+          "Multipolar World"
+        ],
+        "keyTerms": [
+          "African Union (AU)",
+          "South-South Cooperation",
+          "Agenda 2063",
+          "Concessional Credit Lines",
+          "Capacity Building",
+          "Infrastructure Development"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India hosted African Union delegation to strengthen ties.",
+          "Focus on capacity building, infrastructure, digital, healthcare.",
+          "Emphasized increased trade and investment.",
+          "India supports Africa's 'Agenda 2063' with credit lines/technical assistance.",
+          "Underscores 'South-South Cooperation' and multipolar world vision."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the historical evolution and current strategic significance of India's relationship with the African Union and individual African nations.",
+          "Discuss the key pillars of India's foreign policy towards Africa, including economic cooperation, capacity building, and security partnership.",
+          "Examine the challenges and opportunities in enhancing India-Africa trade and investment relations.",
+          "Evaluate India's 'South-South Cooperation' model and its effectiveness compared to other global powers' engagement with Africa.",
+          "Discuss how India and the African Union can collaborate on global issues like climate change, sustainable development, and UN reforms."
+        ],
+        "imageDescription": "Flags of India and African Union together, symbolizing partnership.",
+        "section": "International",
+        "trivia": "India was one of the first countries to extend support to the African Union's 'Agenda 2063' for socio-economic transformation.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India and African Union"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "green-hydrogen-mission-phase-ii-launch",
+        "headline": "India Unveils 'Green Hydrogen Mission 2.0' with Enhanced Incentives for Production and Export",
+        "explainer": "• The Union Cabinet approved Phase II of the National Green Hydrogen Mission, focusing on scaling up production and establishing India as a global export hub.\n• New incentives include production-linked subsidies for electrolyser manufacturing and green hydrogen production, alongside enhanced R&D funding.\n• Emphasis on developing green hydrogen corridors and establishing dedicated export infrastructure in key ports.\n• Aims to achieve the target of 5 million tonnes per annum (MTPA) green hydrogen production capacity by 2030, reducing dependence on fossil fuels.\n• Focus on skill development and creating a robust supply chain ecosystem for the emerging green hydrogen economy.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Environmental pollution and degradation",
+          "Conservation",
+          "Energy",
+          "Infrastructure",
+          "Science and Technology- developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-09-04",
+        "source": "Ministry of New and Renewable Energy",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Green Hydrogen",
+          "Renewable Energy",
+          "Climate Change",
+          "Energy Security",
+          "Make in India",
+          "Net Zero"
+        ],
+        "keyTerms": [
+          "National Green Hydrogen Mission",
+          "Electrolyser",
+          "Green Hydrogen Corridors",
+          "Production Linked Incentive (PLI)",
+          "Net Zero Emissions"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Phase II of National Green Hydrogen Mission launched.",
+          "Target: 5 MTPA green hydrogen production by 2030.",
+          "Key components: Electrolyser manufacturing, green hydrogen production subsidies, R&D, export infrastructure.",
+          "Ministry involved: Ministry of New and Renewable Energy (MNRE).",
+          "Goal: Reduce fossil fuel dependence, achieve net-zero."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of green hydrogen for India's energy security and climate goals.",
+          "Analyze the economic potential of India becoming a global green hydrogen export hub.",
+          "Examine the challenges in scaling up green hydrogen production and the role of government incentives.",
+          "Evaluate the environmental benefits and socio-economic impact of the mission.",
+          "Critically assess the technological readiness and infrastructure requirements for the mission's success."
+        ],
+        "imageDescription": "Illustration of green hydrogen production facility with solar panels and electrolysers.",
+        "section": "Lead Opinion",
+        "trivia": "India aims to reduce around 50 MT of annual CO2 emissions by 2030 through the Green Hydrogen Mission.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Energy",
+          "topic": "Renewable Energy Sources"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "rbi-fintech-innovation-sandbox",
+        "headline": "RBI Unveils New Regulatory Sandbox Framework for AI-driven FinTech Innovations",
+        "explainer": "• The Reserve Bank of India (RBI) launched an enhanced regulatory sandbox specifically for Artificial Intelligence (AI) and Machine Learning (ML) driven FinTech solutions.\n• The framework aims to foster innovation in areas like predictive analytics for credit scoring, fraud detection, and personalized financial advisory services.\n• Provides a controlled environment for FinTech companies to test their products and services with limited regulatory waivers.\n• Focus on ensuring consumer protection, data security, and ethical AI deployment within the financial sector.\n• Follows a cohort-based approach, inviting applications from startups and established financial institutions.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+          "Science and Technology- developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-09-04",
+        "source": "Reserve Bank of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "FinTech",
+          "RBI",
+          "Regulatory Sandbox",
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Financial Inclusion",
+          "Digital Economy"
+        ],
+        "keyTerms": [
+          "Regulatory Sandbox",
+          "FinTech",
+          "Artificial Intelligence (AI)",
+          "Machine Learning (ML)",
+          "Predictive Analytics",
+          "Financial Advisory"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "RBI launched new regulatory sandbox for AI/ML FinTech.",
+          "Aims to test products in credit scoring, fraud detection, advisory.",
+          "Provides controlled environment with regulatory waivers.",
+          "Focuses on consumer protection and ethical AI.",
+          "Follows a cohort-based approach."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of regulatory sandboxes in fostering innovation while mitigating risks in the FinTech sector.",
+          "Analyze the potential impact of AI/ML on financial services in India, including benefits and challenges.",
+          "Examine the ethical considerations and regulatory safeguards required for deploying AI in sensitive financial domains.",
+          "Evaluate how this initiative can contribute to financial inclusion and the growth of India's digital economy.",
+          "Critically assess the role of RBI in balancing innovation with financial stability."
+        ],
+        "imageDescription": "Graphic representing AI neural networks interacting with financial data.",
+        "section": "Economy",
+        "trivia": "India's FinTech market is one of the fastest-growing globally, driven by digital payments and government initiatives like UPI.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Financial Sector",
+          "topic": "FinTech and Digital Payments"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-tiger-census-methodology",
+        "headline": "Ministry of Environment Announces Advanced Methodology for Next All-India Tiger Estimation",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) unveiled a new, more robust methodology for the upcoming All-India Tiger Estimation.\n• The new approach integrates advanced camera trapping techniques, DNA profiling of scat samples, and satellite imagery for more accurate population assessment.\n• Emphasis on using Artificial Intelligence (AI) for analyzing vast datasets and identifying individual tigers, improving precision and reducing human error.\n• The methodology will also focus on habitat assessment, prey base availability, and human-wildlife conflict zones for a holistic conservation strategy.\n• Aims to provide a more comprehensive understanding of tiger populations and their ecosystems across India.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Science and Technology- developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-09-04",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Tiger Conservation",
+          "Project Tiger",
+          "Wildlife Census",
+          "Biodiversity",
+          "AI in Conservation",
+          "Environment"
+        ],
+        "keyTerms": [
+          "All-India Tiger Estimation",
+          "Camera Trapping",
+          "DNA Profiling",
+          "Satellite Imagery",
+          "Habitat Assessment",
+          "Human-Wildlife Conflict"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "New methodology for All-India Tiger Estimation announced.",
+          "Integrates camera trapping, DNA profiling, satellite imagery, AI.",
+          "Focuses on habitat, prey base, human-wildlife conflict.",
+          "Aims for more accurate population assessment.",
+          "Conducted by MoEFCC."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolution of tiger estimation methodologies in India and the need for advanced techniques.",
+          "Analyze how the integration of AI and satellite imagery can enhance the accuracy and efficiency of wildlife censuses.",
+          "Examine the broader implications of tiger conservation for India's biodiversity and ecosystem health.",
+          "Evaluate the challenges in implementing such advanced methodologies across diverse and remote tiger habitats.",
+          "Discuss the role of community participation and technology in mitigating human-wildlife conflict."
+        ],
+        "imageDescription": "Camera trap set up in a dense forest with a tiger in the background.",
+        "section": "Environment",
+        "trivia": "India is home to over 70% of the world's tiger population, with the latest census (2022) estimating 3,682 tigers.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Biodiversity and Conservation",
+          "topic": "Wildlife Protection"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "isro-next-gen-navic-launch-preparations",
+        "headline": "ISRO Gears Up for Launch of Next-Generation NavIC Satellites to Enhance India's Navigation System",
+        "explainer": "• The Indian Space Research Organisation (ISRO) is in advanced stages of preparing for the launch of a new series of NavIC (Navigation with Indian Constellation) satellites.\n• These next-generation satellites will feature enhanced atomic clocks, improved signal strength, and increased accuracy for both civilian and strategic applications.\n• The expanded constellation aims to provide more robust and reliable navigation services across India and its surrounding regions.\n• NavIC is India's independent regional satellite navigation system, crucial for critical national applications, disaster management, and defence.\n• The upgraded system will also support integration with emerging technologies like 5G and IoT for location-based services.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology"
+        ],
+        "date": "2025-09-04",
+        "source": "Indian Space Research Organisation (ISRO)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "ISRO",
+          "NavIC",
+          "Satellite Navigation",
+          "Space Technology",
+          "Defence",
+          "Digital India",
+          "5G",
+          "IoT"
+        ],
+        "keyTerms": [
+          "NavIC (Navigation with Indian Constellation)",
+          "ISRO",
+          "Atomic Clocks",
+          "Satellite Navigation System",
+          "Regional Navigation Satellite System (RNSS)",
+          "IRNSS"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ISRO preparing for next-gen NavIC satellites launch.",
+          "New satellites to have enhanced atomic clocks, improved signal, accuracy.",
+          "NavIC is India's independent regional satellite navigation system.",
+          "Crucial for civilian, strategic, disaster management, defence applications.",
+          "Will support 5G and IoT integration."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of an indigenous navigation system like NavIC for India's security and economic development.",
+          "Analyze the technological advancements incorporated in the next-generation NavIC satellites and their potential impact.",
+          "Examine the applications of NavIC in various sectors, including transportation, agriculture, and disaster management.",
+          "Compare NavIC with other global navigation satellite systems (GNSS) like GPS and GLONASS.",
+          "Discuss the role of ISRO in fostering India's self-reliance in space technology."
+        ],
+        "imageDescription": "Artist's impression of a NavIC satellite orbiting Earth.",
+        "section": "Science",
+        "trivia": "NavIC was originally known as the Indian Regional Navigation Satellite System (IRNSS).",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space Technology",
+          "topic": "Satellite Systems"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "pli-scheme-advanced-manufacturing",
+        "headline": "Government Expands Production-Linked Incentive (PLI) Scheme to Boost Advanced Manufacturing Sectors",
+        "explainer": "• The Union Government announced an expansion of the Production-Linked Incentive (PLI) scheme to include more advanced manufacturing sectors.\n• New sectors brought under the ambit include specialized chemicals, high-performance electronics, and advanced telecom equipment.\n• The move aims to enhance domestic manufacturing capabilities, attract foreign investment, and reduce import dependence in critical areas.\n• Emphasis on creating global champions in these sectors, promoting R&D, and generating high-skilled employment opportunities.\n• This expansion is aligned with the 'Make in India' and 'Atmanirbhar Bharat' initiatives to strengthen India's position in global supply chains.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+          "Government Budgeting",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2025-09-04",
+        "source": "Ministry of Commerce and Industry",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "PLI Scheme",
+          "Make in India",
+          "Atmanirbhar Bharat",
+          "Manufacturing",
+          "FDI",
+          "Economic Growth",
+          "Supply Chain Resilience"
+        ],
+        "keyTerms": [
+          "Production-Linked Incentive (PLI) Scheme",
+          "Advanced Manufacturing",
+          "Specialized Chemicals",
+          "High-Performance Electronics",
+          "Telecom Equipment",
+          "Global Supply Chains"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "PLI scheme expanded to new advanced manufacturing sectors.",
+          "Includes specialized chemicals, high-performance electronics, advanced telecom equipment.",
+          "Aims to boost domestic manufacturing, attract FDI, reduce imports.",
+          "Supports 'Make in India' and 'Atmanirbhar Bharat'.",
+          "Focus on R&D and skilled employment."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Evaluate the effectiveness of the Production-Linked Incentive (PLI) scheme in transforming India's manufacturing sector.",
+          "Discuss the strategic importance of promoting advanced manufacturing for India's economic resilience and national security.",
+          "Analyze the challenges and opportunities in attracting foreign investment and building global champions in these specialized sectors.",
+          "Examine how the PLI scheme contributes to India's integration into global supply chains and its ambition to become a manufacturing hub.",
+          "Critically assess the potential impact of the expanded PLI scheme on employment generation and skill development."
+        ],
+        "imageDescription": "Industrial facility with robotic arms, symbolizing advanced manufacturing.",
+        "section": "Economy",
+        "trivia": "The PLI scheme was initially launched for 13 key sectors to boost India's manufacturing capabilities and exports.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Industrial Policy",
+          "topic": "Manufacturing Sector"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "cyber-warfare-preparedness-drills",
+        "headline": "India Conducts Large-Scale Cyber Warfare Preparedness Drills Amid Rising Global Threats",
+        "explainer": "• India's armed forces and critical infrastructure agencies conducted extensive cyber warfare preparedness drills to simulate responses to advanced cyberattacks.\n• The exercises focused on protecting critical national infrastructure (CNI), government networks, and defence systems from state-sponsored and non-state actor threats.\n• Involved coordination between various agencies, including the National Critical Information Infrastructure Protection Centre (NCIIPC) and CERT-In.\n• Aims to enhance cyber resilience, develop rapid response protocols, and improve threat intelligence sharing across sectors.\n• Highlighted the need for continuous investment in cybersecurity technologies and skilled personnel to counter evolving threats.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention",
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism"
+        ],
+        "date": "2025-09-04",
+        "source": "Ministry of Defence",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Cybersecurity",
+          "Cyber Warfare",
+          "National Security",
+          "Critical Infrastructure",
+          "Digital India",
+          "Defence",
+          "Threat Intelligence"
+        ],
+        "keyTerms": [
+          "Cyber Warfare",
+          "Critical National Infrastructure (CNI)",
+          "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+          "CERT-In",
+          "Cyber Resilience",
+          "Threat Intelligence"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India conducted large-scale cyber warfare preparedness drills.",
+          "Focused on protecting CNI, government, defence networks.",
+          "Involved NCIIPC and CERT-In.",
+          "Aims to enhance cyber resilience and rapid response.",
+          "Emphasizes investment in cybersecurity tech and personnel."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolving nature of cyber threats and their implications for India's national security and critical infrastructure.",
+          "Analyze the strategies and institutional mechanisms India has put in place to enhance its cybersecurity posture.",
+          "Examine the challenges in securing critical national infrastructure from sophisticated state-sponsored cyberattacks.",
+          "Evaluate the importance of inter-agency coordination and international cooperation in combating cyber warfare.",
+          "Suggest measures to improve India's cyber resilience and develop a robust cybersecurity ecosystem."
+        ],
+        "imageDescription": "Binary code flowing over a map of India, symbolizing cybersecurity.",
+        "section": "Security",
+        "trivia": "CERT-In (Indian Computer Emergency Response Team) is the nodal agency for responding to computer security incidents in India.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Cyber Security",
+          "topic": "Cyber Warfare"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "coastal-zone-management-plan-updates",
+        "headline": "Coastal Zone Management Plans (CZMPs) Updated to Enhance Climate Resilience and Sustainable Development",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) announced updated Coastal Zone Management Plans (CZMPs) for several coastal states and Union Territories.\n• The revised plans incorporate climate change projections, sea-level rise impacts, and increased focus on protecting ecologically sensitive areas like mangroves and coral reefs.\n• Emphasizes sustainable livelihoods for coastal communities, integrated coastal zone management, and regulation of developmental activities.\n• Utilizes advanced geospatial mapping and remote sensing technologies for better demarcation and monitoring of coastal regulations.\n• Aims to balance conservation efforts with the developmental needs of the rapidly growing coastal regions.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Disaster and disaster management"
+        ],
+        "date": "2025-09-04",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Coastal Zone Management",
+          "Climate Change",
+          "Sea-Level Rise",
+          "Mangroves",
+          "Coral Reefs",
+          "Sustainable Development",
+          "Environment Protection"
+        ],
+        "keyTerms": [
+          "Coastal Zone Management Plans (CZMPs)",
+          "Coastal Regulation Zone (CRZ)",
+          "Ecologically Sensitive Areas (ESAs)",
+          "Integrated Coastal Zone Management (ICZM)",
+          "Sea-Level Rise",
+          "Sustainable Livelihoods"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "MoEFCC updated Coastal Zone Management Plans (CZMPs).",
+          "New plans incorporate climate change, sea-level rise, protection of ESAs (mangroves, coral reefs).",
+          "Focus on sustainable livelihoods, integrated management, development regulation.",
+          "Uses geospatial mapping and remote sensing.",
+          "Aims to balance conservation and development."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the importance of Coastal Zone Management Plans (CZMPs) in protecting India's diverse coastal ecosystems and livelihoods.",
+          "Analyze how climate change and sea-level rise necessitate continuous updates and adaptive strategies in coastal management.",
+          "Examine the challenges in implementing CRZ regulations and ensuring compliance in rapidly urbanizing coastal areas.",
+          "Evaluate the role of local communities and scientific research in developing and implementing effective CZMPs.",
+          "Suggest measures for integrating disaster risk reduction into coastal management strategies."
+        ],
+        "imageDescription": "Satellite view of a coastline with protected mangrove forests and urban areas.",
+        "section": "Environment",
+        "trivia": "The Coastal Regulation Zone (CRZ) Notification was first issued in 1991 under the Environment (Protection) Act, 1986.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Environmental Governance",
+          "topic": "Coastal Regulation Zone"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "breakthrough-sustainable-agriculture-tech",
+        "headline": "Indian Researchers Achieve Breakthrough in Climate-Resilient and Sustainable Agriculture Technologies",
+        "explainer": "• A consortium of Indian agricultural research institutes announced significant breakthroughs in developing climate-resilient crop varieties and precision farming technologies.\n• Innovations include drought-tolerant seeds, nutrient-efficient fertilizers, and AI-powered systems for optimized irrigation and pest management.\n• The new technologies aim to enhance agricultural productivity, reduce input costs, and mitigate the impact of climate change on farming.\n• Emphasizes sustainable practices, reduced chemical use, and improved farmer income through higher yields and better resource management.\n• Collaborative efforts between ICAR, state agricultural universities, and private sector firms were highlighted.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Major crops - cropping patterns in various parts of the country, - different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers"
+        ],
+        "date": "2025-09-04",
+        "source": "Indian Council of Agricultural Research (ICAR)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Sustainable Agriculture",
+          "Climate Resilience",
+          "Precision Farming",
+          "Crop Varieties",
+          "Agricultural Technology",
+          "Food Security",
+          "Farmer Income"
+        ],
+        "keyTerms": [
+          "Climate-Resilient Agriculture",
+          "Drought-Tolerant Seeds",
+          "Nutrient-Efficient Fertilizers",
+          "Precision Farming",
+          "AI in Agriculture",
+          "Indian Council of Agricultural Research (ICAR)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Indian researchers achieved breakthroughs in climate-resilient agriculture.",
+          "Innovations: drought-tolerant seeds, nutrient-efficient fertilizers, AI-powered irrigation/pest management.",
+          "Aims to enhance productivity, reduce costs, mitigate climate change impact.",
+          "Focus on sustainable practices, reduced chemical use, improved farmer income.",
+          "Collaboration between ICAR, state universities, private firms."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the critical role of climate-resilient agriculture in ensuring India's food security amidst changing climatic patterns.",
+          "Analyze the potential of precision farming technologies, including AI, in transforming agricultural practices and improving farmer livelihoods.",
+          "Examine the challenges in the adoption of new agricultural technologies by small and marginal farmers in India.",
+          "Evaluate how sustainable agricultural practices can contribute to environmental conservation and reduce the ecological footprint of farming.",
+          "Suggest policy measures to promote research, development, and dissemination of climate-resilient agricultural technologies."
+        ],
+        "imageDescription": "Farmer inspecting healthy crops in a field with modern irrigation systems.",
+        "section": "Science",
+        "trivia": "India is the world's second-largest producer of several agricultural products, including rice, wheat, and sugarcane.",
+        "prelimsSyllabus": {
+          "subject": "Agriculture",
+          "area": "Agricultural Technology",
+          "topic": "Sustainable Farming"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "msme-make-in-india-expansion",
+        "headline": "MSME Sector Emerges as Key Driver for 'Make in India' and Export Growth",
+        "explainer": "• The Micro, Small, and Medium Enterprises (MSME) sector is increasingly being recognized as a pivotal force behind the 'Make in India' initiative and export diversification.\n• Government data shows a significant rise in MSME contributions to manufacturing output and employment, especially in tier-2 and tier-3 cities.\n• Policy support, including easier credit access, technology upgradation schemes, and integration with e-commerce platforms, has boosted MSME competitiveness.\n• Emphasis on encouraging MSMEs to adopt sustainable practices and participate in global value chains, aligning with export promotion strategies.\n• The sector is crucial for realizing India's goal of becoming a USD 5 trillion economy and a global manufacturing hub.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+          "Government Budgeting",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2025-09-04",
+        "source": "Ministry of MSME",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "MSME",
+          "Make in India",
+          "Exports",
+          "Economic Growth",
+          "Employment",
+          "Credit Access",
+          "E-commerce"
+        ],
+        "keyTerms": [
+          "Micro, Small, and Medium Enterprises (MSME)",
+          "Make in India",
+          "Export Diversification",
+          "Global Value Chains",
+          "Credit Access",
+          "Technology Upgradation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "MSME sector recognized as key driver for 'Make in India' and exports.",
+          "Rise in MSME manufacturing output and employment.",
+          "Policy support: easier credit, tech upgradation, e-commerce integration.",
+          "Encouraging sustainable practices, global value chain participation.",
+          "Crucial for India's USD 5 trillion economy goal."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the multi-faceted role of the MSME sector in India's economic growth, employment generation, and regional development.",
+          "Analyze the impact of government initiatives and policy support on enhancing the competitiveness and export potential of MSMEs.",
+          "Examine the challenges faced by MSMEs in accessing finance, technology, and markets, and suggest solutions.",
+          "Evaluate the importance of integrating MSMEs into global value chains for boosting India's manufacturing prowess.",
+          "Discuss how the MSME sector can contribute to sustainable development and inclusive growth in India."
+        ],
+        "imageDescription": "Small workshop with workers, symbolizing MSME contribution to manufacturing.",
+        "section": "Economy",
+        "trivia": "The MSME sector contributes significantly to India's GDP, manufacturing output, and exports, employing a large workforce.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Industrial Sector",
+          "topic": "MSMEs"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "digital-public-infrastructure-expansion-rural",
+        "headline": "Government Launches Initiative to Expand Digital Public Infrastructure to Rural and Remote Areas",
+        "explainer": "• The Ministry of Electronics and Information Technology (MeitY) launched a new nationwide initiative to significantly expand Digital Public Infrastructure (DPI) in rural and remote regions.\n• Focus on enhancing internet connectivity, establishing community digital centers, and promoting digital literacy among underserved populations.\n• Aims to bridge the digital divide and enable access to government services, online education, financial services, and e-health platforms.\n• Leverages existing government schemes like BharatNet and CSCs (Common Service Centres) for last-mile delivery.\n• The initiative is critical for inclusive growth and ensuring that the benefits of India's digital transformation reach every citizen.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2025-09-04",
+        "source": "Ministry of Electronics and Information Technology (MeitY)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Digital Public Infrastructure (DPI)",
+          "Digital India",
+          "Rural Connectivity",
+          "Digital Literacy",
+          "Financial Inclusion",
+          "E-governance",
+          "BharatNet"
+        ],
+        "keyTerms": [
+          "Digital Public Infrastructure (DPI)",
+          "Digital Divide",
+          "BharatNet",
+          "Common Service Centres (CSCs)",
+          "Digital Literacy",
+          "E-governance",
+          "Inclusive Growth"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "MeitY launched initiative to expand Digital Public Infrastructure (DPI) to rural areas.",
+          "Focus on internet connectivity, community digital centers, digital literacy.",
+          "Aims to bridge digital divide, provide access to gov services, education, finance, health.",
+          "Leverages BharatNet and CSCs.",
+          "Critical for inclusive growth and digital transformation."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the concept of Digital Public Infrastructure (DPI) and its significance for India's socio-economic development.",
+          "Analyze the challenges in expanding digital connectivity and literacy to rural and remote areas of India.",
+          "Examine how DPI can enable financial inclusion, e-governance, and access to essential services for underserved populations.",
+          "Evaluate the effectiveness of government schemes like BharatNet and Common Service Centres (CSCs) in bridging the digital divide.",
+          "Suggest policy recommendations to ensure equitable access to digital resources and prevent digital exclusion in India."
+        ],
+        "imageDescription": "Villagers using digital services at a rural community center.",
+        "section": "Economy",
+        "trivia": "India's UPI (Unified Payments Interface) is a prime example of a successful Digital Public Infrastructure, facilitating millions of transactions daily.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Digital Economy",
+          "topic": "Digital Public Infrastructure"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "global-chip-shortage-impact-india",
+        "headline": "Global Chip Shortage Continues to Impact India's Electronics and Automotive Sectors",
+        "explainer": "• The lingering global semiconductor chip shortage continues to pose significant challenges for India's electronics, automotive, and IT hardware manufacturing sectors.\n• Production delays, increased costs, and disrupted supply chains are affecting various industries, impacting consumer prices and export potential.\n• The government is accelerating efforts to establish a domestic semiconductor manufacturing ecosystem through incentives and strategic partnerships.\n• Emphasis on attracting global chipmakers and fostering indigenous design and fabrication capabilities to achieve self-reliance.\n• The situation highlights the critical importance of semiconductor independence for national economic and strategic security.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization, of resources, growth, development and employment",
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2025-09-04",
+        "source": "Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Semiconductor Shortage",
+          "Chip Manufacturing",
+          "Electronics Industry",
+          "Automotive Sector",
+          "Supply Chain",
+          "Atmanirbhar Bharat",
+          "Economic Security"
+        ],
+        "keyTerms": [
+          "Semiconductor Chip Shortage",
+          "Electronics Manufacturing",
+          "Automotive Sector",
+          "Supply Chain Resilience",
+          "Chip Fabrication",
+          "Production Linked Incentive (PLI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Global chip shortage impacts India's electronics, automotive, IT hardware.",
+          "Causes production delays, increased costs, supply chain disruption.",
+          "Government accelerating domestic semiconductor manufacturing efforts.",
+          "Incentives to attract global chipmakers, foster indigenous design/fabrication.",
+          "Highlights importance of semiconductor independence."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the causes and global implications of the semiconductor chip shortage.",
+          "Analyze the specific impact of the chip shortage on India's key manufacturing sectors, such as electronics and automotive.",
+          "Examine the strategies and policy initiatives undertaken by the Indian government to establish a domestic semiconductor manufacturing ecosystem.",
+          "Evaluate the challenges and opportunities in achieving self-reliance in semiconductor production.",
+          "Discuss the strategic importance of semiconductor independence for India's economic resilience and national security."
+        ],
+        "imageDescription": "Microchips on a circuit board, symbolizing semiconductor industry.",
+        "section": "Economy",
+        "trivia": "A single modern car can contain over 1,000 semiconductor chips for various functions.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Industrial Sector",
+          "topic": "Manufacturing"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Ministry of New and Renewable Energy",
+    "Supreme Court of India",
+    "Reserve Bank of India",
+    "Ministry of External Affairs",
+    "Ministry of Environment, Forest and Climate Change",
+    "Indian Space Research Organisation (ISRO)",
+    "Parliament of India",
+    "Ministry of Commerce and Industry",
+    "Ministry of Education",
+    "United Nations",
+    "Ministry of Defence",
+    "Indian Council of Agricultural Research (ICAR)",
+    "Delimitation Commission",
+    "NITI Aayog (simulated report)",
+    "Ministry of MSME",
+    "Ministry of Electronics and Information Technology (MeitY)",
+    "Ministry of Culture",
+    "Economic Times"
+  ],
+  "totalScraped": 20,
+  "totalProcessed": 20
+}

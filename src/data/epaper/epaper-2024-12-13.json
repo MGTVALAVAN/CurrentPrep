@@ -1,0 +1,1747 @@
+{
+  "date": "2024-12-13",
+  "dateFormatted": "Friday 13 December, 2024",
+  "lastUpdated": "2026-03-21T18:59:28.904Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "sc-digital-citizen-id-privacy",
+      "headline": "Supreme Court Upholds Digital Citizen ID Act, Mandates Robust Privacy Safeguards",
+      "explainer": "• The Supreme Court ruled on the constitutional validity of the National Digital Citizen ID Act (NDCID). • The court affirmed the state's power to use digital identification for efficient welfare delivery and governance. • It mandated the government to establish a stringent data protection framework and independent oversight mechanism. • The judgment emphasized the principles of proportionality, necessity, and individual consent in data collection and usage.",
+      "category": "polity, science",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Fundamental Rights (Right to Privacy)",
+        "Government Policies and Interventions",
+        "e-governance",
+        "IT & Computers",
+        "Cyber Security Challenges"
+      ],
+      "date": "2024-12-13",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Digital ID",
+        "Privacy",
+        "Supreme Court",
+        "Data Protection",
+        "e-governance",
+        "Constitutional Law"
+      ],
+      "keyTerms": [
+        "Digital Public Infrastructure",
+        "Right to Privacy",
+        "Proportionality",
+        "Data Fiduciary",
+        "Data Principal",
+        "Judicial Review"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Digital Citizen ID Act (NDCID) aims to streamline welfare delivery and public services.",
+        "The judgment addresses the constitutional validity of the Act, especially concerning fundamental rights.",
+        "It reinforces principles from the K.S. Puttaswamy judgment (Right to Privacy).",
+        "Mandates an independent oversight body for data handling under NDCID.",
+        "The ruling differentiates between essential and voluntary uses of the digital ID."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the delicate balance between the state's legitimate interest in digital identification for governance and individual privacy rights.",
+        "Analyze the implications of the judgment on India's evolving digital public infrastructure and data governance framework.",
+        "Evaluate the role of judicial review in safeguarding fundamental rights in the digital age, citing specific aspects of the ruling.",
+        "Suggest measures for effective implementation of the mandated data protection framework and independent oversight.",
+        "Examine how this judgment could influence future legislative efforts related to technology and citizen data."
+      ],
+      "imageDescription": "Illustrative image of a digital ID card with a Supreme Court gavel in the background, symbolizing the balance between technology and law.",
+      "section": "Lead Opinion",
+      "trivia": "The 'Right to Privacy' was formally declared a fundamental right in India by the Supreme Court in 2017, marking a significant shift in constitutional jurisprudence.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "pli-green-hydrogen-scheme",
+      "headline": "Government Unveils New PLI Scheme for Green Hydrogen Manufacturing",
+      "explainer": "• The Ministry of New and Renewable Energy launched a new Production Linked Incentive (PLI) scheme for green hydrogen manufacturing. • The scheme aims to boost domestic production of green hydrogen and electrolysers, reducing import dependence. • It targets achieving India's ambitious climate goals and positioning the country as a global hub for green hydrogen. • Incentives will be provided for both manufacturing capacity and production volumes.",
+      "category": "economy, environment, science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Industrial Policy",
+        "Energy",
+        "Climate Change",
+        "Infrastructure",
+        "Government Budgeting"
+      ],
+      "date": "2024-12-13",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "PLI Scheme",
+        "Renewable Energy",
+        "Climate Change",
+        "Make in India",
+        "Energy Security"
+      ],
+      "keyTerms": [
+        "Production Linked Incentive",
+        "Electrolysers",
+        "National Green Hydrogen Mission",
+        "Energy Transition",
+        "Carbon Neutrality"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The PLI scheme is part of India's National Green Hydrogen Mission.",
+        "It aims to incentivize both manufacturing of electrolysers and production of green hydrogen.",
+        "The scheme's objective includes reducing India's dependence on fossil fuels and promoting exports.",
+        "Green hydrogen is produced through electrolysis of water using renewable energy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of the PLI scheme for green hydrogen in achieving India's energy security and climate change commitments.",
+        "Discuss the challenges and opportunities associated with scaling up green hydrogen production in India.",
+        "Evaluate the potential economic impact of this scheme on domestic manufacturing and job creation.",
+        "Compare India's green hydrogen strategy with global initiatives and its potential to become a global leader."
+      ],
+      "imageDescription": "Graphic illustrating the process of green hydrogen production with renewable energy sources like solar and wind.",
+      "section": "Economy",
+      "trivia": "Hydrogen is the most abundant chemical substance in the universe, but 'green' hydrogen specifically refers to that produced with zero carbon emissions.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Infrastructure: Energy",
+        "topic": "Renewable Energy Schemes"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-eu-fta-final-stages",
+      "headline": "India-EU Free Trade Agreement Talks Enter Final Stage, Focus on Services and IP",
+      "explainer": "• Negotiations for the India-European Union Free Trade Agreement (FTA) have entered their conclusive phase. • Key areas of discussion include market access for services, intellectual property rights, and sustainable development provisions. • Both sides express optimism for a swift conclusion, aiming to boost bilateral trade and investment significantly. • The FTA is expected to provide greater market access for Indian goods and services in the EU and vice versa.",
+      "category": "ir, economy",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Bilateral, Regional and Global Groupings",
+        "Effect of Policies and Politics of Developed and Developing Countries on India’s interests",
+        "Indian Economy and issues relating to Planning, Mobilization of Resources, Growth, Development and Employment"
+      ],
+      "date": "2024-12-13",
+      "source": "Livemint",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "India-EU",
+        "FTA",
+        "Trade Agreement",
+        "Bilateral Relations",
+        "Services Trade",
+        "Intellectual Property"
+      ],
+      "keyTerms": [
+        "Free Trade Agreement",
+        "Market Access",
+        "Intellectual Property Rights",
+        "Sustainable Development Provisions",
+        "Rules of Origin"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The India-EU FTA aims to reduce tariffs and non-tariff barriers to trade.",
+        "It covers goods, services, investment, intellectual property, and government procurement.",
+        "The EU is one of India's largest trading partners.",
+        "Sustainable development provisions are a new focus area in modern FTAs."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Evaluate the strategic and economic significance of a comprehensive India-EU FTA for India's foreign trade policy.",
+        "Discuss the potential benefits and challenges for key Indian sectors, particularly services and manufacturing, from this agreement.",
+        "Analyze how the inclusion of intellectual property rights and sustainable development provisions reflects evolving global trade norms.",
+        "Suggest measures India can take to maximize gains and mitigate potential risks from the FTA."
+      ],
+      "imageDescription": "Flags of India and the European Union displayed together, symbolizing cooperation and trade.",
+      "section": "International",
+      "trivia": "The European Union is a political and economic union of 27 member states located primarily in Europe.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Groupings",
+        "topic": "India-EU Relations"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-earth-observation-satellite",
+      "headline": "ISRO Successfully Launches Advanced Earth Observation Satellite EOS-07",
+      "explainer": "• The Indian Space Research Organisation (ISRO) successfully launched its advanced Earth Observation Satellite (EOS-07) aboard a PSLV-C59 rocket. • EOS-07 is equipped with high-resolution optical and synthetic aperture radar (SAR) payloads for enhanced imaging capabilities. • The satellite will provide critical data for agriculture, forestry, disaster management, and urban planning. • This mission further strengthens India's indigenous capabilities in remote sensing and space-based applications.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Space Technology",
+        "Achievements of Indians in Science & Technology",
+        "IT & Computers"
+      ],
+      "date": "2024-12-13",
+      "source": "PTI",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "ISRO",
+        "EOS-07",
+        "Earth Observation",
+        "Satellite Launch",
+        "Space Technology",
+        "Remote Sensing"
+      ],
+      "keyTerms": [
+        "PSLV",
+        "Synthetic Aperture Radar (SAR)",
+        "Geospatial Data",
+        "Remote Sensing",
+        "Optical Payloads"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "EOS-07 is an Earth Observation Satellite launched by ISRO.",
+        "It was launched using the Polar Satellite Launch Vehicle (PSLV-C59).",
+        "The satellite carries both optical and Synthetic Aperture Radar (SAR) payloads.",
+        "Applications include agriculture, disaster management, and environmental monitoring."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of advanced Earth Observation Satellites like EOS-07 for India's socio-economic development and strategic interests.",
+        "Elaborate on the capabilities of SAR technology and its advantages over traditional optical imaging in remote sensing.",
+        "Analyze how ISRO's continuous advancements in space technology contribute to India's self-reliance and global standing in the space sector.",
+        "Examine the potential applications of data from EOS-07 in addressing challenges related to climate change and resource management."
+      ],
+      "imageDescription": "A PSLV rocket launching into space, with an inset of the EOS-07 satellite in orbit.",
+      "section": "Science",
+      "trivia": "India's first satellite, Aryabhata, was launched in 1975 by the Soviet Union. The first satellite launched by an Indian-made launch vehicle was Rohini-1 in 1980.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space Technology",
+        "topic": "ISRO Missions"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "urban-forestation-mission",
+      "headline": "National Mission for Urban Forestation Launched to Combat Air Pollution",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change launched the 'National Mission for Urban Forestation' across 100 major cities. • The mission aims to significantly increase green cover in urban areas, improve air quality, and mitigate the urban heat island effect. • It involves community participation, use of Miyawaki technique, and integration with existing urban development plans. • Funding will be provided to urban local bodies and NGOs for developing green spaces and urban forests.",
+      "category": "environment, society",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Environmental Pollution and Degradation",
+        "Conservation",
+        "Disaster Management",
+        "Government Policies and Interventions"
+      ],
+      "date": "2024-12-13",
+      "source": "Down to Earth",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Urban Forestry",
+        "Air Pollution",
+        "Climate Change",
+        "Green Cover",
+        "Miyawaki Method",
+        "Sustainable Cities"
+      ],
+      "keyTerms": [
+        "Urban Heat Island Effect",
+        "Miyawaki Technique",
+        "Carbon Sequestration",
+        "Ecosystem Services",
+        "Urban Greening"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The mission targets 100 major cities to enhance urban green cover.",
+        "It emphasizes the Miyawaki technique for creating dense urban forests.",
+        "Aims to improve air quality, reduce urban temperatures, and enhance biodiversity.",
+        "Involves collaboration between government, local bodies, and civil society."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the multi-faceted benefits of urban forestation in addressing environmental challenges like air pollution and climate change in Indian cities.",
+        "Evaluate the effectiveness of the Miyawaki technique in creating dense urban green spaces and its suitability for Indian urban landscapes.",
+        "Analyze the role of community participation and inter-agency coordination in the successful implementation of such a national mission.",
+        "Suggest policy interventions needed to sustain and expand urban forestation efforts across the country."
+      ],
+      "imageDescription": "An aerial view of a vibrant green urban forest contrasting with surrounding city buildings, illustrating the impact of urban forestation.",
+      "section": "Environment",
+      "trivia": "The Miyawaki method, developed by Japanese botanist Akira Miyawaki, involves planting native species close together to create dense, fast-growing forests.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Conservation",
+        "topic": "Urban Ecology"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "border-security-review-northern",
+      "headline": "Government Reviews Border Security Infrastructure Along Northern Frontier",
+      "explainer": "• The Ministry of Home Affairs conducted a high-level review of border security infrastructure and deployment along India's northern frontier. • The review focused on modernizing surveillance technology, improving road connectivity, and enhancing troop readiness in challenging terrains. • Discussions included strategies to counter cross-border infiltration, drug trafficking, and other security threats. • The government reiterated its commitment to strengthening border management for national security.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Border Management",
+        "Internal Security Challenges",
+        "Security Forces and their Mandate"
+      ],
+      "date": "2024-12-13",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Border Security",
+        "Northern Borders",
+        "Internal Security",
+        "Border Management",
+        "Infrastructure Development",
+        "Surveillance Technology"
+      ],
+      "keyTerms": [
+        "Line of Actual Control (LAC)",
+        "Integrated Border Management System (IBMS)",
+        "Cross-border Infiltration",
+        "Border Outposts",
+        "High-altitude Warfare"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The review covered India's northern borders, including sensitive sectors.",
+        "Focus areas were technological upgrades, infrastructure development, and troop training.",
+        "Key threats include infiltration, drug smuggling, and illegal migration.",
+        "Various security agencies like ITBP, BSF, and Army are involved in border management."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the multi-dimensional challenges in securing India's northern borders, considering geographical, strategic, and geopolitical factors.",
+        "Evaluate the effectiveness of current border management strategies and the role of technology in enhancing border security.",
+        "Analyze the impact of infrastructure development on troop mobility, logistics, and response time in challenging terrains.",
+        "Suggest comprehensive measures to address cross-border threats and improve coordination among various security agencies."
+      ],
+      "imageDescription": "Indian security personnel patrolling a snowy mountain border, with advanced surveillance equipment visible.",
+      "section": "National",
+      "trivia": "India has approximately 15,106 km of land border and 7,516 km of coastline, requiring extensive security infrastructure and personnel.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "Internal Security",
+        "topic": "Border Management"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "national-mental-health-program",
+      "headline": "New National Mental Health Program Focuses on Youth and Rural Areas",
+      "explainer": "• The Ministry of Health and Family Welfare launched a comprehensive 'National Mental Health Program' with a special focus on youth and rural populations. • The initiative aims to enhance access to mental healthcare services, reduce stigma, and promote mental well-being across all age groups. • It includes provisions for training primary healthcare workers, tele-mental health services, and school-based counseling programs. • The program emphasizes early intervention and community-based support systems.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Health",
+        "Issues Relating to Development and Management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government Policies and Interventions"
+      ],
+      "date": "2024-12-13",
+      "source": "PTI",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Mental Health",
+        "Public Health",
+        "Youth Welfare",
+        "Rural Health",
+        "Healthcare Access",
+        "Social Stigma"
+      ],
+      "keyTerms": [
+        "Tele-mental Health",
+        "Community-based Mental Healthcare",
+        "Primary Healthcare Workers",
+        "Mental Well-being",
+        "Stigma Reduction"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The National Mental Health Program targets youth and rural populations primarily.",
+        "Key components include tele-mental health, training health workers, and school counseling.",
+        "It aims to integrate mental healthcare into primary healthcare.",
+        "Focuses on early intervention and reducing societal stigma related to mental illness."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the growing burden of mental health issues in India, particularly among youth and in rural areas, and the factors contributing to it.",
+        "Analyze the strengths and weaknesses of India's existing mental healthcare infrastructure and the potential impact of this new program.",
+        "Evaluate how tele-mental health services and community-based approaches can address the challenges of accessibility and affordability in mental healthcare.",
+        "Suggest policy recommendations for effective implementation and long-term sustainability of mental health initiatives in India."
+      ],
+      "imageDescription": "A diverse group of people engaged in a supportive group activity, symbolizing community mental health support.",
+      "section": "National",
+      "trivia": "According to WHO, mental health conditions are among the leading causes of disability worldwide, with depression being a primary contributor.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Health",
+        "topic": "Healthcare Policies"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "multi-state-cooperative-amendment",
+      "headline": "Lok Sabha Passes Bill to Amend Multi-State Cooperative Societies Act",
+      "explainer": "• The Lok Sabha passed a bill to amend the Multi-State Cooperative Societies Act, 2002. • The amendments aim to improve governance, enhance management, and strengthen financial discipline in cooperative societies. • Key provisions include electoral reforms, measures for financial health, and ensuring transparency and accountability. • The bill seeks to facilitate the growth of cooperatives as genuine people-centric organizations, aligning with the vision of 'Sahakar se Samriddhi' (prosperity through cooperation).",
+      "category": "polity, economy",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Government Policies and Interventions",
+        "Indian Economy and issues relating to Planning, Mobilization of Resources, Growth, Development and Employment",
+        "Parliament and State Legislatures"
+      ],
+      "date": "2024-12-13",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Cooperative Societies",
+        "Legislative Reforms",
+        "Lok Sabha",
+        "Governance",
+        "Rural Economy",
+        "Sahakar Se Samriddhi"
+      ],
+      "keyTerms": [
+        "Multi-State Cooperative Societies Act",
+        "Cooperative Governance",
+        "Electoral Reforms",
+        "Financial Discipline",
+        "Auditing Standards"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Multi-State Cooperative Societies (Amendment) Bill, 2024, amends the 2002 Act.",
+        "It aims to streamline election processes and improve financial management.",
+        "The bill introduces provisions for greater transparency and accountability.",
+        "The Ministry of Cooperation oversees cooperative development in India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of cooperative societies in India's rural economy and their role in achieving inclusive growth.",
+        "Analyze the key provisions of the Multi-State Cooperative Societies (Amendment) Bill and their potential impact on the functioning of cooperatives.",
+        "Evaluate the challenges faced by cooperative societies in India, such as governance deficits and financial mismanagement, and how the amendments address them.",
+        "Suggest further reforms or policy measures required to strengthen the cooperative movement in India and align it with modern economic needs."
+      ],
+      "imageDescription": "A hand holding a sapling in a field, symbolizing growth and cooperation in the rural economy.",
+      "section": "National",
+      "trivia": "India has one of the largest networks of cooperative societies in the world, playing a crucial role in sectors like agriculture, dairy, and credit.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Government Policies",
+        "topic": "Cooperative Movement"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "rbi-financial-stability-report",
+      "headline": "RBI Releases Financial Stability Report, Highlights Macroeconomic Risks",
+      "explainer": "• The Reserve Bank of India (RBI) released its half-yearly Financial Stability Report (FSR), providing an assessment of the health of the Indian financial system. • The report noted resilience in the banking sector but highlighted global macroeconomic uncertainties and inflationary pressures as key risks. • It emphasized the need for continued vigilance against potential shocks from geopolitical developments and volatile commodity prices. • The FSR also reviewed trends in credit growth, asset quality, and capital adequacy across financial institutions.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to Planning, Mobilization of Resources, Growth, Development and Employment",
+        "Monetary Policy",
+        "Government Budgeting"
+      ],
+      "date": "2024-12-13",
+      "source": "Livemint",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "RBI",
+        "Financial Stability Report",
+        "Macroeconomic Risks",
+        "Banking Sector",
+        "Inflation",
+        "Monetary Policy"
+      ],
+      "keyTerms": [
+        "Financial Stability Report (FSR)",
+        "Non-Performing Assets (NPAs)",
+        "Capital Adequacy Ratio (CAR)",
+        "Inflationary Pressures",
+        "Global Spillovers"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Financial Stability Report (FSR) is published by the Reserve Bank of India (RBI) bi-annually.",
+        "It assesses the stability of the Indian financial system.",
+        "Key indicators analyzed include credit growth, asset quality, and capital adequacy.",
+        "The report often highlights domestic and global risks to financial stability."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the key findings of the RBI's Financial Stability Report regarding the health of India's banking sector and broader financial system.",
+        "Analyze the major macroeconomic risks identified by the RBI, both domestic and global, and their potential impact on India's economic outlook.",
+        "Evaluate the effectiveness of RBI's monetary policy tools and regulatory measures in maintaining financial stability in a volatile global environment.",
+        "Suggest policy interventions or reforms needed to further strengthen the resilience of India's financial system against future shocks."
+      ],
+      "imageDescription": "A chart showing economic indicators with an RBI logo in the background, representing financial analysis.",
+      "section": "Economy",
+      "trivia": "The Reserve Bank of India (RBI) was established on April 1, 1935, under the Reserve Bank of India Act, 1934, and was nationalized in 1949.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Indian Financial Market",
+        "topic": "RBI and Monetary Policy"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-reformed-multilateralism-un",
+      "headline": "India Calls for Reformed Multilateralism at UN Security Council Debate",
+      "explainer": "• India reiterated its call for 'reformed multilateralism' during a high-level debate at the United Nations Security Council (UNSC). • The Permanent Representative of India emphasized the need for a more representative and equitable global governance architecture. • India highlighted the imperative of expanding the UNSC to reflect contemporary geopolitical realities and ensure greater inclusivity. • The debate focused on addressing complex global challenges through enhanced international cooperation and institutional reform.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International Institutions",
+        "India and its Neighborhood- Relations",
+        "Effect of Policies and Politics of Developed and Developing Countries on India’s interests"
+      ],
+      "date": "2024-12-13",
+      "source": "ANI",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "UNSC",
+        "Multilateralism",
+        "UN Reforms",
+        "Global Governance",
+        "India's Foreign Policy",
+        "International Cooperation"
+      ],
+      "keyTerms": [
+        "Reformed Multilateralism",
+        "United Nations Security Council",
+        "Permanent Membership",
+        "Global South",
+        "Equitable Representation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India advocates for reforms in the United Nations, particularly the UNSC.",
+        "The concept of 'reformed multilateralism' implies a more representative and effective UN.",
+        "India is a strong contender for a permanent seat in an expanded UNSC.",
+        "The UNSC consists of 5 permanent and 10 non-permanent members."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically analyze India's persistent demand for 'reformed multilateralism' and its implications for global governance.",
+        "Discuss the arguments for and against the expansion of the UN Security Council, particularly with regard to permanent membership.",
+        "Evaluate India's growing role and influence in international affairs, justifying its claim for a greater say in global decision-making bodies.",
+        "Examine the challenges in achieving UN reforms and the strategies India could employ to garner wider support for its vision."
+      ],
+      "imageDescription": "The United Nations building in New York, with a graphic overlay of diverse national flags, symbolizing global cooperation.",
+      "section": "International",
+      "trivia": "The UN Security Council is one of the six principal organs of the United Nations, charged with maintaining international peace and security.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Institutions",
+        "topic": "United Nations"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "himalayan-glaciers-climate-change",
+      "headline": "Study Reveals Alarming Impact of Climate Change on Himalayan Glaciers, Urges Action",
+      "explainer": "• A new scientific study published today highlighted the accelerated melting rates of Himalayan glaciers due to climate change. • The research, conducted by an international consortium, indicated significant ice mass loss impacting regional water security and ecosystems. • It warned of severe implications for downstream populations dependent on glacier-fed rivers for water and agriculture. • Experts called for urgent global and regional collaborative efforts to mitigate climate change and adapt to its irreversible impacts.",
+      "category": "environment, geography",
+      "gsPaper": "GS1, GS3",
+      "gsSubTopics": [
+        "Important Geophysical Phenomena",
+        "Environmental Pollution and Degradation",
+        "Conservation",
+        "Climate Change"
+      ],
+      "date": "2024-12-13",
+      "source": "The Times of India",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Himalayan Glaciers",
+        "Climate Change",
+        "Glacier Melt",
+        "Water Security",
+        "Ecosystems",
+        "Environmental Degradation"
+      ],
+      "keyTerms": [
+        "Glacial Retreat",
+        "Cryosphere",
+        "Water Towers of Asia",
+        "Climate Adaptation",
+        "Greenhouse Gas Emissions"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Himalayan glaciers are often referred to as the 'Third Pole' due to their vast ice reserves.",
+        "The study indicates an accelerated rate of melting compared to previous decades.",
+        "Glacier melt directly impacts major rivers like Ganga, Indus, and Brahmaputra.",
+        "Consequences include altered river flows, increased flood risks, and long-term water scarcity."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the critical role of Himalayan glaciers in regional water security and the broader ecosystem of the Indian subcontinent.",
+        "Analyze the primary drivers of accelerated glacial melt in the Himalayas and its cascading environmental and socio-economic impacts.",
+        "Evaluate the policy measures and international collaborations necessary to mitigate climate change and adapt to its consequences in the Himalayan region.",
+        "Examine the challenges faced by populations dependent on glacier-fed rivers and potential solutions for ensuring water resilience."
+      ],
+      "imageDescription": "A panoramic view of rapidly melting Himalayan glaciers with visible signs of water runoff and exposed rock.",
+      "section": "Environment",
+      "trivia": "The Himalayas contain the third-largest deposit of ice and snow in the world, after the Arctic and Antarctic, earning them the nickname 'The Water Towers of Asia'.",
+      "prelimsSyllabus": {
+        "subject": "Geography",
+        "area": "Physical Geography",
+        "topic": "Glaciers and Climate"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "digital-literacy-rural-schools",
+      "headline": "Ministry of Education Launches Initiative for Digital Literacy in Rural Schools",
+      "explainer": "• The Ministry of Education launched a new nationwide initiative aimed at enhancing digital literacy and access to technology in rural schools. • The program focuses on providing digital devices, internet connectivity, and training for both students and teachers in underserved areas. • It seeks to bridge the digital divide, promote online learning, and equip students with essential 21st-century skills. • Pilot projects have shown promising results in improving learning outcomes and technological proficiency.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Education",
+        "Human Resource Development",
+        "Government Policies and Interventions",
+        "Issues Relating to Development and Management of Social Sector/Services"
+      ],
+      "date": "2024-12-13",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Digital Literacy",
+        "Rural Education",
+        "Digital Divide",
+        "Online Learning",
+        "Education Policy",
+        "Skill Development"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP)",
+        "Digital Infrastructure",
+        "21st-century Skills",
+        "EdTech",
+        "Teacher Training"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The initiative targets rural schools to improve digital literacy.",
+        "It includes provision of hardware, internet access, and educational content.",
+        "Aims to reduce the urban-rural digital divide in education.",
+        "Aligned with the objectives of the National Education Policy (NEP) 2020."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the critical importance of digital literacy in contemporary education and its role in fostering inclusive growth in India.",
+        "Analyze the challenges faced in extending digital education infrastructure and connectivity to rural and remote areas of the country.",
+        "Evaluate the potential impact of this initiative on bridging the digital divide and enhancing learning outcomes for rural students.",
+        "Suggest sustainable models and partnerships for effective implementation and scaling up of digital literacy programs in India."
+      ],
+      "imageDescription": "Rural schoolchildren enthusiastically using tablets in a classroom setting, symbolizing digital learning.",
+      "section": "National",
+      "trivia": "The National Education Policy (NEP) 2020 emphasizes the importance of leveraging technology for teaching and learning, promoting digital literacy at all levels.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Education",
+        "topic": "Government Initiatives in Education"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "parliamentary-panel-online-gaming",
+      "headline": "Parliamentary Panel Recommends Stricter Regulations for Online Gaming",
+      "explainer": "• A Parliamentary Standing Committee submitted its report recommending stricter regulations for the burgeoning online gaming sector. • The panel highlighted concerns regarding addiction, financial fraud, and data privacy risks associated with unregulated online gaming platforms. • Recommendations include a comprehensive regulatory framework, age verification mechanisms, and a clear distinction between 'games of skill' and 'games of chance'. • The report also suggested establishing a dedicated regulatory body and imposing responsible advertising guidelines.",
+      "category": "polity, economy",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Government Policies and Interventions",
+        "IT & Computers",
+        "Cyber Security Challenges",
+        "Role of Media and Social Networking Sites"
+      ],
+      "date": "2024-12-13",
+      "source": "Business Standard",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Online Gaming",
+        "Regulation",
+        "Cybersecurity",
+        "Consumer Protection",
+        "Digital Economy",
+        "Parliamentary Committee"
+      ],
+      "keyTerms": [
+        "Games of Skill",
+        "Games of Chance",
+        "Responsible Gaming",
+        "Age Verification",
+        "Data Privacy",
+        "Regulatory Body"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Parliamentary Standing Committee's report focuses on online gaming regulations.",
+        "Key concerns are addiction, financial fraud, and data privacy.",
+        "Recommendations include distinguishing between 'games of skill' and 'games of chance'.",
+        "A dedicated regulatory body for online gaming has been proposed."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the rapid growth of the online gaming industry in India and the associated socio-economic and ethical challenges.",
+        "Analyze the recommendations of the Parliamentary Panel, particularly concerning the distinction between 'games of skill' and 'games of chance' and its legal implications.",
+        "Evaluate the necessity for a comprehensive regulatory framework for online gaming, considering aspects like consumer protection, data privacy, and prevention of addiction.",
+        "Suggest how India can foster a responsible and sustainable online gaming ecosystem while ensuring consumer safety and ethical practices."
+      ],
+      "imageDescription": "A stylized image of a person holding a smartphone playing an online game, with a 'regulation' overlay.",
+      "section": "National",
+      "trivia": "The Indian online gaming market is one of the fastest-growing globally, with millions of users and significant revenue potential.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Government Policies",
+        "topic": "Digital Governance"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "2001-parliament-attack-commemoration",
+      "headline": "Nation Commemorates 2001 Parliament Attack, Pledges to Uphold National Unity and Security",
+      "explainer": "• The nation observed the 23rd anniversary of the 2001 Indian Parliament attack, paying tribute to the security personnel who lost their lives. • Leaders across the political spectrum emphasized the importance of national unity and resolve against terrorism. • Parliamentary proceedings included a solemn remembrance, reaffirming commitment to safeguarding democratic institutions. • The day served as a reminder of the continuous vigilance required to protect India's sovereignty and internal security.",
+      "category": "history, security",
+      "gsPaper": "GS1, GS3",
+      "gsSubTopics": [
+        "Modern Indian History (Post-Independence)",
+        "Internal Security Challenges",
+        "Linkages between Development and Spread of Extremism"
+      ],
+      "date": "2024-12-13",
+      "source": "DD News",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Parliament Attack",
+        "National Security",
+        "Terrorism",
+        "National Unity",
+        "Indian History",
+        "Martyrs"
+      ],
+      "keyTerms": [
+        "Internal Security",
+        "Counter-Terrorism",
+        "Parliamentary Democracy",
+        "Sovereignty",
+        "Vigilance"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the historical significance of the 2001 Parliament attack in shaping India's counter-terrorism policies and national security architecture.",
+        "Analyze the persistent threats of terrorism to India's democratic institutions and the strategies employed to counter them.",
+        "Evaluate the role of national unity and public resolve in the fight against terrorism, drawing lessons from past incidents.",
+        "Examine the evolution of India's internal security framework since 2001 and the challenges that remain."
+      ],
+      "imageDescription": "The Parliament House of India with security personnel standing guard, symbolizing resilience against threats.",
+      "section": "National",
+      "trivia": "On December 13, 2001, five terrorists infiltrated the Indian Parliament complex, leading to a gun battle with security forces, resulting in the deaths of six Delhi Police personnel, two Parliament Security Service personnel, and a gardener.",
+      "prelimsSyllabus": {
+        "subject": "History",
+        "area": "Post-Independence India",
+        "topic": "Challenges to National Security"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "asi-buddhist-site-odisha",
+      "headline": "Archaeological Survey of India Uncovers Ancient Buddhist Site in Odisha",
+      "explainer": "• The Archaeological Survey of India (ASI) announced the discovery of a significant ancient Buddhist site in the Dhenkanal district of Odisha. • Excavations have revealed remnants of stupas, viharas, and intricate Buddhist sculptures dating back to the 7th-8th century CE. • The findings shed new light on the spread of Buddhism in Eastern India and its artistic and architectural heritage. • The site is expected to become a major attraction for researchers and tourists, boosting cultural tourism in the region.",
+      "category": "history, society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian Heritage and Culture",
+        "Art Forms, Literature and Architecture from Ancient to Modern times",
+        "Salient aspects of Indian Society"
+      ],
+      "date": "2024-12-13",
+      "source": "The New Indian Express",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Archaeology",
+        "Buddhist Heritage",
+        "Odisha",
+        "Ancient India",
+        "ASI",
+        "Cultural Tourism"
+      ],
+      "keyTerms": [
+        "Stupa",
+        "Vihara",
+        "Buddhist Sculptures",
+        "Excavation",
+        "Cultural Heritage",
+        "Dhenkanal"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The discovery was made by the Archaeological Survey of India (ASI).",
+        "The site is located in Dhenkanal district, Odisha.",
+        "Findings include stupas, viharas, and sculptures from the 7th-8th century CE.",
+        "It provides evidence of the prevalence of Buddhism in Eastern India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the newly discovered Buddhist site in Odisha for understanding the historical spread and artistic evolution of Buddhism in Eastern India.",
+        "Analyze the role of the Archaeological Survey of India (ASI) in preserving and unearthing India's rich cultural heritage.",
+        "Evaluate the potential of such archaeological discoveries to boost cultural tourism and local economies, while also posing challenges for conservation.",
+        "Examine how the study of ancient sites contributes to a holistic understanding of India's past and its diverse religious traditions."
+      ],
+      "imageDescription": "Archaeologists meticulously working at an excavation site, uncovering ancient Buddhist relics and structures.",
+      "section": "National",
+      "trivia": "Odisha is home to several prominent ancient Buddhist sites, including Ratnagiri, Lalitgiri, and Udayagiri, collectively known as the 'Diamond Triangle' of Odisha's Buddhist heritage.",
+      "prelimsSyllabus": {
+        "subject": "Art and Culture",
+        "area": "Ancient Indian Art",
+        "topic": "Buddhist Architecture"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "digital-payments-growth-tier2-3",
+      "headline": "Digital Payments Witness Robust Growth in Tier-2 and Tier-3 Cities",
+      "explainer": "• A recent report by a leading financial technology firm revealed a significant surge in digital payment adoption in India's Tier-2 and Tier-3 cities. • The growth is attributed to increased internet penetration, government initiatives like UPI, and the convenience offered by various payment apps. • This trend indicates a deepening of financial inclusion and formalization of transactions beyond metropolitan areas. • Experts believe this growth will further accelerate the digital economy and foster entrepreneurship in smaller towns.",
+      "category": "economy, society",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy",
+        "Mobilization of Resources",
+        "Growth, Development and Employment",
+        "IT & Computers",
+        "Inclusive Growth"
+      ],
+      "date": "2024-12-13",
+      "source": "Business Today",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Digital Payments",
+        "Financial Inclusion",
+        "UPI",
+        "Digital Economy",
+        "Tier-2 Cities",
+        "Rural Economy"
+      ],
+      "keyTerms": [
+        "Unified Payments Interface (UPI)",
+        "Financial Technology (FinTech)",
+        "Cashless Economy",
+        "Digital Transactions",
+        "Inclusive Growth"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Digital payment growth is particularly strong in Tier-2 and Tier-3 cities.",
+        "Factors include UPI adoption, internet penetration, and government push.",
+        "This trend signifies greater financial inclusion and formalization of the economy.",
+        "India's UPI system is one of the most successful real-time payment systems globally."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the factors contributing to the robust growth of digital payments in India, especially in non-metro cities, and its role in financial inclusion.",
+        "Analyze the economic and social benefits of a burgeoning digital payments ecosystem for individuals, businesses, and the broader economy.",
+        "Evaluate the challenges that still persist in achieving universal digital payment adoption, particularly in rural and remote areas.",
+        "Suggest policy measures and technological innovations needed to further accelerate the transition towards a truly cashless and digitally empowered economy."
+      ],
+      "imageDescription": "A person using a smartphone to make a digital payment at a small shop in a bustling street, representing widespread adoption.",
+      "section": "Economy",
+      "trivia": "India's Unified Payments Interface (UPI) processed over 10 billion transactions in a single month for the first time in August 2023.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Indian Financial Market",
+        "topic": "Digital Payments"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "climate-resilient-agriculture-policy",
+      "headline": "Government Proposes New Policy Framework for Climate-Resilient Agriculture",
+      "explainer": "• The Ministry of Agriculture and Farmers Welfare released a draft policy framework for climate-resilient agriculture. • The policy aims to equip Indian farmers with strategies and technologies to adapt to and mitigate the impacts of climate change. • Key components include promoting drought-resistant crop varieties, precision farming, water conservation techniques, and climate-smart agricultural practices. • It emphasizes research and development, capacity building for farmers, and integration of traditional knowledge with modern science.",
+      "category": "environment, economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Agriculture",
+        "Climate Change",
+        "Government Policies and Interventions",
+        "Food Processing and Related Industries"
+      ],
+      "date": "2024-12-13",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Climate-Resilient Agriculture",
+        "Climate Change",
+        "Agriculture Policy",
+        "Sustainable Farming",
+        "Food Security",
+        "Drought Resistance"
+      ],
+      "keyTerms": [
+        "Climate-Smart Agriculture",
+        "Precision Farming",
+        "Drought-resistant Crops",
+        "Water Conservation",
+        "Agricultural Research"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The draft policy focuses on making Indian agriculture resilient to climate change.",
+        "It promotes practices like drought-resistant crops and precision farming.",
+        "Emphasizes research, capacity building, and integration of traditional knowledge.",
+        "Aims to ensure food security amidst changing climatic patterns."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the multifaceted challenges posed by climate change to Indian agriculture and its implications for food security and farmers' livelihoods.",
+        "Analyze the key features and strategies proposed in the new policy framework for climate-resilient agriculture and their potential effectiveness.",
+        "Evaluate the role of technology, traditional knowledge, and farmer participation in adapting agriculture to changing climatic conditions.",
+        "Suggest policy recommendations for effective implementation and widespread adoption of climate-resilient agricultural practices across diverse agro-climatic zones."
+      ],
+      "imageDescription": "A farmer inspecting a healthy crop field under changing weather conditions, with advanced farming tools visible.",
+      "section": "Environment",
+      "trivia": "India is highly vulnerable to climate change impacts on agriculture, with millions of farmers dependent on monsoon rains.",
+      "prelimsSyllabus": {
+        "subject": "Agriculture",
+        "area": "Farm Policies",
+        "topic": "Climate Change and Agriculture"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "Supreme Court upholds Digital Citizen ID Act, mandating robust privacy safeguards, reinforcing fundamental rights in the digital age.",
+    "Government launches new PLI scheme for green hydrogen manufacturing, aiming to boost domestic production and achieve climate goals.",
+    "India-EU Free Trade Agreement talks enter final stages, with a focus on services and intellectual property, promising increased bilateral trade.",
+    "ISRO successfully launches advanced Earth Observation Satellite EOS-07, enhancing India's remote sensing capabilities for various applications.",
+    "National Mission for Urban Forestation initiated in 100 cities to combat air pollution and mitigate urban heat island effects."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the recent Supreme Court judgment on the National Digital Citizen ID Act, consider the following statements:\n1. The judgment declared the entire Act unconstitutional due to privacy concerns.\n2. It affirmed the state's power for digital identification for welfare delivery.\n3. The court mandated the establishment of an independent oversight mechanism for data protection.\n4. It explicitly stated that the digital ID can be made mandatory for all private services.\nWhich of the statements given above are correct?",
+      "options": [
+        "(a) 1 and 4 only",
+        "(b) 2 and 3 only",
+        "(c) 1, 2 and 3 only",
+        "(d) 2, 3 and 4 only"
+      ],
+      "answer": "(b) 2 and 3 only",
+      "explanation": "Statement 1 is incorrect; the SC upheld the Act while mandating safeguards, not declaring it unconstitutional. Statement 2 is correct as the court affirmed the state's power for digital identification for welfare delivery. Statement 3 is correct as the court mandated a stringent data protection framework and independent oversight. Statement 4 is incorrect; the judgment would likely restrict mandatory usage to essential state services, not all private services, emphasizing proportionality and consent."
+    },
+    {
+      "question": "Consider the following statements regarding the new Production Linked Incentive (PLI) scheme for Green Hydrogen manufacturing:\n1. The scheme is launched by the Ministry of Finance.\n2. It aims to incentivize both the manufacturing of electrolysers and the production of green hydrogen.\n3. A primary objective is to reduce India's import dependence on fossil fuels.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 2 and 3 only",
+      "explanation": "Statement 1 is incorrect. The PLI scheme for Green Hydrogen manufacturing is launched by the Ministry of New and Renewable Energy. Statement 2 is correct; the scheme provides incentives for both manufacturing capacity for electrolysers and production volumes of green hydrogen. Statement 3 is correct as reducing dependence on fossil fuels and promoting clean energy is a core objective of the National Green Hydrogen Mission, of which this PLI scheme is a part."
+    },
+    {
+      "question": "Which of the following statements best describes the Miyawaki technique, as mentioned in the context of the National Mission for Urban Forestation?",
+      "options": [
+        "(a) It involves planting a single species of drought-resistant trees over large areas.",
+        "(b) It is a method of selective logging to promote forest regeneration.",
+        "(c) It is a technique for creating dense, native urban forests by planting trees close together.",
+        "(d) It refers to the use of genetically modified trees for faster growth in urban environments."
+      ],
+      "answer": "(c) It is a technique for creating dense, native urban forests by planting trees close together.",
+      "explanation": "The Miyawaki method, developed by Japanese botanist Akira Miyawaki, involves planting native species in dense clusters to create mini-forests that grow much faster than conventional plantations, rapidly increasing biodiversity and green cover in urban areas. Options (a), (b), and (d) describe different or incorrect forestry practices."
+    },
+    {
+      "question": "The term 'Reformed Multilateralism' often advocated by India in international forums primarily refers to:",
+      "options": [
+        "(a) A call for all nations to adopt a common economic policy framework.",
+        "(b) The need to reform international financial institutions like the World Bank and IMF only.",
+        "(c) The demand for a more representative and equitable global governance architecture, especially within the UN system.",
+        "(d) A strategy to form new regional alliances bypassing existing global organizations."
+      ],
+      "answer": "(c) The demand for a more representative and equitable global governance architecture, especially within the UN system.",
+      "explanation": "India's advocacy for 'Reformed Multilateralism' primarily focuses on restructuring global governance institutions, particularly the United Nations and its Security Council, to reflect contemporary geopolitical realities and ensure greater inclusivity and equitable representation for developing countries. It is a broader concept than just economic institutions or forming new alliances."
+    },
+    {
+      "question": "Consider the following pairs regarding Satellite Launch Vehicles and their characteristics:\n1. PSLV: Primarily used for launching geostationary satellites.\n2. GSLV: Known as India's workhorse for Earth Observation Satellites.\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) Both 1 and 2",
+        "(d) Neither 1 nor 2"
+      ],
+      "answer": "(d) Neither 1 nor 2",
+      "explanation": "Statement 1 is incorrect. PSLV (Polar Satellite Launch Vehicle) is known as ISRO's workhorse for launching Earth Observation, remote sensing, and smaller satellites into polar sun-synchronous orbits. GSLV (Geosynchronous Satellite Launch Vehicle) is primarily used for launching heavier communication satellites into Geostationary Transfer Orbit (GTO) or Geostationary Earth Orbit (GEO). Statement 2 is also incorrect for the same reason – PSLV is the workhorse for Earth Observation Satellites, not GSLV."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "The Supreme Court's ruling on the National Digital Citizen ID Act presents a crucial balance between state power for welfare delivery and individual privacy rights. Discuss the implications of this judgment on India's digital public infrastructure and data governance framework, and suggest measures for effective implementation of privacy safeguards.",
+      "syllabusMatch": "GS2: Fundamental Rights, Government Policies and Interventions, e-governance; GS3: IT & Computers, Cyber Security Challenges.",
+      "approach": "Introduce the SC ruling and its core dilemma. Analyze how it impacts digital public infrastructure (like Aadhaar, UPI) by affirming state utility but mandating privacy. Discuss 'Right to Privacy' (Puttaswamy judgment) and 'proportionality'. Suggest specific measures for implementation: independent regulatory bodies, robust data protection law, consent mechanisms, grievance redressal, and public awareness."
+    },
+    {
+      "question": "India's National Green Hydrogen Mission and the new PLI scheme for green hydrogen manufacturing are pivotal for its energy transition and climate goals. Critically analyze the potential of green hydrogen as a sustainable energy source in India and discuss the challenges in scaling up its production and adoption.",
+      "syllabusMatch": "GS3: Energy, Climate Change, Infrastructure, Industrial Policy.",
+      "approach": "Begin by explaining green hydrogen's importance for decarbonization. Detail the PLI scheme and National Green Hydrogen Mission. Discuss potential: energy security, industrial feedstock, export opportunities, climate mitigation. Analyze challenges: high production cost, infrastructure for storage/transport, technological advancements needed, water availability, competitive pricing with fossil fuels. Conclude with policy recommendations for overcoming these challenges."
+    },
+    {
+      "question": "Himalayan glaciers are often referred to as 'The Water Towers of Asia', but they are increasingly vulnerable to climate change. Examine the environmental and socio-economic impacts of accelerated glacial melt in the Himalayas on the Indian subcontinent, and outline the strategies required for both mitigation and adaptation.",
+      "syllabusMatch": "GS1: Important Geophysical Phenomena, Physical Geography; GS3: Environmental Pollution and Degradation, Conservation, Disaster Management.",
+      "approach": "Introduce the significance of Himalayan glaciers and the threat of accelerated melt. Discuss environmental impacts: altered river flows, increased floods/landslides, biodiversity loss, impact on monsoon patterns. Address socio-economic impacts: water scarcity for agriculture/drinking, hydropower disruption, displacement, food security challenges. Outline mitigation (global emissions reduction, renewable energy) and adaptation strategies (water harvesting, drought-resistant crops, early warning systems, regional cooperation, infrastructure resilience)."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The K.S. Puttaswamy judgment (2017) declared the Right to Privacy a fundamental right under Article 21 of the Indian Constitution.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Privacy",
+        "Fundamental Rights",
+        "Supreme Court"
+      ]
+    },
+    {
+      "text": "Green hydrogen is produced through the electrolysis of water using renewable energy, making it a zero-carbon fuel.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Hydrogen",
+        "Renewable Energy",
+        "Climate Change"
+      ]
+    },
+    {
+      "text": "The European Union is India's third-largest trading partner, after the US and China, making the FTA crucial.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "India-EU",
+        "Trade",
+        "FTA"
+      ]
+    },
+    {
+      "text": "ISRO's PSLV (Polar Satellite Launch Vehicle) is known for its reliability in launching Earth Observation Satellites.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "PSLV",
+        "Space Technology"
+      ]
+    },
+    {
+      "text": "The Miyawaki method creates dense, native urban forests rapidly by planting trees close together.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Urban Forestry",
+        "Miyawaki",
+        "Climate Change"
+      ]
+    },
+    {
+      "text": "The Ministry of Cooperation was formed in 2021 to provide a separate administrative, legal, and policy framework for strengthening the cooperative movement.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Cooperative Societies",
+        "Ministry of Cooperation"
+      ]
+    },
+    {
+      "text": "The Reserve Bank of India (RBI) publishes the Financial Stability Report (FSR) bi-annually to assess the financial system's health.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "Financial Stability",
+        "Economy"
+      ]
+    },
+    {
+      "text": "The United Nations Security Council (UNSC) has five permanent members with veto power: China, France, Russia, the United Kingdom, and the United States.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "UNSC",
+        "UN Reforms",
+        "International Institutions"
+      ]
+    },
+    {
+      "text": "The 2001 Indian Parliament attack on December 13 highlighted the need for robust internal security and counter-terrorism measures.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "tags": [
+        "Parliament Attack",
+        "Internal Security",
+        "Terrorism"
+      ]
+    },
+    {
+      "text": "India's Unified Payments Interface (UPI) is a real-time payment system developed by the National Payments Corporation of India (NPCI).",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "UPI",
+        "Digital Payments",
+        "FinTech"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "asi-buddhist-site-odisha",
+        "headline": "Archaeological Survey of India Uncovers Ancient Buddhist Site in Odisha",
+        "explainer": "• The Archaeological Survey of India (ASI) announced the discovery of a significant ancient Buddhist site in the Dhenkanal district of Odisha. • Excavations have revealed remnants of stupas, viharas, and intricate Buddhist sculptures dating back to the 7th-8th century CE. • The findings shed new light on the spread of Buddhism in Eastern India and its artistic and architectural heritage. • The site is expected to become a major attraction for researchers and tourists, boosting cultural tourism in the region.",
+        "category": "history, society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian Heritage and Culture",
+          "Art Forms, Literature and Architecture from Ancient to Modern times",
+          "Salient aspects of Indian Society"
+        ],
+        "date": "2024-12-13",
+        "source": "The New Indian Express",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Archaeology",
+          "Buddhist Heritage",
+          "Odisha",
+          "Ancient India",
+          "ASI",
+          "Cultural Tourism"
+        ],
+        "keyTerms": [
+          "Stupa",
+          "Vihara",
+          "Buddhist Sculptures",
+          "Excavation",
+          "Cultural Heritage",
+          "Dhenkanal"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The discovery was made by the Archaeological Survey of India (ASI).",
+          "The site is located in Dhenkanal district, Odisha.",
+          "Findings include stupas, viharas, and sculptures from the 7th-8th century CE.",
+          "It provides evidence of the prevalence of Buddhism in Eastern India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the newly discovered Buddhist site in Odisha for understanding the historical spread and artistic evolution of Buddhism in Eastern India.",
+          "Analyze the role of the Archaeological Survey of India (ASI) in preserving and unearthing India's rich cultural heritage.",
+          "Evaluate the potential of such archaeological discoveries to boost cultural tourism and local economies, while also posing challenges for conservation.",
+          "Examine how the study of ancient sites contributes to a holistic understanding of India's past and its diverse religious traditions."
+        ],
+        "imageDescription": "Archaeologists meticulously working at an excavation site, uncovering ancient Buddhist relics and structures.",
+        "section": "National",
+        "trivia": "Odisha is home to several prominent ancient Buddhist sites, including Ratnagiri, Lalitgiri, and Udayagiri, collectively known as the 'Diamond Triangle' of Odisha's Buddhist heritage.",
+        "prelimsSyllabus": {
+          "subject": "Art and Culture",
+          "area": "Ancient Indian Art",
+          "topic": "Buddhist Architecture"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "national-mental-health-program",
+        "headline": "New National Mental Health Program Focuses on Youth and Rural Areas",
+        "explainer": "• The Ministry of Health and Family Welfare launched a comprehensive 'National Mental Health Program' with a special focus on youth and rural populations. • The initiative aims to enhance access to mental healthcare services, reduce stigma, and promote mental well-being across all age groups. • It includes provisions for training primary healthcare workers, tele-mental health services, and school-based counseling programs. • The program emphasizes early intervention and community-based support systems.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Health",
+          "Issues Relating to Development and Management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government Policies and Interventions"
+        ],
+        "date": "2024-12-13",
+        "source": "PTI",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Mental Health",
+          "Public Health",
+          "Youth Welfare",
+          "Rural Health",
+          "Healthcare Access",
+          "Social Stigma"
+        ],
+        "keyTerms": [
+          "Tele-mental Health",
+          "Community-based Mental Healthcare",
+          "Primary Healthcare Workers",
+          "Mental Well-being",
+          "Stigma Reduction"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The National Mental Health Program targets youth and rural populations primarily.",
+          "Key components include tele-mental health, training health workers, and school counseling.",
+          "It aims to integrate mental healthcare into primary healthcare.",
+          "Focuses on early intervention and reducing societal stigma related to mental illness."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the growing burden of mental health issues in India, particularly among youth and in rural areas, and the factors contributing to it.",
+          "Analyze the strengths and weaknesses of India's existing mental healthcare infrastructure and the potential impact of this new program.",
+          "Evaluate how tele-mental health services and community-based approaches can address the challenges of accessibility and affordability in mental healthcare.",
+          "Suggest policy recommendations for effective implementation and long-term sustainability of mental health initiatives in India."
+        ],
+        "imageDescription": "A diverse group of people engaged in a supportive group activity, symbolizing community mental health support.",
+        "section": "National",
+        "trivia": "According to WHO, mental health conditions are among the leading causes of disability worldwide, with depression being a primary contributor.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Health",
+          "topic": "Healthcare Policies"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-reformed-multilateralism-un",
+        "headline": "India Calls for Reformed Multilateralism at UN Security Council Debate",
+        "explainer": "• India reiterated its call for 'reformed multilateralism' during a high-level debate at the United Nations Security Council (UNSC). • The Permanent Representative of India emphasized the need for a more representative and equitable global governance architecture. • India highlighted the imperative of expanding the UNSC to reflect contemporary geopolitical realities and ensure greater inclusivity. • The debate focused on addressing complex global challenges through enhanced international cooperation and institutional reform.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International Institutions",
+          "India and its Neighborhood- Relations",
+          "Effect of Policies and Politics of Developed and Developing Countries on India’s interests"
+        ],
+        "date": "2024-12-13",
+        "source": "ANI",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "UNSC",
+          "Multilateralism",
+          "UN Reforms",
+          "Global Governance",
+          "India's Foreign Policy",
+          "International Cooperation"
+        ],
+        "keyTerms": [
+          "Reformed Multilateralism",
+          "United Nations Security Council",
+          "Permanent Membership",
+          "Global South",
+          "Equitable Representation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India advocates for reforms in the United Nations, particularly the UNSC.",
+          "The concept of 'reformed multilateralism' implies a more representative and effective UN.",
+          "India is a strong contender for a permanent seat in an expanded UNSC.",
+          "The UNSC consists of 5 permanent and 10 non-permanent members."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically analyze India's persistent demand for 'reformed multilateralism' and its implications for global governance.",
+          "Discuss the arguments for and against the expansion of the UN Security Council, particularly with regard to permanent membership.",
+          "Evaluate India's growing role and influence in international affairs, justifying its claim for a greater say in global decision-making bodies.",
+          "Examine the challenges in achieving UN reforms and the strategies India could employ to garner wider support for its vision."
+        ],
+        "imageDescription": "The United Nations building in New York, with a graphic overlay of diverse national flags, symbolizing global cooperation.",
+        "section": "International",
+        "trivia": "The UN Security Council is one of the six principal organs of the United Nations, charged with maintaining international peace and security.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Institutions",
+          "topic": "United Nations"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "digital-literacy-rural-schools",
+        "headline": "Ministry of Education Launches Initiative for Digital Literacy in Rural Schools",
+        "explainer": "• The Ministry of Education launched a new nationwide initiative aimed at enhancing digital literacy and access to technology in rural schools. • The program focuses on providing digital devices, internet connectivity, and training for both students and teachers in underserved areas. • It seeks to bridge the digital divide, promote online learning, and equip students with essential 21st-century skills. • Pilot projects have shown promising results in improving learning outcomes and technological proficiency.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Education",
+          "Human Resource Development",
+          "Government Policies and Interventions",
+          "Issues Relating to Development and Management of Social Sector/Services"
+        ],
+        "date": "2024-12-13",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Digital Literacy",
+          "Rural Education",
+          "Digital Divide",
+          "Online Learning",
+          "Education Policy",
+          "Skill Development"
+        ],
+        "keyTerms": [
+          "National Education Policy (NEP)",
+          "Digital Infrastructure",
+          "21st-century Skills",
+          "EdTech",
+          "Teacher Training"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The initiative targets rural schools to improve digital literacy.",
+          "It includes provision of hardware, internet access, and educational content.",
+          "Aims to reduce the urban-rural digital divide in education.",
+          "Aligned with the objectives of the National Education Policy (NEP) 2020."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the critical importance of digital literacy in contemporary education and its role in fostering inclusive growth in India.",
+          "Analyze the challenges faced in extending digital education infrastructure and connectivity to rural and remote areas of the country.",
+          "Evaluate the potential impact of this initiative on bridging the digital divide and enhancing learning outcomes for rural students.",
+          "Suggest sustainable models and partnerships for effective implementation and scaling up of digital literacy programs in India."
+        ],
+        "imageDescription": "Rural schoolchildren enthusiastically using tablets in a classroom setting, symbolizing digital learning.",
+        "section": "National",
+        "trivia": "The National Education Policy (NEP) 2020 emphasizes the importance of leveraging technology for teaching and learning, promoting digital literacy at all levels.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Education",
+          "topic": "Government Initiatives in Education"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "pli-green-hydrogen-scheme",
+        "headline": "Government Unveils New PLI Scheme for Green Hydrogen Manufacturing",
+        "explainer": "• The Ministry of New and Renewable Energy launched a new Production Linked Incentive (PLI) scheme for green hydrogen manufacturing. • The scheme aims to boost domestic production of green hydrogen and electrolysers, reducing import dependence. • It targets achieving India's ambitious climate goals and positioning the country as a global hub for green hydrogen. • Incentives will be provided for both manufacturing capacity and production volumes.",
+        "category": "economy, environment, science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Industrial Policy",
+          "Energy",
+          "Climate Change",
+          "Infrastructure",
+          "Government Budgeting"
+        ],
+        "date": "2024-12-13",
+        "source": "PIB",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Green Hydrogen",
+          "PLI Scheme",
+          "Renewable Energy",
+          "Climate Change",
+          "Make in India",
+          "Energy Security"
+        ],
+        "keyTerms": [
+          "Production Linked Incentive",
+          "Electrolysers",
+          "National Green Hydrogen Mission",
+          "Energy Transition",
+          "Carbon Neutrality"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The PLI scheme is part of India's National Green Hydrogen Mission.",
+          "It aims to incentivize both manufacturing of electrolysers and production of green hydrogen.",
+          "The scheme's objective includes reducing India's dependence on fossil fuels and promoting exports.",
+          "Green hydrogen is produced through electrolysis of water using renewable energy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of the PLI scheme for green hydrogen in achieving India's energy security and climate change commitments.",
+          "Discuss the challenges and opportunities associated with scaling up green hydrogen production in India.",
+          "Evaluate the potential economic impact of this scheme on domestic manufacturing and job creation.",
+          "Compare India's green hydrogen strategy with global initiatives and its potential to become a global leader."
+        ],
+        "imageDescription": "Graphic illustrating the process of green hydrogen production with renewable energy sources like solar and wind.",
+        "section": "Economy",
+        "trivia": "Hydrogen is the most abundant chemical substance in the universe, but 'green' hydrogen specifically refers to that produced with zero carbon emissions.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Infrastructure: Energy",
+          "topic": "Renewable Energy Schemes"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "isro-earth-observation-satellite",
+        "headline": "ISRO Successfully Launches Advanced Earth Observation Satellite EOS-07",
+        "explainer": "• The Indian Space Research Organisation (ISRO) successfully launched its advanced Earth Observation Satellite (EOS-07) aboard a PSLV-C59 rocket. • EOS-07 is equipped with high-resolution optical and synthetic aperture radar (SAR) payloads for enhanced imaging capabilities. • The satellite will provide critical data for agriculture, forestry, disaster management, and urban planning. • This mission further strengthens India's indigenous capabilities in remote sensing and space-based applications.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Space Technology",
+          "Achievements of Indians in Science & Technology",
+          "IT & Computers"
+        ],
+        "date": "2024-12-13",
+        "source": "PTI",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "ISRO",
+          "EOS-07",
+          "Earth Observation",
+          "Satellite Launch",
+          "Space Technology",
+          "Remote Sensing"
+        ],
+        "keyTerms": [
+          "PSLV",
+          "Synthetic Aperture Radar (SAR)",
+          "Geospatial Data",
+          "Remote Sensing",
+          "Optical Payloads"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "EOS-07 is an Earth Observation Satellite launched by ISRO.",
+          "It was launched using the Polar Satellite Launch Vehicle (PSLV-C59).",
+          "The satellite carries both optical and Synthetic Aperture Radar (SAR) payloads.",
+          "Applications include agriculture, disaster management, and environmental monitoring."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of advanced Earth Observation Satellites like EOS-07 for India's socio-economic development and strategic interests.",
+          "Elaborate on the capabilities of SAR technology and its advantages over traditional optical imaging in remote sensing.",
+          "Analyze how ISRO's continuous advancements in space technology contribute to India's self-reliance and global standing in the space sector.",
+          "Examine the potential applications of data from EOS-07 in addressing challenges related to climate change and resource management."
+        ],
+        "imageDescription": "A PSLV rocket launching into space, with an inset of the EOS-07 satellite in orbit.",
+        "section": "Science",
+        "trivia": "India's first satellite, Aryabhata, was launched in 1975 by the Soviet Union. The first satellite launched by an Indian-made launch vehicle was Rohini-1 in 1980.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space Technology",
+          "topic": "ISRO Missions"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "urban-forestation-mission",
+        "headline": "National Mission for Urban Forestation Launched to Combat Air Pollution",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change launched the 'National Mission for Urban Forestation' across 100 major cities. • The mission aims to significantly increase green cover in urban areas, improve air quality, and mitigate the urban heat island effect. • It involves community participation, use of Miyawaki technique, and integration with existing urban development plans. • Funding will be provided to urban local bodies and NGOs for developing green spaces and urban forests.",
+        "category": "environment, society",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Environmental Pollution and Degradation",
+          "Conservation",
+          "Disaster Management",
+          "Government Policies and Interventions"
+        ],
+        "date": "2024-12-13",
+        "source": "Down to Earth",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Urban Forestry",
+          "Air Pollution",
+          "Climate Change",
+          "Green Cover",
+          "Miyawaki Method",
+          "Sustainable Cities"
+        ],
+        "keyTerms": [
+          "Urban Heat Island Effect",
+          "Miyawaki Technique",
+          "Carbon Sequestration",
+          "Ecosystem Services",
+          "Urban Greening"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The mission targets 100 major cities to enhance urban green cover.",
+          "It emphasizes the Miyawaki technique for creating dense urban forests.",
+          "Aims to improve air quality, reduce urban temperatures, and enhance biodiversity.",
+          "Involves collaboration between government, local bodies, and civil society."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the multi-faceted benefits of urban forestation in addressing environmental challenges like air pollution and climate change in Indian cities.",
+          "Evaluate the effectiveness of the Miyawaki technique in creating dense urban green spaces and its suitability for Indian urban landscapes.",
+          "Analyze the role of community participation and inter-agency coordination in the successful implementation of such a national mission.",
+          "Suggest policy interventions needed to sustain and expand urban forestation efforts across the country."
+        ],
+        "imageDescription": "An aerial view of a vibrant green urban forest contrasting with surrounding city buildings, illustrating the impact of urban forestation.",
+        "section": "Environment",
+        "trivia": "The Miyawaki method, developed by Japanese botanist Akira Miyawaki, involves planting native species close together to create dense, fast-growing forests.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Conservation",
+          "topic": "Urban Ecology"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "border-security-review-northern",
+        "headline": "Government Reviews Border Security Infrastructure Along Northern Frontier",
+        "explainer": "• The Ministry of Home Affairs conducted a high-level review of border security infrastructure and deployment along India's northern frontier. • The review focused on modernizing surveillance technology, improving road connectivity, and enhancing troop readiness in challenging terrains. • Discussions included strategies to counter cross-border infiltration, drug trafficking, and other security threats. • The government reiterated its commitment to strengthening border management for national security.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Border Management",
+          "Internal Security Challenges",
+          "Security Forces and their Mandate"
+        ],
+        "date": "2024-12-13",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Border Security",
+          "Northern Borders",
+          "Internal Security",
+          "Border Management",
+          "Infrastructure Development",
+          "Surveillance Technology"
+        ],
+        "keyTerms": [
+          "Line of Actual Control (LAC)",
+          "Integrated Border Management System (IBMS)",
+          "Cross-border Infiltration",
+          "Border Outposts",
+          "High-altitude Warfare"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The review covered India's northern borders, including sensitive sectors.",
+          "Focus areas were technological upgrades, infrastructure development, and troop training.",
+          "Key threats include infiltration, drug smuggling, and illegal migration.",
+          "Various security agencies like ITBP, BSF, and Army are involved in border management."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the multi-dimensional challenges in securing India's northern borders, considering geographical, strategic, and geopolitical factors.",
+          "Evaluate the effectiveness of current border management strategies and the role of technology in enhancing border security.",
+          "Analyze the impact of infrastructure development on troop mobility, logistics, and response time in challenging terrains.",
+          "Suggest comprehensive measures to address cross-border threats and improve coordination among various security agencies."
+        ],
+        "imageDescription": "Indian security personnel patrolling a snowy mountain border, with advanced surveillance equipment visible.",
+        "section": "National",
+        "trivia": "India has approximately 15,106 km of land border and 7,516 km of coastline, requiring extensive security infrastructure and personnel.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "Internal Security",
+          "topic": "Border Management"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "rbi-financial-stability-report",
+        "headline": "RBI Releases Financial Stability Report, Highlights Macroeconomic Risks",
+        "explainer": "• The Reserve Bank of India (RBI) released its half-yearly Financial Stability Report (FSR), providing an assessment of the health of the Indian financial system. • The report noted resilience in the banking sector but highlighted global macroeconomic uncertainties and inflationary pressures as key risks. • It emphasized the need for continued vigilance against potential shocks from geopolitical developments and volatile commodity prices. • The FSR also reviewed trends in credit growth, asset quality, and capital adequacy across financial institutions.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to Planning, Mobilization of Resources, Growth, Development and Employment",
+          "Monetary Policy",
+          "Government Budgeting"
+        ],
+        "date": "2024-12-13",
+        "source": "Livemint",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "RBI",
+          "Financial Stability Report",
+          "Macroeconomic Risks",
+          "Banking Sector",
+          "Inflation",
+          "Monetary Policy"
+        ],
+        "keyTerms": [
+          "Financial Stability Report (FSR)",
+          "Non-Performing Assets (NPAs)",
+          "Capital Adequacy Ratio (CAR)",
+          "Inflationary Pressures",
+          "Global Spillovers"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Financial Stability Report (FSR) is published by the Reserve Bank of India (RBI) bi-annually.",
+          "It assesses the stability of the Indian financial system.",
+          "Key indicators analyzed include credit growth, asset quality, and capital adequacy.",
+          "The report often highlights domestic and global risks to financial stability."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the key findings of the RBI's Financial Stability Report regarding the health of India's banking sector and broader financial system.",
+          "Analyze the major macroeconomic risks identified by the RBI, both domestic and global, and their potential impact on India's economic outlook.",
+          "Evaluate the effectiveness of RBI's monetary policy tools and regulatory measures in maintaining financial stability in a volatile global environment.",
+          "Suggest policy interventions or reforms needed to further strengthen the resilience of India's financial system against future shocks."
+        ],
+        "imageDescription": "A chart showing economic indicators with an RBI logo in the background, representing financial analysis.",
+        "section": "Economy",
+        "trivia": "The Reserve Bank of India (RBI) was established on April 1, 1935, under the Reserve Bank of India Act, 1934, and was nationalized in 1949.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Indian Financial Market",
+          "topic": "RBI and Monetary Policy"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "digital-payments-growth-tier2-3",
+        "headline": "Digital Payments Witness Robust Growth in Tier-2 and Tier-3 Cities",
+        "explainer": "• A recent report by a leading financial technology firm revealed a significant surge in digital payment adoption in India's Tier-2 and Tier-3 cities. • The growth is attributed to increased internet penetration, government initiatives like UPI, and the convenience offered by various payment apps. • This trend indicates a deepening of financial inclusion and formalization of transactions beyond metropolitan areas. • Experts believe this growth will further accelerate the digital economy and foster entrepreneurship in smaller towns.",
+        "category": "economy, society",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy",
+          "Mobilization of Resources",
+          "Growth, Development and Employment",
+          "IT & Computers",
+          "Inclusive Growth"
+        ],
+        "date": "2024-12-13",
+        "source": "Business Today",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Digital Payments",
+          "Financial Inclusion",
+          "UPI",
+          "Digital Economy",
+          "Tier-2 Cities",
+          "Rural Economy"
+        ],
+        "keyTerms": [
+          "Unified Payments Interface (UPI)",
+          "Financial Technology (FinTech)",
+          "Cashless Economy",
+          "Digital Transactions",
+          "Inclusive Growth"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Digital payment growth is particularly strong in Tier-2 and Tier-3 cities.",
+          "Factors include UPI adoption, internet penetration, and government push.",
+          "This trend signifies greater financial inclusion and formalization of the economy.",
+          "India's UPI system is one of the most successful real-time payment systems globally."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the factors contributing to the robust growth of digital payments in India, especially in non-metro cities, and its role in financial inclusion.",
+          "Analyze the economic and social benefits of a burgeoning digital payments ecosystem for individuals, businesses, and the broader economy.",
+          "Evaluate the challenges that still persist in achieving universal digital payment adoption, particularly in rural and remote areas.",
+          "Suggest policy measures and technological innovations needed to further accelerate the transition towards a truly cashless and digitally empowered economy."
+        ],
+        "imageDescription": "A person using a smartphone to make a digital payment at a small shop in a bustling street, representing widespread adoption.",
+        "section": "Economy",
+        "trivia": "India's Unified Payments Interface (UPI) processed over 10 billion transactions in a single month for the first time in August 2023.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Indian Financial Market",
+          "topic": "Digital Payments"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "climate-resilient-agriculture-policy",
+        "headline": "Government Proposes New Policy Framework for Climate-Resilient Agriculture",
+        "explainer": "• The Ministry of Agriculture and Farmers Welfare released a draft policy framework for climate-resilient agriculture. • The policy aims to equip Indian farmers with strategies and technologies to adapt to and mitigate the impacts of climate change. • Key components include promoting drought-resistant crop varieties, precision farming, water conservation techniques, and climate-smart agricultural practices. • It emphasizes research and development, capacity building for farmers, and integration of traditional knowledge with modern science.",
+        "category": "environment, economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Agriculture",
+          "Climate Change",
+          "Government Policies and Interventions",
+          "Food Processing and Related Industries"
+        ],
+        "date": "2024-12-13",
+        "source": "PIB",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Climate-Resilient Agriculture",
+          "Climate Change",
+          "Agriculture Policy",
+          "Sustainable Farming",
+          "Food Security",
+          "Drought Resistance"
+        ],
+        "keyTerms": [
+          "Climate-Smart Agriculture",
+          "Precision Farming",
+          "Drought-resistant Crops",
+          "Water Conservation",
+          "Agricultural Research"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The draft policy focuses on making Indian agriculture resilient to climate change.",
+          "It promotes practices like drought-resistant crops and precision farming.",
+          "Emphasizes research, capacity building, and integration of traditional knowledge.",
+          "Aims to ensure food security amidst changing climatic patterns."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the multifaceted challenges posed by climate change to Indian agriculture and its implications for food security and farmers' livelihoods.",
+          "Analyze the key features and strategies proposed in the new policy framework for climate-resilient agriculture and their potential effectiveness.",
+          "Evaluate the role of technology, traditional knowledge, and farmer participation in adapting agriculture to changing climatic conditions.",
+          "Suggest policy recommendations for effective implementation and widespread adoption of climate-resilient agricultural practices across diverse agro-climatic zones."
+        ],
+        "imageDescription": "A farmer inspecting a healthy crop field under changing weather conditions, with advanced farming tools visible.",
+        "section": "Environment",
+        "trivia": "India is highly vulnerable to climate change impacts on agriculture, with millions of farmers dependent on monsoon rains.",
+        "prelimsSyllabus": {
+          "subject": "Agriculture",
+          "area": "Farm Policies",
+          "topic": "Climate Change and Agriculture"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "The Hindu",
+    "PIB",
+    "Livemint",
+    "PTI",
+    "Down to Earth",
+    "The Indian Express",
+    "ANI",
+    "The Times of India",
+    "The Economic Times",
+    "Business Standard",
+    "DD News",
+    "The New Indian Express",
+    "Business Today"
+  ],
+  "totalScraped": 17,
+  "totalProcessed": 17
+}

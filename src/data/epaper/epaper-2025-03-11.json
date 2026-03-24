@@ -1,0 +1,2472 @@
+{
+  "date": "2025-03-11",
+  "dateFormatted": "Tuesday 11 March, 2025",
+  "lastUpdated": "2026-03-21T16:33:11.756Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "green-hydrogen-mission-milestone",
+      "headline": "India Achieves Significant Green Hydrogen Production Milestone, Boosts Clean Energy Transition",
+      "explainer": "• India's National Green Hydrogen Mission (NGHM) reports accelerated progress in production targets.\n• New investments, both domestic and international, are flowing into green hydrogen projects.\n• Government announces further incentives for electrolyser manufacturing and R&D to establish export hubs.\n• The initiative aims to position India as a global leader in green hydrogen production and utilization.\n• Critical for achieving India's Net Zero 2070 targets and enhancing energy security.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Infrastructure: Energy",
+        "Environmental Pollution and Degradation, Environmental Impact Assessment",
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Indigenization of technology and developing new technology"
+      ],
+      "date": "2025-03-11",
+      "source": "Ministry of New and Renewable Energy",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "NGHM",
+        "Renewable Energy",
+        "Energy Transition",
+        "Climate Change",
+        "Make in India",
+        "Net Zero"
+      ],
+      "keyTerms": [
+        "Green Hydrogen",
+        "Electrolyser",
+        "Carbon Intensity",
+        "Net Zero",
+        "Energy Security",
+        "SIGHT Programme"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Objectives of National Green Hydrogen Mission (NGHM) and its target capacity.",
+        "Role of SIGHT (Strategic Interventions for Green Hydrogen Transition) Programme.",
+        "Definition and types of hydrogen production (green, grey, blue).",
+        "India's commitment to Net Zero by 2070.",
+        "Potential applications of green hydrogen (transport, industry, power generation)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of green hydrogen for India's energy security, climate goals, and economic growth.",
+        "Analyze the opportunities and challenges in scaling up green hydrogen production and adoption in India.",
+        "Evaluate the effectiveness of government policies and incentives under NGHM to foster a robust green hydrogen ecosystem.",
+        "Examine the potential of India becoming a global hub for green hydrogen export and its geopolitical implications."
+      ],
+      "imageDescription": "A large-scale green hydrogen production facility with solar panels and wind turbines in the background, symbolizing clean energy.",
+      "section": "Lead Opinion",
+      "trivia": "Green hydrogen is produced by splitting water into hydrogen and oxygen using electricity generated from renewable sources, making it a truly zero-emission fuel.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Conservation, environmental pollution and degradation",
+        "topic": "Green Hydrogen Mission and Renewable Energy"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "sc-right-to-be-forgotten",
+      "headline": "Supreme Court Reaffirms Scope of 'Right to be Forgotten' in Digital Realm, Urges Data Protection Law",
+      "explainer": "• The Supreme Court delivers a landmark ruling clarifying the contours of the 'Right to be Forgotten' for individuals.\n• The judgment balances individual privacy rights with freedom of speech and public interest in information access.\n• It emphasizes the imperative for a comprehensive data protection framework to effectively operationalize this right.\n• The court urges the government to expedite the enactment of a robust Data Protection Bill.\n• The ruling comes amidst growing concerns over digital footprints and the persistence of outdated personal information online.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Fundamental Rights",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Important aspects of governance, transparency and accountability"
+      ],
+      "date": "2025-03-11",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Right to be Forgotten",
+        "Data Privacy",
+        "Supreme Court",
+        "Fundamental Rights",
+        "Digital India",
+        "Data Protection Bill",
+        "Article 21"
+      ],
+      "keyTerms": [
+        "Right to be Forgotten",
+        "Digital Footprint",
+        "Data Protection",
+        "Privacy",
+        "Article 21",
+        "GDPR",
+        "Puttaswamy Judgment"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Origin of 'Right to be Forgotten' (EU's GDPR).",
+        "Recognition of privacy as a fundamental right in India (Justice K.S. Puttaswamy (Retd.) vs Union of India case).",
+        "Difference between 'right to be forgotten' and 'right to erasure'.",
+        "Key provisions expected in India's Data Protection Bill.",
+        "Constitutional articles related to privacy (Article 21)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the implications of the Supreme Court's ruling on individual privacy and freedom of expression in the digital age.",
+        "Analyze the challenges in implementing the 'Right to be Forgotten' in India, considering technological complexities and the need for public access to information.",
+        "Suggest measures for striking a balance between an individual's right to control their digital identity and the broader public interest.",
+        "Examine the role of a robust data protection law in upholding digital rights and fostering a secure online environment."
+      ],
+      "imageDescription": "A stylized image of a human silhouette with digital data streams flowing around it, representing digital identity and privacy.",
+      "section": "National",
+      "trivia": "The 'Right to be Forgotten' gained prominence after a 2014 European Court of Justice ruling against Google, compelling search engines to remove certain links.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Fundamental Rights",
+        "topic": "Right to be Forgotten and Data Privacy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-monetary-policy",
+      "headline": "RBI Maintains Status Quo on Repo Rate Amidst Evolving Inflation Dynamics",
+      "explainer": "• The Reserve Bank of India (RBI) Monetary Policy Committee (MPC) decides to keep the repo rate unchanged.\n• Decision driven by a cautious approach towards persistent retail inflation and global economic uncertainties.\n• RBI reiterates its commitment to aligning inflation with the target while supporting growth.\n• Focus remains on liquidity management and monitoring external sector vulnerabilities.\n• Analysts anticipate future rate cuts once inflation shows a sustained decline towards the target range.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Government Budgeting",
+        "Monetary Policy",
+        "Inflation and its impact"
+      ],
+      "date": "2025-03-11",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Repo Rate",
+        "Inflation",
+        "Economic Growth",
+        "MPC"
+      ],
+      "keyTerms": [
+        "Repo Rate",
+        "Reverse Repo Rate",
+        "Cash Reserve Ratio (CRR)",
+        "Statutory Liquidity Ratio (SLR)",
+        "Inflation Targeting",
+        "Monetary Policy Committee (MPC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Functions of the RBI and its role in monetary policy.",
+        "Composition and objectives of the Monetary Policy Committee (MPC).",
+        "Various tools of monetary policy (repo rate, reverse repo rate, CRR, SLR, OMOs).",
+        "Difference between fiscal and monetary policy.",
+        "Current inflation target range set by the government for RBI."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the factors influencing RBI's decision to maintain the repo rate and its implications for economic growth and inflation.",
+        "Discuss the challenges faced by the RBI in balancing inflation control with the need to support economic recovery.",
+        "Evaluate the effectiveness of the current monetary policy stance in achieving its stated objectives.",
+        "Examine the interplay between global economic conditions and India's monetary policy decisions."
+      ],
+      "imageDescription": "A close-up of the Reserve Bank of India (RBI) logo, symbolizing financial authority and stability.",
+      "section": "Economy",
+      "trivia": "The Monetary Policy Committee (MPC) was constituted in 2016 to bring transparency and accountability to monetary policy decisions, with six members (three from RBI, three appointed by the government).",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI and its functions"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "g20-sherpa-meeting-global-south",
+      "headline": "India Hosts G20 Sherpa Meeting, Emphasizes Global South Development Agenda",
+      "explainer": "• India hosts a critical G20 Sherpa meeting, setting the agenda for upcoming ministerial discussions.\n• The focus remains on championing the priorities and development needs of the Global South.\n• Key themes include sustainable development, climate finance, food security, and digital public infrastructure.\n• India advocates for greater representation of developing nations in global governance structures.\n• The meeting lays groundwork for consensus building on complex global challenges ahead of the Leaders' Summit.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora",
+        "Important International institutions, agencies and fora, their structure, mandate."
+      ],
+      "date": "2025-03-11",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "G20",
+        "Global South",
+        "International Relations",
+        "Climate Finance",
+        "Sustainable Development",
+        "Digital Public Infrastructure",
+        "Multilateralism"
+      ],
+      "keyTerms": [
+        "G20",
+        "Sherpa",
+        "Global South",
+        "Sustainable Development Goals (SDGs)",
+        "Climate Finance",
+        "Digital Public Infrastructure (DPI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Purpose and structure of the G20.",
+        "Role of Sherpas in G20 meetings.",
+        "Concept of 'Global South' and its significance in contemporary geopolitics.",
+        "India's past G20 presidency achievements and priorities.",
+        "Key initiatives promoted by India in G20 (e.g., LiFE, DPI)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze India's increasing role in shaping the G20 agenda, particularly in advocating for the Global South.",
+        "Discuss the challenges and opportunities in building consensus on complex global issues like climate finance and sustainable development within the G20 framework.",
+        "Evaluate the significance of digital public infrastructure (DPI) as a tool for inclusive development, as highlighted by India.",
+        "Examine how India's G20 engagement contributes to its foreign policy objectives and enhances its global standing."
+      ],
+      "imageDescription": "A group of international delegates engaged in discussions around a large conference table, with G20 logos visible.",
+      "section": "International",
+      "trivia": "The term 'Sherpa' for G20 representatives comes from the Nepali Sherpa people, who are guides for mountaineers in the Himalayas, symbolizing their role in guiding leaders through complex negotiations.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Groupings",
+        "topic": "G20 and India's Foreign Policy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "project-dolphin-launch",
+      "headline": "New 'Project Dolphin' Initiative Launched to Boost Conservation of Riverine and Oceanic Dolphins",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change launches 'Project Dolphin', a comprehensive conservation program.\n• Aimed at protecting both riverine (e.g., Gangetic Dolphin) and oceanic dolphin species across India.\n• Focus areas include habitat conservation, reduction of anthropogenic pressures, and community participation.\n• Emphasizes research, rescue, and rehabilitation efforts for vulnerable dolphin populations.\n• Builds upon the success of 'Project Tiger' and 'Project Elephant' in conserving flagship species.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Biodiversity and its conservation"
+      ],
+      "date": "2025-03-11",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Project Dolphin",
+        "Dolphin Conservation",
+        "Wildlife Protection",
+        "Biodiversity",
+        "Gangetic Dolphin",
+        "Marine Conservation"
+      ],
+      "keyTerms": [
+        "Project Dolphin",
+        "Gangetic River Dolphin",
+        "IUCN Red List",
+        "Conservation Status",
+        "Anthropogenic Pressure",
+        "Ecosystem Services"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Conservation status of Gangetic River Dolphin (National Aquatic Animal, IUCN: Endangered).",
+        "Key features and objectives of Project Dolphin.",
+        "Comparison with other wildlife conservation projects (e.g., Project Tiger, Project Elephant).",
+        "Threats faced by dolphin populations (habitat loss, pollution, bycatch).",
+        "Geographical distribution of major dolphin species in India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ecological significance of dolphins as indicator species for aquatic ecosystem health.",
+        "Analyze the major threats to dolphin populations in India and the challenges in their conservation.",
+        "Evaluate the multi-pronged approach of 'Project Dolphin' and its potential effectiveness in protecting these species.",
+        "Examine the role of community participation and inter-state/international cooperation in successful wildlife conservation initiatives."
+      ],
+      "imageDescription": "An image of a Gangetic River Dolphin breaching the surface of a river, with lush riverine vegetation.",
+      "section": "Environment",
+      "trivia": "The Gangetic River Dolphin is one of the few freshwater dolphin species in the world and is functionally blind, relying on echolocation to navigate and hunt.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Biodiversity and its conservation",
+        "topic": "Wildlife conservation projects"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "isro-next-gen-engine-test",
+      "headline": "ISRO Successfully Tests Next-Generation Semi-Cryogenic Engine for Future Launch Vehicles",
+      "explainer": "• The Indian Space Research Organisation (ISRO) successfully conducts a crucial hot test of its new semi-cryogenic engine.\n• This engine is designed to power the next generation of Indian heavy-lift launch vehicles, enhancing payload capacity.\n• The technology uses a combination of liquid oxygen and refined kerosene, offering higher thrust and efficiency.\n• The development is a significant step towards indigenous capabilities in advanced rocket propulsion.\n• It will support future missions, including heavier satellite launches and human spaceflight programs like Gaganyaan.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+        "Awareness in the fields of Space"
+      ],
+      "date": "2025-03-11",
+      "source": "The Times of India",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Space Technology",
+        "Semi-Cryogenic Engine",
+        "Launch Vehicle",
+        "Gaganyaan",
+        "Indigenous Technology"
+      ],
+      "keyTerms": [
+        "Semi-Cryogenic Engine",
+        "Cryogenic Engine",
+        "PSLV",
+        "GSLV",
+        "Payload Capacity",
+        "Propulsion System",
+        "Gaganyaan"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Difference between solid, liquid, cryogenic, and semi-cryogenic rocket engines.",
+        "Key components and propellants used in semi-cryogenic engines.",
+        "Significance of indigenous engine development for India's space program.",
+        "Major launch vehicles of ISRO (PSLV, GSLV, SSLV).",
+        "Overview of India's Gaganyaan human spaceflight mission."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of developing indigenous advanced propulsion technologies for India's space ambitions.",
+        "Analyze how the new semi-cryogenic engine will enhance India's capabilities in satellite launches and human spaceflight.",
+        "Evaluate the role of ISRO in fostering scientific and technological self-reliance in India.",
+        "Examine the economic and geopolitical benefits of a robust and independent space program."
+      ],
+      "imageDescription": "Engineers observing a large rocket engine undergoing a fiery test, symbolizing advanced propulsion technology.",
+      "section": "Science",
+      "trivia": "Cryogenic engines use propellants (liquid oxygen and liquid hydrogen) at extremely low temperatures, while semi-cryogenic engines use liquid oxygen but with a more easily stored fuel like refined kerosene.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space Technology",
+        "topic": "Rocketry and ISRO missions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "saksham-yuva-skill-scheme",
+      "headline": "Government Launches 'Saksham Yuva' Scheme for Youth Skill Development and Employment",
+      "explainer": "• The Ministry of Skill Development and Entrepreneurship unveils 'Saksham Yuva', a new scheme targeting youth empowerment.\n• Focuses on providing industry-relevant skill training, apprenticeship opportunities, and entrepreneurship support.\n• Integrates with existing initiatives like Skill India Mission and Pradhan Mantri Kaushal Vikas Yojana (PMKVY).\n• Aims to bridge the skill gap in emerging sectors and enhance employability of India's young demographic.\n• Includes provisions for career counseling, digital literacy, and financial assistance for startups.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2025-03-11",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Skill Development",
+        "Youth Employment",
+        "Saksham Yuva",
+        "Skill India",
+        "PMKVY",
+        "Entrepreneurship",
+        "Demographic Dividend"
+      ],
+      "keyTerms": [
+        "Skill Gap",
+        "Apprenticeship",
+        "Vocational Training",
+        "Demographic Dividend",
+        "National Skill Qualification Framework (NSQF)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Objectives and target beneficiaries of 'Saksham Yuva' scheme.",
+        "Key components of the Skill India Mission and PMKVY.",
+        "Concept of demographic dividend and its relevance to India.",
+        "Role of National Skill Development Corporation (NSDC).",
+        "Importance of vocational training in India's education system."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the challenges of youth unemployment and underemployment in India and the need for comprehensive skill development programs.",
+        "Analyze how schemes like 'Saksham Yuva' can contribute to harnessing India's demographic dividend and boosting economic growth.",
+        "Evaluate the effectiveness of government initiatives in bridging the skill gap and promoting entrepreneurship among youth.",
+        "Suggest measures to improve the quality and relevance of skill training programs to meet evolving industry demands."
+      ],
+      "imageDescription": "Young individuals engaged in various vocational training activities, such as coding, carpentry, and electrical work.",
+      "section": "National",
+      "trivia": "India has one of the world's largest youth populations, making skill development crucial for leveraging its demographic dividend.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Human Resources",
+        "topic": "Skill Development Schemes"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-france-naval-exercise",
+      "headline": "India-France Joint Naval Exercise 'Varuna' Concludes, Enhancing Maritime Cooperation",
+      "explainer": "• The 23rd edition of the bilateral naval exercise 'Varuna' between India and France successfully concludes in the Arabian Sea.\n• The exercise focused on enhancing interoperability, maritime security cooperation, and joint operational capabilities.\n• Featured complex anti-submarine warfare drills, air defence exercises, and tactical maneuvers.\n• Underscores the growing strategic partnership between India and France in the Indo-Pacific region.\n• Reinforces commitment to a free, open, and rules-based international order.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security challenges and their management in border areas",
+        "Various Security forces and agencies and their mandate",
+        "Defence Technology"
+      ],
+      "date": "2025-03-11",
+      "source": "Ministry of Defence",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "India-France Relations",
+        "Naval Exercise",
+        "Varuna",
+        "Maritime Security",
+        "Indo-Pacific",
+        "Defence Cooperation"
+      ],
+      "keyTerms": [
+        "Bilateral Exercise",
+        "Interoperability",
+        "Maritime Domain Awareness (MDA)",
+        "Indo-Pacific",
+        "Anti-Submarine Warfare (ASW)",
+        "Rules-Based Order"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Name of the joint naval exercise between India and France ('Varuna').",
+        "Other key bilateral exercises between India and France (e.g., Garuda - Air Force, Shakti - Army).",
+        "Significance of the Indo-Pacific region for India's strategic interests.",
+        "Key naval assets involved in the exercise.",
+        "Role of France as a strategic partner for India in defence."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of defence cooperation between India and France, particularly in the Indo-Pacific region.",
+        "Analyze how joint naval exercises like 'Varuna' contribute to enhancing maritime security and interoperability among partner navies.",
+        "Evaluate the role of such bilateral engagements in upholding a free, open, and rules-based international order.",
+        "Examine the evolving nature of India's defence partnerships and their implications for regional stability."
+      ],
+      "imageDescription": "Indian and French warships sailing in formation during a joint naval exercise at sea.",
+      "section": "International",
+      "trivia": "The 'Varuna' exercise began in 1993 and was officially christened in 2001, becoming a hallmark of India-France strategic naval cooperation.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Defence Cooperation",
+        "topic": "India-France strategic partnership"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "q3-gdp-projection-upwards",
+      "headline": "India's Q3 FY25 GDP Growth Projection Revised Upwards by National Statistical Office",
+      "explainer": "• The National Statistical Office (NSO) releases updated figures, revising India's Q3 FY25 GDP growth upwards.\n• The revision is attributed to stronger-than-expected performance in manufacturing and services sectors.\n• Private consumption and investment show signs of sustained recovery, contributing to the positive outlook.\n• This upward revision signals resilience in the Indian economy amidst global headwinds.\n• Government expresses optimism about meeting full-year growth targets, contingent on continued policy support.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Government Budgeting",
+        "Growth and Development"
+      ],
+      "date": "2025-03-11",
+      "source": "Ministry of Statistics and Programme Implementation",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "GDP Growth",
+        "Indian Economy",
+        "NSO",
+        "Economic Indicators",
+        "Manufacturing Sector",
+        "Services Sector"
+      ],
+      "keyTerms": [
+        "Gross Domestic Product (GDP)",
+        "Gross Value Added (GVA)",
+        "National Statistical Office (NSO)",
+        "Private Consumption",
+        "Gross Fixed Capital Formation (GFCF)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Methodology for calculating GDP and GVA in India.",
+        "Role of National Statistical Office (NSO) in data collection and release.",
+        "Key components of GDP (consumption, investment, government spending, net exports).",
+        "Major sectors contributing to India's GDP (agriculture, industry, services).",
+        "Factors influencing economic growth in India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the factors contributing to the upward revision of India's GDP growth and its implications for the overall economic outlook.",
+        "Discuss the challenges and opportunities for sustaining high economic growth in India in the medium to long term.",
+        "Evaluate the role of government policies and structural reforms in fostering economic resilience and attracting investment.",
+        "Examine the impact of global economic trends and geopolitical events on India's growth trajectory."
+      ],
+      "imageDescription": "A bar graph showing an upward trend in economic growth, with Indian currency notes in the foreground.",
+      "section": "Economy",
+      "trivia": "India's GDP is calculated using two main methods: the expenditure method and the income method. The NSO often uses both to provide comprehensive data.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "National Income",
+        "topic": "GDP and Economic Growth"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "parliamentary-panel-disaster-management",
+      "headline": "Parliamentary Standing Committee Recommends Reforms in Disaster Management Framework",
+      "explainer": "• A Parliamentary Standing Committee submits a report recommending significant reforms to India's disaster management framework.\n• Calls for enhanced funding, better inter-agency coordination, and a shift towards proactive risk reduction.\n• Highlights the need for robust early warning systems and climate-resilient infrastructure development.\n• Emphasizes strengthening the National Disaster Response Force (NDRF) and State Disaster Response Forces (SDRFs).\n• Urges for greater community participation and public awareness campaigns to build resilience at the local level.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure",
+        "Statutory, regulatory and various quasi-judicial bodies",
+        "Disaster and disaster management"
+      ],
+      "date": "2025-03-11",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Disaster Management",
+        "Parliamentary Committee",
+        "NDRF",
+        "SDRF",
+        "Climate Resilience",
+        "Early Warning Systems",
+        "Risk Reduction"
+      ],
+      "keyTerms": [
+        "Disaster Management Act, 2005",
+        "National Disaster Management Authority (NDMA)",
+        "National Disaster Response Force (NDRF)",
+        "State Disaster Response Force (SDRF)",
+        "Disaster Risk Reduction (DRR)",
+        "Sendai Framework"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Provisions of the Disaster Management Act, 2005.",
+        "Structure and functions of NDMA, NDRF, and SDRF.",
+        "Different types of disasters prevalent in India.",
+        "International frameworks for disaster management (e.g., Sendai Framework for DRR).",
+        "Role of technology in early warning systems."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strengths and weaknesses of India's existing disaster management framework in responding to natural calamities.",
+        "Analyze the recommendations of the Parliamentary Standing Committee and their potential impact on improving disaster preparedness and response.",
+        "Evaluate the importance of shifting from a reactive to a proactive approach in disaster management, focusing on risk reduction and climate resilience.",
+        "Examine the role of multi-stakeholder collaboration, including government, civil society, and local communities, in building disaster resilience."
+      ],
+      "imageDescription": "Rescue workers from NDRF assisting people during a flood, symbolizing disaster response efforts.",
+      "section": "National",
+      "trivia": "The National Disaster Management Authority (NDMA) is headed by the Prime Minister of India, emphasizing the high priority given to disaster management at the national level.",
+      "prelimsSyllabus": {
+        "subject": "Governance",
+        "area": "Disaster Management",
+        "topic": "Disaster Management Act and Institutions"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-climate-resilient-agriculture",
+      "headline": "India Pledges Enhanced Support for Climate-Resilient Agriculture at FAO Conference",
+      "explainer": "• India reiterates its commitment to sustainable food systems and climate-resilient agriculture at a UN FAO conference.\n• Emphasizes the need for global cooperation and technology transfer to support smallholder farmers.\n• Highlights India's own initiatives, such as the National Innovations in Climate Resilient Agriculture (NICRA).\n• Calls for increased international funding for adaptation strategies in developing countries.\n• Stresses the importance of traditional knowledge and indigenous practices in building agricultural resilience.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate",
+        "Effect of policies and politics of developed and developing countries on India’s interests",
+        "Food security",
+        "Agriculture – major crops cropping patterns in various parts of the country, different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers"
+      ],
+      "date": "2025-03-11",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Climate Resilient Agriculture",
+        "FAO",
+        "Food Security",
+        "Climate Change",
+        "Sustainable Agriculture",
+        "International Cooperation",
+        "NICRA"
+      ],
+      "keyTerms": [
+        "Food and Agriculture Organization (FAO)",
+        "Climate-Resilient Agriculture (CRA)",
+        "National Innovations in Climate Resilient Agriculture (NICRA)",
+        "Smallholder Farmers",
+        "Sustainable Development Goals (SDGs)",
+        "Climate Adaptation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Mandate and functions of the Food and Agriculture Organization (FAO).",
+        "Concept of climate-resilient agriculture and its components.",
+        "Objectives and initiatives under NICRA.",
+        "Impact of climate change on Indian agriculture.",
+        "Importance of food security as an SDG."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the challenges posed by climate change to India's agricultural sector and its implications for food security.",
+        "Analyze the strategies and initiatives adopted by India to promote climate-resilient agriculture and support smallholder farmers.",
+        "Evaluate the role of international cooperation and multilateral platforms like FAO in addressing global food security and climate change challenges.",
+        "Examine the potential of integrating traditional knowledge with modern agricultural practices for enhanced resilience."
+      ],
+      "imageDescription": "A farmer working in a field, surrounded by innovative irrigation systems and drought-resistant crops, symbolizing climate-resilient agriculture.",
+      "section": "International",
+      "trivia": "The FAO (Food and Agriculture Organization) was founded in 1945 with the aim of defeating hunger and improving nutrition and food security.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Climate Change",
+        "topic": "Impact on Agriculture and International Organizations"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "heatwave-events-report",
+      "headline": "Report Highlights Increasing Heatwave Events in Urban India, Calls for Urgent Mitigation",
+      "explainer": "• A new scientific report reveals a significant increase in the frequency and intensity of heatwave events in major Indian cities.\n• Attributes the trend to rapid urbanization, climate change, and the 'urban heat island' effect.\n• Warns of severe public health risks, including heatstroke, dehydration, and exacerbation of chronic diseases.\n• Calls for urgent implementation of heat action plans, green infrastructure, and climate-resilient urban planning.\n• Emphasizes the need for localized early warning systems and public awareness campaigns.",
+      "category": "environment",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water bodies and ice-caps) and in flora and fauna and the effects of such changes",
+        "Urbanization, their problems and their remedies"
+      ],
+      "date": "2025-03-11",
+      "source": "Centre for Science and Environment (CSE)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Heatwave",
+        "Urban Heat Island",
+        "Climate Change",
+        "Public Health",
+        "Urban Planning",
+        "Environmental Degradation",
+        "Disaster Management"
+      ],
+      "keyTerms": [
+        "Heatwave",
+        "Urban Heat Island Effect",
+        "Climate Resilience",
+        "Green Infrastructure",
+        "Heat Action Plans",
+        "Vulnerability Assessment"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Definition of a heatwave by IMD (India Meteorological Department).",
+        "Causes and consequences of the 'urban heat island' effect.",
+        "Impact of heatwaves on human health and economy.",
+        "Role of green infrastructure (e.g., urban forests, cool roofs) in mitigating heat.",
+        "Importance of city-specific heat action plans."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the multifaceted challenges posed by increasing heatwave events in urban India, including environmental, social, and economic impacts.",
+        "Analyze the role of urbanization and climate change in exacerbating the 'urban heat island' effect and its consequences.",
+        "Evaluate the effectiveness of current mitigation strategies and suggest comprehensive measures for building climate-resilient cities.",
+        "Examine the importance of integrated urban planning, public health interventions, and community awareness in addressing heatwave risks."
+      ],
+      "imageDescription": "A city skyline shimmering under intense heat, with a heat haze distorting the view, symbolizing urban heatwaves.",
+      "section": "Environment",
+      "trivia": "The urban heat island effect describes how urban areas are significantly warmer than their surrounding rural areas due to human activities and infrastructure.",
+      "prelimsSyllabus": {
+        "subject": "Geography",
+        "area": "Climatology",
+        "topic": "Urban heat island and climate change impacts"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ai-ethics-council-india",
+      "headline": "India Establishes National AI Ethics Council to Guide Responsible AI Development",
+      "explainer": "• The Ministry of Electronics and Information Technology announces the formation of the National AI Ethics Council.\n• Tasked with formulating guidelines and policies for the ethical and responsible development and deployment of Artificial Intelligence (AI).\n• Aims to address concerns related to bias, privacy, accountability, and the societal impact of AI technologies.\n• Comprises experts from academia, industry, government, and civil society organizations.\n• Positions India as a responsible stakeholder in the global AI governance landscape.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights",
+        "Role of IT in governance"
+      ],
+      "date": "2025-03-11",
+      "source": "Ministry of Electronics and Information Technology",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "AI Ethics",
+        "Artificial Intelligence",
+        "Digital Governance",
+        "Responsible AI",
+        "Technology Policy",
+        "Data Privacy"
+      ],
+      "keyTerms": [
+        "Artificial Intelligence (AI)",
+        "AI Ethics",
+        "Algorithmic Bias",
+        "Data Privacy",
+        "Accountability",
+        "AI Governance",
+        "Explainable AI (XAI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key ethical challenges in AI development (bias, privacy, transparency).",
+        "Objectives and composition of the National AI Ethics Council.",
+        "India's vision for AI (e.g., 'AI for All').",
+        "Global initiatives for AI governance (e.g., OECD AI Principles).",
+        "Potential applications of AI in various sectors."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ethical dilemmas and societal implications associated with the rapid advancement and deployment of Artificial Intelligence.",
+        "Analyze the significance of establishing a National AI Ethics Council in guiding responsible AI development in India.",
+        "Evaluate the challenges in formulating and implementing effective AI ethics guidelines that balance innovation with societal well-being.",
+        "Examine India's role in shaping global AI governance frameworks and promoting an inclusive approach to AI development."
+      ],
+      "imageDescription": "A stylized brain with interconnected nodes, symbolizing AI and ethical considerations, against a digital background.",
+      "section": "Science",
+      "trivia": "AI ethics is a branch of ethics that studies ethical issues related to artificial intelligence, covering concerns from algorithmic bias to autonomous decision-making.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Information Technology",
+        "topic": "Artificial Intelligence and its ethical implications"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "nep-2020-vocational-training",
+      "headline": "National Education Policy 2020 Implementation Review Focuses on Vocational Training Integration",
+      "explainer": "• A review of National Education Policy (NEP) 2020 implementation highlights progress and areas for improvement.\n• Particular emphasis is placed on the successful integration of vocational education from school to higher education levels.\n• Reports indicate increased enrollment in vocational courses and industry partnerships for skill development.\n• Challenges remain in infrastructure, teacher training, and societal perception of vocational streams.\n• Government reiterates commitment to making education holistic and employment-oriented as envisioned by NEP.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2025-03-11",
+      "source": "Ministry of Education",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "NEP 2020",
+        "Vocational Education",
+        "Skill Development",
+        "Education Policy",
+        "Human Resources",
+        "Employability"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP) 2020",
+        "Vocational Education",
+        "Skill Gap",
+        "Holistic Education",
+        "National Skill Qualification Framework (NSQF)",
+        "Apprenticeship"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key pillars and objectives of National Education Policy (NEP) 2020.",
+        "Recommendations of NEP 2020 regarding vocational education.",
+        "Role of vocational training in enhancing employability.",
+        "Challenges in implementing NEP 2020 across different educational levels.",
+        "Importance of multidisciplinary education."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of vocational education as envisioned in NEP 2020 for India's youth and economy.",
+        "Analyze the progress made and the challenges encountered in integrating vocational training into the mainstream education system.",
+        "Evaluate the measures required to overcome societal stigma associated with vocational streams and promote their acceptance.",
+        "Examine how a holistic and skill-oriented education system can contribute to India's demographic dividend and global competitiveness."
+      ],
+      "imageDescription": "Students in a classroom engaged in hands-on learning, with modern educational tools and a teacher guiding them.",
+      "section": "National",
+      "trivia": "NEP 2020 proposes a 5+3+3+4 curricular structure, moving away from the 10+2 system, to make education more flexible and multidisciplinary.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Education",
+        "topic": "National Education Policy 2020 and Vocational Education"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "fdi-norms-manufacturing",
+      "headline": "Government Proposes New FDI Norms to Boost Domestic Manufacturing in Critical Sectors",
+      "explainer": "• The Department for Promotion of Industry and Internal Trade (DPIIT) proposes revised Foreign Direct Investment (FDI) norms.\n• Aims to attract greater foreign investment into critical manufacturing sectors like advanced electronics, pharmaceuticals, and defence.\n• New policies offer streamlined approvals and enhanced incentives for foreign companies setting up production units in India.\n• Focus on 'Make in India' and 'Atmanirbhar Bharat' initiatives to reduce import dependence and create jobs.\n• Seeks to integrate India more deeply into global supply chains and boost export competitiveness.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Government Budgeting",
+        "Industrial policy and its effects on industrial growth",
+        "Investment models"
+      ],
+      "date": "2025-03-11",
+      "source": "Business Standard",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "FDI",
+        "Manufacturing",
+        "Make in India",
+        "Atmanirbhar Bharat",
+        "Investment Policy",
+        "DPIIT",
+        "Global Supply Chains"
+      ],
+      "keyTerms": [
+        "Foreign Direct Investment (FDI)",
+        "Department for Promotion of Industry and Internal Trade (DPIIT)",
+        "Make in India",
+        "Atmanirbhar Bharat",
+        "Production Linked Incentive (PLI) Scheme",
+        "Global Value Chains (GVCs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Definition of FDI and its types (greenfield, brownfield).",
+        "Key sectors open for FDI in India and approval routes (automatic, government).",
+        "Objectives of 'Make in India' and 'Atmanirbhar Bharat' initiatives.",
+        "Role of DPIIT in promoting investment.",
+        "Impact of FDI on economic growth and employment."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of FDI in boosting India's manufacturing sector and achieving self-reliance.",
+        "Analyze how the proposed new FDI norms aim to attract investment and overcome existing challenges in critical sectors.",
+        "Evaluate the effectiveness of government schemes like PLI in complementing FDI policies to promote domestic production.",
+        "Examine the role of FDI in integrating India into global supply chains and enhancing its export competitiveness."
+      ],
+      "imageDescription": "A factory floor with robotic arms assembling components, symbolizing advanced manufacturing and industrial growth.",
+      "section": "Economy",
+      "trivia": "FDI is considered a non-debt-creating source of capital, which is crucial for long-term economic development and technological upgrade.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Investment Models",
+        "topic": "Foreign Direct Investment (FDI)"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "himalayan-glacial-retreat",
+      "headline": "Study on Himalayan Glacial Retreat Reveals Alarming Rates, Impacts on Water Security",
+      "explainer": "• A new scientific study indicates an accelerating rate of glacial retreat across the Himalayas.\n• The rapid melting poses significant threats to the water security of millions in downstream regions.\n• Highlights the severe impact of climate change on the cryosphere and freshwater resources.\n• Calls for urgent regional and international cooperation on climate action and water management.\n• Warns of increased risks of glacial lake outburst floods (GLOFs) and long-term water scarcity.",
+      "category": "environment",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water bodies and ice-caps) and in flora and fauna and the effects of such changes",
+        "Water Resources"
+      ],
+      "date": "2025-03-11",
+      "source": "Nature Geoscience",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Himalayan Glaciers",
+        "Climate Change",
+        "Water Security",
+        "Glacial Retreat",
+        "GLOFs",
+        "Cryosphere",
+        "Environmental Impact"
+      ],
+      "keyTerms": [
+        "Glacial Retreat",
+        "Cryosphere",
+        "Glacial Lake Outburst Flood (GLOF)",
+        "Water Scarcity",
+        "Climate Change Adaptation",
+        "Third Pole"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Causes and consequences of glacial retreat.",
+        "Significance of Himalayan glaciers as 'Third Pole' and water source for major rivers.",
+        "Definition and risks associated with Glacial Lake Outburst Floods (GLOFs).",
+        "Impact of climate change on mountain ecosystems.",
+        "International initiatives for cryosphere monitoring."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the alarming implications of accelerating Himalayan glacial retreat for regional water security, agriculture, and hydropower generation.",
+        "Analyze the role of climate change and anthropogenic factors in driving glacial melting and its cascading effects.",
+        "Evaluate the challenges in monitoring and mitigating the risks associated with glacial retreat, including GLOFs.",
+        "Examine the need for a comprehensive regional strategy involving transboundary cooperation for sustainable water management in the Himalayan region."
+      ],
+      "imageDescription": "A panoramic view of a rapidly melting Himalayan glacier with visible cracks and meltwater streams, illustrating glacial retreat.",
+      "section": "Environment",
+      "trivia": "The Himalayas are often referred to as the 'Third Pole' because they contain the largest ice mass outside the polar regions, feeding major rivers across Asia.",
+      "prelimsSyllabus": {
+        "subject": "Geography",
+        "area": "Physical Geography",
+        "topic": "Himalayan Glaciers and Climate Change"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "cyber-security-framework",
+      "headline": "Government Unveils Enhanced National Cyber Security Framework to Counter Evolving Threats",
+      "explainer": "• The Ministry of Home Affairs introduces an updated National Cyber Security Framework to bolster India's digital defenses.\n• Aims to counter sophisticated cyber threats, including ransomware, data breaches, and state-sponsored attacks.\n• Focuses on critical infrastructure protection, threat intelligence sharing, and public-private partnerships.\n• Includes provisions for enhanced training for cybersecurity professionals and awareness campaigns for citizens.\n• The framework emphasizes proactive measures and a multi-pronged approach to secure India's digital ecosystem.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention",
+        "Security forces and agencies and their mandate."
+      ],
+      "date": "2025-03-11",
+      "source": "Ministry of Home Affairs",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Cyber Security",
+        "National Cyber Security Framework",
+        "Digital India",
+        "Critical Infrastructure",
+        "Ransomware",
+        "Data Breach",
+        "Internal Security"
+      ],
+      "keyTerms": [
+        "Cyber Security",
+        "Critical Information Infrastructure (CII)",
+        "Ransomware",
+        "Data Breach",
+        "Threat Intelligence",
+        "Public-Private Partnership",
+        "CERT-In"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key objectives of the National Cyber Security Framework.",
+        "Role of CERT-In (Indian Computer Emergency Response Team) in cybersecurity.",
+        "Types of cyber threats (ransomware, phishing, DDoS attacks).",
+        "Importance of protecting Critical Information Infrastructure (CII).",
+        "Legal provisions for cybersecurity in India (IT Act, 2000)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolving nature of cyber threats and their implications for India's national security and economic stability.",
+        "Analyze the key features of the enhanced National Cyber Security Framework and its potential to strengthen India's digital defenses.",
+        "Evaluate the challenges in implementing a robust cybersecurity strategy, particularly in terms of technology, human resources, and inter-agency coordination.",
+        "Examine the role of public-private partnerships and international cooperation in combating global cybercrime and ensuring a secure digital space."
+      ],
+      "imageDescription": "A digital padlock icon overlaid on a map of India, representing national cybersecurity protection.",
+      "section": "National",
+      "trivia": "India's Information Technology Act, 2000, is the primary law dealing with cybercrime and e-commerce in the country.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Cyber Security",
+        "topic": "National Cyber Security Framework"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "global-health-summit-pandemic-preparedness",
+      "headline": "India Advocates for Equitable Access to Vaccines and Medicines at Global Health Summit",
+      "explainer": "• India plays a leading role at the Global Health Summit, advocating for equitable access to vaccines, diagnostics, and therapeutics.\n• Stresses the need for strengthening global pandemic preparedness and response mechanisms, especially for developing nations.\n• Highlights India's capabilities as a 'pharmacy of the world' and its contributions during past health crises.\n• Calls for reform of international intellectual property regimes to facilitate technology transfer for health products.\n• Emphasizes a 'One Health' approach to address interconnected human, animal, and environmental health challenges.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Effect of policies and politics of developed and developing countries on India’s interests"
+      ],
+      "date": "2025-03-11",
+      "source": "Ministry of Health and Family Welfare",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Global Health",
+        "Pandemic Preparedness",
+        "Equitable Access",
+        "Vaccine Equity",
+        "International Cooperation",
+        "One Health",
+        "IPR"
+      ],
+      "keyTerms": [
+        "Global Health Security",
+        "Pandemic Preparedness",
+        "Equitable Access",
+        "Intellectual Property Rights (IPR)",
+        "TRIPS Waiver",
+        "One Health",
+        "WHO"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Concept of 'Global Health Security' and its importance.",
+        "Role of India as the 'pharmacy of the world'.",
+        "The 'One Health' approach and its components.",
+        "International organizations involved in global health (WHO, GAVI).",
+        "Debate around IPR waivers for essential medicines/vaccines during pandemics."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss India's pivotal role in global health diplomacy, particularly in advocating for equitable access to health resources.",
+        "Analyze the challenges in achieving global health equity and strengthening pandemic preparedness, especially for developing countries.",
+        "Evaluate the arguments for and against reforms in intellectual property regimes to facilitate wider access to life-saving technologies.",
+        "Examine the significance of the 'One Health' approach in addressing complex health challenges that transcend national borders."
+      ],
+      "imageDescription": "A globe surrounded by medical symbols (syringes, pills, microscopes), representing global health cooperation.",
+      "section": "International",
+      "trivia": "India is the largest provider of generic drugs globally, supplying over 50% of all vaccines and 20% of generic medicines worldwide.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "Global Health and India's role"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "cultural-heritage-digitization",
+      "headline": "Ministry of Culture Launches National Mission for Digitization of Cultural Heritage Assets",
+      "explainer": "• The Ministry of Culture initiates a nationwide mission to digitize India's vast and diverse cultural heritage.\n• Aims to preserve ancient manuscripts, artworks, historical documents, and architectural records in digital format.\n• Will create a centralized digital repository accessible to researchers, scholars, and the public globally.\n• Utilizes advanced technologies like 3D scanning, artificial intelligence, and virtual reality for immersive experiences.\n• Seeks to protect heritage from decay, natural disasters, and promote cultural tourism and education.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times",
+        "Role of women and women’s organization, population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies"
+      ],
+      "date": "2025-03-11",
+      "source": "Ministry of Culture",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Cultural Heritage",
+        "Digitization",
+        "Art and Culture",
+        "Preservation",
+        "Digital India",
+        "Archaeology",
+        "Museums"
+      ],
+      "keyTerms": [
+        "Cultural Heritage",
+        "Digitization",
+        "Digital Repository",
+        "Archaeological Survey of India (ASI)",
+        "Intangible Cultural Heritage",
+        "Virtual Reality (VR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Objectives of the National Mission for Digitization of Cultural Heritage.",
+        "Role of organizations like Archaeological Survey of India (ASI) and National Archives of India.",
+        "Benefits of digitization for cultural preservation and accessibility.",
+        "Technologies used in heritage digitization (3D scanning, AI).",
+        "Examples of India's tangible and intangible cultural heritage."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the importance of preserving India's diverse cultural heritage and the challenges posed by physical degradation and lack of access.",
+        "Analyze how digitization can serve as a powerful tool for heritage preservation, research, and public engagement.",
+        "Evaluate the potential of digital platforms and immersive technologies in promoting cultural tourism and education.",
+        "Examine the ethical considerations and technical challenges involved in digitizing vast cultural assets and ensuring their long-term security."
+      ],
+      "imageDescription": "A digital rendering of ancient Indian monuments and artifacts, symbolizing the preservation of cultural heritage through technology.",
+      "section": "National",
+      "trivia": "India has 42 UNESCO World Heritage Sites, including cultural and natural sites, showcasing its rich heritage.",
+      "prelimsSyllabus": {
+        "subject": "Art and Culture",
+        "area": "Heritage Preservation",
+        "topic": "Digitization of Cultural Assets"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "solar-energy-capacity-addition",
+      "headline": "India's Solar Energy Capacity Additions Surge, Driving Renewable Energy Targets",
+      "explainer": "• A new report highlights a significant surge in India's solar energy capacity additions in the past year.\n• The rapid expansion is a major driver towards achieving the national renewable energy targets.\n• Attributed to supportive government policies, declining solar panel costs, and private sector investment.\n• Focus on both utility-scale solar parks and distributed rooftop solar installations.\n• Underscores India's commitment to reducing its carbon footprint and enhancing energy independence.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Infrastructure: Energy",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-03-11",
+      "source": "Ministry of New and Renewable Energy",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Solar Energy",
+        "Renewable Energy",
+        "Climate Change",
+        "Energy Transition",
+        "Clean Energy",
+        "Grid Integration"
+      ],
+      "keyTerms": [
+        "Solar Energy",
+        "Renewable Energy Target",
+        "Utility-Scale Solar",
+        "Rooftop Solar",
+        "International Solar Alliance (ISA)",
+        "Net Metering"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India's renewable energy targets (e.g., 500 GW by 2030).",
+        "Key government schemes promoting solar energy (e.g., PM-KUSUM, National Solar Mission).",
+        "Difference between utility-scale and rooftop solar.",
+        "Role of International Solar Alliance (ISA).",
+        "Benefits of solar energy (environmental, economic)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the role of solar energy in India's energy transition strategy and its contribution to achieving climate goals.",
+        "Analyze the factors driving the rapid growth of solar capacity in India and the policy support required to sustain this momentum.",
+        "Evaluate the challenges associated with large-scale solar integration into the national grid and potential solutions.",
+        "Examine the socio-economic benefits of expanding solar energy, including job creation and energy access."
+      ],
+      "imageDescription": "Vast fields of solar panels stretching into the horizon under a clear sky, symbolizing renewable energy generation.",
+      "section": "Environment",
+      "trivia": "India is home to the world's largest solar power plant (Bhadla Solar Park in Rajasthan) and is a founding member of the International Solar Alliance (ISA).",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Renewable Energy",
+        "topic": "Solar Energy and National Missions"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "India's Green Hydrogen Mission achieves significant milestones, boosting clean energy transition and global leadership aspirations.",
+    "Supreme Court clarifies 'Right to be Forgotten' scope, balancing privacy with public interest and urging prompt data protection law.",
+    "RBI maintains status quo on repo rate amidst persistent inflation concerns, signaling cautious monetary policy.",
+    "India hosts G20 Sherpa meeting, championing Global South development agenda on climate finance, food security, and DPI.",
+    "ISRO successfully tests next-generation semi-cryogenic engine, advancing indigenous capabilities for future heavy-lift missions."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to India's National Green Hydrogen Mission (NGHM), consider the following statements:\n1. NGHM aims to make India a global hub for green hydrogen production and export.\n2. Green hydrogen is produced by splitting water using electricity from fossil fuel sources.\n3. The SIGHT programme is a key component of NGHM, providing financial incentives for electrolyser manufacturing.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 3 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 3 only",
+      "explanation": "Statement 1 is correct. NGHM's primary objective is to position India as a global leader in green hydrogen production and export. Statement 2 is incorrect. Green hydrogen is produced using electricity from renewable energy sources, not fossil fuels. Statement 3 is correct. The Strategic Interventions for Green Hydrogen Transition (SIGHT) programme is a major financial incentive mechanism under NGHM to promote electrolyser manufacturing and green hydrogen production."
+    },
+    {
+      "question": "The term 'Right to be Forgotten', recently in news, is most closely associated with:",
+      "options": [
+        "(a) Freedom of Speech and Expression",
+        "(b) Right to Privacy",
+        "(c) Right to Information",
+        "(d) Right to Constitutional Remedies"
+      ],
+      "answer": "(b) Right to Privacy",
+      "explanation": "The 'Right to be Forgotten' is an aspect of the broader Right to Privacy, allowing individuals to request the removal of outdated or irrelevant personal information from public platforms, particularly online. While it interacts with freedom of speech, its core premise is privacy protection."
+    },
+    {
+      "question": "Which of the following statements best describes the 'Urban Heat Island' effect?\n(a) It is a phenomenon where urban areas experience lower temperatures than surrounding rural areas due to increased green spaces.\n(b) It refers to the excessive cooling of urban environments due to reflective surfaces.\n(c) It is a phenomenon where urban areas are significantly warmer than surrounding rural areas due to human activities and infrastructure.\n(d) It describes the process of heat escaping urban buildings during winter, leading to colder streets.",
+      "answer": "(c) It is a phenomenon where urban areas are significantly warmer than surrounding rural areas due to human activities and infrastructure.",
+      "explanation": "The Urban Heat Island (UHI) effect occurs when urban areas, with their dense infrastructure (buildings, roads), lack of vegetation, and human activities (vehicles, air conditioning), absorb and retain more heat than surrounding rural areas, leading to higher temperatures."
+    },
+    {
+      "question": "Consider the following pairs of Joint Military Exercises and Participating Countries:\n1. Varuna: India and France (Naval)\n2. Garuda: India and USA (Air Force)\n3. Shakti: India and UK (Army)\nWhich of the pairs given above is/are correctly matched?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(a) 1 only",
+      "explanation": "Pair 1 is correctly matched: 'Varuna' is a joint naval exercise between India and France. Pair 2 is incorrectly matched: 'Garuda' is a joint air exercise between India and France, not USA. 'Cope India' is an India-USA air exercise. Pair 3 is incorrectly matched: 'Shakti' is a joint army exercise between India and France, not UK. 'Ajeya Warrior' is an India-UK army exercise."
+    },
+    {
+      "question": "Which of the following is the primary objective of the 'One Health' approach in addressing global health challenges?\n(a) To focus exclusively on human health by developing advanced medical technologies.\n(b) To integrate human, animal, and environmental health for a holistic understanding and management of diseases.\n(c) To prioritize economic development over health concerns in developing nations.\n(d) To establish a single global health organization to control all healthcare systems worldwide.",
+      "answer": "(b) To integrate human, animal, and environmental health for a holistic understanding and management of diseases.",
+      "explanation": "The 'One Health' approach recognizes that the health of people is closely connected to the health of animals and our shared environment. It aims to design and implement programmes, policies, legislation, and research in which multiple sectors communicate and work together to achieve better public health outcomes."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "India's National Green Hydrogen Mission (NGHM) is pivotal for its energy security and climate goals. Discuss the strategic importance of green hydrogen for India and analyze the challenges in scaling up its production and adoption.",
+      "syllabusMatch": "GS3: Indian Economy; Infrastructure (Energy); Environmental Pollution & Degradation; Science & Technology.",
+      "approach": "Introduce NGHM and its significance. Discuss strategic importance (decarbonization, energy independence, economic opportunity). Detail challenges (cost, infrastructure, technology, policy support). Conclude with way forward."
+    },
+    {
+      "question": "The Supreme Court's clarification on the 'Right to be Forgotten' highlights the evolving landscape of digital rights. Analyze the implications of this right for individual privacy and freedom of expression in the digital age, and suggest measures for its effective implementation.",
+      "syllabusMatch": "GS2: Indian Constitution—Fundamental Rights; Government policies and interventions for development in various sectors; Governance.",
+      "approach": "Define 'Right to be Forgotten' and its constitutional basis. Discuss implications for privacy (data control, reputation) and freedom of expression (public interest, historical record). Detail challenges in implementation (tech, legal, balancing rights). Suggest measures (robust data law, clear guidelines, judicial precedents, public awareness)."
+    },
+    {
+      "question": "Increasing frequency and intensity of heatwave events in urban India pose significant multi-faceted challenges. Discuss the causes and consequences of urban heatwaves and critically evaluate the existing mitigation strategies, suggesting comprehensive measures for building climate-resilient cities.",
+      "syllabusMatch": "GS1: Important Geophysical phenomena; Urbanization, their problems and their remedies. GS3: Disaster Management.",
+      "approach": "Introduce urban heatwaves and their increasing trend. Explain causes (urban heat island effect, climate change, urbanization). Detail consequences (health, economy, environment). Critically evaluate existing strategies (heat action plans, green infrastructure). Suggest comprehensive measures (integrated urban planning, policy, community engagement, technology, long-term resilience)."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The National Green Hydrogen Mission (NGHM) aims to make India a global hub for green hydrogen production.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Hydrogen",
+        "NGHM"
+      ]
+    },
+    {
+      "text": "The 'Right to be Forgotten' is an aspect of the Right to Privacy, recognized under Article 21 of the Indian Constitution.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Right to Privacy",
+        "Fundamental Rights"
+      ]
+    },
+    {
+      "text": "The Monetary Policy Committee (MPC) of RBI is responsible for determining the policy interest rates.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "Monetary Policy"
+      ]
+    },
+    {
+      "text": "India's 'Project Dolphin' is a conservation program for both riverine and oceanic dolphin species.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Project Dolphin",
+        "Wildlife Conservation"
+      ]
+    },
+    {
+      "text": "ISRO's semi-cryogenic engine uses liquid oxygen and refined kerosene as propellants for higher efficiency.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "Space Technology"
+      ]
+    },
+    {
+      "text": "'Saksham Yuva' scheme focuses on youth skill development, apprenticeship, and entrepreneurship support.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "Skill Development",
+        "Youth Employment"
+      ]
+    },
+    {
+      "text": "The joint naval exercise 'Varuna' is conducted between India and France.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "Naval Exercise",
+        "India-France"
+      ]
+    },
+    {
+      "text": "The National Disaster Management Authority (NDMA) is headed by the Prime Minister of India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Disaster Management",
+        "NDMA"
+      ]
+    },
+    {
+      "text": "The 'One Health' approach recognizes the interconnectedness of human, animal, and environmental health.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "Global Health",
+        "One Health"
+      ]
+    },
+    {
+      "text": "The Himalayan region is often called the 'Third Pole' due to its vast ice reserves.",
+      "category": "geography",
+      "gsPaper": "GS1",
+      "tags": [
+        "Himalayas",
+        "Glaciers"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "heatwave-events-report",
+        "headline": "Report Highlights Increasing Heatwave Events in Urban India, Calls for Urgent Mitigation",
+        "explainer": "• A new scientific report reveals a significant increase in the frequency and intensity of heatwave events in major Indian cities.\n• Attributes the trend to rapid urbanization, climate change, and the 'urban heat island' effect.\n• Warns of severe public health risks, including heatstroke, dehydration, and exacerbation of chronic diseases.\n• Calls for urgent implementation of heat action plans, green infrastructure, and climate-resilient urban planning.\n• Emphasizes the need for localized early warning systems and public awareness campaigns.",
+        "category": "environment",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water bodies and ice-caps) and in flora and fauna and the effects of such changes",
+          "Urbanization, their problems and their remedies"
+        ],
+        "date": "2025-03-11",
+        "source": "Centre for Science and Environment (CSE)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Heatwave",
+          "Urban Heat Island",
+          "Climate Change",
+          "Public Health",
+          "Urban Planning",
+          "Environmental Degradation",
+          "Disaster Management"
+        ],
+        "keyTerms": [
+          "Heatwave",
+          "Urban Heat Island Effect",
+          "Climate Resilience",
+          "Green Infrastructure",
+          "Heat Action Plans",
+          "Vulnerability Assessment"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Definition of a heatwave by IMD (India Meteorological Department).",
+          "Causes and consequences of the 'urban heat island' effect.",
+          "Impact of heatwaves on human health and economy.",
+          "Role of green infrastructure (e.g., urban forests, cool roofs) in mitigating heat.",
+          "Importance of city-specific heat action plans."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the multifaceted challenges posed by increasing heatwave events in urban India, including environmental, social, and economic impacts.",
+          "Analyze the role of urbanization and climate change in exacerbating the 'urban heat island' effect and its consequences.",
+          "Evaluate the effectiveness of current mitigation strategies and suggest comprehensive measures for building climate-resilient cities.",
+          "Examine the importance of integrated urban planning, public health interventions, and community awareness in addressing heatwave risks."
+        ],
+        "imageDescription": "A city skyline shimmering under intense heat, with a heat haze distorting the view, symbolizing urban heatwaves.",
+        "section": "Environment",
+        "trivia": "The urban heat island effect describes how urban areas are significantly warmer than their surrounding rural areas due to human activities and infrastructure.",
+        "prelimsSyllabus": {
+          "subject": "Geography",
+          "area": "Climatology",
+          "topic": "Urban heat island and climate change impacts"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "himalayan-glacial-retreat",
+        "headline": "Study on Himalayan Glacial Retreat Reveals Alarming Rates, Impacts on Water Security",
+        "explainer": "• A new scientific study indicates an accelerating rate of glacial retreat across the Himalayas.\n• The rapid melting poses significant threats to the water security of millions in downstream regions.\n• Highlights the severe impact of climate change on the cryosphere and freshwater resources.\n• Calls for urgent regional and international cooperation on climate action and water management.\n• Warns of increased risks of glacial lake outburst floods (GLOFs) and long-term water scarcity.",
+        "category": "environment",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water bodies and ice-caps) and in flora and fauna and the effects of such changes",
+          "Water Resources"
+        ],
+        "date": "2025-03-11",
+        "source": "Nature Geoscience",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Himalayan Glaciers",
+          "Climate Change",
+          "Water Security",
+          "Glacial Retreat",
+          "GLOFs",
+          "Cryosphere",
+          "Environmental Impact"
+        ],
+        "keyTerms": [
+          "Glacial Retreat",
+          "Cryosphere",
+          "Glacial Lake Outburst Flood (GLOF)",
+          "Water Scarcity",
+          "Climate Change Adaptation",
+          "Third Pole"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Causes and consequences of glacial retreat.",
+          "Significance of Himalayan glaciers as 'Third Pole' and water source for major rivers.",
+          "Definition and risks associated with Glacial Lake Outburst Floods (GLOFs).",
+          "Impact of climate change on mountain ecosystems.",
+          "International initiatives for cryosphere monitoring."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the alarming implications of accelerating Himalayan glacial retreat for regional water security, agriculture, and hydropower generation.",
+          "Analyze the role of climate change and anthropogenic factors in driving glacial melting and its cascading effects.",
+          "Evaluate the challenges in monitoring and mitigating the risks associated with glacial retreat, including GLOFs.",
+          "Examine the need for a comprehensive regional strategy involving transboundary cooperation for sustainable water management in the Himalayan region."
+        ],
+        "imageDescription": "A panoramic view of a rapidly melting Himalayan glacier with visible cracks and meltwater streams, illustrating glacial retreat.",
+        "section": "Environment",
+        "trivia": "The Himalayas are often referred to as the 'Third Pole' because they contain the largest ice mass outside the polar regions, feeding major rivers across Asia.",
+        "prelimsSyllabus": {
+          "subject": "Geography",
+          "area": "Physical Geography",
+          "topic": "Himalayan Glaciers and Climate Change"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "cultural-heritage-digitization",
+        "headline": "Ministry of Culture Launches National Mission for Digitization of Cultural Heritage Assets",
+        "explainer": "• The Ministry of Culture initiates a nationwide mission to digitize India's vast and diverse cultural heritage.\n• Aims to preserve ancient manuscripts, artworks, historical documents, and architectural records in digital format.\n• Will create a centralized digital repository accessible to researchers, scholars, and the public globally.\n• Utilizes advanced technologies like 3D scanning, artificial intelligence, and virtual reality for immersive experiences.\n• Seeks to protect heritage from decay, natural disasters, and promote cultural tourism and education.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times",
+          "Role of women and women’s organization, population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies"
+        ],
+        "date": "2025-03-11",
+        "source": "Ministry of Culture",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Cultural Heritage",
+          "Digitization",
+          "Art and Culture",
+          "Preservation",
+          "Digital India",
+          "Archaeology",
+          "Museums"
+        ],
+        "keyTerms": [
+          "Cultural Heritage",
+          "Digitization",
+          "Digital Repository",
+          "Archaeological Survey of India (ASI)",
+          "Intangible Cultural Heritage",
+          "Virtual Reality (VR)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Objectives of the National Mission for Digitization of Cultural Heritage.",
+          "Role of organizations like Archaeological Survey of India (ASI) and National Archives of India.",
+          "Benefits of digitization for cultural preservation and accessibility.",
+          "Technologies used in heritage digitization (3D scanning, AI).",
+          "Examples of India's tangible and intangible cultural heritage."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the importance of preserving India's diverse cultural heritage and the challenges posed by physical degradation and lack of access.",
+          "Analyze how digitization can serve as a powerful tool for heritage preservation, research, and public engagement.",
+          "Evaluate the potential of digital platforms and immersive technologies in promoting cultural tourism and education.",
+          "Examine the ethical considerations and technical challenges involved in digitizing vast cultural assets and ensuring their long-term security."
+        ],
+        "imageDescription": "A digital rendering of ancient Indian monuments and artifacts, symbolizing the preservation of cultural heritage through technology.",
+        "section": "National",
+        "trivia": "India has 42 UNESCO World Heritage Sites, including cultural and natural sites, showcasing its rich heritage.",
+        "prelimsSyllabus": {
+          "subject": "Art and Culture",
+          "area": "Heritage Preservation",
+          "topic": "Digitization of Cultural Assets"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "sc-right-to-be-forgotten",
+        "headline": "Supreme Court Reaffirms Scope of 'Right to be Forgotten' in Digital Realm, Urges Data Protection Law",
+        "explainer": "• The Supreme Court delivers a landmark ruling clarifying the contours of the 'Right to be Forgotten' for individuals.\n• The judgment balances individual privacy rights with freedom of speech and public interest in information access.\n• It emphasizes the imperative for a comprehensive data protection framework to effectively operationalize this right.\n• The court urges the government to expedite the enactment of a robust Data Protection Bill.\n• The ruling comes amidst growing concerns over digital footprints and the persistence of outdated personal information online.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Fundamental Rights",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Important aspects of governance, transparency and accountability"
+        ],
+        "date": "2025-03-11",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Right to be Forgotten",
+          "Data Privacy",
+          "Supreme Court",
+          "Fundamental Rights",
+          "Digital India",
+          "Data Protection Bill",
+          "Article 21"
+        ],
+        "keyTerms": [
+          "Right to be Forgotten",
+          "Digital Footprint",
+          "Data Protection",
+          "Privacy",
+          "Article 21",
+          "GDPR",
+          "Puttaswamy Judgment"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Origin of 'Right to be Forgotten' (EU's GDPR).",
+          "Recognition of privacy as a fundamental right in India (Justice K.S. Puttaswamy (Retd.) vs Union of India case).",
+          "Difference between 'right to be forgotten' and 'right to erasure'.",
+          "Key provisions expected in India's Data Protection Bill.",
+          "Constitutional articles related to privacy (Article 21)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the implications of the Supreme Court's ruling on individual privacy and freedom of expression in the digital age.",
+          "Analyze the challenges in implementing the 'Right to be Forgotten' in India, considering technological complexities and the need for public access to information.",
+          "Suggest measures for striking a balance between an individual's right to control their digital identity and the broader public interest.",
+          "Examine the role of a robust data protection law in upholding digital rights and fostering a secure online environment."
+        ],
+        "imageDescription": "A stylized image of a human silhouette with digital data streams flowing around it, representing digital identity and privacy.",
+        "section": "National",
+        "trivia": "The 'Right to be Forgotten' gained prominence after a 2014 European Court of Justice ruling against Google, compelling search engines to remove certain links.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Fundamental Rights",
+          "topic": "Right to be Forgotten and Data Privacy"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "g20-sherpa-meeting-global-south",
+        "headline": "India Hosts G20 Sherpa Meeting, Emphasizes Global South Development Agenda",
+        "explainer": "• India hosts a critical G20 Sherpa meeting, setting the agenda for upcoming ministerial discussions.\n• The focus remains on championing the priorities and development needs of the Global South.\n• Key themes include sustainable development, climate finance, food security, and digital public infrastructure.\n• India advocates for greater representation of developing nations in global governance structures.\n• The meeting lays groundwork for consensus building on complex global challenges ahead of the Leaders' Summit.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora",
+          "Important International institutions, agencies and fora, their structure, mandate."
+        ],
+        "date": "2025-03-11",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "G20",
+          "Global South",
+          "International Relations",
+          "Climate Finance",
+          "Sustainable Development",
+          "Digital Public Infrastructure",
+          "Multilateralism"
+        ],
+        "keyTerms": [
+          "G20",
+          "Sherpa",
+          "Global South",
+          "Sustainable Development Goals (SDGs)",
+          "Climate Finance",
+          "Digital Public Infrastructure (DPI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Purpose and structure of the G20.",
+          "Role of Sherpas in G20 meetings.",
+          "Concept of 'Global South' and its significance in contemporary geopolitics.",
+          "India's past G20 presidency achievements and priorities.",
+          "Key initiatives promoted by India in G20 (e.g., LiFE, DPI)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze India's increasing role in shaping the G20 agenda, particularly in advocating for the Global South.",
+          "Discuss the challenges and opportunities in building consensus on complex global issues like climate finance and sustainable development within the G20 framework.",
+          "Evaluate the significance of digital public infrastructure (DPI) as a tool for inclusive development, as highlighted by India.",
+          "Examine how India's G20 engagement contributes to its foreign policy objectives and enhances its global standing."
+        ],
+        "imageDescription": "A group of international delegates engaged in discussions around a large conference table, with G20 logos visible.",
+        "section": "International",
+        "trivia": "The term 'Sherpa' for G20 representatives comes from the Nepali Sherpa people, who are guides for mountaineers in the Himalayas, symbolizing their role in guiding leaders through complex negotiations.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Groupings",
+          "topic": "G20 and India's Foreign Policy"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "saksham-yuva-skill-scheme",
+        "headline": "Government Launches 'Saksham Yuva' Scheme for Youth Skill Development and Employment",
+        "explainer": "• The Ministry of Skill Development and Entrepreneurship unveils 'Saksham Yuva', a new scheme targeting youth empowerment.\n• Focuses on providing industry-relevant skill training, apprenticeship opportunities, and entrepreneurship support.\n• Integrates with existing initiatives like Skill India Mission and Pradhan Mantri Kaushal Vikas Yojana (PMKVY).\n• Aims to bridge the skill gap in emerging sectors and enhance employability of India's young demographic.\n• Includes provisions for career counseling, digital literacy, and financial assistance for startups.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2025-03-11",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Skill Development",
+          "Youth Employment",
+          "Saksham Yuva",
+          "Skill India",
+          "PMKVY",
+          "Entrepreneurship",
+          "Demographic Dividend"
+        ],
+        "keyTerms": [
+          "Skill Gap",
+          "Apprenticeship",
+          "Vocational Training",
+          "Demographic Dividend",
+          "National Skill Qualification Framework (NSQF)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Objectives and target beneficiaries of 'Saksham Yuva' scheme.",
+          "Key components of the Skill India Mission and PMKVY.",
+          "Concept of demographic dividend and its relevance to India.",
+          "Role of National Skill Development Corporation (NSDC).",
+          "Importance of vocational training in India's education system."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the challenges of youth unemployment and underemployment in India and the need for comprehensive skill development programs.",
+          "Analyze how schemes like 'Saksham Yuva' can contribute to harnessing India's demographic dividend and boosting economic growth.",
+          "Evaluate the effectiveness of government initiatives in bridging the skill gap and promoting entrepreneurship among youth.",
+          "Suggest measures to improve the quality and relevance of skill training programs to meet evolving industry demands."
+        ],
+        "imageDescription": "Young individuals engaged in various vocational training activities, such as coding, carpentry, and electrical work.",
+        "section": "National",
+        "trivia": "India has one of the world's largest youth populations, making skill development crucial for leveraging its demographic dividend.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Human Resources",
+          "topic": "Skill Development Schemes"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "parliamentary-panel-disaster-management",
+        "headline": "Parliamentary Standing Committee Recommends Reforms in Disaster Management Framework",
+        "explainer": "• A Parliamentary Standing Committee submits a report recommending significant reforms to India's disaster management framework.\n• Calls for enhanced funding, better inter-agency coordination, and a shift towards proactive risk reduction.\n• Highlights the need for robust early warning systems and climate-resilient infrastructure development.\n• Emphasizes strengthening the National Disaster Response Force (NDRF) and State Disaster Response Forces (SDRFs).\n• Urges for greater community participation and public awareness campaigns to build resilience at the local level.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure",
+          "Statutory, regulatory and various quasi-judicial bodies",
+          "Disaster and disaster management"
+        ],
+        "date": "2025-03-11",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Disaster Management",
+          "Parliamentary Committee",
+          "NDRF",
+          "SDRF",
+          "Climate Resilience",
+          "Early Warning Systems",
+          "Risk Reduction"
+        ],
+        "keyTerms": [
+          "Disaster Management Act, 2005",
+          "National Disaster Management Authority (NDMA)",
+          "National Disaster Response Force (NDRF)",
+          "State Disaster Response Force (SDRF)",
+          "Disaster Risk Reduction (DRR)",
+          "Sendai Framework"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Provisions of the Disaster Management Act, 2005.",
+          "Structure and functions of NDMA, NDRF, and SDRF.",
+          "Different types of disasters prevalent in India.",
+          "International frameworks for disaster management (e.g., Sendai Framework for DRR).",
+          "Role of technology in early warning systems."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strengths and weaknesses of India's existing disaster management framework in responding to natural calamities.",
+          "Analyze the recommendations of the Parliamentary Standing Committee and their potential impact on improving disaster preparedness and response.",
+          "Evaluate the importance of shifting from a reactive to a proactive approach in disaster management, focusing on risk reduction and climate resilience.",
+          "Examine the role of multi-stakeholder collaboration, including government, civil society, and local communities, in building disaster resilience."
+        ],
+        "imageDescription": "Rescue workers from NDRF assisting people during a flood, symbolizing disaster response efforts.",
+        "section": "National",
+        "trivia": "The National Disaster Management Authority (NDMA) is headed by the Prime Minister of India, emphasizing the high priority given to disaster management at the national level.",
+        "prelimsSyllabus": {
+          "subject": "Governance",
+          "area": "Disaster Management",
+          "topic": "Disaster Management Act and Institutions"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-climate-resilient-agriculture",
+        "headline": "India Pledges Enhanced Support for Climate-Resilient Agriculture at FAO Conference",
+        "explainer": "• India reiterates its commitment to sustainable food systems and climate-resilient agriculture at a UN FAO conference.\n• Emphasizes the need for global cooperation and technology transfer to support smallholder farmers.\n• Highlights India's own initiatives, such as the National Innovations in Climate Resilient Agriculture (NICRA).\n• Calls for increased international funding for adaptation strategies in developing countries.\n• Stresses the importance of traditional knowledge and indigenous practices in building agricultural resilience.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate",
+          "Effect of policies and politics of developed and developing countries on India’s interests",
+          "Food security",
+          "Agriculture – major crops cropping patterns in various parts of the country, different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers"
+        ],
+        "date": "2025-03-11",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Climate Resilient Agriculture",
+          "FAO",
+          "Food Security",
+          "Climate Change",
+          "Sustainable Agriculture",
+          "International Cooperation",
+          "NICRA"
+        ],
+        "keyTerms": [
+          "Food and Agriculture Organization (FAO)",
+          "Climate-Resilient Agriculture (CRA)",
+          "National Innovations in Climate Resilient Agriculture (NICRA)",
+          "Smallholder Farmers",
+          "Sustainable Development Goals (SDGs)",
+          "Climate Adaptation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Mandate and functions of the Food and Agriculture Organization (FAO).",
+          "Concept of climate-resilient agriculture and its components.",
+          "Objectives and initiatives under NICRA.",
+          "Impact of climate change on Indian agriculture.",
+          "Importance of food security as an SDG."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the challenges posed by climate change to India's agricultural sector and its implications for food security.",
+          "Analyze the strategies and initiatives adopted by India to promote climate-resilient agriculture and support smallholder farmers.",
+          "Evaluate the role of international cooperation and multilateral platforms like FAO in addressing global food security and climate change challenges.",
+          "Examine the potential of integrating traditional knowledge with modern agricultural practices for enhanced resilience."
+        ],
+        "imageDescription": "A farmer working in a field, surrounded by innovative irrigation systems and drought-resistant crops, symbolizing climate-resilient agriculture.",
+        "section": "International",
+        "trivia": "The FAO (Food and Agriculture Organization) was founded in 1945 with the aim of defeating hunger and improving nutrition and food security.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Climate Change",
+          "topic": "Impact on Agriculture and International Organizations"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "nep-2020-vocational-training",
+        "headline": "National Education Policy 2020 Implementation Review Focuses on Vocational Training Integration",
+        "explainer": "• A review of National Education Policy (NEP) 2020 implementation highlights progress and areas for improvement.\n• Particular emphasis is placed on the successful integration of vocational education from school to higher education levels.\n• Reports indicate increased enrollment in vocational courses and industry partnerships for skill development.\n• Challenges remain in infrastructure, teacher training, and societal perception of vocational streams.\n• Government reiterates commitment to making education holistic and employment-oriented as envisioned by NEP.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2025-03-11",
+        "source": "Ministry of Education",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "NEP 2020",
+          "Vocational Education",
+          "Skill Development",
+          "Education Policy",
+          "Human Resources",
+          "Employability"
+        ],
+        "keyTerms": [
+          "National Education Policy (NEP) 2020",
+          "Vocational Education",
+          "Skill Gap",
+          "Holistic Education",
+          "National Skill Qualification Framework (NSQF)",
+          "Apprenticeship"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key pillars and objectives of National Education Policy (NEP) 2020.",
+          "Recommendations of NEP 2020 regarding vocational education.",
+          "Role of vocational training in enhancing employability.",
+          "Challenges in implementing NEP 2020 across different educational levels.",
+          "Importance of multidisciplinary education."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the transformative potential of vocational education as envisioned in NEP 2020 for India's youth and economy.",
+          "Analyze the progress made and the challenges encountered in integrating vocational training into the mainstream education system.",
+          "Evaluate the measures required to overcome societal stigma associated with vocational streams and promote their acceptance.",
+          "Examine how a holistic and skill-oriented education system can contribute to India's demographic dividend and global competitiveness."
+        ],
+        "imageDescription": "Students in a classroom engaged in hands-on learning, with modern educational tools and a teacher guiding them.",
+        "section": "National",
+        "trivia": "NEP 2020 proposes a 5+3+3+4 curricular structure, moving away from the 10+2 system, to make education more flexible and multidisciplinary.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Education",
+          "topic": "National Education Policy 2020 and Vocational Education"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "global-health-summit-pandemic-preparedness",
+        "headline": "India Advocates for Equitable Access to Vaccines and Medicines at Global Health Summit",
+        "explainer": "• India plays a leading role at the Global Health Summit, advocating for equitable access to vaccines, diagnostics, and therapeutics.\n• Stresses the need for strengthening global pandemic preparedness and response mechanisms, especially for developing nations.\n• Highlights India's capabilities as a 'pharmacy of the world' and its contributions during past health crises.\n• Calls for reform of international intellectual property regimes to facilitate technology transfer for health products.\n• Emphasizes a 'One Health' approach to address interconnected human, animal, and environmental health challenges.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Effect of policies and politics of developed and developing countries on India’s interests"
+        ],
+        "date": "2025-03-11",
+        "source": "Ministry of Health and Family Welfare",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Global Health",
+          "Pandemic Preparedness",
+          "Equitable Access",
+          "Vaccine Equity",
+          "International Cooperation",
+          "One Health",
+          "IPR"
+        ],
+        "keyTerms": [
+          "Global Health Security",
+          "Pandemic Preparedness",
+          "Equitable Access",
+          "Intellectual Property Rights (IPR)",
+          "TRIPS Waiver",
+          "One Health",
+          "WHO"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Concept of 'Global Health Security' and its importance.",
+          "Role of India as the 'pharmacy of the world'.",
+          "The 'One Health' approach and its components.",
+          "International organizations involved in global health (WHO, GAVI).",
+          "Debate around IPR waivers for essential medicines/vaccines during pandemics."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss India's pivotal role in global health diplomacy, particularly in advocating for equitable access to health resources.",
+          "Analyze the challenges in achieving global health equity and strengthening pandemic preparedness, especially for developing countries.",
+          "Evaluate the arguments for and against reforms in intellectual property regimes to facilitate wider access to life-saving technologies.",
+          "Examine the significance of the 'One Health' approach in addressing complex health challenges that transcend national borders."
+        ],
+        "imageDescription": "A globe surrounded by medical symbols (syringes, pills, microscopes), representing global health cooperation.",
+        "section": "International",
+        "trivia": "India is the largest provider of generic drugs globally, supplying over 50% of all vaccines and 20% of generic medicines worldwide.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Organizations",
+          "topic": "Global Health and India's role"
+        },
+        "prelimsPotential": 4
+      }
+    ],
+    "GS3": [
+      {
+        "id": "green-hydrogen-mission-milestone",
+        "headline": "India Achieves Significant Green Hydrogen Production Milestone, Boosts Clean Energy Transition",
+        "explainer": "• India's National Green Hydrogen Mission (NGHM) reports accelerated progress in production targets.\n• New investments, both domestic and international, are flowing into green hydrogen projects.\n• Government announces further incentives for electrolyser manufacturing and R&D to establish export hubs.\n• The initiative aims to position India as a global leader in green hydrogen production and utilization.\n• Critical for achieving India's Net Zero 2070 targets and enhancing energy security.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Infrastructure: Energy",
+          "Environmental Pollution and Degradation, Environmental Impact Assessment",
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Indigenization of technology and developing new technology"
+        ],
+        "date": "2025-03-11",
+        "source": "Ministry of New and Renewable Energy",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Green Hydrogen",
+          "NGHM",
+          "Renewable Energy",
+          "Energy Transition",
+          "Climate Change",
+          "Make in India",
+          "Net Zero"
+        ],
+        "keyTerms": [
+          "Green Hydrogen",
+          "Electrolyser",
+          "Carbon Intensity",
+          "Net Zero",
+          "Energy Security",
+          "SIGHT Programme"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Objectives of National Green Hydrogen Mission (NGHM) and its target capacity.",
+          "Role of SIGHT (Strategic Interventions for Green Hydrogen Transition) Programme.",
+          "Definition and types of hydrogen production (green, grey, blue).",
+          "India's commitment to Net Zero by 2070.",
+          "Potential applications of green hydrogen (transport, industry, power generation)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of green hydrogen for India's energy security, climate goals, and economic growth.",
+          "Analyze the opportunities and challenges in scaling up green hydrogen production and adoption in India.",
+          "Evaluate the effectiveness of government policies and incentives under NGHM to foster a robust green hydrogen ecosystem.",
+          "Examine the potential of India becoming a global hub for green hydrogen export and its geopolitical implications."
+        ],
+        "imageDescription": "A large-scale green hydrogen production facility with solar panels and wind turbines in the background, symbolizing clean energy.",
+        "section": "Lead Opinion",
+        "trivia": "Green hydrogen is produced by splitting water into hydrogen and oxygen using electricity generated from renewable sources, making it a truly zero-emission fuel.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Conservation, environmental pollution and degradation",
+          "topic": "Green Hydrogen Mission and Renewable Energy"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "rbi-monetary-policy",
+        "headline": "RBI Maintains Status Quo on Repo Rate Amidst Evolving Inflation Dynamics",
+        "explainer": "• The Reserve Bank of India (RBI) Monetary Policy Committee (MPC) decides to keep the repo rate unchanged.\n• Decision driven by a cautious approach towards persistent retail inflation and global economic uncertainties.\n• RBI reiterates its commitment to aligning inflation with the target while supporting growth.\n• Focus remains on liquidity management and monitoring external sector vulnerabilities.\n• Analysts anticipate future rate cuts once inflation shows a sustained decline towards the target range.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Government Budgeting",
+          "Monetary Policy",
+          "Inflation and its impact"
+        ],
+        "date": "2025-03-11",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "RBI",
+          "Monetary Policy",
+          "Repo Rate",
+          "Inflation",
+          "Economic Growth",
+          "MPC"
+        ],
+        "keyTerms": [
+          "Repo Rate",
+          "Reverse Repo Rate",
+          "Cash Reserve Ratio (CRR)",
+          "Statutory Liquidity Ratio (SLR)",
+          "Inflation Targeting",
+          "Monetary Policy Committee (MPC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Functions of the RBI and its role in monetary policy.",
+          "Composition and objectives of the Monetary Policy Committee (MPC).",
+          "Various tools of monetary policy (repo rate, reverse repo rate, CRR, SLR, OMOs).",
+          "Difference between fiscal and monetary policy.",
+          "Current inflation target range set by the government for RBI."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the factors influencing RBI's decision to maintain the repo rate and its implications for economic growth and inflation.",
+          "Discuss the challenges faced by the RBI in balancing inflation control with the need to support economic recovery.",
+          "Evaluate the effectiveness of the current monetary policy stance in achieving its stated objectives.",
+          "Examine the interplay between global economic conditions and India's monetary policy decisions."
+        ],
+        "imageDescription": "A close-up of the Reserve Bank of India (RBI) logo, symbolizing financial authority and stability.",
+        "section": "Economy",
+        "trivia": "The Monetary Policy Committee (MPC) was constituted in 2016 to bring transparency and accountability to monetary policy decisions, with six members (three from RBI, three appointed by the government).",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI and its functions"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "project-dolphin-launch",
+        "headline": "New 'Project Dolphin' Initiative Launched to Boost Conservation of Riverine and Oceanic Dolphins",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change launches 'Project Dolphin', a comprehensive conservation program.\n• Aimed at protecting both riverine (e.g., Gangetic Dolphin) and oceanic dolphin species across India.\n• Focus areas include habitat conservation, reduction of anthropogenic pressures, and community participation.\n• Emphasizes research, rescue, and rehabilitation efforts for vulnerable dolphin populations.\n• Builds upon the success of 'Project Tiger' and 'Project Elephant' in conserving flagship species.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Biodiversity and its conservation"
+        ],
+        "date": "2025-03-11",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Project Dolphin",
+          "Dolphin Conservation",
+          "Wildlife Protection",
+          "Biodiversity",
+          "Gangetic Dolphin",
+          "Marine Conservation"
+        ],
+        "keyTerms": [
+          "Project Dolphin",
+          "Gangetic River Dolphin",
+          "IUCN Red List",
+          "Conservation Status",
+          "Anthropogenic Pressure",
+          "Ecosystem Services"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Conservation status of Gangetic River Dolphin (National Aquatic Animal, IUCN: Endangered).",
+          "Key features and objectives of Project Dolphin.",
+          "Comparison with other wildlife conservation projects (e.g., Project Tiger, Project Elephant).",
+          "Threats faced by dolphin populations (habitat loss, pollution, bycatch).",
+          "Geographical distribution of major dolphin species in India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ecological significance of dolphins as indicator species for aquatic ecosystem health.",
+          "Analyze the major threats to dolphin populations in India and the challenges in their conservation.",
+          "Evaluate the multi-pronged approach of 'Project Dolphin' and its potential effectiveness in protecting these species.",
+          "Examine the role of community participation and inter-state/international cooperation in successful wildlife conservation initiatives."
+        ],
+        "imageDescription": "An image of a Gangetic River Dolphin breaching the surface of a river, with lush riverine vegetation.",
+        "section": "Environment",
+        "trivia": "The Gangetic River Dolphin is one of the few freshwater dolphin species in the world and is functionally blind, relying on echolocation to navigate and hunt.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Biodiversity and its conservation",
+          "topic": "Wildlife conservation projects"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "isro-next-gen-engine-test",
+        "headline": "ISRO Successfully Tests Next-Generation Semi-Cryogenic Engine for Future Launch Vehicles",
+        "explainer": "• The Indian Space Research Organisation (ISRO) successfully conducts a crucial hot test of its new semi-cryogenic engine.\n• This engine is designed to power the next generation of Indian heavy-lift launch vehicles, enhancing payload capacity.\n• The technology uses a combination of liquid oxygen and refined kerosene, offering higher thrust and efficiency.\n• The development is a significant step towards indigenous capabilities in advanced rocket propulsion.\n• It will support future missions, including heavier satellite launches and human spaceflight programs like Gaganyaan.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+          "Awareness in the fields of Space"
+        ],
+        "date": "2025-03-11",
+        "source": "The Times of India",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Space Technology",
+          "Semi-Cryogenic Engine",
+          "Launch Vehicle",
+          "Gaganyaan",
+          "Indigenous Technology"
+        ],
+        "keyTerms": [
+          "Semi-Cryogenic Engine",
+          "Cryogenic Engine",
+          "PSLV",
+          "GSLV",
+          "Payload Capacity",
+          "Propulsion System",
+          "Gaganyaan"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Difference between solid, liquid, cryogenic, and semi-cryogenic rocket engines.",
+          "Key components and propellants used in semi-cryogenic engines.",
+          "Significance of indigenous engine development for India's space program.",
+          "Major launch vehicles of ISRO (PSLV, GSLV, SSLV).",
+          "Overview of India's Gaganyaan human spaceflight mission."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of developing indigenous advanced propulsion technologies for India's space ambitions.",
+          "Analyze how the new semi-cryogenic engine will enhance India's capabilities in satellite launches and human spaceflight.",
+          "Evaluate the role of ISRO in fostering scientific and technological self-reliance in India.",
+          "Examine the economic and geopolitical benefits of a robust and independent space program."
+        ],
+        "imageDescription": "Engineers observing a large rocket engine undergoing a fiery test, symbolizing advanced propulsion technology.",
+        "section": "Science",
+        "trivia": "Cryogenic engines use propellants (liquid oxygen and liquid hydrogen) at extremely low temperatures, while semi-cryogenic engines use liquid oxygen but with a more easily stored fuel like refined kerosene.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space Technology",
+          "topic": "Rocketry and ISRO missions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-france-naval-exercise",
+        "headline": "India-France Joint Naval Exercise 'Varuna' Concludes, Enhancing Maritime Cooperation",
+        "explainer": "• The 23rd edition of the bilateral naval exercise 'Varuna' between India and France successfully concludes in the Arabian Sea.\n• The exercise focused on enhancing interoperability, maritime security cooperation, and joint operational capabilities.\n• Featured complex anti-submarine warfare drills, air defence exercises, and tactical maneuvers.\n• Underscores the growing strategic partnership between India and France in the Indo-Pacific region.\n• Reinforces commitment to a free, open, and rules-based international order.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security challenges and their management in border areas",
+          "Various Security forces and agencies and their mandate",
+          "Defence Technology"
+        ],
+        "date": "2025-03-11",
+        "source": "Ministry of Defence",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "India-France Relations",
+          "Naval Exercise",
+          "Varuna",
+          "Maritime Security",
+          "Indo-Pacific",
+          "Defence Cooperation"
+        ],
+        "keyTerms": [
+          "Bilateral Exercise",
+          "Interoperability",
+          "Maritime Domain Awareness (MDA)",
+          "Indo-Pacific",
+          "Anti-Submarine Warfare (ASW)",
+          "Rules-Based Order"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Name of the joint naval exercise between India and France ('Varuna').",
+          "Other key bilateral exercises between India and France (e.g., Garuda - Air Force, Shakti - Army).",
+          "Significance of the Indo-Pacific region for India's strategic interests.",
+          "Key naval assets involved in the exercise.",
+          "Role of France as a strategic partner for India in defence."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of defence cooperation between India and France, particularly in the Indo-Pacific region.",
+          "Analyze how joint naval exercises like 'Varuna' contribute to enhancing maritime security and interoperability among partner navies.",
+          "Evaluate the role of such bilateral engagements in upholding a free, open, and rules-based international order.",
+          "Examine the evolving nature of India's defence partnerships and their implications for regional stability."
+        ],
+        "imageDescription": "Indian and French warships sailing in formation during a joint naval exercise at sea.",
+        "section": "International",
+        "trivia": "The 'Varuna' exercise began in 1993 and was officially christened in 2001, becoming a hallmark of India-France strategic naval cooperation.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Defence Cooperation",
+          "topic": "India-France strategic partnership"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "q3-gdp-projection-upwards",
+        "headline": "India's Q3 FY25 GDP Growth Projection Revised Upwards by National Statistical Office",
+        "explainer": "• The National Statistical Office (NSO) releases updated figures, revising India's Q3 FY25 GDP growth upwards.\n• The revision is attributed to stronger-than-expected performance in manufacturing and services sectors.\n• Private consumption and investment show signs of sustained recovery, contributing to the positive outlook.\n• This upward revision signals resilience in the Indian economy amidst global headwinds.\n• Government expresses optimism about meeting full-year growth targets, contingent on continued policy support.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Government Budgeting",
+          "Growth and Development"
+        ],
+        "date": "2025-03-11",
+        "source": "Ministry of Statistics and Programme Implementation",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "GDP Growth",
+          "Indian Economy",
+          "NSO",
+          "Economic Indicators",
+          "Manufacturing Sector",
+          "Services Sector"
+        ],
+        "keyTerms": [
+          "Gross Domestic Product (GDP)",
+          "Gross Value Added (GVA)",
+          "National Statistical Office (NSO)",
+          "Private Consumption",
+          "Gross Fixed Capital Formation (GFCF)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Methodology for calculating GDP and GVA in India.",
+          "Role of National Statistical Office (NSO) in data collection and release.",
+          "Key components of GDP (consumption, investment, government spending, net exports).",
+          "Major sectors contributing to India's GDP (agriculture, industry, services).",
+          "Factors influencing economic growth in India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the factors contributing to the upward revision of India's GDP growth and its implications for the overall economic outlook.",
+          "Discuss the challenges and opportunities for sustaining high economic growth in India in the medium to long term.",
+          "Evaluate the role of government policies and structural reforms in fostering economic resilience and attracting investment.",
+          "Examine the impact of global economic trends and geopolitical events on India's growth trajectory."
+        ],
+        "imageDescription": "A bar graph showing an upward trend in economic growth, with Indian currency notes in the foreground.",
+        "section": "Economy",
+        "trivia": "India's GDP is calculated using two main methods: the expenditure method and the income method. The NSO often uses both to provide comprehensive data.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "National Income",
+          "topic": "GDP and Economic Growth"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ai-ethics-council-india",
+        "headline": "India Establishes National AI Ethics Council to Guide Responsible AI Development",
+        "explainer": "• The Ministry of Electronics and Information Technology announces the formation of the National AI Ethics Council.\n• Tasked with formulating guidelines and policies for the ethical and responsible development and deployment of Artificial Intelligence (AI).\n• Aims to address concerns related to bias, privacy, accountability, and the societal impact of AI technologies.\n• Comprises experts from academia, industry, government, and civil society organizations.\n• Positions India as a responsible stakeholder in the global AI governance landscape.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights",
+          "Role of IT in governance"
+        ],
+        "date": "2025-03-11",
+        "source": "Ministry of Electronics and Information Technology",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "AI Ethics",
+          "Artificial Intelligence",
+          "Digital Governance",
+          "Responsible AI",
+          "Technology Policy",
+          "Data Privacy"
+        ],
+        "keyTerms": [
+          "Artificial Intelligence (AI)",
+          "AI Ethics",
+          "Algorithmic Bias",
+          "Data Privacy",
+          "Accountability",
+          "AI Governance",
+          "Explainable AI (XAI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key ethical challenges in AI development (bias, privacy, transparency).",
+          "Objectives and composition of the National AI Ethics Council.",
+          "India's vision for AI (e.g., 'AI for All').",
+          "Global initiatives for AI governance (e.g., OECD AI Principles).",
+          "Potential applications of AI in various sectors."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ethical dilemmas and societal implications associated with the rapid advancement and deployment of Artificial Intelligence.",
+          "Analyze the significance of establishing a National AI Ethics Council in guiding responsible AI development in India.",
+          "Evaluate the challenges in formulating and implementing effective AI ethics guidelines that balance innovation with societal well-being.",
+          "Examine India's role in shaping global AI governance frameworks and promoting an inclusive approach to AI development."
+        ],
+        "imageDescription": "A stylized brain with interconnected nodes, symbolizing AI and ethical considerations, against a digital background.",
+        "section": "Science",
+        "trivia": "AI ethics is a branch of ethics that studies ethical issues related to artificial intelligence, covering concerns from algorithmic bias to autonomous decision-making.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Information Technology",
+          "topic": "Artificial Intelligence and its ethical implications"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "fdi-norms-manufacturing",
+        "headline": "Government Proposes New FDI Norms to Boost Domestic Manufacturing in Critical Sectors",
+        "explainer": "• The Department for Promotion of Industry and Internal Trade (DPIIT) proposes revised Foreign Direct Investment (FDI) norms.\n• Aims to attract greater foreign investment into critical manufacturing sectors like advanced electronics, pharmaceuticals, and defence.\n• New policies offer streamlined approvals and enhanced incentives for foreign companies setting up production units in India.\n• Focus on 'Make in India' and 'Atmanirbhar Bharat' initiatives to reduce import dependence and create jobs.\n• Seeks to integrate India more deeply into global supply chains and boost export competitiveness.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Government Budgeting",
+          "Industrial policy and its effects on industrial growth",
+          "Investment models"
+        ],
+        "date": "2025-03-11",
+        "source": "Business Standard",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "FDI",
+          "Manufacturing",
+          "Make in India",
+          "Atmanirbhar Bharat",
+          "Investment Policy",
+          "DPIIT",
+          "Global Supply Chains"
+        ],
+        "keyTerms": [
+          "Foreign Direct Investment (FDI)",
+          "Department for Promotion of Industry and Internal Trade (DPIIT)",
+          "Make in India",
+          "Atmanirbhar Bharat",
+          "Production Linked Incentive (PLI) Scheme",
+          "Global Value Chains (GVCs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Definition of FDI and its types (greenfield, brownfield).",
+          "Key sectors open for FDI in India and approval routes (automatic, government).",
+          "Objectives of 'Make in India' and 'Atmanirbhar Bharat' initiatives.",
+          "Role of DPIIT in promoting investment.",
+          "Impact of FDI on economic growth and employment."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of FDI in boosting India's manufacturing sector and achieving self-reliance.",
+          "Analyze how the proposed new FDI norms aim to attract investment and overcome existing challenges in critical sectors.",
+          "Evaluate the effectiveness of government schemes like PLI in complementing FDI policies to promote domestic production.",
+          "Examine the role of FDI in integrating India into global supply chains and enhancing its export competitiveness."
+        ],
+        "imageDescription": "A factory floor with robotic arms assembling components, symbolizing advanced manufacturing and industrial growth.",
+        "section": "Economy",
+        "trivia": "FDI is considered a non-debt-creating source of capital, which is crucial for long-term economic development and technological upgrade.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Investment Models",
+          "topic": "Foreign Direct Investment (FDI)"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "cyber-security-framework",
+        "headline": "Government Unveils Enhanced National Cyber Security Framework to Counter Evolving Threats",
+        "explainer": "• The Ministry of Home Affairs introduces an updated National Cyber Security Framework to bolster India's digital defenses.\n• Aims to counter sophisticated cyber threats, including ransomware, data breaches, and state-sponsored attacks.\n• Focuses on critical infrastructure protection, threat intelligence sharing, and public-private partnerships.\n• Includes provisions for enhanced training for cybersecurity professionals and awareness campaigns for citizens.\n• The framework emphasizes proactive measures and a multi-pronged approach to secure India's digital ecosystem.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention",
+          "Security forces and agencies and their mandate."
+        ],
+        "date": "2025-03-11",
+        "source": "Ministry of Home Affairs",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Cyber Security",
+          "National Cyber Security Framework",
+          "Digital India",
+          "Critical Infrastructure",
+          "Ransomware",
+          "Data Breach",
+          "Internal Security"
+        ],
+        "keyTerms": [
+          "Cyber Security",
+          "Critical Information Infrastructure (CII)",
+          "Ransomware",
+          "Data Breach",
+          "Threat Intelligence",
+          "Public-Private Partnership",
+          "CERT-In"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key objectives of the National Cyber Security Framework.",
+          "Role of CERT-In (Indian Computer Emergency Response Team) in cybersecurity.",
+          "Types of cyber threats (ransomware, phishing, DDoS attacks).",
+          "Importance of protecting Critical Information Infrastructure (CII).",
+          "Legal provisions for cybersecurity in India (IT Act, 2000)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolving nature of cyber threats and their implications for India's national security and economic stability.",
+          "Analyze the key features of the enhanced National Cyber Security Framework and its potential to strengthen India's digital defenses.",
+          "Evaluate the challenges in implementing a robust cybersecurity strategy, particularly in terms of technology, human resources, and inter-agency coordination.",
+          "Examine the role of public-private partnerships and international cooperation in combating global cybercrime and ensuring a secure digital space."
+        ],
+        "imageDescription": "A digital padlock icon overlaid on a map of India, representing national cybersecurity protection.",
+        "section": "National",
+        "trivia": "India's Information Technology Act, 2000, is the primary law dealing with cybercrime and e-commerce in the country.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Cyber Security",
+          "topic": "National Cyber Security Framework"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "solar-energy-capacity-addition",
+        "headline": "India's Solar Energy Capacity Additions Surge, Driving Renewable Energy Targets",
+        "explainer": "• A new report highlights a significant surge in India's solar energy capacity additions in the past year.\n• The rapid expansion is a major driver towards achieving the national renewable energy targets.\n• Attributed to supportive government policies, declining solar panel costs, and private sector investment.\n• Focus on both utility-scale solar parks and distributed rooftop solar installations.\n• Underscores India's commitment to reducing its carbon footprint and enhancing energy independence.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Infrastructure: Energy",
+          "Science and Technology- developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-03-11",
+        "source": "Ministry of New and Renewable Energy",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Solar Energy",
+          "Renewable Energy",
+          "Climate Change",
+          "Energy Transition",
+          "Clean Energy",
+          "Grid Integration"
+        ],
+        "keyTerms": [
+          "Solar Energy",
+          "Renewable Energy Target",
+          "Utility-Scale Solar",
+          "Rooftop Solar",
+          "International Solar Alliance (ISA)",
+          "Net Metering"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India's renewable energy targets (e.g., 500 GW by 2030).",
+          "Key government schemes promoting solar energy (e.g., PM-KUSUM, National Solar Mission).",
+          "Difference between utility-scale and rooftop solar.",
+          "Role of International Solar Alliance (ISA).",
+          "Benefits of solar energy (environmental, economic)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the role of solar energy in India's energy transition strategy and its contribution to achieving climate goals.",
+          "Analyze the factors driving the rapid growth of solar capacity in India and the policy support required to sustain this momentum.",
+          "Evaluate the challenges associated with large-scale solar integration into the national grid and potential solutions.",
+          "Examine the socio-economic benefits of expanding solar energy, including job creation and energy access."
+        ],
+        "imageDescription": "Vast fields of solar panels stretching into the horizon under a clear sky, symbolizing renewable energy generation.",
+        "section": "Environment",
+        "trivia": "India is home to the world's largest solar power plant (Bhadla Solar Park in Rajasthan) and is a founding member of the International Solar Alliance (ISA).",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Renewable Energy",
+          "topic": "Solar Energy and National Missions"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Ministry of New and Renewable Energy",
+    "The Hindu",
+    "The Economic Times",
+    "Press Information Bureau (PIB)",
+    "Ministry of Environment, Forest and Climate Change",
+    "The Times of India",
+    "The Indian Express",
+    "Ministry of Defence",
+    "Ministry of Statistics and Programme Implementation",
+    "Ministry of External Affairs",
+    "Centre for Science and Environment (CSE)",
+    "Ministry of Electronics and Information Technology",
+    "Ministry of Education",
+    "Business Standard",
+    "Nature Geoscience",
+    "Ministry of Home Affairs",
+    "Ministry of Health and Family Welfare",
+    "Ministry of Culture"
+  ],
+  "totalScraped": 20,
+  "totalProcessed": 20
+}

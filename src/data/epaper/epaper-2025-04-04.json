@@ -1,0 +1,1797 @@
+{
+  "date": "2025-04-04",
+  "dateFormatted": "Friday 4 April, 2025",
+  "lastUpdated": "2026-03-21T15:34:36.493Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "digital-india-2-0-vision-2047",
+      "headline": "India Unveils 'Vision 2047: Digital India 2.0' - A Blueprint for AI-Driven Governance and Quantum Leap",
+      "explainer": "• Government launches ambitious 'Vision 2047: Digital India 2.0' roadmap, aiming for a digitally empowered nation.\n• Focuses on leveraging Artificial Intelligence (AI) and Quantum Computing for public service delivery and innovation.\n• Includes a new comprehensive framework for Data Governance, ensuring privacy and ethical data use.\n• Aims to position India as a global leader in digital innovation, fostering inclusive growth and digital literacy.\n• Emphasizes expanding digital public infrastructure and enhancing cybersecurity measures.",
+      "category": "polity, science",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "E-governance",
+        "IT and Computers",
+        "AI and Quantum Computing",
+        "Data Governance",
+        "Cybersecurity",
+        "India's growth story"
+      ],
+      "date": "2025-04-04",
+      "source": "Ministry of Electronics and IT",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Digital India",
+        "AI",
+        "Quantum Computing",
+        "Data Governance",
+        "Vision 2047",
+        "e-governance",
+        "technology policy"
+      ],
+      "keyTerms": [
+        "Digital Public Infrastructure",
+        "Artificial Intelligence",
+        "Quantum Technology",
+        "Data Protection Bill",
+        "E-governance"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Vision 2047: Digital India 2.0 focuses on AI, Quantum Computing, and Data Governance.",
+        "Key pillars include Digital Public Infrastructure, ethical AI, and data privacy.",
+        "Aims to enhance India's global standing in digital innovation.",
+        "Related to the National AI Strategy and Quantum Technology Mission."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of AI and Quantum Computing in governance and public service delivery.",
+        "Analyze the challenges and ethical considerations involved in large-scale data governance and AI implementation.",
+        "Evaluate India's strategy to achieve developed nation status by 2047 through digital transformation.",
+        "Examine the role of Digital Public Infrastructure in fostering inclusive growth and bridging the digital divide."
+      ],
+      "imageDescription": "A futuristic digital interface showing AI algorithms and quantum symbols overlaying a map of India.",
+      "section": "Lead Opinion",
+      "trivia": "India is home to the world's third-largest ecosystem for startups, many of which are in the digital technology sector.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Developments & Applications",
+        "topic": "AI, Quantum Computing, IT"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "supreme-court-article-142-environment",
+      "headline": "Supreme Court Clarifies Scope of Article 142 in Environmental Protection Cases",
+      "explainer": "• Supreme Court delivers a landmark judgment on the judicious use of its extraordinary powers under Article 142.\n• Clarifies the extent to which it can issue directions for environmental damage remediation and prevention.\n• Emphasizes the need for a delicate balance between developmental imperatives and ecological preservation.\n• Directs state agencies to establish robust monitoring mechanisms for environmental compliance.\n• The ruling is expected to significantly influence future environmental litigation and project clearances.",
+      "category": "polity, environment",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Judiciary",
+        "Fundamental Rights",
+        "Environmental Protection Act",
+        "Judicial Activism",
+        "Sustainable Development"
+      ],
+      "date": "2025-04-04",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Supreme Court",
+        "Article 142",
+        "Environmental Law",
+        "Judicial Review",
+        "Polluter Pays Principle"
+      ],
+      "keyTerms": [
+        "Article 142",
+        "Environmental Protection Act 1986",
+        "Judicial Overreach",
+        "Sustainable Development Goals"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Article 142 grants the SC power to pass any decree necessary for doing 'complete justice'.",
+        "The ruling specifies application of Article 142 in environmental cases.",
+        "Emphasizes balancing development with environmental protection.",
+        "Mention of Polluter Pays Principle and Precautionary Principle implications."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the role of the judiciary in environmental governance and promoting sustainable development in India.",
+        "Analyze the concept of judicial activism and its implications for the separation of powers, particularly in environmental matters.",
+        "Evaluate the effectiveness of existing environmental laws and regulatory bodies in India.",
+        "Examine the challenges in balancing economic development with ecological conservation, citing relevant case studies."
+      ],
+      "imageDescription": "Scales of justice balancing a tree and a factory, symbolizing the court's role in environmental justice.",
+      "section": "National",
+      "trivia": "Article 142 was notably used by the Supreme Court to order the closure of polluting industries in Delhi and for the construction of the Ram Temple at Ayodhya.",
+      "prelimsSyllabus": {
+        "subject": "Polity & Governance",
+        "area": "Judiciary",
+        "topic": "Supreme Court Powers, Environmental Law"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-monetary-policy-april-2025",
+      "headline": "RBI Holds Repo Rate Steady Amidst Global Headwinds, Focuses on Domestic Growth",
+      "explainer": "• Reserve Bank of India's Monetary Policy Committee (MPC) maintains the key repo rate at current levels.\n• Decision reflects persistent global economic uncertainties and a cautious outlook on domestic inflation.\n• RBI reaffirms its commitment to supporting economic growth while ensuring price stability.\n• Highlights strong domestic demand but notes potential risks from geopolitical tensions and commodity prices.\n• Signals continued liquidity management measures to ensure adequate credit flow to productive sectors.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy",
+        "Monetary Policy",
+        "Inflation",
+        "Growth",
+        "RBI",
+        "Fiscal Policy"
+      ],
+      "date": "2025-04-04",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Repo Rate",
+        "Inflation",
+        "Economic Growth",
+        "MPC"
+      ],
+      "keyTerms": [
+        "Repo Rate",
+        "Monetary Policy Committee (MPC)",
+        "Inflation Targeting",
+        "Reverse Repo Rate",
+        "Cash Reserve Ratio (CRR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Repo Rate is the rate at which RBI lends money to commercial banks.",
+        "Monetary Policy Committee (MPC) determines the policy rates to achieve inflation target.",
+        "Current decision is to hold rates steady, indicating a focus on growth and inflation management.",
+        "Global headwinds and geopolitical tensions are key factors influencing the decision."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the challenges faced by the RBI in balancing economic growth and inflation control in the current global scenario.",
+        "Analyze the effectiveness of monetary policy tools like the repo rate in influencing economic activity in India.",
+        "Examine the interplay between fiscal and monetary policies in achieving macroeconomic stability.",
+        "Evaluate the impact of global economic uncertainties on India's financial markets and real economy."
+      ],
+      "imageDescription": "RBI logo with graphs showing steady economic indicators, symbolizing stability.",
+      "section": "Economy",
+      "trivia": "The Monetary Policy Committee (MPC) was constituted in 2016 and is mandated to meet at least four times a year.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI, Inflation, Growth"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-asean-connectivity-projects",
+      "headline": "India-ASEAN Announce New Connectivity Projects to Bolster Regional Trade and Strategic Ties",
+      "explainer": "• India and ASEAN nations agree on a series of new infrastructure and digital connectivity projects.\n• Initiatives aim to enhance trade, investment, and people-to-people exchanges across the region.\n• Focus areas include multimodal transport corridors, digital payment linkages, and energy grids.\n• Reinforces India's 'Act East' policy and commitment to a free, open, and inclusive Indo-Pacific.\n• Joint statement emphasizes cooperation on maritime security, sustainable development, and disaster management.",
+      "category": "ir, economy",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "India and its neighborhood",
+        "Bilateral, regional, and global groupings",
+        "Act East Policy",
+        "Infrastructure",
+        "Economic Diplomacy"
+      ],
+      "date": "2025-04-04",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "India-ASEAN",
+        "Act East Policy",
+        "Regional Connectivity",
+        "Trade",
+        "Indo-Pacific",
+        "Multimodal Transport"
+      ],
+      "keyTerms": [
+        "ASEAN",
+        "Act East Policy",
+        "Indo-Pacific",
+        "Multimodal Connectivity",
+        "Regional Comprehensive Economic Partnership (RCEP)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ASEAN is a regional intergovernmental organization of ten Southeast Asian countries.",
+        "India's 'Act East' policy aims to promote economic cooperation, cultural ties and strategic relationship with countries in the Indo-Pacific region.",
+        "New projects focus on infrastructure, digital linkages, and energy grids.",
+        "Cooperation areas include maritime security and sustainable development."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic significance of India's 'Act East' policy and its role in fostering regional stability and economic growth.",
+        "Discuss how enhanced connectivity projects with ASEAN can boost India's trade, investment, and geopolitical influence.",
+        "Evaluate the challenges and opportunities for India-ASEAN cooperation in the evolving Indo-Pacific geopolitical landscape.",
+        "Examine the potential of digital connectivity and energy cooperation in strengthening bilateral ties."
+      ],
+      "imageDescription": "Map showing connectivity routes between India and ASEAN countries, with trade symbols.",
+      "section": "International",
+      "trivia": "The India-Myanmar-Thailand Trilateral Highway is a key connectivity project under India's Act East policy, aiming to connect Moreh in India with Mae Sot in Thailand via Myanmar.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral/Regional Groupings",
+        "topic": "India-ASEAN, Act East Policy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "national-biodiversity-conservation-plan-2025",
+      "headline": "Government Launches Ambitious National Biodiversity Conservation Plan 2025-2030",
+      "explainer": "• Ministry of Environment, Forest and Climate Change unveils a five-year National Biodiversity Conservation Plan.\n• Plan focuses on protecting critical habitats, endangered species, and ecosystem restoration across India.\n• Integrates traditional knowledge with modern conservation science for effective biodiversity management.\n• Aims to enhance community participation and strengthen enforcement against wildlife crime and illegal trade.\n• Sets ambitious targets for increasing protected areas and contributing to global Sustainable Development Goals.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation",
+        "Biodiversity",
+        "Environmental impact assessment",
+        "Climate Change",
+        "Protected Areas"
+      ],
+      "date": "2025-04-04",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Biodiversity",
+        "Conservation",
+        "Environmental Policy",
+        "Wildlife Protection",
+        "Ecosystem Restoration"
+      ],
+      "keyTerms": [
+        "Biodiversity Act 2002",
+        "Convention on Biological Diversity (CBD)",
+        "Protected Areas",
+        "Endangered Species",
+        "Ecosystem Services"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The plan is for 2025-2030, focusing on habitats, species, and ecosystem restoration.",
+        "Emphasizes community participation and traditional knowledge.",
+        "Aims to combat wildlife crime and illegal trade.",
+        "Related to India's commitments under the Convention on Biological Diversity (CBD)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of biodiversity for ecological balance and human well-being, particularly in the Indian context.",
+        "Analyze the key challenges in biodiversity conservation in India and evaluate the strategies proposed in the new plan.",
+        "Examine the role of local communities and traditional knowledge in achieving effective conservation outcomes.",
+        "Assess India's efforts and commitments towards global biodiversity targets and Sustainable Development Goals."
+      ],
+      "imageDescription": "Diverse Indian wildlife and flora within a protective shield, symbolizing conservation.",
+      "section": "Environment",
+      "trivia": "India is one of the 17 mega-diverse countries in the world, hosting 7-8% of the world's recorded species.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Biodiversity",
+        "topic": "Conservation, Protected Areas"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-cryogenic-propulsion-system",
+      "headline": "ISRO Successfully Tests Advanced Cryogenic Propulsion System for Future Deep Space Missions",
+      "explainer": "• Indian Space Research Organisation (ISRO) achieves a significant milestone with the successful test of a new cryogenic propulsion system.\n• The advanced engine is designed for future heavy-lift launch vehicles and complex deep space exploration missions.\n• Expected to boost India's capabilities in sending heavier payloads to geo-synchronous and lunar orbits.\n• Critical step towards India's ambitious Gaganyaan manned mission and proposed Mars Orbiter Mission-2.\n• Demonstrates India's growing self-reliance and technological prowess in cutting-edge space engineering.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Space technology",
+        "ISRO achievements",
+        "Cryogenic engines",
+        "Gaganyaan",
+        "Lunar missions"
+      ],
+      "date": "2025-04-04",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Cryogenic Engine",
+        "Space Exploration",
+        "Gaganyaan",
+        "Mars Orbiter Mission",
+        "Space Technology"
+      ],
+      "keyTerms": [
+        "Cryogenic Propulsion",
+        "ISRO",
+        "GSLV",
+        "Gaganyaan",
+        "Deep Space Mission",
+        "Liquid Hydrogen",
+        "Liquid Oxygen"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Cryogenic engines use propellants (liquid hydrogen and liquid oxygen) at extremely low temperatures.",
+        "The test is for future heavy-lift launch vehicles and deep space missions.",
+        "Significant for Gaganyaan and Mars Orbiter Mission-2.",
+        "Enhances India's capabilities in space payload capacity."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of India's space program and its contributions to national development and security.",
+        "Analyze the technological challenges and breakthroughs in developing advanced cryogenic propulsion systems.",
+        "Evaluate the future prospects of India's deep space missions, including manned missions and planetary exploration.",
+        "Examine how ISRO's advancements contribute to India's soft power and global scientific collaborations."
+      ],
+      "imageDescription": "Illustration of an ISRO rocket firing its cryogenic engine, with stars in the background.",
+      "section": "Science",
+      "trivia": "India is one of only a handful of countries in the world to have successfully developed and used cryogenic engine technology.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space Technology",
+        "topic": "ISRO, Rocketry, Missions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "beti-bachao-beti-padhao-review",
+      "headline": "Government Review Highlights Mixed Progress and New Challenges for 'Beti Bachao, Beti Padhao' Scheme",
+      "explainer": "• Ministry of Women and Child Development releases a comprehensive review report on the 'Beti Bachao, Beti Padhao' scheme.\n• Report acknowledges significant improvements in child sex ratio at birth in several target districts.\n• Identifies persistent challenges related to girls' education, health, and protection from violence in certain regions.\n• Proposes revised strategies including increased community engagement and inter-ministerial convergence for better outcomes.\n• Emphasizes the need to address underlying social norms contributing to gender discrimination and female infanticide.",
+      "category": "society",
+      "gsPaper": "GS1, GS2",
+      "gsSubTopics": [
+        "Women empowerment",
+        "Social justice",
+        "Gender inequality",
+        "Government schemes",
+        "Child sex ratio",
+        "Population and associated issues"
+      ],
+      "date": "2025-04-04",
+      "source": "Ministry of Women and Child Development",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Beti Bachao Beti Padhao",
+        "Gender Equality",
+        "Women Empowerment",
+        "Child Sex Ratio",
+        "Social Schemes"
+      ],
+      "keyTerms": [
+        "Child Sex Ratio (CSR)",
+        "Gender-Based Violence",
+        "Female Foeticide",
+        "Sukanya Samriddhi Yojana",
+        "Social Determinants of Health"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "'Beti Bachao, Beti Padhao' scheme launched in 2015.",
+        "Aims to address declining Child Sex Ratio (CSR) and promote girl education.",
+        "Review highlights both successes (improved CSR) and challenges (education, health, safety).",
+        "Proposes inter-ministerial convergence and community engagement."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically evaluate the 'Beti Bachao, Beti Padhao' scheme in addressing gender inequality and promoting women's empowerment in India.",
+        "Discuss the socio-economic factors contributing to the declining child sex ratio and the challenges in altering entrenched social norms.",
+        "Suggest further policy interventions and community-led initiatives required to achieve comprehensive gender equality.",
+        "Examine the role of education and health in empowering girls and women in rural and urban settings."
+      ],
+      "imageDescription": "Girls in school uniform, symbolizing education and empowerment, with the scheme logo.",
+      "section": "National",
+      "trivia": "The scheme was initially launched in 100 districts with low Child Sex Ratio across India.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Women & Children",
+        "topic": "Government Schemes, Gender Equality"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "national-cybersecurity-policy-2025",
+      "headline": "India Unveils Comprehensive Cybersecurity Policy 2025 to Strengthen Digital Defenses",
+      "explainer": "• Ministry of Electronics and Information Technology (MeitY) announces the National Cybersecurity Policy 2025.\n• Policy aims to create a secure and resilient cyber ecosystem, protecting critical information infrastructure.\n• Focuses on enhancing indigenous cybersecurity capabilities, R&D, and skill development in the sector.\n• Establishes a robust framework for international cooperation on cyber threats and information sharing.\n• Addresses emerging challenges like AI-driven cyberattacks, supply chain vulnerabilities, and data breaches.",
+      "category": "security, science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Cybersecurity",
+        "National Security",
+        "Digital India",
+        "Critical Information Infrastructure",
+        "Data Protection",
+        "Internal Security"
+      ],
+      "date": "2025-04-04",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Cybersecurity Policy",
+        "National Security",
+        "Digital India",
+        "Cybercrime",
+        "Data Protection",
+        "Critical Infrastructure"
+      ],
+      "keyTerms": [
+        "CERT-In",
+        "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+        "Cybercrime",
+        "Data Localization",
+        "Cyber Warfare"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Cybersecurity Policy 2025 aims to create a secure cyber ecosystem.",
+        "Focuses on critical information infrastructure protection and indigenous capabilities.",
+        "Includes provisions for international cooperation and R&D.",
+        "Addresses AI-driven cyberattacks and supply chain vulnerabilities."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolving landscape of cybersecurity threats facing India and the need for a comprehensive policy response.",
+        "Analyze the key provisions of the National Cybersecurity Policy 2025 and its potential impact on national security and digital economy.",
+        "Examine the challenges in implementing a robust cybersecurity framework, including skill gaps and international coordination.",
+        "Evaluate the role of public-private partnerships in strengthening India's cyber defenses."
+      ],
+      "imageDescription": "A digital padlock icon superimposed on a world map, symbolizing global cybersecurity.",
+      "section": "Security",
+      "trivia": "India ranks among the top countries in terms of internet users, making robust cybersecurity measures critical for its digital economy and national security.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Cybersecurity",
+        "topic": "Threats, Policies, Institutions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "national-logistics-policy-progress",
+      "headline": "National Logistics Policy Shows Positive Impact on Supply Chain Efficiency, Report Suggests",
+      "explainer": "• A government-commissioned report indicates significant progress in the implementation of the National Logistics Policy.\n• Highlights notable improvements in multimodal connectivity, reduction in logistics costs, and faster cargo movement.\n• Credits the PM Gati Shakti National Master Plan for integrated infrastructure development and synergy.\n• Notes enhanced competitiveness for Indian manufacturers and exporters in global markets.\n• Identifies areas for further improvement, including deeper technological adoption and advanced skill development in the logistics sector.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure",
+        "Logistics",
+        "Make in India",
+        "Ease of Doing Business",
+        "Economic Growth",
+        "Supply Chain Management"
+      ],
+      "date": "2025-04-04",
+      "source": "PTI",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "National Logistics Policy",
+        "PM Gati Shakti",
+        "Logistics Costs",
+        "Supply Chain",
+        "Infrastructure Development",
+        "Make in India"
+      ],
+      "keyTerms": [
+        "National Logistics Policy",
+        "PM Gati Shakti",
+        "Logistics Performance Index (LPI)",
+        "Multimodal Transport",
+        "Warehousing"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Logistics Policy aims to reduce logistics costs and improve efficiency.",
+        "PM Gati Shakti is a national master plan for multimodal connectivity.",
+        "Report indicates positive impact on cargo movement and competitiveness.",
+        "Focus areas for improvement include technology and skill development."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of an efficient logistics sector for India's economic growth and global competitiveness.",
+        "Analyze the key objectives and achievements of the National Logistics Policy and its synergy with PM Gati Shakti.",
+        "Examine the challenges faced by India's logistics sector and suggest measures for further improvement.",
+        "Evaluate how improved logistics can boost the 'Make in India' initiative and enhance export potential."
+      ],
+      "imageDescription": "A graphic showing different modes of transport (road, rail, sea, air) connected, symbolizing integrated logistics.",
+      "section": "Economy",
+      "trivia": "India aims to reduce logistics costs from the current 13-14% of GDP to a global average of 8% through policy interventions.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Infrastructure",
+        "topic": "Logistics, Government Schemes"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-middle-east-green-hydrogen",
+      "headline": "India Forges Strategic Partnership with Middle Eastern Nations for Green Hydrogen Production and Export",
+      "explainer": "• India signs a landmark agreement with a consortium of Middle Eastern countries for large-scale green hydrogen production.\n• Partnership aims to leverage abundant renewable energy resources in the region for green hydrogen and ammonia.\n• Positions India as a key player in the global green energy transition and a potential exporter of green fuels.\n• Focuses on joint R&D, technology transfer, and development of robust green hydrogen supply chains.\n• Crucial step towards India's energy security, decarbonization goals, and climate change mitigation efforts.",
+      "category": "ir, economy, environment",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Energy Security",
+        "Renewable Energy",
+        "Green Hydrogen Mission",
+        "Geopolitics",
+        "Climate Change",
+        "International Agreements"
+      ],
+      "date": "2025-04-04",
+      "source": "The Times of India",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "Energy Security",
+        "Renewable Energy",
+        "India-Middle East",
+        "Climate Change",
+        "International Cooperation"
+      ],
+      "keyTerms": [
+        "National Green Hydrogen Mission",
+        "Green Ammonia",
+        "Electrolysis",
+        "Renewable Energy Sources",
+        "Energy Transition"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Green hydrogen is produced by splitting water using renewable electricity (electrolysis).",
+        "Agreement with Middle Eastern nations for large-scale production and export.",
+        "Aims to enhance India's energy security and achieve decarbonization targets.",
+        "Part of India's National Green Hydrogen Mission."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the potential of green hydrogen as a clean energy source and its role in India's energy transition strategy.",
+        "Analyze the geopolitical implications of India's partnerships with Middle Eastern nations for green energy resources.",
+        "Examine the challenges and opportunities in developing a robust green hydrogen economy in India, including infrastructure and technology.",
+        "Evaluate how green hydrogen initiatives contribute to India's climate change commitments and economic development."
+      ],
+      "imageDescription": "A stylized hydrogen atom with a leaf, symbolizing green hydrogen, against a backdrop of solar panels.",
+      "section": "International",
+      "trivia": "India's National Green Hydrogen Mission aims to make India a global hub for green hydrogen production and export.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Energy",
+        "topic": "Renewable Energy, Green Hydrogen"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "panchayati-raj-institutions-reforms",
+      "headline": "Expert Committee Submits Recommendations for Strengthening Panchayati Raj Institutions",
+      "explainer": "• An expert committee, constituted by the Ministry of Panchayati Raj, submits its report on PRIs to the government.\n• Recommendations include enhancing financial autonomy, capacity building, and digital integration of PRIs.\n• Suggests measures to improve devolution of powers and functions from state governments to local bodies.\n• Emphasizes the crucial role of PRIs in achieving local Sustainable Development Goals and grassroots governance.\n• Aims to make PRIs more effective instruments of rural development and democratic decentralization.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Local self-government",
+        "Panchayati Raj",
+        "Decentralization",
+        "Rural Development",
+        "73rd Amendment Act",
+        "Grassroots Democracy"
+      ],
+      "date": "2025-04-04",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Panchayati Raj",
+        "Local Governance",
+        "Decentralization",
+        "73rd Amendment",
+        "Rural Development",
+        "Gram Sabha"
+      ],
+      "keyTerms": [
+        "Panchayati Raj Institutions (PRIs)",
+        "73rd Constitutional Amendment Act",
+        "Gram Sabha",
+        "State Finance Commission",
+        "Devolution of Powers"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The 73rd Constitutional Amendment Act gave constitutional status to PRIs.",
+        "Committee recommends financial autonomy, capacity building, and digital integration.",
+        "Aims to improve devolution of powers from states to PRIs.",
+        "PRIs are crucial for local Sustainable Development Goals."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of democratic decentralization through Panchayati Raj Institutions in India.",
+        "Analyze the major challenges faced by PRIs in effective functioning, particularly regarding financial autonomy and devolution of powers.",
+        "Evaluate the recommendations of the expert committee and their potential to strengthen grassroots governance and rural development.",
+        "Examine the role of Gram Sabha in fostering participatory democracy and accountability at the local level."
+      ],
+      "imageDescription": "A group of villagers participating in a Gram Sabha meeting, symbolizing local democracy.",
+      "section": "National",
+      "trivia": "The 73rd Constitutional Amendment Act mandated the establishment of a three-tier Panchayati Raj system in states with a population exceeding 20 lakh.",
+      "prelimsSyllabus": {
+        "subject": "Polity & Governance",
+        "area": "Local Government",
+        "topic": "Panchayati Raj Institutions"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "imd-monsoon-forecast-climate-impact",
+      "headline": "IMD Releases Advanced Monsoon Forecast, Warns of Regional Climate Change Impacts",
+      "explainer": "• India Meteorological Department (IMD) issues its first long-range forecast for the upcoming monsoon season.\n• Forecast indicates overall normal rainfall but highlights regional variations and potential for extreme weather events.\n• Emphasizes the increasing influence of climate change on monsoon patterns, including delayed onset and intense spells.\n• Advises states to prepare for potential drought or flood situations in specific regions based on detailed projections.\n• Crucial information for agricultural planning, water resource management, and disaster preparedness strategies.",
+      "category": "environment, geography, science",
+      "gsPaper": "GS1, GS3",
+      "gsSubTopics": [
+        "Indian Monsoon",
+        "Climate Change",
+        "Disaster Management",
+        "Agriculture",
+        "IMD",
+        "Physical Geography"
+      ],
+      "date": "2025-04-04",
+      "source": "Press Trust of India (PTI)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "IMD",
+        "Monsoon Forecast",
+        "Climate Change",
+        "Agriculture",
+        "Disaster Preparedness",
+        "Extreme Weather"
+      ],
+      "keyTerms": [
+        "Indian Monsoon",
+        "El Niño-Southern Oscillation (ENSO)",
+        "Indian Ocean Dipole (IOD)",
+        "Climate Resilient Agriculture",
+        "Disaster Risk Reduction"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "IMD provides long-range monsoon forecasts.",
+        "Forecast indicates normal rainfall but with regional variations.",
+        "Highlights climate change impact on monsoon patterns (delayed onset, intense spells).",
+        "Crucial for agriculture, water management, and disaster preparedness.",
+        "ENSO and IOD are major factors influencing Indian monsoon."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the complex mechanisms of the Indian Monsoon and the various factors influencing its variability.",
+        "Analyze the severe socio-economic impacts of climate change on India's monsoon patterns and agricultural sector.",
+        "Evaluate the effectiveness of India's disaster preparedness and early warning systems in mitigating extreme weather events.",
+        "Suggest strategies for climate-resilient agriculture and water resource management in the face of changing monsoon dynamics."
+      ],
+      "imageDescription": "A weather map showing monsoon clouds over India with symbols for rain and potential extreme events.",
+      "section": "Environment",
+      "trivia": "The Indian monsoon contributes to about 70% of India's annual rainfall, making it the lifeline of Indian agriculture.",
+      "prelimsSyllabus": {
+        "subject": "Geography",
+        "area": "Climatology",
+        "topic": "Indian Monsoon, Climate Change"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "ai-in-rural-healthcare-pilot",
+      "headline": "Pilot Project Launched for AI-Powered Diagnostic Tools in Rural Healthcare Centers",
+      "explainer": "• Ministry of Health and Family Welfare initiates a pilot program to deploy AI-powered diagnostic tools in remote rural health centers.\n• Aims to bridge the gap in specialist medical services and improve early disease detection in underserved areas.\n• Utilizes AI for analyzing medical images (e.g., X-rays, retinal scans) and predicting disease risks with high accuracy.\n• Project focuses on training local healthcare workers to effectively use these technologies and interpret results.\n• Part of a broader strategy to leverage technology for universal healthcare access and reduce the burden on urban hospitals.",
+      "category": "science, society",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Health",
+        "Technology in healthcare",
+        "Artificial Intelligence",
+        "Rural development",
+        "Digital India",
+        "Government policies for development"
+      ],
+      "date": "2025-04-04",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "AI in Healthcare",
+        "Rural Healthcare",
+        "Digital Health",
+        "Disease Diagnosis",
+        "Health Technology",
+        "Ayushman Bharat"
+      ],
+      "keyTerms": [
+        "Artificial Intelligence",
+        "Telemedicine",
+        "Ayushman Bharat Digital Mission",
+        "Primary Healthcare Centers (PHCs)",
+        "Medical Diagnostics"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Pilot project uses AI for diagnostic tools in rural health centers.",
+        "Aims to improve early disease detection and specialist access in rural areas.",
+        "AI analyzes medical images and predicts disease risks.",
+        "Part of a strategy for universal healthcare access."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the potential of Artificial Intelligence in transforming healthcare delivery, particularly in rural and remote areas of India.",
+        "Analyze the challenges and ethical considerations associated with deploying AI-powered diagnostic tools in a diverse healthcare landscape.",
+        "Evaluate how technological interventions can address the disparities in healthcare access and quality between urban and rural regions.",
+        "Examine the role of government initiatives like Ayushman Bharat Digital Mission in promoting digital health solutions."
+      ],
+      "imageDescription": "A doctor in a rural clinic using a tablet with AI diagnostic software, interacting with a patient.",
+      "section": "Science",
+      "trivia": "AI in healthcare can aid in early detection of diseases like diabetic retinopathy, tuberculosis, and various cancers, even with limited medical specialists.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Health Technology",
+        "topic": "AI Applications, Public Health"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "wto-agricultural-subsidies-india",
+      "headline": "India Reiterates Stance on Food Security and Agricultural Subsidies at WTO Discussions",
+      "explainer": "• India actively participates in ongoing World Trade Organization (WTO) negotiations on agricultural subsidies.\n• Reaffirms its demand for a permanent solution to public stockholding for food security purposes without penalties.\n• Highlights the importance of protecting the livelihoods of small and marginal farmers in developing countries.\n• Calls for developed nations to significantly reduce their trade-distorting agricultural support measures.\n• Emphasizes the need for a fair and equitable global trading system that considers developing country concerns.",
+      "category": "ir, economy",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "WTO",
+        "International trade",
+        "Agricultural policy",
+        "Food security",
+        "Developing countries",
+        "India's foreign policy"
+      ],
+      "date": "2025-04-04",
+      "source": "Business Standard",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "WTO",
+        "Agricultural Subsidies",
+        "Food Security",
+        "Public Stockholding",
+        "Developing Countries",
+        "Trade Policy"
+      ],
+      "keyTerms": [
+        "World Trade Organization (WTO)",
+        "Agreement on Agriculture (AoA)",
+        "Public Stockholding",
+        "Minimum Support Price (MSP)",
+        "Trade-Distorting Subsidies"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "WTO is an intergovernmental organization that regulates international trade.",
+        "India seeks a permanent solution for public stockholding for food security.",
+        "Advocates for reducing trade-distorting subsidies by developed nations.",
+        "Emphasis on protecting small and marginal farmers."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss India's position on agricultural subsidies and public stockholding at the WTO, highlighting its implications for national food security.",
+        "Analyze the challenges faced by developing countries in WTO negotiations, particularly concerning agricultural trade rules.",
+        "Evaluate the impact of WTO agreements on India's agricultural sector and the livelihoods of its farmers.",
+        "Examine the need for a fair and equitable global trading system that accommodates the developmental needs of member countries."
+      ],
+      "imageDescription": "WTO logo with wheat stalks and a map of India, symbolizing agricultural trade negotiations.",
+      "section": "International",
+      "trivia": "The 'peace clause' at WTO allows developing countries to provide subsidies for food security programs, even if they breach subsidy limits, without being challenged.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "WTO, Trade Agreements"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "nep-2020-vocational-training-review",
+      "headline": "National Education Policy 2020 Implementation Review Focuses on Vocational Training Integration",
+      "explainer": "• Ministry of Education conducts a mid-term review of the National Education Policy (NEP) 2020 implementation.\n• Key focus areas include the successful integration of vocational education from school to higher levels.\n• Identifies progress in curriculum redesign and fostering industry-academia collaboration for skill development.\n• Addresses challenges in infrastructure, teacher training, and societal perception of vocational courses.\n• Aims to enhance the employability of youth and effectively harness India's demographic dividend through skill-based education.",
+      "category": "society",
+      "gsPaper": "GS1, GS2",
+      "gsSubTopics": [
+        "Education Policy",
+        "Skill Development",
+        "Vocational Education",
+        "NEP 2020",
+        "Demographic Dividend",
+        "Human Resource Development"
+      ],
+      "date": "2025-04-04",
+      "source": "Ministry of Education",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "NEP 2020",
+        "Vocational Education",
+        "Skill Development",
+        "Education Reform",
+        "Employability",
+        "Demographic Dividend"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP)",
+        "Vocational Training",
+        "Skill India Mission",
+        "National Skill Development Corporation (NSDC)",
+        "Industry-Academia Linkage"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NEP 2020 aims for comprehensive reform in India's education system.",
+        "Review focuses on integration of vocational education from school to higher education.",
+        "Progress noted in curriculum and industry collaboration.",
+        "Challenges include infrastructure, teacher training, and perception.",
+        "Aims to enhance youth employability and demographic dividend."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of vocational education in realizing India's demographic dividend and addressing youth unemployment.",
+        "Analyze the key provisions of the National Education Policy (NEP) 2020 regarding vocational training and its implementation challenges.",
+        "Evaluate the importance of industry-academia collaboration in making vocational education relevant and job-oriented.",
+        "Suggest measures to improve the societal perception of vocational courses and encourage greater enrollment among students."
+      ],
+      "imageDescription": "Students engaged in vocational training, such as carpentry or electronics, in a classroom setting.",
+      "section": "National",
+      "trivia": "NEP 2020 aims to integrate vocational education into all school and higher education institutions by 2025-26.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Education",
+        "topic": "Government Policies, Skill Development"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-urban-planning-policy-framework",
+      "headline": "Government Proposes New Urban Planning Policy Framework for Sustainable City Development",
+      "explainer": "• Ministry of Housing and Urban Affairs introduces a draft policy framework for modern urban planning in India.\n• Aims to address challenges of rapid urbanization, climate change, and infrastructure gaps in cities.\n• Focuses on integrated land-use planning, green infrastructure, and smart city technologies.\n• Emphasizes citizen participation and equitable access to urban amenities and services.\n• Seeks to promote sustainable and resilient urban development aligning with global best practices.",
+      "category": "polity, economy, environment",
+      "gsPaper": "GS1, GS2, GS3",
+      "gsSubTopics": [
+        "Urbanization",
+        "Smart Cities",
+        "Sustainable Development",
+        "Infrastructure",
+        "Government Policies",
+        "Town Planning"
+      ],
+      "date": "2025-04-04",
+      "source": "Ministry of Housing and Urban Affairs",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Urban Planning",
+        "Smart Cities",
+        "Sustainable Cities",
+        "Urbanization",
+        "Infrastructure",
+        "Green Urbanism"
+      ],
+      "keyTerms": [
+        "Urban Local Bodies (ULBs)",
+        "Master Plan",
+        "Smart City Mission",
+        "Green Building",
+        "Public-Private Partnership (PPP)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "New policy framework for urban planning addresses rapid urbanization and climate change.",
+        "Focuses on integrated land-use, green infrastructure, and smart technologies.",
+        "Emphasizes citizen participation and equitable access to urban amenities.",
+        "Aims for sustainable and resilient urban development."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the challenges posed by rapid urbanization in India and the need for a comprehensive urban planning framework.",
+        "Analyze the key features of the proposed policy framework and its potential to foster sustainable and inclusive cities.",
+        "Evaluate the role of smart city technologies and green infrastructure in making urban areas resilient to climate change.",
+        "Examine the importance of citizen participation and local governance in effective urban planning and development."
+      ],
+      "imageDescription": "A modern cityscape with green spaces and smart infrastructure, illustrating sustainable urban development.",
+      "section": "National",
+      "trivia": "India's urban population is projected to reach 600 million by 2030, making effective urban planning crucial.",
+      "prelimsSyllabus": {
+        "subject": "Geography",
+        "area": "Human Geography",
+        "topic": "Urbanization, Smart Cities"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "report-india-manufacturing-growth",
+      "headline": "Report Highlights Robust Growth in India's Manufacturing Sector, Driven by PLI Schemes",
+      "explainer": "• A new report by a leading economic think tank indicates robust growth in India's manufacturing sector.\n• Growth is primarily attributed to the success of Production-Linked Incentive (PLI) schemes in key sectors.\n• Highlights increased foreign and domestic investment, leading to job creation and technological upgrades.\n• Notes improvements in ease of doing business and infrastructure development supporting industrial expansion.\n• Identifies challenges such as global supply chain disruptions and the need for further skill enhancement.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy",
+        "Manufacturing Sector",
+        "PLI Schemes",
+        "Industrial Policy",
+        "Make in India",
+        "Investment Models"
+      ],
+      "date": "2025-04-04",
+      "source": "FICCI",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Manufacturing",
+        "PLI Schemes",
+        "Economic Growth",
+        "Make in India",
+        "FDI",
+        "Industrial Policy"
+      ],
+      "keyTerms": [
+        "Production-Linked Incentive (PLI)",
+        "Gross Value Added (GVA)",
+        "Foreign Direct Investment (FDI)",
+        "Ease of Doing Business",
+        "Industrial Corridors"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Report highlights robust growth in India's manufacturing sector.",
+        "PLI schemes are a major driver of this growth.",
+        "Increased investment, job creation, and technological upgrades observed.",
+        "Challenges include global supply chain disruptions and skill gaps."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the manufacturing sector for India's economic development and employment generation.",
+        "Analyze the effectiveness of Production-Linked Incentive (PLI) schemes in boosting domestic manufacturing and attracting investment.",
+        "Evaluate the progress of the 'Make in India' initiative and its role in transforming India into a global manufacturing hub.",
+        "Examine the challenges and opportunities for India's manufacturing sector in the context of global supply chain shifts and technological advancements."
+      ],
+      "imageDescription": "Factory floor with modern machinery and workers, symbolizing manufacturing growth.",
+      "section": "Economy",
+      "trivia": "The PLI scheme was introduced in 2020 to boost domestic manufacturing and attract large investments in various sectors.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Industry",
+        "topic": "Manufacturing, Government Schemes"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indus-water-treaty-dialogue",
+      "headline": "India and Pakistan Hold Annual Dialogue on Indus Waters Treaty, Addressing Technical Issues",
+      "explainer": "• Annual meeting between India and Pakistan's Indus Water Commissioners concludes, focusing on technical issues.\n• Discussions centered on the design and operation of hydroelectric projects on the western rivers.\n• Both sides reiterated commitment to the spirit and provisions of the Indus Waters Treaty (IWT).\n• Emphasized the importance of continuous dialogue for peaceful resolution of water-sharing concerns.\n• The meeting aimed to build trust and ensure smooth implementation of the landmark water-sharing agreement.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood relations",
+        "International treaties",
+        "Water resource management",
+        "Bilateral relations"
+      ],
+      "date": "2025-04-04",
+      "source": "Dawn (Pakistan) / The Hindu",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Indus Water Treaty",
+        "India-Pakistan Relations",
+        "Water Sharing",
+        "Bilateral Dialogue",
+        "Hydropower"
+      ],
+      "keyTerms": [
+        "Indus Water Treaty (IWT)",
+        "Indus Water Commissioner",
+        "Western Rivers (Indus, Jhelum, Chenab)",
+        "Eastern Rivers (Ravi, Beas, Sutlej)",
+        "Permanent Indus Commission"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Indus Waters Treaty (IWT) was signed in 1960 between India and Pakistan, brokered by World Bank.",
+        "It governs the sharing of waters of the Indus River System.",
+        "India has control over Eastern Rivers (Ravi, Beas, Sutlej), Pakistan over Western Rivers (Indus, Jhelum, Chenab).",
+        "Annual dialogue addresses technical issues and ensures treaty implementation."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the historical context and significance of the Indus Waters Treaty (IWT) for India-Pakistan relations.",
+        "Analyze the challenges and complexities in implementing the IWT, particularly concerning hydroelectric projects on western rivers.",
+        "Evaluate the role of the Permanent Indus Commission in resolving disputes and fostering cooperation between the two nations.",
+        "Examine the broader implications of water-sharing agreements for regional peace and security in South Asia."
+      ],
+      "imageDescription": "A map showing the Indus River system flowing through India and Pakistan.",
+      "section": "International",
+      "trivia": "Despite numerous conflicts, the Indus Waters Treaty is one of the few international agreements that has largely survived between India and Pakistan.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India & its Neighborhood",
+        "topic": "India-Pakistan, Water Disputes, Treaties"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "cultural-heritage-digital-archive",
+      "headline": "Ministry of Culture Launches National Digital Archive for Preserving Indian Cultural Heritage",
+      "explainer": "• Ministry of Culture inaugurates a comprehensive National Digital Archive to preserve India's vast cultural heritage.\n• The initiative aims to digitize ancient manuscripts, historical documents, artworks, and intangible cultural practices.\n• Utilizes advanced digital preservation techniques, including AI for metadata tagging and restoration.\n• Provides universal access to researchers, scholars, and the public, promoting cultural education and awareness.\n• Aims to safeguard cultural treasures from degradation, natural disasters, and ensure their longevity for future generations.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian Culture",
+        "Art Forms",
+        "Literature",
+        "Architecture",
+        "Conservation of Heritage",
+        "Digital Technology"
+      ],
+      "date": "2025-04-04",
+      "source": "Ministry of Culture",
+      "sourceUrl": "",
+      "importance": "low",
+      "tags": [
+        "Cultural Heritage",
+        "Digital Archive",
+        "Art & Culture",
+        "Preservation",
+        "Manuscripts",
+        "Intangible Heritage"
+      ],
+      "keyTerms": [
+        "National Digital Archive",
+        "Intangible Cultural Heritage (ICH)",
+        "Digital Preservation",
+        "Manuscripts",
+        "Archaeological Survey of India (ASI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Digital Archive launched by Ministry of Culture.",
+        "Aims to digitize manuscripts, historical documents, artworks, and intangible heritage.",
+        "Uses AI for preservation and metadata tagging.",
+        "Provides universal access for research and public awareness."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the importance of preserving India's rich and diverse cultural heritage in the digital age.",
+        "Analyze the challenges involved in digitizing and archiving historical artifacts and intangible cultural practices.",
+        "Evaluate how digital technologies can enhance accessibility, research, and public engagement with cultural heritage.",
+        "Examine the role of government initiatives in safeguarding cultural treasures from various threats."
+      ],
+      "imageDescription": "A digital representation of ancient Indian manuscripts and artifacts on a screen, with a traditional Indian motif.",
+      "section": "National",
+      "trivia": "India has 42 UNESCO World Heritage Sites, reflecting its rich cultural and natural diversity.",
+      "prelimsSyllabus": {
+        "subject": "Art & Culture",
+        "area": "Heritage Preservation",
+        "topic": "Digital Initiatives, UNESCO Sites"
+      },
+      "prelimsPotential": 2
+    }
+  ],
+  "highlights": [
+    "India launches 'Vision 2047: Digital India 2.0' to propel AI and Quantum Computing in governance.",
+    "Supreme Court clarifies Article 142 powers in environmental cases, balancing development and ecology.",
+    "RBI maintains key policy rates, prioritizing domestic growth amidst global economic uncertainties.",
+    "India and ASEAN deepen strategic ties with new connectivity projects for enhanced regional trade.",
+    "Government unveils ambitious National Biodiversity Conservation Plan 2025-2030 for habitat and species protection."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to 'Vision 2047: Digital India 2.0', consider the following statements:\n1. It primarily focuses on leveraging Artificial Intelligence (AI) and Quantum Computing for public services.\n2. It includes a new framework for Data Governance and aims to expand digital public infrastructure.\n3. The initiative aims to position India as a global leader in digital innovation and inclusive growth.\nWhich of the statements given above are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(d) 1, 2 and 3",
+      "explanation": "All three statements are correct. 'Vision 2047: Digital India 2.0' is a comprehensive roadmap that integrates AI and Quantum Computing into governance, establishes a new Data Governance framework, expands digital public infrastructure, and aims to make India a global leader in digital innovation and inclusive growth."
+    },
+    {
+      "question": "Which of the following statements best describes the power of the Supreme Court under Article 142 of the Indian Constitution?",
+      "options": [
+        "(a) It allows the Supreme Court to review any law passed by the Parliament.",
+        "(b) It grants the Supreme Court extraordinary powers to pass any decree or order necessary for doing 'complete justice' in any cause or matter pending before it.",
+        "(c) It empowers the Supreme Court to transfer cases from one High Court to another.",
+        "(d) It enables the Supreme Court to issue writs for the enforcement of Fundamental Rights only."
+      ],
+      "answer": "(b) It grants the Supreme Court extraordinary powers to pass any decree or order necessary for doing 'complete justice' in any cause or matter pending before it.",
+      "explanation": "Article 142 of the Indian Constitution empowers the Supreme Court to pass such a decree or make such order as is necessary for doing 'complete justice' in any cause or matter pending before it. This power is often invoked in cases where existing laws may not provide adequate remedies, as highlighted in the recent environmental ruling."
+    },
+    {
+      "question": "Consider the following statements regarding the Monetary Policy Committee (MPC) of the Reserve Bank of India:\n1. The MPC is responsible for determining the policy interest rates required to achieve the inflation target.\n2. It consists of six members, with three nominated by the Government of India and three from the RBI.\n3. The Governor of the RBI acts as the ex-officio Chairperson of the MPC and has a casting vote.\nWhich of the statements given above are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(d) 1, 2 and 3",
+      "explanation": "All three statements are correct. The MPC is a six-member body tasked with setting the policy repo rate to meet the inflation target. It comprises three members from the RBI (including the Governor, who is the ex-officio Chairperson and has a casting vote) and three external members appointed by the government."
+    },
+    {
+      "question": "Which of the following are key objectives of India's newly launched National Biodiversity Conservation Plan 2025-2030?\n1. Protecting critical habitats and endangered species.\n2. Integrating traditional knowledge with modern conservation science.\n3. Strengthening enforcement against wildlife crime.\n4. Achieving targets related to Sustainable Development Goals concerning biodiversity.\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1, 2 and 3 only",
+        "(b) 2, 3 and 4 only",
+        "(c) 1, 3 and 4 only",
+        "(d) 1, 2, 3 and 4"
+      ],
+      "answer": "(d) 1, 2, 3 and 4",
+      "explanation": "The National Biodiversity Conservation Plan 2025-2030 is comprehensive and encompasses all the mentioned objectives: protecting habitats and species, integrating traditional and modern science, combating wildlife crime, and contributing to SDG targets related to biodiversity. It aims for a holistic approach to conservation."
+    },
+    {
+      "question": "With reference to ISRO's recent achievement of successfully testing an advanced cryogenic propulsion system, consider the following statements:\n1. Cryogenic engines use liquid hydrogen and liquid oxygen as propellants at extremely high temperatures.\n2. This development is crucial for India's Gaganyaan manned mission and future heavy-lift launch vehicles.\n3. India is one of only a few countries globally to have mastered cryogenic engine technology.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 2 and 3 only",
+      "explanation": "Statement 1 is incorrect because cryogenic engines use propellants at *extremely low* temperatures, not high temperatures. Statements 2 and 3 are correct. The successful test is vital for India's ambitious space missions like Gaganyaan and for developing more powerful launch vehicles, and India is indeed among a select group of nations with this advanced technology."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "India's 'Vision 2047: Digital India 2.0' aims to leverage AI and Quantum Computing for governance. Discuss the opportunities and challenges this presents for transforming public service delivery and ensuring ethical data governance in a diverse democracy. (150 words)",
+      "syllabusMatch": "GS2: Governance; GS3: Science & Technology",
+      "approach": "Introduce Vision 2047 and its tech focus. Enumerate opportunities like efficiency, transparency, accessibility in governance. Discuss challenges such as digital divide, data privacy, ethical AI, cybersecurity, and skill gaps. Conclude with the importance of inclusive and responsible implementation."
+    },
+    {
+      "question": "The Supreme Court's recent clarification on Article 142 in environmental cases highlights the judiciary's role in balancing development and conservation. Critically analyze the evolving nature of environmental jurisprudence in India and the challenges in achieving sustainable development. (250 words)",
+      "syllabusMatch": "GS2: Indian Constitution, Judiciary; GS3: Environment & Ecology",
+      "approach": "Begin by explaining Article 142 and its application in environmental context. Discuss the evolution of environmental jurisprudence (e.g., Polluter Pays, Precautionary Principle, Public Trust Doctrine). Analyze challenges in balancing development with conservation (e.g., project clearances, enforcement, public participation, climate change impacts). Conclude with suggestions for stronger environmental governance and judicial oversight."
+    },
+    {
+      "question": "India's deepening strategic partnership with ASEAN through new connectivity projects and its green hydrogen diplomacy with Middle Eastern nations signify a dynamic shift in its foreign policy. Evaluate the geopolitical and economic implications of these initiatives for India's regional influence and energy security. (250 words)",
+      "syllabusMatch": "GS2: International Relations; GS3: Economy, Energy Security",
+      "approach": "Introduce India's Act East policy and its engagement with ASEAN, highlighting connectivity projects. Discuss the strategic and economic benefits (trade, influence in Indo-Pacific). Then, address green hydrogen diplomacy with the Middle East, focusing on energy security, climate commitments, and economic diversification. Analyze geopolitical implications (diversifying partnerships, soft power). Conclude on how these initiatives strengthen India's global standing and achieve strategic autonomy."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "Digital India program was launched in 2015 to transform India into a digitally empowered society and knowledge economy.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Digital India",
+        "e-governance"
+      ]
+    },
+    {
+      "text": "Article 142 of the Indian Constitution grants the Supreme Court extraordinary powers to do 'complete justice'.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Supreme Court",
+        "Constitution"
+      ]
+    },
+    {
+      "text": "The Monetary Policy Committee (MPC) of RBI consists of 6 members, 3 from RBI and 3 appointed by the government.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "Monetary Policy"
+      ]
+    },
+    {
+      "text": "ASEAN (Association of Southeast Asian Nations) was established in 1967 with five founding members.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "ASEAN",
+        "Regional Grouping"
+      ]
+    },
+    {
+      "text": "The 'Polluter Pays Principle' holds that the party responsible for pollution should bear the costs of remediation.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Environmental Law",
+        "Pollution"
+      ]
+    },
+    {
+      "text": "Cryogenic engines use liquid hydrogen and liquid oxygen as propellants at extremely low temperatures.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "Space Technology"
+      ]
+    },
+    {
+      "text": "'Beti Bachao, Beti Padhao' scheme was launched in 2015 to address declining child sex ratio and promote girl education.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "tags": [
+        "Women Empowerment",
+        "Government Schemes"
+      ]
+    },
+    {
+      "text": "CERT-In (Indian Computer Emergency Response Team) is the national agency for responding to cyber security incidents.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "Cybersecurity",
+        "National Security"
+      ]
+    },
+    {
+      "text": "PM Gati Shakti is a National Master Plan for multimodal connectivity infrastructure development.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Infrastructure",
+        "Logistics"
+      ]
+    },
+    {
+      "text": "The 73rd Constitutional Amendment Act (1992) gave constitutional status to Panchayati Raj Institutions.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Panchayati Raj",
+        "Local Governance"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "cultural-heritage-digital-archive",
+        "headline": "Ministry of Culture Launches National Digital Archive for Preserving Indian Cultural Heritage",
+        "explainer": "• Ministry of Culture inaugurates a comprehensive National Digital Archive to preserve India's vast cultural heritage.\n• The initiative aims to digitize ancient manuscripts, historical documents, artworks, and intangible cultural practices.\n• Utilizes advanced digital preservation techniques, including AI for metadata tagging and restoration.\n• Provides universal access to researchers, scholars, and the public, promoting cultural education and awareness.\n• Aims to safeguard cultural treasures from degradation, natural disasters, and ensure their longevity for future generations.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian Culture",
+          "Art Forms",
+          "Literature",
+          "Architecture",
+          "Conservation of Heritage",
+          "Digital Technology"
+        ],
+        "date": "2025-04-04",
+        "source": "Ministry of Culture",
+        "sourceUrl": "",
+        "importance": "low",
+        "tags": [
+          "Cultural Heritage",
+          "Digital Archive",
+          "Art & Culture",
+          "Preservation",
+          "Manuscripts",
+          "Intangible Heritage"
+        ],
+        "keyTerms": [
+          "National Digital Archive",
+          "Intangible Cultural Heritage (ICH)",
+          "Digital Preservation",
+          "Manuscripts",
+          "Archaeological Survey of India (ASI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Digital Archive launched by Ministry of Culture.",
+          "Aims to digitize manuscripts, historical documents, artworks, and intangible heritage.",
+          "Uses AI for preservation and metadata tagging.",
+          "Provides universal access for research and public awareness."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the importance of preserving India's rich and diverse cultural heritage in the digital age.",
+          "Analyze the challenges involved in digitizing and archiving historical artifacts and intangible cultural practices.",
+          "Evaluate how digital technologies can enhance accessibility, research, and public engagement with cultural heritage.",
+          "Examine the role of government initiatives in safeguarding cultural treasures from various threats."
+        ],
+        "imageDescription": "A digital representation of ancient Indian manuscripts and artifacts on a screen, with a traditional Indian motif.",
+        "section": "National",
+        "trivia": "India has 42 UNESCO World Heritage Sites, reflecting its rich cultural and natural diversity.",
+        "prelimsSyllabus": {
+          "subject": "Art & Culture",
+          "area": "Heritage Preservation",
+          "topic": "Digital Initiatives, UNESCO Sites"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS2": [
+      {
+        "id": "panchayati-raj-institutions-reforms",
+        "headline": "Expert Committee Submits Recommendations for Strengthening Panchayati Raj Institutions",
+        "explainer": "• An expert committee, constituted by the Ministry of Panchayati Raj, submits its report on PRIs to the government.\n• Recommendations include enhancing financial autonomy, capacity building, and digital integration of PRIs.\n• Suggests measures to improve devolution of powers and functions from state governments to local bodies.\n• Emphasizes the crucial role of PRIs in achieving local Sustainable Development Goals and grassroots governance.\n• Aims to make PRIs more effective instruments of rural development and democratic decentralization.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Local self-government",
+          "Panchayati Raj",
+          "Decentralization",
+          "Rural Development",
+          "73rd Amendment Act",
+          "Grassroots Democracy"
+        ],
+        "date": "2025-04-04",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Panchayati Raj",
+          "Local Governance",
+          "Decentralization",
+          "73rd Amendment",
+          "Rural Development",
+          "Gram Sabha"
+        ],
+        "keyTerms": [
+          "Panchayati Raj Institutions (PRIs)",
+          "73rd Constitutional Amendment Act",
+          "Gram Sabha",
+          "State Finance Commission",
+          "Devolution of Powers"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The 73rd Constitutional Amendment Act gave constitutional status to PRIs.",
+          "Committee recommends financial autonomy, capacity building, and digital integration.",
+          "Aims to improve devolution of powers from states to PRIs.",
+          "PRIs are crucial for local Sustainable Development Goals."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of democratic decentralization through Panchayati Raj Institutions in India.",
+          "Analyze the major challenges faced by PRIs in effective functioning, particularly regarding financial autonomy and devolution of powers.",
+          "Evaluate the recommendations of the expert committee and their potential to strengthen grassroots governance and rural development.",
+          "Examine the role of Gram Sabha in fostering participatory democracy and accountability at the local level."
+        ],
+        "imageDescription": "A group of villagers participating in a Gram Sabha meeting, symbolizing local democracy.",
+        "section": "National",
+        "trivia": "The 73rd Constitutional Amendment Act mandated the establishment of a three-tier Panchayati Raj system in states with a population exceeding 20 lakh.",
+        "prelimsSyllabus": {
+          "subject": "Polity & Governance",
+          "area": "Local Government",
+          "topic": "Panchayati Raj Institutions"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indus-water-treaty-dialogue",
+        "headline": "India and Pakistan Hold Annual Dialogue on Indus Waters Treaty, Addressing Technical Issues",
+        "explainer": "• Annual meeting between India and Pakistan's Indus Water Commissioners concludes, focusing on technical issues.\n• Discussions centered on the design and operation of hydroelectric projects on the western rivers.\n• Both sides reiterated commitment to the spirit and provisions of the Indus Waters Treaty (IWT).\n• Emphasized the importance of continuous dialogue for peaceful resolution of water-sharing concerns.\n• The meeting aimed to build trust and ensure smooth implementation of the landmark water-sharing agreement.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood relations",
+          "International treaties",
+          "Water resource management",
+          "Bilateral relations"
+        ],
+        "date": "2025-04-04",
+        "source": "Dawn (Pakistan) / The Hindu",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Indus Water Treaty",
+          "India-Pakistan Relations",
+          "Water Sharing",
+          "Bilateral Dialogue",
+          "Hydropower"
+        ],
+        "keyTerms": [
+          "Indus Water Treaty (IWT)",
+          "Indus Water Commissioner",
+          "Western Rivers (Indus, Jhelum, Chenab)",
+          "Eastern Rivers (Ravi, Beas, Sutlej)",
+          "Permanent Indus Commission"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Indus Waters Treaty (IWT) was signed in 1960 between India and Pakistan, brokered by World Bank.",
+          "It governs the sharing of waters of the Indus River System.",
+          "India has control over Eastern Rivers (Ravi, Beas, Sutlej), Pakistan over Western Rivers (Indus, Jhelum, Chenab).",
+          "Annual dialogue addresses technical issues and ensures treaty implementation."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the historical context and significance of the Indus Waters Treaty (IWT) for India-Pakistan relations.",
+          "Analyze the challenges and complexities in implementing the IWT, particularly concerning hydroelectric projects on western rivers.",
+          "Evaluate the role of the Permanent Indus Commission in resolving disputes and fostering cooperation between the two nations.",
+          "Examine the broader implications of water-sharing agreements for regional peace and security in South Asia."
+        ],
+        "imageDescription": "A map showing the Indus River system flowing through India and Pakistan.",
+        "section": "International",
+        "trivia": "Despite numerous conflicts, the Indus Waters Treaty is one of the few international agreements that has largely survived between India and Pakistan.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India & its Neighborhood",
+          "topic": "India-Pakistan, Water Disputes, Treaties"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "rbi-monetary-policy-april-2025",
+        "headline": "RBI Holds Repo Rate Steady Amidst Global Headwinds, Focuses on Domestic Growth",
+        "explainer": "• Reserve Bank of India's Monetary Policy Committee (MPC) maintains the key repo rate at current levels.\n• Decision reflects persistent global economic uncertainties and a cautious outlook on domestic inflation.\n• RBI reaffirms its commitment to supporting economic growth while ensuring price stability.\n• Highlights strong domestic demand but notes potential risks from geopolitical tensions and commodity prices.\n• Signals continued liquidity management measures to ensure adequate credit flow to productive sectors.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy",
+          "Monetary Policy",
+          "Inflation",
+          "Growth",
+          "RBI",
+          "Fiscal Policy"
+        ],
+        "date": "2025-04-04",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "RBI",
+          "Monetary Policy",
+          "Repo Rate",
+          "Inflation",
+          "Economic Growth",
+          "MPC"
+        ],
+        "keyTerms": [
+          "Repo Rate",
+          "Monetary Policy Committee (MPC)",
+          "Inflation Targeting",
+          "Reverse Repo Rate",
+          "Cash Reserve Ratio (CRR)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Repo Rate is the rate at which RBI lends money to commercial banks.",
+          "Monetary Policy Committee (MPC) determines the policy rates to achieve inflation target.",
+          "Current decision is to hold rates steady, indicating a focus on growth and inflation management.",
+          "Global headwinds and geopolitical tensions are key factors influencing the decision."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the challenges faced by the RBI in balancing economic growth and inflation control in the current global scenario.",
+          "Analyze the effectiveness of monetary policy tools like the repo rate in influencing economic activity in India.",
+          "Examine the interplay between fiscal and monetary policies in achieving macroeconomic stability.",
+          "Evaluate the impact of global economic uncertainties on India's financial markets and real economy."
+        ],
+        "imageDescription": "RBI logo with graphs showing steady economic indicators, symbolizing stability.",
+        "section": "Economy",
+        "trivia": "The Monetary Policy Committee (MPC) was constituted in 2016 and is mandated to meet at least four times a year.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI, Inflation, Growth"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "national-biodiversity-conservation-plan-2025",
+        "headline": "Government Launches Ambitious National Biodiversity Conservation Plan 2025-2030",
+        "explainer": "• Ministry of Environment, Forest and Climate Change unveils a five-year National Biodiversity Conservation Plan.\n• Plan focuses on protecting critical habitats, endangered species, and ecosystem restoration across India.\n• Integrates traditional knowledge with modern conservation science for effective biodiversity management.\n• Aims to enhance community participation and strengthen enforcement against wildlife crime and illegal trade.\n• Sets ambitious targets for increasing protected areas and contributing to global Sustainable Development Goals.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation",
+          "Biodiversity",
+          "Environmental impact assessment",
+          "Climate Change",
+          "Protected Areas"
+        ],
+        "date": "2025-04-04",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Biodiversity",
+          "Conservation",
+          "Environmental Policy",
+          "Wildlife Protection",
+          "Ecosystem Restoration"
+        ],
+        "keyTerms": [
+          "Biodiversity Act 2002",
+          "Convention on Biological Diversity (CBD)",
+          "Protected Areas",
+          "Endangered Species",
+          "Ecosystem Services"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The plan is for 2025-2030, focusing on habitats, species, and ecosystem restoration.",
+          "Emphasizes community participation and traditional knowledge.",
+          "Aims to combat wildlife crime and illegal trade.",
+          "Related to India's commitments under the Convention on Biological Diversity (CBD)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of biodiversity for ecological balance and human well-being, particularly in the Indian context.",
+          "Analyze the key challenges in biodiversity conservation in India and evaluate the strategies proposed in the new plan.",
+          "Examine the role of local communities and traditional knowledge in achieving effective conservation outcomes.",
+          "Assess India's efforts and commitments towards global biodiversity targets and Sustainable Development Goals."
+        ],
+        "imageDescription": "Diverse Indian wildlife and flora within a protective shield, symbolizing conservation.",
+        "section": "Environment",
+        "trivia": "India is one of the 17 mega-diverse countries in the world, hosting 7-8% of the world's recorded species.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Biodiversity",
+          "topic": "Conservation, Protected Areas"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "isro-cryogenic-propulsion-system",
+        "headline": "ISRO Successfully Tests Advanced Cryogenic Propulsion System for Future Deep Space Missions",
+        "explainer": "• Indian Space Research Organisation (ISRO) achieves a significant milestone with the successful test of a new cryogenic propulsion system.\n• The advanced engine is designed for future heavy-lift launch vehicles and complex deep space exploration missions.\n• Expected to boost India's capabilities in sending heavier payloads to geo-synchronous and lunar orbits.\n• Critical step towards India's ambitious Gaganyaan manned mission and proposed Mars Orbiter Mission-2.\n• Demonstrates India's growing self-reliance and technological prowess in cutting-edge space engineering.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Space technology",
+          "ISRO achievements",
+          "Cryogenic engines",
+          "Gaganyaan",
+          "Lunar missions"
+        ],
+        "date": "2025-04-04",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Cryogenic Engine",
+          "Space Exploration",
+          "Gaganyaan",
+          "Mars Orbiter Mission",
+          "Space Technology"
+        ],
+        "keyTerms": [
+          "Cryogenic Propulsion",
+          "ISRO",
+          "GSLV",
+          "Gaganyaan",
+          "Deep Space Mission",
+          "Liquid Hydrogen",
+          "Liquid Oxygen"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Cryogenic engines use propellants (liquid hydrogen and liquid oxygen) at extremely low temperatures.",
+          "The test is for future heavy-lift launch vehicles and deep space missions.",
+          "Significant for Gaganyaan and Mars Orbiter Mission-2.",
+          "Enhances India's capabilities in space payload capacity."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of India's space program and its contributions to national development and security.",
+          "Analyze the technological challenges and breakthroughs in developing advanced cryogenic propulsion systems.",
+          "Evaluate the future prospects of India's deep space missions, including manned missions and planetary exploration.",
+          "Examine how ISRO's advancements contribute to India's soft power and global scientific collaborations."
+        ],
+        "imageDescription": "Illustration of an ISRO rocket firing its cryogenic engine, with stars in the background.",
+        "section": "Science",
+        "trivia": "India is one of only a handful of countries in the world to have successfully developed and used cryogenic engine technology.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space Technology",
+          "topic": "ISRO, Rocketry, Missions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "national-cybersecurity-policy-2025",
+        "headline": "India Unveils Comprehensive Cybersecurity Policy 2025 to Strengthen Digital Defenses",
+        "explainer": "• Ministry of Electronics and Information Technology (MeitY) announces the National Cybersecurity Policy 2025.\n• Policy aims to create a secure and resilient cyber ecosystem, protecting critical information infrastructure.\n• Focuses on enhancing indigenous cybersecurity capabilities, R&D, and skill development in the sector.\n• Establishes a robust framework for international cooperation on cyber threats and information sharing.\n• Addresses emerging challenges like AI-driven cyberattacks, supply chain vulnerabilities, and data breaches.",
+        "category": "security, science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Cybersecurity",
+          "National Security",
+          "Digital India",
+          "Critical Information Infrastructure",
+          "Data Protection",
+          "Internal Security"
+        ],
+        "date": "2025-04-04",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Cybersecurity Policy",
+          "National Security",
+          "Digital India",
+          "Cybercrime",
+          "Data Protection",
+          "Critical Infrastructure"
+        ],
+        "keyTerms": [
+          "CERT-In",
+          "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+          "Cybercrime",
+          "Data Localization",
+          "Cyber Warfare"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Cybersecurity Policy 2025 aims to create a secure cyber ecosystem.",
+          "Focuses on critical information infrastructure protection and indigenous capabilities.",
+          "Includes provisions for international cooperation and R&D.",
+          "Addresses AI-driven cyberattacks and supply chain vulnerabilities."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolving landscape of cybersecurity threats facing India and the need for a comprehensive policy response.",
+          "Analyze the key provisions of the National Cybersecurity Policy 2025 and its potential impact on national security and digital economy.",
+          "Examine the challenges in implementing a robust cybersecurity framework, including skill gaps and international coordination.",
+          "Evaluate the role of public-private partnerships in strengthening India's cyber defenses."
+        ],
+        "imageDescription": "A digital padlock icon superimposed on a world map, symbolizing global cybersecurity.",
+        "section": "Security",
+        "trivia": "India ranks among the top countries in terms of internet users, making robust cybersecurity measures critical for its digital economy and national security.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Cybersecurity",
+          "topic": "Threats, Policies, Institutions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "national-logistics-policy-progress",
+        "headline": "National Logistics Policy Shows Positive Impact on Supply Chain Efficiency, Report Suggests",
+        "explainer": "• A government-commissioned report indicates significant progress in the implementation of the National Logistics Policy.\n• Highlights notable improvements in multimodal connectivity, reduction in logistics costs, and faster cargo movement.\n• Credits the PM Gati Shakti National Master Plan for integrated infrastructure development and synergy.\n• Notes enhanced competitiveness for Indian manufacturers and exporters in global markets.\n• Identifies areas for further improvement, including deeper technological adoption and advanced skill development in the logistics sector.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure",
+          "Logistics",
+          "Make in India",
+          "Ease of Doing Business",
+          "Economic Growth",
+          "Supply Chain Management"
+        ],
+        "date": "2025-04-04",
+        "source": "PTI",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "National Logistics Policy",
+          "PM Gati Shakti",
+          "Logistics Costs",
+          "Supply Chain",
+          "Infrastructure Development",
+          "Make in India"
+        ],
+        "keyTerms": [
+          "National Logistics Policy",
+          "PM Gati Shakti",
+          "Logistics Performance Index (LPI)",
+          "Multimodal Transport",
+          "Warehousing"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Logistics Policy aims to reduce logistics costs and improve efficiency.",
+          "PM Gati Shakti is a national master plan for multimodal connectivity.",
+          "Report indicates positive impact on cargo movement and competitiveness.",
+          "Focus areas for improvement include technology and skill development."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of an efficient logistics sector for India's economic growth and global competitiveness.",
+          "Analyze the key objectives and achievements of the National Logistics Policy and its synergy with PM Gati Shakti.",
+          "Examine the challenges faced by India's logistics sector and suggest measures for further improvement.",
+          "Evaluate how improved logistics can boost the 'Make in India' initiative and enhance export potential."
+        ],
+        "imageDescription": "A graphic showing different modes of transport (road, rail, sea, air) connected, symbolizing integrated logistics.",
+        "section": "Economy",
+        "trivia": "India aims to reduce logistics costs from the current 13-14% of GDP to a global average of 8% through policy interventions.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Infrastructure",
+          "topic": "Logistics, Government Schemes"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "report-india-manufacturing-growth",
+        "headline": "Report Highlights Robust Growth in India's Manufacturing Sector, Driven by PLI Schemes",
+        "explainer": "• A new report by a leading economic think tank indicates robust growth in India's manufacturing sector.\n• Growth is primarily attributed to the success of Production-Linked Incentive (PLI) schemes in key sectors.\n• Highlights increased foreign and domestic investment, leading to job creation and technological upgrades.\n• Notes improvements in ease of doing business and infrastructure development supporting industrial expansion.\n• Identifies challenges such as global supply chain disruptions and the need for further skill enhancement.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy",
+          "Manufacturing Sector",
+          "PLI Schemes",
+          "Industrial Policy",
+          "Make in India",
+          "Investment Models"
+        ],
+        "date": "2025-04-04",
+        "source": "FICCI",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Manufacturing",
+          "PLI Schemes",
+          "Economic Growth",
+          "Make in India",
+          "FDI",
+          "Industrial Policy"
+        ],
+        "keyTerms": [
+          "Production-Linked Incentive (PLI)",
+          "Gross Value Added (GVA)",
+          "Foreign Direct Investment (FDI)",
+          "Ease of Doing Business",
+          "Industrial Corridors"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Report highlights robust growth in India's manufacturing sector.",
+          "PLI schemes are a major driver of this growth.",
+          "Increased investment, job creation, and technological upgrades observed.",
+          "Challenges include global supply chain disruptions and skill gaps."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the manufacturing sector for India's economic development and employment generation.",
+          "Analyze the effectiveness of Production-Linked Incentive (PLI) schemes in boosting domestic manufacturing and attracting investment.",
+          "Evaluate the progress of the 'Make in India' initiative and its role in transforming India into a global manufacturing hub.",
+          "Examine the challenges and opportunities for India's manufacturing sector in the context of global supply chain shifts and technological advancements."
+        ],
+        "imageDescription": "Factory floor with modern machinery and workers, symbolizing manufacturing growth.",
+        "section": "Economy",
+        "trivia": "The PLI scheme was introduced in 2020 to boost domestic manufacturing and attract large investments in various sectors.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Industry",
+          "topic": "Manufacturing, Government Schemes"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Ministry of Electronics and IT",
+    "The Hindu",
+    "Press Information Bureau (PIB)",
+    "Ministry of External Affairs",
+    "Ministry of Environment, Forest and Climate Change",
+    "The Economic Times",
+    "Ministry of Women and Child Development",
+    "The Indian Express",
+    "PTI",
+    "The Times of India",
+    "Press Trust of India (PTI)",
+    "Business Standard",
+    "Ministry of Education",
+    "Ministry of Housing and Urban Affairs",
+    "FICCI",
+    "Dawn (Pakistan) / The Hindu",
+    "Ministry of Culture"
+  ],
+  "totalScraped": 19,
+  "totalProcessed": 19
+}

@@ -1,0 +1,2353 @@
+{
+  "date": "2025-06-03",
+  "dateFormatted": "Tuesday 3 June, 2025",
+  "lastUpdated": "2026-03-21T11:43:09.641Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "india-green-hydrogen-mission-progress",
+      "headline": "India's Green Hydrogen Mission: Path to Energy Transition Faces Implementation Hurdles",
+      "explainer": "• Government reviews progress on the ambitious National Green Hydrogen Mission, launched to make India a global hub for green hydrogen production.\n• Focus on achieving targets for production capacity, electrolyzer manufacturing, and demand creation across sectors like refining, fertilizer, and steel.\n• Challenges include high capital costs, lack of robust infrastructure for transport and storage, and securing renewable energy at competitive prices.\n• Discussion on policy incentives, R&D support, and international collaborations to accelerate adoption.\n• Mission aims to reduce fossil fuel imports, decarbonize hard-to-abate sectors, and create new economic opportunities.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Environmental pollution and degradation, environmental impact assessment",
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+      ],
+      "date": "2025-06-03",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "Energy Transition",
+        "Climate Change",
+        "Renewable Energy",
+        "Atmanirbhar Bharat"
+      ],
+      "keyTerms": [
+        "National Green Hydrogen Mission",
+        "Electrolyzer",
+        "Green Ammonia",
+        "Power-to-X",
+        "Carbon Capture Utilization and Storage (CCUS)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Green Hydrogen Mission launched in 2023.",
+        "Aims for 5 MMT (Million Metric Tonnes) green hydrogen production capacity by 2030.",
+        "Target to reduce fossil fuel imports by over INR 1 lakh crore and abate 50 MMT annual GHG emissions by 2030.",
+        "SIGHT (Strategic Interventions for Green Hydrogen Transition) Programme is a key component.",
+        "Focuses on electrolyzer manufacturing and green hydrogen production."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Opportunities**: Decarbonization of industries, energy security, export potential, job creation, technological innovation.",
+        "**Challenges**: High upfront costs, infrastructure development (pipelines, storage), water availability for electrolysis, need for supportive policy and regulatory framework, technology scaling.",
+        "**Government Initiatives**: SIGHT programme, R&D funding, demand aggregation, international partnerships.",
+        "**Way Forward**: Create a robust ecosystem, attract private investment, focus on cost reduction, skill development, and market creation."
+      ],
+      "imageDescription": "An illustration of a green hydrogen production plant with wind turbines and solar panels in the background.",
+      "section": "Lead Opinion",
+      "trivia": "Hydrogen is the most abundant chemical substance in the universe, constituting roughly 75% of all baryonic mass.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Climate Change",
+        "topic": "Energy Transition"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "supreme-court-dpdpa-review",
+      "headline": "Supreme Court to Review Petitions Challenging Digital Personal Data Protection Act",
+      "explainer": "• The Supreme Court is set to hear a batch of petitions challenging various provisions of the Digital Personal Data Protection Act (DPDPA), 2023.\n• Concerns raised include potential misuse of data, impact on freedom of speech, and the independence of the Data Protection Board.\n• Petitioners argue certain clauses may grant excessive power to the government and dilute privacy safeguards.\n• The government defends the Act as a crucial step towards safeguarding citizen's data in the digital age and aligning with global standards.\n• The outcome will significantly shape India's data governance landscape and digital rights.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Fundamental Rights"
+      ],
+      "date": "2025-06-03",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "DPDPA",
+        "Data Protection",
+        "Privacy",
+        "Supreme Court",
+        "Digital India"
+      ],
+      "keyTerms": [
+        "Digital Personal Data Protection Act",
+        "Data Fiduciary",
+        "Data Principal",
+        "Data Protection Board",
+        "Right to Privacy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "DPDPA enacted in 2023.",
+        "It replaces the IT Act, 2000 provisions related to data protection.",
+        "Establishes the Data Protection Board of India.",
+        "Defines 'personal data', 'data fiduciary', and 'data principal'.",
+        "Mandates consent for processing personal data."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Significance of DPDPA**: Landmark legislation for digital privacy, aligns with global data protection norms (e.g., GDPR), fosters trust in digital economy.",
+        "**Key Challenges/Criticisms**: Concerns over government exemptions, independence of the Data Protection Board, potential impact on media and research, 'deemed consent' provisions.",
+        "**Constitutional Aspect**: Balancing the right to privacy (Article 21) with legitimate state interests and economic development.",
+        "**Way Forward**: Supreme Court's interpretation will be crucial; need for robust implementation mechanisms and public awareness."
+      ],
+      "imageDescription": "A gavel resting on legal books with a digital data visualization in the background.",
+      "section": "National",
+      "trivia": "The 'Right to Privacy' was declared a fundamental right under Article 21 of the Indian Constitution by the Supreme Court in the landmark Puttaswamy judgment (2017).",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-monetary-policy-review-june-2025",
+      "headline": "RBI Maintains Status Quo on Repo Rate Amidst Evolving Inflation and Growth Dynamics",
+      "explainer": "• The Reserve Bank of India (RBI) Monetary Policy Committee (MPC) concluded its bi-monthly meeting, deciding to maintain the current repo rate.\n• The decision reflects a cautious approach, balancing persistent inflation concerns with the need to support economic growth momentum.\n• RBI highlights global economic uncertainties and geopolitical tensions as key risks to domestic stability.\n• Forecasts for inflation and GDP growth for the upcoming quarters were revised, indicating a watchful stance.\n• Emphasis on liquidity management and financial stability measures to ensure smooth credit flow.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Government Budgeting",
+        "Monetary policy"
+      ],
+      "date": "2025-06-03",
+      "source": "Livemint",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Repo Rate",
+        "Inflation",
+        "Economic Growth",
+        "MPC"
+      ],
+      "keyTerms": [
+        "Repo Rate",
+        "Reverse Repo Rate",
+        "Monetary Policy Committee (MPC)",
+        "Inflation Targeting",
+        "Liquidity Adjustment Facility (LAF)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Monetary Policy Committee (MPC) consists of 6 members (3 RBI, 3 GoI nominees).",
+        "MPC decides the policy repo rate to achieve the inflation target (currently 4% +/- 2%).",
+        "Repo rate is the rate at which RBI lends money to commercial banks.",
+        "Inflation is primarily measured by the Consumer Price Index (CPI).",
+        "RBI uses various tools like OMOs, CRR, SLR for liquidity management."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Role of RBI/MPC**: Maintaining price stability while keeping in mind the objective of growth.",
+        "**Current Economic Scenario**: Balancing high food inflation, global commodity price volatility, and robust domestic demand.",
+        "**Impact of Policy**: Affects borrowing costs for businesses and consumers, influencing investment and consumption patterns.",
+        "**Challenges**: Supply-side inflation, global spillovers, climate-related shocks impacting agriculture.",
+        "**Forward Guidance**: Importance of credible communication and data-driven decisions for market stability."
+      ],
+      "imageDescription": "RBI emblem over a graph showing economic indicators.",
+      "section": "Economy",
+      "trivia": "The Reserve Bank of India was established on April 1, 1935, in accordance with the provisions of the Reserve Bank of India Act, 1934.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI Functions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-asean-strategic-partnership",
+      "headline": "India-ASEAN Summit Concludes, Pledges Deeper Strategic Partnership and Economic Ties",
+      "explainer": "• The annual India-ASEAN Summit concluded with leaders reaffirming commitment to elevate their strategic partnership.\n• Key discussions focused on enhancing connectivity (physical, digital, people-to-people), boosting trade and investment, and cooperation in maritime security.\n• Agreements signed on digital economy integration, sustainable development, and disaster management.\n• India reiterated its 'Act East' policy and its vision for a free, open, and inclusive Indo-Pacific.\n• The summit addressed regional security challenges and the importance of multilateralism.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighbourhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2025-06-03",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "India-ASEAN",
+        "Act East Policy",
+        "Indo-Pacific",
+        "Regional Cooperation",
+        "Trade"
+      ],
+      "keyTerms": [
+        "ASEAN",
+        "Act East Policy",
+        "Indo-Pacific",
+        "Free Trade Agreement (FTA)",
+        "Connectivity Initiatives"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ASEAN (Association of Southeast Asian Nations) comprises 10 member states.",
+        "India became a Sectoral Dialogue Partner of ASEAN in 1992, a Dialogue Partner in 1996, and a Summit-level Partner in 2002.",
+        "Strategic Partnership established in 2012, elevated to Comprehensive Strategic Partnership in 2022.",
+        "India's Act East Policy is a successor to the Look East Policy.",
+        "Key pillars of cooperation include political-security, economic, and socio-cultural."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Significance of ASEAN for India**: Gateway to Southeast Asia, economic opportunities, strategic balance in Indo-Pacific, cultural linkages, counter-terrorism cooperation.",
+        "**Challenges**: China's growing influence, non-tariff barriers, slow progress on some connectivity projects, maritime disputes in South China Sea.",
+        "**India's Contribution**: SAGAR initiative, development assistance, capacity building, promoting rules-based international order, vaccine diplomacy.",
+        "**Way Forward**: Enhance trade and investment, accelerate connectivity projects, deepen maritime security cooperation, foster greater people-to-people exchanges."
+      ],
+      "imageDescription": "Flags of India and ASEAN member states.",
+      "section": "International",
+      "trivia": "The ASEAN Secretariat is located in Jakarta, Indonesia.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Regional Groupings",
+        "topic": "India-ASEAN Relations"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-cybersecurity-framework-update",
+      "headline": "Government Unveils Updated Cybersecurity Framework to Combat Evolving Digital Threats",
+      "explainer": "• The Ministry of Electronics and Information Technology (MeitY) has released an updated National Cybersecurity Strategy.\n• The framework focuses on proactive threat intelligence, critical infrastructure protection, and enhancing cyber resilience across all sectors.\n• Key initiatives include strengthening CERT-In's capabilities, promoting indigenous cybersecurity solutions, and fostering public-private partnerships.\n• Emphasis on skill development and creating a robust talent pool to address the growing demand for cybersecurity professionals.\n• The update comes amidst rising global cyberattacks and the need to secure India's rapidly expanding digital economy.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security",
+        "Money-laundering and its prevention"
+      ],
+      "date": "2025-06-03",
+      "source": "PTI",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Cybersecurity",
+        "National Cybersecurity Strategy",
+        "Digital Security",
+        "Critical Infrastructure",
+        "CERT-In"
+      ],
+      "keyTerms": [
+        "Cyber Warfare",
+        "Phishing",
+        "Ransomware",
+        "Critical Information Infrastructure (CII)",
+        "Cyber Diplomacy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "CERT-In (Indian Computer Emergency Response Team) is the national agency for responding to computer security incidents.",
+        "National Cybersecurity Policy was launched in 2013.",
+        "Critical Information Infrastructure (CII) is defined under the IT Act, 2000.",
+        "The National Cyber Coordination Centre (NCCC) screens internet traffic and coordinates responses.",
+        "Cyber Swachhta Kendra (Botnet Cleaning and Malware Analysis Centre) is a government initiative."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Importance of Cybersecurity**: Safeguarding national security, economic stability, individual privacy, and critical infrastructure (power grids, banking, telecommunications).",
+        "**Challenges**: Rapid technological advancements (AI, IoT), sophisticated state-sponsored attacks, shortage of skilled professionals, cross-border nature of cybercrime, data localization issues.",
+        "**Government Initiatives**: CERT-In, NCCC, Cyber Swachhta Kendra, National Critical Information Infrastructure Protection Centre (NCIIPC), international cooperation.",
+        "**Way Forward**: Proactive threat intelligence, public-private collaboration, robust legal framework, capacity building, awareness campaigns, fostering indigenous technology."
+      ],
+      "imageDescription": "A digital padlock icon overlaying a network of interconnected nodes.",
+      "section": "National",
+      "trivia": "The first computer virus, 'Elk Cloner,' appeared in 1982, targeting Apple II systems.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "Cyber Security",
+        "topic": "Cybercrime"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "wetlands-conservation-initiatives",
+      "headline": "India Intensifies Wetlands Conservation Efforts, Focus on Ecological Restoration and Community Participation",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change announces new initiatives to strengthen wetlands conservation across the country.\n• Emphasis on the 'Save Wetlands Campaign' and integrating local communities in restoration and management activities.\n• Focus on preventing further degradation of Ramsar Sites and identifying new wetlands for protection under national programs.\n• Initiatives include scientific assessment of wetland health, combating pollution, and promoting sustainable livelihood options for wetland-dependent communities.\n• Wetlands are crucial for biodiversity, water purification, flood control, and climate change mitigation.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Biodiversity"
+      ],
+      "date": "2025-06-03",
+      "source": "Indian Express",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Wetlands",
+        "Ramsar Sites",
+        "Conservation",
+        "Biodiversity",
+        "Ecosystem Services"
+      ],
+      "keyTerms": [
+        "Ramsar Convention",
+        "Wetlands (Conservation and Management) Rules",
+        "Ecological Restoration",
+        "Ecosystem Services",
+        "Montreux Record"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India is a signatory to the Ramsar Convention on Wetlands (1971).",
+        "As of early 2025, India has a significant number of Ramsar Sites.",
+        "Wetlands are defined as areas of marsh, fen, peatland or water, whether natural or artificial, permanent or temporary, with water that is static or flowing, fresh, brackish or salt, including areas of marine water the depth of which at low tide does not exceed six metres.",
+        "Montreux Record is a register of Ramsar sites where changes in ecological character have occurred, are occurring, or are likely to occur.",
+        "Wetlands provide various ecosystem services like water purification, flood control, and carbon sequestration."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Significance of Wetlands**: Biodiversity hotspots, natural flood buffers, groundwater recharge, climate regulation, livelihood support for local communities.",
+        "**Threats to Wetlands**: Urbanization, agricultural encroachment, pollution (industrial, domestic), invasive species, climate change (sea-level rise, altered rainfall patterns).",
+        "**Government Initiatives**: National Plan for Conservation of Aquatic Ecosystems (NPCA), Wetlands (Conservation and Management) Rules, 2017/2019, 'Save Wetlands Campaign'.",
+        "**Way Forward**: Integrated management plans, community participation, scientific monitoring, strict enforcement of regulations, promoting sustainable tourism and livelihoods."
+      ],
+      "imageDescription": "A serene wetland landscape with migratory birds and lush vegetation.",
+      "section": "Environment",
+      "trivia": "World Wetlands Day is celebrated annually on February 2nd, marking the date of the adoption of the Convention on Wetlands in Ramsar, Iran, in 1971.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Biodiversity",
+        "topic": "Wetlands"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "isro-future-lunar-exploration",
+      "headline": "ISRO Outlines Future Lunar Exploration Plans Beyond Chandrayaan-3 Success",
+      "explainer": "• Following the resounding success of Chandrayaan-3, ISRO announces its roadmap for advanced lunar missions.\n• Plans include a joint Indo-Japanese Lunar Polar Exploration (LUPEX) mission focusing on the Moon's permanently shadowed regions for water ice.\n• Future missions aim for enhanced scientific payloads, longer mission durations, and potential sample return capabilities.\n• Emphasis on developing advanced robotics, in-situ resource utilization (ISRU) technologies, and international collaborations.\n• India seeks to play a leading role in global lunar exploration, contributing to understanding the Moon's evolution and resources.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+        "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights."
+      ],
+      "date": "2025-06-03",
+      "source": "ISRO",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Lunar Exploration",
+        "Chandrayaan",
+        "Space Mission",
+        "LUPEX"
+      ],
+      "keyTerms": [
+        "Chandrayaan-3",
+        "LUPEX",
+        "Lunar Polar Exploration",
+        "In-Situ Resource Utilization (ISRU)",
+        "Permanently Shadowed Regions (PSRs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Chandrayaan-3 successfully soft-landed on the Moon's south pole region in August 2023.",
+        "LUPEX (Lunar Polar Exploration Mission) is a joint mission between ISRO and JAXA (Japan Aerospace Exploration Agency).",
+        "LUPEX aims to explore the Moon's polar regions for water-ice and assess lunar surface resources.",
+        "Vikram Lander and Pragyan Rover were key components of Chandrayaan-3.",
+        "India became the fourth country to achieve a soft landing on the Moon."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Significance of Lunar Exploration**: Scientific understanding of Moon's origin and evolution, potential for lunar resources (water ice), technological advancements, inspiration for STEM education, national prestige.",
+        "**India's Capabilities**: Demonstrated expertise in cost-effective space missions, indigenous development of launch vehicles and spacecraft, growing international collaborations.",
+        "**Future Challenges**: Developing advanced robotics for extreme environments, securing funding for ambitious projects, managing international partnerships, protecting lunar heritage sites.",
+        "**Way Forward**: Focus on sustainable lunar presence, developing human spaceflight capabilities (Gaganyaan), contribution to global space governance, leveraging private sector participation."
+      ],
+      "imageDescription": "An artistic rendering of a lunar rover exploring a crater on the Moon's surface.",
+      "section": "Science",
+      "trivia": "The Moon is gradually moving away from Earth at a rate of about 3.8 centimeters per year.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space",
+        "topic": "Indian Space Missions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "national-health-mission-rural-healthcare",
+      "headline": "National Health Mission Reinforces Rural Healthcare Infrastructure and Access",
+      "explainer": "• The Ministry of Health and Family Welfare reviews the progress of the National Health Mission (NHM) with a renewed focus on rural healthcare.\n• Initiatives aim to strengthen Primary Health Centres (PHCs) and Community Health Centres (CHCs) with better equipment, staffing, and digital health solutions.\n• Emphasis on maternal and child health programs, disease surveillance, and increasing accessibility to essential medicines.\n• Aims to address healthcare disparities between urban and rural areas, particularly in remote regions.\n• The mission leverages technology for teleconsultations and health data management.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes"
+      ],
+      "date": "2025-06-03",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "National Health Mission",
+        "Rural Healthcare",
+        "Public Health",
+        "Maternal and Child Health",
+        "Digital Health"
+      ],
+      "keyTerms": [
+        "National Health Mission (NHM)",
+        "Ayushman Bharat",
+        "Primary Health Centre (PHC)",
+        "Community Health Centre (CHC)",
+        "Janani Shishu Suraksha Karyakram (JSSK)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NHM comprises the National Rural Health Mission (NRHM) and National Urban Health Mission (NUHM).",
+        "Launched in 2013, building upon NRHM (2005).",
+        "Focuses on strengthening health systems, RMNCH+A (Reproductive, Maternal, Newborn, Child Health + Adolescent Health) services, and communicable/non-communicable diseases.",
+        "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (PMJAY) provides health insurance coverage.",
+        "Ayushman Bharat Health and Wellness Centres (AB-HWCs) are a key component of primary healthcare."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Challenges in Rural Healthcare**: Shortage of doctors and specialists, inadequate infrastructure, lack of access to specialized care, high out-of-pocket expenditure, low awareness.",
+        "**NHM's Role**: Significant improvements in infant mortality rate (IMR) and maternal mortality ratio (MMR), enhanced disease surveillance, increased institutional deliveries.",
+        "**Impact of Digital Health**: Telemedicine bridging gaps, efficient health records, data-driven policy making, but challenges of digital literacy and infrastructure remain.",
+        "**Way Forward**: Increased public spending on health, strengthening public-private partnerships, leveraging technology, focus on preventive healthcare, addressing social determinants of health."
+      ],
+      "imageDescription": "A rural health worker interacting with villagers in a remote area.",
+      "section": "National",
+      "trivia": "India aims to increase public health expenditure to 2.5% of GDP by 2025.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Health",
+        "topic": "Government Health Initiatives"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "pli-scheme-expansion-new-sectors",
+      "headline": "PLI Scheme Expanded to Include New Strategic Sectors, Boosting Domestic Manufacturing",
+      "explainer": "• The government announces the extension of the Production Linked Incentive (PLI) scheme to several new strategic sectors.\n• The expansion aims to further boost domestic manufacturing, attract foreign investment, and reduce import dependency.\n• New sectors identified include advanced chemicals, specialized textiles, and emerging electronics components.\n• The scheme provides incentives on incremental sales from products manufactured in India, encouraging economies of scale.\n• Expected to create millions of jobs and enhance India's position in global supply chains.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth"
+      ],
+      "date": "2025-06-03",
+      "source": "Ministry of Commerce & Industry",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "PLI Scheme",
+        "Make in India",
+        "Manufacturing",
+        "Economic Growth",
+        "Foreign Investment"
+      ],
+      "keyTerms": [
+        "Production Linked Incentive (PLI)",
+        "Atmanirbhar Bharat",
+        "Global Supply Chains",
+        "Ease of Doing Business",
+        "Foreign Direct Investment (FDI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "PLI scheme was launched in March 2020 for three sectors initially.",
+        "Expanded to 14 key sectors by late 2020/early 2021.",
+        "Aims to make Indian manufacturers globally competitive.",
+        "Provides incentives ranging from 4% to 6% on incremental sales over base year.",
+        "Key sectors include automobiles, pharmaceuticals, electronics, textiles, food products, solar PV modules."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Objectives of PLI**: Boost domestic manufacturing, create employment, reduce import bills, integrate India into global value chains, achieve economies of scale.",
+        "**Impact on Economy**: Increased investment, technological upgradation, export growth, diversification of manufacturing base.",
+        "**Challenges**: Ensuring fair competition, avoiding market distortion, effective monitoring of performance, managing fiscal implications of incentives.",
+        "**Way Forward**: Continuous review and adaptation of the scheme, focus on R&D, skill development, and creating a conducive business environment beyond incentives."
+      ],
+      "imageDescription": "An industrial factory setting with 'Make in India' logo.",
+      "section": "Economy",
+      "trivia": "India's manufacturing sector aims to contribute 25% of the GDP by 2025.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Industrial Policy",
+        "topic": "Government Schemes"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-unsc-reform-discussions",
+      "headline": "India Reiterates Call for Comprehensive UN Security Council Reforms",
+      "explainer": "• India once again presses for urgent reforms of the United Nations Security Council (UNSC) at a high-level international forum.\n• Emphasizes the need for an expanded and more representative Security Council that reflects contemporary global realities.\n• Calls for an increase in both permanent and non-permanent seats, with India advocating for its own permanent membership.\n• Highlights the outdated structure of the UNSC, which dates back to post-World War II era, failing to address current geopolitical challenges effectively.\n• Support from various nations for India's candidature and the broader reform agenda is noted.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate."
+      ],
+      "date": "2025-06-03",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "UNSC Reform",
+        "United Nations",
+        "Multilateralism",
+        "India UN",
+        "Global Governance"
+      ],
+      "keyTerms": [
+        "United Nations Security Council (UNSC)",
+        "Permanent Members (P5)",
+        "Non-Permanent Members",
+        "G4 Nations",
+        "Uniting for Consensus (UfC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "UNSC has 15 members: 5 permanent (P5 - China, France, Russia, UK, US) and 10 non-permanent.",
+        "Non-permanent members are elected for two-year terms by the General Assembly.",
+        "P5 members hold veto power.",
+        "India has served multiple terms as a non-permanent member.",
+        "G4 nations (India, Brazil, Germany, Japan) mutually support each other's bids for permanent seats."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Arguments for Reform**: Undemocratic structure, lack of representation for developing countries, outdated power dynamics, inability to address current conflicts effectively, increased global challenges.",
+        "**India's Case for Permanent Membership**: Large population, growing economy, democratic values, significant contributions to UN peacekeeping, responsible nuclear power, geopolitical importance.",
+        "**Challenges to Reform**: Resistance from P5 members (especially regarding veto power), 'Uniting for Consensus' group opposing G4 proposals, complex amendment process requiring 2/3rd UNGA vote and P5 ratification.",
+        "**Implications of Reform**: More legitimate and effective UN, better global governance, enhanced role for emerging powers, addressing new threats like climate change and pandemics."
+      ],
+      "imageDescription": "The United Nations building in New York with flags of member states.",
+      "section": "International",
+      "trivia": "The UN Security Council held its first session on January 17, 1946, in London.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Institutions",
+        "topic": "United Nations"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "delimitation-exercise-debates",
+      "headline": "Debates Intensify Over Proposed Delimitation Exercise and its Federal Implications",
+      "explainer": "• Discussions escalate regarding the upcoming delimitation exercise, anticipated to redraw parliamentary and assembly constituencies.\n• Concerns raised by Southern states about potential reduction in their political representation due to successful population control measures.\n• Northern states, with higher population growth, are expected to gain more seats, potentially altering the federal balance of power.\n• The exercise aims to ensure electoral constituencies are broadly equal in population, but the base year for population data is a contentious issue.\n• The process has significant implications for resource allocation and political influence of states.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure"
+      ],
+      "date": "2025-06-03",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Delimitation",
+        "Federalism",
+        "Political Representation",
+        "Population Control",
+        "Electoral Reforms"
+      ],
+      "keyTerms": [
+        "Delimitation Commission",
+        "Article 82",
+        "Article 170",
+        "Population Census",
+        "Political Representation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Delimitation is the act of redrawing boundaries of Lok Sabha and state assembly constituencies.",
+        "The Delimitation Commission is appointed by the President of India and works in collaboration with the Election Commission.",
+        "Article 82 of the Constitution provides for readjustment after every census.",
+        "Last nationwide delimitation exercise was completed in 2002-2008 based on 2001 census.",
+        "A constitutional amendment in 2002 froze the number of Lok Sabha seats based on the 1971 census until 2026."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Rationale for Delimitation**: To ensure 'one vote, one value' by adjusting constituency boundaries to reflect population changes, thus ensuring fair representation.",
+        "**Federalism Concerns**: Southern states fear penalization for effective population control, leading to reduced political voice and potentially less share in central funds (linked to population).",
+        "**Impact on Political Landscape**: Shifts in power balance between states, potential for increased regionalism, implications for national parties' strategies.",
+        "**Possible Solutions/Recommendations**: Decoupling political representation from population for some aspects, alternative models of financial devolution, compensatory mechanisms for states with lower population growth.",
+        "**Way Forward**: Need for transparent process, consensus-building, and addressing concerns about equitable representation without undermining federal principles."
+      ],
+      "imageDescription": "A map of India with constituency boundaries being redrawn.",
+      "section": "National",
+      "trivia": "The first Delimitation Commission in India was constituted in 1952.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Federalism",
+        "topic": "Electoral System"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "himalayan-ecosystem-protection",
+      "headline": "Climate Change and Tourism Threaten Himalayan Ecosystem, Urgent Protection Measures Needed",
+      "explainer": "• A new report highlights the escalating threats to the fragile Himalayan ecosystem from climate change and unsustainable tourism.\n• Glacier retreat, extreme weather events, and biodiversity loss are accelerating, impacting millions dependent on Himalayan rivers.\n• Unregulated construction, waste generation, and increased human footprint from tourism are exacerbating ecological damage.\n• Calls for integrated management plans, sustainable tourism policies, and enhanced climate adaptation strategies.\n• The report emphasizes the Himalayas' role as a global biodiversity hotspot and water tower for Asia.",
+      "category": "environment",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes.",
+        "Conservation, environmental pollution and degradation, environmental impact assessment"
+      ],
+      "date": "2025-06-03",
+      "source": "Down To Earth",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Himalayan Ecosystem",
+        "Climate Change",
+        "Sustainable Tourism",
+        "Glacier Melt",
+        "Biodiversity"
+      ],
+      "keyTerms": [
+        "Himalayan Ecosystem",
+        "Glacier Retreat",
+        "Climate Adaptation",
+        "Sustainable Tourism",
+        "Biodiversity Hotspot",
+        "Ecosystem Services"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Himalayas are the source of major rivers like the Indus, Ganges, and Brahmaputra.",
+        "They are considered a global biodiversity hotspot.",
+        "Glacier melt contributes to sea-level rise and impacts downstream water security.",
+        "The 'Third Pole' refers to the high-mountain Asia region, including the Himalayas, due to its vast ice reserves.",
+        "The Indian Himalayan Region (IHR) covers parts of 13 states/UTs."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Importance of Himalayas**: Water security for billions, rich biodiversity, cultural significance, climate regulation, natural barrier.",
+        "**Threats**: Rapid glacier melt, increased frequency of extreme weather (flash floods, landslides), unscientific infrastructure development, plastic pollution from tourism, deforestation, species extinction.",
+        "**Impacts**: Water scarcity, agricultural disruption, displacement of communities, increased disaster risk, loss of unique flora and fauna.",
+        "**Solutions**: Integrated water resource management, promotion of eco-tourism, strict building codes, waste management, climate-resilient infrastructure, transboundary cooperation, scientific research and monitoring."
+      ],
+      "imageDescription": "A majestic view of snow-capped Himalayan peaks with a pristine river flowing through a valley.",
+      "section": "Environment",
+      "trivia": "Mount Everest, the world's highest peak, is part of the Himalayan range.",
+      "prelimsSyllabus": {
+        "subject": "Geography",
+        "area": "Physical Geography",
+        "topic": "Himalayan Region"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "ai-governance-framework-india",
+      "headline": "India Initiates Consultations for a Comprehensive AI Governance Framework",
+      "explainer": "• The Ministry of Electronics and Information Technology (MeitY) has begun multi-stakeholder consultations to develop India's Artificial Intelligence (AI) governance framework.\n• The framework aims to ensure responsible and ethical development and deployment of AI technologies across various sectors.\n• Focus areas include data privacy, algorithmic bias, accountability, transparency, and the socio-economic impact of AI.\n• India seeks to balance innovation with regulatory oversight, positioning itself as a leader in AI ethics and applications.\n• The initiative is part of India's broader vision for 'AI for All' and leveraging AI for inclusive growth.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights.",
+        "Science and Technology- developments and their applications and effects in everyday life."
+      ],
+      "date": "2025-06-03",
+      "source": "ETTech",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "AI Governance",
+        "Artificial Intelligence",
+        "AI Ethics",
+        "Digital Policy",
+        "Responsible AI"
+      ],
+      "keyTerms": [
+        "Artificial Intelligence (AI)",
+        "Algorithmic Bias",
+        "Data Privacy",
+        "Accountability",
+        "AI for All",
+        "Generative AI"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NITI Aayog released a National Strategy for Artificial Intelligence in 2018.",
+        "India is a founding member of the Global Partnership on Artificial Intelligence (GPAI).",
+        "AI applications are being explored in healthcare, agriculture, education, and smart cities.",
+        "The framework will likely address issues like explainable AI (XAI) and fairness.",
+        "MeitY is the nodal ministry for IT and electronics policy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Opportunities of AI**: Economic growth, innovation, efficiency in public services, personalized education, advanced healthcare diagnostics, climate modeling.",
+        "**Challenges of AI**: Job displacement, algorithmic bias and discrimination, privacy concerns, cybersecurity risks, ethical dilemmas, autonomous weapons, digital divide.",
+        "**Need for Governance**: To build public trust, mitigate risks, ensure equitable access, prevent misuse, and foster responsible innovation.",
+        "**Key Principles of AI Governance**: Transparency, fairness, accountability, privacy protection, safety and security, human oversight.",
+        "**Way Forward**: Collaborative approach involving government, industry, academia, and civil society; agile regulatory framework; international cooperation on AI standards; public education."
+      ],
+      "imageDescription": "A stylized human brain connected to a network of digital data, symbolizing AI.",
+      "section": "Science",
+      "trivia": "The term 'Artificial Intelligence' was coined by John McCarthy in 1956.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "IT & Computers",
+        "topic": "Artificial Intelligence"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "agricultural-reforms-crop-diversification",
+      "headline": "Government Pushes for Crop Diversification and Market Access in New Agricultural Reforms",
+      "explainer": "• The Ministry of Agriculture and Farmers Welfare rolls out new policy measures to encourage crop diversification away from water-intensive crops.\n• Focus on promoting cultivation of millets, pulses, oilseeds, and high-value horticultural crops to enhance farmer incomes and address nutritional security.\n• Initiatives include strengthening Farmer Producer Organizations (FPOs), improving market linkages, and providing technical support for new farming practices.\n• Reforms aim to make agriculture more sustainable, climate-resilient, and market-oriented.\n• Subsidies and incentives are being reviewed to align with diversification goals.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Major crops-cropping patterns in various parts of the country, different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers",
+        "Issues related to direct and indirect farm subsidies and minimum support prices; Public Distribution System- objectives, functioning, limitations, revamping; issues of buffer stocks and food security; Technology missions; economics of animal-rearing."
+      ],
+      "date": "2025-06-03",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Agriculture",
+        "Crop Diversification",
+        "MSP",
+        "Food Security",
+        "Farmer Income",
+        "FPO"
+      ],
+      "keyTerms": [
+        "Crop Diversification",
+        "Minimum Support Price (MSP)",
+        "Farmer Producer Organizations (FPOs)",
+        "National Food Security Mission",
+        "Climate-Resilient Agriculture"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "MSP is announced for 22 mandated crops and Sugarcane (Fair and Remunerative Price).",
+        "Millets (e.g., Jowar, Bajra, Ragi) are coarse grains known for nutritional value and drought resistance.",
+        "FPOs are groups of farmers who come together to collectively procure inputs, access technology, and market their produce.",
+        "India is observing the International Year of Millets (2023) to promote millet cultivation and consumption.",
+        "The National Mission on Edible Oils – Oil Palm (NMEO-OP) aims to boost domestic oilseed production."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Need for Diversification**: Addressing water scarcity, improving soil health, enhancing farmer resilience to market fluctuations, nutritional security, reducing import dependency (e.g., edible oils).",
+        "**Challenges**: Farmers' reliance on MSP for traditional crops (e.g., paddy, wheat), lack of assured market for diversified crops, inadequate infrastructure for processing and storage, limited awareness.",
+        "**Government Initiatives**: Promotion of FPOs, e-NAM platform, PM-KISAN, crop insurance schemes, National Food Security Mission, subsidies for irrigation and farm mechanization.",
+        "**Way Forward**: Realigning MSP and procurement policies to incentivize diversification, investing in agricultural research and extension services, strengthening value chains, promoting climate-smart agriculture, and farmer education."
+      ],
+      "imageDescription": "A farmer inspecting a field of diverse crops.",
+      "section": "Economy",
+      "trivia": "India is the world's largest producer of milk, pulses, and jute, and the second-largest producer of rice, wheat, sugarcane, groundnut, fruits, and vegetables.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Agriculture",
+        "topic": "Agricultural Policies"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "skill-india-mission-3.0-workforce",
+      "headline": "Skill India Mission 3.0 Launched to Align Workforce with Future Industry Demands",
+      "explainer": "• The Ministry of Skill Development and Entrepreneurship unveils Skill India Mission 3.0, focusing on future-ready skills and industry alignment.\n• The revamped mission aims to bridge the skill gap in emerging sectors like AI, robotics, green jobs, and advanced manufacturing.\n• Emphasis on demand-driven skilling, apprenticeship training, and recognition of prior learning (RPL) to enhance employability.\n• Collaborations with industry partners and educational institutions are central to developing relevant curricula and training infrastructure.\n• Aims to empower India's youth with competitive skills, fostering entrepreneurship and contributing to economic growth.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes"
+      ],
+      "date": "2025-06-03",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Skill India",
+        "Skill Development",
+        "Youth Employment",
+        "Future Skills",
+        "Entrepreneurship"
+      ],
+      "keyTerms": [
+        "Skill India Mission",
+        "National Skill Development Corporation (NSDC)",
+        "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+        "Apprenticeship",
+        "Recognition of Prior Learning (RPL)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Skill India Mission was launched in 2015.",
+        "NSDC (National Skill Development Corporation) is a not-for-profit public limited company under the Ministry of Skill Development & Entrepreneurship.",
+        "PMKVY is the flagship scheme of the Ministry of Skill Development & Entrepreneurship.",
+        "RPL assesses and certifies existing skills of individuals acquired informally.",
+        "The mission aims to create a skilled workforce for 'Make in India' and 'Atmanirbhar Bharat'."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Importance of Skill Development**: Addressing unemployment, increasing productivity, fostering innovation, demographic dividend utilization, reducing income inequality.",
+        "**Challenges in Skilling Sector**: Mismatch between skills imparted and industry demand, low quality of training, lack of aspirational value for vocational training, informal sector dominance, digital divide.",
+        "**Key Features of Skill India 3.0**: Focus on emerging technologies, industry-led curriculum design, digital skilling platforms, emphasis on apprenticeships, international benchmarking.",
+        "**Way Forward**: Strengthening public-private partnerships, leveraging technology for scalable training, promoting lifelong learning, integrating vocational training with mainstream education, creating a robust ecosystem for entrepreneurship."
+      ],
+      "imageDescription": "A group of young people learning vocational skills in a modern training center.",
+      "section": "National",
+      "trivia": "India has the world's largest youth population, with over 65% of its population under 35 years of age.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Human Resource Development",
+        "topic": "Skill Development Schemes"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "revitalization-traditional-indian-crafts",
+      "headline": "Government Boosts Initiatives for Revitalization of Traditional Indian Crafts and Artisans",
+      "explainer": "• The Ministry of Textiles and Ministry of Culture announce enhanced support for traditional Indian crafts and artisan communities.\n• New schemes focus on market linkages, design intervention, technological upgrades, and intellectual property protection for indigenous crafts.\n• Aims to preserve India's rich cultural heritage while boosting the economic viability of traditional artisan clusters.\n• Emphasis on promoting 'GI-tagged' products and leveraging e-commerce platforms for wider global reach.\n• The initiative seeks to empower artisans, especially women, and ensure the intergenerational transfer of traditional skills.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Role of women and women’s organization, population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies."
+      ],
+      "date": "2025-06-03",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Indian Crafts",
+        "Artisans",
+        "Cultural Heritage",
+        "GI Tag",
+        "Handloom",
+        "Skill Development"
+      ],
+      "keyTerms": [
+        "Geographical Indication (GI) Tag",
+        "Handloom Sector",
+        "Handicrafts",
+        "Artisan Clusters",
+        "Intellectual Property Rights (IPR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "GI Tag is a sign used on products that have a specific geographical origin and possess qualities or a reputation due to that origin.",
+        "Examples of GI-tagged Indian crafts include Kanchipuram Silk, Pashmina, Blue Pottery of Jaipur, etc.",
+        "The Development Commissioner (Handicrafts) and Development Commissioner (Handlooms) are key bodies.",
+        "The Ministry of Textiles is the nodal ministry for promoting handicrafts and handlooms.",
+        "Schemes like 'Ambedkar Hastshilp Vikas Yojana' and 'National Handloom Development Programme' support artisans."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Significance of Traditional Crafts**: Preservation of cultural identity, livelihood for millions (especially rural women), promotion of sustainable practices, potential for export earnings, tourism attraction.",
+        "**Challenges**: Competition from mass-produced goods, lack of market access, exploitation by middlemen, dwindling raw material supply, inadequate design innovation, lack of IPR protection, low wages.",
+        "**Government Initiatives**: GI tagging, e-commerce integration (e.g., India Handloom Brand), design studios, skill upgradation, financial assistance, artisan cards, promotion through exhibitions.",
+        "**Way Forward**: Holistic approach combining preservation with commercial viability, empowering artisan collectives, fostering design innovation, strengthening value chains, promoting ethical sourcing, and creating global brand recognition for Indian crafts."
+      ],
+      "imageDescription": "An artisan meticulously weaving a traditional textile on a handloom.",
+      "section": "National",
+      "trivia": "The 'Kumbh Mela' is recognized by UNESCO as an Intangible Cultural Heritage of Humanity.",
+      "prelimsSyllabus": {
+        "subject": "Art & Culture",
+        "area": "Indian Crafts",
+        "topic": "Traditional Arts"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indus-water-treaty-dialogue",
+      "headline": "India-Pakistan Hold Talks on Indus Water Treaty: Focus on Technical Issues and Future Projects",
+      "explainer": "• Delegations from India and Pakistan met for the annual Permanent Indus Commission (PIC) meeting to discuss issues related to the Indus Water Treaty (IWT).\n• Discussions primarily focused on technical aspects of various hydroelectric projects being built by both sides on the Indus system of rivers.\n• Both nations reiterated their commitment to the treaty, despite ongoing geopolitical tensions.\n• Key agenda items included data exchange on water flows and flood forecasts, and resolving minor technical disputes.\n• The IWT is considered one of the most successful water-sharing agreements globally.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighbourhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests"
+      ],
+      "date": "2025-06-03",
+      "source": "ANI",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Indus Water Treaty",
+        "India-Pakistan",
+        "Water Diplomacy",
+        "Bilateral Relations",
+        "Hydroelectric Projects"
+      ],
+      "keyTerms": [
+        "Indus Water Treaty (IWT)",
+        "Permanent Indus Commission (PIC)",
+        "Eastern Rivers",
+        "Western Rivers",
+        "Run-of-the-River Project"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Indus Water Treaty was signed in 1960, brokered by the World Bank.",
+        "It allocates the waters of the Eastern Rivers (Ravi, Beas, Sutlej) to India.",
+        "It allocates the waters of the Western Rivers (Indus, Jhelum, Chenab) to Pakistan.",
+        "India is allowed to use Western River waters for limited domestic, non-consumptive, and run-of-the-river power generation purposes.",
+        "The Permanent Indus Commission comprises a Commissioner for Indus Waters from each country."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Significance of IWT**: One of the most enduring water treaties globally, a testament to cooperation despite political hostilities, crucial for water security in both nations.",
+        "**Challenges**: Technical disputes over design of hydroelectric projects, climate change impacting river flows, geopolitical tensions affecting cooperation, need for modernization of treaty provisions.",
+        "**India's Rights and Obligations**: Utilizing its share of Eastern Rivers, limited usage on Western Rivers, adherence to treaty provisions for project construction.",
+        "**Way Forward**: Continued dialogue through PIC, transparent data sharing, scientific assessment of climate impacts, exploring joint projects for mutual benefit, upholding the spirit of the treaty."
+      ],
+      "imageDescription": "A map showing the Indus River system.",
+      "section": "International",
+      "trivia": "The Indus Water Treaty is often cited as an example of successful water diplomacy, having survived several wars and conflicts between India and Pakistan.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India-Pakistan"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "e-waste-management-rules-update",
+      "headline": "New E-Waste Management Rules Aim to Enhance Circular Economy and Producer Responsibility",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change introduces updated E-Waste Management Rules to improve collection and recycling.\n• The revised rules strengthen the Extended Producer Responsibility (EPR) framework, mandating higher collection targets for manufacturers.\n• Focus on promoting formal recycling sector, discouraging informal handling, and ensuring environmentally sound management of e-waste.\n• Introduces a new system of 'EPR Certificates' and trading mechanisms to incentivize compliance and efficient recycling.\n• Aims to reduce environmental pollution from e-waste and recover valuable materials for the circular economy.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Solid Waste Management",
+        "Circular Economy"
+      ],
+      "date": "2025-06-03",
+      "source": "Down To Earth",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "E-Waste",
+        "Waste Management",
+        "EPR",
+        "Circular Economy",
+        "Pollution Control"
+      ],
+      "keyTerms": [
+        "E-Waste (Management) Rules",
+        "Extended Producer Responsibility (EPR)",
+        "Recycling",
+        "Refurbishment",
+        "Hazardous Waste"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "E-Waste (Management) Rules were first notified in 2011, then revised in 2016 and further updated.",
+        "EPR makes producers responsible for the collection and recycling of their products once they become waste.",
+        "Central Pollution Control Board (CPCB) is the regulatory authority.",
+        "E-waste contains hazardous substances like lead, mercury, cadmium, and chromium.",
+        "India is among the top e-waste generating countries globally."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Challenges of E-waste Management**: Rapid growth of e-waste, informal recycling practices leading to health hazards, low collection rates, lack of public awareness, technological obsolescence.",
+        "**Significance of New Rules**: Strengthens EPR, formalizes recycling sector, promotes resource recovery, contributes to circular economy, reduces environmental and health impacts.",
+        "**Role of Stakeholders**: Producers (collection, recycling), consumers (responsible disposal), informal sector (integration), government (policy, enforcement, awareness).",
+        "**Way Forward**: Public awareness campaigns, incentivizing formal recyclers, robust monitoring and enforcement, fostering innovation in e-waste processing, international cooperation for technology transfer."
+      ],
+      "imageDescription": "A pile of discarded electronic gadgets symbolizing e-waste.",
+      "section": "Environment",
+      "trivia": "Globally, only about 17.4% of e-waste generated in 2019 was formally collected and recycled.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Pollution",
+        "topic": "Waste Management"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "public-private-partnership-infrastructure",
+      "headline": "Government Prioritizes PPP Model for Next-Gen Infrastructure Development",
+      "explainer": "• The Ministry of Finance emphasizes leveraging Public-Private Partnership (PPP) models for upcoming large-scale infrastructure projects.\n• Focus on attracting private investment in sectors like high-speed rail, logistics parks, renewable energy infrastructure, and smart cities.\n• Reforms in PPP frameworks aim to de-risk private partners, streamline approval processes, and enhance viability for investors.\n• The move is crucial for meeting India's ambitious infrastructure targets and driving economic growth.\n• Capacity building for public sector entities in managing PPP projects is also a key aspect.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Investment models."
+      ],
+      "date": "2025-06-03",
+      "source": "Business Standard",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "PPP",
+        "Infrastructure",
+        "Economic Development",
+        "Private Investment",
+        "NIP"
+      ],
+      "keyTerms": [
+        "Public-Private Partnership (PPP)",
+        "National Infrastructure Pipeline (NIP)",
+        "Viability Gap Funding (VGF)",
+        "Build-Operate-Transfer (BOT)",
+        "Hybrid Annuity Model (HAM)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "PPP refers to a long-term contract between a public entity and a private company for providing a public asset or service.",
+        "Viability Gap Funding (VGF) scheme provides financial support to PPP projects that are economically justified but commercially unviable.",
+        "National Infrastructure Pipeline (NIP) outlines infrastructure projects worth over ₹100 lakh crore for 2019-25.",
+        "Different PPP models include BOT, BOOT (Build-Own-Operate-Transfer), Annuity, and HAM.",
+        "The Kelkar Committee (2015) provided recommendations for revitalizing the PPP model in India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Advantages of PPP**: Mobilizes private capital, brings in efficiency and innovation, faster project execution, better risk allocation, reduces burden on government finances.",
+        "**Challenges of PPP**: Complex contractual agreements, risk allocation issues, regulatory hurdles, land acquisition problems, potential for cost overruns, lack of transparency, capacity deficit in public sector.",
+        "**Government Reforms**: Streamlining dispute resolution, standardizing bidding documents, enhancing VGF support, creating infrastructure investment trusts (InvITs), strengthening institutional capacity.",
+        "**Way Forward**: Clear policy framework, robust regulatory environment, transparent procurement processes, effective monitoring and evaluation, focus on project preparation and bankability, and building trust between public and private sectors."
+      ],
+      "imageDescription": "A modern highway intersection with city skyline in the background, symbolizing infrastructure.",
+      "section": "Economy",
+      "trivia": "The Chhatrapati Shivaji International Airport in Mumbai was one of India's earliest successful PPP projects in the airport sector.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Infrastructure",
+        "topic": "Investment Models"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "gender-budgeting-implementation-review",
+      "headline": "Government Reviews Implementation of Gender Budgeting for Inclusive Development",
+      "explainer": "• The Ministry of Finance conducts a comprehensive review of the implementation and effectiveness of gender budgeting across various ministries and states.\n• Gender budgeting aims to analyze government budgets from a gender perspective to assess their impact on women and girls.\n• Focus on ensuring equitable allocation of resources for women-centric schemes and programs in health, education, skill development, and economic empowerment.\n• Challenges identified include lack of adequate data, limited capacity for gender analysis, and superficial application in some departments.\n• The review seeks to strengthen the mechanism to achieve gender equality goals and inclusive development.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections.",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+      ],
+      "date": "2025-06-03",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Gender Budgeting",
+        "Women Empowerment",
+        "Inclusive Development",
+        "Gender Equality",
+        "Social Justice"
+      ],
+      "keyTerms": [
+        "Gender Budgeting",
+        "Gender Equality",
+        "Women-centric Schemes",
+        "Gender Responsive Planning",
+        "Sustainable Development Goals (SDGs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Gender budgeting was introduced in India in 2005-06.",
+        "It involves disaggregating government expenditure and revenue by gender.",
+        "The Gender Budget Statement (GBS) is presented annually in the Union Budget.",
+        "GBS has two parts: Part A (100% women-specific programs) and Part B (programs with at least 30% allocation for women).",
+        "It is a tool for achieving gender equality, not a separate budget."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "**Purpose of Gender Budgeting**: To promote gender equality, ensure equitable resource allocation, enhance accountability, and address gender disparities in access to resources and opportunities.",
+        "**Achievements**: Increased visibility of women-specific spending, impetus to women-centric policies, greater focus on outcomes, and contributing to SDG 5 (Gender Equality).",
+        "**Challenges**: Limited scope (focus on expenditure, not revenue), lack of gender-disaggregated data, inadequate capacity building, tokenism, weak monitoring and evaluation mechanisms.",
+        "**Way Forward**: Broadening the scope to include revenue, strengthening data collection, enhancing capacity building for gender analysis, establishing robust monitoring systems, linking gender budgeting with policy outcomes, and promoting participatory budgeting."
+      ],
+      "imageDescription": "A graphic symbolizing a budget pie chart with gender symbols.",
+      "section": "National",
+      "trivia": "Australia was the first country to introduce gender budgeting in 1984.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Women Empowerment",
+        "topic": "Government Initiatives"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "India reviews National Green Hydrogen Mission, addressing challenges in energy transition and infrastructure.",
+    "Supreme Court to hear petitions challenging key provisions of the Digital Personal Data Protection Act, 2023.",
+    "RBI's Monetary Policy Committee maintains repo rate, balancing inflation concerns with economic growth support.",
+    "India and ASEAN leaders pledge deeper strategic partnership, focusing on connectivity and trade.",
+    "Government unveils updated Cybersecurity Framework to bolster national digital security against evolving threats."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the National Green Hydrogen Mission, consider the following statements:\n1. It aims to achieve a green hydrogen production capacity of 10 MMT (Million Metric Tonnes) per annum by 2030.\n2. The 'SIGHT' programme is a key component focused on electrolyzer manufacturing and green hydrogen production.\n3. One of its primary goals is to increase India's fossil fuel imports by 2030.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) 1 and 2 only",
+        "(d) 2 and 3 only"
+      ],
+      "answer": "(b) 2 only",
+      "explanation": "Statement 1 is incorrect: The mission aims for 5 MMT (Million Metric Tonnes) green hydrogen production capacity by 2030, not 10 MMT. Statement 2 is correct: SIGHT (Strategic Interventions for Green Hydrogen Transition) Programme is indeed a key component. Statement 3 is incorrect: The mission aims to *reduce* fossil fuel imports, not increase them."
+    },
+    {
+      "question": "Which of the following bodies is responsible for deciding the policy repo rate to achieve the inflation target in India?",
+      "options": [
+        "(a) Ministry of Finance",
+        "(b) Securities and Exchange Board of India (SEBI)",
+        "(c) Reserve Bank of India (RBI) Monetary Policy Committee (MPC)",
+        "(d) NITI Aayog"
+      ],
+      "answer": "(c) Reserve Bank of India (RBI) Monetary Policy Committee (MPC)",
+      "explanation": "The Monetary Policy Committee (MPC) of the Reserve Bank of India is mandated with the task of setting the policy repo rate to achieve the inflation target of 4% (+/- 2%)."
+    },
+    {
+      "question": "Consider the following statements regarding the Digital Personal Data Protection Act (DPDPA), 2023:\n1. It mandates the establishment of the Data Protection Board of India.\n2. It explicitly defines 'personal data', 'data fiduciary', and 'data principal'.\n3. The Act grants unlimited exemptions to government agencies from its provisions.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) 1 and 2 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 2 only",
+      "explanation": "Statements 1 and 2 are correct as DPDPA establishes the Data Protection Board and defines key terms. Statement 3 is incorrect; while the Act provides for exemptions for government agencies under certain conditions, these are not 'unlimited' and are subject to legal scrutiny and specific purposes like national security."
+    },
+    {
+      "question": "Which of the following is NOT a primary objective of the Production Linked Incentive (PLI) Scheme?",
+      "options": [
+        "(a) Boosting domestic manufacturing",
+        "(b) Attracting foreign investment",
+        "(c) Increasing import dependency",
+        "(d) Creating employment opportunities"
+      ],
+      "answer": "(c) Increasing import dependency",
+      "explanation": "The Production Linked Incentive (PLI) Scheme aims to reduce India's import dependency by boosting domestic manufacturing and making Indian industries globally competitive. Therefore, increasing import dependency is contrary to its primary objective."
+    },
+    {
+      "question": "The Indus Water Treaty (IWT) was brokered by which international organization?",
+      "options": [
+        "(a) United Nations (UN)",
+        "(b) International Monetary Fund (IMF)",
+        "(c) World Bank",
+        "(d) Asian Development Bank (ADB)"
+      ],
+      "answer": "(c) World Bank",
+      "explanation": "The Indus Water Treaty (IWT) between India and Pakistan was signed in 1960 and was brokered by the World Bank."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "Critically analyze the progress and challenges of India's National Green Hydrogen Mission in achieving its energy transition goals. Suggest measures to overcome the hurdles for making India a global hub for green hydrogen production. (150 words)",
+      "syllabusMatch": "GS3: Conservation, environmental pollution and degradation, environmental impact assessment; Infrastructure: Energy.",
+      "approach": "Introduce the mission's objectives. Discuss achievements like policy frameworks (SIGHT). Detail challenges such as high costs, infrastructure gaps, and renewable energy sourcing. Suggest solutions like R&D, financial incentives, international collaboration, and demand creation."
+    },
+    {
+      "question": "The proposed delimitation exercise has reignited debates on India's federal structure and political representation. Discuss the concerns raised by various states and suggest mechanisms to ensure equitable representation while adhering to constitutional principles. (250 words)",
+      "syllabusMatch": "GS2: Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure; Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+      "approach": "Explain delimitation's purpose. Detail concerns of Southern states (population control vs. representation). Discuss implications for federal balance and resource allocation. Propose solutions like decoupling representation from population for certain aspects, compensatory measures, and building consensus through dialogue."
+    },
+    {
+      "question": "Discuss the importance of a robust Artificial Intelligence (AI) governance framework for India. What are the key ethical, social, and economic challenges that such a framework must address to ensure responsible AI development and deployment? (150 words)",
+      "syllabusMatch": "GS3: Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights; Science and Technology- developments and their applications and effects in everyday life.",
+      "approach": "Highlight AI's potential benefits. Explain the necessity of governance to mitigate risks. Detail ethical challenges (bias, transparency, accountability), social challenges (job displacement, privacy), and economic challenges (digital divide). Conclude with principles for a balanced framework."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "India's National Green Hydrogen Mission aims for 5 MMT green hydrogen production by 2030.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Hydrogen",
+        "Energy"
+      ]
+    },
+    {
+      "text": "The Digital Personal Data Protection Act (DPDPA), 2023, establishes the Data Protection Board of India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Data Protection",
+        "Law"
+      ]
+    },
+    {
+      "text": "The Monetary Policy Committee (MPC) comprises 6 members, 3 from RBI and 3 appointed by the government.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "Monetary Policy"
+      ]
+    },
+    {
+      "text": "India's 'Act East' policy is a successor to the 'Look East' policy, deepening engagement with Southeast Asia.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "ASEAN",
+        "Foreign Policy"
+      ]
+    },
+    {
+      "text": "CERT-In is the national agency for responding to computer security incidents in India.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "Cybersecurity",
+        "Government Agency"
+      ]
+    },
+    {
+      "text": "World Wetlands Day is celebrated annually on February 2nd.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Wetlands",
+        "Conservation"
+      ]
+    },
+    {
+      "text": "LUPEX is a joint lunar polar exploration mission between ISRO (India) and JAXA (Japan).",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "Space",
+        "ISRO"
+      ]
+    },
+    {
+      "text": "The National Health Mission (NHM) integrates the National Rural Health Mission (NRHM) and National Urban Health Mission (NUHM).",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "Health",
+        "Government Schemes"
+      ]
+    },
+    {
+      "text": "The Production Linked Incentive (PLI) scheme was initially launched for three sectors in March 2020.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "PLI",
+        "Manufacturing"
+      ]
+    },
+    {
+      "text": "The Indus Water Treaty (1960) allocates Eastern Rivers (Ravi, Beas, Sutlej) to India.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "India-Pakistan",
+        "Water Treaty"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "himalayan-ecosystem-protection",
+        "headline": "Climate Change and Tourism Threaten Himalayan Ecosystem, Urgent Protection Measures Needed",
+        "explainer": "• A new report highlights the escalating threats to the fragile Himalayan ecosystem from climate change and unsustainable tourism.\n• Glacier retreat, extreme weather events, and biodiversity loss are accelerating, impacting millions dependent on Himalayan rivers.\n• Unregulated construction, waste generation, and increased human footprint from tourism are exacerbating ecological damage.\n• Calls for integrated management plans, sustainable tourism policies, and enhanced climate adaptation strategies.\n• The report emphasizes the Himalayas' role as a global biodiversity hotspot and water tower for Asia.",
+        "category": "environment",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes.",
+          "Conservation, environmental pollution and degradation, environmental impact assessment"
+        ],
+        "date": "2025-06-03",
+        "source": "Down To Earth",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Himalayan Ecosystem",
+          "Climate Change",
+          "Sustainable Tourism",
+          "Glacier Melt",
+          "Biodiversity"
+        ],
+        "keyTerms": [
+          "Himalayan Ecosystem",
+          "Glacier Retreat",
+          "Climate Adaptation",
+          "Sustainable Tourism",
+          "Biodiversity Hotspot",
+          "Ecosystem Services"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Himalayas are the source of major rivers like the Indus, Ganges, and Brahmaputra.",
+          "They are considered a global biodiversity hotspot.",
+          "Glacier melt contributes to sea-level rise and impacts downstream water security.",
+          "The 'Third Pole' refers to the high-mountain Asia region, including the Himalayas, due to its vast ice reserves.",
+          "The Indian Himalayan Region (IHR) covers parts of 13 states/UTs."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Importance of Himalayas**: Water security for billions, rich biodiversity, cultural significance, climate regulation, natural barrier.",
+          "**Threats**: Rapid glacier melt, increased frequency of extreme weather (flash floods, landslides), unscientific infrastructure development, plastic pollution from tourism, deforestation, species extinction.",
+          "**Impacts**: Water scarcity, agricultural disruption, displacement of communities, increased disaster risk, loss of unique flora and fauna.",
+          "**Solutions**: Integrated water resource management, promotion of eco-tourism, strict building codes, waste management, climate-resilient infrastructure, transboundary cooperation, scientific research and monitoring."
+        ],
+        "imageDescription": "A majestic view of snow-capped Himalayan peaks with a pristine river flowing through a valley.",
+        "section": "Environment",
+        "trivia": "Mount Everest, the world's highest peak, is part of the Himalayan range.",
+        "prelimsSyllabus": {
+          "subject": "Geography",
+          "area": "Physical Geography",
+          "topic": "Himalayan Region"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "revitalization-traditional-indian-crafts",
+        "headline": "Government Boosts Initiatives for Revitalization of Traditional Indian Crafts and Artisans",
+        "explainer": "• The Ministry of Textiles and Ministry of Culture announce enhanced support for traditional Indian crafts and artisan communities.\n• New schemes focus on market linkages, design intervention, technological upgrades, and intellectual property protection for indigenous crafts.\n• Aims to preserve India's rich cultural heritage while boosting the economic viability of traditional artisan clusters.\n• Emphasis on promoting 'GI-tagged' products and leveraging e-commerce platforms for wider global reach.\n• The initiative seeks to empower artisans, especially women, and ensure the intergenerational transfer of traditional skills.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Role of women and women’s organization, population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies."
+        ],
+        "date": "2025-06-03",
+        "source": "PIB",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Indian Crafts",
+          "Artisans",
+          "Cultural Heritage",
+          "GI Tag",
+          "Handloom",
+          "Skill Development"
+        ],
+        "keyTerms": [
+          "Geographical Indication (GI) Tag",
+          "Handloom Sector",
+          "Handicrafts",
+          "Artisan Clusters",
+          "Intellectual Property Rights (IPR)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "GI Tag is a sign used on products that have a specific geographical origin and possess qualities or a reputation due to that origin.",
+          "Examples of GI-tagged Indian crafts include Kanchipuram Silk, Pashmina, Blue Pottery of Jaipur, etc.",
+          "The Development Commissioner (Handicrafts) and Development Commissioner (Handlooms) are key bodies.",
+          "The Ministry of Textiles is the nodal ministry for promoting handicrafts and handlooms.",
+          "Schemes like 'Ambedkar Hastshilp Vikas Yojana' and 'National Handloom Development Programme' support artisans."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Significance of Traditional Crafts**: Preservation of cultural identity, livelihood for millions (especially rural women), promotion of sustainable practices, potential for export earnings, tourism attraction.",
+          "**Challenges**: Competition from mass-produced goods, lack of market access, exploitation by middlemen, dwindling raw material supply, inadequate design innovation, lack of IPR protection, low wages.",
+          "**Government Initiatives**: GI tagging, e-commerce integration (e.g., India Handloom Brand), design studios, skill upgradation, financial assistance, artisan cards, promotion through exhibitions.",
+          "**Way Forward**: Holistic approach combining preservation with commercial viability, empowering artisan collectives, fostering design innovation, strengthening value chains, promoting ethical sourcing, and creating global brand recognition for Indian crafts."
+        ],
+        "imageDescription": "An artisan meticulously weaving a traditional textile on a handloom.",
+        "section": "National",
+        "trivia": "The 'Kumbh Mela' is recognized by UNESCO as an Intangible Cultural Heritage of Humanity.",
+        "prelimsSyllabus": {
+          "subject": "Art & Culture",
+          "area": "Indian Crafts",
+          "topic": "Traditional Arts"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "supreme-court-dpdpa-review",
+        "headline": "Supreme Court to Review Petitions Challenging Digital Personal Data Protection Act",
+        "explainer": "• The Supreme Court is set to hear a batch of petitions challenging various provisions of the Digital Personal Data Protection Act (DPDPA), 2023.\n• Concerns raised include potential misuse of data, impact on freedom of speech, and the independence of the Data Protection Board.\n• Petitioners argue certain clauses may grant excessive power to the government and dilute privacy safeguards.\n• The government defends the Act as a crucial step towards safeguarding citizen's data in the digital age and aligning with global standards.\n• The outcome will significantly shape India's data governance landscape and digital rights.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Fundamental Rights"
+        ],
+        "date": "2025-06-03",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "DPDPA",
+          "Data Protection",
+          "Privacy",
+          "Supreme Court",
+          "Digital India"
+        ],
+        "keyTerms": [
+          "Digital Personal Data Protection Act",
+          "Data Fiduciary",
+          "Data Principal",
+          "Data Protection Board",
+          "Right to Privacy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "DPDPA enacted in 2023.",
+          "It replaces the IT Act, 2000 provisions related to data protection.",
+          "Establishes the Data Protection Board of India.",
+          "Defines 'personal data', 'data fiduciary', and 'data principal'.",
+          "Mandates consent for processing personal data."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Significance of DPDPA**: Landmark legislation for digital privacy, aligns with global data protection norms (e.g., GDPR), fosters trust in digital economy.",
+          "**Key Challenges/Criticisms**: Concerns over government exemptions, independence of the Data Protection Board, potential impact on media and research, 'deemed consent' provisions.",
+          "**Constitutional Aspect**: Balancing the right to privacy (Article 21) with legitimate state interests and economic development.",
+          "**Way Forward**: Supreme Court's interpretation will be crucial; need for robust implementation mechanisms and public awareness."
+        ],
+        "imageDescription": "A gavel resting on legal books with a digital data visualization in the background.",
+        "section": "National",
+        "trivia": "The 'Right to Privacy' was declared a fundamental right under Article 21 of the Indian Constitution by the Supreme Court in the landmark Puttaswamy judgment (2017).",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-asean-strategic-partnership",
+        "headline": "India-ASEAN Summit Concludes, Pledges Deeper Strategic Partnership and Economic Ties",
+        "explainer": "• The annual India-ASEAN Summit concluded with leaders reaffirming commitment to elevate their strategic partnership.\n• Key discussions focused on enhancing connectivity (physical, digital, people-to-people), boosting trade and investment, and cooperation in maritime security.\n• Agreements signed on digital economy integration, sustainable development, and disaster management.\n• India reiterated its 'Act East' policy and its vision for a free, open, and inclusive Indo-Pacific.\n• The summit addressed regional security challenges and the importance of multilateralism.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighbourhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2025-06-03",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "India-ASEAN",
+          "Act East Policy",
+          "Indo-Pacific",
+          "Regional Cooperation",
+          "Trade"
+        ],
+        "keyTerms": [
+          "ASEAN",
+          "Act East Policy",
+          "Indo-Pacific",
+          "Free Trade Agreement (FTA)",
+          "Connectivity Initiatives"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ASEAN (Association of Southeast Asian Nations) comprises 10 member states.",
+          "India became a Sectoral Dialogue Partner of ASEAN in 1992, a Dialogue Partner in 1996, and a Summit-level Partner in 2002.",
+          "Strategic Partnership established in 2012, elevated to Comprehensive Strategic Partnership in 2022.",
+          "India's Act East Policy is a successor to the Look East Policy.",
+          "Key pillars of cooperation include political-security, economic, and socio-cultural."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Significance of ASEAN for India**: Gateway to Southeast Asia, economic opportunities, strategic balance in Indo-Pacific, cultural linkages, counter-terrorism cooperation.",
+          "**Challenges**: China's growing influence, non-tariff barriers, slow progress on some connectivity projects, maritime disputes in South China Sea.",
+          "**India's Contribution**: SAGAR initiative, development assistance, capacity building, promoting rules-based international order, vaccine diplomacy.",
+          "**Way Forward**: Enhance trade and investment, accelerate connectivity projects, deepen maritime security cooperation, foster greater people-to-people exchanges."
+        ],
+        "imageDescription": "Flags of India and ASEAN member states.",
+        "section": "International",
+        "trivia": "The ASEAN Secretariat is located in Jakarta, Indonesia.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Regional Groupings",
+          "topic": "India-ASEAN Relations"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "national-health-mission-rural-healthcare",
+        "headline": "National Health Mission Reinforces Rural Healthcare Infrastructure and Access",
+        "explainer": "• The Ministry of Health and Family Welfare reviews the progress of the National Health Mission (NHM) with a renewed focus on rural healthcare.\n• Initiatives aim to strengthen Primary Health Centres (PHCs) and Community Health Centres (CHCs) with better equipment, staffing, and digital health solutions.\n• Emphasis on maternal and child health programs, disease surveillance, and increasing accessibility to essential medicines.\n• Aims to address healthcare disparities between urban and rural areas, particularly in remote regions.\n• The mission leverages technology for teleconsultations and health data management.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes"
+        ],
+        "date": "2025-06-03",
+        "source": "PIB",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "National Health Mission",
+          "Rural Healthcare",
+          "Public Health",
+          "Maternal and Child Health",
+          "Digital Health"
+        ],
+        "keyTerms": [
+          "National Health Mission (NHM)",
+          "Ayushman Bharat",
+          "Primary Health Centre (PHC)",
+          "Community Health Centre (CHC)",
+          "Janani Shishu Suraksha Karyakram (JSSK)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NHM comprises the National Rural Health Mission (NRHM) and National Urban Health Mission (NUHM).",
+          "Launched in 2013, building upon NRHM (2005).",
+          "Focuses on strengthening health systems, RMNCH+A (Reproductive, Maternal, Newborn, Child Health + Adolescent Health) services, and communicable/non-communicable diseases.",
+          "Ayushman Bharat Pradhan Mantri Jan Arogya Yojana (PMJAY) provides health insurance coverage.",
+          "Ayushman Bharat Health and Wellness Centres (AB-HWCs) are a key component of primary healthcare."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Challenges in Rural Healthcare**: Shortage of doctors and specialists, inadequate infrastructure, lack of access to specialized care, high out-of-pocket expenditure, low awareness.",
+          "**NHM's Role**: Significant improvements in infant mortality rate (IMR) and maternal mortality ratio (MMR), enhanced disease surveillance, increased institutional deliveries.",
+          "**Impact of Digital Health**: Telemedicine bridging gaps, efficient health records, data-driven policy making, but challenges of digital literacy and infrastructure remain.",
+          "**Way Forward**: Increased public spending on health, strengthening public-private partnerships, leveraging technology, focus on preventive healthcare, addressing social determinants of health."
+        ],
+        "imageDescription": "A rural health worker interacting with villagers in a remote area.",
+        "section": "National",
+        "trivia": "India aims to increase public health expenditure to 2.5% of GDP by 2025.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Health",
+          "topic": "Government Health Initiatives"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-unsc-reform-discussions",
+        "headline": "India Reiterates Call for Comprehensive UN Security Council Reforms",
+        "explainer": "• India once again presses for urgent reforms of the United Nations Security Council (UNSC) at a high-level international forum.\n• Emphasizes the need for an expanded and more representative Security Council that reflects contemporary global realities.\n• Calls for an increase in both permanent and non-permanent seats, with India advocating for its own permanent membership.\n• Highlights the outdated structure of the UNSC, which dates back to post-World War II era, failing to address current geopolitical challenges effectively.\n• Support from various nations for India's candidature and the broader reform agenda is noted.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate."
+        ],
+        "date": "2025-06-03",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "UNSC Reform",
+          "United Nations",
+          "Multilateralism",
+          "India UN",
+          "Global Governance"
+        ],
+        "keyTerms": [
+          "United Nations Security Council (UNSC)",
+          "Permanent Members (P5)",
+          "Non-Permanent Members",
+          "G4 Nations",
+          "Uniting for Consensus (UfC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "UNSC has 15 members: 5 permanent (P5 - China, France, Russia, UK, US) and 10 non-permanent.",
+          "Non-permanent members are elected for two-year terms by the General Assembly.",
+          "P5 members hold veto power.",
+          "India has served multiple terms as a non-permanent member.",
+          "G4 nations (India, Brazil, Germany, Japan) mutually support each other's bids for permanent seats."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Arguments for Reform**: Undemocratic structure, lack of representation for developing countries, outdated power dynamics, inability to address current conflicts effectively, increased global challenges.",
+          "**India's Case for Permanent Membership**: Large population, growing economy, democratic values, significant contributions to UN peacekeeping, responsible nuclear power, geopolitical importance.",
+          "**Challenges to Reform**: Resistance from P5 members (especially regarding veto power), 'Uniting for Consensus' group opposing G4 proposals, complex amendment process requiring 2/3rd UNGA vote and P5 ratification.",
+          "**Implications of Reform**: More legitimate and effective UN, better global governance, enhanced role for emerging powers, addressing new threats like climate change and pandemics."
+        ],
+        "imageDescription": "The United Nations building in New York with flags of member states.",
+        "section": "International",
+        "trivia": "The UN Security Council held its first session on January 17, 1946, in London.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Institutions",
+          "topic": "United Nations"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "delimitation-exercise-debates",
+        "headline": "Debates Intensify Over Proposed Delimitation Exercise and its Federal Implications",
+        "explainer": "• Discussions escalate regarding the upcoming delimitation exercise, anticipated to redraw parliamentary and assembly constituencies.\n• Concerns raised by Southern states about potential reduction in their political representation due to successful population control measures.\n• Northern states, with higher population growth, are expected to gain more seats, potentially altering the federal balance of power.\n• The exercise aims to ensure electoral constituencies are broadly equal in population, but the base year for population data is a contentious issue.\n• The process has significant implications for resource allocation and political influence of states.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure"
+        ],
+        "date": "2025-06-03",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Delimitation",
+          "Federalism",
+          "Political Representation",
+          "Population Control",
+          "Electoral Reforms"
+        ],
+        "keyTerms": [
+          "Delimitation Commission",
+          "Article 82",
+          "Article 170",
+          "Population Census",
+          "Political Representation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Delimitation is the act of redrawing boundaries of Lok Sabha and state assembly constituencies.",
+          "The Delimitation Commission is appointed by the President of India and works in collaboration with the Election Commission.",
+          "Article 82 of the Constitution provides for readjustment after every census.",
+          "Last nationwide delimitation exercise was completed in 2002-2008 based on 2001 census.",
+          "A constitutional amendment in 2002 froze the number of Lok Sabha seats based on the 1971 census until 2026."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Rationale for Delimitation**: To ensure 'one vote, one value' by adjusting constituency boundaries to reflect population changes, thus ensuring fair representation.",
+          "**Federalism Concerns**: Southern states fear penalization for effective population control, leading to reduced political voice and potentially less share in central funds (linked to population).",
+          "**Impact on Political Landscape**: Shifts in power balance between states, potential for increased regionalism, implications for national parties' strategies.",
+          "**Possible Solutions/Recommendations**: Decoupling political representation from population for some aspects, alternative models of financial devolution, compensatory mechanisms for states with lower population growth.",
+          "**Way Forward**: Need for transparent process, consensus-building, and addressing concerns about equitable representation without undermining federal principles."
+        ],
+        "imageDescription": "A map of India with constituency boundaries being redrawn.",
+        "section": "National",
+        "trivia": "The first Delimitation Commission in India was constituted in 1952.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Federalism",
+          "topic": "Electoral System"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "skill-india-mission-3.0-workforce",
+        "headline": "Skill India Mission 3.0 Launched to Align Workforce with Future Industry Demands",
+        "explainer": "• The Ministry of Skill Development and Entrepreneurship unveils Skill India Mission 3.0, focusing on future-ready skills and industry alignment.\n• The revamped mission aims to bridge the skill gap in emerging sectors like AI, robotics, green jobs, and advanced manufacturing.\n• Emphasis on demand-driven skilling, apprenticeship training, and recognition of prior learning (RPL) to enhance employability.\n• Collaborations with industry partners and educational institutions are central to developing relevant curricula and training infrastructure.\n• Aims to empower India's youth with competitive skills, fostering entrepreneurship and contributing to economic growth.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes"
+        ],
+        "date": "2025-06-03",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Skill India",
+          "Skill Development",
+          "Youth Employment",
+          "Future Skills",
+          "Entrepreneurship"
+        ],
+        "keyTerms": [
+          "Skill India Mission",
+          "National Skill Development Corporation (NSDC)",
+          "Pradhan Mantri Kaushal Vikas Yojana (PMKVY)",
+          "Apprenticeship",
+          "Recognition of Prior Learning (RPL)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Skill India Mission was launched in 2015.",
+          "NSDC (National Skill Development Corporation) is a not-for-profit public limited company under the Ministry of Skill Development & Entrepreneurship.",
+          "PMKVY is the flagship scheme of the Ministry of Skill Development & Entrepreneurship.",
+          "RPL assesses and certifies existing skills of individuals acquired informally.",
+          "The mission aims to create a skilled workforce for 'Make in India' and 'Atmanirbhar Bharat'."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Importance of Skill Development**: Addressing unemployment, increasing productivity, fostering innovation, demographic dividend utilization, reducing income inequality.",
+          "**Challenges in Skilling Sector**: Mismatch between skills imparted and industry demand, low quality of training, lack of aspirational value for vocational training, informal sector dominance, digital divide.",
+          "**Key Features of Skill India 3.0**: Focus on emerging technologies, industry-led curriculum design, digital skilling platforms, emphasis on apprenticeships, international benchmarking.",
+          "**Way Forward**: Strengthening public-private partnerships, leveraging technology for scalable training, promoting lifelong learning, integrating vocational training with mainstream education, creating a robust ecosystem for entrepreneurship."
+        ],
+        "imageDescription": "A group of young people learning vocational skills in a modern training center.",
+        "section": "National",
+        "trivia": "India has the world's largest youth population, with over 65% of its population under 35 years of age.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Human Resource Development",
+          "topic": "Skill Development Schemes"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indus-water-treaty-dialogue",
+        "headline": "India-Pakistan Hold Talks on Indus Water Treaty: Focus on Technical Issues and Future Projects",
+        "explainer": "• Delegations from India and Pakistan met for the annual Permanent Indus Commission (PIC) meeting to discuss issues related to the Indus Water Treaty (IWT).\n• Discussions primarily focused on technical aspects of various hydroelectric projects being built by both sides on the Indus system of rivers.\n• Both nations reiterated their commitment to the treaty, despite ongoing geopolitical tensions.\n• Key agenda items included data exchange on water flows and flood forecasts, and resolving minor technical disputes.\n• The IWT is considered one of the most successful water-sharing agreements globally.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighbourhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests"
+        ],
+        "date": "2025-06-03",
+        "source": "ANI",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Indus Water Treaty",
+          "India-Pakistan",
+          "Water Diplomacy",
+          "Bilateral Relations",
+          "Hydroelectric Projects"
+        ],
+        "keyTerms": [
+          "Indus Water Treaty (IWT)",
+          "Permanent Indus Commission (PIC)",
+          "Eastern Rivers",
+          "Western Rivers",
+          "Run-of-the-River Project"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Indus Water Treaty was signed in 1960, brokered by the World Bank.",
+          "It allocates the waters of the Eastern Rivers (Ravi, Beas, Sutlej) to India.",
+          "It allocates the waters of the Western Rivers (Indus, Jhelum, Chenab) to Pakistan.",
+          "India is allowed to use Western River waters for limited domestic, non-consumptive, and run-of-the-river power generation purposes.",
+          "The Permanent Indus Commission comprises a Commissioner for Indus Waters from each country."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Significance of IWT**: One of the most enduring water treaties globally, a testament to cooperation despite political hostilities, crucial for water security in both nations.",
+          "**Challenges**: Technical disputes over design of hydroelectric projects, climate change impacting river flows, geopolitical tensions affecting cooperation, need for modernization of treaty provisions.",
+          "**India's Rights and Obligations**: Utilizing its share of Eastern Rivers, limited usage on Western Rivers, adherence to treaty provisions for project construction.",
+          "**Way Forward**: Continued dialogue through PIC, transparent data sharing, scientific assessment of climate impacts, exploring joint projects for mutual benefit, upholding the spirit of the treaty."
+        ],
+        "imageDescription": "A map showing the Indus River system.",
+        "section": "International",
+        "trivia": "The Indus Water Treaty is often cited as an example of successful water diplomacy, having survived several wars and conflicts between India and Pakistan.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India-Pakistan"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "gender-budgeting-implementation-review",
+        "headline": "Government Reviews Implementation of Gender Budgeting for Inclusive Development",
+        "explainer": "• The Ministry of Finance conducts a comprehensive review of the implementation and effectiveness of gender budgeting across various ministries and states.\n• Gender budgeting aims to analyze government budgets from a gender perspective to assess their impact on women and girls.\n• Focus on ensuring equitable allocation of resources for women-centric schemes and programs in health, education, skill development, and economic empowerment.\n• Challenges identified include lack of adequate data, limited capacity for gender analysis, and superficial application in some departments.\n• The review seeks to strengthen the mechanism to achieve gender equality goals and inclusive development.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections.",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+        ],
+        "date": "2025-06-03",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Gender Budgeting",
+          "Women Empowerment",
+          "Inclusive Development",
+          "Gender Equality",
+          "Social Justice"
+        ],
+        "keyTerms": [
+          "Gender Budgeting",
+          "Gender Equality",
+          "Women-centric Schemes",
+          "Gender Responsive Planning",
+          "Sustainable Development Goals (SDGs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Gender budgeting was introduced in India in 2005-06.",
+          "It involves disaggregating government expenditure and revenue by gender.",
+          "The Gender Budget Statement (GBS) is presented annually in the Union Budget.",
+          "GBS has two parts: Part A (100% women-specific programs) and Part B (programs with at least 30% allocation for women).",
+          "It is a tool for achieving gender equality, not a separate budget."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Purpose of Gender Budgeting**: To promote gender equality, ensure equitable resource allocation, enhance accountability, and address gender disparities in access to resources and opportunities.",
+          "**Achievements**: Increased visibility of women-specific spending, impetus to women-centric policies, greater focus on outcomes, and contributing to SDG 5 (Gender Equality).",
+          "**Challenges**: Limited scope (focus on expenditure, not revenue), lack of gender-disaggregated data, inadequate capacity building, tokenism, weak monitoring and evaluation mechanisms.",
+          "**Way Forward**: Broadening the scope to include revenue, strengthening data collection, enhancing capacity building for gender analysis, establishing robust monitoring systems, linking gender budgeting with policy outcomes, and promoting participatory budgeting."
+        ],
+        "imageDescription": "A graphic symbolizing a budget pie chart with gender symbols.",
+        "section": "National",
+        "trivia": "Australia was the first country to introduce gender budgeting in 1984.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Women Empowerment",
+          "topic": "Government Initiatives"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "india-green-hydrogen-mission-progress",
+        "headline": "India's Green Hydrogen Mission: Path to Energy Transition Faces Implementation Hurdles",
+        "explainer": "• Government reviews progress on the ambitious National Green Hydrogen Mission, launched to make India a global hub for green hydrogen production.\n• Focus on achieving targets for production capacity, electrolyzer manufacturing, and demand creation across sectors like refining, fertilizer, and steel.\n• Challenges include high capital costs, lack of robust infrastructure for transport and storage, and securing renewable energy at competitive prices.\n• Discussion on policy incentives, R&D support, and international collaborations to accelerate adoption.\n• Mission aims to reduce fossil fuel imports, decarbonize hard-to-abate sectors, and create new economic opportunities.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Environmental pollution and degradation, environmental impact assessment",
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+        ],
+        "date": "2025-06-03",
+        "source": "PIB",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Green Hydrogen",
+          "Energy Transition",
+          "Climate Change",
+          "Renewable Energy",
+          "Atmanirbhar Bharat"
+        ],
+        "keyTerms": [
+          "National Green Hydrogen Mission",
+          "Electrolyzer",
+          "Green Ammonia",
+          "Power-to-X",
+          "Carbon Capture Utilization and Storage (CCUS)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Green Hydrogen Mission launched in 2023.",
+          "Aims for 5 MMT (Million Metric Tonnes) green hydrogen production capacity by 2030.",
+          "Target to reduce fossil fuel imports by over INR 1 lakh crore and abate 50 MMT annual GHG emissions by 2030.",
+          "SIGHT (Strategic Interventions for Green Hydrogen Transition) Programme is a key component.",
+          "Focuses on electrolyzer manufacturing and green hydrogen production."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Opportunities**: Decarbonization of industries, energy security, export potential, job creation, technological innovation.",
+          "**Challenges**: High upfront costs, infrastructure development (pipelines, storage), water availability for electrolysis, need for supportive policy and regulatory framework, technology scaling.",
+          "**Government Initiatives**: SIGHT programme, R&D funding, demand aggregation, international partnerships.",
+          "**Way Forward**: Create a robust ecosystem, attract private investment, focus on cost reduction, skill development, and market creation."
+        ],
+        "imageDescription": "An illustration of a green hydrogen production plant with wind turbines and solar panels in the background.",
+        "section": "Lead Opinion",
+        "trivia": "Hydrogen is the most abundant chemical substance in the universe, constituting roughly 75% of all baryonic mass.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Climate Change",
+          "topic": "Energy Transition"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "rbi-monetary-policy-review-june-2025",
+        "headline": "RBI Maintains Status Quo on Repo Rate Amidst Evolving Inflation and Growth Dynamics",
+        "explainer": "• The Reserve Bank of India (RBI) Monetary Policy Committee (MPC) concluded its bi-monthly meeting, deciding to maintain the current repo rate.\n• The decision reflects a cautious approach, balancing persistent inflation concerns with the need to support economic growth momentum.\n• RBI highlights global economic uncertainties and geopolitical tensions as key risks to domestic stability.\n• Forecasts for inflation and GDP growth for the upcoming quarters were revised, indicating a watchful stance.\n• Emphasis on liquidity management and financial stability measures to ensure smooth credit flow.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Government Budgeting",
+          "Monetary policy"
+        ],
+        "date": "2025-06-03",
+        "source": "Livemint",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "RBI",
+          "Monetary Policy",
+          "Repo Rate",
+          "Inflation",
+          "Economic Growth",
+          "MPC"
+        ],
+        "keyTerms": [
+          "Repo Rate",
+          "Reverse Repo Rate",
+          "Monetary Policy Committee (MPC)",
+          "Inflation Targeting",
+          "Liquidity Adjustment Facility (LAF)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Monetary Policy Committee (MPC) consists of 6 members (3 RBI, 3 GoI nominees).",
+          "MPC decides the policy repo rate to achieve the inflation target (currently 4% +/- 2%).",
+          "Repo rate is the rate at which RBI lends money to commercial banks.",
+          "Inflation is primarily measured by the Consumer Price Index (CPI).",
+          "RBI uses various tools like OMOs, CRR, SLR for liquidity management."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Role of RBI/MPC**: Maintaining price stability while keeping in mind the objective of growth.",
+          "**Current Economic Scenario**: Balancing high food inflation, global commodity price volatility, and robust domestic demand.",
+          "**Impact of Policy**: Affects borrowing costs for businesses and consumers, influencing investment and consumption patterns.",
+          "**Challenges**: Supply-side inflation, global spillovers, climate-related shocks impacting agriculture.",
+          "**Forward Guidance**: Importance of credible communication and data-driven decisions for market stability."
+        ],
+        "imageDescription": "RBI emblem over a graph showing economic indicators.",
+        "section": "Economy",
+        "trivia": "The Reserve Bank of India was established on April 1, 1935, in accordance with the provisions of the Reserve Bank of India Act, 1934.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI Functions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-cybersecurity-framework-update",
+        "headline": "Government Unveils Updated Cybersecurity Framework to Combat Evolving Digital Threats",
+        "explainer": "• The Ministry of Electronics and Information Technology (MeitY) has released an updated National Cybersecurity Strategy.\n• The framework focuses on proactive threat intelligence, critical infrastructure protection, and enhancing cyber resilience across all sectors.\n• Key initiatives include strengthening CERT-In's capabilities, promoting indigenous cybersecurity solutions, and fostering public-private partnerships.\n• Emphasis on skill development and creating a robust talent pool to address the growing demand for cybersecurity professionals.\n• The update comes amidst rising global cyberattacks and the need to secure India's rapidly expanding digital economy.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security",
+          "Money-laundering and its prevention"
+        ],
+        "date": "2025-06-03",
+        "source": "PTI",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Cybersecurity",
+          "National Cybersecurity Strategy",
+          "Digital Security",
+          "Critical Infrastructure",
+          "CERT-In"
+        ],
+        "keyTerms": [
+          "Cyber Warfare",
+          "Phishing",
+          "Ransomware",
+          "Critical Information Infrastructure (CII)",
+          "Cyber Diplomacy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "CERT-In (Indian Computer Emergency Response Team) is the national agency for responding to computer security incidents.",
+          "National Cybersecurity Policy was launched in 2013.",
+          "Critical Information Infrastructure (CII) is defined under the IT Act, 2000.",
+          "The National Cyber Coordination Centre (NCCC) screens internet traffic and coordinates responses.",
+          "Cyber Swachhta Kendra (Botnet Cleaning and Malware Analysis Centre) is a government initiative."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Importance of Cybersecurity**: Safeguarding national security, economic stability, individual privacy, and critical infrastructure (power grids, banking, telecommunications).",
+          "**Challenges**: Rapid technological advancements (AI, IoT), sophisticated state-sponsored attacks, shortage of skilled professionals, cross-border nature of cybercrime, data localization issues.",
+          "**Government Initiatives**: CERT-In, NCCC, Cyber Swachhta Kendra, National Critical Information Infrastructure Protection Centre (NCIIPC), international cooperation.",
+          "**Way Forward**: Proactive threat intelligence, public-private collaboration, robust legal framework, capacity building, awareness campaigns, fostering indigenous technology."
+        ],
+        "imageDescription": "A digital padlock icon overlaying a network of interconnected nodes.",
+        "section": "National",
+        "trivia": "The first computer virus, 'Elk Cloner,' appeared in 1982, targeting Apple II systems.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "Cyber Security",
+          "topic": "Cybercrime"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "wetlands-conservation-initiatives",
+        "headline": "India Intensifies Wetlands Conservation Efforts, Focus on Ecological Restoration and Community Participation",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change announces new initiatives to strengthen wetlands conservation across the country.\n• Emphasis on the 'Save Wetlands Campaign' and integrating local communities in restoration and management activities.\n• Focus on preventing further degradation of Ramsar Sites and identifying new wetlands for protection under national programs.\n• Initiatives include scientific assessment of wetland health, combating pollution, and promoting sustainable livelihood options for wetland-dependent communities.\n• Wetlands are crucial for biodiversity, water purification, flood control, and climate change mitigation.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Biodiversity"
+        ],
+        "date": "2025-06-03",
+        "source": "Indian Express",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Wetlands",
+          "Ramsar Sites",
+          "Conservation",
+          "Biodiversity",
+          "Ecosystem Services"
+        ],
+        "keyTerms": [
+          "Ramsar Convention",
+          "Wetlands (Conservation and Management) Rules",
+          "Ecological Restoration",
+          "Ecosystem Services",
+          "Montreux Record"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India is a signatory to the Ramsar Convention on Wetlands (1971).",
+          "As of early 2025, India has a significant number of Ramsar Sites.",
+          "Wetlands are defined as areas of marsh, fen, peatland or water, whether natural or artificial, permanent or temporary, with water that is static or flowing, fresh, brackish or salt, including areas of marine water the depth of which at low tide does not exceed six metres.",
+          "Montreux Record is a register of Ramsar sites where changes in ecological character have occurred, are occurring, or are likely to occur.",
+          "Wetlands provide various ecosystem services like water purification, flood control, and carbon sequestration."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Significance of Wetlands**: Biodiversity hotspots, natural flood buffers, groundwater recharge, climate regulation, livelihood support for local communities.",
+          "**Threats to Wetlands**: Urbanization, agricultural encroachment, pollution (industrial, domestic), invasive species, climate change (sea-level rise, altered rainfall patterns).",
+          "**Government Initiatives**: National Plan for Conservation of Aquatic Ecosystems (NPCA), Wetlands (Conservation and Management) Rules, 2017/2019, 'Save Wetlands Campaign'.",
+          "**Way Forward**: Integrated management plans, community participation, scientific monitoring, strict enforcement of regulations, promoting sustainable tourism and livelihoods."
+        ],
+        "imageDescription": "A serene wetland landscape with migratory birds and lush vegetation.",
+        "section": "Environment",
+        "trivia": "World Wetlands Day is celebrated annually on February 2nd, marking the date of the adoption of the Convention on Wetlands in Ramsar, Iran, in 1971.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Biodiversity",
+          "topic": "Wetlands"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "isro-future-lunar-exploration",
+        "headline": "ISRO Outlines Future Lunar Exploration Plans Beyond Chandrayaan-3 Success",
+        "explainer": "• Following the resounding success of Chandrayaan-3, ISRO announces its roadmap for advanced lunar missions.\n• Plans include a joint Indo-Japanese Lunar Polar Exploration (LUPEX) mission focusing on the Moon's permanently shadowed regions for water ice.\n• Future missions aim for enhanced scientific payloads, longer mission durations, and potential sample return capabilities.\n• Emphasis on developing advanced robotics, in-situ resource utilization (ISRU) technologies, and international collaborations.\n• India seeks to play a leading role in global lunar exploration, contributing to understanding the Moon's evolution and resources.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+          "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights."
+        ],
+        "date": "2025-06-03",
+        "source": "ISRO",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Lunar Exploration",
+          "Chandrayaan",
+          "Space Mission",
+          "LUPEX"
+        ],
+        "keyTerms": [
+          "Chandrayaan-3",
+          "LUPEX",
+          "Lunar Polar Exploration",
+          "In-Situ Resource Utilization (ISRU)",
+          "Permanently Shadowed Regions (PSRs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Chandrayaan-3 successfully soft-landed on the Moon's south pole region in August 2023.",
+          "LUPEX (Lunar Polar Exploration Mission) is a joint mission between ISRO and JAXA (Japan Aerospace Exploration Agency).",
+          "LUPEX aims to explore the Moon's polar regions for water-ice and assess lunar surface resources.",
+          "Vikram Lander and Pragyan Rover were key components of Chandrayaan-3.",
+          "India became the fourth country to achieve a soft landing on the Moon."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Significance of Lunar Exploration**: Scientific understanding of Moon's origin and evolution, potential for lunar resources (water ice), technological advancements, inspiration for STEM education, national prestige.",
+          "**India's Capabilities**: Demonstrated expertise in cost-effective space missions, indigenous development of launch vehicles and spacecraft, growing international collaborations.",
+          "**Future Challenges**: Developing advanced robotics for extreme environments, securing funding for ambitious projects, managing international partnerships, protecting lunar heritage sites.",
+          "**Way Forward**: Focus on sustainable lunar presence, developing human spaceflight capabilities (Gaganyaan), contribution to global space governance, leveraging private sector participation."
+        ],
+        "imageDescription": "An artistic rendering of a lunar rover exploring a crater on the Moon's surface.",
+        "section": "Science",
+        "trivia": "The Moon is gradually moving away from Earth at a rate of about 3.8 centimeters per year.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space",
+          "topic": "Indian Space Missions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "pli-scheme-expansion-new-sectors",
+        "headline": "PLI Scheme Expanded to Include New Strategic Sectors, Boosting Domestic Manufacturing",
+        "explainer": "• The government announces the extension of the Production Linked Incentive (PLI) scheme to several new strategic sectors.\n• The expansion aims to further boost domestic manufacturing, attract foreign investment, and reduce import dependency.\n• New sectors identified include advanced chemicals, specialized textiles, and emerging electronics components.\n• The scheme provides incentives on incremental sales from products manufactured in India, encouraging economies of scale.\n• Expected to create millions of jobs and enhance India's position in global supply chains.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth"
+        ],
+        "date": "2025-06-03",
+        "source": "Ministry of Commerce & Industry",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "PLI Scheme",
+          "Make in India",
+          "Manufacturing",
+          "Economic Growth",
+          "Foreign Investment"
+        ],
+        "keyTerms": [
+          "Production Linked Incentive (PLI)",
+          "Atmanirbhar Bharat",
+          "Global Supply Chains",
+          "Ease of Doing Business",
+          "Foreign Direct Investment (FDI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "PLI scheme was launched in March 2020 for three sectors initially.",
+          "Expanded to 14 key sectors by late 2020/early 2021.",
+          "Aims to make Indian manufacturers globally competitive.",
+          "Provides incentives ranging from 4% to 6% on incremental sales over base year.",
+          "Key sectors include automobiles, pharmaceuticals, electronics, textiles, food products, solar PV modules."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Objectives of PLI**: Boost domestic manufacturing, create employment, reduce import bills, integrate India into global value chains, achieve economies of scale.",
+          "**Impact on Economy**: Increased investment, technological upgradation, export growth, diversification of manufacturing base.",
+          "**Challenges**: Ensuring fair competition, avoiding market distortion, effective monitoring of performance, managing fiscal implications of incentives.",
+          "**Way Forward**: Continuous review and adaptation of the scheme, focus on R&D, skill development, and creating a conducive business environment beyond incentives."
+        ],
+        "imageDescription": "An industrial factory setting with 'Make in India' logo.",
+        "section": "Economy",
+        "trivia": "India's manufacturing sector aims to contribute 25% of the GDP by 2025.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Industrial Policy",
+          "topic": "Government Schemes"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "ai-governance-framework-india",
+        "headline": "India Initiates Consultations for a Comprehensive AI Governance Framework",
+        "explainer": "• The Ministry of Electronics and Information Technology (MeitY) has begun multi-stakeholder consultations to develop India's Artificial Intelligence (AI) governance framework.\n• The framework aims to ensure responsible and ethical development and deployment of AI technologies across various sectors.\n• Focus areas include data privacy, algorithmic bias, accountability, transparency, and the socio-economic impact of AI.\n• India seeks to balance innovation with regulatory oversight, positioning itself as a leader in AI ethics and applications.\n• The initiative is part of India's broader vision for 'AI for All' and leveraging AI for inclusive growth.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights.",
+          "Science and Technology- developments and their applications and effects in everyday life."
+        ],
+        "date": "2025-06-03",
+        "source": "ETTech",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "AI Governance",
+          "Artificial Intelligence",
+          "AI Ethics",
+          "Digital Policy",
+          "Responsible AI"
+        ],
+        "keyTerms": [
+          "Artificial Intelligence (AI)",
+          "Algorithmic Bias",
+          "Data Privacy",
+          "Accountability",
+          "AI for All",
+          "Generative AI"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NITI Aayog released a National Strategy for Artificial Intelligence in 2018.",
+          "India is a founding member of the Global Partnership on Artificial Intelligence (GPAI).",
+          "AI applications are being explored in healthcare, agriculture, education, and smart cities.",
+          "The framework will likely address issues like explainable AI (XAI) and fairness.",
+          "MeitY is the nodal ministry for IT and electronics policy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Opportunities of AI**: Economic growth, innovation, efficiency in public services, personalized education, advanced healthcare diagnostics, climate modeling.",
+          "**Challenges of AI**: Job displacement, algorithmic bias and discrimination, privacy concerns, cybersecurity risks, ethical dilemmas, autonomous weapons, digital divide.",
+          "**Need for Governance**: To build public trust, mitigate risks, ensure equitable access, prevent misuse, and foster responsible innovation.",
+          "**Key Principles of AI Governance**: Transparency, fairness, accountability, privacy protection, safety and security, human oversight.",
+          "**Way Forward**: Collaborative approach involving government, industry, academia, and civil society; agile regulatory framework; international cooperation on AI standards; public education."
+        ],
+        "imageDescription": "A stylized human brain connected to a network of digital data, symbolizing AI.",
+        "section": "Science",
+        "trivia": "The term 'Artificial Intelligence' was coined by John McCarthy in 1956.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "IT & Computers",
+          "topic": "Artificial Intelligence"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "agricultural-reforms-crop-diversification",
+        "headline": "Government Pushes for Crop Diversification and Market Access in New Agricultural Reforms",
+        "explainer": "• The Ministry of Agriculture and Farmers Welfare rolls out new policy measures to encourage crop diversification away from water-intensive crops.\n• Focus on promoting cultivation of millets, pulses, oilseeds, and high-value horticultural crops to enhance farmer incomes and address nutritional security.\n• Initiatives include strengthening Farmer Producer Organizations (FPOs), improving market linkages, and providing technical support for new farming practices.\n• Reforms aim to make agriculture more sustainable, climate-resilient, and market-oriented.\n• Subsidies and incentives are being reviewed to align with diversification goals.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Major crops-cropping patterns in various parts of the country, different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers",
+          "Issues related to direct and indirect farm subsidies and minimum support prices; Public Distribution System- objectives, functioning, limitations, revamping; issues of buffer stocks and food security; Technology missions; economics of animal-rearing."
+        ],
+        "date": "2025-06-03",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Agriculture",
+          "Crop Diversification",
+          "MSP",
+          "Food Security",
+          "Farmer Income",
+          "FPO"
+        ],
+        "keyTerms": [
+          "Crop Diversification",
+          "Minimum Support Price (MSP)",
+          "Farmer Producer Organizations (FPOs)",
+          "National Food Security Mission",
+          "Climate-Resilient Agriculture"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "MSP is announced for 22 mandated crops and Sugarcane (Fair and Remunerative Price).",
+          "Millets (e.g., Jowar, Bajra, Ragi) are coarse grains known for nutritional value and drought resistance.",
+          "FPOs are groups of farmers who come together to collectively procure inputs, access technology, and market their produce.",
+          "India is observing the International Year of Millets (2023) to promote millet cultivation and consumption.",
+          "The National Mission on Edible Oils – Oil Palm (NMEO-OP) aims to boost domestic oilseed production."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Need for Diversification**: Addressing water scarcity, improving soil health, enhancing farmer resilience to market fluctuations, nutritional security, reducing import dependency (e.g., edible oils).",
+          "**Challenges**: Farmers' reliance on MSP for traditional crops (e.g., paddy, wheat), lack of assured market for diversified crops, inadequate infrastructure for processing and storage, limited awareness.",
+          "**Government Initiatives**: Promotion of FPOs, e-NAM platform, PM-KISAN, crop insurance schemes, National Food Security Mission, subsidies for irrigation and farm mechanization.",
+          "**Way Forward**: Realigning MSP and procurement policies to incentivize diversification, investing in agricultural research and extension services, strengthening value chains, promoting climate-smart agriculture, and farmer education."
+        ],
+        "imageDescription": "A farmer inspecting a field of diverse crops.",
+        "section": "Economy",
+        "trivia": "India is the world's largest producer of milk, pulses, and jute, and the second-largest producer of rice, wheat, sugarcane, groundnut, fruits, and vegetables.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Agriculture",
+          "topic": "Agricultural Policies"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "e-waste-management-rules-update",
+        "headline": "New E-Waste Management Rules Aim to Enhance Circular Economy and Producer Responsibility",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change introduces updated E-Waste Management Rules to improve collection and recycling.\n• The revised rules strengthen the Extended Producer Responsibility (EPR) framework, mandating higher collection targets for manufacturers.\n• Focus on promoting formal recycling sector, discouraging informal handling, and ensuring environmentally sound management of e-waste.\n• Introduces a new system of 'EPR Certificates' and trading mechanisms to incentivize compliance and efficient recycling.\n• Aims to reduce environmental pollution from e-waste and recover valuable materials for the circular economy.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Solid Waste Management",
+          "Circular Economy"
+        ],
+        "date": "2025-06-03",
+        "source": "Down To Earth",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "E-Waste",
+          "Waste Management",
+          "EPR",
+          "Circular Economy",
+          "Pollution Control"
+        ],
+        "keyTerms": [
+          "E-Waste (Management) Rules",
+          "Extended Producer Responsibility (EPR)",
+          "Recycling",
+          "Refurbishment",
+          "Hazardous Waste"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "E-Waste (Management) Rules were first notified in 2011, then revised in 2016 and further updated.",
+          "EPR makes producers responsible for the collection and recycling of their products once they become waste.",
+          "Central Pollution Control Board (CPCB) is the regulatory authority.",
+          "E-waste contains hazardous substances like lead, mercury, cadmium, and chromium.",
+          "India is among the top e-waste generating countries globally."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Challenges of E-waste Management**: Rapid growth of e-waste, informal recycling practices leading to health hazards, low collection rates, lack of public awareness, technological obsolescence.",
+          "**Significance of New Rules**: Strengthens EPR, formalizes recycling sector, promotes resource recovery, contributes to circular economy, reduces environmental and health impacts.",
+          "**Role of Stakeholders**: Producers (collection, recycling), consumers (responsible disposal), informal sector (integration), government (policy, enforcement, awareness).",
+          "**Way Forward**: Public awareness campaigns, incentivizing formal recyclers, robust monitoring and enforcement, fostering innovation in e-waste processing, international cooperation for technology transfer."
+        ],
+        "imageDescription": "A pile of discarded electronic gadgets symbolizing e-waste.",
+        "section": "Environment",
+        "trivia": "Globally, only about 17.4% of e-waste generated in 2019 was formally collected and recycled.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Pollution",
+          "topic": "Waste Management"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "public-private-partnership-infrastructure",
+        "headline": "Government Prioritizes PPP Model for Next-Gen Infrastructure Development",
+        "explainer": "• The Ministry of Finance emphasizes leveraging Public-Private Partnership (PPP) models for upcoming large-scale infrastructure projects.\n• Focus on attracting private investment in sectors like high-speed rail, logistics parks, renewable energy infrastructure, and smart cities.\n• Reforms in PPP frameworks aim to de-risk private partners, streamline approval processes, and enhance viability for investors.\n• The move is crucial for meeting India's ambitious infrastructure targets and driving economic growth.\n• Capacity building for public sector entities in managing PPP projects is also a key aspect.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Investment models."
+        ],
+        "date": "2025-06-03",
+        "source": "Business Standard",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "PPP",
+          "Infrastructure",
+          "Economic Development",
+          "Private Investment",
+          "NIP"
+        ],
+        "keyTerms": [
+          "Public-Private Partnership (PPP)",
+          "National Infrastructure Pipeline (NIP)",
+          "Viability Gap Funding (VGF)",
+          "Build-Operate-Transfer (BOT)",
+          "Hybrid Annuity Model (HAM)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "PPP refers to a long-term contract between a public entity and a private company for providing a public asset or service.",
+          "Viability Gap Funding (VGF) scheme provides financial support to PPP projects that are economically justified but commercially unviable.",
+          "National Infrastructure Pipeline (NIP) outlines infrastructure projects worth over ₹100 lakh crore for 2019-25.",
+          "Different PPP models include BOT, BOOT (Build-Own-Operate-Transfer), Annuity, and HAM.",
+          "The Kelkar Committee (2015) provided recommendations for revitalizing the PPP model in India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "**Advantages of PPP**: Mobilizes private capital, brings in efficiency and innovation, faster project execution, better risk allocation, reduces burden on government finances.",
+          "**Challenges of PPP**: Complex contractual agreements, risk allocation issues, regulatory hurdles, land acquisition problems, potential for cost overruns, lack of transparency, capacity deficit in public sector.",
+          "**Government Reforms**: Streamlining dispute resolution, standardizing bidding documents, enhancing VGF support, creating infrastructure investment trusts (InvITs), strengthening institutional capacity.",
+          "**Way Forward**: Clear policy framework, robust regulatory environment, transparent procurement processes, effective monitoring and evaluation, focus on project preparation and bankability, and building trust between public and private sectors."
+        ],
+        "imageDescription": "A modern highway intersection with city skyline in the background, symbolizing infrastructure.",
+        "section": "Economy",
+        "trivia": "The Chhatrapati Shivaji International Airport in Mumbai was one of India's earliest successful PPP projects in the airport sector.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Infrastructure",
+          "topic": "Investment Models"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "PIB",
+    "The Hindu",
+    "Livemint",
+    "Ministry of External Affairs",
+    "PTI",
+    "Indian Express",
+    "ISRO",
+    "Ministry of Commerce & Industry",
+    "The Economic Times",
+    "Down To Earth",
+    "ETTech",
+    "Press Information Bureau (PIB)",
+    "ANI",
+    "Business Standard",
+    "The Indian Express"
+  ],
+  "totalScraped": 20,
+  "totalProcessed": 20
+}

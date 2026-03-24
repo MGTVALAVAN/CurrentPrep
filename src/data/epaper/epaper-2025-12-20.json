@@ -1,0 +1,2137 @@
+{
+  "date": "2025-12-20",
+  "dateFormatted": "Saturday 20 December, 2025",
+  "lastUpdated": "2026-03-21T07:01:37.432Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "rajdhani-express-elephant-derailment-assam",
+      "headline": "Rajdhani Express Derails in Assam After Hitting Elephant Herd, Seven Elephants Dead",
+      "explainer": "• A tragic incident occurred in Assam where a Rajdhani Express train collided with a herd of Asiatic elephants.\n• The collision resulted in the deaths of seven elephants and the derailment of five coaches and the engine.\n• The event highlights the escalating human-wildlife conflict, particularly along railway tracks passing through critical elephant corridors.\n• It underscores the urgent need for robust mitigation measures, including wildlife-friendly infrastructure and early warning systems, to prevent such fatalities.\n• The incident has reignited debates on sustainable development practices and the balance between infrastructure growth and biodiversity conservation.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Disaster and disaster management",
+        "Infrastructure: Railways",
+        "Human-wildlife conflict"
+      ],
+      "date": "2025-12-20",
+      "source": "PTI / The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Human-wildlife conflict",
+        "elephant conservation",
+        "railway safety",
+        "Assam",
+        "wildlife corridors",
+        "disaster management"
+      ],
+      "keyTerms": [
+        "Asiatic Elephants",
+        "Elephant Corridors",
+        "Project Elephant",
+        "Wildlife Protection Act (1972)",
+        "Train-animal collision"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Location of incident: Assam, known for its significant elephant population and elephant corridors.",
+        "Species involved: Asiatic Elephants, listed under Schedule I of the Wildlife Protection Act, 1972, and 'Endangered' by IUCN.",
+        "Project Elephant: Launched in 1992 to protect elephants, their habitat, and corridors.",
+        "Measures to prevent collisions: Speed restrictions, underpasses/overpasses, early warning systems (e.g., thermal imaging, acoustic sensors)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Causes of human-wildlife conflict: Habitat fragmentation, encroachment, linear infrastructure (railways, highways), lack of effective mitigation strategies.",
+        "Impacts: Loss of biodiversity, economic losses (crop damage, property damage), human fatalities, disruption of essential services.",
+        "Solutions: Integrated land-use planning, wildlife corridors, elephant-friendly infrastructure design (underpasses, elevated tracks), community participation, technological interventions (AI-based warning systems).",
+        "Policy framework: Examine the effectiveness of the Wildlife Protection Act and Project Elephant in addressing current challenges.",
+        "Role of stakeholders: Collaboration between Indian Railways, Forest Departments, local communities, and NGOs for effective conservation and mitigation."
+      ],
+      "imageDescription": "A derailed train engine and coaches near a dense forest, with forest officials and railway staff inspecting the site of an elephant collision.",
+      "section": "Lead Opinion",
+      "trivia": "Elephants are considered a 'National Heritage Animal' of India, symbolizing the country's rich biodiversity.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Biodiversity",
+        "topic": "Wildlife Conservation"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "sc-upholds-digital-personal-data-protection-act",
+      "headline": "Supreme Court Upholds Key Provisions of Digital Personal Data Protection Act, 2023",
+      "explainer": "• The Supreme Court of India has largely upheld the constitutional validity of the Digital Personal Data Protection Act (DPDPA), 2023.\n• The ruling addressed petitions challenging certain provisions related to data processing, consent, and the powers of the Data Protection Board.\n• The court emphasized the balance between individual privacy rights and legitimate state interests, particularly in national security and public order.\n• This landmark judgment provides legal clarity and strengthens India's data governance framework, impacting tech companies and citizens alike.\n• The decision is expected to accelerate the implementation of the Act and foster a more secure digital environment.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors",
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "Cyber security"
+      ],
+      "date": "2025-12-20",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Data Protection",
+        "Privacy",
+        "Supreme Court",
+        "Digital India",
+        "DPDPA",
+        "Fundamental Rights"
+      ],
+      "keyTerms": [
+        "Digital Personal Data Protection Act (DPDPA)",
+        "Right to Privacy",
+        "Data Fiduciary",
+        "Data Principal",
+        "Data Protection Board",
+        "Article 21"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Digital Personal Data Protection Act (DPDPA), 2023: India's first comprehensive law on data protection.",
+        "Key principles: Consent, purpose limitation, data minimization, accuracy, storage limitation, accountability.",
+        "Data Protection Board of India: Established under DPDPA to enforce provisions and impose penalties.",
+        "K.S. Puttaswamy judgment (2017): Declared Right to Privacy as a fundamental right under Article 21.",
+        "Exemptions: National security, public order, and prevention/investigation of offenses."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Significance of DPDPA: Protects citizens' privacy, regulates data processing by entities, fosters digital trust, aligns with global data protection standards (e.g., GDPR).",
+        "Challenges and criticisms: Concerns about government exemptions, potential for surveillance, impact on innovation for startups, balancing national security with individual rights.",
+        "Impact on digital economy: Increased compliance burden for businesses, potential for data localization debates, fostering responsible data practices.",
+        "Role of judiciary: Interpreting fundamental rights in the digital age, upholding constitutional principles, ensuring checks and balances on state power.",
+        "Future implications: Paving the way for further digital regulations, ensuring India's position in the global digital governance landscape."
+      ],
+      "imageDescription": "A gavel resting on legal documents, symbolizing a Supreme Court judgment on data protection.",
+      "section": "National",
+      "trivia": "India is home to the world's second-largest internet user base, making robust data protection laws crucial.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy and Digital Governance"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-q2-fy26-gdp-growth",
+      "headline": "India's Q2 FY26 GDP Growth Reaches 7.5%, Driven by Manufacturing and Services",
+      "explainer": "• India's Gross Domestic Product (GDP) recorded a robust growth of 7.5% in the second quarter of the fiscal year 2025-26.\n• The National Statistical Office (NSO) attributed this strong performance primarily to robust growth in the manufacturing and services sectors.\n• Agricultural output also showed steady growth, contributing positively to the overall economic momentum.\n• The figures indicate a resilient Indian economy amidst global uncertainties, supported by strong domestic demand and government capital expenditure.\n• Analysts project continued growth trajectory, albeit with potential challenges from global trade slowdowns and inflationary pressures.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Government Budgeting",
+        "Industrial policy"
+      ],
+      "date": "2025-12-20",
+      "source": "Ministry of Statistics and Programme Implementation",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "GDP growth",
+        "Indian economy",
+        "economic indicators",
+        "manufacturing sector",
+        "services sector",
+        "fiscal policy"
+      ],
+      "keyTerms": [
+        "Gross Domestic Product (GDP)",
+        "National Statistical Office (NSO)",
+        "Fiscal Year (FY)",
+        "Manufacturing Sector",
+        "Services Sector",
+        "Capital Expenditure"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "GDP: Total monetary or market value of all the finished goods and services produced within a country's borders in a specific time period.",
+        "NSO: Principal agency for statistical activities in India, under the Ministry of Statistics and Programme Implementation.",
+        "Key drivers of Indian economy: Agriculture, Industry (Manufacturing, Mining, Construction), Services.",
+        "Fiscal Year in India: April 1 to March 31.",
+        "Methods of GDP calculation: Expenditure method, Production method, Income method."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Factors contributing to growth: Government's infrastructure push (PM Gati Shakti), 'Make in India' initiatives, PLI schemes, resilient domestic consumption, formalization of economy.",
+        "Challenges to sustained growth: Global economic slowdown, geopolitical tensions, supply chain disruptions, inflation, unemployment, income inequality, climate change impact on agriculture.",
+        "Policy measures: Monetary policy (RBI actions on interest rates), fiscal policy (government spending, taxation), structural reforms (labor, land, financial sector).",
+        "Sectoral analysis: Discuss the performance of primary, secondary, and tertiary sectors and their interlinkages.",
+        "Comparison with global economies: India's position as a fast-growing major economy and its potential to become a USD 5 trillion economy."
+      ],
+      "imageDescription": "A graph showing an upward trend in economic growth, with various economic symbols like currency notes and factory icons.",
+      "section": "Economy",
+      "trivia": "India is projected to be the third-largest economy globally by 2030 in terms of GDP (nominal).",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "National Income",
+        "topic": "GDP and Economic Growth"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-asean-summit-maritime-digital",
+      "headline": "India-ASEAN Summit Concludes with Focus on Maritime Security and Digital Cooperation",
+      "explainer": "• The annual India-ASEAN Summit concluded with leaders reaffirming their commitment to a Comprehensive Strategic Partnership.\n• Key outcomes included enhanced cooperation in maritime security, disaster management, and robust digital connectivity.\n• Discussions focused on strengthening trade and investment ties, particularly through the early review of the ASEAN-India Free Trade Area (AIFTA).\n• India reiterated its support for ASEAN centrality in the Indo-Pacific region and emphasized shared values of peace and stability.\n• New initiatives were launched for capacity building in emerging technologies and fostering cultural exchanges.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "India and its neighborhood- relations"
+      ],
+      "date": "2025-12-20",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "India-ASEAN",
+        "Indo-Pacific",
+        "maritime security",
+        "digital cooperation",
+        "Act East Policy",
+        "regional cooperation"
+      ],
+      "keyTerms": [
+        "ASEAN (Association of Southeast Asian Nations)",
+        "Comprehensive Strategic Partnership",
+        "Indo-Pacific",
+        "Act East Policy",
+        "ASEAN-India Free Trade Area (AIFTA)",
+        "Maritime Domain Awareness"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ASEAN: Formed in 1967, comprises 10 Southeast Asian nations (Indonesia, Malaysia, Philippines, Singapore, Thailand, Brunei, Vietnam, Laos, Myanmar, Cambodia).",
+        "India's 'Act East Policy': Successor to 'Look East Policy', focusing on extended neighborhood in Asia-Pacific.",
+        "India-ASEAN relations: Upgraded to Comprehensive Strategic Partnership in 2022.",
+        "Pillars of cooperation: Political-Security, Economic, Socio-Cultural.",
+        "Significance of Indo-Pacific: Critical for global trade, security, and strategic competition."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Strategic importance of ASEAN for India: Gateway to the East, counterbalancing China's influence, enhancing regional security, economic integration.",
+        "Areas of cooperation: Trade and investment, connectivity (physical, digital, people-to-people), maritime security, counter-terrorism, disaster management, cultural exchange.",
+        "Challenges: China's assertive actions in the South China Sea, trade imbalances, slow progress on connectivity projects, internal diversity within ASEAN.",
+        "Future prospects: Deepening economic integration through AIFTA review, expanding cooperation in blue economy, renewable energy, and space technology.",
+        "India's role in Indo-Pacific: Promoting a free, open, and inclusive Indo-Pacific, adherence to international law, multilateralism, and regional stability."
+      ],
+      "imageDescription": "Leaders of India and ASEAN member states shaking hands and posing for a group photograph at a summit.",
+      "section": "International",
+      "trivia": "India is one of ASEAN's oldest Dialogue Partners, establishing relations in 1992.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Regional Groupings",
+        "topic": "India and ASEAN"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "green-hydrogen-mission-electrolyser-manufacturing",
+      "headline": "National Green Hydrogen Mission Achieves Significant Milestones in Electrolyser Manufacturing",
+      "explainer": "• India's National Green Hydrogen Mission has reported significant progress in scaling up domestic electrolyser manufacturing capabilities.\n• Several public and private sector entities have announced substantial investments in developing advanced electrolyser technologies and production facilities.\n• This advancement is crucial for reducing import dependence and achieving the mission's ambitious targets for green hydrogen production.\n• The government's Production Linked Incentive (PLI) schemes have played a pivotal role in encouraging indigenous manufacturing and technological innovation.\n• This progress positions India as a potential global hub for green hydrogen production and export, contributing to energy security and climate goals.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation",
+        "Indigenization of technology and developing new technology",
+        "Energy",
+        "Infrastructure"
+      ],
+      "date": "2025-12-20",
+      "source": "Ministry of New and Renewable Energy",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Green Hydrogen",
+        "National Green Hydrogen Mission",
+        "Electrolyser manufacturing",
+        "renewable energy",
+        "energy transition",
+        "PLI scheme"
+      ],
+      "keyTerms": [
+        "Green Hydrogen",
+        "Electrolysis",
+        "Electrolyser",
+        "Production Linked Incentive (PLI) Scheme",
+        "Renewable Energy",
+        "Energy Security"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Green Hydrogen Mission: Launched in 2023, aims to make India a global hub for green hydrogen production.",
+        "Green Hydrogen: Produced by electrolysis of water using renewable energy, resulting in zero greenhouse gas emissions.",
+        "Electrolyser: Device that uses electricity to split water into hydrogen and oxygen.",
+        "PLI Scheme: Government initiative to boost domestic manufacturing and reduce import bills.",
+        "Target: India aims to produce 5 million tonnes of green hydrogen annually by 2030."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Significance of Green Hydrogen: Decarbonization of hard-to-abate sectors (steel, fertilizers, refining), energy security, export potential, job creation, climate change mitigation.",
+        "Challenges: High production costs, technological advancements needed, infrastructure development (storage, transport), water availability for electrolysis.",
+        "Government initiatives: PLI scheme for electrolyser manufacturing and green hydrogen production, R&D support, policy framework for demand creation.",
+        "Role of private sector: Investments in manufacturing, technology development, project implementation.",
+        "India's potential: Abundant renewable energy resources, strategic location, skilled workforce, rapidly growing domestic market."
+      ],
+      "imageDescription": "A stylized graphic showing an electrolyser splitting water molecules into hydrogen and oxygen, powered by wind turbines and solar panels.",
+      "section": "Environment",
+      "trivia": "Hydrogen has the highest energy content per unit of weight among all known fuels.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Energy",
+        "topic": "Renewable Energy and Green Hydrogen"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "isro-cartosat-4-earth-observation",
+      "headline": "ISRO Successfully Launches 'Cartosat-4' for Enhanced Earth Observation Capabilities",
+      "explainer": "• The Indian Space Research Organisation (ISRO) has successfully launched the 'Cartosat-4' satellite aboard the PSLV-C58 rocket.\n• Cartosat-4 is an advanced Earth observation satellite designed to provide high-resolution imagery for urban planning, disaster management, and resource mapping.\n• This mission further enhances India's indigenous capabilities in remote sensing and geospatial technology applications.\n• The data from Cartosat-4 will be crucial for various government initiatives, including smart cities, agricultural monitoring, and border surveillance.\n• The launch underscores ISRO's consistent efforts to provide cutting-edge space-based services for national development.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology",
+        "Indigenization of technology and developing new technology",
+        "Space",
+        "Awareness in the fields of Space"
+      ],
+      "date": "2025-12-20",
+      "source": "ISRO",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "ISRO",
+        "Cartosat-4",
+        "Earth Observation",
+        "PSLV",
+        "remote sensing",
+        "geospatial technology"
+      ],
+      "keyTerms": [
+        "ISRO (Indian Space Research Organisation)",
+        "PSLV (Polar Satellite Launch Vehicle)",
+        "Earth Observation Satellite",
+        "Remote Sensing",
+        "Geospatial Technology",
+        "Urban Planning"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Cartosat series: A series of Earth observation satellites launched by ISRO, primarily for cartography and remote sensing services.",
+        "PSLV: India's versatile workhorse launch vehicle, capable of placing satellites into various orbits.",
+        "Applications of Earth Observation satellites: Cartography, urban and rural planning, coastal land use and regulation, utility management, disaster management, environmental impact assessment, agriculture.",
+        "Remote Sensing: The process of detecting and monitoring the physical characteristics of an area by measuring its reflected and emitted radiation at a distance from the target."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Contribution of ISRO to national development: Providing critical data for governance, disaster management, agriculture, security, and scientific research.",
+        "Strategic importance of indigenous space capabilities: Enhancing self-reliance, reducing dependence on foreign sources, dual-use applications (civilian and defense).",
+        "Economic impact of space technology: Growth of space-tech startups, job creation, commercialization of space services.",
+        "Challenges in space sector: Funding constraints, competition from private players, space debris management, international collaborations and regulations.",
+        "Future of Indian space program: Gaganyaan mission, Shukrayaan (Venus mission), Chandrayaan follow-ups, development of next-generation launch vehicles."
+      ],
+      "imageDescription": "A rocket launching into space, with the text 'ISRO' and 'Cartosat-4' superimposed, against a backdrop of Earth.",
+      "section": "Science",
+      "trivia": "India is one of only a few countries with indigenous capabilities to launch and operate Earth observation satellites.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space Technology",
+        "topic": "ISRO Missions and Applications"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "sreenivasan-passes-away",
+      "headline": "Veteran Actor, Director, and Screenwriter Sreenivasan Passes Away at 69",
+      "explainer": "• Noted Malayalam film personality Sreenivasan, a versatile actor, director, and screenwriter, passed away at the age of 69.\n• He was celebrated for his unique brand of satirical humor and realistic portrayals, often reflecting societal issues in his works.\n• Sreenivasan's contributions to Malayalam cinema include acclaimed films like 'Vadakkunokkiyantram' and 'Chinthavishtayaya Shyamala'.\n• His passing marks the end of an era for a significant voice in South Indian cinema, leaving behind a rich legacy of impactful storytelling.\n• He was a recipient of multiple national and state awards, recognized for his profound influence on the industry.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Role of Indian cinema in society"
+      ],
+      "date": "2025-12-20",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Sreenivasan",
+        "Malayalam cinema",
+        "Indian cinema",
+        "Art & Culture",
+        "film personality",
+        "screenwriter"
+      ],
+      "keyTerms": [
+        "Malayalam Cinema",
+        "National Film Awards",
+        "State Film Awards",
+        "Satire",
+        "Realistic Cinema"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Sreenivasan: Prominent figure in Malayalam cinema (Kerala).",
+        "Key works as director/writer: 'Vadakkunokkiyantram', 'Chinthavishtayaya Shyamala', 'Sandesham'.",
+        "Awards: Several National Film Awards and Kerala State Film Awards for acting, screenwriting, and direction.",
+        "Contribution: Known for infusing social commentary and satire into mainstream cinema."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Role of regional cinema in reflecting society: How Malayalam cinema, through artists like Sreenivasan, has mirrored social changes, critiqued norms, and promoted progressive ideas.",
+        "Impact of satire in cinema: Discuss how humor and satire can be effective tools for social commentary and public awareness.",
+        "Evolution of Indian cinema: Analyze the contributions of versatile artists who excel in multiple roles (acting, directing, writing) and their influence on filmmaking.",
+        "Preservation of cinematic heritage: Importance of recognizing and archiving works of influential filmmakers for future generations.",
+        "Cultural significance of cinema: How films shape public discourse, preserve regional identities, and contribute to national culture."
+      ],
+      "imageDescription": "A black and white portrait of veteran actor Sreenivasan, smiling thoughtfully.",
+      "section": "National",
+      "trivia": "Sreenivasan began his career in the mid-1970s and became one of Malayalam cinema's most respected and popular figures.",
+      "prelimsSyllabus": {
+        "subject": "Art & Culture",
+        "area": "Indian Cinema",
+        "topic": "Notable Personalities"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "indian-army-advanced-surveillance-northern-borders",
+      "headline": "Indian Army Deploys Advanced Surveillance Systems Along Northern Borders",
+      "explainer": "• The Indian Army has significantly upgraded its surveillance capabilities along the northern borders with the deployment of advanced indigenous systems.\n• These systems include long-range reconnaissance equipment, high-altitude drones, and AI-powered sensor networks for real-time intelligence gathering.\n• The move aims to enhance situational awareness, detect infiltrations, and respond swiftly to any border transgressions.\n• This strategic enhancement is part of India's broader efforts to modernize its defense infrastructure and bolster national security.\n• The new technology also facilitates better coordination with other security forces and reduces the risks faced by ground troops.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism",
+        "Various Security forces and agencies and their mandate",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-12-20",
+      "source": "Ministry of Defence",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Border Security",
+        "Indian Army",
+        "Surveillance Technology",
+        "Northern Borders",
+        "Defense Modernization",
+        "National Security"
+      ],
+      "keyTerms": [
+        "Line of Actual Control (LAC)",
+        "Border Management",
+        "Surveillance Systems",
+        "Drones",
+        "Artificial Intelligence (AI)",
+        "Situational Awareness"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Northern Borders: Primarily refers to the India-China border (LAC) and parts of India-Pakistan border (LoC).",
+        "Types of surveillance technology: Electro-optical sensors, thermal imagers, radars, high-altitude long endurance (HALE) drones, AI-powered analytics.",
+        "Objective: Enhance deterrence, prevent infiltration, provide early warning, improve response time.",
+        "Border infrastructure development: Alongside surveillance, India is rapidly building roads, tunnels, and bridges in border areas.",
+        "Integrated Border Management System (IBMS): A comprehensive system for smart border management."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Challenges in border management: Difficult terrain, harsh weather, cross-border terrorism, illegal migration, territorial disputes, technological gaps.",
+        "Importance of technology in border security: Provides real-time intelligence, reduces human exposure to risk, enhances accuracy and speed of detection, enables proactive responses.",
+        "Role of indigenous defense production: Fosters self-reliance (Atmanirbhar Bharat), reduces import dependence, boosts domestic defense industry.",
+        "Impact on strategic posture: Strengthens India's defensive and deterrent capabilities, ensures territorial integrity, contributes to regional stability.",
+        "Ethical considerations: Balancing surveillance with privacy concerns, data security, and potential for misuse of advanced technologies."
+      ],
+      "imageDescription": "Soldiers operating advanced surveillance equipment in a snowy, mountainous border region.",
+      "section": "Security",
+      "trivia": "India's northern borders include some of the highest and most challenging terrains in the world.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "Border Management",
+        "topic": "Technology in Border Security"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "pm-poshan-2-0-breakfast-scheme",
+      "headline": "PM-POSHAN 2.0 Scheme Expanded to Include Breakfast for Primary Students",
+      "explainer": "• The Union Cabinet has approved a significant expansion of the PM-POSHAN 2.0 scheme to include a morning breakfast component for all primary school students.\n• This initiative aims to improve nutritional outcomes, enhance school enrollment, and reduce dropout rates among young children.\n• The breakfast will be a nutritious, locally sourced meal, complementing the existing mid-day meal program.\n• The expansion is expected to address hidden hunger and improve cognitive development in children, particularly from vulnerable sections of society.\n• States and Union Territories will be encouraged to implement the program with community participation and focus on local food preferences.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources"
+      ],
+      "date": "2025-12-20",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "PM-POSHAN",
+        "Mid-Day Meal Scheme",
+        "Child Nutrition",
+        "Education",
+        "Social Welfare",
+        "Government Scheme"
+      ],
+      "keyTerms": [
+        "PM-POSHAN Scheme",
+        "Mid-Day Meal Scheme",
+        "Primary Education",
+        "Nutritional Security",
+        "Food Security",
+        "Human Resource Development"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "PM-POSHAN Scheme (Pradhan Mantri Poshan Shakti Nirman): Successor to the Mid-Day Meal Scheme, launched in 2021.",
+        "Objective: Provide hot cooked meals to school children, improve nutritional status, encourage attendance.",
+        "Coverage: Pre-primary (Bal Vatika) to Class VIII in government and government-aided schools.",
+        "New component: Morning breakfast for primary students (Class I-V).",
+        "Funding: Central Sector Scheme with cost-sharing between Centre and States."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Importance of school meal programs: Addresses malnutrition, improves learning outcomes, promotes social equity, provides employment to women (cook-cum-helpers).",
+        "Impact of breakfast: Enhances concentration, reduces early morning hunger, improves energy levels for learning, boosts overall health.",
+        "Challenges in implementation: Quality control, hygiene, logistics, community participation, financial sustainability, regional disparities.",
+        "Role of local foods: Promoting local agriculture, dietary diversity, cultural relevance, and community ownership.",
+        "Linkage with SDGs: Contributes to SDG 2 (Zero Hunger) and SDG 4 (Quality Education)."
+      ],
+      "imageDescription": "Children in a school uniform happily eating a meal in a classroom, with a teacher supervising.",
+      "section": "National",
+      "trivia": "The Mid-Day Meal Scheme (now PM-POSHAN) is one of the world's largest school feeding programs.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Welfare Schemes",
+        "topic": "Child Nutrition and Education"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-maintains-repo-rate",
+      "headline": "RBI Maintains Repo Rate at 6.5%, Citing Inflationary Concerns Amidst Growth Momentum",
+      "explainer": "• The Reserve Bank of India's (RBI) Monetary Policy Committee (MPC) has decided to keep the benchmark repo rate unchanged at 6.5%.\n• This decision comes amidst persistent inflationary pressures, particularly in food prices, despite robust economic growth.\n• The MPC reiterated its commitment to 'withdrawal of accommodation' to ensure inflation aligns with the target while supporting growth.\n• The move reflects a cautious approach by the central bank to manage liquidity and maintain financial stability in the economy.\n• Market analysts largely anticipated the decision, indicating the RBI's consistent stance on balancing growth with price stability.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Monetary Policy",
+        "Inflation"
+      ],
+      "date": "2025-12-20",
+      "source": "Reserve Bank of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "RBI",
+        "Repo Rate",
+        "Monetary Policy",
+        "Inflation",
+        "Economic Growth",
+        "Financial Stability"
+      ],
+      "keyTerms": [
+        "Repo Rate",
+        "Monetary Policy Committee (MPC)",
+        "Inflation Targeting",
+        "Withdrawal of Accommodation",
+        "Reverse Repo Rate",
+        "Cash Reserve Ratio (CRR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Repo Rate: Rate at which RBI lends money to commercial banks in case of any shortfall of funds.",
+        "Monetary Policy Committee (MPC): Six-member committee (3 RBI, 3 GoI) responsible for setting the policy repo rate to achieve the inflation target.",
+        "Inflation Target: RBI's mandate is to maintain retail inflation at 4% with a band of +/- 2%.",
+        "Withdrawal of Accommodation: A stance indicating the central bank intends to reduce liquidity from the system.",
+        "Other policy rates: Reverse Repo Rate, Marginal Standing Facility (MSF) Rate, Bank Rate, CRR, SLR."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Objectives of monetary policy: Price stability (primary), supporting economic growth, maintaining financial stability.",
+        "Impact of repo rate changes: Affects lending rates, borrowing costs, investment, consumption, and overall economic activity.",
+        "Challenges for RBI: Balancing inflation control with growth support, managing global spillovers, liquidity management, ensuring credit flow to productive sectors.",
+        "Food inflation: Discuss the structural and seasonal factors contributing to food price volatility and its impact on headline inflation.",
+        "Role of MPC: Discuss its independence, decision-making process, and effectiveness in achieving its mandate."
+      ],
+      "imageDescription": "A close-up of a stack of Indian Rupee currency notes with a magnifying glass over a financial chart, symbolizing economic policy decisions.",
+      "section": "Economy",
+      "trivia": "The Monetary Policy Committee was established in 2016 under the RBI Act, 1934, for inflation targeting.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI and Inflation"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "panna-satpura-tiger-corridor",
+      "headline": "New 'Panna-Satpura Corridor' Proposed for Enhanced Tiger Movement and Conservation",
+      "explainer": "• A new wildlife corridor connecting Panna Tiger Reserve and Satpura Tiger Reserve in Madhya Pradesh has been proposed to facilitate tiger movement.\n• The initiative aims to create a contiguous habitat for tigers, crucial for genetic diversity and long-term conservation efforts.\n• The corridor will involve careful land-use planning, forest restoration, and mitigating human-wildlife conflict in the intervening areas.\n• This proposal is part of India's ambitious Project Tiger, seeking to expand and secure tiger habitats across the country.\n• The success of such corridors is vital for ensuring the ecological health of tiger populations and their prey base.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Biodiversity"
+      ],
+      "date": "2025-12-20",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Tiger Conservation",
+        "Wildlife Corridor",
+        "Panna Tiger Reserve",
+        "Satpura Tiger Reserve",
+        "Project Tiger",
+        "Biodiversity"
+      ],
+      "keyTerms": [
+        "Tiger Reserve",
+        "Wildlife Corridor",
+        "Genetic Diversity",
+        "Habitat Fragmentation",
+        "Project Tiger",
+        "Conservation Biology"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Panna Tiger Reserve: Located in Madhya Pradesh, known for its successful tiger reintroduction program.",
+        "Satpura Tiger Reserve: Also in Madhya Pradesh, part of the larger Satpura-Maikal landscape.",
+        "Wildlife Corridor: Connects fragmented habitats, allowing animals to move between protected areas, crucial for genetic exchange and population viability.",
+        "Project Tiger: Launched in 1973, a flagship conservation program for the Bengal tiger.",
+        "Madhya Pradesh: Known as the 'Tiger State' of India, with the highest tiger population."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Importance of wildlife corridors: Facilitate gene flow, prevent inbreeding, allow species to adapt to climate change, reduce human-wildlife conflict by providing safe passage.",
+        "Challenges in corridor creation: Land acquisition, human displacement, habitat degradation, poaching, infrastructure development (roads, railways).",
+        "Strategies for effective corridor management: Community engagement, eco-development, habitat restoration, anti-poaching measures, sustainable land use.",
+        "Role of Project Tiger: Its success in increasing tiger numbers, but also challenges in managing growing populations and their habitats.",
+        "Ecological benefits: Maintaining healthy predator-prey dynamics, preserving ecosystem services, promoting forest health."
+      ],
+      "imageDescription": "A majestic tiger walking through a dense forest, with a blurred background suggesting a vast natural habitat.",
+      "section": "Environment",
+      "trivia": "India is home to over 70% of the world's wild tiger population.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Biodiversity",
+        "topic": "Tiger Conservation and Wildlife Corridors"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-equitable-climate-finance-pre-cop30",
+      "headline": "India Calls for Equitable Climate Finance at Pre-COP30 Talks",
+      "explainer": "• India reiterated its demand for equitable and enhanced climate finance from developed nations at the preparatory talks for COP30.\n• The Indian delegation emphasized the need for developed countries to fulfill their commitments, including the USD 100 billion annual target, and scale up financial support for adaptation and mitigation in developing countries.\n• India highlighted the principle of Common but Differentiated Responsibilities and Respective Capabilities (CBDR-RC) in climate action.\n• The discussions focused on setting a new collective quantified goal (NCQG) for climate finance post-2025, which is a major agenda item for COP30.\n• India stressed that ambitious climate action by developing nations is contingent upon adequate financial and technological support.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate",
+        "Environmental pollution and degradation"
+      ],
+      "date": "2025-12-20",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Climate Finance",
+        "COP30",
+        "CBDR-RC",
+        "Climate Change",
+        "International Negotiations",
+        "Developing Countries"
+      ],
+      "keyTerms": [
+        "Climate Finance",
+        "COP (Conference of the Parties)",
+        "Common but Differentiated Responsibilities and Respective Capabilities (CBDR-RC)",
+        "New Collective Quantified Goal (NCQG)",
+        "Adaptation",
+        "Mitigation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "COP30: Scheduled for 2025 in Brazil, aims to finalize the NCQG for climate finance.",
+        "CBDR-RC: A principle in international environmental law acknowledging different capabilities and historical responsibilities of states in addressing climate change.",
+        "USD 100 billion commitment: Developed countries pledged to mobilize USD 100 billion annually by 2020 for developing countries, a target often unmet.",
+        "Adaptation: Actions to adjust to actual or expected climate and its effects (e.g., sea walls, drought-resistant crops).",
+        "Mitigation: Actions to reduce greenhouse gas emissions (e.g., renewable energy, energy efficiency)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Importance of climate finance for developing countries: Essential for transitioning to low-carbon economies, building resilience to climate impacts, achieving national climate targets.",
+        "Challenges in climate finance: Insufficient funds, lack of transparency, difficulty in accessing funds, focus on mitigation over adaptation, definition of 'new and additional'.",
+        "India's stance: Emphasizing historical responsibility, equity, technology transfer, and capacity building, while pursuing its own ambitious climate goals.",
+        "Role of international forums: Discuss the effectiveness of UNFCCC and COPs in mobilizing finance and achieving global climate justice.",
+        "Implications of NCQG: Its potential to reshape global climate cooperation, provide predictability for developing countries, and accelerate global climate action."
+      ],
+      "imageDescription": "A globe with a protective shield, surrounded by hands from different countries, symbolizing international efforts in climate finance.",
+      "section": "International",
+      "trivia": "India is the world's third-largest emitter of greenhouse gases but has one of the lowest per capita emissions among major economies.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Climate Change",
+        "topic": "International Conventions and Climate Finance"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "ai-diagnostic-tools-rural-healthcare",
+      "headline": "AI-Powered Diagnostic Tools Launched for Rural Healthcare in India",
+      "explainer": "• The Ministry of Health and Family Welfare, in collaboration with tech firms, has launched AI-powered diagnostic tools for primary healthcare centers in rural areas.\n• These tools leverage artificial intelligence to assist doctors in early detection and accurate diagnosis of common diseases, including non-communicable diseases.\n• The initiative aims to bridge the healthcare accessibility gap in remote regions where specialist medical expertise is often scarce.\n• Training programs for rural healthcare workers are underway to ensure effective utilization and integration of these new technologies.\n• This marks a significant step towards leveraging technology to improve public health outcomes and strengthen the rural healthcare infrastructure.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Issues relating to development and management of Social Sector/Services relating to Health"
+      ],
+      "date": "2025-12-20",
+      "source": "Ministry of Health and Family Welfare",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "AI in Healthcare",
+        "Rural Healthcare",
+        "Digital Health",
+        "Public Health",
+        "Technology for Development",
+        "Primary Healthcare"
+      ],
+      "keyTerms": [
+        "Artificial Intelligence (AI)",
+        "Diagnostic Tools",
+        "Primary Healthcare Centers (PHCs)",
+        "Non-Communicable Diseases (NCDs)",
+        "Telemedicine",
+        "Digital Health Mission"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "AI applications in healthcare: Image analysis (radiology, pathology), predictive analytics, drug discovery, remote monitoring, diagnostic assistance.",
+        "Primary Healthcare Centers (PHCs): First point of contact in India's healthcare delivery system, especially in rural areas.",
+        "Non-Communicable Diseases (NCDs): Diseases like diabetes, hypertension, cardiovascular diseases, cancer, a growing burden in India.",
+        "National Digital Health Mission (NDHM): Aims to create a national digital health ecosystem, including digital health IDs and telemedicine.",
+        "Benefits: Improved accuracy, faster diagnosis, reduced burden on specialists, increased access to quality care."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Potential of AI in Indian healthcare: Addressing shortage of specialists, improving early detection, reducing healthcare costs, enhancing patient outcomes, personalized medicine.",
+        "Challenges of AI implementation in rural areas: Digital literacy, infrastructure (internet connectivity, electricity), data privacy and security, ethical considerations, cost of technology.",
+        "Government initiatives: Ayushman Bharat Digital Mission, e-Sanjeevani (telemedicine), promotion of AI startups in health tech.",
+        "Role of public-private partnership: Collaborations between government, tech companies, and healthcare providers for sustainable solutions.",
+        "Ethical implications: Bias in AI algorithms, accountability for diagnostic errors, patient data protection, human oversight vs. automation."
+      ],
+      "imageDescription": "A doctor in a rural clinic examining a patient, with a tablet displaying AI-powered diagnostic insights on the side.",
+      "section": "Science",
+      "trivia": "India's rural population constitutes over 65% of its total population, making rural healthcare a critical focus.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Information Technology",
+        "topic": "AI and its Applications"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "niti-aayog-child-marriage-decline",
+      "headline": "NITI Aayog Report Highlights Significant Decline in Child Marriage Incidence",
+      "explainer": "• A recent report by NITI Aayog indicates a significant decline in the incidence of child marriage across India over the past decade.\n• The report attributes this positive trend to increased girls' education, government welfare schemes, and sustained awareness campaigns.\n• States with historically high rates have shown remarkable progress, contributing to the national average reduction.\n• While acknowledging progress, the report also points out persistent regional disparities and the need for continued efforts to eradicate the practice entirely.\n• The findings underscore the effectiveness of multi-pronged approaches involving legal enforcement, social empowerment, and economic upliftment.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Role of women and women’s organization",
+        "Social empowerment",
+        "Population and associated issues"
+      ],
+      "date": "2025-12-20",
+      "source": "NITI Aayog",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Child Marriage",
+        "Girls' Education",
+        "Social Empowerment",
+        "NITI Aayog",
+        "Women's Rights",
+        "Demographic Dividend"
+      ],
+      "keyTerms": [
+        "Child Marriage",
+        "NITI Aayog",
+        "Prohibition of Child Marriage Act (2006)",
+        "Adolescent Girls",
+        "Gender Equality",
+        "Sustainable Development Goals (SDGs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Legal age of marriage in India: 18 for females, 21 for males (as per Prohibition of Child Marriage Act, 2006).",
+        "Factors contributing to decline: Increased female literacy, access to education, economic empowerment, government schemes (e.g., Beti Bachao Beti Padhao), awareness campaigns.",
+        "Consequences of child marriage: Health risks (early pregnancy), maternal and infant mortality, lack of education, poverty cycle, domestic violence.",
+        "SDG 5 (Gender Equality): Target 5.3 aims to eliminate all harmful practices, such as child, early and forced marriage.",
+        "NITI Aayog: Premier policy 'Think Tank' of the Government of India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Socio-economic factors driving child marriage: Poverty, lack of education, patriarchal norms, traditional beliefs, insecurity, lack of awareness about legal provisions.",
+        "Impact of child marriage on women and society: Health implications, educational deprivation, economic disempowerment, perpetuation of gender inequality, demographic challenges.",
+        "Government strategies: Legislative measures (PCMA), welfare schemes (Sukanya Samriddhi Yojana), awareness campaigns, community mobilization, strengthening of institutional mechanisms.",
+        "Role of education: How girls' education acts as a powerful deterrent to child marriage and empowers them economically and socially.",
+        "Challenges ahead: Addressing regional disparities, cultural resistance, ensuring effective implementation of laws, supporting vulnerable communities."
+      ],
+      "imageDescription": "A group of young girls in school uniforms walking together, smiling, symbolizing the power of education.",
+      "section": "Society",
+      "trivia": "India accounts for one of the highest numbers of child brides globally, though rates have been falling steadily.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Women and Society",
+        "topic": "Child Marriage and Women Empowerment"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "lokpal-annual-report-whistleblower",
+      "headline": "Lokpal Annual Report Recommends Strengthening Whistleblower Protection Framework",
+      "explainer": "• The Lokpal of India, in its annual report, has recommended significant strengthening of the existing whistleblower protection framework.\n• The report highlighted gaps in the current Whistleblowers Protection Act, 2014, particularly concerning implementation and punitive measures for victimization.\n• It called for greater clarity on the process of receiving and investigating complaints, and ensuring the safety and anonymity of whistleblowers.\n• The recommendations aim to foster a more transparent and accountable governance system by encouraging reporting of corruption.\n• The Lokpal emphasized the crucial role of whistleblowers in combating corruption and maladministration.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Transparency and accountability and institutional and other measures",
+        "Statutory, regulatory and various quasi-judicial bodies"
+      ],
+      "date": "2025-12-20",
+      "source": "Lokpal of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Lokpal",
+        "Whistleblower Protection",
+        "Anti-corruption",
+        "Governance",
+        "Transparency",
+        "Accountability"
+      ],
+      "keyTerms": [
+        "Lokpal",
+        "Whistleblower",
+        "Whistleblowers Protection Act, 2014",
+        "Corruption",
+        "Maladministration",
+        "Accountability"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Lokpal: An anti-corruption authority or body of ombudsman who represents the public interest in the Republic of India.",
+        "Whistleblowers Protection Act, 2014: Enacted to protect whistleblowers and establish a mechanism to inquire into complaints relating to corruption.",
+        "Jurisdiction of Lokpal: Covers Prime Minister, Ministers, MPs, and officials of Central Government (Groups A, B, C, D).",
+        "Key issues in Act: Lack of protection for anonymous complaints, delay in establishing rules, limited scope of protection.",
+        "Role of whistleblowers: Expose corruption, fraud, waste, and abuse within organizations."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Importance of whistleblower protection: Encourages reporting of wrongdoing, promotes transparency, strengthens governance, deters corruption, protects public interest.",
+        "Challenges in current framework: Inadequate protection from victimization, delays in investigation, lack of awareness, fear of reprisal, limited legal recourse.",
+        "Recommendations: Strengthen legal safeguards, ensure anonymity, expedite investigations, impose stringent penalties for victimization, raise public awareness, establish a dedicated support system.",
+        "Role of Lokpal: As an independent body, its role in upholding ethics, investigating corruption, and recommending systemic reforms.",
+        "Global best practices: Compare India's framework with international standards for whistleblower protection (e.g., UN Convention Against Corruption)."
+      ],
+      "imageDescription": "A person blowing a whistle, with a silhouette of a justice scale in the background, symbolizing anti-corruption efforts.",
+      "section": "National",
+      "trivia": "The concept of an ombudsman (Lokpal) in India was first advocated by Law Minister Ashok Kumar Sen in Parliament in the early 1960s.",
+      "prelimsSyllabus": {
+        "subject": "Polity",
+        "area": "Governance",
+        "topic": "Anti-Corruption Institutions"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "urban-flood-mitigation-plan-major-cities",
+      "headline": "Urban Flood Mitigation Plan Rolled Out in Major Cities",
+      "explainer": "• The Ministry of Urban Development has initiated a comprehensive Urban Flood Mitigation Plan across several major Indian cities prone to recurrent flooding.\n• The plan integrates smart technologies, improved drainage infrastructure, and early warning systems to enhance urban resilience.\n• It emphasizes sustainable urban planning, including rainwater harvesting, permeable surfaces, and rejuvenation of natural water bodies.\n• The initiative aims to minimize economic losses, protect lives, and ensure continuity of essential services during extreme weather events.\n• Collaboration between municipal corporations, disaster management authorities, and local communities is a key component for effective implementation.",
+      "category": "geography",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes",
+        "Disaster and disaster management"
+      ],
+      "date": "2025-12-20",
+      "source": "Ministry of Urban Development",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Urban Flooding",
+        "Disaster Management",
+        "Urban Planning",
+        "Climate Resilience",
+        "Smart Cities",
+        "Infrastructure"
+      ],
+      "keyTerms": [
+        "Urban Flooding",
+        "Disaster Mitigation",
+        "Drainage Infrastructure",
+        "Rainwater Harvesting",
+        "Permeable Surfaces",
+        "Early Warning Systems"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Causes of urban flooding: Intense rainfall, inadequate drainage, encroachment on floodplains, climate change, poor waste management, concretization.",
+        "Impacts: Loss of life, property damage, disruption of transport and essential services, public health risks, economic losses.",
+        "Mitigation measures: Integrated urban water management, smart drainage systems, blue-green infrastructure (parks, ponds, wetlands), flood-resistant building codes.",
+        "National Disaster Management Authority (NDMA): Apex body for disaster management in India.",
+        "Smart Cities Mission: Aims to promote cities that provide core infrastructure and give a decent quality of life to its citizens, a clean and sustainable environment."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Challenges in urban flood management: Rapid urbanization, informal settlements, climate change impacts (extreme weather), lack of inter-agency coordination, citizen apathy.",
+        "Role of sustainable urban planning: Incorporating ecological principles, preserving natural drainage systems, promoting green infrastructure, developing flood-resilient communities.",
+        "Technological solutions: Real-time monitoring, weather forecasting, GIS mapping, AI-based predictive models for flood risk assessment and early warning.",
+        "Community participation: Importance of public awareness, preparedness, and local involvement in maintaining drainage systems and reporting issues.",
+        "Policy recommendations: Strengthening building codes, regulating construction in flood-prone areas, ensuring enforcement of environmental laws, adequate funding for infrastructure upgrade."
+      ],
+      "imageDescription": "A flooded city street with cars partially submerged, while essential services personnel work to clear water.",
+      "section": "National",
+      "trivia": "Mumbai's 2005 floods, caused by 944 mm of rain in 24 hours, highlighted the vulnerability of Indian megacities to urban flooding.",
+      "prelimsSyllabus": {
+        "subject": "Geography",
+        "area": "Disaster Management",
+        "topic": "Urban Flooding"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-industrial-corridors-pm-gati-shakti",
+      "headline": "Government Approves New Industrial Corridors Under PM Gati Shakti Master Plan",
+      "explainer": "• The Union Cabinet has given its approval for the development of several new industrial corridors, integrated under the PM Gati Shakti National Master Plan.\n• These corridors aim to boost manufacturing, enhance logistics efficiency, and attract domestic and foreign investments across key economic regions.\n• The projects will leverage multimodal connectivity, combining road, rail, air, and waterways infrastructure for seamless movement of goods and raw materials.\n• This strategic initiative is designed to reduce logistics costs, improve industrial competitiveness, and create significant employment opportunities.\n• The new corridors are expected to accelerate regional development and contribute significantly to India's goal of becoming a global manufacturing hub.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Investment models"
+      ],
+      "date": "2025-12-20",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Industrial Corridors",
+        "PM Gati Shakti",
+        "Infrastructure Development",
+        "Manufacturing",
+        "Logistics",
+        "Economic Growth"
+      ],
+      "keyTerms": [
+        "Industrial Corridor",
+        "PM Gati Shakti National Master Plan",
+        "Multimodal Connectivity",
+        "Logistics Cost",
+        "Manufacturing Hub",
+        "Special Economic Zones (SEZs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "PM Gati Shakti National Master Plan: Launched in 2021, a digital platform to bring 16 ministries together for integrated planning and coordinated implementation of infrastructure connectivity projects.",
+        "Industrial Corridors: Planned infrastructure networks connecting industrial production centers with ports and other major logistical hubs.",
+        "Objectives: Reduce logistics costs, improve efficiency, enhance competitiveness of Indian goods, attract investment, create jobs.",
+        "Key existing corridors: Delhi-Mumbai Industrial Corridor (DMIC), Bengaluru-Mumbai Economic Corridor (BMEC), Amritsar-Kolkata Industrial Corridor (AKIC).",
+        "Multimodal connectivity: Integration of different modes of transport (road, rail, air, water) for efficient freight movement."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Significance of industrial corridors: Facilitate industrial development, promote regional balance, boost exports, create manufacturing clusters, improve ease of doing business.",
+        "Role of PM Gati Shakti: Overcoming departmental silos, optimizing resource utilization, accelerating project implementation, enhancing data-driven decision making in infrastructure planning.",
+        "Economic impact: Contribution to GDP, foreign direct investment (FDI), employment generation, development of ancillary industries, urbanization.",
+        "Challenges: Land acquisition, environmental clearances, funding constraints, inter-state coordination, ensuring equitable regional development.",
+        "Sustainability aspects: Integrating green logistics, renewable energy, and sustainable industrial practices within corridor development."
+      ],
+      "imageDescription": "An aerial view of a modern industrial complex with interconnected roads, railways, and factories, symbolizing economic development.",
+      "section": "Economy",
+      "trivia": "India's logistics cost as a percentage of GDP is significantly higher than developed economies, making efficient corridors crucial.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Infrastructure",
+        "topic": "Industrial Corridors and Logistics"
+      },
+      "prelimsPotential": 4
+    }
+  ],
+  "highlights": [
+    "Rajdhani Express derails in Assam, causing the deaths of seven Asiatic elephants and highlighting human-wildlife conflict.",
+    "Supreme Court upholds key provisions of the Digital Personal Data Protection Act, strengthening India's data governance framework.",
+    "India's Q2 FY26 GDP registers robust 7.5% growth, driven by strong manufacturing and services sectors.",
+    "India-ASEAN Summit concludes with renewed focus on maritime security and digital cooperation, boosting regional ties.",
+    "National Green Hydrogen Mission achieves significant milestones in domestic electrolyser manufacturing, paving way for energy transition."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the Digital Personal Data Protection Act (DPDPA), 2023, consider the following statements:\n1. It defines 'Data Fiduciary' as any person who determines the purpose and means of processing personal data.\n2. The Act mandates that consent for processing personal data must be explicit and informed.\n3. The Data Protection Board of India is established as an independent body to adjudicate disputes under the Act.\nWhich of the statements given above are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(d) 1, 2 and 3",
+      "explanation": "All three statements are correct. The DPDPA, 2023, is India's comprehensive data protection law. It clearly defines a 'Data Fiduciary' (Statement 1) and emphasizes explicit and informed consent (Statement 2). The Data Protection Board of India is indeed established as an independent body to enforce the Act's provisions and adjudicate disputes (Statement 3)."
+    },
+    {
+      "question": "Which of the following statements about 'Green Hydrogen' is/are correct?\n1. It is produced by splitting water using renewable energy sources.\n2. The process of producing green hydrogen results in significant greenhouse gas emissions.\n3. Electrolysers are devices used to produce green hydrogen.\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 3 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 3 only",
+      "explanation": "Statement 1 is correct: Green hydrogen is produced through electrolysis of water using renewable energy, making it a clean fuel. Statement 2 is incorrect: The defining characteristic of green hydrogen is that its production process results in zero greenhouse gas emissions. Statement 3 is correct: Electrolysers are the devices that perform electrolysis, splitting water into hydrogen and oxygen."
+    },
+    {
+      "question": "Consider the following pairs regarding Tiger Reserves and their respective states:\n1. Panna Tiger Reserve : Madhya Pradesh\n2. Satpura Tiger Reserve : Maharashtra\n3. Bandipur Tiger Reserve : Karnataka\nHow many of the above pairs are correctly matched?",
+      "options": [
+        "(a) Only one pair",
+        "(b) Only two pairs",
+        "(c) All three pairs",
+        "(d) None of the pairs"
+      ],
+      "answer": "(b) Only two pairs",
+      "explanation": "Pair 1 (Panna Tiger Reserve : Madhya Pradesh) is correctly matched. Pair 2 (Satpura Tiger Reserve : Maharashtra) is incorrectly matched; Satpura Tiger Reserve is located in Madhya Pradesh. Pair 3 (Bandipur Tiger Reserve : Karnataka) is correctly matched. Therefore, only two pairs are correctly matched."
+    },
+    {
+      "question": "Which of the following statements best describes the 'Repo Rate' as determined by the Reserve Bank of India (RBI)?",
+      "options": [
+        "(a) The rate at which commercial banks lend money to the RBI.",
+        "(b) The rate at which the RBI lends money to commercial banks in case of a shortfall of funds.",
+        "(c) The rate at which commercial banks lend money to their customers.",
+        "(d) The rate at which the RBI borrows from the government."
+      ],
+      "answer": "(b) The rate at which the RBI lends money to commercial banks in case of a shortfall of funds.",
+      "explanation": "The Repo Rate is the rate at which the Reserve Bank of India (RBI) lends money to commercial banks against the pledge of government securities. This is a key monetary policy tool used by the RBI to control inflation and manage liquidity in the economy."
+    },
+    {
+      "question": "The 'Act East Policy' of India is an evolution of which earlier foreign policy initiative?",
+      "options": [
+        "(a) Non-Aligned Movement",
+        "(b) Look West Policy",
+        "(c) Look East Policy",
+        "(d) Connect Central Asia Policy"
+      ],
+      "answer": "(c) Look East Policy",
+      "explanation": "India's 'Act East Policy' is a significant upgrade and evolution of the 'Look East Policy,' which was initiated in 1991. The Act East Policy, launched in 2014, emphasizes greater engagement with Southeast Asian and East Asian countries, focusing on extended neighborhood in the Asia-Pacific region beyond just economic ties to include strategic, security, and cultural dimensions."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "Analyze the multifaceted challenges posed by human-wildlife conflict in India, particularly along linear infrastructure projects. Suggest comprehensive policy and technological interventions to mitigate such conflicts, drawing lessons from recent incidents.",
+      "syllabusMatch": "GS3: Conservation, environmental pollution and degradation; Disaster and disaster management; Infrastructure.",
+      "approach": "Introduce human-wildlife conflict as a growing concern, citing the elephant-train collision. Discuss causes (habitat loss, infrastructure, climate change). Analyze impacts (ecological, economic, social). Propose policy solutions (integrated land-use planning, stronger environmental clearances, community involvement). Suggest technological interventions (early warning systems, AI, wildlife-friendly infrastructure). Conclude with the importance of a holistic approach."
+    },
+    {
+      "question": "The Digital Personal Data Protection Act, 2023, is a landmark legislation. Critically evaluate its potential to safeguard citizen privacy while fostering a robust digital economy in India. Discuss the key challenges in its effective implementation.",
+      "syllabusMatch": "GS2: Government policies and interventions for development in various sectors; Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure; GS3: Cyber security.",
+      "approach": "Begin by outlining the significance of DPDPA in the context of the Right to Privacy. Discuss how it aims to safeguard citizen data (consent, data minimization, Data Protection Board). Analyze its potential to boost the digital economy (trust, investor confidence). Critically examine challenges like government exemptions, implementation hurdles, data localization concerns, and capacity building. Conclude with a balanced perspective on its future impact."
+    },
+    {
+      "question": "India's economic growth trajectory is robust, but persistent inflationary pressures, especially in food prices, pose a significant challenge. Discuss the factors contributing to food inflation in India and the measures that can be adopted by the government and RBI to achieve price stability while sustaining growth.",
+      "syllabusMatch": "GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment; Monetary Policy; Inflation.",
+      "approach": "Introduce India's growth-inflation dynamics, citing recent GDP and RBI decisions. Identify structural (supply chain, climate change, MSP, storage) and transient (seasonal, global commodity prices) factors causing food inflation. Discuss RBI's role via monetary policy (repo rate, liquidity management). Analyze government's role via fiscal policy (subsidies, trade policies, buffer stock, agricultural reforms, infrastructure). Conclude with the need for coordinated fiscal and monetary policy for sustainable growth and price stability."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "Asiatic Elephants are listed as 'Endangered' by the IUCN Red List.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Elephants",
+        "IUCN",
+        "Biodiversity"
+      ]
+    },
+    {
+      "text": "The K.S. Puttaswamy judgment (2017) declared the Right to Privacy as a fundamental right under Article 21.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Privacy",
+        "Fundamental Rights",
+        "Supreme Court"
+      ]
+    },
+    {
+      "text": "GDP measures the total monetary value of all finished goods and services produced within a country's borders.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "GDP",
+        "Economy",
+        "Indicators"
+      ]
+    },
+    {
+      "text": "ASEAN was established in 1967 with the Bangkok Declaration.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "ASEAN",
+        "Regional Groupings",
+        "International"
+      ]
+    },
+    {
+      "text": "Green Hydrogen is produced using renewable energy, resulting in zero carbon emissions.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Hydrogen",
+        "Renewable Energy",
+        "Climate Change"
+      ]
+    },
+    {
+      "text": "PSLV is ISRO's third-generation launch vehicle, known for its reliability in placing satellites.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "PSLV",
+        "Space Technology"
+      ]
+    },
+    {
+      "text": "The Prohibition of Child Marriage Act, 2006, sets the legal age of marriage at 18 for females and 21 for males.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "tags": [
+        "Child Marriage",
+        "Social Justice",
+        "Legislation"
+      ]
+    },
+    {
+      "text": "The Lokpal of India is the anti-corruption ombudsman for public servants at the central level.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Lokpal",
+        "Anti-corruption",
+        "Governance"
+      ]
+    },
+    {
+      "text": "PM Gati Shakti National Master Plan aims for integrated planning of infrastructure projects.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "PM Gati Shakti",
+        "Infrastructure",
+        "Logistics"
+      ]
+    },
+    {
+      "text": "CBDR-RC (Common but Differentiated Responsibilities and Respective Capabilities) is a principle of international environmental law.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Climate Change",
+        "International Law",
+        "CBDR-RC"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "sreenivasan-passes-away",
+        "headline": "Veteran Actor, Director, and Screenwriter Sreenivasan Passes Away at 69",
+        "explainer": "• Noted Malayalam film personality Sreenivasan, a versatile actor, director, and screenwriter, passed away at the age of 69.\n• He was celebrated for his unique brand of satirical humor and realistic portrayals, often reflecting societal issues in his works.\n• Sreenivasan's contributions to Malayalam cinema include acclaimed films like 'Vadakkunokkiyantram' and 'Chinthavishtayaya Shyamala'.\n• His passing marks the end of an era for a significant voice in South Indian cinema, leaving behind a rich legacy of impactful storytelling.\n• He was a recipient of multiple national and state awards, recognized for his profound influence on the industry.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Role of Indian cinema in society"
+        ],
+        "date": "2025-12-20",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Sreenivasan",
+          "Malayalam cinema",
+          "Indian cinema",
+          "Art & Culture",
+          "film personality",
+          "screenwriter"
+        ],
+        "keyTerms": [
+          "Malayalam Cinema",
+          "National Film Awards",
+          "State Film Awards",
+          "Satire",
+          "Realistic Cinema"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Sreenivasan: Prominent figure in Malayalam cinema (Kerala).",
+          "Key works as director/writer: 'Vadakkunokkiyantram', 'Chinthavishtayaya Shyamala', 'Sandesham'.",
+          "Awards: Several National Film Awards and Kerala State Film Awards for acting, screenwriting, and direction.",
+          "Contribution: Known for infusing social commentary and satire into mainstream cinema."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Role of regional cinema in reflecting society: How Malayalam cinema, through artists like Sreenivasan, has mirrored social changes, critiqued norms, and promoted progressive ideas.",
+          "Impact of satire in cinema: Discuss how humor and satire can be effective tools for social commentary and public awareness.",
+          "Evolution of Indian cinema: Analyze the contributions of versatile artists who excel in multiple roles (acting, directing, writing) and their influence on filmmaking.",
+          "Preservation of cinematic heritage: Importance of recognizing and archiving works of influential filmmakers for future generations.",
+          "Cultural significance of cinema: How films shape public discourse, preserve regional identities, and contribute to national culture."
+        ],
+        "imageDescription": "A black and white portrait of veteran actor Sreenivasan, smiling thoughtfully.",
+        "section": "National",
+        "trivia": "Sreenivasan began his career in the mid-1970s and became one of Malayalam cinema's most respected and popular figures.",
+        "prelimsSyllabus": {
+          "subject": "Art & Culture",
+          "area": "Indian Cinema",
+          "topic": "Notable Personalities"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "niti-aayog-child-marriage-decline",
+        "headline": "NITI Aayog Report Highlights Significant Decline in Child Marriage Incidence",
+        "explainer": "• A recent report by NITI Aayog indicates a significant decline in the incidence of child marriage across India over the past decade.\n• The report attributes this positive trend to increased girls' education, government welfare schemes, and sustained awareness campaigns.\n• States with historically high rates have shown remarkable progress, contributing to the national average reduction.\n• While acknowledging progress, the report also points out persistent regional disparities and the need for continued efforts to eradicate the practice entirely.\n• The findings underscore the effectiveness of multi-pronged approaches involving legal enforcement, social empowerment, and economic upliftment.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Role of women and women’s organization",
+          "Social empowerment",
+          "Population and associated issues"
+        ],
+        "date": "2025-12-20",
+        "source": "NITI Aayog",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Child Marriage",
+          "Girls' Education",
+          "Social Empowerment",
+          "NITI Aayog",
+          "Women's Rights",
+          "Demographic Dividend"
+        ],
+        "keyTerms": [
+          "Child Marriage",
+          "NITI Aayog",
+          "Prohibition of Child Marriage Act (2006)",
+          "Adolescent Girls",
+          "Gender Equality",
+          "Sustainable Development Goals (SDGs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Legal age of marriage in India: 18 for females, 21 for males (as per Prohibition of Child Marriage Act, 2006).",
+          "Factors contributing to decline: Increased female literacy, access to education, economic empowerment, government schemes (e.g., Beti Bachao Beti Padhao), awareness campaigns.",
+          "Consequences of child marriage: Health risks (early pregnancy), maternal and infant mortality, lack of education, poverty cycle, domestic violence.",
+          "SDG 5 (Gender Equality): Target 5.3 aims to eliminate all harmful practices, such as child, early and forced marriage.",
+          "NITI Aayog: Premier policy 'Think Tank' of the Government of India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Socio-economic factors driving child marriage: Poverty, lack of education, patriarchal norms, traditional beliefs, insecurity, lack of awareness about legal provisions.",
+          "Impact of child marriage on women and society: Health implications, educational deprivation, economic disempowerment, perpetuation of gender inequality, demographic challenges.",
+          "Government strategies: Legislative measures (PCMA), welfare schemes (Sukanya Samriddhi Yojana), awareness campaigns, community mobilization, strengthening of institutional mechanisms.",
+          "Role of education: How girls' education acts as a powerful deterrent to child marriage and empowers them economically and socially.",
+          "Challenges ahead: Addressing regional disparities, cultural resistance, ensuring effective implementation of laws, supporting vulnerable communities."
+        ],
+        "imageDescription": "A group of young girls in school uniforms walking together, smiling, symbolizing the power of education.",
+        "section": "Society",
+        "trivia": "India accounts for one of the highest numbers of child brides globally, though rates have been falling steadily.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Women and Society",
+          "topic": "Child Marriage and Women Empowerment"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "urban-flood-mitigation-plan-major-cities",
+        "headline": "Urban Flood Mitigation Plan Rolled Out in Major Cities",
+        "explainer": "• The Ministry of Urban Development has initiated a comprehensive Urban Flood Mitigation Plan across several major Indian cities prone to recurrent flooding.\n• The plan integrates smart technologies, improved drainage infrastructure, and early warning systems to enhance urban resilience.\n• It emphasizes sustainable urban planning, including rainwater harvesting, permeable surfaces, and rejuvenation of natural water bodies.\n• The initiative aims to minimize economic losses, protect lives, and ensure continuity of essential services during extreme weather events.\n• Collaboration between municipal corporations, disaster management authorities, and local communities is a key component for effective implementation.",
+        "category": "geography",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes",
+          "Disaster and disaster management"
+        ],
+        "date": "2025-12-20",
+        "source": "Ministry of Urban Development",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Urban Flooding",
+          "Disaster Management",
+          "Urban Planning",
+          "Climate Resilience",
+          "Smart Cities",
+          "Infrastructure"
+        ],
+        "keyTerms": [
+          "Urban Flooding",
+          "Disaster Mitigation",
+          "Drainage Infrastructure",
+          "Rainwater Harvesting",
+          "Permeable Surfaces",
+          "Early Warning Systems"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Causes of urban flooding: Intense rainfall, inadequate drainage, encroachment on floodplains, climate change, poor waste management, concretization.",
+          "Impacts: Loss of life, property damage, disruption of transport and essential services, public health risks, economic losses.",
+          "Mitigation measures: Integrated urban water management, smart drainage systems, blue-green infrastructure (parks, ponds, wetlands), flood-resistant building codes.",
+          "National Disaster Management Authority (NDMA): Apex body for disaster management in India.",
+          "Smart Cities Mission: Aims to promote cities that provide core infrastructure and give a decent quality of life to its citizens, a clean and sustainable environment."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Challenges in urban flood management: Rapid urbanization, informal settlements, climate change impacts (extreme weather), lack of inter-agency coordination, citizen apathy.",
+          "Role of sustainable urban planning: Incorporating ecological principles, preserving natural drainage systems, promoting green infrastructure, developing flood-resilient communities.",
+          "Technological solutions: Real-time monitoring, weather forecasting, GIS mapping, AI-based predictive models for flood risk assessment and early warning.",
+          "Community participation: Importance of public awareness, preparedness, and local involvement in maintaining drainage systems and reporting issues.",
+          "Policy recommendations: Strengthening building codes, regulating construction in flood-prone areas, ensuring enforcement of environmental laws, adequate funding for infrastructure upgrade."
+        ],
+        "imageDescription": "A flooded city street with cars partially submerged, while essential services personnel work to clear water.",
+        "section": "National",
+        "trivia": "Mumbai's 2005 floods, caused by 944 mm of rain in 24 hours, highlighted the vulnerability of Indian megacities to urban flooding.",
+        "prelimsSyllabus": {
+          "subject": "Geography",
+          "area": "Disaster Management",
+          "topic": "Urban Flooding"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "sc-upholds-digital-personal-data-protection-act",
+        "headline": "Supreme Court Upholds Key Provisions of Digital Personal Data Protection Act, 2023",
+        "explainer": "• The Supreme Court of India has largely upheld the constitutional validity of the Digital Personal Data Protection Act (DPDPA), 2023.\n• The ruling addressed petitions challenging certain provisions related to data processing, consent, and the powers of the Data Protection Board.\n• The court emphasized the balance between individual privacy rights and legitimate state interests, particularly in national security and public order.\n• This landmark judgment provides legal clarity and strengthens India's data governance framework, impacting tech companies and citizens alike.\n• The decision is expected to accelerate the implementation of the Act and foster a more secure digital environment.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors",
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "Cyber security"
+        ],
+        "date": "2025-12-20",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Data Protection",
+          "Privacy",
+          "Supreme Court",
+          "Digital India",
+          "DPDPA",
+          "Fundamental Rights"
+        ],
+        "keyTerms": [
+          "Digital Personal Data Protection Act (DPDPA)",
+          "Right to Privacy",
+          "Data Fiduciary",
+          "Data Principal",
+          "Data Protection Board",
+          "Article 21"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Digital Personal Data Protection Act (DPDPA), 2023: India's first comprehensive law on data protection.",
+          "Key principles: Consent, purpose limitation, data minimization, accuracy, storage limitation, accountability.",
+          "Data Protection Board of India: Established under DPDPA to enforce provisions and impose penalties.",
+          "K.S. Puttaswamy judgment (2017): Declared Right to Privacy as a fundamental right under Article 21.",
+          "Exemptions: National security, public order, and prevention/investigation of offenses."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Significance of DPDPA: Protects citizens' privacy, regulates data processing by entities, fosters digital trust, aligns with global data protection standards (e.g., GDPR).",
+          "Challenges and criticisms: Concerns about government exemptions, potential for surveillance, impact on innovation for startups, balancing national security with individual rights.",
+          "Impact on digital economy: Increased compliance burden for businesses, potential for data localization debates, fostering responsible data practices.",
+          "Role of judiciary: Interpreting fundamental rights in the digital age, upholding constitutional principles, ensuring checks and balances on state power.",
+          "Future implications: Paving the way for further digital regulations, ensuring India's position in the global digital governance landscape."
+        ],
+        "imageDescription": "A gavel resting on legal documents, symbolizing a Supreme Court judgment on data protection.",
+        "section": "National",
+        "trivia": "India is home to the world's second-largest internet user base, making robust data protection laws crucial.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy and Digital Governance"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-asean-summit-maritime-digital",
+        "headline": "India-ASEAN Summit Concludes with Focus on Maritime Security and Digital Cooperation",
+        "explainer": "• The annual India-ASEAN Summit concluded with leaders reaffirming their commitment to a Comprehensive Strategic Partnership.\n• Key outcomes included enhanced cooperation in maritime security, disaster management, and robust digital connectivity.\n• Discussions focused on strengthening trade and investment ties, particularly through the early review of the ASEAN-India Free Trade Area (AIFTA).\n• India reiterated its support for ASEAN centrality in the Indo-Pacific region and emphasized shared values of peace and stability.\n• New initiatives were launched for capacity building in emerging technologies and fostering cultural exchanges.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "India and its neighborhood- relations"
+        ],
+        "date": "2025-12-20",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "India-ASEAN",
+          "Indo-Pacific",
+          "maritime security",
+          "digital cooperation",
+          "Act East Policy",
+          "regional cooperation"
+        ],
+        "keyTerms": [
+          "ASEAN (Association of Southeast Asian Nations)",
+          "Comprehensive Strategic Partnership",
+          "Indo-Pacific",
+          "Act East Policy",
+          "ASEAN-India Free Trade Area (AIFTA)",
+          "Maritime Domain Awareness"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ASEAN: Formed in 1967, comprises 10 Southeast Asian nations (Indonesia, Malaysia, Philippines, Singapore, Thailand, Brunei, Vietnam, Laos, Myanmar, Cambodia).",
+          "India's 'Act East Policy': Successor to 'Look East Policy', focusing on extended neighborhood in Asia-Pacific.",
+          "India-ASEAN relations: Upgraded to Comprehensive Strategic Partnership in 2022.",
+          "Pillars of cooperation: Political-Security, Economic, Socio-Cultural.",
+          "Significance of Indo-Pacific: Critical for global trade, security, and strategic competition."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Strategic importance of ASEAN for India: Gateway to the East, counterbalancing China's influence, enhancing regional security, economic integration.",
+          "Areas of cooperation: Trade and investment, connectivity (physical, digital, people-to-people), maritime security, counter-terrorism, disaster management, cultural exchange.",
+          "Challenges: China's assertive actions in the South China Sea, trade imbalances, slow progress on connectivity projects, internal diversity within ASEAN.",
+          "Future prospects: Deepening economic integration through AIFTA review, expanding cooperation in blue economy, renewable energy, and space technology.",
+          "India's role in Indo-Pacific: Promoting a free, open, and inclusive Indo-Pacific, adherence to international law, multilateralism, and regional stability."
+        ],
+        "imageDescription": "Leaders of India and ASEAN member states shaking hands and posing for a group photograph at a summit.",
+        "section": "International",
+        "trivia": "India is one of ASEAN's oldest Dialogue Partners, establishing relations in 1992.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Regional Groupings",
+          "topic": "India and ASEAN"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "pm-poshan-2-0-breakfast-scheme",
+        "headline": "PM-POSHAN 2.0 Scheme Expanded to Include Breakfast for Primary Students",
+        "explainer": "• The Union Cabinet has approved a significant expansion of the PM-POSHAN 2.0 scheme to include a morning breakfast component for all primary school students.\n• This initiative aims to improve nutritional outcomes, enhance school enrollment, and reduce dropout rates among young children.\n• The breakfast will be a nutritious, locally sourced meal, complementing the existing mid-day meal program.\n• The expansion is expected to address hidden hunger and improve cognitive development in children, particularly from vulnerable sections of society.\n• States and Union Territories will be encouraged to implement the program with community participation and focus on local food preferences.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources"
+        ],
+        "date": "2025-12-20",
+        "source": "PIB",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "PM-POSHAN",
+          "Mid-Day Meal Scheme",
+          "Child Nutrition",
+          "Education",
+          "Social Welfare",
+          "Government Scheme"
+        ],
+        "keyTerms": [
+          "PM-POSHAN Scheme",
+          "Mid-Day Meal Scheme",
+          "Primary Education",
+          "Nutritional Security",
+          "Food Security",
+          "Human Resource Development"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "PM-POSHAN Scheme (Pradhan Mantri Poshan Shakti Nirman): Successor to the Mid-Day Meal Scheme, launched in 2021.",
+          "Objective: Provide hot cooked meals to school children, improve nutritional status, encourage attendance.",
+          "Coverage: Pre-primary (Bal Vatika) to Class VIII in government and government-aided schools.",
+          "New component: Morning breakfast for primary students (Class I-V).",
+          "Funding: Central Sector Scheme with cost-sharing between Centre and States."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Importance of school meal programs: Addresses malnutrition, improves learning outcomes, promotes social equity, provides employment to women (cook-cum-helpers).",
+          "Impact of breakfast: Enhances concentration, reduces early morning hunger, improves energy levels for learning, boosts overall health.",
+          "Challenges in implementation: Quality control, hygiene, logistics, community participation, financial sustainability, regional disparities.",
+          "Role of local foods: Promoting local agriculture, dietary diversity, cultural relevance, and community ownership.",
+          "Linkage with SDGs: Contributes to SDG 2 (Zero Hunger) and SDG 4 (Quality Education)."
+        ],
+        "imageDescription": "Children in a school uniform happily eating a meal in a classroom, with a teacher supervising.",
+        "section": "National",
+        "trivia": "The Mid-Day Meal Scheme (now PM-POSHAN) is one of the world's largest school feeding programs.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Welfare Schemes",
+          "topic": "Child Nutrition and Education"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-equitable-climate-finance-pre-cop30",
+        "headline": "India Calls for Equitable Climate Finance at Pre-COP30 Talks",
+        "explainer": "• India reiterated its demand for equitable and enhanced climate finance from developed nations at the preparatory talks for COP30.\n• The Indian delegation emphasized the need for developed countries to fulfill their commitments, including the USD 100 billion annual target, and scale up financial support for adaptation and mitigation in developing countries.\n• India highlighted the principle of Common but Differentiated Responsibilities and Respective Capabilities (CBDR-RC) in climate action.\n• The discussions focused on setting a new collective quantified goal (NCQG) for climate finance post-2025, which is a major agenda item for COP30.\n• India stressed that ambitious climate action by developing nations is contingent upon adequate financial and technological support.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate",
+          "Environmental pollution and degradation"
+        ],
+        "date": "2025-12-20",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Climate Finance",
+          "COP30",
+          "CBDR-RC",
+          "Climate Change",
+          "International Negotiations",
+          "Developing Countries"
+        ],
+        "keyTerms": [
+          "Climate Finance",
+          "COP (Conference of the Parties)",
+          "Common but Differentiated Responsibilities and Respective Capabilities (CBDR-RC)",
+          "New Collective Quantified Goal (NCQG)",
+          "Adaptation",
+          "Mitigation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "COP30: Scheduled for 2025 in Brazil, aims to finalize the NCQG for climate finance.",
+          "CBDR-RC: A principle in international environmental law acknowledging different capabilities and historical responsibilities of states in addressing climate change.",
+          "USD 100 billion commitment: Developed countries pledged to mobilize USD 100 billion annually by 2020 for developing countries, a target often unmet.",
+          "Adaptation: Actions to adjust to actual or expected climate and its effects (e.g., sea walls, drought-resistant crops).",
+          "Mitigation: Actions to reduce greenhouse gas emissions (e.g., renewable energy, energy efficiency)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Importance of climate finance for developing countries: Essential for transitioning to low-carbon economies, building resilience to climate impacts, achieving national climate targets.",
+          "Challenges in climate finance: Insufficient funds, lack of transparency, difficulty in accessing funds, focus on mitigation over adaptation, definition of 'new and additional'.",
+          "India's stance: Emphasizing historical responsibility, equity, technology transfer, and capacity building, while pursuing its own ambitious climate goals.",
+          "Role of international forums: Discuss the effectiveness of UNFCCC and COPs in mobilizing finance and achieving global climate justice.",
+          "Implications of NCQG: Its potential to reshape global climate cooperation, provide predictability for developing countries, and accelerate global climate action."
+        ],
+        "imageDescription": "A globe with a protective shield, surrounded by hands from different countries, symbolizing international efforts in climate finance.",
+        "section": "International",
+        "trivia": "India is the world's third-largest emitter of greenhouse gases but has one of the lowest per capita emissions among major economies.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Climate Change",
+          "topic": "International Conventions and Climate Finance"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "lokpal-annual-report-whistleblower",
+        "headline": "Lokpal Annual Report Recommends Strengthening Whistleblower Protection Framework",
+        "explainer": "• The Lokpal of India, in its annual report, has recommended significant strengthening of the existing whistleblower protection framework.\n• The report highlighted gaps in the current Whistleblowers Protection Act, 2014, particularly concerning implementation and punitive measures for victimization.\n• It called for greater clarity on the process of receiving and investigating complaints, and ensuring the safety and anonymity of whistleblowers.\n• The recommendations aim to foster a more transparent and accountable governance system by encouraging reporting of corruption.\n• The Lokpal emphasized the crucial role of whistleblowers in combating corruption and maladministration.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Transparency and accountability and institutional and other measures",
+          "Statutory, regulatory and various quasi-judicial bodies"
+        ],
+        "date": "2025-12-20",
+        "source": "Lokpal of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Lokpal",
+          "Whistleblower Protection",
+          "Anti-corruption",
+          "Governance",
+          "Transparency",
+          "Accountability"
+        ],
+        "keyTerms": [
+          "Lokpal",
+          "Whistleblower",
+          "Whistleblowers Protection Act, 2014",
+          "Corruption",
+          "Maladministration",
+          "Accountability"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Lokpal: An anti-corruption authority or body of ombudsman who represents the public interest in the Republic of India.",
+          "Whistleblowers Protection Act, 2014: Enacted to protect whistleblowers and establish a mechanism to inquire into complaints relating to corruption.",
+          "Jurisdiction of Lokpal: Covers Prime Minister, Ministers, MPs, and officials of Central Government (Groups A, B, C, D).",
+          "Key issues in Act: Lack of protection for anonymous complaints, delay in establishing rules, limited scope of protection.",
+          "Role of whistleblowers: Expose corruption, fraud, waste, and abuse within organizations."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Importance of whistleblower protection: Encourages reporting of wrongdoing, promotes transparency, strengthens governance, deters corruption, protects public interest.",
+          "Challenges in current framework: Inadequate protection from victimization, delays in investigation, lack of awareness, fear of reprisal, limited legal recourse.",
+          "Recommendations: Strengthen legal safeguards, ensure anonymity, expedite investigations, impose stringent penalties for victimization, raise public awareness, establish a dedicated support system.",
+          "Role of Lokpal: As an independent body, its role in upholding ethics, investigating corruption, and recommending systemic reforms.",
+          "Global best practices: Compare India's framework with international standards for whistleblower protection (e.g., UN Convention Against Corruption)."
+        ],
+        "imageDescription": "A person blowing a whistle, with a silhouette of a justice scale in the background, symbolizing anti-corruption efforts.",
+        "section": "National",
+        "trivia": "The concept of an ombudsman (Lokpal) in India was first advocated by Law Minister Ashok Kumar Sen in Parliament in the early 1960s.",
+        "prelimsSyllabus": {
+          "subject": "Polity",
+          "area": "Governance",
+          "topic": "Anti-Corruption Institutions"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS3": [
+      {
+        "id": "rajdhani-express-elephant-derailment-assam",
+        "headline": "Rajdhani Express Derails in Assam After Hitting Elephant Herd, Seven Elephants Dead",
+        "explainer": "• A tragic incident occurred in Assam where a Rajdhani Express train collided with a herd of Asiatic elephants.\n• The collision resulted in the deaths of seven elephants and the derailment of five coaches and the engine.\n• The event highlights the escalating human-wildlife conflict, particularly along railway tracks passing through critical elephant corridors.\n• It underscores the urgent need for robust mitigation measures, including wildlife-friendly infrastructure and early warning systems, to prevent such fatalities.\n• The incident has reignited debates on sustainable development practices and the balance between infrastructure growth and biodiversity conservation.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Disaster and disaster management",
+          "Infrastructure: Railways",
+          "Human-wildlife conflict"
+        ],
+        "date": "2025-12-20",
+        "source": "PTI / The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Human-wildlife conflict",
+          "elephant conservation",
+          "railway safety",
+          "Assam",
+          "wildlife corridors",
+          "disaster management"
+        ],
+        "keyTerms": [
+          "Asiatic Elephants",
+          "Elephant Corridors",
+          "Project Elephant",
+          "Wildlife Protection Act (1972)",
+          "Train-animal collision"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Location of incident: Assam, known for its significant elephant population and elephant corridors.",
+          "Species involved: Asiatic Elephants, listed under Schedule I of the Wildlife Protection Act, 1972, and 'Endangered' by IUCN.",
+          "Project Elephant: Launched in 1992 to protect elephants, their habitat, and corridors.",
+          "Measures to prevent collisions: Speed restrictions, underpasses/overpasses, early warning systems (e.g., thermal imaging, acoustic sensors)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Causes of human-wildlife conflict: Habitat fragmentation, encroachment, linear infrastructure (railways, highways), lack of effective mitigation strategies.",
+          "Impacts: Loss of biodiversity, economic losses (crop damage, property damage), human fatalities, disruption of essential services.",
+          "Solutions: Integrated land-use planning, wildlife corridors, elephant-friendly infrastructure design (underpasses, elevated tracks), community participation, technological interventions (AI-based warning systems).",
+          "Policy framework: Examine the effectiveness of the Wildlife Protection Act and Project Elephant in addressing current challenges.",
+          "Role of stakeholders: Collaboration between Indian Railways, Forest Departments, local communities, and NGOs for effective conservation and mitigation."
+        ],
+        "imageDescription": "A derailed train engine and coaches near a dense forest, with forest officials and railway staff inspecting the site of an elephant collision.",
+        "section": "Lead Opinion",
+        "trivia": "Elephants are considered a 'National Heritage Animal' of India, symbolizing the country's rich biodiversity.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Biodiversity",
+          "topic": "Wildlife Conservation"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "india-q2-fy26-gdp-growth",
+        "headline": "India's Q2 FY26 GDP Growth Reaches 7.5%, Driven by Manufacturing and Services",
+        "explainer": "• India's Gross Domestic Product (GDP) recorded a robust growth of 7.5% in the second quarter of the fiscal year 2025-26.\n• The National Statistical Office (NSO) attributed this strong performance primarily to robust growth in the manufacturing and services sectors.\n• Agricultural output also showed steady growth, contributing positively to the overall economic momentum.\n• The figures indicate a resilient Indian economy amidst global uncertainties, supported by strong domestic demand and government capital expenditure.\n• Analysts project continued growth trajectory, albeit with potential challenges from global trade slowdowns and inflationary pressures.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Government Budgeting",
+          "Industrial policy"
+        ],
+        "date": "2025-12-20",
+        "source": "Ministry of Statistics and Programme Implementation",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "GDP growth",
+          "Indian economy",
+          "economic indicators",
+          "manufacturing sector",
+          "services sector",
+          "fiscal policy"
+        ],
+        "keyTerms": [
+          "Gross Domestic Product (GDP)",
+          "National Statistical Office (NSO)",
+          "Fiscal Year (FY)",
+          "Manufacturing Sector",
+          "Services Sector",
+          "Capital Expenditure"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "GDP: Total monetary or market value of all the finished goods and services produced within a country's borders in a specific time period.",
+          "NSO: Principal agency for statistical activities in India, under the Ministry of Statistics and Programme Implementation.",
+          "Key drivers of Indian economy: Agriculture, Industry (Manufacturing, Mining, Construction), Services.",
+          "Fiscal Year in India: April 1 to March 31.",
+          "Methods of GDP calculation: Expenditure method, Production method, Income method."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Factors contributing to growth: Government's infrastructure push (PM Gati Shakti), 'Make in India' initiatives, PLI schemes, resilient domestic consumption, formalization of economy.",
+          "Challenges to sustained growth: Global economic slowdown, geopolitical tensions, supply chain disruptions, inflation, unemployment, income inequality, climate change impact on agriculture.",
+          "Policy measures: Monetary policy (RBI actions on interest rates), fiscal policy (government spending, taxation), structural reforms (labor, land, financial sector).",
+          "Sectoral analysis: Discuss the performance of primary, secondary, and tertiary sectors and their interlinkages.",
+          "Comparison with global economies: India's position as a fast-growing major economy and its potential to become a USD 5 trillion economy."
+        ],
+        "imageDescription": "A graph showing an upward trend in economic growth, with various economic symbols like currency notes and factory icons.",
+        "section": "Economy",
+        "trivia": "India is projected to be the third-largest economy globally by 2030 in terms of GDP (nominal).",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "National Income",
+          "topic": "GDP and Economic Growth"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "green-hydrogen-mission-electrolyser-manufacturing",
+        "headline": "National Green Hydrogen Mission Achieves Significant Milestones in Electrolyser Manufacturing",
+        "explainer": "• India's National Green Hydrogen Mission has reported significant progress in scaling up domestic electrolyser manufacturing capabilities.\n• Several public and private sector entities have announced substantial investments in developing advanced electrolyser technologies and production facilities.\n• This advancement is crucial for reducing import dependence and achieving the mission's ambitious targets for green hydrogen production.\n• The government's Production Linked Incentive (PLI) schemes have played a pivotal role in encouraging indigenous manufacturing and technological innovation.\n• This progress positions India as a potential global hub for green hydrogen production and export, contributing to energy security and climate goals.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation",
+          "Indigenization of technology and developing new technology",
+          "Energy",
+          "Infrastructure"
+        ],
+        "date": "2025-12-20",
+        "source": "Ministry of New and Renewable Energy",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Green Hydrogen",
+          "National Green Hydrogen Mission",
+          "Electrolyser manufacturing",
+          "renewable energy",
+          "energy transition",
+          "PLI scheme"
+        ],
+        "keyTerms": [
+          "Green Hydrogen",
+          "Electrolysis",
+          "Electrolyser",
+          "Production Linked Incentive (PLI) Scheme",
+          "Renewable Energy",
+          "Energy Security"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Green Hydrogen Mission: Launched in 2023, aims to make India a global hub for green hydrogen production.",
+          "Green Hydrogen: Produced by electrolysis of water using renewable energy, resulting in zero greenhouse gas emissions.",
+          "Electrolyser: Device that uses electricity to split water into hydrogen and oxygen.",
+          "PLI Scheme: Government initiative to boost domestic manufacturing and reduce import bills.",
+          "Target: India aims to produce 5 million tonnes of green hydrogen annually by 2030."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Significance of Green Hydrogen: Decarbonization of hard-to-abate sectors (steel, fertilizers, refining), energy security, export potential, job creation, climate change mitigation.",
+          "Challenges: High production costs, technological advancements needed, infrastructure development (storage, transport), water availability for electrolysis.",
+          "Government initiatives: PLI scheme for electrolyser manufacturing and green hydrogen production, R&D support, policy framework for demand creation.",
+          "Role of private sector: Investments in manufacturing, technology development, project implementation.",
+          "India's potential: Abundant renewable energy resources, strategic location, skilled workforce, rapidly growing domestic market."
+        ],
+        "imageDescription": "A stylized graphic showing an electrolyser splitting water molecules into hydrogen and oxygen, powered by wind turbines and solar panels.",
+        "section": "Environment",
+        "trivia": "Hydrogen has the highest energy content per unit of weight among all known fuels.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Energy",
+          "topic": "Renewable Energy and Green Hydrogen"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "isro-cartosat-4-earth-observation",
+        "headline": "ISRO Successfully Launches 'Cartosat-4' for Enhanced Earth Observation Capabilities",
+        "explainer": "• The Indian Space Research Organisation (ISRO) has successfully launched the 'Cartosat-4' satellite aboard the PSLV-C58 rocket.\n• Cartosat-4 is an advanced Earth observation satellite designed to provide high-resolution imagery for urban planning, disaster management, and resource mapping.\n• This mission further enhances India's indigenous capabilities in remote sensing and geospatial technology applications.\n• The data from Cartosat-4 will be crucial for various government initiatives, including smart cities, agricultural monitoring, and border surveillance.\n• The launch underscores ISRO's consistent efforts to provide cutting-edge space-based services for national development.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology",
+          "Indigenization of technology and developing new technology",
+          "Space",
+          "Awareness in the fields of Space"
+        ],
+        "date": "2025-12-20",
+        "source": "ISRO",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "ISRO",
+          "Cartosat-4",
+          "Earth Observation",
+          "PSLV",
+          "remote sensing",
+          "geospatial technology"
+        ],
+        "keyTerms": [
+          "ISRO (Indian Space Research Organisation)",
+          "PSLV (Polar Satellite Launch Vehicle)",
+          "Earth Observation Satellite",
+          "Remote Sensing",
+          "Geospatial Technology",
+          "Urban Planning"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Cartosat series: A series of Earth observation satellites launched by ISRO, primarily for cartography and remote sensing services.",
+          "PSLV: India's versatile workhorse launch vehicle, capable of placing satellites into various orbits.",
+          "Applications of Earth Observation satellites: Cartography, urban and rural planning, coastal land use and regulation, utility management, disaster management, environmental impact assessment, agriculture.",
+          "Remote Sensing: The process of detecting and monitoring the physical characteristics of an area by measuring its reflected and emitted radiation at a distance from the target."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Contribution of ISRO to national development: Providing critical data for governance, disaster management, agriculture, security, and scientific research.",
+          "Strategic importance of indigenous space capabilities: Enhancing self-reliance, reducing dependence on foreign sources, dual-use applications (civilian and defense).",
+          "Economic impact of space technology: Growth of space-tech startups, job creation, commercialization of space services.",
+          "Challenges in space sector: Funding constraints, competition from private players, space debris management, international collaborations and regulations.",
+          "Future of Indian space program: Gaganyaan mission, Shukrayaan (Venus mission), Chandrayaan follow-ups, development of next-generation launch vehicles."
+        ],
+        "imageDescription": "A rocket launching into space, with the text 'ISRO' and 'Cartosat-4' superimposed, against a backdrop of Earth.",
+        "section": "Science",
+        "trivia": "India is one of only a few countries with indigenous capabilities to launch and operate Earth observation satellites.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space Technology",
+          "topic": "ISRO Missions and Applications"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indian-army-advanced-surveillance-northern-borders",
+        "headline": "Indian Army Deploys Advanced Surveillance Systems Along Northern Borders",
+        "explainer": "• The Indian Army has significantly upgraded its surveillance capabilities along the northern borders with the deployment of advanced indigenous systems.\n• These systems include long-range reconnaissance equipment, high-altitude drones, and AI-powered sensor networks for real-time intelligence gathering.\n• The move aims to enhance situational awareness, detect infiltrations, and respond swiftly to any border transgressions.\n• This strategic enhancement is part of India's broader efforts to modernize its defense infrastructure and bolster national security.\n• The new technology also facilitates better coordination with other security forces and reduces the risks faced by ground troops.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism",
+          "Various Security forces and agencies and their mandate",
+          "Science and Technology- developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-12-20",
+        "source": "Ministry of Defence",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Border Security",
+          "Indian Army",
+          "Surveillance Technology",
+          "Northern Borders",
+          "Defense Modernization",
+          "National Security"
+        ],
+        "keyTerms": [
+          "Line of Actual Control (LAC)",
+          "Border Management",
+          "Surveillance Systems",
+          "Drones",
+          "Artificial Intelligence (AI)",
+          "Situational Awareness"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Northern Borders: Primarily refers to the India-China border (LAC) and parts of India-Pakistan border (LoC).",
+          "Types of surveillance technology: Electro-optical sensors, thermal imagers, radars, high-altitude long endurance (HALE) drones, AI-powered analytics.",
+          "Objective: Enhance deterrence, prevent infiltration, provide early warning, improve response time.",
+          "Border infrastructure development: Alongside surveillance, India is rapidly building roads, tunnels, and bridges in border areas.",
+          "Integrated Border Management System (IBMS): A comprehensive system for smart border management."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Challenges in border management: Difficult terrain, harsh weather, cross-border terrorism, illegal migration, territorial disputes, technological gaps.",
+          "Importance of technology in border security: Provides real-time intelligence, reduces human exposure to risk, enhances accuracy and speed of detection, enables proactive responses.",
+          "Role of indigenous defense production: Fosters self-reliance (Atmanirbhar Bharat), reduces import dependence, boosts domestic defense industry.",
+          "Impact on strategic posture: Strengthens India's defensive and deterrent capabilities, ensures territorial integrity, contributes to regional stability.",
+          "Ethical considerations: Balancing surveillance with privacy concerns, data security, and potential for misuse of advanced technologies."
+        ],
+        "imageDescription": "Soldiers operating advanced surveillance equipment in a snowy, mountainous border region.",
+        "section": "Security",
+        "trivia": "India's northern borders include some of the highest and most challenging terrains in the world.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "Border Management",
+          "topic": "Technology in Border Security"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "rbi-maintains-repo-rate",
+        "headline": "RBI Maintains Repo Rate at 6.5%, Citing Inflationary Concerns Amidst Growth Momentum",
+        "explainer": "• The Reserve Bank of India's (RBI) Monetary Policy Committee (MPC) has decided to keep the benchmark repo rate unchanged at 6.5%.\n• This decision comes amidst persistent inflationary pressures, particularly in food prices, despite robust economic growth.\n• The MPC reiterated its commitment to 'withdrawal of accommodation' to ensure inflation aligns with the target while supporting growth.\n• The move reflects a cautious approach by the central bank to manage liquidity and maintain financial stability in the economy.\n• Market analysts largely anticipated the decision, indicating the RBI's consistent stance on balancing growth with price stability.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Monetary Policy",
+          "Inflation"
+        ],
+        "date": "2025-12-20",
+        "source": "Reserve Bank of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "RBI",
+          "Repo Rate",
+          "Monetary Policy",
+          "Inflation",
+          "Economic Growth",
+          "Financial Stability"
+        ],
+        "keyTerms": [
+          "Repo Rate",
+          "Monetary Policy Committee (MPC)",
+          "Inflation Targeting",
+          "Withdrawal of Accommodation",
+          "Reverse Repo Rate",
+          "Cash Reserve Ratio (CRR)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Repo Rate: Rate at which RBI lends money to commercial banks in case of any shortfall of funds.",
+          "Monetary Policy Committee (MPC): Six-member committee (3 RBI, 3 GoI) responsible for setting the policy repo rate to achieve the inflation target.",
+          "Inflation Target: RBI's mandate is to maintain retail inflation at 4% with a band of +/- 2%.",
+          "Withdrawal of Accommodation: A stance indicating the central bank intends to reduce liquidity from the system.",
+          "Other policy rates: Reverse Repo Rate, Marginal Standing Facility (MSF) Rate, Bank Rate, CRR, SLR."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Objectives of monetary policy: Price stability (primary), supporting economic growth, maintaining financial stability.",
+          "Impact of repo rate changes: Affects lending rates, borrowing costs, investment, consumption, and overall economic activity.",
+          "Challenges for RBI: Balancing inflation control with growth support, managing global spillovers, liquidity management, ensuring credit flow to productive sectors.",
+          "Food inflation: Discuss the structural and seasonal factors contributing to food price volatility and its impact on headline inflation.",
+          "Role of MPC: Discuss its independence, decision-making process, and effectiveness in achieving its mandate."
+        ],
+        "imageDescription": "A close-up of a stack of Indian Rupee currency notes with a magnifying glass over a financial chart, symbolizing economic policy decisions.",
+        "section": "Economy",
+        "trivia": "The Monetary Policy Committee was established in 2016 under the RBI Act, 1934, for inflation targeting.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI and Inflation"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "panna-satpura-tiger-corridor",
+        "headline": "New 'Panna-Satpura Corridor' Proposed for Enhanced Tiger Movement and Conservation",
+        "explainer": "• A new wildlife corridor connecting Panna Tiger Reserve and Satpura Tiger Reserve in Madhya Pradesh has been proposed to facilitate tiger movement.\n• The initiative aims to create a contiguous habitat for tigers, crucial for genetic diversity and long-term conservation efforts.\n• The corridor will involve careful land-use planning, forest restoration, and mitigating human-wildlife conflict in the intervening areas.\n• This proposal is part of India's ambitious Project Tiger, seeking to expand and secure tiger habitats across the country.\n• The success of such corridors is vital for ensuring the ecological health of tiger populations and their prey base.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Biodiversity"
+        ],
+        "date": "2025-12-20",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Tiger Conservation",
+          "Wildlife Corridor",
+          "Panna Tiger Reserve",
+          "Satpura Tiger Reserve",
+          "Project Tiger",
+          "Biodiversity"
+        ],
+        "keyTerms": [
+          "Tiger Reserve",
+          "Wildlife Corridor",
+          "Genetic Diversity",
+          "Habitat Fragmentation",
+          "Project Tiger",
+          "Conservation Biology"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Panna Tiger Reserve: Located in Madhya Pradesh, known for its successful tiger reintroduction program.",
+          "Satpura Tiger Reserve: Also in Madhya Pradesh, part of the larger Satpura-Maikal landscape.",
+          "Wildlife Corridor: Connects fragmented habitats, allowing animals to move between protected areas, crucial for genetic exchange and population viability.",
+          "Project Tiger: Launched in 1973, a flagship conservation program for the Bengal tiger.",
+          "Madhya Pradesh: Known as the 'Tiger State' of India, with the highest tiger population."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Importance of wildlife corridors: Facilitate gene flow, prevent inbreeding, allow species to adapt to climate change, reduce human-wildlife conflict by providing safe passage.",
+          "Challenges in corridor creation: Land acquisition, human displacement, habitat degradation, poaching, infrastructure development (roads, railways).",
+          "Strategies for effective corridor management: Community engagement, eco-development, habitat restoration, anti-poaching measures, sustainable land use.",
+          "Role of Project Tiger: Its success in increasing tiger numbers, but also challenges in managing growing populations and their habitats.",
+          "Ecological benefits: Maintaining healthy predator-prey dynamics, preserving ecosystem services, promoting forest health."
+        ],
+        "imageDescription": "A majestic tiger walking through a dense forest, with a blurred background suggesting a vast natural habitat.",
+        "section": "Environment",
+        "trivia": "India is home to over 70% of the world's wild tiger population.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Biodiversity",
+          "topic": "Tiger Conservation and Wildlife Corridors"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ai-diagnostic-tools-rural-healthcare",
+        "headline": "AI-Powered Diagnostic Tools Launched for Rural Healthcare in India",
+        "explainer": "• The Ministry of Health and Family Welfare, in collaboration with tech firms, has launched AI-powered diagnostic tools for primary healthcare centers in rural areas.\n• These tools leverage artificial intelligence to assist doctors in early detection and accurate diagnosis of common diseases, including non-communicable diseases.\n• The initiative aims to bridge the healthcare accessibility gap in remote regions where specialist medical expertise is often scarce.\n• Training programs for rural healthcare workers are underway to ensure effective utilization and integration of these new technologies.\n• This marks a significant step towards leveraging technology to improve public health outcomes and strengthen the rural healthcare infrastructure.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Issues relating to development and management of Social Sector/Services relating to Health"
+        ],
+        "date": "2025-12-20",
+        "source": "Ministry of Health and Family Welfare",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "AI in Healthcare",
+          "Rural Healthcare",
+          "Digital Health",
+          "Public Health",
+          "Technology for Development",
+          "Primary Healthcare"
+        ],
+        "keyTerms": [
+          "Artificial Intelligence (AI)",
+          "Diagnostic Tools",
+          "Primary Healthcare Centers (PHCs)",
+          "Non-Communicable Diseases (NCDs)",
+          "Telemedicine",
+          "Digital Health Mission"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "AI applications in healthcare: Image analysis (radiology, pathology), predictive analytics, drug discovery, remote monitoring, diagnostic assistance.",
+          "Primary Healthcare Centers (PHCs): First point of contact in India's healthcare delivery system, especially in rural areas.",
+          "Non-Communicable Diseases (NCDs): Diseases like diabetes, hypertension, cardiovascular diseases, cancer, a growing burden in India.",
+          "National Digital Health Mission (NDHM): Aims to create a national digital health ecosystem, including digital health IDs and telemedicine.",
+          "Benefits: Improved accuracy, faster diagnosis, reduced burden on specialists, increased access to quality care."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Potential of AI in Indian healthcare: Addressing shortage of specialists, improving early detection, reducing healthcare costs, enhancing patient outcomes, personalized medicine.",
+          "Challenges of AI implementation in rural areas: Digital literacy, infrastructure (internet connectivity, electricity), data privacy and security, ethical considerations, cost of technology.",
+          "Government initiatives: Ayushman Bharat Digital Mission, e-Sanjeevani (telemedicine), promotion of AI startups in health tech.",
+          "Role of public-private partnership: Collaborations between government, tech companies, and healthcare providers for sustainable solutions.",
+          "Ethical implications: Bias in AI algorithms, accountability for diagnostic errors, patient data protection, human oversight vs. automation."
+        ],
+        "imageDescription": "A doctor in a rural clinic examining a patient, with a tablet displaying AI-powered diagnostic insights on the side.",
+        "section": "Science",
+        "trivia": "India's rural population constitutes over 65% of its total population, making rural healthcare a critical focus.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Information Technology",
+          "topic": "AI and its Applications"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-industrial-corridors-pm-gati-shakti",
+        "headline": "Government Approves New Industrial Corridors Under PM Gati Shakti Master Plan",
+        "explainer": "• The Union Cabinet has given its approval for the development of several new industrial corridors, integrated under the PM Gati Shakti National Master Plan.\n• These corridors aim to boost manufacturing, enhance logistics efficiency, and attract domestic and foreign investments across key economic regions.\n• The projects will leverage multimodal connectivity, combining road, rail, air, and waterways infrastructure for seamless movement of goods and raw materials.\n• This strategic initiative is designed to reduce logistics costs, improve industrial competitiveness, and create significant employment opportunities.\n• The new corridors are expected to accelerate regional development and contribute significantly to India's goal of becoming a global manufacturing hub.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Investment models"
+        ],
+        "date": "2025-12-20",
+        "source": "PIB",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Industrial Corridors",
+          "PM Gati Shakti",
+          "Infrastructure Development",
+          "Manufacturing",
+          "Logistics",
+          "Economic Growth"
+        ],
+        "keyTerms": [
+          "Industrial Corridor",
+          "PM Gati Shakti National Master Plan",
+          "Multimodal Connectivity",
+          "Logistics Cost",
+          "Manufacturing Hub",
+          "Special Economic Zones (SEZs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "PM Gati Shakti National Master Plan: Launched in 2021, a digital platform to bring 16 ministries together for integrated planning and coordinated implementation of infrastructure connectivity projects.",
+          "Industrial Corridors: Planned infrastructure networks connecting industrial production centers with ports and other major logistical hubs.",
+          "Objectives: Reduce logistics costs, improve efficiency, enhance competitiveness of Indian goods, attract investment, create jobs.",
+          "Key existing corridors: Delhi-Mumbai Industrial Corridor (DMIC), Bengaluru-Mumbai Economic Corridor (BMEC), Amritsar-Kolkata Industrial Corridor (AKIC).",
+          "Multimodal connectivity: Integration of different modes of transport (road, rail, air, water) for efficient freight movement."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Significance of industrial corridors: Facilitate industrial development, promote regional balance, boost exports, create manufacturing clusters, improve ease of doing business.",
+          "Role of PM Gati Shakti: Overcoming departmental silos, optimizing resource utilization, accelerating project implementation, enhancing data-driven decision making in infrastructure planning.",
+          "Economic impact: Contribution to GDP, foreign direct investment (FDI), employment generation, development of ancillary industries, urbanization.",
+          "Challenges: Land acquisition, environmental clearances, funding constraints, inter-state coordination, ensuring equitable regional development.",
+          "Sustainability aspects: Integrating green logistics, renewable energy, and sustainable industrial practices within corridor development."
+        ],
+        "imageDescription": "An aerial view of a modern industrial complex with interconnected roads, railways, and factories, symbolizing economic development.",
+        "section": "Economy",
+        "trivia": "India's logistics cost as a percentage of GDP is significantly higher than developed economies, making efficient corridors crucial.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Infrastructure",
+          "topic": "Industrial Corridors and Logistics"
+        },
+        "prelimsPotential": 4
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "PTI / The Hindu",
+    "The Hindu",
+    "Ministry of Statistics and Programme Implementation",
+    "Ministry of External Affairs",
+    "Ministry of New and Renewable Energy",
+    "ISRO",
+    "The Indian Express",
+    "Ministry of Defence",
+    "PIB",
+    "Reserve Bank of India",
+    "Ministry of Environment, Forest and Climate Change",
+    "Ministry of Health and Family Welfare",
+    "NITI Aayog",
+    "Lokpal of India",
+    "Ministry of Urban Development"
+  ],
+  "totalScraped": 17,
+  "totalProcessed": 17
+}

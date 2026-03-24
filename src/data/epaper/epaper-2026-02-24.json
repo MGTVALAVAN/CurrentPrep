@@ -1,0 +1,2371 @@
+{
+  "date": "2026-02-24",
+  "dateFormatted": "Tuesday 24 February, 2026",
+  "lastUpdated": "2026-03-21T11:28:28.222Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "sc-ai-privacy-framework",
+      "headline": "Supreme Court Upholds Digital Privacy, Calls for Robust AI Governance Framework",
+      "explainer": "• The Supreme Court delivered a landmark judgment reiterating the fundamental right to privacy in the age of Artificial Intelligence and big data.\n• The ruling emphasizes the need for a comprehensive legal framework to regulate AI's use in public and private sectors, particularly concerning data collection, processing, and algorithmic bias.\n• It mandates greater transparency from government agencies and private entities on AI-driven decision-making affecting citizens' rights.\n• The court highlighted the potential for surveillance and discrimination through unchecked AI and called for an independent regulatory body.\n• This judgment is expected to significantly influence India's upcoming Data Protection and AI Ethics policies.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Statutory, regulatory and various quasi-judicial bodies."
+      ],
+      "date": "2026-02-24",
+      "source": "The Hindu",
+      "sourceUrl": "https://www.thehindu.com/2026/02/24/sc-ai-privacy-framework",
+      "importance": "high",
+      "tags": [
+        "Supreme Court",
+        "Right to Privacy",
+        "Artificial Intelligence",
+        "Data Governance",
+        "Digital Rights",
+        "Judicial Activism"
+      ],
+      "keyTerms": [
+        "Right to Privacy",
+        "Algorithmic Bias",
+        "Data Fiduciary",
+        "Data Principal",
+        "AI Ethics",
+        "Digital Public Infrastructure"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Puttaswamy judgment (2017) declared Right to Privacy as a fundamental right under Article 21.",
+        "The current ruling extends privacy principles to AI and digital technologies.",
+        "Focus on 'informed consent' and 'purpose limitation' in data collection by AI systems.",
+        "Potential for a new independent regulatory body for AI governance in India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the implications of the Supreme Court's AI-privacy judgment on government surveillance and citizen data rights.",
+        "Discuss the challenges in drafting a robust AI governance framework that balances innovation with ethical considerations and fundamental rights.",
+        "Evaluate the role of the judiciary in shaping technological policy and protecting constitutional values in the digital age.",
+        "Examine how this judgment will impact India's position in global discussions on AI ethics and data localization."
+      ],
+      "imageDescription": "Illustration depicting a balance scale with 'Privacy' on one side and 'AI/Technology' on the other, with a gavel symbolizing the Supreme Court's decision.",
+      "section": "Lead Opinion",
+      "trivia": "India is among the few countries globally where the Supreme Court has directly intervened to guide AI governance through a fundamental rights lens.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy and its evolution"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "rbi-monetary-policy-review",
+      "headline": "RBI Maintains Status Quo on Repo Rate Amidst Global Uncertainties and Domestic Inflation Concerns",
+      "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) unanimously decided to keep the repo rate unchanged at 6.5% for the sixth consecutive review.\n• The decision comes as global economic growth remains subdued and geopolitical tensions persist, impacting commodity prices.\n• RBI Governor highlighted continued efforts to bring retail inflation within the target band of 2-6%, despite recent moderation.\n• The MPC reiterated its commitment to 'withdrawal of accommodation' to ensure inflation aligns with the target while supporting growth.\n• Analysts suggest the RBI is adopting a cautious 'wait and watch' approach, anticipating future data on inflation and global economic stability.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Government Budgeting.",
+        "Monetary Policy."
+      ],
+      "date": "2026-02-24",
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/2026/02/24/rbi-monetary-policy-review",
+      "importance": "high",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Repo Rate",
+        "Inflation",
+        "Economic Growth",
+        "MPC"
+      ],
+      "keyTerms": [
+        "Repo Rate",
+        "Reverse Repo Rate",
+        "Cash Reserve Ratio (CRR)",
+        "Statutory Liquidity Ratio (SLR)",
+        "Inflation Targeting",
+        "Monetary Policy Committee"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Repo rate is the rate at which the RBI lends money to commercial banks.",
+        "Monetary Policy Committee (MPC) consists of six members (3 RBI, 3 GoI nominees).",
+        "The primary objective of the MPC is to maintain price stability while keeping in mind the objective of growth.",
+        "Inflation target for India is 4% with a band of +/- 2%."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Evaluate the rationale behind RBI's decision to maintain the status quo on the repo rate, considering both domestic and international economic factors.",
+        "Discuss the challenges faced by the RBI in balancing inflation control with the imperative of fostering economic growth in the current global scenario.",
+        "Analyze the effectiveness of monetary policy tools in addressing supply-side inflation and geopolitical risks.",
+        "What are the potential impacts of sustained high-interest rates on investment, consumption, and the overall financial stability in India?"
+      ],
+      "imageDescription": "RBI logo superimposed on a graph showing stable interest rates.",
+      "section": "Economy",
+      "trivia": "The MPC meets at least four times a year, and its decisions are published after each meeting.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI and its functions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-africa-trade-summit",
+      "headline": "India-Africa Economic Forum Concludes, Pledges Enhanced Cooperation in Green Energy and Digital Transformation",
+      "explainer": "• The 12th India-Africa Economic Forum, held in New Delhi, concluded with renewed commitments for strategic partnerships across key sectors.\n• A major focus was placed on accelerating collaboration in renewable energy projects, particularly solar and hydrogen, and digital infrastructure development.\n• India announced new credit lines worth $5 billion for African nations, primarily targeting capacity building and infrastructure development.\n• Discussions also covered food security, healthcare, and skill development, emphasizing a South-South cooperation model.\n• The forum underscored India's 'SAGAR' (Security and Growth for All in the Region) vision extending to the African continent.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighbourhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2026-02-24",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "https://www.mea.gov.in/press-releases.htm?dtl/2026/02/24/India_Africa_Economic_Forum",
+      "importance": "high",
+      "tags": [
+        "India-Africa Relations",
+        "Economic Diplomacy",
+        "Green Energy",
+        "Digital Transformation",
+        "South-South Cooperation",
+        "Credit Lines"
+      ],
+      "keyTerms": [
+        "South-South Cooperation",
+        "Line of Credit (LOC)",
+        "SAGAR Vision",
+        "African Continental Free Trade Area (AfCFTA)",
+        "Renewable Energy Transition"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India is the fourth-largest trading partner for Africa.",
+        "India's development partnership with Africa is based on a demand-driven approach.",
+        "Focus on 'Green Hydrogen' and 'Digital Public Infrastructure' as key areas of future collaboration.",
+        "The forum is a biennial event, showcasing India's growing engagement with African nations."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic significance of India-Africa cooperation in the context of emerging geopolitical dynamics and the growing influence of other global powers in Africa.",
+        "Discuss how India's 'demand-driven' development model and focus on green energy and digital transformation aligns with Africa's development priorities.",
+        "Evaluate the effectiveness of India's Lines of Credit in fostering sustainable development and strengthening bilateral ties with African countries.",
+        "Examine the challenges and opportunities for India in enhancing its economic and strategic footprint across the African continent."
+      ],
+      "imageDescription": "Flags of India and various African nations displayed during a summit.",
+      "section": "International",
+      "trivia": "India's first diplomatic mission in Africa was established in 1943, even before its independence.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India and its Neighbourhood",
+        "topic": "India-Africa relations"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "chandrayaan-4-lander-site",
+      "headline": "ISRO Identifies Potential Landing Sites for Chandrayaan-4 Mission on Lunar South Pole",
+      "explainer": "• The Indian Space Research Organisation (ISRO) announced the identification of several high-priority landing sites for the upcoming Chandrayaan-4 mission.\n• The mission aims for a soft landing near the lunar South Pole, a region of significant scientific interest due to potential water ice reserves.\n• Chandrayaan-4 is envisioned as a sample return mission, building upon the success of Chandrayaan-3 and its rover 'Pragyan'.\n• Advanced imaging and topographic data from previous missions and international collaborations were used for site selection.\n• This mission could significantly contribute to understanding the Moon's evolution and resource potential for future human exploration.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Awareness in the fields of Space.",
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention."
+      ],
+      "date": "2026-02-24",
+      "source": "The Times of India",
+      "sourceUrl": "https://timesofindia.indiatimes.com/2026/02/24/chandrayaan-4-landing-sites",
+      "importance": "medium",
+      "tags": [
+        "ISRO",
+        "Chandrayaan-4",
+        "Lunar South Pole",
+        "Space Exploration",
+        "Sample Return Mission",
+        "Astronomy"
+      ],
+      "keyTerms": [
+        "Lunar South Pole",
+        "Water Ice",
+        "Sample Return Mission",
+        "Soft Landing",
+        "Pragyan Rover",
+        "Vikram Lander"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Chandrayaan-1 confirmed the presence of water molecules on the Moon.",
+        "Chandrayaan-2's orbiter successfully mapped the lunar surface.",
+        "Chandrayaan-3 achieved a successful soft landing and deployed the Pragyan rover.",
+        "Lunar South Pole is crucial due to permanently shadowed regions that might harbor water ice."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the scientific objectives and potential implications of ISRO's Chandrayaan-4 mission for lunar science and future space exploration endeavors.",
+        "Analyze India's growing capabilities in space technology and its role in global lunar exploration efforts.",
+        "Examine the challenges associated with soft landing and sample return missions on the Moon, particularly in the difficult terrain of the South Pole.",
+        "How can the findings from Chandrayaan-4 contribute to the understanding of the Moon's origin and the feasibility of human habitation?"
+      ],
+      "imageDescription": "Artistic rendering of Chandrayaan-4 lander near a crater on the lunar South Pole.",
+      "section": "Science",
+      "trivia": "The lunar South Pole experiences extreme temperatures, with permanently shadowed regions potentially holding ancient water ice for billions of years.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space Technology",
+        "topic": "Indian Space Missions"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-defense-acquisition-policy",
+      "headline": "Defence Ministry Unveils New Policy to Boost Indigenous Production and Exports",
+      "explainer": "• The Ministry of Defence launched the updated 'Defence Acquisition Procedure (DAP) 2026', prioritizing 'Make in India' and 'Buy Indian' categories.\n• The policy introduces simplified procurement procedures and increased budget allocation for research and development (R&D) in defense startups.\n• It aims to achieve a defense manufacturing turnover of $25 billion and exports of $5 billion by 2028.\n• Special provisions have been made to fast-track acquisition of critical technologies and encourage foreign OEMs to set up manufacturing in India.\n• The policy is a significant step towards achieving self-reliance (Atmanirbhar Bharat) in the defense sector.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Indigenization of technology and developing new technology.",
+        "Security challenges and their management in border areas."
+      ],
+      "date": "2026-02-24",
+      "source": "Press Information Bureau",
+      "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=20260224",
+      "importance": "high",
+      "tags": [
+        "Defence Acquisition",
+        "Make in India",
+        "Defence Exports",
+        "Atmanirbhar Bharat",
+        "Defence R&D",
+        "DAP 2026"
+      ],
+      "keyTerms": [
+        "Defence Acquisition Procedure (DAP)",
+        "Offset Policy",
+        "Strategic Partnership Model",
+        "Defence Industrial Corridors",
+        "Technology Transfer"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "DAP 2026 supersedes DAP 2020.",
+        "'Buy Indian (IDDM)' category gets highest priority for procurement.",
+        "Focus on leasing as an alternative to outright purchase for certain equipment.",
+        "Increased emphasis on cybersecurity in defense systems."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically evaluate the 'Defence Acquisition Procedure (DAP) 2026' in its potential to achieve self-reliance in India's defense manufacturing sector.",
+        "Discuss the challenges and opportunities for India in becoming a net exporter of defense equipment, considering global geopolitical dynamics.",
+        "Analyze the role of defense startups and private sector participation in boosting indigenous R&D and manufacturing capabilities.",
+        "How does the new policy address the need for technological upgradation and acquisition of cutting-edge defense technologies?"
+      ],
+      "imageDescription": "Indian fighter jet flying over a map of India with gears symbolizing industry.",
+      "section": "National",
+      "trivia": "India is one of the largest importers of defense equipment globally, but aims to reverse this trend with policies like DAP.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Industrial Policy",
+        "topic": "Defence Manufacturing"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "national-green-hydrogen-mission-progress",
+      "headline": "National Green Hydrogen Mission Shows Promising Progress Towards 2030 Targets",
+      "explainer": "• The Ministry of New and Renewable Energy released a progress report on the National Green Hydrogen Mission, highlighting significant strides.\n• India is on track to achieve its initial target of 5 million tonnes of green hydrogen production capacity by 2030.\n• Several pilot projects for green hydrogen production and its derivatives (e.g., green ammonia) are operational across the country.\n• The mission has attracted substantial domestic and international investment, with major players announcing gigawatt-scale electrolyser manufacturing plans.\n• Policy incentives for green hydrogen production and consumption are being streamlined to further accelerate adoption across industrial sectors.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Science and Technology- developments and their applications and effects in everyday life."
+      ],
+      "date": "2026-02-24",
+      "source": "Ministry of New and Renewable Energy",
+      "sourceUrl": "https://mnre.gov.in/2026/02/24/green-hydrogen-mission-progress",
+      "importance": "medium",
+      "tags": [
+        "Green Hydrogen",
+        "Renewable Energy",
+        "Energy Transition",
+        "Climate Change",
+        "Sustainable Development",
+        "National Green Hydrogen Mission"
+      ],
+      "keyTerms": [
+        "Green Hydrogen",
+        "Electrolyser",
+        "Green Ammonia",
+        "Power-to-X",
+        "Carbon Neutrality",
+        "Renewable Energy Certificates"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Green Hydrogen Mission launched in January 2023.",
+        "Aims to make India a global hub for green hydrogen production and export.",
+        "Green hydrogen is produced by electrolysis of water using renewable energy.",
+        "It is crucial for decarbonizing hard-to-abate sectors like steel, cement, and fertilizers."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Assess the strategic importance of the National Green Hydrogen Mission for India's energy security and climate change commitments.",
+        "Discuss the challenges in scaling up green hydrogen production and adoption in India, including infrastructure, cost, and technology gaps.",
+        "Analyze the potential economic benefits, including job creation and export opportunities, arising from India's leadership in green hydrogen.",
+        "How can policy support and public-private partnerships further accelerate the achievement of green hydrogen targets?"
+      ],
+      "imageDescription": "Illustration of a green hydrogen plant with wind turbines and solar panels in the background.",
+      "section": "Environment",
+      "trivia": "Hydrogen is the most abundant chemical substance in the universe, but green hydrogen production is energy-intensive.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Renewable Energy",
+        "topic": "Green Hydrogen"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "digital-health-mission-expansion",
+      "headline": "Ayushman Bharat Digital Mission Expands to Cover All Primary Health Centres Nationwide",
+      "explainer": "• The Ministry of Health and Family Welfare announced the successful integration of all Primary Health Centres (PHCs) under the Ayushman Bharat Digital Mission (ABDM).\n• This expansion aims to create a seamless digital health ecosystem, linking patient records, healthcare providers, and diagnostic services across rural and urban areas.\n• Citizens will now have easier access to their digital health records (ABHA ID) and teleconsultation services at the grassroots level.\n• The move is expected to improve healthcare accessibility, efficiency, and data-driven policy making, especially in remote regions.\n• Training programs for healthcare workers at PHCs have been intensified to ensure effective implementation and utilization of digital tools.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2026-02-24",
+      "source": "Press Information Bureau",
+      "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=20260224_ABDM",
+      "importance": "medium",
+      "tags": [
+        "Ayushman Bharat Digital Mission",
+        "Digital Health",
+        "Healthcare Access",
+        "Primary Health Centres",
+        "Public Health",
+        "ABHA ID"
+      ],
+      "keyTerms": [
+        "Ayushman Bharat Digital Mission (ABDM)",
+        "Ayushman Bharat Health Account (ABHA)",
+        "Health Facility Registry (HFR)",
+        "Healthcare Professionals Registry (HPR)",
+        "Telemedicine",
+        "Universal Health Coverage"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ABDM was launched in September 2021 by Prime Minister Narendra Modi.",
+        "It aims to develop the backbone necessary to support the integrated digital health infrastructure of the country.",
+        "ABHA ID is a 14-digit health identification number for individuals.",
+        "Primary Health Centres (PHCs) are the first point of contact between the community and health services."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Assess the potential impact of integrating all PHCs into the Ayushman Bharat Digital Mission on rural healthcare delivery and health equity in India.",
+        "Discuss the challenges associated with digital infrastructure, data privacy, and digital literacy in ensuring the successful and equitable implementation of ABDM.",
+        "Analyze how ABDM can contribute to better public health surveillance, disease management, and evidence-based policy making.",
+        "What measures are needed to overcome the digital divide and ensure that marginalized communities fully benefit from digital health initiatives?"
+      ],
+      "imageDescription": "A digital graphic showing a network connecting various healthcare facilities and patient records.",
+      "section": "National",
+      "trivia": "India's digital health ecosystem is one of the largest in the world, aiming to provide unique health IDs to over 1.3 billion people.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Health",
+        "topic": "Government schemes for health"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "urban-mobility-tier2-cities",
+      "headline": "National Urban Mobility Mission Launches New Projects in 15 Tier-2 Cities",
+      "explainer": "• The Ministry of Housing and Urban Affairs initiated phase 2 of the National Urban Mobility Mission, focusing on sustainable transport solutions in 15 Tier-2 cities.\n• Projects include integrated public transport systems, non-motorized transport infrastructure (cycle tracks, pedestrian paths), and smart parking solutions.\n• The mission aims to decongest urban areas, reduce pollution, and promote green mobility options through public-private partnerships.\n• Funding will be provided through a combination of central, state, and municipal allocations, along with private investment.\n• Capacity building for urban local bodies in planning and managing sustainable transport systems is a key component.",
+      "category": "geography",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Salient features of urbanization, problems and remedies.",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+      ],
+      "date": "2026-02-24",
+      "source": "The Hindu Business Line",
+      "sourceUrl": "https://www.thehindubusinessline.com/2026/02/24/urban-mobility-tier2-cities",
+      "importance": "medium",
+      "tags": [
+        "Urban Mobility",
+        "Sustainable Transport",
+        "Tier-2 Cities",
+        "Smart Cities",
+        "Public Transport",
+        "Urban Planning"
+      ],
+      "keyTerms": [
+        "National Urban Mobility Mission (NUMM)",
+        "Non-Motorized Transport (NMT)",
+        "Transit-Oriented Development (TOD)",
+        "Intelligent Transport Systems (ITS)",
+        "Green Mobility",
+        "Urban Local Bodies (ULBs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Urban Mobility Policy was launched in 2006.",
+        "Tier-2 cities are those with a population between 50,000 and 10 lakh.",
+        "Focus on 'first and last-mile connectivity' in urban transport.",
+        "Public-Private Partnerships (PPPs) are crucial for funding large-scale urban infrastructure projects."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of focusing on Tier-2 cities for urban mobility initiatives in India, considering their rapid growth and emerging infrastructure needs.",
+        "Discuss the key challenges in implementing sustainable urban transport solutions in Indian cities, including funding, land acquisition, and public acceptance.",
+        "Evaluate the potential of integrated public transport and non-motorized transport to reduce carbon footprint and improve quality of life in urban areas.",
+        "What role can technology and smart city concepts play in enhancing the efficiency and sustainability of urban mobility systems?"
+      ],
+      "imageDescription": "A modern cityscape with integrated public transport, cycling paths, and green spaces.",
+      "section": "National",
+      "trivia": "Indian cities are projected to add 40% of the world's new urban dwellers by 2050.",
+      "prelimsSyllabus": {
+        "subject": "Indian Geography",
+        "area": "Urbanization",
+        "topic": "Urban infrastructure and mobility"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ancient-site-restoration-hampi",
+      "headline": "ASI Initiates Major Restoration Work at UNESCO World Heritage Site Hampi",
+      "explainer": "• The Archaeological Survey of India (ASI) commenced an extensive restoration and conservation project at the iconic Hampi site in Karnataka.\n• The multi-year project focuses on preserving the structural integrity of ancient temples and monuments, particularly the Virupaksha Temple and Vittala Temple complex.\n• Advanced laser scanning and drone mapping technologies are being employed to ensure accurate and non-invasive conservation practices.\n• Community engagement and local artisan training are integral parts of the project, aiming to involve stakeholders and revive traditional craftsmanship.\n• The initiative seeks to enhance visitor experience while protecting the cultural and historical significance of the Vijayanagara Empire's capital.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc."
+      ],
+      "date": "2026-02-24",
+      "source": "Deccan Herald",
+      "sourceUrl": "https://www.deccanherald.com/2026/02/24/hampi-restoration-project",
+      "importance": "medium",
+      "tags": [
+        "Hampi",
+        "ASI",
+        "Cultural Heritage",
+        "Restoration",
+        "UNESCO World Heritage",
+        "Vijayanagara Empire"
+      ],
+      "keyTerms": [
+        "Archaeological Survey of India (ASI)",
+        "UNESCO World Heritage Site",
+        "Conservation",
+        "Virupaksha Temple",
+        "Vittala Temple",
+        "Intangible Cultural Heritage"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Hampi is located on the banks of the Tungabhadra River.",
+        "It was the capital of the Vijayanagara Empire (14th-16th centuries).",
+        "Hampi became a UNESCO World Heritage Site in 1986.",
+        "The Virupaksha Temple is one of the oldest functioning temples in India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of preserving cultural heritage sites like Hampi for understanding India's historical legacy and promoting cultural tourism.",
+        "Analyze the challenges faced by the Archaeological Survey of India (ASI) in the conservation and management of vast historical sites across India.",
+        "Evaluate the role of modern technology (e.g., laser scanning, drones) in enhancing the precision and sustainability of archaeological restoration projects.",
+        "How can community participation and traditional knowledge be integrated into heritage conservation efforts to ensure long-term sustainability?"
+      ],
+      "imageDescription": "Panoramic view of the ancient ruins of Hampi, with the Virupaksha Temple in the background.",
+      "section": "Art & Culture",
+      "trivia": "Hampi is known for its unique 'musical pillars' in the Vittala Temple, which resonate with musical notes when tapped.",
+      "prelimsSyllabus": {
+        "subject": "Art and Culture",
+        "area": "Architecture",
+        "topic": "South Indian Temple Architecture (Vijayanagara)"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "cyber-security-framework-update",
+      "headline": "India Unveils Enhanced National Cybersecurity Framework to Combat Evolving Threats",
+      "explainer": "• The Ministry of Electronics and Information Technology (MeitY) released an updated National Cybersecurity Framework 2.0, addressing advanced persistent threats (APTs) and ransomware.\n• The framework emphasizes strengthening critical information infrastructure (CII) protection and promoting indigenous cybersecurity product development.\n• It mandates stricter compliance for government agencies and private entities handling sensitive data, including regular security audits and incident response protocols.\n• A new 'Cybersecurity Skill Development Mission' has been launched to bridge the talent gap in the rapidly evolving digital landscape.\n• International cooperation on intelligence sharing and joint cyber exercises forms a crucial part of the updated strategy.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention.",
+        "Science and Technology- developments and their applications and effects in everyday life."
+      ],
+      "date": "2026-02-24",
+      "source": "The Indian Express",
+      "sourceUrl": "https://indianexpress.com/2026/02/24/cybersecurity-framework-update",
+      "importance": "high",
+      "tags": [
+        "Cybersecurity",
+        "National Cybersecurity Framework",
+        "Critical Information Infrastructure",
+        "Ransomware",
+        "Cyber Warfare",
+        "Digital India"
+      ],
+      "keyTerms": [
+        "Critical Information Infrastructure (CII)",
+        "Advanced Persistent Threats (APTs)",
+        "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+        "CERT-In",
+        "Zero Trust Architecture",
+        "Cyber Resilience"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "National Cybersecurity Policy was first released in 2013.",
+        "CERT-In (Indian Computer Emergency Response Team) is the nodal agency for responding to cyber incidents.",
+        "Critical Information Infrastructure (CII) includes sectors like power, banking, telecom, and defense.",
+        "Ransomware attacks encrypt data and demand payment for decryption."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the key features of India's updated National Cybersecurity Framework 2.0 and its significance in mitigating modern cyber threats.",
+        "Discuss the challenges in protecting Critical Information Infrastructure (CII) from state-sponsored cyber-attacks and non-state actors.",
+        "Evaluate the effectiveness of current policies in fostering a robust cybersecurity ecosystem, including skill development and indigenous technology.",
+        "How can international cooperation and public-private partnerships strengthen India's cyber defense capabilities against global threats?"
+      ],
+      "imageDescription": "A digital padlock icon overlaid on a network of interconnected nodes, symbolizing cybersecurity.",
+      "section": "National",
+      "trivia": "The estimated annual cost of cybercrime to the global economy is in the trillions of dollars.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Cyber Security",
+        "topic": "Challenges to internal security"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "border-infrastructure-north-east",
+      "headline": "Government Accelerates Border Infrastructure Development in North-Eastern States",
+      "explainer": "• The Ministry of Home Affairs announced accelerated funding and project implementation for border infrastructure development in India's North-Eastern states.\n• The focus is on constructing all-weather roads, strategic bridges, and advanced surveillance systems along sensitive international borders.\n• This move aims to enhance troop mobility, facilitate trade, and improve connectivity for remote border communities.\n• The projects are part of the 'Vibrant Villages Programme' to integrate border villages into the mainstream economy and prevent outward migration.\n• Collaboration with the Border Roads Organisation (BRO) and state governments is key to overcoming geographical and logistical challenges.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+      ],
+      "date": "2026-02-24",
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/2026/02/24/border-infra-north-east",
+      "importance": "medium",
+      "tags": [
+        "Border Security",
+        "North-East India",
+        "Infrastructure Development",
+        "Vibrant Villages Programme",
+        "BRO",
+        "Strategic Connectivity"
+      ],
+      "keyTerms": [
+        "Border Area Development Programme (BADP)",
+        "Vibrant Villages Programme",
+        "Border Roads Organisation (BRO)",
+        "Line of Actual Control (LAC)",
+        "Integrated Check Posts (ICPs)",
+        "Look East Policy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "North-Eastern states share borders with Bangladesh, Myanmar, China, Bhutan, and Nepal.",
+        "BRO is responsible for road construction in border areas.",
+        "Vibrant Villages Programme aims to improve infrastructure and livelihood opportunities in border villages.",
+        "Improved connectivity in NE is crucial for India's Act East Policy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of robust border infrastructure in India's North-Eastern states for national security and regional development.",
+        "Analyze the unique geographical and geopolitical challenges in developing infrastructure in this region and the measures being taken to overcome them.",
+        "Evaluate the impact of the 'Vibrant Villages Programme' on the socio-economic development of border communities and their integration into the national fabric.",
+        "How do improved border connectivity and trade routes contribute to India's 'Act East Policy' and regional integration initiatives?"
+      ],
+      "imageDescription": "A newly constructed strategic road winding through mountainous terrain in the North-East.",
+      "section": "National",
+      "trivia": "The North-Eastern Region accounts for about 8% of India's geographical area and 3.7% of its population.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Border Management",
+        "topic": "Security challenges in border areas"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "g20-debt-relief-framework",
+      "headline": "G20 Finance Ministers Discuss Enhanced Framework for Global Debt Relief and Restructuring",
+      "explainer": "• Finance Ministers and Central Bank Governors from G20 nations convened to address the escalating global debt crisis, particularly in developing countries.\n• Discussions focused on streamlining the 'Common Framework for Debt Treatments' and improving coordination among bilateral and multilateral creditors.\n• India, as a prominent voice for the Global South, advocated for faster and more transparent debt restructuring mechanisms.\n• The meeting explored innovative financing solutions and conditionalities for debt relief to ensure long-term fiscal sustainability.\n• The rising interest rates and post-pandemic economic vulnerabilities have exacerbated debt burdens, necessitating urgent global action.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+        "Important International institutions, agencies and fora - their structure, mandate."
+      ],
+      "date": "2026-02-24",
+      "source": "Reuters",
+      "sourceUrl": "https://www.reuters.com/2026/02/24/g20-debt-relief-framework",
+      "importance": "medium",
+      "tags": [
+        "G20",
+        "Global Debt Crisis",
+        "Debt Restructuring",
+        "Common Framework",
+        "International Finance",
+        "Developing Countries"
+      ],
+      "keyTerms": [
+        "G20",
+        "Common Framework for Debt Treatments",
+        "Debt Sustainability Analysis (DSA)",
+        "International Monetary Fund (IMF)",
+        "World Bank",
+        "Paris Club"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "G20 is an intergovernmental forum comprising 19 countries and the European Union.",
+        "The Common Framework for Debt Treatments was endorsed by the G20 and Paris Club in November 2020.",
+        "It aims to facilitate timely and orderly debt treatment for low-income countries.",
+        "India is a member of the G20 and has been advocating for the interests of the Global South."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the causes and implications of the growing global debt crisis, especially for developing and least developed countries.",
+        "Critically evaluate the effectiveness of the G20's 'Common Framework for Debt Treatments' in providing timely and comprehensive debt relief.",
+        "Discuss India's role and proposals in shaping a more equitable and efficient global debt restructuring architecture.",
+        "What are the challenges in achieving consensus among diverse creditors (bilateral, multilateral, private) on debt relief measures?"
+      ],
+      "imageDescription": "A graphic representing global debt with various currencies and country flags.",
+      "section": "International",
+      "trivia": "The G20 represents about two-thirds of the world's population, 85% of global GDP, and over 75% of global trade.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "G20 and global economic governance"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "marine-biodiversity-conservation",
+      "headline": "India Launches 'Samudra Setu' Initiative for Marine Biodiversity Conservation",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change unveiled 'Samudra Setu', a new national initiative focused on protecting India's marine biodiversity.\n• The program targets critical marine ecosystems such as coral reefs, mangroves, and seagrass beds, which are vital for coastal protection and fisheries.\n• It involves advanced research on marine species, combating plastic pollution, and sustainable fisheries management practices.\n• Collaborative efforts with local fishing communities, NGOs, and international organizations are central to the initiative's success.\n• Samudra Setu aims to strengthen India's commitments under global biodiversity conventions and achieve SDG 14 (Life Below Water).",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Biodiversity and Environment."
+      ],
+      "date": "2026-02-24",
+      "source": "The Hindu",
+      "sourceUrl": "https://www.thehindu.com/2026/02/24/samudra-setu-marine-biodiversity",
+      "importance": "medium",
+      "tags": [
+        "Marine Conservation",
+        "Biodiversity",
+        "Coastal Ecosystems",
+        "Plastic Pollution",
+        "Sustainable Fisheries",
+        "SDG 14"
+      ],
+      "keyTerms": [
+        "Coral Reefs",
+        "Mangroves",
+        "Seagrass Beds",
+        "Marine Protected Areas (MPAs)",
+        "Blue Economy",
+        "Sustainable Development Goal (SDG) 14"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India has a coastline of over 7,500 km.",
+        "Coral reefs are found in the Andaman & Nicobar Islands, Lakshadweep, Gulf of Mannar, and Gulf of Kutch.",
+        "Mangroves act as natural barriers against cyclones and tsunamis.",
+        "SDG 14 aims to conserve and sustainably use the oceans, seas and marine resources for sustainable development."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ecological and economic significance of India's marine biodiversity and the threats it faces from human activities and climate change.",
+        "Analyze the objectives and key components of the 'Samudra Setu' initiative and its potential to enhance marine conservation efforts in India.",
+        "Evaluate the role of local communities, particularly fishing communities, in achieving sustainable marine resource management.",
+        "How does India's marine conservation strategy align with its international commitments under conventions like the Convention on Biological Diversity (CBD) and UNCLOS?"
+      ],
+      "imageDescription": "Underwater scene showing vibrant coral reefs and diverse marine life, with a diver observing.",
+      "section": "Environment",
+      "trivia": "The Great Barrier Reef off Australia is the world's largest coral reef system, visible from space.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Biodiversity",
+        "topic": "Marine Ecosystems"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "startup-ecosystem-report",
+      "headline": "India's Startup Ecosystem Registers Record Growth, Emerges as Global Innovation Hub",
+      "explainer": "• A new report by NASSCOM and the Department for Promotion of Industry and Internal Trade (DPIIT) highlights unprecedented growth in India's startup ecosystem.\n• India added over 5,000 new startups in the last year, with significant contributions from Tier-2 and Tier-3 cities.\n• The report notes a surge in deep-tech, AI, and sustainable technology startups, attracting substantial venture capital funding.\n• Government initiatives like the Startup India Seed Fund Scheme and tax incentives have played a crucial role in fostering this growth.\n• India is solidifying its position as the third-largest startup ecosystem globally, trailing only the US and China.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Science and Technology- developments and their applications and effects in everyday life."
+      ],
+      "date": "2026-02-24",
+      "source": "Business Standard",
+      "sourceUrl": "https://www.business-standard.com/2026/02/24/startup-ecosystem-report",
+      "importance": "medium",
+      "tags": [
+        "Startup Ecosystem",
+        "Innovation",
+        "Venture Capital",
+        "Deep Tech",
+        "Startup India",
+        "Economic Growth"
+      ],
+      "keyTerms": [
+        "Startup India",
+        "Unicorn",
+        "Venture Capital (VC)",
+        "Angel Investors",
+        "Incubators",
+        "Accelerators",
+        "Deep Tech"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Startup India initiative was launched in 2016.",
+        "India is home to a significant number of 'unicorns' (startups valued at over $1 billion).",
+        "DPIIT (Department for Promotion of Industry and Internal Trade) is the nodal agency for Startup India.",
+        "Deep tech refers to technologies based on substantial scientific or engineering breakthroughs."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the factors contributing to the robust growth of India's startup ecosystem and its implications for job creation and economic diversification.",
+        "Discuss the role of government policies and initiatives like 'Startup India' in nurturing innovation and entrepreneurship across the country.",
+        "Examine the challenges faced by Indian startups, particularly in securing funding, navigating regulatory complexities, and scaling operations.",
+        "How can India leverage its demographic dividend and technological prowess to further strengthen its position as a global innovation hub?"
+      ],
+      "imageDescription": "A group of diverse young entrepreneurs working collaboratively in a modern office space.",
+      "section": "Economy",
+      "trivia": "Bengaluru is often referred to as the 'Silicon Valley of India' due to its thriving tech and startup scene.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Industrial Policy",
+        "topic": "Startup India and entrepreneurship"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-education-policy-review",
+      "headline": "First Comprehensive Review of National Education Policy 2020 Implementation Released",
+      "explainer": "• The Ministry of Education published its first comprehensive review report on the implementation progress of the National Education Policy (NEP) 2020.\n• The report highlights significant advancements in foundational literacy and numeracy, vocational education integration, and digital learning initiatives.\n• Challenges remain in teacher training, infrastructure development, and ensuring equitable access to quality education, especially in higher education.\n• The review emphasizes the need for greater state-level ownership and collaborative efforts to achieve NEP's transformative goals.\n• Recommendations include increasing public expenditure on education and strengthening outcome-based assessments.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2026-02-24",
+      "source": "DD News",
+      "sourceUrl": "https://ddnews.gov.in/2026/02/24/nep-2020-review-report",
+      "importance": "medium",
+      "tags": [
+        "National Education Policy",
+        "Education Reform",
+        "Vocational Education",
+        "Digital Learning",
+        "Teacher Training",
+        "Foundational Literacy"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP) 2020",
+        "Foundational Literacy and Numeracy (FLN)",
+        "Multidisciplinary Education",
+        "Holistic Development",
+        "Gross Enrolment Ratio (GER)",
+        "National Curriculum Framework (NCF)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NEP 2020 replaced the 1986 National Policy on Education.",
+        "It proposes a 5+3+3+4 curricular structure instead of 10+2.",
+        "Aims to achieve 100% Gross Enrolment Ratio (GER) in school education by 2030.",
+        "Emphasis on mother tongue/local language as medium of instruction till Grade 5."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically analyze the progress made and challenges encountered in the implementation of the National Education Policy (NEP) 2020 since its inception.",
+        "Discuss how NEP 2020 aims to address issues of equity, access, and quality in Indian education, from foundational learning to higher education.",
+        "Evaluate the potential impact of vocational education integration and multidisciplinary approaches on the employability of Indian youth.",
+        "What reforms are still needed in teacher education, curriculum design, and assessment methods to fully realize the vision of NEP 2020?"
+      ],
+      "imageDescription": "Children in a classroom engaged in interactive learning, with digital tablets.",
+      "section": "National",
+      "trivia": "NEP 2020 is the third major education policy in India's history since independence.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Education",
+        "topic": "Government policies in education"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indus-water-treaty-talks",
+      "headline": "India-Pakistan Permanent Indus Commission Holds Productive Talks on Water Sharing",
+      "explainer": "• The Permanent Indus Commission (PIC), comprising water commissioners from India and Pakistan, concluded its annual meeting with constructive discussions.\n• The talks focused on resolving technical disagreements over hydro-power projects on the Chenab river and data sharing mechanisms.\n• Both sides reiterated their commitment to upholding the provisions of the Indus Waters Treaty (IWT) in letter and spirit.\n• The meeting is seen as a positive step amidst often strained bilateral relations, demonstrating the resilience of the IWT.\n• Further technical discussions are planned to address specific project designs and ensure compliance with the treaty's clauses.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighbourhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests."
+      ],
+      "date": "2026-02-24",
+      "source": "ANI",
+      "sourceUrl": "https://www.ani.in/2026/02/24/indus-water-treaty-talks",
+      "importance": "medium",
+      "tags": [
+        "Indus Waters Treaty",
+        "India-Pakistan Relations",
+        "Water Sharing",
+        "Permanent Indus Commission",
+        "Hydropower Projects",
+        "Bilateral Dialogue"
+      ],
+      "keyTerms": [
+        "Indus Waters Treaty (IWT)",
+        "Permanent Indus Commission (PIC)",
+        "Western Rivers (Indus, Jhelum, Chenab)",
+        "Eastern Rivers (Ravi, Beas, Sutlej)",
+        "Run-of-the-river projects",
+        "Bilateral Dispute Resolution"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Indus Waters Treaty (IWT) was signed in 1960, brokered by the World Bank.",
+        "It allocates the waters of the Eastern Rivers (Ravi, Beas, Sutlej) to India.",
+        "It allocates the waters of the Western Rivers (Indus, Jhelum, Chenab) to Pakistan, with India allowed non-consumptive uses.",
+        "Permanent Indus Commission meets annually to discuss treaty-related matters."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the enduring significance of the Indus Waters Treaty (IWT) as a model for transboundary water management despite complex bilateral relations.",
+        "Discuss the recurring challenges and points of contention between India and Pakistan regarding the implementation of the IWT, particularly concerning hydropower projects.",
+        "Evaluate the role of the Permanent Indus Commission (PIC) in facilitating dialogue and resolving disputes related to water sharing.",
+        "What are the implications of climate change and increasing water scarcity on the long-term viability and equitable distribution under the IWT?"
+      ],
+      "imageDescription": "Map showing the Indus River system flowing through India and Pakistan.",
+      "section": "International",
+      "trivia": "The Indus Waters Treaty is considered one of the most successful water-sharing treaties in the world, having survived multiple conflicts between India and Pakistan.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India and its Neighbourhood",
+        "topic": "India-Pakistan relations, Water sharing agreements"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "tropical-cyclone-early-warning",
+      "headline": "IMD Enhances Tropical Cyclone Early Warning Systems with AI Integration",
+      "explainer": "• The India Meteorological Department (IMD) announced the operationalization of an upgraded tropical cyclone early warning system, leveraging AI and machine learning.\n• The new system offers higher accuracy in predicting cyclone intensity, track, and landfall points, significantly reducing lead time for warnings.\n• It integrates data from a wider network of satellites, ocean buoys, and Doppler weather radars for comprehensive meteorological analysis.\n• The enhancement aims to minimize loss of life and property by providing more precise and timely alerts to disaster management agencies and coastal communities.\n• Capacity building programs for state disaster response forces on interpreting and acting upon advanced warnings are also underway.",
+      "category": "geography",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc.",
+        "Disaster and disaster management."
+      ],
+      "date": "2026-02-24",
+      "source": "Hindustan Times",
+      "sourceUrl": "https://www.hindustantimes.com/2026/02/24/imd-cyclone-early-warning",
+      "importance": "medium",
+      "tags": [
+        "Tropical Cyclones",
+        "Early Warning Systems",
+        "IMD",
+        "AI in Meteorology",
+        "Disaster Management",
+        "Coastal Security"
+      ],
+      "keyTerms": [
+        "India Meteorological Department (IMD)",
+        "Tropical Cyclone",
+        "Doppler Weather Radar (DWR)",
+        "Numerical Weather Prediction (NWP)",
+        "Storm Surge",
+        "Disaster Risk Reduction (DRR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "IMD is the principal agency for meteorological observations, weather forecasting, and seismology in India.",
+        "Tropical cyclones originate over warm ocean waters.",
+        "The Bay of Bengal and Arabian Sea are major breeding grounds for cyclones affecting India.",
+        "AI and Machine Learning are increasingly used in weather modeling for pattern recognition and prediction."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of advanced early warning systems, particularly AI-integrated ones, in mitigating the impact of tropical cyclones on India's coastal regions.",
+        "Analyze the evolution of India's disaster management capabilities, focusing on the role of technological advancements and inter-agency coordination.",
+        "Evaluate the challenges faced by disaster management authorities in effectively disseminating warnings and ensuring timely evacuation of vulnerable populations.",
+        "How can community participation and traditional knowledge be integrated with scientific early warning systems for more effective disaster preparedness?"
+      ],
+      "imageDescription": "Satellite image showing a swirling tropical cyclone over the ocean, with overlayed prediction models.",
+      "section": "Environment",
+      "trivia": "The name 'cyclone' was coined by Henry Piddington in 1840, derived from the Greek word 'kyklos' meaning a coil of a snake, referring to the coiled appearance of the storms.",
+      "prelimsSyllabus": {
+        "subject": "Geography",
+        "area": "Climatology",
+        "topic": "Tropical Cyclones and Disaster Management"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-species-western-ghats",
+      "headline": "Two New Species of Amphibians Discovered in Biodiversity Hotspot Western Ghats",
+      "explainer": "• Researchers from the Zoological Survey of India (ZSI) announced the discovery of two previously unknown species of frogs in the Western Ghats.\n• The new species, identified through advanced genetic and morphological analyses, highlight the immense biodiversity of the region.\n• This discovery underscores the critical need for enhanced conservation efforts in the Western Ghats, a UNESCO World Heritage Site.\n• Habitat loss, climate change, and pollution continue to pose significant threats to the unique flora and fauna of this biodiversity hotspot.\n• The ZSI team emphasized the importance of sustained field research and local community involvement in biodiversity documentation and protection.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Biodiversity and Environment."
+      ],
+      "date": "2026-02-24",
+      "source": "The Times of India",
+      "sourceUrl": "https://timesofindia.indiatimes.com/2026/02/24/new-species-western-ghats",
+      "importance": "low",
+      "tags": [
+        "Biodiversity",
+        "Western Ghats",
+        "Amphibians",
+        "New Species",
+        "Conservation",
+        "Zoological Survey of India"
+      ],
+      "keyTerms": [
+        "Biodiversity Hotspot",
+        "Endemic Species",
+        "Zoological Survey of India (ZSI)",
+        "Habitat Fragmentation",
+        "IUCN Red List",
+        "Amphibian Decline"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Western Ghats is one of the world's eight 'hottest hotspots' of biological diversity.",
+        "It is older than the Himalayas and a UNESCO World Heritage Site.",
+        "Amphibians are excellent bio-indicators of environmental health.",
+        "ZSI is India's premier institution for zoological research and studies."
+      ],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "Close-up photograph of a newly discovered frog species in its natural habitat in the Western Ghats.",
+      "section": "Environment",
+      "trivia": "The Western Ghats is home to at least 325 globally threatened species.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Biodiversity",
+        "topic": "Biodiversity hotspots in India"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "editorial-ai-ethics-india",
+      "headline": "Editorial: Navigating the Ethical Maze of AI – India's Opportunity for Global Leadership",
+      "explainer": "• The recent Supreme Court ruling on AI and privacy has brought the complex ethical dimensions of artificial intelligence to the forefront of public discourse.\n• This editorial argues that India has a unique opportunity to lead global conversations on AI ethics, drawing from its constitutional values and democratic ethos.\n• It calls for a balanced approach that fosters innovation while establishing robust safeguards against algorithmic bias, surveillance, and job displacement.\n• The need for a multi-stakeholder approach involving government, industry, academia, and civil society in drafting AI regulations is emphasized.\n• India's 'Digital Public Infrastructure' model could serve as a blueprint for ethical AI deployment globally, focusing on inclusion and transparency.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+        "Important International institutions, agencies and fora - their structure, mandate.",
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure."
+      ],
+      "date": "2026-02-24",
+      "source": "The Indian Express",
+      "sourceUrl": "https://indianexpress.com/2026/02/24/editorial-ai-ethics-india",
+      "importance": "high",
+      "tags": [
+        "AI Ethics",
+        "Digital Governance",
+        "India's Global Role",
+        "Algorithmic Bias",
+        "Digital Public Infrastructure",
+        "Data Privacy"
+      ],
+      "keyTerms": [
+        "Artificial Intelligence (AI)",
+        "Algorithmic Ethics",
+        "Digital Public Infrastructure (DPI)",
+        "Responsible AI",
+        "AI Regulation",
+        "Data Sovereignty"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss India's potential to emerge as a thought leader in global AI ethics and governance, drawing parallels with its democratic values and technological prowess.",
+        "Analyze the ethical dilemmas posed by the rapid advancement of AI, including issues of bias, privacy, accountability, and their societal implications.",
+        "Examine how India's 'Digital Public Infrastructure' model can be leveraged to build and deploy AI systems that are inclusive, transparent, and rights-respecting.",
+        "What policy mechanisms and multi-stakeholder collaborations are essential for creating a 'Responsible AI' ecosystem in India?"
+      ],
+      "imageDescription": "A stylized image of an abstract human brain merging with circuit board patterns, symbolizing AI and ethics.",
+      "section": "Editorial",
+      "trivia": "The term 'Artificial Intelligence' was coined by John McCarthy in 1956.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Information Technology",
+        "topic": "AI and its ethical dimensions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "climate-resilience-action-plan",
+      "headline": "India Unveils 'National Climate Resilience Action Plan 2030' to Combat Extreme Weather",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change launched a comprehensive 'National Climate Resilience Action Plan 2030' (NCRAP 2030).\n• The plan focuses on enhancing adaptive capacity across vulnerable sectors like agriculture, water resources, and coastal zones against extreme weather events.\n• It mandates integration of climate risk assessments into all major infrastructure projects and urban planning.\n• Significant investment in climate-resilient technologies, early warning systems, and nature-based solutions is proposed.\n• NCRAP 2030 emphasizes a decentralized approach, empowering local bodies and communities in climate adaptation strategies.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Disaster and disaster management."
+      ],
+      "date": "2026-02-24",
+      "source": "PTI",
+      "sourceUrl": "https://www.pti.in/2026/02/24/climate-resilience-action-plan",
+      "importance": "high",
+      "tags": [
+        "Climate Resilience",
+        "Climate Change Adaptation",
+        "Extreme Weather",
+        "Disaster Preparedness",
+        "Sustainable Agriculture",
+        "National Action Plan"
+      ],
+      "keyTerms": [
+        "Climate Resilience",
+        "Climate Adaptation",
+        "National Action Plan on Climate Change (NAPCC)",
+        "Intended Nationally Determined Contributions (INDCs)",
+        "Nature-Based Solutions",
+        "Climate Vulnerability Assessment"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India is highly vulnerable to climate change impacts like heatwaves, floods, and droughts.",
+        "National Action Plan on Climate Change (NAPCC) was launched in 2008.",
+        "The new plan focuses on 'adaptation' measures alongside mitigation.",
+        "Coastal zones are particularly vulnerable to sea-level rise and storm surges."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the key objectives and strategies of India's 'National Climate Resilience Action Plan 2030' in addressing the growing threats of extreme weather events.",
+        "Discuss the challenges in implementing climate adaptation measures across diverse geographical and socio-economic contexts in India.",
+        "Evaluate the role of technology, traditional knowledge, and community participation in building climate-resilient infrastructure and livelihoods.",
+        "How can international cooperation and climate finance mechanisms support India's efforts in enhancing its climate resilience?"
+      ],
+      "imageDescription": "A farmer standing in a resilient crop field, with diverse weather phenomena in the background (sun, rain, wind).",
+      "section": "Environment",
+      "trivia": "Global average temperatures have risen by over 1.2 degrees Celsius since pre-industrial times, leading to more frequent and intense extreme weather events.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Climate Change",
+        "topic": "Climate change adaptation and mitigation"
+      },
+      "prelimsPotential": 4
+    }
+  ],
+  "highlights": [
+    "Supreme Court delivers landmark judgment on AI and digital privacy, calling for robust governance framework.",
+    "RBI maintains status quo on repo rate amidst global uncertainties and domestic inflation concerns.",
+    "India-Africa Economic Forum concludes with pledges for enhanced cooperation in green energy and digital transformation.",
+    "Defence Ministry unveils new policy (DAP 2026) to boost indigenous production and exports, fostering 'Atmanirbhar Bharat'.",
+    "India launches 'National Climate Resilience Action Plan 2030' to enhance adaptive capacity against extreme weather events."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the recent Supreme Court judgment on AI and digital privacy, consider the following statements:\n1. The ruling reiterates the fundamental right to privacy under Article 21 of the Indian Constitution.\n2. It mandates a comprehensive legal framework for AI use, including guidelines on algorithmic bias.\n3. The judgment specifically calls for an independent regulatory body for AI governance.\nWhich of the statements given above are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(d) 1, 2 and 3",
+      "explanation": "The Supreme Court's judgment on AI and digital privacy has indeed reiterated the fundamental right to privacy (Puttaswamy judgment). It also explicitly called for a comprehensive legal framework to regulate AI, particularly addressing data collection, processing, and algorithmic bias. Furthermore, the court suggested the need for an independent regulatory body for AI governance. Thus, all three statements are correct."
+    },
+    {
+      "question": "Which of the following statements best describes the primary objective of the Reserve Bank of India's Monetary Policy Committee (MPC)?",
+      "options": [
+        "(a) To manage the government's debt and fiscal deficit.",
+        "(b) To maintain price stability while keeping in mind the objective of growth.",
+        "(c) To regulate foreign exchange reserves and exchange rates.",
+        "(d) To promote financial inclusion and digital payments."
+      ],
+      "answer": "(b) To maintain price stability while keeping in mind the objective of growth.",
+      "explanation": "As per the Reserve Bank of India Act, 1934, the primary objective of the Monetary Policy Committee (MPC) is to maintain price stability while keeping in mind the objective of growth. Options (a), (c), and (d) are other functions of the RBI but not the primary mandate of the MPC."
+    },
+    {
+      "question": "Consider the following about the 'Samudra Setu' Initiative:\n1. It is a national initiative focused on marine biodiversity conservation.\n2. It aims to protect terrestrial ecosystems like rainforests and grasslands.\n3. It involves combating plastic pollution and sustainable fisheries management.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 3 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 3 only",
+      "explanation": "'Samudra Setu' is indeed a national initiative for marine biodiversity conservation (Statement 1 is correct). It specifically targets critical marine ecosystems and involves combating plastic pollution and promoting sustainable fisheries (Statement 3 is correct). It does not focus on terrestrial ecosystems like rainforests and grasslands; that would be a different conservation initiative (Statement 2 is incorrect)."
+    },
+    {
+      "question": "With reference to the National Education Policy (NEP) 2020, which of the following curricular structures is proposed to replace the 10+2 system?",
+      "options": [
+        "(a) 6+3+2+2",
+        "(b) 5+3+3+4",
+        "(c) 4+4+3+2",
+        "(d) 10+2+3"
+      ],
+      "answer": "(b) 5+3+3+4",
+      "explanation": "The National Education Policy (NEP) 2020 proposes a new pedagogical and curricular structure of 5+3+3+4, replacing the existing 10+2 structure. This new structure aims to be more inclusive and holistic, covering foundational, preparatory, middle, and secondary stages."
+    },
+    {
+      "question": "The Indus Waters Treaty (IWT) was brokered by which international organization?",
+      "options": [
+        "(a) United Nations",
+        "(b) International Monetary Fund (IMF)",
+        "(c) World Bank",
+        "(d) Asian Development Bank (ADB)"
+      ],
+      "answer": "(c) World Bank",
+      "explanation": "The Indus Waters Treaty (IWT) was signed in 1960 between India and Pakistan with the mediation and technical assistance of the World Bank (then the International Bank for Reconstruction and Development)."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "The Supreme Court's recent pronouncement on AI and digital privacy marks a crucial juncture in India's journey towards responsible technological governance. Discuss the implications of this judgment for the future of AI development and data protection in India, and suggest reforms needed to build a robust ethical AI framework.",
+      "syllabusMatch": "GS2: Government policies and interventions for development in various sectors and issues arising out of their design and implementation; Indian Constitution—fundamental rights.",
+      "approach": "Introduce the SC judgment and its significance. Discuss implications: enhanced citizen rights, need for legislative clarity, impact on industry, potential for global leadership. Highlight reforms: dedicated AI law, independent regulatory body, data audit mechanisms, public awareness, multi-stakeholder approach. Conclude with balancing innovation and ethics."
+    },
+    {
+      "question": "India's 'National Climate Resilience Action Plan 2030' aims to bolster the nation's adaptive capacity against extreme weather events. Critically analyze the challenges in implementing such an ambitious plan across diverse geographical regions and socio-economic strata, and suggest strategies for effective climate adaptation at the grassroots level.",
+      "syllabusMatch": "GS3: Conservation, environmental pollution and degradation, environmental impact assessment; Disaster and disaster management.",
+      "approach": "Outline NCRAP 2030's objectives. Analyze implementation challenges: funding, technology access, inter-state coordination, socio-economic disparities, awareness gaps. Suggest strategies for grassroots adaptation: community-based planning, local knowledge integration, decentralized governance, micro-finance for resilience, capacity building for local bodies, nature-based solutions."
+    },
+    {
+      "question": "The sustained growth of India's startup ecosystem is often hailed as a testament to its demographic dividend and entrepreneurial spirit. Examine the key drivers behind this growth, the challenges that persist for startups, and the role of government policies in fostering a conducive environment for innovation.",
+      "syllabusMatch": "GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment; Science and Technology- developments and their applications and effects in everyday life.",
+      "approach": "Introduce India's startup growth. Key drivers: large domestic market, digital penetration, young population, government support (Startup India), access to capital. Challenges: funding crunch (especially for early-stage/deep tech), regulatory hurdles, talent acquisition, scaling issues, competition. Government's role: tax incentives, seed funds, incubators, ease of doing business, policy stability. Conclude with recommendations for future growth."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The Supreme Court's AI-privacy ruling builds upon the 2017 Puttaswamy judgment, which declared privacy a fundamental right.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Supreme Court",
+        "Right to Privacy",
+        "AI"
+      ]
+    },
+    {
+      "text": "RBI's Monetary Policy Committee (MPC) comprises 6 members, 3 from RBI and 3 nominated by the Government of India.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "MPC",
+        "Monetary Policy"
+      ]
+    },
+    {
+      "text": "India is the 4th largest trading partner for Africa, emphasizing South-South cooperation.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "India-Africa",
+        "Trade",
+        "South-South Cooperation"
+      ]
+    },
+    {
+      "text": "Chandrayaan-4 is envisioned as a sample return mission, following Chandrayaan-3's successful soft landing.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "Chandrayaan",
+        "Space Mission"
+      ]
+    },
+    {
+      "text": "DAP 2026 prioritizes 'Make in India' and 'Buy Indian' categories for defense acquisitions.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "Defence",
+        "Make in India",
+        "DAP"
+      ]
+    },
+    {
+      "text": "The National Green Hydrogen Mission aims for 5 million tonnes of green hydrogen production by 2030.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Hydrogen",
+        "Renewable Energy",
+        "Climate"
+      ]
+    },
+    {
+      "text": "Ayushman Bharat Digital Mission (ABDM) uses a 14-digit ABHA ID for digital health records.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "ABDM",
+        "Digital Health",
+        "Healthcare"
+      ]
+    },
+    {
+      "text": "Hampi, a UNESCO World Heritage Site, was the capital of the Vijayanagara Empire.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "tags": [
+        "Hampi",
+        "UNESCO",
+        "Vijayanagara"
+      ]
+    },
+    {
+      "text": "CERT-In is India's nodal agency for responding to cybersecurity incidents.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "Cybersecurity",
+        "CERT-In",
+        "Internal Security"
+      ]
+    },
+    {
+      "text": "The Indus Waters Treaty (1960) allocates Western Rivers (Indus, Jhelum, Chenab) to Pakistan.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "Indus Waters Treaty",
+        "India-Pakistan",
+        "Water Sharing"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "urban-mobility-tier2-cities",
+        "headline": "National Urban Mobility Mission Launches New Projects in 15 Tier-2 Cities",
+        "explainer": "• The Ministry of Housing and Urban Affairs initiated phase 2 of the National Urban Mobility Mission, focusing on sustainable transport solutions in 15 Tier-2 cities.\n• Projects include integrated public transport systems, non-motorized transport infrastructure (cycle tracks, pedestrian paths), and smart parking solutions.\n• The mission aims to decongest urban areas, reduce pollution, and promote green mobility options through public-private partnerships.\n• Funding will be provided through a combination of central, state, and municipal allocations, along with private investment.\n• Capacity building for urban local bodies in planning and managing sustainable transport systems is a key component.",
+        "category": "geography",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Salient features of urbanization, problems and remedies.",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+        ],
+        "date": "2026-02-24",
+        "source": "The Hindu Business Line",
+        "sourceUrl": "https://www.thehindubusinessline.com/2026/02/24/urban-mobility-tier2-cities",
+        "importance": "medium",
+        "tags": [
+          "Urban Mobility",
+          "Sustainable Transport",
+          "Tier-2 Cities",
+          "Smart Cities",
+          "Public Transport",
+          "Urban Planning"
+        ],
+        "keyTerms": [
+          "National Urban Mobility Mission (NUMM)",
+          "Non-Motorized Transport (NMT)",
+          "Transit-Oriented Development (TOD)",
+          "Intelligent Transport Systems (ITS)",
+          "Green Mobility",
+          "Urban Local Bodies (ULBs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Urban Mobility Policy was launched in 2006.",
+          "Tier-2 cities are those with a population between 50,000 and 10 lakh.",
+          "Focus on 'first and last-mile connectivity' in urban transport.",
+          "Public-Private Partnerships (PPPs) are crucial for funding large-scale urban infrastructure projects."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of focusing on Tier-2 cities for urban mobility initiatives in India, considering their rapid growth and emerging infrastructure needs.",
+          "Discuss the key challenges in implementing sustainable urban transport solutions in Indian cities, including funding, land acquisition, and public acceptance.",
+          "Evaluate the potential of integrated public transport and non-motorized transport to reduce carbon footprint and improve quality of life in urban areas.",
+          "What role can technology and smart city concepts play in enhancing the efficiency and sustainability of urban mobility systems?"
+        ],
+        "imageDescription": "A modern cityscape with integrated public transport, cycling paths, and green spaces.",
+        "section": "National",
+        "trivia": "Indian cities are projected to add 40% of the world's new urban dwellers by 2050.",
+        "prelimsSyllabus": {
+          "subject": "Indian Geography",
+          "area": "Urbanization",
+          "topic": "Urban infrastructure and mobility"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ancient-site-restoration-hampi",
+        "headline": "ASI Initiates Major Restoration Work at UNESCO World Heritage Site Hampi",
+        "explainer": "• The Archaeological Survey of India (ASI) commenced an extensive restoration and conservation project at the iconic Hampi site in Karnataka.\n• The multi-year project focuses on preserving the structural integrity of ancient temples and monuments, particularly the Virupaksha Temple and Vittala Temple complex.\n• Advanced laser scanning and drone mapping technologies are being employed to ensure accurate and non-invasive conservation practices.\n• Community engagement and local artisan training are integral parts of the project, aiming to involve stakeholders and revive traditional craftsmanship.\n• The initiative seeks to enhance visitor experience while protecting the cultural and historical significance of the Vijayanagara Empire's capital.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc."
+        ],
+        "date": "2026-02-24",
+        "source": "Deccan Herald",
+        "sourceUrl": "https://www.deccanherald.com/2026/02/24/hampi-restoration-project",
+        "importance": "medium",
+        "tags": [
+          "Hampi",
+          "ASI",
+          "Cultural Heritage",
+          "Restoration",
+          "UNESCO World Heritage",
+          "Vijayanagara Empire"
+        ],
+        "keyTerms": [
+          "Archaeological Survey of India (ASI)",
+          "UNESCO World Heritage Site",
+          "Conservation",
+          "Virupaksha Temple",
+          "Vittala Temple",
+          "Intangible Cultural Heritage"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Hampi is located on the banks of the Tungabhadra River.",
+          "It was the capital of the Vijayanagara Empire (14th-16th centuries).",
+          "Hampi became a UNESCO World Heritage Site in 1986.",
+          "The Virupaksha Temple is one of the oldest functioning temples in India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of preserving cultural heritage sites like Hampi for understanding India's historical legacy and promoting cultural tourism.",
+          "Analyze the challenges faced by the Archaeological Survey of India (ASI) in the conservation and management of vast historical sites across India.",
+          "Evaluate the role of modern technology (e.g., laser scanning, drones) in enhancing the precision and sustainability of archaeological restoration projects.",
+          "How can community participation and traditional knowledge be integrated into heritage conservation efforts to ensure long-term sustainability?"
+        ],
+        "imageDescription": "Panoramic view of the ancient ruins of Hampi, with the Virupaksha Temple in the background.",
+        "section": "Art & Culture",
+        "trivia": "Hampi is known for its unique 'musical pillars' in the Vittala Temple, which resonate with musical notes when tapped.",
+        "prelimsSyllabus": {
+          "subject": "Art and Culture",
+          "area": "Architecture",
+          "topic": "South Indian Temple Architecture (Vijayanagara)"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "tropical-cyclone-early-warning",
+        "headline": "IMD Enhances Tropical Cyclone Early Warning Systems with AI Integration",
+        "explainer": "• The India Meteorological Department (IMD) announced the operationalization of an upgraded tropical cyclone early warning system, leveraging AI and machine learning.\n• The new system offers higher accuracy in predicting cyclone intensity, track, and landfall points, significantly reducing lead time for warnings.\n• It integrates data from a wider network of satellites, ocean buoys, and Doppler weather radars for comprehensive meteorological analysis.\n• The enhancement aims to minimize loss of life and property by providing more precise and timely alerts to disaster management agencies and coastal communities.\n• Capacity building programs for state disaster response forces on interpreting and acting upon advanced warnings are also underway.",
+        "category": "geography",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc.",
+          "Disaster and disaster management."
+        ],
+        "date": "2026-02-24",
+        "source": "Hindustan Times",
+        "sourceUrl": "https://www.hindustantimes.com/2026/02/24/imd-cyclone-early-warning",
+        "importance": "medium",
+        "tags": [
+          "Tropical Cyclones",
+          "Early Warning Systems",
+          "IMD",
+          "AI in Meteorology",
+          "Disaster Management",
+          "Coastal Security"
+        ],
+        "keyTerms": [
+          "India Meteorological Department (IMD)",
+          "Tropical Cyclone",
+          "Doppler Weather Radar (DWR)",
+          "Numerical Weather Prediction (NWP)",
+          "Storm Surge",
+          "Disaster Risk Reduction (DRR)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "IMD is the principal agency for meteorological observations, weather forecasting, and seismology in India.",
+          "Tropical cyclones originate over warm ocean waters.",
+          "The Bay of Bengal and Arabian Sea are major breeding grounds for cyclones affecting India.",
+          "AI and Machine Learning are increasingly used in weather modeling for pattern recognition and prediction."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of advanced early warning systems, particularly AI-integrated ones, in mitigating the impact of tropical cyclones on India's coastal regions.",
+          "Analyze the evolution of India's disaster management capabilities, focusing on the role of technological advancements and inter-agency coordination.",
+          "Evaluate the challenges faced by disaster management authorities in effectively disseminating warnings and ensuring timely evacuation of vulnerable populations.",
+          "How can community participation and traditional knowledge be integrated with scientific early warning systems for more effective disaster preparedness?"
+        ],
+        "imageDescription": "Satellite image showing a swirling tropical cyclone over the ocean, with overlayed prediction models.",
+        "section": "Environment",
+        "trivia": "The name 'cyclone' was coined by Henry Piddington in 1840, derived from the Greek word 'kyklos' meaning a coil of a snake, referring to the coiled appearance of the storms.",
+        "prelimsSyllabus": {
+          "subject": "Geography",
+          "area": "Climatology",
+          "topic": "Tropical Cyclones and Disaster Management"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "sc-ai-privacy-framework",
+        "headline": "Supreme Court Upholds Digital Privacy, Calls for Robust AI Governance Framework",
+        "explainer": "• The Supreme Court delivered a landmark judgment reiterating the fundamental right to privacy in the age of Artificial Intelligence and big data.\n• The ruling emphasizes the need for a comprehensive legal framework to regulate AI's use in public and private sectors, particularly concerning data collection, processing, and algorithmic bias.\n• It mandates greater transparency from government agencies and private entities on AI-driven decision-making affecting citizens' rights.\n• The court highlighted the potential for surveillance and discrimination through unchecked AI and called for an independent regulatory body.\n• This judgment is expected to significantly influence India's upcoming Data Protection and AI Ethics policies.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Statutory, regulatory and various quasi-judicial bodies."
+        ],
+        "date": "2026-02-24",
+        "source": "The Hindu",
+        "sourceUrl": "https://www.thehindu.com/2026/02/24/sc-ai-privacy-framework",
+        "importance": "high",
+        "tags": [
+          "Supreme Court",
+          "Right to Privacy",
+          "Artificial Intelligence",
+          "Data Governance",
+          "Digital Rights",
+          "Judicial Activism"
+        ],
+        "keyTerms": [
+          "Right to Privacy",
+          "Algorithmic Bias",
+          "Data Fiduciary",
+          "Data Principal",
+          "AI Ethics",
+          "Digital Public Infrastructure"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Puttaswamy judgment (2017) declared Right to Privacy as a fundamental right under Article 21.",
+          "The current ruling extends privacy principles to AI and digital technologies.",
+          "Focus on 'informed consent' and 'purpose limitation' in data collection by AI systems.",
+          "Potential for a new independent regulatory body for AI governance in India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the implications of the Supreme Court's AI-privacy judgment on government surveillance and citizen data rights.",
+          "Discuss the challenges in drafting a robust AI governance framework that balances innovation with ethical considerations and fundamental rights.",
+          "Evaluate the role of the judiciary in shaping technological policy and protecting constitutional values in the digital age.",
+          "Examine how this judgment will impact India's position in global discussions on AI ethics and data localization."
+        ],
+        "imageDescription": "Illustration depicting a balance scale with 'Privacy' on one side and 'AI/Technology' on the other, with a gavel symbolizing the Supreme Court's decision.",
+        "section": "Lead Opinion",
+        "trivia": "India is among the few countries globally where the Supreme Court has directly intervened to guide AI governance through a fundamental rights lens.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy and its evolution"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "india-africa-trade-summit",
+        "headline": "India-Africa Economic Forum Concludes, Pledges Enhanced Cooperation in Green Energy and Digital Transformation",
+        "explainer": "• The 12th India-Africa Economic Forum, held in New Delhi, concluded with renewed commitments for strategic partnerships across key sectors.\n• A major focus was placed on accelerating collaboration in renewable energy projects, particularly solar and hydrogen, and digital infrastructure development.\n• India announced new credit lines worth $5 billion for African nations, primarily targeting capacity building and infrastructure development.\n• Discussions also covered food security, healthcare, and skill development, emphasizing a South-South cooperation model.\n• The forum underscored India's 'SAGAR' (Security and Growth for All in the Region) vision extending to the African continent.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighbourhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2026-02-24",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "https://www.mea.gov.in/press-releases.htm?dtl/2026/02/24/India_Africa_Economic_Forum",
+        "importance": "high",
+        "tags": [
+          "India-Africa Relations",
+          "Economic Diplomacy",
+          "Green Energy",
+          "Digital Transformation",
+          "South-South Cooperation",
+          "Credit Lines"
+        ],
+        "keyTerms": [
+          "South-South Cooperation",
+          "Line of Credit (LOC)",
+          "SAGAR Vision",
+          "African Continental Free Trade Area (AfCFTA)",
+          "Renewable Energy Transition"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India is the fourth-largest trading partner for Africa.",
+          "India's development partnership with Africa is based on a demand-driven approach.",
+          "Focus on 'Green Hydrogen' and 'Digital Public Infrastructure' as key areas of future collaboration.",
+          "The forum is a biennial event, showcasing India's growing engagement with African nations."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic significance of India-Africa cooperation in the context of emerging geopolitical dynamics and the growing influence of other global powers in Africa.",
+          "Discuss how India's 'demand-driven' development model and focus on green energy and digital transformation aligns with Africa's development priorities.",
+          "Evaluate the effectiveness of India's Lines of Credit in fostering sustainable development and strengthening bilateral ties with African countries.",
+          "Examine the challenges and opportunities for India in enhancing its economic and strategic footprint across the African continent."
+        ],
+        "imageDescription": "Flags of India and various African nations displayed during a summit.",
+        "section": "International",
+        "trivia": "India's first diplomatic mission in Africa was established in 1943, even before its independence.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India and its Neighbourhood",
+          "topic": "India-Africa relations"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "digital-health-mission-expansion",
+        "headline": "Ayushman Bharat Digital Mission Expands to Cover All Primary Health Centres Nationwide",
+        "explainer": "• The Ministry of Health and Family Welfare announced the successful integration of all Primary Health Centres (PHCs) under the Ayushman Bharat Digital Mission (ABDM).\n• This expansion aims to create a seamless digital health ecosystem, linking patient records, healthcare providers, and diagnostic services across rural and urban areas.\n• Citizens will now have easier access to their digital health records (ABHA ID) and teleconsultation services at the grassroots level.\n• The move is expected to improve healthcare accessibility, efficiency, and data-driven policy making, especially in remote regions.\n• Training programs for healthcare workers at PHCs have been intensified to ensure effective implementation and utilization of digital tools.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2026-02-24",
+        "source": "Press Information Bureau",
+        "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=20260224_ABDM",
+        "importance": "medium",
+        "tags": [
+          "Ayushman Bharat Digital Mission",
+          "Digital Health",
+          "Healthcare Access",
+          "Primary Health Centres",
+          "Public Health",
+          "ABHA ID"
+        ],
+        "keyTerms": [
+          "Ayushman Bharat Digital Mission (ABDM)",
+          "Ayushman Bharat Health Account (ABHA)",
+          "Health Facility Registry (HFR)",
+          "Healthcare Professionals Registry (HPR)",
+          "Telemedicine",
+          "Universal Health Coverage"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ABDM was launched in September 2021 by Prime Minister Narendra Modi.",
+          "It aims to develop the backbone necessary to support the integrated digital health infrastructure of the country.",
+          "ABHA ID is a 14-digit health identification number for individuals.",
+          "Primary Health Centres (PHCs) are the first point of contact between the community and health services."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Assess the potential impact of integrating all PHCs into the Ayushman Bharat Digital Mission on rural healthcare delivery and health equity in India.",
+          "Discuss the challenges associated with digital infrastructure, data privacy, and digital literacy in ensuring the successful and equitable implementation of ABDM.",
+          "Analyze how ABDM can contribute to better public health surveillance, disease management, and evidence-based policy making.",
+          "What measures are needed to overcome the digital divide and ensure that marginalized communities fully benefit from digital health initiatives?"
+        ],
+        "imageDescription": "A digital graphic showing a network connecting various healthcare facilities and patient records.",
+        "section": "National",
+        "trivia": "India's digital health ecosystem is one of the largest in the world, aiming to provide unique health IDs to over 1.3 billion people.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Health",
+          "topic": "Government schemes for health"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "g20-debt-relief-framework",
+        "headline": "G20 Finance Ministers Discuss Enhanced Framework for Global Debt Relief and Restructuring",
+        "explainer": "• Finance Ministers and Central Bank Governors from G20 nations convened to address the escalating global debt crisis, particularly in developing countries.\n• Discussions focused on streamlining the 'Common Framework for Debt Treatments' and improving coordination among bilateral and multilateral creditors.\n• India, as a prominent voice for the Global South, advocated for faster and more transparent debt restructuring mechanisms.\n• The meeting explored innovative financing solutions and conditionalities for debt relief to ensure long-term fiscal sustainability.\n• The rising interest rates and post-pandemic economic vulnerabilities have exacerbated debt burdens, necessitating urgent global action.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+          "Important International institutions, agencies and fora - their structure, mandate."
+        ],
+        "date": "2026-02-24",
+        "source": "Reuters",
+        "sourceUrl": "https://www.reuters.com/2026/02/24/g20-debt-relief-framework",
+        "importance": "medium",
+        "tags": [
+          "G20",
+          "Global Debt Crisis",
+          "Debt Restructuring",
+          "Common Framework",
+          "International Finance",
+          "Developing Countries"
+        ],
+        "keyTerms": [
+          "G20",
+          "Common Framework for Debt Treatments",
+          "Debt Sustainability Analysis (DSA)",
+          "International Monetary Fund (IMF)",
+          "World Bank",
+          "Paris Club"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "G20 is an intergovernmental forum comprising 19 countries and the European Union.",
+          "The Common Framework for Debt Treatments was endorsed by the G20 and Paris Club in November 2020.",
+          "It aims to facilitate timely and orderly debt treatment for low-income countries.",
+          "India is a member of the G20 and has been advocating for the interests of the Global South."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the causes and implications of the growing global debt crisis, especially for developing and least developed countries.",
+          "Critically evaluate the effectiveness of the G20's 'Common Framework for Debt Treatments' in providing timely and comprehensive debt relief.",
+          "Discuss India's role and proposals in shaping a more equitable and efficient global debt restructuring architecture.",
+          "What are the challenges in achieving consensus among diverse creditors (bilateral, multilateral, private) on debt relief measures?"
+        ],
+        "imageDescription": "A graphic representing global debt with various currencies and country flags.",
+        "section": "International",
+        "trivia": "The G20 represents about two-thirds of the world's population, 85% of global GDP, and over 75% of global trade.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Organizations",
+          "topic": "G20 and global economic governance"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-education-policy-review",
+        "headline": "First Comprehensive Review of National Education Policy 2020 Implementation Released",
+        "explainer": "• The Ministry of Education published its first comprehensive review report on the implementation progress of the National Education Policy (NEP) 2020.\n• The report highlights significant advancements in foundational literacy and numeracy, vocational education integration, and digital learning initiatives.\n• Challenges remain in teacher training, infrastructure development, and ensuring equitable access to quality education, especially in higher education.\n• The review emphasizes the need for greater state-level ownership and collaborative efforts to achieve NEP's transformative goals.\n• Recommendations include increasing public expenditure on education and strengthening outcome-based assessments.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2026-02-24",
+        "source": "DD News",
+        "sourceUrl": "https://ddnews.gov.in/2026/02/24/nep-2020-review-report",
+        "importance": "medium",
+        "tags": [
+          "National Education Policy",
+          "Education Reform",
+          "Vocational Education",
+          "Digital Learning",
+          "Teacher Training",
+          "Foundational Literacy"
+        ],
+        "keyTerms": [
+          "National Education Policy (NEP) 2020",
+          "Foundational Literacy and Numeracy (FLN)",
+          "Multidisciplinary Education",
+          "Holistic Development",
+          "Gross Enrolment Ratio (GER)",
+          "National Curriculum Framework (NCF)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NEP 2020 replaced the 1986 National Policy on Education.",
+          "It proposes a 5+3+3+4 curricular structure instead of 10+2.",
+          "Aims to achieve 100% Gross Enrolment Ratio (GER) in school education by 2030.",
+          "Emphasis on mother tongue/local language as medium of instruction till Grade 5."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically analyze the progress made and challenges encountered in the implementation of the National Education Policy (NEP) 2020 since its inception.",
+          "Discuss how NEP 2020 aims to address issues of equity, access, and quality in Indian education, from foundational learning to higher education.",
+          "Evaluate the potential impact of vocational education integration and multidisciplinary approaches on the employability of Indian youth.",
+          "What reforms are still needed in teacher education, curriculum design, and assessment methods to fully realize the vision of NEP 2020?"
+        ],
+        "imageDescription": "Children in a classroom engaged in interactive learning, with digital tablets.",
+        "section": "National",
+        "trivia": "NEP 2020 is the third major education policy in India's history since independence.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Education",
+          "topic": "Government policies in education"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indus-water-treaty-talks",
+        "headline": "India-Pakistan Permanent Indus Commission Holds Productive Talks on Water Sharing",
+        "explainer": "• The Permanent Indus Commission (PIC), comprising water commissioners from India and Pakistan, concluded its annual meeting with constructive discussions.\n• The talks focused on resolving technical disagreements over hydro-power projects on the Chenab river and data sharing mechanisms.\n• Both sides reiterated their commitment to upholding the provisions of the Indus Waters Treaty (IWT) in letter and spirit.\n• The meeting is seen as a positive step amidst often strained bilateral relations, demonstrating the resilience of the IWT.\n• Further technical discussions are planned to address specific project designs and ensure compliance with the treaty's clauses.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighbourhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests."
+        ],
+        "date": "2026-02-24",
+        "source": "ANI",
+        "sourceUrl": "https://www.ani.in/2026/02/24/indus-water-treaty-talks",
+        "importance": "medium",
+        "tags": [
+          "Indus Waters Treaty",
+          "India-Pakistan Relations",
+          "Water Sharing",
+          "Permanent Indus Commission",
+          "Hydropower Projects",
+          "Bilateral Dialogue"
+        ],
+        "keyTerms": [
+          "Indus Waters Treaty (IWT)",
+          "Permanent Indus Commission (PIC)",
+          "Western Rivers (Indus, Jhelum, Chenab)",
+          "Eastern Rivers (Ravi, Beas, Sutlej)",
+          "Run-of-the-river projects",
+          "Bilateral Dispute Resolution"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Indus Waters Treaty (IWT) was signed in 1960, brokered by the World Bank.",
+          "It allocates the waters of the Eastern Rivers (Ravi, Beas, Sutlej) to India.",
+          "It allocates the waters of the Western Rivers (Indus, Jhelum, Chenab) to Pakistan, with India allowed non-consumptive uses.",
+          "Permanent Indus Commission meets annually to discuss treaty-related matters."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the enduring significance of the Indus Waters Treaty (IWT) as a model for transboundary water management despite complex bilateral relations.",
+          "Discuss the recurring challenges and points of contention between India and Pakistan regarding the implementation of the IWT, particularly concerning hydropower projects.",
+          "Evaluate the role of the Permanent Indus Commission (PIC) in facilitating dialogue and resolving disputes related to water sharing.",
+          "What are the implications of climate change and increasing water scarcity on the long-term viability and equitable distribution under the IWT?"
+        ],
+        "imageDescription": "Map showing the Indus River system flowing through India and Pakistan.",
+        "section": "International",
+        "trivia": "The Indus Waters Treaty is considered one of the most successful water-sharing treaties in the world, having survived multiple conflicts between India and Pakistan.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India and its Neighbourhood",
+          "topic": "India-Pakistan relations, Water sharing agreements"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "editorial-ai-ethics-india",
+        "headline": "Editorial: Navigating the Ethical Maze of AI – India's Opportunity for Global Leadership",
+        "explainer": "• The recent Supreme Court ruling on AI and privacy has brought the complex ethical dimensions of artificial intelligence to the forefront of public discourse.\n• This editorial argues that India has a unique opportunity to lead global conversations on AI ethics, drawing from its constitutional values and democratic ethos.\n• It calls for a balanced approach that fosters innovation while establishing robust safeguards against algorithmic bias, surveillance, and job displacement.\n• The need for a multi-stakeholder approach involving government, industry, academia, and civil society in drafting AI regulations is emphasized.\n• India's 'Digital Public Infrastructure' model could serve as a blueprint for ethical AI deployment globally, focusing on inclusion and transparency.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+          "Important International institutions, agencies and fora - their structure, mandate.",
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure."
+        ],
+        "date": "2026-02-24",
+        "source": "The Indian Express",
+        "sourceUrl": "https://indianexpress.com/2026/02/24/editorial-ai-ethics-india",
+        "importance": "high",
+        "tags": [
+          "AI Ethics",
+          "Digital Governance",
+          "India's Global Role",
+          "Algorithmic Bias",
+          "Digital Public Infrastructure",
+          "Data Privacy"
+        ],
+        "keyTerms": [
+          "Artificial Intelligence (AI)",
+          "Algorithmic Ethics",
+          "Digital Public Infrastructure (DPI)",
+          "Responsible AI",
+          "AI Regulation",
+          "Data Sovereignty"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss India's potential to emerge as a thought leader in global AI ethics and governance, drawing parallels with its democratic values and technological prowess.",
+          "Analyze the ethical dilemmas posed by the rapid advancement of AI, including issues of bias, privacy, accountability, and their societal implications.",
+          "Examine how India's 'Digital Public Infrastructure' model can be leveraged to build and deploy AI systems that are inclusive, transparent, and rights-respecting.",
+          "What policy mechanisms and multi-stakeholder collaborations are essential for creating a 'Responsible AI' ecosystem in India?"
+        ],
+        "imageDescription": "A stylized image of an abstract human brain merging with circuit board patterns, symbolizing AI and ethics.",
+        "section": "Editorial",
+        "trivia": "The term 'Artificial Intelligence' was coined by John McCarthy in 1956.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Information Technology",
+          "topic": "AI and its ethical dimensions"
+        },
+        "prelimsPotential": 4
+      }
+    ],
+    "GS3": [
+      {
+        "id": "rbi-monetary-policy-review",
+        "headline": "RBI Maintains Status Quo on Repo Rate Amidst Global Uncertainties and Domestic Inflation Concerns",
+        "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) unanimously decided to keep the repo rate unchanged at 6.5% for the sixth consecutive review.\n• The decision comes as global economic growth remains subdued and geopolitical tensions persist, impacting commodity prices.\n• RBI Governor highlighted continued efforts to bring retail inflation within the target band of 2-6%, despite recent moderation.\n• The MPC reiterated its commitment to 'withdrawal of accommodation' to ensure inflation aligns with the target while supporting growth.\n• Analysts suggest the RBI is adopting a cautious 'wait and watch' approach, anticipating future data on inflation and global economic stability.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Government Budgeting.",
+          "Monetary Policy."
+        ],
+        "date": "2026-02-24",
+        "source": "The Economic Times",
+        "sourceUrl": "https://economictimes.indiatimes.com/2026/02/24/rbi-monetary-policy-review",
+        "importance": "high",
+        "tags": [
+          "RBI",
+          "Monetary Policy",
+          "Repo Rate",
+          "Inflation",
+          "Economic Growth",
+          "MPC"
+        ],
+        "keyTerms": [
+          "Repo Rate",
+          "Reverse Repo Rate",
+          "Cash Reserve Ratio (CRR)",
+          "Statutory Liquidity Ratio (SLR)",
+          "Inflation Targeting",
+          "Monetary Policy Committee"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Repo rate is the rate at which the RBI lends money to commercial banks.",
+          "Monetary Policy Committee (MPC) consists of six members (3 RBI, 3 GoI nominees).",
+          "The primary objective of the MPC is to maintain price stability while keeping in mind the objective of growth.",
+          "Inflation target for India is 4% with a band of +/- 2%."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Evaluate the rationale behind RBI's decision to maintain the status quo on the repo rate, considering both domestic and international economic factors.",
+          "Discuss the challenges faced by the RBI in balancing inflation control with the imperative of fostering economic growth in the current global scenario.",
+          "Analyze the effectiveness of monetary policy tools in addressing supply-side inflation and geopolitical risks.",
+          "What are the potential impacts of sustained high-interest rates on investment, consumption, and the overall financial stability in India?"
+        ],
+        "imageDescription": "RBI logo superimposed on a graph showing stable interest rates.",
+        "section": "Economy",
+        "trivia": "The MPC meets at least four times a year, and its decisions are published after each meeting.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI and its functions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "chandrayaan-4-lander-site",
+        "headline": "ISRO Identifies Potential Landing Sites for Chandrayaan-4 Mission on Lunar South Pole",
+        "explainer": "• The Indian Space Research Organisation (ISRO) announced the identification of several high-priority landing sites for the upcoming Chandrayaan-4 mission.\n• The mission aims for a soft landing near the lunar South Pole, a region of significant scientific interest due to potential water ice reserves.\n• Chandrayaan-4 is envisioned as a sample return mission, building upon the success of Chandrayaan-3 and its rover 'Pragyan'.\n• Advanced imaging and topographic data from previous missions and international collaborations were used for site selection.\n• This mission could significantly contribute to understanding the Moon's evolution and resource potential for future human exploration.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Awareness in the fields of Space.",
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention."
+        ],
+        "date": "2026-02-24",
+        "source": "The Times of India",
+        "sourceUrl": "https://timesofindia.indiatimes.com/2026/02/24/chandrayaan-4-landing-sites",
+        "importance": "medium",
+        "tags": [
+          "ISRO",
+          "Chandrayaan-4",
+          "Lunar South Pole",
+          "Space Exploration",
+          "Sample Return Mission",
+          "Astronomy"
+        ],
+        "keyTerms": [
+          "Lunar South Pole",
+          "Water Ice",
+          "Sample Return Mission",
+          "Soft Landing",
+          "Pragyan Rover",
+          "Vikram Lander"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Chandrayaan-1 confirmed the presence of water molecules on the Moon.",
+          "Chandrayaan-2's orbiter successfully mapped the lunar surface.",
+          "Chandrayaan-3 achieved a successful soft landing and deployed the Pragyan rover.",
+          "Lunar South Pole is crucial due to permanently shadowed regions that might harbor water ice."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the scientific objectives and potential implications of ISRO's Chandrayaan-4 mission for lunar science and future space exploration endeavors.",
+          "Analyze India's growing capabilities in space technology and its role in global lunar exploration efforts.",
+          "Examine the challenges associated with soft landing and sample return missions on the Moon, particularly in the difficult terrain of the South Pole.",
+          "How can the findings from Chandrayaan-4 contribute to the understanding of the Moon's origin and the feasibility of human habitation?"
+        ],
+        "imageDescription": "Artistic rendering of Chandrayaan-4 lander near a crater on the lunar South Pole.",
+        "section": "Science",
+        "trivia": "The lunar South Pole experiences extreme temperatures, with permanently shadowed regions potentially holding ancient water ice for billions of years.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space Technology",
+          "topic": "Indian Space Missions"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-defense-acquisition-policy",
+        "headline": "Defence Ministry Unveils New Policy to Boost Indigenous Production and Exports",
+        "explainer": "• The Ministry of Defence launched the updated 'Defence Acquisition Procedure (DAP) 2026', prioritizing 'Make in India' and 'Buy Indian' categories.\n• The policy introduces simplified procurement procedures and increased budget allocation for research and development (R&D) in defense startups.\n• It aims to achieve a defense manufacturing turnover of $25 billion and exports of $5 billion by 2028.\n• Special provisions have been made to fast-track acquisition of critical technologies and encourage foreign OEMs to set up manufacturing in India.\n• The policy is a significant step towards achieving self-reliance (Atmanirbhar Bharat) in the defense sector.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Indigenization of technology and developing new technology.",
+          "Security challenges and their management in border areas."
+        ],
+        "date": "2026-02-24",
+        "source": "Press Information Bureau",
+        "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=20260224",
+        "importance": "high",
+        "tags": [
+          "Defence Acquisition",
+          "Make in India",
+          "Defence Exports",
+          "Atmanirbhar Bharat",
+          "Defence R&D",
+          "DAP 2026"
+        ],
+        "keyTerms": [
+          "Defence Acquisition Procedure (DAP)",
+          "Offset Policy",
+          "Strategic Partnership Model",
+          "Defence Industrial Corridors",
+          "Technology Transfer"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "DAP 2026 supersedes DAP 2020.",
+          "'Buy Indian (IDDM)' category gets highest priority for procurement.",
+          "Focus on leasing as an alternative to outright purchase for certain equipment.",
+          "Increased emphasis on cybersecurity in defense systems."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically evaluate the 'Defence Acquisition Procedure (DAP) 2026' in its potential to achieve self-reliance in India's defense manufacturing sector.",
+          "Discuss the challenges and opportunities for India in becoming a net exporter of defense equipment, considering global geopolitical dynamics.",
+          "Analyze the role of defense startups and private sector participation in boosting indigenous R&D and manufacturing capabilities.",
+          "How does the new policy address the need for technological upgradation and acquisition of cutting-edge defense technologies?"
+        ],
+        "imageDescription": "Indian fighter jet flying over a map of India with gears symbolizing industry.",
+        "section": "National",
+        "trivia": "India is one of the largest importers of defense equipment globally, but aims to reverse this trend with policies like DAP.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Industrial Policy",
+          "topic": "Defence Manufacturing"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "national-green-hydrogen-mission-progress",
+        "headline": "National Green Hydrogen Mission Shows Promising Progress Towards 2030 Targets",
+        "explainer": "• The Ministry of New and Renewable Energy released a progress report on the National Green Hydrogen Mission, highlighting significant strides.\n• India is on track to achieve its initial target of 5 million tonnes of green hydrogen production capacity by 2030.\n• Several pilot projects for green hydrogen production and its derivatives (e.g., green ammonia) are operational across the country.\n• The mission has attracted substantial domestic and international investment, with major players announcing gigawatt-scale electrolyser manufacturing plans.\n• Policy incentives for green hydrogen production and consumption are being streamlined to further accelerate adoption across industrial sectors.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Science and Technology- developments and their applications and effects in everyday life."
+        ],
+        "date": "2026-02-24",
+        "source": "Ministry of New and Renewable Energy",
+        "sourceUrl": "https://mnre.gov.in/2026/02/24/green-hydrogen-mission-progress",
+        "importance": "medium",
+        "tags": [
+          "Green Hydrogen",
+          "Renewable Energy",
+          "Energy Transition",
+          "Climate Change",
+          "Sustainable Development",
+          "National Green Hydrogen Mission"
+        ],
+        "keyTerms": [
+          "Green Hydrogen",
+          "Electrolyser",
+          "Green Ammonia",
+          "Power-to-X",
+          "Carbon Neutrality",
+          "Renewable Energy Certificates"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Green Hydrogen Mission launched in January 2023.",
+          "Aims to make India a global hub for green hydrogen production and export.",
+          "Green hydrogen is produced by electrolysis of water using renewable energy.",
+          "It is crucial for decarbonizing hard-to-abate sectors like steel, cement, and fertilizers."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Assess the strategic importance of the National Green Hydrogen Mission for India's energy security and climate change commitments.",
+          "Discuss the challenges in scaling up green hydrogen production and adoption in India, including infrastructure, cost, and technology gaps.",
+          "Analyze the potential economic benefits, including job creation and export opportunities, arising from India's leadership in green hydrogen.",
+          "How can policy support and public-private partnerships further accelerate the achievement of green hydrogen targets?"
+        ],
+        "imageDescription": "Illustration of a green hydrogen plant with wind turbines and solar panels in the background.",
+        "section": "Environment",
+        "trivia": "Hydrogen is the most abundant chemical substance in the universe, but green hydrogen production is energy-intensive.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Renewable Energy",
+          "topic": "Green Hydrogen"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "cyber-security-framework-update",
+        "headline": "India Unveils Enhanced National Cybersecurity Framework to Combat Evolving Threats",
+        "explainer": "• The Ministry of Electronics and Information Technology (MeitY) released an updated National Cybersecurity Framework 2.0, addressing advanced persistent threats (APTs) and ransomware.\n• The framework emphasizes strengthening critical information infrastructure (CII) protection and promoting indigenous cybersecurity product development.\n• It mandates stricter compliance for government agencies and private entities handling sensitive data, including regular security audits and incident response protocols.\n• A new 'Cybersecurity Skill Development Mission' has been launched to bridge the talent gap in the rapidly evolving digital landscape.\n• International cooperation on intelligence sharing and joint cyber exercises forms a crucial part of the updated strategy.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security; money-laundering and its prevention.",
+          "Science and Technology- developments and their applications and effects in everyday life."
+        ],
+        "date": "2026-02-24",
+        "source": "The Indian Express",
+        "sourceUrl": "https://indianexpress.com/2026/02/24/cybersecurity-framework-update",
+        "importance": "high",
+        "tags": [
+          "Cybersecurity",
+          "National Cybersecurity Framework",
+          "Critical Information Infrastructure",
+          "Ransomware",
+          "Cyber Warfare",
+          "Digital India"
+        ],
+        "keyTerms": [
+          "Critical Information Infrastructure (CII)",
+          "Advanced Persistent Threats (APTs)",
+          "National Critical Information Infrastructure Protection Centre (NCIIPC)",
+          "CERT-In",
+          "Zero Trust Architecture",
+          "Cyber Resilience"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "National Cybersecurity Policy was first released in 2013.",
+          "CERT-In (Indian Computer Emergency Response Team) is the nodal agency for responding to cyber incidents.",
+          "Critical Information Infrastructure (CII) includes sectors like power, banking, telecom, and defense.",
+          "Ransomware attacks encrypt data and demand payment for decryption."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the key features of India's updated National Cybersecurity Framework 2.0 and its significance in mitigating modern cyber threats.",
+          "Discuss the challenges in protecting Critical Information Infrastructure (CII) from state-sponsored cyber-attacks and non-state actors.",
+          "Evaluate the effectiveness of current policies in fostering a robust cybersecurity ecosystem, including skill development and indigenous technology.",
+          "How can international cooperation and public-private partnerships strengthen India's cyber defense capabilities against global threats?"
+        ],
+        "imageDescription": "A digital padlock icon overlaid on a network of interconnected nodes, symbolizing cybersecurity.",
+        "section": "National",
+        "trivia": "The estimated annual cost of cybercrime to the global economy is in the trillions of dollars.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Cyber Security",
+          "topic": "Challenges to internal security"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "border-infrastructure-north-east",
+        "headline": "Government Accelerates Border Infrastructure Development in North-Eastern States",
+        "explainer": "• The Ministry of Home Affairs announced accelerated funding and project implementation for border infrastructure development in India's North-Eastern states.\n• The focus is on constructing all-weather roads, strategic bridges, and advanced surveillance systems along sensitive international borders.\n• This move aims to enhance troop mobility, facilitate trade, and improve connectivity for remote border communities.\n• The projects are part of the 'Vibrant Villages Programme' to integrate border villages into the mainstream economy and prevent outward migration.\n• Collaboration with the Border Roads Organisation (BRO) and state governments is key to overcoming geographical and logistical challenges.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+        ],
+        "date": "2026-02-24",
+        "source": "The Economic Times",
+        "sourceUrl": "https://economictimes.indiatimes.com/2026/02/24/border-infra-north-east",
+        "importance": "medium",
+        "tags": [
+          "Border Security",
+          "North-East India",
+          "Infrastructure Development",
+          "Vibrant Villages Programme",
+          "BRO",
+          "Strategic Connectivity"
+        ],
+        "keyTerms": [
+          "Border Area Development Programme (BADP)",
+          "Vibrant Villages Programme",
+          "Border Roads Organisation (BRO)",
+          "Line of Actual Control (LAC)",
+          "Integrated Check Posts (ICPs)",
+          "Look East Policy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "North-Eastern states share borders with Bangladesh, Myanmar, China, Bhutan, and Nepal.",
+          "BRO is responsible for road construction in border areas.",
+          "Vibrant Villages Programme aims to improve infrastructure and livelihood opportunities in border villages.",
+          "Improved connectivity in NE is crucial for India's Act East Policy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of robust border infrastructure in India's North-Eastern states for national security and regional development.",
+          "Analyze the unique geographical and geopolitical challenges in developing infrastructure in this region and the measures being taken to overcome them.",
+          "Evaluate the impact of the 'Vibrant Villages Programme' on the socio-economic development of border communities and their integration into the national fabric.",
+          "How do improved border connectivity and trade routes contribute to India's 'Act East Policy' and regional integration initiatives?"
+        ],
+        "imageDescription": "A newly constructed strategic road winding through mountainous terrain in the North-East.",
+        "section": "National",
+        "trivia": "The North-Eastern Region accounts for about 8% of India's geographical area and 3.7% of its population.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Border Management",
+          "topic": "Security challenges in border areas"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "marine-biodiversity-conservation",
+        "headline": "India Launches 'Samudra Setu' Initiative for Marine Biodiversity Conservation",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change unveiled 'Samudra Setu', a new national initiative focused on protecting India's marine biodiversity.\n• The program targets critical marine ecosystems such as coral reefs, mangroves, and seagrass beds, which are vital for coastal protection and fisheries.\n• It involves advanced research on marine species, combating plastic pollution, and sustainable fisheries management practices.\n• Collaborative efforts with local fishing communities, NGOs, and international organizations are central to the initiative's success.\n• Samudra Setu aims to strengthen India's commitments under global biodiversity conventions and achieve SDG 14 (Life Below Water).",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Biodiversity and Environment."
+        ],
+        "date": "2026-02-24",
+        "source": "The Hindu",
+        "sourceUrl": "https://www.thehindu.com/2026/02/24/samudra-setu-marine-biodiversity",
+        "importance": "medium",
+        "tags": [
+          "Marine Conservation",
+          "Biodiversity",
+          "Coastal Ecosystems",
+          "Plastic Pollution",
+          "Sustainable Fisheries",
+          "SDG 14"
+        ],
+        "keyTerms": [
+          "Coral Reefs",
+          "Mangroves",
+          "Seagrass Beds",
+          "Marine Protected Areas (MPAs)",
+          "Blue Economy",
+          "Sustainable Development Goal (SDG) 14"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India has a coastline of over 7,500 km.",
+          "Coral reefs are found in the Andaman & Nicobar Islands, Lakshadweep, Gulf of Mannar, and Gulf of Kutch.",
+          "Mangroves act as natural barriers against cyclones and tsunamis.",
+          "SDG 14 aims to conserve and sustainably use the oceans, seas and marine resources for sustainable development."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ecological and economic significance of India's marine biodiversity and the threats it faces from human activities and climate change.",
+          "Analyze the objectives and key components of the 'Samudra Setu' initiative and its potential to enhance marine conservation efforts in India.",
+          "Evaluate the role of local communities, particularly fishing communities, in achieving sustainable marine resource management.",
+          "How does India's marine conservation strategy align with its international commitments under conventions like the Convention on Biological Diversity (CBD) and UNCLOS?"
+        ],
+        "imageDescription": "Underwater scene showing vibrant coral reefs and diverse marine life, with a diver observing.",
+        "section": "Environment",
+        "trivia": "The Great Barrier Reef off Australia is the world's largest coral reef system, visible from space.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Biodiversity",
+          "topic": "Marine Ecosystems"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "startup-ecosystem-report",
+        "headline": "India's Startup Ecosystem Registers Record Growth, Emerges as Global Innovation Hub",
+        "explainer": "• A new report by NASSCOM and the Department for Promotion of Industry and Internal Trade (DPIIT) highlights unprecedented growth in India's startup ecosystem.\n• India added over 5,000 new startups in the last year, with significant contributions from Tier-2 and Tier-3 cities.\n• The report notes a surge in deep-tech, AI, and sustainable technology startups, attracting substantial venture capital funding.\n• Government initiatives like the Startup India Seed Fund Scheme and tax incentives have played a crucial role in fostering this growth.\n• India is solidifying its position as the third-largest startup ecosystem globally, trailing only the US and China.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Science and Technology- developments and their applications and effects in everyday life."
+        ],
+        "date": "2026-02-24",
+        "source": "Business Standard",
+        "sourceUrl": "https://www.business-standard.com/2026/02/24/startup-ecosystem-report",
+        "importance": "medium",
+        "tags": [
+          "Startup Ecosystem",
+          "Innovation",
+          "Venture Capital",
+          "Deep Tech",
+          "Startup India",
+          "Economic Growth"
+        ],
+        "keyTerms": [
+          "Startup India",
+          "Unicorn",
+          "Venture Capital (VC)",
+          "Angel Investors",
+          "Incubators",
+          "Accelerators",
+          "Deep Tech"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Startup India initiative was launched in 2016.",
+          "India is home to a significant number of 'unicorns' (startups valued at over $1 billion).",
+          "DPIIT (Department for Promotion of Industry and Internal Trade) is the nodal agency for Startup India.",
+          "Deep tech refers to technologies based on substantial scientific or engineering breakthroughs."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the factors contributing to the robust growth of India's startup ecosystem and its implications for job creation and economic diversification.",
+          "Discuss the role of government policies and initiatives like 'Startup India' in nurturing innovation and entrepreneurship across the country.",
+          "Examine the challenges faced by Indian startups, particularly in securing funding, navigating regulatory complexities, and scaling operations.",
+          "How can India leverage its demographic dividend and technological prowess to further strengthen its position as a global innovation hub?"
+        ],
+        "imageDescription": "A group of diverse young entrepreneurs working collaboratively in a modern office space.",
+        "section": "Economy",
+        "trivia": "Bengaluru is often referred to as the 'Silicon Valley of India' due to its thriving tech and startup scene.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Industrial Policy",
+          "topic": "Startup India and entrepreneurship"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-species-western-ghats",
+        "headline": "Two New Species of Amphibians Discovered in Biodiversity Hotspot Western Ghats",
+        "explainer": "• Researchers from the Zoological Survey of India (ZSI) announced the discovery of two previously unknown species of frogs in the Western Ghats.\n• The new species, identified through advanced genetic and morphological analyses, highlight the immense biodiversity of the region.\n• This discovery underscores the critical need for enhanced conservation efforts in the Western Ghats, a UNESCO World Heritage Site.\n• Habitat loss, climate change, and pollution continue to pose significant threats to the unique flora and fauna of this biodiversity hotspot.\n• The ZSI team emphasized the importance of sustained field research and local community involvement in biodiversity documentation and protection.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Biodiversity and Environment."
+        ],
+        "date": "2026-02-24",
+        "source": "The Times of India",
+        "sourceUrl": "https://timesofindia.indiatimes.com/2026/02/24/new-species-western-ghats",
+        "importance": "low",
+        "tags": [
+          "Biodiversity",
+          "Western Ghats",
+          "Amphibians",
+          "New Species",
+          "Conservation",
+          "Zoological Survey of India"
+        ],
+        "keyTerms": [
+          "Biodiversity Hotspot",
+          "Endemic Species",
+          "Zoological Survey of India (ZSI)",
+          "Habitat Fragmentation",
+          "IUCN Red List",
+          "Amphibian Decline"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Western Ghats is one of the world's eight 'hottest hotspots' of biological diversity.",
+          "It is older than the Himalayas and a UNESCO World Heritage Site.",
+          "Amphibians are excellent bio-indicators of environmental health.",
+          "ZSI is India's premier institution for zoological research and studies."
+        ],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "Close-up photograph of a newly discovered frog species in its natural habitat in the Western Ghats.",
+        "section": "Environment",
+        "trivia": "The Western Ghats is home to at least 325 globally threatened species.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Biodiversity",
+          "topic": "Biodiversity hotspots in India"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "climate-resilience-action-plan",
+        "headline": "India Unveils 'National Climate Resilience Action Plan 2030' to Combat Extreme Weather",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change launched a comprehensive 'National Climate Resilience Action Plan 2030' (NCRAP 2030).\n• The plan focuses on enhancing adaptive capacity across vulnerable sectors like agriculture, water resources, and coastal zones against extreme weather events.\n• It mandates integration of climate risk assessments into all major infrastructure projects and urban planning.\n• Significant investment in climate-resilient technologies, early warning systems, and nature-based solutions is proposed.\n• NCRAP 2030 emphasizes a decentralized approach, empowering local bodies and communities in climate adaptation strategies.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Disaster and disaster management."
+        ],
+        "date": "2026-02-24",
+        "source": "PTI",
+        "sourceUrl": "https://www.pti.in/2026/02/24/climate-resilience-action-plan",
+        "importance": "high",
+        "tags": [
+          "Climate Resilience",
+          "Climate Change Adaptation",
+          "Extreme Weather",
+          "Disaster Preparedness",
+          "Sustainable Agriculture",
+          "National Action Plan"
+        ],
+        "keyTerms": [
+          "Climate Resilience",
+          "Climate Adaptation",
+          "National Action Plan on Climate Change (NAPCC)",
+          "Intended Nationally Determined Contributions (INDCs)",
+          "Nature-Based Solutions",
+          "Climate Vulnerability Assessment"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India is highly vulnerable to climate change impacts like heatwaves, floods, and droughts.",
+          "National Action Plan on Climate Change (NAPCC) was launched in 2008.",
+          "The new plan focuses on 'adaptation' measures alongside mitigation.",
+          "Coastal zones are particularly vulnerable to sea-level rise and storm surges."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the key objectives and strategies of India's 'National Climate Resilience Action Plan 2030' in addressing the growing threats of extreme weather events.",
+          "Discuss the challenges in implementing climate adaptation measures across diverse geographical and socio-economic contexts in India.",
+          "Evaluate the role of technology, traditional knowledge, and community participation in building climate-resilient infrastructure and livelihoods.",
+          "How can international cooperation and climate finance mechanisms support India's efforts in enhancing its climate resilience?"
+        ],
+        "imageDescription": "A farmer standing in a resilient crop field, with diverse weather phenomena in the background (sun, rain, wind).",
+        "section": "Environment",
+        "trivia": "Global average temperatures have risen by over 1.2 degrees Celsius since pre-industrial times, leading to more frequent and intense extreme weather events.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Climate Change",
+          "topic": "Climate change adaptation and mitigation"
+        },
+        "prelimsPotential": 4
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "The Hindu",
+    "The Economic Times",
+    "Ministry of External Affairs",
+    "The Times of India",
+    "Press Information Bureau",
+    "Ministry of New and Renewable Energy",
+    "The Hindu Business Line",
+    "Deccan Herald",
+    "The Indian Express",
+    "Reuters",
+    "Business Standard",
+    "DD News",
+    "ANI",
+    "Hindustan Times",
+    "PTI"
+  ],
+  "totalScraped": 20,
+  "totalProcessed": 20
+}

@@ -1,0 +1,1813 @@
+{
+  "date": "2025-11-25",
+  "dateFormatted": "Tuesday 25 November, 2025",
+  "lastUpdated": "2026-03-21T05:53:48.852Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "bharatconnect-rural-dpi",
+      "headline": "Government Unveils 'BharatConnect' Initiative: A New Leap in Digital Public Infrastructure for Rural India",
+      "explainer": "• The Ministry of Electronics and IT launched 'BharatConnect', an ambitious initiative to extend digital public infrastructure (DPI) to the remotest parts of rural India.\n• The program aims to integrate existing DPI layers like Aadhaar, UPI, and ONDC with enhanced last-mile connectivity and digital literacy efforts.\n• It seeks to empower rural economies by providing access to e-governance services, digital financial tools, online marketplaces, and skill development platforms.\n• 'BharatConnect' is envisioned to bridge the digital divide, foster rural entrepreneurship, and accelerate financial inclusion for underserved populations.",
+      "category": "polity, economy, society",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Government Policies and Interventions",
+        "Digital India",
+        "Inclusive Growth",
+        "Infrastructure",
+        "Role of IT in Governance"
+      ],
+      "date": "2025-11-25",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Digital Public Infrastructure",
+        "Rural Development",
+        "Financial Inclusion",
+        "Digital India",
+        "e-governance"
+      ],
+      "keyTerms": [
+        "BharatConnect",
+        "Digital Public Infrastructure (DPI)",
+        "Open Network for Digital Commerce (ONDC)",
+        "Aadhaar",
+        "UPI",
+        "Digital Divide"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "BharatConnect: Initiative by MeitY for rural DPI extension.",
+        "Integrates Aadhaar, UPI, ONDC for comprehensive digital access.",
+        "Focuses on last-mile connectivity and digital literacy.",
+        "Aims for financial inclusion and rural economic empowerment."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the potential of DPI in achieving inclusive growth and reducing the digital divide in India.",
+        "Analyze how initiatives like BharatConnect can transform rural governance and economic activities.",
+        "Examine the challenges in implementing large-scale digital infrastructure projects in diverse geographical areas."
+      ],
+      "imageDescription": "Illustration depicting digital connectivity reaching a remote Indian village with various e-services icons.",
+      "section": "Lead Opinion",
+      "trivia": "India's UPI system processed over 10 billion transactions in a single month in 2023, showcasing the potential of digital payments.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Government Schemes",
+        "topic": "Digital India initiatives"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "india-eu-trade-tech",
+      "headline": "India-EU Summit Concludes with Landmark Agreements on Trade and Green Technologies",
+      "explainer": "• The 17th India-European Union Summit concluded in New Delhi, yielding significant progress on the long-negotiated Free Trade Agreement (FTA).\n• Both sides announced a 'Green Technology Partnership' aimed at collaborative research, development, and deployment of sustainable technologies, particularly in renewable energy and circular economy.\n• Discussions also focused on supply chain resilience, critical minerals, and digital governance, reinforcing strategic autonomy for both partners.\n• The summit underscored a shared commitment to multilateralism, climate action, and a rules-based international order, signaling deeper strategic engagement.",
+      "category": "ir, economy, environment",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Bilateral, Regional and Global Groupings",
+        "Effect of Policies and Politics of Developed and Developing Countries",
+        "Trade Agreements",
+        "Environmental Protection"
+      ],
+      "date": "2025-11-25",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "India-EU Relations",
+        "Free Trade Agreement (FTA)",
+        "Green Technology",
+        "Climate Action",
+        "Supply Chain Resilience"
+      ],
+      "keyTerms": [
+        "India-EU Strategic Partnership",
+        "Free Trade Agreement (FTA)",
+        "Green Technology Partnership",
+        "Circular Economy",
+        "Supply Chain Resilience"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "17th India-EU Summit held in New Delhi.",
+        "Progress on India-EU FTA and 'Green Technology Partnership'.",
+        "Focus on renewable energy, circular economy, critical minerals.",
+        "Aims for supply chain resilience and digital governance."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Evaluate the strategic significance of the India-EU partnership in the evolving geopolitical landscape.",
+        "Discuss how the 'Green Technology Partnership' can contribute to India's renewable energy goals and climate commitments.",
+        "Analyze the potential economic benefits and challenges of the India-EU Free Trade Agreement for various sectors in India."
+      ],
+      "imageDescription": "Indian and EU flags displayed prominently during a joint press conference.",
+      "section": "International",
+      "trivia": "The EU is India's third-largest trading partner, and India is the EU's tenth-largest trading partner.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India and Europe"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "urban-air-quality-initiative",
+      "headline": "India Launches 'Clean Air City Challenge' to Tackle Urban Air Pollution",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change unveiled the 'Clean Air City Challenge', an expanded and more ambitious successor to the National Clean Air Programme (NCAP).\n• This new initiative provides performance-linked incentives to cities for achieving significant reductions in particulate matter and other air pollutants.\n• It integrates advanced monitoring systems, public-private partnerships for green infrastructure, and community engagement programs to ensure sustainable air quality improvements.\n• The challenge aims to foster inter-city competition and innovation in pollution control, with a focus on source-specific interventions.",
+      "category": "environment, governance",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Environmental Pollution and Degradation",
+        "Government Policies and Interventions for Environment"
+      ],
+      "date": "2025-11-25",
+      "source": "Ministry of Environment, Forest and Climate Change",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Air Pollution",
+        "Urban Environment",
+        "NCAP",
+        "Environmental Governance",
+        "Sustainable Development"
+      ],
+      "keyTerms": [
+        "Clean Air City Challenge",
+        "National Clean Air Programme (NCAP)",
+        "Particulate Matter (PM2.5, PM10)",
+        "Air Quality Index (AQI)",
+        "Performance-linked Incentives"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Clean Air City Challenge: New initiative by MoEFCC for urban air quality.",
+        "Successor to NCAP, with performance-linked incentives for cities.",
+        "Integrates advanced monitoring, green infrastructure, community engagement.",
+        "Focuses on source-specific interventions for pollution control."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Evaluate the effectiveness of previous air pollution control programs in India and how the 'Clean Air City Challenge' seeks to address their shortcomings.",
+        "Discuss the role of technology and public participation in achieving sustainable urban air quality improvements.",
+        "Analyze the multi-sectoral approach required to tackle air pollution, considering factors like industrial emissions, vehicular pollution, and agricultural practices."
+      ],
+      "imageDescription": "A blurred cityscape with a clean air overlay, symbolizing pollution reduction.",
+      "section": "Environment",
+      "trivia": "Globally, air pollution is responsible for millions of premature deaths annually, making it a critical public health issue.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Pollution",
+        "topic": "Air Pollution"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-interplanetary-component",
+      "headline": "ISRO Successfully Tests Advanced Propulsion System for Future Inter-planetary Missions",
+      "explainer": "• The Indian Space Research Organisation (ISRO) announced the successful ground testing of an advanced electric propulsion system, a crucial step for its ambitious future inter-planetary missions.\n• This next-generation propulsion technology offers significantly higher fuel efficiency and extended operational lifespan compared to conventional chemical rockets, enabling longer duration missions to Mars, Venus, and beyond.\n• The successful test marks a major milestone in India's quest for indigenous capabilities in deep space exploration and reducing mission costs.\n• The system is expected to be integrated into upcoming missions, potentially including follow-ups to Mars Orbiter Mission and Chandrayaan projects.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in Science & Technology",
+        "Space Technology",
+        "Indigenization of Technology"
+      ],
+      "date": "2025-11-25",
+      "source": "Indian Space Research Organisation (ISRO)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Space Exploration",
+        "Electric Propulsion",
+        "Inter-planetary Missions",
+        "Chandrayaan",
+        "Mars Orbiter Mission"
+      ],
+      "keyTerms": [
+        "Electric Propulsion System",
+        "ISRO",
+        "Deep Space Exploration",
+        "Fuel Efficiency",
+        "Indigenization"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ISRO tested an advanced electric propulsion system.",
+        "Aimed at future inter-planetary missions (Mars, Venus).",
+        "Offers higher fuel efficiency and longer operational lifespan.",
+        "Boosts indigenous deep space exploration capabilities."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of advanced propulsion technologies for India's future space exploration ambitions.",
+        "Analyze how indigenous development of critical space technologies contributes to India's strategic autonomy and economic growth.",
+        "Examine the potential scientific and technological spin-offs from deep space missions for societal benefit."
+      ],
+      "imageDescription": "An artist's rendition of an Indian spacecraft utilizing an electric propulsion engine in deep space.",
+      "section": "Science",
+      "trivia": "Electric propulsion systems can achieve exhaust velocities ten times higher than chemical rockets, drastically reducing the amount of propellant needed for long journeys.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space Technology",
+        "topic": "ISRO missions and innovations"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-monetary-policy-outlook",
+      "headline": "RBI Signals Cautious Stance on Interest Rates Amidst Stable Inflation Projections",
+      "explainer": "• The Reserve Bank of India (RBI) Governor indicated a continued cautious approach to monetary policy, maintaining current interest rates for the foreseeable future.\n• The RBI's latest projections suggest inflation remains within the target band, primarily due to easing supply-side pressures and stable food prices.\n• However, global economic uncertainties, particularly regarding crude oil prices and geopolitical tensions, necessitate vigilance in policy formulation.\n• The central bank emphasized its commitment to supporting economic growth while ensuring price stability, closely monitoring both domestic and international factors.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to Planning",
+        "Mobilization of Resources",
+        "Growth, Development and Employment",
+        "Monetary Policy"
+      ],
+      "date": "2025-11-25",
+      "source": "Reserve Bank of India (RBI)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Inflation",
+        "Interest Rates",
+        "Economic Growth",
+        "Global Economy"
+      ],
+      "keyTerms": [
+        "Monetary Policy Committee (MPC)",
+        "Repo Rate",
+        "Inflation Targeting",
+        "Price Stability",
+        "Economic Growth"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "RBI maintains cautious stance on interest rates.",
+        "Inflation projected within target band due to supply-side easing.",
+        "Global uncertainties (crude oil, geopolitics) remain a concern.",
+        "RBI aims to balance growth support and price stability."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the challenges faced by the RBI in balancing inflation control and economic growth in the current global economic scenario.",
+        "Analyze the impact of global geopolitical events and commodity prices on India's monetary policy decisions.",
+        "Evaluate the effectiveness of inflation targeting as a monetary policy framework in India."
+      ],
+      "imageDescription": "The RBI logo with a graph showing stable inflation trends.",
+      "section": "Economy",
+      "trivia": "The Monetary Policy Committee (MPC) in India consists of six members: three from the RBI and three external members appointed by the government.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI functions"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "sc-reservation-policy",
+      "headline": "Supreme Court Hears Crucial Arguments on State-Level Reservation Policy's Constitutionality",
+      "explainer": "• The Supreme Court commenced final hearings on a batch of petitions challenging the constitutional validity of a new state-level reservation policy that exceeds the 50% ceiling.\n• Arguments focused on the 'exceptional circumstances' clause laid down in the Indra Sawhney judgment (1992) and the state's legislative competence to define backward classes.\n• Petitioners argued against the precedent, citing potential erosion of merit and equality, while the state defended its policy based on updated socio-economic data and local needs.\n• The verdict is keenly awaited as it could have significant implications for reservation policies across various states and the interpretation of fundamental rights.",
+      "category": "polity, society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Functions and responsibilities of the Union and the States",
+        "Welfare schemes for vulnerable sections"
+      ],
+      "date": "2025-11-25",
+      "source": "Live Law",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Supreme Court",
+        "Reservation Policy",
+        "Constitutional Law",
+        "Indra Sawhney Case",
+        "Social Justice",
+        "Federalism"
+      ],
+      "keyTerms": [
+        "Reservation Ceiling",
+        "Indra Sawhney Judgment",
+        "Exceptional Circumstances",
+        "Backward Classes",
+        "Equality before Law",
+        "Judicial Review"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "SC hearing on state reservation policy exceeding 50% cap.",
+        "Arguments revolve around Indra Sawhney judgment (1992) and 'exceptional circumstances'.",
+        "Concerns over merit vs. social justice.",
+        "Potential implications for reservation policies nationwide."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically analyze the legal and socio-political complexities surrounding reservation policies in India, particularly concerning the 50% ceiling.",
+        "Discuss the role of the judiciary in balancing affirmative action with principles of equality and merit.",
+        "Examine the arguments for and against exceeding the 50% reservation limit, considering constitutional provisions and socio-economic realities."
+      ],
+      "imageDescription": "A gavel resting on law books in front of the Supreme Court of India building.",
+      "section": "National",
+      "trivia": "The Indra Sawhney & Ors. vs Union of India case, famously known as the 'Mandal Commission case', set the 50% cap for reservations in 1992.",
+      "prelimsSyllabus": {
+        "subject": "Polity & Governance",
+        "area": "Judiciary",
+        "topic": "Supreme Court judgments"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "border-security-tech",
+      "headline": "Border Security Forces Deploy Advanced AI-Powered Surveillance Systems Along Northern Borders",
+      "explainer": "• India's Border Security Forces (BSF) have initiated the deployment of a new generation of AI-powered integrated surveillance systems along sensitive stretches of the northern borders.\n• These systems incorporate high-resolution thermal cameras, ground sensors, drone integration, and AI-driven analytics for real-time threat detection and rapid response.\n• The technology aims to enhance situational awareness, reduce human patrolling risks, and counter infiltration attempts more effectively in challenging terrains.\n• This move is part of India's broader strategy to modernize border management and leverage advanced technology for national security.",
+      "category": "security, science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security Challenges and their Management in Border Areas",
+        "Linkages of Organized Crime with Terrorism",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-11-25",
+      "source": "Ministry of Home Affairs (MHA)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Border Security",
+        "Artificial Intelligence",
+        "Surveillance Technology",
+        "National Security",
+        "BSF",
+        "Defense Modernization"
+      ],
+      "keyTerms": [
+        "Integrated Surveillance System",
+        "AI-powered Analytics",
+        "Thermal Cameras",
+        "Drone Integration",
+        "Infiltration",
+        "Border Management"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "BSF deploying AI-powered surveillance systems on northern borders.",
+        "Includes thermal cameras, ground sensors, drone integration, AI analytics.",
+        "Aims to enhance situational awareness and counter infiltration.",
+        "Part of India's border modernization strategy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the role of technology, particularly AI, in enhancing India's border security and addressing contemporary challenges.",
+        "Analyze the ethical and operational considerations associated with deploying AI-driven surveillance systems in sensitive border regions.",
+        "Examine how technological advancements can complement human intelligence and traditional security measures in border management."
+      ],
+      "imageDescription": "A night vision view of a border fence with AI sensors highlighted.",
+      "section": "Security",
+      "trivia": "India has approximately 15,106 km of land border and a coastline of 7,516 km, making border management a complex task.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "Border Management",
+        "topic": "Technological advancements in security"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "nep-vocational-training",
+      "headline": "NEP Implementation Review Highlights Progress in Vocational Education Integration",
+      "explainer": "• A comprehensive review of the National Education Policy (NEP) 2020 implementation revealed significant strides in integrating vocational education into mainstream schooling.\n• The report highlighted successful pilot projects where students from Class 6 onwards are being offered vocational subjects, aligning with the NEP's vision for practical skill development.\n• Challenges remain in scaling up infrastructure, training qualified vocational teachers, and ensuring industry linkages for internships and placements.\n• The Ministry of Education affirmed its commitment to further strengthening vocational pathways to enhance employability and prepare students for future job markets.",
+      "category": "society, polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Development processes and the Development Industry—the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders.",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+      ],
+      "date": "2025-11-25",
+      "source": "Ministry of Education",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "National Education Policy (NEP)",
+        "Vocational Education",
+        "Skill Development",
+        "Employability",
+        "Education Reforms"
+      ],
+      "keyTerms": [
+        "NEP 2020",
+        "Vocational Training",
+        "Skill India Mission",
+        "Employability",
+        "Industry Linkages"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NEP 2020 review shows progress in vocational education integration.",
+        "Vocational subjects offered from Class 6 onwards in pilot projects.",
+        "Challenges: infrastructure, teacher training, industry linkages.",
+        "Ministry of Education committed to strengthening vocational pathways."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Evaluate the potential of vocational education, as envisioned in NEP 2020, to address India's skill gap and youth unemployment.",
+        "Discuss the challenges in integrating vocational education into the mainstream curriculum and suggest measures for effective implementation.",
+        "Analyze how a robust vocational education system can contribute to India's demographic dividend and economic growth."
+      ],
+      "imageDescription": "Students engaged in a practical vocational training session, such as carpentry or electronics.",
+      "section": "National",
+      "trivia": "The National Education Policy 2020 aims for 50% of learners to have exposure to vocational education by 2025.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Education",
+        "topic": "NEP 2020"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "har-ghar-jal-water-quality",
+      "headline": "'Har Ghar Jal' Mission Achieves 80% Coverage, Focus Shifts to Water Quality Monitoring",
+      "explainer": "• The Ministry of Jal Shakti announced that the 'Jal Jeevan Mission – Har Ghar Jal' has successfully provided tap water connections to over 80% of rural households across India.\n• With significant progress in coverage, the mission's focus is now intensely shifting towards ensuring the quality and long-term sustainability of the water supply.\n• Advanced water quality monitoring systems, including real-time sensors and community-led testing initiatives, are being deployed to address contamination challenges.\n• The government reiterates its commitment to universal access to safe and potable drinking water by 2024, with a strong emphasis on sustainability and public health.",
+      "category": "polity, environment, society",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Government Policies and Interventions",
+        "Welfare schemes for vulnerable sections",
+        "Conservation, environmental pollution and degradation"
+      ],
+      "date": "2025-11-25",
+      "source": "Ministry of Jal Shakti",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Jal Jeevan Mission",
+        "Har Ghar Jal",
+        "Water Security",
+        "Water Quality",
+        "Rural Development",
+        "Public Health"
+      ],
+      "keyTerms": [
+        "Jal Jeevan Mission (JJM)",
+        "Har Ghar Jal",
+        "Potable Water",
+        "Water Quality Monitoring",
+        "Sustainability",
+        "Rural Water Supply"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Har Ghar Jal achieves 80% rural household coverage.",
+        "Focus now on water quality monitoring and sustainability.",
+        "Deployment of real-time sensors and community testing.",
+        "Aims for universal access to safe drinking water by 2024."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Assess the socio-economic impact of the 'Har Ghar Jal' mission on rural communities in India.",
+        "Discuss the challenges in ensuring long-term water quality and sustainability in rural water supply schemes.",
+        "Suggest innovative approaches for community participation and technological integration in water resource management."
+      ],
+      "imageDescription": "A woman filling water from a tap in a rural Indian setting, with a clear water stream.",
+      "section": "National",
+      "trivia": "The Jal Jeevan Mission was launched on August 15, 2019, with the goal of providing functional household tap connections to every rural household by 2024.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Government Schemes",
+        "topic": "Water security"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "pli-critical-minerals",
+      "headline": "Government to Fast-Track PLI Scheme Expansion for Critical Minerals and Advanced Manufacturing",
+      "explainer": "• The Union Cabinet approved a proposal to expand the Production Linked Incentive (PLI) scheme to include critical minerals processing and advanced manufacturing sectors.\n• This expansion aims to bolster domestic production capabilities, reduce import dependence, and integrate India into global supply chains for strategic materials.\n• The scheme offers incentives to companies for incremental sales from products manufactured in India, encouraging both domestic and foreign investment.\n• The move is crucial for sectors like electric vehicles, renewable energy, and defense, which heavily rely on critical minerals and high-tech components.",
+      "category": "economy, science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to Planning",
+        "Mobilization of Resources",
+        "Growth, Development and Employment",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+      ],
+      "date": "2025-11-25",
+      "source": "Ministry of Commerce and Industry",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "PLI Scheme",
+        "Critical Minerals",
+        "Advanced Manufacturing",
+        "Make in India",
+        "Economic Growth",
+        "Supply Chain Resilience"
+      ],
+      "keyTerms": [
+        "Production Linked Incentive (PLI)",
+        "Critical Minerals",
+        "Advanced Manufacturing",
+        "Import Substitution",
+        "Global Supply Chains"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "PLI scheme expanded to critical minerals and advanced manufacturing.",
+        "Aims to boost domestic production and reduce import dependence.",
+        "Offers incentives for incremental sales from India-manufactured products.",
+        "Crucial for EV, renewable energy, and defense sectors."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the effectiveness of the PLI scheme in fostering domestic manufacturing and achieving self-reliance in strategic sectors.",
+        "Discuss the significance of critical minerals for India's economic growth and national security in the context of global supply chain disruptions.",
+        "Evaluate the challenges and opportunities for India in becoming a global hub for advanced manufacturing."
+      ],
+      "imageDescription": "A graphic illustrating various critical minerals and manufacturing processes.",
+      "section": "Economy",
+      "trivia": "India's PLI scheme was initially launched in March 2020 for three sectors and has since expanded to 14 key sectors.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Industrial Policy",
+        "topic": "PLI schemes"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "climate-finance-conference",
+      "headline": "India Hosts Multilateral Conference on Climate Finance for Developing Nations",
+      "explainer": "• India hosted a high-level multilateral conference in New Delhi, bringing together developing nations and international financial institutions to discuss strategies for mobilizing climate finance.\n• The conference focused on innovative financing mechanisms, technology transfer, and capacity building to help developing countries achieve their Nationally Determined Contributions (NDCs).\n• India advocated for a 'loss and damage' fund and emphasized the need for developed nations to fulfill their commitment of $100 billion annually for climate action.\n• The discussions aimed to forge a common agenda for developing nations ahead of upcoming international climate summits.",
+      "category": "ir, environment, economy",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Important International Institutions, agencies and fora, their structure, mandate.",
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Mobilization of Resources"
+      ],
+      "date": "2025-11-25",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Climate Finance",
+        "Developing Nations",
+        "NDCs",
+        "Loss and Damage",
+        "International Cooperation",
+        "Climate Change"
+      ],
+      "keyTerms": [
+        "Climate Finance",
+        "Nationally Determined Contributions (NDCs)",
+        "Loss and Damage Fund",
+        "Technology Transfer",
+        "Common but Differentiated Responsibilities (CBDR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India hosted multilateral conference on climate finance for developing nations.",
+        "Focus on innovative financing, technology transfer, capacity building.",
+        "India advocated for 'loss and damage' fund.",
+        "Aims for common agenda before international climate summits."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the challenges faced by developing nations in mobilizing adequate climate finance and the role India can play in addressing these.",
+        "Analyze the concept of 'loss and damage' in climate change negotiations and its significance for vulnerable countries.",
+        "Evaluate the effectiveness of current international climate finance mechanisms and suggest reforms for equitable distribution."
+      ],
+      "imageDescription": "A global map with financial symbols and green energy icons, signifying climate finance.",
+      "section": "International",
+      "trivia": "The commitment by developed countries to jointly mobilize $100 billion per year by 2020 for climate action in developing countries was made at COP15 in Copenhagen in 2009.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "UNFCCC and Climate Change"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "data-protection-bill-amendments",
+      "headline": "Parliament Winter Session Expected to Address Amendments to Digital Personal Data Protection Act",
+      "explainer": "• The upcoming Winter Session of Parliament is anticipated to take up proposed amendments to the Digital Personal Data Protection Act (DPDP Act), 2023.\n• The amendments are expected to address industry concerns regarding compliance burden, clarify definitions, and streamline the grievance redressal mechanism.\n• Discussions are likely to focus on balancing individual privacy rights with ease of doing business and national security imperatives.\n• The government aims to create a robust and future-proof data governance framework that fosters digital innovation while protecting citizens' data.",
+      "category": "polity, economy, science",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Government Policies and Interventions for Development",
+        "Role of IT in Governance",
+        "Cyber Security"
+      ],
+      "date": "2025-11-25",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Data Protection",
+        "DPDP Act",
+        "Privacy Rights",
+        "Cybersecurity",
+        "Parliament",
+        "Digital Governance"
+      ],
+      "keyTerms": [
+        "Digital Personal Data Protection Act (DPDP Act)",
+        "Personal Data",
+        "Data Fiduciary",
+        "Data Principal",
+        "Consent Manager",
+        "Data Protection Board"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Parliament Winter Session to discuss DPDP Act, 2023 amendments.",
+        "Aims to address industry concerns, clarify definitions, streamline grievance redressal.",
+        "Focus on balancing privacy, ease of business, national security.",
+        "Goal: robust data governance framework."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically examine the provisions of the Digital Personal Data Protection Act, 2023, and the necessity for its proposed amendments.",
+        "Discuss the challenges in enacting a comprehensive data protection law that balances individual privacy, state surveillance, and business innovation in a digital economy.",
+        "Analyze the global best practices in data protection and how India's law aligns with or deviates from them."
+      ],
+      "imageDescription": "A digital padlock icon superimposed on a blurred image of the Indian Parliament.",
+      "section": "National",
+      "trivia": "The Supreme Court's 2017 Puttaswamy judgment declared privacy a fundamental right under Article 21 of the Indian Constitution, paving the way for data protection legislation.",
+      "prelimsSyllabus": {
+        "subject": "Polity & Governance",
+        "area": "Government Policies",
+        "topic": "Digital governance and privacy"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ai-disease-surveillance",
+      "headline": "Health Ministry Launches AI-Powered Platform for Real-Time Disease Surveillance and Prediction",
+      "explainer": "• The Union Health Ministry rolled out 'Swasthya AI', an Artificial Intelligence-powered national platform designed for real-time disease surveillance, outbreak prediction, and public health management.\n• Leveraging big data analytics from various sources, including hospital records, diagnostic labs, and environmental data, Swasthya AI aims to identify emerging health threats early.\n• The platform will assist public health officials in making informed decisions for resource allocation, vaccination campaigns, and targeted interventions during health crises.\n• This initiative marks a significant step towards modernizing India's public health infrastructure and enhancing preparedness for future pandemics.",
+      "category": "science, society",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Achievements of Indians in Science & Technology",
+        "Issues relating to development and management of Social Sector/Services relating to Health."
+      ],
+      "date": "2025-11-25",
+      "source": "Ministry of Health and Family Welfare",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Artificial Intelligence",
+        "Public Health",
+        "Disease Surveillance",
+        "Healthcare Technology",
+        "Pandemic Preparedness"
+      ],
+      "keyTerms": [
+        "Swasthya AI",
+        "Disease Surveillance",
+        "Outbreak Prediction",
+        "Big Data Analytics",
+        "Public Health Management",
+        "Digital Health"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Health Ministry launched 'Swasthya AI' platform.",
+        "AI-powered for real-time disease surveillance and prediction.",
+        "Uses big data from hospitals, labs, environmental sources.",
+        "Aims to modernize public health infrastructure and pandemic preparedness."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of Artificial Intelligence in strengthening India's public health system and disease management.",
+        "Analyze the ethical considerations and data privacy challenges associated with using AI for health surveillance.",
+        "Examine how 'Swasthya AI' can improve India's response to future health emergencies and contribute to achieving health-related SDGs."
+      ],
+      "imageDescription": "A digital interface showing health data visualizations and an AI brain icon.",
+      "section": "Science",
+      "trivia": "The COVID-19 pandemic significantly accelerated the adoption of digital health technologies and AI in healthcare globally.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Health Technology",
+        "topic": "AI in healthcare"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "shg-digital-marketplaces",
+      "headline": "Women's SHGs Empowered Through New Digital Marketplaces for Rural Products",
+      "explainer": "• The Ministry of Rural Development launched 'Nari Shakti Bazaar', a dedicated e-commerce platform to promote products manufactured by Women's Self-Help Groups (SHGs).\n• This initiative aims to provide SHGs, particularly in rural and remote areas, direct access to national and international markets, bypassing traditional intermediaries.\n• The platform offers training in digital marketing, product packaging, and logistics, enhancing the entrepreneurial capabilities of women.\n• It is expected to significantly boost the income of SHG members, foster economic empowerment, and strengthen the rural economy.",
+      "category": "society, economy",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Development processes and the Development Industry—the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders.",
+        "Inclusive Growth and issues arising from it."
+      ],
+      "date": "2025-11-25",
+      "source": "Ministry of Rural Development",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Women Empowerment",
+        "Self-Help Groups (SHGs)",
+        "Rural Economy",
+        "E-commerce",
+        "Digital Marketing",
+        "Inclusive Growth"
+      ],
+      "keyTerms": [
+        "Nari Shakti Bazaar",
+        "Self-Help Groups (SHGs)",
+        "E-commerce Platform",
+        "Rural Entrepreneurship",
+        "Economic Empowerment",
+        "Deendayal Antyodaya Yojana-NRLM"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ministry of Rural Development launched 'Nari Shakti Bazaar' for SHGs.",
+        "E-commerce platform for rural products, direct market access.",
+        "Provides training in digital marketing, packaging, logistics.",
+        "Aims to boost income and empower women entrepreneurs."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the role of Self-Help Groups (SHGs) in promoting women's economic empowerment and rural development in India.",
+        "Analyze how digital platforms and e-commerce can revolutionize market access for rural artisans and small producers.",
+        "Examine the challenges faced by SHGs in leveraging digital technologies and suggest measures to overcome them."
+      ],
+      "imageDescription": "Women from a rural self-help group proudly displaying handcrafted products on a digital marketplace interface.",
+      "section": "National",
+      "trivia": "There are over 80 lakh Self-Help Groups (SHGs) across India, primarily comprising women, linked to the National Rural Livelihoods Mission (NRLM).",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Women Empowerment",
+        "topic": "SHGs"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "renewable-energy-targets-report",
+      "headline": "New Report Highlights Challenges in Achieving India's Renewable Energy Targets by 2030",
+      "explainer": "• A report released by the Council on Energy, Environment and Water (CEEW) outlined significant challenges that could impede India's ambitious renewable energy targets for 2030.\n• Key hurdles include land acquisition issues, grid integration complexities for intermittent renewable sources, and financial constraints for new projects.\n• The report emphasized the need for accelerated policy reforms, investment in grid modernization, and innovative energy storage solutions.\n• Despite challenges, India remains committed to its target of 500 GW of non-fossil fuel energy capacity by 2030, striving for energy security and climate goals.",
+      "category": "environment, economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation",
+        "Infrastructure: Energy",
+        "Mobilization of Resources"
+      ],
+      "date": "2025-11-25",
+      "source": "CEEW Report",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Renewable Energy",
+        "Climate Change",
+        "Energy Security",
+        "CEEW",
+        "Grid Integration",
+        "Energy Transition"
+      ],
+      "keyTerms": [
+        "Renewable Energy Targets",
+        "Non-fossil Fuel Capacity",
+        "Grid Integration",
+        "Energy Storage",
+        "Climate Goals",
+        "Nationally Determined Contributions (NDCs)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "CEEW report highlights challenges for India's 2030 renewable energy targets.",
+        "Hurdles: land acquisition, grid integration, financial constraints.",
+        "Calls for policy reforms, grid modernization, storage solutions.",
+        "India committed to 500 GW non-fossil fuel capacity by 2030."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the critical challenges faced by India in scaling up its renewable energy capacity to meet the 2030 targets.",
+        "Discuss the policy measures and technological innovations required to overcome grid integration and energy storage issues for renewable sources.",
+        "Evaluate the socio-economic and environmental benefits of a rapid transition to renewable energy for India."
+      ],
+      "imageDescription": "Wind turbines and solar panels against a backdrop of a setting sun, symbolizing renewable energy.",
+      "section": "Environment",
+      "trivia": "At COP26 in Glasgow, India pledged to achieve 500 GW of non-fossil energy capacity by 2030 and to meet 50% of its energy requirements from renewable energy by 2030.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Renewable Energy",
+        "topic": "India's climate targets"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "green-hydrogen-investment",
+      "headline": "Private Sector Investment in Green Hydrogen Projects Sees Significant Surge",
+      "explainer": "• Leading Indian conglomerates and international investors have announced substantial new investments in green hydrogen production and related infrastructure projects.\n• This surge is attributed to supportive government policies under the National Green Hydrogen Mission and increasing global demand for clean energy.\n• Investments span across electrolyser manufacturing, green hydrogen production plants, and pilot projects for its application in heavy industries and transportation.\n• The development signals India's growing potential to become a global hub for green hydrogen production and export, contributing to decarbonization efforts.",
+      "category": "economy, environment, science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy",
+        "Conservation, environmental pollution and degradation",
+        "Science and Technology- developments and their applications"
+      ],
+      "date": "2025-11-25",
+      "source": "Mint",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Green Hydrogen",
+        "National Green Hydrogen Mission",
+        "Renewable Energy",
+        "Decarbonization",
+        "Private Investment",
+        "Clean Energy"
+      ],
+      "keyTerms": [
+        "Green Hydrogen",
+        "Electrolyser",
+        "National Green Hydrogen Mission",
+        "Decarbonization",
+        "Power-to-X",
+        "Clean Energy Transition"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Private sector investment surges in green hydrogen projects.",
+        "Driven by National Green Hydrogen Mission and global demand.",
+        "Investments in electrolyser manufacturing, production plants, applications.",
+        "India aims to be a global hub for green hydrogen."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of green hydrogen for India's energy security and climate change mitigation goals.",
+        "Analyze the role of government policies and private sector investment in accelerating the development of India's green hydrogen ecosystem.",
+        "Examine the technological and economic challenges in scaling up green hydrogen production and its applications in various sectors."
+      ],
+      "imageDescription": "A futuristic image of a green hydrogen production facility with wind turbines in the background.",
+      "section": "Economy",
+      "trivia": "Green hydrogen is produced by splitting water into hydrogen and oxygen using renewable electricity, making it a zero-emission fuel.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Energy Sector",
+        "topic": "Green Hydrogen Mission"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "g20-digital-economy-roadmap",
+      "headline": "G20 Digital Economy Working Group Finalizes Roadmap for Cross-border Data Flows",
+      "explainer": "• The G20 Digital Economy Working Group (DEWG) successfully concluded its final meeting, approving a comprehensive roadmap for facilitating secure and trusted cross-border data flows.\n• The framework emphasizes data localization principles while promoting interoperability and harmonized regulations to unlock the economic potential of the digital economy.\n• Key areas of consensus include data sharing for public good, cybersecurity cooperation, and developing common standards for emerging technologies like AI.\n• This roadmap, a key outcome of India's G20 presidency in the previous year, aims to foster global digital inclusion and economic growth.",
+      "category": "ir, economy, science",
+      "gsPaper": "GS2, GS3",
+      "gsSubTopics": [
+        "Important International Institutions, agencies and fora, their structure, mandate.",
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Role of IT in Governance"
+      ],
+      "date": "2025-11-25",
+      "source": "G20 Secretariat",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "G20",
+        "Digital Economy",
+        "Cross-border Data Flows",
+        "Data Localization",
+        "Cybersecurity",
+        "AI Governance"
+      ],
+      "keyTerms": [
+        "G20 DEWG",
+        "Cross-border Data Flows",
+        "Data Localization",
+        "Data Governance",
+        "Cybersecurity Cooperation",
+        "Digital Public Infrastructure"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "G20 DEWG finalized roadmap for cross-border data flows.",
+        "Emphasizes data localization, interoperability, harmonized regulations.",
+        "Consensus on data sharing for public good, cybersecurity, AI standards.",
+        "Outcome of India's G20 presidency, aims for global digital inclusion."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the complexities and divergent views among nations regarding cross-border data flows and data localization policies.",
+        "Analyze the significance of a G20 roadmap for global digital economy governance and its implications for India's digital policy.",
+        "Examine the challenges and opportunities in establishing common standards for emerging technologies like AI at an international level."
+      ],
+      "imageDescription": "A globe with digital network lines connecting various G20 nation flags.",
+      "section": "International",
+      "trivia": "India's G20 Presidency in 2023 focused on 'Vasudhaiva Kutumbakam' or 'One Earth · One Family · One Future', including a strong emphasis on digital public infrastructure.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Organizations",
+        "topic": "G20 and global governance"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "heritage-tourism-promotion",
+      "headline": "Ministry of Tourism Launches 'Virasat Darshan' Initiative to Boost Heritage Tourism",
+      "explainer": "• The Ministry of Tourism introduced 'Virasat Darshan', a new initiative aimed at promoting heritage tourism through experiential travel and digital storytelling.\n• The program focuses on developing thematic circuits, improving last-mile connectivity to heritage sites, and enhancing visitor facilities, including digital guides and virtual reality experiences.\n• It seeks to engage local communities in heritage preservation and economic development through tourism-related livelihoods.\n• 'Virasat Darshan' is part of a larger strategy to showcase India's rich cultural heritage globally and attract both domestic and international tourists.",
+      "category": "society, economy, history",
+      "gsPaper": "GS1, GS3",
+      "gsSubTopics": [
+        "Indian Culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Tourism sector and its impact on economy",
+        "Government Policies and Interventions for Development"
+      ],
+      "date": "2025-11-25",
+      "source": "Ministry of Tourism",
+      "sourceUrl": "",
+      "importance": "low",
+      "tags": [
+        "Heritage Tourism",
+        "Cultural Heritage",
+        "Tourism Promotion",
+        "Local Livelihoods",
+        "Experiential Travel",
+        "Digital Storytelling"
+      ],
+      "keyTerms": [
+        "Virasat Darshan",
+        "Heritage Circuits",
+        "Experiential Tourism",
+        "Cultural Preservation",
+        "Sustainable Tourism",
+        "Incredible India"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Ministry of Tourism launched 'Virasat Darshan' for heritage tourism.",
+        "Focus on thematic circuits, connectivity, digital experiences.",
+        "Engages local communities in preservation and livelihoods.",
+        "Aims to promote India's cultural heritage globally."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the potential of heritage tourism to contribute to India's economic growth and cultural preservation.",
+        "Analyze the challenges in developing sustainable heritage tourism, including infrastructure, community engagement, and environmental impact.",
+        "Suggest innovative strategies, including digital technologies, to enhance the visitor experience and promote lesser-known heritage sites."
+      ],
+      "imageDescription": "A collage of famous Indian heritage sites like Taj Mahal, Hampi, and Khajuraho.",
+      "section": "National",
+      "trivia": "India has 42 UNESCO World Heritage Sites, including cultural and natural sites, attracting millions of tourists annually.",
+      "prelimsSyllabus": {
+        "subject": "Art & Culture",
+        "area": "Heritage",
+        "topic": "Tourism initiatives"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "space-tourism-policy",
+      "headline": "India Considers Framework for Regulating Private Space Tourism Ventures",
+      "explainer": "• The Department of Space and ISRO are reportedly collaborating to draft a comprehensive policy framework for regulating private sector involvement in space tourism.\n• This move comes as several Indian startups express interest in developing sub-orbital and orbital tourism capabilities, aligning with global trends.\n• The framework is expected to address safety standards, licensing procedures, environmental impact assessments, and liability issues for commercial space flights.\n• India aims to foster a thriving private space industry while ensuring responsible and safe development of nascent space tourism sector.",
+      "category": "science, polity, economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Space Technology",
+        "Government Policies and Interventions"
+      ],
+      "date": "2025-11-25",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Space Tourism",
+        "Private Space Sector",
+        "ISRO",
+        "Space Policy",
+        "Commercial Spaceflight",
+        "NewSpace India"
+      ],
+      "keyTerms": [
+        "Space Tourism",
+        "Sub-orbital Flight",
+        "Orbital Flight",
+        "Space Policy Framework",
+        "NewSpace India Ltd (NSIL)",
+        "Space Sector Reforms"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Department of Space/ISRO drafting policy for private space tourism.",
+        "Response to Indian startups' interest in sub-orbital/orbital tourism.",
+        "Policy to cover safety, licensing, environment, liability.",
+        "Aims to foster private space industry and safe tourism development."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the opportunities and challenges presented by the emergence of a private space tourism sector in India.",
+        "Analyze the key components that a robust policy framework for space tourism should include to ensure safety, sustainability, and economic viability.",
+        "Examine how India's space sector reforms are encouraging private participation and contributing to the nation's 'NewSpace' economy."
+      ],
+      "imageDescription": "An artist's concept of a commercial spacecraft taking tourists into space with Earth in the background.",
+      "section": "Science",
+      "trivia": "The first private citizen to travel to space was Dennis Tito in 2001, paying an estimated $20 million for a trip to the International Space Station.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space Technology",
+        "topic": "Space sector reforms"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "Government launches 'BharatConnect' initiative to expand Digital Public Infrastructure (DPI) to rural India, boosting financial inclusion and e-governance.",
+    "India-EU Summit concludes with landmark agreements on Free Trade and a 'Green Technology Partnership', deepening strategic cooperation.",
+    "India unveils 'Clean Air City Challenge' to tackle urban air pollution, offering performance-linked incentives to cities for sustainable air quality improvements.",
+    "ISRO successfully tests an advanced electric propulsion system, a crucial step for future inter-planetary missions to Mars and Venus.",
+    "Supreme Court begins final hearings on the constitutional validity of a state-level reservation policy exceeding the 50% ceiling, with significant implications for social justice."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the 'BharatConnect' initiative recently in news, consider the following statements:\n1. It is launched by the Ministry of Rural Development to connect rural markets with urban consumers.\n2. It aims to integrate existing Digital Public Infrastructure (DPI) layers like Aadhaar and UPI with enhanced last-mile connectivity.\n3. The initiative primarily focuses on providing vocational training to rural youth through digital platforms.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) 1 and 3 only",
+        "(d) 2 and 3 only"
+      ],
+      "answer": "(b) 2 only",
+      "explanation": "Statement 1 is incorrect. 'BharatConnect' is launched by the Ministry of Electronics and IT, not Rural Development, and aims to extend DPI, not just connect markets. Statement 2 is correct, as the initiative focuses on leveraging existing DPI. Statement 3 is incorrect as vocational training is one aspect, but the primary focus is broader DPI extension for e-governance and financial inclusion, not just vocational training."
+    },
+    {
+      "question": "Which of the following bodies is responsible for conducting the 'Clean Air City Challenge' in India?",
+      "options": [
+        "(a) NITI Aayog",
+        "(b) Ministry of Housing and Urban Affairs",
+        "(c) Ministry of Environment, Forest and Climate Change",
+        "(d) Central Pollution Control Board"
+      ],
+      "answer": "(c) Ministry of Environment, Forest and Climate Change",
+      "explanation": "The 'Clean Air City Challenge' is an initiative launched by the Ministry of Environment, Forest and Climate Change (MoEFCC) as a successor to the National Clean Air Programme (NCAP)."
+    },
+    {
+      "question": "Consider the following statements regarding India's space technology:\n1. ISRO has successfully tested an advanced electric propulsion system for its future inter-planetary missions.\n2. Electric propulsion systems offer significantly lower fuel efficiency compared to conventional chemical rockets.\n3. India is drafting a policy framework specifically for regulating private sector involvement in space tourism.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 3 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 3 only",
+      "explanation": "Statement 1 is correct, as ISRO successfully tested an advanced electric propulsion system. Statement 2 is incorrect; electric propulsion systems offer significantly *higher* fuel efficiency. Statement 3 is correct, as India is considering a policy framework for space tourism."
+    },
+    {
+      "question": "With reference to the 'Har Ghar Jal' Mission, consider the following statements:\n1. The mission aims to provide tap water connections to all rural households by 2024.\n2. The current focus of the mission has shifted towards ensuring water quality and sustainability.\n3. Community-led testing initiatives are being deployed for water quality monitoring.\nWhich of the statements given above are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(d) 1, 2 and 3",
+      "explanation": "All three statements are correct. The mission's target is 2024, it has achieved significant coverage and is now focusing on quality and sustainability, and community-led testing is part of the strategy."
+    },
+    {
+      "question": "The Production Linked Incentive (PLI) scheme has recently been expanded to include which of the following sectors?\n1. Critical minerals processing\n2. Advanced manufacturing\n3. Green hydrogen production\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 2 only",
+      "explanation": "The PLI scheme was expanded to include critical minerals processing and advanced manufacturing. While green hydrogen projects are seeing private investment surge, the specific news mentioned PLI expansion for critical minerals and advanced manufacturing. The National Green Hydrogen Mission is a separate initiative that also offers incentives but is not explicitly stated as a PLI expansion in this context."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "Discuss the potential of Digital Public Infrastructure (DPI) in transforming rural governance and economic activities in India. What challenges might the 'BharatConnect' initiative face in achieving its objectives, and how can they be addressed?",
+      "syllabusMatch": "GS2: Government Policies and Interventions for Development in various sectors and issues arising out of their design and implementation. GS3: Inclusive Growth and issues arising from it; Role of IT in Governance.",
+      "approach": "Introduce DPI and its significance. Explain how BharatConnect aims to leverage DPI for rural transformation (e-governance, financial inclusion, market access, skill development). Discuss challenges such as digital literacy, infrastructure gaps, data privacy, and sustainability. Conclude with suggestions like public-private partnerships, community ownership, and adaptive policy frameworks."
+    },
+    {
+      "question": "Evaluate the strategic significance of the India-European Union partnership in the evolving geopolitical and geo-economic landscape. How can the recently concluded agreements on trade and green technologies strengthen this relationship and contribute to India's climate goals?",
+      "syllabusMatch": "GS2: Bilateral, Regional and Global Groupings and Agreements involving India and/or affecting India’s interests. GS3: Conservation, environmental pollution and degradation.",
+      "approach": "Begin by highlighting India-EU as strategic partners. Discuss their shared values and increasing convergence on global issues (multilateralism, climate action). Explain how the FTA and Green Technology Partnership will boost economic ties, facilitate technology transfer, and support India's renewable energy and climate commitments. Analyze the mutual benefits and geopolitical implications of a stronger India-EU axis."
+    },
+    {
+      "question": "Critically analyze the challenges faced by India in achieving its ambitious renewable energy targets by 2030. What policy reforms and technological innovations are required to overcome these hurdles and ensure a sustainable energy transition?",
+      "syllabusMatch": "GS3: Infrastructure: Energy; Conservation, environmental pollution and degradation; Mobilization of Resources.",
+      "approach": "Introduce India's renewable energy targets and the context of climate change and energy security. Detail challenges like land acquisition, grid integration, financing, and manufacturing capacity. Propose policy reforms (streamlined clearances, RPO enforcement, market mechanisms) and technological solutions (advanced storage, smart grids, green hydrogen) to address these. Conclude with the importance of a holistic approach for a just and sustainable energy transition."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The 'BharatConnect' initiative is led by the Ministry of Electronics and Information Technology (MeitY).",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Digital India",
+        "Government Scheme"
+      ]
+    },
+    {
+      "text": "India's target for non-fossil fuel energy capacity by 2030 is 500 GW.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Renewable Energy",
+        "Climate Change"
+      ]
+    },
+    {
+      "text": "The 'Indra Sawhney & Ors. vs Union of India' case (1992) established the 50% reservation ceiling.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Supreme Court",
+        "Reservation"
+      ]
+    },
+    {
+      "text": "The Jal Jeevan Mission aims to provide functional household tap connections to every rural household by 2024.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "Government Scheme",
+        "Water Security"
+      ]
+    },
+    {
+      "text": "Electric propulsion systems offer higher fuel efficiency for space missions than chemical rockets.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "Space Technology",
+        "ISRO"
+      ]
+    },
+    {
+      "text": "The Digital Personal Data Protection Act (DPDP Act) was enacted in 2023 in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Data Protection",
+        "Privacy"
+      ]
+    },
+    {
+      "text": "Green hydrogen is produced by splitting water using renewable electricity.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Clean Energy",
+        "Decarbonization"
+      ]
+    },
+    {
+      "text": "The 'Nari Shakti Bazaar' is an e-commerce platform for Women's Self-Help Groups (SHGs).",
+      "category": "economy",
+      "gsPaper": "GS2",
+      "tags": [
+        "Women Empowerment",
+        "Rural Economy"
+      ]
+    },
+    {
+      "text": "India's G20 Presidency in 2023 emphasized 'Vasudhaiva Kutumbakam' (One Earth, One Family, One Future).",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "G20",
+        "International Relations"
+      ]
+    },
+    {
+      "text": "The National Education Policy (NEP) 2020 aims for 50% of learners to have vocational education exposure by 2025.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "Education Policy",
+        "Skill Development"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [],
+    "GS2": [
+      {
+        "id": "sc-reservation-policy",
+        "headline": "Supreme Court Hears Crucial Arguments on State-Level Reservation Policy's Constitutionality",
+        "explainer": "• The Supreme Court commenced final hearings on a batch of petitions challenging the constitutional validity of a new state-level reservation policy that exceeds the 50% ceiling.\n• Arguments focused on the 'exceptional circumstances' clause laid down in the Indra Sawhney judgment (1992) and the state's legislative competence to define backward classes.\n• Petitioners argued against the precedent, citing potential erosion of merit and equality, while the state defended its policy based on updated socio-economic data and local needs.\n• The verdict is keenly awaited as it could have significant implications for reservation policies across various states and the interpretation of fundamental rights.",
+        "category": "polity, society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Functions and responsibilities of the Union and the States",
+          "Welfare schemes for vulnerable sections"
+        ],
+        "date": "2025-11-25",
+        "source": "Live Law",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Supreme Court",
+          "Reservation Policy",
+          "Constitutional Law",
+          "Indra Sawhney Case",
+          "Social Justice",
+          "Federalism"
+        ],
+        "keyTerms": [
+          "Reservation Ceiling",
+          "Indra Sawhney Judgment",
+          "Exceptional Circumstances",
+          "Backward Classes",
+          "Equality before Law",
+          "Judicial Review"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "SC hearing on state reservation policy exceeding 50% cap.",
+          "Arguments revolve around Indra Sawhney judgment (1992) and 'exceptional circumstances'.",
+          "Concerns over merit vs. social justice.",
+          "Potential implications for reservation policies nationwide."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically analyze the legal and socio-political complexities surrounding reservation policies in India, particularly concerning the 50% ceiling.",
+          "Discuss the role of the judiciary in balancing affirmative action with principles of equality and merit.",
+          "Examine the arguments for and against exceeding the 50% reservation limit, considering constitutional provisions and socio-economic realities."
+        ],
+        "imageDescription": "A gavel resting on law books in front of the Supreme Court of India building.",
+        "section": "National",
+        "trivia": "The Indra Sawhney & Ors. vs Union of India case, famously known as the 'Mandal Commission case', set the 50% cap for reservations in 1992.",
+        "prelimsSyllabus": {
+          "subject": "Polity & Governance",
+          "area": "Judiciary",
+          "topic": "Supreme Court judgments"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "nep-vocational-training",
+        "headline": "NEP Implementation Review Highlights Progress in Vocational Education Integration",
+        "explainer": "• A comprehensive review of the National Education Policy (NEP) 2020 implementation revealed significant strides in integrating vocational education into mainstream schooling.\n• The report highlighted successful pilot projects where students from Class 6 onwards are being offered vocational subjects, aligning with the NEP's vision for practical skill development.\n• Challenges remain in scaling up infrastructure, training qualified vocational teachers, and ensuring industry linkages for internships and placements.\n• The Ministry of Education affirmed its commitment to further strengthening vocational pathways to enhance employability and prepare students for future job markets.",
+        "category": "society, polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Development processes and the Development Industry—the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders.",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources."
+        ],
+        "date": "2025-11-25",
+        "source": "Ministry of Education",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "National Education Policy (NEP)",
+          "Vocational Education",
+          "Skill Development",
+          "Employability",
+          "Education Reforms"
+        ],
+        "keyTerms": [
+          "NEP 2020",
+          "Vocational Training",
+          "Skill India Mission",
+          "Employability",
+          "Industry Linkages"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NEP 2020 review shows progress in vocational education integration.",
+          "Vocational subjects offered from Class 6 onwards in pilot projects.",
+          "Challenges: infrastructure, teacher training, industry linkages.",
+          "Ministry of Education committed to strengthening vocational pathways."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Evaluate the potential of vocational education, as envisioned in NEP 2020, to address India's skill gap and youth unemployment.",
+          "Discuss the challenges in integrating vocational education into the mainstream curriculum and suggest measures for effective implementation.",
+          "Analyze how a robust vocational education system can contribute to India's demographic dividend and economic growth."
+        ],
+        "imageDescription": "Students engaged in a practical vocational training session, such as carpentry or electronics.",
+        "section": "National",
+        "trivia": "The National Education Policy 2020 aims for 50% of learners to have exposure to vocational education by 2025.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Education",
+          "topic": "NEP 2020"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "urban-air-quality-initiative",
+        "headline": "India Launches 'Clean Air City Challenge' to Tackle Urban Air Pollution",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change unveiled the 'Clean Air City Challenge', an expanded and more ambitious successor to the National Clean Air Programme (NCAP).\n• This new initiative provides performance-linked incentives to cities for achieving significant reductions in particulate matter and other air pollutants.\n• It integrates advanced monitoring systems, public-private partnerships for green infrastructure, and community engagement programs to ensure sustainable air quality improvements.\n• The challenge aims to foster inter-city competition and innovation in pollution control, with a focus on source-specific interventions.",
+        "category": "environment, governance",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Environmental Pollution and Degradation",
+          "Government Policies and Interventions for Environment"
+        ],
+        "date": "2025-11-25",
+        "source": "Ministry of Environment, Forest and Climate Change",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Air Pollution",
+          "Urban Environment",
+          "NCAP",
+          "Environmental Governance",
+          "Sustainable Development"
+        ],
+        "keyTerms": [
+          "Clean Air City Challenge",
+          "National Clean Air Programme (NCAP)",
+          "Particulate Matter (PM2.5, PM10)",
+          "Air Quality Index (AQI)",
+          "Performance-linked Incentives"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Clean Air City Challenge: New initiative by MoEFCC for urban air quality.",
+          "Successor to NCAP, with performance-linked incentives for cities.",
+          "Integrates advanced monitoring, green infrastructure, community engagement.",
+          "Focuses on source-specific interventions for pollution control."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Evaluate the effectiveness of previous air pollution control programs in India and how the 'Clean Air City Challenge' seeks to address their shortcomings.",
+          "Discuss the role of technology and public participation in achieving sustainable urban air quality improvements.",
+          "Analyze the multi-sectoral approach required to tackle air pollution, considering factors like industrial emissions, vehicular pollution, and agricultural practices."
+        ],
+        "imageDescription": "A blurred cityscape with a clean air overlay, symbolizing pollution reduction.",
+        "section": "Environment",
+        "trivia": "Globally, air pollution is responsible for millions of premature deaths annually, making it a critical public health issue.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Pollution",
+          "topic": "Air Pollution"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "isro-interplanetary-component",
+        "headline": "ISRO Successfully Tests Advanced Propulsion System for Future Inter-planetary Missions",
+        "explainer": "• The Indian Space Research Organisation (ISRO) announced the successful ground testing of an advanced electric propulsion system, a crucial step for its ambitious future inter-planetary missions.\n• This next-generation propulsion technology offers significantly higher fuel efficiency and extended operational lifespan compared to conventional chemical rockets, enabling longer duration missions to Mars, Venus, and beyond.\n• The successful test marks a major milestone in India's quest for indigenous capabilities in deep space exploration and reducing mission costs.\n• The system is expected to be integrated into upcoming missions, potentially including follow-ups to Mars Orbiter Mission and Chandrayaan projects.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in Science & Technology",
+          "Space Technology",
+          "Indigenization of Technology"
+        ],
+        "date": "2025-11-25",
+        "source": "Indian Space Research Organisation (ISRO)",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Space Exploration",
+          "Electric Propulsion",
+          "Inter-planetary Missions",
+          "Chandrayaan",
+          "Mars Orbiter Mission"
+        ],
+        "keyTerms": [
+          "Electric Propulsion System",
+          "ISRO",
+          "Deep Space Exploration",
+          "Fuel Efficiency",
+          "Indigenization"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ISRO tested an advanced electric propulsion system.",
+          "Aimed at future inter-planetary missions (Mars, Venus).",
+          "Offers higher fuel efficiency and longer operational lifespan.",
+          "Boosts indigenous deep space exploration capabilities."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of advanced propulsion technologies for India's future space exploration ambitions.",
+          "Analyze how indigenous development of critical space technologies contributes to India's strategic autonomy and economic growth.",
+          "Examine the potential scientific and technological spin-offs from deep space missions for societal benefit."
+        ],
+        "imageDescription": "An artist's rendition of an Indian spacecraft utilizing an electric propulsion engine in deep space.",
+        "section": "Science",
+        "trivia": "Electric propulsion systems can achieve exhaust velocities ten times higher than chemical rockets, drastically reducing the amount of propellant needed for long journeys.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space Technology",
+          "topic": "ISRO missions and innovations"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "rbi-monetary-policy-outlook",
+        "headline": "RBI Signals Cautious Stance on Interest Rates Amidst Stable Inflation Projections",
+        "explainer": "• The Reserve Bank of India (RBI) Governor indicated a continued cautious approach to monetary policy, maintaining current interest rates for the foreseeable future.\n• The RBI's latest projections suggest inflation remains within the target band, primarily due to easing supply-side pressures and stable food prices.\n• However, global economic uncertainties, particularly regarding crude oil prices and geopolitical tensions, necessitate vigilance in policy formulation.\n• The central bank emphasized its commitment to supporting economic growth while ensuring price stability, closely monitoring both domestic and international factors.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to Planning",
+          "Mobilization of Resources",
+          "Growth, Development and Employment",
+          "Monetary Policy"
+        ],
+        "date": "2025-11-25",
+        "source": "Reserve Bank of India (RBI)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "RBI",
+          "Monetary Policy",
+          "Inflation",
+          "Interest Rates",
+          "Economic Growth",
+          "Global Economy"
+        ],
+        "keyTerms": [
+          "Monetary Policy Committee (MPC)",
+          "Repo Rate",
+          "Inflation Targeting",
+          "Price Stability",
+          "Economic Growth"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "RBI maintains cautious stance on interest rates.",
+          "Inflation projected within target band due to supply-side easing.",
+          "Global uncertainties (crude oil, geopolitics) remain a concern.",
+          "RBI aims to balance growth support and price stability."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the challenges faced by the RBI in balancing inflation control and economic growth in the current global economic scenario.",
+          "Analyze the impact of global geopolitical events and commodity prices on India's monetary policy decisions.",
+          "Evaluate the effectiveness of inflation targeting as a monetary policy framework in India."
+        ],
+        "imageDescription": "The RBI logo with a graph showing stable inflation trends.",
+        "section": "Economy",
+        "trivia": "The Monetary Policy Committee (MPC) in India consists of six members: three from the RBI and three external members appointed by the government.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI functions"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "border-security-tech",
+        "headline": "Border Security Forces Deploy Advanced AI-Powered Surveillance Systems Along Northern Borders",
+        "explainer": "• India's Border Security Forces (BSF) have initiated the deployment of a new generation of AI-powered integrated surveillance systems along sensitive stretches of the northern borders.\n• These systems incorporate high-resolution thermal cameras, ground sensors, drone integration, and AI-driven analytics for real-time threat detection and rapid response.\n• The technology aims to enhance situational awareness, reduce human patrolling risks, and counter infiltration attempts more effectively in challenging terrains.\n• This move is part of India's broader strategy to modernize border management and leverage advanced technology for national security.",
+        "category": "security, science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security Challenges and their Management in Border Areas",
+          "Linkages of Organized Crime with Terrorism",
+          "Science and Technology- developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-11-25",
+        "source": "Ministry of Home Affairs (MHA)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Border Security",
+          "Artificial Intelligence",
+          "Surveillance Technology",
+          "National Security",
+          "BSF",
+          "Defense Modernization"
+        ],
+        "keyTerms": [
+          "Integrated Surveillance System",
+          "AI-powered Analytics",
+          "Thermal Cameras",
+          "Drone Integration",
+          "Infiltration",
+          "Border Management"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "BSF deploying AI-powered surveillance systems on northern borders.",
+          "Includes thermal cameras, ground sensors, drone integration, AI analytics.",
+          "Aims to enhance situational awareness and counter infiltration.",
+          "Part of India's border modernization strategy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the role of technology, particularly AI, in enhancing India's border security and addressing contemporary challenges.",
+          "Analyze the ethical and operational considerations associated with deploying AI-driven surveillance systems in sensitive border regions.",
+          "Examine how technological advancements can complement human intelligence and traditional security measures in border management."
+        ],
+        "imageDescription": "A night vision view of a border fence with AI sensors highlighted.",
+        "section": "Security",
+        "trivia": "India has approximately 15,106 km of land border and a coastline of 7,516 km, making border management a complex task.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "Border Management",
+          "topic": "Technological advancements in security"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "pli-critical-minerals",
+        "headline": "Government to Fast-Track PLI Scheme Expansion for Critical Minerals and Advanced Manufacturing",
+        "explainer": "• The Union Cabinet approved a proposal to expand the Production Linked Incentive (PLI) scheme to include critical minerals processing and advanced manufacturing sectors.\n• This expansion aims to bolster domestic production capabilities, reduce import dependence, and integrate India into global supply chains for strategic materials.\n• The scheme offers incentives to companies for incremental sales from products manufactured in India, encouraging both domestic and foreign investment.\n• The move is crucial for sectors like electric vehicles, renewable energy, and defense, which heavily rely on critical minerals and high-tech components.",
+        "category": "economy, science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to Planning",
+          "Mobilization of Resources",
+          "Growth, Development and Employment",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+        ],
+        "date": "2025-11-25",
+        "source": "Ministry of Commerce and Industry",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "PLI Scheme",
+          "Critical Minerals",
+          "Advanced Manufacturing",
+          "Make in India",
+          "Economic Growth",
+          "Supply Chain Resilience"
+        ],
+        "keyTerms": [
+          "Production Linked Incentive (PLI)",
+          "Critical Minerals",
+          "Advanced Manufacturing",
+          "Import Substitution",
+          "Global Supply Chains"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "PLI scheme expanded to critical minerals and advanced manufacturing.",
+          "Aims to boost domestic production and reduce import dependence.",
+          "Offers incentives for incremental sales from India-manufactured products.",
+          "Crucial for EV, renewable energy, and defense sectors."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the effectiveness of the PLI scheme in fostering domestic manufacturing and achieving self-reliance in strategic sectors.",
+          "Discuss the significance of critical minerals for India's economic growth and national security in the context of global supply chain disruptions.",
+          "Evaluate the challenges and opportunities for India in becoming a global hub for advanced manufacturing."
+        ],
+        "imageDescription": "A graphic illustrating various critical minerals and manufacturing processes.",
+        "section": "Economy",
+        "trivia": "India's PLI scheme was initially launched in March 2020 for three sectors and has since expanded to 14 key sectors.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Industrial Policy",
+          "topic": "PLI schemes"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "ai-disease-surveillance",
+        "headline": "Health Ministry Launches AI-Powered Platform for Real-Time Disease Surveillance and Prediction",
+        "explainer": "• The Union Health Ministry rolled out 'Swasthya AI', an Artificial Intelligence-powered national platform designed for real-time disease surveillance, outbreak prediction, and public health management.\n• Leveraging big data analytics from various sources, including hospital records, diagnostic labs, and environmental data, Swasthya AI aims to identify emerging health threats early.\n• The platform will assist public health officials in making informed decisions for resource allocation, vaccination campaigns, and targeted interventions during health crises.\n• This initiative marks a significant step towards modernizing India's public health infrastructure and enhancing preparedness for future pandemics.",
+        "category": "science, society",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Achievements of Indians in Science & Technology",
+          "Issues relating to development and management of Social Sector/Services relating to Health."
+        ],
+        "date": "2025-11-25",
+        "source": "Ministry of Health and Family Welfare",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Artificial Intelligence",
+          "Public Health",
+          "Disease Surveillance",
+          "Healthcare Technology",
+          "Pandemic Preparedness"
+        ],
+        "keyTerms": [
+          "Swasthya AI",
+          "Disease Surveillance",
+          "Outbreak Prediction",
+          "Big Data Analytics",
+          "Public Health Management",
+          "Digital Health"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Health Ministry launched 'Swasthya AI' platform.",
+          "AI-powered for real-time disease surveillance and prediction.",
+          "Uses big data from hospitals, labs, environmental sources.",
+          "Aims to modernize public health infrastructure and pandemic preparedness."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the transformative potential of Artificial Intelligence in strengthening India's public health system and disease management.",
+          "Analyze the ethical considerations and data privacy challenges associated with using AI for health surveillance.",
+          "Examine how 'Swasthya AI' can improve India's response to future health emergencies and contribute to achieving health-related SDGs."
+        ],
+        "imageDescription": "A digital interface showing health data visualizations and an AI brain icon.",
+        "section": "Science",
+        "trivia": "The COVID-19 pandemic significantly accelerated the adoption of digital health technologies and AI in healthcare globally.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Health Technology",
+          "topic": "AI in healthcare"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "renewable-energy-targets-report",
+        "headline": "New Report Highlights Challenges in Achieving India's Renewable Energy Targets by 2030",
+        "explainer": "• A report released by the Council on Energy, Environment and Water (CEEW) outlined significant challenges that could impede India's ambitious renewable energy targets for 2030.\n• Key hurdles include land acquisition issues, grid integration complexities for intermittent renewable sources, and financial constraints for new projects.\n• The report emphasized the need for accelerated policy reforms, investment in grid modernization, and innovative energy storage solutions.\n• Despite challenges, India remains committed to its target of 500 GW of non-fossil fuel energy capacity by 2030, striving for energy security and climate goals.",
+        "category": "environment, economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation",
+          "Infrastructure: Energy",
+          "Mobilization of Resources"
+        ],
+        "date": "2025-11-25",
+        "source": "CEEW Report",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Renewable Energy",
+          "Climate Change",
+          "Energy Security",
+          "CEEW",
+          "Grid Integration",
+          "Energy Transition"
+        ],
+        "keyTerms": [
+          "Renewable Energy Targets",
+          "Non-fossil Fuel Capacity",
+          "Grid Integration",
+          "Energy Storage",
+          "Climate Goals",
+          "Nationally Determined Contributions (NDCs)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "CEEW report highlights challenges for India's 2030 renewable energy targets.",
+          "Hurdles: land acquisition, grid integration, financial constraints.",
+          "Calls for policy reforms, grid modernization, storage solutions.",
+          "India committed to 500 GW non-fossil fuel capacity by 2030."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the critical challenges faced by India in scaling up its renewable energy capacity to meet the 2030 targets.",
+          "Discuss the policy measures and technological innovations required to overcome grid integration and energy storage issues for renewable sources.",
+          "Evaluate the socio-economic and environmental benefits of a rapid transition to renewable energy for India."
+        ],
+        "imageDescription": "Wind turbines and solar panels against a backdrop of a setting sun, symbolizing renewable energy.",
+        "section": "Environment",
+        "trivia": "At COP26 in Glasgow, India pledged to achieve 500 GW of non-fossil energy capacity by 2030 and to meet 50% of its energy requirements from renewable energy by 2030.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Renewable Energy",
+          "topic": "India's climate targets"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "green-hydrogen-investment",
+        "headline": "Private Sector Investment in Green Hydrogen Projects Sees Significant Surge",
+        "explainer": "• Leading Indian conglomerates and international investors have announced substantial new investments in green hydrogen production and related infrastructure projects.\n• This surge is attributed to supportive government policies under the National Green Hydrogen Mission and increasing global demand for clean energy.\n• Investments span across electrolyser manufacturing, green hydrogen production plants, and pilot projects for its application in heavy industries and transportation.\n• The development signals India's growing potential to become a global hub for green hydrogen production and export, contributing to decarbonization efforts.",
+        "category": "economy, environment, science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy",
+          "Conservation, environmental pollution and degradation",
+          "Science and Technology- developments and their applications"
+        ],
+        "date": "2025-11-25",
+        "source": "Mint",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Green Hydrogen",
+          "National Green Hydrogen Mission",
+          "Renewable Energy",
+          "Decarbonization",
+          "Private Investment",
+          "Clean Energy"
+        ],
+        "keyTerms": [
+          "Green Hydrogen",
+          "Electrolyser",
+          "National Green Hydrogen Mission",
+          "Decarbonization",
+          "Power-to-X",
+          "Clean Energy Transition"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Private sector investment surges in green hydrogen projects.",
+          "Driven by National Green Hydrogen Mission and global demand.",
+          "Investments in electrolyser manufacturing, production plants, applications.",
+          "India aims to be a global hub for green hydrogen."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of green hydrogen for India's energy security and climate change mitigation goals.",
+          "Analyze the role of government policies and private sector investment in accelerating the development of India's green hydrogen ecosystem.",
+          "Examine the technological and economic challenges in scaling up green hydrogen production and its applications in various sectors."
+        ],
+        "imageDescription": "A futuristic image of a green hydrogen production facility with wind turbines in the background.",
+        "section": "Economy",
+        "trivia": "Green hydrogen is produced by splitting water into hydrogen and oxygen using renewable electricity, making it a zero-emission fuel.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Energy Sector",
+          "topic": "Green Hydrogen Mission"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "space-tourism-policy",
+        "headline": "India Considers Framework for Regulating Private Space Tourism Ventures",
+        "explainer": "• The Department of Space and ISRO are reportedly collaborating to draft a comprehensive policy framework for regulating private sector involvement in space tourism.\n• This move comes as several Indian startups express interest in developing sub-orbital and orbital tourism capabilities, aligning with global trends.\n• The framework is expected to address safety standards, licensing procedures, environmental impact assessments, and liability issues for commercial space flights.\n• India aims to foster a thriving private space industry while ensuring responsible and safe development of nascent space tourism sector.",
+        "category": "science, polity, economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Space Technology",
+          "Government Policies and Interventions"
+        ],
+        "date": "2025-11-25",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Space Tourism",
+          "Private Space Sector",
+          "ISRO",
+          "Space Policy",
+          "Commercial Spaceflight",
+          "NewSpace India"
+        ],
+        "keyTerms": [
+          "Space Tourism",
+          "Sub-orbital Flight",
+          "Orbital Flight",
+          "Space Policy Framework",
+          "NewSpace India Ltd (NSIL)",
+          "Space Sector Reforms"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Department of Space/ISRO drafting policy for private space tourism.",
+          "Response to Indian startups' interest in sub-orbital/orbital tourism.",
+          "Policy to cover safety, licensing, environment, liability.",
+          "Aims to foster private space industry and safe tourism development."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the opportunities and challenges presented by the emergence of a private space tourism sector in India.",
+          "Analyze the key components that a robust policy framework for space tourism should include to ensure safety, sustainability, and economic viability.",
+          "Examine how India's space sector reforms are encouraging private participation and contributing to the nation's 'NewSpace' economy."
+        ],
+        "imageDescription": "An artist's concept of a commercial spacecraft taking tourists into space with Earth in the background.",
+        "section": "Science",
+        "trivia": "The first private citizen to travel to space was Dennis Tito in 2001, paying an estimated $20 million for a trip to the International Space Station.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space Technology",
+          "topic": "Space sector reforms"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Press Information Bureau (PIB)",
+    "Ministry of External Affairs (MEA)",
+    "Ministry of Environment, Forest and Climate Change",
+    "Indian Space Research Organisation (ISRO)",
+    "Reserve Bank of India (RBI)",
+    "Live Law",
+    "Ministry of Home Affairs (MHA)",
+    "Ministry of Education",
+    "Ministry of Jal Shakti",
+    "Ministry of Commerce and Industry",
+    "The Economic Times",
+    "Ministry of Health and Family Welfare",
+    "Ministry of Rural Development",
+    "CEEW Report",
+    "Mint",
+    "G20 Secretariat",
+    "Ministry of Tourism",
+    "The Hindu"
+  ],
+  "totalScraped": 19,
+  "totalProcessed": 19
+}

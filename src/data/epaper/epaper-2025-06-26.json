@@ -1,0 +1,2610 @@
+{
+  "date": "2025-06-26",
+  "dateFormatted": "Thursday 26 June, 2025",
+  "lastUpdated": "2026-03-22T01:54:50.517Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "sc-upholds-dpdpa-implementation-framework",
+      "headline": "Supreme Court Upholds Government's Framework for DPDPA Implementation, Emphasizes Data Fiduciary Accountability",
+      "explainer": "• The Supreme Court delivered a landmark judgment upholding the Union Government's proposed framework for the implementation of the Digital Personal Data Protection Act (DPDPA), 2023.\n• The ruling focused on the balance between individual data privacy rights and legitimate state interests, particularly concerning data processing by government entities.\n• The Court emphasized stringent accountability for data fiduciaries and data processors, reiterating the need for robust grievance redressal mechanisms.\n• Concerns raised by petitioners regarding potential surveillance and data localization mandates were addressed, with the Court calling for clear, transparent guidelines and independent oversight.\n• This judgment clears the path for the full operationalization of the DPDPA, marking a significant step in India's digital governance.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+        "Information Technology, Data Protection, Cyber Security",
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Judiciary"
+      ],
+      "date": "2025-06-26",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "DPDPA",
+        "Data Protection",
+        "Supreme Court",
+        "Digital Governance",
+        "Privacy Rights",
+        "Judicial Review"
+      ],
+      "keyTerms": [
+        "Digital Personal Data Protection Act (DPDPA)",
+        "Data Fiduciary",
+        "Data Principal",
+        "Data Protection Board of India",
+        "Right to Privacy",
+        "Data Localization"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Digital Personal Data Protection Act (DPDPA), 2023: Key provisions and objectives.",
+        "Data Fiduciary: Entity determining purpose and means of processing personal data.",
+        "Data Principal: Individual to whom personal data relates.",
+        "Data Protection Board of India: Role and functions.",
+        "Right to be forgotten and Right to Erasure under DPDPA.",
+        "Significance of Article 21 (Right to Life and Personal Liberty) in privacy judgments."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically analyze the balance struck by the DPDPA between individual privacy and state/corporate interests.",
+        "Discuss the challenges in implementing the DPDPA, especially regarding consent architecture and cross-border data flows.",
+        "Evaluate the role of the judiciary in shaping India's digital governance framework.",
+        "Examine the implications of the DPDPA for businesses operating in India and for the 'data economy'.",
+        "How does DPDPA compare with global data protection regimes like GDPR?"
+      ],
+      "imageDescription": "Gavel on legal documents with a digital data overlay, symbolizing judicial review of data protection laws.",
+      "section": "Lead Opinion",
+      "trivia": "India's journey towards a comprehensive data protection law began with the Puttaswamy judgment (2017) which declared the Right to Privacy as a fundamental right.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Constitution",
+        "topic": "Fundamental Rights"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "uttarakhand-road-safety-measures",
+      "headline": "Uttarakhand Government Announces Enhanced Road Safety Measures Following Rudraprayag Bus Accident",
+      "explainer": "• The Uttarakhand government has announced a comprehensive package of measures to enhance road safety, particularly in its hilly regions, following a tragic bus accident in Rudraprayag.\n• At least three people were killed and nine injured when a bus carrying pilgrims plunged into the Alaknanda River.\n• Measures include upgrading critical road infrastructure, installing advanced warning systems, and stricter enforcement of traffic regulations for commercial vehicles.\n• Focus will also be on driver training, mandatory vehicle fitness checks, and rapid response mechanisms for accident sites.\n• The incident highlights the persistent challenges of road safety in mountainous terrains, exacerbated by tourist influx and extreme weather conditions.",
+      "category": "geography",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Salient features of world's physical geography.",
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes.",
+        "Disaster and disaster management."
+      ],
+      "date": "2025-06-26",
+      "source": "PTI",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Uttarakhand",
+        "Road Safety",
+        "Rudraprayag",
+        "Bus Accident",
+        "Disaster Management",
+        "Himalayan Region"
+      ],
+      "keyTerms": [
+        "Alaknanda River",
+        "Road Safety Audit",
+        "Hilly Terrain Challenges",
+        "Disaster Response Force"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Location of Alaknanda River and its significance (one of the headstreams of the Ganga).",
+        "Geographical challenges of road construction and maintenance in the Himalayas.",
+        "Role of State Disaster Response Force (SDRF) and National Disaster Response Force (NDRF).",
+        "Key initiatives for road safety in India (e.g., Motor Vehicles (Amendment) Act, 2019)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the multi-faceted challenges to road safety in India's mountainous regions, citing specific examples.",
+        "Discuss the effectiveness of current disaster management protocols in responding to road accidents in remote areas.",
+        "Suggest policy interventions and technological solutions for improving road infrastructure and driver behavior in vulnerable terrains.",
+        "Examine the role of tourism and pilgrimage in exacerbating road safety concerns in states like Uttarakhand."
+      ],
+      "imageDescription": "A mountain road in Uttarakhand with emergency vehicles, symbolizing road safety efforts.",
+      "section": "National",
+      "trivia": "The Alaknanda River originates from the Satopanth Glacier and Bhagirath Kharak Glacier in Uttarakhand.",
+      "prelimsSyllabus": {
+        "subject": "Indian and World Geography",
+        "area": "Physical Geography",
+        "topic": "Himalayan Rivers"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "parliamentary-panel-ucc-roadmap",
+      "headline": "Parliamentary Panel Discusses Roadmap for Uniform Civil Code Implementation, Seeks Public Feedback",
+      "explainer": "• A high-level Parliamentary Standing Committee on Law and Justice held extensive deliberations on a potential roadmap for the implementation of a Uniform Civil Code (UCC) in India.\n• The committee focused on engaging with legal experts, religious leaders, and civil society organizations to understand diverse perspectives and address concerns.\n• Discussions revolved around the complexities of personal laws, constitutional provisions, and the potential impact of a UCC on various communities.\n• The panel emphasized the need for a consultative approach and announced plans to solicit wider public feedback and expert opinions from all stakeholders.\n• This move signifies a renewed parliamentary push towards addressing a long-pending directive principle of state policy.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+        "Separation of powers between various organs dispute redressal mechanisms and institutions."
+      ],
+      "date": "2025-06-26",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Uniform Civil Code",
+        "UCC",
+        "Personal Laws",
+        "Directive Principles",
+        "Indian Constitution",
+        "Parliamentary Committee"
+      ],
+      "keyTerms": [
+        "Article 44",
+        "Personal Laws",
+        "Religious Freedom",
+        "Secularism",
+        "Constitutional Mandate"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Article 44 of the Indian Constitution: Directive Principle of State Policy regarding UCC.",
+        "Goa as the only Indian state with a form of UCC.",
+        "Shah Bano case (1985) and Sarla Mudgal case (1995) relevant to UCC discussions.",
+        "Distinction between civil law and criminal law in India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the constitutional mandate and challenges associated with implementing a Uniform Civil Code in India.",
+        "Discuss the arguments for and against the UCC, considering issues of religious freedom, gender justice, and national integration.",
+        "Evaluate the role of judicial pronouncements and legislative efforts in the UCC debate.",
+        "Propose a phased approach or alternative models for achieving uniformity in personal laws while respecting diversity."
+      ],
+      "imageDescription": "Indian Parliament building with legal documents, symbolizing legislative action on a Uniform Civil Code.",
+      "section": "National",
+      "trivia": "The first Law Commission of independent India, under M.C. Setalvad, suggested a gradual approach to UCC implementation.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Constitution",
+        "topic": "Directive Principles of State Policy"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "rbi-financial-stability-report-june-2025",
+      "headline": "RBI's Financial Stability Report Warns of Global Headwinds, Highlights Resilience of Indian Banking Sector",
+      "explainer": "• The Reserve Bank of India (RBI) released its bi-annual Financial Stability Report (FSR), providing an assessment of the health of the Indian financial system.\n• The report noted persistent global headwinds, including geopolitical tensions, commodity price volatility, and tightening global financial conditions, posing risks to economic growth.\n• Despite external challenges, the Indian banking sector demonstrated resilience, with improving asset quality, robust capital adequacy, and healthy provisioning coverage ratios.\n• The report highlighted the continued growth in credit demand, particularly from the retail and MSME segments, while also cautioning against potential risks from unsecured lending.\n• RBI stressed the importance of vigilant monitoring of emerging risks and maintaining macro-prudential policies to safeguard financial stability.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Government Budgeting.",
+        "Financial Market, Capital Market, Money Market.",
+        "Investment models."
+      ],
+      "date": "2025-06-26",
+      "source": "Livemint",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "RBI",
+        "Financial Stability Report",
+        "FSR",
+        "Indian Economy",
+        "Banking Sector",
+        "Global Headwinds",
+        "Monetary Policy"
+      ],
+      "keyTerms": [
+        "Non-Performing Assets (NPAs)",
+        "Capital Adequacy Ratio (CAR)",
+        "Provisioning Coverage Ratio (PCR)",
+        "Macro-prudential Policies",
+        "Unsecured Lending"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Financial Stability Report (FSR): Published by RBI bi-annually.",
+        "Key indicators of banking sector health: NPAs, CAR, PCR.",
+        "Role of RBI in maintaining financial stability.",
+        "Types of risks assessed in FSR: Credit risk, market risk, operational risk.",
+        "Basel III norms for capital adequacy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the current state of India's banking sector resilience in the face of global economic uncertainties.",
+        "Discuss the implications of rising unsecured lending for financial stability and household debt.",
+        "Evaluate the effectiveness of RBI's macro-prudential policies in mitigating systemic risks.",
+        "Examine the interplay between global geopolitical events and their impact on India's financial markets and economy.",
+        "What reforms are needed to further strengthen the Indian financial system against future shocks?"
+      ],
+      "imageDescription": "RBI logo with graphs showing economic trends, symbolizing financial stability analysis.",
+      "section": "Economy",
+      "trivia": "The Financial Stability Report also covers the performance of non-banking financial companies (NBFCs) and cooperative banks.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Financial Market",
+        "topic": "Banking Sector"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-indo-pacific-trilateral-dialogue",
+      "headline": "India Hosts Key Trilateral Dialogue on Indo-Pacific Maritime Security and Connectivity",
+      "explainer": "• India hosted a crucial trilateral dialogue involving partners from Southeast Asia and Oceania, focusing on enhancing maritime security and connectivity in the Indo-Pacific region.\n• The discussions aimed at strengthening cooperation on issues such as freedom of navigation, rules-based international order, and joint efforts against illegal fishing and piracy.\n• Participants explored avenues for collaborative infrastructure development, supply chain resilience, and capacity building for regional states.\n• The dialogue underscored India's commitment to its 'Act East' policy and its vision for a free, open, and inclusive Indo-Pacific.\n• This initiative is seen as a strategic move to counter emerging geopolitical challenges and promote regional stability.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2025-06-26",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Indo-Pacific",
+        "Maritime Security",
+        "Connectivity",
+        "Act East Policy",
+        "Geopolitics",
+        "International Relations",
+        "Trilateral Dialogue"
+      ],
+      "keyTerms": [
+        "Rules-Based Order",
+        "Freedom of Navigation",
+        "Supply Chain Resilience",
+        "Capacity Building",
+        "Quad",
+        "ASEAN"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Geographical extent of the Indo-Pacific region.",
+        "Key pillars of India's Indo-Pacific vision (SAGAR, Act East Policy).",
+        "Importance of Quad (Quadrilateral Security Dialogue) in the Indo-Pacific context.",
+        "Major sea lanes of communication (SLOCs) in the Indo-Pacific.",
+        "UNCLOS (United Nations Convention on the Law of the Sea) and its relevance."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze India's strategic imperatives and objectives in strengthening its engagement in the Indo-Pacific region.",
+        "Discuss the challenges and opportunities for trilateral cooperation in enhancing maritime security and connectivity.",
+        "Evaluate the role of India's 'Act East' policy in shaping its Indo-Pacific strategy.",
+        "Examine how the Indo-Pacific concept addresses traditional and non-traditional security threats in the region.",
+        "What are the implications of growing geopolitical competition in the Indo-Pacific for India's foreign policy?"
+      ],
+      "imageDescription": "Flags of India and partner nations with a map of the Indo-Pacific, symbolizing regional cooperation.",
+      "section": "International",
+      "trivia": "India's 'SAGAR' (Security And Growth for All in the Region) doctrine is a key component of its Indo-Pacific vision.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India's Foreign Policy",
+        "topic": "Regional Groupings"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "isro-reusable-launch-vehicle-test",
+      "headline": "ISRO Successfully Tests Advanced Landing Technologies for Next-Gen Reusable Launch Vehicle",
+      "explainer": "• The Indian Space Research Organisation (ISRO) announced the successful completion of a crucial test for its Reusable Launch Vehicle (RLV) program.\n• The test involved advanced autonomous landing capabilities, simulating a return from space and precise touchdown on a designated runway.\n• This achievement marks a significant step towards developing cost-effective and sustainable access to space for future missions.\n• ISRO aims to reduce launch costs dramatically by developing fully reusable rockets, similar to global trends in space exploration.\n• The RLV-TD (Technology Demonstrator) project is a precursor to a two-stage-to-orbit (TSTO) fully reusable launch vehicle.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Awareness in the fields of Space, Computers, Robotics, Nano-technology, bio-technology and issues relating to Intellectual Property Rights."
+      ],
+      "date": "2025-06-26",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Reusable Launch Vehicle",
+        "RLV",
+        "Space Technology",
+        "Aerospace",
+        "Indian Space Program",
+        "Cost-effective Space Access"
+      ],
+      "keyTerms": [
+        "RLV-TD",
+        "Two-Stage-to-Orbit (TSTO)",
+        "Autonomous Landing",
+        "Space Shuttle",
+        "Gaganyaan"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ISRO's RLV-TD program: Objectives and stages.",
+        "Advantages of reusable launch vehicles (cost reduction, sustainability).",
+        "Comparison with international RLV programs (e.g., SpaceX Falcon 9, Starship).",
+        "Key components of RLV: winged body, landing gear, control surfaces.",
+        "Role of ISRO in India's scientific and technological advancement."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of developing reusable launch vehicle technology for India's space ambitions.",
+        "Analyze the economic and environmental benefits of reusable rockets compared to expendable launch systems.",
+        "Examine the challenges ISRO faces in perfecting RLV technology and achieving full reusability.",
+        "How will RLV technology impact India's commercial space sector and its competitive edge in the global market?",
+        "Discuss the potential applications of advanced landing technologies for future planetary missions."
+      ],
+      "imageDescription": "An artistic rendition of ISRO's Reusable Launch Vehicle during atmospheric re-entry and landing.",
+      "section": "Science",
+      "trivia": "The first RLV-TD 'HEX' (Hypersonic Flight Experiment) mission was successfully conducted by ISRO in 2016.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Space Technology",
+        "topic": "Indian Space Programme"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "epr-e-waste-guidelines",
+      "headline": "Ministry of Environment Issues New Guidelines for Extended Producer Responsibility (EPR) for E-Waste Management",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) released updated guidelines for Extended Producer Responsibility (EPR) concerning e-waste management.\n• The new regulations aim to strengthen the framework for manufacturers, producers, and brand owners to manage their electronic waste responsibly throughout its lifecycle.\n• Key provisions include stricter targets for e-waste collection and recycling, enhanced monitoring mechanisms, and penalties for non-compliance.\n• The guidelines also promote the formalization of the e-waste recycling sector and encourage innovation in sustainable product design.\n• This move is critical for addressing India's rapidly growing e-waste problem and promoting a circular economy.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Disaster and disaster management."
+      ],
+      "date": "2025-06-26",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "E-waste",
+        "EPR",
+        "Extended Producer Responsibility",
+        "Circular Economy",
+        "Waste Management",
+        "MoEFCC",
+        "Environmental Policy"
+      ],
+      "keyTerms": [
+        "E-waste (Management) Rules",
+        "Recycling Targets",
+        "Formal Sector",
+        "Informal Sector",
+        "Pollution Control Board"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Definition of E-waste and its categories.",
+        "Concept of Extended Producer Responsibility (EPR).",
+        "Key provisions of E-Waste (Management) Rules, 2022.",
+        "Role of Central Pollution Control Board (CPCB) in e-waste management.",
+        "Health and environmental hazards associated with improper e-waste disposal."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the effectiveness of EPR in addressing India's e-waste crisis and promoting a circular economy.",
+        "Discuss the challenges in implementing e-waste management rules, particularly concerning the informal sector and collection infrastructure.",
+        "Suggest measures to encourage sustainable product design and consumer participation in e-waste recycling.",
+        "Examine the economic opportunities and environmental benefits of a robust e-waste management system in India."
+      ],
+      "imageDescription": "A pile of electronic waste being sorted for recycling, symbolizing e-waste management.",
+      "section": "Environment",
+      "trivia": "India is one of the top five e-waste generating countries globally, with Mumbai, Delhi, and Bengaluru being major contributors.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Environmental Pollution",
+        "topic": "Waste Management"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "lac-border-infra-review",
+      "headline": "Defence Ministry Reviews Progress of Border Infrastructure Development Along Line of Actual Control (LAC)",
+      "explainer": "• The Ministry of Defence conducted a high-level review of ongoing infrastructure development projects along the Line of Actual Control (LAC) in critical sectors.\n• The review assessed the progress of road construction, bridge building, tunnel projects, and advanced landing grounds aimed at enhancing troop mobility and logistical support.\n• Emphasis was placed on accelerating project completion, leveraging modern construction techniques, and ensuring all-weather connectivity.\n• The initiative is part of India's broader strategy to bolster its defensive capabilities and improve access to remote border areas.\n• The meeting also discussed challenges related to terrain, weather, and procurement processes, outlining remedial measures.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+        "Various Security forces and agencies and their mandate.",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+      ],
+      "date": "2025-06-26",
+      "source": "DD News",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Border Security",
+        "LAC",
+        "Line of Actual Control",
+        "Infrastructure Development",
+        "Defence Ministry",
+        "National Security",
+        "Border Roads Organisation"
+      ],
+      "keyTerms": [
+        "Border Infrastructure",
+        "All-weather Connectivity",
+        "Logistical Support",
+        "Strategic Roads",
+        "Forward Posts"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Line of Actual Control (LAC): Its geographical context and significance.",
+        "Border Roads Organisation (BRO): Mandate and key projects.",
+        "Importance of infrastructure in border management and national security.",
+        "Strategic tunnels and bridges in Himalayan regions (e.g., Atal Tunnel, Sela Tunnel).",
+        "Various forces deployed along India's northern borders (ITBP, Army)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic importance of robust border infrastructure for India's national security, particularly along the LAC.",
+        "Discuss the challenges faced in developing and maintaining infrastructure in high-altitude, hostile terrains.",
+        "Evaluate the impact of improved border infrastructure on troop deployment, logistics, and regional economic development.",
+        "Suggest measures to further accelerate and streamline border infrastructure projects, including technological adoption and inter-agency coordination.",
+        "How does India's border infrastructure development compare with that of its adversaries?"
+      ],
+      "imageDescription": "Engineers working on a high-altitude road construction project in the Himalayas, symbolizing border infrastructure.",
+      "section": "National",
+      "trivia": "The Border Roads Organisation (BRO) was formed in 1960 and constructs and maintains road networks in border areas of India and friendly neighboring countries.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Border Management",
+        "topic": "Border Infrastructure"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "national-rural-mental-health-campaign",
+      "headline": "Union Health Ministry Launches 'Manas Gram' National Campaign for Rural Mental Health Awareness",
+      "explainer": "• The Union Health Ministry launched 'Manas Gram', a nationwide campaign aimed at raising awareness and improving access to mental health services in rural areas.\n• The initiative seeks to destigmatize mental health issues and train frontline health workers to identify and provide initial support for common mental disorders.\n• It will leverage existing primary healthcare infrastructure, including Ayushman Bharat Health and Wellness Centres, to deliver counseling and referral services.\n• The campaign emphasizes community participation and integrates traditional practices with modern psychological support.\n• This move acknowledges the significant mental health burden in rural India, often overlooked due to lack of awareness and accessibility.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+      ],
+      "date": "2025-06-26",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Mental Health",
+        "Rural Health",
+        "Public Health",
+        "Health Ministry",
+        "Social Welfare",
+        "Ayushman Bharat",
+        "Community Health"
+      ],
+      "keyTerms": [
+        "Manas Gram",
+        "Mental Healthcare Act, 2017",
+        "Primary Healthcare",
+        "Stigma",
+        "Psychological Support"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Mental Healthcare Act, 2017: Key provisions and objectives.",
+        "National Mental Health Program (NMHP) in India.",
+        "Role of Ayushman Bharat Health and Wellness Centres (AB-HWCs).",
+        "Common mental disorders prevalent in rural India.",
+        "Global burden of mental health issues."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the unique challenges in addressing mental health issues in rural India, including stigma and access barriers.",
+        "Evaluate the effectiveness of community-based interventions and the role of frontline health workers in mental healthcare delivery.",
+        "Discuss how the 'Manas Gram' campaign can leverage existing public health infrastructure to improve mental health outcomes.",
+        "Suggest policy recommendations for integrating mental health services more effectively into primary healthcare in India.",
+        "Examine the socio-economic factors contributing to mental health distress in rural populations."
+      ],
+      "imageDescription": "A group of rural community members engaged in a mental health awareness session, symbolizing community support.",
+      "section": "National",
+      "trivia": "The theme for World Mental Health Day (October 10) in recent years has often focused on 'mental health as a universal human right'.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Health",
+        "topic": "Health Policy"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "msme-credit-growth-report",
+      "headline": "Report Highlights Robust Credit Growth in MSME Sector, Calls for Enhanced Financial Literacy",
+      "explainer": "• A new report released by a leading financial institution indicated robust credit growth in India's Micro, Small, and Medium Enterprises (MSME) sector over the past year.\n• The growth is attributed to government initiatives like Emergency Credit Line Guarantee Scheme (ECLGS) and increased formalization through GST.\n• While credit disbursal has improved, the report identified gaps in financial literacy among MSME entrepreneurs as a hurdle to optimal utilization of financial products.\n• It also highlighted the need for simplified loan application processes and greater access to collateral-free credit for smaller enterprises.\n• The MSME sector remains a critical engine for employment generation and economic growth in India.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Inclusive growth and issues arising from it.",
+        "Government Budgeting."
+      ],
+      "date": "2025-06-26",
+      "source": "Business Standard",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "MSME",
+        "Credit Growth",
+        "Financial Inclusion",
+        "ECLGS",
+        "Economic Growth",
+        "Employment",
+        "Financial Literacy"
+      ],
+      "keyTerms": [
+        "Micro, Small, Medium Enterprises",
+        "Emergency Credit Line Guarantee Scheme",
+        "Collateral-free Loans",
+        "Formalization",
+        "Financial Products"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Definition of MSMEs as per MSMED Act, 2006 (revised criteria 2020).",
+        "Key government schemes for MSMEs (e.g., Mudra Yojana, CGTMSE, ECLGS).",
+        "Contribution of MSMEs to India's GDP, exports, and employment.",
+        "Challenges faced by MSMEs: access to credit, market linkages, technology adoption.",
+        "Role of SIDBI (Small Industries Development Bank of India)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the factors contributing to and hindering credit access for the MSME sector in India.",
+        "Discuss the significance of MSMEs for India's economic growth and employment generation.",
+        "Evaluate the effectiveness of government initiatives aimed at supporting MSMEs, particularly during economic downturns.",
+        "Suggest measures to enhance financial literacy and streamline credit disbursal mechanisms for small businesses.",
+        "Examine the potential of digital lending platforms and Fintech in improving MSME financing."
+      ],
+      "imageDescription": "A small business owner reviewing financial documents, symbolizing MSME credit and growth.",
+      "section": "Economy",
+      "trivia": "MSMEs account for nearly 30% of India's GDP and over 40% of its exports.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Growth & Development",
+        "topic": "MSME Sector"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ai-in-healthcare-policy-framework",
+      "headline": "NITI Aayog Proposes Comprehensive Policy Framework for AI Integration in Healthcare Sector",
+      "explainer": "• NITI Aayog released a draft comprehensive policy framework outlining the ethical and regulatory considerations for integrating Artificial Intelligence (AI) into India's healthcare sector.\n• The framework focuses on leveraging AI for improved diagnostics, personalized treatment, drug discovery, and efficient healthcare delivery, especially in remote areas.\n• It addresses critical issues such as data privacy, algorithmic bias, accountability, and the need for robust regulatory oversight.\n• The policy emphasizes a 'responsible AI' approach, promoting innovation while ensuring patient safety and ethical standards.\n• Public and stakeholder feedback has been invited on the draft to refine the guidelines before finalization.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Awareness in the fields of Space, Computers, Robotics, Nano-technology, bio-technology and issues relating to Intellectual Property Rights."
+      ],
+      "date": "2025-06-26",
+      "source": "The Times of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "AI",
+        "Artificial Intelligence",
+        "Healthcare",
+        "NITI Aayog",
+        "Policy Framework",
+        "Digital Health",
+        "Ethical AI"
+      ],
+      "keyTerms": [
+        "Algorithmic Bias",
+        "Data Privacy",
+        "Responsible AI",
+        "Personalized Medicine",
+        "Digital Diagnostics",
+        "Health-tech"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Applications of AI in healthcare (e.g., diagnostics, drug discovery, predictive analytics).",
+        "Key challenges in AI deployment: data privacy, bias, regulatory gaps.",
+        "Role of NITI Aayog in policy formulation for emerging technologies.",
+        "Difference between Artificial Narrow Intelligence (ANI) and Artificial General Intelligence (AGI).",
+        "Ethical principles of AI (fairness, accountability, transparency)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the transformative potential of Artificial Intelligence in revolutionizing India's healthcare delivery system.",
+        "Discuss the ethical and regulatory challenges associated with the widespread adoption of AI in healthcare.",
+        "Evaluate the measures proposed in the NITI Aayog framework to ensure responsible and equitable use of AI in health.",
+        "Examine how AI can address disparities in healthcare access and quality in India, particularly in rural and underserved areas.",
+        "What role can public-private partnerships play in fostering AI innovation in health while safeguarding public interest?"
+      ],
+      "imageDescription": "A doctor interacting with a holographic medical interface, symbolizing AI in healthcare.",
+      "section": "Science",
+      "trivia": "India's National Digital Health Mission aims to create a digital health ecosystem, providing a foundation for AI integration.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Information Technology",
+        "topic": "Artificial Intelligence"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "wetlands-conservation-plan-expansion",
+      "headline": "MoEFCC Expands National Wetlands Conservation Plan to Include 20 New Sites",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) announced the expansion of the National Wetlands Conservation Plan (NWCP), adding 20 new sites across various states.\n• This initiative aims to protect and restore critical wetland ecosystems, recognizing their vital role in biodiversity conservation, water purification, and climate change mitigation.\n• The newly added wetlands will benefit from enhanced funding for conservation activities, scientific research, and community engagement programs.\n• The expansion underscores India's commitment to its international obligations under the Ramsar Convention and its domestic biodiversity targets.\n• Wetlands are increasingly threatened by urbanization, pollution, and climate change, necessitating urgent conservation efforts.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Biodiversity and Climate Change."
+      ],
+      "date": "2025-06-26",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Wetlands",
+        "Wetland Conservation",
+        "Biodiversity",
+        "Ramsar Sites",
+        "MoEFCC",
+        "Climate Change",
+        "Ecosystem Services"
+      ],
+      "keyTerms": [
+        "Ramsar Convention",
+        "Ecosystem Services",
+        "Wetland Ecosystem",
+        "Biodiversity Hotspot",
+        "Carbon Sequestration"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Definition and ecological importance of wetlands.",
+        "Ramsar Convention on Wetlands: Its objectives and India's role.",
+        "National Wetlands Conservation Programme (NWCP): Objectives and implementation.",
+        "Examples of major Ramsar Sites in India (e.g., Chilika Lake, Loktak Lake).",
+        "Threats to wetlands: pollution, encroachment, invasive species."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the ecological and economic significance of wetlands and the threats they face in India.",
+        "Discuss the effectiveness of India's wetlands conservation policies and programs, including the Ramsar Convention.",
+        "Suggest integrated approaches for wetland management that involve local communities, scientific research, and policy enforcement.",
+        "Examine the role of wetlands in climate change mitigation and adaptation strategies.",
+        "How can urbanization and industrial development be balanced with wetland conservation efforts?"
+      ],
+      "imageDescription": "A serene wetland landscape with migratory birds, symbolizing biodiversity and conservation.",
+      "section": "Environment",
+      "trivia": "World Wetlands Day is celebrated annually on February 2nd, marking the date of the adoption of the Convention on Wetlands in 1971.",
+      "prelimsSyllabus": {
+        "subject": "Environment & Ecology",
+        "area": "Conservation",
+        "topic": "Wetland Ecosystems"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "asi-unearths-ancient-settlement",
+      "headline": "Archaeological Survey of India Unearths Evidence of Ancient Settlement in Haryana",
+      "explainer": "• The Archaeological Survey of India (ASI) announced the discovery of significant archaeological findings, indicating an ancient settlement, during excavations in Haryana.\n• Initial assessments suggest the site dates back to the early Harappan period, potentially offering new insights into the pre-Indus Valley Civilization era.\n• Artifacts recovered include pottery fragments, terracotta figurines, tools, and structural remains, pointing to a well-organized community.\n• The findings could necessitate a re-evaluation of the geographical spread and chronological development of early human settlements in the Indian subcontinent.\n• Further excavation and carbon dating are underway to ascertain the exact period and cultural significance of the site.",
+      "category": "history",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian Heritage and Culture, History and Geography of the World and Society.",
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times."
+      ],
+      "date": "2025-06-26",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Archaeology",
+        "ASI",
+        "Ancient India",
+        "Harappan Civilization",
+        "Indus Valley Civilization",
+        "Haryana",
+        "Historical Discovery"
+      ],
+      "keyTerms": [
+        "Early Harappan Period",
+        "Pre-Indus Valley Civilization",
+        "Terracotta Figurines",
+        "Carbon Dating",
+        "Artifacts",
+        "Excavation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key sites of Indus Valley Civilization (Harappa, Mohenjo-Daro, Lothal, Dholavira, Rakhigarhi).",
+        "Characteristics of early Harappan settlements (e.g., pottery styles, town planning).",
+        "Role of Archaeological Survey of India (ASI) in preserving heritage.",
+        "Methods of archaeological dating (e.g., Carbon-14 dating, thermoluminescence dating).",
+        "Geographical spread of pre-Harappan and Harappan cultures."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of new archaeological discoveries in reshaping our understanding of early Indian history and the Indus Valley Civilization.",
+        "Analyze the challenges and ethical considerations involved in archaeological excavations and preservation.",
+        "Evaluate the contribution of archaeological findings to our knowledge of socio-economic and cultural aspects of ancient settlements.",
+        "How can modern technology be utilized to enhance archaeological research and site management?",
+        "Examine the importance of public awareness and community involvement in protecting India's archaeological heritage."
+      ],
+      "imageDescription": "Archaeologists carefully excavating an ancient site, revealing pottery and structural remains.",
+      "section": "National",
+      "trivia": "Rakhigarhi in Haryana is one of the largest and oldest sites of the Indus Valley Civilization.",
+      "prelimsSyllabus": {
+        "subject": "History of India",
+        "area": "Ancient History",
+        "topic": "Indus Valley Civilization"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-sends-humanitarian-aid",
+      "headline": "India Dispatches Humanitarian Aid and Disaster Relief to Flood-Affected Southeast Asian Nation",
+      "explainer": "• India dispatched a substantial consignment of humanitarian aid and disaster relief (HADR) materials to a Southeast Asian nation severely impacted by recent devastating floods.\n• The aid package includes essential medicines, food supplies, emergency shelters, and water purification units, along with a team of medical and engineering experts.\n• This rapid response underscores India's commitment to regional solidarity and its role as a first responder in humanitarian crises.\n• The initiative is part of India's broader 'Neighbourhood First' policy and its efforts to strengthen bilateral ties through humanitarian diplomacy.\n• The affected nation expressed gratitude for India's timely assistance, highlighting the strong bonds of friendship between the two countries.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2025-06-26",
+      "source": "MEA",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Humanitarian Aid",
+        "HADR",
+        "Disaster Relief",
+        "Southeast Asia",
+        "Neighbourhood First Policy",
+        "International Relations",
+        "Soft Power"
+      ],
+      "keyTerms": [
+        "Humanitarian Diplomacy",
+        "Disaster Management Assistance",
+        "Regional Solidarity",
+        "UNOCHA",
+        "NDRF"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India's role as a net security provider and first responder in the Indian Ocean Region.",
+        "Key HADR operations conducted by India (e.g., Nepal earthquake, Tsunami response).",
+        "Agencies involved in India's disaster relief efforts (NDRF, Indian Armed Forces, MEA).",
+        "Concept of 'Neighbourhood First' policy.",
+        "Significance of soft power in international relations."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of humanitarian aid and disaster relief (HADR) operations in shaping India's foreign policy and enhancing its regional influence.",
+        "Discuss the challenges involved in coordinating and delivering HADR assistance to disaster-stricken countries.",
+        "Evaluate the effectiveness of India's 'Neighbourhood First' policy in building regional trust and cooperation.",
+        "Examine how HADR initiatives contribute to India's soft power projection and global standing.",
+        "Suggest measures to further strengthen India's HADR capabilities and international partnerships."
+      ],
+      "imageDescription": "An Indian Air Force plane being loaded with relief supplies, symbolizing humanitarian aid.",
+      "section": "International",
+      "trivia": "India's National Disaster Response Force (NDRF) is a specialized force for disaster rescue and relief operations.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India's Foreign Policy",
+        "topic": "Humanitarian Diplomacy"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "nep-2020-vocational-training-review",
+      "headline": "Ministry of Education Reviews NEP 2020 Implementation, Prioritizes Vocational Training Integration",
+      "explainer": "• The Ministry of Education conducted a comprehensive review of the National Education Policy (NEP) 2020 implementation, with a special focus on vocational training integration.\n• The review highlighted progress in curriculum reforms and digital learning initiatives, while identifying challenges in scaling up skill development programs.\n• Emphasis was placed on strengthening linkages between academic institutions and industries to make vocational education more demand-driven and employment-oriented.\n• The Ministry announced new measures to enhance teacher training for vocational subjects and to promote experiential learning across all educational levels.\n• This move aims to align India's education system with the evolving demands of the job market and boost youth employability.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+      ],
+      "date": "2025-06-26",
+      "source": "PIB",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "NEP 2020",
+        "National Education Policy",
+        "Vocational Training",
+        "Skill Development",
+        "Education Reform",
+        "Ministry of Education",
+        "Employability"
+      ],
+      "keyTerms": [
+        "Experiential Learning",
+        "Curriculum Reform",
+        "Digital Education",
+        "Industry-Academia Linkage",
+        "National Skill Qualification Framework (NSQF)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key pillars of National Education Policy (NEP) 2020 (access, equity, quality, affordability, accountability).",
+        "Recommendations of NEP 2020 on vocational education (e.g., integration from Class 6).",
+        "Role of National Skill Development Corporation (NSDC).",
+        "Major government schemes for skill development (e.g., Pradhan Mantri Kaushal Vikas Yojana - PMKVY).",
+        "Gross Enrolment Ratio (GER) targets under NEP."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the transformative potential of NEP 2020 in reforming India's education system, particularly its focus on vocational training.",
+        "Discuss the challenges in integrating vocational education seamlessly into the mainstream curriculum and ensuring its quality.",
+        "Evaluate the effectiveness of current government initiatives in bridging the skill gap and enhancing youth employability.",
+        "Suggest innovative approaches to foster industry-academia collaboration for a more demand-driven vocational education system.",
+        "Examine the role of technology and digital platforms in expanding access to quality vocational training in India."
+      ],
+      "imageDescription": "Students engaged in a vocational training workshop, symbolizing skill development and practical learning.",
+      "section": "National",
+      "trivia": "NEP 2020 replaced the National Policy on Education of 1986, which was modified in 1992.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Education",
+        "topic": "Government Policies"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "green-hydrogen-incentives",
+      "headline": "Government Unveils New Incentive Scheme for Green Hydrogen Production to Boost Energy Security",
+      "explainer": "• The Union Government announced a new production-linked incentive (PLI) scheme aimed at boosting the domestic manufacturing and deployment of green hydrogen.\n• The scheme offers financial incentives for both electrolyser manufacturing and green hydrogen production, targeting a significant increase in capacity.\n• This initiative is a crucial step towards achieving India's ambitious climate targets and reducing its reliance on fossil fuel imports.\n• The focus is on making green hydrogen cost-competitive and establishing India as a global hub for its production and export.\n• The policy aims to attract significant private investment and foster innovation in the nascent green hydrogen ecosystem.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Conservation, environmental pollution and degradation, environmental impact assessment."
+      ],
+      "date": "2025-06-26",
+      "source": "PTI",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "Energy Security",
+        "Renewable Energy",
+        "Climate Change",
+        "PLI Scheme",
+        "Energy Transition",
+        "Make in India"
+      ],
+      "keyTerms": [
+        "Electrolyser",
+        "National Green Hydrogen Mission",
+        "Carbon Emissions",
+        "Fossil Fuels",
+        "Energy Independence",
+        "Production Linked Incentive (PLI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "What is green hydrogen (produced by electrolysis of water using renewable energy).",
+        "National Green Hydrogen Mission: Objectives and targets.",
+        "Applications of green hydrogen (e.g., fuel, industrial feedstock, energy storage).",
+        "Difference between green, grey, blue, and pink hydrogen.",
+        "Role of PLI schemes in boosting domestic manufacturing."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic importance of green hydrogen for India's energy security and climate change mitigation goals.",
+        "Discuss the challenges and opportunities in scaling up green hydrogen production and adoption in India.",
+        "Evaluate the effectiveness of incentive schemes like PLI in driving investment and innovation in the green hydrogen sector.",
+        "Examine how green hydrogen can contribute to India's 'net-zero' emissions target and reduce import dependency.",
+        "Suggest policy measures to create a robust ecosystem for green hydrogen research, development, and commercialization."
+      ],
+      "imageDescription": "A futuristic depiction of an electrolyser plant producing green hydrogen with wind turbines in the background.",
+      "section": "Economy",
+      "trivia": "India aims to produce 5 million tonnes of green hydrogen annually by 2030 under its National Green Hydrogen Mission.",
+      "prelimsSyllabus": {
+        "subject": "Science & Technology",
+        "area": "Energy",
+        "topic": "Renewable Energy Sources"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "smart-cities-mission-phase-ii-mobility",
+      "headline": "Smart Cities Mission Phase II Focuses on Sustainable Urban Mobility and Waste Management",
+      "explainer": "• The Ministry of Housing and Urban Affairs unveiled the strategic focus for Phase II of the Smart Cities Mission, emphasizing sustainable urban mobility and integrated waste management.\n• Building on the successes and lessons learned from the first phase, the new phase aims for more holistic and citizen-centric urban development.\n• Key initiatives include promoting electric vehicle infrastructure, intelligent traffic management systems, and smart public transport solutions.\n• Integrated waste management strategies will cover waste-to-energy projects, recycling, and behavioral change campaigns for source segregation.\n• The mission seeks to enhance the liveability and environmental sustainability of Indian cities, aligning with national climate goals.",
+      "category": "geography",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Urbanization, their problems and their remedies.",
+        "Salient features of world's physical geography.",
+        "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes."
+      ],
+      "date": "2025-06-26",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Smart Cities Mission",
+        "Urban Development",
+        "Sustainable Mobility",
+        "Waste Management",
+        "Urban Planning",
+        "Ministry of Housing and Urban Affairs",
+        "Climate Goals"
+      ],
+      "keyTerms": [
+        "Smart City",
+        "Urban Mobility",
+        "Waste-to-Energy",
+        "Source Segregation",
+        "Intelligent Traffic Management",
+        "Green Urbanism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Smart Cities Mission: Launch year (2015) and objectives.",
+        "Key components of a Smart City (e.g., smart governance, smart environment, smart infrastructure).",
+        "Challenges of urbanization in India (e.g., waste, pollution, traffic congestion).",
+        "Different types of urban waste and their management methods.",
+        "Government initiatives for urban development (e.g., AMRUT, HRIDAY)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the successes and failures of the first phase of the Smart Cities Mission in addressing urban challenges in India.",
+        "Discuss the importance of sustainable urban mobility and integrated waste management for enhancing city liveability and environmental quality.",
+        "Evaluate the role of technology and citizen participation in making urban development initiatives effective.",
+        "Examine the financial and administrative challenges in implementing large-scale urban development projects like the Smart Cities Mission.",
+        "Suggest innovative models for urban governance and planning to build resilient and sustainable cities in India."
+      ],
+      "imageDescription": "A modern cityscape with smart infrastructure and green spaces, symbolizing a sustainable Smart City.",
+      "section": "National",
+      "trivia": "The Smart Cities Mission aimed to develop 100 Smart Cities across India.",
+      "prelimsSyllabus": {
+        "subject": "Indian and World Geography",
+        "area": "Human Geography",
+        "topic": "Urbanization"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-friendly-nation-joint-exercise",
+      "headline": "Indian Army Conducts Joint Anti-Terrorism Exercise 'Vajra Prahar' with Friendly Nation",
+      "explainer": "• The Indian Army successfully concluded a joint anti-terrorism exercise, 'Vajra Prahar', with a friendly nation in the desert terrain of Rajasthan.\n• The exercise focused on enhancing interoperability, sharing best practices, and developing coordinated responses to counter-terrorism operations in semi-urban and rural environments.\n• Troops from both nations engaged in simulated scenarios involving hostage rescue, intelligence gathering, and precision strikes against terrorist hideouts.\n• This annual exercise underscores growing bilateral defence cooperation and India's commitment to regional security.\n• The training also included aspects of logistics, medical support, and communication protocols in challenging operational settings.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+        "Various Security forces and agencies and their mandate.",
+        "India and its neighborhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests."
+      ],
+      "date": "2025-06-26",
+      "source": "Ministry of Defence",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Indian Army",
+        "Joint Exercise",
+        "Anti-Terrorism",
+        "Vajra Prahar",
+        "Defence Cooperation",
+        "National Security",
+        "Bilateral Relations"
+      ],
+      "keyTerms": [
+        "Interoperability",
+        "Counter-Terrorism Operations",
+        "Special Forces",
+        "Military Diplomacy",
+        "Intelligence Sharing"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Name of the joint exercise: 'Vajra Prahar'.",
+        "Significance of joint military exercises for defence cooperation.",
+        "Different types of security threats (terrorism, insurgency, conventional warfare).",
+        "Role of Indian Army in counter-insurgency and counter-terrorism operations.",
+        "Major joint exercises conducted by India with other nations (e.g., Malabar, Sampriti)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic importance of joint military exercises in enhancing India's defence capabilities and fostering bilateral relations.",
+        "Discuss how such exercises contribute to building interoperability and sharing best practices in counter-terrorism strategies.",
+        "Evaluate the role of military diplomacy in strengthening India's security partnerships and addressing regional threats.",
+        "Examine the challenges and benefits of conducting joint operations in diverse geographical and operational environments.",
+        "How do joint exercises contribute to India's broader national security objectives in a complex geopolitical landscape?"
+      ],
+      "imageDescription": "Soldiers from two nations participating in a joint counter-terrorism drill in a desert environment.",
+      "section": "National",
+      "trivia": "The 'Vajra Prahar' exercise is typically conducted between the Indian Army and the US Army Special Forces.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Security Agencies",
+        "topic": "Defence Cooperation"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "surendra-dubey-passes-away",
+      "headline": "Renowned Satirical Poet Padma Shri Surendra Dubey Passes Away at 71",
+      "explainer": "• Padma Shri Surendra Dubey, a celebrated Hindi satirical poet and humorist, passed away at the age of 71.\n• Known for his witty and insightful commentary on social and political issues, Dubey captivated audiences with his unique style of Kavi Sammelan performances.\n• He was awarded the Padma Shri, India's fourth-highest civilian award, for his significant contributions to Hindi literature and performing arts.\n• His demise marks the end of an era for contemporary Hindi poetry, leaving behind a rich legacy of humor and social critique.\n• Dubey's works often addressed common man's struggles and bureaucratic absurdities with a light yet poignant touch.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Personalities in news."
+      ],
+      "date": "2025-06-26",
+      "source": "Doordarshan",
+      "sourceUrl": "",
+      "importance": "low",
+      "tags": [
+        "Obituary",
+        "Surendra Dubey",
+        "Hindi Literature",
+        "Poetry",
+        "Kavi Sammelan",
+        "Padma Shri",
+        "Art & Culture"
+      ],
+      "keyTerms": [
+        "Satirical Poetry",
+        "Humorist",
+        "Hindi Literature",
+        "Performing Arts"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Surendra Dubey: Field of work (Hindi satirical poet).",
+        "Padma Shri: Fourth-highest civilian award in India.",
+        "Kavi Sammelan: A gathering of poets to recite their poetry.",
+        "Contributions to Hindi literature."
+      ],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "A portrait of Surendra Dubey, with a microphone in the background, symbolizing his poetic performances.",
+      "section": "National",
+      "trivia": "Surendra Dubey's humor often transcended regional boundaries, making him popular across Hindi-speaking states.",
+      "prelimsSyllabus": {
+        "subject": "Indian Heritage and Culture",
+        "area": "Literature",
+        "topic": "Modern Indian Literature"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "shefali-jariwala-birthday",
+      "headline": "Actress and Reality TV Personality Shefali Jariwala Celebrates 42nd Birthday",
+      "explainer": "• Actress and reality show personality Shefali Jariwala celebrates her 42nd birthday today.\n• She rose to fame with the iconic music video 'Kaanta Laga' in the early 2000s, becoming a pop culture sensation.\n• Jariwala has since appeared in various reality television shows, including 'Bigg Boss', garnering a significant fan base.\n• Her career trajectory reflects the evolving landscape of Indian entertainment, from music videos to reality TV.\n• She continues to be an active figure in the entertainment industry.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Important Personalities."
+      ],
+      "date": "2025-06-26",
+      "source": "Entertainment News",
+      "sourceUrl": "",
+      "importance": "low",
+      "tags": [
+        "Shefali Jariwala",
+        "Entertainment",
+        "Bollywood",
+        "Reality TV",
+        "Celebrity"
+      ],
+      "keyTerms": [
+        "Pop Culture",
+        "Music Video",
+        "Bigg Boss"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "A glamourous photo of Shefali Jariwala, smiling.",
+      "section": "Quick Takes",
+      "trivia": "The 'Kaanta Laga' music video was instrumental in popularizing remix culture in India in the early 2000s.",
+      "prelimsSyllabus": {
+        "subject": "Indian Heritage and Culture",
+        "area": "Art Forms",
+        "topic": "Performing Arts"
+      },
+      "prelimsPotential": 1
+    },
+    {
+      "id": "b-d-behring-passes-away",
+      "headline": "Veteran Politician B. D. Behring Passes Away at 79",
+      "explainer": "• B. D. Behring, a veteran politician known for his long-standing public service and contributions to regional development, passed away at the age of 79.\n• He served multiple terms as a state legislator and was instrumental in advocating for grassroots issues in his constituency.\n• Behring was respected across party lines for his commitment to democratic values and his pragmatic approach to governance.\n• His career spanned several decades, witnessing significant political transformations in the country.\n• He will be remembered for his dedication to public welfare and his role in shaping local policies.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Parliament and State Legislatures—structure, functioning, conduct of business, powers & privileges and issues arising out of these."
+      ],
+      "date": "2025-06-26",
+      "source": "Local News Agency",
+      "sourceUrl": "",
+      "importance": "low",
+      "tags": [
+        "Obituary",
+        "Politician",
+        "State Legislature",
+        "Public Service",
+        "Governance"
+      ],
+      "keyTerms": [
+        "Legislator",
+        "Constituency",
+        "Democratic Values"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Role of State Legislatures in India.",
+        "Process of election for state legislative assembly members.",
+        "Significance of public service in a democracy."
+      ],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "A black and white photograph of B. D. Behring, looking thoughtful.",
+      "section": "Quick Takes",
+      "trivia": "The age of eligibility to be a member of a State Legislative Assembly is 25 years.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Political System",
+        "topic": "State Legislature"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "kashmir-singh-sohal-passes-away",
+      "headline": "Former Parliamentarian Kashmir Singh Sohal Dies at 62",
+      "explainer": "• Kashmir Singh Sohal, a former Member of Parliament and a prominent figure in regional politics, passed away at 62.\n• Sohal was known for his advocacy for agricultural reforms and rural development during his tenure in the Lok Sabha.\n• He played a key role in several parliamentary debates concerning farmer welfare and irrigation projects.\n• His demise is a loss to the political landscape, particularly for the farming community he represented.\n• Sohal's commitment to public service and his efforts to uplift rural areas remain a significant part of his legacy.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Parliament and State Legislatures—structure, functioning, conduct of business, powers & privileges and issues arising out of these."
+      ],
+      "date": "2025-06-26",
+      "source": "National Daily",
+      "sourceUrl": "",
+      "importance": "low",
+      "tags": [
+        "Obituary",
+        "Politician",
+        "Parliamentarian",
+        "Lok Sabha",
+        "Agricultural Reforms",
+        "Rural Development"
+      ],
+      "keyTerms": [
+        "Member of Parliament (MP)",
+        "Lok Sabha",
+        "Agricultural Policy",
+        "Farmer Welfare"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Role of a Member of Parliament (MP) in India's democracy.",
+        "Functions of Lok Sabha.",
+        "Key challenges faced by the agricultural sector in India.",
+        "Government schemes for farmer welfare (e.g., PM-KISAN)."
+      ],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "A formal portrait of Kashmir Singh Sohal, looking distinguished.",
+      "section": "Quick Takes",
+      "trivia": "The maximum strength of the Lok Sabha as envisaged by the Constitution is 552 members.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Political System",
+        "topic": "Parliament"
+      },
+      "prelimsPotential": 2
+    }
+  ],
+  "highlights": [
+    "Supreme Court Upholds Government's Framework for DPDPA Implementation, Emphasizes Data Fiduciary Accountability.",
+    "Uttarakhand Government Announces Enhanced Road Safety Measures Following Rudraprayag Bus Accident.",
+    "Parliamentary Panel Discusses Roadmap for Uniform Civil Code Implementation, Seeks Public Feedback.",
+    "RBI's Financial Stability Report Warns of Global Headwinds, Highlights Resilience of Indian Banking Sector.",
+    "ISRO Successfully Tests Advanced Landing Technologies for Next-Gen Reusable Launch Vehicle."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the Digital Personal Data Protection Act (DPDPA), 2023, consider the following statements:\n1. It defines 'Data Fiduciary' as an individual to whom personal data relates.\n2. The Act mandates data localization for all categories of personal data.\n3. The Supreme Court recently upheld the government's implementation framework, emphasizing accountability for data fiduciaries.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 3 only",
+      "explanation": "Statement 1 is incorrect: 'Data Principal' is the individual to whom personal data relates, while 'Data Fiduciary' is the entity determining the purpose and means of processing personal data. Statement 2 is incorrect: The DPDPA, 2023, generally allows for cross-border data transfers to notified countries, not a blanket mandate for data localization. Statement 3 is correct, as per the news report, the Supreme Court upheld the framework, emphasizing accountability."
+    },
+    {
+      "question": "Which of the following statements regarding the Uniform Civil Code (UCC) in India is/are correct?\n1. Article 44 of the Indian Constitution is a Fundamental Right that mandates the state to secure a UCC.\n2. Goa is currently the only state in India that has a Uniform Civil Code.\n3. The Shah Bano Begum case is a significant judicial pronouncement related to the debate on UCC.\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 2 and 3 only",
+      "explanation": "Statement 1 is incorrect. Article 44 is a Directive Principle of State Policy (DPSP), not a Fundamental Right. DPSPs are non-justiciable. Statement 2 is correct. Goa has a common family law for all its communities. Statement 3 is correct. The Shah Bano Begum case (1985) brought the debate on UCC to the forefront, particularly concerning maintenance rights for Muslim women, and sparked a national discussion on personal laws."
+    },
+    {
+      "question": "Consider the following statements about ISRO's Reusable Launch Vehicle (RLV) program:\n1. The RLV-TD (Technology Demonstrator) project is a precursor to a fully reusable two-stage-to-orbit (TSTO) vehicle.\n2. Reusable launch vehicles primarily aim to reduce the time taken for space missions.\n3. ISRO successfully tested advanced autonomous landing capabilities for its RLV program.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 3 only",
+      "explanation": "Statement 1 is correct. RLV-TD is a technology demonstrator for a TSTO RLV. Statement 2 is incorrect. The primary aim of reusable launch vehicles is to reduce launch costs and enhance sustainable access to space, not primarily to reduce mission time. Statement 3 is correct, as per the news, ISRO successfully tested advanced landing technologies."
+    },
+    {
+      "question": "With reference to Wetlands and their conservation in India, consider the following statements:\n1. The Ramsar Convention is an international treaty for the conservation and sustainable use of wetlands.\n2. The National Wetlands Conservation Plan (NWCP) is implemented by the Ministry of Environment, Forest and Climate Change (MoEFCC).\n3. Wetlands are primarily threatened by natural disasters and climate change, with minimal impact from human activities.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(a) 1 and 2 only",
+      "explanation": "Statement 1 is correct. The Ramsar Convention, signed in 1971 in Ramsar, Iran, is dedicated to wetlands conservation. Statement 2 is correct. The NWCP is indeed a flagship program of the MoEFCC for wetland protection. Statement 3 is incorrect. While natural disasters and climate change pose threats, human activities such as urbanization, pollution, encroachment, and unsustainable resource extraction are major, if not primary, threats to wetlands."
+    },
+    {
+      "question": "Which of the following government initiatives are specifically designed to support the Micro, Small, and Medium Enterprises (MSME) sector in India?\n1. Emergency Credit Line Guarantee Scheme (ECLGS)\n2. Pradhan Mantri Kaushal Vikas Yojana (PMKVY)\n3. Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE)\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 3 only",
+      "explanation": "Statement 1 is correct. ECLGS was launched as a part of the Atmanirbhar Bharat Abhiyan package to provide 100% guaranteed credit to MSMEs and business enterprises. Statement 3 is correct. CGTMSE provides collateral-free credit to micro and small enterprises. Statement 2 is incorrect. PMKVY is a skill development initiative for youth across various sectors, not exclusively for MSMEs, although MSMEs benefit from skilled labor."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "The Digital Personal Data Protection Act (DPDPA), 2023, marks a significant step towards digital governance in India. Critically analyze the balance struck by the DPDPA between individual privacy rights and legitimate state/corporate interests, highlighting its implications for India's digital economy.",
+      "syllabusMatch": "GS2: Government policies and interventions for development in various sectors and issues arising out of their design and implementation; Information Technology, Data Protection, Cyber Security.",
+      "approach": "Introduce DPDPA as a landmark legislation. Discuss its core principles (consent, data minimization, purpose limitation). Analyze how it balances individual privacy (Right to Privacy under Article 21) with state's need for data processing (national security, public order) and corporate interests (innovation, data economy). Highlight provisions like Data Protection Board, cross-border data transfer, and penalties. Discuss challenges (implementation, surveillance concerns, small businesses) and opportunities (trust in digital economy, global competitiveness). Conclude on the evolving nature of digital governance."
+    },
+    {
+      "question": "The ongoing deliberations on a Uniform Civil Code (UCC) in India reflect a complex interplay of constitutional mandates, religious freedom, and gender justice. Discuss the constitutional provisions and historical context of the UCC debate, and critically evaluate the arguments for and against its implementation, considering its potential impact on national integration.",
+      "syllabusMatch": "GS2: Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure; Welfare schemes for vulnerable sections of the population; Separation of powers between various organs dispute redressal mechanisms and institutions.",
+      "approach": "Introduce UCC and its constitutional basis (Article 44 DPSP). Briefly mention historical context (Constituent Assembly debates, judicial pronouncements like Shah Bano). Present arguments for UCC (gender justice, national integration, secularism, simplifying legal system). Present arguments against UCC (threat to religious freedom, diversity, minority rights, practical difficulties of implementation). Discuss the concept of 'unity in diversity' and how UCC might impact it. Conclude with the need for a consultative, gradual, and consensual approach, perhaps starting with common grounds or optional UCC."
+    },
+    {
+      "question": "Green hydrogen is touted as a game-changer for India's energy security and climate goals. Analyze the strategic importance of green hydrogen for India, discuss the challenges in scaling up its production and adoption, and evaluate the effectiveness of government initiatives like the PLI scheme in achieving these objectives.",
+      "syllabusMatch": "GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment; Infrastructure: Energy; Conservation, environmental pollution and degradation, environmental impact assessment.",
+      "approach": "Define green hydrogen and its production method. Explain its strategic importance for India (reducing crude oil imports, achieving net-zero targets, boosting domestic manufacturing, energy independence). Discuss challenges (high production cost, infrastructure for storage/transport, technological maturity, water availability, competitive pricing). Evaluate government initiatives (National Green Hydrogen Mission, PLI schemes) for their effectiveness in addressing these challenges and fostering an ecosystem. Suggest further policy measures and R&D focus. Conclude on India's potential to become a global leader in green hydrogen."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "Padma Shri Surendra Dubey, renowned Hindi satirical poet and humorist, passed away at 71.",
+      "category": "art_culture",
+      "gsPaper": "GS1",
+      "tags": [
+        "Obituary",
+        "Hindi Literature"
+      ]
+    },
+    {
+      "text": "Actress and reality show personality Shefali Jariwala celebrated her 42nd birthday today.",
+      "category": "art_culture",
+      "gsPaper": "GS1",
+      "tags": [
+        "Entertainment",
+        "Celebrity"
+      ]
+    },
+    {
+      "text": "Veteran politician B. D. Behring, known for his long public service, passed away at 79.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Obituary",
+        "Politician"
+      ]
+    },
+    {
+      "text": "Former Parliamentarian Kashmir Singh Sohal, advocate for agricultural reforms, died at 62.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Obituary",
+        "Politician"
+      ]
+    },
+    {
+      "text": "Article 44 of the Indian Constitution is a Directive Principle of State Policy regarding the Uniform Civil Code.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "UCC",
+        "Constitution"
+      ]
+    },
+    {
+      "text": "The Alaknanda River, originating from Satopanth Glacier, is one of the two headstreams of the Ganga.",
+      "category": "geography",
+      "gsPaper": "GS1",
+      "tags": [
+        "Rivers",
+        "Himalayas"
+      ]
+    },
+    {
+      "text": "ISRO's RLV-TD (Reusable Launch Vehicle - Technology Demonstrator) project aims for cost-effective space access.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "Space Technology",
+        "ISRO"
+      ]
+    },
+    {
+      "text": "Extended Producer Responsibility (EPR) is a policy approach under which producers are given significant responsibility for the post-consumer treatment or disposal of products.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Waste Management",
+        "E-waste"
+      ]
+    },
+    {
+      "text": "The MSMED Act, 2006, provides the framework for the classification and development of Micro, Small, and Medium Enterprises in India.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "MSME",
+        "Economic Policy"
+      ]
+    },
+    {
+      "text": "NITI Aayog serves as the premier policy 'Think Tank' of the Government of India, providing directional and policy inputs.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Governance",
+        "Policy Making"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "uttarakhand-road-safety-measures",
+        "headline": "Uttarakhand Government Announces Enhanced Road Safety Measures Following Rudraprayag Bus Accident",
+        "explainer": "• The Uttarakhand government has announced a comprehensive package of measures to enhance road safety, particularly in its hilly regions, following a tragic bus accident in Rudraprayag.\n• At least three people were killed and nine injured when a bus carrying pilgrims plunged into the Alaknanda River.\n• Measures include upgrading critical road infrastructure, installing advanced warning systems, and stricter enforcement of traffic regulations for commercial vehicles.\n• Focus will also be on driver training, mandatory vehicle fitness checks, and rapid response mechanisms for accident sites.\n• The incident highlights the persistent challenges of road safety in mountainous terrains, exacerbated by tourist influx and extreme weather conditions.",
+        "category": "geography",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Salient features of world's physical geography.",
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes.",
+          "Disaster and disaster management."
+        ],
+        "date": "2025-06-26",
+        "source": "PTI",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Uttarakhand",
+          "Road Safety",
+          "Rudraprayag",
+          "Bus Accident",
+          "Disaster Management",
+          "Himalayan Region"
+        ],
+        "keyTerms": [
+          "Alaknanda River",
+          "Road Safety Audit",
+          "Hilly Terrain Challenges",
+          "Disaster Response Force"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Location of Alaknanda River and its significance (one of the headstreams of the Ganga).",
+          "Geographical challenges of road construction and maintenance in the Himalayas.",
+          "Role of State Disaster Response Force (SDRF) and National Disaster Response Force (NDRF).",
+          "Key initiatives for road safety in India (e.g., Motor Vehicles (Amendment) Act, 2019)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the multi-faceted challenges to road safety in India's mountainous regions, citing specific examples.",
+          "Discuss the effectiveness of current disaster management protocols in responding to road accidents in remote areas.",
+          "Suggest policy interventions and technological solutions for improving road infrastructure and driver behavior in vulnerable terrains.",
+          "Examine the role of tourism and pilgrimage in exacerbating road safety concerns in states like Uttarakhand."
+        ],
+        "imageDescription": "A mountain road in Uttarakhand with emergency vehicles, symbolizing road safety efforts.",
+        "section": "National",
+        "trivia": "The Alaknanda River originates from the Satopanth Glacier and Bhagirath Kharak Glacier in Uttarakhand.",
+        "prelimsSyllabus": {
+          "subject": "Indian and World Geography",
+          "area": "Physical Geography",
+          "topic": "Himalayan Rivers"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "asi-unearths-ancient-settlement",
+        "headline": "Archaeological Survey of India Unearths Evidence of Ancient Settlement in Haryana",
+        "explainer": "• The Archaeological Survey of India (ASI) announced the discovery of significant archaeological findings, indicating an ancient settlement, during excavations in Haryana.\n• Initial assessments suggest the site dates back to the early Harappan period, potentially offering new insights into the pre-Indus Valley Civilization era.\n• Artifacts recovered include pottery fragments, terracotta figurines, tools, and structural remains, pointing to a well-organized community.\n• The findings could necessitate a re-evaluation of the geographical spread and chronological development of early human settlements in the Indian subcontinent.\n• Further excavation and carbon dating are underway to ascertain the exact period and cultural significance of the site.",
+        "category": "history",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian Heritage and Culture, History and Geography of the World and Society.",
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times."
+        ],
+        "date": "2025-06-26",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Archaeology",
+          "ASI",
+          "Ancient India",
+          "Harappan Civilization",
+          "Indus Valley Civilization",
+          "Haryana",
+          "Historical Discovery"
+        ],
+        "keyTerms": [
+          "Early Harappan Period",
+          "Pre-Indus Valley Civilization",
+          "Terracotta Figurines",
+          "Carbon Dating",
+          "Artifacts",
+          "Excavation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key sites of Indus Valley Civilization (Harappa, Mohenjo-Daro, Lothal, Dholavira, Rakhigarhi).",
+          "Characteristics of early Harappan settlements (e.g., pottery styles, town planning).",
+          "Role of Archaeological Survey of India (ASI) in preserving heritage.",
+          "Methods of archaeological dating (e.g., Carbon-14 dating, thermoluminescence dating).",
+          "Geographical spread of pre-Harappan and Harappan cultures."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of new archaeological discoveries in reshaping our understanding of early Indian history and the Indus Valley Civilization.",
+          "Analyze the challenges and ethical considerations involved in archaeological excavations and preservation.",
+          "Evaluate the contribution of archaeological findings to our knowledge of socio-economic and cultural aspects of ancient settlements.",
+          "How can modern technology be utilized to enhance archaeological research and site management?",
+          "Examine the importance of public awareness and community involvement in protecting India's archaeological heritage."
+        ],
+        "imageDescription": "Archaeologists carefully excavating an ancient site, revealing pottery and structural remains.",
+        "section": "National",
+        "trivia": "Rakhigarhi in Haryana is one of the largest and oldest sites of the Indus Valley Civilization.",
+        "prelimsSyllabus": {
+          "subject": "History of India",
+          "area": "Ancient History",
+          "topic": "Indus Valley Civilization"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "smart-cities-mission-phase-ii-mobility",
+        "headline": "Smart Cities Mission Phase II Focuses on Sustainable Urban Mobility and Waste Management",
+        "explainer": "• The Ministry of Housing and Urban Affairs unveiled the strategic focus for Phase II of the Smart Cities Mission, emphasizing sustainable urban mobility and integrated waste management.\n• Building on the successes and lessons learned from the first phase, the new phase aims for more holistic and citizen-centric urban development.\n• Key initiatives include promoting electric vehicle infrastructure, intelligent traffic management systems, and smart public transport solutions.\n• Integrated waste management strategies will cover waste-to-energy projects, recycling, and behavioral change campaigns for source segregation.\n• The mission seeks to enhance the liveability and environmental sustainability of Indian cities, aligning with national climate goals.",
+        "category": "geography",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Urbanization, their problems and their remedies.",
+          "Salient features of world's physical geography.",
+          "Important Geophysical phenomena such as earthquakes, Tsunami, Volcanic activity, cyclone etc., geographical features and their location-changes in critical geographical features (including water-bodies and ice-caps) and in flora and fauna and the effects of such changes."
+        ],
+        "date": "2025-06-26",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Smart Cities Mission",
+          "Urban Development",
+          "Sustainable Mobility",
+          "Waste Management",
+          "Urban Planning",
+          "Ministry of Housing and Urban Affairs",
+          "Climate Goals"
+        ],
+        "keyTerms": [
+          "Smart City",
+          "Urban Mobility",
+          "Waste-to-Energy",
+          "Source Segregation",
+          "Intelligent Traffic Management",
+          "Green Urbanism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Smart Cities Mission: Launch year (2015) and objectives.",
+          "Key components of a Smart City (e.g., smart governance, smart environment, smart infrastructure).",
+          "Challenges of urbanization in India (e.g., waste, pollution, traffic congestion).",
+          "Different types of urban waste and their management methods.",
+          "Government initiatives for urban development (e.g., AMRUT, HRIDAY)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the successes and failures of the first phase of the Smart Cities Mission in addressing urban challenges in India.",
+          "Discuss the importance of sustainable urban mobility and integrated waste management for enhancing city liveability and environmental quality.",
+          "Evaluate the role of technology and citizen participation in making urban development initiatives effective.",
+          "Examine the financial and administrative challenges in implementing large-scale urban development projects like the Smart Cities Mission.",
+          "Suggest innovative models for urban governance and planning to build resilient and sustainable cities in India."
+        ],
+        "imageDescription": "A modern cityscape with smart infrastructure and green spaces, symbolizing a sustainable Smart City.",
+        "section": "National",
+        "trivia": "The Smart Cities Mission aimed to develop 100 Smart Cities across India.",
+        "prelimsSyllabus": {
+          "subject": "Indian and World Geography",
+          "area": "Human Geography",
+          "topic": "Urbanization"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "surendra-dubey-passes-away",
+        "headline": "Renowned Satirical Poet Padma Shri Surendra Dubey Passes Away at 71",
+        "explainer": "• Padma Shri Surendra Dubey, a celebrated Hindi satirical poet and humorist, passed away at the age of 71.\n• Known for his witty and insightful commentary on social and political issues, Dubey captivated audiences with his unique style of Kavi Sammelan performances.\n• He was awarded the Padma Shri, India's fourth-highest civilian award, for his significant contributions to Hindi literature and performing arts.\n• His demise marks the end of an era for contemporary Hindi poetry, leaving behind a rich legacy of humor and social critique.\n• Dubey's works often addressed common man's struggles and bureaucratic absurdities with a light yet poignant touch.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Personalities in news."
+        ],
+        "date": "2025-06-26",
+        "source": "Doordarshan",
+        "sourceUrl": "",
+        "importance": "low",
+        "tags": [
+          "Obituary",
+          "Surendra Dubey",
+          "Hindi Literature",
+          "Poetry",
+          "Kavi Sammelan",
+          "Padma Shri",
+          "Art & Culture"
+        ],
+        "keyTerms": [
+          "Satirical Poetry",
+          "Humorist",
+          "Hindi Literature",
+          "Performing Arts"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Surendra Dubey: Field of work (Hindi satirical poet).",
+          "Padma Shri: Fourth-highest civilian award in India.",
+          "Kavi Sammelan: A gathering of poets to recite their poetry.",
+          "Contributions to Hindi literature."
+        ],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "A portrait of Surendra Dubey, with a microphone in the background, symbolizing his poetic performances.",
+        "section": "National",
+        "trivia": "Surendra Dubey's humor often transcended regional boundaries, making him popular across Hindi-speaking states.",
+        "prelimsSyllabus": {
+          "subject": "Indian Heritage and Culture",
+          "area": "Literature",
+          "topic": "Modern Indian Literature"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "shefali-jariwala-birthday",
+        "headline": "Actress and Reality TV Personality Shefali Jariwala Celebrates 42nd Birthday",
+        "explainer": "• Actress and reality show personality Shefali Jariwala celebrates her 42nd birthday today.\n• She rose to fame with the iconic music video 'Kaanta Laga' in the early 2000s, becoming a pop culture sensation.\n• Jariwala has since appeared in various reality television shows, including 'Bigg Boss', garnering a significant fan base.\n• Her career trajectory reflects the evolving landscape of Indian entertainment, from music videos to reality TV.\n• She continues to be an active figure in the entertainment industry.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Important Personalities."
+        ],
+        "date": "2025-06-26",
+        "source": "Entertainment News",
+        "sourceUrl": "",
+        "importance": "low",
+        "tags": [
+          "Shefali Jariwala",
+          "Entertainment",
+          "Bollywood",
+          "Reality TV",
+          "Celebrity"
+        ],
+        "keyTerms": [
+          "Pop Culture",
+          "Music Video",
+          "Bigg Boss"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "A glamourous photo of Shefali Jariwala, smiling.",
+        "section": "Quick Takes",
+        "trivia": "The 'Kaanta Laga' music video was instrumental in popularizing remix culture in India in the early 2000s.",
+        "prelimsSyllabus": {
+          "subject": "Indian Heritage and Culture",
+          "area": "Art Forms",
+          "topic": "Performing Arts"
+        },
+        "prelimsPotential": 1
+      }
+    ],
+    "GS2": [
+      {
+        "id": "sc-upholds-dpdpa-implementation-framework",
+        "headline": "Supreme Court Upholds Government's Framework for DPDPA Implementation, Emphasizes Data Fiduciary Accountability",
+        "explainer": "• The Supreme Court delivered a landmark judgment upholding the Union Government's proposed framework for the implementation of the Digital Personal Data Protection Act (DPDPA), 2023.\n• The ruling focused on the balance between individual data privacy rights and legitimate state interests, particularly concerning data processing by government entities.\n• The Court emphasized stringent accountability for data fiduciaries and data processors, reiterating the need for robust grievance redressal mechanisms.\n• Concerns raised by petitioners regarding potential surveillance and data localization mandates were addressed, with the Court calling for clear, transparent guidelines and independent oversight.\n• This judgment clears the path for the full operationalization of the DPDPA, marking a significant step in India's digital governance.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation.",
+          "Information Technology, Data Protection, Cyber Security",
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Judiciary"
+        ],
+        "date": "2025-06-26",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "DPDPA",
+          "Data Protection",
+          "Supreme Court",
+          "Digital Governance",
+          "Privacy Rights",
+          "Judicial Review"
+        ],
+        "keyTerms": [
+          "Digital Personal Data Protection Act (DPDPA)",
+          "Data Fiduciary",
+          "Data Principal",
+          "Data Protection Board of India",
+          "Right to Privacy",
+          "Data Localization"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Digital Personal Data Protection Act (DPDPA), 2023: Key provisions and objectives.",
+          "Data Fiduciary: Entity determining purpose and means of processing personal data.",
+          "Data Principal: Individual to whom personal data relates.",
+          "Data Protection Board of India: Role and functions.",
+          "Right to be forgotten and Right to Erasure under DPDPA.",
+          "Significance of Article 21 (Right to Life and Personal Liberty) in privacy judgments."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically analyze the balance struck by the DPDPA between individual privacy and state/corporate interests.",
+          "Discuss the challenges in implementing the DPDPA, especially regarding consent architecture and cross-border data flows.",
+          "Evaluate the role of the judiciary in shaping India's digital governance framework.",
+          "Examine the implications of the DPDPA for businesses operating in India and for the 'data economy'.",
+          "How does DPDPA compare with global data protection regimes like GDPR?"
+        ],
+        "imageDescription": "Gavel on legal documents with a digital data overlay, symbolizing judicial review of data protection laws.",
+        "section": "Lead Opinion",
+        "trivia": "India's journey towards a comprehensive data protection law began with the Puttaswamy judgment (2017) which declared the Right to Privacy as a fundamental right.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Constitution",
+          "topic": "Fundamental Rights"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "parliamentary-panel-ucc-roadmap",
+        "headline": "Parliamentary Panel Discusses Roadmap for Uniform Civil Code Implementation, Seeks Public Feedback",
+        "explainer": "• A high-level Parliamentary Standing Committee on Law and Justice held extensive deliberations on a potential roadmap for the implementation of a Uniform Civil Code (UCC) in India.\n• The committee focused on engaging with legal experts, religious leaders, and civil society organizations to understand diverse perspectives and address concerns.\n• Discussions revolved around the complexities of personal laws, constitutional provisions, and the potential impact of a UCC on various communities.\n• The panel emphasized the need for a consultative approach and announced plans to solicit wider public feedback and expert opinions from all stakeholders.\n• This move signifies a renewed parliamentary push towards addressing a long-pending directive principle of state policy.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+          "Separation of powers between various organs dispute redressal mechanisms and institutions."
+        ],
+        "date": "2025-06-26",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Uniform Civil Code",
+          "UCC",
+          "Personal Laws",
+          "Directive Principles",
+          "Indian Constitution",
+          "Parliamentary Committee"
+        ],
+        "keyTerms": [
+          "Article 44",
+          "Personal Laws",
+          "Religious Freedom",
+          "Secularism",
+          "Constitutional Mandate"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Article 44 of the Indian Constitution: Directive Principle of State Policy regarding UCC.",
+          "Goa as the only Indian state with a form of UCC.",
+          "Shah Bano case (1985) and Sarla Mudgal case (1995) relevant to UCC discussions.",
+          "Distinction between civil law and criminal law in India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the constitutional mandate and challenges associated with implementing a Uniform Civil Code in India.",
+          "Discuss the arguments for and against the UCC, considering issues of religious freedom, gender justice, and national integration.",
+          "Evaluate the role of judicial pronouncements and legislative efforts in the UCC debate.",
+          "Propose a phased approach or alternative models for achieving uniformity in personal laws while respecting diversity."
+        ],
+        "imageDescription": "Indian Parliament building with legal documents, symbolizing legislative action on a Uniform Civil Code.",
+        "section": "National",
+        "trivia": "The first Law Commission of independent India, under M.C. Setalvad, suggested a gradual approach to UCC implementation.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Constitution",
+          "topic": "Directive Principles of State Policy"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "india-indo-pacific-trilateral-dialogue",
+        "headline": "India Hosts Key Trilateral Dialogue on Indo-Pacific Maritime Security and Connectivity",
+        "explainer": "• India hosted a crucial trilateral dialogue involving partners from Southeast Asia and Oceania, focusing on enhancing maritime security and connectivity in the Indo-Pacific region.\n• The discussions aimed at strengthening cooperation on issues such as freedom of navigation, rules-based international order, and joint efforts against illegal fishing and piracy.\n• Participants explored avenues for collaborative infrastructure development, supply chain resilience, and capacity building for regional states.\n• The dialogue underscored India's commitment to its 'Act East' policy and its vision for a free, open, and inclusive Indo-Pacific.\n• This initiative is seen as a strategic move to counter emerging geopolitical challenges and promote regional stability.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2025-06-26",
+        "source": "Ministry of External Affairs (MEA)",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Indo-Pacific",
+          "Maritime Security",
+          "Connectivity",
+          "Act East Policy",
+          "Geopolitics",
+          "International Relations",
+          "Trilateral Dialogue"
+        ],
+        "keyTerms": [
+          "Rules-Based Order",
+          "Freedom of Navigation",
+          "Supply Chain Resilience",
+          "Capacity Building",
+          "Quad",
+          "ASEAN"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Geographical extent of the Indo-Pacific region.",
+          "Key pillars of India's Indo-Pacific vision (SAGAR, Act East Policy).",
+          "Importance of Quad (Quadrilateral Security Dialogue) in the Indo-Pacific context.",
+          "Major sea lanes of communication (SLOCs) in the Indo-Pacific.",
+          "UNCLOS (United Nations Convention on the Law of the Sea) and its relevance."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze India's strategic imperatives and objectives in strengthening its engagement in the Indo-Pacific region.",
+          "Discuss the challenges and opportunities for trilateral cooperation in enhancing maritime security and connectivity.",
+          "Evaluate the role of India's 'Act East' policy in shaping its Indo-Pacific strategy.",
+          "Examine how the Indo-Pacific concept addresses traditional and non-traditional security threats in the region.",
+          "What are the implications of growing geopolitical competition in the Indo-Pacific for India's foreign policy?"
+        ],
+        "imageDescription": "Flags of India and partner nations with a map of the Indo-Pacific, symbolizing regional cooperation.",
+        "section": "International",
+        "trivia": "India's 'SAGAR' (Security And Growth for All in the Region) doctrine is a key component of its Indo-Pacific vision.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India's Foreign Policy",
+          "topic": "Regional Groupings"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "national-rural-mental-health-campaign",
+        "headline": "Union Health Ministry Launches 'Manas Gram' National Campaign for Rural Mental Health Awareness",
+        "explainer": "• The Union Health Ministry launched 'Manas Gram', a nationwide campaign aimed at raising awareness and improving access to mental health services in rural areas.\n• The initiative seeks to destigmatize mental health issues and train frontline health workers to identify and provide initial support for common mental disorders.\n• It will leverage existing primary healthcare infrastructure, including Ayushman Bharat Health and Wellness Centres, to deliver counseling and referral services.\n• The campaign emphasizes community participation and integrates traditional practices with modern psychological support.\n• This move acknowledges the significant mental health burden in rural India, often overlooked due to lack of awareness and accessibility.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+        ],
+        "date": "2025-06-26",
+        "source": "PIB",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Mental Health",
+          "Rural Health",
+          "Public Health",
+          "Health Ministry",
+          "Social Welfare",
+          "Ayushman Bharat",
+          "Community Health"
+        ],
+        "keyTerms": [
+          "Manas Gram",
+          "Mental Healthcare Act, 2017",
+          "Primary Healthcare",
+          "Stigma",
+          "Psychological Support"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Mental Healthcare Act, 2017: Key provisions and objectives.",
+          "National Mental Health Program (NMHP) in India.",
+          "Role of Ayushman Bharat Health and Wellness Centres (AB-HWCs).",
+          "Common mental disorders prevalent in rural India.",
+          "Global burden of mental health issues."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the unique challenges in addressing mental health issues in rural India, including stigma and access barriers.",
+          "Evaluate the effectiveness of community-based interventions and the role of frontline health workers in mental healthcare delivery.",
+          "Discuss how the 'Manas Gram' campaign can leverage existing public health infrastructure to improve mental health outcomes.",
+          "Suggest policy recommendations for integrating mental health services more effectively into primary healthcare in India.",
+          "Examine the socio-economic factors contributing to mental health distress in rural populations."
+        ],
+        "imageDescription": "A group of rural community members engaged in a mental health awareness session, symbolizing community support.",
+        "section": "National",
+        "trivia": "The theme for World Mental Health Day (October 10) in recent years has often focused on 'mental health as a universal human right'.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Health",
+          "topic": "Health Policy"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-sends-humanitarian-aid",
+        "headline": "India Dispatches Humanitarian Aid and Disaster Relief to Flood-Affected Southeast Asian Nation",
+        "explainer": "• India dispatched a substantial consignment of humanitarian aid and disaster relief (HADR) materials to a Southeast Asian nation severely impacted by recent devastating floods.\n• The aid package includes essential medicines, food supplies, emergency shelters, and water purification units, along with a team of medical and engineering experts.\n• This rapid response underscores India's commitment to regional solidarity and its role as a first responder in humanitarian crises.\n• The initiative is part of India's broader 'Neighbourhood First' policy and its efforts to strengthen bilateral ties through humanitarian diplomacy.\n• The affected nation expressed gratitude for India's timely assistance, highlighting the strong bonds of friendship between the two countries.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2025-06-26",
+        "source": "MEA",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Humanitarian Aid",
+          "HADR",
+          "Disaster Relief",
+          "Southeast Asia",
+          "Neighbourhood First Policy",
+          "International Relations",
+          "Soft Power"
+        ],
+        "keyTerms": [
+          "Humanitarian Diplomacy",
+          "Disaster Management Assistance",
+          "Regional Solidarity",
+          "UNOCHA",
+          "NDRF"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India's role as a net security provider and first responder in the Indian Ocean Region.",
+          "Key HADR operations conducted by India (e.g., Nepal earthquake, Tsunami response).",
+          "Agencies involved in India's disaster relief efforts (NDRF, Indian Armed Forces, MEA).",
+          "Concept of 'Neighbourhood First' policy.",
+          "Significance of soft power in international relations."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of humanitarian aid and disaster relief (HADR) operations in shaping India's foreign policy and enhancing its regional influence.",
+          "Discuss the challenges involved in coordinating and delivering HADR assistance to disaster-stricken countries.",
+          "Evaluate the effectiveness of India's 'Neighbourhood First' policy in building regional trust and cooperation.",
+          "Examine how HADR initiatives contribute to India's soft power projection and global standing.",
+          "Suggest measures to further strengthen India's HADR capabilities and international partnerships."
+        ],
+        "imageDescription": "An Indian Air Force plane being loaded with relief supplies, symbolizing humanitarian aid.",
+        "section": "International",
+        "trivia": "India's National Disaster Response Force (NDRF) is a specialized force for disaster rescue and relief operations.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India's Foreign Policy",
+          "topic": "Humanitarian Diplomacy"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "nep-2020-vocational-training-review",
+        "headline": "Ministry of Education Reviews NEP 2020 Implementation, Prioritizes Vocational Training Integration",
+        "explainer": "• The Ministry of Education conducted a comprehensive review of the National Education Policy (NEP) 2020 implementation, with a special focus on vocational training integration.\n• The review highlighted progress in curriculum reforms and digital learning initiatives, while identifying challenges in scaling up skill development programs.\n• Emphasis was placed on strengthening linkages between academic institutions and industries to make vocational education more demand-driven and employment-oriented.\n• The Ministry announced new measures to enhance teacher training for vocational subjects and to promote experiential learning across all educational levels.\n• This move aims to align India's education system with the evolving demands of the job market and boost youth employability.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation."
+        ],
+        "date": "2025-06-26",
+        "source": "PIB",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "NEP 2020",
+          "National Education Policy",
+          "Vocational Training",
+          "Skill Development",
+          "Education Reform",
+          "Ministry of Education",
+          "Employability"
+        ],
+        "keyTerms": [
+          "Experiential Learning",
+          "Curriculum Reform",
+          "Digital Education",
+          "Industry-Academia Linkage",
+          "National Skill Qualification Framework (NSQF)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key pillars of National Education Policy (NEP) 2020 (access, equity, quality, affordability, accountability).",
+          "Recommendations of NEP 2020 on vocational education (e.g., integration from Class 6).",
+          "Role of National Skill Development Corporation (NSDC).",
+          "Major government schemes for skill development (e.g., Pradhan Mantri Kaushal Vikas Yojana - PMKVY).",
+          "Gross Enrolment Ratio (GER) targets under NEP."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the transformative potential of NEP 2020 in reforming India's education system, particularly its focus on vocational training.",
+          "Discuss the challenges in integrating vocational education seamlessly into the mainstream curriculum and ensuring its quality.",
+          "Evaluate the effectiveness of current government initiatives in bridging the skill gap and enhancing youth employability.",
+          "Suggest innovative approaches to foster industry-academia collaboration for a more demand-driven vocational education system.",
+          "Examine the role of technology and digital platforms in expanding access to quality vocational training in India."
+        ],
+        "imageDescription": "Students engaged in a vocational training workshop, symbolizing skill development and practical learning.",
+        "section": "National",
+        "trivia": "NEP 2020 replaced the National Policy on Education of 1986, which was modified in 1992.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Education",
+          "topic": "Government Policies"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "b-d-behring-passes-away",
+        "headline": "Veteran Politician B. D. Behring Passes Away at 79",
+        "explainer": "• B. D. Behring, a veteran politician known for his long-standing public service and contributions to regional development, passed away at the age of 79.\n• He served multiple terms as a state legislator and was instrumental in advocating for grassroots issues in his constituency.\n• Behring was respected across party lines for his commitment to democratic values and his pragmatic approach to governance.\n• His career spanned several decades, witnessing significant political transformations in the country.\n• He will be remembered for his dedication to public welfare and his role in shaping local policies.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Parliament and State Legislatures—structure, functioning, conduct of business, powers & privileges and issues arising out of these."
+        ],
+        "date": "2025-06-26",
+        "source": "Local News Agency",
+        "sourceUrl": "",
+        "importance": "low",
+        "tags": [
+          "Obituary",
+          "Politician",
+          "State Legislature",
+          "Public Service",
+          "Governance"
+        ],
+        "keyTerms": [
+          "Legislator",
+          "Constituency",
+          "Democratic Values"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Role of State Legislatures in India.",
+          "Process of election for state legislative assembly members.",
+          "Significance of public service in a democracy."
+        ],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "A black and white photograph of B. D. Behring, looking thoughtful.",
+        "section": "Quick Takes",
+        "trivia": "The age of eligibility to be a member of a State Legislative Assembly is 25 years.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Political System",
+          "topic": "State Legislature"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "kashmir-singh-sohal-passes-away",
+        "headline": "Former Parliamentarian Kashmir Singh Sohal Dies at 62",
+        "explainer": "• Kashmir Singh Sohal, a former Member of Parliament and a prominent figure in regional politics, passed away at 62.\n• Sohal was known for his advocacy for agricultural reforms and rural development during his tenure in the Lok Sabha.\n• He played a key role in several parliamentary debates concerning farmer welfare and irrigation projects.\n• His demise is a loss to the political landscape, particularly for the farming community he represented.\n• Sohal's commitment to public service and his efforts to uplift rural areas remain a significant part of his legacy.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Parliament and State Legislatures—structure, functioning, conduct of business, powers & privileges and issues arising out of these."
+        ],
+        "date": "2025-06-26",
+        "source": "National Daily",
+        "sourceUrl": "",
+        "importance": "low",
+        "tags": [
+          "Obituary",
+          "Politician",
+          "Parliamentarian",
+          "Lok Sabha",
+          "Agricultural Reforms",
+          "Rural Development"
+        ],
+        "keyTerms": [
+          "Member of Parliament (MP)",
+          "Lok Sabha",
+          "Agricultural Policy",
+          "Farmer Welfare"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Role of a Member of Parliament (MP) in India's democracy.",
+          "Functions of Lok Sabha.",
+          "Key challenges faced by the agricultural sector in India.",
+          "Government schemes for farmer welfare (e.g., PM-KISAN)."
+        ],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "A formal portrait of Kashmir Singh Sohal, looking distinguished.",
+        "section": "Quick Takes",
+        "trivia": "The maximum strength of the Lok Sabha as envisaged by the Constitution is 552 members.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Political System",
+          "topic": "Parliament"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS3": [
+      {
+        "id": "rbi-financial-stability-report-june-2025",
+        "headline": "RBI's Financial Stability Report Warns of Global Headwinds, Highlights Resilience of Indian Banking Sector",
+        "explainer": "• The Reserve Bank of India (RBI) released its bi-annual Financial Stability Report (FSR), providing an assessment of the health of the Indian financial system.\n• The report noted persistent global headwinds, including geopolitical tensions, commodity price volatility, and tightening global financial conditions, posing risks to economic growth.\n• Despite external challenges, the Indian banking sector demonstrated resilience, with improving asset quality, robust capital adequacy, and healthy provisioning coverage ratios.\n• The report highlighted the continued growth in credit demand, particularly from the retail and MSME segments, while also cautioning against potential risks from unsecured lending.\n• RBI stressed the importance of vigilant monitoring of emerging risks and maintaining macro-prudential policies to safeguard financial stability.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Government Budgeting.",
+          "Financial Market, Capital Market, Money Market.",
+          "Investment models."
+        ],
+        "date": "2025-06-26",
+        "source": "Livemint",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "RBI",
+          "Financial Stability Report",
+          "FSR",
+          "Indian Economy",
+          "Banking Sector",
+          "Global Headwinds",
+          "Monetary Policy"
+        ],
+        "keyTerms": [
+          "Non-Performing Assets (NPAs)",
+          "Capital Adequacy Ratio (CAR)",
+          "Provisioning Coverage Ratio (PCR)",
+          "Macro-prudential Policies",
+          "Unsecured Lending"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Financial Stability Report (FSR): Published by RBI bi-annually.",
+          "Key indicators of banking sector health: NPAs, CAR, PCR.",
+          "Role of RBI in maintaining financial stability.",
+          "Types of risks assessed in FSR: Credit risk, market risk, operational risk.",
+          "Basel III norms for capital adequacy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the current state of India's banking sector resilience in the face of global economic uncertainties.",
+          "Discuss the implications of rising unsecured lending for financial stability and household debt.",
+          "Evaluate the effectiveness of RBI's macro-prudential policies in mitigating systemic risks.",
+          "Examine the interplay between global geopolitical events and their impact on India's financial markets and economy.",
+          "What reforms are needed to further strengthen the Indian financial system against future shocks?"
+        ],
+        "imageDescription": "RBI logo with graphs showing economic trends, symbolizing financial stability analysis.",
+        "section": "Economy",
+        "trivia": "The Financial Stability Report also covers the performance of non-banking financial companies (NBFCs) and cooperative banks.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Financial Market",
+          "topic": "Banking Sector"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "isro-reusable-launch-vehicle-test",
+        "headline": "ISRO Successfully Tests Advanced Landing Technologies for Next-Gen Reusable Launch Vehicle",
+        "explainer": "• The Indian Space Research Organisation (ISRO) announced the successful completion of a crucial test for its Reusable Launch Vehicle (RLV) program.\n• The test involved advanced autonomous landing capabilities, simulating a return from space and precise touchdown on a designated runway.\n• This achievement marks a significant step towards developing cost-effective and sustainable access to space for future missions.\n• ISRO aims to reduce launch costs dramatically by developing fully reusable rockets, similar to global trends in space exploration.\n• The RLV-TD (Technology Demonstrator) project is a precursor to a two-stage-to-orbit (TSTO) fully reusable launch vehicle.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Awareness in the fields of Space, Computers, Robotics, Nano-technology, bio-technology and issues relating to Intellectual Property Rights."
+        ],
+        "date": "2025-06-26",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Reusable Launch Vehicle",
+          "RLV",
+          "Space Technology",
+          "Aerospace",
+          "Indian Space Program",
+          "Cost-effective Space Access"
+        ],
+        "keyTerms": [
+          "RLV-TD",
+          "Two-Stage-to-Orbit (TSTO)",
+          "Autonomous Landing",
+          "Space Shuttle",
+          "Gaganyaan"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ISRO's RLV-TD program: Objectives and stages.",
+          "Advantages of reusable launch vehicles (cost reduction, sustainability).",
+          "Comparison with international RLV programs (e.g., SpaceX Falcon 9, Starship).",
+          "Key components of RLV: winged body, landing gear, control surfaces.",
+          "Role of ISRO in India's scientific and technological advancement."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of developing reusable launch vehicle technology for India's space ambitions.",
+          "Analyze the economic and environmental benefits of reusable rockets compared to expendable launch systems.",
+          "Examine the challenges ISRO faces in perfecting RLV technology and achieving full reusability.",
+          "How will RLV technology impact India's commercial space sector and its competitive edge in the global market?",
+          "Discuss the potential applications of advanced landing technologies for future planetary missions."
+        ],
+        "imageDescription": "An artistic rendition of ISRO's Reusable Launch Vehicle during atmospheric re-entry and landing.",
+        "section": "Science",
+        "trivia": "The first RLV-TD 'HEX' (Hypersonic Flight Experiment) mission was successfully conducted by ISRO in 2016.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Space Technology",
+          "topic": "Indian Space Programme"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "epr-e-waste-guidelines",
+        "headline": "Ministry of Environment Issues New Guidelines for Extended Producer Responsibility (EPR) for E-Waste Management",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) released updated guidelines for Extended Producer Responsibility (EPR) concerning e-waste management.\n• The new regulations aim to strengthen the framework for manufacturers, producers, and brand owners to manage their electronic waste responsibly throughout its lifecycle.\n• Key provisions include stricter targets for e-waste collection and recycling, enhanced monitoring mechanisms, and penalties for non-compliance.\n• The guidelines also promote the formalization of the e-waste recycling sector and encourage innovation in sustainable product design.\n• This move is critical for addressing India's rapidly growing e-waste problem and promoting a circular economy.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Disaster and disaster management."
+        ],
+        "date": "2025-06-26",
+        "source": "PIB",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "E-waste",
+          "EPR",
+          "Extended Producer Responsibility",
+          "Circular Economy",
+          "Waste Management",
+          "MoEFCC",
+          "Environmental Policy"
+        ],
+        "keyTerms": [
+          "E-waste (Management) Rules",
+          "Recycling Targets",
+          "Formal Sector",
+          "Informal Sector",
+          "Pollution Control Board"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Definition of E-waste and its categories.",
+          "Concept of Extended Producer Responsibility (EPR).",
+          "Key provisions of E-Waste (Management) Rules, 2022.",
+          "Role of Central Pollution Control Board (CPCB) in e-waste management.",
+          "Health and environmental hazards associated with improper e-waste disposal."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the effectiveness of EPR in addressing India's e-waste crisis and promoting a circular economy.",
+          "Discuss the challenges in implementing e-waste management rules, particularly concerning the informal sector and collection infrastructure.",
+          "Suggest measures to encourage sustainable product design and consumer participation in e-waste recycling.",
+          "Examine the economic opportunities and environmental benefits of a robust e-waste management system in India."
+        ],
+        "imageDescription": "A pile of electronic waste being sorted for recycling, symbolizing e-waste management.",
+        "section": "Environment",
+        "trivia": "India is one of the top five e-waste generating countries globally, with Mumbai, Delhi, and Bengaluru being major contributors.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Environmental Pollution",
+          "topic": "Waste Management"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "lac-border-infra-review",
+        "headline": "Defence Ministry Reviews Progress of Border Infrastructure Development Along Line of Actual Control (LAC)",
+        "explainer": "• The Ministry of Defence conducted a high-level review of ongoing infrastructure development projects along the Line of Actual Control (LAC) in critical sectors.\n• The review assessed the progress of road construction, bridge building, tunnel projects, and advanced landing grounds aimed at enhancing troop mobility and logistical support.\n• Emphasis was placed on accelerating project completion, leveraging modern construction techniques, and ensuring all-weather connectivity.\n• The initiative is part of India's broader strategy to bolster its defensive capabilities and improve access to remote border areas.\n• The meeting also discussed challenges related to terrain, weather, and procurement processes, outlining remedial measures.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+          "Various Security forces and agencies and their mandate.",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc."
+        ],
+        "date": "2025-06-26",
+        "source": "DD News",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Border Security",
+          "LAC",
+          "Line of Actual Control",
+          "Infrastructure Development",
+          "Defence Ministry",
+          "National Security",
+          "Border Roads Organisation"
+        ],
+        "keyTerms": [
+          "Border Infrastructure",
+          "All-weather Connectivity",
+          "Logistical Support",
+          "Strategic Roads",
+          "Forward Posts"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Line of Actual Control (LAC): Its geographical context and significance.",
+          "Border Roads Organisation (BRO): Mandate and key projects.",
+          "Importance of infrastructure in border management and national security.",
+          "Strategic tunnels and bridges in Himalayan regions (e.g., Atal Tunnel, Sela Tunnel).",
+          "Various forces deployed along India's northern borders (ITBP, Army)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic importance of robust border infrastructure for India's national security, particularly along the LAC.",
+          "Discuss the challenges faced in developing and maintaining infrastructure in high-altitude, hostile terrains.",
+          "Evaluate the impact of improved border infrastructure on troop deployment, logistics, and regional economic development.",
+          "Suggest measures to further accelerate and streamline border infrastructure projects, including technological adoption and inter-agency coordination.",
+          "How does India's border infrastructure development compare with that of its adversaries?"
+        ],
+        "imageDescription": "Engineers working on a high-altitude road construction project in the Himalayas, symbolizing border infrastructure.",
+        "section": "National",
+        "trivia": "The Border Roads Organisation (BRO) was formed in 1960 and constructs and maintains road networks in border areas of India and friendly neighboring countries.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Border Management",
+          "topic": "Border Infrastructure"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "msme-credit-growth-report",
+        "headline": "Report Highlights Robust Credit Growth in MSME Sector, Calls for Enhanced Financial Literacy",
+        "explainer": "• A new report released by a leading financial institution indicated robust credit growth in India's Micro, Small, and Medium Enterprises (MSME) sector over the past year.\n• The growth is attributed to government initiatives like Emergency Credit Line Guarantee Scheme (ECLGS) and increased formalization through GST.\n• While credit disbursal has improved, the report identified gaps in financial literacy among MSME entrepreneurs as a hurdle to optimal utilization of financial products.\n• It also highlighted the need for simplified loan application processes and greater access to collateral-free credit for smaller enterprises.\n• The MSME sector remains a critical engine for employment generation and economic growth in India.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Inclusive growth and issues arising from it.",
+          "Government Budgeting."
+        ],
+        "date": "2025-06-26",
+        "source": "Business Standard",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "MSME",
+          "Credit Growth",
+          "Financial Inclusion",
+          "ECLGS",
+          "Economic Growth",
+          "Employment",
+          "Financial Literacy"
+        ],
+        "keyTerms": [
+          "Micro, Small, Medium Enterprises",
+          "Emergency Credit Line Guarantee Scheme",
+          "Collateral-free Loans",
+          "Formalization",
+          "Financial Products"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Definition of MSMEs as per MSMED Act, 2006 (revised criteria 2020).",
+          "Key government schemes for MSMEs (e.g., Mudra Yojana, CGTMSE, ECLGS).",
+          "Contribution of MSMEs to India's GDP, exports, and employment.",
+          "Challenges faced by MSMEs: access to credit, market linkages, technology adoption.",
+          "Role of SIDBI (Small Industries Development Bank of India)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the factors contributing to and hindering credit access for the MSME sector in India.",
+          "Discuss the significance of MSMEs for India's economic growth and employment generation.",
+          "Evaluate the effectiveness of government initiatives aimed at supporting MSMEs, particularly during economic downturns.",
+          "Suggest measures to enhance financial literacy and streamline credit disbursal mechanisms for small businesses.",
+          "Examine the potential of digital lending platforms and Fintech in improving MSME financing."
+        ],
+        "imageDescription": "A small business owner reviewing financial documents, symbolizing MSME credit and growth.",
+        "section": "Economy",
+        "trivia": "MSMEs account for nearly 30% of India's GDP and over 40% of its exports.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Growth & Development",
+          "topic": "MSME Sector"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "ai-in-healthcare-policy-framework",
+        "headline": "NITI Aayog Proposes Comprehensive Policy Framework for AI Integration in Healthcare Sector",
+        "explainer": "• NITI Aayog released a draft comprehensive policy framework outlining the ethical and regulatory considerations for integrating Artificial Intelligence (AI) into India's healthcare sector.\n• The framework focuses on leveraging AI for improved diagnostics, personalized treatment, drug discovery, and efficient healthcare delivery, especially in remote areas.\n• It addresses critical issues such as data privacy, algorithmic bias, accountability, and the need for robust regulatory oversight.\n• The policy emphasizes a 'responsible AI' approach, promoting innovation while ensuring patient safety and ethical standards.\n• Public and stakeholder feedback has been invited on the draft to refine the guidelines before finalization.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Awareness in the fields of Space, Computers, Robotics, Nano-technology, bio-technology and issues relating to Intellectual Property Rights."
+        ],
+        "date": "2025-06-26",
+        "source": "The Times of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "AI",
+          "Artificial Intelligence",
+          "Healthcare",
+          "NITI Aayog",
+          "Policy Framework",
+          "Digital Health",
+          "Ethical AI"
+        ],
+        "keyTerms": [
+          "Algorithmic Bias",
+          "Data Privacy",
+          "Responsible AI",
+          "Personalized Medicine",
+          "Digital Diagnostics",
+          "Health-tech"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Applications of AI in healthcare (e.g., diagnostics, drug discovery, predictive analytics).",
+          "Key challenges in AI deployment: data privacy, bias, regulatory gaps.",
+          "Role of NITI Aayog in policy formulation for emerging technologies.",
+          "Difference between Artificial Narrow Intelligence (ANI) and Artificial General Intelligence (AGI).",
+          "Ethical principles of AI (fairness, accountability, transparency)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the transformative potential of Artificial Intelligence in revolutionizing India's healthcare delivery system.",
+          "Discuss the ethical and regulatory challenges associated with the widespread adoption of AI in healthcare.",
+          "Evaluate the measures proposed in the NITI Aayog framework to ensure responsible and equitable use of AI in health.",
+          "Examine how AI can address disparities in healthcare access and quality in India, particularly in rural and underserved areas.",
+          "What role can public-private partnerships play in fostering AI innovation in health while safeguarding public interest?"
+        ],
+        "imageDescription": "A doctor interacting with a holographic medical interface, symbolizing AI in healthcare.",
+        "section": "Science",
+        "trivia": "India's National Digital Health Mission aims to create a digital health ecosystem, providing a foundation for AI integration.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Information Technology",
+          "topic": "Artificial Intelligence"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "wetlands-conservation-plan-expansion",
+        "headline": "MoEFCC Expands National Wetlands Conservation Plan to Include 20 New Sites",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) announced the expansion of the National Wetlands Conservation Plan (NWCP), adding 20 new sites across various states.\n• This initiative aims to protect and restore critical wetland ecosystems, recognizing their vital role in biodiversity conservation, water purification, and climate change mitigation.\n• The newly added wetlands will benefit from enhanced funding for conservation activities, scientific research, and community engagement programs.\n• The expansion underscores India's commitment to its international obligations under the Ramsar Convention and its domestic biodiversity targets.\n• Wetlands are increasingly threatened by urbanization, pollution, and climate change, necessitating urgent conservation efforts.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Biodiversity and Climate Change."
+        ],
+        "date": "2025-06-26",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Wetlands",
+          "Wetland Conservation",
+          "Biodiversity",
+          "Ramsar Sites",
+          "MoEFCC",
+          "Climate Change",
+          "Ecosystem Services"
+        ],
+        "keyTerms": [
+          "Ramsar Convention",
+          "Ecosystem Services",
+          "Wetland Ecosystem",
+          "Biodiversity Hotspot",
+          "Carbon Sequestration"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Definition and ecological importance of wetlands.",
+          "Ramsar Convention on Wetlands: Its objectives and India's role.",
+          "National Wetlands Conservation Programme (NWCP): Objectives and implementation.",
+          "Examples of major Ramsar Sites in India (e.g., Chilika Lake, Loktak Lake).",
+          "Threats to wetlands: pollution, encroachment, invasive species."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the ecological and economic significance of wetlands and the threats they face in India.",
+          "Discuss the effectiveness of India's wetlands conservation policies and programs, including the Ramsar Convention.",
+          "Suggest integrated approaches for wetland management that involve local communities, scientific research, and policy enforcement.",
+          "Examine the role of wetlands in climate change mitigation and adaptation strategies.",
+          "How can urbanization and industrial development be balanced with wetland conservation efforts?"
+        ],
+        "imageDescription": "A serene wetland landscape with migratory birds, symbolizing biodiversity and conservation.",
+        "section": "Environment",
+        "trivia": "World Wetlands Day is celebrated annually on February 2nd, marking the date of the adoption of the Convention on Wetlands in 1971.",
+        "prelimsSyllabus": {
+          "subject": "Environment & Ecology",
+          "area": "Conservation",
+          "topic": "Wetland Ecosystems"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "green-hydrogen-incentives",
+        "headline": "Government Unveils New Incentive Scheme for Green Hydrogen Production to Boost Energy Security",
+        "explainer": "• The Union Government announced a new production-linked incentive (PLI) scheme aimed at boosting the domestic manufacturing and deployment of green hydrogen.\n• The scheme offers financial incentives for both electrolyser manufacturing and green hydrogen production, targeting a significant increase in capacity.\n• This initiative is a crucial step towards achieving India's ambitious climate targets and reducing its reliance on fossil fuel imports.\n• The focus is on making green hydrogen cost-competitive and establishing India as a global hub for its production and export.\n• The policy aims to attract significant private investment and foster innovation in the nascent green hydrogen ecosystem.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Conservation, environmental pollution and degradation, environmental impact assessment."
+        ],
+        "date": "2025-06-26",
+        "source": "PTI",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Green Hydrogen",
+          "Energy Security",
+          "Renewable Energy",
+          "Climate Change",
+          "PLI Scheme",
+          "Energy Transition",
+          "Make in India"
+        ],
+        "keyTerms": [
+          "Electrolyser",
+          "National Green Hydrogen Mission",
+          "Carbon Emissions",
+          "Fossil Fuels",
+          "Energy Independence",
+          "Production Linked Incentive (PLI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "What is green hydrogen (produced by electrolysis of water using renewable energy).",
+          "National Green Hydrogen Mission: Objectives and targets.",
+          "Applications of green hydrogen (e.g., fuel, industrial feedstock, energy storage).",
+          "Difference between green, grey, blue, and pink hydrogen.",
+          "Role of PLI schemes in boosting domestic manufacturing."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic importance of green hydrogen for India's energy security and climate change mitigation goals.",
+          "Discuss the challenges and opportunities in scaling up green hydrogen production and adoption in India.",
+          "Evaluate the effectiveness of incentive schemes like PLI in driving investment and innovation in the green hydrogen sector.",
+          "Examine how green hydrogen can contribute to India's 'net-zero' emissions target and reduce import dependency.",
+          "Suggest policy measures to create a robust ecosystem for green hydrogen research, development, and commercialization."
+        ],
+        "imageDescription": "A futuristic depiction of an electrolyser plant producing green hydrogen with wind turbines in the background.",
+        "section": "Economy",
+        "trivia": "India aims to produce 5 million tonnes of green hydrogen annually by 2030 under its National Green Hydrogen Mission.",
+        "prelimsSyllabus": {
+          "subject": "Science & Technology",
+          "area": "Energy",
+          "topic": "Renewable Energy Sources"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-friendly-nation-joint-exercise",
+        "headline": "Indian Army Conducts Joint Anti-Terrorism Exercise 'Vajra Prahar' with Friendly Nation",
+        "explainer": "• The Indian Army successfully concluded a joint anti-terrorism exercise, 'Vajra Prahar', with a friendly nation in the desert terrain of Rajasthan.\n• The exercise focused on enhancing interoperability, sharing best practices, and developing coordinated responses to counter-terrorism operations in semi-urban and rural environments.\n• Troops from both nations engaged in simulated scenarios involving hostage rescue, intelligence gathering, and precision strikes against terrorist hideouts.\n• This annual exercise underscores growing bilateral defence cooperation and India's commitment to regional security.\n• The training also included aspects of logistics, medical support, and communication protocols in challenging operational settings.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+          "Various Security forces and agencies and their mandate.",
+          "India and its neighborhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests."
+        ],
+        "date": "2025-06-26",
+        "source": "Ministry of Defence",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Indian Army",
+          "Joint Exercise",
+          "Anti-Terrorism",
+          "Vajra Prahar",
+          "Defence Cooperation",
+          "National Security",
+          "Bilateral Relations"
+        ],
+        "keyTerms": [
+          "Interoperability",
+          "Counter-Terrorism Operations",
+          "Special Forces",
+          "Military Diplomacy",
+          "Intelligence Sharing"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Name of the joint exercise: 'Vajra Prahar'.",
+          "Significance of joint military exercises for defence cooperation.",
+          "Different types of security threats (terrorism, insurgency, conventional warfare).",
+          "Role of Indian Army in counter-insurgency and counter-terrorism operations.",
+          "Major joint exercises conducted by India with other nations (e.g., Malabar, Sampriti)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic importance of joint military exercises in enhancing India's defence capabilities and fostering bilateral relations.",
+          "Discuss how such exercises contribute to building interoperability and sharing best practices in counter-terrorism strategies.",
+          "Evaluate the role of military diplomacy in strengthening India's security partnerships and addressing regional threats.",
+          "Examine the challenges and benefits of conducting joint operations in diverse geographical and operational environments.",
+          "How do joint exercises contribute to India's broader national security objectives in a complex geopolitical landscape?"
+        ],
+        "imageDescription": "Soldiers from two nations participating in a joint counter-terrorism drill in a desert environment.",
+        "section": "National",
+        "trivia": "The 'Vajra Prahar' exercise is typically conducted between the Indian Army and the US Army Special Forces.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Security Agencies",
+          "topic": "Defence Cooperation"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "The Hindu",
+    "PTI",
+    "The Indian Express",
+    "Livemint",
+    "Ministry of External Affairs (MEA)",
+    "The Economic Times",
+    "PIB",
+    "DD News",
+    "Business Standard",
+    "The Times of India",
+    "MEA",
+    "Ministry of Defence",
+    "Doordarshan",
+    "Entertainment News",
+    "Local News Agency",
+    "National Daily"
+  ],
+  "totalScraped": 22,
+  "totalProcessed": 22
+}

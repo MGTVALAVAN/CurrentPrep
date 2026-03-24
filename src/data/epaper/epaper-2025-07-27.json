@@ -1,0 +1,1938 @@
+{
+  "date": "2025-07-27",
+  "dateFormatted": "Sunday 27 July, 2025",
+  "lastUpdated": "2026-03-21T11:31:09.100Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "sc-upholds-data-protection-act-cross-border-transfers",
+      "headline": "Supreme Court Upholds Key Provisions of Digital Personal Data Protection Act, 2023, with Focus on Cross-Border Transfers",
+      "explainer": "• The Supreme Court, in a landmark ruling, upheld the constitutional validity of several key provisions of the Digital Personal Data Protection Act (DPDP Act), 2023.\n• The judgment specifically addressed concerns regarding the framework for cross-border data transfers, affirming the government's power to designate countries for such transfers while emphasizing robust safeguards.\n• The court underscored the importance of balancing individual privacy rights with national security and economic interests, calling for careful implementation of data fiduciary obligations.\n• It clarified the roles and responsibilities of data fiduciaries and data processors, stressing the need for clear consent mechanisms and data minimization principles.\n• The ruling is expected to provide much-needed clarity for technology companies and data-intensive industries operating in India, impacting India's digital economy and international data flows.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Structure, organization and functioning of the Executive and the Judiciary",
+        "IT & Computers",
+        "Cyber Security"
+      ],
+      "date": "2025-07-27",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Digital Personal Data Protection Act",
+        "DPDP Act",
+        "Supreme Court",
+        "Data Privacy",
+        "Cross-Border Data Transfer",
+        "Data Fiduciaries",
+        "Digital India"
+      ],
+      "keyTerms": [
+        "Digital Personal Data Protection Act (DPDP Act)",
+        "Data Fiduciary",
+        "Data Principal",
+        "Cross-Border Data Transfer",
+        "Right to Privacy",
+        "Data Localisation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Digital Personal Data Protection Act, 2023: Key features, objectives, and enforcement body (Data Protection Board of India).",
+        "Definition of 'Data Fiduciary', 'Data Processor', and 'Data Principal'.",
+        "Provisions related to consent, legitimate uses, and duties of data fiduciaries.",
+        "Section related to cross-border data transfers and the government's role in designating countries.",
+        "The Puttaswamy judgment (2017) and its relevance to the right to privacy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the implications of the Supreme Court's ruling on India's digital economy and global data governance.",
+        "Analyze the challenges and opportunities in implementing the DPDP Act, particularly concerning compliance for businesses and protection for citizens.",
+        "Critically evaluate the balance struck between individual privacy rights, national security, and economic growth in the context of data protection.",
+        "Examine the potential impact on India's standing as a data processing hub and its role in shaping international data transfer norms.",
+        "Suggest measures to strengthen the enforcement mechanism and address the digital divide in ensuring data protection for all citizens."
+      ],
+      "imageDescription": "Illustration of digital data flowing across borders with security locks, overseen by a judicial gavel.",
+      "section": "Lead Opinion",
+      "trivia": "India's Digital Personal Data Protection Act is one of the few global laws that imposes duties on data principals (individuals) in addition to data fiduciaries.",
+      "prelimsSyllabus": {
+        "subject": "Polity and Governance",
+        "area": "Government Policies and Interventions",
+        "topic": "Issues relating to IT & Cyber Security"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "rbi-monetary-policy-review-inflation-concerns",
+      "headline": "RBI's Monetary Policy Review: Repo Rate Maintained Amidst Persistent Inflation Concerns, Projects Moderate Growth",
+      "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) unanimously decided to maintain the repo rate at its current level for the sixth consecutive review.\n• The decision comes as the RBI grapples with persistent inflationary pressures, primarily driven by volatile food prices and global commodity fluctuations.\n• While acknowledging a resilient domestic demand, the MPC highlighted global economic uncertainties and geopolitical tensions as significant headwinds.\n• The RBI revised its inflation projection marginally upwards for the current fiscal year, while maintaining a cautious stance on GDP growth forecasts.\n• Governor Shaktikanta Das reiterated the central bank's commitment to withdrawing accommodation gradually to ensure inflation aligns with the target while supporting growth.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Government Budgeting",
+        "Monetary Policy"
+      ],
+      "date": "2025-07-27",
+      "source": "Livemint",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Repo Rate",
+        "Inflation",
+        "Economic Growth",
+        "MPC",
+        "Indian Economy"
+      ],
+      "keyTerms": [
+        "Repo Rate",
+        "Reverse Repo Rate",
+        "Monetary Policy Committee (MPC)",
+        "Inflation Targeting",
+        "Consumer Price Index (CPI)",
+        "Wholesale Price Index (WPI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Current Repo Rate and Reverse Repo Rate.",
+        "Composition and functions of the Monetary Policy Committee (MPC).",
+        "Difference between headline inflation (CPI) and core inflation.",
+        "Tools of monetary policy (e.g., CRR, SLR, OMOs).",
+        "RBI's mandate for inflation targeting (4% +/- 2%)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the rationale behind the RBI's decision to maintain the repo rate despite inflation concerns, considering both domestic and global factors.",
+        "Discuss the challenges faced by the RBI in balancing inflation control with economic growth in the current geopolitical and economic climate.",
+        "Evaluate the effectiveness of current monetary policy tools in addressing supply-side inflation and volatile food prices.",
+        "Examine the potential impact of the RBI's stance on various sectors of the Indian economy, including lending, investment, and consumption.",
+        "Suggest alternative policy measures or complementary fiscal interventions that could support the RBI's objectives."
+      ],
+      "imageDescription": "RBI logo with graphs showing inflation and growth trends.",
+      "section": "Economy",
+      "trivia": "India was one of the first major economies to adopt a formal inflation targeting framework for its central bank.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI and its functions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-g20-ministerial-equitable-trade",
+      "headline": "India Pushes for Equitable Global Trade Rules at G20 Ministerial Ahead of WTO Conference",
+      "explainer": "• India hosted a crucial G20 Trade and Investment Ministerial Meeting, focusing on reforms for a more equitable and inclusive global trading system.\n• Union Minister of Commerce and Industry emphasized the need for addressing historical imbalances and ensuring special and differential treatment for developing and least developed countries.\n• Discussions revolved around strengthening the World Trade Organization (WTO) dispute settlement mechanism and reducing non-tariff barriers that disproportionately affect developing economies.\n• India advocated for greater transparency and predictability in global supply chains, urging G20 nations to avoid protectionist measures.\n• The outcomes of this ministerial meeting are expected to significantly influence the agenda for the upcoming WTO Ministerial Conference.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Important International institutions, agencies and fora – their structure, mandate."
+      ],
+      "date": "2025-07-27",
+      "source": "PTI",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "G20",
+        "WTO",
+        "Global Trade",
+        "Multilateralism",
+        "Trade Reforms",
+        "Developing Countries",
+        "India's Foreign Policy"
+      ],
+      "keyTerms": [
+        "World Trade Organization (WTO)",
+        "G20",
+        "Special and Differential Treatment (S&DT)",
+        "Non-Tariff Barriers (NTBs)",
+        "Dispute Settlement Mechanism (DSM)",
+        "Protectionism"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Objectives and membership of G20 and WTO.",
+        "Key principles of multilateral trading system (e.g., MFN, National Treatment).",
+        "Concept of Special and Differential Treatment (S&DT) for developing countries.",
+        "Recent challenges faced by the WTO's dispute settlement body.",
+        "India's major trade agreements and trade blocs it is part of."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze India's strategic objectives in advocating for equitable global trade rules at multilateral forums like G20 and WTO.",
+        "Discuss the current challenges to the multilateral trading system and the role India can play in reforming it.",
+        "Evaluate the implications of protectionist tendencies and trade wars on developing economies and global supply chains.",
+        "Examine how India's stance aligns with its 'Act East' and 'Neighbourhood First' policies in promoting regional economic integration.",
+        "Suggest concrete steps for strengthening the WTO's effectiveness and ensuring fair trade practices for all member nations."
+      ],
+      "imageDescription": "Flags of G20 nations in a conference setting, with India's flag prominent.",
+      "section": "International",
+      "trivia": "The G20 represents about two-thirds of the world's population, 85% of global GDP, and over 75% of global trade.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Global Groupings",
+        "topic": "WTO and G20"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "ministry-of-environment-launches-blue-carbon-initiative",
+      "headline": "Ministry of Environment Launches 'Coastal Blue Carbon Initiative' for Ecosystem Restoration and Climate Mitigation",
+      "explainer": "• The Union Ministry of Environment, Forest and Climate Change has launched a new 'Coastal Blue Carbon Initiative' aimed at protecting and restoring India's vital coastal and marine ecosystems.\n• The initiative focuses on enhancing carbon sequestration through the conservation of mangroves, seagrass meadows, and tidal marshes, which are potent 'blue carbon' sinks.\n• It integrates local community participation in conservation efforts, promoting sustainable livelihoods and increasing climate resilience in coastal regions.\n• The program will also involve mapping and assessment of blue carbon ecosystems, alongside the development of policy frameworks for their long-term management.\n• This move is part of India's broader climate change mitigation strategy and its commitments under international agreements like the Paris Agreement.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Climate Change",
+        "Biodiversity"
+      ],
+      "date": "2025-07-27",
+      "source": "Down to Earth",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Blue Carbon",
+        "Coastal Ecosystems",
+        "Mangroves",
+        "Seagrass",
+        "Climate Change Mitigation",
+        "Carbon Sequestration",
+        "Environmental Conservation"
+      ],
+      "keyTerms": [
+        "Blue Carbon",
+        "Carbon Sequestration",
+        "Mangroves",
+        "Seagrass Meadows",
+        "Tidal Marshes",
+        "Coastal Resilience",
+        "Climate Change Adaptation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Definition of 'Blue Carbon' and its significance.",
+        "Examples of blue carbon ecosystems (mangroves, seagrass, salt marshes).",
+        "Difference between blue carbon and green carbon.",
+        "Role of coastal ecosystems in biodiversity, coastal protection, and livelihoods.",
+        "India's international commitments related to climate change and biodiversity (e.g., Paris Agreement, CBD)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ecological and economic significance of blue carbon ecosystems for India's coastal regions and climate change strategy.",
+        "Analyze the potential benefits and challenges of implementing the 'Coastal Blue Carbon Initiative', including community engagement and funding.",
+        "Evaluate how blue carbon initiatives contribute to India's Nationally Determined Contributions (NDCs) under the Paris Agreement.",
+        "Examine the threats faced by India's coastal ecosystems and how this initiative can address them.",
+        "Suggest policy recommendations for integrating blue carbon conservation with sustainable coastal development plans."
+      ],
+      "imageDescription": "Satellite image of vibrant mangrove forests along a coastline.",
+      "section": "Environment",
+      "trivia": "Mangroves can sequester carbon at a rate two to four times greater than terrestrial forests and store it for much longer periods.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Conservation",
+        "topic": "Climate Change Mitigation"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-successfully-tests-reusable-launch-vehicle-technology",
+      "headline": "ISRO Successfully Conducts Critical Test of Reusable Launch Vehicle (RLV) Technology Demonstrator",
+      "explainer": "• The Indian Space Research Organisation (ISRO) achieved a significant milestone by successfully conducting a crucial landing experiment for its Reusable Launch Vehicle (RLV) Technology Demonstrator.\n• The test involved releasing the RLV from an aerial platform at high altitude, followed by its autonomous descent and precision landing on a designated runway.\n• This experiment is a vital step towards developing a fully reusable two-stage orbital launch vehicle, aimed at significantly reducing the cost of space access.\n• The RLV program is designed to master technologies like hypersonic flight, autonomous landing, and powered cruise flight, essential for future space missions.\n• ISRO Chairman highlighted that this success paves the way for India to become a major player in the global commercial space launch market.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology",
+        "Indigenization of technology and developing new technology",
+        "Space"
+      ],
+      "date": "2025-07-27",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Reusable Launch Vehicle",
+        "RLV",
+        "Space Technology",
+        "Space Exploration",
+        "Cost Reduction",
+        "Aerospace"
+      ],
+      "keyTerms": [
+        "Reusable Launch Vehicle (RLV)",
+        "Technology Demonstrator",
+        "Autonomous Landing",
+        "Hypersonic Flight",
+        "Two-Stage Orbital (TSO) Vehicle",
+        "Space Debris"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Objectives of ISRO's RLV program.",
+        "Difference between expendable and reusable launch vehicles.",
+        "Key technologies involved in RLV (e.g., aerodynamics, guidance, navigation, control).",
+        "Other countries/companies developing RLV technology (e.g., SpaceX, Blue Origin).",
+        "Benefits of reusable launch vehicles (cost reduction, faster turnaround, reduced space debris)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic importance of ISRO's RLV program for India's space capabilities and its position in the global space market.",
+        "Discuss the technological challenges involved in developing a fully reusable launch vehicle and how ISRO is addressing them.",
+        "Evaluate the potential economic benefits of cost-effective space access for various applications, including satellite deployment and space tourism.",
+        "Examine how the RLV program aligns with India's 'Atmanirbhar Bharat' initiative in the space sector.",
+        "Suggest policy measures to further accelerate India's private sector participation in the development and utilization of advanced space technologies."
+      ],
+      "imageDescription": "Artistic rendering of ISRO's RLV-TD descending towards a runway.",
+      "section": "Science",
+      "trivia": "The first successful orbital reusable spacecraft was the US Space Shuttle, which flew for the first time in 1981.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space Technology",
+        "topic": "ISRO's programs and achievements"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "bro-inaugurates-strategic-tunnel-ladakh-border-connectivity",
+      "headline": "BRO Inaugurates Strategic All-Weather Tunnel in Ladakh, Boosting Border Connectivity and Security",
+      "explainer": "• The Border Roads Organisation (BRO) has inaugurated a strategically vital all-weather tunnel in the high-altitude region of Ladakh, significantly enhancing connectivity to forward areas.\n• The tunnel, constructed under challenging topographical and climatic conditions, will ensure year-round access, cutting down travel time and making troop and logistics movement more efficient.\n• This infrastructure development is part of India's broader strategy to bolster its border infrastructure, especially along the Line of Actual Control (LAC) with China.\n• The project utilizes advanced engineering techniques and is crucial for the socio-economic development of the remote border communities as well.\n• Defence Minister emphasized the tunnel's role in strengthening national security and providing a strategic advantage in the region.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Border areas, challenges and their management",
+        "Security challenges and their management in border areas",
+        "Infrastructure: Roads, Railways, etc."
+      ],
+      "date": "2025-07-27",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "BRO",
+        "Border Infrastructure",
+        "Ladakh",
+        "National Security",
+        "Connectivity",
+        "Line of Actual Control",
+        "Strategic Importance"
+      ],
+      "keyTerms": [
+        "Border Roads Organisation (BRO)",
+        "Line of Actual Control (LAC)",
+        "All-Weather Connectivity",
+        "Strategic Infrastructure",
+        "High-Altitude Engineering",
+        "Border Security"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Mandate and key projects of the Border Roads Organisation (BRO).",
+        "Geographical significance of Ladakh and its strategic importance.",
+        "Challenges of infrastructure development in high-altitude regions.",
+        "Other strategic tunnels/passes in the Himalayas (e.g., Atal Tunnel, Zojila Tunnel).",
+        "Concept of 'all-weather' connectivity in border areas."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of border infrastructure development for India's national security, particularly in regions like Ladakh.",
+        "Analyze the multi-faceted benefits of projects like the new tunnel, encompassing military logistics, local economy, and tourism.",
+        "Evaluate the challenges faced by the BRO in constructing infrastructure in extremely harsh terrains and climatic conditions.",
+        "Examine how enhanced connectivity along the LAC impacts India's border management strategy and its relations with neighboring countries.",
+        "Suggest future policy directions for sustainable and resilient infrastructure development in sensitive border regions."
+      ],
+      "imageDescription": "Entrance of a modern tunnel carved into a snowy mountain in Ladakh.",
+      "section": "National",
+      "trivia": "The BRO is responsible for constructing and maintaining road networks in India's border areas and friendly neighboring countries.",
+      "prelimsSyllabus": {
+        "subject": "Security",
+        "area": "Border Management",
+        "topic": "Infrastructure Development"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "parliamentary-panel-recommends-reforms-election-laws-voter-id-campaign-finance",
+      "headline": "Parliamentary Panel Recommends Sweeping Reforms in Election Laws: Focus on Voter ID and Campaign Finance",
+      "explainer": "• A high-level Parliamentary Standing Committee on Law and Justice has submitted its report recommending significant amendments to the Election Laws.\n• Key recommendations include linking Aadhaar with voter ID cards to streamline voter registration and prevent duplication, while ensuring data privacy.\n• The panel also proposed comprehensive reforms to campaign finance, advocating for greater transparency in political funding and expenditure.\n• Other suggestions cover strengthening the Election Commission of India's powers, regulating social media during elections, and improving dispute resolution mechanisms.\n• These recommendations are aimed at enhancing the integrity and fairness of the electoral process in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Salient features of the Representation of People’s Act",
+        "Appointment to various Constitutional posts, powers, functions and responsibilities of various Constitutional Bodies",
+        "Electoral reforms"
+      ],
+      "date": "2025-07-27",
+      "source": "The Indian Express",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Electoral Reforms",
+        "Election Laws",
+        "Voter ID",
+        "Aadhaar Linkage",
+        "Campaign Finance",
+        "Election Commission of India",
+        "Democracy"
+      ],
+      "keyTerms": [
+        "Representation of the People Act (RPA)",
+        "Election Commission of India (ECI)",
+        "Electoral Roll",
+        "Aadhaar-Voter ID Linkage",
+        "Campaign Finance Reform",
+        "Political Funding"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key provisions of the Representation of the People Act (RPA), 1950 and 1951.",
+        "Constitutional status and powers of the Election Commission of India (Article 324).",
+        "Existing provisions for voter registration and identification.",
+        "Current regulations on political funding and expenditure.",
+        "Previous electoral reform committees and their recommendations."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the necessity of electoral reforms in India, particularly concerning voter registration accuracy and transparency in political funding.",
+        "Analyze the potential benefits and challenges of linking Aadhaar with voter ID cards, addressing concerns about privacy and exclusion.",
+        "Critically evaluate the existing framework of campaign finance in India and the proposed reforms for enhancing transparency and accountability.",
+        "Examine the role of the Election Commission of India in implementing these reforms and the need for strengthening its autonomy.",
+        "Suggest a roadmap for comprehensive electoral reforms that can strengthen democratic processes while addressing practical implementation hurdles."
+      ],
+      "imageDescription": "A ballot box with an Aadhaar card overlay, symbolizing electoral reforms.",
+      "section": "National",
+      "trivia": "The first general elections in India (1951-52) were a monumental undertaking, involving over 173 million eligible voters.",
+      "prelimsSyllabus": {
+        "subject": "Polity and Governance",
+        "area": "Electoral System",
+        "topic": "Electoral Reforms"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "union-health-ministry-unveils-mental-health-support-rural-india",
+      "headline": "Union Health Ministry Unveils Comprehensive Mental Health Support Guidelines for Rural India",
+      "explainer": "• The Union Health Ministry has launched new comprehensive guidelines to strengthen mental health support services, specifically targeting rural populations across India.\n• The guidelines emphasize a community-based approach, integrating mental health care into primary healthcare services through Ayushman Bharat Health and Wellness Centres (AB-HWCs).\n• Key provisions include training ASHA workers and ANMs for early identification and basic counseling, establishing tele-mental health services, and ensuring drug availability at local levels.\n• The initiative aims to reduce the stigma associated with mental health issues and improve accessibility to care in underserved areas.\n• This move aligns with the National Mental Health Program's vision of universal access to mental healthcare.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government policies and interventions for development in various sectors"
+      ],
+      "date": "2025-07-27",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Mental Health",
+        "Rural Health",
+        "Public Health",
+        "Ayushman Bharat",
+        "ASHA Workers",
+        "Healthcare Access",
+        "National Mental Health Program"
+      ],
+      "keyTerms": [
+        "National Mental Health Program (NMHP)",
+        "Ayushman Bharat Health and Wellness Centres (AB-HWCs)",
+        "ASHA Workers",
+        "Tele-Mental Health Services",
+        "Stigma",
+        "Primary Healthcare"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Objectives of the National Mental Health Program (NMHP).",
+        "Role of Ayushman Bharat Health and Wellness Centres (AB-HWCs) in primary healthcare.",
+        "Functions of ASHA (Accredited Social Health Activist) workers and ANMs (Auxiliary Nurse Midwives).",
+        "Key provisions of the Mental Healthcare Act, 2017.",
+        "Prevalence of mental health disorders in India, especially rural areas."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the challenges in providing mental healthcare services in rural India and how the new guidelines aim to address them.",
+        "Analyze the role of community health workers like ASHA and ANMs in strengthening grassroots mental health support.",
+        "Evaluate the effectiveness of integrating mental health services into primary healthcare under the Ayushman Bharat framework.",
+        "Examine the societal stigma associated with mental health and suggest measures for its reduction and promotion of mental well-being.",
+        "Propose policy recommendations for sustainable funding and capacity building for mental health infrastructure in rural areas."
+      ],
+      "imageDescription": "A group of rural women participating in a health awareness program, with a focus on mental well-being.",
+      "section": "National",
+      "trivia": "Globally, one in four people will be affected by mental or neurological disorders at some point in their lives.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Health",
+        "topic": "Mental Health"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "government-pli-scheme-advanced-electronics-manufacturing",
+      "headline": "Government Announces New Production Linked Incentive (PLI) Scheme for Advanced Electronics Manufacturing",
+      "explainer": "• The Union Government has rolled out a new Production Linked Incentive (PLI) scheme specifically targeting the manufacturing of advanced electronics components and sub-assemblies.\n• This scheme aims to boost domestic production, reduce reliance on imports, and position India as a global hub for sophisticated electronics manufacturing.\n• It offers incentives based on incremental sales of manufactured goods to eligible companies, encouraging both domestic and foreign investments.\n• The initiative is part of the 'Atmanirbhar Bharat' vision, seeking to enhance India's self-reliance in critical technology sectors.\n• Industry experts anticipate significant job creation and technological upgradation as a result of this renewed focus on high-value electronics.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Industrial policy",
+        "Make in India initiative",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth",
+        "Investment models"
+      ],
+      "date": "2025-07-27",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "PLI Scheme",
+        "Electronics Manufacturing",
+        "Atmanirbhar Bharat",
+        "Make in India",
+        "Industrial Policy",
+        "Domestic Production",
+        "Investment"
+      ],
+      "keyTerms": [
+        "Production Linked Incentive (PLI) Scheme",
+        "Advanced Electronics Manufacturing",
+        "Atmanirbhar Bharat",
+        "Import Substitution",
+        "Value Addition",
+        "Foreign Direct Investment (FDI)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Concept and objectives of Production Linked Incentive (PLI) schemes.",
+        "Sectors currently covered under PLI schemes in India.",
+        "India's position in global electronics manufacturing and consumption.",
+        "Components of 'Atmanirbhar Bharat' initiative.",
+        "Role of electronics manufacturing in India's GDP and employment."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the rationale behind extending PLI schemes to advanced electronics manufacturing and its potential impact on India's industrial landscape.",
+        "Discuss the challenges and opportunities for India to become a global hub for high-value electronics production.",
+        "Evaluate the effectiveness of PLI schemes in attracting investment, fostering domestic capabilities, and reducing import dependence.",
+        "Examine the 'Atmanirbhar Bharat' vision in the context of global supply chain disruptions and technological self-reliance.",
+        "Suggest policy measures to address issues such as skilled labor availability, R&D infrastructure, and ease of doing business for electronics manufacturers."
+      ],
+      "imageDescription": "Microchips and circuit boards, symbolizing advanced electronics manufacturing.",
+      "section": "Economy",
+      "trivia": "India is projected to become one of the top five global electronics manufacturing hubs by 2025.",
+      "prelimsSyllabus": {
+        "subject": "Economy",
+        "area": "Industrial Policy",
+        "topic": "Government initiatives for manufacturing"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-extends-humanitarian-aid-flood-affected-bangladesh",
+      "headline": "India Extends Humanitarian Aid and Disaster Relief to Flood-Affected Bangladesh, Reinforcing Regional Cooperation",
+      "explainer": "• India has promptly dispatched significant humanitarian aid and disaster relief (HADR) materials to Bangladesh, following severe floods caused by heavy monsoon rains.\n• The aid package includes essential supplies, medical teams, and technical assistance for rescue and rehabilitation efforts in the affected regions.\n• This swift response underscores India's 'Neighbourhood First' policy and its commitment to regional solidarity and cooperation in times of crisis.\n• Both nations are also exploring long-term cooperation mechanisms for flood management and early warning systems, particularly concerning transboundary rivers.\n• The gesture has been widely appreciated by the Bangladeshi government, further strengthening bilateral ties.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Disaster and disaster management"
+      ],
+      "date": "2025-07-27",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "India-Bangladesh Relations",
+        "Humanitarian Aid",
+        "Disaster Relief",
+        "Neighbourhood First Policy",
+        "Regional Cooperation",
+        "Flood Management"
+      ],
+      "keyTerms": [
+        "Humanitarian Assistance and Disaster Relief (HADR)",
+        "Neighbourhood First Policy",
+        "Bilateral Relations",
+        "Transboundary Rivers",
+        "Disaster Risk Reduction (DRR)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Key aspects of India's 'Neighbourhood First' policy.",
+        "Major rivers flowing from India to Bangladesh (e.g., Ganga, Brahmaputra).",
+        "Role of India in regional HADR operations (e.g., Nepal earthquake, Sri Lanka crisis).",
+        "Bilateral mechanisms between India and Bangladesh for water management.",
+        "International frameworks for disaster management (e.g., Sendai Framework)."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of India's humanitarian aid to Bangladesh in the context of its 'Neighbourhood First' policy and regional diplomacy.",
+        "Analyze the challenges and opportunities for enhanced bilateral cooperation between India and Bangladesh in disaster management and climate change adaptation.",
+        "Evaluate the role of transboundary river management in mitigating flood risks in the Ganga-Brahmaputra basin.",
+        "Examine how such gestures of solidarity contribute to building trust and fostering long-term strategic partnerships.",
+        "Suggest policy recommendations for developing a robust regional disaster response mechanism in South Asia."
+      ],
+      "imageDescription": "Indian aid workers distributing relief supplies in a flood-affected village in Bangladesh.",
+      "section": "International",
+      "trivia": "Bangladesh is often referred to as a 'land of rivers', with over 700 rivers including tributaries.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India and its neighborhood",
+        "topic": "Bilateral Relations"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "report-highlights-human-wildlife-conflict-western-ghats",
+      "headline": "Report Highlights Escalating Human-Wildlife Conflict in Western Ghats, Calls for Integrated Management",
+      "explainer": "• A new report released by a leading environmental research institute has highlighted a significant increase in human-wildlife conflict incidents across the Western Ghats region.\n• The report attributes the rise to habitat fragmentation, encroachment into forest areas, changing agricultural practices, and increasing wildlife populations in certain pockets.\n• Incidents of crop raiding by elephants, livestock depredation by big cats, and attacks on humans have become more frequent, leading to economic losses and safety concerns for local communities.\n• It advocates for an integrated management approach, combining scientific research, community participation, early warning systems, and habitat restoration.\n• The findings underscore the urgent need for revised conservation strategies that balance human development needs with wildlife protection.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Biodiversity",
+        "Important Geophysical phenomena"
+      ],
+      "date": "2025-07-27",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Human-Wildlife Conflict",
+        "Western Ghats",
+        "Wildlife Conservation",
+        "Habitat Fragmentation",
+        "Biodiversity Hotspot",
+        "Ecosystem Management"
+      ],
+      "keyTerms": [
+        "Human-Wildlife Conflict (HWC)",
+        "Western Ghats",
+        "Biodiversity Hotspot",
+        "Habitat Fragmentation",
+        "Corridor Management",
+        "Community-Based Conservation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Geographical extent and ecological significance of the Western Ghats.",
+        "Status of major wildlife species in the Western Ghats (e.g., elephants, tigers, leopards).",
+        "Causes of human-wildlife conflict.",
+        "Government initiatives for wildlife conservation (e.g., Project Tiger, Project Elephant).",
+        "Role of local communities in conservation efforts."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the underlying causes and escalating nature of human-wildlife conflict in biodiversity hotspots like the Western Ghats.",
+        "Analyze the socio-economic impacts of human-wildlife conflict on local communities and their implications for conservation efforts.",
+        "Evaluate the effectiveness of current conservation strategies in mitigating such conflicts and suggest an integrated management approach.",
+        "Examine the role of habitat restoration, scientific monitoring, and community engagement in achieving coexistence between humans and wildlife.",
+        "Propose policy recommendations for sustainable land use planning and compensation mechanisms to address human-wildlife conflict effectively."
+      ],
+      "imageDescription": "An elephant herd near agricultural fields on the fringe of a forest in the Western Ghats.",
+      "section": "Environment",
+      "trivia": "The Western Ghats are older than the Himalayas and are recognized as one of the world's eight 'hottest hotspots' of biological diversity.",
+      "prelimsSyllabus": {
+        "subject": "Environment",
+        "area": "Biodiversity",
+        "topic": "Conservation issues"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indian-researchers-develop-low-cost-diagnostic-kit-dengue-chikungunya",
+      "headline": "Indian Researchers Develop Low-Cost, Rapid Diagnostic Kit for Dengue and Chikungunya",
+      "explainer": "• A team of researchers from an Indian Institute of Technology (IIT) and a medical research centre has successfully developed a novel low-cost, rapid diagnostic kit for vector-borne diseases like Dengue and Chikungunya.\n• The kit promises accurate detection within 30 minutes, significantly faster and more affordable than existing PCR-based tests, making it ideal for remote and resource-limited settings.\n• Utilizing a paper-based microfluidic technology, the device requires minimal training to operate and can be used for point-of-care testing.\n• This innovation is expected to play a crucial role in early disease detection, enabling timely treatment and preventing outbreaks, especially during monsoon seasons.\n• The Ministry of Health and Family Welfare has lauded the indigenous development, emphasizing its potential for public health impact.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology",
+        "Indigenization of technology and developing new technology",
+        "Biotechnology",
+        "Health"
+      ],
+      "date": "2025-07-27",
+      "source": "DD News",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Diagnostic Kit",
+        "Dengue",
+        "Chikungunya",
+        "Vector-Borne Diseases",
+        "Public Health",
+        "Biotechnology",
+        "Indigenous Technology"
+      ],
+      "keyTerms": [
+        "Diagnostic Kit",
+        "Dengue Virus",
+        "Chikungunya Virus",
+        "Vector-Borne Diseases",
+        "Point-of-Care Testing (POCT)",
+        "Microfluidics",
+        "Early Detection"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Causative agents and vectors of Dengue and Chikungunya.",
+        "Symptoms and complications of these diseases.",
+        "Types of diagnostic tests for vector-borne diseases (e.g., ELISA, PCR).",
+        "Concept of 'point-of-care' diagnostics.",
+        "Government initiatives for controlling vector-borne diseases."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of developing low-cost, rapid diagnostic kits for vector-borne diseases in a country like India.",
+        "Analyze how indigenous technological advancements in diagnostics can strengthen India's public health infrastructure and disease surveillance.",
+        "Evaluate the potential impact of this innovation on disease management, especially in rural and remote areas lacking advanced medical facilities.",
+        "Examine the challenges in scaling up production and ensuring widespread distribution of such diagnostic tools across the country.",
+        "Suggest policy measures to encourage further research and development in affordable healthcare technologies and their integration into national health programs."
+      ],
+      "imageDescription": "A close-up of a rapid diagnostic test strip showing results for Dengue/Chikungunya.",
+      "section": "Science",
+      "trivia": "Dengue fever is also known as 'breakbone fever' due to the severe pain it can cause in muscles and joints.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Biotechnology",
+        "topic": "Health and Disease"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "judiciary-embraces-digital-transformation-e-courts-project-phase-iii",
+      "headline": "Judiciary Embraces Digital Transformation: E-Courts Project Phase III Shows Promising Results in Expediting Justice",
+      "explainer": "• The E-Courts Project, a mission mode project under the National e-Governance Plan, has entered its third phase, showcasing significant progress in digitizing India's judiciary.\n• High Courts across several states have reported promising results with the full implementation of e-filing systems, virtual hearings, and online case management tools.\n• The project aims to improve access to justice, enhance transparency, and reduce case pendency by leveraging information and communication technology.\n• Phase III focuses on integrating artificial intelligence (AI) for legal research, predictive analytics for case management, and expanding digital infrastructure to lower courts.\n• Chief Justice of India highlighted the transformative potential of technology in making the justice delivery system more efficient and citizen-centric.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Structure, organization and functioning of the Executive and the Judiciary",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "E-governance"
+      ],
+      "date": "2025-07-27",
+      "source": "The Economic Times",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "E-Courts Project",
+        "Judicial Reforms",
+        "Digital Transformation",
+        "Access to Justice",
+        "Case Pendency",
+        "E-governance",
+        "Indian Judiciary"
+      ],
+      "keyTerms": [
+        "E-Courts Project",
+        "National e-Governance Plan (NeGP)",
+        "E-filing",
+        "Virtual Hearings",
+        "National Judicial Data Grid (NJDG)",
+        "Artificial Intelligence (AI) in Judiciary"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Objectives and phases of the E-Courts Project.",
+        "Concept of National Judicial Data Grid (NJDG) and its utility.",
+        "Benefits of e-filing and virtual hearings.",
+        "Challenges faced by the Indian judiciary (e.g., case pendency, access).",
+        "Role of technology in enhancing transparency and efficiency in governance."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of the E-Courts Project Phase III in addressing the challenges of judicial backlogs and improving access to justice in India.",
+        "Analyze the benefits and limitations of integrating advanced technologies like AI into the judicial system, considering ethical and practical implications.",
+        "Evaluate the impact of digital transformation on various stakeholders, including lawyers, litigants, and judges, and the need for capacity building.",
+        "Examine how the E-Courts Project contributes to the broader goals of e-governance and citizen-centric service delivery in India.",
+        "Suggest policy measures to ensure equitable access to digital justice, bridging the digital divide, and strengthening cyber security in judicial systems."
+      ],
+      "imageDescription": "A courtroom scene with judges and lawyers attending via video conferencing on large screens.",
+      "section": "National",
+      "trivia": "The National Judicial Data Grid (NJDG) provides data on over 20 crore cases across Indian courts, making it one of the largest judicial databases in the world.",
+      "prelimsSyllabus": {
+        "subject": "Polity and Governance",
+        "area": "Judiciary",
+        "topic": "Judicial Reforms and E-governance"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "editorial-indias-demographic-dividend-skilling-workforce",
+      "headline": "India's Demographic Dividend: Skilling the Workforce for Future Growth",
+      "explainer": "• An editorial piece highlights India's ongoing demographic dividend, characterized by a large working-age population, as a key driver for economic growth.\n• It emphasizes that merely having a young population is insufficient; effective skill development and quality education are crucial to harness this potential.\n• The piece points out the existing skill gap between industry demands and the available workforce, urging for reforms in vocational training and higher education.\n• It advocates for greater synergy between government policies, educational institutions, and private sector to create a future-ready workforce.\n• The editorial concludes that investing in human capital through targeted skilling initiatives is paramount to ensure inclusive and sustainable economic development.",
+      "category": "editorial",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies",
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment"
+      ],
+      "date": "2025-07-27",
+      "source": "The Hindu",
+      "sourceUrl": "",
+      "importance": "high",
+      "tags": [
+        "Demographic Dividend",
+        "Skill Development",
+        "Education",
+        "Employment",
+        "Economic Growth",
+        "Human Capital",
+        "Vocational Training"
+      ],
+      "keyTerms": [
+        "Demographic Dividend",
+        "Working-Age Population",
+        "Skill Gap",
+        "Vocational Education and Training (VET)",
+        "Labor Force Participation Rate",
+        "Human Capital"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Definition of demographic dividend and India's current phase.",
+        "Current trends in India's population structure (age distribution).",
+        "Major government schemes for skill development (e.g., Skill India Mission, PMKVY).",
+        "Concepts of labor force participation rate and unemployment rate.",
+        "Sectors with high demand for skilled labor in India."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss how India can effectively leverage its demographic dividend to achieve sustained economic growth and inclusive development.",
+        "Analyze the challenges posed by the existing skill gap and inadequate vocational training infrastructure in harnessing the potential of the young workforce.",
+        "Evaluate the effectiveness of current government policies and initiatives aimed at skill development and employment generation.",
+        "Examine the role of industry-academia collaboration in bridging the skill gap and making education more relevant to market demands.",
+        "Suggest a comprehensive strategy involving education reforms, public-private partnerships, and future-oriented skilling to create a globally competitive workforce."
+      ],
+      "imageDescription": "Young Indian students in a vocational training center learning practical skills.",
+      "section": "Editorial",
+      "trivia": "India is projected to have the largest working-age population in the world by 2030.",
+      "prelimsSyllabus": {
+        "subject": "Society",
+        "area": "Population and Associated Issues",
+        "topic": "Demographic Dividend"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "ministry-of-culture-launches-national-digital-archives-initiative",
+      "headline": "Ministry of Culture Launches 'National Digital Archives' Initiative for Preserving India's Heritage",
+      "explainer": "• The Ministry of Culture has inaugurated the 'National Digital Archives' initiative, a landmark project aimed at digitizing and preserving India's rich cultural heritage.\n• The initiative will focus on creating a centralized digital repository of ancient manuscripts, historical documents, rare books, and archival records from various institutions across the country.\n• This platform will ensure wider access for researchers, scholars, and the general public, while safeguarding fragile physical artifacts from degradation.\n• It leverages advanced digital imaging and data management technologies to preserve diverse forms of cultural expression.\n• Union Minister for Culture emphasized that the project will make India's vast historical knowledge accessible globally and promote cultural understanding.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times",
+        "Preservation of cultural heritage",
+        "Role of technology in cultural preservation"
+      ],
+      "date": "2025-07-27",
+      "source": "The Times of India",
+      "sourceUrl": "",
+      "importance": "medium",
+      "tags": [
+        "Cultural Heritage",
+        "Digital Archives",
+        "National Archives",
+        "Preservation",
+        "Art and Culture",
+        "Digitization",
+        "Indian History"
+      ],
+      "keyTerms": [
+        "National Digital Archives",
+        "Cultural Heritage",
+        "Digitization",
+        "Archival Records",
+        "Manuscripts",
+        "Conservation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Role of the National Archives of India.",
+        "Benefits of digital preservation for cultural heritage.",
+        "Types of cultural artifacts included (manuscripts, documents, art).",
+        "Challenges in preserving physical historical records.",
+        "Importance of cultural heritage for national identity."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of the 'National Digital Archives' initiative in preserving and making accessible India's diverse cultural heritage.",
+        "Analyze the technological challenges and ethical considerations involved in digitizing vast collections of ancient manuscripts and historical documents.",
+        "Evaluate how digital archives can promote research, education, and cultural tourism, both nationally and internationally.",
+        "Examine the role of public-private partnerships and international collaborations in strengthening cultural preservation efforts in India.",
+        "Suggest measures to ensure the long-term sustainability, accessibility, and security of digital cultural repositories."
+      ],
+      "imageDescription": "A hand scanning an ancient manuscript, with digital data flowing into a cloud icon.",
+      "section": "National",
+      "trivia": "India has approximately 10 million manuscripts, making it the largest collection in the world.",
+      "prelimsSyllabus": {
+        "subject": "Art and Culture",
+        "area": "Indian Heritage",
+        "topic": "Preservation of Culture"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "Supreme Court upholds key provisions of Digital Personal Data Protection Act, particularly on cross-border data transfers, bringing clarity to digital governance.",
+    "RBI's Monetary Policy Committee maintains repo rate amidst persistent inflation concerns, projecting moderate economic growth for India.",
+    "India champions equitable global trade rules at G20 Ministerial meeting, advocating for WTO reforms ahead of major international conference.",
+    "Ministry of Environment launches 'Coastal Blue Carbon Initiative' to conserve mangroves and seagrasses, bolstering climate change mitigation efforts.",
+    "ISRO achieves critical milestone with successful test of Reusable Launch Vehicle (RLV) technology demonstrator, aiming for cost-effective space access."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the Digital Personal Data Protection Act (DPDP Act), 2023, consider the following statements:\n1. It defines a 'Data Fiduciary' as any person who determines the purpose and means of processing personal data.\n2. The Act mandates that cross-border transfer of personal data can only occur to countries specifically notified by the Central Government.\n3. The Data Protection Board of India is established to adjudicate disputes and impose penalties under the Act.\nWhich of the statements given above are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(d) 1, 2 and 3",
+      "explanation": "All three statements are correct regarding the Digital Personal Data Protection Act, 2023. Statement 1 accurately defines a Data Fiduciary. Statement 2 refers to the provision for cross-border data transfers. Statement 3 correctly identifies the Data Protection Board of India as the adjudicating authority."
+    },
+    {
+      "question": "Which of the following is NOT a primary tool used by the Reserve Bank of India (RBI) for conducting monetary policy?\n(a) Repo Rate\n(b) Cash Reserve Ratio (CRR)\n(c) Fiscal Deficit Target\n(d) Open Market Operations (OMOs)",
+      "answer": "(c) Fiscal Deficit Target",
+      "explanation": "The Fiscal Deficit Target is a component of fiscal policy, determined by the government, not a tool of monetary policy used by the RBI. Repo Rate, Cash Reserve Ratio (CRR), and Open Market Operations (OMOs) are all primary tools of monetary policy used by the RBI to control liquidity and inflation."
+    },
+    {
+      "question": "The term 'Blue Carbon' frequently mentioned in environmental discussions refers to carbon sequestered by:\n1. Terrestrial forests\n2. Mangroves\n3. Seagrass meadows\n4. Desert ecosystems\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1 and 4 only",
+        "(b) 2 and 3 only",
+        "(c) 1, 2 and 3 only",
+        "(d) 2, 3 and 4 only"
+      ],
+      "answer": "(b) 2 and 3 only",
+      "explanation": "'Blue Carbon' specifically refers to carbon captured by the world's ocean and coastal ecosystems. Mangroves and seagrass meadows are prime examples of blue carbon ecosystems. Terrestrial forests store 'green carbon', and desert ecosystems are not typically significant carbon sinks in this context."
+    },
+    {
+      "question": "Consider the following statements regarding India's Reusable Launch Vehicle (RLV) program:\n1. The primary aim is to significantly reduce the cost of access to space.\n2. It involves mastering technologies such as hypersonic flight and autonomous landing.\n3. ISRO has already developed a fully operational two-stage orbital RLV.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 2 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 2 only",
+      "explanation": "Statements 1 and 2 are correct. The RLV program aims to reduce costs and involves mastering key technologies. Statement 3 is incorrect; ISRO is still in the process of developing and testing technology demonstrators for a fully operational RLV, it has not yet developed one."
+    },
+    {
+      "question": "Which of the following bodies is responsible for constructing and maintaining road networks in India's border areas and friendly neighboring countries?",
+      "options": [
+        "(a) National Highways Authority of India (NHAI)",
+        "(b) Public Works Department (PWD)",
+        "(c) Border Roads Organisation (BRO)",
+        "(d) Indian Road Congress (IRC)"
+      ],
+      "answer": "(c) Border Roads Organisation (BRO)",
+      "explanation": "The Border Roads Organisation (BRO) is a statutory body under the Ministry of Defence, specifically responsible for road construction and maintenance in India's border areas and some friendly neighboring countries, playing a crucial role in strategic connectivity and national security. NHAI manages national highways, PWDs manage state roads, and IRC is a technical body."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "The Supreme Court's recent ruling on the Digital Personal Data Protection Act, 2023, is a significant step towards clarifying India's data governance framework. Discuss the implications of this judgment for individual privacy, national security, and India's digital economy. (15 marks, 250 words)",
+      "syllabusMatch": "GS2: Government policies and interventions for development in various sectors and issues arising out of their design and implementation; GS3: Cyber Security",
+      "approach": "Introduce the DPDP Act and the SC ruling's significance. Discuss implications for individual privacy (consent, data principal rights), national security (government access, data localization), and digital economy (compliance for businesses, cross-border data flows, innovation). Conclude with balancing these aspects."
+    },
+    {
+      "question": "Despite India's demographic dividend, the country faces a significant skill gap. Analyze the challenges in harnessing India's young workforce for future economic growth and suggest comprehensive policy measures to address these issues. (15 marks, 250 words)",
+      "syllabusMatch": "GS1: Population and associated issues, poverty and developmental issues; GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+      "approach": "Define demographic dividend and acknowledge its potential. Identify challenges like skill-job mismatch, quality of education, vocational training gaps, low female labor force participation. Suggest policy measures: education reforms, industry-academia collaboration, focus on future skills, apprenticeship models, public-private partnerships, and gender-inclusive policies."
+    },
+    {
+      "question": "Human-wildlife conflict is an escalating concern in India's biodiversity hotspots. Examine the underlying causes of this conflict in regions like the Western Ghats and propose an integrated management approach for promoting coexistence. (10 marks, 150 words)",
+      "syllabusMatch": "GS3: Conservation, environmental pollution and degradation, environmental impact assessment; Biodiversity",
+      "approach": "Introduce HWC and its increase in biodiversity hotspots like Western Ghats. Discuss causes: habitat loss/fragmentation, encroachment, land-use change, increasing wildlife populations, traditional practices. Propose an integrated approach: scientific monitoring, community participation, early warning systems, habitat restoration, compensation mechanisms, land-use planning, and awareness campaigns."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The Digital Personal Data Protection Act (DPDP Act) 2023 aims to protect personal data by regulating its processing.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "DPDP Act",
+        "Data Privacy"
+      ]
+    },
+    {
+      "text": "Repo rate is the rate at which the RBI lends money to commercial banks, a key monetary policy tool.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Repo Rate",
+        "RBI"
+      ]
+    },
+    {
+      "text": "The G20 comprises 19 countries and the European Union, representing major global economies.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "G20",
+        "International Groupings"
+      ]
+    },
+    {
+      "text": "Blue Carbon ecosystems like mangroves are highly efficient at sequestering atmospheric carbon dioxide.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Blue Carbon",
+        "Mangroves"
+      ]
+    },
+    {
+      "text": "ISRO's Reusable Launch Vehicle (RLV) program aims to make space access more affordable and sustainable.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "RLV"
+      ]
+    },
+    {
+      "text": "The Border Roads Organisation (BRO) constructs and maintains roads in India's strategic border areas.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "BRO",
+        "Border Infrastructure"
+      ]
+    },
+    {
+      "text": "The Representation of the People Act (RPA) governs the conduct of elections in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "RPA",
+        "Electoral Law"
+      ]
+    },
+    {
+      "text": "Ayushman Bharat Health and Wellness Centres (AB-HWCs) provide comprehensive primary healthcare services.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "Ayushman Bharat",
+        "Healthcare"
+      ]
+    },
+    {
+      "text": "Production Linked Incentive (PLI) schemes offer incentives to boost domestic manufacturing in key sectors.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "PLI Scheme",
+        "Make in India"
+      ]
+    },
+    {
+      "text": "The Western Ghats is one of the world's eight 'hottest hotspots' of biological diversity.",
+      "category": "geography",
+      "gsPaper": "GS1",
+      "tags": [
+        "Western Ghats",
+        "Biodiversity"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "editorial-indias-demographic-dividend-skilling-workforce",
+        "headline": "India's Demographic Dividend: Skilling the Workforce for Future Growth",
+        "explainer": "• An editorial piece highlights India's ongoing demographic dividend, characterized by a large working-age population, as a key driver for economic growth.\n• It emphasizes that merely having a young population is insufficient; effective skill development and quality education are crucial to harness this potential.\n• The piece points out the existing skill gap between industry demands and the available workforce, urging for reforms in vocational training and higher education.\n• It advocates for greater synergy between government policies, educational institutions, and private sector to create a future-ready workforce.\n• The editorial concludes that investing in human capital through targeted skilling initiatives is paramount to ensure inclusive and sustainable economic development.",
+        "category": "editorial",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies",
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment"
+        ],
+        "date": "2025-07-27",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Demographic Dividend",
+          "Skill Development",
+          "Education",
+          "Employment",
+          "Economic Growth",
+          "Human Capital",
+          "Vocational Training"
+        ],
+        "keyTerms": [
+          "Demographic Dividend",
+          "Working-Age Population",
+          "Skill Gap",
+          "Vocational Education and Training (VET)",
+          "Labor Force Participation Rate",
+          "Human Capital"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Definition of demographic dividend and India's current phase.",
+          "Current trends in India's population structure (age distribution).",
+          "Major government schemes for skill development (e.g., Skill India Mission, PMKVY).",
+          "Concepts of labor force participation rate and unemployment rate.",
+          "Sectors with high demand for skilled labor in India."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss how India can effectively leverage its demographic dividend to achieve sustained economic growth and inclusive development.",
+          "Analyze the challenges posed by the existing skill gap and inadequate vocational training infrastructure in harnessing the potential of the young workforce.",
+          "Evaluate the effectiveness of current government policies and initiatives aimed at skill development and employment generation.",
+          "Examine the role of industry-academia collaboration in bridging the skill gap and making education more relevant to market demands.",
+          "Suggest a comprehensive strategy involving education reforms, public-private partnerships, and future-oriented skilling to create a globally competitive workforce."
+        ],
+        "imageDescription": "Young Indian students in a vocational training center learning practical skills.",
+        "section": "Editorial",
+        "trivia": "India is projected to have the largest working-age population in the world by 2030.",
+        "prelimsSyllabus": {
+          "subject": "Society",
+          "area": "Population and Associated Issues",
+          "topic": "Demographic Dividend"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "ministry-of-culture-launches-national-digital-archives-initiative",
+        "headline": "Ministry of Culture Launches 'National Digital Archives' Initiative for Preserving India's Heritage",
+        "explainer": "• The Ministry of Culture has inaugurated the 'National Digital Archives' initiative, a landmark project aimed at digitizing and preserving India's rich cultural heritage.\n• The initiative will focus on creating a centralized digital repository of ancient manuscripts, historical documents, rare books, and archival records from various institutions across the country.\n• This platform will ensure wider access for researchers, scholars, and the general public, while safeguarding fragile physical artifacts from degradation.\n• It leverages advanced digital imaging and data management technologies to preserve diverse forms of cultural expression.\n• Union Minister for Culture emphasized that the project will make India's vast historical knowledge accessible globally and promote cultural understanding.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times",
+          "Preservation of cultural heritage",
+          "Role of technology in cultural preservation"
+        ],
+        "date": "2025-07-27",
+        "source": "The Times of India",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Cultural Heritage",
+          "Digital Archives",
+          "National Archives",
+          "Preservation",
+          "Art and Culture",
+          "Digitization",
+          "Indian History"
+        ],
+        "keyTerms": [
+          "National Digital Archives",
+          "Cultural Heritage",
+          "Digitization",
+          "Archival Records",
+          "Manuscripts",
+          "Conservation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Role of the National Archives of India.",
+          "Benefits of digital preservation for cultural heritage.",
+          "Types of cultural artifacts included (manuscripts, documents, art).",
+          "Challenges in preserving physical historical records.",
+          "Importance of cultural heritage for national identity."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of the 'National Digital Archives' initiative in preserving and making accessible India's diverse cultural heritage.",
+          "Analyze the technological challenges and ethical considerations involved in digitizing vast collections of ancient manuscripts and historical documents.",
+          "Evaluate how digital archives can promote research, education, and cultural tourism, both nationally and internationally.",
+          "Examine the role of public-private partnerships and international collaborations in strengthening cultural preservation efforts in India.",
+          "Suggest measures to ensure the long-term sustainability, accessibility, and security of digital cultural repositories."
+        ],
+        "imageDescription": "A hand scanning an ancient manuscript, with digital data flowing into a cloud icon.",
+        "section": "National",
+        "trivia": "India has approximately 10 million manuscripts, making it the largest collection in the world.",
+        "prelimsSyllabus": {
+          "subject": "Art and Culture",
+          "area": "Indian Heritage",
+          "topic": "Preservation of Culture"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS2": [
+      {
+        "id": "sc-upholds-data-protection-act-cross-border-transfers",
+        "headline": "Supreme Court Upholds Key Provisions of Digital Personal Data Protection Act, 2023, with Focus on Cross-Border Transfers",
+        "explainer": "• The Supreme Court, in a landmark ruling, upheld the constitutional validity of several key provisions of the Digital Personal Data Protection Act (DPDP Act), 2023.\n• The judgment specifically addressed concerns regarding the framework for cross-border data transfers, affirming the government's power to designate countries for such transfers while emphasizing robust safeguards.\n• The court underscored the importance of balancing individual privacy rights with national security and economic interests, calling for careful implementation of data fiduciary obligations.\n• It clarified the roles and responsibilities of data fiduciaries and data processors, stressing the need for clear consent mechanisms and data minimization principles.\n• The ruling is expected to provide much-needed clarity for technology companies and data-intensive industries operating in India, impacting India's digital economy and international data flows.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Structure, organization and functioning of the Executive and the Judiciary",
+          "IT & Computers",
+          "Cyber Security"
+        ],
+        "date": "2025-07-27",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Digital Personal Data Protection Act",
+          "DPDP Act",
+          "Supreme Court",
+          "Data Privacy",
+          "Cross-Border Data Transfer",
+          "Data Fiduciaries",
+          "Digital India"
+        ],
+        "keyTerms": [
+          "Digital Personal Data Protection Act (DPDP Act)",
+          "Data Fiduciary",
+          "Data Principal",
+          "Cross-Border Data Transfer",
+          "Right to Privacy",
+          "Data Localisation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Digital Personal Data Protection Act, 2023: Key features, objectives, and enforcement body (Data Protection Board of India).",
+          "Definition of 'Data Fiduciary', 'Data Processor', and 'Data Principal'.",
+          "Provisions related to consent, legitimate uses, and duties of data fiduciaries.",
+          "Section related to cross-border data transfers and the government's role in designating countries.",
+          "The Puttaswamy judgment (2017) and its relevance to the right to privacy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the implications of the Supreme Court's ruling on India's digital economy and global data governance.",
+          "Analyze the challenges and opportunities in implementing the DPDP Act, particularly concerning compliance for businesses and protection for citizens.",
+          "Critically evaluate the balance struck between individual privacy rights, national security, and economic growth in the context of data protection.",
+          "Examine the potential impact on India's standing as a data processing hub and its role in shaping international data transfer norms.",
+          "Suggest measures to strengthen the enforcement mechanism and address the digital divide in ensuring data protection for all citizens."
+        ],
+        "imageDescription": "Illustration of digital data flowing across borders with security locks, overseen by a judicial gavel.",
+        "section": "Lead Opinion",
+        "trivia": "India's Digital Personal Data Protection Act is one of the few global laws that imposes duties on data principals (individuals) in addition to data fiduciaries.",
+        "prelimsSyllabus": {
+          "subject": "Polity and Governance",
+          "area": "Government Policies and Interventions",
+          "topic": "Issues relating to IT & Cyber Security"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "india-g20-ministerial-equitable-trade",
+        "headline": "India Pushes for Equitable Global Trade Rules at G20 Ministerial Ahead of WTO Conference",
+        "explainer": "• India hosted a crucial G20 Trade and Investment Ministerial Meeting, focusing on reforms for a more equitable and inclusive global trading system.\n• Union Minister of Commerce and Industry emphasized the need for addressing historical imbalances and ensuring special and differential treatment for developing and least developed countries.\n• Discussions revolved around strengthening the World Trade Organization (WTO) dispute settlement mechanism and reducing non-tariff barriers that disproportionately affect developing economies.\n• India advocated for greater transparency and predictability in global supply chains, urging G20 nations to avoid protectionist measures.\n• The outcomes of this ministerial meeting are expected to significantly influence the agenda for the upcoming WTO Ministerial Conference.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Important International institutions, agencies and fora – their structure, mandate."
+        ],
+        "date": "2025-07-27",
+        "source": "PTI",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "G20",
+          "WTO",
+          "Global Trade",
+          "Multilateralism",
+          "Trade Reforms",
+          "Developing Countries",
+          "India's Foreign Policy"
+        ],
+        "keyTerms": [
+          "World Trade Organization (WTO)",
+          "G20",
+          "Special and Differential Treatment (S&DT)",
+          "Non-Tariff Barriers (NTBs)",
+          "Dispute Settlement Mechanism (DSM)",
+          "Protectionism"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Objectives and membership of G20 and WTO.",
+          "Key principles of multilateral trading system (e.g., MFN, National Treatment).",
+          "Concept of Special and Differential Treatment (S&DT) for developing countries.",
+          "Recent challenges faced by the WTO's dispute settlement body.",
+          "India's major trade agreements and trade blocs it is part of."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze India's strategic objectives in advocating for equitable global trade rules at multilateral forums like G20 and WTO.",
+          "Discuss the current challenges to the multilateral trading system and the role India can play in reforming it.",
+          "Evaluate the implications of protectionist tendencies and trade wars on developing economies and global supply chains.",
+          "Examine how India's stance aligns with its 'Act East' and 'Neighbourhood First' policies in promoting regional economic integration.",
+          "Suggest concrete steps for strengthening the WTO's effectiveness and ensuring fair trade practices for all member nations."
+        ],
+        "imageDescription": "Flags of G20 nations in a conference setting, with India's flag prominent.",
+        "section": "International",
+        "trivia": "The G20 represents about two-thirds of the world's population, 85% of global GDP, and over 75% of global trade.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Global Groupings",
+          "topic": "WTO and G20"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "parliamentary-panel-recommends-reforms-election-laws-voter-id-campaign-finance",
+        "headline": "Parliamentary Panel Recommends Sweeping Reforms in Election Laws: Focus on Voter ID and Campaign Finance",
+        "explainer": "• A high-level Parliamentary Standing Committee on Law and Justice has submitted its report recommending significant amendments to the Election Laws.\n• Key recommendations include linking Aadhaar with voter ID cards to streamline voter registration and prevent duplication, while ensuring data privacy.\n• The panel also proposed comprehensive reforms to campaign finance, advocating for greater transparency in political funding and expenditure.\n• Other suggestions cover strengthening the Election Commission of India's powers, regulating social media during elections, and improving dispute resolution mechanisms.\n• These recommendations are aimed at enhancing the integrity and fairness of the electoral process in India.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Salient features of the Representation of People’s Act",
+          "Appointment to various Constitutional posts, powers, functions and responsibilities of various Constitutional Bodies",
+          "Electoral reforms"
+        ],
+        "date": "2025-07-27",
+        "source": "The Indian Express",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Electoral Reforms",
+          "Election Laws",
+          "Voter ID",
+          "Aadhaar Linkage",
+          "Campaign Finance",
+          "Election Commission of India",
+          "Democracy"
+        ],
+        "keyTerms": [
+          "Representation of the People Act (RPA)",
+          "Election Commission of India (ECI)",
+          "Electoral Roll",
+          "Aadhaar-Voter ID Linkage",
+          "Campaign Finance Reform",
+          "Political Funding"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key provisions of the Representation of the People Act (RPA), 1950 and 1951.",
+          "Constitutional status and powers of the Election Commission of India (Article 324).",
+          "Existing provisions for voter registration and identification.",
+          "Current regulations on political funding and expenditure.",
+          "Previous electoral reform committees and their recommendations."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the necessity of electoral reforms in India, particularly concerning voter registration accuracy and transparency in political funding.",
+          "Analyze the potential benefits and challenges of linking Aadhaar with voter ID cards, addressing concerns about privacy and exclusion.",
+          "Critically evaluate the existing framework of campaign finance in India and the proposed reforms for enhancing transparency and accountability.",
+          "Examine the role of the Election Commission of India in implementing these reforms and the need for strengthening its autonomy.",
+          "Suggest a roadmap for comprehensive electoral reforms that can strengthen democratic processes while addressing practical implementation hurdles."
+        ],
+        "imageDescription": "A ballot box with an Aadhaar card overlay, symbolizing electoral reforms.",
+        "section": "National",
+        "trivia": "The first general elections in India (1951-52) were a monumental undertaking, involving over 173 million eligible voters.",
+        "prelimsSyllabus": {
+          "subject": "Polity and Governance",
+          "area": "Electoral System",
+          "topic": "Electoral Reforms"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "union-health-ministry-unveils-mental-health-support-rural-india",
+        "headline": "Union Health Ministry Unveils Comprehensive Mental Health Support Guidelines for Rural India",
+        "explainer": "• The Union Health Ministry has launched new comprehensive guidelines to strengthen mental health support services, specifically targeting rural populations across India.\n• The guidelines emphasize a community-based approach, integrating mental health care into primary healthcare services through Ayushman Bharat Health and Wellness Centres (AB-HWCs).\n• Key provisions include training ASHA workers and ANMs for early identification and basic counseling, establishing tele-mental health services, and ensuring drug availability at local levels.\n• The initiative aims to reduce the stigma associated with mental health issues and improve accessibility to care in underserved areas.\n• This move aligns with the National Mental Health Program's vision of universal access to mental healthcare.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government policies and interventions for development in various sectors"
+        ],
+        "date": "2025-07-27",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Mental Health",
+          "Rural Health",
+          "Public Health",
+          "Ayushman Bharat",
+          "ASHA Workers",
+          "Healthcare Access",
+          "National Mental Health Program"
+        ],
+        "keyTerms": [
+          "National Mental Health Program (NMHP)",
+          "Ayushman Bharat Health and Wellness Centres (AB-HWCs)",
+          "ASHA Workers",
+          "Tele-Mental Health Services",
+          "Stigma",
+          "Primary Healthcare"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Objectives of the National Mental Health Program (NMHP).",
+          "Role of Ayushman Bharat Health and Wellness Centres (AB-HWCs) in primary healthcare.",
+          "Functions of ASHA (Accredited Social Health Activist) workers and ANMs (Auxiliary Nurse Midwives).",
+          "Key provisions of the Mental Healthcare Act, 2017.",
+          "Prevalence of mental health disorders in India, especially rural areas."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the challenges in providing mental healthcare services in rural India and how the new guidelines aim to address them.",
+          "Analyze the role of community health workers like ASHA and ANMs in strengthening grassroots mental health support.",
+          "Evaluate the effectiveness of integrating mental health services into primary healthcare under the Ayushman Bharat framework.",
+          "Examine the societal stigma associated with mental health and suggest measures for its reduction and promotion of mental well-being.",
+          "Propose policy recommendations for sustainable funding and capacity building for mental health infrastructure in rural areas."
+        ],
+        "imageDescription": "A group of rural women participating in a health awareness program, with a focus on mental well-being.",
+        "section": "National",
+        "trivia": "Globally, one in four people will be affected by mental or neurological disorders at some point in their lives.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Health",
+          "topic": "Mental Health"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-extends-humanitarian-aid-flood-affected-bangladesh",
+        "headline": "India Extends Humanitarian Aid and Disaster Relief to Flood-Affected Bangladesh, Reinforcing Regional Cooperation",
+        "explainer": "• India has promptly dispatched significant humanitarian aid and disaster relief (HADR) materials to Bangladesh, following severe floods caused by heavy monsoon rains.\n• The aid package includes essential supplies, medical teams, and technical assistance for rescue and rehabilitation efforts in the affected regions.\n• This swift response underscores India's 'Neighbourhood First' policy and its commitment to regional solidarity and cooperation in times of crisis.\n• Both nations are also exploring long-term cooperation mechanisms for flood management and early warning systems, particularly concerning transboundary rivers.\n• The gesture has been widely appreciated by the Bangladeshi government, further strengthening bilateral ties.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Disaster and disaster management"
+        ],
+        "date": "2025-07-27",
+        "source": "Ministry of External Affairs (MEA)",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "India-Bangladesh Relations",
+          "Humanitarian Aid",
+          "Disaster Relief",
+          "Neighbourhood First Policy",
+          "Regional Cooperation",
+          "Flood Management"
+        ],
+        "keyTerms": [
+          "Humanitarian Assistance and Disaster Relief (HADR)",
+          "Neighbourhood First Policy",
+          "Bilateral Relations",
+          "Transboundary Rivers",
+          "Disaster Risk Reduction (DRR)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Key aspects of India's 'Neighbourhood First' policy.",
+          "Major rivers flowing from India to Bangladesh (e.g., Ganga, Brahmaputra).",
+          "Role of India in regional HADR operations (e.g., Nepal earthquake, Sri Lanka crisis).",
+          "Bilateral mechanisms between India and Bangladesh for water management.",
+          "International frameworks for disaster management (e.g., Sendai Framework)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of India's humanitarian aid to Bangladesh in the context of its 'Neighbourhood First' policy and regional diplomacy.",
+          "Analyze the challenges and opportunities for enhanced bilateral cooperation between India and Bangladesh in disaster management and climate change adaptation.",
+          "Evaluate the role of transboundary river management in mitigating flood risks in the Ganga-Brahmaputra basin.",
+          "Examine how such gestures of solidarity contribute to building trust and fostering long-term strategic partnerships.",
+          "Suggest policy recommendations for developing a robust regional disaster response mechanism in South Asia."
+        ],
+        "imageDescription": "Indian aid workers distributing relief supplies in a flood-affected village in Bangladesh.",
+        "section": "International",
+        "trivia": "Bangladesh is often referred to as a 'land of rivers', with over 700 rivers including tributaries.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India and its neighborhood",
+          "topic": "Bilateral Relations"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "judiciary-embraces-digital-transformation-e-courts-project-phase-iii",
+        "headline": "Judiciary Embraces Digital Transformation: E-Courts Project Phase III Shows Promising Results in Expediting Justice",
+        "explainer": "• The E-Courts Project, a mission mode project under the National e-Governance Plan, has entered its third phase, showcasing significant progress in digitizing India's judiciary.\n• High Courts across several states have reported promising results with the full implementation of e-filing systems, virtual hearings, and online case management tools.\n• The project aims to improve access to justice, enhance transparency, and reduce case pendency by leveraging information and communication technology.\n• Phase III focuses on integrating artificial intelligence (AI) for legal research, predictive analytics for case management, and expanding digital infrastructure to lower courts.\n• Chief Justice of India highlighted the transformative potential of technology in making the justice delivery system more efficient and citizen-centric.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Structure, organization and functioning of the Executive and the Judiciary",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "E-governance"
+        ],
+        "date": "2025-07-27",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "E-Courts Project",
+          "Judicial Reforms",
+          "Digital Transformation",
+          "Access to Justice",
+          "Case Pendency",
+          "E-governance",
+          "Indian Judiciary"
+        ],
+        "keyTerms": [
+          "E-Courts Project",
+          "National e-Governance Plan (NeGP)",
+          "E-filing",
+          "Virtual Hearings",
+          "National Judicial Data Grid (NJDG)",
+          "Artificial Intelligence (AI) in Judiciary"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Objectives and phases of the E-Courts Project.",
+          "Concept of National Judicial Data Grid (NJDG) and its utility.",
+          "Benefits of e-filing and virtual hearings.",
+          "Challenges faced by the Indian judiciary (e.g., case pendency, access).",
+          "Role of technology in enhancing transparency and efficiency in governance."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the transformative potential of the E-Courts Project Phase III in addressing the challenges of judicial backlogs and improving access to justice in India.",
+          "Analyze the benefits and limitations of integrating advanced technologies like AI into the judicial system, considering ethical and practical implications.",
+          "Evaluate the impact of digital transformation on various stakeholders, including lawyers, litigants, and judges, and the need for capacity building.",
+          "Examine how the E-Courts Project contributes to the broader goals of e-governance and citizen-centric service delivery in India.",
+          "Suggest policy measures to ensure equitable access to digital justice, bridging the digital divide, and strengthening cyber security in judicial systems."
+        ],
+        "imageDescription": "A courtroom scene with judges and lawyers attending via video conferencing on large screens.",
+        "section": "National",
+        "trivia": "The National Judicial Data Grid (NJDG) provides data on over 20 crore cases across Indian courts, making it one of the largest judicial databases in the world.",
+        "prelimsSyllabus": {
+          "subject": "Polity and Governance",
+          "area": "Judiciary",
+          "topic": "Judicial Reforms and E-governance"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "rbi-monetary-policy-review-inflation-concerns",
+        "headline": "RBI's Monetary Policy Review: Repo Rate Maintained Amidst Persistent Inflation Concerns, Projects Moderate Growth",
+        "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) unanimously decided to maintain the repo rate at its current level for the sixth consecutive review.\n• The decision comes as the RBI grapples with persistent inflationary pressures, primarily driven by volatile food prices and global commodity fluctuations.\n• While acknowledging a resilient domestic demand, the MPC highlighted global economic uncertainties and geopolitical tensions as significant headwinds.\n• The RBI revised its inflation projection marginally upwards for the current fiscal year, while maintaining a cautious stance on GDP growth forecasts.\n• Governor Shaktikanta Das reiterated the central bank's commitment to withdrawing accommodation gradually to ensure inflation aligns with the target while supporting growth.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Government Budgeting",
+          "Monetary Policy"
+        ],
+        "date": "2025-07-27",
+        "source": "Livemint",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "RBI",
+          "Monetary Policy",
+          "Repo Rate",
+          "Inflation",
+          "Economic Growth",
+          "MPC",
+          "Indian Economy"
+        ],
+        "keyTerms": [
+          "Repo Rate",
+          "Reverse Repo Rate",
+          "Monetary Policy Committee (MPC)",
+          "Inflation Targeting",
+          "Consumer Price Index (CPI)",
+          "Wholesale Price Index (WPI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Current Repo Rate and Reverse Repo Rate.",
+          "Composition and functions of the Monetary Policy Committee (MPC).",
+          "Difference between headline inflation (CPI) and core inflation.",
+          "Tools of monetary policy (e.g., CRR, SLR, OMOs).",
+          "RBI's mandate for inflation targeting (4% +/- 2%)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the rationale behind the RBI's decision to maintain the repo rate despite inflation concerns, considering both domestic and global factors.",
+          "Discuss the challenges faced by the RBI in balancing inflation control with economic growth in the current geopolitical and economic climate.",
+          "Evaluate the effectiveness of current monetary policy tools in addressing supply-side inflation and volatile food prices.",
+          "Examine the potential impact of the RBI's stance on various sectors of the Indian economy, including lending, investment, and consumption.",
+          "Suggest alternative policy measures or complementary fiscal interventions that could support the RBI's objectives."
+        ],
+        "imageDescription": "RBI logo with graphs showing inflation and growth trends.",
+        "section": "Economy",
+        "trivia": "India was one of the first major economies to adopt a formal inflation targeting framework for its central bank.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI and its functions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "ministry-of-environment-launches-blue-carbon-initiative",
+        "headline": "Ministry of Environment Launches 'Coastal Blue Carbon Initiative' for Ecosystem Restoration and Climate Mitigation",
+        "explainer": "• The Union Ministry of Environment, Forest and Climate Change has launched a new 'Coastal Blue Carbon Initiative' aimed at protecting and restoring India's vital coastal and marine ecosystems.\n• The initiative focuses on enhancing carbon sequestration through the conservation of mangroves, seagrass meadows, and tidal marshes, which are potent 'blue carbon' sinks.\n• It integrates local community participation in conservation efforts, promoting sustainable livelihoods and increasing climate resilience in coastal regions.\n• The program will also involve mapping and assessment of blue carbon ecosystems, alongside the development of policy frameworks for their long-term management.\n• This move is part of India's broader climate change mitigation strategy and its commitments under international agreements like the Paris Agreement.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Climate Change",
+          "Biodiversity"
+        ],
+        "date": "2025-07-27",
+        "source": "Down to Earth",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "Blue Carbon",
+          "Coastal Ecosystems",
+          "Mangroves",
+          "Seagrass",
+          "Climate Change Mitigation",
+          "Carbon Sequestration",
+          "Environmental Conservation"
+        ],
+        "keyTerms": [
+          "Blue Carbon",
+          "Carbon Sequestration",
+          "Mangroves",
+          "Seagrass Meadows",
+          "Tidal Marshes",
+          "Coastal Resilience",
+          "Climate Change Adaptation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Definition of 'Blue Carbon' and its significance.",
+          "Examples of blue carbon ecosystems (mangroves, seagrass, salt marshes).",
+          "Difference between blue carbon and green carbon.",
+          "Role of coastal ecosystems in biodiversity, coastal protection, and livelihoods.",
+          "India's international commitments related to climate change and biodiversity (e.g., Paris Agreement, CBD)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ecological and economic significance of blue carbon ecosystems for India's coastal regions and climate change strategy.",
+          "Analyze the potential benefits and challenges of implementing the 'Coastal Blue Carbon Initiative', including community engagement and funding.",
+          "Evaluate how blue carbon initiatives contribute to India's Nationally Determined Contributions (NDCs) under the Paris Agreement.",
+          "Examine the threats faced by India's coastal ecosystems and how this initiative can address them.",
+          "Suggest policy recommendations for integrating blue carbon conservation with sustainable coastal development plans."
+        ],
+        "imageDescription": "Satellite image of vibrant mangrove forests along a coastline.",
+        "section": "Environment",
+        "trivia": "Mangroves can sequester carbon at a rate two to four times greater than terrestrial forests and store it for much longer periods.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Conservation",
+          "topic": "Climate Change Mitigation"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "isro-successfully-tests-reusable-launch-vehicle-technology",
+        "headline": "ISRO Successfully Conducts Critical Test of Reusable Launch Vehicle (RLV) Technology Demonstrator",
+        "explainer": "• The Indian Space Research Organisation (ISRO) achieved a significant milestone by successfully conducting a crucial landing experiment for its Reusable Launch Vehicle (RLV) Technology Demonstrator.\n• The test involved releasing the RLV from an aerial platform at high altitude, followed by its autonomous descent and precision landing on a designated runway.\n• This experiment is a vital step towards developing a fully reusable two-stage orbital launch vehicle, aimed at significantly reducing the cost of space access.\n• The RLV program is designed to master technologies like hypersonic flight, autonomous landing, and powered cruise flight, essential for future space missions.\n• ISRO Chairman highlighted that this success paves the way for India to become a major player in the global commercial space launch market.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology",
+          "Indigenization of technology and developing new technology",
+          "Space"
+        ],
+        "date": "2025-07-27",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Reusable Launch Vehicle",
+          "RLV",
+          "Space Technology",
+          "Space Exploration",
+          "Cost Reduction",
+          "Aerospace"
+        ],
+        "keyTerms": [
+          "Reusable Launch Vehicle (RLV)",
+          "Technology Demonstrator",
+          "Autonomous Landing",
+          "Hypersonic Flight",
+          "Two-Stage Orbital (TSO) Vehicle",
+          "Space Debris"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Objectives of ISRO's RLV program.",
+          "Difference between expendable and reusable launch vehicles.",
+          "Key technologies involved in RLV (e.g., aerodynamics, guidance, navigation, control).",
+          "Other countries/companies developing RLV technology (e.g., SpaceX, Blue Origin).",
+          "Benefits of reusable launch vehicles (cost reduction, faster turnaround, reduced space debris)."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic importance of ISRO's RLV program for India's space capabilities and its position in the global space market.",
+          "Discuss the technological challenges involved in developing a fully reusable launch vehicle and how ISRO is addressing them.",
+          "Evaluate the potential economic benefits of cost-effective space access for various applications, including satellite deployment and space tourism.",
+          "Examine how the RLV program aligns with India's 'Atmanirbhar Bharat' initiative in the space sector.",
+          "Suggest policy measures to further accelerate India's private sector participation in the development and utilization of advanced space technologies."
+        ],
+        "imageDescription": "Artistic rendering of ISRO's RLV-TD descending towards a runway.",
+        "section": "Science",
+        "trivia": "The first successful orbital reusable spacecraft was the US Space Shuttle, which flew for the first time in 1981.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space Technology",
+          "topic": "ISRO's programs and achievements"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "bro-inaugurates-strategic-tunnel-ladakh-border-connectivity",
+        "headline": "BRO Inaugurates Strategic All-Weather Tunnel in Ladakh, Boosting Border Connectivity and Security",
+        "explainer": "• The Border Roads Organisation (BRO) has inaugurated a strategically vital all-weather tunnel in the high-altitude region of Ladakh, significantly enhancing connectivity to forward areas.\n• The tunnel, constructed under challenging topographical and climatic conditions, will ensure year-round access, cutting down travel time and making troop and logistics movement more efficient.\n• This infrastructure development is part of India's broader strategy to bolster its border infrastructure, especially along the Line of Actual Control (LAC) with China.\n• The project utilizes advanced engineering techniques and is crucial for the socio-economic development of the remote border communities as well.\n• Defence Minister emphasized the tunnel's role in strengthening national security and providing a strategic advantage in the region.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Border areas, challenges and their management",
+          "Security challenges and their management in border areas",
+          "Infrastructure: Roads, Railways, etc."
+        ],
+        "date": "2025-07-27",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "BRO",
+          "Border Infrastructure",
+          "Ladakh",
+          "National Security",
+          "Connectivity",
+          "Line of Actual Control",
+          "Strategic Importance"
+        ],
+        "keyTerms": [
+          "Border Roads Organisation (BRO)",
+          "Line of Actual Control (LAC)",
+          "All-Weather Connectivity",
+          "Strategic Infrastructure",
+          "High-Altitude Engineering",
+          "Border Security"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Mandate and key projects of the Border Roads Organisation (BRO).",
+          "Geographical significance of Ladakh and its strategic importance.",
+          "Challenges of infrastructure development in high-altitude regions.",
+          "Other strategic tunnels/passes in the Himalayas (e.g., Atal Tunnel, Zojila Tunnel).",
+          "Concept of 'all-weather' connectivity in border areas."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of border infrastructure development for India's national security, particularly in regions like Ladakh.",
+          "Analyze the multi-faceted benefits of projects like the new tunnel, encompassing military logistics, local economy, and tourism.",
+          "Evaluate the challenges faced by the BRO in constructing infrastructure in extremely harsh terrains and climatic conditions.",
+          "Examine how enhanced connectivity along the LAC impacts India's border management strategy and its relations with neighboring countries.",
+          "Suggest future policy directions for sustainable and resilient infrastructure development in sensitive border regions."
+        ],
+        "imageDescription": "Entrance of a modern tunnel carved into a snowy mountain in Ladakh.",
+        "section": "National",
+        "trivia": "The BRO is responsible for constructing and maintaining road networks in India's border areas and friendly neighboring countries.",
+        "prelimsSyllabus": {
+          "subject": "Security",
+          "area": "Border Management",
+          "topic": "Infrastructure Development"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "government-pli-scheme-advanced-electronics-manufacturing",
+        "headline": "Government Announces New Production Linked Incentive (PLI) Scheme for Advanced Electronics Manufacturing",
+        "explainer": "• The Union Government has rolled out a new Production Linked Incentive (PLI) scheme specifically targeting the manufacturing of advanced electronics components and sub-assemblies.\n• This scheme aims to boost domestic production, reduce reliance on imports, and position India as a global hub for sophisticated electronics manufacturing.\n• It offers incentives based on incremental sales of manufactured goods to eligible companies, encouraging both domestic and foreign investments.\n• The initiative is part of the 'Atmanirbhar Bharat' vision, seeking to enhance India's self-reliance in critical technology sectors.\n• Industry experts anticipate significant job creation and technological upgradation as a result of this renewed focus on high-value electronics.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Industrial policy",
+          "Make in India initiative",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth",
+          "Investment models"
+        ],
+        "date": "2025-07-27",
+        "source": "The Economic Times",
+        "sourceUrl": "",
+        "importance": "high",
+        "tags": [
+          "PLI Scheme",
+          "Electronics Manufacturing",
+          "Atmanirbhar Bharat",
+          "Make in India",
+          "Industrial Policy",
+          "Domestic Production",
+          "Investment"
+        ],
+        "keyTerms": [
+          "Production Linked Incentive (PLI) Scheme",
+          "Advanced Electronics Manufacturing",
+          "Atmanirbhar Bharat",
+          "Import Substitution",
+          "Value Addition",
+          "Foreign Direct Investment (FDI)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Concept and objectives of Production Linked Incentive (PLI) schemes.",
+          "Sectors currently covered under PLI schemes in India.",
+          "India's position in global electronics manufacturing and consumption.",
+          "Components of 'Atmanirbhar Bharat' initiative.",
+          "Role of electronics manufacturing in India's GDP and employment."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the rationale behind extending PLI schemes to advanced electronics manufacturing and its potential impact on India's industrial landscape.",
+          "Discuss the challenges and opportunities for India to become a global hub for high-value electronics production.",
+          "Evaluate the effectiveness of PLI schemes in attracting investment, fostering domestic capabilities, and reducing import dependence.",
+          "Examine the 'Atmanirbhar Bharat' vision in the context of global supply chain disruptions and technological self-reliance.",
+          "Suggest policy measures to address issues such as skilled labor availability, R&D infrastructure, and ease of doing business for electronics manufacturers."
+        ],
+        "imageDescription": "Microchips and circuit boards, symbolizing advanced electronics manufacturing.",
+        "section": "Economy",
+        "trivia": "India is projected to become one of the top five global electronics manufacturing hubs by 2025.",
+        "prelimsSyllabus": {
+          "subject": "Economy",
+          "area": "Industrial Policy",
+          "topic": "Government initiatives for manufacturing"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "report-highlights-human-wildlife-conflict-western-ghats",
+        "headline": "Report Highlights Escalating Human-Wildlife Conflict in Western Ghats, Calls for Integrated Management",
+        "explainer": "• A new report released by a leading environmental research institute has highlighted a significant increase in human-wildlife conflict incidents across the Western Ghats region.\n• The report attributes the rise to habitat fragmentation, encroachment into forest areas, changing agricultural practices, and increasing wildlife populations in certain pockets.\n• Incidents of crop raiding by elephants, livestock depredation by big cats, and attacks on humans have become more frequent, leading to economic losses and safety concerns for local communities.\n• It advocates for an integrated management approach, combining scientific research, community participation, early warning systems, and habitat restoration.\n• The findings underscore the urgent need for revised conservation strategies that balance human development needs with wildlife protection.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Biodiversity",
+          "Important Geophysical phenomena"
+        ],
+        "date": "2025-07-27",
+        "source": "The Hindu",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Human-Wildlife Conflict",
+          "Western Ghats",
+          "Wildlife Conservation",
+          "Habitat Fragmentation",
+          "Biodiversity Hotspot",
+          "Ecosystem Management"
+        ],
+        "keyTerms": [
+          "Human-Wildlife Conflict (HWC)",
+          "Western Ghats",
+          "Biodiversity Hotspot",
+          "Habitat Fragmentation",
+          "Corridor Management",
+          "Community-Based Conservation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Geographical extent and ecological significance of the Western Ghats.",
+          "Status of major wildlife species in the Western Ghats (e.g., elephants, tigers, leopards).",
+          "Causes of human-wildlife conflict.",
+          "Government initiatives for wildlife conservation (e.g., Project Tiger, Project Elephant).",
+          "Role of local communities in conservation efforts."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the underlying causes and escalating nature of human-wildlife conflict in biodiversity hotspots like the Western Ghats.",
+          "Analyze the socio-economic impacts of human-wildlife conflict on local communities and their implications for conservation efforts.",
+          "Evaluate the effectiveness of current conservation strategies in mitigating such conflicts and suggest an integrated management approach.",
+          "Examine the role of habitat restoration, scientific monitoring, and community engagement in achieving coexistence between humans and wildlife.",
+          "Propose policy recommendations for sustainable land use planning and compensation mechanisms to address human-wildlife conflict effectively."
+        ],
+        "imageDescription": "An elephant herd near agricultural fields on the fringe of a forest in the Western Ghats.",
+        "section": "Environment",
+        "trivia": "The Western Ghats are older than the Himalayas and are recognized as one of the world's eight 'hottest hotspots' of biological diversity.",
+        "prelimsSyllabus": {
+          "subject": "Environment",
+          "area": "Biodiversity",
+          "topic": "Conservation issues"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indian-researchers-develop-low-cost-diagnostic-kit-dengue-chikungunya",
+        "headline": "Indian Researchers Develop Low-Cost, Rapid Diagnostic Kit for Dengue and Chikungunya",
+        "explainer": "• A team of researchers from an Indian Institute of Technology (IIT) and a medical research centre has successfully developed a novel low-cost, rapid diagnostic kit for vector-borne diseases like Dengue and Chikungunya.\n• The kit promises accurate detection within 30 minutes, significantly faster and more affordable than existing PCR-based tests, making it ideal for remote and resource-limited settings.\n• Utilizing a paper-based microfluidic technology, the device requires minimal training to operate and can be used for point-of-care testing.\n• This innovation is expected to play a crucial role in early disease detection, enabling timely treatment and preventing outbreaks, especially during monsoon seasons.\n• The Ministry of Health and Family Welfare has lauded the indigenous development, emphasizing its potential for public health impact.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology",
+          "Indigenization of technology and developing new technology",
+          "Biotechnology",
+          "Health"
+        ],
+        "date": "2025-07-27",
+        "source": "DD News",
+        "sourceUrl": "",
+        "importance": "medium",
+        "tags": [
+          "Diagnostic Kit",
+          "Dengue",
+          "Chikungunya",
+          "Vector-Borne Diseases",
+          "Public Health",
+          "Biotechnology",
+          "Indigenous Technology"
+        ],
+        "keyTerms": [
+          "Diagnostic Kit",
+          "Dengue Virus",
+          "Chikungunya Virus",
+          "Vector-Borne Diseases",
+          "Point-of-Care Testing (POCT)",
+          "Microfluidics",
+          "Early Detection"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Causative agents and vectors of Dengue and Chikungunya.",
+          "Symptoms and complications of these diseases.",
+          "Types of diagnostic tests for vector-borne diseases (e.g., ELISA, PCR).",
+          "Concept of 'point-of-care' diagnostics.",
+          "Government initiatives for controlling vector-borne diseases."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of developing low-cost, rapid diagnostic kits for vector-borne diseases in a country like India.",
+          "Analyze how indigenous technological advancements in diagnostics can strengthen India's public health infrastructure and disease surveillance.",
+          "Evaluate the potential impact of this innovation on disease management, especially in rural and remote areas lacking advanced medical facilities.",
+          "Examine the challenges in scaling up production and ensuring widespread distribution of such diagnostic tools across the country.",
+          "Suggest policy measures to encourage further research and development in affordable healthcare technologies and their integration into national health programs."
+        ],
+        "imageDescription": "A close-up of a rapid diagnostic test strip showing results for Dengue/Chikungunya.",
+        "section": "Science",
+        "trivia": "Dengue fever is also known as 'breakbone fever' due to the severe pain it can cause in muscles and joints.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Biotechnology",
+          "topic": "Health and Disease"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "The Hindu",
+    "Livemint",
+    "PTI",
+    "Down to Earth",
+    "The Economic Times",
+    "Press Information Bureau (PIB)",
+    "The Indian Express",
+    "Ministry of External Affairs (MEA)",
+    "DD News",
+    "The Times of India"
+  ],
+  "totalScraped": 15,
+  "totalProcessed": 15
+}

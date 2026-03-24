@@ -1,0 +1,2582 @@
+{
+  "date": "2025-10-10",
+  "dateFormatted": "Friday 10 October, 2025",
+  "lastUpdated": "2026-03-21T04:41:46.372Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "india-digital-public-infra-policy-framework",
+      "headline": "India Unveils Comprehensive National Digital Public Infrastructure (DPI) Policy Framework",
+      "explainer": "• The Union Cabinet approved a new National Digital Public Infrastructure (DPI) Policy Framework, aiming to streamline and expand India's digital ecosystem.\n• The policy focuses on interoperability, data privacy, cybersecurity, and inclusive access to digital services across various sectors.\n• It seeks to leverage existing successful DPIs like Aadhaar, UPI, and CoWIN to build new platforms for health, education, and agriculture.\n• Key pillars include a robust legal framework, open standards, public-private partnerships, and capacity building for digital literacy.\n• The framework is expected to boost digital economy, enhance governance efficiency, and bridge the digital divide, aligning with 'Digital India' vision.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "E-governance- applications, models, successes, limitations, and potential",
+        "Role of IT in governance"
+      ],
+      "date": "2025-10-10",
+      "source": "Press Information Bureau (PIB)",
+      "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=XXXX",
+      "importance": "high",
+      "tags": [
+        "Digital Public Infrastructure",
+        "DPI",
+        "Digital India",
+        "E-governance",
+        "Policy Framework",
+        "Cybersecurity",
+        "Data Privacy"
+      ],
+      "keyTerms": [
+        "Digital Public Infrastructure (DPI)",
+        "Open Standards",
+        "Interoperability",
+        "Data Localization",
+        "Digital Divide"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The new DPI policy framework aims to build upon existing successful platforms like Aadhaar, UPI, and CoWIN.",
+        "Key focus areas include data privacy, cybersecurity, open standards, and public-private partnerships.",
+        "The policy emphasizes inclusive access and bridging the digital divide.",
+        "The framework is designed to cover sectors like health, education, and agriculture."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the potential of the National DPI Policy Framework to transform governance and public service delivery in India, citing examples of existing DPIs.",
+        "Analyze the challenges in implementing a comprehensive DPI framework, particularly concerning data privacy, cybersecurity threats, and ensuring digital inclusion for all sections of society.",
+        "Evaluate how the new policy can foster innovation and economic growth by creating a robust digital ecosystem, attracting investments, and supporting startups.",
+        "Examine the ethical considerations and regulatory mechanisms required to ensure responsible development and deployment of DPIs."
+      ],
+      "imageDescription": "Illustration depicting interconnected digital services and infrastructure, symbolizing India's new DPI framework.",
+      "section": "Lead Opinion",
+      "trivia": "India's Unified Payments Interface (UPI) handles more transactions than major credit card networks combined, showcasing the power of its existing DPIs.",
+      "prelimsSyllabus": {
+        "subject": "Polity and Governance",
+        "area": "Government policies and interventions",
+        "topic": "E-governance"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "supreme-court-federalism-dispute",
+      "headline": "Supreme Court Upholds States' Rights in Inter-State Water Dispute, Reinforces Federal Principles",
+      "explainer": "• The Supreme Court delivered a landmark judgment in a long-standing inter-state water dispute, affirming the rights of a riparian state over shared water resources.\n• The ruling emphasized the principles of cooperative federalism and the need for equitable distribution while respecting historical usage and ecological considerations.\n• The court directed the central government to constitute a new tribunal with a mandate for time-bound resolution, integrating scientific data and stakeholder consultations.\n• This judgment is expected to set a precedent for future inter-state resource sharing conflicts, advocating for dialogue and constitutional mechanisms.\n• It reinforces the judiciary's role in upholding the federal structure of the Indian Constitution.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure",
+        "Separation of powers between various organs dispute redressal mechanisms and institutions",
+        "Role of Supreme Court in upholding constitutional principles"
+      ],
+      "date": "2025-10-10",
+      "source": "The Hindu",
+      "sourceUrl": "https://www.thehindu.com/news/national/sc-water-dispute-ruling/",
+      "importance": "high",
+      "tags": [
+        "Supreme Court",
+        "Federalism",
+        "Inter-State Water Dispute",
+        "Cooperative Federalism",
+        "Riparian Rights",
+        "Judiciary"
+      ],
+      "keyTerms": [
+        "Cooperative Federalism",
+        "Inter-State Water Disputes Act, 1956",
+        "Article 262",
+        "Riparian Rights",
+        "Tribunal"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Article 262 of the Indian Constitution deals with adjudication of disputes relating to waters of inter-state rivers or river valleys.",
+        "The Inter-State Water Disputes Act, 1956, provides for the constitution of tribunals.",
+        "The Supreme Court's ruling emphasized principles of cooperative federalism.",
+        "The judgment directed the formation of a new tribunal for time-bound resolution."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the implications of the Supreme Court's judgment on the dynamics of cooperative federalism in India, particularly in the context of resource sharing.",
+        "Discuss the challenges associated with inter-state water disputes in India and evaluate the effectiveness of existing constitutional and statutory mechanisms for their resolution.",
+        "Examine how climate change and increasing water scarcity might exacerbate inter-state water disputes, necessitating robust policy and judicial interventions.",
+        "Propose reforms to the Inter-State Water Disputes Act to ensure more efficient and equitable resolution of future conflicts."
+      ],
+      "imageDescription": "A map of India with major river basins highlighted, symbolizing inter-state water disputes.",
+      "section": "National",
+      "trivia": "There are currently over a dozen active inter-state water disputes in India, highlighting the complex nature of resource sharing.",
+      "prelimsSyllabus": {
+        "subject": "Polity and Governance",
+        "area": "Indian Constitution - historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+        "topic": "Federal structure"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-bhutan-climate-resilience-pact",
+      "headline": "India and Bhutan Sign Landmark Pact on Climate Resilience and Renewable Energy Cooperation",
+      "explainer": "• India and Bhutan inked a comprehensive agreement to enhance cooperation in climate change adaptation, disaster resilience, and renewable energy development.\n• The pact includes joint research initiatives, technology transfer for early warning systems, and capacity building for climate-vulnerable communities.\n• A significant component focuses on developing cross-border hydropower projects and exploring solar energy potential in the Himalayan region.\n• This collaboration underscores India's 'Neighbourhood First' policy and its commitment to regional environmental sustainability.\n• The agreement aims to build a green and resilient future for both nations, addressing shared ecological challenges.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Environmental pollution and degradation"
+      ],
+      "date": "2025-10-10",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "https://mea.gov.in/press-releases.htm",
+      "importance": "high",
+      "tags": [
+        "India-Bhutan",
+        "Climate Resilience",
+        "Renewable Energy",
+        "Hydropower",
+        "Neighbourhood First",
+        "International Cooperation"
+      ],
+      "keyTerms": [
+        "Climate Change Adaptation",
+        "Disaster Resilience",
+        "Renewable Energy",
+        "Hydropower",
+        "Gross National Happiness (Bhutan)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The pact between India and Bhutan focuses on climate change adaptation, disaster resilience, and renewable energy.",
+        "Cooperation includes joint research, technology transfer for early warning systems, and capacity building.",
+        "Cross-border hydropower projects and solar energy are key areas of collaboration.",
+        "The agreement aligns with India's 'Neighbourhood First' policy."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic significance of India's collaboration with Bhutan on climate resilience and renewable energy, particularly in the context of regional stability and sustainable development.",
+        "Discuss how such bilateral agreements contribute to India's broader climate diplomacy and its commitments under international environmental conventions.",
+        "Examine the potential economic and ecological benefits for both India and Bhutan from enhanced cooperation in the hydropower sector.",
+        "Evaluate the challenges and opportunities in implementing cross-border environmental and energy projects in the sensitive Himalayan region."
+      ],
+      "imageDescription": "Satellite image of the Himalayan region, highlighting India and Bhutan, with symbols of renewable energy and climate protection.",
+      "section": "International",
+      "trivia": "Bhutan is the world's only carbon-negative country, absorbing more CO2 than it emits, largely due to its vast forest cover and hydropower.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India and its neighbourhood",
+        "topic": "Bilateral relations"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-monetary-policy-review-october",
+      "headline": "RBI Maintains Status Quo on Repo Rate Amidst Inflation Concerns, Focuses on Liquidity Management",
+      "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) decided to keep the repo rate unchanged at its October review meeting, citing persistent inflation concerns.\n• The MPC reiterated its commitment to aligning inflation with the target while supporting growth, maintaining an 'withdrawal of accommodation' stance.\n• Emphasis was placed on careful liquidity management to ensure financial stability and transmit monetary policy effectively.\n• Projections for GDP growth and inflation were revised, reflecting global economic uncertainties and domestic demand conditions.\n• The decision signals a cautious approach by the central bank, balancing price stability with economic revival efforts.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+        "Government Budgeting",
+        "Monetary Policy",
+        "Inflation"
+      ],
+      "date": "2025-10-10",
+      "source": "Reserve Bank of India (RBI)",
+      "sourceUrl": "https://www.rbi.org.in/Scripts/PressReleaseDisplay.aspx?prid=XXXX",
+      "importance": "high",
+      "tags": [
+        "RBI",
+        "Monetary Policy",
+        "Repo Rate",
+        "Inflation",
+        "Economic Growth",
+        "Liquidity Management",
+        "MPC"
+      ],
+      "keyTerms": [
+        "Repo Rate",
+        "Reverse Repo Rate",
+        "Monetary Policy Committee (MPC)",
+        "Inflation Targeting",
+        "Liquidity Adjustment Facility (LAF)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Monetary Policy Committee (MPC) is responsible for fixing the benchmark interest rate (repo rate) in India.",
+        "The primary objective of monetary policy is to maintain price stability while keeping in mind the objective of growth.",
+        "The 'withdrawal of accommodation' stance indicates a focus on reducing excess liquidity.",
+        "The repo rate is the rate at which the RBI lends money to commercial banks."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the rationale behind the RBI's decision to maintain the status quo on the repo rate amidst prevailing economic conditions and global uncertainties.",
+        "Discuss the challenges faced by the RBI in balancing inflation control with the imperative of supporting economic growth in the current scenario.",
+        "Evaluate the effectiveness of liquidity management tools employed by the RBI in transmitting monetary policy signals and ensuring financial stability.",
+        "Examine the potential impact of the MPC's decision on various sectors of the Indian economy, including banking, industry, and consumers."
+      ],
+      "imageDescription": "A graphical representation of economic indicators like interest rates and inflation, with the RBI logo.",
+      "section": "Economy",
+      "trivia": "The Monetary Policy Committee (MPC) comprises six members – three officials from the RBI and three external experts nominated by the Government of India.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI and its functions"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "isro-chandrayaan-4-mission-update",
+      "headline": "ISRO Provides Update on Chandrayaan-4 Mission: Preparations Underway for Lunar Sample Return",
+      "explainer": "• ISRO announced that preparations for the Chandrayaan-4 mission are progressing as per schedule, with a focus on developing advanced robotic systems for lunar sample return.\n• This mission aims to collect samples from a previously unexplored region of the Moon's south pole and return them to Earth for scientific analysis.\n• Key technological challenges include precision landing, sample acquisition in harsh lunar conditions, and safe return trajectory planning.\n• Chandrayaan-4 is envisioned as a multi-module mission, involving an orbiter, lander, ascender, and re-entry module.\n• The mission holds immense scientific potential for understanding the Moon's geology, water ice distribution, and origins of the solar system.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+        "Awareness in the fields of Space"
+      ],
+      "date": "2025-10-10",
+      "source": "Indian Space Research Organisation (ISRO)",
+      "sourceUrl": "https://www.isro.gov.in/news/XXXX",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Chandrayaan-4",
+        "Lunar Mission",
+        "Sample Return",
+        "Space Exploration",
+        "Space Technology",
+        "Moon South Pole"
+      ],
+      "keyTerms": [
+        "Lunar Sample Return",
+        "South Pole of Moon",
+        "Orbiter",
+        "Lander",
+        "Ascender",
+        "Re-entry Module"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Chandrayaan-4 is envisioned as India's first lunar sample return mission.",
+        "The mission targets the Moon's south pole for sample collection.",
+        "It involves multiple modules: orbiter, lander, ascender, and re-entry module.",
+        "ISRO's previous lunar missions include Chandrayaan-1, Chandrayaan-2, and Chandrayaan-3."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the scientific objectives and technological challenges associated with ISRO's Chandrayaan-4 lunar sample return mission.",
+        "Evaluate the significance of lunar sample return missions for advancing our understanding of the Moon's evolution and the potential for future lunar resource utilization.",
+        "Analyze how such ambitious space missions contribute to India's technological prowess, international collaboration, and national pride.",
+        "Examine the role of public-private partnerships in enhancing India's space capabilities and achieving complex missions like Chandrayaan-4."
+      ],
+      "imageDescription": "Artistic rendering of the Chandrayaan-4 lander collecting samples on the lunar surface, with Earth in the background.",
+      "section": "Science",
+      "trivia": "The Moon's south pole is of significant scientific interest due to the potential presence of water ice in permanently shadowed craters.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space Technology",
+        "topic": "Indian Space Missions"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "national-logistics-policy-implementation",
+      "headline": "Government Reviews Progress of National Logistics Policy, Focus on Multi-Modal Connectivity",
+      "explainer": "• The Ministry of Commerce and Industry reviewed the implementation progress of the National Logistics Policy (NLP), launched to improve India's logistics efficiency.\n• Key focus areas include integrating digital systems (ULIP), developing multi-modal logistics parks, and standardizing warehousing infrastructure.\n• The policy aims to reduce logistics costs as a percentage of GDP, making Indian goods more competitive globally.\n• Progress was noted in enhancing rail, road, and waterway connectivity, alongside efforts to improve last-mile delivery.\n• Challenges related to land acquisition, regulatory clearances, and skill development were also discussed, with strategies for acceleration outlined.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+        "Investment models",
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment"
+      ],
+      "date": "2025-10-10",
+      "source": "Ministry of Commerce and Industry",
+      "sourceUrl": "https://commerce.gov.in/press-releases/",
+      "importance": "medium",
+      "tags": [
+        "National Logistics Policy",
+        "Logistics Efficiency",
+        "Multi-Modal Connectivity",
+        "Infrastructure",
+        "ULIP",
+        "Economic Growth"
+      ],
+      "keyTerms": [
+        "National Logistics Policy (NLP)",
+        "Logistics Cost",
+        "Multi-Modal Logistics Parks (MMLP)",
+        "Unified Logistics Interface Platform (ULIP)",
+        "PM Gati Shakti"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The National Logistics Policy aims to reduce logistics costs in India.",
+        "ULIP (Unified Logistics Interface Platform) is a key digital initiative under the NLP.",
+        "The policy emphasizes multi-modal connectivity, including rail, road, and waterways.",
+        "PM Gati Shakti National Master Plan is complementary to the NLP."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the objectives and key components of the National Logistics Policy and its potential to transform India's trade competitiveness.",
+        "Analyze the role of multi-modal connectivity and digital integration (like ULIP) in improving logistics efficiency and reducing costs.",
+        "Examine the challenges in implementing large-scale infrastructure projects under the NLP, particularly concerning land acquisition and inter-ministerial coordination.",
+        "Suggest measures to further enhance India's logistics sector, focusing on skill development, green logistics, and leveraging emerging technologies."
+      ],
+      "imageDescription": "An infographic showing various modes of transport (road, rail, sea, air) connected, representing multi-modal logistics.",
+      "section": "Economy",
+      "trivia": "India's logistics cost as a percentage of GDP is significantly higher than global benchmarks, making its goods less competitive.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Infrastructure",
+        "topic": "Logistics"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "national-cybersecurity-strategy-update",
+      "headline": "National Cybersecurity Strategy: Government Prioritizes Critical Infrastructure Protection and Skill Development",
+      "explainer": "• The National Cybersecurity Strategy 2025 is moving forward with a strong emphasis on protecting critical information infrastructure (CII) and developing a skilled cybersecurity workforce.\n• Recent policy updates include stricter compliance norms for public and private entities managing CII, along with enhanced threat intelligence sharing mechanisms.\n• The government announced new initiatives for cybersecurity skill development, including specialized training programs and certifications for graduates.\n• Focus remains on strengthening India's digital defenses against state-sponsored attacks, cyber-terrorism, and data breaches.\n• Public awareness campaigns on cyber hygiene and safe online practices are also being scaled up across the country.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security",
+        "Money-laundering and its prevention"
+      ],
+      "date": "2025-10-10",
+      "source": "National Cyber Security Coordinator (NCSC)",
+      "sourceUrl": "https://ncsc.gov.in/news/XXXX",
+      "importance": "medium",
+      "tags": [
+        "Cybersecurity",
+        "Critical Information Infrastructure",
+        "Skill Development",
+        "Cyber Threat",
+        "National Security",
+        "Digital India"
+      ],
+      "keyTerms": [
+        "Critical Information Infrastructure (CII)",
+        "Cyber-attacks",
+        "Threat Intelligence",
+        "Cyber Hygiene",
+        "National Critical Information Infrastructure Protection Centre (NCIIPC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Critical Information Infrastructure (CII) refers to assets essential for national security, economy, and public health.",
+        "NCIIPC (National Critical Information Infrastructure Protection Centre) is the nodal agency for protecting CII in India.",
+        "The strategy emphasizes skill development and public awareness in cybersecurity.",
+        "Compliance norms for entities managing CII are being strengthened."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the evolving landscape of cyber threats faced by India and the necessity of a robust National Cybersecurity Strategy.",
+        "Analyze the challenges in protecting Critical Information Infrastructure (CII) and suggest measures to enhance its resilience against sophisticated cyber-attacks.",
+        "Evaluate the importance of skill development and public-private partnerships in building a strong cybersecurity ecosystem in India.",
+        "Examine the ethical and legal dilemmas associated with cybersecurity measures, particularly concerning surveillance and data privacy."
+      ],
+      "imageDescription": "A digital graphic depicting a network shield protecting various critical infrastructure symbols (power grid, finance, transport).",
+      "section": "National",
+      "trivia": "India is among the top 5 countries globally most affected by cyber-attacks, underscoring the urgency of a strong cybersecurity framework.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Cyber Security",
+        "topic": "Basics of cyber security"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-gulf-cooperation-council-fta",
+      "headline": "India-GCC Free Trade Agreement Negotiations Enter Final Stage, Boost for Bilateral Trade",
+      "explainer": "• Negotiations for the Free Trade Agreement (FTA) between India and the Gulf Cooperation Council (GCC) have entered their final stages, with a deal expected soon.\n• The FTA aims to significantly reduce tariffs and non-tariff barriers, boosting bilateral trade and investment between India and the six GCC member states.\n• Key sectors expected to benefit include petrochemicals, gems and jewellery, textiles, and agricultural products.\n• The agreement is strategically important for India's energy security and for diversifying its export markets.\n• Discussions are focusing on rules of origin, dispute settlement mechanisms, and services trade liberalization.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora"
+      ],
+      "date": "2025-10-10",
+      "source": "Ministry of Commerce and Industry",
+      "sourceUrl": "https://commerce.gov.in/press-releases/",
+      "importance": "medium",
+      "tags": [
+        "India-GCC",
+        "Free Trade Agreement",
+        "FTA",
+        "Bilateral Trade",
+        "Energy Security",
+        "Gulf Cooperation Council"
+      ],
+      "keyTerms": [
+        "Free Trade Agreement (FTA)",
+        "Gulf Cooperation Council (GCC)",
+        "Tariff Barriers",
+        "Non-Tariff Barriers",
+        "Rules of Origin"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The GCC comprises six member states: Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and UAE.",
+        "An FTA aims to reduce or eliminate tariffs and non-tariff barriers between member countries.",
+        "The agreement is strategically important for India's energy security.",
+        "Key sectors of benefit include petrochemicals, gems and jewellery, and textiles."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the economic and strategic significance of the proposed India-GCC Free Trade Agreement for India's foreign policy and trade objectives.",
+        "Discuss the potential benefits and challenges for key Indian sectors from the liberalization of trade with GCC countries.",
+        "Examine how this FTA could enhance India's energy security and strengthen its economic ties with the Gulf region.",
+        "Evaluate the broader geopolitical implications of closer economic integration between India and the GCC in the evolving global order."
+      ],
+      "imageDescription": "Flags of India and GCC member states intertwined, symbolizing economic cooperation.",
+      "section": "International",
+      "trivia": "The GCC countries are a major source of crude oil and natural gas for India, and also host a large Indian diaspora.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral, regional and global groupings",
+        "topic": "FTAs"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "ganga-rejuvenation-project-progress",
+      "headline": "Namami Gange Mission: Significant Progress Reported in Sewage Treatment and River Front Development",
+      "explainer": "• The Ministry of Jal Shakti reported significant progress in the Namami Gange Mission, particularly in establishing and upgrading sewage treatment infrastructure along the Ganges River.\n• Over 200 projects, including new Sewage Treatment Plants (STPs) and interception & diversion networks, have been completed or are nearing completion.\n• Focus has also been on river front development, ghats construction, and afforestation activities in the Ganga basin.\n• Challenges remain in ensuring sustainable operation and maintenance of assets, as well as tackling industrial pollution and agricultural runoff.\n• Community participation and awareness generation are identified as crucial for the long-term success of the mission.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Government policies and interventions for development in various sectors"
+      ],
+      "date": "2025-10-10",
+      "source": "Ministry of Jal Shakti",
+      "sourceUrl": "https://jalshakti-ddws.gov.in/press-releases",
+      "importance": "medium",
+      "tags": [
+        "Namami Gange",
+        "Ganga Rejuvenation",
+        "Sewage Treatment Plants",
+        "River Conservation",
+        "Water Pollution",
+        "Environment"
+      ],
+      "keyTerms": [
+        "Namami Gange Mission",
+        "Sewage Treatment Plants (STPs)",
+        "River Front Development",
+        "Ganga Basin",
+        "National Mission for Clean Ganga (NMCG)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Namami Gange Mission is an integrated conservation mission for the Ganga River.",
+        "The National Mission for Clean Ganga (NMCG) is the implementation agency.",
+        "Key pillars include sewage infrastructure, industrial effluent monitoring, river surface cleaning, and afforestation.",
+        "Over 200 projects related to STPs and river front development have been completed or are ongoing."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Assess the achievements and challenges of the Namami Gange Mission in achieving its objectives of Ganga rejuvenation.",
+        "Discuss the multi-faceted approach adopted by the mission, encompassing infrastructure development, ecological restoration, and public participation.",
+        "Examine the role of technology and innovation in monitoring water quality and managing sewage treatment under the mission.",
+        "Suggest sustainable strategies for ensuring the long-term cleanliness and ecological health of the Ganga River, considering factors like industrial pollution and agricultural runoff."
+      ],
+      "imageDescription": "A clean stretch of the Ganga River with a newly constructed ghat and a sewage treatment plant in the background.",
+      "section": "Environment",
+      "trivia": "The Ganga River basin supports over 40% of India's population and is one of the most densely populated river basins in the world.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Conservation",
+        "topic": "River conservation projects"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "new-education-policy-implementation-rural",
+      "headline": "NEP Implementation: Focus on Foundational Literacy and Numeracy in Rural Schools",
+      "explainer": "• The Ministry of Education highlighted accelerated efforts to implement the National Education Policy (NEP) 2020, with a specific focus on foundational literacy and numeracy (FLN) in rural schools.\n• New teacher training modules, innovative pedagogical approaches, and enhanced learning materials are being rolled out to improve early childhood education outcomes.\n• The 'NIPUN Bharat' mission is central to these efforts, aiming to ensure every child achieves foundational literacy and numeracy by Grade 3.\n• Challenges include teacher shortages, digital infrastructure gaps in remote areas, and ensuring parental involvement.\n• States are being encouraged to adopt context-specific strategies and leverage technology for better monitoring and evaluation.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Development processes and the development industry — the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources"
+      ],
+      "date": "2025-10-10",
+      "source": "Ministry of Education",
+      "sourceUrl": "https://www.education.gov.in/press-releases",
+      "importance": "medium",
+      "tags": [
+        "National Education Policy",
+        "NEP 2020",
+        "Foundational Literacy",
+        "Numeracy",
+        "Rural Education",
+        "NIPUN Bharat",
+        "Education Reforms"
+      ],
+      "keyTerms": [
+        "National Education Policy (NEP) 2020",
+        "Foundational Literacy and Numeracy (FLN)",
+        "NIPUN Bharat Mission",
+        "Early Childhood Care and Education (ECCE)",
+        "Pedagogy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "NEP 2020 aims for universalization of Early Childhood Care Education (ECCE).",
+        "NIPUN Bharat Mission is a national initiative for foundational literacy and numeracy.",
+        "The goal of NIPUN Bharat is to ensure every child achieves FLN by the end of Grade 3.",
+        "Teacher training and innovative pedagogy are key components of NEP implementation."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of foundational literacy and numeracy as a core pillar of the National Education Policy 2020 and its potential impact on India's human resource development.",
+        "Discuss the challenges in implementing FLN initiatives, particularly in rural and remote areas, including issues of teacher capacity, infrastructure, and parental engagement.",
+        "Evaluate the role of the 'NIPUN Bharat' mission in achieving universal FLN and suggest strategies to overcome implementation bottlenecks.",
+        "Examine how technology can be effectively leveraged to enhance learning outcomes in foundational education and monitor progress across diverse geographical regions."
+      ],
+      "imageDescription": "Children in a rural classroom engaged in learning activities with a teacher, symbolizing foundational education.",
+      "section": "National",
+      "trivia": "The NEP 2020 proposes a 5+3+3+4 curricular structure, replacing the 10+2 system, with a strong emphasis on early childhood education.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "topic": "Education"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "animal-welfare-board-livestock-protection",
+      "headline": "Animal Welfare Board of India Strengthens Measures for Livestock Protection",
+      "explainer": "• The Animal Welfare Board of India (AWBI) announced new guidelines and enforcement measures to enhance the protection of livestock across the country.\n• The focus is on preventing cruelty, ensuring humane treatment during transport, and improving conditions in animal markets and slaughterhouses.\n• Collaboration with state animal husbandry departments and local law enforcement agencies is being intensified for effective implementation.\n• Awareness campaigns are planned to educate farmers and the public about animal welfare laws and best practices.\n• These measures aim to align India's animal welfare standards with international norms and address concerns about animal cruelty.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Role of women and women’s organization, population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies",
+        "Social empowerment, communalism, regionalism & secularism"
+      ],
+      "date": "2025-10-10",
+      "source": "Animal Welfare Board of India (AWBI)",
+      "sourceUrl": "https://awbi.gov.in/news/XXXX",
+      "importance": "low",
+      "tags": [
+        "Animal Welfare",
+        "Livestock Protection",
+        "AWBI",
+        "Cruelty Prevention",
+        "Animal Husbandry",
+        "Social Responsibility"
+      ],
+      "keyTerms": [
+        "Animal Welfare Board of India (AWBI)",
+        "Prevention of Cruelty to Animals Act, 1960",
+        "Livestock",
+        "Humane Treatment"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The AWBI is a statutory advisory body under the Ministry of Fisheries, Animal Husbandry and Dairying.",
+        "It advises the government on animal welfare laws and promotes humane treatment of animals.",
+        "The Prevention of Cruelty to Animals Act, 1960, is a key legislation in this regard.",
+        "New guidelines focus on transport, animal markets, and slaughterhouses."
+      ],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "Cattle grazing peacefully in a field, symbolizing animal welfare and healthy livestock.",
+      "section": "National",
+      "trivia": "The AWBI was established in 1962 under Section 4 of The Prevention of Cruelty to Animals Act, 1960.",
+      "prelimsSyllabus": {
+        "subject": "Social Issues",
+        "area": "Social empowerment",
+        "topic": "Animal Welfare"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "indus-water-treaty-review",
+      "headline": "India Reaffirms Commitment to Indus Waters Treaty, Seeks Bilateral Dialogue with Pakistan",
+      "explainer": "• India reiterated its commitment to the provisions of the Indus Waters Treaty (IWT) during a diplomatic engagement, while also seeking bilateral dialogue with Pakistan on pending issues.\n• The statement comes amidst ongoing technical discussions regarding the design of certain Indian run-of-the-river hydropower projects on western rivers.\n• India emphasized its right to utilize its share of water resources under the treaty for non-consumptive purposes, such as hydropower generation.\n• The Permanent Indus Commission (PIC) continues to serve as the primary mechanism for resolving technical differences.\n• Maintaining the treaty's sanctity is crucial for regional stability and water security in the Indus basin.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests"
+      ],
+      "date": "2025-10-10",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "https://mea.gov.in/press-releases.htm",
+      "importance": "medium",
+      "tags": [
+        "Indus Waters Treaty",
+        "India-Pakistan",
+        "Water Diplomacy",
+        "Hydropower",
+        "Bilateral Relations",
+        "Permanent Indus Commission"
+      ],
+      "keyTerms": [
+        "Indus Waters Treaty (IWT)",
+        "Permanent Indus Commission (PIC)",
+        "Eastern Rivers",
+        "Western Rivers",
+        "Run-of-the-River Projects"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Indus Waters Treaty was signed between India and Pakistan in 1960, brokered by the World Bank.",
+        "It allocates the waters of the Eastern Rivers (Ravi, Beas, Sutlej) to India and Western Rivers (Indus, Jhelum, Chenab) to Pakistan.",
+        "India has limited non-consumptive use rights on the Western Rivers.",
+        "The Permanent Indus Commission (PIC) is a bilateral commission for implementation and dispute resolution."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the historical context and key provisions of the Indus Waters Treaty (IWT) and its significance for India-Pakistan relations.",
+        "Analyze the challenges faced in implementing the IWT, particularly concerning India's right to construct run-of-the-river hydropower projects on western rivers.",
+        "Evaluate the role of the Permanent Indus Commission (PIC) and other dispute resolution mechanisms under the treaty.",
+        "Examine the geopolitical implications of water sharing in the Indus basin and suggest ways to ensure the long-term sustainability and cooperation under the IWT."
+      ],
+      "imageDescription": "A stylized map showing the Indus River system flowing through India and Pakistan.",
+      "section": "International",
+      "trivia": "The Indus Waters Treaty is considered one of the most successful water-sharing treaties in the world, having survived multiple conflicts between India and Pakistan.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "India and its neighbourhood",
+        "topic": "Bilateral relations"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "artificial-intelligence-ethics-framework",
+      "headline": "India's AI Ethics Framework: Focus on Accountability, Transparency, and Bias Mitigation",
+      "explainer": "• The Ministry of Electronics and Information Technology (MeitY) released a draft framework for Artificial Intelligence (AI) ethics, seeking public feedback.\n• The framework emphasizes principles of accountability, transparency, fairness, and prevention of algorithmic bias in AI development and deployment.\n• It proposes guidelines for sectors like healthcare, finance, and criminal justice where AI applications have significant societal impact.\n• The aim is to foster responsible AI innovation while safeguarding individual rights and promoting public trust in AI systems.\n• Discussions are ongoing with industry stakeholders, academia, and civil society groups to finalize a robust and adaptable framework.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+        "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights"
+      ],
+      "date": "2025-10-10",
+      "source": "Ministry of Electronics and Information Technology (MeitY)",
+      "sourceUrl": "https://meity.gov.in/press-releases",
+      "importance": "high",
+      "tags": [
+        "Artificial Intelligence",
+        "AI Ethics",
+        "Responsible AI",
+        "Algorithmic Bias",
+        "Digital Governance",
+        "MeitY"
+      ],
+      "keyTerms": [
+        "Artificial Intelligence (AI)",
+        "AI Ethics",
+        "Algorithmic Bias",
+        "Transparency",
+        "Accountability",
+        "Responsible AI"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "MeitY is the nodal ministry for AI policy and development in India.",
+        "The draft AI ethics framework focuses on accountability, transparency, and fairness.",
+        "It aims to prevent algorithmic bias in AI applications.",
+        "The framework is being developed through multi-stakeholder consultations."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the growing importance of Artificial Intelligence (AI) ethics in the context of India's digital transformation and the need for a national framework.",
+        "Analyze the key ethical challenges posed by AI, such as algorithmic bias, data privacy, and accountability, and how the proposed framework seeks to address them.",
+        "Evaluate the potential impact of an AI ethics framework on fostering responsible innovation and building public trust in AI systems across various sectors.",
+        "Examine the role of international cooperation and regulatory harmonization in developing global standards for ethical AI development and deployment."
+      ],
+      "imageDescription": "An abstract image showing human hands interacting with glowing digital code and AI symbols, representing ethical AI development.",
+      "section": "Science",
+      "trivia": "India is a founding member of the Global Partnership on Artificial Intelligence (GPAI), an international initiative to support responsible and human-centric AI development.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Information Technology",
+        "topic": "Artificial Intelligence"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "parliamentary-committee-electoral-reforms",
+      "headline": "Parliamentary Committee Recommends Comprehensive Electoral Reforms for Transparency and Efficiency",
+      "explainer": "• A parliamentary standing committee submitted its report on electoral reforms, proposing a range of measures to enhance transparency and efficiency in the Indian electoral process.\n• Key recommendations include rationalizing election expenditure limits, regulating social media usage during campaigns, and strengthening the Election Commission's powers.\n• The report also suggested measures for voter awareness, simplification of voter registration, and addressing the issue of criminalization of politics.\n• Discussions are expected on the feasibility and political consensus required for implementing these far-reaching reforms.\n• The proposals aim to restore public trust in democratic institutions and ensure free and fair elections.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Salient features of the Representation of People’s Act",
+        "Appointment to various Constitutional posts, powers, functions and responsibilities of various Constitutional Bodies",
+        "Electoral reforms"
+      ],
+      "date": "2025-10-10",
+      "source": "The Economic Times",
+      "sourceUrl": "https://economictimes.indiatimes.com/news/politics/electoral-reforms/",
+      "importance": "high",
+      "tags": [
+        "Electoral Reforms",
+        "Election Commission",
+        "Transparency",
+        "Democracy",
+        "Parliamentary Committee",
+        "Criminalization of Politics"
+      ],
+      "keyTerms": [
+        "Representation of the People Act, 1951",
+        "Election Commission of India (ECI)",
+        "Electoral Bonds",
+        "Criminalization of Politics",
+        "Voter Awareness"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Election Commission of India (ECI) is a constitutional body responsible for conducting elections.",
+        "The Representation of the People Act, 1951, governs the conduct of elections.",
+        "Recommendations include regulating social media during campaigns and rationalizing expenditure limits.",
+        "The issue of criminalization of politics is a recurring concern in electoral reforms."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of the parliamentary committee's recommendations for electoral reforms in strengthening India's democratic framework.",
+        "Discuss the various challenges associated with the current electoral system, such as election expenditure, use of social media, and criminalization of politics.",
+        "Evaluate the role of the Election Commission of India in ensuring free and fair elections and how its powers can be further strengthened.",
+        "Propose concrete measures to address the issue of criminalization of politics and enhance voter participation and awareness."
+      ],
+      "imageDescription": "Stylized ballot box with an 'X' mark, representing the electoral process and need for reforms.",
+      "section": "National",
+      "trivia": "India has the world's largest electorate, with over 900 million registered voters in the last general election.",
+      "prelimsSyllabus": {
+        "subject": "Polity and Governance",
+        "area": "Constitutional Bodies",
+        "topic": "Election Commission of India"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "green-hydrogen-mission-progress",
+      "headline": "National Green Hydrogen Mission Accelerates Pilot Projects and Policy Incentives",
+      "explainer": "• The Ministry of New and Renewable Energy announced accelerated implementation of the National Green Hydrogen Mission, focusing on pilot projects and policy incentives.\n• Several industrial clusters are identified for establishing green hydrogen production facilities, targeting sectors like refining, fertilizer, and steel.\n• Financial incentives, including production-linked incentives (PLI) and viability gap funding, are being streamlined to attract investments.\n• The mission aims to make India a global hub for green hydrogen production and export, contributing to energy independence and de-carbonization.\n• Challenges related to cost-effectiveness, infrastructure development, and water availability for electrolysis are actively being addressed.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Environmental pollution and degradation, environmental impact assessment",
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Science and Technology- developments and their applications and effects in everyday life"
+      ],
+      "date": "2025-10-10",
+      "source": "Ministry of New and Renewable Energy",
+      "sourceUrl": "https://mnre.gov.in/press-releases",
+      "importance": "high",
+      "tags": [
+        "Green Hydrogen",
+        "National Green Hydrogen Mission",
+        "Renewable Energy",
+        "De-carbonization",
+        "Energy Security",
+        "PLI Scheme"
+      ],
+      "keyTerms": [
+        "Green Hydrogen",
+        "Electrolysis",
+        "National Green Hydrogen Mission",
+        "Production Linked Incentive (PLI)",
+        "Viability Gap Funding (VGF)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Green hydrogen is produced by electrolysis of water using renewable energy.",
+        "The National Green Hydrogen Mission aims to make India a global hub for green hydrogen.",
+        "PLI scheme and viability gap funding are key incentives.",
+        "Target sectors include refining, fertilizer, and steel."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic importance of the National Green Hydrogen Mission for India's energy security and climate change mitigation goals.",
+        "Analyze the technological and economic challenges in scaling up green hydrogen production in India, including cost, infrastructure, and water requirements.",
+        "Evaluate the role of policy incentives like PLI schemes and viability gap funding in attracting investments and fostering a green hydrogen ecosystem.",
+        "Examine the potential of green hydrogen to de-carbonize hard-to-abate sectors and create new economic opportunities for India."
+      ],
+      "imageDescription": "A stylized atom with green leaves, representing green hydrogen and clean energy.",
+      "section": "Environment",
+      "trivia": "Hydrogen is the most abundant chemical substance in the universe, making up roughly 75% of all normal matter.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Renewable Energy",
+        "topic": "Green Hydrogen"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "india-central-asia-summit-outcomes",
+      "headline": "India-Central Asia Summit: Focus on Connectivity, Trade, and Security Cooperation",
+      "explainer": "• The second India-Central Asia Summit concluded with leaders emphasizing enhanced connectivity, boosting trade, and strengthening security cooperation.\n• Key initiatives include proposals for joint infrastructure projects, expanding trade routes via Chabahar Port, and increasing cultural exchanges.\n• Security discussions covered counter-terrorism efforts, drug trafficking, and regional stability in Afghanistan.\n• India reiterated its commitment to a 'Connect Central Asia' policy, leveraging its historical ties and economic potential.\n• The summit outcomes aim to build a strong strategic partnership, diversifying Central Asian nations' engagement beyond traditional powers.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora"
+      ],
+      "date": "2025-10-10",
+      "source": "Ministry of External Affairs (MEA)",
+      "sourceUrl": "https://mea.gov.in/press-releases.htm",
+      "importance": "medium",
+      "tags": [
+        "India-Central Asia",
+        "Connectivity",
+        "Trade",
+        "Security Cooperation",
+        "Chabahar Port",
+        "Connect Central Asia Policy"
+      ],
+      "keyTerms": [
+        "Central Asia",
+        "Chabahar Port",
+        "International North-South Transport Corridor (INSTC)",
+        "Counter-Terrorism",
+        "Connect Central Asia Policy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The India-Central Asia Summit involves India and five Central Asian republics: Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan.",
+        "Chabahar Port in Iran is crucial for India's connectivity to Central Asia.",
+        "The International North-South Transport Corridor (INSTC) is another key connectivity project.",
+        "Discussions covered trade, connectivity, and security, including counter-terrorism."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the strategic rationale behind India's 'Connect Central Asia' policy and the significance of the India-Central Asia Summit outcomes.",
+        "Discuss the role of connectivity projects, such as Chabahar Port and INSTC, in enhancing India's trade and strategic influence in the Central Asian region.",
+        "Examine the shared security concerns between India and Central Asian nations, particularly concerning Afghanistan and counter-terrorism efforts.",
+        "Evaluate the potential for diversifying Central Asian nations' foreign policy and economic engagement through stronger ties with India."
+      ],
+      "imageDescription": "A map highlighting India and the Central Asian countries, with arrows indicating trade routes and connectivity.",
+      "section": "International",
+      "trivia": "Central Asia is strategically important due to its rich energy resources and its position as a bridge between Europe and Asia.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral, regional and global groupings",
+        "topic": "India and Central Asia"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indigenous-aircraft-carrier-vikrant-trials",
+      "headline": "INS Vikrant Undergoes Advanced Integration Trials, Enhancing India's Naval Prowess",
+      "explainer": "• India's first indigenous aircraft carrier, INS Vikrant, successfully completed a series of advanced integration trials, moving closer to full operational capability.\n• The trials focused on integrating various aviation facilities, flight deck operations, and complex combat management systems.\n• This milestone significantly boosts India's 'Atmanirbhar Bharat' (self-reliant India) initiative in defense manufacturing and naval capabilities.\n• INS Vikrant will operate with a mix of indigenous and imported aircraft, including MiG-29K fighter jets and advanced light helicopters.\n• Its deployment will enhance India's maritime security, power projection in the Indian Ocean Region, and blue-water naval aspirations.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism"
+      ],
+      "date": "2025-10-10",
+      "source": "Indian Navy",
+      "sourceUrl": "https://indiannavy.nic.in/press-releases",
+      "importance": "high",
+      "tags": [
+        "INS Vikrant",
+        "Indigenous Aircraft Carrier",
+        "Indian Navy",
+        "Atmanirbhar Bharat",
+        "Defense Manufacturing",
+        "Maritime Security",
+        "Indian Ocean Region"
+      ],
+      "keyTerms": [
+        "INS Vikrant",
+        "Indigenous Aircraft Carrier (IAC)",
+        "Atmanirbhar Bharat",
+        "Blue-Water Navy",
+        "Maritime Security",
+        "Power Projection"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "INS Vikrant is India's first indigenously designed and built aircraft carrier.",
+        "It was commissioned into the Indian Navy in 2022.",
+        "The carrier is capable of operating various types of aircraft, including MiG-29K fighter jets.",
+        "The project aligns with the 'Atmanirbhar Bharat' initiative in defense."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the strategic significance of INS Vikrant for India's naval capabilities and its role in projecting power in the Indian Ocean Region.",
+        "Analyze how the indigenous development and construction of INS Vikrant contribute to the 'Atmanirbhar Bharat' initiative and boost India's defense industrial complex.",
+        "Examine the challenges and opportunities associated with operating and maintaining a large aircraft carrier, including crew training, logistics, and technological upgrades.",
+        "Evaluate the implications of India's growing blue-water naval aspirations for regional security dynamics and international maritime cooperation."
+      ],
+      "imageDescription": "A majestic view of INS Vikrant sailing at sea, with fighter jets on its deck.",
+      "section": "National",
+      "trivia": "INS Vikrant is named after India's first aircraft carrier, which was acquired from the UK in 1961 and decommissioned in 1997.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Defense Technology",
+        "topic": "Indigenous defense production"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "new-species-biodiversity-western-ghats",
+      "headline": "Scientists Discover New Species in Western Ghats, Highlighting Biodiversity Hotspot Status",
+      "explainer": "• Researchers from the Zoological Survey of India announced the discovery of several new species of amphibians and invertebrates in the Western Ghats.\n• The findings underscore the immense biodiversity and ecological fragility of the Western Ghats, a UNESCO World Heritage Site.\n• These discoveries contribute valuable data to understanding ecosystem health and the need for enhanced conservation efforts.\n• Habitat loss, climate change, and invasive species remain significant threats to the region's unique flora and fauna.\n• The scientific community calls for stronger policy measures and community involvement in protecting this global biodiversity hotspot.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment",
+        "Biodiversity"
+      ],
+      "date": "2025-10-10",
+      "source": "Zoological Survey of India (ZSI)",
+      "sourceUrl": "https://zsi.gov.in/news/XXXX",
+      "importance": "low",
+      "tags": [
+        "Western Ghats",
+        "Biodiversity Hotspot",
+        "New Species",
+        "Conservation",
+        "Amphibians",
+        "Ecology"
+      ],
+      "keyTerms": [
+        "Biodiversity Hotspot",
+        "Western Ghats",
+        "Endemic Species",
+        "Zoological Survey of India (ZSI)",
+        "UNESCO World Heritage Site"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Western Ghats is one of the 36 global biodiversity hotspots.",
+        "It is recognized as a UNESCO World Heritage Site.",
+        "New species discoveries highlight the region's rich and unique biodiversity.",
+        "Threats include habitat loss, climate change, and invasive species."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ecological significance of the Western Ghats as a global biodiversity hotspot and the factors contributing to its unique flora and fauna.",
+        "Analyze the major threats to biodiversity in the Western Ghats, including anthropogenic pressures and climate change impacts.",
+        "Evaluate the effectiveness of current conservation efforts and suggest additional policy measures and community-based approaches for protecting this fragile ecosystem.",
+        "Examine the role of scientific research and new species discoveries in informing conservation strategies and raising public awareness."
+      ],
+      "imageDescription": "A vibrant image of a newly discovered frog species in the lush green environment of the Western Ghats.",
+      "section": "Environment",
+      "trivia": "The Western Ghats are older than the Himalayas and are home to at least 325 globally threatened species.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Biodiversity",
+        "topic": "Biodiversity hotspots"
+      },
+      "prelimsPotential": 2
+    },
+    {
+      "id": "digital-banking-units-expansion",
+      "headline": "Digital Banking Units (DBUs) Expansion: RBI Urges Banks to Scale Up Reach in Tier 2 & 3 Cities",
+      "explainer": "• The Reserve Bank of India (RBI) urged commercial banks to accelerate the establishment and expansion of Digital Banking Units (DBUs) in Tier 2 and Tier 3 cities.\n• The move aims to enhance financial inclusion, provide seamless digital banking services, and promote digital literacy in semi-urban and rural areas.\n• DBUs offer a range of services, including account opening, cash deposit/withdrawal, loan applications, and digital onboarding for various schemes.\n• Challenges include ensuring robust cybersecurity, addressing digital literacy gaps, and providing adequate technical support.\n• The expansion is critical for achieving the government's vision of a financially inclusive and digitally empowered India.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Inclusive growth and issues arising from it",
+        "Government Budgeting",
+        "Monetary Policy"
+      ],
+      "date": "2025-10-10",
+      "source": "Reserve Bank of India (RBI)",
+      "sourceUrl": "https://www.rbi.org.in/Scripts/PressReleaseDisplay.aspx?prid=XXXX",
+      "importance": "medium",
+      "tags": [
+        "Digital Banking Units",
+        "DBU",
+        "Financial Inclusion",
+        "RBI",
+        "Digital Literacy",
+        "Banking Services"
+      ],
+      "keyTerms": [
+        "Digital Banking Units (DBUs)",
+        "Financial Inclusion",
+        "Tier 2 Cities",
+        "Tier 3 Cities",
+        "Digital Literacy",
+        "RBI"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "DBUs are specialized fixed point digital infrastructure established by commercial banks.",
+        "They provide digital banking products and services in an efficient, paperless, self-service mode.",
+        "The RBI's initiative aims to enhance financial inclusion, especially in semi-urban and rural areas.",
+        "DBUs offer services like account opening, loan applications, and digital onboarding."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the concept and objectives of Digital Banking Units (DBUs) and their potential to revolutionize financial inclusion in India.",
+        "Analyze the challenges in expanding DBUs, particularly in semi-urban and rural areas, including issues of digital literacy, connectivity, and cybersecurity.",
+        "Evaluate the role of the RBI and commercial banks in promoting DBUs and leveraging technology to reach underserved populations.",
+        "Suggest measures to ensure the long-term sustainability and effectiveness of DBUs in achieving a truly inclusive and digitally empowered financial ecosystem."
+      ],
+      "imageDescription": "An illustration of a modern, self-service digital banking kiosk in a rural setting, symbolizing financial inclusion.",
+      "section": "Economy",
+      "trivia": "India launched 75 Digital Banking Units (DBUs) in 75 districts in October 2022 to commemorate 75 years of independence.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Inclusive growth",
+        "topic": "Financial Inclusion"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "pm-vishwakarma-scheme-progress",
+      "headline": "PM-Vishwakarma Scheme: Empowering Artisans and Craftspeople with Skill Development and Financial Support",
+      "explainer": "• The Ministry of Micro, Small & Medium Enterprises (MSME) reviewed the progress of the PM-Vishwakarma scheme, aimed at supporting traditional artisans and craftspeople.\n• The scheme provides skill training, access to modern tools, collateral-free credit, and marketing support to 'Vishwakarmas'.\n• Emphasis is placed on integrating traditional arts and crafts with contemporary market demands and digital platforms.\n• Early results show increased income generation and enhanced social mobility for beneficiaries in various crafts.\n• Challenges include reaching remote artisans, ensuring quality training, and overcoming market access barriers.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+      ],
+      "date": "2025-10-10",
+      "source": "Ministry of MSME",
+      "sourceUrl": "https://msme.gov.in/press-releases",
+      "importance": "medium",
+      "tags": [
+        "PM-Vishwakarma Scheme",
+        "Artisans",
+        "Craftspeople",
+        "Skill Development",
+        "MSME",
+        "Financial Inclusion",
+        "Traditional Arts"
+      ],
+      "keyTerms": [
+        "PM-Vishwakarma Scheme",
+        "Traditional Artisans",
+        "Craftspeople",
+        "Skill Development",
+        "Collateral-Free Credit",
+        "Micro, Small & Medium Enterprises (MSME)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The PM-Vishwakarma scheme targets traditional artisans and craftspeople.",
+        "It provides skill training, modern toolkits, and collateral-free credit.",
+        "The scheme falls under the Ministry of MSME.",
+        "It aims to integrate traditional arts with contemporary market demands."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the objectives and key components of the PM-Vishwakarma scheme and its significance in empowering traditional artisans and preserving India's cultural heritage.",
+        "Analyze the challenges faced by traditional craftspeople in India, such as lack of access to credit, modern tools, and market linkages, and how the scheme addresses them.",
+        "Evaluate the role of skill development and technology adoption in enhancing the competitiveness and income of 'Vishwakarmas'.",
+        "Suggest measures to further strengthen the scheme's outreach and impact, ensuring sustainable livelihoods and recognition for India's rich artisanal community."
+      ],
+      "imageDescription": "An Indian artisan skillfully crafting pottery, symbolizing the PM-Vishwakarma scheme.",
+      "section": "National",
+      "trivia": "The scheme covers 18 traditional trades, including carpenters, blacksmiths, potters, sculptors, cobblers, and jewelers.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Welfare schemes for vulnerable sections",
+        "topic": "Skill development"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "brics-expansion-new-members-impact",
+      "headline": "BRICS Expansion: New Members Bring Geo-Economic Shifts and Opportunities for India",
+      "explainer": "• The recent expansion of the BRICS grouping to include new member countries is poised to bring significant geo-economic shifts and new opportunities for India.\n• The inclusion of nations like Saudi Arabia, UAE, Egypt, Iran, Ethiopia, and Argentina enhances BRICS' global footprint and economic weight.\n• For India, this expansion offers diversified trade routes, increased energy security, and stronger South-South cooperation platforms.\n• Challenges include navigating diverse political interests, achieving consensus on key issues, and strengthening the New Development Bank's role.\n• The expanded BRICS aims to advocate for a more inclusive and multipolar global order, challenging existing financial and political hegemonies.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora"
+      ],
+      "date": "2025-10-10",
+      "source": "The Indian Express",
+      "sourceUrl": "https://indianexpress.com/news/brics-expansion-india-geoeconomic/",
+      "importance": "high",
+      "tags": [
+        "BRICS",
+        "BRICS Expansion",
+        "Geo-economy",
+        "Multipolar World",
+        "New Development Bank",
+        "South-South Cooperation"
+      ],
+      "keyTerms": [
+        "BRICS",
+        "New Development Bank (NDB)",
+        "South-South Cooperation",
+        "Multipolar World Order",
+        "De-dollarization"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "BRICS originally consisted of Brazil, Russia, India, China, and South Africa.",
+        "New members include Saudi Arabia, UAE, Egypt, Iran, Ethiopia, and Argentina (from Jan 2024).",
+        "The expansion aims to increase BRICS' global economic and political influence.",
+        "The New Development Bank (NDB) is the financial arm of BRICS."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the geo-economic and geopolitical implications of the BRICS expansion, particularly for India's foreign policy and trade strategies.",
+        "Discuss the opportunities and challenges that the inclusion of new members presents for India within the expanded BRICS framework.",
+        "Evaluate the potential of an enlarged BRICS to promote a more inclusive and multipolar global order, challenging traditional power structures.",
+        "Examine the role of the New Development Bank (NDB) in supporting infrastructure development and fostering South-South cooperation among BRICS members."
+      ],
+      "imageDescription": "Flags of BRICS member countries, including the newly added nations, arranged in a circle, symbolizing unity and expansion.",
+      "section": "International",
+      "trivia": "The term 'BRIC' was coined in 2001 by Goldman Sachs economist Jim O'Neill to describe the four emerging economies of Brazil, Russia, India, and China.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral, regional and global groupings",
+        "topic": "BRICS"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "ayushman-bharat-digital-mission-progress",
+      "headline": "Ayushman Bharat Digital Mission (ABDM) Reaches New Milestones in Health Record Linkage",
+      "explainer": "• The National Health Authority (NHA) announced that the Ayushman Bharat Digital Mission (ABDM) has achieved significant milestones in creating health IDs and linking health records.\n• Over 500 million Ayushman Bharat Health Accounts (ABHA) have been generated, and millions of health records linked across various healthcare providers.\n• The mission aims to create a seamless online platform for interoperable digital health records, enhancing accessibility and efficiency of healthcare services.\n• Challenges include ensuring data privacy, building trust among citizens, and integrating all healthcare providers, especially in the private sector.\n• ABDM is a crucial step towards universal health coverage and a digitally enabled health ecosystem in India.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+      ],
+      "date": "2025-10-10",
+      "source": "National Health Authority (NHA)",
+      "sourceUrl": "https://nha.gov.in/news/XXXX",
+      "importance": "medium",
+      "tags": [
+        "Ayushman Bharat Digital Mission",
+        "ABDM",
+        "Health ID",
+        "Digital Health Records",
+        "Healthcare",
+        "National Health Authority",
+        "Universal Health Coverage"
+      ],
+      "keyTerms": [
+        "Ayushman Bharat Digital Mission (ABDM)",
+        "Ayushman Bharat Health Account (ABHA)",
+        "National Health Authority (NHA)",
+        "Interoperable Digital Health Records",
+        "Universal Health Coverage"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ABDM aims to create a digital health ecosystem with unique health IDs (ABHA).",
+        "NHA is the implementing agency for ABDM.",
+        "It facilitates linking health records across different healthcare providers.",
+        "Over 500 million ABHA IDs have been generated."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the objectives and key features of the Ayushman Bharat Digital Mission (ABDM) and its potential to transform healthcare delivery in India.",
+        "Analyze the challenges associated with implementing a nationwide digital health infrastructure, particularly concerning data privacy, cybersecurity, and interoperability.",
+        "Evaluate the role of ABHA IDs and linked health records in enhancing the accessibility, efficiency, and quality of healthcare services for citizens.",
+        "Suggest measures to build public trust and ensure the seamless integration of all stakeholders, including public and private healthcare providers, into the ABDM framework."
+      ],
+      "imageDescription": "An infographic showing interconnected digital health records and a health ID card, symbolizing ABDM.",
+      "section": "National",
+      "trivia": "ABDM is built on the principles of openness, interoperability, and security, leveraging India's successful digital public infrastructure stack.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+        "topic": "Health"
+      },
+      "prelimsPotential": 4
+    }
+  ],
+  "highlights": [
+    "India Unveils Comprehensive National Digital Public Infrastructure (DPI) Policy Framework to streamline and expand digital services.",
+    "Supreme Court Upholds States' Rights in Inter-State Water Dispute, reinforcing federal principles and directing a new tribunal.",
+    "India and Bhutan Sign Landmark Pact on Climate Resilience and Renewable Energy Cooperation, bolstering regional environmental efforts.",
+    "RBI Maintains Status Quo on Repo Rate amidst inflation concerns, signaling a cautious approach to monetary policy.",
+    "ISRO Provides Update on Chandrayaan-4 Mission, confirming preparations for India's first lunar sample return from the Moon's south pole."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to the National Digital Public Infrastructure (DPI) Policy Framework, consider the following statements:\n1. The framework aims to leverage existing successful DPIs like Aadhaar and UPI.\n2. It primarily focuses on enhancing digital literacy in urban areas only.\n3. Data privacy and cybersecurity are explicitly mentioned as key pillars of the policy.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 3 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 1 and 3 only",
+      "explanation": "Statement 1 is correct. The policy explicitly aims to build upon successful DPIs like Aadhaar, UPI, and CoWIN. Statement 2 is incorrect. The policy focuses on inclusive access and bridging the digital divide, implying coverage beyond just urban areas. Statement 3 is correct. Data privacy and cybersecurity are emphasized as core pillars of the new framework."
+    },
+    {
+      "question": "Which of the following bodies is responsible for fixing the benchmark interest rate (repo rate) in India?",
+      "options": [
+        "(a) Reserve Bank of India (RBI) Board of Directors",
+        "(b) Ministry of Finance",
+        "(c) Monetary Policy Committee (MPC)",
+        "(d) Indian Banks' Association (IBA)"
+      ],
+      "answer": "(c) Monetary Policy Committee (MPC)",
+      "explanation": "The Monetary Policy Committee (MPC) is a statutory and institutionalized framework under the Reserve Bank of India Act, 1934, for maintaining price stability while keeping in mind the objective of growth. It is responsible for fixing the benchmark interest rate (repo rate)."
+    },
+    {
+      "question": "Consider the following statements regarding the Indus Waters Treaty (IWT):\n1. The Treaty was signed between India and Pakistan in 1960 and brokered by the World Bank.\n2. It allocates the waters of the Eastern Rivers (Ravi, Beas, Sutlej) to Pakistan.\n3. The Permanent Indus Commission (PIC) is a bilateral mechanism for implementing and resolving disputes under the Treaty.\n\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 3 only",
+      "explanation": "Statement 1 is correct. The IWT was signed in 1960 with the World Bank as a guarantor. Statement 2 is incorrect. The Treaty allocates the Eastern Rivers (Ravi, Beas, Sutlej) to India, and the Western Rivers (Indus, Jhelum, Chenab) to Pakistan. Statement 3 is correct. The Permanent Indus Commission (PIC) is established under the Treaty to serve as a channel for communication and cooperation."
+    },
+    {
+      "question": "The 'NIPUN Bharat' Mission, recently in news, is associated with which of the following sectors?",
+      "options": [
+        "(a) Healthcare infrastructure development",
+        "(b) Foundational literacy and numeracy",
+        "(c) Digital skilling for youth",
+        "(d) Renewable energy promotion"
+      ],
+      "answer": "(b) Foundational literacy and numeracy",
+      "explanation": "The 'NIPUN Bharat' Mission (National Initiative for Proficiency in Reading with Understanding and Numeracy) is a flagship program under the National Education Policy (NEP) 2020, aimed at ensuring every child achieves foundational literacy and numeracy by the end of Grade 3."
+    },
+    {
+      "question": "Which of the following statements about the Western Ghats is/are correct?\n1. It is recognized as one of the world's 36 biodiversity hotspots.\n2. It is older than the Himalayan mountain range.\n3. It is a UNESCO World Heritage Site.\n\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(d) 1, 2 and 3",
+      "explanation": "All three statements are correct. The Western Ghats is indeed one of the 36 global biodiversity hotspots, older than the Himalayas, and designated as a UNESCO World Heritage Site due to its unique biological diversity."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "The newly unveiled National Digital Public Infrastructure (DPI) Policy Framework holds the potential to transform governance and public service delivery in India. Discuss the key features of this framework and analyze the challenges in its effective implementation, particularly concerning data privacy and digital inclusion.",
+      "syllabusMatch": "GS2: Government policies and interventions for development in various sectors and issues arising out of their design and implementation; E-governance- applications, models, successes, limitations, and potential.",
+      "approach": "Introduce the DPI framework and its objectives. Elaborate on key features like interoperability, open standards, and leveraging existing DPIs. Discuss potential benefits. Then, delve into critical challenges such as ensuring data privacy, cybersecurity, bridging the digital divide, capacity building, and regulatory hurdles. Conclude with a forward-looking statement on balancing innovation with citizen rights."
+    },
+    {
+      "question": "India's pursuit of a 'blue-water navy' is exemplified by the indigenous aircraft carrier INS Vikrant. Discuss the strategic significance of such a capability for India's maritime security and power projection in the Indian Ocean Region. How does it align with the 'Atmanirbhar Bharat' initiative?",
+      "syllabusMatch": "GS3: Security challenges and their management in border areas – linkages of organized crime with terrorism; Science and Technology- developments and their applications and effects in everyday life; Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+      "approach": "Define 'blue-water navy' and introduce INS Vikrant. Explain its strategic importance for maritime domain awareness, protection of sea lanes, HADR operations, and deterrence in the Indian Ocean. Link it to India's geopolitical ambitions. Elaborate on how its indigenous design and construction embody 'Atmanirbhar Bharat' in defense, fostering local industry and reducing reliance on foreign suppliers. Conclude with challenges and the future outlook."
+    },
+    {
+      "question": "The recent expansion of the BRICS grouping is poised to bring significant geo-economic shifts. Analyze the opportunities and challenges this expansion presents for India's foreign policy and trade objectives, particularly in fostering a more inclusive and multipolar global order.",
+      "syllabusMatch": "GS2: Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests; Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora.",
+      "approach": "Briefly introduce BRICS and its recent expansion. Discuss the opportunities for India, such as diversified trade routes, enhanced energy security (with new Middle Eastern members), stronger South-South cooperation, and increased leverage in global forums. Address challenges like navigating diverse political interests, achieving consensus, and the need for structural reforms within BRICS. Conclude by assessing BRICS' role in promoting a multipolar world order and India's position within it."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The National Digital Public Infrastructure (DPI) Policy Framework aims to enhance India's digital ecosystem.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "DPI",
+        "Digital India"
+      ]
+    },
+    {
+      "text": "Article 262 of the Indian Constitution deals with inter-state water disputes.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Constitution",
+        "Federalism"
+      ]
+    },
+    {
+      "text": "Bhutan is the world's only carbon-negative country.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Bhutan",
+        "Climate Change"
+      ]
+    },
+    {
+      "text": "The repo rate is the interest rate at which RBI lends money to commercial banks.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "Monetary Policy"
+      ]
+    },
+    {
+      "text": "Chandrayaan-4 is envisioned as India's first lunar sample return mission.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "Space Mission"
+      ]
+    },
+    {
+      "text": "The National Logistics Policy aims to reduce logistics costs as a percentage of GDP.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Logistics",
+        "Infrastructure"
+      ]
+    },
+    {
+      "text": "NCIIPC is the nodal agency for protecting Critical Information Infrastructure (CII) in India.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "Cybersecurity",
+        "NCIIPC"
+      ]
+    },
+    {
+      "text": "The Indus Waters Treaty was brokered by the World Bank in 1960.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "India-Pakistan",
+        "IWT"
+      ]
+    },
+    {
+      "text": "Green hydrogen is produced by electrolysis of water using renewable energy.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Green Hydrogen",
+        "Renewable Energy"
+      ]
+    },
+    {
+      "text": "The PM-Vishwakarma scheme supports traditional artisans and craftspeople.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "Artisans",
+        "Skill Development"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "animal-welfare-board-livestock-protection",
+        "headline": "Animal Welfare Board of India Strengthens Measures for Livestock Protection",
+        "explainer": "• The Animal Welfare Board of India (AWBI) announced new guidelines and enforcement measures to enhance the protection of livestock across the country.\n• The focus is on preventing cruelty, ensuring humane treatment during transport, and improving conditions in animal markets and slaughterhouses.\n• Collaboration with state animal husbandry departments and local law enforcement agencies is being intensified for effective implementation.\n• Awareness campaigns are planned to educate farmers and the public about animal welfare laws and best practices.\n• These measures aim to align India's animal welfare standards with international norms and address concerns about animal cruelty.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Role of women and women’s organization, population and associated issues, poverty and developmental issues, urbanization, their problems and their remedies",
+          "Social empowerment, communalism, regionalism & secularism"
+        ],
+        "date": "2025-10-10",
+        "source": "Animal Welfare Board of India (AWBI)",
+        "sourceUrl": "https://awbi.gov.in/news/XXXX",
+        "importance": "low",
+        "tags": [
+          "Animal Welfare",
+          "Livestock Protection",
+          "AWBI",
+          "Cruelty Prevention",
+          "Animal Husbandry",
+          "Social Responsibility"
+        ],
+        "keyTerms": [
+          "Animal Welfare Board of India (AWBI)",
+          "Prevention of Cruelty to Animals Act, 1960",
+          "Livestock",
+          "Humane Treatment"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The AWBI is a statutory advisory body under the Ministry of Fisheries, Animal Husbandry and Dairying.",
+          "It advises the government on animal welfare laws and promotes humane treatment of animals.",
+          "The Prevention of Cruelty to Animals Act, 1960, is a key legislation in this regard.",
+          "New guidelines focus on transport, animal markets, and slaughterhouses."
+        ],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "Cattle grazing peacefully in a field, symbolizing animal welfare and healthy livestock.",
+        "section": "National",
+        "trivia": "The AWBI was established in 1962 under Section 4 of The Prevention of Cruelty to Animals Act, 1960.",
+        "prelimsSyllabus": {
+          "subject": "Social Issues",
+          "area": "Social empowerment",
+          "topic": "Animal Welfare"
+        },
+        "prelimsPotential": 2
+      }
+    ],
+    "GS2": [
+      {
+        "id": "india-digital-public-infra-policy-framework",
+        "headline": "India Unveils Comprehensive National Digital Public Infrastructure (DPI) Policy Framework",
+        "explainer": "• The Union Cabinet approved a new National Digital Public Infrastructure (DPI) Policy Framework, aiming to streamline and expand India's digital ecosystem.\n• The policy focuses on interoperability, data privacy, cybersecurity, and inclusive access to digital services across various sectors.\n• It seeks to leverage existing successful DPIs like Aadhaar, UPI, and CoWIN to build new platforms for health, education, and agriculture.\n• Key pillars include a robust legal framework, open standards, public-private partnerships, and capacity building for digital literacy.\n• The framework is expected to boost digital economy, enhance governance efficiency, and bridge the digital divide, aligning with 'Digital India' vision.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "E-governance- applications, models, successes, limitations, and potential",
+          "Role of IT in governance"
+        ],
+        "date": "2025-10-10",
+        "source": "Press Information Bureau (PIB)",
+        "sourceUrl": "https://pib.gov.in/PressReleasePage.aspx?PRID=XXXX",
+        "importance": "high",
+        "tags": [
+          "Digital Public Infrastructure",
+          "DPI",
+          "Digital India",
+          "E-governance",
+          "Policy Framework",
+          "Cybersecurity",
+          "Data Privacy"
+        ],
+        "keyTerms": [
+          "Digital Public Infrastructure (DPI)",
+          "Open Standards",
+          "Interoperability",
+          "Data Localization",
+          "Digital Divide"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The new DPI policy framework aims to build upon existing successful platforms like Aadhaar, UPI, and CoWIN.",
+          "Key focus areas include data privacy, cybersecurity, open standards, and public-private partnerships.",
+          "The policy emphasizes inclusive access and bridging the digital divide.",
+          "The framework is designed to cover sectors like health, education, and agriculture."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the potential of the National DPI Policy Framework to transform governance and public service delivery in India, citing examples of existing DPIs.",
+          "Analyze the challenges in implementing a comprehensive DPI framework, particularly concerning data privacy, cybersecurity threats, and ensuring digital inclusion for all sections of society.",
+          "Evaluate how the new policy can foster innovation and economic growth by creating a robust digital ecosystem, attracting investments, and supporting startups.",
+          "Examine the ethical considerations and regulatory mechanisms required to ensure responsible development and deployment of DPIs."
+        ],
+        "imageDescription": "Illustration depicting interconnected digital services and infrastructure, symbolizing India's new DPI framework.",
+        "section": "Lead Opinion",
+        "trivia": "India's Unified Payments Interface (UPI) handles more transactions than major credit card networks combined, showcasing the power of its existing DPIs.",
+        "prelimsSyllabus": {
+          "subject": "Polity and Governance",
+          "area": "Government policies and interventions",
+          "topic": "E-governance"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "supreme-court-federalism-dispute",
+        "headline": "Supreme Court Upholds States' Rights in Inter-State Water Dispute, Reinforces Federal Principles",
+        "explainer": "• The Supreme Court delivered a landmark judgment in a long-standing inter-state water dispute, affirming the rights of a riparian state over shared water resources.\n• The ruling emphasized the principles of cooperative federalism and the need for equitable distribution while respecting historical usage and ecological considerations.\n• The court directed the central government to constitute a new tribunal with a mandate for time-bound resolution, integrating scientific data and stakeholder consultations.\n• This judgment is expected to set a precedent for future inter-state resource sharing conflicts, advocating for dialogue and constitutional mechanisms.\n• It reinforces the judiciary's role in upholding the federal structure of the Indian Constitution.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure",
+          "Separation of powers between various organs dispute redressal mechanisms and institutions",
+          "Role of Supreme Court in upholding constitutional principles"
+        ],
+        "date": "2025-10-10",
+        "source": "The Hindu",
+        "sourceUrl": "https://www.thehindu.com/news/national/sc-water-dispute-ruling/",
+        "importance": "high",
+        "tags": [
+          "Supreme Court",
+          "Federalism",
+          "Inter-State Water Dispute",
+          "Cooperative Federalism",
+          "Riparian Rights",
+          "Judiciary"
+        ],
+        "keyTerms": [
+          "Cooperative Federalism",
+          "Inter-State Water Disputes Act, 1956",
+          "Article 262",
+          "Riparian Rights",
+          "Tribunal"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Article 262 of the Indian Constitution deals with adjudication of disputes relating to waters of inter-state rivers or river valleys.",
+          "The Inter-State Water Disputes Act, 1956, provides for the constitution of tribunals.",
+          "The Supreme Court's ruling emphasized principles of cooperative federalism.",
+          "The judgment directed the formation of a new tribunal for time-bound resolution."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the implications of the Supreme Court's judgment on the dynamics of cooperative federalism in India, particularly in the context of resource sharing.",
+          "Discuss the challenges associated with inter-state water disputes in India and evaluate the effectiveness of existing constitutional and statutory mechanisms for their resolution.",
+          "Examine how climate change and increasing water scarcity might exacerbate inter-state water disputes, necessitating robust policy and judicial interventions.",
+          "Propose reforms to the Inter-State Water Disputes Act to ensure more efficient and equitable resolution of future conflicts."
+        ],
+        "imageDescription": "A map of India with major river basins highlighted, symbolizing inter-state water disputes.",
+        "section": "National",
+        "trivia": "There are currently over a dozen active inter-state water disputes in India, highlighting the complex nature of resource sharing.",
+        "prelimsSyllabus": {
+          "subject": "Polity and Governance",
+          "area": "Indian Constitution - historical underpinnings, evolution, features, amendments, significant provisions and basic structure",
+          "topic": "Federal structure"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-bhutan-climate-resilience-pact",
+        "headline": "India and Bhutan Sign Landmark Pact on Climate Resilience and Renewable Energy Cooperation",
+        "explainer": "• India and Bhutan inked a comprehensive agreement to enhance cooperation in climate change adaptation, disaster resilience, and renewable energy development.\n• The pact includes joint research initiatives, technology transfer for early warning systems, and capacity building for climate-vulnerable communities.\n• A significant component focuses on developing cross-border hydropower projects and exploring solar energy potential in the Himalayan region.\n• This collaboration underscores India's 'Neighbourhood First' policy and its commitment to regional environmental sustainability.\n• The agreement aims to build a green and resilient future for both nations, addressing shared ecological challenges.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Environmental pollution and degradation"
+        ],
+        "date": "2025-10-10",
+        "source": "Ministry of External Affairs (MEA)",
+        "sourceUrl": "https://mea.gov.in/press-releases.htm",
+        "importance": "high",
+        "tags": [
+          "India-Bhutan",
+          "Climate Resilience",
+          "Renewable Energy",
+          "Hydropower",
+          "Neighbourhood First",
+          "International Cooperation"
+        ],
+        "keyTerms": [
+          "Climate Change Adaptation",
+          "Disaster Resilience",
+          "Renewable Energy",
+          "Hydropower",
+          "Gross National Happiness (Bhutan)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The pact between India and Bhutan focuses on climate change adaptation, disaster resilience, and renewable energy.",
+          "Cooperation includes joint research, technology transfer for early warning systems, and capacity building.",
+          "Cross-border hydropower projects and solar energy are key areas of collaboration.",
+          "The agreement aligns with India's 'Neighbourhood First' policy."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic significance of India's collaboration with Bhutan on climate resilience and renewable energy, particularly in the context of regional stability and sustainable development.",
+          "Discuss how such bilateral agreements contribute to India's broader climate diplomacy and its commitments under international environmental conventions.",
+          "Examine the potential economic and ecological benefits for both India and Bhutan from enhanced cooperation in the hydropower sector.",
+          "Evaluate the challenges and opportunities in implementing cross-border environmental and energy projects in the sensitive Himalayan region."
+        ],
+        "imageDescription": "Satellite image of the Himalayan region, highlighting India and Bhutan, with symbols of renewable energy and climate protection.",
+        "section": "International",
+        "trivia": "Bhutan is the world's only carbon-negative country, absorbing more CO2 than it emits, largely due to its vast forest cover and hydropower.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India and its neighbourhood",
+          "topic": "Bilateral relations"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-gulf-cooperation-council-fta",
+        "headline": "India-GCC Free Trade Agreement Negotiations Enter Final Stage, Boost for Bilateral Trade",
+        "explainer": "• Negotiations for the Free Trade Agreement (FTA) between India and the Gulf Cooperation Council (GCC) have entered their final stages, with a deal expected soon.\n• The FTA aims to significantly reduce tariffs and non-tariff barriers, boosting bilateral trade and investment between India and the six GCC member states.\n• Key sectors expected to benefit include petrochemicals, gems and jewellery, textiles, and agricultural products.\n• The agreement is strategically important for India's energy security and for diversifying its export markets.\n• Discussions are focusing on rules of origin, dispute settlement mechanisms, and services trade liberalization.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora"
+        ],
+        "date": "2025-10-10",
+        "source": "Ministry of Commerce and Industry",
+        "sourceUrl": "https://commerce.gov.in/press-releases/",
+        "importance": "medium",
+        "tags": [
+          "India-GCC",
+          "Free Trade Agreement",
+          "FTA",
+          "Bilateral Trade",
+          "Energy Security",
+          "Gulf Cooperation Council"
+        ],
+        "keyTerms": [
+          "Free Trade Agreement (FTA)",
+          "Gulf Cooperation Council (GCC)",
+          "Tariff Barriers",
+          "Non-Tariff Barriers",
+          "Rules of Origin"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The GCC comprises six member states: Bahrain, Kuwait, Oman, Qatar, Saudi Arabia, and UAE.",
+          "An FTA aims to reduce or eliminate tariffs and non-tariff barriers between member countries.",
+          "The agreement is strategically important for India's energy security.",
+          "Key sectors of benefit include petrochemicals, gems and jewellery, and textiles."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the economic and strategic significance of the proposed India-GCC Free Trade Agreement for India's foreign policy and trade objectives.",
+          "Discuss the potential benefits and challenges for key Indian sectors from the liberalization of trade with GCC countries.",
+          "Examine how this FTA could enhance India's energy security and strengthen its economic ties with the Gulf region.",
+          "Evaluate the broader geopolitical implications of closer economic integration between India and the GCC in the evolving global order."
+        ],
+        "imageDescription": "Flags of India and GCC member states intertwined, symbolizing economic cooperation.",
+        "section": "International",
+        "trivia": "The GCC countries are a major source of crude oil and natural gas for India, and also host a large Indian diaspora.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral, regional and global groupings",
+          "topic": "FTAs"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "new-education-policy-implementation-rural",
+        "headline": "NEP Implementation: Focus on Foundational Literacy and Numeracy in Rural Schools",
+        "explainer": "• The Ministry of Education highlighted accelerated efforts to implement the National Education Policy (NEP) 2020, with a specific focus on foundational literacy and numeracy (FLN) in rural schools.\n• New teacher training modules, innovative pedagogical approaches, and enhanced learning materials are being rolled out to improve early childhood education outcomes.\n• The 'NIPUN Bharat' mission is central to these efforts, aiming to ensure every child achieves foundational literacy and numeracy by Grade 3.\n• Challenges include teacher shortages, digital infrastructure gaps in remote areas, and ensuring parental involvement.\n• States are being encouraged to adopt context-specific strategies and leverage technology for better monitoring and evaluation.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Development processes and the development industry — the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources"
+        ],
+        "date": "2025-10-10",
+        "source": "Ministry of Education",
+        "sourceUrl": "https://www.education.gov.in/press-releases",
+        "importance": "medium",
+        "tags": [
+          "National Education Policy",
+          "NEP 2020",
+          "Foundational Literacy",
+          "Numeracy",
+          "Rural Education",
+          "NIPUN Bharat",
+          "Education Reforms"
+        ],
+        "keyTerms": [
+          "National Education Policy (NEP) 2020",
+          "Foundational Literacy and Numeracy (FLN)",
+          "NIPUN Bharat Mission",
+          "Early Childhood Care and Education (ECCE)",
+          "Pedagogy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "NEP 2020 aims for universalization of Early Childhood Care Education (ECCE).",
+          "NIPUN Bharat Mission is a national initiative for foundational literacy and numeracy.",
+          "The goal of NIPUN Bharat is to ensure every child achieves FLN by the end of Grade 3.",
+          "Teacher training and innovative pedagogy are key components of NEP implementation."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of foundational literacy and numeracy as a core pillar of the National Education Policy 2020 and its potential impact on India's human resource development.",
+          "Discuss the challenges in implementing FLN initiatives, particularly in rural and remote areas, including issues of teacher capacity, infrastructure, and parental engagement.",
+          "Evaluate the role of the 'NIPUN Bharat' mission in achieving universal FLN and suggest strategies to overcome implementation bottlenecks.",
+          "Examine how technology can be effectively leveraged to enhance learning outcomes in foundational education and monitor progress across diverse geographical regions."
+        ],
+        "imageDescription": "Children in a rural classroom engaged in learning activities with a teacher, symbolizing foundational education.",
+        "section": "National",
+        "trivia": "The NEP 2020 proposes a 5+3+3+4 curricular structure, replacing the 10+2 system, with a strong emphasis on early childhood education.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "topic": "Education"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "indus-water-treaty-review",
+        "headline": "India Reaffirms Commitment to Indus Waters Treaty, Seeks Bilateral Dialogue with Pakistan",
+        "explainer": "• India reiterated its commitment to the provisions of the Indus Waters Treaty (IWT) during a diplomatic engagement, while also seeking bilateral dialogue with Pakistan on pending issues.\n• The statement comes amidst ongoing technical discussions regarding the design of certain Indian run-of-the-river hydropower projects on western rivers.\n• India emphasized its right to utilize its share of water resources under the treaty for non-consumptive purposes, such as hydropower generation.\n• The Permanent Indus Commission (PIC) continues to serve as the primary mechanism for resolving technical differences.\n• Maintaining the treaty's sanctity is crucial for regional stability and water security in the Indus basin.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests"
+        ],
+        "date": "2025-10-10",
+        "source": "Ministry of External Affairs (MEA)",
+        "sourceUrl": "https://mea.gov.in/press-releases.htm",
+        "importance": "medium",
+        "tags": [
+          "Indus Waters Treaty",
+          "India-Pakistan",
+          "Water Diplomacy",
+          "Hydropower",
+          "Bilateral Relations",
+          "Permanent Indus Commission"
+        ],
+        "keyTerms": [
+          "Indus Waters Treaty (IWT)",
+          "Permanent Indus Commission (PIC)",
+          "Eastern Rivers",
+          "Western Rivers",
+          "Run-of-the-River Projects"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Indus Waters Treaty was signed between India and Pakistan in 1960, brokered by the World Bank.",
+          "It allocates the waters of the Eastern Rivers (Ravi, Beas, Sutlej) to India and Western Rivers (Indus, Jhelum, Chenab) to Pakistan.",
+          "India has limited non-consumptive use rights on the Western Rivers.",
+          "The Permanent Indus Commission (PIC) is a bilateral commission for implementation and dispute resolution."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the historical context and key provisions of the Indus Waters Treaty (IWT) and its significance for India-Pakistan relations.",
+          "Analyze the challenges faced in implementing the IWT, particularly concerning India's right to construct run-of-the-river hydropower projects on western rivers.",
+          "Evaluate the role of the Permanent Indus Commission (PIC) and other dispute resolution mechanisms under the treaty.",
+          "Examine the geopolitical implications of water sharing in the Indus basin and suggest ways to ensure the long-term sustainability and cooperation under the IWT."
+        ],
+        "imageDescription": "A stylized map showing the Indus River system flowing through India and Pakistan.",
+        "section": "International",
+        "trivia": "The Indus Waters Treaty is considered one of the most successful water-sharing treaties in the world, having survived multiple conflicts between India and Pakistan.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "India and its neighbourhood",
+          "topic": "Bilateral relations"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "parliamentary-committee-electoral-reforms",
+        "headline": "Parliamentary Committee Recommends Comprehensive Electoral Reforms for Transparency and Efficiency",
+        "explainer": "• A parliamentary standing committee submitted its report on electoral reforms, proposing a range of measures to enhance transparency and efficiency in the Indian electoral process.\n• Key recommendations include rationalizing election expenditure limits, regulating social media usage during campaigns, and strengthening the Election Commission's powers.\n• The report also suggested measures for voter awareness, simplification of voter registration, and addressing the issue of criminalization of politics.\n• Discussions are expected on the feasibility and political consensus required for implementing these far-reaching reforms.\n• The proposals aim to restore public trust in democratic institutions and ensure free and fair elections.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Salient features of the Representation of People’s Act",
+          "Appointment to various Constitutional posts, powers, functions and responsibilities of various Constitutional Bodies",
+          "Electoral reforms"
+        ],
+        "date": "2025-10-10",
+        "source": "The Economic Times",
+        "sourceUrl": "https://economictimes.indiatimes.com/news/politics/electoral-reforms/",
+        "importance": "high",
+        "tags": [
+          "Electoral Reforms",
+          "Election Commission",
+          "Transparency",
+          "Democracy",
+          "Parliamentary Committee",
+          "Criminalization of Politics"
+        ],
+        "keyTerms": [
+          "Representation of the People Act, 1951",
+          "Election Commission of India (ECI)",
+          "Electoral Bonds",
+          "Criminalization of Politics",
+          "Voter Awareness"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Election Commission of India (ECI) is a constitutional body responsible for conducting elections.",
+          "The Representation of the People Act, 1951, governs the conduct of elections.",
+          "Recommendations include regulating social media during campaigns and rationalizing expenditure limits.",
+          "The issue of criminalization of politics is a recurring concern in electoral reforms."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of the parliamentary committee's recommendations for electoral reforms in strengthening India's democratic framework.",
+          "Discuss the various challenges associated with the current electoral system, such as election expenditure, use of social media, and criminalization of politics.",
+          "Evaluate the role of the Election Commission of India in ensuring free and fair elections and how its powers can be further strengthened.",
+          "Propose concrete measures to address the issue of criminalization of politics and enhance voter participation and awareness."
+        ],
+        "imageDescription": "Stylized ballot box with an 'X' mark, representing the electoral process and need for reforms.",
+        "section": "National",
+        "trivia": "India has the world's largest electorate, with over 900 million registered voters in the last general election.",
+        "prelimsSyllabus": {
+          "subject": "Polity and Governance",
+          "area": "Constitutional Bodies",
+          "topic": "Election Commission of India"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-central-asia-summit-outcomes",
+        "headline": "India-Central Asia Summit: Focus on Connectivity, Trade, and Security Cooperation",
+        "explainer": "• The second India-Central Asia Summit concluded with leaders emphasizing enhanced connectivity, boosting trade, and strengthening security cooperation.\n• Key initiatives include proposals for joint infrastructure projects, expanding trade routes via Chabahar Port, and increasing cultural exchanges.\n• Security discussions covered counter-terrorism efforts, drug trafficking, and regional stability in Afghanistan.\n• India reiterated its commitment to a 'Connect Central Asia' policy, leveraging its historical ties and economic potential.\n• The summit outcomes aim to build a strong strategic partnership, diversifying Central Asian nations' engagement beyond traditional powers.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora"
+        ],
+        "date": "2025-10-10",
+        "source": "Ministry of External Affairs (MEA)",
+        "sourceUrl": "https://mea.gov.in/press-releases.htm",
+        "importance": "medium",
+        "tags": [
+          "India-Central Asia",
+          "Connectivity",
+          "Trade",
+          "Security Cooperation",
+          "Chabahar Port",
+          "Connect Central Asia Policy"
+        ],
+        "keyTerms": [
+          "Central Asia",
+          "Chabahar Port",
+          "International North-South Transport Corridor (INSTC)",
+          "Counter-Terrorism",
+          "Connect Central Asia Policy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The India-Central Asia Summit involves India and five Central Asian republics: Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan.",
+          "Chabahar Port in Iran is crucial for India's connectivity to Central Asia.",
+          "The International North-South Transport Corridor (INSTC) is another key connectivity project.",
+          "Discussions covered trade, connectivity, and security, including counter-terrorism."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the strategic rationale behind India's 'Connect Central Asia' policy and the significance of the India-Central Asia Summit outcomes.",
+          "Discuss the role of connectivity projects, such as Chabahar Port and INSTC, in enhancing India's trade and strategic influence in the Central Asian region.",
+          "Examine the shared security concerns between India and Central Asian nations, particularly concerning Afghanistan and counter-terrorism efforts.",
+          "Evaluate the potential for diversifying Central Asian nations' foreign policy and economic engagement through stronger ties with India."
+        ],
+        "imageDescription": "A map highlighting India and the Central Asian countries, with arrows indicating trade routes and connectivity.",
+        "section": "International",
+        "trivia": "Central Asia is strategically important due to its rich energy resources and its position as a bridge between Europe and Asia.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral, regional and global groupings",
+          "topic": "India and Central Asia"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "pm-vishwakarma-scheme-progress",
+        "headline": "PM-Vishwakarma Scheme: Empowering Artisans and Craftspeople with Skill Development and Financial Support",
+        "explainer": "• The Ministry of Micro, Small & Medium Enterprises (MSME) reviewed the progress of the PM-Vishwakarma scheme, aimed at supporting traditional artisans and craftspeople.\n• The scheme provides skill training, access to modern tools, collateral-free credit, and marketing support to 'Vishwakarmas'.\n• Emphasis is placed on integrating traditional arts and crafts with contemporary market demands and digital platforms.\n• Early results show increased income generation and enhanced social mobility for beneficiaries in various crafts.\n• Challenges include reaching remote artisans, ensuring quality training, and overcoming market access barriers.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections."
+        ],
+        "date": "2025-10-10",
+        "source": "Ministry of MSME",
+        "sourceUrl": "https://msme.gov.in/press-releases",
+        "importance": "medium",
+        "tags": [
+          "PM-Vishwakarma Scheme",
+          "Artisans",
+          "Craftspeople",
+          "Skill Development",
+          "MSME",
+          "Financial Inclusion",
+          "Traditional Arts"
+        ],
+        "keyTerms": [
+          "PM-Vishwakarma Scheme",
+          "Traditional Artisans",
+          "Craftspeople",
+          "Skill Development",
+          "Collateral-Free Credit",
+          "Micro, Small & Medium Enterprises (MSME)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The PM-Vishwakarma scheme targets traditional artisans and craftspeople.",
+          "It provides skill training, modern toolkits, and collateral-free credit.",
+          "The scheme falls under the Ministry of MSME.",
+          "It aims to integrate traditional arts with contemporary market demands."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the objectives and key components of the PM-Vishwakarma scheme and its significance in empowering traditional artisans and preserving India's cultural heritage.",
+          "Analyze the challenges faced by traditional craftspeople in India, such as lack of access to credit, modern tools, and market linkages, and how the scheme addresses them.",
+          "Evaluate the role of skill development and technology adoption in enhancing the competitiveness and income of 'Vishwakarmas'.",
+          "Suggest measures to further strengthen the scheme's outreach and impact, ensuring sustainable livelihoods and recognition for India's rich artisanal community."
+        ],
+        "imageDescription": "An Indian artisan skillfully crafting pottery, symbolizing the PM-Vishwakarma scheme.",
+        "section": "National",
+        "trivia": "The scheme covers 18 traditional trades, including carpenters, blacksmiths, potters, sculptors, cobblers, and jewelers.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Welfare schemes for vulnerable sections",
+          "topic": "Skill development"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "brics-expansion-new-members-impact",
+        "headline": "BRICS Expansion: New Members Bring Geo-Economic Shifts and Opportunities for India",
+        "explainer": "• The recent expansion of the BRICS grouping to include new member countries is poised to bring significant geo-economic shifts and new opportunities for India.\n• The inclusion of nations like Saudi Arabia, UAE, Egypt, Iran, Ethiopia, and Argentina enhances BRICS' global footprint and economic weight.\n• For India, this expansion offers diversified trade routes, increased energy security, and stronger South-South cooperation platforms.\n• Challenges include navigating diverse political interests, achieving consensus on key issues, and strengthening the New Development Bank's role.\n• The expanded BRICS aims to advocate for a more inclusive and multipolar global order, challenging existing financial and political hegemonies.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora"
+        ],
+        "date": "2025-10-10",
+        "source": "The Indian Express",
+        "sourceUrl": "https://indianexpress.com/news/brics-expansion-india-geoeconomic/",
+        "importance": "high",
+        "tags": [
+          "BRICS",
+          "BRICS Expansion",
+          "Geo-economy",
+          "Multipolar World",
+          "New Development Bank",
+          "South-South Cooperation"
+        ],
+        "keyTerms": [
+          "BRICS",
+          "New Development Bank (NDB)",
+          "South-South Cooperation",
+          "Multipolar World Order",
+          "De-dollarization"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "BRICS originally consisted of Brazil, Russia, India, China, and South Africa.",
+          "New members include Saudi Arabia, UAE, Egypt, Iran, Ethiopia, and Argentina (from Jan 2024).",
+          "The expansion aims to increase BRICS' global economic and political influence.",
+          "The New Development Bank (NDB) is the financial arm of BRICS."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the geo-economic and geopolitical implications of the BRICS expansion, particularly for India's foreign policy and trade strategies.",
+          "Discuss the opportunities and challenges that the inclusion of new members presents for India within the expanded BRICS framework.",
+          "Evaluate the potential of an enlarged BRICS to promote a more inclusive and multipolar global order, challenging traditional power structures.",
+          "Examine the role of the New Development Bank (NDB) in supporting infrastructure development and fostering South-South cooperation among BRICS members."
+        ],
+        "imageDescription": "Flags of BRICS member countries, including the newly added nations, arranged in a circle, symbolizing unity and expansion.",
+        "section": "International",
+        "trivia": "The term 'BRIC' was coined in 2001 by Goldman Sachs economist Jim O'Neill to describe the four emerging economies of Brazil, Russia, India, and China.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral, regional and global groupings",
+          "topic": "BRICS"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "ayushman-bharat-digital-mission-progress",
+        "headline": "Ayushman Bharat Digital Mission (ABDM) Reaches New Milestones in Health Record Linkage",
+        "explainer": "• The National Health Authority (NHA) announced that the Ayushman Bharat Digital Mission (ABDM) has achieved significant milestones in creating health IDs and linking health records.\n• Over 500 million Ayushman Bharat Health Accounts (ABHA) have been generated, and millions of health records linked across various healthcare providers.\n• The mission aims to create a seamless online platform for interoperable digital health records, enhancing accessibility and efficiency of healthcare services.\n• Challenges include ensuring data privacy, building trust among citizens, and integrating all healthcare providers, especially in the private sector.\n• ABDM is a crucial step towards universal health coverage and a digitally enabled health ecosystem in India.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "Government policies and interventions for development in various sectors and issues arising out of their design and implementation"
+        ],
+        "date": "2025-10-10",
+        "source": "National Health Authority (NHA)",
+        "sourceUrl": "https://nha.gov.in/news/XXXX",
+        "importance": "medium",
+        "tags": [
+          "Ayushman Bharat Digital Mission",
+          "ABDM",
+          "Health ID",
+          "Digital Health Records",
+          "Healthcare",
+          "National Health Authority",
+          "Universal Health Coverage"
+        ],
+        "keyTerms": [
+          "Ayushman Bharat Digital Mission (ABDM)",
+          "Ayushman Bharat Health Account (ABHA)",
+          "National Health Authority (NHA)",
+          "Interoperable Digital Health Records",
+          "Universal Health Coverage"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ABDM aims to create a digital health ecosystem with unique health IDs (ABHA).",
+          "NHA is the implementing agency for ABDM.",
+          "It facilitates linking health records across different healthcare providers.",
+          "Over 500 million ABHA IDs have been generated."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the objectives and key features of the Ayushman Bharat Digital Mission (ABDM) and its potential to transform healthcare delivery in India.",
+          "Analyze the challenges associated with implementing a nationwide digital health infrastructure, particularly concerning data privacy, cybersecurity, and interoperability.",
+          "Evaluate the role of ABHA IDs and linked health records in enhancing the accessibility, efficiency, and quality of healthcare services for citizens.",
+          "Suggest measures to build public trust and ensure the seamless integration of all stakeholders, including public and private healthcare providers, into the ABDM framework."
+        ],
+        "imageDescription": "An infographic showing interconnected digital health records and a health ID card, symbolizing ABDM.",
+        "section": "National",
+        "trivia": "ABDM is built on the principles of openness, interoperability, and security, leveraging India's successful digital public infrastructure stack.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources",
+          "topic": "Health"
+        },
+        "prelimsPotential": 4
+      }
+    ],
+    "GS3": [
+      {
+        "id": "rbi-monetary-policy-review-october",
+        "headline": "RBI Maintains Status Quo on Repo Rate Amidst Inflation Concerns, Focuses on Liquidity Management",
+        "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) decided to keep the repo rate unchanged at its October review meeting, citing persistent inflation concerns.\n• The MPC reiterated its commitment to aligning inflation with the target while supporting growth, maintaining an 'withdrawal of accommodation' stance.\n• Emphasis was placed on careful liquidity management to ensure financial stability and transmit monetary policy effectively.\n• Projections for GDP growth and inflation were revised, reflecting global economic uncertainties and domestic demand conditions.\n• The decision signals a cautious approach by the central bank, balancing price stability with economic revival efforts.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment",
+          "Government Budgeting",
+          "Monetary Policy",
+          "Inflation"
+        ],
+        "date": "2025-10-10",
+        "source": "Reserve Bank of India (RBI)",
+        "sourceUrl": "https://www.rbi.org.in/Scripts/PressReleaseDisplay.aspx?prid=XXXX",
+        "importance": "high",
+        "tags": [
+          "RBI",
+          "Monetary Policy",
+          "Repo Rate",
+          "Inflation",
+          "Economic Growth",
+          "Liquidity Management",
+          "MPC"
+        ],
+        "keyTerms": [
+          "Repo Rate",
+          "Reverse Repo Rate",
+          "Monetary Policy Committee (MPC)",
+          "Inflation Targeting",
+          "Liquidity Adjustment Facility (LAF)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Monetary Policy Committee (MPC) is responsible for fixing the benchmark interest rate (repo rate) in India.",
+          "The primary objective of monetary policy is to maintain price stability while keeping in mind the objective of growth.",
+          "The 'withdrawal of accommodation' stance indicates a focus on reducing excess liquidity.",
+          "The repo rate is the rate at which the RBI lends money to commercial banks."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the rationale behind the RBI's decision to maintain the status quo on the repo rate amidst prevailing economic conditions and global uncertainties.",
+          "Discuss the challenges faced by the RBI in balancing inflation control with the imperative of supporting economic growth in the current scenario.",
+          "Evaluate the effectiveness of liquidity management tools employed by the RBI in transmitting monetary policy signals and ensuring financial stability.",
+          "Examine the potential impact of the MPC's decision on various sectors of the Indian economy, including banking, industry, and consumers."
+        ],
+        "imageDescription": "A graphical representation of economic indicators like interest rates and inflation, with the RBI logo.",
+        "section": "Economy",
+        "trivia": "The Monetary Policy Committee (MPC) comprises six members – three officials from the RBI and three external experts nominated by the Government of India.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI and its functions"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "isro-chandrayaan-4-mission-update",
+        "headline": "ISRO Provides Update on Chandrayaan-4 Mission: Preparations Underway for Lunar Sample Return",
+        "explainer": "• ISRO announced that preparations for the Chandrayaan-4 mission are progressing as per schedule, with a focus on developing advanced robotic systems for lunar sample return.\n• This mission aims to collect samples from a previously unexplored region of the Moon's south pole and return them to Earth for scientific analysis.\n• Key technological challenges include precision landing, sample acquisition in harsh lunar conditions, and safe return trajectory planning.\n• Chandrayaan-4 is envisioned as a multi-module mission, involving an orbiter, lander, ascender, and re-entry module.\n• The mission holds immense scientific potential for understanding the Moon's geology, water ice distribution, and origins of the solar system.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+          "Awareness in the fields of Space"
+        ],
+        "date": "2025-10-10",
+        "source": "Indian Space Research Organisation (ISRO)",
+        "sourceUrl": "https://www.isro.gov.in/news/XXXX",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Chandrayaan-4",
+          "Lunar Mission",
+          "Sample Return",
+          "Space Exploration",
+          "Space Technology",
+          "Moon South Pole"
+        ],
+        "keyTerms": [
+          "Lunar Sample Return",
+          "South Pole of Moon",
+          "Orbiter",
+          "Lander",
+          "Ascender",
+          "Re-entry Module"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Chandrayaan-4 is envisioned as India's first lunar sample return mission.",
+          "The mission targets the Moon's south pole for sample collection.",
+          "It involves multiple modules: orbiter, lander, ascender, and re-entry module.",
+          "ISRO's previous lunar missions include Chandrayaan-1, Chandrayaan-2, and Chandrayaan-3."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the scientific objectives and technological challenges associated with ISRO's Chandrayaan-4 lunar sample return mission.",
+          "Evaluate the significance of lunar sample return missions for advancing our understanding of the Moon's evolution and the potential for future lunar resource utilization.",
+          "Analyze how such ambitious space missions contribute to India's technological prowess, international collaboration, and national pride.",
+          "Examine the role of public-private partnerships in enhancing India's space capabilities and achieving complex missions like Chandrayaan-4."
+        ],
+        "imageDescription": "Artistic rendering of the Chandrayaan-4 lander collecting samples on the lunar surface, with Earth in the background.",
+        "section": "Science",
+        "trivia": "The Moon's south pole is of significant scientific interest due to the potential presence of water ice in permanently shadowed craters.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space Technology",
+          "topic": "Indian Space Missions"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "national-logistics-policy-implementation",
+        "headline": "Government Reviews Progress of National Logistics Policy, Focus on Multi-Modal Connectivity",
+        "explainer": "• The Ministry of Commerce and Industry reviewed the implementation progress of the National Logistics Policy (NLP), launched to improve India's logistics efficiency.\n• Key focus areas include integrating digital systems (ULIP), developing multi-modal logistics parks, and standardizing warehousing infrastructure.\n• The policy aims to reduce logistics costs as a percentage of GDP, making Indian goods more competitive globally.\n• Progress was noted in enhancing rail, road, and waterway connectivity, alongside efforts to improve last-mile delivery.\n• Challenges related to land acquisition, regulatory clearances, and skill development were also discussed, with strategies for acceleration outlined.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Infrastructure: Energy, Ports, Roads, Airports, Railways etc.",
+          "Investment models",
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment"
+        ],
+        "date": "2025-10-10",
+        "source": "Ministry of Commerce and Industry",
+        "sourceUrl": "https://commerce.gov.in/press-releases/",
+        "importance": "medium",
+        "tags": [
+          "National Logistics Policy",
+          "Logistics Efficiency",
+          "Multi-Modal Connectivity",
+          "Infrastructure",
+          "ULIP",
+          "Economic Growth"
+        ],
+        "keyTerms": [
+          "National Logistics Policy (NLP)",
+          "Logistics Cost",
+          "Multi-Modal Logistics Parks (MMLP)",
+          "Unified Logistics Interface Platform (ULIP)",
+          "PM Gati Shakti"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The National Logistics Policy aims to reduce logistics costs in India.",
+          "ULIP (Unified Logistics Interface Platform) is a key digital initiative under the NLP.",
+          "The policy emphasizes multi-modal connectivity, including rail, road, and waterways.",
+          "PM Gati Shakti National Master Plan is complementary to the NLP."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the objectives and key components of the National Logistics Policy and its potential to transform India's trade competitiveness.",
+          "Analyze the role of multi-modal connectivity and digital integration (like ULIP) in improving logistics efficiency and reducing costs.",
+          "Examine the challenges in implementing large-scale infrastructure projects under the NLP, particularly concerning land acquisition and inter-ministerial coordination.",
+          "Suggest measures to further enhance India's logistics sector, focusing on skill development, green logistics, and leveraging emerging technologies."
+        ],
+        "imageDescription": "An infographic showing various modes of transport (road, rail, sea, air) connected, representing multi-modal logistics.",
+        "section": "Economy",
+        "trivia": "India's logistics cost as a percentage of GDP is significantly higher than global benchmarks, making its goods less competitive.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Infrastructure",
+          "topic": "Logistics"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "national-cybersecurity-strategy-update",
+        "headline": "National Cybersecurity Strategy: Government Prioritizes Critical Infrastructure Protection and Skill Development",
+        "explainer": "• The National Cybersecurity Strategy 2025 is moving forward with a strong emphasis on protecting critical information infrastructure (CII) and developing a skilled cybersecurity workforce.\n• Recent policy updates include stricter compliance norms for public and private entities managing CII, along with enhanced threat intelligence sharing mechanisms.\n• The government announced new initiatives for cybersecurity skill development, including specialized training programs and certifications for graduates.\n• Focus remains on strengthening India's digital defenses against state-sponsored attacks, cyber-terrorism, and data breaches.\n• Public awareness campaigns on cyber hygiene and safe online practices are also being scaled up across the country.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Challenges to internal security through communication networks, role of media and social networking sites in internal security challenges, basics of cyber security",
+          "Money-laundering and its prevention"
+        ],
+        "date": "2025-10-10",
+        "source": "National Cyber Security Coordinator (NCSC)",
+        "sourceUrl": "https://ncsc.gov.in/news/XXXX",
+        "importance": "medium",
+        "tags": [
+          "Cybersecurity",
+          "Critical Information Infrastructure",
+          "Skill Development",
+          "Cyber Threat",
+          "National Security",
+          "Digital India"
+        ],
+        "keyTerms": [
+          "Critical Information Infrastructure (CII)",
+          "Cyber-attacks",
+          "Threat Intelligence",
+          "Cyber Hygiene",
+          "National Critical Information Infrastructure Protection Centre (NCIIPC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Critical Information Infrastructure (CII) refers to assets essential for national security, economy, and public health.",
+          "NCIIPC (National Critical Information Infrastructure Protection Centre) is the nodal agency for protecting CII in India.",
+          "The strategy emphasizes skill development and public awareness in cybersecurity.",
+          "Compliance norms for entities managing CII are being strengthened."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the evolving landscape of cyber threats faced by India and the necessity of a robust National Cybersecurity Strategy.",
+          "Analyze the challenges in protecting Critical Information Infrastructure (CII) and suggest measures to enhance its resilience against sophisticated cyber-attacks.",
+          "Evaluate the importance of skill development and public-private partnerships in building a strong cybersecurity ecosystem in India.",
+          "Examine the ethical and legal dilemmas associated with cybersecurity measures, particularly concerning surveillance and data privacy."
+        ],
+        "imageDescription": "A digital graphic depicting a network shield protecting various critical infrastructure symbols (power grid, finance, transport).",
+        "section": "National",
+        "trivia": "India is among the top 5 countries globally most affected by cyber-attacks, underscoring the urgency of a strong cybersecurity framework.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Cyber Security",
+          "topic": "Basics of cyber security"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "ganga-rejuvenation-project-progress",
+        "headline": "Namami Gange Mission: Significant Progress Reported in Sewage Treatment and River Front Development",
+        "explainer": "• The Ministry of Jal Shakti reported significant progress in the Namami Gange Mission, particularly in establishing and upgrading sewage treatment infrastructure along the Ganges River.\n• Over 200 projects, including new Sewage Treatment Plants (STPs) and interception & diversion networks, have been completed or are nearing completion.\n• Focus has also been on river front development, ghats construction, and afforestation activities in the Ganga basin.\n• Challenges remain in ensuring sustainable operation and maintenance of assets, as well as tackling industrial pollution and agricultural runoff.\n• Community participation and awareness generation are identified as crucial for the long-term success of the mission.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Government policies and interventions for development in various sectors"
+        ],
+        "date": "2025-10-10",
+        "source": "Ministry of Jal Shakti",
+        "sourceUrl": "https://jalshakti-ddws.gov.in/press-releases",
+        "importance": "medium",
+        "tags": [
+          "Namami Gange",
+          "Ganga Rejuvenation",
+          "Sewage Treatment Plants",
+          "River Conservation",
+          "Water Pollution",
+          "Environment"
+        ],
+        "keyTerms": [
+          "Namami Gange Mission",
+          "Sewage Treatment Plants (STPs)",
+          "River Front Development",
+          "Ganga Basin",
+          "National Mission for Clean Ganga (NMCG)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Namami Gange Mission is an integrated conservation mission for the Ganga River.",
+          "The National Mission for Clean Ganga (NMCG) is the implementation agency.",
+          "Key pillars include sewage infrastructure, industrial effluent monitoring, river surface cleaning, and afforestation.",
+          "Over 200 projects related to STPs and river front development have been completed or are ongoing."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Assess the achievements and challenges of the Namami Gange Mission in achieving its objectives of Ganga rejuvenation.",
+          "Discuss the multi-faceted approach adopted by the mission, encompassing infrastructure development, ecological restoration, and public participation.",
+          "Examine the role of technology and innovation in monitoring water quality and managing sewage treatment under the mission.",
+          "Suggest sustainable strategies for ensuring the long-term cleanliness and ecological health of the Ganga River, considering factors like industrial pollution and agricultural runoff."
+        ],
+        "imageDescription": "A clean stretch of the Ganga River with a newly constructed ghat and a sewage treatment plant in the background.",
+        "section": "Environment",
+        "trivia": "The Ganga River basin supports over 40% of India's population and is one of the most densely populated river basins in the world.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Conservation",
+          "topic": "River conservation projects"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "artificial-intelligence-ethics-framework",
+        "headline": "India's AI Ethics Framework: Focus on Accountability, Transparency, and Bias Mitigation",
+        "explainer": "• The Ministry of Electronics and Information Technology (MeitY) released a draft framework for Artificial Intelligence (AI) ethics, seeking public feedback.\n• The framework emphasizes principles of accountability, transparency, fairness, and prevention of algorithmic bias in AI development and deployment.\n• It proposes guidelines for sectors like healthcare, finance, and criminal justice where AI applications have significant societal impact.\n• The aim is to foster responsible AI innovation while safeguarding individual rights and promoting public trust in AI systems.\n• Discussions are ongoing with industry stakeholders, academia, and civil society groups to finalize a robust and adaptable framework.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+          "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights"
+        ],
+        "date": "2025-10-10",
+        "source": "Ministry of Electronics and Information Technology (MeitY)",
+        "sourceUrl": "https://meity.gov.in/press-releases",
+        "importance": "high",
+        "tags": [
+          "Artificial Intelligence",
+          "AI Ethics",
+          "Responsible AI",
+          "Algorithmic Bias",
+          "Digital Governance",
+          "MeitY"
+        ],
+        "keyTerms": [
+          "Artificial Intelligence (AI)",
+          "AI Ethics",
+          "Algorithmic Bias",
+          "Transparency",
+          "Accountability",
+          "Responsible AI"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "MeitY is the nodal ministry for AI policy and development in India.",
+          "The draft AI ethics framework focuses on accountability, transparency, and fairness.",
+          "It aims to prevent algorithmic bias in AI applications.",
+          "The framework is being developed through multi-stakeholder consultations."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the growing importance of Artificial Intelligence (AI) ethics in the context of India's digital transformation and the need for a national framework.",
+          "Analyze the key ethical challenges posed by AI, such as algorithmic bias, data privacy, and accountability, and how the proposed framework seeks to address them.",
+          "Evaluate the potential impact of an AI ethics framework on fostering responsible innovation and building public trust in AI systems across various sectors.",
+          "Examine the role of international cooperation and regulatory harmonization in developing global standards for ethical AI development and deployment."
+        ],
+        "imageDescription": "An abstract image showing human hands interacting with glowing digital code and AI symbols, representing ethical AI development.",
+        "section": "Science",
+        "trivia": "India is a founding member of the Global Partnership on Artificial Intelligence (GPAI), an international initiative to support responsible and human-centric AI development.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Information Technology",
+          "topic": "Artificial Intelligence"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "green-hydrogen-mission-progress",
+        "headline": "National Green Hydrogen Mission Accelerates Pilot Projects and Policy Incentives",
+        "explainer": "• The Ministry of New and Renewable Energy announced accelerated implementation of the National Green Hydrogen Mission, focusing on pilot projects and policy incentives.\n• Several industrial clusters are identified for establishing green hydrogen production facilities, targeting sectors like refining, fertilizer, and steel.\n• Financial incentives, including production-linked incentives (PLI) and viability gap funding, are being streamlined to attract investments.\n• The mission aims to make India a global hub for green hydrogen production and export, contributing to energy independence and de-carbonization.\n• Challenges related to cost-effectiveness, infrastructure development, and water availability for electrolysis are actively being addressed.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Environmental pollution and degradation, environmental impact assessment",
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Science and Technology- developments and their applications and effects in everyday life"
+        ],
+        "date": "2025-10-10",
+        "source": "Ministry of New and Renewable Energy",
+        "sourceUrl": "https://mnre.gov.in/press-releases",
+        "importance": "high",
+        "tags": [
+          "Green Hydrogen",
+          "National Green Hydrogen Mission",
+          "Renewable Energy",
+          "De-carbonization",
+          "Energy Security",
+          "PLI Scheme"
+        ],
+        "keyTerms": [
+          "Green Hydrogen",
+          "Electrolysis",
+          "National Green Hydrogen Mission",
+          "Production Linked Incentive (PLI)",
+          "Viability Gap Funding (VGF)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Green hydrogen is produced by electrolysis of water using renewable energy.",
+          "The National Green Hydrogen Mission aims to make India a global hub for green hydrogen.",
+          "PLI scheme and viability gap funding are key incentives.",
+          "Target sectors include refining, fertilizer, and steel."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic importance of the National Green Hydrogen Mission for India's energy security and climate change mitigation goals.",
+          "Analyze the technological and economic challenges in scaling up green hydrogen production in India, including cost, infrastructure, and water requirements.",
+          "Evaluate the role of policy incentives like PLI schemes and viability gap funding in attracting investments and fostering a green hydrogen ecosystem.",
+          "Examine the potential of green hydrogen to de-carbonize hard-to-abate sectors and create new economic opportunities for India."
+        ],
+        "imageDescription": "A stylized atom with green leaves, representing green hydrogen and clean energy.",
+        "section": "Environment",
+        "trivia": "Hydrogen is the most abundant chemical substance in the universe, making up roughly 75% of all normal matter.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Renewable Energy",
+          "topic": "Green Hydrogen"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "indigenous-aircraft-carrier-vikrant-trials",
+        "headline": "INS Vikrant Undergoes Advanced Integration Trials, Enhancing India's Naval Prowess",
+        "explainer": "• India's first indigenous aircraft carrier, INS Vikrant, successfully completed a series of advanced integration trials, moving closer to full operational capability.\n• The trials focused on integrating various aviation facilities, flight deck operations, and complex combat management systems.\n• This milestone significantly boosts India's 'Atmanirbhar Bharat' (self-reliant India) initiative in defense manufacturing and naval capabilities.\n• INS Vikrant will operate with a mix of indigenous and imported aircraft, including MiG-29K fighter jets and advanced light helicopters.\n• Its deployment will enhance India's maritime security, power projection in the Indian Ocean Region, and blue-water naval aspirations.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology",
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism"
+        ],
+        "date": "2025-10-10",
+        "source": "Indian Navy",
+        "sourceUrl": "https://indiannavy.nic.in/press-releases",
+        "importance": "high",
+        "tags": [
+          "INS Vikrant",
+          "Indigenous Aircraft Carrier",
+          "Indian Navy",
+          "Atmanirbhar Bharat",
+          "Defense Manufacturing",
+          "Maritime Security",
+          "Indian Ocean Region"
+        ],
+        "keyTerms": [
+          "INS Vikrant",
+          "Indigenous Aircraft Carrier (IAC)",
+          "Atmanirbhar Bharat",
+          "Blue-Water Navy",
+          "Maritime Security",
+          "Power Projection"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "INS Vikrant is India's first indigenously designed and built aircraft carrier.",
+          "It was commissioned into the Indian Navy in 2022.",
+          "The carrier is capable of operating various types of aircraft, including MiG-29K fighter jets.",
+          "The project aligns with the 'Atmanirbhar Bharat' initiative in defense."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the strategic significance of INS Vikrant for India's naval capabilities and its role in projecting power in the Indian Ocean Region.",
+          "Analyze how the indigenous development and construction of INS Vikrant contribute to the 'Atmanirbhar Bharat' initiative and boost India's defense industrial complex.",
+          "Examine the challenges and opportunities associated with operating and maintaining a large aircraft carrier, including crew training, logistics, and technological upgrades.",
+          "Evaluate the implications of India's growing blue-water naval aspirations for regional security dynamics and international maritime cooperation."
+        ],
+        "imageDescription": "A majestic view of INS Vikrant sailing at sea, with fighter jets on its deck.",
+        "section": "National",
+        "trivia": "INS Vikrant is named after India's first aircraft carrier, which was acquired from the UK in 1961 and decommissioned in 1997.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Defense Technology",
+          "topic": "Indigenous defense production"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "new-species-biodiversity-western-ghats",
+        "headline": "Scientists Discover New Species in Western Ghats, Highlighting Biodiversity Hotspot Status",
+        "explainer": "• Researchers from the Zoological Survey of India announced the discovery of several new species of amphibians and invertebrates in the Western Ghats.\n• The findings underscore the immense biodiversity and ecological fragility of the Western Ghats, a UNESCO World Heritage Site.\n• These discoveries contribute valuable data to understanding ecosystem health and the need for enhanced conservation efforts.\n• Habitat loss, climate change, and invasive species remain significant threats to the region's unique flora and fauna.\n• The scientific community calls for stronger policy measures and community involvement in protecting this global biodiversity hotspot.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment",
+          "Biodiversity"
+        ],
+        "date": "2025-10-10",
+        "source": "Zoological Survey of India (ZSI)",
+        "sourceUrl": "https://zsi.gov.in/news/XXXX",
+        "importance": "low",
+        "tags": [
+          "Western Ghats",
+          "Biodiversity Hotspot",
+          "New Species",
+          "Conservation",
+          "Amphibians",
+          "Ecology"
+        ],
+        "keyTerms": [
+          "Biodiversity Hotspot",
+          "Western Ghats",
+          "Endemic Species",
+          "Zoological Survey of India (ZSI)",
+          "UNESCO World Heritage Site"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Western Ghats is one of the 36 global biodiversity hotspots.",
+          "It is recognized as a UNESCO World Heritage Site.",
+          "New species discoveries highlight the region's rich and unique biodiversity.",
+          "Threats include habitat loss, climate change, and invasive species."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ecological significance of the Western Ghats as a global biodiversity hotspot and the factors contributing to its unique flora and fauna.",
+          "Analyze the major threats to biodiversity in the Western Ghats, including anthropogenic pressures and climate change impacts.",
+          "Evaluate the effectiveness of current conservation efforts and suggest additional policy measures and community-based approaches for protecting this fragile ecosystem.",
+          "Examine the role of scientific research and new species discoveries in informing conservation strategies and raising public awareness."
+        ],
+        "imageDescription": "A vibrant image of a newly discovered frog species in the lush green environment of the Western Ghats.",
+        "section": "Environment",
+        "trivia": "The Western Ghats are older than the Himalayas and are home to at least 325 globally threatened species.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Biodiversity",
+          "topic": "Biodiversity hotspots"
+        },
+        "prelimsPotential": 2
+      },
+      {
+        "id": "digital-banking-units-expansion",
+        "headline": "Digital Banking Units (DBUs) Expansion: RBI Urges Banks to Scale Up Reach in Tier 2 & 3 Cities",
+        "explainer": "• The Reserve Bank of India (RBI) urged commercial banks to accelerate the establishment and expansion of Digital Banking Units (DBUs) in Tier 2 and Tier 3 cities.\n• The move aims to enhance financial inclusion, provide seamless digital banking services, and promote digital literacy in semi-urban and rural areas.\n• DBUs offer a range of services, including account opening, cash deposit/withdrawal, loan applications, and digital onboarding for various schemes.\n• Challenges include ensuring robust cybersecurity, addressing digital literacy gaps, and providing adequate technical support.\n• The expansion is critical for achieving the government's vision of a financially inclusive and digitally empowered India.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Inclusive growth and issues arising from it",
+          "Government Budgeting",
+          "Monetary Policy"
+        ],
+        "date": "2025-10-10",
+        "source": "Reserve Bank of India (RBI)",
+        "sourceUrl": "https://www.rbi.org.in/Scripts/PressReleaseDisplay.aspx?prid=XXXX",
+        "importance": "medium",
+        "tags": [
+          "Digital Banking Units",
+          "DBU",
+          "Financial Inclusion",
+          "RBI",
+          "Digital Literacy",
+          "Banking Services"
+        ],
+        "keyTerms": [
+          "Digital Banking Units (DBUs)",
+          "Financial Inclusion",
+          "Tier 2 Cities",
+          "Tier 3 Cities",
+          "Digital Literacy",
+          "RBI"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "DBUs are specialized fixed point digital infrastructure established by commercial banks.",
+          "They provide digital banking products and services in an efficient, paperless, self-service mode.",
+          "The RBI's initiative aims to enhance financial inclusion, especially in semi-urban and rural areas.",
+          "DBUs offer services like account opening, loan applications, and digital onboarding."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the concept and objectives of Digital Banking Units (DBUs) and their potential to revolutionize financial inclusion in India.",
+          "Analyze the challenges in expanding DBUs, particularly in semi-urban and rural areas, including issues of digital literacy, connectivity, and cybersecurity.",
+          "Evaluate the role of the RBI and commercial banks in promoting DBUs and leveraging technology to reach underserved populations.",
+          "Suggest measures to ensure the long-term sustainability and effectiveness of DBUs in achieving a truly inclusive and digitally empowered financial ecosystem."
+        ],
+        "imageDescription": "An illustration of a modern, self-service digital banking kiosk in a rural setting, symbolizing financial inclusion.",
+        "section": "Economy",
+        "trivia": "India launched 75 Digital Banking Units (DBUs) in 75 districts in October 2022 to commemorate 75 years of independence.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Inclusive growth",
+          "topic": "Financial Inclusion"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Press Information Bureau (PIB)",
+    "The Hindu",
+    "Ministry of External Affairs (MEA)",
+    "Reserve Bank of India (RBI)",
+    "Indian Space Research Organisation (ISRO)",
+    "Ministry of Commerce and Industry",
+    "National Cyber Security Coordinator (NCSC)",
+    "Ministry of Jal Shakti",
+    "Ministry of Education",
+    "Animal Welfare Board of India (AWBI)",
+    "Ministry of Electronics and Information Technology (MeitY)",
+    "The Economic Times",
+    "Ministry of New and Renewable Energy",
+    "Indian Navy",
+    "Zoological Survey of India (ZSI)",
+    "Ministry of MSME",
+    "The Indian Express",
+    "National Health Authority (NHA)"
+  ],
+  "totalScraped": 22,
+  "totalProcessed": 22
+}

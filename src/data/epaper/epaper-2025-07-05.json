@@ -1,0 +1,2383 @@
+{
+  "date": "2025-07-05",
+  "dateFormatted": "Saturday 5 July, 2025",
+  "lastUpdated": "2026-03-21T10:55:21.313Z",
+  "edition": 1,
+  "articles": [
+    {
+      "id": "x-reuters-it-act-69a-india",
+      "headline": "X Briefly Withholds Reuters Accounts in India Citing Legal Request Under IT Act Section 69A",
+      "explainer": "• Social media platform X (formerly Twitter) temporarily restricted access to multiple Reuters news accounts for users in India.\n• The company cited a legal request under Section 69A of the Information Technology Act, 2000, as the basis for the action.\n• Section 69A allows the government to block public access to information for reasons of national security, public order, or to prevent incitement to an offense.\n• The accounts were restored the following day, raising questions about due process and freedom of speech online.\n• This incident reignites debates on government control over online content and the balance between national security and press freedom in the digital age.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government Policies and Interventions for Development in various sectors and issues arising out of their design and implementation.",
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Statutory, regulatory and various quasi-judicial bodies.",
+        "Role of media and social networking sites in internal security challenges."
+      ],
+      "date": "2025-07-05",
+      "source": "Reuters / The Hindu",
+      "sourceUrl": "https://www.reuters.com/article_link",
+      "importance": "high",
+      "tags": [
+        "IT Act 2000",
+        "Section 69A",
+        "Freedom of Speech",
+        "Press Freedom",
+        "Digital Rights",
+        "Content Moderation",
+        "Government Regulation",
+        "Social Media",
+        "X Platform",
+        "Reuters India"
+      ],
+      "keyTerms": [
+        "Section 69A IT Act",
+        "Information Technology Act 2000",
+        "Freedom of Expression",
+        "Content Blocking",
+        "Digital India",
+        "Intermediary Guidelines"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Section 69A of the IT Act, 2000 empowers the Central Government to block public access to any information through any computer resource.",
+        "Reasons for blocking include national security, public order, defense of India, sovereignty and integrity of India, friendly relations with foreign states, or to prevent incitement to an offense.",
+        "The blocking orders are issued by the Secretary, Ministry of Electronics and Information Technology (MeitY).",
+        "The IT (Procedure and Safeguards for Blocking for Access of Information by Public) Rules, 2009 govern the process.",
+        "The Supreme Court in Shreya Singhal v. Union of India (2015) upheld the constitutional validity of Section 69A."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the implications of Section 69A of the IT Act on freedom of speech and expression in India, particularly in the context of news media.",
+        "Discuss the challenges in balancing national security concerns with fundamental rights in the digital space.",
+        "Evaluate the role of social media intermediaries in content moderation and their obligations under Indian law.",
+        "Examine the need for transparent and accountable mechanisms for content blocking orders.",
+        "Suggest reforms to the existing legal framework to ensure due process and prevent arbitrary censorship."
+      ],
+      "imageDescription": "Illustration of a lock icon over a social media logo, symbolizing content restriction.",
+      "section": "Lead Opinion",
+      "trivia": "The Information Technology Act, 2000 was enacted to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as 'electronic commerce'.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Fundamental Rights",
+        "topic": "Freedom of Speech and Expression, IT Act"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "supreme-court-data-protection-act",
+      "headline": "Supreme Court Upholds Constitutionality of Digital Personal Data Protection Act, 2023",
+      "explainer": "• The Supreme Court of India today affirmed the constitutional validity of the Digital Personal Data Protection Act (DPDP Act), 2023.\n• Petitions had challenged the Act on grounds of potential infringement on privacy and freedom of speech, particularly concerning data processing by the state.\n• The court emphasized the legislative intent to create a robust data protection framework while balancing individual rights with legitimate state interests.\n• This ruling provides clarity and strengthens the legal foundation for data governance in India.\n• The judgment is expected to boost investor confidence in India's digital economy and streamline data handling practices across sectors.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Government Policies and Interventions for Development in various sectors and issues arising out of their design and implementation.",
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Statutory, regulatory and various quasi-judicial bodies.",
+        "Fundamental Rights."
+      ],
+      "date": "2025-07-05",
+      "source": "The Hindu",
+      "sourceUrl": "https://www.thehindu.com/sc-dpdp-act-ruling",
+      "importance": "high",
+      "tags": [
+        "Digital Personal Data Protection Act",
+        "DPDP Act 2023",
+        "Right to Privacy",
+        "Supreme Court",
+        "Constitutional Law",
+        "Data Governance",
+        "Fundamental Rights",
+        "Digital Economy"
+      ],
+      "keyTerms": [
+        "DPDP Act",
+        "Data Fiduciary",
+        "Data Principal",
+        "Data Protection Board of India",
+        "Personal Data",
+        "Right to be Forgotten"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Digital Personal Data Protection Act, 2023 regulates the processing of digital personal data in India.",
+        "It defines 'personal data', 'data fiduciary', 'data principal', and 'data processor'.",
+        "The Act establishes the Data Protection Board of India as an independent regulatory body.",
+        "Key principles include consent, purpose limitation, data minimization, and accountability.",
+        "It provides for penalties for non-compliance and grants data principals rights such as the right to access, correction, and erasure of their data."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Evaluate the significance of the DPDP Act in safeguarding citizen's right to privacy in the digital age.",
+        "Discuss the challenges in implementing the DPDP Act, particularly concerning cross-border data flows and enforcement.",
+        "Analyze the balance struck by the Act between individual privacy rights and the legitimate interests of the state and businesses.",
+        "Compare and contrast the DPDP Act with global data protection regulations like GDPR, highlighting India's unique approach.",
+        "Examine the role of the Data Protection Board of India in ensuring effective implementation and grievance redressal."
+      ],
+      "imageDescription": "Gavel resting on a book titled 'DPDP Act' with a digital data flow background.",
+      "section": "National",
+      "trivia": "The Puttaswamy judgment (2017) by the Supreme Court declared the Right to Privacy as a fundamental right under Article 21 of the Indian Constitution, laying the groundwork for data protection legislation.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Fundamental Rights",
+        "topic": "Right to Privacy, Data Protection Law"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "rbi-repo-rate-inflation-outlook",
+      "headline": "RBI Maintains Repo Rate at 6.5%, Signals Cautious Stance on Inflation Outlook",
+      "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) unanimously decided to keep the benchmark repo rate unchanged at 6.5%.\n• This marks the eighth consecutive meeting where the MPC has maintained the status quo, indicating a cautious approach.\n• The decision was driven by persistent concerns over elevated food inflation and global economic uncertainties.\n• RBI Governor highlighted the need to remain vigilant to bring inflation within the target range of 4%.\n• The MPC reiterated its commitment to 'withdrawal of accommodation' to ensure inflation aligns with the target while supporting growth.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Government Budgeting.",
+        "Monetary policy, fiscal policy."
+      ],
+      "date": "2025-07-05",
+      "source": "PTI / Livemint",
+      "sourceUrl": "https://www.livemint.com/rbi-mpc-decision",
+      "importance": "high",
+      "tags": [
+        "RBI",
+        "Monetary Policy Committee",
+        "Repo Rate",
+        "Inflation",
+        "Economic Growth",
+        "Fiscal Policy",
+        "Indian Economy",
+        "Interest Rates",
+        "Liquidity"
+      ],
+      "keyTerms": [
+        "Repo Rate",
+        "Monetary Policy",
+        "Inflation Targeting",
+        "CRR",
+        "SLR",
+        "Reverse Repo Rate",
+        "Withdrawal of Accommodation"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Repo Rate is the rate at which the Reserve Bank of India lends money to commercial banks in the event of any shortfall of funds.",
+        "The Monetary Policy Committee (MPC) is a six-member body responsible for fixing the benchmark interest rate in India.",
+        "The primary objective of monetary policy is to maintain price stability while keeping in mind the objective of growth.",
+        "Inflation target set by the government for RBI is 4% with a band of +/- 2%.",
+        "Quantitative tools of monetary policy include Repo Rate, Reverse Repo Rate, Marginal Standing Facility (MSF), Bank Rate, CRR, and SLR."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the challenges faced by the RBI in managing inflation while supporting economic growth in the current global economic scenario.",
+        "Discuss the effectiveness of the Monetary Policy Committee's 'withdrawal of accommodation' stance in achieving its objectives.",
+        "Examine the impact of high food inflation on the overall inflation trajectory and the policy responses required.",
+        "Evaluate the role of fiscal policy in complementing monetary policy efforts to stabilize the Indian economy.",
+        "Discuss the potential implications of sustained high interest rates on various sectors of the Indian economy."
+      ],
+      "imageDescription": "RBI logo with graphs showing stable interest rates.",
+      "section": "Economy",
+      "trivia": "The Reserve Bank of India was established on April 1, 1935, in accordance with the provisions of the Reserve Bank of India Act, 1934.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Monetary Policy",
+        "topic": "RBI and its functions"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "india-france-indo-pacific-security",
+      "headline": "India, France Deepen Strategic Partnership with Focus on Indo-Pacific Security",
+      "explainer": "• India and France held their annual strategic dialogue, reaffirming their commitment to a robust partnership.\n• Discussions focused heavily on enhancing cooperation in the Indo-Pacific region, emphasizing maritime security and freedom of navigation.\n• Both nations stressed the importance of a rules-based international order and multilateralism in addressing global challenges.\n• Agreements were reached on joint defense production, space cooperation, and combating terrorism.\n• The dialogue underscored the growing convergence of interests between Paris and New Delhi in regional stability and geopolitical balancing.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "India and its neighborhood- relations.",
+        "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2025-07-05",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "https://www.mea.gov.in/india-france-dialogue",
+      "importance": "high",
+      "tags": [
+        "India-France Relations",
+        "Indo-Pacific",
+        "Strategic Partnership",
+        "Maritime Security",
+        "Defense Cooperation",
+        "Geopolitics",
+        "Multilateralism",
+        "International Relations"
+      ],
+      "keyTerms": [
+        "Strategic Autonomy",
+        "Rules-Based Order",
+        "Quad",
+        "AUKUS",
+        "SAGAR",
+        "Indo-Pacific Strategy"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "India and France share a long-standing strategic partnership, established in 1998.",
+        "France is a key partner for India in defense, nuclear energy, and space.",
+        "The Indo-Pacific region is a geographical and geopolitical construct that spans from the east coast of Africa to the west coast of the Americas.",
+        "Freedom of navigation and overflight are key principles advocated by India and France in the Indo-Pacific.",
+        "Recent defense deals include Rafale fighter jets and Scorpene-class submarines."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the evolution and significance of the India-France strategic partnership in the changing global order.",
+        "Discuss the shared interests and convergence of strategies between India and France in ensuring security and stability in the Indo-Pacific region.",
+        "Examine the role of defense cooperation and technology transfer in strengthening bilateral ties.",
+        "Evaluate how India's relationship with France contributes to its strategic autonomy and diversification of partnerships.",
+        "Discuss the challenges and opportunities for India-France collaboration in addressing emerging global challenges like climate change and cyber security."
+      ],
+      "imageDescription": "Flags of India and France intertwined, with a map of the Indo-Pacific in the background.",
+      "section": "International",
+      "trivia": "France was one of the first countries to establish a strategic partnership with India, a move that predates India's closer ties with the US.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "Bilateral Relations",
+        "topic": "India-France Relations, Indo-Pacific"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "isro-advanced-earth-observation-satellite-launch",
+      "headline": "ISRO Successfully Launches Advanced Earth Observation Satellite for Disaster Management",
+      "explainer": "• The Indian Space Research Organisation (ISRO) successfully launched a new advanced Earth Observation Satellite (EOS) from Sriharikota.\n• The satellite, designated EOS-08, is equipped with high-resolution synthetic aperture radar (SAR) and optical sensors.\n• Its primary mission is to enhance India's capabilities in disaster management, agricultural monitoring, and urban planning.\n• The launch further solidifies India's position in space technology and its commitment to utilizing space for societal benefit.\n• This mission is a crucial step towards building a comprehensive space-based infrastructure for continuous monitoring of Earth's resources and environment.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Awareness in the fields of Space.",
+        "Disaster and disaster management."
+      ],
+      "date": "2025-07-05",
+      "source": "ISRO",
+      "sourceUrl": "https://www.isro.gov.in/eos08_launch",
+      "importance": "high",
+      "tags": [
+        "ISRO",
+        "Earth Observation Satellite",
+        "EOS-08",
+        "Space Technology",
+        "Disaster Management",
+        "Remote Sensing",
+        "Synthetic Aperture Radar",
+        "Sriharikota",
+        "Indian Space Program"
+      ],
+      "keyTerms": [
+        "Geostationary Orbit",
+        "Polar Satellite Launch Vehicle (PSLV)",
+        "Geosynchronous Satellite Launch Vehicle (GSLV)",
+        "SAR (Synthetic Aperture Radar)",
+        "Remote Sensing",
+        "Telemetry, Tracking and Command (TT&C)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "ISRO operates from the Satish Dhawan Space Centre (SDSC) in Sriharikota, Andhra Pradesh.",
+        "Earth Observation Satellites (EOS) are designed to monitor and collect information about Earth's physical, chemical, and biological systems.",
+        "Synthetic Aperture Radar (SAR) systems can penetrate clouds and operate day and night, making them crucial for all-weather monitoring.",
+        "Applications of EOS include weather forecasting, climate monitoring, agriculture, forestry, and disaster response.",
+        "India's first satellite, Aryabhata, was launched in 1975."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of Earth Observation Satellites in enhancing India's disaster management capabilities and preparedness.",
+        "Examine the role of ISRO in promoting socio-economic development through its various space missions and technological advancements.",
+        "Analyze the strategic importance of indigenous space technology for India's national security and global standing.",
+        "Evaluate the potential of advanced remote sensing technologies like SAR in addressing challenges in agriculture, urban planning, and environmental monitoring.",
+        "Discuss the future trajectory of India's space program, including its plans for human spaceflight and interplanetary missions."
+      ],
+      "imageDescription": "Rocket launching into space from Sriharikota, with 'ISRO' visible.",
+      "section": "Science",
+      "trivia": "ISRO's Mars Orbiter Mission (Mangalyaan) made India the first Asian nation to reach Mars orbit and the first country in the world to do so in its maiden attempt.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space Technology",
+        "topic": "ISRO, Satellites, Remote Sensing"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "green-india-mission-2-0-forest-cover",
+      "headline": "Government Unveils 'Green India Mission 2.0' for Enhanced Forest Cover and Ecosystem Restoration",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) launched the second phase of the Green India Mission (GIM 2.0).\n• The revamped mission aims for a significant increase in India's forest and tree cover, focusing on degraded forest lands and urban green spaces.\n• GIM 2.0 integrates climate change adaptation and mitigation strategies, promoting sustainable forest management and biodiversity conservation.\n• Emphasis will be placed on community participation, livelihood generation through afforestation, and the use of technology for monitoring.\n• This initiative is crucial for India to meet its nationally determined contributions (NDCs) under the Paris Agreement and combat desertification.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Disaster and disaster management.",
+        "Climate Change."
+      ],
+      "date": "2025-07-05",
+      "source": "MoEFCC",
+      "sourceUrl": "https://www.moef.gov.in/green-india-mission-2",
+      "importance": "high",
+      "tags": [
+        "Green India Mission",
+        "GIM 2.0",
+        "Forest Cover",
+        "Afforestation",
+        "Ecosystem Restoration",
+        "Climate Change",
+        "Biodiversity Conservation",
+        "MoEFCC",
+        "NDC Targets",
+        "Desertification"
+      ],
+      "keyTerms": [
+        "Green India Mission",
+        "NDC (Nationally Determined Contributions)",
+        "REDD+",
+        "CAMPA Fund",
+        "Joint Forest Management (JFM)",
+        "Agroforestry"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Green India Mission (GIM) is one of the eight missions under the National Action Plan on Climate Change (NAPCC).",
+        "Its objective is to protect, restore and enhance India’s diminishing forest cover and to respond to climate change.",
+        "India aims to create an additional carbon sink of 2.5 to 3 billion tonnes of CO2 equivalent through additional forest and tree cover by 2030 (as part of NDC).",
+        "CAMPA (Compensatory Afforestation Fund Management and Planning Authority) funds are used for afforestation and regeneration activities.",
+        "The Forest Survey of India (FSI) publishes the India State of Forest Report (ISFR) biennially."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the objectives and strategies of Green India Mission 2.0 in achieving India's climate change mitigation and adaptation goals.",
+        "Evaluate the challenges in increasing forest and tree cover in India, considering population pressure, land availability, and developmental needs.",
+        "Analyze the role of community participation and livelihood generation in ensuring the sustainability of afforestation programs.",
+        "Examine how GIM 2.0 contributes to India's international commitments under the Paris Agreement and UNCCD.",
+        "Suggest innovative approaches and technological interventions that can further enhance the effectiveness of ecosystem restoration efforts."
+      ],
+      "imageDescription": "Lush green forest with 'Green India Mission 2.0' logo.",
+      "section": "Environment",
+      "trivia": "India's total forest and tree cover is approximately 24.62% of its geographical area, as per the India State of Forest Report (ISFR) 2021.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Climate Change",
+        "topic": "Forest Conservation, Government Schemes"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "national-programme-womens-digital-literacy",
+      "headline": "National Programme for Women's Digital Literacy Launched to Bridge Gender Gap",
+      "explainer": "• The Ministry of Women and Child Development, in collaboration with MeitY, launched a comprehensive National Programme for Women's Digital Literacy.\n• The initiative aims to empower millions of women across rural and urban India with essential digital skills.\n• It seeks to bridge the existing gender gap in digital access and proficiency, fostering economic independence and social inclusion.\n• The program will utilize a multi-pronged approach, including training centers, online modules, and community-led workshops.\n• This is expected to enhance women's participation in the digital economy and governance, promoting 'Digital Nari, Saksham Nari' (Digital Woman, Capable Woman).",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections.",
+        "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+        "Role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders."
+      ],
+      "date": "2025-07-05",
+      "source": "Ministry of Women and Child Development",
+      "sourceUrl": "https://wcd.nic.in/womens-digital-literacy",
+      "importance": "medium",
+      "tags": [
+        "Women Empowerment",
+        "Digital Literacy",
+        "Gender Gap",
+        "Digital India",
+        "Social Inclusion",
+        "Economic Empowerment",
+        "Skill Development",
+        "Government Schemes"
+      ],
+      "keyTerms": [
+        "Digital Divide",
+        "Gender Digital Divide",
+        "Financial Inclusion",
+        "Digital Saksharta Abhiyan (DISHA)",
+        "Pradhan Mantri Gramin Digital Saksharta Abhiyan (PMGDISHA)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The program aims to provide digital literacy to women, particularly in rural and underserved areas.",
+        "Digital literacy encompasses the ability to find, evaluate, create, and communicate information using digital technologies.",
+        "Bridging the gender digital divide is crucial for achieving Sustainable Development Goals (SDGs), especially SDG 5 (Gender Equality).",
+        "Government schemes like PMGDISHA have aimed at making a person digitally literate.",
+        "The program focuses on enhancing women's access to digital services, online education, and entrepreneurial opportunities."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the socio-economic benefits of enhancing digital literacy among women in India.",
+        "Analyze the challenges in bridging the gender digital divide in India and how the new program addresses them.",
+        "Evaluate the effectiveness of government initiatives in promoting digital inclusion and empowerment for vulnerable sections.",
+        "Examine how digital literacy can contribute to women's participation in governance and decision-making processes.",
+        "Suggest measures to ensure the long-term sustainability and impact of women's digital literacy programs."
+      ],
+      "imageDescription": "Group of women learning on tablets, symbolizing digital empowerment.",
+      "section": "National",
+      "trivia": "As per the National Family Health Survey (NFHS-5), while mobile phone ownership among women has increased significantly, internet usage still lags behind men.",
+      "prelimsSyllabus": {
+        "subject": "Social Justice",
+        "area": "Welfare Schemes",
+        "topic": "Women Empowerment, Digital Inclusion"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "parliamentary-panel-electoral-bond-reforms",
+      "headline": "Parliamentary Panel Recommends Reforms in Electoral Bond Scheme to Enhance Transparency",
+      "explainer": "• A parliamentary standing committee submitted its report recommending significant reforms to the Electoral Bond Scheme.\n• The panel called for greater transparency in political funding by disclosing the identities of donors and recipient parties.\n• Concerns were raised regarding the anonymity of donors, which has been criticized for facilitating quid pro quo arrangements and black money.\n• The recommendations include lowering the minimum denomination of bonds and increasing the disclosure threshold for political donations.\n• These proposals aim to address long-standing criticisms and strengthen democratic accountability in electoral financing.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Salient features of the Representation of People’s Act.",
+        "Statutory, regulatory and various quasi-judicial bodies.",
+        "Development processes and the development industry —the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders."
+      ],
+      "date": "2025-07-05",
+      "source": "Lok Sabha Secretariat",
+      "sourceUrl": "https://loksabha.nic.in/electoral-bond-report",
+      "importance": "high",
+      "tags": [
+        "Electoral Bonds",
+        "Political Funding",
+        "Transparency",
+        "Electoral Reforms",
+        "Parliamentary Committee",
+        "Democracy",
+        "Anti-Corruption",
+        "Representation of People's Act"
+      ],
+      "keyTerms": [
+        "Electoral Bonds",
+        "Political Funding",
+        "Election Commission of India",
+        "Right to Information",
+        "Quid Pro Quo",
+        "Black Money"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Electoral Bond Scheme was introduced in 2017 to cleanse the system of political funding in India.",
+        "Electoral bonds are interest-free bearer instruments that can be purchased from authorized branches of the State Bank of India.",
+        "Donors' identities are kept anonymous, and bonds can be redeemed by registered political parties.",
+        "Only political parties registered under Section 29A of the Representation of the People Act, 1951, and which have secured at least 1% of the votes polled in the last general election or assembly election, are eligible to receive electoral bonds.",
+        "The Supreme Court has reserved its judgment on petitions challenging the scheme's constitutionality."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Critically analyze the Electoral Bond Scheme, highlighting its stated objectives versus its actual impact on transparency and accountability in political funding.",
+        "Discuss the arguments for and against the anonymity of donors in electoral bonds, citing concerns about quid pro quo and black money.",
+        "Evaluate the recommendations of the parliamentary panel and their potential to bring meaningful reforms to electoral financing.",
+        "Examine the role of the Election Commission of India and the Supreme Court in addressing issues related to political funding.",
+        "Suggest comprehensive electoral reforms needed to ensure free and fair elections and strengthen democratic principles in India."
+      ],
+      "imageDescription": "A ballot box with currency notes, symbolizing political funding issues.",
+      "section": "National",
+      "trivia": "Prior to electoral bonds, political parties primarily relied on cash donations, which were often untraceable.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity and Governance",
+        "area": "Electoral Reforms",
+        "topic": "Political Funding, Electoral Bonds"
+      },
+      "prelimsPotential": 5
+    },
+    {
+      "id": "india-services-pmi-multi-month-high",
+      "headline": "India's Services PMI Hits Multi-Month High Amid Strong Demand and Business Optimism",
+      "explainer": "• India's Services Purchasing Managers' Index (PMI) surged to a multi-month high in June, indicating robust expansion in the sector.\n• The rise was driven by a significant increase in new orders and resilient domestic demand conditions.\n• Business confidence among service providers also improved, leading to increased employment and investment intentions.\n• This strong performance in the services sector is expected to contribute positively to India's overall GDP growth in the current fiscal year.\n• However, input cost inflation remains a concern, which could impact future pricing strategies and consumer spending.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Growth and Development.",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2025-07-05",
+      "source": "S&P Global / Business Standard",
+      "sourceUrl": "https://www.business-standard.com/services-pmi-high",
+      "importance": "medium",
+      "tags": [
+        "Services PMI",
+        "Indian Economy",
+        "Economic Indicators",
+        "GDP Growth",
+        "Inflation",
+        "Business Confidence",
+        "Employment",
+        "Service Sector"
+      ],
+      "keyTerms": [
+        "Purchasing Managers' Index (PMI)",
+        "GDP (Gross Domestic Product)",
+        "Inflation",
+        "Economic Growth",
+        "Manufacturing PMI",
+        "Services Sector"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "PMI (Purchasing Managers' Index) is an indicator of the economic health of the manufacturing and services sectors.",
+        "A PMI reading above 50 indicates expansion compared to the previous month, while a reading below 50 indicates contraction.",
+        "The services sector is the largest contributor to India's GDP.",
+        "Key components of the Services PMI include new orders, output, employment, and input prices.",
+        "PMI data is compiled by S&P Global based on responses from purchasing managers in various companies."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Analyze the significance of the Services PMI as a leading economic indicator for the Indian economy.",
+        "Discuss the factors contributing to the robust growth in India's services sector and its implications for overall economic development.",
+        "Examine the challenges faced by the services sector, particularly concerning inflation and global economic headwinds.",
+        "Evaluate the role of the services sector in job creation and its potential to absorb India's growing workforce.",
+        "Suggest policy measures to sustain the growth momentum in the services sector and enhance its competitiveness globally."
+      ],
+      "imageDescription": "Upward trending graph with 'Services PMI' text.",
+      "section": "Economy",
+      "trivia": "India's services sector accounts for over 50% of its GDP.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Economic Indicators",
+        "topic": "PMI, GDP"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "bsf-ai-surveillance-western-borders",
+      "headline": "Border Security Forces Enhance Surveillance Along Western Borders with AI Technology",
+      "explainer": "• The Border Security Force (BSF) has deployed advanced Artificial Intelligence (AI) powered surveillance systems along India's western borders.\n• These systems include drones with thermal imaging, autonomous ground sensors, and real-time data analytics for threat detection.\n• The initiative aims to bolster border security, curb infiltration attempts, and combat cross-border smuggling more effectively.\n• AI integration provides enhanced situational awareness, reduces human error, and allows for quicker response times to security threats.\n• This technological upgrade is part of India's broader strategy to modernize its defense and security infrastructure.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+        "Role of external state and non-state actors in creating challenges to internal security.",
+        "Science and Technology- developments and their applications and effects in everyday life."
+      ],
+      "date": "2025-07-05",
+      "source": "Ministry of Home Affairs",
+      "sourceUrl": "https://www.mha.gov.in/bsf-ai-surveillance",
+      "importance": "medium",
+      "tags": [
+        "Border Security",
+        "BSF",
+        "Artificial Intelligence",
+        "AI Surveillance",
+        "Western Borders",
+        "Internal Security",
+        "Defense Technology",
+        "Infiltration",
+        "Smuggling"
+      ],
+      "keyTerms": [
+        "Border Security Force (BSF)",
+        "Integrated Border Management System (IBMS)",
+        "Artificial Intelligence (AI)",
+        "Drone Technology",
+        "Thermal Imaging",
+        "Cyber-Physical Systems"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The BSF is India's primary border guarding organization on its border with Pakistan and Bangladesh.",
+        "AI in surveillance involves using algorithms to analyze data from sensors, cameras, and drones to identify patterns and anomalies.",
+        "Integrated Border Management System (IBMS) aims to integrate technology, manpower, and infrastructure for comprehensive border security.",
+        "Thermal imaging cameras detect infrared radiation, allowing detection of objects even in complete darkness.",
+        "The western borders are prone to challenges like cross-border terrorism, drug trafficking, and illegal infiltration."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the role of technology, particularly Artificial Intelligence, in enhancing India's border security and internal security architecture.",
+        "Analyze the advantages and challenges of deploying AI-powered surveillance systems along sensitive border areas.",
+        "Examine how such technological advancements contribute to combating cross-border terrorism, smuggling, and illegal infiltration.",
+        "Evaluate the ethical considerations and privacy concerns associated with extensive AI surveillance in border regions.",
+        "Suggest policy measures for effective integration of technology with human intelligence for comprehensive border management."
+      ],
+      "imageDescription": "Drone flying over a border fence with digital overlay of AI analysis.",
+      "section": "Security",
+      "trivia": "The BSF was raised in 1965 in the aftermath of the 1965 Indo-Pakistan War, to ensure the security of the borders of India and for matters connected therewith.",
+      "prelimsSyllabus": {
+        "subject": "Internal Security",
+        "area": "Border Management",
+        "topic": "Role of Technology in Security"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "anand-singh-politician-passes-away",
+      "headline": "Veteran Politician Anand Singh, Former Karnataka Minister, Passes Away at 87",
+      "explainer": "• Anand Singh, a prominent veteran politician from Karnataka, passed away at the age of 87.\n• He had a long and distinguished career in public service, having served multiple terms as a Member of the Legislative Assembly (MLA).\n• Singh held various ministerial portfolios in the Karnataka government, contributing significantly to regional development.\n• He was known for his strong grassroots connection and dedication to the welfare of his constituents.\n• His demise marks the end of an era for many in Karnataka politics, leaving behind a legacy of public service.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+        "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+        "Parliament and State Legislatures—structure, functioning, conduct of business, powers & privileges and issues arising out of these."
+      ],
+      "date": "2025-07-05",
+      "source": "Deccan Herald",
+      "sourceUrl": "https://www.deccanherald.com/anand-singh-obituary",
+      "importance": "low",
+      "tags": [
+        "Obituary",
+        "Anand Singh",
+        "Karnataka Politics",
+        "Veteran Politician",
+        "MLA",
+        "State Minister",
+        "Public Service"
+      ],
+      "keyTerms": [
+        "Legislative Assembly",
+        "Ministerial Portfolio",
+        "Federalism",
+        "Grassroots Politics"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "Black and white photo of Anand Singh.",
+      "section": "National",
+      "trivia": "Karnataka, formerly known as Mysore State, was renamed in 1973. Its legislative assembly is bicameral.",
+      "prelimsSyllabus": {
+        "subject": "Indian Polity",
+        "area": "State Legislature",
+        "topic": "MLAs, State Government"
+      },
+      "prelimsPotential": 1
+    },
+    {
+      "id": "siva-shakthi-datta-film-director-lyricist-passes-away",
+      "headline": "Renowned Film Director and Lyricist Siva Shakthi Datta Dies at 92",
+      "explainer": "• Siva Shakthi Datta, a veteran personality in the Indian film industry, passed away at the age of 92.\n• He was highly regarded for his contributions as both a film director and a prolific lyricist.\n• Datta directed several acclaimed films and penned lyrics for numerous songs, leaving an indelible mark on Telugu and other regional cinema.\n• His work often explored social themes and showcased deep cultural roots, earning him critical acclaim and popular appeal.\n• His demise is a significant loss to the cinematic and literary world, celebrated for his versatility and artistic depth.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Modern Indian history from about the middle of the eighteenth century until the present- significant events, personalities, issues."
+      ],
+      "date": "2025-07-05",
+      "source": "The Times of India",
+      "sourceUrl": "https://timesofindia.indiatimes.com/siva-shakthi-datta-obituary",
+      "importance": "low",
+      "tags": [
+        "Obituary",
+        "Siva Shakthi Datta",
+        "Film Director",
+        "Lyricist",
+        "Telugu Cinema",
+        "Indian Cinema",
+        "Art and Culture"
+      ],
+      "keyTerms": [
+        "Regional Cinema",
+        "Filmography",
+        "Lyricism",
+        "Cultural Heritage"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "Portrait of Siva Shakthi Datta.",
+      "section": "Art & Culture",
+      "trivia": "Telugu cinema, often referred to as Tollywood, is one of the largest film industries in India, producing a significant number of films annually.",
+      "prelimsSyllabus": {
+        "subject": "Art and Culture",
+        "area": "Indian Cinema",
+        "topic": "Personalities in Arts"
+      },
+      "prelimsPotential": 1
+    },
+    {
+      "id": "aprem-mooken-chaldean-syrian-prelate-passes-away",
+      "headline": "Chaldean Syrian Prelate Aprem Mooken Passes Away at 85",
+      "explainer": "• Moran Mor Aprem Mooken, the Metropolitan of the Ancient Church of the East in India (Chaldean Syrian Church), passed away at the age of 85.\n• He served as the head of the church since 1968, a tenure spanning over five decades, making him one of the longest-serving prelates.\n• Mooken was a respected theologian, historian, and author, known for his efforts to preserve the traditions and history of the Chaldean Syrian Church.\n• His leadership was instrumental in navigating the church through various challenges and maintaining its distinct identity within the broader Christian landscape.\n• His demise is a significant loss for the Christian community in India and the global Assyrian Church of the East.",
+      "category": "society",
+      "gsPaper": "GS1",
+      "gsSubTopics": [
+        "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+        "Modern Indian history from about the middle of the eighteenth century until the present- significant events, personalities, issues."
+      ],
+      "date": "2025-07-05",
+      "source": "Manorama Online",
+      "sourceUrl": "https://english.manoramaonline.com/aprem-mooken-obituary",
+      "importance": "low",
+      "tags": [
+        "Obituary",
+        "Aprem Mooken",
+        "Chaldean Syrian Church",
+        "Metropolitan",
+        "Christianity in India",
+        "Religious Leader",
+        "Kerala"
+      ],
+      "keyTerms": [
+        "Chaldean Syrian Church",
+        "Metropolitan",
+        "Prelate",
+        "Assyrian Church of the East",
+        "Ecclesiastical History"
+      ],
+      "prelims": false,
+      "prelimsPoints": [],
+      "mains": false,
+      "mainsPoints": [],
+      "imageDescription": "Portrait of Aprem Mooken in traditional clerical attire.",
+      "section": "National",
+      "trivia": "The Chaldean Syrian Church traces its origins to the Apostle Thomas and is one of the oldest Christian communities in the world, with a significant presence in Kerala, India.",
+      "prelimsSyllabus": {
+        "subject": "Art and Culture",
+        "area": "Religions in India",
+        "topic": "Christianity, Religious Personalities"
+      },
+      "prelimsPotential": 1
+    },
+    {
+      "id": "india-quantum-computing-research",
+      "headline": "India Pushes for Global Standards in Quantum Computing Research and Development",
+      "explainer": "• India announced ambitious plans to collaborate internationally on establishing global standards for quantum computing research and applications.\n• The Ministry of Science & Technology highlighted India's growing expertise in quantum technologies and its potential to contribute significantly.\n• The initiative aims to foster a secure and interoperable quantum ecosystem, preventing fragmentation in this nascent but critical field.\n• International partnerships will focus on areas like quantum algorithms, quantum cryptography, and quantum hardware development.\n• This move positions India as a key player in shaping the future of quantum technology, ensuring ethical and responsible development.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Science and Technology- developments and their applications and effects in everyday life.",
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights."
+      ],
+      "date": "2025-07-05",
+      "source": "Ministry of Science & Technology",
+      "sourceUrl": "https://dst.gov.in/quantum-computing-standards",
+      "importance": "medium",
+      "tags": [
+        "Quantum Computing",
+        "Quantum Technology",
+        "Global Standards",
+        "Science and Technology",
+        "International Collaboration",
+        "National Quantum Mission",
+        "Cybersecurity",
+        "Innovation"
+      ],
+      "keyTerms": [
+        "Quantum Supremacy",
+        "Quantum Entanglement",
+        "Qubits",
+        "Quantum Cryptography",
+        "National Quantum Mission (NQM)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Quantum computing utilizes principles of quantum mechanics (superposition, entanglement) to perform calculations.",
+        "Qubits (quantum bits) are the basic units of information in quantum computing, unlike classical bits (0 or 1).",
+        "The National Quantum Mission (NQM) aims to nurture and scale up scientific and industrial R&D in quantum technologies.",
+        "Potential applications of quantum computing include drug discovery, materials science, financial modeling, and AI.",
+        "Quantum cryptography uses quantum mechanics to secure communications, making them theoretically unhackable."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the transformative potential of quantum computing and its implications for various sectors, including defense, finance, and healthcare.",
+        "Analyze India's strategy for developing quantum technologies and its role in shaping global standards in this emerging field.",
+        "Examine the challenges in achieving quantum supremacy and the ethical considerations associated with quantum technology development.",
+        "Evaluate the significance of international collaboration in accelerating quantum research and ensuring interoperability.",
+        "Suggest policy frameworks needed to foster a robust quantum ecosystem in India, including talent development and infrastructure."
+      ],
+      "imageDescription": "Abstract representation of quantum entanglement, symbolizing quantum computing.",
+      "section": "Science",
+      "trivia": "The concept of quantum computing was first proposed by physicist Richard Feynman in the early 1980s.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Information Technology",
+        "topic": "Quantum Computing"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "e-waste-management-guidelines",
+      "headline": "New Guidelines for E-Waste Management Introduced by MoEFCC to Boost Circular Economy",
+      "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) unveiled updated guidelines for E-Waste Management.\n• The new rules aim to strengthen the Extended Producer Responsibility (EPR) framework and promote a circular economy for electronics.\n• Key provisions include mandatory collection targets for producers, formalization of the informal recycling sector, and stricter penalties for non-compliance.\n• The guidelines emphasize resource recovery, reduction of hazardous substances, and public awareness campaigns for responsible disposal.\n• This move is critical for addressing the growing challenge of e-waste in India and mitigating its environmental and health impacts.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2025-07-05",
+      "source": "MoEFCC",
+      "sourceUrl": "https://www.moef.gov.in/e-waste-guidelines-2025",
+      "importance": "medium",
+      "tags": [
+        "E-Waste Management",
+        "Circular Economy",
+        "MoEFCC",
+        "Extended Producer Responsibility",
+        "EPR",
+        "Waste Management",
+        "Environmental Protection",
+        "Sustainable Development",
+        "Hazardous Waste"
+      ],
+      "keyTerms": [
+        "E-Waste",
+        "Extended Producer Responsibility (EPR)",
+        "Circular Economy",
+        "Hazardous Waste",
+        "Resource Recovery",
+        "Polluter Pays Principle"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "E-waste refers to discarded electrical or electronic devices.",
+        "India is among the top e-waste generating countries globally.",
+        "Extended Producer Responsibility (EPR) makes producers responsible for the environmentally sound management of their products until the end of their life.",
+        "The E-Waste (Management) Rules, 2016 (and subsequent amendments) govern e-waste management in India.",
+        "E-waste contains valuable materials like gold, silver, and copper, but also hazardous substances like lead, mercury, and cadmium."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the environmental and health challenges posed by the increasing generation of e-waste in India.",
+        "Analyze the key provisions of the new E-Waste Management Guidelines and their potential to foster a circular economy.",
+        "Evaluate the effectiveness of the Extended Producer Responsibility (EPR) framework in promoting responsible e-waste disposal and recycling.",
+        "Examine the role of formalizing the informal recycling sector in achieving sustainable e-waste management.",
+        "Suggest measures to enhance public awareness and participation in responsible e-waste disposal and reduce the digital divide."
+      ],
+      "imageDescription": "Pile of discarded electronics, symbolizing e-waste, with a recycling symbol overlay.",
+      "section": "Environment",
+      "trivia": "Only about 10% of India's e-waste is formally recycled; the rest is handled by the informal sector, often using unsafe practices.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Environmental Pollution",
+        "topic": "Waste Management, E-Waste"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "pli-scheme-advanced-robotics-automation",
+      "headline": "PLI Scheme Expands to Include Advanced Robotics and Automation Sector",
+      "explainer": "• The Production Linked Incentive (PLI) Scheme has been extended to include the advanced robotics and automation sector.\n• This move aims to boost domestic manufacturing, encourage cutting-edge research, and attract global investments in high-tech industries.\n• The scheme offers incentives to companies for incremental sales from products manufactured in India, promoting self-reliance and job creation.\n• Emphasis will be on developing indigenous capabilities in robotics, AI-driven automation, and industrial IoT solutions.\n• This expansion underscores India's commitment to becoming a global manufacturing hub and leveraging technology for economic growth.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth.",
+        "Science and Technology- developments and their applications and effects in everyday life."
+      ],
+      "date": "2025-07-05",
+      "source": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+      "sourceUrl": "https://dpiit.gov.in/pli-robotics-automation",
+      "importance": "medium",
+      "tags": [
+        "PLI Scheme",
+        "Production Linked Incentive",
+        "Robotics",
+        "Automation",
+        "Make in India",
+        "Manufacturing",
+        "Economic Growth",
+        "Technology",
+        "FDI"
+      ],
+      "keyTerms": [
+        "PLI Scheme",
+        "Make in India",
+        "Atmanirbhar Bharat",
+        "Industrial IoT",
+        "Artificial Intelligence (AI)",
+        "Advanced Manufacturing"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The PLI scheme aims to incentivize domestic manufacturing and attract large investments in key sectors.",
+        "It offers incentives ranging from 4% to 6% on incremental sales over a base year.",
+        "The scheme has been introduced for various sectors including electronics, automobiles, pharmaceuticals, textiles, and now robotics.",
+        "Robotics and automation are considered critical for Industry 4.0 and enhancing manufacturing productivity.",
+        "The scheme is designed to make Indian manufacturers globally competitive and create employment opportunities."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the objectives and impact of the Production Linked Incentive (PLI) Scheme in fostering domestic manufacturing and attracting investments in India.",
+        "Analyze the significance of including the advanced robotics and automation sector under the PLI scheme for India's economic and technological development.",
+        "Examine the challenges and opportunities in developing an indigenous robotics and automation ecosystem in India.",
+        "Evaluate how the PLI scheme contributes to the 'Make in India' and 'Atmanirbhar Bharat' initiatives.",
+        "Suggest measures to ensure the effective implementation of the PLI scheme and maximize its benefits for job creation and export growth."
+      ],
+      "imageDescription": "Robotic arm assembling components, symbolizing automation.",
+      "section": "Economy",
+      "trivia": "India's manufacturing sector aims to increase its share of GDP to 25% by 2025 under the National Manufacturing Policy.",
+      "prelimsSyllabus": {
+        "subject": "Indian Economy",
+        "area": "Industrial Policy",
+        "topic": "PLI Scheme, Manufacturing"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "india-unsc-reforms-geneva-dialogue",
+      "headline": "India Advocates for Comprehensive UN Security Council Reforms at Geneva Dialogue",
+      "explainer": "• India reiterated its strong call for comprehensive reforms of the UN Security Council (UNSC) at a high-level dialogue in Geneva.\n• The Indian representative emphasized the need for an expanded UNSC, reflecting contemporary global realities and enhancing its legitimacy and effectiveness.\n• India highlighted its credentials for a permanent seat, citing its economic growth, democratic values, and contributions to international peace and security.\n• The dialogue focused on the need to address the historical injustices and the underrepresentation of developing countries in the UNSC's permanent membership.\n• This advocacy is part of India's consistent diplomatic efforts to push for a more equitable and representative global governance structure.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "gsSubTopics": [
+        "Important International institutions, agencies and fora, their structure, mandate.",
+        "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+      ],
+      "date": "2025-07-05",
+      "source": "Ministry of External Affairs",
+      "sourceUrl": "https://www.mea.gov.in/unsc-reforms-geneva",
+      "importance": "medium",
+      "tags": [
+        "UNSC Reforms",
+        "United Nations Security Council",
+        "International Relations",
+        "Global Governance",
+        "Multilateralism",
+        "India's Permanent Seat",
+        "Developing Countries",
+        "UN Reform"
+      ],
+      "keyTerms": [
+        "UNSC",
+        "Permanent Members (P5)",
+        "Non-Permanent Members",
+        "Veto Power",
+        "General Assembly",
+        "G4 Nations",
+        "Uniting for Consensus (UfC)"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The UN Security Council (UNSC) has 15 members: 5 permanent (P5) and 10 non-permanent members.",
+        "The P5 members (China, France, Russia, UK, US) hold veto power.",
+        "Non-permanent members are elected for two-year terms by the UN General Assembly.",
+        "India, along with Brazil, Germany, and Japan, forms the G4 nations, advocating for permanent seats in the UNSC.",
+        "Key arguments for UNSC reform include equitable geographical representation, increased membership, and curbing the veto power."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the rationale behind India's persistent demand for a permanent seat in the UN Security Council, highlighting its contributions to global peace and security.",
+        "Analyze the challenges and obstacles in achieving comprehensive UN Security Council reforms, including resistance from existing P5 members.",
+        "Examine the implications of an outdated and unrepresentative UNSC for global governance and addressing contemporary international challenges.",
+        "Evaluate the various proposals for UNSC reform, such as increasing permanent and non-permanent members, and reforming the veto power.",
+        "Suggest India's diplomatic strategies to build consensus and mobilize support for its bid for a permanent UNSC seat."
+      ],
+      "imageDescription": "UN logo with a world map and flags, symbolizing international diplomacy.",
+      "section": "International",
+      "trivia": "India has served as a non-permanent member of the UN Security Council for eight terms, most recently for 2021-2022.",
+      "prelimsSyllabus": {
+        "subject": "International Relations",
+        "area": "International Institutions",
+        "topic": "United Nations, UNSC Reforms"
+      },
+      "prelimsPotential": 3
+    },
+    {
+      "id": "indias-first-private-sector-built-rocket",
+      "headline": "India's First Privately Built Sounding Rocket Successfully Launched",
+      "explainer": "• A significant milestone was achieved in India's space sector with the successful launch of a sounding rocket built entirely by a private company.\n• The sub-orbital rocket, developed by 'Skyroot Aerospace', demonstrated indigenous capabilities in design, fabrication, and launch operations.\n• This launch marks a new era for private participation in India's space industry, complementing ISRO's efforts.\n• It opens avenues for commercial space launches, satellite deployment, and space-based services, fostering innovation and competition.\n• The achievement underscores the effectiveness of recent government policies aimed at liberalizing and promoting the private space sector.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+        "Awareness in the fields of Space.",
+        "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+      ],
+      "date": "2025-07-05",
+      "source": "ISRO / Skyroot Aerospace",
+      "sourceUrl": "https://www.skyrootaerospace.com/first-launch",
+      "importance": "high",
+      "tags": [
+        "Private Space Sector",
+        "Sounding Rocket",
+        "Skyroot Aerospace",
+        "ISRO",
+        "Space Launch",
+        "Space Technology",
+        "Commercial Space",
+        "Make in India",
+        "Space Reforms"
+      ],
+      "keyTerms": [
+        "Sounding Rocket",
+        "Sub-orbital Flight",
+        "Private Space",
+        "IN-SPACe",
+        "NewSpace India Limited (NSIL)",
+        "Space-as-a-Service"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "Sounding rockets are sub-orbital rockets that carry instruments for atmospheric and scientific research.",
+        "Skyroot Aerospace is one of India's prominent private aerospace companies.",
+        "IN-SPACe (Indian National Space Promotion and Authorization Centre) acts as a single-window agency for private sector participation in the space sector.",
+        "NewSpace India Limited (NSIL) is the commercial arm of ISRO.",
+        "This launch demonstrates India's growing capabilities in indigenous rocket development by private entities."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the significance of private sector participation in India's space program and its potential to accelerate technological advancements.",
+        "Analyze the government's space reforms and policies that have enabled the entry and growth of private players in the space sector.",
+        "Examine the economic and strategic benefits of fostering a robust commercial space industry in India.",
+        "Evaluate the challenges and opportunities for private space companies in areas like satellite manufacturing, launch services, and space exploration.",
+        "Suggest measures to further integrate and optimize the collaboration between ISRO and private space entities for national development."
+      ],
+      "imageDescription": "A small rocket launching from a private facility, with company logo.",
+      "section": "Science",
+      "trivia": "The first privately developed Indian rocket, 'Vikram-S' by Skyroot Aerospace, was successfully launched in November 2022.",
+      "prelimsSyllabus": {
+        "subject": "Science and Technology",
+        "area": "Space Technology",
+        "topic": "Private Space Sector, ISRO"
+      },
+      "prelimsPotential": 4
+    },
+    {
+      "id": "new-species-biodiversity-hotspot-western-ghats",
+      "headline": "New Species of Amphibian Discovered in Biodiversity Hotspot of Western Ghats",
+      "explainer": "• Scientists have announced the discovery of a new species of amphibian in the ecologically rich Western Ghats region of India.\n• The discovery highlights the immense biodiversity of the Western Ghats, which is recognized as one of the world's eight 'hottest' biodiversity hotspots.\n• The new species, a type of frog, was identified through extensive field research and genetic analysis.\n• This finding underscores the urgent need for enhanced conservation efforts to protect the unique and often endemic flora and fauna of the region.\n• Habitat loss and climate change continue to pose significant threats to the delicate ecosystems of the Western Ghats.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "gsSubTopics": [
+        "Conservation, environmental pollution and degradation, environmental impact assessment.",
+        "Biodiversity and its conservation."
+      ],
+      "date": "2025-07-05",
+      "source": "Wildlife Institute of India",
+      "sourceUrl": "https://www.wii.gov.in/new-amphibian-species-wg",
+      "importance": "medium",
+      "tags": [
+        "Biodiversity",
+        "Western Ghats",
+        "New Species",
+        "Amphibian",
+        "Conservation",
+        "Ecology",
+        "Endemic Species",
+        "Wildlife Protection",
+        "Climate Change"
+      ],
+      "keyTerms": [
+        "Biodiversity Hotspot",
+        "Endemic Species",
+        "Amphibians",
+        "Habitat Loss",
+        "Conservation Biology",
+        "IUCN Red List"
+      ],
+      "prelims": true,
+      "prelimsPoints": [
+        "The Western Ghats is a UNESCO World Heritage Site and one of the world's eight 'hottest' biodiversity hotspots.",
+        "It is home to a vast array of endemic species of flora and fauna.",
+        "Amphibians are bio-indicators, meaning their health reflects the health of the ecosystem.",
+        "Threats to the Western Ghats include deforestation, mining, climate change, and human-wildlife conflict.",
+        "Conservation efforts include protected areas, national parks, and wildlife sanctuaries."
+      ],
+      "mains": true,
+      "mainsPoints": [
+        "Discuss the ecological significance of the Western Ghats as a biodiversity hotspot and the factors contributing to its unique biodiversity.",
+        "Analyze the threats faced by the biodiversity of the Western Ghats, including habitat loss, climate change, and anthropogenic pressures.",
+        "Evaluate the effectiveness of current conservation strategies in protecting endemic species and fragile ecosystems in the region.",
+        "Examine the role of scientific research and new discoveries in informing and strengthening conservation policies.",
+        "Suggest sustainable development practices and community-based conservation models for preserving the Western Ghats' natural heritage."
+      ],
+      "imageDescription": "A newly discovered frog species camouflaged in lush green foliage.",
+      "section": "Environment",
+      "trivia": "The Western Ghats is older than the Himalayas and is considered a 'Great Escarpment of India'.",
+      "prelimsSyllabus": {
+        "subject": "Environment and Ecology",
+        "area": "Biodiversity",
+        "topic": "Western Ghats, Conservation"
+      },
+      "prelimsPotential": 3
+    }
+  ],
+  "highlights": [
+    "X (formerly Twitter) briefly restricted Reuters accounts in India, citing Section 69A of the IT Act, sparking debates on press freedom and digital governance.",
+    "The Supreme Court upheld the constitutionality of the Digital Personal Data Protection Act, 2023, strengthening India's data privacy framework.",
+    "RBI maintained the repo rate at 6.5% for the eighth consecutive time, signaling a cautious stance on inflation amidst global uncertainties.",
+    "India and France deepened their strategic partnership, focusing on enhancing Indo-Pacific security and defense cooperation.",
+    "ISRO successfully launched an advanced Earth Observation Satellite (EOS-08) for disaster management, bolstering India's space capabilities."
+  ],
+  "prelimsMocks": [
+    {
+      "question": "With reference to Section 69A of the Information Technology Act, 2000, consider the following statements:\n1. It empowers the Central Government to block public access to any information through any computer resource.\n2. Orders under this section can only be issued by the Ministry of Home Affairs.\n3. The Supreme Court has declared Section 69A as unconstitutional.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 1 and 2 only",
+        "(c) 2 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(a) 1 only",
+      "explanation": "Statement 1 is correct. Section 69A empowers the Central Government to block access to information. Statement 2 is incorrect; orders are issued by the Secretary, Ministry of Electronics and Information Technology (MeitY), not MHA. Statement 3 is incorrect; the Supreme Court in Shreya Singhal v. Union of India (2015) upheld the constitutional validity of Section 69A."
+    },
+    {
+      "question": "Which of the following bodies is responsible for fixing the benchmark interest rate (repo rate) in India?",
+      "options": [
+        "(a) Ministry of Finance",
+        "(b) Securities and Exchange Board of India (SEBI)",
+        "(c) Reserve Bank of India (RBI)",
+        "(d) Monetary Policy Committee (MPC)"
+      ],
+      "answer": "(d) Monetary Policy Committee (MPC)",
+      "explanation": "While the RBI implements monetary policy, the six-member Monetary Policy Committee (MPC) is specifically constituted to fix the benchmark interest rate (repo rate) to achieve the inflation target."
+    },
+    {
+      "question": "Consider the following statements regarding the Digital Personal Data Protection Act (DPDP Act), 2023:\n1. It aims to regulate the processing of digital personal data in India.\n2. The Act establishes the Data Protection Board of India as a regulatory body.\n3. It grants data principals the right to access and correct their personal data.\nWhich of the statements given above are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(d) 1, 2 and 3",
+      "explanation": "All three statements are correct. The DPDP Act regulates data processing, establishes the Data Protection Board, and provides rights to data principals, including access and correction."
+    },
+    {
+      "question": "The G4 nations, advocating for permanent seats in the UN Security Council, comprise which of the following countries?\n(a) India, Japan, Germany, South Africa\n(b) India, Brazil, Japan, Germany\n(c) India, China, Russia, South Africa\n(d) India, France, UK, Germany",
+      "options": [
+        "(a) India, Japan, Germany, South Africa",
+        "(b) India, Brazil, Japan, Germany",
+        "(c) India, China, Russia, South Africa",
+        "(d) India, France, UK, Germany"
+      ],
+      "answer": "(b) India, Brazil, Japan, Germany",
+      "explanation": "The G4 nations are India, Brazil, Japan, and Germany. They support each other's bids for permanent seats on the United Nations Security Council."
+    },
+    {
+      "question": "Which of the following is NOT an objective of the Green India Mission (GIM)?",
+      "options": [
+        "(a) To protect and enhance India’s diminishing forest cover.",
+        "(b) To promote sustainable forest management.",
+        "(c) To respond to climate change challenges.",
+        "(d) To facilitate rapid industrialization in forest-rich areas."
+      ],
+      "answer": "(d) To facilitate rapid industrialization in forest-rich areas.",
+      "explanation": "The Green India Mission (GIM) is one of the eight missions under the National Action Plan on Climate Change (NAPCC) with objectives related to forest cover, sustainable management, and climate change. Facilitating rapid industrialization in forest-rich areas is contrary to its objectives of conservation and environmental protection."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "Critically analyze the balance between national security and freedom of expression in the context of government's power to block online content under Section 69A of the IT Act. Discuss potential reforms to ensure greater transparency and accountability.",
+      "syllabusMatch": "GS2: Government policies and interventions for development in various sectors and issues arising out of their design and implementation. Indian Constitution—fundamental rights.",
+      "approach": "Introduce Section 69A and its purpose. Discuss arguments for and against its current implementation (national security vs. free speech, press freedom, due process, anonymity). Refer to Supreme Court judgments (Shreya Singhal). Suggest reforms like independent oversight, clear guidelines, appeal mechanisms, and transparency in blocking orders."
+    },
+    {
+      "question": "Evaluate the significance of the Digital Personal Data Protection Act, 2023, in safeguarding citizen's right to privacy in the digital age. What are the key challenges in its effective implementation, and how can they be addressed?",
+      "syllabusMatch": "GS2: Government policies and interventions for development in various sectors and issues arising out of their design and implementation. Fundamental Rights. GS3: Cyber security, IT and Computers.",
+      "approach": "Begin by linking the Act to the Right to Privacy (Puttaswamy judgment). Explain key provisions (consent, data fiduciary/principal, Data Protection Board, rights). Discuss benefits like user control, accountability, and digital economy growth. Highlight challenges: enforcement against global tech giants, balancing state access to data, data localization, capacity of the Board, public awareness. Suggest solutions like international cooperation, robust regulatory framework, public education, and grievance redressal mechanisms."
+    },
+    {
+      "question": "Discuss the implications of the Production Linked Incentive (PLI) Scheme's expansion to include advanced robotics and automation for India's manufacturing sector and its 'Make in India' initiative. What are the opportunities and potential hurdles?",
+      "syllabusMatch": "GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment. Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth. Science and Technology.",
+      "approach": "Introduce PLI scheme's objectives. Explain how robotics and automation fit into the scheme and its potential to revolutionize manufacturing (Industry 4.0). Discuss opportunities: boosting domestic production, attracting FDI, job creation (skilled), export competitiveness, technological leapfrogging. Highlight hurdles: high capital investment, skill gap, R&D infrastructure, global competition, ethical concerns of automation. Conclude with policy recommendations to maximize benefits and mitigate challenges."
+    }
+  ],
+  "quickBytes": [
+    {
+      "text": "The IT Act, 2000, provides legal framework for electronic governance and e-commerce in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "IT Act",
+        "E-Governance"
+      ]
+    },
+    {
+      "text": "The Monetary Policy Committee (MPC) comprises 3 members from RBI and 3 external members.",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "RBI",
+        "MPC"
+      ]
+    },
+    {
+      "text": "The Indo-Pacific concept gained prominence due to the rising geopolitical significance of the region.",
+      "category": "ir",
+      "gsPaper": "GS2",
+      "tags": [
+        "Indo-Pacific",
+        "Geopolitics"
+      ]
+    },
+    {
+      "text": "ISRO's PSLV (Polar Satellite Launch Vehicle) is known as the 'workhorse' of Indian space program.",
+      "category": "science",
+      "gsPaper": "GS3",
+      "tags": [
+        "ISRO",
+        "PSLV"
+      ]
+    },
+    {
+      "text": "India aims to achieve Net Zero emissions by 2070, as announced at COP26.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Climate Change",
+        "Net Zero"
+      ]
+    },
+    {
+      "text": "The term 'Digital Divide' refers to the gap in access to digital technology between different groups.",
+      "category": "society",
+      "gsPaper": "GS2",
+      "tags": [
+        "Digital Literacy",
+        "Social Inclusion"
+      ]
+    },
+    {
+      "text": "Electoral bonds are interest-free bearer instruments used for political funding in India.",
+      "category": "polity",
+      "gsPaper": "GS2",
+      "tags": [
+        "Electoral Reforms",
+        "Political Funding"
+      ]
+    },
+    {
+      "text": "The services sector is the largest contributor to India's Gross Domestic Product (GDP).",
+      "category": "economy",
+      "gsPaper": "GS3",
+      "tags": [
+        "Services Sector",
+        "GDP"
+      ]
+    },
+    {
+      "text": "The Border Security Force (BSF) is a Central Armed Police Force (CAPF) under MHA.",
+      "category": "security",
+      "gsPaper": "GS3",
+      "tags": [
+        "BSF",
+        "Internal Security"
+      ]
+    },
+    {
+      "text": "The Western Ghats is one of the 36 global biodiversity hotspots, known for high endemism.",
+      "category": "environment",
+      "gsPaper": "GS3",
+      "tags": [
+        "Western Ghats",
+        "Biodiversity Hotspot"
+      ]
+    }
+  ],
+  "articlesByGS": {
+    "GS1": [
+      {
+        "id": "siva-shakthi-datta-film-director-lyricist-passes-away",
+        "headline": "Renowned Film Director and Lyricist Siva Shakthi Datta Dies at 92",
+        "explainer": "• Siva Shakthi Datta, a veteran personality in the Indian film industry, passed away at the age of 92.\n• He was highly regarded for his contributions as both a film director and a prolific lyricist.\n• Datta directed several acclaimed films and penned lyrics for numerous songs, leaving an indelible mark on Telugu and other regional cinema.\n• His work often explored social themes and showcased deep cultural roots, earning him critical acclaim and popular appeal.\n• His demise is a significant loss to the cinematic and literary world, celebrated for his versatility and artistic depth.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Modern Indian history from about the middle of the eighteenth century until the present- significant events, personalities, issues."
+        ],
+        "date": "2025-07-05",
+        "source": "The Times of India",
+        "sourceUrl": "https://timesofindia.indiatimes.com/siva-shakthi-datta-obituary",
+        "importance": "low",
+        "tags": [
+          "Obituary",
+          "Siva Shakthi Datta",
+          "Film Director",
+          "Lyricist",
+          "Telugu Cinema",
+          "Indian Cinema",
+          "Art and Culture"
+        ],
+        "keyTerms": [
+          "Regional Cinema",
+          "Filmography",
+          "Lyricism",
+          "Cultural Heritage"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "Portrait of Siva Shakthi Datta.",
+        "section": "Art & Culture",
+        "trivia": "Telugu cinema, often referred to as Tollywood, is one of the largest film industries in India, producing a significant number of films annually.",
+        "prelimsSyllabus": {
+          "subject": "Art and Culture",
+          "area": "Indian Cinema",
+          "topic": "Personalities in Arts"
+        },
+        "prelimsPotential": 1
+      },
+      {
+        "id": "aprem-mooken-chaldean-syrian-prelate-passes-away",
+        "headline": "Chaldean Syrian Prelate Aprem Mooken Passes Away at 85",
+        "explainer": "• Moran Mor Aprem Mooken, the Metropolitan of the Ancient Church of the East in India (Chaldean Syrian Church), passed away at the age of 85.\n• He served as the head of the church since 1968, a tenure spanning over five decades, making him one of the longest-serving prelates.\n• Mooken was a respected theologian, historian, and author, known for his efforts to preserve the traditions and history of the Chaldean Syrian Church.\n• His leadership was instrumental in navigating the church through various challenges and maintaining its distinct identity within the broader Christian landscape.\n• His demise is a significant loss for the Christian community in India and the global Assyrian Church of the East.",
+        "category": "society",
+        "gsPaper": "GS1",
+        "gsSubTopics": [
+          "Indian culture will cover the salient aspects of Art Forms, Literature and Architecture from ancient to modern times.",
+          "Modern Indian history from about the middle of the eighteenth century until the present- significant events, personalities, issues."
+        ],
+        "date": "2025-07-05",
+        "source": "Manorama Online",
+        "sourceUrl": "https://english.manoramaonline.com/aprem-mooken-obituary",
+        "importance": "low",
+        "tags": [
+          "Obituary",
+          "Aprem Mooken",
+          "Chaldean Syrian Church",
+          "Metropolitan",
+          "Christianity in India",
+          "Religious Leader",
+          "Kerala"
+        ],
+        "keyTerms": [
+          "Chaldean Syrian Church",
+          "Metropolitan",
+          "Prelate",
+          "Assyrian Church of the East",
+          "Ecclesiastical History"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "Portrait of Aprem Mooken in traditional clerical attire.",
+        "section": "National",
+        "trivia": "The Chaldean Syrian Church traces its origins to the Apostle Thomas and is one of the oldest Christian communities in the world, with a significant presence in Kerala, India.",
+        "prelimsSyllabus": {
+          "subject": "Art and Culture",
+          "area": "Religions in India",
+          "topic": "Christianity, Religious Personalities"
+        },
+        "prelimsPotential": 1
+      }
+    ],
+    "GS2": [
+      {
+        "id": "x-reuters-it-act-69a-india",
+        "headline": "X Briefly Withholds Reuters Accounts in India Citing Legal Request Under IT Act Section 69A",
+        "explainer": "• Social media platform X (formerly Twitter) temporarily restricted access to multiple Reuters news accounts for users in India.\n• The company cited a legal request under Section 69A of the Information Technology Act, 2000, as the basis for the action.\n• Section 69A allows the government to block public access to information for reasons of national security, public order, or to prevent incitement to an offense.\n• The accounts were restored the following day, raising questions about due process and freedom of speech online.\n• This incident reignites debates on government control over online content and the balance between national security and press freedom in the digital age.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government Policies and Interventions for Development in various sectors and issues arising out of their design and implementation.",
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Statutory, regulatory and various quasi-judicial bodies.",
+          "Role of media and social networking sites in internal security challenges."
+        ],
+        "date": "2025-07-05",
+        "source": "Reuters / The Hindu",
+        "sourceUrl": "https://www.reuters.com/article_link",
+        "importance": "high",
+        "tags": [
+          "IT Act 2000",
+          "Section 69A",
+          "Freedom of Speech",
+          "Press Freedom",
+          "Digital Rights",
+          "Content Moderation",
+          "Government Regulation",
+          "Social Media",
+          "X Platform",
+          "Reuters India"
+        ],
+        "keyTerms": [
+          "Section 69A IT Act",
+          "Information Technology Act 2000",
+          "Freedom of Expression",
+          "Content Blocking",
+          "Digital India",
+          "Intermediary Guidelines"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Section 69A of the IT Act, 2000 empowers the Central Government to block public access to any information through any computer resource.",
+          "Reasons for blocking include national security, public order, defense of India, sovereignty and integrity of India, friendly relations with foreign states, or to prevent incitement to an offense.",
+          "The blocking orders are issued by the Secretary, Ministry of Electronics and Information Technology (MeitY).",
+          "The IT (Procedure and Safeguards for Blocking for Access of Information by Public) Rules, 2009 govern the process.",
+          "The Supreme Court in Shreya Singhal v. Union of India (2015) upheld the constitutional validity of Section 69A."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the implications of Section 69A of the IT Act on freedom of speech and expression in India, particularly in the context of news media.",
+          "Discuss the challenges in balancing national security concerns with fundamental rights in the digital space.",
+          "Evaluate the role of social media intermediaries in content moderation and their obligations under Indian law.",
+          "Examine the need for transparent and accountable mechanisms for content blocking orders.",
+          "Suggest reforms to the existing legal framework to ensure due process and prevent arbitrary censorship."
+        ],
+        "imageDescription": "Illustration of a lock icon over a social media logo, symbolizing content restriction.",
+        "section": "Lead Opinion",
+        "trivia": "The Information Technology Act, 2000 was enacted to provide legal recognition for transactions carried out by means of electronic data interchange and other means of electronic communication, commonly referred to as 'electronic commerce'.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Fundamental Rights",
+          "topic": "Freedom of Speech and Expression, IT Act"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "supreme-court-data-protection-act",
+        "headline": "Supreme Court Upholds Constitutionality of Digital Personal Data Protection Act, 2023",
+        "explainer": "• The Supreme Court of India today affirmed the constitutional validity of the Digital Personal Data Protection Act (DPDP Act), 2023.\n• Petitions had challenged the Act on grounds of potential infringement on privacy and freedom of speech, particularly concerning data processing by the state.\n• The court emphasized the legislative intent to create a robust data protection framework while balancing individual rights with legitimate state interests.\n• This ruling provides clarity and strengthens the legal foundation for data governance in India.\n• The judgment is expected to boost investor confidence in India's digital economy and streamline data handling practices across sectors.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Government Policies and Interventions for Development in various sectors and issues arising out of their design and implementation.",
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Statutory, regulatory and various quasi-judicial bodies.",
+          "Fundamental Rights."
+        ],
+        "date": "2025-07-05",
+        "source": "The Hindu",
+        "sourceUrl": "https://www.thehindu.com/sc-dpdp-act-ruling",
+        "importance": "high",
+        "tags": [
+          "Digital Personal Data Protection Act",
+          "DPDP Act 2023",
+          "Right to Privacy",
+          "Supreme Court",
+          "Constitutional Law",
+          "Data Governance",
+          "Fundamental Rights",
+          "Digital Economy"
+        ],
+        "keyTerms": [
+          "DPDP Act",
+          "Data Fiduciary",
+          "Data Principal",
+          "Data Protection Board of India",
+          "Personal Data",
+          "Right to be Forgotten"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Digital Personal Data Protection Act, 2023 regulates the processing of digital personal data in India.",
+          "It defines 'personal data', 'data fiduciary', 'data principal', and 'data processor'.",
+          "The Act establishes the Data Protection Board of India as an independent regulatory body.",
+          "Key principles include consent, purpose limitation, data minimization, and accountability.",
+          "It provides for penalties for non-compliance and grants data principals rights such as the right to access, correction, and erasure of their data."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Evaluate the significance of the DPDP Act in safeguarding citizen's right to privacy in the digital age.",
+          "Discuss the challenges in implementing the DPDP Act, particularly concerning cross-border data flows and enforcement.",
+          "Analyze the balance struck by the Act between individual privacy rights and the legitimate interests of the state and businesses.",
+          "Compare and contrast the DPDP Act with global data protection regulations like GDPR, highlighting India's unique approach.",
+          "Examine the role of the Data Protection Board of India in ensuring effective implementation and grievance redressal."
+        ],
+        "imageDescription": "Gavel resting on a book titled 'DPDP Act' with a digital data flow background.",
+        "section": "National",
+        "trivia": "The Puttaswamy judgment (2017) by the Supreme Court declared the Right to Privacy as a fundamental right under Article 21 of the Indian Constitution, laying the groundwork for data protection legislation.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Fundamental Rights",
+          "topic": "Right to Privacy, Data Protection Law"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-france-indo-pacific-security",
+        "headline": "India, France Deepen Strategic Partnership with Focus on Indo-Pacific Security",
+        "explainer": "• India and France held their annual strategic dialogue, reaffirming their commitment to a robust partnership.\n• Discussions focused heavily on enhancing cooperation in the Indo-Pacific region, emphasizing maritime security and freedom of navigation.\n• Both nations stressed the importance of a rules-based international order and multilateralism in addressing global challenges.\n• Agreements were reached on joint defense production, space cooperation, and combating terrorism.\n• The dialogue underscored the growing convergence of interests between Paris and New Delhi in regional stability and geopolitical balancing.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "India and its neighborhood- relations.",
+          "Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2025-07-05",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "https://www.mea.gov.in/india-france-dialogue",
+        "importance": "high",
+        "tags": [
+          "India-France Relations",
+          "Indo-Pacific",
+          "Strategic Partnership",
+          "Maritime Security",
+          "Defense Cooperation",
+          "Geopolitics",
+          "Multilateralism",
+          "International Relations"
+        ],
+        "keyTerms": [
+          "Strategic Autonomy",
+          "Rules-Based Order",
+          "Quad",
+          "AUKUS",
+          "SAGAR",
+          "Indo-Pacific Strategy"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "India and France share a long-standing strategic partnership, established in 1998.",
+          "France is a key partner for India in defense, nuclear energy, and space.",
+          "The Indo-Pacific region is a geographical and geopolitical construct that spans from the east coast of Africa to the west coast of the Americas.",
+          "Freedom of navigation and overflight are key principles advocated by India and France in the Indo-Pacific.",
+          "Recent defense deals include Rafale fighter jets and Scorpene-class submarines."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the evolution and significance of the India-France strategic partnership in the changing global order.",
+          "Discuss the shared interests and convergence of strategies between India and France in ensuring security and stability in the Indo-Pacific region.",
+          "Examine the role of defense cooperation and technology transfer in strengthening bilateral ties.",
+          "Evaluate how India's relationship with France contributes to its strategic autonomy and diversification of partnerships.",
+          "Discuss the challenges and opportunities for India-France collaboration in addressing emerging global challenges like climate change and cyber security."
+        ],
+        "imageDescription": "Flags of India and France intertwined, with a map of the Indo-Pacific in the background.",
+        "section": "International",
+        "trivia": "France was one of the first countries to establish a strategic partnership with India, a move that predates India's closer ties with the US.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "Bilateral Relations",
+          "topic": "India-France Relations, Indo-Pacific"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "national-programme-womens-digital-literacy",
+        "headline": "National Programme for Women's Digital Literacy Launched to Bridge Gender Gap",
+        "explainer": "• The Ministry of Women and Child Development, in collaboration with MeitY, launched a comprehensive National Programme for Women's Digital Literacy.\n• The initiative aims to empower millions of women across rural and urban India with essential digital skills.\n• It seeks to bridge the existing gender gap in digital access and proficiency, fostering economic independence and social inclusion.\n• The program will utilize a multi-pronged approach, including training centers, online modules, and community-led workshops.\n• This is expected to enhance women's participation in the digital economy and governance, promoting 'Digital Nari, Saksham Nari' (Digital Woman, Capable Woman).",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections.",
+          "Issues relating to development and management of Social Sector/Services relating to Health, Education, Human Resources.",
+          "Role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders."
+        ],
+        "date": "2025-07-05",
+        "source": "Ministry of Women and Child Development",
+        "sourceUrl": "https://wcd.nic.in/womens-digital-literacy",
+        "importance": "medium",
+        "tags": [
+          "Women Empowerment",
+          "Digital Literacy",
+          "Gender Gap",
+          "Digital India",
+          "Social Inclusion",
+          "Economic Empowerment",
+          "Skill Development",
+          "Government Schemes"
+        ],
+        "keyTerms": [
+          "Digital Divide",
+          "Gender Digital Divide",
+          "Financial Inclusion",
+          "Digital Saksharta Abhiyan (DISHA)",
+          "Pradhan Mantri Gramin Digital Saksharta Abhiyan (PMGDISHA)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The program aims to provide digital literacy to women, particularly in rural and underserved areas.",
+          "Digital literacy encompasses the ability to find, evaluate, create, and communicate information using digital technologies.",
+          "Bridging the gender digital divide is crucial for achieving Sustainable Development Goals (SDGs), especially SDG 5 (Gender Equality).",
+          "Government schemes like PMGDISHA have aimed at making a person digitally literate.",
+          "The program focuses on enhancing women's access to digital services, online education, and entrepreneurial opportunities."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the socio-economic benefits of enhancing digital literacy among women in India.",
+          "Analyze the challenges in bridging the gender digital divide in India and how the new program addresses them.",
+          "Evaluate the effectiveness of government initiatives in promoting digital inclusion and empowerment for vulnerable sections.",
+          "Examine how digital literacy can contribute to women's participation in governance and decision-making processes.",
+          "Suggest measures to ensure the long-term sustainability and impact of women's digital literacy programs."
+        ],
+        "imageDescription": "Group of women learning on tablets, symbolizing digital empowerment.",
+        "section": "National",
+        "trivia": "As per the National Family Health Survey (NFHS-5), while mobile phone ownership among women has increased significantly, internet usage still lags behind men.",
+        "prelimsSyllabus": {
+          "subject": "Social Justice",
+          "area": "Welfare Schemes",
+          "topic": "Women Empowerment, Digital Inclusion"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "parliamentary-panel-electoral-bond-reforms",
+        "headline": "Parliamentary Panel Recommends Reforms in Electoral Bond Scheme to Enhance Transparency",
+        "explainer": "• A parliamentary standing committee submitted its report recommending significant reforms to the Electoral Bond Scheme.\n• The panel called for greater transparency in political funding by disclosing the identities of donors and recipient parties.\n• Concerns were raised regarding the anonymity of donors, which has been criticized for facilitating quid pro quo arrangements and black money.\n• The recommendations include lowering the minimum denomination of bonds and increasing the disclosure threshold for political donations.\n• These proposals aim to address long-standing criticisms and strengthen democratic accountability in electoral financing.",
+        "category": "polity",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Salient features of the Representation of People’s Act.",
+          "Statutory, regulatory and various quasi-judicial bodies.",
+          "Development processes and the development industry —the role of NGOs, SHGs, various groups and associations, donors, charities, institutional and other stakeholders."
+        ],
+        "date": "2025-07-05",
+        "source": "Lok Sabha Secretariat",
+        "sourceUrl": "https://loksabha.nic.in/electoral-bond-report",
+        "importance": "high",
+        "tags": [
+          "Electoral Bonds",
+          "Political Funding",
+          "Transparency",
+          "Electoral Reforms",
+          "Parliamentary Committee",
+          "Democracy",
+          "Anti-Corruption",
+          "Representation of People's Act"
+        ],
+        "keyTerms": [
+          "Electoral Bonds",
+          "Political Funding",
+          "Election Commission of India",
+          "Right to Information",
+          "Quid Pro Quo",
+          "Black Money"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Electoral Bond Scheme was introduced in 2017 to cleanse the system of political funding in India.",
+          "Electoral bonds are interest-free bearer instruments that can be purchased from authorized branches of the State Bank of India.",
+          "Donors' identities are kept anonymous, and bonds can be redeemed by registered political parties.",
+          "Only political parties registered under Section 29A of the Representation of the People Act, 1951, and which have secured at least 1% of the votes polled in the last general election or assembly election, are eligible to receive electoral bonds.",
+          "The Supreme Court has reserved its judgment on petitions challenging the scheme's constitutionality."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Critically analyze the Electoral Bond Scheme, highlighting its stated objectives versus its actual impact on transparency and accountability in political funding.",
+          "Discuss the arguments for and against the anonymity of donors in electoral bonds, citing concerns about quid pro quo and black money.",
+          "Evaluate the recommendations of the parliamentary panel and their potential to bring meaningful reforms to electoral financing.",
+          "Examine the role of the Election Commission of India and the Supreme Court in addressing issues related to political funding.",
+          "Suggest comprehensive electoral reforms needed to ensure free and fair elections and strengthen democratic principles in India."
+        ],
+        "imageDescription": "A ballot box with currency notes, symbolizing political funding issues.",
+        "section": "National",
+        "trivia": "Prior to electoral bonds, political parties primarily relied on cash donations, which were often untraceable.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity and Governance",
+          "area": "Electoral Reforms",
+          "topic": "Political Funding, Electoral Bonds"
+        },
+        "prelimsPotential": 5
+      },
+      {
+        "id": "anand-singh-politician-passes-away",
+        "headline": "Veteran Politician Anand Singh, Former Karnataka Minister, Passes Away at 87",
+        "explainer": "• Anand Singh, a prominent veteran politician from Karnataka, passed away at the age of 87.\n• He had a long and distinguished career in public service, having served multiple terms as a Member of the Legislative Assembly (MLA).\n• Singh held various ministerial portfolios in the Karnataka government, contributing significantly to regional development.\n• He was known for his strong grassroots connection and dedication to the welfare of his constituents.\n• His demise marks the end of an era for many in Karnataka politics, leaving behind a legacy of public service.",
+        "category": "society",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure.",
+          "Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+          "Parliament and State Legislatures—structure, functioning, conduct of business, powers & privileges and issues arising out of these."
+        ],
+        "date": "2025-07-05",
+        "source": "Deccan Herald",
+        "sourceUrl": "https://www.deccanherald.com/anand-singh-obituary",
+        "importance": "low",
+        "tags": [
+          "Obituary",
+          "Anand Singh",
+          "Karnataka Politics",
+          "Veteran Politician",
+          "MLA",
+          "State Minister",
+          "Public Service"
+        ],
+        "keyTerms": [
+          "Legislative Assembly",
+          "Ministerial Portfolio",
+          "Federalism",
+          "Grassroots Politics"
+        ],
+        "prelims": false,
+        "prelimsPoints": [],
+        "mains": false,
+        "mainsPoints": [],
+        "imageDescription": "Black and white photo of Anand Singh.",
+        "section": "National",
+        "trivia": "Karnataka, formerly known as Mysore State, was renamed in 1973. Its legislative assembly is bicameral.",
+        "prelimsSyllabus": {
+          "subject": "Indian Polity",
+          "area": "State Legislature",
+          "topic": "MLAs, State Government"
+        },
+        "prelimsPotential": 1
+      },
+      {
+        "id": "india-unsc-reforms-geneva-dialogue",
+        "headline": "India Advocates for Comprehensive UN Security Council Reforms at Geneva Dialogue",
+        "explainer": "• India reiterated its strong call for comprehensive reforms of the UN Security Council (UNSC) at a high-level dialogue in Geneva.\n• The Indian representative emphasized the need for an expanded UNSC, reflecting contemporary global realities and enhancing its legitimacy and effectiveness.\n• India highlighted its credentials for a permanent seat, citing its economic growth, democratic values, and contributions to international peace and security.\n• The dialogue focused on the need to address the historical injustices and the underrepresentation of developing countries in the UNSC's permanent membership.\n• This advocacy is part of India's consistent diplomatic efforts to push for a more equitable and representative global governance structure.",
+        "category": "ir",
+        "gsPaper": "GS2",
+        "gsSubTopics": [
+          "Important International institutions, agencies and fora, their structure, mandate.",
+          "Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora."
+        ],
+        "date": "2025-07-05",
+        "source": "Ministry of External Affairs",
+        "sourceUrl": "https://www.mea.gov.in/unsc-reforms-geneva",
+        "importance": "medium",
+        "tags": [
+          "UNSC Reforms",
+          "United Nations Security Council",
+          "International Relations",
+          "Global Governance",
+          "Multilateralism",
+          "India's Permanent Seat",
+          "Developing Countries",
+          "UN Reform"
+        ],
+        "keyTerms": [
+          "UNSC",
+          "Permanent Members (P5)",
+          "Non-Permanent Members",
+          "Veto Power",
+          "General Assembly",
+          "G4 Nations",
+          "Uniting for Consensus (UfC)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The UN Security Council (UNSC) has 15 members: 5 permanent (P5) and 10 non-permanent members.",
+          "The P5 members (China, France, Russia, UK, US) hold veto power.",
+          "Non-permanent members are elected for two-year terms by the UN General Assembly.",
+          "India, along with Brazil, Germany, and Japan, forms the G4 nations, advocating for permanent seats in the UNSC.",
+          "Key arguments for UNSC reform include equitable geographical representation, increased membership, and curbing the veto power."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the rationale behind India's persistent demand for a permanent seat in the UN Security Council, highlighting its contributions to global peace and security.",
+          "Analyze the challenges and obstacles in achieving comprehensive UN Security Council reforms, including resistance from existing P5 members.",
+          "Examine the implications of an outdated and unrepresentative UNSC for global governance and addressing contemporary international challenges.",
+          "Evaluate the various proposals for UNSC reform, such as increasing permanent and non-permanent members, and reforming the veto power.",
+          "Suggest India's diplomatic strategies to build consensus and mobilize support for its bid for a permanent UNSC seat."
+        ],
+        "imageDescription": "UN logo with a world map and flags, symbolizing international diplomacy.",
+        "section": "International",
+        "trivia": "India has served as a non-permanent member of the UN Security Council for eight terms, most recently for 2021-2022.",
+        "prelimsSyllabus": {
+          "subject": "International Relations",
+          "area": "International Institutions",
+          "topic": "United Nations, UNSC Reforms"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS3": [
+      {
+        "id": "rbi-repo-rate-inflation-outlook",
+        "headline": "RBI Maintains Repo Rate at 6.5%, Signals Cautious Stance on Inflation Outlook",
+        "explainer": "• The Reserve Bank of India's Monetary Policy Committee (MPC) unanimously decided to keep the benchmark repo rate unchanged at 6.5%.\n• This marks the eighth consecutive meeting where the MPC has maintained the status quo, indicating a cautious approach.\n• The decision was driven by persistent concerns over elevated food inflation and global economic uncertainties.\n• RBI Governor highlighted the need to remain vigilant to bring inflation within the target range of 4%.\n• The MPC reiterated its commitment to 'withdrawal of accommodation' to ensure inflation aligns with the target while supporting growth.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Government Budgeting.",
+          "Monetary policy, fiscal policy."
+        ],
+        "date": "2025-07-05",
+        "source": "PTI / Livemint",
+        "sourceUrl": "https://www.livemint.com/rbi-mpc-decision",
+        "importance": "high",
+        "tags": [
+          "RBI",
+          "Monetary Policy Committee",
+          "Repo Rate",
+          "Inflation",
+          "Economic Growth",
+          "Fiscal Policy",
+          "Indian Economy",
+          "Interest Rates",
+          "Liquidity"
+        ],
+        "keyTerms": [
+          "Repo Rate",
+          "Monetary Policy",
+          "Inflation Targeting",
+          "CRR",
+          "SLR",
+          "Reverse Repo Rate",
+          "Withdrawal of Accommodation"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Repo Rate is the rate at which the Reserve Bank of India lends money to commercial banks in the event of any shortfall of funds.",
+          "The Monetary Policy Committee (MPC) is a six-member body responsible for fixing the benchmark interest rate in India.",
+          "The primary objective of monetary policy is to maintain price stability while keeping in mind the objective of growth.",
+          "Inflation target set by the government for RBI is 4% with a band of +/- 2%.",
+          "Quantitative tools of monetary policy include Repo Rate, Reverse Repo Rate, Marginal Standing Facility (MSF), Bank Rate, CRR, and SLR."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the challenges faced by the RBI in managing inflation while supporting economic growth in the current global economic scenario.",
+          "Discuss the effectiveness of the Monetary Policy Committee's 'withdrawal of accommodation' stance in achieving its objectives.",
+          "Examine the impact of high food inflation on the overall inflation trajectory and the policy responses required.",
+          "Evaluate the role of fiscal policy in complementing monetary policy efforts to stabilize the Indian economy.",
+          "Discuss the potential implications of sustained high interest rates on various sectors of the Indian economy."
+        ],
+        "imageDescription": "RBI logo with graphs showing stable interest rates.",
+        "section": "Economy",
+        "trivia": "The Reserve Bank of India was established on April 1, 1935, in accordance with the provisions of the Reserve Bank of India Act, 1934.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Monetary Policy",
+          "topic": "RBI and its functions"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "isro-advanced-earth-observation-satellite-launch",
+        "headline": "ISRO Successfully Launches Advanced Earth Observation Satellite for Disaster Management",
+        "explainer": "• The Indian Space Research Organisation (ISRO) successfully launched a new advanced Earth Observation Satellite (EOS) from Sriharikota.\n• The satellite, designated EOS-08, is equipped with high-resolution synthetic aperture radar (SAR) and optical sensors.\n• Its primary mission is to enhance India's capabilities in disaster management, agricultural monitoring, and urban planning.\n• The launch further solidifies India's position in space technology and its commitment to utilizing space for societal benefit.\n• This mission is a crucial step towards building a comprehensive space-based infrastructure for continuous monitoring of Earth's resources and environment.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Awareness in the fields of Space.",
+          "Disaster and disaster management."
+        ],
+        "date": "2025-07-05",
+        "source": "ISRO",
+        "sourceUrl": "https://www.isro.gov.in/eos08_launch",
+        "importance": "high",
+        "tags": [
+          "ISRO",
+          "Earth Observation Satellite",
+          "EOS-08",
+          "Space Technology",
+          "Disaster Management",
+          "Remote Sensing",
+          "Synthetic Aperture Radar",
+          "Sriharikota",
+          "Indian Space Program"
+        ],
+        "keyTerms": [
+          "Geostationary Orbit",
+          "Polar Satellite Launch Vehicle (PSLV)",
+          "Geosynchronous Satellite Launch Vehicle (GSLV)",
+          "SAR (Synthetic Aperture Radar)",
+          "Remote Sensing",
+          "Telemetry, Tracking and Command (TT&C)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "ISRO operates from the Satish Dhawan Space Centre (SDSC) in Sriharikota, Andhra Pradesh.",
+          "Earth Observation Satellites (EOS) are designed to monitor and collect information about Earth's physical, chemical, and biological systems.",
+          "Synthetic Aperture Radar (SAR) systems can penetrate clouds and operate day and night, making them crucial for all-weather monitoring.",
+          "Applications of EOS include weather forecasting, climate monitoring, agriculture, forestry, and disaster response.",
+          "India's first satellite, Aryabhata, was launched in 1975."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of Earth Observation Satellites in enhancing India's disaster management capabilities and preparedness.",
+          "Examine the role of ISRO in promoting socio-economic development through its various space missions and technological advancements.",
+          "Analyze the strategic importance of indigenous space technology for India's national security and global standing.",
+          "Evaluate the potential of advanced remote sensing technologies like SAR in addressing challenges in agriculture, urban planning, and environmental monitoring.",
+          "Discuss the future trajectory of India's space program, including its plans for human spaceflight and interplanetary missions."
+        ],
+        "imageDescription": "Rocket launching into space from Sriharikota, with 'ISRO' visible.",
+        "section": "Science",
+        "trivia": "ISRO's Mars Orbiter Mission (Mangalyaan) made India the first Asian nation to reach Mars orbit and the first country in the world to do so in its maiden attempt.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space Technology",
+          "topic": "ISRO, Satellites, Remote Sensing"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "green-india-mission-2-0-forest-cover",
+        "headline": "Government Unveils 'Green India Mission 2.0' for Enhanced Forest Cover and Ecosystem Restoration",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) launched the second phase of the Green India Mission (GIM 2.0).\n• The revamped mission aims for a significant increase in India's forest and tree cover, focusing on degraded forest lands and urban green spaces.\n• GIM 2.0 integrates climate change adaptation and mitigation strategies, promoting sustainable forest management and biodiversity conservation.\n• Emphasis will be placed on community participation, livelihood generation through afforestation, and the use of technology for monitoring.\n• This initiative is crucial for India to meet its nationally determined contributions (NDCs) under the Paris Agreement and combat desertification.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Disaster and disaster management.",
+          "Climate Change."
+        ],
+        "date": "2025-07-05",
+        "source": "MoEFCC",
+        "sourceUrl": "https://www.moef.gov.in/green-india-mission-2",
+        "importance": "high",
+        "tags": [
+          "Green India Mission",
+          "GIM 2.0",
+          "Forest Cover",
+          "Afforestation",
+          "Ecosystem Restoration",
+          "Climate Change",
+          "Biodiversity Conservation",
+          "MoEFCC",
+          "NDC Targets",
+          "Desertification"
+        ],
+        "keyTerms": [
+          "Green India Mission",
+          "NDC (Nationally Determined Contributions)",
+          "REDD+",
+          "CAMPA Fund",
+          "Joint Forest Management (JFM)",
+          "Agroforestry"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Green India Mission (GIM) is one of the eight missions under the National Action Plan on Climate Change (NAPCC).",
+          "Its objective is to protect, restore and enhance India’s diminishing forest cover and to respond to climate change.",
+          "India aims to create an additional carbon sink of 2.5 to 3 billion tonnes of CO2 equivalent through additional forest and tree cover by 2030 (as part of NDC).",
+          "CAMPA (Compensatory Afforestation Fund Management and Planning Authority) funds are used for afforestation and regeneration activities.",
+          "The Forest Survey of India (FSI) publishes the India State of Forest Report (ISFR) biennially."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the objectives and strategies of Green India Mission 2.0 in achieving India's climate change mitigation and adaptation goals.",
+          "Evaluate the challenges in increasing forest and tree cover in India, considering population pressure, land availability, and developmental needs.",
+          "Analyze the role of community participation and livelihood generation in ensuring the sustainability of afforestation programs.",
+          "Examine how GIM 2.0 contributes to India's international commitments under the Paris Agreement and UNCCD.",
+          "Suggest innovative approaches and technological interventions that can further enhance the effectiveness of ecosystem restoration efforts."
+        ],
+        "imageDescription": "Lush green forest with 'Green India Mission 2.0' logo.",
+        "section": "Environment",
+        "trivia": "India's total forest and tree cover is approximately 24.62% of its geographical area, as per the India State of Forest Report (ISFR) 2021.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Climate Change",
+          "topic": "Forest Conservation, Government Schemes"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "india-services-pmi-multi-month-high",
+        "headline": "India's Services PMI Hits Multi-Month High Amid Strong Demand and Business Optimism",
+        "explainer": "• India's Services Purchasing Managers' Index (PMI) surged to a multi-month high in June, indicating robust expansion in the sector.\n• The rise was driven by a significant increase in new orders and resilient domestic demand conditions.\n• Business confidence among service providers also improved, leading to increased employment and investment intentions.\n• This strong performance in the services sector is expected to contribute positively to India's overall GDP growth in the current fiscal year.\n• However, input cost inflation remains a concern, which could impact future pricing strategies and consumer spending.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Growth and Development.",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2025-07-05",
+        "source": "S&P Global / Business Standard",
+        "sourceUrl": "https://www.business-standard.com/services-pmi-high",
+        "importance": "medium",
+        "tags": [
+          "Services PMI",
+          "Indian Economy",
+          "Economic Indicators",
+          "GDP Growth",
+          "Inflation",
+          "Business Confidence",
+          "Employment",
+          "Service Sector"
+        ],
+        "keyTerms": [
+          "Purchasing Managers' Index (PMI)",
+          "GDP (Gross Domestic Product)",
+          "Inflation",
+          "Economic Growth",
+          "Manufacturing PMI",
+          "Services Sector"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "PMI (Purchasing Managers' Index) is an indicator of the economic health of the manufacturing and services sectors.",
+          "A PMI reading above 50 indicates expansion compared to the previous month, while a reading below 50 indicates contraction.",
+          "The services sector is the largest contributor to India's GDP.",
+          "Key components of the Services PMI include new orders, output, employment, and input prices.",
+          "PMI data is compiled by S&P Global based on responses from purchasing managers in various companies."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Analyze the significance of the Services PMI as a leading economic indicator for the Indian economy.",
+          "Discuss the factors contributing to the robust growth in India's services sector and its implications for overall economic development.",
+          "Examine the challenges faced by the services sector, particularly concerning inflation and global economic headwinds.",
+          "Evaluate the role of the services sector in job creation and its potential to absorb India's growing workforce.",
+          "Suggest policy measures to sustain the growth momentum in the services sector and enhance its competitiveness globally."
+        ],
+        "imageDescription": "Upward trending graph with 'Services PMI' text.",
+        "section": "Economy",
+        "trivia": "India's services sector accounts for over 50% of its GDP.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Economic Indicators",
+          "topic": "PMI, GDP"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "bsf-ai-surveillance-western-borders",
+        "headline": "Border Security Forces Enhance Surveillance Along Western Borders with AI Technology",
+        "explainer": "• The Border Security Force (BSF) has deployed advanced Artificial Intelligence (AI) powered surveillance systems along India's western borders.\n• These systems include drones with thermal imaging, autonomous ground sensors, and real-time data analytics for threat detection.\n• The initiative aims to bolster border security, curb infiltration attempts, and combat cross-border smuggling more effectively.\n• AI integration provides enhanced situational awareness, reduces human error, and allows for quicker response times to security threats.\n• This technological upgrade is part of India's broader strategy to modernize its defense and security infrastructure.",
+        "category": "security",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Security challenges and their management in border areas – linkages of organized crime with terrorism.",
+          "Role of external state and non-state actors in creating challenges to internal security.",
+          "Science and Technology- developments and their applications and effects in everyday life."
+        ],
+        "date": "2025-07-05",
+        "source": "Ministry of Home Affairs",
+        "sourceUrl": "https://www.mha.gov.in/bsf-ai-surveillance",
+        "importance": "medium",
+        "tags": [
+          "Border Security",
+          "BSF",
+          "Artificial Intelligence",
+          "AI Surveillance",
+          "Western Borders",
+          "Internal Security",
+          "Defense Technology",
+          "Infiltration",
+          "Smuggling"
+        ],
+        "keyTerms": [
+          "Border Security Force (BSF)",
+          "Integrated Border Management System (IBMS)",
+          "Artificial Intelligence (AI)",
+          "Drone Technology",
+          "Thermal Imaging",
+          "Cyber-Physical Systems"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The BSF is India's primary border guarding organization on its border with Pakistan and Bangladesh.",
+          "AI in surveillance involves using algorithms to analyze data from sensors, cameras, and drones to identify patterns and anomalies.",
+          "Integrated Border Management System (IBMS) aims to integrate technology, manpower, and infrastructure for comprehensive border security.",
+          "Thermal imaging cameras detect infrared radiation, allowing detection of objects even in complete darkness.",
+          "The western borders are prone to challenges like cross-border terrorism, drug trafficking, and illegal infiltration."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the role of technology, particularly Artificial Intelligence, in enhancing India's border security and internal security architecture.",
+          "Analyze the advantages and challenges of deploying AI-powered surveillance systems along sensitive border areas.",
+          "Examine how such technological advancements contribute to combating cross-border terrorism, smuggling, and illegal infiltration.",
+          "Evaluate the ethical considerations and privacy concerns associated with extensive AI surveillance in border regions.",
+          "Suggest policy measures for effective integration of technology with human intelligence for comprehensive border management."
+        ],
+        "imageDescription": "Drone flying over a border fence with digital overlay of AI analysis.",
+        "section": "Security",
+        "trivia": "The BSF was raised in 1965 in the aftermath of the 1965 Indo-Pakistan War, to ensure the security of the borders of India and for matters connected therewith.",
+        "prelimsSyllabus": {
+          "subject": "Internal Security",
+          "area": "Border Management",
+          "topic": "Role of Technology in Security"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "india-quantum-computing-research",
+        "headline": "India Pushes for Global Standards in Quantum Computing Research and Development",
+        "explainer": "• India announced ambitious plans to collaborate internationally on establishing global standards for quantum computing research and applications.\n• The Ministry of Science & Technology highlighted India's growing expertise in quantum technologies and its potential to contribute significantly.\n• The initiative aims to foster a secure and interoperable quantum ecosystem, preventing fragmentation in this nascent but critical field.\n• International partnerships will focus on areas like quantum algorithms, quantum cryptography, and quantum hardware development.\n• This move positions India as a key player in shaping the future of quantum technology, ensuring ethical and responsible development.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Science and Technology- developments and their applications and effects in everyday life.",
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights."
+        ],
+        "date": "2025-07-05",
+        "source": "Ministry of Science & Technology",
+        "sourceUrl": "https://dst.gov.in/quantum-computing-standards",
+        "importance": "medium",
+        "tags": [
+          "Quantum Computing",
+          "Quantum Technology",
+          "Global Standards",
+          "Science and Technology",
+          "International Collaboration",
+          "National Quantum Mission",
+          "Cybersecurity",
+          "Innovation"
+        ],
+        "keyTerms": [
+          "Quantum Supremacy",
+          "Quantum Entanglement",
+          "Qubits",
+          "Quantum Cryptography",
+          "National Quantum Mission (NQM)"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Quantum computing utilizes principles of quantum mechanics (superposition, entanglement) to perform calculations.",
+          "Qubits (quantum bits) are the basic units of information in quantum computing, unlike classical bits (0 or 1).",
+          "The National Quantum Mission (NQM) aims to nurture and scale up scientific and industrial R&D in quantum technologies.",
+          "Potential applications of quantum computing include drug discovery, materials science, financial modeling, and AI.",
+          "Quantum cryptography uses quantum mechanics to secure communications, making them theoretically unhackable."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the transformative potential of quantum computing and its implications for various sectors, including defense, finance, and healthcare.",
+          "Analyze India's strategy for developing quantum technologies and its role in shaping global standards in this emerging field.",
+          "Examine the challenges in achieving quantum supremacy and the ethical considerations associated with quantum technology development.",
+          "Evaluate the significance of international collaboration in accelerating quantum research and ensuring interoperability.",
+          "Suggest policy frameworks needed to foster a robust quantum ecosystem in India, including talent development and infrastructure."
+        ],
+        "imageDescription": "Abstract representation of quantum entanglement, symbolizing quantum computing.",
+        "section": "Science",
+        "trivia": "The concept of quantum computing was first proposed by physicist Richard Feynman in the early 1980s.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Information Technology",
+          "topic": "Quantum Computing"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "e-waste-management-guidelines",
+        "headline": "New Guidelines for E-Waste Management Introduced by MoEFCC to Boost Circular Economy",
+        "explainer": "• The Ministry of Environment, Forest and Climate Change (MoEFCC) unveiled updated guidelines for E-Waste Management.\n• The new rules aim to strengthen the Extended Producer Responsibility (EPR) framework and promote a circular economy for electronics.\n• Key provisions include mandatory collection targets for producers, formalization of the informal recycling sector, and stricter penalties for non-compliance.\n• The guidelines emphasize resource recovery, reduction of hazardous substances, and public awareness campaigns for responsible disposal.\n• This move is critical for addressing the growing challenge of e-waste in India and mitigating its environmental and health impacts.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2025-07-05",
+        "source": "MoEFCC",
+        "sourceUrl": "https://www.moef.gov.in/e-waste-guidelines-2025",
+        "importance": "medium",
+        "tags": [
+          "E-Waste Management",
+          "Circular Economy",
+          "MoEFCC",
+          "Extended Producer Responsibility",
+          "EPR",
+          "Waste Management",
+          "Environmental Protection",
+          "Sustainable Development",
+          "Hazardous Waste"
+        ],
+        "keyTerms": [
+          "E-Waste",
+          "Extended Producer Responsibility (EPR)",
+          "Circular Economy",
+          "Hazardous Waste",
+          "Resource Recovery",
+          "Polluter Pays Principle"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "E-waste refers to discarded electrical or electronic devices.",
+          "India is among the top e-waste generating countries globally.",
+          "Extended Producer Responsibility (EPR) makes producers responsible for the environmentally sound management of their products until the end of their life.",
+          "The E-Waste (Management) Rules, 2016 (and subsequent amendments) govern e-waste management in India.",
+          "E-waste contains valuable materials like gold, silver, and copper, but also hazardous substances like lead, mercury, and cadmium."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the environmental and health challenges posed by the increasing generation of e-waste in India.",
+          "Analyze the key provisions of the new E-Waste Management Guidelines and their potential to foster a circular economy.",
+          "Evaluate the effectiveness of the Extended Producer Responsibility (EPR) framework in promoting responsible e-waste disposal and recycling.",
+          "Examine the role of formalizing the informal recycling sector in achieving sustainable e-waste management.",
+          "Suggest measures to enhance public awareness and participation in responsible e-waste disposal and reduce the digital divide."
+        ],
+        "imageDescription": "Pile of discarded electronics, symbolizing e-waste, with a recycling symbol overlay.",
+        "section": "Environment",
+        "trivia": "Only about 10% of India's e-waste is formally recycled; the rest is handled by the informal sector, often using unsafe practices.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Environmental Pollution",
+          "topic": "Waste Management, E-Waste"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "pli-scheme-advanced-robotics-automation",
+        "headline": "PLI Scheme Expands to Include Advanced Robotics and Automation Sector",
+        "explainer": "• The Production Linked Incentive (PLI) Scheme has been extended to include the advanced robotics and automation sector.\n• This move aims to boost domestic manufacturing, encourage cutting-edge research, and attract global investments in high-tech industries.\n• The scheme offers incentives to companies for incremental sales from products manufactured in India, promoting self-reliance and job creation.\n• Emphasis will be on developing indigenous capabilities in robotics, AI-driven automation, and industrial IoT solutions.\n• This expansion underscores India's commitment to becoming a global manufacturing hub and leveraging technology for economic growth.",
+        "category": "economy",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth.",
+          "Science and Technology- developments and their applications and effects in everyday life."
+        ],
+        "date": "2025-07-05",
+        "source": "Department for Promotion of Industry and Internal Trade (DPIIT)",
+        "sourceUrl": "https://dpiit.gov.in/pli-robotics-automation",
+        "importance": "medium",
+        "tags": [
+          "PLI Scheme",
+          "Production Linked Incentive",
+          "Robotics",
+          "Automation",
+          "Make in India",
+          "Manufacturing",
+          "Economic Growth",
+          "Technology",
+          "FDI"
+        ],
+        "keyTerms": [
+          "PLI Scheme",
+          "Make in India",
+          "Atmanirbhar Bharat",
+          "Industrial IoT",
+          "Artificial Intelligence (AI)",
+          "Advanced Manufacturing"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The PLI scheme aims to incentivize domestic manufacturing and attract large investments in key sectors.",
+          "It offers incentives ranging from 4% to 6% on incremental sales over a base year.",
+          "The scheme has been introduced for various sectors including electronics, automobiles, pharmaceuticals, textiles, and now robotics.",
+          "Robotics and automation are considered critical for Industry 4.0 and enhancing manufacturing productivity.",
+          "The scheme is designed to make Indian manufacturers globally competitive and create employment opportunities."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the objectives and impact of the Production Linked Incentive (PLI) Scheme in fostering domestic manufacturing and attracting investments in India.",
+          "Analyze the significance of including the advanced robotics and automation sector under the PLI scheme for India's economic and technological development.",
+          "Examine the challenges and opportunities in developing an indigenous robotics and automation ecosystem in India.",
+          "Evaluate how the PLI scheme contributes to the 'Make in India' and 'Atmanirbhar Bharat' initiatives.",
+          "Suggest measures to ensure the effective implementation of the PLI scheme and maximize its benefits for job creation and export growth."
+        ],
+        "imageDescription": "Robotic arm assembling components, symbolizing automation.",
+        "section": "Economy",
+        "trivia": "India's manufacturing sector aims to increase its share of GDP to 25% by 2025 under the National Manufacturing Policy.",
+        "prelimsSyllabus": {
+          "subject": "Indian Economy",
+          "area": "Industrial Policy",
+          "topic": "PLI Scheme, Manufacturing"
+        },
+        "prelimsPotential": 3
+      },
+      {
+        "id": "indias-first-private-sector-built-rocket",
+        "headline": "India's First Privately Built Sounding Rocket Successfully Launched",
+        "explainer": "• A significant milestone was achieved in India's space sector with the successful launch of a sounding rocket built entirely by a private company.\n• The sub-orbital rocket, developed by 'Skyroot Aerospace', demonstrated indigenous capabilities in design, fabrication, and launch operations.\n• This launch marks a new era for private participation in India's space industry, complementing ISRO's efforts.\n• It opens avenues for commercial space launches, satellite deployment, and space-based services, fostering innovation and competition.\n• The achievement underscores the effectiveness of recent government policies aimed at liberalizing and promoting the private space sector.",
+        "category": "science",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Achievements of Indians in science & technology; indigenization of technology and developing new technology.",
+          "Awareness in the fields of Space.",
+          "Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth."
+        ],
+        "date": "2025-07-05",
+        "source": "ISRO / Skyroot Aerospace",
+        "sourceUrl": "https://www.skyrootaerospace.com/first-launch",
+        "importance": "high",
+        "tags": [
+          "Private Space Sector",
+          "Sounding Rocket",
+          "Skyroot Aerospace",
+          "ISRO",
+          "Space Launch",
+          "Space Technology",
+          "Commercial Space",
+          "Make in India",
+          "Space Reforms"
+        ],
+        "keyTerms": [
+          "Sounding Rocket",
+          "Sub-orbital Flight",
+          "Private Space",
+          "IN-SPACe",
+          "NewSpace India Limited (NSIL)",
+          "Space-as-a-Service"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "Sounding rockets are sub-orbital rockets that carry instruments for atmospheric and scientific research.",
+          "Skyroot Aerospace is one of India's prominent private aerospace companies.",
+          "IN-SPACe (Indian National Space Promotion and Authorization Centre) acts as a single-window agency for private sector participation in the space sector.",
+          "NewSpace India Limited (NSIL) is the commercial arm of ISRO.",
+          "This launch demonstrates India's growing capabilities in indigenous rocket development by private entities."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the significance of private sector participation in India's space program and its potential to accelerate technological advancements.",
+          "Analyze the government's space reforms and policies that have enabled the entry and growth of private players in the space sector.",
+          "Examine the economic and strategic benefits of fostering a robust commercial space industry in India.",
+          "Evaluate the challenges and opportunities for private space companies in areas like satellite manufacturing, launch services, and space exploration.",
+          "Suggest measures to further integrate and optimize the collaboration between ISRO and private space entities for national development."
+        ],
+        "imageDescription": "A small rocket launching from a private facility, with company logo.",
+        "section": "Science",
+        "trivia": "The first privately developed Indian rocket, 'Vikram-S' by Skyroot Aerospace, was successfully launched in November 2022.",
+        "prelimsSyllabus": {
+          "subject": "Science and Technology",
+          "area": "Space Technology",
+          "topic": "Private Space Sector, ISRO"
+        },
+        "prelimsPotential": 4
+      },
+      {
+        "id": "new-species-biodiversity-hotspot-western-ghats",
+        "headline": "New Species of Amphibian Discovered in Biodiversity Hotspot of Western Ghats",
+        "explainer": "• Scientists have announced the discovery of a new species of amphibian in the ecologically rich Western Ghats region of India.\n• The discovery highlights the immense biodiversity of the Western Ghats, which is recognized as one of the world's eight 'hottest' biodiversity hotspots.\n• The new species, a type of frog, was identified through extensive field research and genetic analysis.\n• This finding underscores the urgent need for enhanced conservation efforts to protect the unique and often endemic flora and fauna of the region.\n• Habitat loss and climate change continue to pose significant threats to the delicate ecosystems of the Western Ghats.",
+        "category": "environment",
+        "gsPaper": "GS3",
+        "gsSubTopics": [
+          "Conservation, environmental pollution and degradation, environmental impact assessment.",
+          "Biodiversity and its conservation."
+        ],
+        "date": "2025-07-05",
+        "source": "Wildlife Institute of India",
+        "sourceUrl": "https://www.wii.gov.in/new-amphibian-species-wg",
+        "importance": "medium",
+        "tags": [
+          "Biodiversity",
+          "Western Ghats",
+          "New Species",
+          "Amphibian",
+          "Conservation",
+          "Ecology",
+          "Endemic Species",
+          "Wildlife Protection",
+          "Climate Change"
+        ],
+        "keyTerms": [
+          "Biodiversity Hotspot",
+          "Endemic Species",
+          "Amphibians",
+          "Habitat Loss",
+          "Conservation Biology",
+          "IUCN Red List"
+        ],
+        "prelims": true,
+        "prelimsPoints": [
+          "The Western Ghats is a UNESCO World Heritage Site and one of the world's eight 'hottest' biodiversity hotspots.",
+          "It is home to a vast array of endemic species of flora and fauna.",
+          "Amphibians are bio-indicators, meaning their health reflects the health of the ecosystem.",
+          "Threats to the Western Ghats include deforestation, mining, climate change, and human-wildlife conflict.",
+          "Conservation efforts include protected areas, national parks, and wildlife sanctuaries."
+        ],
+        "mains": true,
+        "mainsPoints": [
+          "Discuss the ecological significance of the Western Ghats as a biodiversity hotspot and the factors contributing to its unique biodiversity.",
+          "Analyze the threats faced by the biodiversity of the Western Ghats, including habitat loss, climate change, and anthropogenic pressures.",
+          "Evaluate the effectiveness of current conservation strategies in protecting endemic species and fragile ecosystems in the region.",
+          "Examine the role of scientific research and new discoveries in informing and strengthening conservation policies.",
+          "Suggest sustainable development practices and community-based conservation models for preserving the Western Ghats' natural heritage."
+        ],
+        "imageDescription": "A newly discovered frog species camouflaged in lush green foliage.",
+        "section": "Environment",
+        "trivia": "The Western Ghats is older than the Himalayas and is considered a 'Great Escarpment of India'.",
+        "prelimsSyllabus": {
+          "subject": "Environment and Ecology",
+          "area": "Biodiversity",
+          "topic": "Western Ghats, Conservation"
+        },
+        "prelimsPotential": 3
+      }
+    ],
+    "GS4": []
+  },
+  "sources": [
+    "Reuters / The Hindu",
+    "The Hindu",
+    "PTI / Livemint",
+    "Ministry of External Affairs",
+    "ISRO",
+    "MoEFCC",
+    "Ministry of Women and Child Development",
+    "Lok Sabha Secretariat",
+    "S&P Global / Business Standard",
+    "Ministry of Home Affairs",
+    "Deccan Herald",
+    "The Times of India",
+    "Manorama Online",
+    "Ministry of Science & Technology",
+    "Department for Promotion of Industry and Internal Trade (DPIIT)",
+    "ISRO / Skyroot Aerospace",
+    "Wildlife Institute of India"
+  ],
+  "totalScraped": 19,
+  "totalProcessed": 19
+}
