@@ -1,7 +1,6 @@
 'use client';
 import React, { useState, useEffect, useMemo, useCallback } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '@/contexts/LanguageProvider';
 import {
@@ -48,9 +47,6 @@ interface DailyEpaper {
     totalProcessed: number;
     highlights: string[];
     availableDates?: string[];
-    quoteOfTheDay?: { text: string; author: string };
-    onThisDay?: { year: number; event: string };
-    dataSnapshot?: { label: string; value: string; context: string };
 }
 
 // ---------------------------------------------------------------------------
@@ -555,9 +551,9 @@ export default function DailyEpaperPage() {
                         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.6 }}>
                             <div className="flex flex-col sm:flex-row justify-center items-center gap-5">
                                 <div className="bg-[#E3120B] p-2 md:p-3 rounded-2xl shadow-md flex items-center justify-center gap-3 md:gap-4 transition-transform hover:scale-[1.02] flex-shrink-0">
-                                    <Image src="/images/logo_globe.png" alt="Globe Icon" width={56} height={56} className="h-10 md:h-14 w-auto object-contain drop-shadow-sm flex-shrink-0" priority />
+                                    <img src="/images/logo_globe.png?v=2" alt="Globe Icon" className="h-10 md:h-14 w-auto object-contain drop-shadow-sm flex-shrink-0" />
                                     <div className="bg-white px-3 py-1.5 md:py-2 rounded-xl shadow-sm flex items-center justify-center flex-shrink-0">
-                                        <Image src="/images/logo_text.png" alt="Current IAS Prep" width={120} height={40} className="h-8 md:h-10 w-auto object-contain" priority />
+                                        <img src="/images/logo_text.png?v=2" alt="Current IAS Prep" className="h-8 md:h-10 w-auto object-contain" />
                                     </div>
                                 </div>
                                 <h1 className="epaper-title flex items-center gap-3">
@@ -629,92 +625,6 @@ export default function DailyEpaperPage() {
                                 </React.Fragment>
                             ))}
                         </div>
-                    </div>
-                </section>
-            )}
-
-            {/* ═══════════════════════════════════════════════════════════════
-                FRONT PAGE EXTRAS — Quote, On This Day, Data Snapshot
-            ═══════════════════════════════════════════════════════════════ */}
-            {(epaper.quoteOfTheDay || epaper.onThisDay || epaper.dataSnapshot) && (
-                <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        {epaper.quoteOfTheDay && (
-                            <motion.div
-                                initial={{ opacity: 0, y: 15 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.2, duration: 0.5 }}
-                                className="rounded-2xl p-5 relative overflow-hidden"
-                                style={{
-                                    background: 'linear-gradient(135deg, #1E3A5F 0%, #2563EB 100%)',
-                                    border: '1px solid rgba(59,130,246,0.3)',
-                                }}
-                            >
-                                <div className="absolute top-3 right-4 text-5xl opacity-10 font-serif select-none" style={{ color: '#FFF' }}>{'\u201C'}</div>
-                                <p className="text-[10px] font-bold uppercase tracking-widest mb-3" style={{ color: 'rgba(255,255,255,0.5)' }}>
-                                    {'💬'} Quote of the Day
-                                </p>
-                                <p className="text-sm font-medium italic leading-relaxed mb-3" style={{ color: '#FFF1E5', fontFamily: "'Source Serif 4', Georgia, serif" }}>
-                                    {'"'}{epaper.quoteOfTheDay.text}{'"'}
-                                </p>
-                                <p className="text-xs font-semibold text-right" style={{ color: 'rgba(255,255,255,0.6)' }}>
-                                    {'— '}{epaper.quoteOfTheDay.author}
-                                </p>
-                            </motion.div>
-                        )}
-
-                        {epaper.onThisDay && (
-                            <motion.div
-                                initial={{ opacity: 0, y: 15 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.3, duration: 0.5 }}
-                                className="rounded-2xl p-5 relative overflow-hidden"
-                                style={{
-                                    background: 'linear-gradient(135deg, #064E3B 0%, #059669 100%)',
-                                    border: '1px solid rgba(16,185,129,0.3)',
-                                }}
-                            >
-                                <p className="text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: 'rgba(255,255,255,0.5)' }}>
-                                    {'📅'} On This Day
-                                </p>
-                                <div className="inline-block text-2xl font-extrabold mb-2" style={{ color: '#FFF1E5', fontFamily: "'DM Sans', system-ui, sans-serif" }}>
-                                    {epaper.onThisDay.year}
-                                </div>
-                                <p className="text-sm leading-relaxed" style={{ color: 'rgba(255,255,255,0.9)', fontFamily: "'Source Serif 4', Georgia, serif" }}>
-                                    {epaper.onThisDay.event}
-                                </p>
-                            </motion.div>
-                        )}
-
-                        {epaper.dataSnapshot && (
-                            <motion.div
-                                initial={{ opacity: 0, y: 15 }}
-                                animate={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.4, duration: 0.5 }}
-                                className="rounded-2xl p-5 relative overflow-hidden"
-                                style={{
-                                    background: 'linear-gradient(135deg, #1A1A2E 0%, #16213E 50%, #0F3460 100%)',
-                                    border: '1px solid rgba(99,102,241,0.3)',
-                                }}
-                            >
-                                <p className="text-[10px] font-bold uppercase tracking-widest mb-3" style={{ color: 'rgba(255,255,255,0.5)' }}>
-                                    {'📊'} Data Snapshot
-                                </p>
-                                <div className="flex items-center gap-4">
-                                    <div className="text-center flex-shrink-0">
-                                        <div className="text-3xl font-extrabold" style={{ color: '#FFF1E5', fontFamily: "'DM Sans', system-ui, sans-serif" }}>
-                                            {epaper.dataSnapshot.value}
-                                        </div>
-                                        <div className="text-[9px] uppercase tracking-wider mt-0.5" style={{ color: 'rgba(255,255,255,0.4)' }}>
-                                            {epaper.dataSnapshot.label}
-                                        </div>
-                                    </div>
-                                    <div className="text-xs leading-relaxed" style={{ color: 'rgba(255,255,255,0.7)', borderLeft: '1px solid rgba(255,255,255,0.15)', paddingLeft: '12px', fontFamily: "'Source Serif 4', Georgia, serif" }}>
-                                        {epaper.dataSnapshot.context}
-                                    </div>
-                                </div>
-                            </motion.div>
-                        )}
                     </div>
                 </section>
             )}

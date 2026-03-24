@@ -1,7 +1,6 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { useTheme } from '@/contexts/ThemeProvider';
 import { useLanguage } from '@/contexts/LanguageProvider';
 import { Menu, X, Sun, Moon, BookOpen, Globe } from 'lucide-react';
@@ -14,39 +13,35 @@ export default function Navbar() {
 
     const links: { href: string; label: string }[] = [
         { href: '/', label: t('nav_home') },
+        { href: '/syllabus', label: t('nav_syllabus') },
+        { href: '/quiz', label: 'AI Quiz' },
+        { href: '/mock-tests', label: 'Mock Tests' },
+        { href: '/features', label: t('nav_features') },
         { href: '/current-affairs', label: 'Current Affairs' },
         { href: '/daily-mock', label: 'Daily Mock' },
-        { href: '/mock-tests', label: 'Practice Mock Tests' },
         { href: '/pricing', label: t('nav_pricing') },
+        { href: '/about', label: t('nav_about') },
         { href: '/contact', label: 'Contact' },
     ];
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl border-b"
-            style={{ background: 'var(--glass-bg)', borderColor: 'var(--border-color)' }}
-            role="navigation"
-            aria-label="Main navigation">
+            style={{ background: 'var(--glass-bg)', borderColor: 'var(--border-color)' }}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center group shrink min-w-0" aria-label="CurrentPrep Home">
+                    <Link href="/" className="flex items-center group shrink min-w-0">
                         <div className="bg-[#E3120B] p-1.5 md:p-2 rounded-xl flex shrink min-w-0 items-center justify-center gap-2 transition-transform group-hover:scale-[1.02] shadow-sm">
-                            <Image
-                                src="/images/logo_globe.png"
-                                alt=""
-                                width={32}
-                                height={32}
+                            <img
+                                src="/images/logo_globe.png?v=2"
+                                alt="Globe Icon"
                                 className="h-6 md:h-8 w-auto object-contain drop-shadow-sm shrink-0"
-                                priority
                             />
                             <div className="bg-white px-2 py-1 md:py-1.5 rounded-lg shadow-sm flex items-center justify-center shrink min-w-0">
-                                <Image
-                                    src="/images/logo_text.png"
-                                    alt="CurrentPrep"
-                                    width={80}
-                                    height={24}
+                                <img
+                                    src="/images/logo_text.png?v=2"
+                                    alt="Current IAS Prep"
                                     className="h-4 md:h-6 w-auto object-contain shrink min-w-0"
-                                    priority
                                 />
                             </div>
                         </div>
@@ -68,35 +63,31 @@ export default function Navbar() {
                     <div className="flex items-center gap-2">
                         <button onClick={toggleLanguage}
                             className="p-2 rounded-lg transition-all duration-200 hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
-                            aria-label={language === 'en' ? 'Switch to Tamil' : 'Switch to English'}
+                            title={language === 'en' ? 'Switch to Tamil' : 'Switch to English'}
                             style={{ color: 'var(--text-secondary)' }}>
-                            <Globe className="w-5 h-5" aria-hidden="true" />
+                            <Globe className="w-5 h-5" />
                             <span className="sr-only">{t('language_toggle')}</span>
                         </button>
 
-
                         <button onClick={toggleTheme}
                             className="p-2 rounded-lg transition-all duration-200 hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
-                            aria-label={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
+                            title={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
                             style={{ color: 'var(--text-secondary)' }}>
-                            {theme === 'light' ? <Moon className="w-5 h-5" aria-hidden="true" /> : <Sun className="w-5 h-5" aria-hidden="true" />}
+                            {theme === 'light' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
                         </button>
 
                         <Link href="/dashboard" className="hidden sm:inline-flex items-center gap-1.5 btn-outline text-sm !px-3 !py-2 mr-1"
                             style={{ fontSize: '13px' }}>
                             Dashboard
                         </Link>
-                        <Link href="/register" className="hidden sm:inline-flex btn-accent text-sm !px-4 !py-2">
+                        <Link href="/login" className="hidden sm:inline-flex btn-accent text-sm !px-4 !py-2">
                             {t('nav_signup')}
                         </Link>
 
                         {/* Mobile Menu Toggle */}
                         <button onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2 rounded-lg"
-                            aria-label={isOpen ? 'Close menu' : 'Open menu'}
-                            aria-expanded={isOpen}
-                            aria-controls="mobile-nav"
                             style={{ color: 'var(--text-primary)' }}>
-                            {isOpen ? <X className="w-6 h-6" aria-hidden="true" /> : <Menu className="w-6 h-6" aria-hidden="true" />}
+                            {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
                         </button>
                     </div>
                 </div>
@@ -109,9 +100,7 @@ export default function Navbar() {
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: 'auto' }}
                         exit={{ opacity: 0, height: 0 }}
-                        id="mobile-nav"
                         className="md:hidden border-t overflow-hidden"
-                        role="menu"
                         style={{ background: 'var(--bg-primary)', borderColor: 'var(--border-color)' }}>
                         <div className="px-4 py-4 space-y-1">
                             {links.map((link) => (
@@ -123,7 +112,7 @@ export default function Navbar() {
                                     {link.label}
                                 </Link>
                             ))}
-                            <Link href="/register" onClick={() => setIsOpen(false)}
+                            <Link href="/pricing" onClick={() => setIsOpen(false)}
                                 className="block text-center btn-accent mt-3 text-sm">
                                 {t('nav_signup')}
                             </Link>

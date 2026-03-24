@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Fonts loaded via next/font in layout.tsx (Issue 4.4 — see layout.tsx) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap');
 
 :root {
   --bg-primary: #FFFFFF;
@@ -23,7 +23,7 @@
   --bg-card: #1E293B;
   --text-primary: #F1F5F9;
   --text-secondary: #CBD5E1;
-  --text-muted: #8B9EC0; /* Improved from #64748B for WCAG AA (4.5:1 contrast on #0F172A) */
+  --text-muted: #64748B;
   --border-color: #334155;
   --shadow-color: rgba(0, 0, 0, 0.3);
   --glass-bg: rgba(30, 41, 59, 0.8);
@@ -41,37 +41,8 @@ html {
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
-  font-family: var(--font-inter), 'Inter', system-ui, sans-serif;
+  font-family: 'Inter', system-ui, sans-serif;
   transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-/* ── Skip to Content (Accessibility) ────────────────────────────────── */
-.skip-to-content {
-  position: absolute;
-  top: -100%;
-  left: 16px;
-  z-index: 9999;
-  padding: 12px 24px;
-  background: #1E3A8A;
-  color: #FFFFFF;
-  font-weight: 700;
-  font-size: 14px;
-  border-radius: 0 0 8px 8px;
-  text-decoration: none;
-  transition: top 0.2s;
-}
-
-.skip-to-content:focus {
-  top: 0;
-  outline: 3px solid #F59E0B;
-  outline-offset: 2px;
-}
-
-/* ── Focus Visible (Keyboard Navigation) ────────────────────────────── */
-:focus-visible {
-  outline: 2px solid #3B82F6;
-  outline-offset: 2px;
-  border-radius: 4px;
 }
 
 h1,
@@ -80,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-outfit), 'Outfit', system-ui, sans-serif;
+  font-family: 'Outfit', system-ui, sans-serif;
 }
 
 @layer components {

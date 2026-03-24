@@ -1,18 +1,48 @@
 'use client';
-
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '@/contexts/LanguageProvider';
-import { Check, X, Sparkles, Zap, Crown } from 'lucide-react';
+import { Check, X, Sparkles, Zap } from 'lucide-react';
 import Link from 'next/link';
-import PaymentButton from '@/components/PaymentButton';
-import { PLANS, FEATURES, formatPrice } from '@/config/pricing';
-import type { BillingPeriod } from '@/config/pricing';
+
+const plans = [
+    {
+        id: 'free',
+        features: [
+            { text: 'Full NCERT Summaries (All Subjects)', included: true },
+            { text: 'UPSC Syllabus Hub with PDF Links', included: true },
+            { text: 'Daily Current Affairs Digest', included: true },
+            { text: 'Community Forum Access', included: true },
+            { text: 'Basic AI Quiz (10/day)', included: true },
+            { text: 'Progress Tracker & Badges', included: true },
+            { text: 'Bilingual (EN/Tamil)', included: true },
+            { text: 'Offline Access', included: true },
+            { text: 'Advanced AI Answer Evaluation', included: false },
+            { text: 'Personalized Study Roadmap', included: false },
+            { text: 'Mock Interview Simulator', included: false },
+            { text: '1:1 Mentor Chat', included: false },
+            { text: 'Priority Support', included: false },
+        ],
+    },
+    {
+        id: 'premium',
+        features: [
+            { text: 'Everything in Free tier', included: true },
+            { text: 'Unlimited AI Quiz Generation', included: true },
+            { text: 'AI Answer Evaluation (Unlimited)', included: true },
+            { text: 'Personalized Study Roadmap', included: true },
+            { text: 'Mock Interview Simulator', included: true },
+            { text: '1:1 Mentor Chat (2 sessions/month)', included: true },
+            { text: 'Advanced Analytics Dashboard', included: true },
+            { text: 'Priority Forum Badge', included: true },
+            { text: 'Early Access to New Features', included: true },
+            { text: 'Priority Email Support', included: true },
+        ],
+    },
+];
 
 export default function PricingPage() {
     const { t } = useLanguage();
-    const [billing, setBilling] = useState<BillingPeriod>('quarterly');
-    const selectedPlan = PLANS.find(p => p.id === billing)!;
 
     return (
         <div style={{ background: 'var(--bg-primary)' }}>
@@ -53,18 +83,18 @@ export default function PricingPage() {
                         <p className="text-sm mb-6" style={{ color: 'var(--text-secondary)' }}>
                             {t('pricing_free_desc')}
                         </p>
-                        <Link href="/register" className="btn-primary text-sm w-full text-center block">
+                        <Link href="/syllabus" className="btn-primary text-sm w-full text-center block">
                             {t('pricing_get_started')}
                         </Link>
                         <ul className="mt-6 space-y-3">
-                            {FEATURES.map((f) => (
+                            {plans[0].features.map((f) => (
                                 <li key={f.text} className="flex items-start gap-2 text-sm">
-                                    {f.free ? (
+                                    {f.included ? (
                                         <Check className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />
                                     ) : (
                                         <X className="w-4 h-4 text-gray-300 dark:text-gray-600 flex-shrink-0 mt-0.5" />
                                     )}
-                                    <span style={{ color: f.free ? 'var(--text-primary)' : 'var(--text-muted)' }}>{f.text}</span>
+                                    <span style={{ color: f.included ? 'var(--text-primary)' : 'var(--text-muted)' }}>{f.text}</span>
                                 </li>
                             ))}
                         </ul>
@@ -82,60 +112,26 @@ export default function PricingPage() {
                             RECOMMENDED
                         </div>
                         <div className="flex items-center gap-2 mb-2">
-                            <Crown className="w-5 h-5 text-accent-500" />
+                            <Zap className="w-5 h-5 text-accent-500" />
                             <span className="font-heading font-bold text-xl" style={{ color: 'var(--text-primary)' }}>
                                 {t('pricing_premium')}
                             </span>
                         </div>
-
-                        {/* Price with billing toggle */}
-                        <div className="mb-1">
-                            <span className="text-4xl font-heading font-extrabold" style={{ color: 'var(--text-primary)' }}>
-                                {formatPrice(selectedPlan.pricePerMonth)}
-                            </span>
-                            <span className="text-sm" style={{ color: 'var(--text-muted)' }}>/month</span>
+                        <div className="mb-2">
+                            <span className="text-4xl font-heading font-extrabold" style={{ color: 'var(--text-primary)' }}>₹999</span>
+                            <span className="text-sm" style={{ color: 'var(--text-muted)' }}>{t('pricing_month')}</span>
                         </div>
-                        {selectedPlan.id !== 'monthly' && (
-                            <div className="text-xs mb-3" style={{ color: 'var(--text-secondary)' }}>
-                                Billed {formatPrice(selectedPlan.price)} / {selectedPlan.duration}
-                                {selectedPlan.savings && (
-                                    <span className="ml-2 px-2 py-0.5 bg-green-500/15 text-green-500 rounded-full text-xs font-semibold">
-                                        {selectedPlan.savings}
-                                    </span>
-                                )}
-                            </div>
-                        )}
-
-                        {/* Billing period selector */}
-                        <div className="flex rounded-lg overflow-hidden border mb-6" style={{ borderColor: 'var(--border-color)' }}>
-                            {PLANS.map((p) => (
-                                <button
-                                    key={p.id}
-                                    onClick={() => setBilling(p.id)}
-                                    className="flex-1 py-2 px-3 text-xs font-semibold transition-all"
-                                    style={{
-                                        background: billing === p.id ? 'var(--accent-500, #f59e0b)' : 'transparent',
-                                        color: billing === p.id ? '#fff' : 'var(--text-muted)',
-                                    }}
-                                >
-                                    {p.label}
-                                </button>
-                            ))}
-                        </div>
-
-                        <p className="text-sm mb-5" style={{ color: 'var(--text-secondary)' }}>
+                        <p className="text-sm mb-6" style={{ color: 'var(--text-secondary)' }}>
                             {t('pricing_premium_desc')}
                         </p>
-
-                        <PaymentButton plan={billing} label={`Upgrade — ${formatPrice(selectedPlan.price)}/${selectedPlan.duration}`} />
-
+                        <button className="btn-accent text-sm w-full">
+                            {t('pricing_upgrade')}
+                        </button>
                         <ul className="mt-6 space-y-3">
-                            {FEATURES.filter(f => f.pro).map((f) => (
+                            {plans[1].features.map((f) => (
                                 <li key={f.text} className="flex items-start gap-2 text-sm">
-                                    <Check className={`w-4 h-4 flex-shrink-0 mt-0.5 ${f.highlight ? 'text-accent-500' : 'text-green-500'}`} />
-                                    <span style={{ color: 'var(--text-primary)', fontWeight: f.highlight ? 600 : 400 }}>
-                                        {f.text}
-                                    </span>
+                                    <Check className="w-4 h-4 text-accent-500 flex-shrink-0 mt-0.5" />
+                                    <span style={{ color: 'var(--text-primary)' }}>{f.text}</span>
                                 </li>
                             ))}
                         </ul>
@@ -147,11 +143,10 @@ export default function PricingPage() {
                     <h3 className="font-heading font-bold text-xl mb-6 gradient-text">Frequently Asked Questions</h3>
                     <div className="max-w-2xl mx-auto space-y-4 text-left">
                         {[
-                            { q: 'Is the free tier really free forever?', a: 'Yes! Our mission is to democratize UPSC preparation. All core content—current affairs, syllabus hub, and community—will always be free.' },
+                            { q: 'Is the free tier really free forever?', a: 'Yes! Our mission is to democratize UPSC preparation. All core content—NCERT summaries, syllabus hub, current affairs, and community—will always be free.' },
                             { q: 'Can I cancel premium anytime?', a: 'Absolutely. No lock-in, no hidden charges. Cancel from your dashboard anytime and continue with the free tier.' },
-                            { q: 'How does billing work?', a: 'Choose monthly (₹299), quarterly (₹799, save 11%), or annual (₹2,499, save 30%). Payments are processed securely via Razorpay. Auto-renewal can be disabled.' },
-                            { q: 'What payment methods are accepted?', a: 'UPI, credit/debit cards, net banking, and wallets—all through Razorpay\'s secure payment gateway.' },
-                            { q: 'Is the content in Tamil complete?', a: 'We\'re continuously expanding Tamil content. Currently, all UI, summaries, and quizzes are available in Tamil.' },
+                            { q: 'Is the content in Tamil complete?', a: 'We\'re continuously expanding Tamil content. Currently, all UI, summaries, and quizzes are available in Tamil. More detailed notes are being translated.' },
+                            { q: 'Do I need internet for offline access?', a: 'Once you\'ve loaded a page, our PWA technology caches it for offline reading. Download content while connected, study anywhere.' },
                         ].map((faq) => (
                             <div key={faq.q} className="p-5 rounded-xl border" style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)' }}>
                                 <h4 className="font-semibold text-sm mb-1" style={{ color: 'var(--text-primary)' }}>{faq.q}</h4>

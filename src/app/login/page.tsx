@@ -1,11 +1,17 @@
 'use client';
 import React, { useState } from 'react';
-import { signIn } from 'next-auth/react';
-import { useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { useLanguage } from '@/contexts/LanguageProvider';
-import { Mail, Lock, Eye, EyeOff, BookOpen, ArrowRight, CheckCircle2, AlertTriangle } from 'lucide-react';
+import { Mail, Lock, User, Eye, EyeOff, BookOpen, ArrowRight, Sparkles, CheckCircle2 } from 'lucide-react';
+
+const fadeUp = {
+    hidden: { opacity: 0, y: 30 },
+    visible: (i: number) => ({
+        opacity: 1, y: 0,
+        transition: { delay: i * 0.1, duration: 0.5, ease: 'easeOut' },
+    }),
+};
 
 const benefits = [
     'Free NCERT summaries & study material',
@@ -18,46 +24,21 @@ const benefits = [
 
 export default function LoginPage() {
     const { t } = useLanguage();
-    const searchParams = useSearchParams();
-    const callbackUrl = searchParams.get('callbackUrl') || '/dashboard';
-    const errorParam = searchParams.get('error');
-
+    const [isSignUp, setIsSignUp] = useState(false);
     const [showPassword, setShowPassword] = useState(false);
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
+    const [name, setName] = useState('');
     const [isLoading, setIsLoading] = useState(false);
-    const [error, setError] = useState<string | null>(
-        errorParam === 'CredentialsSignin' ? 'Invalid email or password. Please try again.' :
-        errorParam ? 'An error occurred. Please try again.' : null
-    );
 
-    const handleCredentialsLogin = async (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         setIsLoading(true);
-        setError(null);
-
-        try {
-            const result = await signIn('credentials', {
-                email,
-                password,
-                redirect: false,
-            });
-
-            if (result?.error) {
-                setError('Invalid email or password. Please try again.');
-                setIsLoading(false);
-            } else if (result?.ok) {
-                // Successful login — redirect
-                window.location.href = callbackUrl;
-            }
-        } catch {
-            setError('Something went wrong. Please try again.');
-            setIsLoading(false);
-        }
-    };
-
-    const handleGoogleLogin = () => {
-        signIn('google', { callbackUrl });
+        // Simulate auth delay
+        await new Promise(resolve => setTimeout(resolve, 1500));
+        setIsLoading(false);
+        // In production, call signIn() from next-auth
+        alert('Demo mode: Authentication simulated successfully! In production, this connects to Supabase.');
     };
 
     return (
@@ -66,6 +47,7 @@ export default function LoginPage() {
             <div className="hidden lg:flex lg:w-1/2 relative overflow-hidden">
                 <div className="hero-bg absolute inset-0" />
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-800/90 to-primary-900/95" />
+                {/* Decorative circles */}
                 <div className="absolute top-20 left-10 w-72 h-72 rounded-full bg-accent-500/10 blur-3xl" />
                 <div className="absolute bottom-20 right-10 w-96 h-96 rounded-full bg-primary-400/10 blur-3xl" />
 
@@ -109,7 +91,7 @@ export default function LoginPage() {
                 </div>
             </div>
 
-            {/* Right Side - Login Form */}
+            {/* Right Side - Form */}
             <div className="w-full lg:w-1/2 flex items-center justify-center p-6 sm:p-12">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
@@ -129,24 +111,25 @@ export default function LoginPage() {
                     </div>
 
                     <h2 className="font-heading text-3xl font-bold mb-2" style={{ color: 'var(--text-primary)' }}>
-                        Welcome Back
+                        {isSignUp ? 'Create Account' : 'Welcome Back'}
                     </h2>
                     <p className="text-base mb-8" style={{ color: 'var(--text-secondary)' }}>
-                        Continue your preparation where you left off
+                        {isSignUp
+                            ? 'Start your UPSC preparation journey today'
+                            : 'Continue your preparation where you left off'}
                     </p>
 
-                    {/* Error Message */}
-                    {error && (
-                        <div className="flex items-center gap-2 px-4 py-3 rounded-xl mb-6 bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800">
-                            <AlertTriangle className="w-4 h-4 text-red-500 flex-shrink-0" />
-                            <span className="text-sm text-red-700 dark:text-red-300">{error}</span>
-                        </div>
-                    )}
+                    {/* Demo Mode Badge */}
+                    <div className="flex items-center gap-2 px-4 py-3 rounded-xl mb-6"
+                        style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}>
+                        <Sparkles className="w-4 h-4 text-accent-500" />
+                        <span className="text-sm" style={{ color: 'var(--text-secondary)' }}>
+                            <strong className="text-accent-500">Demo Mode</strong> — Enter any email & password to try
+                        </span>
+                    </div>
 
-                    {/* Google OAuth */}
-                    <button
-                        onClick={handleGoogleLogin}
-                        className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 transition-all duration-200 hover:shadow-md mb-6"
+                    {/* Google OAuth Placeholder */}
+                    <button className="w-full flex items-center justify-center gap-3 px-4 py-3 rounded-xl border-2 transition-all duration-200 hover:shadow-md mb-6"
                         style={{ borderColor: 'var(--border-color)', color: 'var(--text-primary)', background: 'var(--bg-card)' }}>
                         <svg className="w-5 h-5" viewBox="0 0 24 24">
                             <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 0 1-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4" />
@@ -159,12 +142,30 @@ export default function LoginPage() {
 
                     <div className="flex items-center gap-3 mb-6">
                         <div className="flex-1 h-px" style={{ background: 'var(--border-color)' }} />
-                        <span className="text-sm" style={{ color: 'var(--text-muted)' }}>or sign in with email</span>
+                        <span className="text-sm" style={{ color: 'var(--text-muted)' }}>or</span>
                         <div className="flex-1 h-px" style={{ background: 'var(--border-color)' }} />
                     </div>
 
-                    {/* Credentials Form */}
-                    <form onSubmit={handleCredentialsLogin} className="space-y-4">
+                    {/* Form */}
+                    <form onSubmit={handleSubmit} className="space-y-4">
+                        {isSignUp && (
+                            <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }}
+                                exit={{ opacity: 0, height: 0 }}>
+                                <label className="block text-sm font-medium mb-1.5" style={{ color: 'var(--text-secondary)' }}>
+                                    Full Name
+                                </label>
+                                <div className="relative">
+                                    <User className="absolute left-3.5 top-1/2 -translate-y-1/2 w-5 h-5" style={{ color: 'var(--text-muted)' }} />
+                                    <input
+                                        type="text" value={name} onChange={(e) => setName(e.target.value)}
+                                        placeholder="Enter your full name"
+                                        className="input-field !pl-11"
+                                        required={isSignUp}
+                                    />
+                                </div>
+                            </motion.div>
+                        )}
+
                         <div>
                             <label className="block text-sm font-medium mb-1.5" style={{ color: 'var(--text-secondary)' }}>
                                 Email Address
@@ -176,8 +177,6 @@ export default function LoginPage() {
                                     placeholder="you@example.com"
                                     className="input-field !pl-11"
                                     required
-                                    id="login-email"
-                                    autoComplete="email"
                                 />
                             </div>
                         </div>
@@ -194,26 +193,34 @@ export default function LoginPage() {
                                     placeholder="Enter your password"
                                     className="input-field !pl-11 !pr-11"
                                     required
-                                    id="login-password"
-                                    autoComplete="current-password"
                                 />
                                 <button type="button" onClick={() => setShowPassword(!showPassword)}
                                     className="absolute right-3.5 top-1/2 -translate-y-1/2"
-                                    style={{ color: 'var(--text-muted)' }}
-                                    aria-label={showPassword ? 'Hide password' : 'Show password'}>
+                                    style={{ color: 'var(--text-muted)' }}>
                                     {showPassword ? <EyeOff className="w-5 h-5" /> : <Eye className="w-5 h-5" />}
                                 </button>
                             </div>
                         </div>
 
+                        {!isSignUp && (
+                            <div className="flex items-center justify-between">
+                                <label className="flex items-center gap-2 cursor-pointer">
+                                    <input type="checkbox" className="w-4 h-4 rounded accent-primary-600" />
+                                    <span className="text-sm" style={{ color: 'var(--text-secondary)' }}>Remember me</span>
+                                </label>
+                                <button type="button" className="text-sm font-medium text-accent-500 hover:text-accent-600 transition-colors">
+                                    Forgot password?
+                                </button>
+                            </div>
+                        )}
+
                         <button type="submit" disabled={isLoading}
-                            id="login-submit"
                             className="w-full btn-primary flex items-center justify-center gap-2 !py-3.5 text-base disabled:opacity-60">
                             {isLoading ? (
                                 <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                             ) : (
                                 <>
-                                    Sign In
+                                    {isSignUp ? 'Create Free Account' : 'Sign In'}
                                     <ArrowRight className="w-5 h-5" />
                                 </>
                             )}
@@ -221,11 +228,11 @@ export default function LoginPage() {
                     </form>
 
                     <p className="text-center mt-6 text-sm" style={{ color: 'var(--text-secondary)' }}>
-                        Don&apos;t have an account?{' '}
-                        <Link href="/register"
+                        {isSignUp ? 'Already have an account?' : "Don't have an account?"}{' '}
+                        <button onClick={() => setIsSignUp(!isSignUp)}
                             className="font-semibold text-accent-500 hover:text-accent-600 transition-colors">
-                            Sign Up Free
-                        </Link>
+                            {isSignUp ? 'Sign In' : 'Sign Up Free'}
+                        </button>
                     </p>
                 </motion.div>
             </div>

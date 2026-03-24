@@ -1,7 +1,5 @@
 'use client';
 import React, { useState, useEffect, useCallback } from 'react';
-import { useSession } from 'next-auth/react';
-import { useRouter } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { useLanguage } from '@/contexts/LanguageProvider';
@@ -155,26 +153,7 @@ function StudyTimer() {
 
 export default function DashboardPage() {
     const { t } = useLanguage();
-    const { data: session, status } = useSession();
-    const router = useRouter();
     const maxHours = Math.max(...weeklyData.map(d => d.hours));
-
-    // Redirect to login if not authenticated
-    useEffect(() => {
-        if (status === 'unauthenticated') {
-            router.push('/login?callbackUrl=/dashboard');
-        }
-    }, [status, router]);
-
-    const userName = session?.user?.name || 'Aspirant';
-
-    if (status === 'loading') {
-        return (
-            <div className="min-h-screen flex items-center justify-center" style={{ background: 'var(--bg-primary)' }}>
-                <div className="w-8 h-8 border-3 border-primary-500/30 border-t-primary-500 rounded-full animate-spin" />
-            </div>
-        );
-    }
 
     return (
         <div style={{ background: 'var(--bg-primary)' }}>
@@ -186,7 +165,7 @@ export default function DashboardPage() {
                         <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-2">
                             <div>
                                 <h1 className="font-heading text-3xl lg:text-4xl font-bold" style={{ color: 'var(--text-primary)' }}>
-                                    Welcome back, <span className="gradient-text">{userName}</span> 👋
+                                    Welcome back, <span className="gradient-text">Demo User</span> 👋
                                 </h1>
                                 <p className="mt-2 text-base" style={{ color: 'var(--text-secondary)' }}>
                                     You&apos;re on a <strong className="text-orange-500">7-day streak</strong> — keep the momentum going!
