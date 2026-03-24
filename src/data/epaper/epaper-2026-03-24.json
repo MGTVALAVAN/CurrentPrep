@@ -3029,5 +3029,18 @@
         "Maritime Trade"
       ]
     }
-  ]
+  ],
+  "quoteOfTheDay": {
+    "text": "In the happiness of his subjects lies the king's happiness; in their welfare his welfare.",
+    "author": "Kautilya"
+  },
+  "onThisDay": {
+    "year": 1946,
+    "event": "The British Cabinet Mission arrived in Delhi to negotiate the transfer of power to Indian leaders and propose a framework for India's independence."
+  },
+  "dataSnapshot": {
+    "label": "FISCAL DEFICIT TARGET",
+    "value": "4.9%",
+    "context": "Union Budget 2024-25 targets fiscal deficit at 4.9% of GDP."
+  }
 }

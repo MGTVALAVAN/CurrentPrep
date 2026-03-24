@@ -905,15 +905,15 @@ export default function EpaperPrintView({ date }: { date: string }) {
 
                 {/* === PRELIMS MOCK PAGE === */}
                 {epaper.prelimsMocks && epaper.prelimsMocks.length > 0 && (
-                    <div className="epaper-print-page" style={{ pageBreakBefore: 'always', breakBefore: 'page', padding: '10mm 12mm', height: '277mm', maxHeight: '277mm', overflow: 'hidden', display: 'flex', flexDirection: 'column', boxSizing: 'border-box' }}>
-                        <header style={{ background: '#C0392B', borderRadius: '6px', padding: '8px 14px', marginBottom: '10px', textAlign: 'center', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', flexShrink: 0 }}>
+                    <div className="epaper-print-page" style={{ pageBreakBefore: 'always', breakBefore: 'page', padding: '8mm 12mm', height: '277mm', maxHeight: '280mm', overflow: 'visible', display: 'flex', flexDirection: 'column', boxSizing: 'border-box' }}>
+                        <header style={{ background: '#C0392B', borderRadius: '6px', padding: '8px 14px', marginBottom: '8px', textAlign: 'center', WebkitPrintColorAdjust: 'exact', printColorAdjust: 'exact', flexShrink: 0 }}>
                             <h2 style={{ margin: 0, color: '#FFF1E5', fontSize: '14px', fontWeight: 800, textTransform: 'uppercase', letterSpacing: '0.12em', fontFamily: "'DM Sans', system-ui, sans-serif" }}>
                                 📝 Prelims Mock — Daily Practice
                             </h2>
                         </header>
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '6px', overflow: 'hidden', flex: 1 }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '5px', overflow: 'visible', flex: 1 }}>
                             {epaper.prelimsMocks.slice(0, 5).map((q, i) => (
-                                <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '6px 10px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', overflow: 'hidden' }}>
+                                <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '5px 10px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', overflow: 'visible' }}>
                                     <div style={{ fontWeight: 700, fontSize: '11.5px', color: '#33200A', textAlign: 'justify', marginBottom: '3px', lineHeight: 1.4 }}>Q{i + 1}. {q.question}</div>
                                     {q.options && q.options.length > 0 && (
                                         <div style={{ marginLeft: '14px', fontSize: '11px', color: '#5C3D1A', marginBottom: '3px', lineHeight: 1.35 }}>
@@ -1015,17 +1015,17 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                 const syllabusShort = q.syllabusMatch.length > 120
                                     ? q.syllabusMatch.substring(0, q.syllabusMatch.lastIndexOf(' ', 120)) + '…'
                                     : q.syllabusMatch;
-                                // Truncate approach to ~350 chars to ensure all 5 questions fit
-                                const approachShort = q.approach.length > 350
-                                    ? q.approach.substring(0, q.approach.lastIndexOf(' ', 350)) + '…'
+                                // Truncate approach to ~450 chars to use available space
+                                const approachShort = q.approach.length > 450
+                                    ? q.approach.substring(0, q.approach.lastIndexOf(' ', 450)) + '…'
                                     : q.approach;
                                 return (
-                                    <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '4px 10px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
-                                        <div style={{ fontWeight: 700, fontSize: '10px', color: '#33200A', textAlign: 'justify', marginBottom: '2px', lineHeight: 1.35 }}>Q{i + 1}. {q.question}</div>
-                                        <div style={{ background: 'var(--ep-bg)', padding: '3px 8px', borderRadius: '3px', border: '1px solid rgba(139,69,19,0.06)', fontSize: '9px', lineHeight: 1.3 }}>
-                                            <div style={{ fontWeight: 700, color: '#1A3C6E', marginBottom: '1px', fontSize: '8.5px', textTransform: 'uppercase', letterSpacing: '0.04em' }}>Syllabus: {syllabusShort}</div>
-                                            <div style={{ fontWeight: 700, color: '#8B4513', marginBottom: '1px', fontSize: '9px' }}>Approach:</div>
-                                            <div style={{ color: '#5C3D1A', fontStyle: 'italic', fontSize: '9px' }}>{approachShort}</div>
+                                    <div key={i} style={{ background: 'rgba(255,255,255,0.5)', padding: '5px 10px', borderRadius: '5px', border: '1px solid rgba(139,69,19,0.12)', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
+                                        <div style={{ fontWeight: 700, fontSize: '11px', color: '#33200A', textAlign: 'justify', marginBottom: '2px', lineHeight: 1.38 }}>Q{i + 1}. {q.question}</div>
+                                        <div style={{ background: 'var(--ep-bg)', padding: '4px 8px', borderRadius: '3px', border: '1px solid rgba(139,69,19,0.06)', fontSize: '10px', lineHeight: 1.35 }}>
+                                            <div style={{ fontWeight: 700, color: '#1A3C6E', marginBottom: '1px', fontSize: '9px', textTransform: 'uppercase', letterSpacing: '0.04em' }}>Syllabus: {syllabusShort}</div>
+                                            <div style={{ fontWeight: 700, color: '#8B4513', marginBottom: '1px', fontSize: '10px' }}>Approach:</div>
+                                            <div style={{ color: '#5C3D1A', fontStyle: 'italic', fontSize: '10.5px', lineHeight: 1.38 }}>{approachShort}</div>
                                         </div>
                                     </div>
                                 );
