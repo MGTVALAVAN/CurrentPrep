@@ -1,15 +1,24 @@
 # GitHub Actions Workflow: Daily Content Pipeline
 #
-# Single orchestrated workflow that runs the CurrentPrep daily pipeline:
-#   1. Current Affairs scraping + AI categorization (5:30 AM IST)
-#   2. ePaper generation with explainers (30 min after news, 6:00 AM IST)
+# Runs the entire ePaper pipeline LOCALLY inside the runner
+# (not via Vercel API calls) to avoid serverless timeout limits.
 #
-# Consolidates the previous separate daily-current-affairs.yml and
-# daily-epaper.yml workflows to prevent duplicate triggers (Issue 3.4).
+# Flow:
+#   1. Checkout repo & install dependencies
+#   2. Build the Next.js production bundle
+#   3. Start the production server on localhost:3000
+#   4. Hit /api/current-affairs/update (scrape + AI categorize)
+#   5. Hit /api/epaper/generate (scrape + AI process + generate PDF + send email)
+#   6. Commit the generated JSON data files back to the repo
 #
-# Prerequisites — set these GitHub repo secrets:
-#   - CRON_SECRET: Must match your .env.local CRON_SECRET
-#   - APP_URL: Your deployed app URL (e.g. https://currentprep.vercel.app)
+# Schedule: 00:00 UTC = 05:30 AM IST daily
+#
+# Required secrets:
+#   - GEMINI_API_KEY       : Google Gemini API key for AI processing
+#   - CRON_SECRET          : Shared secret for API auth
+#   - SMTP_USER            : Gmail address for sending ePaper email
+#   - SMTP_PASS            : Gmail App Password
+#   - APP_URL              : Production URL (for reference only)
 
 name: Daily Content Pipeline
 
@@ -22,19 +31,65 @@ on:
 jobs:
   daily-pipeline:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
 
     steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 📦 Install dependencies (including devDependencies for Puppeteer)
+        run: npm ci
+
+      - name: 🔨 Build Next.js production bundle
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          NEXTAUTH_URL: http://localhost:3000
+          NEXT_PUBLIC_SITE_URL: http://localhost:3000
+        run: npm run build
+
+      - name: 🚀 Start production server
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          NEXTAUTH_URL: http://localhost:3000
+          NEXT_PUBLIC_SITE_URL: http://localhost:3000
+        run: |
+          npm start &
+          echo "Waiting for server to start..."
+          # Wait until the server is responsive
+          for i in $(seq 1 30); do
+            if curl -s -o /dev/null -w "%{http_code}" http://localhost:3000/ | grep -qE "200|307"; then
+              echo "✅ Server is ready!"
+              break
+            fi
+            echo "  Waiting... ($i/30)"
+            sleep 2
+          done
+
       - name: 📰 Step 1 — Scrape & Categorize Current Affairs
-        id: current-affairs
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
         run: |
           echo "🕐 Step 1: Triggering current affairs update at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
 
           RESPONSE=$(curl -s -w "\n%{http_code}" \
-            -X POST "${{ secrets.APP_URL }}/api/current-affairs/update" \
-            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            -X POST "http://localhost:3000/api/current-affairs/update" \
+            -H "Authorization: Bearer $CRON_SECRET" \
             -H "Content-Type: application/json" \
-            --max-time 60)
+            --max-time 600)
 
           HTTP_CODE=$(echo "$RESPONSE" | tail -1)
           BODY=$(echo "$RESPONSE" | head -n -1)
@@ -48,21 +103,22 @@ jobs:
             echo "✅ Current affairs updated successfully!"
           fi
 
-      - name: ⏳ Wait for news to settle
+      - name: ⏳ Wait for AI rate limits to cool
         run: |
-          echo "Waiting 5 minutes before generating ePaper..."
-          sleep 300
+          echo "Waiting 30 seconds before ePaper generation..."
+          sleep 30
 
-      - name: 📰 Step 2 — Generate Daily ePaper
-        id: epaper
+      - name: 📰 Step 2 — Generate Daily ePaper + Send Email
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
         run: |
           echo "🕐 Step 2: Generating daily ePaper at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
 
           RESPONSE=$(curl -s -w "\n%{http_code}" \
-            -X POST "${{ secrets.APP_URL }}/api/epaper/generate" \
-            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            -X POST "http://localhost:3000/api/epaper/generate" \
+            -H "Authorization: Bearer $CRON_SECRET" \
             -H "Content-Type: application/json" \
-            --max-time 180)
+            --max-time 900)
 
           HTTP_CODE=$(echo "$RESPONSE" | tail -1)
           BODY=$(echo "$RESPONSE" | head -n -1)
@@ -76,3 +132,25 @@ jobs:
           fi
 
           echo "✅ Daily ePaper generated successfully!"
+
+          # Give the mailer async task time to generate PDF & send email
+          echo "⏳ Waiting 120s for PDF generation + email delivery..."
+          sleep 120
+
+      - name: 📤 Commit & push generated data
+        run: |
+          git config user.name "CurrentPrep Bot"
+          git config user.email "bot@currentprep.vercel.app"
+
+          # Add only the data directories
+          git add src/data/current-affairs/ src/data/epaper/ || true
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "ℹ️ No new data files to commit"
+          else
+            TODAY=$(date -u '+%Y-%m-%d')
+            git commit -m "📰 chore: daily ePaper & current affairs — ${TODAY} [skip ci]"
+            git push
+            echo "✅ Data committed and pushed to repository"
+          fi
