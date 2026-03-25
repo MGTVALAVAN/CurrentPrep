@@ -83,8 +83,11 @@ export default function MockTestsPage() {
 
     // ── Generate Test ──────────────────────────────────────────────────────
 
+    const [genStatus, setGenStatus] = useState('');
+
     async function generateTest(type: 'custom' | 'full_length') {
         setGenerating(true);
+        setGenStatus('Generating questions...');
         try {
             // Load seen questions from localStorage
             const history = getHistory();
@@ -115,14 +118,17 @@ export default function MockTestsPage() {
             // Store the generated test in sessionStorage for the exam page
             sessionStorage.setItem('currentMockTest', JSON.stringify(data));
 
+            setGenStatus('Preparing your exam...');
             setActiveModal(null);
+
+            // Navigate — keep generating=true so overlay persists until exam page loads
             router.push('/mock-tests/exam');
 
         } catch (error) {
             console.error('Error generating test:', error);
             alert('Failed to generate mock test. Please try again.');
-        } finally {
             setGenerating(false);
+            setGenStatus('');
         }
     }
 
@@ -140,6 +146,20 @@ export default function MockTestsPage() {
 
     return (
         <div style={{ background: 'var(--bg-primary)' }} className="min-h-screen">
+            {/* Full-page loading overlay during test generation/navigation */}
+            {generating && !activeModal && (
+                <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/60 backdrop-blur-sm">
+                    <div className="text-center glass-card p-8 shadow-2xl">
+                        <Loader2 className="w-10 h-10 text-accent-500 animate-spin mx-auto mb-4" />
+                        <p className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
+                            {genStatus || 'Preparing your exam...'}
+                        </p>
+                        <p className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}>
+                            This may take a few seconds on first load
+                        </p>
+                    </div>
+                </div>
+            )}
             {/* ── Hero ── */}
             <section className="hero-bg py-14 lg:py-20">
                 <div className="max-w-5xl mx-auto px-4 text-center">
