@@ -1,6 +1,7 @@
 'use client';
 import React, { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
+import { SessionProvider } from 'next-auth/react';
 import { ThemeProvider } from '@/contexts/ThemeProvider';
 import { LanguageProvider } from '@/contexts/LanguageProvider';
 import { ErrorBoundary } from '@/components/ErrorBoundary';
@@ -23,24 +24,28 @@ export default function ClientProviders({ children }: { children: React.ReactNod
     // Print pages get a completely clean layout — no navbar, no footer
     if (isPrintPage) {
         return (
-            <ThemeProvider>
-                <LanguageProvider>
-                    {children}
-                </LanguageProvider>
-            </ThemeProvider>
+            <SessionProvider>
+                <ThemeProvider>
+                    <LanguageProvider>
+                        {children}
+                    </LanguageProvider>
+                </ThemeProvider>
+            </SessionProvider>
         );
     }
 
     return (
-        <ErrorBoundary>
-            <ThemeProvider>
-                <LanguageProvider>
-                    <Navbar />
-                    <main id="main-content" className="flex-1 pt-16">{children}</main>
-                    <Footer />
-                    <WebVitalsReporter />
-                </LanguageProvider>
-            </ThemeProvider>
-        </ErrorBoundary>
+        <SessionProvider>
+            <ErrorBoundary>
+                <ThemeProvider>
+                    <LanguageProvider>
+                        <Navbar />
+                        <main id="main-content" className="flex-1 pt-16">{children}</main>
+                        <Footer />
+                        <WebVitalsReporter />
+                    </LanguageProvider>
+                </ThemeProvider>
+            </ErrorBoundary>
+        </SessionProvider>
     );
 }
