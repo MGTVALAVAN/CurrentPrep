@@ -1,15 +1,13 @@
 'use client';
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/navigation';
-import { useSession } from 'next-auth/react';
 import {
-    Brain, Target, Sparkles, BookOpen, Clock, BarChart3,
-    Play, Shield, Crown, X, ChevronDown, Check,
-    Loader2, Lock, Zap, GraduationCap, FileText,
+    Brain, BookOpen,
+    Play, Crown, X, Check,
+    Loader2, Zap, GraduationCap, FileText,
     AlertTriangle, Timer, Award
 } from 'lucide-react';
-import PaymentButton from '@/components/PaymentButton';
 
 // ─── Types ─────────────────────────────────────────────────────────────
 
@@ -45,12 +43,8 @@ const DIFFICULTIES = [
 
 export default function MockTestsPage() {
     const router = useRouter();
-    const { data: session, status: authStatus } = useSession();
-    const isPremium = (session?.user as any)?.is_premium === true;
 
     const [activeModal, setActiveModal] = useState<TestMode>(null);
-    const [showPaymentModal, setShowPaymentModal] = useState(false);
-    const [pendingAction, setPendingAction] = useState<TestMode>(null);
 
     // Custom test config
     const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
@@ -61,18 +55,10 @@ export default function MockTestsPage() {
     const allSelected = selectedSubjects.length === 0 || selectedSubjects.length === SUBJECTS.length;
     const timerDisplay = QUESTION_COUNTS.find(q => q.value === questionCount)?.timer || '30 min';
 
-    // ── Auth & Premium Check ───────────────────────────────────────────────
+    // ── Open Test Configuration ─────────────────────────────────────────────
+    // Note: Auth & premium gating will be added at a later stage
 
     function handleTestStart(mode: TestMode) {
-        if (authStatus !== 'authenticated') {
-            router.push('/login?callbackUrl=/mock-tests');
-            return;
-        }
-        if (!isPremium) {
-            setPendingAction(mode);
-            setShowPaymentModal(true);
-            return;
-        }
         setActiveModal(mode);
     }
 
@@ -590,64 +576,8 @@ export default function MockTestsPage() {
                 )}
             </AnimatePresence>
 
-            {/* ═════════════════════════════════════════════════════════════════
-                MODAL: Payment Gate
-               ═════════════════════════════════════════════════════════════════ */}
-            <AnimatePresence>
-                {showPaymentModal && (
-                    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-                        className="fixed inset-0 z-50 flex items-center justify-center p-4"
-                        onClick={() => setShowPaymentModal(false)}>
-                        <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" />
 
-                        <motion.div
-                            initial={{ opacity: 0, scale: 0.95, y: 20 }}
-                            animate={{ opacity: 1, scale: 1, y: 0 }}
-                            exit={{ opacity: 0, scale: 0.95, y: 20 }}
-                            onClick={e => e.stopPropagation()}
-                            className="relative w-full max-w-md rounded-2xl shadow-2xl border p-6"
-                            style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)' }}
-                        >
-                            <button onClick={() => setShowPaymentModal(false)}
-                                className="absolute top-4 right-4 p-1 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">
-                                <X className="w-5 h-5" style={{ color: 'var(--text-muted)' }} />
-                            </button>
-
-                            <div className="text-center mb-5">
-                                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center mx-auto mb-4 shadow-xl">
-                                    <Crown className="w-8 h-8 text-white" />
-                                </div>
-                                <h2 className="font-heading font-bold text-xl mb-2" style={{ color: 'var(--text-primary)' }}>
-                                    Upgrade to Pro
-                                </h2>
-                                <p className="text-sm" style={{ color: 'var(--text-secondary)' }}>
-                                    Practice Mock Tests are a premium feature. Upgrade to access unlimited mock tests, detailed analytics, and more.
-                                </p>
-                            </div>
-
-                            <div className="space-y-2 mb-5">
-                                {[
-                                    'Unlimited Customised Mock Tests',
-                                    'UPSC Full Length Mock Papers',
-                                    'Detailed Subject-wise Analysis',
-                                    'Smart repeat-prevention algorithm',
-                                    'AI Quiz Generator & Answer Evaluation',
-                                ].map(feature => (
-                                    <div key={feature} className="flex items-center gap-2 text-sm" style={{ color: 'var(--text-secondary)' }}>
-                                        <Check className="w-4 h-4 text-emerald-500 flex-shrink-0" />
-                                        {feature}
-                                    </div>
-                                ))}
-                            </div>
-
-                            <div className="space-y-2">
-                                <PaymentButton plan="quarterly" label="₹799 for 3 months (Most Popular)" className="btn-primary w-full flex items-center justify-center gap-2" />
-                                <PaymentButton plan="monthly" label="₹299/month" className="btn-outline w-full flex items-center justify-center gap-2" />
-                            </div>
-                        </motion.div>
-                    </motion.div>
-                )}
-            </AnimatePresence>
+            {/* Payment gate modal will be added at a later stage */}
         </div>
     );
 }
