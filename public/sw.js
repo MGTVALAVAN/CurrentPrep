@@ -1,5 +1,5 @@
 // CurrentPrep Service Worker — Offline-first for ePaper
-const CACHE_NAME = 'currentprep-v3';
+const CACHE_NAME = 'currentprep-v4';
 const OFFLINE_URL = '/daily-epaper';
 
 // Assets to pre-cache on install
