@@ -12,7 +12,6 @@ export default function Navbar() {
     const { language, toggleLanguage, t } = useLanguage();
 
     const links: { href: string; label: string }[] = [
-        { href: '/', label: t('nav_home') },
         { href: '/current-affairs', label: 'Current Affairs' },
         { href: '/daily-mock', label: 'Daily Mock' },
         { href: '/mock-tests', label: 'Practice Mock Tests' },
