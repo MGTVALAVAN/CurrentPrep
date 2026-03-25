@@ -27,7 +27,7 @@ async function regenerateQuickBytes(): Promise<void> {
     if (!apiKey) { console.error('No GEMINI_API_KEY'); process.exit(1); }
 
     const today = new Date().toISOString().split('T')[0];
-    const epaperPath = path.join(__dirname, 'src/data/epaper', `epaper-${today}.json`);
+    const epaperPath = path.join(process.cwd(), 'src/data/epaper', `epaper-${today}.json`);
 
     if (!fs.existsSync(epaperPath)) {
         console.error(`No ePaper file found at ${epaperPath}`);

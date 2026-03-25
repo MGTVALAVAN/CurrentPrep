@@ -18,6 +18,10 @@
  *   APP_URL         — Optional. Defaults to http://localhost:3000
  */
 
+import dotenv from 'dotenv';
+dotenv.config({ path: '.env.local' });
+dotenv.config({ path: '.env' });
+
 const APP_URL = process.env.APP_URL || 'http://localhost:3000';
 const CRON_SECRET = process.env.CRON_SECRET || '';
 

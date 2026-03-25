@@ -1,7 +1,7 @@
 import { writeFileSync } from 'fs';
-import { generateDailyEpaper } from './src/lib/epaper-generator';
-import { scrapeEpaperSources, type RawEpaperArticle, fetchArticleFullText } from './src/lib/epaper-scraper';
-import { saveEpaper } from './src/lib/epaper-store';
+import { generateDailyEpaper } from '../src/lib/epaper-generator';
+import { scrapeEpaperSources, type RawEpaperArticle, fetchArticleFullText } from '../src/lib/epaper-scraper';
+import { saveEpaper } from '../src/lib/epaper-store';
 import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
 dotenv.config({ path: '.env' });

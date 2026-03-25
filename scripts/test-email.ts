@@ -1,4 +1,4 @@
-import { sendDailyEpaperEmail } from './src/lib/mailer';
+import { sendDailyEpaperEmail } from '../src/lib/mailer';
 import dotenv from 'dotenv';
 import * as fs from 'fs';
 import * as path from 'path';

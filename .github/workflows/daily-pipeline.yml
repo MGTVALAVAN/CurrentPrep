@@ -1,7 +1,12 @@
-# GitHub Actions Workflow: Daily Content Pipeline
+# GitHub Actions Workflow: Daily Content Pipeline (MANUAL ONLY)
 #
-# Runs the entire ePaper pipeline LOCALLY inside the runner
-# (not via Vercel API calls) to avoid serverless timeout limits.
+# ⚠️  PRIMARY PIPELINE: The local Mac launchd agent (com.currentias.epaper)
+#     runs the finalized run_daily.sh script at 05:15 IST daily.
+#     This GitHub Actions workflow is kept as a MANUAL BACKUP ONLY.
+#
+# Runs the ePaper pipeline inside the GitHub runner via API endpoints.
+# Note: This is a simplified version — the local run_daily.sh has the
+# full pipeline including Quick Bytes, front-page extras, and validation.
 #
 # Flow:
 #   1. Checkout repo & install dependencies
@@ -11,8 +16,6 @@
 #   5. Hit /api/epaper/generate (scrape + AI process + generate PDF + send email)
 #   6. Commit the generated JSON data files back to the repo
 #
-# Schedule: 00:00 UTC = 05:30 AM IST daily
-#
 # Required secrets:
 #   - GEMINI_API_KEY       : Google Gemini API key for AI processing
 #   - CRON_SECRET          : Shared secret for API auth
@@ -20,13 +23,13 @@
 #   - SMTP_PASS            : Gmail App Password
 #   - APP_URL              : Production URL (for reference only)
 
-name: Daily Content Pipeline
+name: Daily Content Pipeline (Manual Backup)
 
 on:
-  schedule:
-    # 00:00 UTC = 05:30 AM IST — start the daily pipeline
-    - cron: '0 0 * * *'
-  workflow_dispatch:  # Allow manual trigger from GitHub UI
+  # Daily cron DISABLED — local launchd pipeline is the primary mechanism
+  # schedule:
+  #   - cron: '0 0 * * *'
+  workflow_dispatch:  # Manual trigger only — use when Mac is unavailable
 
 jobs:
   daily-pipeline:
