@@ -209,11 +209,35 @@ For each INCLUDED article, return a JSON object with these fields:
 
 17. "skip": boolean — set true if the article should be excluded per the rules above
 
+MANDATORY FACT-CHECK RULES — VIOLATION WILL CAUSE REJECTION:
+These are verified ground-truth facts. Do NOT contradict them in any field (especially "trivia"):
+
+CURRENT LEADERS:
+- US President: Donald Trump (47th President, serving 2nd term since January 20, 2025). Do NOT call him "former president".
+- India PM: Narendra Modi (3rd term since June 2024)
+- RBI Governor: Sanjay Malhotra (since December 2024)
+
+ECONOMIC DATA (use these exact figures):
+- RBI Repo Rate: 6.00% (was 6.50% until Dec 2024, cut multiple times since)
+- India GDP FY2024-25: approximately 330 Lakh Crore (Provisional Estimate)
+- GDP Growth FY2024-25: 6.5% (Provisional Estimate — do NOT label as "Advance Estimate")
+- Per Capita Income (NNI per capita): approximately 1.15 Lakh. GDP per capita: approximately 2.36 Lakh. Do NOT confuse the two.
+
+CLIMATE / NDC TARGETS:
+- India updated NDC (March 2026): 47% emission intensity reduction by 2035; 60% non-fossil fuel capacity by 2035
+- Old NDC (2022): 45% by 2030 — use ONLY when specifically referring to the old target with context
+
+COMMON ERRORS TO AVOID IN TRIVIA:
+- "India was the first country to ratify the Paris Agreement" is FALSE. India was the 62nd country (Oct 2, 2016).
+- "NALSA judgment was India's first legal recognition of transgender identity" is IMPRECISE. Say "first Supreme Court recognition at the national level".
+- Never use "former" for any current sitting head of state/government.
+
 RULES:
 - NEVER include party-political news, even if it involves a policy topic — skip it
 - The KEY FACTS bullets must contain concrete, verifiable facts — never vague statements like "This is significant" or "Experts say"
 - The ANALYSIS paragraph must be factual and analytical — NO opinions, NO editorializing
 - Every analysis paragraph MUST naturally embed syllabus keywords without explicitly pointing them out
+- Every "trivia" field must state a testable, verifiable fact — cross-check against the FACT-CHECK RULES above
 - RETURN VALID JSON ONLY — an array of objects`;
 
 interface GeminiEpaperResult {
@@ -501,8 +525,124 @@ export async function generateEpaperArticles(
         (a, b) => importanceOrder[a.importance] - importanceOrder[b.importance]
     );
 
+    // ── Post-AI Topic Consolidation ──
+    // Group similar articles and cap each topic cluster to max 2
+    const consolidated = consolidateByTopic(allResults, 2);
+
     // Limit to exactly 25 articles for optimal printing layout and reading experience
-    return allResults.slice(0, 25);
+    return consolidated.slice(0, 25);
+}
+
+// ---------------------------------------------------------------------------
+// Post-AI Topic Consolidation
+// Groups articles by headline similarity and caps each cluster to maxPerTopic
+// ---------------------------------------------------------------------------
+
+const CONSOLIDATION_STOPWORDS = new Set([
+    'the', 'a', 'an', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or', 'is',
+    'are', 'was', 'were', 'be', 'been', 'has', 'have', 'had', 'it', 'its',
+    'by', 'from', 'with', 'as', 'that', 'this', 'not', 'but', 'will', 'can',
+    'may', 'over', 'says', 'said', 'new', 'after', 'amid', 'amidst', 'under',
+    'into', 'about', 'between', 'more', 'also', 'how', 'why', 'what', 'who',
+    'india', 'indian', 'government', 'centre', 'state', 'country', 'national',
+]);
+
+function getHeadlineWords(headline: string): Set<string> {
+    return new Set(
+        headline.toLowerCase()
+            .replace(/[^a-z0-9\s]/g, '')
+            .split(/\s+/)
+            .filter(w => w.length > 2 && !CONSOLIDATION_STOPWORDS.has(w))
+    );
+}
+
+function headlineSimilarity(a: Set<string>, b: Set<string>): number {
+    if (a.size === 0 || b.size === 0) return 0;
+    let intersection = 0;
+    const aArr = Array.from(a);
+    for (const w of aArr) { if (b.has(w)) intersection++; }
+    const union = a.size + b.size - intersection;
+    return union === 0 ? 0 : intersection / union;
+}
+
+function consolidateByTopic(
+    articles: EpaperArticle[],
+    maxPerTopic: number
+): EpaperArticle[] {
+    if (articles.length <= maxPerTopic) return articles;
+
+    // Build clusters using union-find style grouping
+    const wordSets = articles.map(a => getHeadlineWords(a.headline));
+    const clusterId = articles.map((_, i) => i);
+    const SIMILARITY_THRESHOLD = 0.4;
+
+    // Also check tags overlap for articles that might have different headlines
+    function areTopicRelated(i: number, j: number): boolean {
+        // Headline word similarity
+        if (headlineSimilarity(wordSets[i], wordSets[j]) >= SIMILARITY_THRESHOLD) return true;
+        // Tag overlap: if >50% tags match, likely same topic
+        const tagsI = new Set(articles[i].tags.map(t => t.toLowerCase()));
+        const tagsJ = articles[j].tags.map(t => t.toLowerCase());
+        const tagOverlap = tagsJ.filter(t => tagsI.has(t)).length;
+        if (tagsI.size > 0 && tagOverlap / Math.min(tagsI.size, tagsJ.length) > 0.5) return true;
+        return false;
+    }
+
+    // Find root of cluster
+    function find(i: number): number {
+        while (clusterId[i] !== i) { clusterId[i] = clusterId[clusterId[i]]; i = clusterId[i]; }
+        return i;
+    }
+
+    // Merge clusters
+    for (let i = 0; i < articles.length; i++) {
+        for (let j = i + 1; j < articles.length; j++) {
+            if (areTopicRelated(i, j)) {
+                const rootI = find(i);
+                const rootJ = find(j);
+                if (rootI !== rootJ) clusterId[rootJ] = rootI;
+            }
+        }
+    }
+
+    // Group by cluster
+    const clusters = new Map<number, number[]>();
+    for (let i = 0; i < articles.length; i++) {
+        const root = find(i);
+        if (!clusters.has(root)) clusters.set(root, []);
+        clusters.get(root)!.push(i);
+    }
+
+    // Log clusters with >1 article
+    let consolidatedCount = 0;
+    const result: EpaperArticle[] = [];
+    const importanceOrder: Record<string, number> = { high: 0, medium: 1, low: 2 };
+
+    for (const entry of Array.from(clusters.entries())) {
+        const indices = entry[1];
+        // Sort by importance within cluster
+        indices.sort((a: number, b: number) => importanceOrder[articles[a].importance] - importanceOrder[articles[b].importance]);
+
+        if (indices.length > maxPerTopic) {
+            const kept = indices.slice(0, maxPerTopic);
+            const dropped = indices.slice(maxPerTopic);
+            consolidatedCount += dropped.length;
+            console.log(
+                `[epaper-gen] 📦 Topic cluster (${indices.length} articles → ${maxPerTopic}): kept "${articles[kept[0]].headline.slice(0, 60)}..." | dropped ${dropped.length}: ${dropped.map((i: number) => `"${articles[i].headline.slice(0, 40)}..."`).join(', ')}`
+            );
+            kept.forEach((i: number) => result.push(articles[i]));
+        } else {
+            indices.forEach((i: number) => result.push(articles[i]));
+        }
+    }
+
+    if (consolidatedCount > 0) {
+        console.log(`[epaper-gen] Topic consolidation: removed ${consolidatedCount} duplicate-topic articles, ${result.length} remain`);
+    }
+
+    // Re-sort by importance
+    result.sort((a, b) => importanceOrder[a.importance] - importanceOrder[b.importance]);
+    return result;
 }
 
 /**
@@ -713,6 +853,75 @@ async function generateCsatMocks(
 
     console.log(`[epaper-gen] Today's CSAT rotation: Q3=${q3Pick.label}, Q4=${q4Pick.label}`);
 
+    // Day-rotating entity pools for Syllogism (prevent pens/pencils every day)
+    const syllogismPools = [
+        { entities: 'animals, birds, and insects', example: '"All sparrows are birds. Some birds are parrots. No parrot is a crow."' },
+        { entities: 'professions and workplaces', example: '"All doctors are graduates. Some graduates are teachers. No teacher is a lawyer."' },
+        { entities: 'fruits, vegetables, and foods', example: '"All mangoes are fruits. Some fruits are vegetables. No vegetable is a grain."' },
+        { entities: 'vehicles and transport', example: '"All buses are vehicles. Some vehicles are trucks. No truck is a bicycle."' },
+        { entities: 'metals, stones, and minerals', example: '"All diamonds are gems. Some gems are minerals. No mineral is a fossil."' },
+        { entities: 'flowers, trees, and plants', example: '"All roses are flowers. Some flowers are herbs. No herb is a shrub."' },
+        { entities: 'rivers, lakes, and mountains', example: '"All rivers are water bodies. Some water bodies are lakes. No lake is an ocean."' },
+    ];
+    const syllogismPick = syllogismPools[dayOfYear % syllogismPools.length];
+
+    // Day-rotating scenarios for Statement & Assumption
+    const assumptionScenarios = [
+        'agriculture or farming (e.g., crop insurance, irrigation, MSP policy)',
+        'public transport or traffic management (e.g., metro expansion, congestion tax)',
+        'primary education or school policy (e.g., mid-day meals, teacher training)',
+        'public health or hospital policy (e.g., vaccination drives, rural clinics)',
+        'urban planning or housing (e.g., affordable housing, smart cities)',
+        'environmental conservation (e.g., waste management, river cleaning)',
+        'disaster management (e.g., flood relief, earthquake preparedness)',
+    ];
+    const assumptionPick = assumptionScenarios[dayOfYear % assumptionScenarios.length];
+
+    // Day-rotating Decision Making scenarios (prevent "project manager + deadlines")
+    const decisionScenarios = [
+        { role: 'principal of a school', scenario: 'During the annual examination, a teacher reports that a group of students was found sharing answers. The exam is still in progress.' },
+        { role: 'district magistrate', scenario: 'A major religious festival is approaching and two community groups claim the right to use the same public ground for their events on the same date.' },
+        { role: 'doctor at a rural primary health centre', scenario: 'A critically ill patient needs immediate surgery, but the nearest surgical facility is 200 km away and the ambulance has broken down.' },
+        { role: 'forest ranger in a national park', scenario: 'Villagers from the buffer zone report that a tiger has killed their livestock. They are angry and threatening to poison the water source used by wild animals.' },
+        { role: 'police inspector at a town station', scenario: 'During a peaceful protest rally, a small group begins vandalizing public property. The main organizers request that you allow the peaceful protesters to continue.' },
+        { role: 'municipal commissioner of a small city', scenario: 'Residents of a low-income neighborhood complain that a new waste processing plant approved near their area will cause health hazards, though the facility meets environmental norms.' },
+        { role: 'bank branch manager', scenario: 'An elderly widow comes to withdraw her entire life savings. You suspect she may be a victim of a phone scam because she mentions needing to transfer money urgently to an unknown account.' },
+        { role: 'railway station master', scenario: 'During heavy monsoon rains, the track ahead is reported flooded. An express train with 800 passengers is approaching in 20 minutes. Diverting it adds 6 hours to the journey.' },
+        { role: 'headmaster of a government school', scenario: 'A talented but extremely poor student has been offered admission to a prestigious boarding school, but the student\'s parents refuse because they need the child\'s help at their roadside shop.' },
+        { role: 'panchayat sarpanch', scenario: 'The only drinking water well in the village has been contaminated. A private company offers to install a purification plant for free, but demands exclusive naming rights and advertising on the village water tank.' },
+        { role: 'junior IAS officer posted as SDM', scenario: 'Your senior (district collector) asks you to approve a mining lease that clearly violates environmental clearance norms. Refusing could jeopardize your career prospects.' },
+        { role: 'director of a public hospital', scenario: 'Your hospital has received only 500 doses of a life-saving vaccine but 2,000 eligible patients are waiting. Local politicians are pressuring you to prioritize their constituents.' },
+        { role: 'customs officer at an international airport', scenario: 'A diplomat claims diplomatic immunity after suspicious items are found in their luggage during a routine scan. Protocol forbids you from opening the bag, but you strongly suspect smuggling.' },
+        { role: 'coast guard officer', scenario: 'A fishing boat with 12 fishermen from your country has accidentally crossed the maritime border. The neighboring country\'s navy is approaching. The fishermen are requesting your help.' },
+    ];
+    const decisionPick = decisionScenarios[dayOfYear % decisionScenarios.length];
+
+    // Load past CSAT questions to prevent repetition
+    let pastCsatWarning = '';
+    try {
+        const fs = require('fs');
+        const epaperDir = require('path').join(process.cwd(), 'src', 'data', 'epaper');
+        const pastFiles = fs.readdirSync(epaperDir)
+            .filter((f: string) => f.startsWith('epaper-') && f.endsWith('.json') && f !== 'epaper-index.json')
+            .sort().reverse().slice(0, 3);
+
+        const pastQuestions: string[] = [];
+        for (const f of pastFiles) {
+            try {
+                const d = JSON.parse(fs.readFileSync(require('path').join(epaperDir, f), 'utf-8'));
+                const reasoning = d.csatMocks?.reasoning || [];
+                for (const q of reasoning) {
+                    pastQuestions.push(q.question?.substring(0, 150) || '');
+                }
+            } catch { continue; }
+        }
+
+        if (pastQuestions.length > 0) {
+            pastCsatWarning = `\n\n⛔ DO NOT REPEAT — Here are reasoning questions from the past 3 days. You MUST create COMPLETELY DIFFERENT questions with different entities, numbers, names, and scenarios:\n${pastQuestions.map((q: string, i: number) => `${i + 1}. ${q}`).join('\n')}\n`;
+            console.log(`[epaper-gen] Injected ${pastQuestions.length} past CSAT questions as negative examples`);
+        }
+    } catch { /* past loading is optional */ }
+
     const prompt = `You are a UPSC CSAT (Civil Services Aptitude Test — Paper II) question setter.
 
 You must generate questions in TWO categories. CATEGORY 1 uses news themes. CATEGORY 2 must be CONTENT-NEUTRAL (pure logic/aptitude — no current affairs knowledge required).
@@ -729,29 +938,27 @@ For each passage:
 - Create original analytical text — do NOT copy exact quotes.
 - Each passage must have 3-4 MCQ questions testing: main idea, inference, author's attitude, logical conclusion, meaning in context.
 - Questions must test reading comprehension skills, NOT factual recall.
+- The 2 passages MUST cover DIFFERENT topics — do not write both passages on the same theme.
 
 ═══════════════════════════════════════════
 CATEGORY 2 — LOGICAL REASONING (5 questions)
 ═══════════════════════════════════════════
 
 ⚠️ CRITICAL: These 5 questions must be COMPLETELY INDEPENDENT of any news content. They test pure logical/analytical aptitude using abstract or everyday scenarios. Do NOT reference any current events, policies, government schemes, or news headlines.
+${pastCsatWarning}
 
 Generate exactly 5 questions as follows:
 
 **Q1 — SYLLOGISM (category: "syllogism")**
+TODAY'S ENTITY THEME: Use ${syllogismPools[dayOfYear % syllogismPools.length].entities} as entities (NOT pens, pencils, books, papers, erasers, or stationery — those are BANNED today).
 Give 2-3 statements using "All", "Some", "No" format and ask which conclusion(s) logically follow.
-Example style:
-"Statements: 1. All managers are leaders. 2. Some leaders are teachers. 3. No teacher is a doctor.
-Conclusions: I. Some managers are teachers. II. No manager is a doctor.
-Which of the above conclusions logically follows?"
+Example using today's theme: ${syllogismPick.example}
 Options should be: "Only I", "Only II", "Both I and II", "Neither I nor II"
 
 **Q2 — STATEMENT & ASSUMPTION or STATEMENT & CONCLUSION (category: "statement_assumption" or "statement_conclusion")**
-Give a general statement (about education, traffic, workplace, health, etc. — NOT about today's news) and ask which assumption is implicit or which conclusion follows.
-Example style:
-"Statement: 'The municipal corporation has decided to increase water supply timings by 2 hours in residential areas during summer.'
-Assumptions: I. Residents need more water during summer. II. The municipal corporation has enough water reserves.
-Which assumption is implicit?"
+TODAY'S SCENARIO DOMAIN: Create a statement about ${assumptionPick}.
+Do NOT use scenarios about water supply, coaching institutes, or park closures — those have been used recently.
+Give a general statement and ask which assumption is implicit or which conclusion follows.
 Options: "Only I", "Only II", "Both I and II", "Neither I nor II"
 
 **Q3 — ${q3Pick.label.toUpperCase()} (category: "${q3Pick.type}")**
@@ -761,10 +968,9 @@ ${q3Pick.instruction}
 ${q4Pick.instruction}
 
 **Q5 — DECISION MAKING (category: "decision_making")**
-Present a scenario where a person (a manager, teacher, officer, etc.) faces a dilemma in everyday professional life. Give 4 possible courses of action. Ask which is the MOST appropriate course of action.
-Example style:
-"You are the principal of a school. During the annual examination, a teacher reports that a student was found with a cheat sheet. What is the most appropriate course of action?"
-Do NOT use politically charged or news-related scenarios.
+TODAY'S SCENARIO: You are a ${decisionPick.role}. ${decisionPick.scenario}
+Present this scenario with necessary context. Give 4 possible courses of action. Ask which is the MOST appropriate course of action.
+Do NOT use project manager / software team / missed deadlines scenarios — those are BANNED.
 
 ═══════════════════════════════════════════
 
@@ -792,7 +998,7 @@ IMPORTANT:
     const requestBody = {
         contents: [{ role: 'user', parts: [{ text: prompt }] }],
         generationConfig: {
-            temperature: 0.6,
+            temperature: 0.75,
             topP: 0.85,
             maxOutputTokens: 16384,
             responseMimeType: 'application/json',

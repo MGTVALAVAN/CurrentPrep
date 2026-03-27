@@ -188,6 +188,75 @@ function deduplicateArticles(articles: RawEpaperArticle[]): RawEpaperArticle[] {
 }
 
 // ---------------------------------------------------------------------------
+// Semantic Deduplication — merge articles about the same event/topic
+// Uses significant-word overlap (Jaccard similarity > threshold)
+// ---------------------------------------------------------------------------
+
+const STOPWORDS = new Set([
+    'the', 'a', 'an', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or', 'is',
+    'are', 'was', 'were', 'be', 'been', 'has', 'have', 'had', 'it', 'its',
+    'by', 'from', 'with', 'as', 'that', 'this', 'not', 'but', 'will', 'can',
+    'may', 'over', 'says', 'said', 'new', 'after', 'amid', 'amidst', 'under',
+    'into', 'about', 'between', 'more', 'also', 'how', 'why', 'what', 'who',
+    'india', 'indian', 'government', 'centre', 'state', 'country', 'national',
+]);
+
+function getSignificantWords(title: string): Set<string> {
+    return new Set(
+        title.toLowerCase()
+            .replace(/[^a-z0-9\s]/g, '')
+            .split(/\s+/)
+            .filter(w => w.length > 2 && !STOPWORDS.has(w))
+    );
+}
+
+function jaccardSimilarity(a: Set<string>, b: Set<string>): number {
+    if (a.size === 0 || b.size === 0) return 0;
+    let intersection = 0;
+    const aArr = Array.from(a);
+    for (const w of aArr) { if (b.has(w)) intersection++; }
+    const union = a.size + b.size - intersection;
+    return union === 0 ? 0 : intersection / union;
+}
+
+function semanticDeduplicateArticles(
+    articles: RawEpaperArticle[],
+    threshold = 0.55
+): RawEpaperArticle[] {
+    const wordSets = articles.map(a => getSignificantWords(a.title));
+    const removed = new Set<number>();
+
+    for (let i = 0; i < articles.length; i++) {
+        if (removed.has(i)) continue;
+        for (let j = i + 1; j < articles.length; j++) {
+            if (removed.has(j)) continue;
+            const sim = jaccardSimilarity(wordSets[i], wordSets[j]);
+            if (sim >= threshold) {
+                // Keep the one with higher priority (lower number = higher priority)
+                // If same priority, keep the one from The Hindu > Indian Express > others
+                const sourcePriority: Record<string, number> = {
+                    'The Hindu': 1, 'Indian Express': 2, 'Mint': 3, 'Frontline': 4,
+                    'Mongabay': 5, 'PIB': 0, 'PRS': 0, 'SC Observer': 1,
+                };
+                const priI = sourcePriority[articles[i].sourceShort] ?? 10;
+                const priJ = sourcePriority[articles[j].sourceShort] ?? 10;
+                const removeIdx = priI <= priJ ? j : i;
+                removed.add(removeIdx);
+                console.log(
+                    `[epaper-scraper] 🔗 Semantic dedup (${(sim * 100).toFixed(0)}%): keeping "${articles[removeIdx === j ? i : j].title.slice(0, 60)}..." over "${articles[removeIdx].title.slice(0, 60)}..."`
+                );
+            }
+        }
+    }
+
+    const result = articles.filter((_, i) => !removed.has(i));
+    if (removed.size > 0) {
+        console.log(`[epaper-scraper] Semantic dedup removed ${removed.size} near-duplicate(s), ${result.length} remain`);
+    }
+    return result;
+}
+
+// ---------------------------------------------------------------------------
 // Full article text extraction
 // ---------------------------------------------------------------------------
 
@@ -343,9 +412,11 @@ export async function scrapeEpaperSources(): Promise<RawEpaperArticle[]> {
         `[epaper-scraper] ${recentArticles.length} articles from last 24 hours`
     );
 
-    // Deduplicate
-    const unique = deduplicateArticles(recentArticles);
-    console.log(`[epaper-scraper] ${unique.length} unique articles after dedup`);
+    // Deduplicate — title-based then semantic
+    const titleDeduped = deduplicateArticles(recentArticles);
+    console.log(`[epaper-scraper] ${titleDeduped.length} unique articles after title dedup`);
+    const unique = semanticDeduplicateArticles(titleDeduped);
+    console.log(`[epaper-scraper] ${unique.length} unique articles after semantic dedup`);
 
     // Sort by priority (editorial/explained first), then by source reliability
     const prioritySections = ['Editorial', 'Lead Opinion', 'Explained', 'Bills & Acts', 'Press Releases', 'SC Judgments', 'Parliament', 'Environment'];

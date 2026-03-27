@@ -488,6 +488,120 @@ async function main(): Promise<void> {
             check(`At least 3 distinct reasoning categories`, uniqueCategories.length >= 3, false);
         }
 
+        // ── CSAT Repetition Checks ──
+
+        // 1. Banned syllogism entities (stationery items)
+        const bannedSyllogismEntities = ['pens', 'pencils', 'books', 'papers', 'erasers', 'stationery', 'sharpener', 'sharpeners', 'markers'];
+        const syllogismQs = reasoning.filter(q => (q.category === 'syllogism' || !q.category) && q.question?.toLowerCase().includes('all '));
+        let syllogismBanned = 0;
+        for (const q of syllogismQs) {
+            const qLower = q.question.toLowerCase();
+            const found = bannedSyllogismEntities.filter(e => qLower.includes(e));
+            if (found.length > 0) {
+                syllogismBanned++;
+                console.log(`  ${FAIL} Syllogism uses banned stationery entities: ${found.join(', ')} → "${q.question.slice(0, 80)}..."`);
+            }
+        }
+        check(`Syllogism uses diverse entities (not stationery)`, syllogismBanned === 0);
+
+        // 2. Banned decision-making scenario (project manager + deadlines)
+        const bannedDMPatterns = [
+            /project\s*manager/i, /software\s*(team|company|project|development)/i,
+            /team\s*member.*miss.*deadline/i, /miss.*deadline.*team/i,
+            /consistently\s*(miss|late|underperform)/i,
+        ];
+        const dmQs = reasoning.filter(q => q.category === 'decision_making' || (!q.category && q.question?.toLowerCase().includes('course of action')));
+        let dmBanned = 0;
+        for (const q of dmQs) {
+            const matched = bannedDMPatterns.filter(p => p.test(q.question));
+            if (matched.length > 0) {
+                dmBanned++;
+                console.log(`  ${FAIL} Decision Making uses banned "project manager/deadline" scenario → "${q.question.slice(0, 80)}..."`);
+            }
+        }
+        check(`Decision Making uses diverse scenarios (not project manager)`, dmBanned === 0);
+
+        // 3. Comprehension passage topic diversity (two passages must cover different topics)
+        if (comprehension.length >= 2) {
+            const csatStopwords = new Set(['the', 'a', 'an', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or', 'is', 'are', 'was', 'were', 'be', 'been', 'has', 'have', 'had', 'it', 'its', 'by', 'from', 'with', 'as', 'that', 'this', 'not', 'but', 'will', 'can', 'may', 'india', 'indian', 'government']);
+            const getPassageWords = (text: string) => new Set(
+                text.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/)
+                    .filter(w => w.length > 3 && !csatStopwords.has(w))
+            );
+            const p1Words = getPassageWords(comprehension[0].passage?.slice(0, 300) || '');
+            const p2Words = getPassageWords(comprehension[1].passage?.slice(0, 300) || '');
+            let overlap = 0;
+            const p1Arr = Array.from(p1Words);
+            for (const w of p1Arr) { if (p2Words.has(w)) overlap++; }
+            const overlapRatio = p1Words.size > 0 ? overlap / Math.min(p1Words.size, p2Words.size) : 0;
+            if (overlapRatio > 0.5) {
+                console.log(`  ${WARN} Comprehension passages share ${(overlapRatio * 100).toFixed(0)}% word overlap — may be same topic`);
+                console.log(`    P1: "${comprehension[0].passage?.slice(0, 60)}..."`);
+                console.log(`    P2: "${comprehension[1].passage?.slice(0, 60)}..."`);
+            }
+            check(`Comprehension passages cover different topics (${(overlapRatio * 100).toFixed(0)}% overlap)`, overlapRatio <= 0.5, false);
+        }
+
+        // 4. Cross-day CSAT reasoning dedup (past 3 days)
+        const pastCsatReasoning: string[] = [];
+        const pastCompPassages: string[] = [];
+        try {
+            const epaperDir2 = path.join(process.cwd(), 'src', 'data', 'epaper');
+            const pastCsatFiles = require('fs').readdirSync(epaperDir2)
+                .filter((f: string) => f.startsWith('epaper-') && f.endsWith('.json') && f !== 'epaper-index.json' && !f.includes(dateArg))
+                .sort().reverse().slice(0, 3);
+            for (const f of pastCsatFiles) {
+                try {
+                    const d = JSON.parse(readFileSync(path.join(epaperDir2, f), 'utf-8'));
+                    if (d.csatMocks?.reasoning) {
+                        d.csatMocks.reasoning.forEach((q: any) => { if (q.question) pastCsatReasoning.push(q.question); });
+                    }
+                    if (d.csatMocks?.comprehension) {
+                        d.csatMocks.comprehension.forEach((p: any) => { if (p.passage) pastCompPassages.push(p.passage.substring(0, 200)); });
+                    }
+                } catch { continue; }
+            }
+        } catch { /* ignore */ }
+
+        if (pastCsatReasoning.length > 0) {
+            const csatNorm = (s: string) => (s || '').toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim();
+            const csatDups = reasoning.filter(q => {
+                const norm = csatNorm(q.question).substring(0, 60);
+                return norm.length > 20 && pastCsatReasoning.some(p => csatNorm(p).substring(0, 60) === norm);
+            });
+            if (csatDups.length > 0) {
+                console.log(`  ${WARN} ${csatDups.length} CSAT reasoning question(s) repeated from past 3 days:`);
+                csatDups.forEach(q => console.log(`    → ${q.question.substring(0, 80)}...`));
+            }
+            check(`No repeated CSAT reasoning questions (${csatDups.length} repeated)`, csatDups.length === 0, false);
+        }
+
+        // 5. Cross-day comprehension theme dedup
+        if (pastCompPassages.length > 0 && comprehension.length > 0) {
+            const csatStopwords2 = new Set(['the', 'a', 'an', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or', 'is', 'are', 'was', 'were', 'be', 'been', 'has', 'have', 'had', 'it', 'its', 'by', 'from', 'with', 'as', 'that', 'this', 'not', 'but', 'will', 'can', 'may', 'india', 'indian', 'government', 'recent', 'policy', 'country']);
+            const getPassageKW = (text: string) => new Set(
+                text.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/)
+                    .filter(w => w.length > 3 && !csatStopwords2.has(w))
+            );
+            let compThemeDups = 0;
+            for (const cp of comprehension) {
+                const todayKW = getPassageKW(cp.passage?.slice(0, 200) || '');
+                for (const pastP of pastCompPassages) {
+                    const pastKW = getPassageKW(pastP);
+                    let inter = 0;
+                    const todayArr = Array.from(todayKW);
+                    for (const w of todayArr) { if (pastKW.has(w)) inter++; }
+                    const ratio = todayKW.size > 0 ? inter / Math.min(todayKW.size, pastKW.size) : 0;
+                    if (ratio > 0.6) {
+                        compThemeDups++;
+                        console.log(`  ${WARN} Comprehension passage theme is ${(ratio * 100).toFixed(0)}% similar to a past day's passage`);
+                        break;
+                    }
+                }
+            }
+            check(`Comprehension themes differ from past days (${compThemeDups} repeated)`, compThemeDups === 0, false);
+        }
+
         // Total CSAT questions count
         const totalCsatQs = comprehension.reduce((sum, p) => sum + (p.questions?.length || 0), 0) + reasoning.length;
         console.log(`  📊 Total CSAT questions: ${totalCsatQs} (${comprehension.reduce((s, p) => s + (p.questions?.length || 0), 0)} comprehension + ${reasoning.length} reasoning)`);
@@ -580,6 +694,283 @@ async function main(): Promise<void> {
     const triviaCount = articles.filter(a => a.trivia && a.trivia.length > 10).length;
     check(`At least 50% of articles have trivia (${triviaCount}/${articles.length})`, triviaCount >= articles.length * 0.5, false);
     console.log(`  📊 ${triviaCount} articles with trivia out of ${articles.length}`);
+
+    // ── 11b. Factual Accuracy (rule-driven from fact-reference.json) ─────
+    section('11b. FACTUAL ACCURACY');
+
+    const factRefPath = path.join(process.cwd(), 'src', 'data', 'fact-reference.json');
+    let dataModified = false; // Track if we need to save corrected JSON
+    if (existsSync(factRefPath)) {
+        let factRef: any;
+        try {
+            factRef = JSON.parse(readFileSync(factRefPath, 'utf-8'));
+        } catch {
+            console.log(`  ${WARN} Could not parse fact-reference.json — skipping fact checks`);
+            factRef = null;
+        }
+
+        if (factRef && factRef.factCheckRules && factRef.factCheckRules.length > 0) {
+            let factErrors = 0;
+            let factWarnings = 0;
+            let autoFixes = 0;
+            const fcRules = factRef.factCheckRules as any[];
+
+            console.log(`  📋 Loaded ${fcRules.length} rules from fact-reference.json`);
+
+            const getAllArticleText = (a: EpaperArticle) => [
+                a.headline || '', a.explainer || '', a.trivia || '',
+                ...(a.prelimsPoints || []), ...(a.mainsPoints || [])
+            ].join(' ');
+
+            const matchesPattern = (text: string, pattern: string, flags?: string): boolean => {
+                try { return new RegExp(pattern, flags || '').test(text); }
+                catch { return false; }
+            };
+
+            for (const rule of fcRules) {
+                if (rule.scope === 'articles') {
+                    for (let i = 0; i < articles.length; i++) {
+                        const text = getAllArticleText(articles[i]);
+                        if (!matchesPattern(text, rule.detectPattern, rule.detectFlags)) continue;
+                        if (rule.requireAlso && !matchesPattern(text, rule.requireAlso, 'i')) continue;
+                        if (rule.requireAlso2 && !matchesPattern(text, rule.requireAlso2, 'i')) continue;
+                        if (rule.excludeIf && matchesPattern(text, rule.excludeIf, rule.detectFlags)) continue;
+
+                        const icon = rule.severity === 'critical' ? FAIL : WARN;
+                        console.log(`  ${icon} [${rule.id}] Article ${i + 1}: ${rule.issue}`);
+                        if (rule.severity === 'critical') factErrors++;
+                        else factWarnings++;
+
+                        // Auto-fix if rule has autoFix config
+                        if (rule.autoFix) {
+                            const field = rule.autoFix.field as keyof EpaperArticle;
+                            const article = articles[i] as any;
+                            const fieldValue = article[field];
+                            if (typeof fieldValue === 'string') {
+                                try {
+                                    const searchRe = new RegExp(rule.autoFix.searchPattern, rule.autoFix.searchFlags || 'gi');
+                                    if (searchRe.test(fieldValue)) {
+                                        const fixed = fieldValue.replace(new RegExp(rule.autoFix.searchPattern, rule.autoFix.searchFlags || 'gi'), rule.autoFix.replacement);
+                                        article[field] = fixed;
+                                        dataModified = true;
+                                        autoFixes++;
+                                        console.log(`    🔧 Auto-fixed: "${rule.autoFix.searchPattern}" → "${rule.autoFix.replacement}" in article ${i + 1}.${field}`);
+                                    }
+                                } catch { /* skip broken regex */ }
+                            }
+                        }
+                        // Also apply autoFix2 if present (for fixing same error in a second field)
+                        if (rule.autoFix2) {
+                            const field2 = rule.autoFix2.field as keyof EpaperArticle;
+                            const article = articles[i] as any;
+                            const fieldValue2 = article[field2];
+                            if (typeof fieldValue2 === 'string') {
+                                try {
+                                    const searchRe2 = new RegExp(rule.autoFix2.searchPattern, rule.autoFix2.searchFlags || 'gi');
+                                    if (searchRe2.test(fieldValue2)) {
+                                        const fixed2 = fieldValue2.replace(new RegExp(rule.autoFix2.searchPattern, rule.autoFix2.searchFlags || 'gi'), rule.autoFix2.replacement);
+                                        article[field2] = fixed2;
+                                        dataModified = true;
+                                        autoFixes++;
+                                        console.log(`    🔧 Auto-fixed: "${rule.autoFix2.searchPattern}" → "${rule.autoFix2.replacement}" in article ${i + 1}.${field2}`);
+                                    }
+                                } catch { /* skip */ }
+                            }
+                        }
+                    }
+                } else if (rule.scope === 'quickBytes') {
+                    const qbs = epaper.quickBytes || [];
+                    for (let i = 0; i < qbs.length; i++) {
+                        const text = qbs[i].text || '';
+                        if (!matchesPattern(text, rule.detectPattern, rule.detectFlags)) continue;
+                        if (rule.requireAlso && !matchesPattern(text, rule.requireAlso, 'i')) continue;
+                        if (rule.excludeIf && matchesPattern(text, rule.excludeIf, rule.detectFlags)) continue;
+
+                        const icon = rule.severity === 'critical' ? FAIL : WARN;
+                        console.log(`  ${icon} [${rule.id}] Quick Byte ${i + 1}: ${rule.issue}`);
+                        if (rule.severity === 'critical') factErrors++;
+                        else factWarnings++;
+
+                        // Auto-fix Quick Bytes
+                        if (rule.autoFix && rule.autoFix.field === 'text') {
+                            try {
+                                const searchRe = new RegExp(rule.autoFix.searchPattern, rule.autoFix.searchFlags || 'gi');
+                                if (searchRe.test(qbs[i].text)) {
+                                    qbs[i].text = qbs[i].text.replace(new RegExp(rule.autoFix.searchPattern, rule.autoFix.searchFlags || 'gi'), rule.autoFix.replacement);
+                                    dataModified = true;
+                                    autoFixes++;
+                                    console.log(`    🔧 Auto-fixed Quick Byte ${i + 1}`);
+                                }
+                            } catch { /* skip */ }
+                        }
+                    }
+                } else if (rule.scope === 'consistency') {
+                    const field = rule.consistencyField || 'headline';
+                    const extractPattern = rule.consistencyExtract;
+                    if (!extractPattern) continue;
+
+                    const extracted: string[] = [];
+                    for (let i = 0; i < articles.length; i++) {
+                        const a = articles[i] as any;
+                        const fieldsToScan = [a[field] || '', a.explainer || ''];
+                        if (!matchesPattern(fieldsToScan.join(' '), rule.detectPattern, rule.detectFlags)) continue;
+                        for (const t of fieldsToScan) {
+                            try {
+                                const m = t.match(new RegExp(extractPattern, 'i'));
+                                if (m && m[1]) extracted.push(m[1]);
+                            } catch { /* skip */ }
+                        }
+                    }
+                    if (extracted.length > 1) {
+                        const unique = [...new Set(extracted)];
+                        if (unique.length > 1) {
+                            console.log(`  ${WARN} [${rule.id}] ${rule.issue}: ${unique.join(' vs ')}`);
+                            factWarnings++;
+                        }
+                    }
+                }
+            }
+
+            // Summary
+            if (factErrors === 0 && factWarnings === 0) {
+                check(`All ${fcRules.length} fact-check rules passed`, true);
+            } else {
+                if (factErrors > 0) {
+                    check(`No critical factual errors (${factErrors} found)`, false, true);
+                }
+                if (factWarnings > 0) {
+                    check(`No factual warnings (${factWarnings} found)`, false, false);
+                }
+            }
+
+            console.log(`  📊 Fact-check: ${factErrors} error(s), ${factWarnings} warning(s), ${autoFixes} auto-fix(es) across ${fcRules.length} rules`);
+        } else {
+            console.log(`  ${WARN} No factCheckRules found in fact-reference.json — skipping`);
+            warnings++;
+        }
+    } else {
+        console.log(`  ${WARN} fact-reference.json not found — skipping fact-check section`);
+        warnings++;
+    }
+
+    // ── 11c. TRIVIA DEDUPLICATION ─────────────────────────────────────────
+    section('11c. TRIVIA DEDUPLICATION');
+
+    const triviaTexts = articles.map(a => (a.trivia || '').toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim().substring(0, 60));
+    const triviaSeen = new Map<string, number>();
+    let triviaDuplicateCount = 0;
+    const triviaIndicesToClear: number[] = [];
+    for (let i = 0; i < triviaTexts.length; i++) {
+        const t = triviaTexts[i];
+        if (t.length < 10) continue;
+        if (triviaSeen.has(t)) {
+            triviaDuplicateCount++;
+            triviaIndicesToClear.push(i);
+            console.log(`  ${WARN} Trivia duplicate: article ${i + 1} repeats article ${triviaSeen.get(t)! + 1}: "${articles[i].trivia?.slice(0, 60)}..."`);
+        } else {
+            triviaSeen.set(t, i);
+        }
+    }
+
+    // Also check for near-duplicate trivia (word overlap > 70%)
+    const triviaStopwords = new Set(['the', 'a', 'an', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or', 'is', 'are', 'was', 'were', 'be', 'been', 'has', 'have', 'had', 'it', 'its', 'by', 'from', 'with', 'as', 'that', 'this', 'not', 'but', 'will', 'can', 'may', 'india', 'indian']);
+    const getTriviaWords = (text: string) => new Set(
+        text.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/)
+            .filter(w => w.length > 3 && !triviaStopwords.has(w))
+    );
+    for (let i = 0; i < articles.length; i++) {
+        if (!articles[i].trivia || triviaIndicesToClear.includes(i)) continue;
+        const wordsI = getTriviaWords(articles[i].trivia!);
+        for (let j = i + 1; j < articles.length; j++) {
+            if (!articles[j].trivia || triviaIndicesToClear.includes(j)) continue;
+            const wordsJ = getTriviaWords(articles[j].trivia!);
+            let inter = 0;
+            const iArr = Array.from(wordsI);
+            for (const w of iArr) { if (wordsJ.has(w)) inter++; }
+            const ratio = wordsI.size > 0 ? inter / Math.min(wordsI.size, wordsJ.size) : 0;
+            if (ratio > 0.7) {
+                triviaDuplicateCount++;
+                triviaIndicesToClear.push(j);
+                console.log(`  ${WARN} Near-duplicate trivia (${(ratio * 100).toFixed(0)}%): article ${j + 1} ≈ article ${i + 1}`);
+                console.log(`    "${articles[i].trivia?.slice(0, 50)}..." vs "${articles[j].trivia?.slice(0, 50)}..."`);
+            }
+        }
+    }
+
+    // Auto-clear duplicate trivia (keep first occurrence)
+    if (triviaIndicesToClear.length > 0) {
+        console.log(`  🔧 Clearing ${triviaIndicesToClear.length} duplicate trivia entries`);
+        for (const idx of triviaIndicesToClear) {
+            articles[idx].trivia = '';
+        }
+        dataModified = true;
+    }
+
+    check(`No duplicate trivia facts (${triviaDuplicateCount} duplicates)`, triviaDuplicateCount === 0, false);
+
+    // ── 11d. QUICK BYTES DEDUPLICATION ────────────────────────────────────
+    section('11d. QUICK BYTES DEDUPLICATION');
+
+    const qbList = epaper.quickBytes || [];
+    const qbNormTexts = qbList.map(q => q.text.toLowerCase().replace(/[^a-z0-9 ]/g, '').replace(/\s+/g, ' ').trim().substring(0, 60));
+    const qbSeen = new Map<string, number>();
+    let qbDupCount = 0;
+    const qbIndicesToRemove: number[] = [];
+    for (let i = 0; i < qbNormTexts.length; i++) {
+        const t = qbNormTexts[i];
+        if (t.length < 10) continue;
+        if (qbSeen.has(t)) {
+            qbDupCount++;
+            qbIndicesToRemove.push(i);
+            console.log(`  ${WARN} Quick Byte duplicate: #${i + 1} repeats #${qbSeen.get(t)! + 1}: "${qbList[i].text.slice(0, 60)}..."`);
+        } else {
+            qbSeen.set(t, i);
+        }
+    }
+
+    // Near-duplicate Quick Bytes
+    const getQBWords = (text: string) => new Set(
+        text.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/)
+            .filter(w => w.length > 3 && !triviaStopwords.has(w))
+    );
+    for (let i = 0; i < qbList.length; i++) {
+        if (qbIndicesToRemove.includes(i)) continue;
+        const wordsI = getQBWords(qbList[i].text);
+        for (let j = i + 1; j < qbList.length; j++) {
+            if (qbIndicesToRemove.includes(j)) continue;
+            const wordsJ = getQBWords(qbList[j].text);
+            let inter = 0;
+            const iArr = Array.from(wordsI);
+            for (const w of iArr) { if (wordsJ.has(w)) inter++; }
+            const ratio = wordsI.size > 0 ? inter / Math.min(wordsI.size, wordsJ.size) : 0;
+            if (ratio > 0.7) {
+                qbDupCount++;
+                qbIndicesToRemove.push(j);
+                console.log(`  ${WARN} Near-duplicate Quick Byte (${(ratio * 100).toFixed(0)}%): #${j + 1} ≈ #${i + 1}`);
+            }
+        }
+    }
+
+    // Remove duplicate Quick Bytes from data
+    if (qbIndicesToRemove.length > 0) {
+        console.log(`  🔧 Removing ${qbIndicesToRemove.length} duplicate Quick Byte(s)`);
+        const removeSet = new Set(qbIndicesToRemove);
+        epaper.quickBytes = qbList.filter((_: any, i: number) => !removeSet.has(i));
+        dataModified = true;
+    }
+
+    check(`No duplicate Quick Bytes (${qbDupCount} duplicates)`, qbDupCount === 0, false);
+
+    // Save corrected data if any auto-fixes or dedup were applied
+    if (dataModified) {
+        try {
+            const { writeFileSync } = require('fs');
+            writeFileSync(filePath, JSON.stringify(epaper, null, 2));
+            console.log(`  🔧 Saved corrected ePaper data to ${filePath}`);
+        } catch (e: any) {
+            console.log(`  ${WARN} Could not save corrected data: ${e.message}`);
+        }
+    }
 
     // ── 12. Sources ─────────────────────────────────────────────────────
     section('12. SOURCES');
@@ -903,7 +1294,7 @@ async function main(): Promise<void> {
         // ── Generate test PDF and check size ──
         console.log('  ── PDF Generation ──');
         await page.emulateMediaType('print');
-        const pdf = await page.pdf({ format: 'A4', printBackground: true, margin: { top: '0', right: '0', bottom: '0', left: '0' } });
+        const pdf = await page.pdf({ format: 'A4', printBackground: true, margin: { top: '0', right: '0', bottom: '0', left: '0' }, timeout: 60000 });
         const pdfSizeMB = (pdf.length / 1024 / 1024).toFixed(2);
         check(`  PDF generates successfully (${pdfSizeMB} MB)`, pdf.length > 100000);
         check(`  PDF size reasonable (<3 MB)`, pdf.length < 3 * 1024 * 1024, false);
@@ -972,6 +1363,134 @@ async function main(): Promise<void> {
     const todayPdfPath = path.join('/tmp', `CurrentIAS_ePaper_${dateArg}_validate.pdf`);
     // (PDF is already cleaned up during layout check, so we just note if layout passed)
     check(`Layout & PDF pipeline healthy`, layoutPassed || !serverUp, false);
+
+    // ── 17. TOPIC DIVERSITY (within-day) ─────────────────────────────────────
+    section('17. TOPIC DIVERSITY (within-day)');
+
+    const TOPIC_STOPWORDS = new Set([
+        'the', 'a', 'an', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or', 'is',
+        'are', 'was', 'were', 'be', 'been', 'has', 'have', 'had', 'it', 'its',
+        'by', 'from', 'with', 'as', 'that', 'this', 'not', 'but', 'will', 'can',
+        'may', 'over', 'says', 'said', 'new', 'after', 'amid', 'amidst', 'under',
+        'into', 'about', 'between', 'more', 'also', 'how', 'why', 'what', 'who',
+        'india', 'indian', 'government', 'centre', 'state', 'country', 'national',
+    ]);
+
+    function getSignificantWords(title: string): Set<string> {
+        return new Set(
+            title.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/)
+                .filter(w => w.length > 2 && !TOPIC_STOPWORDS.has(w))
+        );
+    }
+
+    function jaccardSim(a: Set<string>, b: Set<string>): number {
+        if (a.size === 0 || b.size === 0) return 0;
+        let inter = 0;
+        const aArr = Array.from(a);
+        for (const w of aArr) { if (b.has(w)) inter++; }
+        const union = a.size + b.size - inter;
+        return union === 0 ? 0 : inter / union;
+    }
+
+    // Group articles into topic clusters using headline similarity
+    const headlineWordSets = articles.map(a => getSignificantWords(a.headline));
+    const topicClusterIds = articles.map((_: any, i: number) => i);
+
+    function findCluster(i: number): number {
+        while (topicClusterIds[i] !== i) { topicClusterIds[i] = topicClusterIds[topicClusterIds[i]]; i = topicClusterIds[i]; }
+        return i;
+    }
+
+    for (let i = 0; i < articles.length; i++) {
+        for (let j = i + 1; j < articles.length; j++) {
+            if (jaccardSim(headlineWordSets[i], headlineWordSets[j]) >= 0.4) {
+                const rootI = findCluster(i);
+                const rootJ = findCluster(j);
+                if (rootI !== rootJ) topicClusterIds[rootJ] = rootI;
+            }
+        }
+    }
+
+    const topicClusters = new Map<number, number[]>();
+    for (let i = 0; i < articles.length; i++) {
+        const root = findCluster(i);
+        if (!topicClusters.has(root)) topicClusters.set(root, []);
+        topicClusters.get(root)!.push(i);
+    }
+
+    let oversizedClusters = 0;
+    for (const entry of Array.from(topicClusters.entries())) {
+        const indices = entry[1];
+        if (indices.length > 2) {
+            oversizedClusters++;
+            const topicHeadlines = indices.map((i: number) => `"${articles[i].headline.slice(0, 60)}"`);
+            console.log(`  ${FAIL} Topic cluster with ${indices.length} articles (max 2):`);
+            topicHeadlines.forEach((h: string) => console.log(`    → ${h}`));
+        }
+    }
+
+    if (oversizedClusters === 0) {
+        console.log(`  ${PASS} No topic has more than 2 articles — good diversity`);
+    }
+    check(`No topic has >2 articles (${oversizedClusters} oversized clusters)`, oversizedClusters === 0);
+
+    // Count unique topic clusters
+    const uniqueTopics = topicClusters.size;
+    console.log(`  📊 Unique topics covered: ${uniqueTopics} (from ${articles.length} articles)`);
+    check(`At least 10 distinct topics (got ${uniqueTopics})`, uniqueTopics >= 10, false);
+
+    // ── 18. CROSS-DAY FRESHNESS ─────────────────────────────────────────────
+    section('18. CROSS-DAY FRESHNESS');
+
+    const yesterdayDate = new Date();
+    yesterdayDate.setDate(yesterdayDate.getDate() - 1);
+    const yesterdayDateStr = yesterdayDate.toISOString().split('T')[0];
+    const yesterdayPath = path.join(dataDir, `epaper-${yesterdayDateStr}.json`);
+
+    if (existsSync(yesterdayPath)) {
+        try {
+            const yesterdayEpaper = JSON.parse(readFileSync(yesterdayPath, 'utf-8'));
+            const yesterdayUrls = new Set((yesterdayEpaper.articles || []).map((a: any) => a.sourceUrl).filter(Boolean));
+            const yesterdayHeadlines: string[] = (yesterdayEpaper.articles || []).map((a: any) => a.headline || '');
+
+            // Check for repeated source URLs
+            const repeatedUrls = articles.filter(a => yesterdayUrls.has(a.sourceUrl));
+            if (repeatedUrls.length > 0) {
+                console.log(`  ${WARN} ${repeatedUrls.length} article(s) share source URLs with yesterday:`);
+                repeatedUrls.forEach(a => console.log(`    → ${a.headline.slice(0, 60)}`));
+            }
+            check(`No repeated source URLs from yesterday (${repeatedUrls.length} shared)`, repeatedUrls.length === 0, false);
+
+            // Check if lead article topic matches yesterday's lead
+            const todayLeadWords = getSignificantWords(articles[0]?.headline || '');
+            const yesterdayLeadWords = getSignificantWords(yesterdayHeadlines[0] || '');
+            const leadSimilarity = jaccardSim(todayLeadWords, yesterdayLeadWords);
+            if (leadSimilarity > 0.5) {
+                console.log(`  ${FAIL} Lead article is ${(leadSimilarity * 100).toFixed(0)}% similar to yesterday's lead:`);
+                console.log(`    Today:     "${articles[0]?.headline?.slice(0, 70)}"`);
+                console.log(`    Yesterday: "${yesterdayHeadlines[0]?.slice(0, 70)}"`);
+            }
+            check(`Lead article differs from yesterday (${(leadSimilarity * 100).toFixed(0)}% similar)`, leadSimilarity <= 0.5);
+
+            // Check overall overlap
+            const yesterdayWordSets = yesterdayHeadlines.map(h => getSignificantWords(h));
+            let crossDayMatches = 0;
+            for (const a of articles) {
+                const words = getSignificantWords(a.headline);
+                for (const yWords of yesterdayWordSets) {
+                    if (jaccardSim(words, yWords) > 0.6) { crossDayMatches++; break; }
+                }
+            }
+            console.log(`  📊 ${crossDayMatches}/${articles.length} articles are similar to yesterday's content`);
+            check(`Less than 20% articles overlap with yesterday (${crossDayMatches}/${articles.length})`, crossDayMatches / articles.length < 0.2, false);
+
+        } catch (e: any) {
+            console.log(`  ${WARN} Could not parse yesterday's ePaper: ${e.message}`);
+            warnings++;
+        }
+    } else {
+        console.log(`  📋 No yesterday's ePaper found (${yesterdayDateStr}) — skipping cross-day checks`);
+    }
 
     // ── Summary ─────────────────────────────────────────────────────────────
     console.log(`\n${'═'.repeat(60)}`);

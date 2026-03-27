@@ -361,3 +361,153 @@ h6 {
     text-align: left;
   }
 }
+
+/* ═══════════════════════════════════════════════════════════════════════════
+   PRICING PAGE — High-converting, "Netflix of UPSC Tests" layout
+   ═══════════════════════════════════════════════════════════════════════════ */
+
+/* Gold accent for pricing */
+.gold-gradient {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 50%, #B45309 100%);
+}
+
+.gold-text {
+  background: linear-gradient(135deg, #F59E0B, #EAB308, #D97706);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Featured card glow */
+.pricing-featured-card {
+  position: relative;
+  border: 2px solid #F59E0B;
+  box-shadow: 0 0 40px rgba(245, 158, 11, 0.15), 0 20px 60px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+}
+
+.pricing-featured-card:hover {
+  box-shadow: 0 0 60px rgba(245, 158, 11, 0.25), 0 25px 70px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+.dark .pricing-featured-card {
+  box-shadow: 0 0 40px rgba(245, 158, 11, 0.1), 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+/* Pricing card base */
+.pricing-card {
+  border: 1px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+/* Comparison table */
+.comparison-table tr:nth-child(even) {
+  background: var(--bg-secondary);
+}
+
+.comparison-table td,
+.comparison-table th {
+  padding: 0.875rem 1.25rem;
+}
+
+/* Urgency badge */
+.urgency-badge {
+  animation: urgencyPulse 2.5s ease-in-out infinite;
+}
+
+@keyframes urgencyPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+/* Star rating */
+.star-filled {
+  color: #F59E0B;
+}
+
+/* Price strikethrough */
+.price-strike {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+/* Testimonial card */
+.testimonial-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.testimonial-card:hover {
+  box-shadow: 0 8px 30px var(--shadow-color);
+  transform: translateY(-2px);
+}
+
+/* Button styles for pricing */
+.btn-gold {
+  background: linear-gradient(135deg, #F59E0B 0%, #D97706 100%);
+  color: white;
+  font-weight: 700;
+  padding: 0.875rem 2rem;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.3);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.btn-gold:hover {
+  box-shadow: 0 6px 25px rgba(245, 158, 11, 0.45);
+  transform: translateY(-2px);
+}
+
+.btn-gold:active {
+  transform: translateY(0);
+}
+
+/* Pricing grid responsive */
+@media (max-width: 768px) {
+  .pricing-grid-3 {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* Shimmer animation for featured badge */
+.shimmer {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  animation: shimmerSlide 3s infinite;
+}
+
+@keyframes shimmerSlide {
+  0% { left: -100%; }
+  100% { left: 200%; }
+}

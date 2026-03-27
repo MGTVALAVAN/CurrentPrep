@@ -1,10 +1,117 @@
-import { writeFileSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync } from 'fs';
+import path from 'path';
 import { generateDailyEpaper } from '../src/lib/epaper-generator';
 import { scrapeEpaperSources, type RawEpaperArticle, fetchArticleFullText } from '../src/lib/epaper-scraper';
 import { saveEpaper } from '../src/lib/epaper-store';
 import dotenv from 'dotenv';
 dotenv.config({ path: '.env.local' });
 dotenv.config({ path: '.env' });
+
+// ---------------------------------------------------------------------------
+// Cross-day dedup helpers
+// ---------------------------------------------------------------------------
+
+interface YesterdayData {
+    urls: Set<string>;
+    headlines: string[];
+    leadTheme: string;
+}
+
+function loadYesterdayEpaper(): YesterdayData | null {
+    try {
+        const yesterday = new Date();
+        yesterday.setDate(yesterday.getDate() - 1);
+        const yDate = yesterday.toISOString().split('T')[0];
+
+        const filePath = path.join(process.cwd(), 'src', 'data', 'epaper', `epaper-${yDate}.json`);
+        if (!existsSync(filePath)) return null;
+
+        const data = JSON.parse(readFileSync(filePath, 'utf-8'));
+        const urls = new Set<string>(
+            (data.articles || []).map((a: any) => a.sourceUrl).filter(Boolean)
+        );
+        const headlines: string[] = (data.articles || []).map((a: any) => a.headline || '');
+
+        // Try to determine yesterday's lead theme from the manifest
+        let leadTheme = '';
+        try {
+            const manifestPath = path.join(process.cwd(), 'generation_manifest.json');
+            if (existsSync(manifestPath)) {
+                const manifest = JSON.parse(readFileSync(manifestPath, 'utf-8'));
+                leadTheme = manifest.masterLeadTheme || '';
+            }
+        } catch { /* ignore */ }
+
+        // Also infer lead theme from first article's category/tags
+        if (!leadTheme && data.articles?.length > 0) {
+            leadTheme = data.articles[0].headline || '';
+        }
+
+        console.log(`[cross-day] Loaded yesterday's ePaper (${yDate}): ${urls.size} URLs, ${headlines.length} articles, lead="${leadTheme.slice(0, 50)}"`);
+        return { urls, headlines, leadTheme };
+    } catch (err: any) {
+        console.log(`[cross-day] Could not load yesterday's ePaper: ${err.message}`);
+        return null;
+    }
+}
+
+const CROSS_DAY_STOPWORDS = new Set([
+    'the', 'a', 'an', 'in', 'on', 'at', 'to', 'for', 'of', 'and', 'or', 'is',
+    'are', 'was', 'were', 'be', 'been', 'has', 'have', 'had', 'it', 'its',
+    'by', 'from', 'with', 'as', 'that', 'this', 'not', 'but', 'will', 'can',
+    'may', 'over', 'says', 'said', 'new', 'after', 'amid', 'amidst', 'under',
+    'into', 'about', 'between', 'more', 'also', 'how', 'why', 'what', 'who',
+    'india', 'indian', 'government', 'centre', 'state', 'country', 'national',
+]);
+
+function getWords(text: string): Set<string> {
+    return new Set(
+        text.toLowerCase().replace(/[^a-z0-9\s]/g, '').split(/\s+/)
+            .filter(w => w.length > 2 && !CROSS_DAY_STOPWORDS.has(w))
+    );
+}
+
+function wordOverlap(a: Set<string>, b: Set<string>): number {
+    if (a.size === 0 || b.size === 0) return 0;
+    let inter = 0;
+    for (const w of a) { if (b.has(w)) inter++; }
+    return inter / Math.min(a.size, b.size);
+}
+
+function filterCrossDayDuplicates(
+    articles: RawEpaperArticle[],
+    yesterday: YesterdayData
+): RawEpaperArticle[] {
+    const yesterdayWordSets = yesterday.headlines.map(h => getWords(h));
+    let urlDropped = 0;
+    let semanticDropped = 0;
+
+    const result = articles.filter(a => {
+        // Exact URL match → remove
+        if (yesterday.urls.has(a.link)) {
+            urlDropped++;
+            return false;
+        }
+
+        // Semantic headline similarity → remove if >65% overlap with any yesterday headline
+        const titleWords = getWords(a.title);
+        for (const yWords of yesterdayWordSets) {
+            if (wordOverlap(titleWords, yWords) > 0.65) {
+                semanticDropped++;
+                console.log(`[cross-day] Dropping "${a.title.slice(0, 70)}" (similar to yesterday)`);
+                return false;
+            }
+        }
+
+        return true;
+    });
+
+    if (urlDropped > 0 || semanticDropped > 0) {
+        console.log(`[cross-day] Removed ${urlDropped} exact URL matches + ${semanticDropped} semantically similar articles`);
+        console.log(`[cross-day] ${result.length} articles remain after cross-day dedup`);
+    }
+    return result;
+}
 
 async function main() {
     const apiKey = process.env.GEMINI_API_KEY;
@@ -22,6 +129,12 @@ async function main() {
     if (rawScrapedArticles.length === 0) {
         console.error("No articles scraped. Exiting.");
         process.exit(1);
+    }
+
+    // 1b. Cross-day deduplication — remove articles already in yesterday's ePaper
+    const yesterday = loadYesterdayEpaper();
+    if (yesterday) {
+        rawScrapedArticles = filterCrossDayDuplicates(rawScrapedArticles, yesterday);
     }
 
     // 2. Dynamic Clustering to find the Master Lead "Critical Mass"
@@ -52,7 +165,18 @@ async function main() {
 
     // Sort themes by frequency to find the "critical mass" story
     themeCounts.sort((a, b) => b.count - a.count);
-    const dominantTheme = themeCounts[0];
+    let dominantTheme = themeCounts[0];
+
+    // Cross-day lead prevention: if the dominant theme is the same as yesterday's,
+    // try to use the second-most-frequent theme instead
+    if (yesterday && dominantTheme.count > 2) {
+        const yesterdayLeadWords = getWords(yesterday.leadTheme);
+        const dominantWords = getWords(dominantTheme.name);
+        if (wordOverlap(dominantWords, yesterdayLeadWords) > 0.5 && themeCounts.length > 1 && themeCounts[1].count > 2) {
+            console.log(`[cross-day] Lead theme "${dominantTheme.name}" is same as yesterday — switching to "${themeCounts[1].name}"`);
+            dominantTheme = themeCounts[1];
+        }
+    }
 
     let leadArticles: RawEpaperArticle[] = [];
     let otherArticles: RawEpaperArticle[] = [];

@@ -626,11 +626,11 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                     {(() => {
                                         const dayNum = parseInt(date.split('-')[2]) || 1;
                                         const DS_FALLBACKS = [
-                                            { label: 'INDIA GDP (2024-25)', value: '₹324 Lakh Cr', context: 'India is the 5th largest economy globally by nominal GDP and 3rd by PPP.' },
-                                            { label: 'FOREX RESERVES', value: '$642 Bn', context: 'India holds the 4th largest forex reserves globally, providing import cover.' },
+                                            { label: 'INDIA GDP (2024-25)', value: '₹330.68 Lakh Cr', context: 'India is the 5th largest economy globally by nominal GDP and 3rd by PPP.' },
+                                            { label: 'FOREX RESERVES', value: '$640+ Bn', context: 'India holds the 4th largest forex reserves globally, providing import cover.' },
                                             { label: 'INDIA POPULATION', value: '1.44 Bn', context: 'India became the most populous country in 2023, overtaking China.' },
-                                            { label: 'FISCAL DEFICIT TARGET', value: '4.9%', context: 'Union Budget 2024-25 targets fiscal deficit at 4.9% of GDP.' },
-                                            { label: 'LITERACY RATE', value: '77.7%', context: 'the literacy rate of India has improved significantly from 12% at independence.' },
+                                            { label: 'FISCAL DEFICIT TARGET', value: '4.4%', context: 'Union Budget 2025-26 targets fiscal deficit at 4.4% of GDP.' },
+                                            { label: 'LITERACY RATE', value: '77.7%', context: 'India\'s literacy rate has improved significantly from 12% at independence.' },
                                             { label: 'FDI INFLOWS', value: '$84.8 Bn', context: 'India ranks among the top 3 FDI destinations among emerging economies.' },
                                             { label: 'GST COLLECTION', value: '₹1.87 Lakh Cr', context: 'Monthly GST collections crossed ₹1.87 lakh crore, reflecting economic buoyancy.' },
                                         ];
@@ -659,10 +659,10 @@ export default function EpaperPrintView({ date }: { date: string }) {
                                                 title: 'INDIA — ECONOMIC SNAPSHOT',
                                                 source: 'Economic Survey 2024-25 / RBI',
                                                 items: [
-                                                    { metric: 'GDP Growth Rate', value: '6.5%', detail: 'FY 2024-25 (Advance Est.)' },
-                                                    { metric: 'Per Capita Income', value: '₹2.36L', detail: 'FY 2024-25' },
-                                                    { metric: 'Inflation (CPI)', value: '4.9%', detail: 'FY 2024-25 Average' },
-                                                    { metric: 'Repo Rate', value: '6.50%', detail: 'RBI Policy Rate' },
+                                                    { metric: 'GDP Growth Rate', value: '6.5%', detail: 'FY 2024-25 (Prov. Est.)' },
+                                                    { metric: 'GDP Per Capita', value: '₹2.36L', detail: 'FY 2024-25 (Nominal)' },
+                                                    { metric: 'Inflation (CPI)', value: '4.95%', detail: 'FY 2024-25 Average' },
+                                                    { metric: 'Repo Rate', value: '6.00%', detail: 'RBI Policy Rate (Feb 2026)' },
                                                 ],
                                             },
                                             {

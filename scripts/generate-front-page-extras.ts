@@ -85,6 +85,8 @@ Return ONLY a valid JSON object (no markdown, no code fences):
 
     const onThisDayPrompt = `What is the single most notable historical event that happened on ${dateLabel} (any year) that is most relevant to UPSC Civil Services Exam preparation?
 
+The event MUST have actually occurred on ${dateLabel}. Do NOT pick events from other dates.
+
 Priority topics (in order):
 1. Indian independence movement / freedom struggle
 2. Indian constitutional history
@@ -93,19 +95,46 @@ Priority topics (in order):
 5. International events with significance for Indian history
 
 Requirements:
-- Must be a REAL, verified historical fact
+- Must be a REAL, verified historical fact that actually happened on ${dateLabel}
 - Should be highly relevant to UPSC Prelims/Mains
 - Pick ONE event that is most impactful and examworthy
+- Do NOT return the example below — pick an event specific to ${dateLabel}
 
 Return ONLY a valid JSON object (no markdown, no code fences):
-{"year": 1931, "event": "Bhagat Singh, Sukhdev Thapar, and Shivaram Rajguru were executed by British colonial authorities in Lahore Central Jail."}`;
+{"year": 1950, "event": "Description of the historical event that happened on this specific date."}`;
 
     let onThisDay: { year: number; event: string } | undefined;
     try {
         const raw = await callGemini(onThisDayPrompt);
-        const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
-        onThisDay = JSON.parse(cleaned);
-        console.log(`  ✅ ${onThisDay!.year}: ${onThisDay!.event}`);
+        let cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+        // Normalize: replace newlines, smart quotes, and excessive whitespace
+        cleaned = cleaned.replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"');
+        cleaned = cleaned.replace(/\n/g, ' ').replace(/\s+/g, ' ');
+
+        let parsed: any = null;
+        try {
+            // Try direct parse first
+            const jsonMatch = cleaned.match(/\{[^}]*"year"\s*:\s*\d+[^}]*\}/);
+            if (jsonMatch) parsed = JSON.parse(jsonMatch[0]);
+            else parsed = JSON.parse(cleaned);
+        } catch {
+            // Fallback: manually extract year and event via regex
+            const yearMatch = cleaned.match(/"year"\s*:\s*(\d+)/);
+            const eventMatch = cleaned.match(/"event"\s*:\s*"([^"]+)/);
+            if (yearMatch && eventMatch) {
+                parsed = { year: parseInt(yearMatch[1]), event: eventMatch[1] };
+                console.log('  ℹ️ Used regex fallback for JSON extraction');
+            } else {
+                console.log(`  ⚠️ Could not parse AI response: ${cleaned.substring(0, 200)}`);
+            }
+        }
+
+        if (parsed && parsed.event && !parsed.event.includes('Description of the historical event') && parsed.year > 0) {
+            onThisDay = parsed;
+            console.log(`  ✅ ${onThisDay!.year}: ${onThisDay!.event}`);
+        } else if (parsed) {
+            console.log('  ⚠️ AI returned invalid/example text — discarding');
+        }
     } catch (e: any) {
         console.log(`  ❌ Failed: ${e.message}`);
     }
@@ -161,10 +190,10 @@ Return ONLY valid JSON (no markdown, no code fences):
     // Fallback: use meaningful UPSC-relevant stats, not syllabus codes
     if (!dataSnapshot) {
         const STAT_FALLBACKS = [
-            { label: 'INDIA GDP (2024-25)', value: '₹324 Lakh Cr', context: 'India is the 5th largest economy globally by nominal GDP and 3rd by PPP.' },
-            { label: 'FOREX RESERVES', value: '$642 Bn', context: 'India holds the 4th largest forex reserves globally, providing import cover.' },
+            { label: 'INDIA GDP (2024-25)', value: '₹330.68 Lakh Cr', context: 'India is the 5th largest economy globally by nominal GDP and 3rd by PPP.' },
+            { label: 'FOREX RESERVES', value: '$640+ Bn', context: 'India holds the 4th largest forex reserves globally, providing import cover.' },
             { label: 'INDIA POPULATION', value: '1.44 Bn', context: 'India became the most populous country in 2023, overtaking China.' },
-            { label: 'FISCAL DEFICIT TARGET', value: '4.9%', context: 'Union Budget 2024-25 targets fiscal deficit at 4.9% of GDP.' },
+            { label: 'FISCAL DEFICIT TARGET', value: '4.4%', context: 'Union Budget 2025-26 targets fiscal deficit at 4.4% of GDP.' },
             { label: 'LITERACY RATE', value: '77.7%', context: 'India\'s literacy rate has improved significantly from 12% at independence.' },
         ];
         const dayIdx = parseInt(dateArg.split('-')[2]) || 1;

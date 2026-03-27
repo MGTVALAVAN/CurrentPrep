@@ -1,0 +1,222 @@
+{
+  "_meta": {
+    "description": "Ground truth reference data + rule-based fact-check patterns. Add new rules to 'factCheckRules' to catch new AI mistakes. No code changes needed.",
+    "lastUpdated": "2026-03-26",
+    "updatedBy": "manual"
+  },
+
+  "currentLeaders": {
+    "india": {
+      "president": { "name": "Droupadi Murmu", "since": "2022-07-25" },
+      "primeMinister": { "name": "Narendra Modi", "since": "2014-05-26", "note": "3rd term since June 2024" },
+      "chiefJustice": { "name": "Check CJI roster — changes frequently", "note": "Verify before use" },
+      "rbiGovernor": { "name": "Sanjay Malhotra", "since": "2024-12-11" },
+      "chiefElectionCommissioner": { "name": "Check roster — changes frequently", "note": "Verify before use" }
+    },
+    "world": {
+      "usPresident": { "name": "Donald Trump", "since": "2025-01-20", "note": "Serving second term (47th President). Do NOT call him 'former' president." },
+      "unSecretaryGeneral": { "name": "António Guterres", "since": "2017-01-01" },
+      "chinaPresident": { "name": "Xi Jinping", "since": "2013-03-14" },
+      "ukPrimeMinister": { "name": "Keir Starmer", "since": "2024-07-05" }
+    }
+  },
+
+  "economicData": {
+    "rbiRepoRate": {
+      "value": "6.00%",
+      "asOf": "2026-02-07",
+      "note": "RBI cut repo rate by 25 bps in Feb 2026 MPC meeting."
+    },
+    "gdpNominal": {
+      "value": "₹330.68 Lakh Crore",
+      "fiscalYear": "2024-25",
+      "estimate": "Second Advance Estimate (Feb 2025)",
+      "note": "First Advance Estimate was ₹324.11 Lakh Cr. Use the latest available estimate."
+    },
+    "gdpGrowthRate": {
+      "value": "6.5%",
+      "fiscalYear": "2024-25",
+      "estimate": "Provisional Estimate",
+      "note": "Do NOT label as 'Advance Estimate'."
+    },
+    "perCapitaIncome": {
+      "gdpPerCapita": "₹2.36 Lakh",
+      "nniPerCapita": "₹1.15 Lakh",
+      "fiscalYear": "2024-25",
+      "note": "'Per Capita Income' conventionally refers to NNI per capita (₹1.15L), NOT GDP per capita (₹2.36L)."
+    },
+    "cpiInflation": {
+      "fyAverage": "4.95%",
+      "fiscalYear": "2024-25"
+    },
+    "fiscalDeficit": {
+      "value": "4.9% of GDP",
+      "fiscalYear": "2024-25",
+      "budgetTarget2526": "4.4% of GDP"
+    },
+    "forexReserves": {
+      "value": "$640+ Bn",
+      "note": "Fluctuates weekly."
+    }
+  },
+
+  "factCheckRules": [
+    {
+      "id": "trump-former-president",
+      "severity": "critical",
+      "scope": "articles",
+      "detectPattern": "former\\s+(us\\s+)?president\\s+(donald\\s+)?trump",
+      "detectFlags": "i",
+      "issue": "Trump called 'former president' — he is the incumbent 47th President (2nd term since Jan 2025)",
+      "correction": "US President Trump / President Donald Trump",
+      "autoFix": {
+        "field": "explainer",
+        "searchPattern": "former (US |us )?[Pp]resident (Donald )?Trump",
+        "searchFlags": "gi",
+        "replacement": "US President Trump"
+      },
+      "autoFix2": {
+        "field": "trivia",
+        "searchPattern": "former (US |us )?[Pp]resident (Donald )?Trump",
+        "searchFlags": "gi",
+        "replacement": "US President Trump"
+      }
+    },
+    {
+      "id": "trump-former-president-2",
+      "severity": "critical",
+      "scope": "articles",
+      "detectPattern": "former\\s+president\\s+donald\\s+trump",
+      "detectFlags": "i",
+      "issue": "Trump called 'former president' — he is the incumbent 47th President",
+      "correction": "President Donald Trump",
+      "autoFix": {
+        "field": "explainer",
+        "searchPattern": "former President Donald Trump",
+        "searchFlags": "gi",
+        "replacement": "President Donald Trump"
+      },
+      "autoFix2": {
+        "field": "trivia",
+        "searchPattern": "former President Donald Trump",
+        "searchFlags": "gi",
+        "replacement": "President Donald Trump"
+      }
+    },
+    {
+      "id": "paris-agreement-first-ratify",
+      "severity": "critical",
+      "scope": "articles",
+      "detectPattern": "india\\s+was\\s+the\\s+first\\s+(country\\s+)?to\\s+ratif",
+      "detectFlags": "i",
+      "issue": "False claim: 'India was first to ratify the Paris Agreement' — India was the 62nd country (Oct 2, 2016)",
+      "correction": "India ratified the Paris Agreement on October 2, 2016, becoming the 62nd country to do so.",
+      "autoFix": {
+        "field": "trivia",
+        "searchPattern": "India was the first[^.]*ratif[^.]*\\.",
+        "searchFlags": "i",
+        "replacement": "India ratified the Paris Agreement on October 2, 2016 (Gandhi Jayanti), becoming the 62nd nation to do so, reinforcing its commitment to global climate action."
+      },
+      "autoFix2": {
+        "field": "explainer",
+        "searchPattern": "India was the first[^.]*ratif[^.]*\\.",
+        "searchFlags": "i",
+        "replacement": "India ratified the Paris Agreement on October 2, 2016, becoming the 62nd nation to do so."
+      }
+    },
+    {
+      "id": "paris-agreement-first-sign",
+      "severity": "critical",
+      "scope": "articles",
+      "detectPattern": "india\\s+was\\s+(among\\s+)?the\\s+first\\s+(country|countries|nation)\\s+to\\s+sign",
+      "detectFlags": "i",
+      "requireAlso": "paris",
+      "issue": "False claim: 'India was among the first to sign/ratify the Paris Agreement' — India signed on April 22, 2016 and ratified on October 2, 2016 (62nd country)",
+      "correction": "India signed the Paris Agreement on April 22, 2016 and ratified it on October 2, 2016 as the 62nd country."
+    },
+    {
+      "id": "repo-rate-outdated",
+      "severity": "warning",
+      "scope": "articles",
+      "detectPattern": "6\\.50\\s*%",
+      "detectFlags": "i",
+      "requireAlso": "repo",
+      "issue": "Outdated Repo Rate: 6.50% mentioned — current rate is 6.00% (as of Feb 2026)",
+      "correction": "6.00%"
+    },
+    {
+      "id": "ndc-old-target-articles",
+      "severity": "warning",
+      "scope": "articles",
+      "detectPattern": "45\\s*%",
+      "detectFlags": "",
+      "requireAlso": "emission\\s+intensity",
+      "excludeIf": "47\\s*%",
+      "issue": "Old NDC target (45% by 2030) used without mentioning the updated target (47% by 2035)",
+      "correction": "47% by 2035 (updated NDC 2026)"
+    },
+    {
+      "id": "ndc-old-target-quickbytes",
+      "severity": "warning",
+      "scope": "quickBytes",
+      "detectPattern": "45\\s*%",
+      "detectFlags": "",
+      "requireAlso": "emission\\s+intensity",
+      "issue": "Old NDC target (45%) in Quick Bytes — should be 47% by 2035",
+      "correction": "47% by 2035",
+      "autoFix": {
+        "field": "text",
+        "searchPattern": "45%",
+        "searchFlags": "g",
+        "replacement": "47%"
+      }
+    },
+    {
+      "id": "nalsa-first-legal",
+      "severity": "warning",
+      "scope": "articles",
+      "detectPattern": "first\\s+legal\\s+recognition",
+      "detectFlags": "i",
+      "requireAlso": "nalsa",
+      "issue": "NALSA called 'first legal recognition' — should say 'first Supreme Court recognition' (TN had Transgender Welfare Board since 2008)",
+      "correction": "first Supreme Court recognition of transgender identity at the national level",
+      "autoFix": {
+        "field": "trivia",
+        "searchPattern": "first\\s+legal\\s+recognition\\s+of\\s+transgender\\s+identity",
+        "searchFlags": "i",
+        "replacement": "first Supreme Court recognition of transgender identity at the national level"
+      }
+    },
+    {
+      "id": "gdp-advance-estimate-stale",
+      "severity": "warning",
+      "scope": "articles",
+      "detectPattern": "advance\\s+est",
+      "detectFlags": "i",
+      "requireAlso": "gdp",
+      "requireAlso2": "2024-25",
+      "issue": "GDP labelled as 'Advance Estimate' — Provisional Estimates for FY2024-25 are available since May 2025",
+      "correction": "Provisional Estimate"
+    },
+    {
+      "id": "finance-bill-amendments-inconsistency",
+      "severity": "warning",
+      "scope": "consistency",
+      "detectPattern": "finance\\s+bill",
+      "detectFlags": "i",
+      "consistencyField": "headline",
+      "consistencyExtract": "(\\d+)\\s+amendment",
+      "issue": "Inconsistent amendment numbers across Finance Bill articles — may need editorial context"
+    }
+  ],
+
+  "commonMistakes": [
+    "Do NOT call Donald Trump 'former US President' — he is the incumbent (47th President, second term since Jan 2025)",
+    "Do NOT say India was the first to ratify the Paris Agreement — India was the 62nd country",
+    "Do NOT use 6.50% as repo rate — it has been cut multiple times since Dec 2024",
+    "Do NOT label GDP growth as 'Advance Estimate' — Provisional Estimates are available",
+    "Do NOT conflate 'per capita income' with 'GDP per capita' — they are different measures",
+    "Do NOT use old NDC target (45% by 2030) when the updated NDC (47% by 2035) has been announced",
+    "Do NOT say NALSA was 'first legal recognition of transgender identity' — say 'first Supreme Court recognition'"
+  ]
+}

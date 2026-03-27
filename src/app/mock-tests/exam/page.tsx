@@ -57,6 +57,13 @@ const SUBJECT_LABELS: Record<string, string> = {
     polity: 'Polity',
     science: 'Science & Tech',
     society: 'Society',
+    // CSAT subjects
+    comprehension: 'Comprehension',
+    logical_reasoning: 'Logical Reasoning',
+    basic_numeracy: 'Basic Numeracy',
+    data_interpretation: 'Data Interpretation',
+    decision_making: 'Decision Making',
+    english_comprehension: 'English Comprehension',
 };
 
 const SUBJECT_COLORS: Record<string, string> = {
@@ -69,6 +76,13 @@ const SUBJECT_COLORS: Record<string, string> = {
     polity: '#3b82f6',
     science: '#06b6d4',
     society: '#8b5cf6',
+    // CSAT subjects
+    comprehension: '#6366f1',
+    logical_reasoning: '#a855f7',
+    basic_numeracy: '#f59e0b',
+    data_interpretation: '#0ea5e9',
+    decision_making: '#10b981',
+    english_comprehension: '#ec4899',
 };
 
 // ─── Component ─────────────────────────────────────────────────────────
@@ -279,6 +293,17 @@ export default function MockExamPage() {
                                 </span>
                             </div>
 
+                            {/* Passage (for comprehension questions) */}
+                            {q.passage && (
+                                <div className="mb-4 p-4 rounded-xl border max-h-[200px] overflow-y-auto text-sm leading-relaxed"
+                                    style={{ background: 'var(--bg-secondary)', borderColor: 'var(--border-color)', color: 'var(--text-secondary)' }}>
+                                    <div className="flex items-center gap-2 mb-2">
+                                        <span className="text-xs font-bold uppercase tracking-wider text-accent-500">📖 Passage</span>
+                                    </div>
+                                    <p className="whitespace-pre-line">{q.passage}</p>
+                                </div>
+                            )}
+
                             {/* Question Text */}
                             <p className="text-base leading-relaxed mb-6 whitespace-pre-line" style={{ color: 'var(--text-primary)' }}>
                                 {q.question}
@@ -361,7 +386,7 @@ export default function MockExamPage() {
                                     <button onClick={() => setShowPalette(false)} className="text-xs text-accent-500 lg:hidden">Close</button>
                                 )}
                             </div>
-                            <div className="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 gap-1.5 mb-4 max-h-[30vh] lg:max-h-none overflow-y-auto">
+                            <div className="grid grid-cols-5 sm:grid-cols-10 lg:grid-cols-5 gap-1.5 mb-4 max-h-[30vh] lg:max-h-none overflow-y-auto p-1">
                                 {questions.map((_, i) => (
                                     <button key={i} onClick={() => { setCurrentQ(i); setShowPalette(false); }}
                                         className={`w-full aspect-square rounded-lg text-xs font-bold flex items-center justify-center transition-all ${currentQ === i ? 'ring-2 ring-accent-500' : ''

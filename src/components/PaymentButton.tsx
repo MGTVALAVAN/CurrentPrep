@@ -9,16 +9,39 @@ import type { BillingPeriod } from '@/config/pricing';
 declare global {
     interface Window {
         Razorpay: any;
+        dataLayer: any[];
     }
 }
 
 interface PaymentButtonProps {
-    plan: BillingPeriod;
+    /** Legacy: billing period (monthly/annual) */
+    plan?: BillingPeriod;
+    /** New: product ID from pricing config (e.g., 'single_10q', 'pack_5', 'pro_yearly') */
+    productId?: string;
+    /** Optional promo code to apply */
+    promoCode?: string;
     label?: string;
     className?: string;
+    /** GA4 event variant for tracking */
+    variant?: string;
 }
 
-export default function PaymentButton({ plan, label, className }: PaymentButtonProps) {
+/** Push GA4 tracking event */
+function trackEvent(eventName: string, params: Record<string, any> = {}) {
+    if (typeof window !== 'undefined') {
+        window.dataLayer = window.dataLayer || [];
+        window.dataLayer.push({ event: eventName, ...params });
+    }
+}
+
+export default function PaymentButton({
+    plan,
+    productId,
+    promoCode,
+    label,
+    className,
+    variant,
+}: PaymentButtonProps) {
     const { data: session, status } = useSession();
     const router = useRouter();
     const [loading, setLoading] = useState(false);
@@ -29,13 +52,29 @@ export default function PaymentButton({ plan, label, className }: PaymentButtonP
             return;
         }
 
+        // GA4: purchase_start
+        trackEvent('purchase_start', {
+            product: productId || plan,
+            variant: variant || 'default',
+        });
+
         setLoading(true);
         try {
             // 1. Create order on server
+            const body: Record<string, string> = {};
+            if (productId) {
+                body.productId = productId;
+            } else if (plan) {
+                body.plan = plan;
+            }
+            if (promoCode) {
+                body.promoCode = promoCode;
+            }
+
             const res = await fetch('/api/payments/create-order', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ plan }),
+                body: JSON.stringify(body),
             });
 
             if (!res.ok) {
@@ -57,14 +96,14 @@ export default function PaymentButton({ plan, label, className }: PaymentButtonP
                 amount: order.amount,
                 currency: order.currency,
                 name: 'CurrentPrep',
-                description: `Pro Plan — ${order.planLabel}`,
+                description: `${order.planLabel}`,
                 order_id: order.orderId,
                 prefill: {
                     name: session?.user?.name || '',
                     email: session?.user?.email || '',
                 },
                 theme: {
-                    color: '#3b82f6',
+                    color: '#1E3A8A',
                 },
                 handler: async (response: any) => {
                     // 4. Verify payment on server
@@ -80,7 +119,10 @@ export default function PaymentButton({ plan, label, className }: PaymentButtonP
                         });
 
                         if (verifyRes.ok) {
-                            // Refresh session to get updated premium status
+                            trackEvent('purchase_complete', {
+                                product: productId || plan,
+                                orderId: response.razorpay_order_id,
+                            });
                             router.push('/dashboard?upgraded=true');
                             router.refresh();
                         } else {
@@ -118,7 +160,7 @@ export default function PaymentButton({ plan, label, className }: PaymentButtonP
             {loading ? (
                 <><Loader2 size={16} className="animate-spin" /> Processing…</>
             ) : (
-                <><CreditCard size={16} /> {label || 'Upgrade to Pro'}</>
+                <><CreditCard size={16} /> {label || 'Buy Now'}</>
             )}
         </button>
     );

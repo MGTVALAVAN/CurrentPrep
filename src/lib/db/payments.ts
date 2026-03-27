@@ -1,16 +1,21 @@
 /**
  * Payments Data Access Layer
- * 
- * Day 5: Handles Razorpay payment records in Supabase.
- * Used by the payment API routes (Day 10).
+ *
+ * Supports 3-tier pricing: single tests, test packs, pro subscriptions.
+ * Also handles promo codes and admin-granted complementary access.
+ * Used by the payment API routes.
  */
 
 import { supabaseAdmin, isSupabaseConfigured } from '@/lib/supabase';
+import type { ProductType, ProBillingPeriod } from '@/config/pricing';
 
 // ── Types ──────────────────────────────────────────────────────────────
 
 export type PaymentPlan = 'monthly' | 'quarterly' | 'annual';
 export type PaymentStatus = 'created' | 'paid' | 'failed' | 'refunded';
+
+/** Extended plan type that includes new product IDs */
+export type ExtendedPlan = PaymentPlan | string; // product ID from pricing config
 
 export interface Payment {
     id?: string;
@@ -20,25 +25,36 @@ export interface Payment {
     razorpay_signature?: string;
     amount_paise: number;
     currency?: string;
-    plan: PaymentPlan;
+    plan: string;              // product ID (e.g., 'single_10q', 'pack_5', 'pro_monthly')
+    product_type?: ProductType;
     status: PaymentStatus;
     receipt?: string;
+    promo_code?: string;
     notes?: Record<string, any>;
     created_at?: string;
     updated_at?: string;
 }
 
-// Plan pricing in paise (₹1 = 100 paise)
+// ── Legacy plan pricing (backward compat) ──────────────────────────────
+
 export const PLAN_PRICING: Record<PaymentPlan, { amount_paise: number; label: string; months: number }> = {
-    monthly:   { amount_paise: 29900,  label: '₹299/month',   months: 1 },
-    quarterly: { amount_paise: 79900,  label: '₹799/quarter', months: 3 },
-    annual:    { amount_paise: 249900, label: '₹2,499/year',  months: 12 },
+    monthly:   { amount_paise: 59900,  label: '₹599/month', months: 1 },
+    quarterly: { amount_paise: 59900,  label: '₹599/month', months: 1 }, // deprecated, maps to monthly
+    annual:    { amount_paise: 399900, label: '₹3,999/year', months: 12 },
 };
 
 // ── Functions ──────────────────────────────────────────────────────────
 
 /** Create a payment record (when Razorpay order is created) */
-export async function createPaymentRecord(payment: Pick<Payment, 'user_id' | 'plan' | 'razorpay_order_id' | 'amount_paise' | 'receipt'>): Promise<Payment | null> {
+export async function createPaymentRecord(payment: {
+    user_id: string;
+    plan: string;
+    product_type?: ProductType;
+    razorpay_order_id: string;
+    amount_paise: number;
+    receipt: string;
+    promo_code?: string;
+}): Promise<Payment | null> {
     if (!isSupabaseConfigured()) return null;
 
     const { data, error } = await supabaseAdmin
@@ -85,11 +101,16 @@ export async function markPaymentPaid(
         return null;
     }
 
-    // Also update user's premium status
-    if (data) {
-        const planInfo = PLAN_PRICING[data.plan as PaymentPlan];
+    // For pro subscriptions, update user premium status
+    if (data && (data.plan === 'pro_monthly' || data.plan === 'pro_yearly' ||
+                 data.plan === 'monthly' || data.plan === 'annual')) {
+        const monthsMap: Record<string, number> = {
+            pro_monthly: 1, monthly: 1,
+            pro_yearly: 12, annual: 12,
+        };
+        const months = monthsMap[data.plan] || 1;
         const expiresAt = new Date();
-        expiresAt.setMonth(expiresAt.getMonth() + planInfo.months);
+        expiresAt.setMonth(expiresAt.getMonth() + months);
 
         await supabaseAdmin
             .from('users')
@@ -148,4 +169,45 @@ export async function getActiveSubscription(userId: string): Promise<Payment | n
 
     if (error || !data) return null;
     return data;
+}
+
+// ── Admin: Complementary / Promo ───────────────────────────────────────
+
+/** Grant complementary Pro access to a user (admin action) */
+export async function grantComplementaryAccess(
+    userId: string,
+    months: number = 12,
+    reason: string = 'Admin complementary'
+): Promise<boolean> {
+    if (!isSupabaseConfigured()) return false;
+
+    const expiresAt = new Date();
+    expiresAt.setMonth(expiresAt.getMonth() + months);
+
+    const { error } = await supabaseAdmin
+        .from('users')
+        .update({
+            is_premium: true,
+            premium_expires_at: expiresAt.toISOString(),
+        })
+        .eq('id', userId);
+
+    if (error) {
+        console.error('[db/payments] Grant complementary error:', error.message);
+        return false;
+    }
+
+    // Log it as a payment record for audit trail
+    await supabaseAdmin
+        .from('payments')
+        .insert({
+            user_id: userId,
+            plan: 'pro_yearly',
+            amount_paise: 0,
+            receipt: `comp_${Date.now()}`,
+            status: 'paid',
+            razorpay_order_id: `COMP_${Date.now()}`,
+        });
+
+    return true;
 }

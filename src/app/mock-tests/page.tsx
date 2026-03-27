@@ -12,8 +12,9 @@ import {
 // ─── Types ─────────────────────────────────────────────────────────────
 
 type TestMode = 'custom' | 'full_length' | null;
+type Paper = 'gs' | 'csat';
 
-const SUBJECTS = [
+const GS_SUBJECTS = [
     { id: 'art_culture', label: 'Art & Culture', icon: '🎭', color: 'from-pink-500 to-rose-600' },
     { id: 'current_affairs', label: 'Current Affairs', icon: '📰', color: 'from-red-500 to-rose-600' },
     { id: 'economics', label: 'Indian Economy', icon: '💰', color: 'from-yellow-500 to-amber-600' },
@@ -25,11 +26,24 @@ const SUBJECTS = [
     { id: 'society', label: 'Society & Social Issues', icon: '👥', color: 'from-purple-500 to-violet-600' },
 ];
 
-const QUESTION_COUNTS = [
+const CSAT_SUBJECTS = [
+    { id: 'maths', label: 'Maths / Numeracy', icon: '🔢', color: 'from-amber-500 to-orange-600' },
+    { id: 'comprehension', label: 'Comprehension', icon: '📖', color: 'from-blue-500 to-indigo-600' },
+    { id: 'reasoning', label: 'Logical Reasoning', icon: '🧩', color: 'from-purple-500 to-violet-600' },
+];
+
+const GS_QUESTION_COUNTS = [
     { value: 10, timer: '12 min', label: '10 Questions' },
     { value: 25, timer: '30 min', label: '25 Questions' },
     { value: 50, timer: '60 min', label: '50 Questions' },
     { value: 100, timer: '120 min', label: '100 Questions' },
+];
+
+const CSAT_QUESTION_COUNTS = [
+    { value: 10, timer: '15 min', label: '10 Questions' },
+    { value: 20, timer: '30 min', label: '20 Questions' },
+    { value: 40, timer: '60 min', label: '40 Questions' },
+    { value: 80, timer: '120 min', label: '80 Questions' },
 ];
 
 const DIFFICULTIES = [
@@ -45,6 +59,7 @@ export default function MockTestsPage() {
     const router = useRouter();
 
     const [activeModal, setActiveModal] = useState<TestMode>(null);
+    const [paper, setPaper] = useState<Paper>('gs');
 
     // Custom test config
     const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
@@ -52,8 +67,12 @@ export default function MockTestsPage() {
     const [questionCount, setQuestionCount] = useState(25);
     const [generating, setGenerating] = useState(false);
 
+    // Derived from paper selection
+    const SUBJECTS = paper === 'csat' ? CSAT_SUBJECTS : GS_SUBJECTS;
+    const QUESTION_COUNTS = paper === 'csat' ? CSAT_QUESTION_COUNTS : GS_QUESTION_COUNTS;
     const allSelected = selectedSubjects.length === 0 || selectedSubjects.length === SUBJECTS.length;
     const timerDisplay = QUESTION_COUNTS.find(q => q.value === questionCount)?.timer || '30 min';
+    const isCSAT = paper === 'csat';
 
     // ── Open Test Configuration ─────────────────────────────────────────────
     // Note: Auth & premium gating will be added at a later stage
@@ -94,6 +113,7 @@ export default function MockTestsPage() {
 
             const body: any = {
                 type,
+                paper,
                 seenQuestionIds: history.seenQuestionIds,
             };
 
@@ -174,33 +194,63 @@ export default function MockTestsPage() {
                     </motion.h1>
                     <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
                         className="text-lg text-blue-100/80 max-w-2xl mx-auto">
-                        Practice with AI-powered mock tests. Customise your own or take a full-length UPSC-style paper.
+                        Practice with AI-powered mock tests built on expert developed predictive model. Customise your own or take a full-length UPSC-style paper.
                     </motion.p>
                 </div>
             </section>
 
-            {/* ── Stats Bar ── */}
+            {/* ── How It Works ── */}
             <section className="px-4 sm:px-6 lg:px-8 -mt-6 relative z-10">
-                <div className="max-w-5xl mx-auto grid grid-cols-3 gap-4">
-                    {[
-                        { label: '9 Subjects', value: '9', icon: BookOpen, desc: 'Complete syllabus' },
-                        { label: 'Question Bank', value: '7,200+', icon: Brain, desc: 'AI-generated & verified' },
-                        { label: 'Smart Timer', value: '72s', icon: Timer, desc: 'Per question avg' },
-                    ].map((stat, i) => (
-                        <motion.div key={stat.label} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
-                            transition={{ delay: 0.3 + i * 0.1 }}
-                            className="glass-card p-4 text-center shadow-xl">
-                            <stat.icon className="w-5 h-5 text-accent-500 mx-auto mb-1" />
-                            <div className="text-xl font-bold font-heading" style={{ color: 'var(--text-primary)' }}>{stat.value}</div>
-                            <div className="text-xs" style={{ color: 'var(--text-muted)' }}>{stat.desc}</div>
-                        </motion.div>
-                    ))}
-                </div>
+                <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
+                    className="max-w-5xl mx-auto glass-card p-5 shadow-xl">
+                    <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
+                        {[
+                            { step: '1', title: 'Choose Mode', desc: 'Custom or Full Length' },
+                            { step: '2', title: 'Configure', desc: 'Set subjects, difficulty & count' },
+                            { step: '3', title: 'Take Test', desc: 'Timer-based exam interface' },
+                            { step: '4', title: 'Review', desc: 'Detailed analysis & explanations' },
+                        ].map((item) => (
+                            <div key={item.step} className="flex items-start gap-3">
+                                <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent-500 to-accent-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0">
+                                    {item.step}
+                                </div>
+                                <div>
+                                    <div className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>{item.title}</div>
+                                    <div className="text-xs" style={{ color: 'var(--text-muted)' }}>{item.desc}</div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </motion.div>
             </section>
 
             {/* ── Test Mode Cards ── */}
             <section className="section-padding">
                 <div className="max-w-5xl mx-auto">
+                    {/* Paper Selector Tabs */}
+                    <div className="flex items-center justify-center gap-2 mb-8">
+                        {[
+                            { id: 'gs' as Paper, label: 'GS Paper I', icon: '📋', desc: 'General Studies' },
+                            { id: 'csat' as Paper, label: 'CSAT Paper II', icon: '🧠', desc: 'Aptitude & Reasoning' },
+                        ].map(tab => (
+                            <button key={tab.id}
+                                onClick={() => { setPaper(tab.id); setSelectedSubjects([]); setQuestionCount(tab.id === 'csat' ? 20 : 25); }}
+                                className={`flex items-center gap-2.5 px-5 py-3 rounded-xl text-sm font-medium transition-all border-2 ${
+                                    paper === tab.id
+                                        ? 'border-accent-500 bg-accent-500/10 shadow-md'
+                                        : 'border-transparent hover:border-gray-300 dark:hover:border-gray-600'
+                                }`}
+                                style={paper !== tab.id ? { background: 'var(--bg-card)', color: 'var(--text-secondary)' } : undefined}
+                            >
+                                <span className="text-lg">{tab.icon}</span>
+                                <div className="text-left">
+                                    <div className={paper === tab.id ? 'text-accent-600 font-semibold' : ''} style={paper === tab.id ? {} : { color: 'var(--text-primary)' }}>{tab.label}</div>
+                                    <div className="text-[10px]" style={{ color: 'var(--text-muted)' }}>{tab.desc}</div>
+                                </div>
+                            </button>
+                        ))}
+                    </div>
+
                     <h2 className="font-heading font-semibold text-xl mb-6 text-center" style={{ color: 'var(--text-primary)' }}>
                         Choose Your Test Mode
                     </h2>
@@ -208,6 +258,7 @@ export default function MockTestsPage() {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {/* ── Card 1: Customised Mock Test ── */}
                         <motion.button
+                            key={`custom-${paper}`}
                             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}
                             onClick={() => handleTestStart('custom')}
                             className="glass-card p-8 text-left card-hover group relative overflow-hidden"
@@ -225,14 +276,19 @@ export default function MockTestsPage() {
                             </div>
 
                             <h3 className="font-heading font-bold text-xl mb-2" style={{ color: 'var(--text-primary)' }}>
-                                Customised Mock Test
+                                {isCSAT ? 'Customised CSAT Mock' : 'Customised Mock Test'}
                             </h3>
                             <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>
-                                Build your own test — pick subjects, difficulty level, and number of questions. Timer adjusts automatically.
+                                {isCSAT
+                                    ? 'Pick from comprehension, reasoning, numeracy & more. Choose difficulty and question count.'
+                                    : 'Build your own test — pick subjects, difficulty level, and number of questions. Timer adjusts automatically.'}
                             </p>
 
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {['Subject Mix', 'Difficulty', '10-100 Qs', 'Auto Timer'].map(tag => (
+                                {(isCSAT
+                                    ? ['Topic Mix', 'Difficulty', '10-80 Qs', 'Auto Timer']
+                                    : ['Subject Mix', 'Difficulty', '10-100 Qs', 'Auto Timer']
+                                ).map(tag => (
                                     <span key={tag} className="text-[11px] px-2.5 py-1 rounded-full border"
                                         style={{ color: 'var(--text-muted)', borderColor: 'var(--border-color)' }}>
                                         {tag}
@@ -247,6 +303,7 @@ export default function MockTestsPage() {
 
                         {/* ── Card 2: UPSC Full Length Mock ── */}
                         <motion.button
+                            key={`full-${paper}`}
                             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.5 }}
                             onClick={() => handleTestStart('full_length')}
                             className="glass-card p-8 text-left card-hover group relative overflow-hidden"
@@ -264,14 +321,19 @@ export default function MockTestsPage() {
                             </div>
 
                             <h3 className="font-heading font-bold text-xl mb-2" style={{ color: 'var(--text-primary)' }}>
-                                UPSC Style Full Length Mock
+                                {isCSAT ? 'UPSC Style Full Length CSAT' : 'UPSC Style Full Length Mock'}
                             </h3>
                             <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>
-                                100 questions, 2 hours, real UPSC subject distribution, negative marking. No repeat from last 3 years&apos; PYQ.
+                                {isCSAT
+                                    ? '80 questions, 2 hours, real UPSC CSAT distribution. Comprehension passages, reasoning & numeracy. Qualifying paper (33% cutoff).'
+                                    : '100 questions, 2 hours, real UPSC subject distribution, negative marking. No repeat from last 3 years\' PYQ.'}
                             </p>
 
                             <div className="flex flex-wrap gap-2 mb-4">
-                                {['100 Questions', '2 Hours', '+2/-0.67', 'PYQ Excluded'].map(tag => (
+                                {(isCSAT
+                                    ? ['80 Questions', '2 Hours', '+2.5/-0.83', 'Qualifying']
+                                    : ['100 Questions', '2 Hours', '+2/-0.67', 'PYQ Excluded']
+                                ).map(tag => (
                                     <span key={tag} className="text-[11px] px-2.5 py-1 rounded-full border"
                                         style={{ color: 'var(--text-muted)', borderColor: 'var(--border-color)' }}>
                                         {tag}
@@ -280,36 +342,12 @@ export default function MockTestsPage() {
                             </div>
 
                             <div className="flex items-center gap-2 text-sm font-medium text-accent-500 group-hover:translate-x-1 transition-transform">
-                                <Play className="w-4 h-4" /> Start Full Length Test
+                                <Play className="w-4 h-4" /> {isCSAT ? 'Start CSAT Mock' : 'Start Full Length Test'}
                             </div>
                         </motion.button>
                     </div>
 
-                    {/* ── How It Works ── */}
-                    <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.6 }}
-                        className="mt-10 glass-card p-6">
-                        <h3 className="font-heading font-semibold text-base mb-4" style={{ color: 'var(--text-primary)' }}>
-                            How It Works
-                        </h3>
-                        <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
-                            {[
-                                { step: '1', title: 'Choose Mode', desc: 'Custom or Full Length' },
-                                { step: '2', title: 'Configure', desc: 'Set subjects, difficulty & count' },
-                                { step: '3', title: 'Take Test', desc: 'Timer-based exam interface' },
-                                { step: '4', title: 'Review', desc: 'Detailed analysis & explanations' },
-                            ].map((item, i) => (
-                                <div key={item.step} className="flex items-start gap-3">
-                                    <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-accent-500 to-accent-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0">
-                                        {item.step}
-                                    </div>
-                                    <div>
-                                        <div className="text-sm font-semibold" style={{ color: 'var(--text-primary)' }}>{item.title}</div>
-                                        <div className="text-xs" style={{ color: 'var(--text-muted)' }}>{item.desc}</div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </motion.div>
+
                 </div>
             </section>
 
@@ -505,9 +543,11 @@ export default function MockTestsPage() {
                                     </div>
                                     <div>
                                         <h2 className="font-heading font-bold text-lg" style={{ color: 'var(--text-primary)' }}>
-                                            UPSC Full Length Mock
+                                            {isCSAT ? 'UPSC Full Length CSAT' : 'UPSC Full Length Mock'}
                                         </h2>
-                                        <p className="text-xs" style={{ color: 'var(--text-muted)' }}>Prelims GS Paper I Simulation</p>
+                                        <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
+                                            {isCSAT ? 'Prelims CSAT Paper II Simulation' : 'Prelims GS Paper I Simulation'}
+                                        </p>
                                     </div>
                                 </div>
                                 <button onClick={() => setActiveModal(null)} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
@@ -518,12 +558,17 @@ export default function MockTestsPage() {
                             <div className="p-5 space-y-5">
                                 {/* Exam Details */}
                                 <div className="grid grid-cols-2 gap-3">
-                                    {[
+                                    {(isCSAT ? [
+                                        { label: 'Questions', value: '80', icon: Brain },
+                                        { label: 'Duration', value: '2 Hours', icon: Timer },
+                                        { label: 'Marks/Correct', value: '+2.5', icon: Award },
+                                        { label: 'Negative Marking', value: '-0.83', icon: AlertTriangle },
+                                    ] : [
                                         { label: 'Questions', value: '100', icon: Brain },
-                                        { label: 'Duration', value: '2 Hours', icon: Clock },
+                                        { label: 'Duration', value: '2 Hours', icon: Timer },
                                         { label: 'Marks/Correct', value: '+2', icon: Award },
                                         { label: 'Negative Marking', value: '-0.67', icon: AlertTriangle },
-                                    ].map(item => (
+                                    ]).map(item => (
                                         <div key={item.label} className="p-3 rounded-xl text-center" style={{ background: 'var(--bg-secondary)' }}>
                                             <item.icon className="w-4 h-4 text-accent-500 mx-auto mb-1" />
                                             <div className="text-lg font-bold" style={{ color: 'var(--text-primary)' }}>{item.value}</div>
@@ -532,50 +577,35 @@ export default function MockTestsPage() {
                                     ))}
                                 </div>
 
-                                {/* Subject Distribution */}
-                                <div>
-                                    <h4 className="text-sm font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>
-                                        Subject Distribution (UPSC Pattern)
-                                    </h4>
-                                    <div className="space-y-1.5">
-                                        {[
-                                            { subject: 'Current Affairs & Govt Schemes', count: 28, pct: 28 },
-                                            { subject: 'Polity & Governance', count: 14, pct: 14 },
-                                            { subject: 'Indian Economy', count: 13, pct: 13 },
-                                            { subject: 'Environment & Ecology', count: 13, pct: 13 },
-                                            { subject: 'History & Art & Culture', count: 12, pct: 12 },
-                                            { subject: 'Geography', count: 10, pct: 10 },
-                                            { subject: 'Science & Technology', count: 8, pct: 8 },
-                                            { subject: 'Society', count: 2, pct: 2 },
-                                        ].map(item => (
-                                            <div key={item.subject} className="flex items-center gap-2">
-                                                <span className="text-xs w-44 truncate" style={{ color: 'var(--text-secondary)' }}>{item.subject}</span>
-                                                <div className="flex-1 h-2 rounded-full overflow-hidden" style={{ background: 'var(--border-color)' }}>
-                                                    <div className="h-full rounded-full bg-gradient-to-r from-accent-500 to-primary-500"
-                                                        style={{ width: `${item.pct}%` }} />
-                                                </div>
-                                                <span className="text-xs font-mono w-6 text-right" style={{ color: 'var(--text-muted)' }}>{item.count}</span>
-                                            </div>
-                                        ))}
-                                    </div>
-                                </div>
-
                                 {/* Instructions */}
                                 <div className="p-4 rounded-xl" style={{ background: 'var(--bg-secondary)' }}>
                                     <h4 className="text-sm font-semibold mb-2 flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
                                         <FileText className="w-4 h-4 text-accent-500" /> Instructions
                                     </h4>
-                                    <ul className="text-xs space-y-1.5" style={{ color: 'var(--text-secondary)' }}>
-                                        <li>• This is a full-length simulation of UPSC CSE Prelims GS Paper I.</li>
-                                        <li>• 100 questions, 120 minutes (2 hours). The timer is strict.</li>
-                                        <li>• Marking scheme: +2 for correct, -0.67 for wrong, 0 for unattempted.</li>
-                                        <li>• Subject distribution follows the actual UPSC Prelims pattern.</li>
-                                        <li>• No question from the last 3 years&apos; Prelims papers will appear.</li>
-                                        <li>• Navigate freely using the question palette sidebar.</li>
-                                        <li>• Mark questions for review and revisit before final submission.</li>
-                                        <li>• Results include subject-wise and difficulty-wise analysis.</li>
-                                        <li>• On repeat attempts, at most 20% questions will overlap.</li>
-                                    </ul>
+                                    {isCSAT ? (
+                                        <ul className="text-xs space-y-1.5" style={{ color: 'var(--text-secondary)' }}>
+                                            <li>• This is a full-length simulation of UPSC CSE Prelims CSAT Paper II.</li>
+                                            <li>• 80 questions, 120 minutes (2 hours). The timer is strict.</li>
+                                            <li>• Marking scheme: +2.5 for correct, -0.83 for wrong, 0 for unattempted.</li>
+                                            <li>• This is a qualifying paper — 33% (66.66/200) is needed to qualify.</li>
+                                            <li>• Includes comprehension passages, logical reasoning, numeracy & data interpretation.</li>
+                                            <li>• Comprehension questions are grouped with their passage.</li>
+                                            <li>• Navigate freely using the question palette sidebar.</li>
+                                            <li>• Results include topic-wise and difficulty-wise analysis.</li>
+                                        </ul>
+                                    ) : (
+                                        <ul className="text-xs space-y-1.5" style={{ color: 'var(--text-secondary)' }}>
+                                            <li>• This is a full-length simulation of UPSC CSE Prelims GS Paper I.</li>
+                                            <li>• 100 questions, 120 minutes (2 hours). The timer is strict.</li>
+                                            <li>• Marking scheme: +2 for correct, -0.67 for wrong, 0 for unattempted.</li>
+                                            <li>• Subject distribution follows the actual UPSC Prelims pattern.</li>
+                                            <li>• No question from the last 3 years&apos; Prelims papers will appear.</li>
+                                            <li>• Navigate freely using the question palette sidebar.</li>
+                                            <li>• Mark questions for review and revisit before final submission.</li>
+                                            <li>• Results include subject-wise and difficulty-wise analysis.</li>
+                                            <li>• On repeat attempts, at most 20% questions will overlap.</li>
+                                        </ul>
+                                    )}
                                 </div>
 
                                 {/* Start Button */}
