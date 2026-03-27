@@ -6,7 +6,7 @@ import {
     Brain, BookOpen,
     Play, Crown, X, Check,
     Loader2, Zap, GraduationCap, FileText,
-    AlertTriangle, Timer, Award
+    AlertTriangle, Timer, Award, ChevronDown
 } from 'lucide-react';
 
 // ─── Types ─────────────────────────────────────────────────────────────
@@ -27,9 +27,33 @@ const GS_SUBJECTS = [
 ];
 
 const CSAT_SUBJECTS = [
-    { id: 'maths', label: 'Maths / Numeracy', icon: '🔢', color: 'from-amber-500 to-orange-600' },
-    { id: 'comprehension', label: 'Comprehension', icon: '📖', color: 'from-blue-500 to-indigo-600' },
-    { id: 'reasoning', label: 'Logical Reasoning', icon: '🧩', color: 'from-purple-500 to-violet-600' },
+    { id: 'maths', label: 'Maths / Numeracy', icon: '🔢', color: 'from-amber-500 to-orange-600',
+      subtopics: [
+          { id: 'Number System', label: 'Number System' },
+          { id: 'Percentage', label: 'Percentage' },
+          { id: 'Divisibility & Remainder', label: 'Divisibility & Remainder' },
+          { id: 'Permutation & Combination', label: 'Permutation & Combination' },
+          { id: 'Data Sufficiency', label: 'Data Sufficiency' },
+          { id: 'Data Interpretation', label: 'Data Interpretation' },
+          { id: 'Speed, Time & Distance', label: 'Speed, Time & Distance' },
+          { id: 'Average', label: 'Average' },
+          { id: 'Time & Work', label: 'Time & Work' },
+          { id: 'Profit & Loss', label: 'Profit & Loss' },
+      ]},
+    { id: 'comprehension', label: 'Comprehension', icon: '📖', color: 'from-blue-500 to-indigo-600',
+      subtopics: [] },
+    { id: 'reasoning', label: 'Logical Reasoning', icon: '🧩', color: 'from-purple-500 to-violet-600',
+      subtopics: [
+          { id: 'Puzzle', label: 'Puzzle' },
+          { id: 'Statements & Conclusions', label: 'Statements & Conclusions' },
+          { id: 'Order & Ranking', label: 'Order & Ranking' },
+          { id: 'Direction & Distance', label: 'Direction & Distance' },
+          { id: 'Series (Logical)', label: 'Series' },
+          { id: 'Clock Problems', label: 'Clock' },
+          { id: 'Calendar Problems', label: 'Calendar' },
+          { id: 'Syllogism', label: 'Syllogism' },
+          { id: 'Blood Relation', label: 'Blood Relation' },
+      ]},
 ];
 
 const GS_QUESTION_COUNTS = [
@@ -63,6 +87,8 @@ export default function MockTestsPage() {
 
     // Custom test config
     const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
+    const [selectedSubtopics, setSelectedSubtopics] = useState<string[]>([]);
+    const [expandedCategory, setExpandedCategory] = useState<string | null>(null);
     const [difficulty, setDifficulty] = useState('mixed');
     const [questionCount, setQuestionCount] = useState(25);
     const [generating, setGenerating] = useState(false);
@@ -86,17 +112,37 @@ export default function MockTestsPage() {
     function toggleSubject(subjectId: string) {
         setSelectedSubjects(prev => {
             if (prev.includes(subjectId)) {
+                // Also remove any subtopics of this subject
+                const subj = CSAT_SUBJECTS.find(s => s.id === subjectId);
+                if (subj && subj.subtopics) {
+                    setSelectedSubtopics(st => st.filter(t => !subj.subtopics.some(x => x.id === t)));
+                }
                 return prev.filter(s => s !== subjectId);
             }
             return [...prev, subjectId];
         });
     }
 
+    function toggleSubtopic(subtopicId: string, parentSubjectId: string) {
+        setSelectedSubtopics(prev => {
+            if (prev.includes(subtopicId)) {
+                return prev.filter(s => s !== subtopicId);
+            }
+            return [...prev, subtopicId];
+        });
+        // Auto-select the parent subject
+        if (!selectedSubjects.includes(parentSubjectId)) {
+            setSelectedSubjects(prev => [...prev, parentSubjectId]);
+        }
+    }
+
     function toggleAllSubjects() {
         if (allSelected) {
             setSelectedSubjects([SUBJECTS[0].id]);
+            setSelectedSubtopics([]);
         } else {
             setSelectedSubjects([]);
+            setSelectedSubtopics([]);
         }
     }
 
@@ -121,6 +167,9 @@ export default function MockTestsPage() {
                 body.subjects = allSelected ? [] : selectedSubjects;
                 body.difficulty = difficulty;
                 body.questionCount = questionCount;
+                if (selectedSubtopics.length > 0) {
+                    body.subtopics = selectedSubtopics;
+                }
             }
 
             const res = await fetch('/api/mock-tests/generate', {
@@ -402,22 +451,60 @@ export default function MockTestsPage() {
                                             {allSelected ? 'Deselect All' : 'Select All'}
                                         </button>
                                     </div>
-                                    <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
+                                    <div className="space-y-2">
                                         {SUBJECTS.map(subj => {
                                             const isSelected = allSelected || selectedSubjects.includes(subj.id);
+                                            const hasSubtopics = isCSAT && 'subtopics' in subj && (subj as any).subtopics?.length > 0;
+                                            const isExpanded = expandedCategory === subj.id;
+                                            const subtopics = hasSubtopics ? (subj as any).subtopics : [];
                                             return (
-                                                <button key={subj.id} onClick={() => toggleSubject(subj.id)}
-                                                    className={`flex items-center gap-2.5 p-3 rounded-xl border-2 text-left transition-all text-sm ${isSelected
-                                                        ? 'border-accent-500 bg-accent-500/5 shadow-sm'
-                                                        : 'hover:border-gray-300 dark:hover:border-gray-600'
-                                                        }`}
-                                                    style={!isSelected ? { borderColor: 'var(--border-color)' } : undefined}>
-                                                    <span className="text-lg">{subj.icon}</span>
-                                                    <span className="truncate" style={{ color: isSelected ? 'var(--text-primary)' : 'var(--text-secondary)' }}>
-                                                        {subj.label}
-                                                    </span>
-                                                    {isSelected && <Check className="w-3.5 h-3.5 text-accent-500 ml-auto flex-shrink-0" />}
-                                                </button>
+                                                <div key={subj.id}>
+                                                    <div className="flex items-center gap-2">
+                                                        <button onClick={() => toggleSubject(subj.id)}
+                                                            className={`flex-1 flex items-center gap-2.5 p-3 rounded-xl border-2 text-left transition-all text-sm ${isSelected
+                                                                ? 'border-accent-500 bg-accent-500/5 shadow-sm'
+                                                                : 'hover:border-gray-300 dark:hover:border-gray-600'
+                                                                }`}
+                                                            style={!isSelected ? { borderColor: 'var(--border-color)' } : undefined}>
+                                                            <span className="text-lg">{subj.icon}</span>
+                                                            <span className="truncate" style={{ color: isSelected ? 'var(--text-primary)' : 'var(--text-secondary)' }}>
+                                                                {subj.label}
+                                                            </span>
+                                                            {isSelected && <Check className="w-3.5 h-3.5 text-accent-500 ml-auto flex-shrink-0" />}
+                                                        </button>
+                                                        {hasSubtopics && (
+                                                            <button onClick={() => setExpandedCategory(isExpanded ? null : subj.id)}
+                                                                className="p-2.5 rounded-lg border transition-all hover:bg-gray-100 dark:hover:bg-gray-800"
+                                                                style={{ borderColor: 'var(--border-color)' }}
+                                                                title="Show sub-topics">
+                                                                <ChevronDown className={`w-4 h-4 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                                                                    style={{ color: 'var(--text-muted)' }} />
+                                                            </button>
+                                                        )}
+                                                    </div>
+                                                    {hasSubtopics && isExpanded && (
+                                                        <div className="mt-2 ml-4 pl-3 border-l-2 flex flex-wrap gap-1.5"
+                                                            style={{ borderColor: 'var(--border-color)' }}>
+                                                            {subtopics.map((st: any) => {
+                                                                const stSelected = selectedSubtopics.includes(st.id);
+                                                                return (
+                                                                    <button key={st.id}
+                                                                        onClick={() => toggleSubtopic(st.id, subj.id)}
+                                                                        className={`px-3 py-1.5 rounded-full text-xs font-medium border transition-all ${stSelected
+                                                                            ? 'border-accent-500 bg-accent-500/10 text-accent-500'
+                                                                            : 'hover:border-gray-400 dark:hover:border-gray-500'
+                                                                            }`}
+                                                                        style={!stSelected ? { borderColor: 'var(--border-color)', color: 'var(--text-secondary)' } : undefined}>
+                                                                        {st.label}
+                                                                    </button>
+                                                                );
+                                                            })}
+                                                            <span className="text-[10px] self-center ml-1" style={{ color: 'var(--text-muted)' }}>
+                                                                {selectedSubtopics.filter(t => subtopics.some((st: any) => st.id === t)).length}/{subtopics.length} selected
+                                                            </span>
+                                                        </div>
+                                                    )}
+                                                </div>
                                             );
                                         })}
                                     </div>

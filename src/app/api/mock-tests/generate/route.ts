@@ -68,6 +68,7 @@ export async function POST(request: Request) {
     try {
         const body: GenerateRequest = await request.json();
         const { type, paper = 'gs', subjects, difficulty, questionCount, seenQuestionIds = [] } = body;
+        const subtopics = (body as any).subtopics as string[] | undefined;
 
         const isCSAT = paper === 'csat';
 
@@ -113,7 +114,7 @@ export async function POST(request: Request) {
             const subjectFilter = subjects && subjects.length > 0 ? subjects : undefined;
             const difficultyFilter = difficulty && difficulty !== 'mixed' ? difficulty : undefined;
             selectedQuestions = assembleCustom(
-                unseenQuestions, seenQuestions, count, subjectFilter, difficultyFilter
+                unseenQuestions, seenQuestions, count, subjectFilter, difficultyFilter, subtopics
             );
         }
 
@@ -193,7 +194,7 @@ function assembleFullLength(
 ): UnifiedQuestion[] {
     const result: UnifiedQuestion[] = [];
     const maxRepeat = 20; // 20% of 100
-    const passageSubjects = new Set(['comprehension', 'data_interpretation']);
+    const passageSubjects = new Set(['comprehension']);
 
     for (const [subject, count] of Object.entries(distribution)) {
         const subjectUnseen = unseen.filter(q => q.subject === subject);
@@ -276,19 +277,14 @@ function pickByPassageGroups(
 ): UnifiedQuestion[] {
     const allPool = [...unseen, ...seen];
 
-    // Separate into proper passage groups (generated, with passage_id) and standalone
+    // Group by passage_id (proper passage groups with 2+ questions)
     const passageGroups = new Map<string, UnifiedQuestion[]>();
     const standalone: UnifiedQuestion[] = [];
 
     for (const q of allPool) {
-        const pid = (q as any).passage_id;
-        if (pid) {
-            // Properly grouped (generated) passage question
-            if (!passageGroups.has(pid)) passageGroups.set(pid, []);
-            passageGroups.get(pid)!.push(q);
-        } else if (q.passage) {
-            // Old ePaper question with passage but no passage_id — treat as standalone
-            standalone.push(q);
+        if (q.passage_id) {
+            if (!passageGroups.has(q.passage_id)) passageGroups.set(q.passage_id, []);
+            passageGroups.get(q.passage_id)!.push(q);
         } else {
             standalone.push(q);
         }
@@ -296,11 +292,14 @@ function pickByPassageGroups(
 
     const result: UnifiedQuestion[] = [];
 
-    // First: pick from proper passage groups (3-4 Qs each)
-    const shuffledGroups = shuffleArray(Array.from(passageGroups.values()));
+    // Pick from proper passage groups (2-4 Qs each, matching UPSC format)
+    // Only use groups with 2+ questions (skip broken single-question passages)
+    const validGroups = Array.from(passageGroups.values()).filter(g => g.length >= 2);
+    const shuffledGroups = shuffleArray(validGroups);
+
     for (const group of shuffledGroups) {
         if (result.length >= targetCount) break;
-        // Only take up to 4 questions per passage (matching UPSC format)
+        // Cap at 4 questions per passage
         const capped = group.slice(0, 4);
         result.push(...capped);
     }
@@ -322,15 +321,22 @@ function assembleCustom(
     seen: UnifiedQuestion[],
     count: number,
     subjects?: string[],
-    difficulty?: string
+    difficulty?: string,
+    subtopics?: string[]
 ): UnifiedQuestion[] {
     // Filter by subject
-    let unseenPool = subjects
+    let unseenPool = subjects && subjects.length > 0
         ? unseen.filter(q => subjects.includes(q.subject))
         : unseen;
-    let seenPool = subjects
+    let seenPool = subjects && subjects.length > 0
         ? seen.filter(q => subjects.includes(q.subject))
         : seen;
+
+    // Filter by specific sub-topics (e.g., "Number System", "Puzzle")
+    if (subtopics && subtopics.length > 0) {
+        unseenPool = unseenPool.filter(q => subtopics.includes(q.sub_topic || ''));
+        seenPool = seenPool.filter(q => subtopics.includes(q.sub_topic || ''));
+    }
 
     // Filter by difficulty
     if (difficulty) {
@@ -339,7 +345,7 @@ function assembleCustom(
     }
 
     // Check if passage-based subjects are involved
-    const passageSubjects = new Set(['comprehension', 'data_interpretation']);
+    const passageSubjects = new Set(['comprehension']);
     const requestedPassageSubjects = subjects
         ? subjects.filter(s => passageSubjects.has(s))
         : [];
@@ -592,14 +598,14 @@ function groupPassageQuestions(questions: UnifiedQuestion[]): UnifiedQuestion[] 
     const withoutPassage: UnifiedQuestion[] = [];
 
     for (const q of questions) {
-        if (q.passage) withPassage.push(q);
+        if (q.passage_id || q.passage) withPassage.push(q);
         else withoutPassage.push(q);
     }
 
-    // Group by passage text
+    // Group by passage_id first, fallback to passage text
     const passageGroups = new Map<string, UnifiedQuestion[]>();
     for (const q of withPassage) {
-        const key = q.passage!.slice(0, 100); // use first 100 chars as key
+        const key = q.passage_id || q.passage!.slice(0, 100);
         if (!passageGroups.has(key)) passageGroups.set(key, []);
         passageGroups.get(key)!.push(q);
     }
