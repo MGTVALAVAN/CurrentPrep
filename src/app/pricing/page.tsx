@@ -7,6 +7,7 @@ import {
     Check, X, Star, Zap, Shield, Crown,
     ChevronDown, ChevronUp, ArrowRight, Sparkles,
     Clock, Users, Award, Target, TrendingUp, Gift,
+    MessageCircle, Flame, CheckCircle2,
 } from 'lucide-react';
 import PaymentButton from '@/components/PaymentButton';
 import {
@@ -130,10 +131,63 @@ export default function PricingPage() {
     const [openFAQ, setOpenFAQ] = useState<number | null>(0);
     const [selectedProPlan, setSelectedProPlan] = useState<'monthly' | 'yearly'>('yearly');
 
-    // GA4: track pricing page view
+    // ── Early Access State ─────────────────────────────────────────────
+    const [eaStatus, setEaStatus] = useState<{
+        totalSlots: number; claimed: number; remaining: number; isAvailable: boolean;
+    } | null>(null);
+    const [eaLoading, setEaLoading] = useState(false);
+    const [eaSuccess, setEaSuccess] = useState<{ slotNumber: number } | null>(null);
+    const [eaError, setEaError] = useState('');
+    const [eaRating, setEaRating] = useState(0);
+    const [eaHoverRating, setEaHoverRating] = useState(0);
+    const [eaLike, setEaLike] = useState('');
+    const [eaImprove, setEaImprove] = useState('');
+    const [eaRecommend, setEaRecommend] = useState(true);
+
+    // GA4: track pricing page view + fetch early access status
     useEffect(() => {
         trackEvent('pricing_view');
+        fetch('/api/early-access/status')
+            .then(r => r.json())
+            .then(data => setEaStatus(data))
+            .catch(() => setEaStatus({ totalSlots: 250, claimed: 0, remaining: 250, isAvailable: true }));
     }, []);
+
+    async function handleEarlyClaim(e: React.FormEvent) {
+        e.preventDefault();
+        setEaError('');
+        if (eaRating === 0) { setEaError('Please select a star rating.'); return; }
+        if (eaLike.trim().length < 10) { setEaError('Please tell us what you like (at least 10 characters).'); return; }
+        if (eaImprove.trim().length < 10) { setEaError('Please tell us what to improve (at least 10 characters).'); return; }
+
+        setEaLoading(true);
+        trackEvent('early_access_claim_start');
+        try {
+            const res = await fetch('/api/early-access/claim', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    feedbackRating: eaRating,
+                    feedbackWhatYouLike: eaLike,
+                    feedbackWhatToImprove: eaImprove,
+                    feedbackWouldRecommend: eaRecommend,
+                }),
+            });
+            const data = await res.json();
+            if (res.ok && data.success) {
+                setEaSuccess({ slotNumber: data.slotNumber });
+                trackEvent('early_access_claimed', { slot: data.slotNumber });
+                // Refresh status
+                fetch('/api/early-access/status').then(r => r.json()).then(setEaStatus);
+            } else {
+                setEaError(data.error || 'Something went wrong. Please try again.');
+            }
+        } catch {
+            setEaError('Network error. Please try again.');
+        } finally {
+            setEaLoading(false);
+        }
+    }
 
     const yearlyPlan = PRO_PLANS.find(p => p.billingPeriod === 'yearly')!;
     const monthlyPlan = PRO_PLANS.find(p => p.billingPeriod === 'monthly')!;
@@ -219,6 +273,250 @@ export default function PricingPage() {
                     </motion.div>
                 </div>
             </section>
+
+            {/* ═══════════════════════════════════════════════
+                 1.5 EARLY ACCESS — First 250 users get Pro FREE
+                ═══════════════════════════════════════════════ */}
+            {eaStatus && eaStatus.isAvailable && !eaSuccess && (
+                <section className="section-padding relative overflow-hidden" style={{ background: 'var(--bg-secondary)' }}>
+                    {/* Subtle background glow */}
+                    <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-green-500/5 rounded-full blur-3xl" />
+                    </div>
+
+                    <div className="relative max-w-3xl mx-auto">
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            className="text-center mb-8"
+                        >
+                            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-500/10 text-green-600 dark:text-green-400 text-sm font-bold mb-4 urgency-badge">
+                                <Flame className="w-4 h-4" /> First 250 Users Get Pro FREE
+                            </div>
+                            <h2 className="text-2xl sm:text-3xl font-heading font-bold mb-3" style={{ color: 'var(--text-primary)' }}>
+                                Get <span className="gold-text">1 Year of Pro</span> — Absolutely Free
+                            </h2>
+                            <p className="text-sm max-w-lg mx-auto" style={{ color: 'var(--text-secondary)' }}>
+                                We&apos;re giving our first 250 users free Pro access for a full year.
+                                All we ask is honest feedback to help us improve.
+                            </p>
+                        </motion.div>
+
+                        {/* Progress bar + counter */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 15 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            className="mb-8"
+                        >
+                            <div className="flex items-center justify-between text-sm mb-2">
+                                <span className="font-semibold" style={{ color: 'var(--text-primary)' }}>
+                                    {eaStatus.claimed} of {eaStatus.totalSlots} claimed
+                                </span>
+                                <span className="font-bold text-green-600 dark:text-green-400">
+                                    {eaStatus.remaining} slots left!
+                                </span>
+                            </div>
+                            <div className="w-full h-3 rounded-full overflow-hidden" style={{ background: 'var(--border-color)' }}>
+                                <motion.div
+                                    initial={{ width: 0 }}
+                                    whileInView={{ width: `${(eaStatus.claimed / eaStatus.totalSlots) * 100}%` }}
+                                    viewport={{ once: true }}
+                                    transition={{ duration: 1, ease: 'easeOut' }}
+                                    className="h-full rounded-full bg-gradient-to-r from-green-500 to-emerald-500"
+                                />
+                            </div>
+                        </motion.div>
+
+                        {/* Feedback Form */}
+                        <motion.div
+                            initial={{ opacity: 0, y: 20 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            className="rounded-2xl border p-6 sm:p-8"
+                            style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)' }}
+                        >
+                            <div className="flex items-center gap-2 mb-5">
+                                <MessageCircle className="w-5 h-5 text-primary-600 dark:text-primary-400" />
+                                <h3 className="font-heading font-bold text-lg" style={{ color: 'var(--text-primary)' }}>
+                                    Share your feedback & claim free Pro
+                                </h3>
+                            </div>
+
+                            <form onSubmit={handleEarlyClaim} className="space-y-5">
+                                {/* Star Rating */}
+                                <div>
+                                    <label className="text-sm font-medium mb-2 block" style={{ color: 'var(--text-primary)' }}>
+                                        How would you rate CurrentPrep so far? *
+                                    </label>
+                                    <div className="flex gap-1">
+                                        {[1, 2, 3, 4, 5].map((star) => (
+                                            <button
+                                                key={star}
+                                                type="button"
+                                                onMouseEnter={() => setEaHoverRating(star)}
+                                                onMouseLeave={() => setEaHoverRating(0)}
+                                                onClick={() => setEaRating(star)}
+                                                className="p-1 transition-transform hover:scale-110"
+                                            >
+                                                <Star
+                                                    className={`w-7 h-7 transition-colors ${
+                                                        star <= (eaHoverRating || eaRating)
+                                                            ? 'text-yellow-400 fill-yellow-400'
+                                                            : 'text-gray-300 dark:text-gray-600'
+                                                    }`}
+                                                />
+                                            </button>
+                                        ))}
+                                        {eaRating > 0 && (
+                                            <span className="ml-2 text-sm self-center" style={{ color: 'var(--text-muted)' }}>
+                                                {['', 'Needs work', 'Fair', 'Good', 'Great', 'Excellent'][eaRating]}
+                                            </span>
+                                        )}
+                                    </div>
+                                </div>
+
+                                {/* What you like */}
+                                <div>
+                                    <label className="text-sm font-medium mb-1.5 block" style={{ color: 'var(--text-primary)' }}>
+                                        What do you like about CurrentPrep? *
+                                    </label>
+                                    <textarea
+                                        value={eaLike}
+                                        onChange={(e) => setEaLike(e.target.value)}
+                                        placeholder="e.g., The daily current affairs are well-curated, mock test difficulty is realistic..."
+                                        rows={3}
+                                        className="input-field text-sm resize-none"
+                                        required
+                                    />
+                                </div>
+
+                                {/* What to improve */}
+                                <div>
+                                    <label className="text-sm font-medium mb-1.5 block" style={{ color: 'var(--text-primary)' }}>
+                                        What should we improve? *
+                                    </label>
+                                    <textarea
+                                        value={eaImprove}
+                                        onChange={(e) => setEaImprove(e.target.value)}
+                                        placeholder="e.g., Add more optional subject coverage, improve search functionality..."
+                                        rows={3}
+                                        className="input-field text-sm resize-none"
+                                        required
+                                    />
+                                </div>
+
+                                {/* Would recommend */}
+                                <div className="flex items-center gap-3">
+                                    <label className="text-sm font-medium" style={{ color: 'var(--text-primary)' }}>
+                                        Would you recommend us to a friend?
+                                    </label>
+                                    <div className="flex gap-2">
+                                        <button
+                                            type="button"
+                                            onClick={() => setEaRecommend(true)}
+                                            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all border ${
+                                                eaRecommend
+                                                    ? 'bg-green-500/10 border-green-500/30 text-green-600 dark:text-green-400'
+                                                    : 'border-transparent'
+                                            }`}
+                                            style={!eaRecommend ? { color: 'var(--text-muted)', borderColor: 'var(--border-color)' } : {}}
+                                        >
+                                            👍 Yes
+                                        </button>
+                                        <button
+                                            type="button"
+                                            onClick={() => setEaRecommend(false)}
+                                            className={`px-3 py-1.5 rounded-lg text-sm font-medium transition-all border ${
+                                                !eaRecommend
+                                                    ? 'bg-red-500/10 border-red-500/30 text-red-600 dark:text-red-400'
+                                                    : 'border-transparent'
+                                            }`}
+                                            style={eaRecommend ? { color: 'var(--text-muted)', borderColor: 'var(--border-color)' } : {}}
+                                        >
+                                            👎 No
+                                        </button>
+                                    </div>
+                                </div>
+
+                                {/* Error message */}
+                                {eaError && (
+                                    <p className="text-sm text-red-500 bg-red-50 dark:bg-red-900/20 px-4 py-2 rounded-lg">
+                                        {eaError}
+                                    </p>
+                                )}
+
+                                {/* Submit */}
+                                <button
+                                    type="submit"
+                                    disabled={eaLoading}
+                                    className="btn-gold text-sm w-full"
+                                >
+                                    {eaLoading ? (
+                                        <span className="flex items-center justify-center gap-2">
+                                            <span className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
+                                            Claiming your slot...
+                                        </span>
+                                    ) : (
+                                        <span className="flex items-center justify-center gap-2">
+                                            <Gift className="w-4 h-4" />
+                                            Submit Feedback & Get Free Pro Access
+                                        </span>
+                                    )}
+                                </button>
+
+                                <p className="text-center text-xs" style={{ color: 'var(--text-muted)' }}>
+                                    You must be signed in to claim. • One claim per user.
+                                </p>
+                            </form>
+                        </motion.div>
+                    </div>
+                </section>
+            )}
+
+            {/* Early Access — Success State */}
+            {eaSuccess && (
+                <section className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        animate={{ opacity: 1, scale: 1 }}
+                        className="max-w-2xl mx-auto text-center"
+                    >
+                        <div className="rounded-2xl border p-8 sm:p-10" style={{ background: 'var(--bg-card)', borderColor: 'var(--border-color)' }}>
+                            <div className="w-16 h-16 rounded-full bg-green-500/10 flex items-center justify-center mx-auto mb-4">
+                                <CheckCircle2 className="w-8 h-8 text-green-500" />
+                            </div>
+                            <h2 className="text-2xl font-heading font-bold mb-2" style={{ color: 'var(--text-primary)' }}>
+                                🎉 You&apos;re Early Access User #{eaSuccess.slotNumber}!
+                            </h2>
+                            <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>
+                                12 months of Pro access has been activated on your account.
+                                Thank you for your valuable feedback — it helps us build a better platform for all aspirants.
+                            </p>
+                            <Link
+                                href="/mock-tests"
+                                className="btn-gold text-sm inline-flex mx-auto"
+                            >
+                                <Zap className="w-4 h-4" /> Start Unlimited Tests Now
+                            </Link>
+                        </div>
+                    </motion.div>
+                </section>
+            )}
+
+            {/* Early Access — Sold Out State */}
+            {eaStatus && !eaStatus.isAvailable && !eaSuccess && (
+                <section className="py-6" style={{ background: 'var(--bg-secondary)' }}>
+                    <div className="max-w-3xl mx-auto px-4 text-center">
+                        <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full border" style={{ borderColor: 'var(--border-color)', background: 'var(--bg-card)' }}>
+                            <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
+                                ✅ All 250 early access slots have been claimed — check out our plans below!
+                            </span>
+                        </div>
+                    </div>
+                </section>
+            )}
 
             {/* ═══════════════════════════════════════════════
                  2. THREE-COLUMN PRICING CARDS

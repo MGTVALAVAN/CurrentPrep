@@ -1605,5 +1605,89 @@
         "explanation": "This is a multi-pronged, pragmatic approach. Terminating the contract (A) without exploring alternatives is premature and risky. Accepting penalties (B) without trying to mitigate the delay is not optimal. Halting all activities (D) would exacerbate delays and costs. Option C addresses the immediate problem (supplier delay) by seeking alternatives and negotiating, while also looking at internal adjustments (other project timelines) to minimize the overall impact, demonstrating proactive problem-solving within budget constraints."
       }
     ]
-  }
+  },
+  "prelimsMocks": [
+    {
+      "question": "Consider the following statements regarding the Sixteenth Finance Commission's recent recommendations:\n1. It has allocated ₹561 billion as a special infrastructure component grant for urban drainage and wastewater upgrades.\n2. This grant is specifically targeted at 22 major metropolitan cities across India.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) Both 1 and 2",
+        "(d) Neither 1 nor 2"
+      ],
+      "answer": "(a) 1 only",
+      "explanation": "The Sixteenth Finance Commission's allocation of ₹561 billion as a special infrastructure component grant is for drainage and wastewater upgrades. However, the article states it is for '22 Indian cities', not specifically '22 major metropolitan cities'. The scope might be broader than just metropolitan cities."
+    },
+    {
+      "question": "With reference to India's public health challenges, consider the term 'double burden of malnutrition'. Which of the following best describes this phenomenon in India?\n(a) The coexistence of undernutrition and micronutrient deficiencies in the same population.\n(b) The rising prevalence of overweight and obesity alongside persistent undernutrition.\n(c) The challenge of providing both adequate food supply and safe drinking water.\n(d) The simultaneous increase in communicable and non-communicable diseases.",
+      "options": [
+        "(a) The coexistence of undernutrition and micronutrient deficiencies in the same population.",
+        "(b) The rising prevalence of overweight and obesity alongside persistent undernutrition.",
+        "(c) The challenge of providing both adequate food supply and safe drinking water.",
+        "(d) The simultaneous increase in communicable and non-communicable diseases."
+      ],
+      "answer": "(b) The rising prevalence of overweight and obesity alongside persistent undernutrition.",
+      "explanation": "The article explicitly states that India is grappling with the 'double burden of malnutrition' where undernutrition coexists with a rising prevalence of overweight and obesity."
+    },
+    {
+      "question": "Which of the following statements regarding the recent developments in Kuno National Park is correct?",
+      "options": [
+        "(a) Kuno National Park recently welcomed five new cheetah cubs, increasing the total count to 53.",
+        "(b) The park is primarily known for its successful reintroduction of Asiatic Lions.",
+        "(c) The new cubs are part of a captive breeding program for Bengal Tigers.",
+        "(d) Kuno National Park is located in the state of Rajasthan, bordering the Thar Desert."
+      ],
+      "answer": "(a) Kuno National Park recently welcomed five new cheetah cubs, increasing the total count to 53.",
+      "explanation": "The article states that Kuno National Park has announced the birth of five cheetah cubs, bringing the total count of cheetahs in the park to 53. The park is known for Project Cheetah, not Asiatic Lions or Bengal Tigers, and it is located in Madhya Pradesh, not Rajasthan."
+    },
+    {
+      "question": "Global geopolitical conflicts are increasingly exposing vulnerabilities in international supply chains, particularly impacting India's food security. In this context, which of the following commodities is specifically highlighted as a critical casualty due to India's heavy reliance on its imports?",
+      "options": [
+        "(a) Edible oils",
+        "(b) Pulses",
+        "(c) Fertilizers",
+        "(d) Spices"
+      ],
+      "answer": "(c) Fertilizers",
+      "explanation": "The article 'Geopolitical Conflicts Threaten Global Fertiliser Supply, Impacting India's Food Security' directly mentions fertilisers as a critical casualty due to India's heavy reliance on imported supplies."
+    },
+    {
+      "question": "Regarding the Gavalas vs Gemini case and its implications for Artificial Intelligence (AI) chatbots, which of the following is/are the primary concerns being debated?\n1. The design ethics of AI systems.\n2. The legal liability of AI chatbot developers.\n3. The intellectual property rights of AI-generated content.\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) 1 and 2 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 2 only",
+      "explanation": "The article 'AI Chatbot Liability: Examining Design Ethics and Regulatory Frameworks in Digital Age' states that the case has ignited a critical debate surrounding the design ethics and legal liability of artificial intelligence chatbots. Intellectual property rights are not mentioned in this context."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "The Sixteenth Finance Commission's special infrastructure component grant for urban drainage and wastewater upgrades marks a significant step towards addressing urban challenges. Discuss the critical role of Finance Commissions in strengthening urban local bodies and the challenges these bodies face in infrastructure development.",
+      "syllabusMatch": "GS2: Governance / Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein.",
+      "approach": "Introduce the 16th FC's grant. Explain the constitutional mandate and role of Finance Commissions, particularly in fiscal federalism and supporting local bodies. Discuss how FC recommendations impact urban infrastructure. Highlight the key challenges faced by Urban Local Bodies (ULBs) in infrastructure development (funding, capacity, planning, governance). Conclude with suggestions for effective implementation and sustainable urban development."
+    },
+    {
+      "question": "Escalating geopolitical tensions pose a significant threat to global energy security, with direct implications for India, a major energy importer. Examine the multi-faceted challenges India faces in ensuring energy supply security and suggest strategies to build resilience against such external shocks.",
+      "syllabusMatch": "GS3: Economy / Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment. / Energy.",
+      "approach": "Begin by acknowledging India's energy import dependence and the impact of geopolitical tensions. Discuss the challenges: volatile crude oil prices, supply chain disruptions, foreign exchange drain, and geopolitical leverage. Suggest strategies for resilience: diversification of import sources, boosting domestic exploration and production, strategic petroleum reserves, promoting renewable energy, energy efficiency, and engaging in multilateral energy dialogues. Conclude on the necessity of a comprehensive and adaptive energy policy."
+    },
+    {
+      "question": "Geopolitical conflicts are increasingly exposing vulnerabilities in global supply chains, with fertilisers emerging as a critical casualty. Analyse the impact of such disruptions on India's food security and suggest measures to enhance the resilience of the agricultural sector against external shocks.",
+      "syllabusMatch": "GS3: Agriculture / Major crops-cropping patterns in various parts of the country, different types of irrigation and irrigation system storage, transport and marketing of agricultural produce and issues and related constraints; e-technology in the aid of farmers. / Food processing and related industries in India- scope and significance, location, upstream and downstream requirements, supply chain management.",
+      "approach": "Introduce the issue of geopolitical conflicts impacting fertiliser supply and India's dependence. Detail the impact on food security: increased input costs for farmers, reduced yields, inflationary pressures, and potential food shortages. Suggest measures to enhance resilience: promoting domestic fertiliser production, exploring alternative organic fertilisers, diversifying import sources, strengthening farmer support mechanisms, and investing in research and development for nutrient-efficient crops. Conclude on the need for a holistic approach to agricultural resilience."
+    },
+    {
+      "question": "Karnataka's 'guarantee schemes' have been lauded for empowering women and contributing to poverty eradication. Evaluate the effectiveness of such welfare schemes in achieving their stated objectives, while also considering potential challenges in their implementation and sustainability.",
+      "syllabusMatch": "GS2: Social Justice / Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections. / Issues relating to poverty and hunger.",
+      "approach": "Introduce Karnataka's guarantee schemes as an example of state-led welfare initiatives. Evaluate their effectiveness in women empowerment (financial independence, decision-making, social mobility) and poverty eradication (direct income support, reduced household burden). Discuss potential challenges: fiscal sustainability, targeting errors, dependency syndrome, administrative hurdles, and potential market distortions. Conclude by suggesting measures for better design, implementation, and long-term sustainability of such schemes."
+    },
+    {
+      "question": "The Gavalas vs Gemini case has ignited a critical debate surrounding the design ethics and legal liability of Artificial Intelligence (AI) chatbots. Discuss the ethical considerations in AI development and the challenges in formulating effective regulatory frameworks for AI in the digital age.",
+      "syllabusMatch": "GS3: Science and Technology / Developments and their applications and effects in everyday life. / Awareness in the fields of IT, Space, Computers, robotics, nano-technology, bio-technology and issues relating to intellectual property rights. / GS4: Ethics, Integrity, and Aptitude / Ethics and Human Interface: Essence, determinants and consequences of Ethics in human actions; dimensions of ethics; ethics in private and public relationships. Human Values – lessons from the lives and teachings of great leaders, reformers and administrators; role of family, society and educational institutions in inculcating values.",
+      "approach": "Introduce the Gavalas vs Gemini case as a trigger for the debate on AI ethics and liability. Discuss key ethical considerations in AI development: bias, transparency, accountability, autonomy, privacy, safety, and potential for harm. Analyse the challenges in formulating regulatory frameworks: rapid technological pace, global nature of AI, balancing innovation with regulation, defining liability, and ensuring explainability. Conclude with a forward-looking statement on the need for a multi-stakeholder, adaptive, and human-centric approach to AI governance."
+    }
+  ]
 }

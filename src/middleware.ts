@@ -54,6 +54,7 @@ const PUBLIC_PATHS = [
     '/',
     '/login',
     '/register',
+    '/admin/login', // Dedicated admin login page
     '/about',
     '/contact',
     '/current-affairs',
@@ -109,9 +110,8 @@ export async function middleware(request: NextRequest) {
     // ── Admin routes: require admin role ────────────────────────
     if (matchesAny(pathname, ADMIN_PAGES)) {
         if (!token) {
-            const loginUrl = new URL('/login', request.url);
-            loginUrl.searchParams.set('callbackUrl', pathname);
-            return NextResponse.redirect(loginUrl);
+            // Redirect to dedicated admin login page
+            return NextResponse.redirect(new URL('/admin/login', request.url));
         }
         if (token.role !== 'admin') {
             // Non-admin user trying to access admin — redirect to dashboard

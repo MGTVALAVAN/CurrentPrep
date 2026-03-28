@@ -1515,5 +1515,89 @@
         "explanation": "Option C represents the most balanced and diplomatic approach. It seeks to find common ground, addresses the core concerns of both parties (security for X, de-escalation for Y), and aims for consensus while protecting India's strategic interests. Options A and B involve taking sides, which would damage relations with one partner. Option D avoids the issue, which might be seen as indecisiveness and could undermine India's influence in the long run."
       }
     ]
-  }
+  },
+  "prelimsMocks": [
+    {
+      "question": "Consider the following statements regarding Iran's Nuclear Programme:\n1. The international community's primary concern revolves around Iran's potential pursuit of nuclear weapons, contrary to its obligations under the Nuclear Non-Proliferation Treaty (NPT).\n2. Recent joint military strikes by the United States and Israel against targets in Iran have significantly eased international concerns about its nuclear ambitions.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) Both 1 and 2",
+        "(d) Neither 1 nor 2"
+      ],
+      "answer": "(a) 1 only",
+      "explanation": "Statement 1 is correct. The international community is deeply concerned about the scope and intent of Iran's nuclear programme and its potential to develop nuclear weapons. Statement 2 is incorrect. Reports indicate that recent US-Israel joint operations have heightened, rather than eased, concerns about regional escalation and Iran's nuclear programme, making it a central point of contention."
+    },
+    {
+      "question": "With reference to India's early foreign policy during the Cold War era, consider the following statements:\n1. India's first Prime Minister, Jawaharlal Nehru, advocated for the inclusion of China in the United Nations Security Council (UNSC).\n2. Nehru's stance was primarily aimed at fostering a strong anti-Western bloc in Asia, aligning closely with the Soviet Union.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) Both 1 and 2",
+        "(d) Neither 1 nor 2"
+      ],
+      "answer": "(a) 1 only",
+      "explanation": "Statement 1 is correct. Historical analysis confirms that Jawaharlal Nehru advocated for China's inclusion in the UNSC. Statement 2 is incorrect. While India pursued a non-aligned foreign policy, Nehru's advocacy for China was not primarily about forming an anti-Western bloc or aligning strictly with the Soviet Union, but rather about recognizing China's geopolitical significance and promoting a multipolar world order."
+    },
+    {
+      "question": "Consider the following statements regarding the geopolitical situation in West Asia and its impact:\n1. Escalating military actions in the West Asian region, particularly involving Iran, have significant implications for global oil flow stability.\n2. India's energy security is directly and substantially dependent on the stability of oil supplies originating from the West Asian region.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) Both 1 and 2",
+        "(d) Neither 1 nor 2"
+      ],
+      "answer": "(c) Both 1 and 2",
+      "explanation": "Both statements are correct. Article 6 explicitly states that recent military actions by Israel and the US targeting Iran have escalated geopolitical tensions in West Asia, raising significant concerns regarding the stability of global oil flow and India's energy security, given its reliance on oil imports from the region."
+    },
+    {
+      "question": "With reference to India's clean energy transition, consider the following statements:\n1. India's existing coal-fired power plants are predominantly designed for continuous baseload operation.\n2. The operational inflexibility of these coal plants poses a challenge to the effective integration of a higher share of renewable energy sources into the national grid.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) Both 1 and 2",
+        "(d) Neither 1 nor 2"
+      ],
+      "answer": "(c) Both 1 and 2",
+      "explanation": "Both statements are correct. Article 8 highlights that India's coal-fired power plants are typically designed for continuous baseload operation, making them inflexible. This inflexibility hinders the grid's ability to accommodate the variable nature of renewable energy, thereby challenging India's clean energy targets."
+    },
+    {
+      "question": "Regarding the Dubai International Airport (DXB) and recent geopolitical events, consider the following statements:\n1. Dubai International Airport (DXB) serves as a major global aviation hub.\n2. A temporary shutdown of DXB amidst escalating regional conflicts would primarily impact only domestic and intra-Middle East flight operations.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) Both 1 and 2",
+        "(d) Neither 1 nor 2"
+      ],
+      "answer": "(a) 1 only",
+      "explanation": "Statement 1 is correct. Dubai International Airport (DXB) is widely recognized as a major global aviation hub. Statement 2 is incorrect. As a global hub, its temporary shutdown would have far-reaching implications beyond just domestic or intra-Middle East flights, affecting international travel and logistics worldwide."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "India's foreign policy is often characterized by its advocacy for dialogue and peaceful resolution, yet it frequently finds itself navigating a complex diplomatic tightrope. Discuss this statement in the context of India's recent engagements with global challenges and its historical foreign policy principles.",
+      "syllabusMatch": "GS2: International Relations / India and its neighborhood- relations; Effect of policies and politics of developed and developing countries on India's interests.",
+      "approach": "Introduce India's core foreign policy tenets (dialogue, peace, non-alignment, strategic autonomy). Elaborate on the 'diplomatic tightrope' using examples from the articles (e.g., Middle East conflict, relations with Canada, historical stance on China's UNSC seat). Analyze the challenges and opportunities for India in maintaining this balance while pursuing its national interests. Conclude with the evolving nature of India's foreign policy."
+    },
+    {
+      "question": "Analyze the multifaceted implications of escalating geopolitical tensions in West Asia, particularly concerning Iran, on global stability, energy security, and international aviation. What strategies can India adopt to mitigate the adverse effects of such instability?",
+      "syllabusMatch": "GS2: International Relations / Effect of policies and politics of developed and developing countries on India's interests; Important International institutions, agencies and fora, their structure, mandate.",
+      "approach": "Begin by outlining the current geopolitical tensions in West Asia involving Iran (US-Israel strikes, nuclear program concerns). Discuss the implications for global stability (regional conflict, proliferation risks), energy security (oil flow disruption, price volatility), and international aviation (airport closures, route changes). For India, suggest strategies like diversifying energy sources, strengthening strategic reserves, enhancing diplomatic engagement, and exploring alternative trade routes."
+    },
+    {
+      "question": "Despite ambitious clean energy targets, India faces significant challenges in transitioning away from fossil fuels. Critically examine the operational inflexibility of coal-fired power plants as a major impediment and suggest policy solutions for a smoother and more sustainable energy transition.",
+      "syllabusMatch": "GS3: Energy / Infrastructure / Environmental pollution and degradation.",
+      "approach": "Explain India's clean energy goals and the current reliance on coal. Detail how the design of coal-fired plants for baseload operation creates inflexibility. Discuss how this inflexibility hinders renewable energy integration and grid stability. Propose comprehensive policy solutions such as grid modernization, energy storage solutions, demand-side management, market reforms to incentivize flexibility, phased retirement of older plants, and investment in cleaner coal technologies and Carbon Capture Utilization and Storage (CCUS)."
+    },
+    {
+      "question": "Kerala's economic and social development trajectory is often termed a 'paradox' due to its high human development indicators alongside certain inherent economic challenges. Elaborate on this paradox and discuss how Kerala can chart a global vision for future growth, leveraging its unique strengths.",
+      "syllabusMatch": "GS1: Social empowerment; GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment.",
+      "approach": "Define Kerala's 'paradox' by highlighting its achievements in HDI (education, health) versus economic challenges (unemployment, industrial growth, remittances dependency). Analyze the historical and structural reasons for this paradox. Suggest a global vision for future growth by leveraging its diaspora, promoting high-tech industries, sustainable tourism, quality human capital, and fostering innovation and entrepreneurship. Emphasize policy interventions needed for skill development, investment attraction, and infrastructure enhancement."
+    },
+    {
+      "question": "Drawing parallels to the lead-up to the 2003 Iraq War, recent developments in Iran nuclear diplomacy highlight the complexities and potential pitfalls of international negotiations. Discuss the critical factors that often undermine such diplomatic efforts and their broader geopolitical consequences.",
+      "syllabusMatch": "GS2: International Relations / Important International institutions, agencies and fora, their structure, mandate; Bilateral, regional and global groupings and agreements involving India and/or affecting India’s interests.",
+      "approach": "Start by explaining the parallel drawn between the 2003 Iraq War lead-up and current Iran nuclear diplomacy, focusing on how external actions (e.g., US backing Israel's attack plan) can derail negotiations. Identify critical factors undermining diplomacy, such as lack of trust, unilateral actions by powerful states, domestic political pressures, differing interpretations of international law, and the pursuit of narrow national interests over collective security. Discuss the broader geopolitical consequences, including increased regional instability, proliferation risks, erosion of international norms, and the weakening of multilateral institutions."
+    }
+  ]
 }

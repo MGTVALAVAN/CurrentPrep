@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import {
     Inbox, Shield, Loader2, Mail, Clock, Check,
-    Archive, BarChart3, Users, FileText,
+    Archive, BarChart3, Users, FileText, CreditCard,
     ChevronLeft, ChevronRight, Eye,
 } from 'lucide-react';
 import '../admin.css';
@@ -35,7 +35,7 @@ export default function AdminContactPage() {
 
     useEffect(() => {
         if (authStatus === 'unauthenticated') {
-            router.replace('/login?callbackUrl=/admin/contact');
+            router.replace('/admin/login');
         }
         if (authStatus === 'authenticated' && (session?.user as any)?.role !== 'admin') {
             router.replace('/dashboard');
@@ -113,6 +113,9 @@ export default function AdminContactPage() {
                     </Link>
                     <Link href="/admin/users" className="admin-nav-item">
                         <Users size={16} /><span>Users</span>
+                    </Link>
+                    <Link href="/admin/payments" className="admin-nav-item">
+                        <CreditCard size={16} /><span>Payments</span>
                     </Link>
                     <Link href="/admin/content" className="admin-nav-item">
                         <FileText size={16} /><span>Content</span>

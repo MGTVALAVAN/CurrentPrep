@@ -2063,5 +2063,89 @@
         "explanation": "This option represents a standard, responsible, and effective incident response protocol. Isolating compromised systems prevents further spread, activating backups ensures continuity of critical services, and engaging experts is crucial for containment, eradication, recovery, and post-incident analysis. Option A is too drastic and would cause unnecessary service disruption. Option B is premature and could escalate the situation without proper diplomatic channels. Option D is highly irresponsible, potentially illegal, and outside the scope of a data center's immediate response."
       }
     ]
-  }
+  },
+  "prelimsMocks": [
+    {
+      "question": "Consider the following statements:\n1. India's recent uranium deals, such as with Canada, are primarily aimed at boosting its energy security and supporting its civilian nuclear program.\n2. India's large-scale humanitarian evacuation missions are considered a crucial pillar of its foreign policy, demonstrating a strong commitment to its diaspora abroad.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) Both 1 and 2",
+        "(d) Neither 1 nor 2"
+      ],
+      "answer": "(c) Both 1 and 2",
+      "explanation": "Statement 1 is correct as per Article 1, highlighting the India-Canada uranium deal for energy security. Statement 2 is correct as per Article 5, which discusses India's humanitarian evacuation missions as a pillar of its foreign policy and crisis management."
+    },
+    {
+      "question": "With reference to the Right to Education (RTE) in India, consider the following statements:\n1. The Right to Education is enshrined as a Fundamental Right under Article 21A of the Indian Constitution.\n2. A recent Bombay High Court ruling reinforced the scope and guarantee of the Right to Education, particularly concerning issues related to fee payment.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) Both 1 and 2",
+        "(d) Neither 1 nor 2"
+      ],
+      "answer": "(c) Both 1 and 2",
+      "explanation": "Statement 1 is factually correct. Article 21A guarantees the Right to Education. Statement 2 is correct as per Article 3, which mentions the Bombay High Court's ruling reinforcing the RTE's scope regarding fee payments."
+    },
+    {
+      "question": "Consider the following statements regarding modern conflicts and economic data:\n1. Data centres are emerging as strategic targets in modern conflicts due to their critical role in digital infrastructure and information processing.\n2. India's new GDP series has indicated a larger contribution from the agricultural sector than previously estimated, based on updated methodologies.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) Both 1 and 2",
+        "(d) Neither 1 nor 2"
+      ],
+      "answer": "(c) Both 1 and 2",
+      "explanation": "Statement 1 is correct as per Article 4, which highlights data centres as strategic targets in cyber warfare. Statement 2 is correct as per Article 6, detailing insights from the new GDP series, including a larger contribution from the farm sector."
+    },
+    {
+      "question": "With reference to environmental conservation in India, consider the following statements:\n1. Himalayan Sacred Groves are recognized as biodiversity hotspots and often play a role in traditional healing systems.\n2. Habitat fragmentation caused by linear infrastructure like roads and railways can severely impact wildlife movement and populations.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 only",
+        "(c) Both 1 and 2",
+        "(d) Neither 1 nor 2"
+      ],
+      "answer": "(c) Both 1 and 2",
+      "explanation": "Statement 1 is correct as per Article 7, describing Himalayan Sacred Groves. Statement 2 is correct as per Article 8, which discusses the impact of habitat fragmentation due to linear infrastructure on wildlife, citing King Cobras in Goa as an example."
+    },
+    {
+      "question": "Which of the following statements correctly describe the economic implications of recent geopolitical events and policy changes in India?\n1. Global conflicts are causing significant volatility across international markets, affecting supply chains and commodity prices globally.\n2. GST rationalisation measures are expected to have a transient rather than a long-lasting inflationary impact on consumer prices.\n3. The ongoing conflict in West Asia has severely disrupted basmati rice exports from regions like Punjab and Haryana.\nSelect the correct answer using the code given below:",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(d) 1, 2 and 3",
+      "explanation": "Statement 1 is correct as per Article 12, discussing the economic repercussions of global conflicts. Statement 2 is correct as per Article 11, which states that GST rationalisation has a 'transient impact' on consumer prices. Statement 3 is correct as per Article 14, highlighting the crisis faced by basmati rice exporters due to the West Asia conflict."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "India's foreign policy is increasingly characterized by a pragmatic approach to energy security and a robust commitment to its diaspora. Discuss this statement in light of India's recent uranium deals and humanitarian evacuation missions, also highlighting the imperative of post-conflict planning in regional stability.",
+      "syllabusMatch": "GS2: International Relations; India and its neighbourhood- relations; Effect of policies and politics of developed and developing countries on India’s interests, Indian diaspora.",
+      "approach": "Introduce India's pragmatic foreign policy. Discuss the India-Canada uranium deal as an example of securing energy needs. Elaborate on India's humanitarian evacuation missions as a pillar of diaspora engagement and crisis management. Conclude by linking these actions to India's broader goal of regional stability and the need for post-conflict planning in global geopolitics."
+    },
+    {
+      "question": "The recent updates to India's National Accounts Data provide fresh insights into the economy, but global conflicts continue to pose significant challenges to fiscal targets and market stability. Analyze the implications of the new GDP series findings for India's economic policy and assess how ongoing global conflicts impact its fiscal targets and overall market dynamics.",
+      "syllabusMatch": "GS3: Indian Economy and issues relating to planning, mobilization of resources, growth, development and employment; Government Budgeting; Effects of liberalization on the economy, changes in industrial policy and their effects on industrial growth.",
+      "approach": "Begin by explaining the significance of the new GDP series and its key findings (e.g., farm sector growth, informal economy's role). Discuss how these insights might influence fiscal targets and economic planning. Subsequently, analyze the economic repercussions of global conflicts on India, covering aspects like supply chains, commodity prices, investor sentiment, and their direct/indirect impact on fiscal health and market stability."
+    },
+    {
+      "question": "Data centres are becoming crucial strategic targets in modern conflicts, reflecting a shift in the nature of warfare. This is particularly evident in regions like West Asia, where geopolitical dynamics are complex. Examine the evolving nature of cyber warfare with data centres as targets, and analyze how the unique political system of a country like Iran influences its regional actions and overall West Asian stability.",
+      "syllabusMatch": "GS3: Security challenges and their management in border areas; role of external state and non-state actors in creating challenges to internal security; GS2: India and its neighbourhood- relations.",
+      "approach": "Start by discussing the strategic importance of data centers in modern digital infrastructure and why they are emerging as targets in cyber warfare, citing examples like Iran's alleged actions. Then, delve into the geopolitical dynamics of West Asia, focusing on Iran's political system (Supreme Leader, power pyramid) and how it shapes its foreign policy and regional military actions, impacting stability."
+    },
+    {
+      "question": "The pursuit of economic development often clashes with ecological conservation, leading to protests and environmental degradation, even as traditional practices offer sustainable alternatives. Discuss the challenges of balancing development and ecological conservation in India, with specific reference to habitat fragmentation, land conversion laws, and the potential of traditional conservation methods like sacred groves.",
+      "syllabusMatch": "GS3: Conservation, environmental pollution and degradation, environmental impact assessment; Disaster and disaster management.",
+      "approach": "Introduce the conflict between development and conservation in India. Use examples like Goa's land conversion law and habitat fragmentation due to linear infrastructure to illustrate the challenges and consequences. Then, highlight the importance and potential of traditional conservation methods, such as Himalayan Sacred Groves, as nature-based solutions that integrate biodiversity and local communities. Conclude with a balanced approach emphasizing sustainable development."
+    },
+    {
+      "question": "Effective governance hinges on robust social welfare infrastructure and timely implementation of policies, yet challenges persist in areas like education and workforce management. In light of the Bombay High Court's ruling on the Right to Education, and recent initiatives in social welfare and concerns over workforce management in public services, critically analyze the strengths and weaknesses of India's governance in delivering social justice and public services.",
+      "syllabusMatch": "GS2: Governance, Constitution, Polity, Social Justice; Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections.",
+      "approach": "Begin by linking the Bombay HC ruling to the guarantee and implementation challenges of RTE, highlighting the role of the judiciary. Then, discuss government initiatives like Tamil Nadu's welfare schemes as examples of strengthening social welfare infrastructure. Contrast these with governance challenges, such as delays in loco pilot training, to demonstrate weaknesses in workforce management and public service delivery. Conclude with an overall assessment of India's governance in achieving social justice and efficient public services."
+    }
+  ]
 }

@@ -87,10 +87,13 @@ async function regenerateQuickBytes(): Promise<void> {
         for (let attempt = 1; attempt <= 2; attempt++) {
             try {
                 console.log(`Generating Quick Bytes with ${model} (attempt ${attempt})...`);
+                const qbController = new AbortController();
+                const qbTimer = setTimeout(() => qbController.abort(), 60_000);
                 const response = await fetch(
                     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
-                    { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(requestBody) }
+                    { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(requestBody), signal: qbController.signal }
                 );
+                clearTimeout(qbTimer);
                 if (!response.ok) {
                     if (response.status === 429) { await sleep(5000); continue; }
                     throw new Error(`HTTP ${response.status}`);

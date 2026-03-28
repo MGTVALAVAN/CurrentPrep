@@ -19,6 +19,8 @@ const DATA_FILE = path.join(process.cwd(), 'src/data/epaper', `epaper-${dateArg}
 async function callGemini(prompt: string): Promise<string> {
     for (let attempt = 1; attempt <= 3; attempt++) {
         try {
+            const fpeController = new AbortController();
+            const fpeTimer = setTimeout(() => fpeController.abort(), 60_000);
             const response = await fetch(
                 `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`,
                 {
@@ -28,8 +30,10 @@ async function callGemini(prompt: string): Promise<string> {
                         contents: [{ parts: [{ text: prompt }] }],
                         generationConfig: { temperature: 0.8, maxOutputTokens: 1024 },
                     }),
+                    signal: fpeController.signal,
                 }
             );
+            clearTimeout(fpeTimer);
             const result = await response.json();
             const text = result.candidates?.[0]?.content?.parts?.[0]?.text?.trim();
             if (text) return text;
@@ -158,6 +162,8 @@ REQUIREMENTS:
 
 Return ONLY valid JSON (no markdown, no code fences):
 {"label": "metric name in CAPS max 5 words", "value": "number with unit", "context": "brief explanation max 25 words"}`;
+            const dsController = new AbortController();
+            const dsTimer = setTimeout(() => dsController.abort(), 60_000);
             const response = await fetch(
                 `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`,
                 {
@@ -167,8 +173,10 @@ Return ONLY valid JSON (no markdown, no code fences):
                         contents: [{ parts: [{ text: dsPrompt }] }],
                         generationConfig: { temperature: 0.3, maxOutputTokens: 200 },
                     }),
+                    signal: dsController.signal,
                 }
             );
+            clearTimeout(dsTimer);
             const result = await response.json();
             const raw = result.candidates?.[0]?.content?.parts?.[0]?.text?.trim() || '';
             const cleaned = raw.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();

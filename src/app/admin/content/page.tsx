@@ -5,14 +5,14 @@ import { useSession } from 'next-auth/react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import {
-    FileText, Shield, Loader2, BarChart3, Users, Inbox,
+    FileText, Shield, Loader2, BarChart3, Users, Inbox, CreditCard,
     Newspaper, BookOpen, Calendar, ExternalLink,
 } from 'lucide-react';
 import '../admin.css';
 
 interface ContentStats {
     epapers: { total: number; latest: string | null };
-    mocks: { totalDays: number; totalPrelims: number; totalMains: number; totalCsat: number };
+    mocks: { totalSubjects: number; totalMocks: number; totalQuestions: number };
 }
 
 export default function AdminContentPage() {
@@ -23,7 +23,7 @@ export default function AdminContentPage() {
 
     useEffect(() => {
         if (status === 'unauthenticated') {
-            router.replace('/login?callbackUrl=/admin/content');
+            router.replace('/admin/login');
         }
         if (status === 'authenticated' && (session?.user as any)?.role !== 'admin') {
             router.replace('/dashboard');
@@ -69,6 +69,9 @@ export default function AdminContentPage() {
                     </Link>
                     <Link href="/admin/users" className="admin-nav-item">
                         <Users size={16} /><span>Users</span>
+                    </Link>
+                    <Link href="/admin/payments" className="admin-nav-item">
+                        <CreditCard size={16} /><span>Payments</span>
                     </Link>
                     <Link href="/admin/content" className="admin-nav-item active">
                         <FileText size={16} /><span>Content</span>
@@ -124,22 +127,22 @@ export default function AdminContentPage() {
 
                 {/* ── Mock Test Stats ──────────────── */}
                 <section className="admin-section">
-                    <h2><Calendar size={18} /> Daily Mock Tests</h2>
+                    <h2><Calendar size={18} /> Mock Test Bank</h2>
                     <div className="admin-stats-grid">
                         <div className="admin-stat-card" style={{ borderTopColor: '#3b82f6' }}>
                             <div className="admin-stat-icon" style={{ color: '#3b82f6' }}><Calendar size={22} /></div>
-                            <div className="admin-stat-value">{stats?.mocks.totalDays ?? '—'}</div>
-                            <div className="admin-stat-label">Mock Days Available</div>
+                            <div className="admin-stat-value">{stats?.mocks.totalSubjects ?? '—'}</div>
+                            <div className="admin-stat-label">Subjects</div>
                         </div>
                         <div className="admin-stat-card" style={{ borderTopColor: '#ef4444' }}>
                             <div className="admin-stat-icon" style={{ color: '#ef4444' }}><BookOpen size={22} /></div>
-                            <div className="admin-stat-value">{stats?.mocks.totalPrelims ?? '—'}</div>
-                            <div className="admin-stat-label">Prelims Questions</div>
+                            <div className="admin-stat-value">{stats?.mocks.totalMocks ?? '—'}</div>
+                            <div className="admin-stat-label">Mock Tests</div>
                         </div>
                         <div className="admin-stat-card" style={{ borderTopColor: '#10b981' }}>
                             <div className="admin-stat-icon" style={{ color: '#10b981' }}><FileText size={22} /></div>
-                            <div className="admin-stat-value">{stats?.mocks.totalMains ?? '—'}</div>
-                            <div className="admin-stat-label">Mains Questions</div>
+                            <div className="admin-stat-value">{stats?.mocks.totalQuestions ?? '—'}</div>
+                            <div className="admin-stat-label">Total Questions</div>
                         </div>
                     </div>
                     <div className="admin-actions-grid" style={{ marginTop: 12 }}>

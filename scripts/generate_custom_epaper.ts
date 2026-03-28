@@ -205,14 +205,18 @@ ${leadArticles.map(a => `- ${a.title}: ${a.description.substring(0, 150)}...`).j
 
     let leadDescription = "";
     try {
+        const leadController = new AbortController();
+        const leadTimer = setTimeout(() => leadController.abort(), 90_000); // 90s hard timeout
         const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 contents: [{ parts: [{ text: leadPrompt }] }],
                 generationConfig: { temperature: 0.3 }
-            })
+            }),
+            signal: leadController.signal,
         });
+        clearTimeout(leadTimer);
 
         if (!response.ok) {
             console.error("Gemini API error for lead story:", await response.text());

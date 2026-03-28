@@ -8,6 +8,8 @@ import {
     Users, Mail, FileText, BarChart3, Shield,
     TrendingUp, Eye, Clock, AlertCircle, Loader2,
     ChevronRight, Inbox, BookOpen, Activity,
+    IndianRupee, CreditCard, XCircle, Timer,
+    CheckCircle2, HeartPulse,
 } from 'lucide-react';
 import './admin.css';
 
@@ -19,17 +21,46 @@ interface AdminStats {
     contact: { total: number; unread: number };
 }
 
+interface PaymentStats {
+    summary: {
+        totalRevenue: number;
+        totalPaid: number;
+        totalFailed: number;
+        totalPending: number;
+        avgOrderValue: number;
+    };
+    byPlan: Array<{ plan: string; count: number; revenue: number }>;
+    recent: Array<{
+        id: string;
+        userName: string;
+        userEmail: string;
+        plan: string;
+        amount: number;
+        status: string;
+        date: string;
+    }>;
+}
+
+interface HealthCheck {
+    status: string;
+    checks: Record<string, 'ok' | 'error' | 'unconfigured'>;
+    responseTime: string;
+    environment: string;
+}
+
 // ── Component ──────────────────────────────────────────────────────────
 
 export default function AdminDashboard() {
     const { data: session, status } = useSession();
     const router = useRouter();
     const [stats, setStats] = useState<AdminStats | null>(null);
+    const [paymentStats, setPaymentStats] = useState<PaymentStats | null>(null);
+    const [health, setHealth] = useState<HealthCheck | null>(null);
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
         if (status === 'unauthenticated') {
-            router.replace('/login?callbackUrl=/admin');
+            router.replace('/admin/login');
             return;
         }
         if (status === 'authenticated') {
@@ -38,19 +69,29 @@ export default function AdminDashboard() {
                 router.replace('/dashboard');
                 return;
             }
-            fetchStats();
+            fetchAllData();
         }
     }, [status, session, router]);
 
-    async function fetchStats() {
+    async function fetchAllData() {
         try {
-            const res = await fetch('/api/admin/stats', { cache: 'no-store' });
-            if (res.ok) {
-                const data = await res.json();
-                setStats(data);
+            const [statsRes, paymentsRes, healthRes] = await Promise.allSettled([
+                fetch('/api/admin/stats', { cache: 'no-store' }),
+                fetch('/api/admin/payments?limit=5', { cache: 'no-store' }),
+                fetch('/api/health', { cache: 'no-store' }),
+            ]);
+
+            if (statsRes.status === 'fulfilled' && statsRes.value.ok) {
+                setStats(await statsRes.value.json());
+            }
+            if (paymentsRes.status === 'fulfilled' && paymentsRes.value.ok) {
+                setPaymentStats(await paymentsRes.value.json());
+            }
+            if (healthRes.status === 'fulfilled' && healthRes.value.ok) {
+                setHealth(await healthRes.value.json());
             }
         } catch (err) {
-            console.error('Failed to fetch admin stats:', err);
+            console.error('Failed to fetch admin data:', err);
         } finally {
             setLoading(false);
         }
@@ -67,6 +108,7 @@ export default function AdminDashboard() {
 
     const user = session?.user;
     const s = stats;
+    const p = paymentStats?.summary;
 
     return (
         <div className="admin-page">
@@ -84,6 +126,10 @@ export default function AdminDashboard() {
                     <Link href="/admin/users" className="admin-nav-item">
                         <Users size={16} />
                         <span>Users</span>
+                    </Link>
+                    <Link href="/admin/payments" className="admin-nav-item">
+                        <CreditCard size={16} />
+                        <span>Payments</span>
                     </Link>
                     <Link href="/admin/content" className="admin-nav-item">
                         <FileText size={16} />
@@ -116,7 +162,7 @@ export default function AdminDashboard() {
                     </div>
                 </header>
 
-                {/* ── Stats Grid ──────────────────────────── */}
+                {/* ── User & Content Stats ──────────────────── */}
                 <div className="admin-stats-grid">
                     <StatCard
                         icon={<Users size={22} />}
@@ -148,6 +194,108 @@ export default function AdminDashboard() {
                     />
                 </div>
 
+                {/* ── Revenue Overview ───────────────────────── */}
+                <section className="admin-section">
+                    <h2><IndianRupee size={18} /> Revenue Overview</h2>
+                    <div className="admin-stats-grid">
+                        <StatCard
+                            icon={<IndianRupee size={22} />}
+                            label="Total Revenue"
+                            value={p ? formatPaise(p.totalRevenue) : '—'}
+                            sub={p ? `Avg order: ${formatPaise(p.avgOrderValue)}` : '—'}
+                            color="#059669"
+                        />
+                        <StatCard
+                            icon={<CheckCircle2 size={22} />}
+                            label="Successful Payments"
+                            value={p?.totalPaid ?? '—'}
+                            sub="All time"
+                            color="#10b981"
+                        />
+                        <StatCard
+                            icon={<XCircle size={22} />}
+                            label="Failed"
+                            value={p?.totalFailed ?? '—'}
+                            sub={p?.totalPending ? `${p.totalPending} pending` : '—'}
+                            color="#ef4444"
+                        />
+                        <StatCard
+                            icon={<Timer size={22} />}
+                            label="Pending Orders"
+                            value={p?.totalPending ?? '—'}
+                            sub="Awaiting payment"
+                            color="#f59e0b"
+                        />
+                    </div>
+
+                    {/* ── Revenue by Plan ── */}
+                    {paymentStats && paymentStats.byPlan.length > 0 && (
+                        <div className="admin-revenue-plans">
+                            <h3 style={{ fontSize: 13, color: 'var(--admin-ink-2)', marginBottom: 8, fontWeight: 600 }}>
+                                Revenue by Plan
+                            </h3>
+                            <div className="admin-plan-chips">
+                                {paymentStats.byPlan.map(p => (
+                                    <div key={p.plan} className="admin-plan-chip">
+                                        <span className="admin-plan-name">{formatPlanName(p.plan)}</span>
+                                        <span className="admin-plan-revenue">{formatPaise(p.revenue)}</span>
+                                        <span className="admin-plan-count">{p.count} sale{p.count !== 1 ? 's' : ''}</span>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* ── Recent Transactions ── */}
+                    {paymentStats && paymentStats.recent.length > 0 && (
+                        <div className="admin-recent-txn">
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8 }}>
+                                <h3 style={{ fontSize: 13, color: 'var(--admin-ink-2)', fontWeight: 600 }}>
+                                    Recent Transactions
+                                </h3>
+                                <Link href="/admin/payments" style={{ fontSize: 12, color: 'var(--admin-accent)', textDecoration: 'none' }}>
+                                    View all →
+                                </Link>
+                            </div>
+                            <div className="admin-table-wrapper">
+                                <table className="admin-table">
+                                    <thead>
+                                        <tr>
+                                            <th>User</th>
+                                            <th>Plan</th>
+                                            <th>Amount</th>
+                                            <th>Status</th>
+                                            <th>Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {paymentStats.recent.map(txn => (
+                                            <tr key={txn.id}>
+                                                <td>
+                                                    <div style={{ fontWeight: 600, fontSize: 13 }}>{txn.userName}</div>
+                                                    <div style={{ fontSize: 11, color: 'var(--admin-ink-3)' }}>{txn.userEmail}</div>
+                                                </td>
+                                                <td>{formatPlanName(txn.plan)}</td>
+                                                <td style={{ fontWeight: 600 }}>{formatPaise(txn.amount)}</td>
+                                                <td>
+                                                    <span className={`admin-payment-status ${txn.status}`}>
+                                                        {txn.status}
+                                                    </span>
+                                                </td>
+                                                <td style={{ fontSize: 12 }}>
+                                                    {new Date(txn.date).toLocaleDateString('en-IN', {
+                                                        day: 'numeric', month: 'short',
+                                                    })}
+                                                </td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    )}
+                </section>
+
                 {/* ── Quick Actions ───────────────────────── */}
                 <section className="admin-section">
                     <h2><Activity size={18} /> Quick Actions</h2>
@@ -157,6 +305,14 @@ export default function AdminDashboard() {
                             <div>
                                 <strong>Manage Users</strong>
                                 <p>View, search, and update user roles</p>
+                            </div>
+                            <ChevronRight size={16} />
+                        </Link>
+                        <Link href="/admin/payments" className="admin-action-card">
+                            <CreditCard size={20} />
+                            <div>
+                                <strong>Payment History</strong>
+                                <p>All transactions and revenue</p>
                             </div>
                             <ChevronRight size={16} />
                         </Link>
@@ -171,14 +327,6 @@ export default function AdminDashboard() {
                             )}
                             <ChevronRight size={16} />
                         </Link>
-                        <Link href="/admin/content" className="admin-action-card">
-                            <BookOpen size={20} />
-                            <div>
-                                <strong>Content Overview</strong>
-                                <p>View ePaper and quiz stats</p>
-                            </div>
-                            <ChevronRight size={16} />
-                        </Link>
                         <Link href="/daily-epaper" className="admin-action-card">
                             <Eye size={20} />
                             <div>
@@ -190,19 +338,66 @@ export default function AdminDashboard() {
                     </div>
                 </section>
 
-                {/* ── System Status ───────────────────────── */}
+                {/* ── System Status (Live) ───────────────────── */}
                 <section className="admin-section">
-                    <h2><AlertCircle size={18} /> System Status</h2>
+                    <h2><HeartPulse size={18} /> System Health</h2>
                     <div className="admin-status-list">
-                        <StatusRow label="NextAuth" status="active" detail="JWT sessions, 30-day TTL" />
-                        <StatusRow label="Supabase" status="active" detail="Database connected" />
-                        <StatusRow label="Daily Pipeline" status="active" detail="Cron: 00:00 UTC daily" />
-                        <StatusRow label="Rate Limiting" status="active" detail="In-memory, per-IP" />
+                        {health ? (
+                            <>
+                                <StatusRow
+                                    label="Overall"
+                                    status={health.status === 'ok' ? 'active' : 'warning'}
+                                    detail={`${health.status.toUpperCase()} • ${health.responseTime} • ${health.environment}`}
+                                />
+                                <StatusRow
+                                    label="Database (Supabase)"
+                                    status={health.checks.database === 'ok' ? 'active' : health.checks.database === 'error' ? 'error' : 'warning'}
+                                    detail={health.checks.database === 'ok' ? 'Connected' : health.checks.database === 'error' ? 'Connection failed' : 'Not configured'}
+                                />
+                                <StatusRow
+                                    label="Authentication"
+                                    status={health.checks.auth === 'ok' ? 'active' : 'warning'}
+                                    detail={health.checks.auth === 'ok' ? 'NEXTAUTH_SECRET set' : 'Missing secret'}
+                                />
+                                <StatusRow
+                                    label="AI (Gemini)"
+                                    status={health.checks.ai === 'ok' ? 'active' : 'warning'}
+                                    detail={health.checks.ai === 'ok' ? 'API key configured' : 'Key not set'}
+                                />
+                            </>
+                        ) : (
+                            <>
+                                <StatusRow label="NextAuth" status="active" detail="JWT sessions, 30-day TTL" />
+                                <StatusRow label="Supabase" status="active" detail="Database connected" />
+                                <StatusRow label="Daily Pipeline" status="active" detail="Cron: 00:00 UTC daily" />
+                                <StatusRow label="Rate Limiting" status="active" detail="In-memory, per-IP" />
+                            </>
+                        )}
                     </div>
                 </section>
             </main>
         </div>
     );
+}
+
+// ── Helpers ────────────────────────────────────────────────────────────
+
+function formatPaise(paise: number): string {
+    if (paise === 0) return '₹0';
+    const rupees = paise / 100;
+    if (rupees >= 100000) return `₹${(rupees / 100000).toFixed(1)}L`;
+    if (rupees >= 1000) return `₹${(rupees / 1000).toFixed(1)}K`;
+    return `₹${rupees.toLocaleString('en-IN')}`;
+}
+
+function formatPlanName(plan: string): string {
+    const labels: Record<string, string> = {
+        monthly: 'Monthly', quarterly: 'Quarterly', annual: 'Annual',
+        pro_monthly: 'Pro Monthly', pro_yearly: 'Pro Yearly',
+        single_10q: 'Single (10Q)', single_25q: 'Single (25Q)',
+        pack_5: 'Pack of 5', pack_10: 'Pack of 10',
+    };
+    return labels[plan] || plan;
 }
 
 // ── Sub-components ─────────────────────────────────────────────────────

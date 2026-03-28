@@ -147,12 +147,39 @@ Possible causes:
 fi
 
 # ─────────────────────────────────────────────────────────
+# TIMEOUT UTILITY
+# Each step has a hard timeout to prevent hanging the pipeline.
+# Uses GNU timeout (gtimeout on macOS via coreutils) if available.
+# ─────────────────────────────────────────────────────────
+if command -v gtimeout &>/dev/null; then
+    TIMEOUT_CMD="gtimeout"
+elif command -v timeout &>/dev/null; then
+    TIMEOUT_CMD="timeout"
+else
+    echo "⚠️ No timeout command found (install coreutils: brew install coreutils)"
+    TIMEOUT_CMD=""
+fi
+
+run_with_timeout() {
+    local LIMIT="$1"
+    shift
+    if [ -n "$TIMEOUT_CMD" ]; then
+        $TIMEOUT_CMD "$LIMIT" "$@"
+    else
+        "$@"
+    fi
+}
+
+# ─────────────────────────────────────────────────────────
 # STEP 1: Update Current Affairs
 # ─────────────────────────────────────────────────────────
 echo "[1/8] Updating Current Affairs page..."
-npx tsx scripts/update-current-affairs.ts
+run_with_timeout 180 npx tsx scripts/update-current-affairs.ts
 CA_EXIT=$?
-if [ $CA_EXIT -ne 0 ]; then
+if [ $CA_EXIT -eq 124 ]; then
+    echo "⚠️ Current affairs update timed out (3min limit) — continuing."
+    echo "Current affairs update timed out at $(date)" >> automation_error.log
+elif [ $CA_EXIT -ne 0 ]; then
     echo "⚠️ Current affairs update failed — continuing with ePaper generation."
     echo "Current affairs update failed at $(date)" >> automation_error.log
 fi
@@ -165,7 +192,7 @@ sleep 30
 # STEP 2: Generate ePaper
 # ─────────────────────────────────────────────────────────
 echo "[2/8] Scraping news and generating Master Lead & Articles..."
-npx tsx scripts/generate_custom_epaper.ts
+run_with_timeout 1200 npx tsx scripts/generate_custom_epaper.ts
 GEN_EXIT=$?
 
 if [ $GEN_EXIT -ne 0 ]; then
@@ -178,9 +205,12 @@ fi
 # STEP 3: Quick Bytes
 # ─────────────────────────────────────────────────────────
 echo "[3/8] Regenerating Quick Bytes with diversity-enforced prompt..."
-npx tsx scripts/regenerate-quickbytes.ts
+run_with_timeout 300 npx tsx scripts/regenerate-quickbytes.ts
 QB_EXIT=$?
-if [ $QB_EXIT -ne 0 ]; then
+if [ $QB_EXIT -eq 124 ]; then
+    echo "⚠️ Quick Bytes timed out (5min limit) — ePaper will use fallback Quick Bytes."
+    echo "Quick Bytes timed out at $(date)" >> automation_error.log
+elif [ $QB_EXIT -ne 0 ]; then
     echo "⚠️ Quick Bytes regeneration failed — ePaper will use fallback/empty Quick Bytes."
     echo "Quick Bytes regen failed at $(date)" >> automation_error.log
 fi
@@ -189,9 +219,12 @@ fi
 # STEP 4: Front page extras
 # ─────────────────────────────────────────────────────────
 echo "[4/8] Generating front page extras (Quote, On This Day, Data Snapshot)..."
-npx tsx scripts/generate-front-page-extras.ts
+run_with_timeout 300 npx tsx scripts/generate-front-page-extras.ts
 FPE_EXIT=$?
-if [ $FPE_EXIT -ne 0 ]; then
+if [ $FPE_EXIT -eq 124 ]; then
+    echo "⚠️ Front page extras timed out (5min limit) — ePaper will have empty extras."
+    echo "Front page extras timed out at $(date)" >> automation_error.log
+elif [ $FPE_EXIT -ne 0 ]; then
     echo "⚠️ Front page extras generation failed — ePaper will have empty extras."
     echo "Front page extras failed at $(date)" >> automation_error.log
 fi

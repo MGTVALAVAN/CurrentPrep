@@ -1,15 +1,18 @@
 'use client';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useTheme } from '@/contexts/ThemeProvider';
 import { useLanguage } from '@/contexts/LanguageProvider';
-import { Menu, X, Sun, Moon, BookOpen, Globe } from 'lucide-react';
+import { Menu, X, Sun, Moon, BookOpen, Globe, Shield } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const [mounted, setMounted] = useState(false);
     const { theme, toggleTheme } = useTheme();
     const { language, toggleLanguage, t } = useLanguage();
+
+    useEffect(() => { setMounted(true); }, []);
 
     const links: { href: string; label: string }[] = [
         { href: '/current-affairs', label: 'Current Affairs' },
@@ -21,7 +24,8 @@ export default function Navbar() {
 
     return (
         <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl border-b"
-            style={{ background: 'var(--glass-bg)', borderColor: 'var(--border-color)' }}>
+            style={{ background: 'var(--glass-bg)', borderColor: 'var(--border-color)' }}
+            suppressHydrationWarning>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex items-center justify-between h-16">
                     {/* Logo */}
@@ -56,28 +60,40 @@ export default function Navbar() {
 
                     {/* Actions */}
                     <div className="flex items-center gap-2">
-                        <button onClick={toggleLanguage}
-                            className="p-2 rounded-lg transition-all duration-200 hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
-                            title={language === 'en' ? 'Switch to Tamil' : 'Switch to English'}
-                            style={{ color: 'var(--text-secondary)' }}>
-                            <Globe className="w-5 h-5" />
-                            <span className="sr-only">{t('language_toggle')}</span>
-                        </button>
+                        {mounted && (
+                            <>
+                                <button onClick={toggleLanguage}
+                                    className="p-2 rounded-lg transition-all duration-200 hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
+                                    title={language === 'en' ? 'Switch to Tamil' : 'Switch to English'}
+                                    style={{ color: 'var(--text-secondary)' }}>
+                                    <Globe className="w-5 h-5" />
+                                    <span className="sr-only">{t('language_toggle')}</span>
+                                </button>
 
-                        <button onClick={toggleTheme}
-                            className="p-2 rounded-lg transition-all duration-200 hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
-                            title={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
-                            style={{ color: 'var(--text-secondary)' }}>
-                            {theme === 'light' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
-                        </button>
+                                <Link href="/admin/login"
+                                    className="hidden sm:inline-flex items-center gap-1.5 p-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
+                                    title="Admin Console"
+                                    style={{ color: 'var(--text-secondary)' }}>
+                                    <Shield className="w-5 h-5" />
+                                    <span style={{ fontSize: '13px' }}>Admin</span>
+                                </Link>
 
-                        <Link href="/dashboard" className="hidden sm:inline-flex items-center gap-1.5 btn-outline text-sm !px-3 !py-2 mr-1"
-                            style={{ fontSize: '13px' }}>
-                            Dashboard
-                        </Link>
-                        <Link href="/login" className="hidden sm:inline-flex btn-accent text-sm !px-4 !py-2">
-                            {t('nav_signup')}
-                        </Link>
+                                <button onClick={toggleTheme}
+                                    className="p-2 rounded-lg transition-all duration-200 hover:bg-primary-800/10 dark:hover:bg-primary-400/10"
+                                    title={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
+                                    style={{ color: 'var(--text-secondary)' }}>
+                                    {theme === 'light' ? <Moon className="w-5 h-5" /> : <Sun className="w-5 h-5" />}
+                                </button>
+
+                                <Link href="/dashboard" className="hidden sm:inline-flex items-center gap-1.5 btn-outline text-sm !px-3 !py-2 mr-1"
+                                    style={{ fontSize: '13px' }}>
+                                    Dashboard
+                                </Link>
+                                <Link href="/login" className="hidden sm:inline-flex btn-accent text-sm !px-4 !py-2">
+                                    {t('nav_signup')}
+                                </Link>
+                            </>
+                        )}
 
                         {/* Mobile Menu Toggle */}
                         <button onClick={() => setIsOpen(!isOpen)} className="md:hidden p-2 rounded-lg"

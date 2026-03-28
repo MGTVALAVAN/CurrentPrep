@@ -6,8 +6,8 @@ import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import {
     Users, Shield, Search, Loader2, ChevronLeft,
-    ChevronRight, BarChart3, FileText, Inbox,
-    UserCheck, Crown,
+    ChevronRight, BarChart3, FileText, Inbox, CreditCard,
+    UserCheck, Crown, Gift, CheckCircle2, XCircle, Send,
 } from 'lucide-react';
 import '../admin.css';
 
@@ -32,9 +32,17 @@ export default function AdminUsersPage() {
     const [roleFilter, setRoleFilter] = useState<string>('all');
     const limit = 20;
 
+    // Grant Access form state
+    const [showGrantForm, setShowGrantForm] = useState(false);
+    const [grantEmail, setGrantEmail] = useState('');
+    const [grantMonths, setGrantMonths] = useState(12);
+    const [grantReason, setGrantReason] = useState('');
+    const [grantLoading, setGrantLoading] = useState(false);
+    const [grantResult, setGrantResult] = useState<{ success: boolean; message: string } | null>(null);
+
     useEffect(() => {
         if (status === 'unauthenticated') {
-            router.replace('/login?callbackUrl=/admin/users');
+            router.replace('/admin/login');
         }
         if (status === 'authenticated' && (session?.user as any)?.role !== 'admin') {
             router.replace('/dashboard');
@@ -102,6 +110,50 @@ export default function AdminUsersPage() {
         }
     }
 
+    async function handleGrantAccess(e: React.FormEvent) {
+        e.preventDefault();
+        if (!grantEmail.trim()) return;
+
+        setGrantLoading(true);
+        setGrantResult(null);
+
+        try {
+            const res = await fetch('/api/admin/grant-access', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    email: grantEmail.trim(),
+                    months: grantMonths,
+                    reason: grantReason.trim() || 'Admin grant',
+                }),
+            });
+
+            const data = await res.json();
+
+            if (res.ok) {
+                setGrantResult({
+                    success: true,
+                    message: `✅ Granted ${grantMonths} month${grantMonths > 1 ? 's' : ''} Pro access to ${grantEmail}. Expires: ${new Date(data.expiresAt).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}`,
+                });
+                setGrantEmail('');
+                setGrantReason('');
+                fetchUsers(); // Refresh user list
+            } else {
+                setGrantResult({
+                    success: false,
+                    message: data.error || 'Failed to grant access',
+                });
+            }
+        } catch (err) {
+            setGrantResult({
+                success: false,
+                message: 'Network error. Please try again.',
+            });
+        } finally {
+            setGrantLoading(false);
+        }
+    }
+
     if (status === 'loading') {
         return (
             <div className="admin-loading">
@@ -126,6 +178,9 @@ export default function AdminUsersPage() {
                     <Link href="/admin/users" className="admin-nav-item active">
                         <Users size={16} /><span>Users</span>
                     </Link>
+                    <Link href="/admin/payments" className="admin-nav-item">
+                        <CreditCard size={16} /><span>Payments</span>
+                    </Link>
                     <Link href="/admin/content" className="admin-nav-item">
                         <FileText size={16} /><span>Content</span>
                     </Link>
@@ -145,7 +200,84 @@ export default function AdminUsersPage() {
                         <h1>User Management</h1>
                         <p>{total} total users</p>
                     </div>
+                    <button
+                        className="admin-grant-toggle"
+                        onClick={() => setShowGrantForm(!showGrantForm)}
+                    >
+                        <Gift size={14} />
+                        {showGrantForm ? 'Hide Grant Form' : 'Grant Pro Access'}
+                    </button>
                 </header>
+
+                {/* ── Grant Access Form ──────────────── */}
+                {showGrantForm && (
+                    <section className="admin-grant-section">
+                        <h2><Gift size={18} /> Grant Complementary Pro Access</h2>
+                        <p style={{ fontSize: 13, color: 'var(--admin-ink-3)', margin: '4px 0 16px' }}>
+                            Grant free Pro access to any registered user. This creates a ₹0 payment record for audit.
+                        </p>
+                        <form onSubmit={handleGrantAccess} className="admin-grant-form">
+                            <div className="admin-grant-fields">
+                                <div className="admin-grant-field">
+                                    <label htmlFor="grant-email">User Email *</label>
+                                    <input
+                                        id="grant-email"
+                                        type="email"
+                                        placeholder="user@example.com"
+                                        value={grantEmail}
+                                        onChange={e => setGrantEmail(e.target.value)}
+                                        required
+                                        className="admin-search"
+                                    />
+                                </div>
+                                <div className="admin-grant-field">
+                                    <label htmlFor="grant-months">Duration</label>
+                                    <select
+                                        id="grant-months"
+                                        value={grantMonths}
+                                        onChange={e => setGrantMonths(parseInt(e.target.value))}
+                                        className="admin-select"
+                                    >
+                                        <option value={1}>1 month</option>
+                                        <option value={3}>3 months</option>
+                                        <option value={6}>6 months</option>
+                                        <option value={12}>12 months (1 year)</option>
+                                        <option value={24}>24 months (2 years)</option>
+                                    </select>
+                                </div>
+                                <div className="admin-grant-field">
+                                    <label htmlFor="grant-reason">Reason (optional)</label>
+                                    <input
+                                        id="grant-reason"
+                                        type="text"
+                                        placeholder="e.g., Influencer partnership, contest winner"
+                                        value={grantReason}
+                                        onChange={e => setGrantReason(e.target.value)}
+                                        className="admin-search"
+                                    />
+                                </div>
+                            </div>
+                            <button
+                                type="submit"
+                                className="admin-grant-btn"
+                                disabled={grantLoading || !grantEmail.trim()}
+                            >
+                                {grantLoading ? (
+                                    <><Loader2 className="animate-spin" size={14} /> Granting…</>
+                                ) : (
+                                    <><Send size={14} /> Grant Access</>
+                                )}
+                            </button>
+                        </form>
+
+                        {grantResult && (
+                            <div className={`admin-grant-result ${grantResult.success ? 'success' : 'error'}`}>
+                                {grantResult.success ? <CheckCircle2 size={16} /> : <XCircle size={16} />}
+                                <span>{grantResult.message}</span>
+                            </div>
+                        )}
+                    </section>
+                )}
 
                 {/* ── Toolbar ──────────────────────────── */}
                 <div className="admin-toolbar">
@@ -233,6 +365,19 @@ export default function AdminUsersPage() {
                                                 >
                                                     <Crown size={12} />
                                                 </button>
+                                                {!user.is_premium && (
+                                                    <button
+                                                        className="admin-filter-btn"
+                                                        onClick={() => {
+                                                            setGrantEmail(user.email);
+                                                            setShowGrantForm(true);
+                                                            window.scrollTo({ top: 0, behavior: 'smooth' });
+                                                        }}
+                                                        title="Grant Pro access with audit trail"
+                                                    >
+                                                        <Gift size={12} />
+                                                    </button>
+                                                )}
                                             </div>
                                         </td>
                                     </tr>

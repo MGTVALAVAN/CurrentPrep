@@ -271,6 +271,33 @@ function sleep(ms: number): Promise<void> {
     return new Promise((resolve) => setTimeout(resolve, ms + jitter));
 }
 
+/**
+ * Fetch with a hard timeout (AbortController-based).
+ * Prevents the pipeline from hanging forever if Gemini API stalls.
+ */
+async function fetchWithTimeout(
+    url: string,
+    options: RequestInit,
+    timeoutMs: number = 90000
+): Promise<Response> {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
+    try {
+        const response = await fetch(url, {
+            ...options,
+            signal: controller.signal,
+        });
+        return response;
+    } catch (err: any) {
+        if (err.name === 'AbortError') {
+            throw new Error(`Gemini API call timed out after ${timeoutMs / 1000}s`);
+        }
+        throw err;
+    } finally {
+        clearTimeout(timer);
+    }
+}
+
 async function callGeminiForEpaper(
     articles: RawEpaperArticle[],
     apiKey: string
@@ -318,13 +345,14 @@ Return ONLY a valid JSON array. Each element must have: headline, explainer, cat
                     `[epaper-gen] Calling ${model} (attempt ${attempt}/${MAX_RETRIES})…`
                 );
 
-                const response = await fetch(
+                const response = await fetchWithTimeout(
                     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
                     {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(requestBody),
-                    }
+                    },
+                    90_000 // 90s timeout for article batches
                 );
 
                 if (response.status === 429) {
@@ -763,13 +791,14 @@ Return ONLY valid JSON matching this structure:
             try {
                 console.log(`[epaper-gen] Generating Mocks with ${model} (attempt ${attempt}/${MAX_RETRIES})...`);
 
-                const response = await fetch(
+                const response = await fetchWithTimeout(
                     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
                     {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(requestBody),
-                    }
+                    },
+                    120_000 // 120s timeout for mocks generation
                 );
 
                 if (response.status === 429) {
@@ -1014,13 +1043,14 @@ IMPORTANT:
             try {
                 console.log(`[epaper-gen] Generating CSAT with ${model} (attempt ${attempt}/${MAX_RETRIES})...`);
 
-                const response = await fetch(
+                const response = await fetchWithTimeout(
                     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
                     {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify(requestBody),
-                    }
+                    },
+                    120_000 // 120s timeout for CSAT generation
                 );
 
                 if (response.status === 429) {
@@ -1130,9 +1160,10 @@ async function generateQuickBytes(
         for (let attempt = 1; attempt <= 2; attempt++) {
             try {
                 console.log(`[epaper-gen] Generating Quick Bytes with ${model} (attempt ${attempt})...`);
-                const response = await fetch(
+                const response = await fetchWithTimeout(
                     `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`,
-                    { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(requestBody) }
+                    { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(requestBody) },
+                    60_000 // 60s timeout for Quick Bytes
                 );
                 if (!response.ok) {
                     if (response.status === 429) { await sleep(5000); continue; }

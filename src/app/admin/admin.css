@@ -533,6 +533,222 @@
     gap: 8px;
 }
 
+/* ── Payment Status Badges ────────────────────────────────────────────── */
+
+.admin-payment-status {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.admin-payment-status.paid {
+    background: rgba(16, 185, 129, 0.15);
+    color: #6ee7b7;
+}
+
+.admin-payment-status.created {
+    background: rgba(245, 158, 11, 0.15);
+    color: #fcd34d;
+}
+
+.admin-payment-status.failed {
+    background: rgba(239, 68, 68, 0.15);
+    color: #fca5a5;
+}
+
+.admin-payment-status.refunded {
+    background: rgba(99, 102, 241, 0.15);
+    color: #a5b4fc;
+}
+
+/* ── Plan Chips (Revenue by Plan) ────────────────────────────────────── */
+
+.admin-revenue-plans,
+.admin-recent-txn {
+    margin-top: 12px;
+}
+
+.admin-plan-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.admin-plan-chip {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: var(--admin-surface);
+    border: 1px solid var(--admin-border);
+    border-radius: var(--admin-radius);
+    padding: 14px 18px;
+    min-width: 140px;
+    transition: transform 0.15s;
+}
+
+.admin-plan-chip:hover {
+    transform: translateY(-2px);
+}
+
+.admin-plan-name {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--admin-ink-2);
+}
+
+.admin-plan-revenue {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: var(--admin-ink);
+}
+
+.admin-plan-count {
+    font-size: 11px;
+    color: var(--admin-ink-3);
+}
+
+/* ── Grant Access Toggle Button ──────────────────────────────────────── */
+
+.admin-grant-toggle {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 18px;
+    border-radius: 8px;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    background: rgba(16, 185, 129, 0.1);
+    color: #6ee7b7;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: var(--admin-font);
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.admin-grant-toggle:hover {
+    background: rgba(16, 185, 129, 0.2);
+    border-color: rgba(16, 185, 129, 0.5);
+}
+
+/* ── Grant Access Section ────────────────────────────────────────────── */
+
+.admin-grant-section {
+    background: var(--admin-surface);
+    border: 1px solid rgba(16, 185, 129, 0.2);
+    border-radius: var(--admin-radius);
+    padding: 20px 24px;
+    margin-bottom: 20px;
+    animation: admin-slide-down 0.2s ease-out;
+}
+
+@keyframes admin-slide-down {
+    from { opacity: 0; transform: translateY(-8px); }
+    to   { opacity: 1; transform: translateY(0); }
+}
+
+.admin-grant-section h2 {
+    margin-bottom: 0 !important;
+}
+
+.admin-grant-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.admin-grant-fields {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 14px;
+}
+
+.admin-grant-field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.admin-grant-field label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--admin-ink-3);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.admin-select {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid var(--admin-border);
+    background: var(--admin-bg);
+    color: var(--admin-ink);
+    font-size: 13px;
+    font-family: var(--admin-font);
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.15s;
+    appearance: auto;
+}
+
+.admin-select:focus {
+    border-color: var(--admin-accent);
+}
+
+.admin-grant-btn {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 24px;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(135deg, #059669, #10b981);
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: var(--admin-font);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.admin-grant-btn:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 16px rgba(16, 185, 129, 0.3);
+}
+
+.admin-grant-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.admin-grant-result {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.admin-grant-result.success {
+    background: rgba(16, 185, 129, 0.1);
+    border: 1px solid rgba(16, 185, 129, 0.25);
+    color: #6ee7b7;
+}
+
+.admin-grant-result.error {
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.25);
+    color: #fca5a5;
+}
+
 /* ── Responsive ───────────────────────────────────────────────────────── */
 
 @media (max-width: 768px) {
@@ -545,5 +761,11 @@
     }
     .admin-stats-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .admin-grant-fields {
+        grid-template-columns: 1fr;
+    }
+    .admin-plan-chips {
+        flex-direction: column;
     }
 }

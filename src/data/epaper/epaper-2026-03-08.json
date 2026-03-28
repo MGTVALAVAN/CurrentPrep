@@ -1420,5 +1420,89 @@
         "explanation": "As Chief Secretary, your primary role is to uphold established administrative protocols. The protocol officer's advice aligns with this. While the CM's preference is noted, adhering to established procedure (senior-most minister/Deputy CM) is the most appropriate and least controversial path, demonstrating respect for the President's office and avoiding setting a precedent based on personal choice over protocol. Options A and C deviate from established protocol and could lead to controversy. Option D is an extreme measure and might not be feasible or appropriate, as a local representative is usually expected."
       }
     ]
-  }
+  },
+  "prelimsMocks": [
+    {
+      "question": "Consider the following statements regarding the role of women farmers in India:\n1. The feminization of agriculture in India implies an increasing proportion of women engaged in agricultural activities.\n2. Empowering women farmers can contribute to climate-resilient agriculture by promoting biodiversity-rich farming practices.\n3. Women's participation in agriculture is primarily limited to post-harvest activities and marketing.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 2 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 2 only",
+      "explanation": "Statement 1 is correct: The feminization of agriculture refers to the growing involvement of women in various agricultural activities, often due to male migration to urban areas. Statement 2 is correct: Women farmers often possess traditional knowledge of local crops and biodiversity, which is crucial for developing climate-resilient farming systems. Statement 3 is incorrect: Women are involved across the entire agricultural value chain, from sowing, weeding, and harvesting to post-harvest processing and marketing, often performing the most arduous tasks."
+    },
+    {
+      "question": "With reference to the election of members to the Rajya Sabha, India's upper house of Parliament, consider the following statements:\n1. Members of the Rajya Sabha are directly elected by the people through universal adult franchise.\n2. The election process utilizes the system of proportional representation by means of the single transferable vote.\n3. Only elected members of the State Legislative Assemblies participate in the election of Rajya Sabha members.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 and 2 only",
+        "(b) 2 and 3 only",
+        "(c) 3 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(b) 2 and 3 only",
+      "explanation": "Statement 1 is incorrect: Members of the Rajya Sabha are indirectly elected by the elected members of the State Legislative Assemblies, not directly by the people. Statement 2 is correct: The election is held according to the system of proportional representation by means of the single transferable vote. Statement 3 is correct: The electoral college for the Rajya Sabha consists of the elected members of the State Legislative Assemblies."
+    },
+    {
+      "question": "Regarding the 73rd Constitutional Amendment Act of 1992 and women's empowerment in Panchayati Raj Institutions (PRIs), which of the following statements is correct?",
+      "options": [
+        "(a) The 73rd Amendment mandates a minimum of 50% reservation for women in PRIs across all states.",
+        "(b) The Act introduced reservations for women only at the Gram Panchayat level.",
+        "(c) The 73rd Amendment mandates at least 33% reservation for women in PRIs, including for the offices of Chairpersons.",
+        "(d) Women's reservation under the 73rd Amendment is only applicable to Scheduled Caste and Scheduled Tribe women."
+      ],
+      "answer": "(c) The 73rd Amendment mandates at least 33% reservation for women in PRIs, including for the offices of Chairpersons.",
+      "explanation": "Option (c) is correct: The 73rd Constitutional Amendment Act mandates a reservation of not less than one-third of the total number of seats for women in PRIs at all three levels (village, intermediate, and district), and also reserves not less than one-third of the offices of chairpersons for women. Option (a) is incorrect as the minimum mandated reservation is 33%, though some states have voluntarily increased it to 50%. Option (b) is incorrect as it applies to all three tiers of PRIs. Option (d) is incorrect as the reservation applies to women in general, with a proportionate share for Scheduled Caste and Scheduled Tribe women within that overall reservation."
+    },
+    {
+      "question": "With reference to the Rashtriya Uchchatar Shiksha Abhiyan (RUSA) scheme, consider the following statements:\n1. RUSA is a centrally sponsored scheme aimed at providing strategic funding to eligible state higher educational institutions.\n2. The scheme seeks to improve access, equity, and quality in state higher education.\n3. Funding under RUSA is provided directly by the Union government to individual students for scholarships.\nWhich of the statements given above is/are correct?",
+      "options": [
+        "(a) 1 only",
+        "(b) 2 and 3 only",
+        "(c) 1 and 2 only",
+        "(d) 1, 2 and 3"
+      ],
+      "answer": "(c) 1 and 2 only",
+      "explanation": "Statement 1 is correct: RUSA is indeed a centrally sponsored scheme launched in 2013, focused on improving higher education in states. Statement 2 is correct: Its primary objectives include enhancing access, equity, and quality in state higher educational institutions. Statement 3 is incorrect: RUSA provides funding to state governments and institutions for various initiatives like infrastructure grants, faculty recruitment, and research, but it does not directly provide scholarships to individual students."
+    },
+    {
+      "question": "In the context of bonded labour in India, which of the following statements is correct?",
+      "options": [
+        "(a) The Bonded Labour System (Abolition) Act, 1976, defines bonded labour as a system of forced labour where a debtor pledges his or her labour or services for a debt.",
+        "(b) Rehabilitation of bonded labourers is primarily the responsibility of non-governmental organizations, with minimal government involvement.",
+        "(c) Children cannot be subjected to bonded labour as per Indian law, and therefore, no cases of child bonded labour are reported.",
+        "(d) The National Human Rights Commission is the sole authority empowered to identify and rescue bonded labourers."
+      ],
+      "answer": "(a) The Bonded Labour System (Abolition) Act, 1976, defines bonded labour as a system of forced labour where a debtor pledges his or her labour or services for a debt.",
+      "explanation": "Option (a) is correct: The Bonded Labour System (Abolition) Act, 1976, legally defines and prohibits bonded labour, identifying it as a system where a person or their dependents are forced to render services in consideration of a debt. Option (b) is incorrect: While NGOs play a vital role, district administration and state governments have the primary responsibility for identification, rescue, and rehabilitation of bonded labourers. Option (c) is incorrect: While Indian law strictly prohibits child bonded labour, cases are unfortunately reported and children are rescued, as highlighted in the provided articles. Option (d) is incorrect: The identification and rescue of bonded labourers are joint efforts involving district magistrates, police, labour departments, and sometimes NGOs, not solely the NHRC."
+    }
+  ],
+  "mainsMocks": [
+    {
+      "question": "\"Empowering women farmers is not merely a social justice issue but a strategic imperative for achieving climate-resilient and sustainable agriculture.\" Discuss this statement, highlighting the multi-faceted contributions of women in agriculture and the policy measures required to strengthen their role.",
+      "syllabusMatch": "GS1: Role of women and women’s organization, poverty and developmental issues. GS3: Major crops cropping patterns, issues related to direct and indirect farm subsidies, food security.",
+      "approach": "Introduce the increasing feminization of agriculture and the central role of women in the sector. Discuss their contributions to food security, biodiversity conservation, traditional knowledge, and climate adaptation. Analyze the barriers they face, such as lack of land rights, access to credit, technology, and markets. Suggest concrete policy measures including secure land tenure, financial inclusion, skill development, market linkages, and inclusion in decision-making processes. Conclude by emphasizing the holistic benefits of empowering women farmers for sustainable development."
+    },
+    {
+      "question": "Critically analyze the constitutional implications of anti-conversion laws in India, particularly in the context of freedom of religion and personal liberty. Do these laws strike a balance between state interest and individual rights?",
+      "syllabusMatch": "GS2: Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure. Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, Fundamental Rights.",
+      "approach": "Begin by outlining the context and common provisions of anti-conversion laws in various states. Discuss their constitutional validity concerning Article 25 (freedom of conscience and free profession, practice, and propagation of religion) and Article 21 (right to life and personal liberty), and Article 14 (equality before law). Examine the debate around 'force, fraud, or undue influence' and the burden of proof. Conclude by assessing whether these laws disproportionately affect certain communities or impinge on individual autonomy, and suggest ways for a balanced approach that protects both individual rights and public order."
+    },
+    {
+      "question": "Evaluate the impact of the 73rd Constitutional Amendment Act of 1992 on women's political empowerment at the grassroots level. What challenges persist despite mandated reservations, and how can these be addressed to ensure true empowerment?",
+      "syllabusMatch": "GS2: Indian Constitution—historical underpinnings, evolution, features, amendments, significant provisions and basic structure. Functions and responsibilities of the Union and the States, issues and challenges pertaining to the federal structure, devolution of powers and finances up to local levels and challenges therein. Welfare schemes for vulnerable sections of the population.",
+      "approach": "Introduce the 73rd Amendment and its provision for women's reservation in Panchayati Raj Institutions (PRIs). Discuss the positive impacts, such as increased representation, greater visibility, and participation in local governance, leading to women-centric development initiatives. Subsequently, analyze the challenges that persist, including proxy representation, lack of training and capacity building, patriarchal attitudes, limited financial autonomy, and social barriers. Suggest measures like enhanced capacity building, financial literacy, awareness campaigns, stronger support networks, and further electoral reforms to foster genuine empowerment and ensure women can effectively exercise their roles."
+    },
+    {
+      "question": "The debate around regulating social media access for minors involves complex ethical and policy challenges. Examine the concerns related to child welfare and digital rights in this context, and discuss the various policy approaches available to strike a balance.",
+      "syllabusMatch": "GS1: Social empowerment, impact of globalization on Indian society. GS2: Government policies and interventions for development in various sectors. GS4: Ethics and Human Interface: Essence, determinants and consequences of Ethics in human actions; dimensions of ethics; ethics in private and public relationships.",
+      "approach": "Introduce the rising concerns over minors' social media use (mental health, cyberbullying, exposure to inappropriate content) and the counter-argument for digital rights and access to information for children. Discuss the ethical dilemma of parental control versus child autonomy. Analyze various policy options, such as age verification, parental consent, time limits, content filtering, digital literacy programs, and outright bans, evaluating their potential benefits and drawbacks. Conclude by emphasizing a multi-stakeholder approach involving parents, educators, tech companies, and government to create a safe yet enabling digital environment that protects child welfare while respecting digital rights."
+    },
+    {
+      "question": "Despite legal prohibitions, bonded labour continues to persist in various forms across India. Analyze the socio-economic factors contributing to its prevalence and critically evaluate the effectiveness of existing legislative and rehabilitation measures. Suggest comprehensive strategies for its complete eradication and sustainable rehabilitation of victims.",
+      "syllabusMatch": "GS1: Social empowerment, poverty and developmental issues. GS2: Welfare schemes for vulnerable sections of the population by the Centre and States and the performance of these schemes; mechanisms, laws, institutions and Bodies constituted for the protection and betterment of these vulnerable sections.",
+      "approach": "Define bonded labour and acknowledge its continued existence despite the Bonded Labour System (Abolition) Act, 1976. Analyze socio-economic factors like chronic poverty, illiteracy, caste discrimination, lack of land ownership, migration, and the nexus between employers and local authorities. Critically evaluate the effectiveness of existing legislative frameworks, rehabilitation schemes (e.g., Central Sector Scheme for Rehabilitation of Bonded Labourers), and the role of district administration, highlighting their limitations. Suggest comprehensive strategies including proactive identification, stringent enforcement, enhanced rehabilitation packages (land, skill development, education), convergence of welfare schemes, community awareness, and strengthening of the criminal justice system to ensure sustainable freedom and dignity for victims."
+    }
+  ]
 }
